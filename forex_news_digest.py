@@ -56,7 +56,7 @@ NEWS_HOURS_BACK     = 24
 MAX_PER_SOURCE      = 15   # jumlah item per sumber (dinaikkan)
 MIN_NEWS_SENTIMEN   = 30   # target minimum berita sentimen
 MIN_NEWS_GEOPOLITIK = 30   # target minimum berita geopolitik
-JSON_DIR            = os.getenv("JSON_DIR", r"C:\PROJECT-FINANCE\files forex")
+JSON_DIR            = os.getenv("JSON_DIR", r"C:\PROJECT-FINANCE\files-forex")
 
 _LOG_FILE = os.path.join(_SCRIPT_DIR, "forex_digest.log")
 logging.basicConfig(

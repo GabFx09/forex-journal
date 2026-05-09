@@ -35,13 +35,13 @@ jobs:
         run: pip install -r requirements.txt
 
       # 4. Jalankan script utama
-      #    JSON_DIR → folder "files forex" di dalam repo
+      #    JSON_DIR → folder "files-forex" di dalam repo
       - name: Jalankan forex_news_digest.py
         env:
           GMAIL_USER:         ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           SEND_TO:            ${{ secrets.SEND_TO }}
-          JSON_DIR:           "${{ github.workspace }}/files forex"
+          JSON_DIR:           "${{ github.workspace }}/files-forex"
         run: python forex_news_digest.py
 
       # 5. Commit & push file JSON yang baru di-generate
@@ -50,10 +50,10 @@ jobs:
           git config user.name  "GitHub Actions Bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add \
-            "files forex/kalender.json" \
-            "files forex/sentimen.json" \
-            "files forex/geopolitik.json" \
-            "files forex/news_data.js"
+            "files-forex/kalender.json" \
+            "files-forex/sentimen.json" \
+            "files-forex/geopolitik.json" \
+            "files-forex/news_data.js"
           # Hanya commit jika ada perubahan
           if git diff --staged --quiet; then
             echo "Tidak ada perubahan data, skip commit."
@@ -74,7 +74,7 @@ jobs:
           fi
           npm install -g netlify-cli --silent
           netlify deploy \
-            --dir="files forex" \
+            --dir="files-forex" \
             --prod \
             --auth="$NETLIFY_AUTH_TOKEN" \
             --site="$NETLIFY_SITE_ID" \
