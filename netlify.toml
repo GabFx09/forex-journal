@@ -1,7 +1,2 @@
 [build]
-  publish = "files-forex"
-
-[[redirects]]
-  from = "/*"
-  to = "/ForexJournal_GoogleSheets.html"
-  status = 200
+publish = "files-forex"
