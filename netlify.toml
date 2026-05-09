@@ -2,6 +2,6 @@
   publish = "files-forex"
 
 [[redirects]]
-  from = "/"
-  to   = "/ForexJournal_GoogleSheets.html"
+  from = "/*"
+  to = "/ForexJournal_GoogleSheets.html"
   status = 200
