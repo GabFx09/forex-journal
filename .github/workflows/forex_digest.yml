@@ -1,0 +1,82 @@
+name: Forex News Digest Harian
+
+# ─── Jadwal & Trigger ─────────────────────────────────────────────
+on:
+  schedule:
+    # 00:00 UTC = 07:00 WIB (GMT+7)
+    - cron: '0 0 * * *'
+  workflow_dispatch:          # Bisa dijalankan manual dari GitHub UI
+
+# ─── Izin commit & push ───────────────────────────────────────────
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      # 1. Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Setup Python 3.11
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. Install dependensi
+      - name: Install dependensi Python
+        run: pip install -r requirements.txt
+
+      # 4. Jalankan script utama
+      #    JSON_DIR → folder "files forex" di dalam repo
+      - name: Jalankan forex_news_digest.py
+        env:
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SEND_TO:            ${{ secrets.SEND_TO }}
+          JSON_DIR:           "${{ github.workspace }}/files forex"
+        run: python forex_news_digest.py
+
+      # 5. Commit & push file JSON yang baru di-generate
+      - name: Commit dan push data JSON terbaru
+        run: |
+          git config user.name  "GitHub Actions Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add \
+            "files forex/kalender.json" \
+            "files forex/sentimen.json" \
+            "files forex/geopolitik.json" \
+            "files forex/news_data.js"
+          # Hanya commit jika ada perubahan
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan data, skip commit."
+          else
+            git commit -m "chore: update data forex $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
+            git push
+          fi
+
+      # 6. Deploy ke Netlify (opsional — hanya jika secrets diisi)
+      - name: Deploy ke Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID:    ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "NETLIFY_AUTH_TOKEN / NETLIFY_SITE_ID belum diset → skip deploy."
+            exit 0
+          fi
+          npm install -g netlify-cli --silent
+          netlify deploy \
+            --dir="files forex" \
+            --prod \
+            --auth="$NETLIFY_AUTH_TOKEN" \
+            --site="$NETLIFY_SITE_ID" \
+            --message="Auto-deploy forex data $(date +'%Y-%m-%d')"
+          echo "Deploy Netlify selesai."

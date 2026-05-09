@@ -1,0 +1,25 @@
+# ── Credentials & environment ─────────────────────────────────────
+.env
+*.env.local
+
+# ── Python cache ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Log file lokal ────────────────────────────────────────────────
+forex_digest.log
+
+# ── OS & editor ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ── File ZIP (tidak perlu di repo) ────────────────────────────────
+*.zip
