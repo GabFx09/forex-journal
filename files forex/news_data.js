@@ -1,8 +1,8 @@
-// Diperbarui: 09 May 2026 10:42 WIB
+// Diperbarui: 09 May 2026 12:42 WIB
 window.FK_DATA = {
-  "generated": "09 May 2026 10:42 WIB",
+  "generated": "09 May 2026 12:42 WIB",
   "kalender": {
-    "generated": "09 May 2026 10:42 WIB",
+    "generated": "09 May 2026 12:42 WIB",
     "events": [
       {
         "date": "2026-05-09",
@@ -29,7 +29,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "19:00",
+        "time_wib": "05:00",
         "currency": "AUD",
         "impact": "none",
         "event": "MI Inflation Gauge m/m",
@@ -40,7 +40,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "05:30",
         "currency": "AUD",
         "impact": "none",
         "event": "ANZ Job Advertisements m/m",
@@ -73,7 +73,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:15",
+        "time_wib": "11:15",
         "currency": "EUR",
         "impact": "none",
         "event": "Spanish Manufacturing PMI",
@@ -84,7 +84,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:30",
+        "time_wib": "11:30",
         "currency": "CHF",
         "impact": "none",
         "event": "Manufacturing PMI",
@@ -95,7 +95,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:45",
+        "time_wib": "11:45",
         "currency": "EUR",
         "impact": "none",
         "event": "Italian Manufacturing PMI",
@@ -106,7 +106,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:50",
+        "time_wib": "11:50",
         "currency": "EUR",
         "impact": "none",
         "event": "French Final Manufacturing PMI",
@@ -117,7 +117,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:55",
+        "time_wib": "11:55",
         "currency": "EUR",
         "impact": "none",
         "event": "German Final Manufacturing PMI",
@@ -128,7 +128,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "02:00",
+        "time_wib": "12:00",
         "currency": "EUR",
         "impact": "none",
         "event": "Final Manufacturing PMI",
@@ -139,7 +139,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "02:30",
+        "time_wib": "12:30",
         "currency": "EUR",
         "impact": "none",
         "event": "Sentix Investor Confidence",
@@ -161,7 +161,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "08:00",
+        "time_wib": "18:00",
         "currency": "USD",
         "impact": "none",
         "event": "Factory Orders m/m",
@@ -172,7 +172,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "10:50",
+        "time_wib": "20:50",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Williams Speaks",
@@ -183,7 +183,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "11:05",
+        "time_wib": "21:05",
         "currency": "EUR",
         "impact": "none",
         "event": "German Buba President Nagel Speaks",
@@ -194,7 +194,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "12:00",
+        "time_wib": "22:00",
         "currency": "USD",
         "impact": "none",
         "event": "Loan Officer Survey",
@@ -205,7 +205,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "13:30",
+        "time_wib": "23:30",
         "currency": "CAD",
         "impact": "none",
         "event": "BOC Gov Macklem Speaks",
@@ -238,7 +238,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "19:00",
+        "time_wib": "05:00",
         "currency": "NZD",
         "impact": "none",
         "event": "ANZ Commodity Prices m/m",
@@ -249,7 +249,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "05:30",
         "currency": "AUD",
         "impact": "none",
         "event": "Household Spending m/m",
@@ -260,7 +260,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "22:30",
+        "time_wib": "08:30",
         "currency": "AUD",
         "impact": "none",
         "event": "Cash Rate",
@@ -293,7 +293,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "23:30",
+        "time_wib": "09:30",
         "currency": "AUD",
         "impact": "none",
         "event": "RBA Press Conference",
@@ -304,7 +304,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "00:30",
+        "time_wib": "10:30",
         "currency": "CHF",
         "impact": "none",
         "event": "CPI m/m",
@@ -315,7 +315,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:00",
+        "time_wib": "11:00",
         "currency": "EUR",
         "impact": "none",
         "event": "Spanish Unemployment Change",
@@ -337,7 +337,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "06:30",
+        "time_wib": "16:30",
         "currency": "CAD",
         "impact": "none",
         "event": "Trade Balance",
@@ -370,7 +370,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "07:31",
+        "time_wib": "17:31",
         "currency": "EUR",
         "impact": "none",
         "event": "French Gov Budget Balance",
@@ -381,7 +381,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "07:45",
+        "time_wib": "17:45",
         "currency": "USD",
         "impact": "none",
         "event": "Final Services PMI",
@@ -403,7 +403,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "08:00",
+        "time_wib": "18:00",
         "currency": "USD",
         "impact": "none",
         "event": "ISM Services PMI",
@@ -447,7 +447,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "08:03",
+        "time_wib": "18:03",
         "currency": "USD",
         "impact": "none",
         "event": "RCM/TIPP Economic Optimism",
@@ -458,7 +458,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "09:37",
+        "time_wib": "19:37",
         "currency": "NZD",
         "impact": "none",
         "event": "GDT Price Index",
@@ -469,7 +469,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "10:30",
+        "time_wib": "20:30",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Barr Speaks",
@@ -480,7 +480,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "14:30",
+        "time_wib": "00:30",
         "currency": "USD",
         "impact": "none",
         "event": "API Weekly Statistical Bulletin",
@@ -491,7 +491,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "15:00",
+        "time_wib": "01:00",
         "currency": "NZD",
         "impact": "none",
         "event": "RBNZ Financial Stability Report",
@@ -502,7 +502,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "16:45",
+        "time_wib": "02:45",
         "currency": "NZD",
         "impact": "none",
         "event": "Employment Change q/q",
@@ -546,7 +546,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "19:00",
+        "time_wib": "05:00",
         "currency": "NZD",
         "impact": "none",
         "event": "RBNZ Gov Breman Speaks",
@@ -557,7 +557,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "19:45",
+        "time_wib": "05:45",
         "currency": "CNY",
         "impact": "none",
         "event": "RatingDog Services PMI",
@@ -568,7 +568,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "00:45",
+        "time_wib": "10:45",
         "currency": "EUR",
         "impact": "none",
         "event": "French Industrial Production m/m",
@@ -579,7 +579,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:15",
+        "time_wib": "11:15",
         "currency": "EUR",
         "impact": "none",
         "event": "Spanish Services PMI",
@@ -590,7 +590,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:45",
+        "time_wib": "11:45",
         "currency": "EUR",
         "impact": "none",
         "event": "Italian Services PMI",
@@ -601,7 +601,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:50",
+        "time_wib": "11:50",
         "currency": "EUR",
         "impact": "none",
         "event": "French Final Services PMI",
@@ -612,7 +612,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:55",
+        "time_wib": "11:55",
         "currency": "EUR",
         "impact": "none",
         "event": "German Final Services PMI",
@@ -623,7 +623,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "02:00",
+        "time_wib": "12:00",
         "currency": "EUR",
         "impact": "none",
         "event": "Final Services PMI",
@@ -645,7 +645,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "02:30",
+        "time_wib": "12:30",
         "currency": "GBP",
         "impact": "none",
         "event": "Final Services PMI",
@@ -656,7 +656,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "03:00",
+        "time_wib": "13:00",
         "currency": "EUR",
         "impact": "none",
         "event": "PPI m/m",
@@ -667,7 +667,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "06:15",
+        "time_wib": "16:15",
         "currency": "USD",
         "impact": "none",
         "event": "ADP Non-Farm Employment Change",
@@ -678,7 +678,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "07:30",
+        "time_wib": "17:30",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Musalem Speaks",
@@ -689,7 +689,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "08:00",
+        "time_wib": "18:00",
         "currency": "CAD",
         "impact": "none",
         "event": "Ivey PMI",
@@ -700,7 +700,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "08:30",
+        "time_wib": "18:30",
         "currency": "USD",
         "impact": "none",
         "event": "Crude Oil Inventories",
@@ -711,7 +711,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "11:00",
+        "time_wib": "21:00",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Goolsbee Speaks",
@@ -722,7 +722,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "14:15",
+        "time_wib": "00:15",
         "currency": "CAD",
         "impact": "none",
         "event": "BOC Gov Macklem Speaks",
@@ -733,7 +733,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "15:10",
+        "time_wib": "01:10",
         "currency": "NZD",
         "impact": "none",
         "event": "RBNZ Gov Breman Speaks",
@@ -744,7 +744,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "17:50",
+        "time_wib": "03:50",
         "currency": "JPY",
         "impact": "none",
         "event": "Monetary Base y/y",
@@ -766,7 +766,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "05:30",
         "currency": "AUD",
         "impact": "none",
         "event": "Goods Trade Balance",
@@ -777,7 +777,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "00:00",
+        "time_wib": "10:00",
         "currency": "EUR",
         "impact": "none",
         "event": "German Factory Orders m/m",
@@ -788,7 +788,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "00:45",
+        "time_wib": "10:45",
         "currency": "EUR",
         "impact": "none",
         "event": "French Trade Balance",
@@ -799,7 +799,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:00",
+        "time_wib": "11:00",
         "currency": "CHF",
         "impact": "none",
         "event": "Foreign Currency Reserves",
@@ -821,7 +821,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "02:00",
+        "time_wib": "12:00",
         "currency": "GBP",
         "impact": "none",
         "event": "MPC Member Lombardelli Speaks",
@@ -832,7 +832,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "02:30",
+        "time_wib": "12:30",
         "currency": "GBP",
         "impact": "none",
         "event": "Construction PMI",
@@ -843,7 +843,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "02:46",
+        "time_wib": "12:46",
         "currency": "EUR",
         "impact": "none",
         "event": "Spanish 10-y Bond Auction",
@@ -854,7 +854,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "02:57",
+        "time_wib": "12:57",
         "currency": "EUR",
         "impact": "none",
         "event": "French 10-y Bond Auction",
@@ -865,7 +865,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "03:00",
+        "time_wib": "13:00",
         "currency": "EUR",
         "impact": "none",
         "event": "Retail Sales m/m",
@@ -876,7 +876,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "03:30",
+        "time_wib": "13:30",
         "currency": "USD",
         "impact": "none",
         "event": "Challenger Job Cuts y/y",
@@ -887,7 +887,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "06:30",
+        "time_wib": "16:30",
         "currency": "USD",
         "impact": "none",
         "event": "Unemployment Claims",
@@ -920,7 +920,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "06:40",
+        "time_wib": "16:40",
         "currency": "GBP",
         "impact": "none",
         "event": "MPC Member Taylor Speaks",
@@ -942,7 +942,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "08:00",
+        "time_wib": "18:00",
         "currency": "USD",
         "impact": "none",
         "event": "Construction Spending m/m",
@@ -953,7 +953,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "08:30",
+        "time_wib": "18:30",
         "currency": "USD",
         "impact": "none",
         "event": "Natural Gas Storage",
@@ -964,7 +964,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "11:00",
+        "time_wib": "21:00",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Kashkari Speaks",
@@ -975,7 +975,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "12:05",
+        "time_wib": "22:05",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Hammack Speaks",
@@ -986,7 +986,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "13:00",
+        "time_wib": "23:00",
         "currency": "USD",
         "impact": "none",
         "event": "Consumer Credit m/m",
@@ -997,7 +997,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "13:30",
+        "time_wib": "23:30",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Williams Speaks",
@@ -1008,7 +1008,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "17:30",
+        "time_wib": "03:30",
         "currency": "JPY",
         "impact": "none",
         "event": "Average Cash Earnings y/y",
@@ -1019,7 +1019,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "00:00",
+        "time_wib": "10:00",
         "currency": "EUR",
         "impact": "none",
         "event": "German Industrial Production m/m",
@@ -1063,7 +1063,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "01:00",
+        "time_wib": "11:00",
         "currency": "CHF",
         "impact": "none",
         "event": "SECO Consumer Climate",
@@ -1085,7 +1085,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "03:45",
+        "time_wib": "13:45",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Cook Speaks",
@@ -1096,7 +1096,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "06:20",
+        "time_wib": "16:20",
         "currency": "GBP",
         "impact": "none",
         "event": "BOE Gov Bailey Speaks",
@@ -1107,7 +1107,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "06:30",
+        "time_wib": "16:30",
         "currency": "CAD",
         "impact": "none",
         "event": "Employment Change",
@@ -1162,7 +1162,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "08:00",
+        "time_wib": "18:00",
         "currency": "USD",
         "impact": "none",
         "event": "Prelim UoM Consumer Sentiment",
@@ -1195,7 +1195,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "09:05",
+        "time_wib": "19:05",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Goolsbee Speaks",
@@ -1206,7 +1206,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "10:00",
+        "time_wib": "20:00",
         "currency": "USD",
         "impact": "none",
         "event": "President Trump Speaks",
@@ -1217,7 +1217,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "10:15",
+        "time_wib": "20:15",
         "currency": "EUR",
         "impact": "none",
         "event": "German Buba President Nagel Speaks",
@@ -1228,7 +1228,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "12:20",
+        "time_wib": "22:20",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Goolsbee Speaks",
@@ -1239,7 +1239,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "14:00",
+        "time_wib": "00:00",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Financial Stability Report",
@@ -1250,7 +1250,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "17:30",
+        "time_wib": "03:30",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Bowman Speaks",
@@ -1294,7 +1294,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "20:42",
+        "time_wib": "06:42",
         "currency": "CNY",
         "impact": "none",
         "event": "USD-Denominated Trade Balance",
@@ -1305,48 +1305,54 @@ window.FK_DATA = {
       {
         "date": "2026-05-09",
         "day": "Sabtu",
-        "time_wib": "20:43",
+        "time_wib": "06:43",
         "currency": "CNY",
         "impact": "none",
         "event": "Trade Balance",
-        "actual": "585.7B",
+        "actual": "586B",
         "forecast": "575B",
         "previous": "355B"
       }
     ]
   },
   "sentimen": {
-    "generated": "09 May 2026 10:42 WIB",
+    "generated": "09 May 2026 12:42 WIB",
     "summary": {
-      "total": 83,
-      "bullish": 27,
-      "bearish": 49,
+      "total": 92,
+      "bullish": 35,
+      "bearish": 50,
       "netral": 7,
-      "avg_score": -0.1731,
+      "avg_score": -0.1058,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
-          "sentiment": "Bearish",
-          "score": -0.056,
-          "count": 12
+          "sentiment": "Netral",
+          "score": 0.032,
+          "count": 15
         },
         {
           "currency": "EUR",
+          "sentiment": "Bullish",
+          "score": 0.109,
+          "count": 9
+        },
+        {
+          "currency": "JPY",
           "sentiment": "Netral",
-          "score": 0.024,
-          "count": 10
+          "score": -0.038,
+          "count": 3
         },
         {
           "currency": "CAD",
           "sentiment": "Bearish",
-          "score": -0.093,
-          "count": 2
+          "score": -0.3,
+          "count": 3
         },
         {
-          "currency": "JPY",
-          "sentiment": "Bullish",
-          "score": 0.376,
+          "currency": "CNY",
+          "sentiment": "Bearish",
+          "score": -0.714,
           "count": 1
         }
       ]
@@ -1503,61 +1509,141 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "FXStreet",
-        "title": "Gold Price Forecast: XAU/USD holds gains above $4,700 amid US Dollar weakness - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYmhEMDZ3d0YtdmRIOEZBLXBXY2JPeHBJUV83U2xOdGlYTUowRzNRVjlUZDNYa2RMdUhFMTd6ejlUT251SDdrdEJJeWxrZGtyeHg5Q1NuejB5NUlwV2ZyaTg3czI5MTJQVVBqdlJfZjVQTTBCUEpyLTBrT0J1NS1aMk1seGQ0YU1OOEhFemRiSHFKelprUXlGU2JSRlg3c3l0UGRNTWJUc1hDNFJQZjFPTDdzT24wYnF2WVE?oc=5",
-        "summary": "Gold Price Forecast: XAU/USD holds gains above $4,700 amid US Dollar weakness FXStreet",
-        "published": "08 May 2026 17:03 WIB",
+        "source": "FXStreet News",
+        "title": "China: War risks reshape growth outlook – Rabobank",
+        "url": "https://www.fxstreet.com/news/china-war-risks-reshape-growth-outlook-rabobank-202605082221",
+        "summary": "Rabobank strategists assess how the US and Israel’s war against Iran could affect China. They note higher Oil and gas prices and global cost-push inflation, but argues China’s inflation is unlikely to force PBOC tightening.",
+        "published": "09 May 2026 05:21 WIB",
         "sentiment": "Bearish",
-        "score": -0.202,
+        "score": -0.714,
         "emoji": "🔴"
       },
       {
-        "source": "FXStreet",
-        "title": "EUR/USD Forecast: Holds above 1.1700; bulls seem hesitant ahead of NFP - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOY3FMcHJ0UUNqSWhuckg2VHpDY1I4R0lyYTVsWkdJZzRMMlk2cE9IWTF0S3QybmRPX054cUNpZDdUOFctekVVNFBLUXdENkY0SW9Pcklaa1BvamtjVmtjWDhobXBRUnlMZUJxLVRDNkNwM20tdzY3VXNUckNIOTVpaGd1c3FqTERYN19JcGozR1RZSzA2ZFF6eWFFdzJIZ240QlB6VVNfX3BoTUZkZmVKWl9XU1QwVGNyZjVBcjhJS2Q?oc=5",
-        "summary": "EUR/USD Forecast: Holds above 1.1700; bulls seem hesitant ahead of NFP FXStreet",
-        "published": "08 May 2026 11:50 WIB",
-        "sentiment": "Bearish",
-        "score": -0.459,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet",
-        "title": "United States Nonfarm Payrolls beat expectations: Why is the US Dollar weakening? - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSkpiQ2RHTkhpaUtNSENyMmdjYjdjS3VRLWw5YmpUaUZNbk1RY0VJMEs1ajhONXpfaVJ6Q2hmWTB6aGxISzNTZUVCTFRZWHlScXI4R3U2YWNkd2pBUC1xRmNkZDNJdllDcnVQSEVvUFVSUF83cTNFVF96YTNBa0kzeGw1aHMtdEZ4eDF5akwtcXE1bXNLdXFlclBCWWJSVTdrWTRjZFNVTkpsdFM3d0NpZWhCVzdkdEZwRmZsM3NyWQ?oc=5",
-        "summary": "United States Nonfarm Payrolls beat expectations: Why is the US Dollar weakening? FXStreet",
-        "published": "08 May 2026 20:12 WIB",
+        "source": "FXStreet News",
+        "title": "Taiwan: Export slowdown but outlook bright – ING",
+        "url": "https://www.fxstreet.com/news/taiwan-export-slowdown-but-outlook-bright-ing-202605082128",
+        "summary": "ING’s Chief Economist for Greater China, Lynn Song, notes that Taiwan’s April trade data showed slower export and import growth versus expectations, with the trade surplus easing to USD14.35bn.",
+        "published": "09 May 2026 04:28 WIB",
         "sentiment": "Bullish",
-        "score": 0.331,
+        "score": 0.919,
         "emoji": "🟢"
       },
       {
-        "source": "FXStreet",
-        "title": "Forex Today: No signs of US-Iran deal as focus shift to US employment data - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdHlBSS1mSFZQWGJqckEyX1h6aWdTMTFucV8yVUQ2M205UC1hMW5SZkV0WFVBREpDVnRRNVM1c0ZTbDN4bE1DNmJhY255eDlZQlZYYm10VGpoR1dTTW54eGpteTZ1emNsQTQzaDY1X2hVNDZuMTl4NkhjSlJ3MGU4ZXFYWjNMNmFVaWNxU0Y3RjctajM0eURfV3pETmduUmgyMVhlZ1Y4OGMwcWlxeGptQ3AxT29sdkk?oc=5",
-        "summary": "Forex Today: No signs of US-Iran deal as focus shift to US employment data FXStreet",
-        "published": "08 May 2026 13:51 WIB",
+        "source": "FXStreet News",
+        "title": "Indonesia: Growth momentum seen easing – Standard Chartered",
+        "url": "https://www.fxstreet.com/news/indonesia-growth-momentum-seen-easing-standard-chartered-202605082049",
+        "summary": "Standard Chartered’s Aldian Taloputra notes Indonesia’s GDP growth accelerated to 5.6% year-on-year in Q1 2026, driven by front-loaded fiscal stimulus, seasonal festival spending and limited pass-through from higher Oil prices.",
+        "published": "09 May 2026 03:49 WIB",
+        "sentiment": "Bullish",
+        "score": 0.818,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Silver Price Analysis: Climbs above $80 as bulls eye weekly high",
+        "url": "https://www.fxstreet.com/news/silver-price-analysis-climbs-above-80-as-bulls-eye-weekly-high-202605082031",
+        "summary": "Silver (XAG/USD) price advances more than 2.50% on Friday, set to end the week with gains of over 7% sponsored by US Dollar (USD) weakness and falling Oil prices. At the time of writing, XAG/USD trades at $80.72, after bouncing off daily lows of $78.16.",
+        "published": "09 May 2026 03:31 WIB",
         "sentiment": "Bearish",
-        "score": -0.447,
+        "score": -0.501,
         "emoji": "🔴"
       },
       {
-        "source": "FXStreet",
-        "title": "Euro climbs as Hormuz tensions eclipse hot US jobs report - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVU94MEtQb2oxR040TXhmcHViVFNKSlZwcExyTThZNjl3V3NscW13a1JoZUhQZXc1NzVIN2xhTldWeU4xYlQySWxxX3FNamVXclNJN05WcW16LXJ5b295YVdLZ0NqTGZrcWRsSndvdEcta3JZS2ZYX1hGMFRxWXlJQWRWSHVJZ1FTWUdzaW1CWnotSExNWmRSUl82Qm1iV2J2MUE?oc=5",
-        "summary": "Euro climbs as Hormuz tensions eclipse hot US jobs report FXStreet",
-        "published": "08 May 2026 22:30 WIB",
+        "source": "FXStreet News",
+        "title": "Brazil: IPCA shock complicates easing path – Wells Fargo",
+        "url": "https://www.fxstreet.com/news/brazil-ipca-shock-complicates-easing-path-wells-fargo-202605082011",
+        "summary": "Wells Fargo Economics projects Brazil’s April IPCA inflation to rise 0.9% month-over-month and around 4.5% year-over-year, near or above the target band. Energy and food pressures are intensifying, while inflation expectations have risen.",
+        "published": "09 May 2026 03:11 WIB",
+        "sentiment": "Bullish",
+        "score": 0.216,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "WTI declines as US-Iran deal hopes and Hormuz outlook weigh on Oil",
+        "url": "https://www.fxstreet.com/news/wti-declines-as-us-iran-deal-hopes-and-hormuz-outlook-weigh-on-oil-202605081928",
+        "summary": "West Texas Intermediate (WTI), the US crude Oil benchmark, falls some 2.49% on Friday, poised to end the week with losses of over 7.39%, amid growing speculation that the US and Iran will reach an agreement to end the conflict.",
+        "published": "09 May 2026 02:28 WIB",
         "sentiment": "Bearish",
-        "score": -0.74,
+        "score": -0.134,
         "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Aluminium: Bauxite export cap threatens supply – Commerzbank",
+        "url": "https://www.fxstreet.com/news/aluminium-bauxite-export-cap-threatens-supply-commerzbank-202605081919",
+        "summary": "Commerzbank’s Thu Lan Nguyen argues that any relief from a potential reopening of the Strait of Hormuz for Aluminium will likely be short‑lived.",
+        "published": "09 May 2026 02:19 WIB",
+        "sentiment": "Bearish",
+        "score": -0.273,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Forecasting the upcoming week: US Dollar weakens ahead of key US CPI data and Fed speeches",
+        "url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-dollar-weakens-ahead-of-key-us-cpi-data-and-fed-speeches-202605081917",
+        "summary": "The US Dollar Index (DXY) fell toward the 97.90 region on Friday, pressured by improving risk sentiment and easing safe-haven demand after reports suggested the United States (US) and Iran are still attempting to preserve a fragile ceasefire framework despite renewed military incidents in the Middle",
+        "published": "09 May 2026 02:17 WIB",
+        "sentiment": "Netral",
+        "score": -0.038,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Hungary: Inflation path stays contained – ING",
+        "url": "https://www.fxstreet.com/news/hungary-inflation-path-stays-contained-ing-202605081902",
+        "summary": "ING’s Peter Virovacz notes that Hungary’s inflation accelerated in April but remained a positive surprise versus expectations, with headline Consumer Price Index (CPI) at 2.1% year-on-year and 0.4% month-on-month.",
+        "published": "09 May 2026 02:02 WIB",
+        "sentiment": "Bullish",
+        "score": 0.82,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "India: Monsoon risks and RBI stance – DBS",
+        "url": "https://www.fxstreet.com/news/india-monsoon-risks-and-rbi-stance-dbs-202605081833",
+        "summary": "DBS Group Research economist Radhika Rao assesses how a projected below normal monsoon in India, linked to a strong El Niño, could affect growth and inflation.",
+        "published": "09 May 2026 01:33 WIB",
+        "sentiment": "Bullish",
+        "score": 0.666,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "USD/JPY slides toward 156.60 as safe-haven Yen gains on Middle East tensions",
+        "url": "https://www.fxstreet.com/news/usd-jpy-slides-toward-15660-as-safe-haven-yen-gains-on-middle-east-tensions-202605081831",
+        "summary": "The USD/JPY pair fell toward the 156.60 region on Friday, as the Japanese Yen (JPY) gained modest support from safe-haven flows despite resilient United States (US) labor-market data limiting broader downside pressure on the US Dollar (USD).",
+        "published": "09 May 2026 01:31 WIB",
+        "sentiment": "Bearish",
+        "score": -0.216,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Gold swells as Middle East peace hopes hit the US Dollar",
+        "url": "https://www.fxstreet.com/news/gold-swells-as-middle-east-peace-hopes-hit-the-us-dollar-202605081811",
+        "summary": "Gold (XAU/USD) rises some 0.75% on Friday as financial markets remain optimistic about a possible end to the Middle East conflict, which could potentially drive Oil prices lower and ease inflationary pressures.",
+        "published": "09 May 2026 01:11 WIB",
+        "sentiment": "Bullish",
+        "score": 0.569,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "USD: Inflation pressures stay firm – Wells Fargo",
+        "url": "https://www.fxstreet.com/news/usd-inflation-pressures-stay-firm-wells-fargo-202605081803",
+        "summary": "Wells Fargo Economics expects April U.S. CPI to firm, with headline inflation rising toward 3.8% year-over-year and core near 2.9%.",
+        "published": "09 May 2026 01:03 WIB",
+        "sentiment": "Bullish",
+        "score": 0.098,
+        "emoji": "🟢"
       },
       {
         "source": "Investing.com Forex",
         "title": "Russia holds scaled-back WW2 victory parade as worries over war in Ukraine deepen",
         "url": "https://www.investing.com/news/stock-market-news/russia-holds-scaledback-ww2-victory-parade-as-worries-over-war-in-ukraine-deepen-4674411",
         "summary": "",
-        "published": "09 May 2026 10:24 WIB",
+        "published": "09 May 2026 12:24 WIB",
         "sentiment": "Bearish",
         "score": -0.852,
         "emoji": "🔴"
@@ -1654,6 +1740,16 @@ window.FK_DATA = {
       },
       {
         "source": "Investing.com Economy",
+        "title": "China April exports rebound strongly after sluggish March, trade surplus widens",
+        "url": "https://www.investing.com/news/economic-indicators/china-april-exports-rebound-strongly-after-sluggish-march-trade-surplus-widens-4674578",
+        "summary": "",
+        "published": "09 May 2026 11:24 WIB",
+        "sentiment": "Bearish",
+        "score": -0.073,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Economy",
         "title": "Trump administration appeals latest court loss on tariffs",
         "url": "https://www.investing.com/news/economic-indicators/trump-administration-appeals-latest-court-loss-on-tariffs-4673719",
         "summary": "",
@@ -1693,16 +1789,6 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Investing.com Economy",
-        "title": "Hungary’s inflation edges up to 2.1% in April",
-        "url": "https://www.investing.com/news/economic-indicators/hungarys-inflation-edges-up-to-21-in-april-93CH-4671446",
-        "summary": "",
-        "published": "08 May 2026 16:31 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
         "source": "Reuters Currencies",
         "title": "India's SBI maintains credit outlook, but warns about hit from prolonged war - Reuters",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR01VUVJZV0lmckxNcm1LVlpzNV9jQS1qRGlGMVY3elVvS2dzeVlyRUo2U3dBVGdLWHp2czFaUEllVHZPQ0NRZHAyYkdlRG41VWpNM3RwajFIY3psQm5CV2tjUWhrZTk0cEVweGpSQ0J4WU13R3RWX1ZOS20xcEtMQWtOcEZkTWZEVDY5c0s5d2FJZ2lmYkhjVg?oc=5",
@@ -1710,6 +1796,26 @@ window.FK_DATA = {
         "published": "08 May 2026 19:06 WIB",
         "sentiment": "Bearish",
         "score": -0.946,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Iran War Drives Africa’s Fertilizer Crisis",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-09/iran-war-drives-africa-s-fertilizer-crisis",
+        "summary": "Africa’s farmland could be worth $1 trillion, but global shocks are raising the stakes. Fertilizer shortages, rising costs and supply disruptions are putting pressure on food production across the continent. (Source: Bloomberg)",
+        "published": "09 May 2026 12:00 WIB",
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "China’s Energy Imports Plunge as War Chokes Hormuz Shipments",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-09/china-s-energy-imports-plunge-as-war-chokes-hormuz-shipments",
+        "summary": "Chinese energy imports fell sharply in April, as the near-halt to shipments through the Strait of Hormuz choked a vital channel for crude oil and natural gas.",
+        "published": "09 May 2026 11:33 WIB",
+        "sentiment": "Bearish",
+        "score": -0.858,
         "emoji": "🔴"
       },
       {
@@ -1763,16 +1869,6 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "US Stocks Set Record High as Chip Stocks Roar, Payrolls Beat",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-08/us-futures-rise-as-chip-stocks-rally-iran-ceasefire-holds",
-        "summary": "US stocks closed at a record high for the third time this week, buoyed by semiconductor stocks, solid employment data and a US-Iran ceasefire that appeared intact even with clashes near the Strait of Hormuz.",
-        "published": "08 May 2026 18:42 WIB",
-        "sentiment": "Bullish",
-        "score": 0.5,
-        "emoji": "🟢"
-      },
-      {
         "source": "Google News Forex",
         "title": "Japan Turns to the United States and the Bank of Japan to Defend the Yen Against Market Pressure - Modern Diplomacy",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPamg5VUh0YVRsU29vYl9jdXRyVTZ4THN3RHVfREZfbXl4SWNMVEZyTjBMWFRxSEVkampISmZPOVVFYnJnc2M5YkVmb09IaldWTW5LWWNuTmF2bVh3V1RMd0NFX2E1VE0tMmpobWpGaFhOalRFM05URTFidG9ZcThSeEF3NmZTZGlLUGlIVEJkNk12V0NsYmtvR3NlY1VKXzFxTUdJTHdoTzc4UmZKUEF0RXlEdndMTWc5Z0FSSWxQN2dJRTF4Sk5qRVdiWVhvRTNZ?oc=5",
@@ -1794,22 +1890,22 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Iran accuses US of 'reckless military adventure'",
-        "url": "https://www.bbc.com/news/articles/c99lpn9ze8ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Abbas Araghchi says the US attacks each time there is a diplomatic solution on the table.",
-        "published": "09 May 2026 10:30 WIB",
-        "sentiment": "Bearish",
-        "score": -0.607,
-        "emoji": "🔴"
-      },
-      {
-        "source": "BBC World",
         "title": "Trump says Russia and Ukraine to observe three-day ceasefire",
         "url": "https://www.bbc.com/news/articles/c202zn5gg0lo?at_medium=RSS&at_campaign=rss",
         "summary": "It comes as the two countries accused each other of violating separate ceasefires to cover the celebrations of the Soviet Union's victory over Nazi Germany.",
         "published": "09 May 2026 01:59 WIB",
         "sentiment": "Bearish",
         "score": -0.611,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC World",
+        "title": "Iran accuses US of 'reckless military adventure'",
+        "url": "https://www.bbc.com/news/articles/c99lpn9ze8ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Abbas Araghchi says the US attacks each time there is a diplomatic solution on the table.",
+        "published": "09 May 2026 10:30 WIB",
+        "sentiment": "Bearish",
+        "score": -0.607,
         "emoji": "🔴"
       },
       {
@@ -1841,6 +1937,16 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.637,
         "emoji": "🔴"
+      },
+      {
+        "source": "BBC World",
+        "title": "Australian by-election a litmus test for right-wing One Nation Party",
+        "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
+        "summary": "Victory for the populist party in Farrer, New South Wales, would see One Nation's first MP elected to Australia's national parliament.",
+        "published": "09 May 2026 05:39 WIB",
+        "sentiment": "Bullish",
+        "score": 0.66,
+        "emoji": "🟢"
       },
       {
         "source": "BBC World",
@@ -1900,16 +2006,6 @@ window.FK_DATA = {
         "published": "09 May 2026 03:41 WIB",
         "sentiment": "Bearish",
         "score": -0.691,
-        "emoji": "🔴"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Starmer under pressure as Labour suffers heavy election losses including historic Wales defeat",
-        "url": "https://www.bbc.com/news/articles/cz62dwe30wdo?at_medium=RSS&at_campaign=rss",
-        "summary": "Reform makes huge gains in England, as Labour loses power in Wales and the SNP wins fifth term in Scotland.",
-        "published": "09 May 2026 08:27 WIB",
-        "sentiment": "Bearish",
-        "score": -0.599,
         "emoji": "🔴"
       },
       {
@@ -1974,13 +2070,13 @@ window.FK_DATA = {
       },
       {
         "source": "BBC Top Stories",
-        "title": "Five election moments you may have missed",
-        "url": "https://www.bbc.com/news/articles/c5y84453d9qo?at_medium=RSS&at_campaign=rss",
-        "summary": "Campaigners have been fighting each other for votes, but there have also been heart-warming moments.",
-        "published": "08 May 2026 23:56 WIB",
-        "sentiment": "Bearish",
-        "score": -0.489,
-        "emoji": "🔴"
+        "title": "William hails Sir David Attenborough's 'remarkable milestone' at 100th birthday concert",
+        "url": "https://www.bbc.com/news/articles/cq5pwz743j9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The naturalist's seven-decade career was marked with a special concert at the Royal Albert Hall.",
+        "published": "09 May 2026 04:54 WIB",
+        "sentiment": "Bullish",
+        "score": 0.743,
+        "emoji": "🟢"
       },
       {
         "source": "Al Jazeera",
@@ -2114,6 +2210,16 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
+        "title": "Whisky business: Investors pin hopes on Trump’s Scotch tariff reversal after dire three years",
+        "url": "https://www.cnbc.com/2026/05/09/scotch-whisky-tariffs-donald-trump-us-scotland-trade-war-rare-collectible-spirit.html",
+        "summary": "President Trump's decision to ditch the 10% tariff on Scotch whisky could boost the market for premium cask collecting.",
+        "published": "09 May 2026 12:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.361,
+        "emoji": "🟢"
+      },
+      {
+        "source": "CNBC World",
         "title": "The Federal Reserve is quickly running out of reasons to cut interest rates",
         "url": "https://www.cnbc.com/2026/05/08/the-federal-reserve-is-quickly-running-out-of-reasons-to-cut-interest-rates.html",
         "summary": "Friday's jobs report provided evidence that the central bank's larger concern is a cost of living that is getting increasingly hard to bear.",
@@ -2124,16 +2230,6 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Anthropic's Mythos set off a cybersecurity 'hysteria.' Experts say the threat was already here",
-        "url": "https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html",
-        "summary": "The arrival of Anthropic's Mythos jolted banks, software giants and governments into reckoning with a new era of cyber attacks. But the threat is already here.",
-        "published": "09 May 2026 03:01 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
         "title": "Toyota fourth-quarter profit misses by wide margin as U.S. tariffs drive 49% slump",
         "url": "https://www.cnbc.com/2026/05/08/toyota-1q-2026-earnings.html",
         "summary": "The world's largest automaker by sales volume saw a 1.89% year-on-year rise in revenue during the fourth quarter ended March.",
@@ -2141,6 +2237,16 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.17,
         "emoji": "🟢"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Anthropic's Mythos set off a cybersecurity 'hysteria.' Experts say the threat was already here",
+        "url": "https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html",
+        "summary": "The arrival of Anthropic's Mythos jolted banks, software giants and governments into reckoning with a new era of cyber attacks. But the threat is already here.",
+        "published": "09 May 2026 03:01 WIB",
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "emoji": "🔴"
       },
       {
         "source": "CNBC World",
@@ -2163,16 +2269,6 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "CNBC World",
-        "title": "‘Not a Chance Hormuz Opens’: How Wall Street’s new NACHO trade bets on a prolonged oil shock",
-        "url": "https://www.cnbc.com/2026/05/08/traders-nacho-trade-strait-hormuz-oil-markets-taco-trump-iran.html",
-        "summary": "Traders are embracing the “NACHO” trade, betting Hormuz disruptions and elevated oil prices will persist longer than expected.",
-        "published": "08 May 2026 20:26 WIB",
-        "sentiment": "Bearish",
-        "score": -0.459,
-        "emoji": "🔴"
-      },
-      {
         "source": "CNBC Markets",
         "title": "Consumer sentiment falls to fresh record low in May as surging gas prices hit outlook",
         "url": "https://www.cnbc.com/2026/05/08/consumer-sentiment-falls-to-fresh-record-low-in-may-as-surging-gas-prices-hit-outlook.html",
@@ -2185,7 +2281,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "09 May 2026 10:42 WIB",
+    "generated": "09 May 2026 12:42 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -2193,50 +2289,50 @@ window.FK_DATA = {
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.501,
-        "count": 31
+        "score": -0.475,
+        "count": 36
       },
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.515,
-        "count": 28
+        "score": -0.455,
+        "count": 34
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.575,
-        "count": 25
+        "score": -0.554,
+        "count": 30
       },
       {
         "pair": "EUR/USD",
         "direction": "Netral →",
-        "score": -0.047,
-        "count": 25
+        "score": 0.031,
+        "count": 27
       },
       {
         "pair": "GBP/USD",
         "direction": "Tekanan Naik ▲",
-        "score": 0.061,
-        "count": 10
+        "score": 0.262,
+        "count": 9
       },
       {
         "pair": "AUD/USD",
-        "direction": "Netral →",
-        "score": 0.044,
-        "count": 7
+        "direction": "Tekanan Naik ▲",
+        "score": 0.084,
+        "count": 8
       },
       {
         "pair": "USD/CNY",
-        "direction": "Netral →",
-        "score": 0.044,
-        "count": 7
+        "direction": "Tekanan Naik ▲",
+        "score": 0.084,
+        "count": 8
       },
       {
         "pair": "CAD/JPY",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.514,
-        "count": 3
+        "direction": "Netral →",
+        "score": -0.039,
+        "count": 5
       }
     ],
     "items": [
@@ -2321,21 +2417,101 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "FXStreet",
-        "title": "Euro climbs as Hormuz tensions eclipse hot US jobs report - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVU94MEtQb2oxR040TXhmcHViVFNKSlZwcExyTThZNjl3V3NscW13a1JoZUhQZXc1NzVIN2xhTldWeU4xYlQySWxxX3FNamVXclNJN05WcW16LXJ5b295YVdLZ0NqTGZrcWRsSndvdEcta3JZS2ZYX1hGMFRxWXlJQWRWSHVJZ1FTWUdzaW1CWnotSExNWmRSUl82Qm1iV2J2MUE?oc=5",
-        "summary": "Euro climbs as Hormuz tensions eclipse hot US jobs report FXStreet",
-        "published": "08 May 2026 22:30 WIB",
+        "source": "FXStreet News",
+        "title": "China: War risks reshape growth outlook – Rabobank",
+        "url": "https://www.fxstreet.com/news/china-war-risks-reshape-growth-outlook-rabobank-202605082221",
+        "summary": "Rabobank strategists assess how the US and Israel’s war against Iran could affect China. They note higher Oil and gas prices and global cost-push inflation, but argues China’s inflation is unlikely to force PBOC tightening.",
+        "published": "09 May 2026 05:21 WIB",
         "sentiment": "Bearish",
-        "score": -0.74,
+        "score": -0.714,
         "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Taiwan: Export slowdown but outlook bright – ING",
+        "url": "https://www.fxstreet.com/news/taiwan-export-slowdown-but-outlook-bright-ing-202605082128",
+        "summary": "ING’s Chief Economist for Greater China, Lynn Song, notes that Taiwan’s April trade data showed slower export and import growth versus expectations, with the trade surplus easing to USD14.35bn.",
+        "published": "09 May 2026 04:28 WIB",
+        "sentiment": "Bullish",
+        "score": 0.919,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Indonesia: Growth momentum seen easing – Standard Chartered",
+        "url": "https://www.fxstreet.com/news/indonesia-growth-momentum-seen-easing-standard-chartered-202605082049",
+        "summary": "Standard Chartered’s Aldian Taloputra notes Indonesia’s GDP growth accelerated to 5.6% year-on-year in Q1 2026, driven by front-loaded fiscal stimulus, seasonal festival spending and limited pass-through from higher Oil prices.",
+        "published": "09 May 2026 03:49 WIB",
+        "sentiment": "Bullish",
+        "score": 0.818,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Silver Price Analysis: Climbs above $80 as bulls eye weekly high",
+        "url": "https://www.fxstreet.com/news/silver-price-analysis-climbs-above-80-as-bulls-eye-weekly-high-202605082031",
+        "summary": "Silver (XAG/USD) price advances more than 2.50% on Friday, set to end the week with gains of over 7% sponsored by US Dollar (USD) weakness and falling Oil prices. At the time of writing, XAG/USD trades at $80.72, after bouncing off daily lows of $78.16.",
+        "published": "09 May 2026 03:31 WIB",
+        "sentiment": "Bearish",
+        "score": -0.501,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "WTI declines as US-Iran deal hopes and Hormuz outlook weigh on Oil",
+        "url": "https://www.fxstreet.com/news/wti-declines-as-us-iran-deal-hopes-and-hormuz-outlook-weigh-on-oil-202605081928",
+        "summary": "West Texas Intermediate (WTI), the US crude Oil benchmark, falls some 2.49% on Friday, poised to end the week with losses of over 7.39%, amid growing speculation that the US and Iran will reach an agreement to end the conflict.",
+        "published": "09 May 2026 02:28 WIB",
+        "sentiment": "Bearish",
+        "score": -0.134,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Forecasting the upcoming week: US Dollar weakens ahead of key US CPI data and Fed speeches",
+        "url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-dollar-weakens-ahead-of-key-us-cpi-data-and-fed-speeches-202605081917",
+        "summary": "The US Dollar Index (DXY) fell toward the 97.90 region on Friday, pressured by improving risk sentiment and easing safe-haven demand after reports suggested the United States (US) and Iran are still attempting to preserve a fragile ceasefire framework despite renewed military incidents in the Middle",
+        "published": "09 May 2026 02:17 WIB",
+        "sentiment": "Netral",
+        "score": -0.038,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "USD/JPY slides toward 156.60 as safe-haven Yen gains on Middle East tensions",
+        "url": "https://www.fxstreet.com/news/usd-jpy-slides-toward-15660-as-safe-haven-yen-gains-on-middle-east-tensions-202605081831",
+        "summary": "The USD/JPY pair fell toward the 156.60 region on Friday, as the Japanese Yen (JPY) gained modest support from safe-haven flows despite resilient United States (US) labor-market data limiting broader downside pressure on the US Dollar (USD).",
+        "published": "09 May 2026 01:31 WIB",
+        "sentiment": "Bearish",
+        "score": -0.216,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Gold swells as Middle East peace hopes hit the US Dollar",
+        "url": "https://www.fxstreet.com/news/gold-swells-as-middle-east-peace-hopes-hit-the-us-dollar-202605081811",
+        "summary": "Gold (XAU/USD) rises some 0.75% on Friday as financial markets remain optimistic about a possible end to the Middle East conflict, which could potentially drive Oil prices lower and ease inflationary pressures.",
+        "published": "09 May 2026 01:11 WIB",
+        "sentiment": "Bullish",
+        "score": 0.569,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "USD: Inflation pressures stay firm – Wells Fargo",
+        "url": "https://www.fxstreet.com/news/usd-inflation-pressures-stay-firm-wells-fargo-202605081803",
+        "summary": "Wells Fargo Economics expects April U.S. CPI to firm, with headline inflation rising toward 3.8% year-over-year and core near 2.9%.",
+        "published": "09 May 2026 01:03 WIB",
+        "sentiment": "Bullish",
+        "score": 0.098,
+        "emoji": "🟢"
       },
       {
         "source": "Investing.com Forex",
         "title": "Russia holds scaled-back WW2 victory parade as worries over war in Ukraine deepen",
         "url": "https://www.investing.com/news/stock-market-news/russia-holds-scaledback-ww2-victory-parade-as-worries-over-war-in-ukraine-deepen-4674411",
         "summary": "",
-        "published": "09 May 2026 10:24 WIB",
+        "published": "09 May 2026 12:24 WIB",
         "sentiment": "Bearish",
         "score": -0.852,
         "emoji": "🔴"
@@ -2359,6 +2535,16 @@ window.FK_DATA = {
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Economy",
+        "title": "China April exports rebound strongly after sluggish March, trade surplus widens",
+        "url": "https://www.investing.com/news/economic-indicators/china-april-exports-rebound-strongly-after-sluggish-march-trade-surplus-widens-4674578",
+        "summary": "",
+        "published": "09 May 2026 11:24 WIB",
+        "sentiment": "Bearish",
+        "score": -0.073,
+        "emoji": "🔴"
       },
       {
         "source": "Investing.com Economy",
@@ -2412,6 +2598,26 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
+        "title": "Iran War Drives Africa’s Fertilizer Crisis",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-09/iran-war-drives-africa-s-fertilizer-crisis",
+        "summary": "Africa’s farmland could be worth $1 trillion, but global shocks are raising the stakes. Fertilizer shortages, rising costs and supply disruptions are putting pressure on food production across the continent. (Source: Bloomberg)",
+        "published": "09 May 2026 12:00 WIB",
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "China’s Energy Imports Plunge as War Chokes Hormuz Shipments",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-09/china-s-energy-imports-plunge-as-war-chokes-hormuz-shipments",
+        "summary": "Chinese energy imports fell sharply in April, as the near-halt to shipments through the Strait of Hormuz choked a vital channel for crude oil and natural gas.",
+        "published": "09 May 2026 11:33 WIB",
+        "sentiment": "Bearish",
+        "score": -0.858,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
         "title": "Pakistan to Receive $1.32 Billion as IMF Board Approves Tranches",
         "url": "https://www.bloomberg.com/news/articles/2026-05-08/pakistan-to-receive-1-32-billion-as-imf-board-approves-tranches",
         "summary": "Pakistan will receive about $1.32 billion after the International Monetary Fund Board approved loan tranches under existing facilities, boosting the country’s ability to shield its economy from increased global risks.",
@@ -2441,16 +2647,6 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "US Stocks Set Record High as Chip Stocks Roar, Payrolls Beat",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-08/us-futures-rise-as-chip-stocks-rally-iran-ceasefire-holds",
-        "summary": "US stocks closed at a record high for the third time this week, buoyed by semiconductor stocks, solid employment data and a US-Iran ceasefire that appeared intact even with clashes near the Strait of Hormuz.",
-        "published": "08 May 2026 18:42 WIB",
-        "sentiment": "Bullish",
-        "score": 0.5,
-        "emoji": "🟢"
-      },
-      {
         "source": "Google News Forex",
         "title": "Japan Turns to the United States and the Bank of Japan to Defend the Yen Against Market Pressure - Modern Diplomacy",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPamg5VUh0YVRsU29vYl9jdXRyVTZ4THN3RHVfREZfbXl4SWNMVEZyTjBMWFRxSEVkampISmZPOVVFYnJnc2M5YkVmb09IaldWTW5LWWNuTmF2bVh3V1RMd0NFX2E1VE0tMmpobWpGaFhOalRFM05URTFidG9ZcThSeEF3NmZTZGlLUGlIVEJkNk12V0NsYmtvR3NlY1VKXzFxTUdJTHdoTzc4UmZKUEF0RXlEdndMTWc5Z0FSSWxQN2dJRTF4Sk5qRVdiWVhvRTNZ?oc=5",
@@ -2462,22 +2658,22 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Iran accuses US of 'reckless military adventure'",
-        "url": "https://www.bbc.com/news/articles/c99lpn9ze8ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Abbas Araghchi says the US attacks each time there is a diplomatic solution on the table.",
-        "published": "09 May 2026 10:30 WIB",
-        "sentiment": "Bearish",
-        "score": -0.607,
-        "emoji": "🔴"
-      },
-      {
-        "source": "BBC World",
         "title": "Trump says Russia and Ukraine to observe three-day ceasefire",
         "url": "https://www.bbc.com/news/articles/c202zn5gg0lo?at_medium=RSS&at_campaign=rss",
         "summary": "It comes as the two countries accused each other of violating separate ceasefires to cover the celebrations of the Soviet Union's victory over Nazi Germany.",
         "published": "09 May 2026 01:59 WIB",
         "sentiment": "Bearish",
         "score": -0.611,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC World",
+        "title": "Iran accuses US of 'reckless military adventure'",
+        "url": "https://www.bbc.com/news/articles/c99lpn9ze8ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Abbas Araghchi says the US attacks each time there is a diplomatic solution on the table.",
+        "published": "09 May 2026 10:30 WIB",
+        "sentiment": "Bearish",
+        "score": -0.607,
         "emoji": "🔴"
       },
       {
@@ -2499,6 +2695,16 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.637,
         "emoji": "🔴"
+      },
+      {
+        "source": "BBC World",
+        "title": "Australian by-election a litmus test for right-wing One Nation Party",
+        "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
+        "summary": "Victory for the populist party in Farrer, New South Wales, would see One Nation's first MP elected to Australia's national parliament.",
+        "published": "09 May 2026 05:39 WIB",
+        "sentiment": "Bullish",
+        "score": 0.66,
+        "emoji": "🟢"
       },
       {
         "source": "BBC World",
@@ -2548,16 +2754,6 @@ window.FK_DATA = {
         "published": "09 May 2026 03:41 WIB",
         "sentiment": "Bearish",
         "score": -0.691,
-        "emoji": "🔴"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Starmer under pressure as Labour suffers heavy election losses including historic Wales defeat",
-        "url": "https://www.bbc.com/news/articles/cz62dwe30wdo?at_medium=RSS&at_campaign=rss",
-        "summary": "Reform makes huge gains in England, as Labour loses power in Wales and the SNP wins fifth term in Scotland.",
-        "published": "09 May 2026 08:27 WIB",
-        "sentiment": "Bearish",
-        "score": -0.599,
         "emoji": "🔴"
       },
       {
@@ -2619,16 +2815,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.477,
         "emoji": "🟢"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Five election moments you may have missed",
-        "url": "https://www.bbc.com/news/articles/c5y84453d9qo?at_medium=RSS&at_campaign=rss",
-        "summary": "Campaigners have been fighting each other for votes, but there have also been heart-warming moments.",
-        "published": "08 May 2026 23:56 WIB",
-        "sentiment": "Bearish",
-        "score": -0.489,
-        "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
@@ -2742,13 +2928,13 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Anthropic's Mythos set off a cybersecurity 'hysteria.' Experts say the threat was already here",
-        "url": "https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html",
-        "summary": "The arrival of Anthropic's Mythos jolted banks, software giants and governments into reckoning with a new era of cyber attacks. But the threat is already here.",
-        "published": "09 May 2026 03:01 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
+        "title": "Whisky business: Investors pin hopes on Trump’s Scotch tariff reversal after dire three years",
+        "url": "https://www.cnbc.com/2026/05/09/scotch-whisky-tariffs-donald-trump-us-scotland-trade-war-rare-collectible-spirit.html",
+        "summary": "President Trump's decision to ditch the 10% tariff on Scotch whisky could boost the market for premium cask collecting.",
+        "published": "09 May 2026 12:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.361,
+        "emoji": "🟢"
       },
       {
         "source": "CNBC World",
@@ -2759,6 +2945,16 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.17,
         "emoji": "🟢"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Anthropic's Mythos set off a cybersecurity 'hysteria.' Experts say the threat was already here",
+        "url": "https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html",
+        "summary": "The arrival of Anthropic's Mythos jolted banks, software giants and governments into reckoning with a new era of cyber attacks. But the threat is already here.",
+        "published": "09 May 2026 03:01 WIB",
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "emoji": "🔴"
       },
       {
         "source": "CNBC World",
@@ -2779,16 +2975,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.25,
         "emoji": "🟢"
-      },
-      {
-        "source": "CNBC World",
-        "title": "‘Not a Chance Hormuz Opens’: How Wall Street’s new NACHO trade bets on a prolonged oil shock",
-        "url": "https://www.cnbc.com/2026/05/08/traders-nacho-trade-strait-hormuz-oil-markets-taco-trump-iran.html",
-        "summary": "Traders are embracing the “NACHO” trade, betting Hormuz disruptions and elevated oil prices will persist longer than expected.",
-        "published": "08 May 2026 20:26 WIB",
-        "sentiment": "Bearish",
-        "score": -0.459,
-        "emoji": "🔴"
       },
       {
         "source": "CNBC Markets",
