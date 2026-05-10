@@ -793,67 +793,112 @@ function renderKalender() {
     <span style="color:#6b7280">● Libur / —</span>
   </div>`;
 
-  const days = {};
-  events.forEach(e => { if(!days[e.date]) days[e.date]=[]; days[e.date].push(e); });
+  const isReleased = ev => !!(ev.actual && ev.actual !== '' && ev.actual !== '—');
 
-  let tables = '';
-  Object.entries(days).forEach(([date, dayEvs]) => {
-    dayEvs.sort((a,b)=>{
-      const m=t=>{ if(!t||t==='Sepanjang Hari') return 0; const[h,mm]=(t||'0:0').split(':'); return +h*60+(+mm||0); };
-      return m(a.time_wib)-m(b.time_wib);
-    });
-    const rows = dayEvs.map(ev => {
-      const cfg = _IMP[ev.impact]||_IMP.none;
-      const dot = `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${cfg.dot}" title="${cfg.label}"></span>`;
-      let actSt = 'color:var(--sub)';
-      if (ev.actual && ev.forecast) {
-        try {
-          const n=s=>parseFloat(String(s).replace(/[^\d.\-]/g,''));
-          const a=n(ev.actual), f=n(ev.forecast);
-          if(!isNaN(a)&&!isNaN(f)) actSt = a>=f?'color:#22c55e;font-weight:700':'color:#ef4444;font-weight:700';
-        } catch(e){}
-      }
-      const cell = v => v||'<span style="color:#374151">—</span>';
-      return `<tr style="border-top:1px solid var(--bdr)">
-        <td style="padding:7px 8px;color:var(--mut);font-size:11px;white-space:nowrap;font-family:var(--mono)">${ev.time_wib||'—'}</td>
-        <td style="padding:7px 8px;text-align:center">
-          <span style="background:var(--surf);border:1px solid var(--bdr);color:var(--txt);font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px">${ev.currency||'—'}</span>
-        </td>
-        <td style="padding:7px 8px;text-align:center">${dot}</td>
-        <td style="padding:7px 8px;color:var(--txt);font-size:12px">${ev.event}</td>
-        <td style="padding:7px 8px;text-align:center;${actSt};font-size:12px">${cell(ev.actual)}</td>
-        <td style="padding:7px 8px;text-align:center;color:var(--sub);font-size:12px">${cell(ev.forecast)}</td>
-        <td style="padding:7px 8px;text-align:center;color:var(--mut);font-size:12px">${cell(ev.previous)}</td>
-      </tr>`;
-    }).join('');
+  const upcoming = events.filter(ev => !isReleased(ev));
+  const released = events.filter(ev => isReleased(ev));
 
-    tables += `<div class="card" style="padding:0;overflow:hidden;margin-bottom:14px">
-      <div style="background:linear-gradient(90deg,#1a2035,var(--surf));padding:9px 14px;
-          border-left:4px solid var(--blu);display:flex;justify-content:space-between;align-items:center">
-        <div>
-          <span style="color:var(--txt);font-weight:700;font-size:13px">${dayEvs[0].day}</span>
-          <span style="color:var(--mut);font-size:11px;margin-left:10px">${date}</span>
+  function buildDayTables(evList, borderColor) {
+    const days = {};
+    evList.forEach(e => { if(!days[e.date]) days[e.date]=[]; days[e.date].push(e); });
+    let tables = '';
+    Object.entries(days).forEach(([date, dayEvs]) => {
+      dayEvs.sort((a,b)=>{
+        const m=t=>{ if(!t||t==='Sepanjang Hari') return 0; const[h,mm]=(t||'0:0').split(':'); return +h*60+(+mm||0); };
+        return m(a.time_wib)-m(b.time_wib);
+      });
+      const rows = dayEvs.map(ev => {
+        const cfg = _IMP[ev.impact]||_IMP.none;
+        const dot = `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${cfg.dot}" title="${cfg.label}"></span>`;
+        let actSt = 'color:var(--sub)';
+        if (ev.actual && ev.forecast) {
+          try {
+            const n=s=>parseFloat(String(s).replace(/[^\d.\-]/g,''));
+            const a=n(ev.actual), f=n(ev.forecast);
+            if(!isNaN(a)&&!isNaN(f)) actSt = a>=f?'color:#22c55e;font-weight:700':'color:#ef4444;font-weight:700';
+          } catch(e){}
+        }
+        const cell = v => v||'<span style="color:#374151">—</span>';
+        return `<tr style="border-top:1px solid var(--bdr)">
+          <td style="padding:7px 8px;color:var(--mut);font-size:11px;white-space:nowrap;font-family:var(--mono)">${ev.time_wib||'—'}</td>
+          <td style="padding:7px 8px;text-align:center">
+            <span style="background:var(--surf);border:1px solid var(--bdr);color:var(--txt);font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px">${ev.currency||'—'}</span>
+          </td>
+          <td style="padding:7px 8px;text-align:center">${dot}</td>
+          <td style="padding:7px 8px;color:var(--txt);font-size:12px">${ev.event}</td>
+          <td style="padding:7px 8px;text-align:center;${actSt};font-size:12px">${cell(ev.actual)}</td>
+          <td style="padding:7px 8px;text-align:center;color:var(--sub);font-size:12px">${cell(ev.forecast)}</td>
+          <td style="padding:7px 8px;text-align:center;color:var(--mut);font-size:12px">${cell(ev.previous)}</td>
+        </tr>`;
+      }).join('');
+
+      tables += `<div class="card" style="padding:0;overflow:hidden;margin-bottom:14px">
+        <div style="background:linear-gradient(90deg,#1a2035,var(--surf));padding:9px 14px;
+            border-left:4px solid ${borderColor};display:flex;justify-content:space-between;align-items:center">
+          <div>
+            <span style="color:var(--txt);font-weight:700;font-size:13px">${dayEvs[0].day}</span>
+            <span style="color:var(--mut);font-size:11px;margin-left:10px">${date}</span>
+          </div>
+          <span style="color:var(--mut);font-size:11px">${dayEvs.length} event</span>
         </div>
-        <span style="color:var(--mut);font-size:11px">${dayEvs.length} event</span>
-      </div>
-      <div style="overflow-x:auto">
-        <table class="tbl">
-          <thead><tr>
-            <th>WAKTU (WIB)</th><th style="text-align:center">MATA UANG</th>
-            <th style="text-align:center">DAMPAK</th><th>NAMA EVENT</th>
-            <th style="text-align:center">AKTUAL</th>
-            <th style="text-align:center">PERKIRAAN</th>
-            <th style="text-align:center">SEBELUMNYA</th>
-          </tr></thead>
-          <tbody>${rows}</tbody>
-        </table>
-      </div>
-    </div>`;
-  });
+        <div style="overflow-x:auto">
+          <table class="tbl">
+            <thead><tr>
+              <th>WAKTU (WIB)</th><th style="text-align:center">MATA UANG</th>
+              <th style="text-align:center">DAMPAK</th><th>NAMA EVENT</th>
+              <th style="text-align:center">AKTUAL</th>
+              <th style="text-align:center">PERKIRAAN</th>
+              <th style="text-align:center">SEBELUMNYA</th>
+            </tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </div>`;
+    });
+    return tables;
+  }
+
+  const sectionUpcoming = upcoming.length
+    ? `<div style="margin-bottom:20px">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;
+            padding:10px 14px;border-radius:8px;
+            background:linear-gradient(90deg,rgba(59,130,246,0.12),rgba(234,179,8,0.08));
+            border:1px solid rgba(59,130,246,0.35)">
+          <span style="font-size:18px">⏰</span>
+          <div>
+            <div style="color:#60a5fa;font-weight:700;font-size:14px">Akan Keluar</div>
+            <div style="color:var(--mut);font-size:11px">${upcoming.length} event belum memiliki data aktual</div>
+          </div>
+        </div>
+        ${buildDayTables(upcoming, '#3b82f6')}
+      </div>`
+    : `<div style="text-align:center;padding:18px;color:var(--mut);font-size:13px;
+          border:1px dashed rgba(59,130,246,0.35);border-radius:8px;margin-bottom:20px">
+        ⏰ Tidak ada event yang akan keluar
+      </div>`;
+
+  const sectionReleased = released.length
+    ? `<div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;
+            padding:10px 14px;border-radius:8px;
+            background:linear-gradient(90deg,rgba(34,197,94,0.12),rgba(34,197,94,0.05));
+            border:1px solid rgba(34,197,94,0.35)">
+          <span style="font-size:18px">✅</span>
+          <div>
+            <div style="color:#4ade80;font-weight:700;font-size:14px">Sudah Keluar</div>
+            <div style="color:var(--mut);font-size:11px">${released.length} event sudah memiliki data aktual</div>
+          </div>
+        </div>
+        ${buildDayTables(released, '#22c55e')}
+      </div>`
+    : `<div style="text-align:center;padding:18px;color:var(--mut);font-size:13px;
+          border:1px dashed rgba(34,197,94,0.35);border-radius:8px">
+        ✅ Belum ada event yang sudah keluar
+      </div>`;
 
   el.innerHTML = `<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
     <div class="ct" style="margin-bottom:0">📅 Kalender Ekonomi Forex Minggu Ini</div>${_badge(generated)}</div>
-  ${stats}${legend}${tables}`;
+  ${stats}${legend}${sectionUpcoming}${sectionReleased}`;
 }
 
 // ── SENTIMEN ──────────────────────────────────────────────────
