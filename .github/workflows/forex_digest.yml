@@ -72,9 +72,10 @@ jobs:
             echo "NETLIFY_AUTH_TOKEN / NETLIFY_SITE_ID belum diset → skip deploy."
             exit 0
           fi
-          # Zip seluruh folder files-forex
+          # Zip isi folder files-forex langsung ke root (tanpa subfolder)
+          cd "${{ github.workspace }}/files-forex"
+          zip -r ../deploy.zip .
           cd "${{ github.workspace }}"
-          zip -r deploy.zip files-forex/
           # POST zip ke Netlify Deploy API
           RESPONSE=$(curl -s -w "\n%{http_code}" \
             -X POST \
