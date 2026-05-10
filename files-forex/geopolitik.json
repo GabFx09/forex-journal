@@ -1,5 +1,5 @@
 {
-  "generated": "09 May 2026 12:42 WIB",
+  "generated": "10 May 2026 07:24 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,252 +7,92 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.475,
-      "count": 36
+      "score": -0.406,
+      "count": 21
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.455,
-      "count": 34
+      "score": -0.372,
+      "count": 19
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.554,
-      "count": 30
+      "score": -0.342,
+      "count": 18
     },
     {
       "pair": "EUR/USD",
       "direction": "Netral →",
-      "score": 0.031,
-      "count": 27
+      "score": -0.01,
+      "count": 15
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.262,
-      "count": 9
+      "score": 0.43,
+      "count": 7
     },
     {
-      "pair": "AUD/USD",
+      "pair": "CAD/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.202,
+      "count": 1
+    },
+    {
+      "pair": "NOK/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.202,
+      "count": 1
+    },
+    {
+      "pair": "USD/RUB",
       "direction": "Tekanan Naik ▲",
-      "score": 0.084,
-      "count": 8
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.084,
-      "count": 8
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Netral →",
-      "score": -0.039,
-      "count": 5
+      "score": 0.532,
+      "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "investingLive Americas market news wrap: US jobs growth surprises to the upside",
-      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-us-jobs-growth-surprises-to-the-upside-20260508/",
-      "summary": "US April non-farm payrolls +115K vs +62K expected Canada employment change -17.7K vs 15.0K estimate. Unemployment rate 6.9% vs 6.7% expected US and Iran could resume talks next week -- report ECB's Nagel: ECB will do whatever necessary to him he energy price surge Iran: From now on actions of the US",
-      "published": "09 May 2026 03:27 WIB",
-      "sentiment": "Netral",
-      "score": 0.008,
-      "emoji": "⚪"
-    },
-    {
-      "source": "ForexLive",
-      "title": "US stock market close: Another big week of gains ends with a flourish",
-      "url": "https://investinglive.com/stock-market-update/us-stock-market-close-another-big-week-of-gains-ends-with-a-flourish-20260508/",
-      "summary": "On the day: S&P 500 +0.85% Nasdaq Comp +1.7% DJIA flat Russell 2000 +0.75% Toronto TSX Comp +0.6% On the week: S&P 500 +2.3% Nasdaq Comp +4.5% DJIA +0.2% Russell 2000 +1.7% Toronto TSX Comp +0.5% The S&P 500 and Nasdaq Composite hit fresh all-time highs today. A surprisingly strong U.S. jobs report—",
-      "published": "09 May 2026 03:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.911,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "US and Iran could resume talks next week -- report",
-      "url": "https://investinglive.com/news/us-and-iran-could-resume-talks-next-week-report-20260508/",
-      "summary": "The WSJ is out with the latest leak on US-Iran negotiations: Talks could resume as early as next week Iran remains against transferring nuclear material Iran and the US working with mediators to formulate a 14-point MOU that would set the parameters for a month of talks to end the war The US would '",
-      "published": "09 May 2026 02:51 WIB",
+      "title": "Newsquawk Week in Focus: US Inflation and Retail Sales, Chinese inflation, Trump-Xi meet",
+      "url": "https://investinglive.com/centralbank/newsquawk-week-in-focus-us-inflation-and-retail-sales-chinese-inflation-trump-xi-meet-20260510/",
+      "summary": "Sat: Chinese Trade Mon: Chinese Inflation (Apr), Norwegian Inflation (Apr) Tue: BoJ SOO (Apr), IEA STEO (May), EU Informal Meeting of Energy Ministers (May 12-13), Japanese Household Spending (Mar), German HICP Final (Apr), Italian Industrial Production (Mar), German ZEW (May), US Inflation (Apr) We",
+      "published": "10 May 2026 07:05 WIB",
       "sentiment": "Bearish",
-      "score": -0.881,
+      "score": -0.202,
       "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "WTI crude oil settles up 61 cents to $95.42 per barrel",
-      "url": "https://investinglive.com/commodities/wti-crude-oil-settles-up-61-cents-to-9542-per-barrel-20260508/",
-      "summary": "WTI crude oil finished modestly higher today despite the ongoing exchange of fire between Iran and the USA. The market is waiting for the next steps in negotiations and whether both sides are able to open the Strait of Hormuz while they negotiate details of any lasting peace. What I will notice is t",
-      "published": "09 May 2026 01:43 WIB",
-      "sentiment": "Bearish",
-      "score": -0.823,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "AUDUSD bounces off support keeps the buyers in firm control",
-      "url": "https://investinglive.com/technical-analysis/audusd-bounces-off-support-keeps-the-buyers-in-firm-control-20260508/",
-      "summary": "The AUDUSD fell sharply yesterday, breaking back below a key ceiling/floor zone between 0.7221 and 0.7227. That bearish break helped push the pair down toward the next swing area support between 0.7193 and 0.7200. In early Asian-Pacific trading, buyers leaned against that support zone for several ho",
-      "published": "09 May 2026 00:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.852,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Iran: From now  on actions of the US maritime blockade will be met with military response",
-      "url": "https://investinglive.com/news/iran-from-now-on-actions-of-the-us-maritime-blockade-will-be-met-with-military-response-20260508/",
-      "summary": "An Iranian national security member is on the wires saying: From now on the actions of the US for maritime blockade will be met with Iran's military response. America should put some escorts for its destroyers so that they can save their forces if they think Although the comments are reportedly from",
-      "published": "08 May 2026 22:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.361,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Fed's Goolsbee: inflation has not been great.  Job market is pretty much stable",
-      "url": "https://investinglive.com/centralbank/feds-goolsbee-inflation-has-not-been-great-job-market-is-pretty-much-stable-20260508/",
-      "summary": "The job market is pretty much stable. There is not a lot of evidence that job market is falling apart. Inflation has not been great and is going the wrong way. There is not a lot of evidence of the job market deterioration. Inflation rises not just energy, was elevated before war. We stop making pro",
-      "published": "08 May 2026 22:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.841,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "University of Michigan sentiment for May 48.2 versus 49.5 estimate",
-      "url": "https://investinglive.com/news/university-of-michigan-sentiment-for-may-482-versus-495-estimate-20260508/",
-      "summary": "Prior month 49.8 Sentiment index 48.2 versus 49.5 estimate Current conditions 47.8 versus 52.0 estimate expectations index 48.5 versus 48.1 estimate 1-year inflation expectations 4.5% versus 4.7% last month. 5-year inflation expectations 3.4% versus 3.5% last month The numbers are at multi-decade lo",
-      "published": "08 May 2026 21:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.771,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "China: War risks reshape growth outlook – Rabobank",
-      "url": "https://www.fxstreet.com/news/china-war-risks-reshape-growth-outlook-rabobank-202605082221",
-      "summary": "Rabobank strategists assess how the US and Israel’s war against Iran could affect China. They note higher Oil and gas prices and global cost-push inflation, but argues China’s inflation is unlikely to force PBOC tightening.",
-      "published": "09 May 2026 05:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.714,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Taiwan: Export slowdown but outlook bright – ING",
-      "url": "https://www.fxstreet.com/news/taiwan-export-slowdown-but-outlook-bright-ing-202605082128",
-      "summary": "ING’s Chief Economist for Greater China, Lynn Song, notes that Taiwan’s April trade data showed slower export and import growth versus expectations, with the trade surplus easing to USD14.35bn.",
-      "published": "09 May 2026 04:28 WIB",
-      "sentiment": "Bullish",
-      "score": 0.919,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Indonesia: Growth momentum seen easing – Standard Chartered",
-      "url": "https://www.fxstreet.com/news/indonesia-growth-momentum-seen-easing-standard-chartered-202605082049",
-      "summary": "Standard Chartered’s Aldian Taloputra notes Indonesia’s GDP growth accelerated to 5.6% year-on-year in Q1 2026, driven by front-loaded fiscal stimulus, seasonal festival spending and limited pass-through from higher Oil prices.",
-      "published": "09 May 2026 03:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.818,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Silver Price Analysis: Climbs above $80 as bulls eye weekly high",
-      "url": "https://www.fxstreet.com/news/silver-price-analysis-climbs-above-80-as-bulls-eye-weekly-high-202605082031",
-      "summary": "Silver (XAG/USD) price advances more than 2.50% on Friday, set to end the week with gains of over 7% sponsored by US Dollar (USD) weakness and falling Oil prices. At the time of writing, XAG/USD trades at $80.72, after bouncing off daily lows of $78.16.",
-      "published": "09 May 2026 03:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.501,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "WTI declines as US-Iran deal hopes and Hormuz outlook weigh on Oil",
-      "url": "https://www.fxstreet.com/news/wti-declines-as-us-iran-deal-hopes-and-hormuz-outlook-weigh-on-oil-202605081928",
-      "summary": "West Texas Intermediate (WTI), the US crude Oil benchmark, falls some 2.49% on Friday, poised to end the week with losses of over 7.39%, amid growing speculation that the US and Iran will reach an agreement to end the conflict.",
-      "published": "09 May 2026 02:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.134,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Forecasting the upcoming week: US Dollar weakens ahead of key US CPI data and Fed speeches",
-      "url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-dollar-weakens-ahead-of-key-us-cpi-data-and-fed-speeches-202605081917",
-      "summary": "The US Dollar Index (DXY) fell toward the 97.90 region on Friday, pressured by improving risk sentiment and easing safe-haven demand after reports suggested the United States (US) and Iran are still attempting to preserve a fragile ceasefire framework despite renewed military incidents in the Middle",
-      "published": "09 May 2026 02:17 WIB",
-      "sentiment": "Netral",
-      "score": -0.038,
-      "emoji": "⚪"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "USD/JPY slides toward 156.60 as safe-haven Yen gains on Middle East tensions",
-      "url": "https://www.fxstreet.com/news/usd-jpy-slides-toward-15660-as-safe-haven-yen-gains-on-middle-east-tensions-202605081831",
-      "summary": "The USD/JPY pair fell toward the 156.60 region on Friday, as the Japanese Yen (JPY) gained modest support from safe-haven flows despite resilient United States (US) labor-market data limiting broader downside pressure on the US Dollar (USD).",
-      "published": "09 May 2026 01:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.216,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Gold swells as Middle East peace hopes hit the US Dollar",
-      "url": "https://www.fxstreet.com/news/gold-swells-as-middle-east-peace-hopes-hit-the-us-dollar-202605081811",
-      "summary": "Gold (XAU/USD) rises some 0.75% on Friday as financial markets remain optimistic about a possible end to the Middle East conflict, which could potentially drive Oil prices lower and ease inflationary pressures.",
-      "published": "09 May 2026 01:11 WIB",
-      "sentiment": "Bullish",
-      "score": 0.569,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "USD: Inflation pressures stay firm – Wells Fargo",
-      "url": "https://www.fxstreet.com/news/usd-inflation-pressures-stay-firm-wells-fargo-202605081803",
-      "summary": "Wells Fargo Economics expects April U.S. CPI to firm, with headline inflation rising toward 3.8% year-over-year and core near 2.9%.",
-      "published": "09 May 2026 01:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.098,
-      "emoji": "🟢"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Russia holds scaled-back WW2 victory parade as worries over war in Ukraine deepen",
+      "title": "S&P 500 is at new highs, but BofA warns CTA buying is losing momentum",
+      "url": "https://www.investing.com/news/stock-market-news/sp-500-is-at-new-highs-but-bofa-warns-cta-buying-is-losing-momentum-4674661",
+      "summary": "",
+      "published": "09 May 2026 22:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.692,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Putin attends scaled-back WW2 victory parade as worries deepen over Ukraine war",
       "url": "https://www.investing.com/news/stock-market-news/russia-holds-scaledback-ww2-victory-parade-as-worries-over-war-in-ukraine-deepen-4674411",
       "summary": "",
-      "published": "09 May 2026 12:24 WIB",
+      "published": "09 May 2026 22:24 WIB",
       "sentiment": "Bearish",
       "score": -0.852,
       "emoji": "🔴"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Trump hopes for extension to agreed three-day Ukraine-Russia ceasefire",
-      "url": "https://www.investing.com/news/stock-market-news/russia-and-ukraine-accuse-each-other-of-violating-ceasefire-4671068",
+      "source": "Investing.com Economy",
+      "title": "China April exports rebound strongly, trade surplus widens ahead of Trump visit",
+      "url": "https://www.investing.com/news/economic-indicators/china-april-exports-rebound-strongly-trade-surplus-widens-ahead-of-trump-visit-4674595",
       "summary": "",
-      "published": "09 May 2026 07:12 WIB",
+      "published": "09 May 2026 14:30 WIB",
       "sentiment": "Bullish",
-      "score": 0.599,
+      "score": 0.353,
       "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Nike sued by consumers for not refunding tariff costs",
-      "url": "https://www.investing.com/news/stock-market-news/nike-sued-by-consumers-for-not-refunding-tariff-costs-4673936",
-      "summary": "",
-      "published": "09 May 2026 04:31 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
     },
     {
       "source": "Investing.com Economy",
@@ -265,123 +105,123 @@
       "emoji": "🔴"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Trump administration appeals latest court loss on tariffs",
-      "url": "https://www.investing.com/news/economic-indicators/trump-administration-appeals-latest-court-loss-on-tariffs-4673719",
-      "summary": "",
-      "published": "09 May 2026 02:36 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Chalmers on 'Unacceptable' Australian Housing Status Quo",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-09/chalmers-on-unacceptable-australian-housing-status-quo-video",
+      "summary": "Australian Treasurer Jim Chalmers will hand down the 2026-27 Federal Budget on May 12. It's framed as one the country's most consequential Budgets against a backdrop of inflation-fuelling global energy shocks, climbing cost-of-living, slowing productivity and a national debt edging toward A$1 trilli",
+      "published": "10 May 2026 06:54 WIB",
       "sentiment": "Bearish",
-      "score": -0.398,
+      "score": -0.318,
       "emoji": "🔴"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "US says it will revert to higher tariffs on EU goods if Brussels misses July 4 deadline",
-      "url": "https://www.investing.com/news/economic-indicators/us-says-it-will-revert-to-higher-tariffs-on-eu-goods-if-brussels-misses-july-4-deadline-4673540",
-      "summary": "",
-      "published": "08 May 2026 23:36 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Traders Looking for Next Leg in Global Stocks Rally Bet on Asia",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-09/traders-looking-for-next-leg-in-global-stocks-rally-bet-on-asia",
+      "summary": "As the focus moves away from the Iran war, investors and strategists alike are looking for the next leg up in equities. Many are turning to Asia.",
+      "published": "10 May 2026 05:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.306,
+      "score": -0.599,
       "emoji": "🔴"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Trump administration will win appeal of ruling against temporary tariffs, US trade chief says",
-      "url": "https://www.investing.com/news/economic-indicators/trump-administration-will-win-appeal-of-ruling-against-temporary-tariffs-us-trade-chief-says-4673313",
-      "summary": "",
-      "published": "08 May 2026 22:18 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Bloomberg This Weekend 5/9/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-09/bloomberg-this-weekend-5-9-2026-video",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Daniel Dae Kim, Host and Executive Producer of 'K-Everything,' Nicholas Burns, Former Ambassador to",
+      "published": "10 May 2026 00:35 WIB",
       "sentiment": "Bullish",
-      "score": 0.666,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "Costa Rica’s Laura Fernandez vows ’war’ on crime ahead of inauguration",
-      "url": "https://www.investing.com/news/economic-indicators/costa-ricas-laura-fernandez-vows-war-on-crime-ahead-of-inauguration-4672735",
-      "summary": "",
-      "published": "08 May 2026 20:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.622,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Reuters Currencies",
-      "title": "India's SBI maintains credit outlook, but warns about hit from prolonged war - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR01VUVJZV0lmckxNcm1LVlpzNV9jQS1qRGlGMVY3elVvS2dzeVlyRUo2U3dBVGdLWHp2czFaUEllVHZPQ0NRZHAyYkdlRG41VWpNM3RwajFIY3psQm5CV2tjUWhrZTk0cEVweGpSQ0J4WU13R3RWX1ZOS20xcEtMQWtOcEZkTWZEVDY5c0s5d2FJZ2lmYkhjVg?oc=5",
-      "summary": "India's SBI maintains credit outlook, but warns about hit from prolonged war Reuters",
-      "published": "08 May 2026 19:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.946,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Iran War Drives Africa’s Fertilizer Crisis",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-09/iran-war-drives-africa-s-fertilizer-crisis",
-      "summary": "Africa’s farmland could be worth $1 trillion, but global shocks are raising the stakes. Fertilizer shortages, rising costs and supply disruptions are putting pressure on food production across the continent. (Source: Bloomberg)",
-      "published": "09 May 2026 12:00 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "China’s Energy Imports Plunge as War Chokes Hormuz Shipments",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-09/china-s-energy-imports-plunge-as-war-chokes-hormuz-shipments",
-      "summary": "Chinese energy imports fell sharply in April, as the near-halt to shipments through the Strait of Hormuz choked a vital channel for crude oil and natural gas.",
-      "published": "09 May 2026 11:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.858,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pakistan to Receive $1.32 Billion as IMF Board Approves Tranches",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-08/pakistan-to-receive-1-32-billion-as-imf-board-approves-tranches",
-      "summary": "Pakistan will receive about $1.32 billion after the International Monetary Fund Board approved loan tranches under existing facilities, boosting the country’s ability to shield its economy from increased global risks.",
-      "published": "09 May 2026 05:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.768,
+      "score": 0.382,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Winning the Degenerate Economy: Masters in Business with Howard Lindzon",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-08/winning-the-degenerate-economy-howard-lindzon-video",
-      "summary": "Barry speaks with Howard Lindzon, co-founder and CEO of StockTwits, and founder and managing partner at Social Leverage. They discuss his outlook for venture capital investing including what he sees as potentially profitable from human behavior. (Source: Bloomberg)",
-      "published": "09 May 2026 04:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.663,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Private Equity Taps Junk Market for Dividends as Exits Stall",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-08/pe-firms-tap-europe-s-junk-market-for-dividends-as-exits-stall",
-      "summary": "Private equity firms are once again tapping the European junk debt market to pay themselves dividends as market volatility fueled by the Iran war and AI anxiety limits their ability to cash out.",
-      "published": "08 May 2026 18:32 WIB",
+      "title": "Health Officials Downplay Pandemic Risk From Cruise Hantavirus Outbreak",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-09/health-officials-downplay-risk-from-hantavirus-outbreak-video",
+      "summary": "The deadly hantavirus outbreak on a cruise ship doesn’t risk triggering the next pandemic, World Health Organization officials said, downplaying an incident that has raised concern about a new viral contagion. Former White House COVID Response Coordinator and Infectious Disease Expert Dr. Ashish Jha",
+      "published": "10 May 2026 00:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.791,
+      "score": -0.815,
       "emoji": "🔴"
     },
     {
-      "source": "Google News Forex",
-      "title": "Japan Turns to the United States and the Bank of Japan to Defend the Yen Against Market Pressure - Modern Diplomacy",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPamg5VUh0YVRsU29vYl9jdXRyVTZ4THN3RHVfREZfbXl4SWNMVEZyTjBMWFRxSEVkampISmZPOVVFYnJnc2M5YkVmb09IaldWTW5LWWNuTmF2bVh3V1RMd0NFX2E1VE0tMmpobWpGaFhOalRFM05URTFidG9ZcThSeEF3NmZTZGlLUGlIVEJkNk12V0NsYmtvR3NlY1VKXzFxTUdJTHdoTzc4UmZKUEF0RXlEdndMTWc5Z0FSSWxQN2dJRTF4Sk5qRVdiWVhvRTNZ?oc=5",
-      "summary": "Japan Turns to the United States and the Bank of Japan to Defend the Yen Against Market Pressure Modern Diplomacy",
-      "published": "08 May 2026 14:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.376,
-      "emoji": "🟢"
+      "source": "Bloomberg Markets",
+      "title": "China Summit Stays on Track Despite Iran Concerns",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-09/china-summit-stays-on-track-despite-iran-concerns-video",
+      "summary": "President Donald Trump is moving forward with plans to meet with Xi Jinping in Beijing despite Chinese officials' unease about holding the meeting before the US-Iran conflict is resolved. Former Ambassador to China and Harvard University Professor of Diplomacy and International Relations Nicholas Bu",
+      "published": "09 May 2026 23:56 WIB",
+      "sentiment": "Netral",
+      "score": 0.008,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "\"China is Just Watching\": Ro Khanna on Why the Iran Conflict is a Gift to Beijing",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-09/ro-khanna-on-why-the-iran-conflict-is-a-gift-to-beijing-video",
+      "summary": "With 80,000 manufacturing jobs lost, Rep. Ro Khanna (D-CA) argues that the US needs a tougher, more strategic approach to China. He discusses the impact of unfair trade practices on American ports and why lowering the cost of fertilizer and reopening the Strait of Hormuz are critical for the US econ",
+      "published": "09 May 2026 23:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.92,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "DOJ Probing Suspicious Oil Trades Tied To Iran War",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-09/doj-probing-suspicious-oil-trades-tied-to-iran-war-video",
+      "summary": "Chair of the SEC and CFTC Gary Gensler joins David Gura and Christina Ruffini on Bloomberg This Weekend to discuss the US Justice Department and Commodity Futures Trading Commission are probe into at least four suspicious transactions in the oil market where traders made more than $2.6 billion. (Sou",
+      "published": "09 May 2026 23:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.83,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Awaits Iranian Response After Hormuz Clashes Strain Ceasefire",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-09/us-awaits-response-after-hormuz-clashes-strain-ceasefire-video",
+      "summary": "The US was waiting on Iran’s response to its latest proposal to end the war after suggesting word could come imminently, following clashes in the Strait of Hormuz that strained a month-long ceasefire. Bloomberg News Deputy UAE Bureau Chief Abeer Abu Omar and White House Correspondent Jeff Mason join",
+      "published": "09 May 2026 21:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.758,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Earnings Bonanza That Trounced Forecasts Fuels Record Stocks Run",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-09/earnings-bonanza-that-no-one-saw-coming-fuels-stocks-record-run",
+      "summary": "The war in Iran was supposed to derail the rally in US stocks and weigh on company outlooks. Instead a blowout earnings season is providing fresh fodder for Wall Street bulls.",
+      "published": "09 May 2026 20:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.586,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Iran War Is Draining World’s Oil Buffer at an Unprecedented Pace",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-09/iran-war-is-draining-world-s-oil-buffer-at-unprecedented-pace",
+      "summary": "The world has burned through oil inventories at a record speed as the Iran war throttles flows from the Persian Gulf, eating into the very buffer that protects against supply shocks.",
+      "published": "09 May 2026 19:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.833,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Trump says Russia and Ukraine to observe three-day ceasefire",
-      "url": "https://www.bbc.com/news/articles/c202zn5gg0lo?at_medium=RSS&at_campaign=rss",
-      "summary": "It comes as the two countries accused each other of violating separate ceasefires to cover the celebrations of the Soviet Union's victory over Nazi Germany.",
-      "published": "09 May 2026 01:59 WIB",
+      "title": "Lebanon says Israeli strikes killed 39",
+      "url": "https://www.bbc.com/news/articles/cn4pjegk358o?at_medium=RSS&at_campaign=rss",
+      "summary": "Israel and Hezbollah have continued to trade fire despite a ceasefire deal being announced last month.",
+      "published": "10 May 2026 04:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.611,
+      "score": -0.696,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Putin denounces Nato at scaled-back Victory Day parade",
+      "url": "https://www.bbc.com/news/articles/c626xjq0q0vo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Russian leader used his annual speech to justify his so-called special military operation in Ukraine.",
+      "published": "09 May 2026 19:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.052,
       "emoji": "🔴"
     },
     {
@@ -389,20 +229,20 @@
       "title": "Iran accuses US of 'reckless military adventure'",
       "url": "https://www.bbc.com/news/articles/c99lpn9ze8ro?at_medium=RSS&at_campaign=rss",
       "summary": "Abbas Araghchi says the US attacks each time there is a diplomatic solution on the table.",
-      "published": "09 May 2026 10:30 WIB",
+      "published": "09 May 2026 13:13 WIB",
       "sentiment": "Bearish",
       "score": -0.607,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Greece examines mystery naval drone found in Ionian Sea",
-      "url": "https://www.bbc.com/news/articles/cx217expnvvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Greek media say the drone, which reportedly had explosives, could be either Ukrainian or linked to the Russia-Ukraine war.",
-      "published": "09 May 2026 00:53 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴"
+      "title": "Australia's right-wing One Nation party scores historic parliamentary win",
+      "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
+      "summary": "One Nation gains its first seat in the lower house, in a by-election seen as a key test for the populist party.",
+      "published": "09 May 2026 21:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.935,
+      "emoji": "🟢"
     },
     {
       "source": "BBC World",
@@ -416,232 +256,192 @@
     },
     {
       "source": "BBC World",
-      "title": "Australian by-election a litmus test for right-wing One Nation Party",
-      "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
-      "summary": "Victory for the populist party in Farrer, New South Wales, would see One Nation's first MP elected to Australia's national parliament.",
-      "published": "09 May 2026 05:39 WIB",
-      "sentiment": "Bullish",
-      "score": 0.66,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC World",
-      "title": "Three dead after volcano erupts on Indonesian island",
-      "url": "https://www.bbc.com/news/articles/cp3p418x513o?at_medium=RSS&at_campaign=rss",
-      "summary": "Officials had previously issued warnings on climbing the active volcano due to safety concerns.",
-      "published": "08 May 2026 18:54 WIB",
+      "title": "UK warship HMS Dragon heads to Middle East for potential Strait of Hormuz mission",
+      "url": "https://www.bbc.com/news/articles/c4g42j15p7qo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Ministry of Defence says the ship will prepare to join an international mission to safeguard shipping, but only when fighting in the region ends.",
+      "published": "09 May 2026 21:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.33,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "White House calls Mark Hamill 'sick' after actor's Trump grave post",
-      "url": "https://www.bbc.com/news/articles/c4g723pkgllo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Star Wars actor apologised and deleted the post, which contained an AI image of the president in a shallow grave.",
-      "published": "08 May 2026 18:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.973,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
-      "url": "https://www.bbc.com/news/articles/c86dp85g59xo?at_medium=RSS&at_campaign=rss",
-      "summary": "US President Donald Trump says the ceasefire between Washington and Tehran is still in place.",
-      "published": "08 May 2026 15:43 WIB",
-      "sentiment": "Bearish",
-      "score": -0.26,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Business",
-      "title": "The companies making billions from the Iran war",
-      "url": "https://www.bbc.com/news/articles/ce8pyyz5e0ro?at_medium=RSS&at_campaign=rss",
-      "summary": "Through surging profits or soaring share prices, the war has been a boon for some firms.",
-      "published": "08 May 2026 15:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.652,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Business",
-      "title": "US jobs data beats expectations for second month in a row",
-      "url": "https://www.bbc.com/news/articles/cx21664lp32o?at_medium=RSS&at_campaign=rss",
-      "summary": "The solid figures came despite rising gas prices and economic uncertainty sparked by the Iran war.",
-      "published": "09 May 2026 03:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.691,
+      "score": -0.41,
       "emoji": "🔴"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Plaid Cymru ready to run Wales, leader says, after party wins Senedd vote",
-      "url": "https://www.bbc.com/news/articles/cdrpxvz61vko?at_medium=RSS&at_campaign=rss",
-      "summary": "Plaid Cymru becomes the biggest party in the Welsh Parliament, ending Labour's century long election winning streak in Wales.",
-      "published": "09 May 2026 04:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.932,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "SNP wins Scottish election as Reform and Labour tie for second",
-      "url": "https://www.bbc.com/news/articles/ckgp5ryv4qno?at_medium=RSS&at_campaign=rss",
-      "summary": "John Swinney's party finished comfortably ahead of its rivals, but short of an overall majority.",
-      "published": "09 May 2026 07:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.625,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Analysis: Many Labour MPs are blaming the boss for elections body blow",
-      "url": "https://www.bbc.com/news/articles/c5yxr7zng6po?at_medium=RSS&at_campaign=rss",
-      "summary": "Sir Keir Starmer is facing what looks like a coordinated attempt to get him to set a timetable for his departure.",
-      "published": "09 May 2026 03:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.178,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Reform election gains show shift in British politics, says Farage",
-      "url": "https://www.bbc.com/news/articles/c0r255xlr59o?at_medium=RSS&at_campaign=rss",
-      "summary": "Labour and the Conservatives suffer losses at the expense of Reform across England.",
-      "published": "09 May 2026 05:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.586,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Polanski says two-party politics 'dead' after election gains for Greens",
-      "url": "https://www.bbc.com/news/articles/c4g08e97523o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Greens secured their first-ever elected mayors and took control of councils, including Norwich.",
-      "published": "09 May 2026 02:05 WIB",
-      "sentiment": "Netral",
-      "score": 0.028,
-      "emoji": "⚪"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Sir John Curtice: Election results show politics in the UK has fragmented",
-      "url": "https://www.bbc.com/news/articles/ce8p4yn448vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Reform are the winners so far, with more results still to be declared.",
-      "published": "09 May 2026 06:04 WIB",
+      "title": "Challenge Starmer by Monday or I will, Labour MP tells cabinet",
+      "url": "https://www.bbc.com/news/articles/cx210w87l4do?at_medium=RSS&at_campaign=rss",
+      "summary": "Catherine West tells the BBC if a leadership hopeful does not put themselves forward she will try to trigger a contest.",
+      "published": "10 May 2026 04:22 WIB",
       "sentiment": "Bullish",
       "score": 0.477,
       "emoji": "🟢"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Cambodians struggle with displaced lives amid tense ceasefire with Thailand",
-      "url": "https://www.aljazeera.com/news/2026/5/9/cambodians-struggle-with-displaced-lives-amid-tense-ceasefire-with-thailand?traffic_source=rss",
-      "summary": "Families displaced by fighting fear new clashes with Thailand, say education among areas most affected by border war.",
-      "published": "09 May 2026 08:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.935,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran war live: US expects Tehran’s reply to peace deal; ‘clashes’ in Hormuz",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/5/9/iran-war-live-tehrans-reply-to-us-deal-expected-amid-clashes-in-hormuz?traffic_source=rss",
-      "summary": "Israel killed 31 people in southern Lebanon on Friday, including a rescue worker, Lebanon's National News Agency said.",
-      "published": "09 May 2026 07:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.382,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Could Labour and Conservative party dominance in UK politics be ending?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/5/8/could-labours-and-the-conservatives-dominance-in-uk-politics-be-ending?traffic_source=rss",
-      "summary": "Britain's prime minister is under pressure to quit after huge losses in local elections.",
-      "published": "09 May 2026 02:21 WIB",
+      "source": "BBC Top Stories",
+      "title": "Labour MPs have put Starmer on notice after election battering. Can he turn it around?",
+      "url": "https://www.bbc.com/news/articles/cx21e79qqlgo?at_medium=RSS&at_campaign=rss",
+      "summary": "Even the prime minister's most loyal ministers are pushing him to change, writes Laura Kuenssberg.",
+      "published": "09 May 2026 20:43 WIB",
       "sentiment": "Bullish",
-      "score": 0.146,
+      "score": 0.526,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Steve Rosenberg: This year's Victory Day parade in Moscow felt very different",
+      "url": "https://www.bbc.com/news/articles/cj9pem481rwo?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC's Russia editor reports from a Red Square with none of the military hardware which the Kremlin normally showcases to project power internationally.",
+      "published": "10 May 2026 00:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Antisemitism 'a problem for all of us to fix', religious leaders say in letter",
+      "url": "https://www.bbc.com/news/articles/cy92v3j999yo?at_medium=RSS&at_campaign=rss",
+      "summary": "In recent months, there have been a string of attacks at synagogues and other Jewish sites.",
+      "published": "10 May 2026 06:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.761,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "How the winner-takes-all voting system has turned on Labour and the Tories",
+      "url": "https://www.bbc.com/news/articles/cdxpqyndqwlo?at_medium=RSS&at_campaign=rss",
+      "summary": "The first-past-the-post system favoured Reform in this English local elections",
+      "published": "10 May 2026 06:35 WIB",
+      "sentiment": "Bullish",
+      "score": 0.421,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "SNP leader John Swinney rules out Holyrood talks with Reform UK",
+      "url": "https://www.bbc.com/news/articles/cddpevvv97jo?at_medium=RSS&at_campaign=rss",
+      "summary": "The nationalists secured 58 seats in their fifth consecutive election win, but that is short of an overall majority.",
+      "published": "09 May 2026 23:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.502,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Plaid Cymru wants to run Welsh government on its own, leader says",
+      "url": "https://www.bbc.com/news/articles/cdrpxvz61vko?at_medium=RSS&at_campaign=rss",
+      "summary": "Rhun ap Iorwerth said he will try to run a minority government after his party's Senedd election triumph.",
+      "published": "09 May 2026 20:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.477,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Adolescence, Amandaland and Traitors stars ready for Bafta TV Awards",
+      "url": "https://www.bbc.com/news/articles/c0q2wqpzqwyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Big names and rising stars will be honoured on the biggest night in the British TV calendar.",
+      "published": "10 May 2026 06:05 WIB",
+      "sentiment": "Bullish",
+      "score": 0.747,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "The Papers: 'Plot to oust Starmer' and 'Gord help us all'",
+      "url": "https://www.bbc.com/news/articles/c5yrx3dl9vqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sunday's papers lead on the fallout from the local elections and Gordon Brown's return to politics.",
+      "published": "10 May 2026 06:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.322,
       "emoji": "🟢"
     },
     {
       "source": "Al Jazeera",
-      "title": "Al Jazeera reporter witnesses Israeli strikes on Lebanon",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/8/al-jazeera-reporter-witnesses-israeli-strikes-on-lebanon?traffic_source=rss",
-      "summary": "Israel has increased its attacks across southern Lebanon. Al Jazeera’s Obaida Hitto reports from Tyre.",
-      "published": "09 May 2026 02:20 WIB",
+      "title": "Iran war live: IRGC warns US against attacks on ships; Israel bombs Lebanon",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/10/iran-war-live-irgc-warns-us-against-attacks-on-ships-israel-bombs-lebanon?traffic_source=rss",
+      "summary": "US-Iran ceasefire holds as Tehran warns Washington against attacks on tankers and Israel kills 24 people in Lebanon.",
+      "published": "10 May 2026 07:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.591,
+      "score": -0.932,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Four convicted in US related to killing of Haitian President Jovenel Moise",
-      "url": "https://www.aljazeera.com/news/2026/5/8/four-convicted-in-us-related-to-killing-of-haitian-president-jovenel-moise?traffic_source=rss",
-      "summary": "Prosecutors charge Florida served as central hub in 2021 assassination of Moise, which set off ongoing political crisis.",
-      "published": "09 May 2026 01:22 WIB",
+      "title": "One killed in Gaza as Turkish FM talks peace efforts with Hamas official",
+      "url": "https://www.aljazeera.com/news/2026/5/9/one-killed-in-gaza-as-turkish-fm-talks-peace-efforts-with-hamas-official?traffic_source=rss",
+      "summary": "Israel continues to violate a 'ceasefire' agreed to in October with hundreds more killed across the Strip.",
+      "published": "10 May 2026 04:10 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.756,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump announces three-day ceasefire in Russia-Ukraine war",
-      "url": "https://www.aljazeera.com/news/2026/5/8/trump-announces-three-day-ceasefire-in-russia-ukraine-war?traffic_source=rss",
-      "summary": "Truce will also include swap of 1,000 prisoners of war from each country, US president says.",
-      "published": "09 May 2026 01:15 WIB",
+      "title": "Three police officers killed in car bomb attack in northwest Pakistan",
+      "url": "https://www.aljazeera.com/news/2026/5/9/three-police-officers-killed-in-car-bomb-attack-in-northwest-pakistan?traffic_source=rss",
+      "summary": "Bomber and several fighters detonate explosives-laden vehicle near security post in Bannu, Khyber Pakhtunkhwa.",
+      "published": "10 May 2026 03:29 WIB",
       "sentiment": "Bearish",
-      "score": -0.902,
+      "score": -0.943,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "ASEAN leaders adopt measures to ease economic pain caused by Iran war",
-      "url": "https://www.aljazeera.com/economy/2026/5/8/asean-summit-iran-war?traffic_source=rss",
-      "summary": "The bloc currently imports more than half of its crude oil from the Middle East.",
-      "published": "09 May 2026 01:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.907,
-      "emoji": "🔴"
+      "title": "Tucker Carlson’s pivot",
+      "url": "https://www.aljazeera.com/video/the-listening-post/2026/5/9/tucker-carlsons-pivot?traffic_source=rss",
+      "summary": "From MAGA loyalist to antiwar dissident - is Tucker Carlson’s pivot sincere or a savvy reinvention?",
+      "published": "10 May 2026 01:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.557,
+      "emoji": "🟢"
     },
     {
       "source": "MarketWatch",
-      "title": "Gold has climbed back above a key trend line. Are more gains on the way?",
-      "url": "https://www.marketwatch.com/story/gold-has-climbed-back-above-a-key-trend-line-are-more-gains-on-the-way-6627e0f5?mod=mw_rss_topstories",
-      "summary": "Gold broke above an important short-term technical level on Friday — a sign that the precious metal may be starting to regain momentum after a sluggish stretch since the start of the Iran conflict.",
-      "published": "09 May 2026 04:44 WIB",
+      "title": "Just graduated? Here’s your financial cheat sheet for building real wealth.",
+      "url": "https://www.marketwatch.com/story/just-graduated-heres-your-financial-cheat-sheet-for-building-real-wealth-963f30dc?mod=mw_rss_topstories",
+      "summary": "Financial experts say building intentional saving and spending habits early can go a long way toward long-term financial success.",
+      "published": "10 May 2026 02:12 WIB",
       "sentiment": "Bullish",
-      "score": 0.101,
+      "score": 0.519,
       "emoji": "🟢"
     },
     {
-      "source": "CNBC World",
-      "title": "Marco Rubio says U.S. expects Iran response on peace deal 'today'",
-      "url": "https://www.cnbc.com/2026/05/08/marco-rubio-says-us-expects-iran-response-on-peace-deal-today.html",
-      "summary": "U.S. Secretary of State Marco Rubio said Friday that the U.S. is expecting a response from Iran on Washington's proposal to end the war.",
-      "published": "08 May 2026 23:27 WIB",
+      "source": "MarketWatch",
+      "title": "These long-distance couples are mourning the airline America loved to hate",
+      "url": "https://www.marketwatch.com/story/spirits-cheap-flights-kept-long-distance-relationships-alive-now-these-couples-are-scrambling-to-stay-connected-ca7e4745?mod=mw_rss_topstories",
+      "summary": "‘There are probably countless weddings, funerals, reunions, weekend getaways and, yes — long distance relationships — that Spirit enabled’ with its flights under $100.",
+      "published": "10 May 2026 02:11 WIB",
       "sentiment": "Bearish",
-      "score": -0.103,
+      "score": -0.226,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "Iran focus at Trump-Xi summit may delay progress on tariffs, rare earths",
-      "url": "https://www.cnbc.com/2026/05/08/iran-focus-at-trump-xi-summit-may-delay-progress-on-tariffs-rare-earths.html",
-      "summary": "Thanks to the Iran war, big issues for U.S. businesses like rare earths and supply chains may take a back seat on the agenda for the Trump-Xi summit.",
-      "published": "09 May 2026 01:44 WIB",
+      "title": "UK PM Starmer says he plans to remain in office despite crushing local elections defeat",
+      "url": "https://www.cnbc.com/2026/05/09/uk-pm-starmer-says-no-plans-to-quit-despite-local-elections-defeat.html",
+      "summary": "The appointment comes amid crushing results for Prime Minister Starmer's ruling Labour Party in local elections.",
+      "published": "09 May 2026 20:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.175,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "U.S. sanctions companies and individuals in the Middle East and China for helping Iran",
+      "url": "https://www.cnbc.com/2026/05/09/us-sanctions-entities-in-the-middle-east-and-china-for-helping-iran.html",
+      "summary": "The moves target 11 entities and three individuals based in Iran, China, Belarus and the United Arab Emirates.",
+      "published": "09 May 2026 17:10 WIB",
       "sentiment": "Bullish",
-      "score": 0.17,
+      "score": 0.532,
       "emoji": "🟢"
     },
     {
       "source": "CNBC World",
-      "title": "U.S. says it struck two Iran-flagged oil tankers trying to skirt blockade",
-      "url": "https://www.cnbc.com/2026/05/08/iran-war-oil-trump-blockade-ceasefire.html",
-      "summary": "The shaky U.S. ceasefire with Iran has been repeatedly undermined this week, even as President Donald Trump insists it remains in effect.",
-      "published": "08 May 2026 22:50 WIB",
+      "title": "The Iran war will change global energy markets in these important ways, oil executives say",
+      "url": "https://www.cnbc.com/2026/05/09/iran-war-oil-gas-energy-security.html",
+      "summary": "Iran's blockade of the Strait of Hormuz has resulted in the loss of nearly a billion barrels of oil with the shortage growing worse every day.",
+      "published": "09 May 2026 19:43 WIB",
       "sentiment": "Bearish",
-      "score": -0.58,
+      "score": -0.932,
       "emoji": "🔴"
     },
     {
@@ -653,56 +453,6 @@
       "sentiment": "Bullish",
       "score": 0.361,
       "emoji": "🟢"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Toyota fourth-quarter profit misses by wide margin as U.S. tariffs drive 49% slump",
-      "url": "https://www.cnbc.com/2026/05/08/toyota-1q-2026-earnings.html",
-      "summary": "The world's largest automaker by sales volume saw a 1.89% year-on-year rise in revenue during the fourth quarter ended March.",
-      "published": "08 May 2026 14:29 WIB",
-      "sentiment": "Bullish",
-      "score": 0.17,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Anthropic's Mythos set off a cybersecurity 'hysteria.' Experts say the threat was already here",
-      "url": "https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html",
-      "summary": "The arrival of Anthropic's Mythos jolted banks, software giants and governments into reckoning with a new era of cyber attacks. But the threat is already here.",
-      "published": "09 May 2026 03:01 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump threatens EU with ‘much higher’ tariffs if no trade deal signed by new deadline",
-      "url": "https://www.cnbc.com/2026/05/08/trump-tariffs-trade-eu-europe-deal.html",
-      "summary": "President Donald Trump said he will give the European Union until July 4 to ratify its trade agreement with the U.S.",
-      "published": "09 May 2026 00:01 WIB",
-      "sentiment": "Netral",
-      "score": 0.007,
-      "emoji": "⚪"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Gilt yields ease as UK PM Starmer says 'tough' election results won't make him quit",
-      "url": "https://www.cnbc.com/2026/05/08/uk-election-result-keir-starmer-reform-uk-green-council-markets-gilts.html",
-      "summary": "The U.K. is counting votes after an election of local councilors and devolved governments on Thursday.",
-      "published": "08 May 2026 19:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.25,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Consumer sentiment falls to fresh record low in May as surging gas prices hit outlook",
-      "url": "https://www.cnbc.com/2026/05/08/consumer-sentiment-falls-to-fresh-record-low-in-may-as-surging-gas-prices-hit-outlook.html",
-      "summary": "Surging gas prices due to the Iran war sent consumer sentiment to a new low in the early part of May.",
-      "published": "08 May 2026 23:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.86,
-      "emoji": "🔴"
     }
   ]
 }
