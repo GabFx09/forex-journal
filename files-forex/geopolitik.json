@@ -1,5 +1,5 @@
 {
-  "generated": "10 May 2026 07:24 WIB",
+  "generated": "10 May 2026 07:32 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -25,14 +25,14 @@
     {
       "pair": "EUR/USD",
       "direction": "Netral →",
-      "score": -0.01,
-      "count": 15
+      "score": -0.048,
+      "count": 14
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.43,
-      "count": 7
+      "score": 0.414,
+      "count": 6
     },
     {
       "pair": "CAD/USD",
@@ -272,16 +272,6 @@
       "published": "10 May 2026 04:22 WIB",
       "sentiment": "Bullish",
       "score": 0.477,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Labour MPs have put Starmer on notice after election battering. Can he turn it around?",
-      "url": "https://www.bbc.com/news/articles/cx21e79qqlgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Even the prime minister's most loyal ministers are pushing him to change, writes Laura Kuenssberg.",
-      "published": "09 May 2026 20:43 WIB",
-      "sentiment": "Bullish",
-      "score": 0.526,
       "emoji": "🟢"
     },
     {

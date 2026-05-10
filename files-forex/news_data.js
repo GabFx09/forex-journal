@@ -1,8 +1,8 @@
-// Diperbarui: 10 May 2026 07:24 WIB
+// Diperbarui: 10 May 2026 07:32 WIB
 window.FK_DATA = {
-  "generated": "10 May 2026 07:24 WIB",
+  "generated": "10 May 2026 07:32 WIB",
   "kalender": {
-    "generated": "10 May 2026 07:24 WIB",
+    "generated": "10 May 2026 07:32 WIB",
     "events": [
       {
         "date": "2026-05-10",
@@ -1316,13 +1316,13 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "10 May 2026 07:24 WIB",
+    "generated": "10 May 2026 07:32 WIB",
     "summary": {
-      "total": 51,
-      "bullish": 18,
-      "bearish": 29,
+      "total": 49,
+      "bullish": 17,
+      "bearish": 28,
       "netral": 4,
-      "avg_score": -0.1531,
+      "avg_score": -0.1631,
       "overall": "Bearish",
       "currency_impact": [
         {
@@ -1440,16 +1440,6 @@ window.FK_DATA = {
         "published": "09 May 2026 08:42 WIB",
         "sentiment": "Bearish",
         "score": -0.226,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Trump plans to fire US FDA chief Makary, sources say",
-        "url": "https://www.investing.com/news/stock-market-news/trump-planning-to-fire-fda-chief-makary-wsj-reports-4673651",
-        "summary": "",
-        "published": "09 May 2026 07:30 WIB",
-        "sentiment": "Bearish",
-        "score": -0.34,
         "emoji": "🔴"
       },
       {
@@ -1650,16 +1640,6 @@ window.FK_DATA = {
         "published": "10 May 2026 04:22 WIB",
         "sentiment": "Bullish",
         "score": 0.477,
-        "emoji": "🟢"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Labour MPs have put Starmer on notice after election battering. Can he turn it around?",
-        "url": "https://www.bbc.com/news/articles/cx21e79qqlgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Even the prime minister's most loyal ministers are pushing him to change, writes Laura Kuenssberg.",
-        "published": "09 May 2026 20:43 WIB",
-        "sentiment": "Bullish",
-        "score": 0.526,
         "emoji": "🟢"
       },
       {
@@ -1865,7 +1845,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "10 May 2026 07:24 WIB",
+    "generated": "10 May 2026 07:32 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1891,14 +1871,14 @@ window.FK_DATA = {
       {
         "pair": "EUR/USD",
         "direction": "Netral →",
-        "score": -0.01,
-        "count": 15
+        "score": -0.048,
+        "count": 14
       },
       {
         "pair": "GBP/USD",
         "direction": "Tekanan Naik ▲",
-        "score": 0.43,
-        "count": 7
+        "score": 0.414,
+        "count": 6
       },
       {
         "pair": "CAD/USD",
@@ -2138,16 +2118,6 @@ window.FK_DATA = {
         "published": "10 May 2026 04:22 WIB",
         "sentiment": "Bullish",
         "score": 0.477,
-        "emoji": "🟢"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Labour MPs have put Starmer on notice after election battering. Can he turn it around?",
-        "url": "https://www.bbc.com/news/articles/cx21e79qqlgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Even the prime minister's most loyal ministers are pushing him to change, writes Laura Kuenssberg.",
-        "published": "09 May 2026 20:43 WIB",
-        "sentiment": "Bullish",
-        "score": 0.526,
         "emoji": "🟢"
       },
       {
