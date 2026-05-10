@@ -274,6 +274,9 @@ textarea{resize:vertical;min-height:60px;line-height:1.5}
     <button class="nb" onclick="showTab('risk',this)">⚡ Risk Manager</button>
     <button class="nb" onclick="showTab('psy',this)">🧠 Psikologi</button>
     <button class="nb" onclick="showTab('rules',this)">📜 Aturan</button>
+    <button class="nb" onclick="showTab('kalender',this)">📅 Kalender</button>
+    <button class="nb" onclick="showTab('sentimen',this)">📊 Sentimen</button>
+    <button class="nb" onclick="showTab('geopolitik',this)">🌍 Geopolitik</button>
   </div>
 
   <div id="main">
@@ -669,9 +672,25 @@ textarea{resize:vertical;min-height:60px;line-height:1.5}
       </div>
     </div>
 
+    <!-- ═══ KALENDER ═══ -->
+    <div id="tab-kalender" class="tab">
+      <div id="kal-content"><div class="em" style="padding:48px 16px">Memuat kalender...</div></div>
+    </div>
+
+    <!-- ═══ SENTIMEN ═══ -->
+    <div id="tab-sentimen" class="tab">
+      <div id="sen-content"><div class="em" style="padding:48px 16px">Memuat sentimen...</div></div>
+    </div>
+
+    <!-- ═══ GEOPOLITIK ═══ -->
+    <div id="tab-geopolitik" class="tab">
+      <div id="geo-content"><div class="em" style="padding:48px 16px">Memuat geopolitik...</div></div>
+    </div>
+
   </div><!-- end main -->
 </div><!-- end app -->
 
+<script src="stock_analysis_data.js" onerror="console.warn('stock_analysis_data.js belum ada — jalankan: python stock_news_digest.py --run-now')"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
 'use strict';
@@ -755,7 +774,10 @@ function showTab(n,btn){
   document.querySelectorAll('.tab').forEach(e=>e.classList.remove('on'));
   document.querySelectorAll('.nb').forEach(e=>e.classList.remove('on'));
   $('tab-'+n).classList.add('on'); btn.classList.add('on');
-  if(n==='dash') setTimeout(drawCharts,60);
+  if(n==='dash')      setTimeout(drawCharts,60);
+  if(n==='kalender')  renderKalender();
+  if(n==='sentimen')  renderSentimen();
+  if(n==='geopolitik') renderGeopolitik();
 }
 
 // ── GOOGLE SHEETS SYNC ───────────────────────────────────────────
@@ -1213,6 +1235,9 @@ function renderAll(){
   safe(updateDash,'dashboard');
   safe(updateDivStats,'divstats');
   safe(calcPsy,'psy-score');
+  safe(renderKalender,'kalender');
+  safe(renderSentimen,'sentimen');
+  safe(renderGeopolitik,'geopolitik');
 }
 
 // ── INIT ─────────────────────────────────────────────────────────
@@ -1234,6 +1259,181 @@ function renderAll(){
   // Populate risk manager capital from saldo
   if(saldoAwal && $('r-capital')) $('r-capital').value = saldoAwal;
 })();
+
+// ── KALENDER / SENTIMEN / GEOPOLITIK ────────────────────────────────────────
+
+function _noData(tab){
+  const icons={kalender:'📅',sentimen:'📊',geopolitik:'🌍'};
+  const names={kalender:'kalender ekonomi hari ini',sentimen:'analisis sentimen saham',geopolitik:'berita geopolitik terkini'};
+  return `<div class="em" style="padding:48px 16px">
+    <div style="font-size:40px;margin-bottom:14px">${icons[tab]}</div>
+    <div style="color:var(--txt);font-size:14px;font-weight:700;margin-bottom:10px">Data Belum Tersedia</div>
+    <div style="max-width:440px;margin:0 auto;line-height:1.9;font-size:12px">
+      Jalankan script Python untuk mengumpulkan ${names[tab]}:<br>
+      <code style="background:var(--surf);padding:4px 14px;border-radius:6px;font-size:11px;color:var(--green);display:inline-block;margin:10px 0">python stock_news_digest.py --run-now</code><br>
+      <span style="color:var(--sub)">Data diperbarui otomatis setiap hari jam 07:00 WIB.<br>
+      Pastikan <code style="color:var(--blue)">config_email.ini</code> sudah dikonfigurasi.</span>
+    </div>
+    ${window.STOCK_LAST_UPDATE?'':'<div style="margin-top:14px;font-size:11px;color:var(--mut)">File <code style="color:var(--gold)">stock_analysis_data.js</code> belum ada atau kosong.</div>'}
+  </div>`;
+}
+
+function _senChip(s){
+  if(s==='Bullish') return '<span class="bdg bg2">▲ Bullish</span>';
+  if(s==='Bearish') return '<span class="bdg br2">▼ Bearish</span>';
+  return '<span class="bdg" style="background:rgba(74,85,104,.25);color:var(--sub)">→ Netral</span>';
+}
+
+function _dampakChip(d){
+  if(d==='Tinggi') return '<span class="bdg" style="background:var(--rdim);color:var(--red)">🔴 Tinggi</span>';
+  if(d==='Sedang') return '<span class="bdg" style="background:var(--ydim);color:var(--gold)">🟡 Sedang</span>';
+  return '<span class="bdg" style="background:var(--bdim);color:var(--blue)">🟢 Rendah</span>';
+}
+
+function renderKalender(){
+  const el=$('kal-content'); if(!el) return;
+  if(!window.STOCK_KALENDER||!window.STOCK_KALENDER.hari_ini){el.innerHTML=_noData('kalender');return;}
+  const kal=window.STOCK_KALENDER;
+  const events=kal.hari_ini||[];
+  const rows=events.length
+    ?events.map(e=>`<tr>
+        <td style="color:var(--txt);font-weight:700;white-space:nowrap;font-family:var(--mono)">${e.waktu||'—'}</td>
+        <td><div style="color:var(--txt);font-weight:500">${e.event||'—'}</div>
+            <div style="font-size:10px;color:var(--sub);margin-top:3px">${e.dampak_saham||''}</div></td>
+        <td>${_dampakChip(e.dampak)}</td>
+        <td style="font-family:var(--mono);color:var(--green)">${e.aktual||'—'}</td>
+        <td style="font-family:var(--mono);color:var(--sub)">${e.perkiraan||'—'}</td>
+        <td style="font-family:var(--mono);color:var(--sub)">${e.sebelumnya||'—'}</td>
+      </tr>`).join('')
+    :`<tr><td colspan="6" style="text-align:center;padding:24px;color:var(--mut)">Tidak ada event ekonomi USD hari ini — pasar lebih tenang</td></tr>`;
+
+  el.innerHTML=`
+    <div class="g3" style="margin-bottom:14px">
+      <div class="met"><div class="ml">Total Event USD</div><div class="mv yl">${kal.total_event||events.length}</div><div class="ms">${kal.hari_ini_label||kal.tanggal||''}</div></div>
+      <div class="met"><div class="ml">Dampak Tinggi</div><div class="mv" style="color:var(--red)">${kal.event_tinggi||0}</div><div class="ms">event krusial hari ini</div></div>
+      <div class="met"><div class="ml">Update Terakhir</div><div style="font-size:12px;font-weight:600;color:var(--blue);margin-top:6px">${kal.jam_update||'—'}</div></div>
+    </div>
+    <div class="card">
+      <div class="ct">🗓 ${kal.hari_ini_label||kal.tanggal||'Hari Ini'} — Event Ekonomi USD</div>
+      <div class="al aw" style="margin-bottom:12px;font-size:11px">⚡ Waktu dalam <b>ET (Eastern Time)</b> = WIB − 12 jam &nbsp;|&nbsp; 🔴 Dampak Tinggi = volatilitas besar, hati-hati sebelum rilis data</div>
+      <div style="overflow-x:auto"><table class="tbl">
+        <thead><tr><th>Waktu ET</th><th>Event Ekonomi</th><th>Dampak</th><th>Aktual</th><th>Perkiraan</th><th>Sebelumnya</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
+    </div>
+    <div class="card" style="font-size:11px;color:var(--sub);line-height:2">
+      <div class="ct">📌 Cara Membaca Kalender Ekonomi</div>
+      <div>${_dampakChip('Tinggi')} &nbsp;NFP, CPI, FOMC — hindari trade besar, volatilitas ekstrem</div>
+      <div style="margin-top:6px">${_dampakChip('Sedang')} &nbsp;Retail Sales, Jobless Claims — pantau arah trend</div>
+      <div style="margin-top:6px">${_dampakChip('Rendah')} &nbsp;Data minor — dampak terbatas</div>
+      <div style="margin-top:8px;color:var(--green)">✅ <b>Aktual > Perkiraan</b> = umumnya bullish untuk S&P 500 & NASDAQ (kecuali data CPI/inflasi tinggi)</div>
+    </div>`;
+}
+
+function renderSentimen(){
+  const el=$('sen-content'); if(!el) return;
+  if(!window.STOCK_SENTIMEN||!window.STOCK_SENTIMEN.ringkasan){el.innerHTML=_noData('sentimen');return;}
+  const sen=window.STOCK_SENTIMEN;
+  const ring=sen.ringkasan||{};
+  const idx=sen.indeks||{};
+  const panas=sen.saham_panas||{};
+  const berita=sen.berita||[];
+
+  const overall=ring.overall||'Netral';
+  const skor=ring.skor_rata||0;
+  const ovCol=overall==='Bullish'?'var(--green)':overall==='Bearish'?'var(--red)':'var(--sub)';
+  const ovIcon=overall==='Bullish'?'▲':overall==='Bearish'?'▼':'→';
+
+  const idxRows=[['sp500','S&P 500'],['nasdaq','NASDAQ'],['dow_jones','Dow Jones']].map(([k,lbl])=>{
+    const d=idx[k]||{};const s=d.skor||0;
+    const sc=s>0?'var(--green)':s<0?'var(--red)':'var(--sub)';
+    return `<tr><td style="color:var(--txt);font-weight:600">${lbl}</td>
+      <td>${_senChip(d.sentimen||'Netral')}</td>
+      <td style="font-family:var(--mono);color:${sc}">${s>0?'+':''}${s.toFixed(1)}</td>
+      <td style="color:var(--sub)">${d.jumlah_berita||0} berita</td></tr>`;
+  }).join('');
+
+  const bullChips=(panas.bullish||[]).map(s=>`<span class="bdg bg2" style="margin:3px;display:inline-block">${s.ticker} +${s.skor}</span>`).join('')||'<span style="color:var(--mut)">—</span>';
+  const bearChips=(panas.bearish||[]).map(s=>`<span class="bdg br2" style="margin:3px;display:inline-block">${s.ticker} ${s.skor}</span>`).join('')||'<span style="color:var(--mut)">—</span>';
+
+  const newsRows=berita.slice(0,30).map(a=>{
+    const s=a.sentimen||'Netral';
+    const sk=a.skor||0;
+    const sc=sk>0?'var(--green)':sk<0?'var(--red)':'var(--sub)';
+    const lnk=a.url&&a.url!=='#'?`<a href="${a.url}" target="_blank" style="font-size:10px;color:var(--blue);text-decoration:none">Baca ↗</a>`:'';
+    return `<tr>
+      <td style="width:80px">${_senChip(s)}</td>
+      <td><div style="color:var(--txt);font-weight:500;font-size:12px">${(a.judul||'').substring(0,120)}</div>
+          <div style="font-size:10px;color:var(--sub);margin-top:3px">${a.sumber||''} · ${a.asal||''} · ${(a.waktu||'').substring(0,10)}</div>
+          ${lnk}</td>
+      <td style="font-family:var(--mono);color:${sc};white-space:nowrap">${sk>0?'+':''}${sk}</td>
+    </tr>`;
+  }).join('');
+
+  el.innerHTML=`
+    <div class="card" style="text-align:center;margin-bottom:14px">
+      <div style="font-size:10px;color:var(--sub);text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px">Sentimen Pasar Keseluruhan</div>
+      <div style="font-size:38px;font-weight:700;color:${ovCol};font-family:var(--mono)">${ovIcon} ${overall}</div>
+      <div style="font-size:12px;color:var(--sub);margin-top:6px">Skor rata-rata: <b style="color:${ovCol}">${skor>0?'+':''}${skor.toFixed(2)}</b> &nbsp;·&nbsp; ${ring.total_berita||0} berita dianalisis</div>
+      <div class="g3" style="margin-top:14px">
+        <div class="met"><div class="ml">Bullish</div><div class="mv up">${ring.bullish_pct||0}%</div></div>
+        <div class="met"><div class="ml">Bearish</div><div class="mv dn">${ring.bearish_pct||0}%</div></div>
+        <div class="met"><div class="ml">Netral</div><div class="mv nt">${ring.netral_pct||0}%</div></div>
+      </div>
+    </div>
+    <div class="card" style="margin-bottom:14px">
+      <div class="ct">📈 Sentimen Per Indeks Amerika</div>
+      <table class="tbl"><thead><tr><th>Indeks</th><th>Sentimen</th><th>Skor</th><th>Berita</th></tr></thead>
+      <tbody>${idxRows}</tbody></table>
+    </div>
+    <div class="g2" style="margin-bottom:14px">
+      <div class="card"><div class="ct">🔥 Trending Bullish</div><div style="line-height:2">${bullChips}</div></div>
+      <div class="card"><div class="ct">❄️ Trending Bearish</div><div style="line-height:2">${bearChips}</div></div>
+    </div>
+    <div class="card">
+      <div class="ct">📰 30 Berita Terkini + Sentimen &nbsp;<span style="font-size:9px;color:var(--sub);font-weight:400;text-transform:none">${sen.jam_update||''}</span></div>
+      <div style="overflow-x:auto"><table class="tbl">
+        <thead><tr><th style="width:80px">Sentimen</th><th>Berita</th><th>Skor</th></tr></thead>
+        <tbody>${newsRows}</tbody>
+      </table></div>
+    </div>`;
+}
+
+function renderGeopolitik(){
+  const el=$('geo-content'); if(!el) return;
+  if(!window.STOCK_GEOPOLITIK||!window.STOCK_GEOPOLITIK.berita){el.innerHTML=_noData('geopolitik');return;}
+  const geo=window.STOCK_GEOPOLITIK;
+  const berita=geo.berita||[];
+
+  const items=berita.slice(0,30).map(a=>{
+    const dCol=a.dampak_pasar==='Positif'?'var(--green)':a.dampak_pasar==='Negatif'?'var(--red)':'var(--sub)';
+    const dIcon=a.dampak_pasar==='Positif'?'▲':a.dampak_pasar==='Negatif'?'▼':'→';
+    const lnk=a.url&&a.url!=='#'?`<a href="${a.url}" target="_blank" class="btn bb" style="font-size:10px;padding:3px 10px;display:inline-block;margin-top:6px">Baca ↗</a>`:'';
+    return `<div style="background:var(--surf);border:1px solid var(--bdr);border-radius:9px;padding:13px;margin-bottom:9px">
+      <div style="display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-bottom:7px">
+        <span class="bdg bp">${a.kategori||'Global'}</span>
+        <span style="font-size:10px;color:${dCol}">${dIcon} Dampak ${a.dampak_pasar||'Netral'}</span>
+      </div>
+      <div style="color:var(--txt);font-weight:600;font-size:12px;line-height:1.5;margin-bottom:5px">${(a.judul||'').substring(0,160)}</div>
+      <div style="font-size:11px;color:var(--sub);line-height:1.6;margin-bottom:6px">${(a.ringkasan||'').substring(0,240)}</div>
+      <div style="font-size:10px;color:var(--mut)">${a.sumber||''} · ${a.asal||''} · ${(a.waktu||'').substring(0,10)}</div>
+      ${lnk}
+    </div>`;
+  }).join('')||'<div class="em">Tidak ada berita geopolitik signifikan hari ini</div>';
+
+  el.innerHTML=`
+    <div class="al aw" style="margin-bottom:14px">
+      🌍 Berita geopolitik berikut berpotensi mempengaruhi <b>S&P 500, NASDAQ, sektor energi, teknologi, dan keuangan</b>. Pantau sebelum keputusan beli/jual.
+    </div>
+    <div class="g2" style="margin-bottom:14px">
+      <div class="met"><div class="ml">Total Berita Geo</div><div class="mv bp">${geo.total_berita||berita.length}</div></div>
+      <div class="met"><div class="ml">Update Terakhir</div><div style="font-size:12px;font-weight:600;color:var(--blue);margin-top:6px">${geo.jam_update||'—'}</div></div>
+    </div>
+    <div class="card">
+      <div class="ct">🌐 Berita Geopolitik Penting (${Math.min(berita.length,30)} berita)</div>
+      ${items}
+    </div>`;
+}
 
 async function pingGS(){
   try{

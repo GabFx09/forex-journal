@@ -1,0 +1,70 @@
+name: Stock Digest Harian
+
+on:
+  schedule:
+    # 00:00 UTC = 07:00 WIB (UTC+7) setiap hari
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # dibutuhkan untuk git push
+
+    steps:
+      # ── 1. Checkout ────────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Python ──────────────────────────────────────────────────────────────
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── 3. Buat config_email.ini dari secrets ──────────────────────────────────
+      - name: Write config_email.ini
+        env:
+          GMAIL_USER:        ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SEND_TO:           ${{ secrets.SEND_TO }}
+        run: |
+          cat > config_email.ini << EOF
+          [email]
+          sender     = $GMAIL_USER
+          password   = $GMAIL_APP_PASSWORD
+          recipient  = $SEND_TO
+          smtp_host  = smtp.gmail.com
+          smtp_port  = 587
+          EOF
+
+      # ── 4. Jalankan digest ─────────────────────────────────────────────────────
+      - name: Run stock digest
+        run: python stock_news_digest.py --run-now
+
+      # ── 5. Push hasil JSON + JS ke GitHub ─────────────────────────────────────
+      - name: Commit & push data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # *.json di-ignore, pakai -f untuk force-add
+          git add -f kalender.json sentimen.json geopolitik.json
+          git add stock_analysis_data.js
+          # Hanya commit jika ada perubahan
+          git diff --staged --quiet || \
+            git commit -m "chore: stock digest $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      # ── 6. Deploy ke Netlify ───────────────────────────────────────────────────
+      - name: Deploy to Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID:    ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          npm install -g netlify-cli --silent
+          netlify deploy --dir=. --prod

@@ -1,0 +1,3 @@
+config_email.ini
+*.json
+__pycache__/

@@ -17,7 +17,18 @@
       "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\PROJECT-FINANCE\\\\.github\\\\workflows\")",
       "Bash(Out-Null)",
       "Bash(Write-Output \"Direktori dibuat\")",
-      "PowerShell(New-Item *)"
+      "PowerShell(New-Item *)",
+      "PowerShell(git add *)",
+      "PowerShell(git push *)",
+      "PowerShell(git pull *)",
+      "PowerShell(Rename-Item *)",
+      "PowerShell(gh run *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(git checkout *)"
     ]
   }
 }
