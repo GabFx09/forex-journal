@@ -901,21 +901,46 @@ function renderKalender() {
   ${stats}${legend}${sectionUpcoming}${sectionReleased}`;
 }
 
-// ── SENTIMEN ──────────────────────────────────────────────────
+// ── SENTIMEN — FinancialJuice (via news_data.js) ──────────────
+function _fjCard(item) {
+  const c   = _SCFG[item.sentiment] || _SCFG.Netral;
+  const icon = {Bullish:'🟢',Bearish:'🔴',Netral:'⚪'}[item.sentiment];
+  const lbl  = (item.sentiment||'Netral').toUpperCase();
+  const src  = item.url
+    ? `<a href="${item.url}" target="_blank" rel="noopener"
+         style="color:var(--blu);font-size:10px;text-decoration:none;white-space:nowrap">🔗 Sumber</a>` : '';
+  const pub  = item.published
+    ? `<span style="font-size:10px;color:var(--mut)">${item.published}</span>` : '';
+  const sc   = typeof item.score === 'number'
+    ? `<span style="font-size:10px;color:var(--mut);margin-left:auto">skor: ${item.score>=0?'+':''}${item.score.toFixed(3)}</span>` : '';
+  return `<div style="background:${c.bg};border-left:4px solid ${c.bdr};border-radius:8px;padding:11px 14px;margin:6px 0">
+    <div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:5px">
+      <span style="background:${c.bbg};color:${c.bfg};font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px">${icon} ${lbl}</span>
+      ${pub}${sc}
+      <span style="margin-left:auto">${src}</span>
+    </div>
+    <div style="font-size:12px;color:var(--txt);line-height:1.55">${item.title}</div>
+  </div>`;
+}
+
 function renderSentimen() {
   const el = $('sent-content');
-  if (!window.FK_DATA) { el.innerHTML = _noData(); return; }
-  const { generated, sentimen } = window.FK_DATA;
-  if (!sentimen) { el.innerHTML = _noData(); return; }
-  const { summary, items } = sentimen;
+  if(!window.FK_DATA) { el.innerHTML = _noData(); return; }
+  const { fj_live } = window.FK_DATA;
+  if(!fj_live || !fj_live.items) { el.innerHTML = _noData('Jalankan <b>forex_news_digest.py</b> untuk mengambil data FinancialJuice terbaru.'); return; }
 
-  const oc = summary.overall==='Bullish'?'#22c55e':summary.overall==='Bearish'?'#ef4444':'#6b7280';
-  const oe = summary.overall==='Bullish'?'🟢':summary.overall==='Bearish'?'🔴':'⚪';
-  const total = summary.total||1;
-  const pB=(summary.bullish/total*100).toFixed(0);
-  const pBe=(summary.bearish/total*100).toFixed(0);
-  const pN=(100-pB-pBe).toFixed(0);
-  const sc = summary.avg_score;
+  const { generated, summary, items } = fj_live;
+  const total = summary.total || 1;
+  const pB  = (summary.bullish / total * 100).toFixed(0);
+  const pBe = (summary.bearish / total * 100).toFixed(0);
+  const pN  = (100 - pB - pBe).toFixed(0);
+  const oc  = summary.overall==='Bullish'?'#22c55e':summary.overall==='Bearish'?'#ef4444':'#6b7280';
+  const oe  = summary.overall==='Bullish'?'🟢':summary.overall==='Bearish'?'🔴':'⚪';
+  const sc  = summary.avg_score;
+
+  const bull = items.filter(i => i.sentiment === 'Bullish').sort((a,b) => b.score - a.score);
+  const bear = items.filter(i => i.sentiment === 'Bearish').sort((a,b) => a.score - b.score);
+  const net  = items.filter(i => i.sentiment === 'Netral');
 
   const stats = `<div class="g4" style="margin-bottom:12px">
     <div class="met"><div class="ml">Total Berita</div><div class="mv nt">${summary.total}</div></div>
@@ -924,10 +949,10 @@ function renderSentimen() {
     <div class="met"><div class="ml">Netral</div><div class="mv nt">${summary.netral}</div></div>
   </div>`;
 
-  const overall = `<div class="card" style="margin-bottom:12px">
+  const overallBox = `<div class="card" style="margin-bottom:12px">
     <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
       <div>
-        <div style="font-size:10px;color:var(--mut);margin-bottom:4px">Sentimen Keseluruhan Pasar Forex</div>
+        <div style="font-size:10px;color:var(--mut);margin-bottom:4px">Sentimen Keseluruhan · Sumber: FinancialJuice</div>
         <div style="font-size:22px;font-weight:700;color:${oc}">${oe} ${summary.overall}</div>
         <div style="font-size:11px;color:var(--mut);margin-top:2px">Skor rata-rata: <b style="color:${oc}">${sc>=0?'+':''}${sc}</b></div>
       </div>
@@ -942,40 +967,31 @@ function renderSentimen() {
     </div>
   </div>`;
 
-  const curRows = (summary.currency_impact||[]).map(ci => {
-    const cc=ci.sentiment==='Bullish'?'#22c55e':ci.sentiment==='Bearish'?'#ef4444':'#6b7280';
-    const ar=ci.sentiment==='Bullish'?'▲':ci.sentiment==='Bearish'?'▼':'→';
-    const bp=((ci.score+1)/2*100).toFixed(0);
-    return `<tr style="border-top:1px solid var(--bdr)">
-      <td style="padding:7px 12px;color:var(--txt);font-weight:700">${ci.currency}</td>
-      <td style="padding:7px 12px;color:${cc};font-weight:600">${ar} ${ci.sentiment}</td>
-      <td style="padding:7px 12px;color:var(--mut);font-size:11px">${ci.count}×</td>
-      <td style="padding:7px 12px;color:${cc}">${ci.score>=0?'+':''}${ci.score}</td>
-      <td style="padding:7px 12px">
-        <div style="background:var(--bg);border-radius:4px;height:7px;width:90px;overflow:hidden">
-          <div style="background:${cc};height:100%;width:${bp}%"></div></div></td>
-    </tr>`;
-  }).join('');
-
-  const curTable = curRows ? `<div class="card" style="margin-bottom:12px;padding:0;overflow:hidden">
-    <div style="padding:9px 14px;border-bottom:1px solid var(--bdr)">
-      <span style="font-size:11px;font-weight:600;color:var(--sub)">💱 Dampak Sentimen per Mata Uang</span></div>
-    <table class="tbl"><thead><tr>
-      <th>MATA UANG</th><th>ARAH</th><th>SEBUTAN</th><th>SKOR</th><th>INDIKATOR</th>
-    </tr></thead><tbody>${curRows}</tbody></table>
+  const bullSec = bull.length ? `<div class="card" style="margin-bottom:12px">
+    <div style="font-size:12px;font-weight:700;color:#22c55e;margin-bottom:8px">🟢 Berita Bullish (${bull.length})</div>
+    ${bull.map(_fjCard).join('')}
   </div>` : '';
 
-  const bull = [...items.filter(i=>i.sentiment==='Bullish')].sort((a,b)=>b.score-a.score);
-  const bear = [...items.filter(i=>i.sentiment==='Bearish')].sort((a,b)=>a.score-b.score);
-  const net  = items.filter(i=>i.sentiment==='Netral');
+  const bearSec = bear.length ? `<div class="card" style="margin-bottom:12px">
+    <div style="font-size:12px;font-weight:700;color:#ef4444;margin-bottom:8px">🔴 Berita Bearish (${bear.length})</div>
+    ${bear.map(_fjCard).join('')}
+  </div>` : '';
+
+  const netSec = net.length ? `<div class="card" style="margin-bottom:12px">
+    <div style="font-size:12px;font-weight:700;color:var(--mut);margin-bottom:8px">⚪ Berita Netral (${net.length})</div>
+    ${net.map(_fjCard).join('')}
+  </div>` : '';
+
+  const credit = `<div style="text-align:center;font-size:10px;color:var(--mut);margin-top:4px;padding-bottom:8px">
+    Sumber data: <a href="https://www.financialjuice.com" target="_blank" rel="noopener"
+      style="color:var(--blu)">FinancialJuice.com</a> · Analisis: VADER Sentiment
+  </div>`;
 
   el.innerHTML = `<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
-    <div class="ct" style="margin-bottom:0">📊 Analisis Sentimen Pasar Forex</div>${_badge(generated)}</div>
-  ${stats}${overall}${curTable}
-  ${_section(`🟢 Berita Bullish (${bull.length}) — Skor Tertinggi`,bull,15,i=>_newsCard(i,false))}
-  ${_section(`🔴 Berita Bearish (${bear.length}) — Skor Terendah`,bear,15,i=>_newsCard(i,false))}
-  ${_section(`⚪ Berita Netral (${net.length})`,net,10,i=>_newsCard(i,false))}`;
-  _translateAll('sent-content');
+    <div class="ct" style="margin-bottom:0">📊 Sentimen Pasar Forex — FinancialJuice</div>
+    ${_badge(generated)}
+  </div>
+  ${stats}${overallBox}${bullSec}${bearSec}${netSec}${credit}`;
 }
 
 // ── GEOPOLITIK ────────────────────────────────────────────────

@@ -41,6 +41,11 @@ from typing import Optional
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from dotenv import load_dotenv
 import os
+try:
+    from deep_translator import GoogleTranslator as _GTranslator
+    _TRANSLATE_OK = True
+except ImportError:
+    _TRANSLATE_OK = False
 
 # Gunakan path absolut agar .env ditemukan saat dipanggil Task Scheduler
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -69,6 +74,26 @@ logging.basicConfig(
     ],
 )
 log = logging.getLogger(__name__)
+
+
+def _translate_id(texts: list[str]) -> list[str]:
+    """Terjemahkan list judul berita dari Inggris ke Indonesia."""
+    if not _TRANSLATE_OK or not texts:
+        return texts
+    results: list[str] = []
+    try:
+        translator = _GTranslator(source="en", target="id")
+        for text in texts:
+            try:
+                out = translator.translate(text)
+                results.append(out if out else text)
+            except Exception:
+                results.append(text)
+    except Exception as e:
+        log.warning(f"[Translate] Gagal inisialisasi: {e}")
+        return texts
+    return results
+
 
 HEADERS = {
     "User-Agent": (
@@ -429,6 +454,114 @@ def fetch_financialjuice() -> list[NewsItem]:
         log.info(f"[FinancialJuice] {len(items)} item (HTML)")
     except Exception as e:
         log.warning(f"[FinancialJuice] semua metode gagal: {e}")
+    return items
+
+
+_FJ_MUST_FOREX: list[str] = [
+    # Mata uang utama
+    "usd", "eur", "gbp", "jpy", "aud", "nzd", "cad", "chf", "cny", "yuan",
+    "rmb", "dollar", "euro", "pound", "yen", "franc", "kiwi", "loonie",
+    # Bank sentral
+    "fed ", "fomc", "ecb ", "boe ", "boj ", "rba ", "rbnz", "boc ", "snb ",
+    "pboc", "federal reserve", "bank of england", "bank of japan",
+    "bank of canada", "reserve bank", "european central bank",
+    "central bank", "rate decision", "rate hike", "rate cut", "basis point",
+    # Data ekonomi makro
+    "cpi", "ppi", "gdp", "nfp", "pmi", "inflation", "deflation",
+    "unemployment", "payroll", "payrolls", "retail sales", "trade balance",
+    "current account", "fiscal", "monetary policy", "interest rate",
+    "yield", "bond yield", "treasury",
+    # Geopolitik / Makro global berdampak FX
+    "tariff", "trade war", "trade deal", "sanction", "geopolit",
+    "recession", "stagflation", "g7", "g20", "imf", "world bank",
+]
+
+_FJ_BLOCK_STOCK: list[str] = [
+    # Indeks saham
+    "s&p 500", "s&p500", "nasdaq", "dow jones", "dow 30", "ftse", "dax ",
+    "nikkei", "hang seng", "asx 200", "cac 40", "stoxx", "russell 2000",
+    "stock market", "stock index", "equity market", "stock rally",
+    "shares rally", "shares fall", "shares rise", "shares drop",
+    # Istilah pasar saham
+    "earnings per share", "quarterly earnings", "annual earnings",
+    "revenue beat", "profit warning", "ipo ", "stock split", "dividend",
+    "stock buyback", "share buyback", "market cap", "valuation",
+    "analyst upgrade", "analyst downgrade", "price target",
+    # Perusahaan spesifik (saham)
+    "tesla ", "apple ", "microsoft ", "amazon ", "google ", "meta ",
+    "nvidia ", "netflix ", "disney ", "boeing ", "toyota ", "samsung ",
+    "volkswagen ", "shell ", "bp ", "exxon ",
+    # Kripto
+    "bitcoin", "ethereum", "crypto", "cryptocurrency", "blockchain",
+    "defi", "nft", "token ", "altcoin", "stablecoin", "binance",
+    # Komoditas non-FX
+    "corn ", "wheat ", "soybean", "cocoa ", "coffee futures",
+    "sugar futures", "cotton futures", "livestock", "grain ",
+    # Misc non-forex
+    "box office", "election campaign", "sport", "fifa", "nba", "nfl",
+]
+
+
+def _fj_is_forex_critical(title: str) -> bool:
+    """True jika berita benar-benar penting untuk forex, tanpa unsur saham."""
+    t = title.lower()
+    # Blokir keras jika ada kata kunci non-forex
+    if any(kw in t for kw in _FJ_BLOCK_STOCK):
+        return False
+    # Wajib ada minimal satu kata kunci forex penting
+    return any(kw in t for kw in _FJ_MUST_FOREX)
+
+
+def fetch_fj_rss() -> list[NewsItem]:
+    """FinancialJuice RSS — 50 item forex penting, tanpa saham, judul Bahasa Indonesia."""
+    TARGET = 50
+    seen: set[str] = set()
+    candidates: list[NewsItem] = []
+
+    rss_endpoints = [
+        "https://www.financialjuice.com/feed.ashx?xy=rss",
+        "https://www.financialjuice.com/feed.ashx?xy=rss&category=forex",
+        "https://www.financialjuice.com/feed.ashx?xy=rss&type=all",
+        "https://www.financialjuice.com/feed",
+    ]
+
+    for url in rss_endpoints:
+        try:
+            feed = feedparser.parse(url, request_headers=HEADERS)
+            added = 0
+            for entry in feed.entries:
+                title = html_module.unescape(entry.get("title", "")).strip()
+                title = re.sub(r"^FinancialJuice:\s*", "", title)
+                key   = title.lower()
+                if not title or key in seen:
+                    continue
+                seen.add(key)
+                if not _fj_is_forex_critical(title):
+                    continue
+                candidates.append(NewsItem(
+                    source="FinancialJuice",
+                    title=title,
+                    url=entry.get("link", ""),
+                    summary=_strip_html(entry.get("summary", "")),
+                    published=_parse_time(entry),
+                ))
+                added += 1
+            if added:
+                log.info(f"[FJ-RSS] +{added} item forex lolos filter dari {url}")
+        except Exception as e:
+            log.debug(f"[FJ-RSS] {url} gagal: {e}")
+
+    items = candidates[:TARGET]
+    log.info(f"[FJ-RSS] {len(candidates)} lolos filter → ambil {len(items)} item")
+
+    # Terjemahkan semua judul ke Bahasa Indonesia
+    if items:
+        titles     = [i.title for i in items]
+        translated = _translate_id(titles)
+        for i, item in enumerate(items):
+            item.title = translated[i]
+        log.info(f"[FJ-RSS] Terjemahan selesai → {len(items)} judul")
+
     return items
 
 
@@ -1694,7 +1827,8 @@ def send_all_emails(items: list[NewsItem], calendar_events: list[EconomicEvent])
 
 # ─── MAIN JOB ────────────────────────────────────────────────────────────────
 
-def save_news_data(items: list[NewsItem], events: list[EconomicEvent]) -> None:
+def save_news_data(items: list[NewsItem], events: list[EconomicEvent],
+                   fj_items: list[NewsItem] | None = None) -> None:
     """Simpan data ke JSON + news_data.js agar bisa dibaca oleh HTML app."""
     now_wib   = datetime.now(tz=timezone.utc) + timedelta(hours=7)
     generated = now_wib.strftime("%d %b %Y %H:%M WIB")
@@ -1754,6 +1888,43 @@ def save_news_data(items: list[NewsItem], events: list[EconomicEvent]) -> None:
         "items": [item_to_dict(i) for i in items],
     }
 
+    # ── FJ Live (FinancialJuice RSS + suplemen hingga 50, forex-only, Bahasa Indonesia) ──
+    TARGET_FJ = 50
+    fj_analyzed = [_analyze(i) for i in (fj_items or [])]
+
+    # Tambal kekurangan dari koleksi sentimen umum jika FJ RSS < TARGET
+    # Filter ketat: hanya item yang lolos _fj_is_forex_critical dan bukan saham
+    if len(fj_analyzed) < TARGET_FJ:
+        fj_urls = {i.url for i in fj_analyzed}
+        need    = TARGET_FJ - len(fj_analyzed)
+        extras  = [
+            i for i in items
+            if i.url not in fj_urls and _fj_is_forex_critical(i.title)
+        ][:need]
+        if extras:
+            ext_titles = _translate_id([i.title for i in extras])
+            for i, ex in enumerate(extras):
+                ex.title = ext_titles[i]
+            fj_analyzed.extend([_analyze(ex) for ex in extras])
+            log.info(f"[FJ-RSS] Suplemen {len(extras)} item forex → total {len(fj_analyzed)}")
+
+    fj_bull = [i for i in fj_analyzed if i.sentiment_label == "Bullish"]
+    fj_bear = [i for i in fj_analyzed if i.sentiment_label == "Bearish"]
+    fj_net  = [i for i in fj_analyzed if i.sentiment_label == "Netral"]
+    fj_avg  = round(sum(i.sentiment_score for i in fj_analyzed) / len(fj_analyzed), 4) if fj_analyzed else 0
+    fj_live_data = {
+        "generated": generated,
+        "summary": {
+            "total":   len(fj_analyzed),
+            "bullish": len(fj_bull),
+            "bearish": len(fj_bear),
+            "netral":  len(fj_net),
+            "avg_score": fj_avg,
+            "overall": "Bullish" if fj_avg >= 0.05 else "Bearish" if fj_avg <= -0.05 else "Netral",
+        },
+        "items": [item_to_dict(i) for i in fj_analyzed],
+    }
+
     # ── Geopolitik ──
     geo_items = [i for i in items if _is_geopolitical(i)]
     risk_level, risk_color, risk_emoji = _geo_risk_level(geo_items)
@@ -1796,6 +1967,7 @@ def save_news_data(items: list[NewsItem], events: list[EconomicEvent]) -> None:
             "kalender": kalender_data,
             "sentimen": sentimen_data,
             "geopolitik": geopolitik_data,
+            "fj_live": fj_live_data,
         }
         js_path = os.path.join(JSON_DIR, "news_data.js")
         with open(js_path, "w", encoding="utf-8") as f:
@@ -1815,7 +1987,8 @@ def run_job() -> None:
     if not items and not calendar_events:
         log.warning("Tidak ada berita maupun data kalender yang berhasil dikumpulkan.")
         return
-    save_news_data(items, calendar_events)
+    fj_items = fetch_fj_rss()
+    save_news_data(items, calendar_events, fj_items)
     send_all_emails(items, calendar_events)
     log.info("Job selesai.")
     log.info("=" * 60)

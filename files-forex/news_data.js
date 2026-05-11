@@ -1,13 +1,13 @@
-// Diperbarui: 11 May 2026 09:59 WIB
+// Diperbarui: 11 May 2026 12:35 WIB
 window.FK_DATA = {
-  "generated": "11 May 2026 09:59 WIB",
+  "generated": "11 May 2026 12:35 WIB",
   "kalender": {
-    "generated": "11 May 2026 09:59 WIB",
+    "generated": "11 May 2026 12:35 WIB",
     "events": [
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "05:30",
+        "time_wib": "19:30",
         "currency": "CNY",
         "impact": "none",
         "event": "CPI y/y",
@@ -40,7 +40,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "18:00",
+        "time_wib": "08:00",
         "currency": "USD",
         "impact": "none",
         "event": "Existing Home Sales",
@@ -51,7 +51,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "03:01",
+        "time_wib": "17:01",
         "currency": "GBP",
         "impact": "none",
         "event": "BRC Retail Sales Monitor y/y",
@@ -62,7 +62,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "03:30",
+        "time_wib": "17:30",
         "currency": "JPY",
         "impact": "none",
         "event": "Household Spending y/y",
@@ -73,7 +73,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "03:50",
+        "time_wib": "17:50",
         "currency": "JPY",
         "impact": "none",
         "event": "BOJ Summary of Opinions",
@@ -84,7 +84,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "05:30",
+        "time_wib": "19:30",
         "currency": "AUD",
         "impact": "none",
         "event": "NAB Business Confidence",
@@ -95,7 +95,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "07:35",
+        "time_wib": "21:35",
         "currency": "JPY",
         "impact": "none",
         "event": "10-y Bond Auction",
@@ -106,7 +106,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "09:00",
+        "time_wib": "23:00",
         "currency": "JPY",
         "impact": "none",
         "event": "Leading Indicators",
@@ -117,7 +117,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "10:00",
+        "time_wib": "00:00",
         "currency": "EUR",
         "impact": "none",
         "event": "German Final CPI m/m",
@@ -128,7 +128,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "10:30",
+        "time_wib": "00:30",
         "currency": "CHF",
         "impact": "none",
         "event": "PPI m/m",
@@ -139,7 +139,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "11:15",
+        "time_wib": "01:15",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Williams Speaks",
@@ -150,7 +150,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "12:00",
+        "time_wib": "02:00",
         "currency": "EUR",
         "impact": "none",
         "event": "Italian Industrial Production m/m",
@@ -161,7 +161,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "13:00",
+        "time_wib": "03:00",
         "currency": "EUR",
         "impact": "none",
         "event": "German ZEW Economic Sentiment",
@@ -183,7 +183,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "13:30",
+        "time_wib": "03:30",
         "currency": "AUD",
         "impact": "none",
         "event": "Annual Budget Release",
@@ -194,7 +194,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "14:00",
+        "time_wib": "04:00",
         "currency": "USD",
         "impact": "none",
         "event": "NFIB Small Business Index",
@@ -205,7 +205,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "16:15",
+        "time_wib": "06:15",
         "currency": "USD",
         "impact": "none",
         "event": "ADP Weekly Employment Change",
@@ -216,7 +216,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "16:30",
+        "time_wib": "06:30",
         "currency": "USD",
         "impact": "none",
         "event": "Core CPI m/m",
@@ -249,7 +249,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "18:30",
+        "time_wib": "08:30",
         "currency": "AUD",
         "impact": "none",
         "event": "CB Leading Index m/m",
@@ -271,7 +271,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "21:00",
+        "time_wib": "11:00",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Goolsbee Speaks",
@@ -282,7 +282,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "21:01",
+        "time_wib": "11:01",
         "currency": "USD",
         "impact": "none",
         "event": "10-y Bond Auction",
@@ -293,7 +293,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "22:00",
+        "time_wib": "12:00",
         "currency": "USD",
         "impact": "none",
         "event": "Federal Budget Balance",
@@ -304,7 +304,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "00:30",
+        "time_wib": "14:30",
         "currency": "USD",
         "impact": "none",
         "event": "API Weekly Statistical Bulletin",
@@ -315,7 +315,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "03:50",
+        "time_wib": "17:50",
         "currency": "JPY",
         "impact": "none",
         "event": "Bank Lending y/y",
@@ -337,7 +337,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "05:30",
+        "time_wib": "19:30",
         "currency": "AUD",
         "impact": "none",
         "event": "Wage Price Index q/q",
@@ -348,7 +348,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "07:00",
+        "time_wib": "21:00",
         "currency": "NZD",
         "impact": "none",
         "event": "Inflation Expectations q/q",
@@ -359,7 +359,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "09:00",
+        "time_wib": "23:00",
         "currency": "JPY",
         "impact": "none",
         "event": "Economy Watchers Sentiment",
@@ -370,7 +370,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "10:00",
+        "time_wib": "00:00",
         "currency": "EUR",
         "impact": "none",
         "event": "German WPI m/m",
@@ -381,7 +381,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "10:45",
+        "time_wib": "00:45",
         "currency": "EUR",
         "impact": "none",
         "event": "French Final CPI m/m",
@@ -392,7 +392,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "13:00",
+        "time_wib": "03:00",
         "currency": "EUR",
         "impact": "none",
         "event": "Flash Employment Change q/q",
@@ -436,7 +436,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "16:30",
+        "time_wib": "06:30",
         "currency": "USD",
         "impact": "none",
         "event": "Core PPI m/m",
@@ -458,7 +458,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "17:30",
+        "time_wib": "07:30",
         "currency": "GBP",
         "impact": "none",
         "event": "CB Leading Index m/m",
@@ -469,7 +469,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "18:00",
+        "time_wib": "08:00",
         "currency": "GBP",
         "impact": "none",
         "event": "MPC Member Mann Speaks",
@@ -480,7 +480,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "18:30",
+        "time_wib": "08:30",
         "currency": "USD",
         "impact": "none",
         "event": "Crude Oil Inventories",
@@ -491,7 +491,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "19:05",
+        "time_wib": "09:05",
         "currency": "CAD",
         "impact": "none",
         "event": "Gov Council Member Alexopoulos Speaks",
@@ -502,7 +502,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "19:30",
+        "time_wib": "09:30",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Collins Speaks",
@@ -513,7 +513,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "21:01",
+        "time_wib": "11:01",
         "currency": "USD",
         "impact": "none",
         "event": "30-y Bond Auction",
@@ -524,7 +524,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "21:15",
+        "time_wib": "11:15",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Kashkari Speaks",
@@ -535,7 +535,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "21:30",
+        "time_wib": "11:30",
         "currency": "CAD",
         "impact": "none",
         "event": "BOC Summary of Deliberations",
@@ -546,7 +546,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "23:15",
+        "time_wib": "13:15",
         "currency": "EUR",
         "impact": "none",
         "event": "ECB President Lagarde Speaks",
@@ -557,7 +557,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "02:45",
+        "time_wib": "16:45",
         "currency": "NZD",
         "impact": "none",
         "event": "Visitor Arrivals m/m",
@@ -568,7 +568,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "03:01",
+        "time_wib": "17:01",
         "currency": "GBP",
         "impact": "none",
         "event": "RICS House Price Balance",
@@ -579,7 +579,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "03:50",
+        "time_wib": "17:50",
         "currency": "JPY",
         "impact": "none",
         "event": "M2 Money Stock y/y",
@@ -590,7 +590,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "05:00",
+        "time_wib": "19:00",
         "currency": "AUD",
         "impact": "none",
         "event": "MI Inflation Expectations",
@@ -601,7 +601,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "07:35",
+        "time_wib": "21:35",
         "currency": "JPY",
         "impact": "none",
         "event": "30-y Bond Auction",
@@ -623,7 +623,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "10:00",
+        "time_wib": "00:00",
         "currency": "GBP",
         "impact": "none",
         "event": "GDP m/m",
@@ -755,7 +755,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "16:30",
+        "time_wib": "06:30",
         "currency": "CAD",
         "impact": "none",
         "event": "Wholesale Sales m/m",
@@ -810,7 +810,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "18:00",
+        "time_wib": "08:00",
         "currency": "USD",
         "impact": "none",
         "event": "Business Inventories m/m",
@@ -832,7 +832,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "18:15",
+        "time_wib": "08:15",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Schmid Speaks",
@@ -843,7 +843,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "18:30",
+        "time_wib": "08:30",
         "currency": "USD",
         "impact": "none",
         "event": "Natural Gas Storage",
@@ -854,7 +854,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "19:15",
+        "time_wib": "09:15",
         "currency": "GBP",
         "impact": "none",
         "event": "MPC Member Pill Speaks",
@@ -865,7 +865,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "21:00",
+        "time_wib": "11:00",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Hammack Speaks",
@@ -876,7 +876,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "01:30",
+        "time_wib": "15:30",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Barr Speaks",
@@ -887,7 +887,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "01:45",
+        "time_wib": "15:45",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Williams Speaks",
@@ -898,7 +898,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "02:30",
+        "time_wib": "16:30",
         "currency": "NZD",
         "impact": "none",
         "event": "BusinessNZ Manufacturing Index",
@@ -909,7 +909,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "02:45",
+        "time_wib": "16:45",
         "currency": "NZD",
         "impact": "none",
         "event": "FPI m/m",
@@ -920,7 +920,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "03:50",
+        "time_wib": "17:50",
         "currency": "JPY",
         "impact": "none",
         "event": "PPI y/y",
@@ -931,7 +931,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "10:00",
+        "time_wib": "00:00",
         "currency": "JPY",
         "impact": "none",
         "event": "Prelim Machine Tool Orders y/y",
@@ -942,7 +942,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "12:00",
+        "time_wib": "02:00",
         "currency": "EUR",
         "impact": "none",
         "event": "ECB Economic Bulletin",
@@ -953,7 +953,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "16:15",
+        "time_wib": "06:15",
         "currency": "CAD",
         "impact": "none",
         "event": "Housing Starts",
@@ -964,7 +964,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "16:30",
+        "time_wib": "06:30",
         "currency": "CAD",
         "impact": "none",
         "event": "Foreign Securities Purchases",
@@ -997,7 +997,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "17:15",
+        "time_wib": "07:15",
         "currency": "USD",
         "impact": "none",
         "event": "Capacity Utilization Rate",
@@ -1030,66 +1030,108 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "11 May 2026 09:59 WIB",
+    "generated": "11 May 2026 12:35 WIB",
     "summary": {
-      "total": 82,
-      "bullish": 25,
-      "bearish": 50,
-      "netral": 7,
-      "avg_score": -0.2439,
+      "total": 71,
+      "bullish": 24,
+      "bearish": 38,
+      "netral": 9,
+      "avg_score": -0.1622,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
           "sentiment": "Bearish",
-          "score": -0.234,
-          "count": 16
+          "score": -0.259,
+          "count": 11
         },
         {
           "currency": "EUR",
-          "sentiment": "Bearish",
-          "score": -0.383,
-          "count": 4
-        },
-        {
-          "currency": "JPY",
-          "sentiment": "Bearish",
-          "score": -0.494,
-          "count": 4
+          "sentiment": "Bullish",
+          "score": 0.078,
+          "count": 6
         },
         {
           "currency": "CAD",
           "sentiment": "Bearish",
-          "score": -0.173,
-          "count": 4
+          "score": -0.309,
+          "count": 3
         },
         {
           "currency": "CNY",
-          "sentiment": "Bullish",
-          "score": 0.162,
-          "count": 4
-        },
-        {
-          "currency": "AUD",
           "sentiment": "Bearish",
-          "score": -0.574,
-          "count": 2
+          "score": -0.309,
+          "count": 3
         },
         {
-          "currency": "NZD",
+          "currency": "JPY",
           "sentiment": "Bearish",
-          "score": -0.664,
+          "score": -0.794,
           "count": 2
-        },
-        {
-          "currency": "GBP",
-          "sentiment": "Bullish",
-          "score": 0.226,
-          "count": 1
         }
       ]
     },
     "items": [
+      {
+        "source": "ForexLive",
+        "title": "FX option expiries for 11 May 10am New York cut",
+        "url": "https://investinglive.com/Orders/fx-option-expiries-for-11-may-10am-new-york-cut-20260511/",
+        "summary": "There are a few expiries to take note of on the day, as highlighted in bold below. The first ones are for EUR/USD at the 1.1725-50 levels. They don't tie much to any technical significance but as the dollar keeps firmer on the day, the expiries could help to hold a bit of a range to any downside pri",
+        "published": "11 May 2026 12:29 WIB",
+        "sentiment": "Netral",
+        "score": -0.028,
+        "emoji": "⚪"
+      },
+      {
+        "source": "ForexLive",
+        "title": "ECB policymaker Kocher says waiting in April meeting was a justifiable decision",
+        "url": "https://investinglive.com/centralbank/ecb-policymaker-kocher-says-waiting-in-april-meeting-was-a-justifiable-decision-20260511/",
+        "summary": "Economic recovery is now at risk Inflation risks have heightened due to the Middle East conflict Risk of a stragflationary trend cannot be ruled out even if economy, labour market remain resilient The duration of the Middle East conflict will be the decisive factor It was a justifiable decision to w",
+        "published": "11 May 2026 12:16 WIB",
+        "sentiment": "Bearish",
+        "score": -0.441,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "RBI said to be likely stepping into the market to try and limit the rupee's fall",
+        "url": "https://investinglive.com/forex/rbi-said-to-be-likely-stepping-into-the-market-to-try-and-limit-the-rupees-fall-20260511/",
+        "summary": "Reuters is noting that the Indian central bank is likely intervening in the FX market to limit the rupee's drop today, citing three traders on the matter. USD/INR continues to scale higher to start the week, as a renewed jump in oil prices is weighing heavily on the rupee amid a worsening economic o",
+        "published": "11 May 2026 11:21 WIB",
+        "sentiment": "Bearish",
+        "score": -0.612,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "ECB policymaker de Guindos says comparison to energy price shock in 2021-22 is not right",
+        "url": "https://investinglive.com/centralbank/ecb-policymaker-de-guindos-says-comparison-to-energy-price-shock-in-2021-22-is-not-right-20260511/",
+        "summary": "I think the inflation risk is lower this time around I think that we were late to act in 2021 and 2022 One reason was that we had too much of an academic discussion about the drivers of inflation Academic discussions are good at university and in academic fora but in central banking, you have to tak",
+        "published": "11 May 2026 11:11 WIB",
+        "sentiment": "Bullish",
+        "score": 0.74,
+        "emoji": "🟢"
+      },
+      {
+        "source": "ForexLive",
+        "title": "investingLive Asia-Pacific news wrap: Trump rejects Iran proposal ‘TOTALLY UNACCEPTABLE’",
+        "url": "https://investinglive.com/news/investinglive-asia-pacific-news-wrap-trump-rejects-iran-proposal-totally-unacceptable-20260511/",
+        "summary": "China car sales fall for seventh month as EV exports surge on Iran fuel shock China's April inflation data beats across board as energy costs reshape price landscape Japan's energy subsidies and yen defence are on a collision course ICYMI - Netanyahu says Iran war not over and refuses to rule out se",
+        "published": "11 May 2026 10:44 WIB",
+        "sentiment": "Bearish",
+        "score": -0.823,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "China car sales fall for seventh month as EV exports surge on Iran fuel shock",
+        "url": "https://investinglive.com/news/china-car-sales-fall-for-seventh-month-as-ev-exports-surge-on-iran-fuel-shock-20260511/",
+        "summary": "China's car sales fell 21.6% in April, a seventh straight monthly decline, as high oil prices hurt domestic demand while EV and hybrid exports surged 111.8% on Iran war fuel costs. Summary: China's passenger car sales dropped 21.6% year-on-year to 1.4 million vehicles in April, a seventh consecutive",
+        "published": "11 May 2026 10:16 WIB",
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "emoji": "🔴"
+      },
       {
         "source": "ForexLive",
         "title": "China's April inflation data beats across board as energy costs reshape price landscape",
@@ -1181,263 +1223,73 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Two tankers slip through Hormuz dark as Gulf oil crisis grinds on. Yeah, two. Yippee.",
-        "url": "https://investinglive.com/commodities/two-tankers-slip-through-hormuz-dark-as-gulf-oil-crisis-grinds-on-yeah-two-yippee-20260510/",
-        "summary": "Two VLCCs carrying a combined 4 million barrels of Gulf crude exited the Strait of Hormuz last week with transponders switched off to avoid Iranian attack, Kpler data showed. Summary: The VLCC Basrah Energy loaded 2 million barrels of Upper Zakum crude at ADNOC's Zirku terminal on May 1 and exited t",
-        "published": "11 May 2026 06:42 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Economic and event calendar in Asia Monday, May 11, 2026 - China inflation data",
-        "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-monday-may-11-2026-china-inflation-data-20260510/",
-        "summary": "We had Chinese trade data over the weekend: China's April exports surge 14.1% as Iran war fear drives global stockpiling rush Today we get inflation data. China's deflation story appears to have run its course, with both consumer and producer prices having turned positive on a year-over-year basis i",
-        "published": "11 May 2026 06:19 WIB",
-        "sentiment": "Bearish",
-        "score": -0.542,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Japanese markets are about to get more active and respond to the US-Iran war of words",
-        "url": "https://investinglive.com/commodities/japanese-markets-are-about-to-get-more-active-and-respond-to-the-us-iran-war-of-words-20260510/",
-        "summary": "Iran Hormuz sovereignty claim Summary: Iranian state media reported that the U.S. proposal amounted to a demand for Iran to surrender to what it characterised as excessive American demands, per Iranian state media Iran's own proposal was said to stress the need for the United States to pay compensat",
-        "published": "11 May 2026 05:56 WIB",
-        "sentiment": "Bearish",
-        "score": -0.943,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "US futures trade has opened for the new week, oil is higher and equites a bit lower",
-        "url": "https://investinglive.com/commodities/us-futures-trade-has-opened-for-the-new-week-oil-is-higher-and-equites-a-bit-lower-20260510/",
-        "summary": "Oil is higher. Up more than 3%. ES and NQ are a touch lower. Barely off at all. Globex open now. Catch up on the news from here if you need: Futures aren't open yet, but early FX is pointing to risk off gap This article was written by Eamonn Sheridan at investinglive.com.",
-        "published": "11 May 2026 05:07 WIB",
-        "sentiment": "Bearish",
-        "score": -0.673,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Futures aren't open yet, but early FX is pointing to risk off gap",
-        "url": "https://investinglive.com/forex/futures-arent-open-yet-but-early-fx-is-pointing-to-risk-off-gap-20260510/",
-        "summary": "EUR down, AUD down, NZD down as examples. Yen hanging in there. Earlier: Iran state media says Iran wants sovereignty over the Strait of Hormuz Iran demand Trump says no Iran rejects Trump This article was written by Eamonn Sheridan at investinglive.com.",
-        "published": "11 May 2026 04:46 WIB",
-        "sentiment": "Bearish",
-        "score": -0.493,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Iran state media says Iran wants sovereignty over the Strait of Hormuz",
-        "url": "https://investinglive.com/commodities/iran-state-media-says-iran-wants-sovereignty-over-the-strait-of-hormuz-20260510/",
-        "summary": "Iranian state media: US proposal amounted to Iran surrendering to Trump’s excessive demands Iran’s proposal stressed the need for the United States to pay compensation for war damages and emphasized Iran’s sovereignty over the Strait of Hormuz You can catch up here if needed: Iran demand Trump says ",
-        "published": "11 May 2026 04:28 WIB",
-        "sentiment": "Bearish",
-        "score": -0.863,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Canadian Dollar remains depressed vs firmer USD; rising Oil prices limit further losses",
-        "url": "https://www.fxstreet.com/news/canadian-dollar-remains-depressed-vs-firmer-usd-rising-oil-prices-limit-further-losses-202605110234",
-        "summary": "The USD/CAD pair attracts some dip-buying following Friday's late pullback from the vicinity of the 100-day Simple Moving Average (SMA) and climbs back closer to the 1.3700 during the Asian session on Monday.",
-        "published": "11 May 2026 09:34 WIB",
-        "sentiment": "Bearish",
-        "score": -0.591,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Australian Dollar holds losses following China’s CPI inflation data",
-        "url": "https://www.fxstreet.com/news/australian-dollar-remains-in-the-negative-territory-ahead-of-chinas-cpi-data-202605110112",
-        "summary": "AUD/USD gains ground after opening at a bearish gap but still remains in the negative territory, trading around 0.7240 during the Asian hours on Monday. The pair moves little despite stronger-than-expected China’s Consumer Price Index (CPI) data.",
-        "published": "11 May 2026 09:08 WIB",
-        "sentiment": "Bearish",
-        "score": -0.655,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "New Zealand Dollar weakens to near 0.5950 despite hotter Chinese CPI inflation data",
-        "url": "https://www.fxstreet.com/news/new-zealand-dollar-weakens-to-near-05950-despite-hotter-chinese-cpi-inflation-data-202605110201",
-        "summary": "The NZD/USD pair trades in negative territory near 0.5950 during the early Asian trading hours on Monday. The New Zealand Dollar (NZD) remains weak against the US Dollar (USD) after the release of the Chinese inflation report. The US Existing Home Sales data for April is due later on Monday.",
-        "published": "11 May 2026 09:01 WIB",
-        "sentiment": "Bearish",
-        "score": -0.836,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "WTI rises above $95.50 as Trump rejects Iran’s proposal",
-        "url": "https://www.fxstreet.com/news/wti-rises-above-9550-as-trump-rejects-irans-proposal-202605110156",
-        "summary": "West Texas Intermediate (WTI) oil price advances after registering nearly 3% losses in the previous trading day, hovering around $95.70 during the Asian hours on Monday.",
-        "published": "11 May 2026 08:56 WIB",
-        "sentiment": "Bearish",
-        "score": -0.79,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Japanese Yen drifts lower vs firmer USD on Iran tensions; intervention risks limit losses",
-        "url": "https://www.fxstreet.com/news/japanese-yen-drifts-lower-vs-firmer-usd-on-iran-tensions-intervention-risks-limit-losses-202605110155",
-        "summary": "The USD/JPY pair reverses a modest Asian session dip to the 156.50-156.45 area on Monday as the safe-haven US Dollar (USD) draws support from persistent geopolitical uncertainties.",
-        "published": "11 May 2026 08:55 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Breaking: China’s CPI inflation climbs to 1.2% YoY in April, vs 0.8% expected",
-        "url": "https://www.fxstreet.com/news/when-are-the-cpi-ppi-and-how-could-they-affect-aud-usd-202605102313",
-        "summary": "China’s Consumer Price Index (CPI) climbed 1.2% in April from a year ago after arriving at a rise of 1.0% in March, the National Bureau of Statistics of China reported on Monday. The market consensus was for 0.8% in the reported period.",
-        "published": "11 May 2026 08:33 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "PBOC sets USD/CNY reference rate at 6.8467 vs. 6.8502 previous",
-        "url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68467-vs-68502-previous-202605110115",
-        "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8467 compared to Friday's fix of 6.8502 and 6.7988 Reuters estimate.",
-        "published": "11 May 2026 08:15 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "British Pound pares intraday losses; bulls seem hesitant near 1.3600 on firmer USD",
-        "url": "https://www.fxstreet.com/news/british-pound-pares-intraday-losses-bulls-seem-hesitant-near-13600-on-firmer-usd-202605110110",
-        "summary": "The GBP/USD pair rebounds nearly 50 pips following a bearish gap opening at the start of a new week and climbs back to the 1.3600 mark during the Asian session. However, a modest US Dollar (USD) strength might cap any further gains for spot prices.",
-        "published": "11 May 2026 08:10 WIB",
-        "sentiment": "Bullish",
-        "score": 0.226,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Gold slumps below $4,700 on Trump rejection of Iran peace proposal",
-        "url": "https://www.fxstreet.com/news/gold-slumps-below-4-700-on-trump-rejection-of-iran-peace-proposal-202605110058",
-        "summary": "Gold price (XAU/USD) falls to around $4,690 during the early Asian session on Monday. The precious metal attracts some sellers after US President Donald Trump rejected Iran’s latest peace offer to end the 10-week conflict choking the Strait of Hormuz, fanning inflation fears.",
-        "published": "11 May 2026 07:58 WIB",
-        "sentiment": "Bearish",
-        "score": -0.288,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Euro edges lower to near 1.1750 as Trump rejects new Iran peace offer",
-        "url": "https://www.fxstreet.com/news/eur-usd-edges-lower-to-near-11750-as-trump-rejects-new-iran-peace-offer-202605102337",
-        "summary": "The EUR/USD pair loses momentum to around 1.1765 during the early Asian session on Monday. The Euro (EUR) softens against the US Dollar (USD) amid a cautious mood after US President Donald Trump and Iran rejected each other’s latest peace proposals to end the war in the Middle East.",
-        "published": "11 May 2026 06:37 WIB",
-        "sentiment": "Bearish",
-        "score": -0.807,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "US President Donald Trump rejects new Iran peace proposal as ‘totally unacceptable’",
-        "url": "https://www.fxstreet.com/news/us-president-donald-trump-rejects-new-iran-peace-proposal-as-totally-unacceptable-202605102255",
-        "summary": "US President Donald Trump and Iran rejected each other’s latest peace proposals to bring an end to the war in the Middle East as the two sides struggle to maintain a fragile ceasefire, Bloomberg reported on Sunday.",
-        "published": "11 May 2026 05:55 WIB",
-        "sentiment": "Bearish",
-        "score": -0.691,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Iran submits proposal to end war in current negotiation phase",
-        "url": "https://www.fxstreet.com/news/iran-submits-proposal-to-end-war-in-current-negotiation-phase-202605101341",
-        "summary": "Iran has sent its response to the United States (US) proposal via Pakistan on Sunday, according to the Islamic Republic News Agency (IRNA).",
-        "published": "10 May 2026 20:41 WIB",
-        "sentiment": "Bearish",
-        "score": -0.353,
-        "emoji": "🔴"
-      },
-      {
         "source": "Investing.com Forex",
-        "title": "Nintendo shares slump as price hikes, games shortfall spook market",
-        "url": "https://www.investing.com/news/stock-market-news/nintendo-shares-slump-as-price-hikes-games-shortfall-spook-market-4674891",
-        "summary": "",
-        "published": "11 May 2026 09:18 WIB",
-        "sentiment": "Bullish",
-        "score": 0.216,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "India’s Vedanta posts record annual profit; says demerger takes effect",
-        "url": "https://www.investing.com/news/stock-market-news/indias-vedanta-posts-record-annual-profit-says-demerger-takes-effect-4674903",
-        "summary": "",
-        "published": "11 May 2026 09:08 WIB",
-        "sentiment": "Bullish",
-        "score": 0.44,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "How China’s evolving consumer habits may protect the Amazon rainforest",
-        "url": "https://www.investing.com/news/stock-market-news/how-chinas-evolving-consumer-habits-may-protect-the-amazon-rainforest-4674901",
-        "summary": "",
-        "published": "11 May 2026 08:54 WIB",
-        "sentiment": "Bullish",
-        "score": 0.511,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Apollo in talks to sell $3 billion private credit fund, WSJ reports",
-        "url": "https://www.investing.com/news/stock-market-news/apollo-in-talks-to-sell-3-billion-private-credit-fund-wsj-reports-4674888",
-        "summary": "",
-        "published": "11 May 2026 08:30 WIB",
-        "sentiment": "Bullish",
-        "score": 0.382,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Nintendo shares slide 9% after FY earnings, outlook miss estimates",
-        "url": "https://www.investing.com/news/stock-market-news/nintendo-shares-slide-9-after-fy-earnings-outlook-miss-estimates-4674890",
-        "summary": "",
-        "published": "11 May 2026 08:09 WIB",
-        "sentiment": "Bullish",
-        "score": 0.073,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Share futures wobble, dollar gains as Gulf talks teeter",
+        "title": "Shares mixed, dollar gains as Iran talks teeter",
         "url": "https://www.investing.com/news/stock-market-news/share-futures-ease-dollar-gains-as-gulf-talks-teeter-4674873",
         "summary": "",
-        "published": "11 May 2026 07:54 WIB",
+        "published": "11 May 2026 12:24 WIB",
         "sentiment": "Bullish",
         "score": 0.637,
         "emoji": "🟢"
       },
       {
         "source": "Investing.com Forex",
-        "title": "CSL shares plummet 18% on profit guidance cut, $5 bln impairment",
-        "url": "https://www.investing.com/news/stock-market-news/csl-shares-plummet-18-on-profit-guidance-cut-5-bln-impairment-4674886",
+        "title": "RBI likely sold dollars to curb rupee decline amid oil price surge- Reuters",
+        "url": "https://www.investing.com/news/stock-market-news/rbi-likely-sold-dollars-to-curb-rupee-decline-amid-oil-price-surge-reuters-93CH-4674973",
         "summary": "",
-        "published": "11 May 2026 07:34 WIB",
-        "sentiment": "Bullish",
-        "score": 0.459,
-        "emoji": "🟢"
+        "published": "11 May 2026 12:21 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
       },
       {
         "source": "Investing.com Forex",
-        "title": "US stock futures dip as Trump rejects Iran response to peace proposal",
-        "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-dip-as-trump-rejects-iran-response-to-peace-proposal-4674875",
+        "title": "US industry, lawmakers plead with Trump: Don’t open door to Chinese cars at Xi summit",
+        "url": "https://www.investing.com/news/stock-market-news/us-industry-lawmakers-plead-with-trump-dont-open-door-to-chinese-cars-at-xi-summit-4674971",
         "summary": "",
-        "published": "11 May 2026 06:50 WIB",
+        "published": "11 May 2026 12:06 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "India stocks slide over 1% as Modi warning adds to oil, M.East jitters",
+        "url": "https://www.investing.com/news/stock-market-news/india-stocks-slide-over-1-as-modi-warning-adds-to-oil-meast-jitters-4674969",
+        "summary": "",
+        "published": "11 May 2026 11:59 WIB",
+        "sentiment": "Bearish",
+        "score": -0.42,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Ambani’s Jio Platforms IPO pivots to pure fundraising, no investor exits, sources say",
+        "url": "https://www.investing.com/news/stock-market-news/ambanis-jio-platforms-ipo-pivots-to-pure-fundraise-no-investor-exits-sources-say-4674961",
+        "summary": "",
+        "published": "11 May 2026 11:54 WIB",
+        "sentiment": "Bearish",
+        "score": -0.296,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Dua Lipa sues Samsung for $15 million for allegedly using her image to sell TVs",
+        "url": "https://www.investing.com/news/stock-market-news/dua-lipa-sues-samsung-for-15-million-for-allegedly-using-her-image-to-sell-tvs-4674963",
+        "summary": "",
+        "published": "11 May 2026 11:37 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "China chip stocks rise as AI optimism remains in play",
+        "url": "https://www.investing.com/news/stock-market-news/china-chip-stocks-rise-as-ai-optimism-remains-in-play-4674959",
+        "summary": "",
+        "published": "11 May 2026 11:19 WIB",
         "sentiment": "Bullish",
-        "score": 0.077,
+        "score": 0.79,
         "emoji": "🟢"
       },
       {
@@ -1445,27 +1297,37 @@ window.FK_DATA = {
         "title": "Exclusive-Cerebras to raise IPO price range to $150-$160 as demand surges, sources say​​​​​​​​​​​​​​​​",
         "url": "https://www.investing.com/news/stock-market-news/exclusivecerebras-to-raise-ipo-price-range-to-150160-as-demand-surges-sources-say-4674870",
         "summary": "",
-        "published": "11 May 2026 05:48 WIB",
+        "published": "11 May 2026 10:48 WIB",
         "sentiment": "Netral",
         "score": -0.048,
         "emoji": "⚪"
       },
       {
         "source": "Investing.com Forex",
-        "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-        "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4674868",
+        "title": "Apollo in talks to sell $3 billion private credit fund, WSJ reports",
+        "url": "https://www.investing.com/news/stock-market-news/apollo-in-talks-to-sell-3-billion-private-credit-fund-wsj-reports-4674888",
         "summary": "",
-        "published": "11 May 2026 04:20 WIB",
-        "sentiment": "Bearish",
-        "score": -0.296,
-        "emoji": "🔴"
+        "published": "11 May 2026 10:48 WIB",
+        "sentiment": "Bullish",
+        "score": 0.382,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Asia stocks rise past Iran tensions on chips strength, US-China summit",
+        "url": "https://www.investing.com/news/stock-market-news/asia-stocks-rise-past-iran-tensions-on-chips-strength-uschina-summit-4674943",
+        "summary": "",
+        "published": "11 May 2026 10:34 WIB",
+        "sentiment": "Netral",
+        "score": 0.048,
+        "emoji": "⚪"
       },
       {
         "source": "Investing.com Economy",
-        "title": "China’s April producer inflation at 45-month peak on energy price shock",
+        "title": "China’s factory inflation hits 45-month high on energy price shock",
         "url": "https://www.investing.com/news/economic-indicators/china-april-producer-inflation-surgesto-45month-high-4674899",
         "summary": "",
-        "published": "11 May 2026 09:12 WIB",
+        "published": "11 May 2026 11:00 WIB",
         "sentiment": "Bearish",
         "score": -0.128,
         "emoji": "🔴"
@@ -1502,99 +1364,89 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Asian Stocks Rise Led by Tech, Oil Climbs on Iran: Markets Wrap",
+        "title": "Emerging Stocks Set to Close at Record High on Tech Bets",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/emerging-stocks-set-to-close-at-record-high-on-tech-bets",
+        "summary": "Emerging-market equities rose on AI trades as investors brushed off concerns over stalled peace talks between the US and Iran.",
+        "published": "11 May 2026 12:27 WIB",
+        "sentiment": "Bullish",
+        "score": 0.402,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Indonesia Central Bank Bills Outstanding Rise Most in Two Years",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/indonesia-central-bank-bills-outstanding-rise-most-in-two-years",
+        "summary": "The total amount of Indonesian central bank bills outstanding climbed by the most in almost two years last month as the monetary authority sought to attract capital inflows to support the weakening rupiah.",
+        "published": "11 May 2026 11:05 WIB",
+        "sentiment": "Bullish",
+        "score": 0.824,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Alhasan: Iranian Regime Thinks It Can Outlast Trump",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-11/alhasan-iranian-regime-thinks-it-can-outlast-trump-video",
+        "summary": "President Trump and Iran rejected each other's peace proposals threatening a fragile ceasefire after 10 weeks of conflict. Hasan Alhasan, Senior Fellow for Middle East Policy at the International Institute for Strategic Studies spoke to Bloomberg’s Horizons Middle East and Africa anchor Joumanna Ber",
+        "published": "11 May 2026 12:06 WIB",
+        "sentiment": "Bearish",
+        "score": -0.79,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Stocks Rise on Tech, Oil and Dollar Climb on Iran: Markets Wrap",
         "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
-        "summary": "Asian stocks rose as traders boosted bets on the AI trade, brushing aside Middle East tensions even after President Donald Trump’s rejection of Iran’s latest peace proposal pushed up oil prices.",
+        "summary": "Asian stocks climbed as traders doubled down on the AI trade, brushing aside Middle East tensions even after President Donald Trump rejected Iran’s latest peace proposal, sending crude oil higher and Treasuries lower.",
         "published": "11 May 2026 05:09 WIB",
         "sentiment": "Bearish",
-        "score": -0.132,
+        "score": -0.838,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Floundering Rupee May Keep Indian Equities on a Tight Leash",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-05-11/indian-rupee-unlikely-to-see-strong-recovery-even-if-iran-war-ends-soon",
-        "summary": "Monex Europe expects the rupee to hit 98 per dollar by year-end.",
-        "published": "11 May 2026 09:31 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "China’s Factory Inflation Hits Post-Covid High After Cost Shock",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-s-factory-inflation-soars-near-4-year-high-after-cost-jolt",
-        "summary": "China’s factory prices grew at the fastest pace since the pandemic four years ago as the fallout from the Iran war sharply raises costs.",
-        "published": "11 May 2026 08:38 WIB",
-        "sentiment": "Bearish",
-        "score": -0.918,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "CSL Plunges Most Ever on Impairments, Reduced Profit Target",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/csl-cuts-profit-outlook-flags-5-billion-in-new-impairments",
-        "summary": "CSL Ltd. plunged the most on record after the Australian biotechnology company cut its full-year outlook and flagged about $5 billion in additional impairments, warning a turnaround will take longer than expected following a review by its interim chief executive.",
-        "published": "11 May 2026 05:34 WIB",
-        "sentiment": "Bearish",
-        "score": -0.233,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Goldman Says Yuan 20% Undervalued, Boosts Currency Forecasts",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/goldman-says-yuan-20-undervalued-boosts-currency-forecasts",
-        "summary": "The Chinese yuan is more than 20% undervalued against the US dollar, according to Goldman Sachs Group Inc., which expects the currency to keep strengthening over the coming year.",
-        "published": "11 May 2026 08:17 WIB",
+        "title": "Blackstone’s Jon Gray: The $26 Billion Bet That Felt 'Career Shortening'",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-11/blackstone-s-jon-gray-the-26-billion-bet-that-felt-career-shortening",
+        "summary": "What does it take to lead through a near-disaster and turn it into a $14 billion win? In this episode, Blackstone President and Chief Operating Officer Jon Gray shares lessons from the financial crisis, revealing why staying calm, backing the right businesses and building trust can make or break a l",
+        "published": "11 May 2026 12:00 WIB",
         "sentiment": "Bullish",
-        "score": 0.75,
+        "score": 0.801,
         "emoji": "🟢"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "China Confirms Xi-Trump Summit That Was Delayed by Iran War",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-confirms-x-trump-summit-that-was-delayed-by-iran-war",
-        "summary": "Beijing officially announced the date of Donald Trump’s state visit this week, publicly green-lighting the first US presidential trip to China in nearly a decade despite tensions over the Iran war.",
-        "published": "11 May 2026 08:10 WIB",
+        "title": "Modi Urges Indians to Cut Fuel Use as Prices Rise",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-11/modi-urges-indians-to-cut-fuel-use-as-prices-rise-video",
+        "summary": "Indian Prime Minister Narendra Modi has appealed to citizens to conserve fuel and avoid unnecessary travel due to rising oil prices from the Iran war. Bloomberg's Ruchi Bhatia reports. (Source: Bloomberg)",
+        "published": "11 May 2026 11:39 WIB",
         "sentiment": "Bearish",
-        "score": -0.975,
+        "score": -0.882,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Yen Bears Retreat as Intervention Seen Capping Currency Weakness",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/yen-bears-retreat-as-intervention-seen-capping-currency-weakness",
-        "summary": "Bearish yen positions have seen a significant reduction after Japanese authorities intervened to support the currency, underscoring how official action is unwinding a crowded trade.",
-        "published": "11 May 2026 08:06 WIB",
+        "title": "Malaysia Pension Fund KWAP Taps Ex-Banker Jay Khairil as New CEO",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/malaysia-pension-fund-kwap-taps-ex-banker-jay-khairil-as-new-ceo",
+        "summary": "Malaysia state pension fund Kumpulan Wang Persaraan Diperbadankan has appointed former banker Jay Khairil Jeremy Abdullah as its new chief executive officer effective May 20, it said in a statement on Monday.",
+        "published": "11 May 2026 11:22 WIB",
         "sentiment": "Bullish",
-        "score": 0.281,
+        "score": 0.477,
         "emoji": "🟢"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Oil Jumps as Hormuz Stays Shut After Trump Rebuffs Iran’s Offer",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/latest-oil-market-news-and-analysis-for-may-11",
-        "summary": "Oil surged after US President Donald Trump rejected Iran’s latest response to his proposal to end the war in the Middle East, prolonging the effective closure of the crucial Strait of Hormuz.",
-        "published": "11 May 2026 05:02 WIB",
+        "title": "ECB to Hike Rates Twice in 2026 as Inflation Jumps, Survey Shows",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/ecb-to-hike-rates-twice-in-2026-as-inflation-jumps-survey-shows",
+        "summary": "The European Central Bank will raise interest rates twice this year as the Iran war drives inflation higher, a Bloomberg survey showed.",
+        "published": "11 May 2026 11:15 WIB",
         "sentiment": "Bearish",
-        "score": -0.625,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Trump Rejects Iran Peace Offer, Aims to Press Xi",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-11/trump-rejects-iran-peace-offer-aims-to-press-xi-video",
-        "summary": "President Donald Trump and Iran have rejected each other’s latest peace proposals to end the conflict. Meanwhile, Trump is expected to press Chinese leader Xi Jinping over China's approach to Iran when they meet in Beijing. Bloomberg's Tony Czuczka and Stephen Engle break down the situation. (Source",
-        "published": "11 May 2026 07:51 WIB",
-        "sentiment": "Bearish",
-        "score": -0.282,
+        "score": -0.306,
         "emoji": "🔴"
       },
       {
         "source": "BBC World",
         "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
         "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
-        "summary": "No details have been released of Iran's response - or the US proposals - designed to bring the war to an end.",
+        "summary": "Iran is reported to want lifting of the US naval blockade, recognition of Iranian sovereignty over the Strait of Hormuz and compensation for war damage.",
         "published": "11 May 2026 08:55 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
@@ -1622,6 +1474,16 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
+        "title": "Australia's right-wing One Nation party scores historic parliamentary win",
+        "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
+        "summary": "One Nation gains its first seat in the lower house, in a by-election seen as a key test for the populist party.",
+        "published": "10 May 2026 21:37 WIB",
+        "sentiment": "Bullish",
+        "score": 0.935,
+        "emoji": "🟢"
+      },
+      {
+        "source": "BBC World",
         "title": "Dress made from 500 loaves stuns African film awards",
         "url": "https://www.bbc.com/news/articles/c4g0d3d5zn4o?at_medium=RSS&at_campaign=rss",
         "summary": "Celebrities, filmmakers and creators put up a performance at Africa's biggest night of film and fashion.",
@@ -1639,16 +1501,6 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.794,
         "emoji": "🔴"
-      },
-      {
-        "source": "BBC World",
-        "title": "Australia's right-wing One Nation party scores historic parliamentary win",
-        "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
-        "summary": "One Nation gains its first seat in the lower house, in a by-election seen as a key test for the populist party.",
-        "published": "10 May 2026 21:37 WIB",
-        "sentiment": "Bullish",
-        "score": 0.935,
-        "emoji": "🟢"
       },
       {
         "source": "BBC Business",
@@ -1682,13 +1534,53 @@ window.FK_DATA = {
       },
       {
         "source": "BBC Top Stories",
-        "title": "Thousands gather for protest against antisemitism in London",
-        "url": "https://www.bbc.com/news/articles/cy92v3j999yo?at_medium=RSS&at_campaign=rss",
-        "summary": "In recent months, there have been a string of attacks at synagogues and other Jewish sites.",
-        "published": "10 May 2026 23:10 WIB",
+        "title": "Iranian activist tells BBC how fear of war restarting intensifies trauma of repression",
+        "url": "https://www.bbc.com/news/articles/c1m2ee3jxvro?at_medium=RSS&at_campaign=rss",
+        "summary": "A dissident in Tehran says she feels helpless and under immense psychological pressure.",
+        "published": "11 May 2026 04:01 WIB",
         "sentiment": "Bearish",
-        "score": -0.599,
+        "score": -1.0,
         "emoji": "🔴"
+      },
+      {
+        "source": "BBC Top Stories",
+        "title": "Watch: Owen Cooper,  Narges Rashidi and Celebrity Traitors win Bafta TV Awards",
+        "url": "https://www.bbc.com/news/videos/cj9p388nwxeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Netflix drama Adolescence was the big winner at the Bafta Television Awards on Sunday, while The Celebrity Traitors also scooped a share of the glory.",
+        "published": "11 May 2026 05:07 WIB",
+        "sentiment": "Bullish",
+        "score": 0.88,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Risks and rewards in France-Kenya partnership",
+        "url": "https://www.aljazeera.com/features/2026/5/11/risks-and-rewards-in-france-kenya-partnership?traffic_source=rss",
+        "summary": "Nairobi's partnership with Paris has sparked criticism, with many worried Kenya's interests will be subordinated.",
+        "published": "11 May 2026 11:45 WIB",
+        "sentiment": "Bearish",
+        "score": -0.433,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Russia and Ukraine accuse the other of ceasefire violations",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/11/russia-and-ukraine-accuse-the-other-of-ceasefire-violations?traffic_source=rss",
+        "summary": "Russia and Ukraine accuse the other of ceasefire violations.",
+        "published": "11 May 2026 11:33 WIB",
+        "sentiment": "Bearish",
+        "score": -0.776,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Gaza documentary dropped by the BBC wins BAFTA",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/11/gaza-documentary-dropped-by-the-bbc-wins-bafta?traffic_source=rss",
+        "summary": "A documentary exposing Israel's attacks on Gaza's health system and personnel won Best Current Affairs at the BAFTAs.",
+        "published": "11 May 2026 09:50 WIB",
+        "sentiment": "Bullish",
+        "score": 0.743,
+        "emoji": "🟢"
       },
       {
         "source": "Al Jazeera",
@@ -1731,51 +1623,11 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Medics among 51 killed in Israeli attacks on Lebanon in past 24 hours",
-        "url": "https://www.aljazeera.com/news/2026/5/10/medics-among-51-killed-in-israeli-attacks-on-lebanon-in-past-24-hours?traffic_source=rss",
-        "summary": "Israeli attacks are intensifying in southern Lebanon, with 552 killed since the 'ceasefire' started on April 16.",
-        "published": "11 May 2026 02:01 WIB",
-        "sentiment": "Bearish",
-        "score": -0.941,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Iran may ‘give assurances on the use of nuclear facilities’",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/10/iran-may-give-assurances-on-the-use-of-nuclear?traffic_source=rss",
-        "summary": "Iran may negotiate on nuclear facilities, but it 'won't destroy uranium or allow it to be moved'",
-        "published": "11 May 2026 00:29 WIB",
-        "sentiment": "Bullish",
-        "score": 0.78,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Trump says US will not allow Iran to reach enriched uranium",
-        "url": "https://www.aljazeera.com/news/2026/5/10/trump-says-us-will-not-allow-iran-to-reach-enriched-uranium?traffic_source=rss",
-        "summary": "US president says Washington has the nuclear material in Iran 'surveilled' and will 'blow up' anyone who gets near it.",
-        "published": "11 May 2026 00:22 WIB",
-        "sentiment": "Bearish",
-        "score": -0.145,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Food inflation hammers households in war-hit Iran",
-        "url": "https://www.aljazeera.com/news/2026/5/10/food-inflation-hammers-households-in-war-hit-iran?traffic_source=rss",
-        "summary": "Iranians faced with skyrocketing food prices as inflation soars, currency plunges amid US-enforced naval blockade.",
-        "published": "10 May 2026 23:37 WIB",
-        "sentiment": "Bearish",
-        "score": -0.08,
-        "emoji": "🔴"
-      },
-      {
         "source": "MarketWatch",
         "title": "U.S. stock futures fall, oil surges as Trump calls Iran’s latest offer to end war ‘totally unacceptable’",
         "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-surges-as-trump-calls-irans-latest-offer-to-end-war-totally-unacceptable-187e3d87?mod=mw_rss_topstories",
         "summary": "U.S. stock-index futures fell and oil prices rose on Sunday, after President Donald Trump called Iran’s response to the latest U.S. proposal to end the war “totally unacceptable.”",
-        "published": "11 May 2026 09:29 WIB",
+        "published": "11 May 2026 10:01 WIB",
         "sentiment": "Bearish",
         "score": -0.912,
         "emoji": "🔴"
@@ -1832,22 +1684,62 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "China consumer, wholesale inflation tops estimates in April as Iran war drives energy costs higher",
-        "url": "https://www.cnbc.com/2026/05/11/china-cpi-ppi-inflation-energy-costs-oil-iran-war.html",
-        "summary": "China has cushioned the worst of the energy shock through its strategic oil stockpiles and a diversified mix of renewable energy sources.",
-        "published": "11 May 2026 09:05 WIB",
+        "title": "Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict",
+        "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html",
+        "summary": "Washington has sought to press Beijing to lean on Tehran to reopen the strait, though China's appetite to act as a pressure mechanism remains unclear.",
+        "published": "11 May 2026 11:44 WIB",
         "sentiment": "Bearish",
-        "score": -0.539,
+        "score": -0.717,
         "emoji": "🔴"
       },
       {
         "source": "CNBC World",
-        "title": "Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict",
-        "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html",
-        "summary": "Washington has sought to press Beijing to lean on Tehran to reopen the strait, though China's appetite to act as a pressure mechanism remains unclear.",
-        "published": "11 May 2026 09:21 WIB",
+        "title": "Modi says Iran war poses severe risks to India, urges cuts in fuel use and gold purchases",
+        "url": "https://www.cnbc.com/2026/05/11/india-modi-fuel-gold-foreign-travel-middle-east-oil-shock.html",
+        "summary": "Modi appealed to Indians to cut fuel use, overseas travel and gold purchases as the Middle East conflict exposes India’s heavy reliance on imported energy.",
+        "published": "11 May 2026 11:48 WIB",
         "sentiment": "Bearish",
-        "score": -0.717,
+        "score": -1.0,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "South Korea's Kospi hits fresh record as Asia markets trade mixed amid oil surge, Iran risks",
+        "url": "https://www.cnbc.com/2026/05/11/asia-markets-today-live-updates-nikkei-kospi-hang-seng-sensex-csi-300-iran-hormuz.html",
+        "summary": "Investors headed into Monday on edge as Trump’s rejection of Iran’s ceasefire proposal fueled concerns about a prolonged Middle East conflict.",
+        "published": "11 May 2026 08:53 WIB",
+        "sentiment": "Bearish",
+        "score": -0.681,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Oil jumps as Netanyahu and Trump remarks stoke worries of prolonged Middle East conflict",
+        "url": "https://www.cnbc.com/2026/05/11/oil-price-today-brent-wti-iran-war-trump.html",
+        "summary": "Oil prices jumped on Monday after Israel warned that the conflict with Iran was still ongoing.",
+        "published": "11 May 2026 11:49 WIB",
+        "sentiment": "Bearish",
+        "score": -0.978,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "European markets set to open in mixed territory as Iran's peace talks stall",
+        "url": "https://www.cnbc.com/2026/05/11/european-markets-stoxx-600-ftse-dax-cac-iran-war-oil-prices.html",
+        "summary": "European stocks are expected to open in mixed territory on Monday as investors digest the latest in U.S.-Iran peace negotiations.",
+        "published": "11 May 2026 12:24 WIB",
+        "sentiment": "Bullish",
+        "score": 0.735,
+        "emoji": "🟢"
+      },
+      {
+        "source": "CNBC World",
+        "title": "China inflation beat estimates in April as Iran war drives producer prices to three-year highs",
+        "url": "https://www.cnbc.com/2026/05/11/china-cpi-ppi-inflation-energy-costs-oil-iran-war.html",
+        "summary": "China has cushioned the worst of the energy shock through its strategic oil stockpiles and a diversified mix of renewable energy sources.",
+        "published": "11 May 2026 11:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.813,
         "emoji": "🔴"
       },
       {
@@ -1862,32 +1754,12 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Oil climbs as Netanyahu and Trump remarks stoke worries over rising Middle East tensions",
-        "url": "https://www.cnbc.com/2026/05/11/oil-price-today-brent-wti-iran-war-trump.html",
-        "summary": "Oil prices jumped on Monday after Israel warned that the conflict with Iran was still ongoing.",
-        "published": "11 May 2026 07:45 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
         "title": "CNBC Daily Open: Iran proposes, Trump opposes, Xi watches",
         "url": "https://www.cnbc.com/2026/05/11/cnbc-daily-open-iran-proposes-trump-opposes-xi-watches.html",
         "summary": "The focus from the Iran war will likely take center stage during the talks, which could leave less scope to resolve issues like tariffs and rare earth supplies.",
         "published": "11 May 2026 08:17 WIB",
         "sentiment": "Bearish",
         "score": -0.148,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
-        "title": "South Korea's Kospi hits fresh record as Asia markets trade mixed amid oil surge, Iran risks",
-        "url": "https://www.cnbc.com/2026/05/11/asia-markets-today-live-updates-nikkei-kospi-hang-seng-sensex-csi-300-iran-hormuz.html",
-        "summary": "Investors headed into Monday on edge as Trump’s rejection of Iran’s ceasefire proposal fueled concerns about a prolonged Middle East conflict.",
-        "published": "11 May 2026 08:53 WIB",
-        "sentiment": "Bearish",
-        "score": -0.681,
         "emoji": "🔴"
       },
       {
@@ -1913,7 +1785,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "11 May 2026 09:59 WIB",
+    "generated": "11 May 2026 12:35 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1921,53 +1793,93 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.453,
-        "count": 41
+        "score": -0.45,
+        "count": 36
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.445,
-        "count": 39
+        "score": -0.441,
+        "count": 34
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.479,
-        "count": 32
+        "score": -0.426,
+        "count": 30
       },
       {
         "pair": "EUR/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.351,
+        "score": -0.422,
         "count": 11
       },
       {
         "pair": "CAD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.504,
+        "score": -0.63,
         "count": 7
       },
       {
         "pair": "NOK/SEK",
         "direction": "Tekanan Turun ▼",
-        "score": -0.504,
+        "score": -0.63,
         "count": 7
       },
       {
         "pair": "EUR",
         "direction": "Tekanan Turun ▼",
-        "score": -0.624,
+        "score": -0.583,
         "count": 3
       },
       {
         "pair": "USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.624,
+        "score": -0.583,
         "count": 3
       }
     ],
     "items": [
+      {
+        "source": "ForexLive",
+        "title": "Pengambil kebijakan ECB Kocher mengatakan menunggu pertemuan bulan April adalah keputusan yang bisa dibenarkan",
+        "url": "https://investinglive.com/centralbank/ecb-policymaker-kocher-says-waiting-in-april-meeting-was-a-justifiable-decision-20260511/",
+        "summary": "Economic recovery is now at risk Inflation risks have heightened due to the Middle East conflict Risk of a stragflationary trend cannot be ruled out even if economy, labour market remain resilient The duration of the Middle East conflict will be the decisive factor It was a justifiable decision to w",
+        "published": "11 May 2026 12:16 WIB",
+        "sentiment": "Bearish",
+        "score": -0.441,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "RBI dikatakan kemungkinan akan memasuki pasar untuk mencoba dan membatasi jatuhnya rupee",
+        "url": "https://investinglive.com/forex/rbi-said-to-be-likely-stepping-into-the-market-to-try-and-limit-the-rupees-fall-20260511/",
+        "summary": "Reuters is noting that the Indian central bank is likely intervening in the FX market to limit the rupee's drop today, citing three traders on the matter. USD/INR continues to scale higher to start the week, as a renewed jump in oil prices is weighing heavily on the rupee amid a worsening economic o",
+        "published": "11 May 2026 11:21 WIB",
+        "sentiment": "Bearish",
+        "score": -0.532,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "investingLive Asia-Pacific news wrap: Trump rejects Iran proposal ‘TOTALLY UNACCEPTABLE’",
+        "url": "https://investinglive.com/news/investinglive-asia-pacific-news-wrap-trump-rejects-iran-proposal-totally-unacceptable-20260511/",
+        "summary": "China car sales fall for seventh month as EV exports surge on Iran fuel shock China's April inflation data beats across board as energy costs reshape price landscape Japan's energy subsidies and yen defence are on a collision course ICYMI - Netanyahu says Iran war not over and refuses to rule out se",
+        "published": "11 May 2026 10:44 WIB",
+        "sentiment": "Bearish",
+        "score": -0.823,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "China car sales fall for seventh month as EV exports surge on Iran fuel shock",
+        "url": "https://investinglive.com/news/china-car-sales-fall-for-seventh-month-as-ev-exports-surge-on-iran-fuel-shock-20260511/",
+        "summary": "China's car sales fell 21.6% in April, a seventh straight monthly decline, as high oil prices hurt domestic demand while EV and hybrid exports surged 111.8% on Iran war fuel costs. Summary: China's passenger car sales dropped 21.6% year-on-year to 1.4 million vehicles in April, a seventh consecutive",
+        "published": "11 May 2026 10:16 WIB",
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "emoji": "🔴"
+      },
       {
         "source": "ForexLive",
         "title": "China's April inflation data beats across board as energy costs reshape price landscape",
@@ -1980,7 +1892,7 @@ window.FK_DATA = {
       },
       {
         "source": "ForexLive",
-        "title": "Japan's energy subsidies and yen defence are on a collision course",
+        "title": "Subsidi energi Jepang dan pertahanan yen berada pada jalur yang berlawanan",
         "url": "https://investinglive.com/forex/japans-energy-subsidies-and-yen-defence-are-on-a-collision-course-20260511/",
         "summary": "Japan's petrol subsidies are draining funds at 300bn yen a month while yen intervention nears IMF limits, putting Tokyo's fiscal and currency strategy on a collision course, Reuters Breakingviews argues. Summary: A Reuters column by Hudson Lockett argues that Japanese Prime Minister Sanae Takaichi f",
         "published": "11 May 2026 09:12 WIB",
@@ -2010,133 +1922,43 @@ window.FK_DATA = {
       },
       {
         "source": "ForexLive",
-        "title": "Iran oil shock has put Fed rate cuts off the table and hikes back on, Pimco says",
+        "title": "Guncangan harga minyak di Iran telah membuat Fed tidak lagi melakukan pemotongan suku bunga dan menaikkan kembali suku bunganya, kata Pimco",
         "url": "https://investinglive.com/centralbank/iran-oil-shock-has-put-fed-rate-cuts-off-the-table-and-hikes-back-on-pimco-says-20260511/",
         "summary": "Pimco's CIO warned the Financial Times (gated) that the Iran war's energy shock could make Fed rate cuts counter-productive and may even necessitate hikes, with Franklin Templeton echoing the concern. Summary: Pimco chief investment officer Dan Ivascyn told the Financial Times at the Milken Institut",
         "published": "11 May 2026 07:38 WIB",
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.878,
         "emoji": "🔴"
       },
       {
         "source": "ForexLive",
-        "title": "UK and France convene 40-nation defence meet on Hormuz as Iran issues war warning",
+        "title": "Inggris dan Prancis mengadakan pertemuan pertahanan 40 negara di Hormuz ketika Iran mengeluarkan peringatan perang",
         "url": "https://investinglive.com/commodities/uk-and-france-convene-40-nation-defence-meet-on-hormuz-as-iran-issues-war-warning-20260511/",
         "summary": "The UK and France will co-chair a 40-nation defence ministers' meeting Tuesday on plans to restore Hormuz shipping, hours after Iran warned any foreign warships would face a decisive response. Summary: The UK and France will on Tuesday co-chair a virtual meeting of more than 40 nations to advance mi",
         "published": "11 May 2026 07:13 WIB",
+        "sentiment": "Bullish",
+        "score": 0.317,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "India stocks slide over 1% as Modi warning adds to oil, M.East jitters",
+        "url": "https://www.investing.com/news/stock-market-news/india-stocks-slide-over-1-as-modi-warning-adds-to-oil-meast-jitters-4674969",
+        "summary": "",
+        "published": "11 May 2026 11:59 WIB",
         "sentiment": "Bearish",
-        "score": -0.581,
+        "score": -0.42,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Two tankers slip through Hormuz dark as Gulf oil crisis grinds on. Yeah, two. Yippee.",
-        "url": "https://investinglive.com/commodities/two-tankers-slip-through-hormuz-dark-as-gulf-oil-crisis-grinds-on-yeah-two-yippee-20260510/",
-        "summary": "Two VLCCs carrying a combined 4 million barrels of Gulf crude exited the Strait of Hormuz last week with transponders switched off to avoid Iranian attack, Kpler data showed. Summary: The VLCC Basrah Energy loaded 2 million barrels of Upper Zakum crude at ADNOC's Zirku terminal on May 1 and exited t",
-        "published": "11 May 2026 06:42 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Economic and event calendar in Asia Monday, May 11, 2026 - China inflation data",
-        "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-monday-may-11-2026-china-inflation-data-20260510/",
-        "summary": "We had Chinese trade data over the weekend: China's April exports surge 14.1% as Iran war fear drives global stockpiling rush Today we get inflation data. China's deflation story appears to have run its course, with both consumer and producer prices having turned positive on a year-over-year basis i",
-        "published": "11 May 2026 06:19 WIB",
-        "sentiment": "Bearish",
-        "score": -0.542,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Japanese markets are about to get more active and respond to the US-Iran war of words",
-        "url": "https://investinglive.com/commodities/japanese-markets-are-about-to-get-more-active-and-respond-to-the-us-iran-war-of-words-20260510/",
-        "summary": "Iran Hormuz sovereignty claim Summary: Iranian state media reported that the U.S. proposal amounted to a demand for Iran to surrender to what it characterised as excessive American demands, per Iranian state media Iran's own proposal was said to stress the need for the United States to pay compensat",
-        "published": "11 May 2026 05:56 WIB",
-        "sentiment": "Bearish",
-        "score": -0.943,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Iran state media says Iran wants sovereignty over the Strait of Hormuz",
-        "url": "https://investinglive.com/commodities/iran-state-media-says-iran-wants-sovereignty-over-the-strait-of-hormuz-20260510/",
-        "summary": "Iranian state media: US proposal amounted to Iran surrendering to Trump’s excessive demands Iran’s proposal stressed the need for the United States to pay compensation for war damages and emphasized Iran’s sovereignty over the Strait of Hormuz You can catch up here if needed: Iran demand Trump says ",
-        "published": "11 May 2026 04:28 WIB",
-        "sentiment": "Bearish",
-        "score": -0.863,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Canadian Dollar remains depressed vs firmer USD; rising Oil prices limit further losses",
-        "url": "https://www.fxstreet.com/news/canadian-dollar-remains-depressed-vs-firmer-usd-rising-oil-prices-limit-further-losses-202605110234",
-        "summary": "The USD/CAD pair attracts some dip-buying following Friday's late pullback from the vicinity of the 100-day Simple Moving Average (SMA) and climbs back closer to the 1.3700 during the Asian session on Monday.",
-        "published": "11 May 2026 09:34 WIB",
-        "sentiment": "Bearish",
-        "score": -0.591,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "WTI rises above $95.50 as Trump rejects Iran’s proposal",
-        "url": "https://www.fxstreet.com/news/wti-rises-above-9550-as-trump-rejects-irans-proposal-202605110156",
-        "summary": "West Texas Intermediate (WTI) oil price advances after registering nearly 3% losses in the previous trading day, hovering around $95.70 during the Asian hours on Monday.",
-        "published": "11 May 2026 08:56 WIB",
-        "sentiment": "Bearish",
-        "score": -0.79,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Japanese Yen drifts lower vs firmer USD on Iran tensions; intervention risks limit losses",
-        "url": "https://www.fxstreet.com/news/japanese-yen-drifts-lower-vs-firmer-usd-on-iran-tensions-intervention-risks-limit-losses-202605110155",
-        "summary": "The USD/JPY pair reverses a modest Asian session dip to the 156.50-156.45 area on Monday as the safe-haven US Dollar (USD) draws support from persistent geopolitical uncertainties.",
-        "published": "11 May 2026 08:55 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Gold slumps below $4,700 on Trump rejection of Iran peace proposal",
-        "url": "https://www.fxstreet.com/news/gold-slumps-below-4-700-on-trump-rejection-of-iran-peace-proposal-202605110058",
-        "summary": "Gold price (XAU/USD) falls to around $4,690 during the early Asian session on Monday. The precious metal attracts some sellers after US President Donald Trump rejected Iran’s latest peace offer to end the 10-week conflict choking the Strait of Hormuz, fanning inflation fears.",
-        "published": "11 May 2026 07:58 WIB",
-        "sentiment": "Bearish",
-        "score": -0.288,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Euro edges lower to near 1.1750 as Trump rejects new Iran peace offer",
-        "url": "https://www.fxstreet.com/news/eur-usd-edges-lower-to-near-11750-as-trump-rejects-new-iran-peace-offer-202605102337",
-        "summary": "The EUR/USD pair loses momentum to around 1.1765 during the early Asian session on Monday. The Euro (EUR) softens against the US Dollar (USD) amid a cautious mood after US President Donald Trump and Iran rejected each other’s latest peace proposals to end the war in the Middle East.",
-        "published": "11 May 2026 06:37 WIB",
-        "sentiment": "Bearish",
-        "score": -0.807,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "US President Donald Trump rejects new Iran peace proposal as ‘totally unacceptable’",
-        "url": "https://www.fxstreet.com/news/us-president-donald-trump-rejects-new-iran-peace-proposal-as-totally-unacceptable-202605102255",
-        "summary": "US President Donald Trump and Iran rejected each other’s latest peace proposals to bring an end to the war in the Middle East as the two sides struggle to maintain a fragile ceasefire, Bloomberg reported on Sunday.",
-        "published": "11 May 2026 05:55 WIB",
-        "sentiment": "Bearish",
-        "score": -0.691,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Iran submits proposal to end war in current negotiation phase",
-        "url": "https://www.fxstreet.com/news/iran-submits-proposal-to-end-war-in-current-negotiation-phase-202605101341",
-        "summary": "Iran has sent its response to the United States (US) proposal via Pakistan on Sunday, according to the Islamic Republic News Agency (IRNA).",
-        "published": "10 May 2026 20:41 WIB",
-        "sentiment": "Bearish",
-        "score": -0.353,
-        "emoji": "🔴"
+        "source": "Investing.com Forex",
+        "title": "Asia stocks rise past Iran tensions on chips strength, US-China summit",
+        "url": "https://www.investing.com/news/stock-market-news/asia-stocks-rise-past-iran-tensions-on-chips-strength-uschina-summit-4674943",
+        "summary": "",
+        "published": "11 May 2026 10:34 WIB",
+        "sentiment": "Netral",
+        "score": 0.048,
+        "emoji": "⚪"
       },
       {
         "source": "Investing.com Economy",
@@ -2150,69 +1972,69 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Asian Stocks Rise Led by Tech, Oil Climbs on Iran: Markets Wrap",
+        "title": "Emerging Stocks Set to Close at Record High on Tech Bets",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/emerging-stocks-set-to-close-at-record-high-on-tech-bets",
+        "summary": "Emerging-market equities rose on AI trades as investors brushed off concerns over stalled peace talks between the US and Iran.",
+        "published": "11 May 2026 12:27 WIB",
+        "sentiment": "Bullish",
+        "score": 0.402,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Alhasan: Iranian Regime Thinks It Can Outlast Trump",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-11/alhasan-iranian-regime-thinks-it-can-outlast-trump-video",
+        "summary": "President Trump and Iran rejected each other's peace proposals threatening a fragile ceasefire after 10 weeks of conflict. Hasan Alhasan, Senior Fellow for Middle East Policy at the International Institute for Strategic Studies spoke to Bloomberg’s Horizons Middle East and Africa anchor Joumanna Ber",
+        "published": "11 May 2026 12:06 WIB",
+        "sentiment": "Bearish",
+        "score": -0.79,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Saham Naik karena Teknologi, Minyak dan Kenaikan Dolar di Iran: Penutupan Pasar",
         "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
-        "summary": "Asian stocks rose as traders boosted bets on the AI trade, brushing aside Middle East tensions even after President Donald Trump’s rejection of Iran’s latest peace proposal pushed up oil prices.",
+        "summary": "Asian stocks climbed as traders doubled down on the AI trade, brushing aside Middle East tensions even after President Donald Trump rejected Iran’s latest peace proposal, sending crude oil higher and Treasuries lower.",
         "published": "11 May 2026 05:09 WIB",
         "sentiment": "Bearish",
-        "score": -0.132,
+        "score": -0.838,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "China’s Factory Inflation Hits Post-Covid High After Cost Shock",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-s-factory-inflation-soars-near-4-year-high-after-cost-jolt",
-        "summary": "China’s factory prices grew at the fastest pace since the pandemic four years ago as the fallout from the Iran war sharply raises costs.",
-        "published": "11 May 2026 08:38 WIB",
+        "title": "Blackstone’s Jon Gray: The $26 Billion Bet That Felt 'Career Shortening'",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-11/blackstone-s-jon-gray-the-26-billion-bet-that-felt-career-shortening",
+        "summary": "What does it take to lead through a near-disaster and turn it into a $14 billion win? In this episode, Blackstone President and Chief Operating Officer Jon Gray shares lessons from the financial crisis, revealing why staying calm, backing the right businesses and building trust can make or break a l",
+        "published": "11 May 2026 12:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.801,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Modi Urges Indians to Cut Fuel Use as Prices Rise",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-11/modi-urges-indians-to-cut-fuel-use-as-prices-rise-video",
+        "summary": "Indian Prime Minister Narendra Modi has appealed to citizens to conserve fuel and avoid unnecessary travel due to rising oil prices from the Iran war. Bloomberg's Ruchi Bhatia reports. (Source: Bloomberg)",
+        "published": "11 May 2026 11:39 WIB",
         "sentiment": "Bearish",
-        "score": -0.918,
+        "score": -0.882,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "CSL Plunges Most Ever on Impairments, Reduced Profit Target",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/csl-cuts-profit-outlook-flags-5-billion-in-new-impairments",
-        "summary": "CSL Ltd. plunged the most on record after the Australian biotechnology company cut its full-year outlook and flagged about $5 billion in additional impairments, warning a turnaround will take longer than expected following a review by its interim chief executive.",
-        "published": "11 May 2026 05:34 WIB",
+        "title": "ECB to Hike Rates Twice in 2026 as Inflation Jumps, Survey Shows",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/ecb-to-hike-rates-twice-in-2026-as-inflation-jumps-survey-shows",
+        "summary": "The European Central Bank will raise interest rates twice this year as the Iran war drives inflation higher, a Bloomberg survey showed.",
+        "published": "11 May 2026 11:15 WIB",
         "sentiment": "Bearish",
-        "score": -0.233,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "China Confirms Xi-Trump Summit That Was Delayed by Iran War",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-confirms-x-trump-summit-that-was-delayed-by-iran-war",
-        "summary": "Beijing officially announced the date of Donald Trump’s state visit this week, publicly green-lighting the first US presidential trip to China in nearly a decade despite tensions over the Iran war.",
-        "published": "11 May 2026 08:10 WIB",
-        "sentiment": "Bearish",
-        "score": -0.975,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Oil Jumps as Hormuz Stays Shut After Trump Rebuffs Iran’s Offer",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/latest-oil-market-news-and-analysis-for-may-11",
-        "summary": "Oil surged after US President Donald Trump rejected Iran’s latest response to his proposal to end the war in the Middle East, prolonging the effective closure of the crucial Strait of Hormuz.",
-        "published": "11 May 2026 05:02 WIB",
-        "sentiment": "Bearish",
-        "score": -0.625,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Trump Rejects Iran Peace Offer, Aims to Press Xi",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-11/trump-rejects-iran-peace-offer-aims-to-press-xi-video",
-        "summary": "President Donald Trump and Iran have rejected each other’s latest peace proposals to end the conflict. Meanwhile, Trump is expected to press Chinese leader Xi Jinping over China's approach to Iran when they meet in Beijing. Bloomberg's Tony Czuczka and Stephen Engle break down the situation. (Source",
-        "published": "11 May 2026 07:51 WIB",
-        "sentiment": "Bearish",
-        "score": -0.282,
+        "score": -0.306,
         "emoji": "🔴"
       },
       {
         "source": "BBC World",
         "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
         "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
-        "summary": "No details have been released of Iran's response - or the US proposals - designed to bring the war to an end.",
+        "summary": "Iran is reported to want lifting of the US naval blockade, recognition of Iranian sovereignty over the Strait of Hormuz and compensation for war damage.",
         "published": "11 May 2026 08:55 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
@@ -2240,6 +2062,16 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
+        "title": "Australia's right-wing One Nation party scores historic parliamentary win",
+        "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
+        "summary": "One Nation gains its first seat in the lower house, in a by-election seen as a key test for the populist party.",
+        "published": "10 May 2026 21:37 WIB",
+        "sentiment": "Bullish",
+        "score": 0.935,
+        "emoji": "🟢"
+      },
+      {
+        "source": "BBC World",
         "title": "Dress made from 500 loaves stuns African film awards",
         "url": "https://www.bbc.com/news/articles/c4g0d3d5zn4o?at_medium=RSS&at_campaign=rss",
         "summary": "Celebrities, filmmakers and creators put up a performance at Africa's biggest night of film and fashion.",
@@ -2257,16 +2089,6 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.794,
         "emoji": "🔴"
-      },
-      {
-        "source": "BBC World",
-        "title": "Australia's right-wing One Nation party scores historic parliamentary win",
-        "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
-        "summary": "One Nation gains its first seat in the lower house, in a by-election seen as a key test for the populist party.",
-        "published": "10 May 2026 21:37 WIB",
-        "sentiment": "Bullish",
-        "score": 0.935,
-        "emoji": "🟢"
       },
       {
         "source": "BBC Business",
@@ -2290,13 +2112,43 @@ window.FK_DATA = {
       },
       {
         "source": "BBC Top Stories",
-        "title": "Thousands gather for protest against antisemitism in London",
-        "url": "https://www.bbc.com/news/articles/cy92v3j999yo?at_medium=RSS&at_campaign=rss",
-        "summary": "In recent months, there have been a string of attacks at synagogues and other Jewish sites.",
-        "published": "10 May 2026 23:10 WIB",
+        "title": "Iranian activist tells BBC how fear of war restarting intensifies trauma of repression",
+        "url": "https://www.bbc.com/news/articles/c1m2ee3jxvro?at_medium=RSS&at_campaign=rss",
+        "summary": "A dissident in Tehran says she feels helpless and under immense psychological pressure.",
+        "published": "11 May 2026 04:01 WIB",
         "sentiment": "Bearish",
-        "score": -0.599,
+        "score": -1.0,
         "emoji": "🔴"
+      },
+      {
+        "source": "BBC Top Stories",
+        "title": "Watch: Owen Cooper,  Narges Rashidi and Celebrity Traitors win Bafta TV Awards",
+        "url": "https://www.bbc.com/news/videos/cj9p388nwxeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Netflix drama Adolescence was the big winner at the Bafta Television Awards on Sunday, while The Celebrity Traitors also scooped a share of the glory.",
+        "published": "11 May 2026 05:07 WIB",
+        "sentiment": "Bullish",
+        "score": 0.88,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Russia and Ukraine accuse the other of ceasefire violations",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/11/russia-and-ukraine-accuse-the-other-of-ceasefire-violations?traffic_source=rss",
+        "summary": "Russia and Ukraine accuse the other of ceasefire violations.",
+        "published": "11 May 2026 11:33 WIB",
+        "sentiment": "Bearish",
+        "score": -0.776,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Gaza documentary dropped by the BBC wins BAFTA",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/11/gaza-documentary-dropped-by-the-bbc-wins-bafta?traffic_source=rss",
+        "summary": "A documentary exposing Israel's attacks on Gaza's health system and personnel won Best Current Affairs at the BAFTAs.",
+        "published": "11 May 2026 09:50 WIB",
+        "sentiment": "Bullish",
+        "score": 0.743,
+        "emoji": "🟢"
       },
       {
         "source": "Al Jazeera",
@@ -2339,51 +2191,11 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Medics among 51 killed in Israeli attacks on Lebanon in past 24 hours",
-        "url": "https://www.aljazeera.com/news/2026/5/10/medics-among-51-killed-in-israeli-attacks-on-lebanon-in-past-24-hours?traffic_source=rss",
-        "summary": "Israeli attacks are intensifying in southern Lebanon, with 552 killed since the 'ceasefire' started on April 16.",
-        "published": "11 May 2026 02:01 WIB",
-        "sentiment": "Bearish",
-        "score": -0.941,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Iran may ‘give assurances on the use of nuclear facilities’",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/10/iran-may-give-assurances-on-the-use-of-nuclear?traffic_source=rss",
-        "summary": "Iran may negotiate on nuclear facilities, but it 'won't destroy uranium or allow it to be moved'",
-        "published": "11 May 2026 00:29 WIB",
-        "sentiment": "Bullish",
-        "score": 0.78,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Trump says US will not allow Iran to reach enriched uranium",
-        "url": "https://www.aljazeera.com/news/2026/5/10/trump-says-us-will-not-allow-iran-to-reach-enriched-uranium?traffic_source=rss",
-        "summary": "US president says Washington has the nuclear material in Iran 'surveilled' and will 'blow up' anyone who gets near it.",
-        "published": "11 May 2026 00:22 WIB",
-        "sentiment": "Bearish",
-        "score": -0.145,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Food inflation hammers households in war-hit Iran",
-        "url": "https://www.aljazeera.com/news/2026/5/10/food-inflation-hammers-households-in-war-hit-iran?traffic_source=rss",
-        "summary": "Iranians faced with skyrocketing food prices as inflation soars, currency plunges amid US-enforced naval blockade.",
-        "published": "10 May 2026 23:37 WIB",
-        "sentiment": "Bearish",
-        "score": -0.08,
-        "emoji": "🔴"
-      },
-      {
         "source": "MarketWatch",
         "title": "U.S. stock futures fall, oil surges as Trump calls Iran’s latest offer to end war ‘totally unacceptable’",
         "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-surges-as-trump-calls-irans-latest-offer-to-end-war-totally-unacceptable-187e3d87?mod=mw_rss_topstories",
         "summary": "U.S. stock-index futures fell and oil prices rose on Sunday, after President Donald Trump called Iran’s response to the latest U.S. proposal to end the war “totally unacceptable.”",
-        "published": "11 May 2026 09:29 WIB",
+        "published": "11 May 2026 10:01 WIB",
         "sentiment": "Bearish",
         "score": -0.912,
         "emoji": "🔴"
@@ -2420,52 +2232,22 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "China consumer, wholesale inflation tops estimates in April as Iran war drives energy costs higher",
-        "url": "https://www.cnbc.com/2026/05/11/china-cpi-ppi-inflation-energy-costs-oil-iran-war.html",
-        "summary": "China has cushioned the worst of the energy shock through its strategic oil stockpiles and a diversified mix of renewable energy sources.",
-        "published": "11 May 2026 09:05 WIB",
-        "sentiment": "Bearish",
-        "score": -0.539,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
         "title": "Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict",
         "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html",
         "summary": "Washington has sought to press Beijing to lean on Tehran to reopen the strait, though China's appetite to act as a pressure mechanism remains unclear.",
-        "published": "11 May 2026 09:21 WIB",
+        "published": "11 May 2026 11:44 WIB",
         "sentiment": "Bearish",
         "score": -0.717,
         "emoji": "🔴"
       },
       {
         "source": "CNBC World",
-        "title": "Netanyahu says Iran war is 'not over' as Trump rejects latest Iranian offer",
-        "url": "https://www.cnbc.com/2026/05/10/netanyahu-says-iran-war-is-not-over-as-peace-deal-remains-elusive.html",
-        "summary": "The Iran war, dragging into its second month, has spiked oil and gas prices in the U.S. and around the world.",
-        "published": "11 May 2026 03:28 WIB",
-        "sentiment": "Bearish",
-        "score": -0.98,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Oil climbs as Netanyahu and Trump remarks stoke worries over rising Middle East tensions",
-        "url": "https://www.cnbc.com/2026/05/11/oil-price-today-brent-wti-iran-war-trump.html",
-        "summary": "Oil prices jumped on Monday after Israel warned that the conflict with Iran was still ongoing.",
-        "published": "11 May 2026 07:45 WIB",
+        "title": "Modi says Iran war poses severe risks to India, urges cuts in fuel use and gold purchases",
+        "url": "https://www.cnbc.com/2026/05/11/india-modi-fuel-gold-foreign-travel-middle-east-oil-shock.html",
+        "summary": "Modi appealed to Indians to cut fuel use, overseas travel and gold purchases as the Middle East conflict exposes India’s heavy reliance on imported energy.",
+        "published": "11 May 2026 11:48 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
-        "title": "CNBC Daily Open: Iran proposes, Trump opposes, Xi watches",
-        "url": "https://www.cnbc.com/2026/05/11/cnbc-daily-open-iran-proposes-trump-opposes-xi-watches.html",
-        "summary": "The focus from the Iran war will likely take center stage during the talks, which could leave less scope to resolve issues like tariffs and rare earth supplies.",
-        "published": "11 May 2026 08:17 WIB",
-        "sentiment": "Bearish",
-        "score": -0.148,
         "emoji": "🔴"
       },
       {
@@ -2480,12 +2262,52 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Saudi Aramco Q1 profit jumps 26% as key pipeline reaches capacity amid Iran war",
+        "title": "Oil jumps as Netanyahu and Trump remarks stoke worries of prolonged Middle East conflict",
+        "url": "https://www.cnbc.com/2026/05/11/oil-price-today-brent-wti-iran-war-trump.html",
+        "summary": "Oil prices jumped on Monday after Israel warned that the conflict with Iran was still ongoing.",
+        "published": "11 May 2026 11:49 WIB",
+        "sentiment": "Bearish",
+        "score": -0.978,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "China inflation beat estimates in April as Iran war drives producer prices to three-year highs",
+        "url": "https://www.cnbc.com/2026/05/11/china-cpi-ppi-inflation-energy-costs-oil-iran-war.html",
+        "summary": "China has cushioned the worst of the energy shock through its strategic oil stockpiles and a diversified mix of renewable energy sources.",
+        "published": "11 May 2026 11:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.813,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Netanyahu says Iran war is 'not over' as Trump rejects latest Iranian offer",
+        "url": "https://www.cnbc.com/2026/05/10/netanyahu-says-iran-war-is-not-over-as-peace-deal-remains-elusive.html",
+        "summary": "The Iran war, dragging into its second month, has spiked oil and gas prices in the U.S. and around the world.",
+        "published": "11 May 2026 03:28 WIB",
+        "sentiment": "Bearish",
+        "score": -0.98,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "CNBC Daily Open: Iran proposes, Trump opposes, Xi watches",
+        "url": "https://www.cnbc.com/2026/05/11/cnbc-daily-open-iran-proposes-trump-opposes-xi-watches.html",
+        "summary": "The focus from the Iran war will likely take center stage during the talks, which could leave less scope to resolve issues like tariffs and rare earth supplies.",
+        "published": "11 May 2026 08:17 WIB",
+        "sentiment": "Bearish",
+        "score": -0.148,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Laba Saudi Aramco Kuartal 1 melonjak 26% karena jaringan pipa utama mencapai kapasitasnya di tengah perang Iran",
         "url": "https://www.cnbc.com/2026/05/10/saudi-aramco-q1-profit-jumps-26percent-as-key-pipeline-reaches-capacity.html",
         "summary": "Aramco says its East-West pipeline has helped to mitigate the energy shock caused by the Iran war.",
         "published": "10 May 2026 15:24 WIB",
         "sentiment": "Bearish",
-        "score": -0.815,
+        "score": -0.74,
         "emoji": "🔴"
       },
       {
@@ -2497,6 +2319,509 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.262,
         "emoji": "🟢"
+      }
+    ]
+  },
+  "fj_live": {
+    "generated": "11 May 2026 12:35 WIB",
+    "summary": {
+      "total": 49,
+      "bullish": 5,
+      "bearish": 9,
+      "netral": 35,
+      "avg_score": -0.0389,
+      "overall": "Netral"
+    },
+    "items": [
+      {
+        "source": "FinancialJuice",
+        "title": "PBoC mengadakan rapat kerja makroprudensial tahun 2025",
+        "url": "https://www.financialjuice.com/News/9578724/PBoC-holds-macroprudential-work-meeting-for-2025.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:09 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PBoC: untuk menjajaki perluasan peran makroprudensial dan stabilitas keuangan bank sentral",
+        "url": "https://www.financialjuice.com/News/9578723/PBoC-to-explore-broadening-central-banks-macroprudential-and-financial-stability-roles.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:09 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PBoC: untuk melakukan inovasi pada perangkat kebijakan makroprudensial dan mendorong pemulihan dan perbaikan ekonomi yang berkelanjutan",
+        "url": "https://www.financialjuice.com/News/9578722/PBoC-to-innovate-macro-prudential-policy-tools-and-foster-sustained-economic-recovery-and-improvement.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:09 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PBoC: akan mendukung pasar real estate untuk menghentikan penurunan dan menstabilkan",
+        "url": "https://www.financialjuice.com/News/9578721/PBoC-will-support-real-estate-market-to-halt-decline-and-stabilise.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:09 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PBoC: untuk mengintensifkan peninjauan upaya makroekonomi dan keuangan",
+        "url": "https://www.financialjuice.com/News/9578720/PBoC-to-intensify-review-of-macroeconomic-and-financial-efforts.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:09 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PBoC: akan meningkatkan penggunaan yuan internasional",
+        "url": "https://www.financialjuice.com/News/9578719/PBoC-will-boost-international-use-of-yuan.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:09 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PBoC: berencana untuk memperluas pasar luar negeri yuan",
+        "url": "https://www.financialjuice.com/News/9578718/PBoC-plans-to-expand-yuan-offshore-market.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:09 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PBoC: berencana untuk meningkatkan pengawasan keuangan real estat",
+        "url": "https://www.financialjuice.com/News/9578717/PBoC-plans-to-enhance-real-estate-financial-oversight.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:09 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Ditanya apakah ECB dapat menaikkan suku bunga pada pertemuan berikutnya, Kocher: Kecuali situasi membaik secara nyata, kenaikan suku bunga tidak akan bisa dihindari dalam waktu dekat",
+        "url": "https://www.financialjuice.com/News/9578716/Asked-if-ECB-could-lift-rates-at-next-meeting-Kocher-Unless-situation-improves-markedly-rate-hike-will-be-inevitable-soon.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:08 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Ditanya apakah ECB dapat menaikkan suku bunga pada pertemuan berikutnya, Kocher dari ECB mengatakan: melakukan komitmen lima minggu ke depan adalah tindakan yang tidak bijaksana",
+        "url": "https://www.financialjuice.com/News/9578715/Asked-whether-ECB-could-increase-rates-at-next-meeting-ECBs-Kocher-says-committing-five-weeks-ahead-would-be-unwise.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:07 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Kocher, ECB: ECB akan tetap waspada dan bertindak segera dan tegas jika diperlukan",
+        "url": "https://www.financialjuice.com/News/9578713/ECBs-Kocher-ECB-will-stay-alert-and-act-promptly-and-decisively-if-needed.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:05 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Kocher, ECB: tidak perlu menunda kenaikan suku bunga jika harga energi tidak membaik dengan cepat",
+        "url": "https://www.financialjuice.com/News/9578711/ECBs-Kocher-no-need-to-delay-rate-hikes-if-energy-prices-dont-improve-swiftly.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:03 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Kocher, ECB: Pada bulan April, masuk akal untuk menunda kenaikan suku bunga",
+        "url": "https://www.financialjuice.com/News/9578710/ECBs-Kocher-in-April-it-was-reasonable-to-delay-interest-rate-hikes.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 12:02 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Kocher, ECB: Risiko Tren Stagflasi Tidak Dapat Dikesampingkan Meskipun Ekonomi dan Pasar Tenaga Kerja Kuat, Kata Dalam Wawancara NZZ",
+        "url": "https://www.financialjuice.com/News/9578688/ECBs-Kocher-risk-of-stagflation-trend-cant-be-ruled-out-despite-resilient-economy-and-labor-market-says-in-NZZ-interview.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 11:59 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "ECB merilis wawancara media dengan Financial Times",
+        "url": "https://www.financialjuice.com/News/9578635/ECB-releases-media-interview-with-Financial-Times.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 11:01 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Bank sentral Korea Selatan menjual obligasi stabilisasi moneter 91 hari dengan imbal hasil 2,545%.",
+        "url": "https://www.financialjuice.com/News/9578517/SKorea-central-bank-sells-91-day-monetary-stabilisation-bonds-at-2545-yield.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 08:40 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Yuan dalam negeri Tiongkok naik menjadi 6,79 per dolar, terkuat sejak 10 Februari 2023",
+        "url": "https://www.financialjuice.com/News/9578516/Chinas-onshore-yuan-climbs-to-679-per-dollar-strongest-since-Feb-10-2023.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 08:33 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PPI Tiongkok YoY Aktual 2,8% (Perkiraan 1,8%, Sebelumnya 0,5%)",
+        "url": "https://www.financialjuice.com/News/9578497/Chinese-PPI-YoY-Actual-28-Forecast-18-Previous-05.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 08:31 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "IHK Tiongkok Bulanan Bulanan Aktual 0,3% (Perkiraan -, Sebelumnya -0,7%)",
+        "url": "https://www.financialjuice.com/News/9578496/Chinese-CPI-MoM-Actual-03-Forecast---Previous--07.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 08:31 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "CPI Tiongkok YoY Aktual 1,2% (Perkiraan 0,9%, Sebelumnya 1,0%)",
+        "url": "https://www.financialjuice.com/News/9578493/Chinese-CPI-YoY-Actual-12-Forecast-09-Previous-10.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 08:31 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "IHK Tiongkok bulan April naik 0,3% dari bulan sebelumnya, jajak pendapat diperkirakan -0,1%",
+        "url": "https://www.financialjuice.com/News/9578499/China-April-CPI-rises-03-from-prior-month-poll-expected--01.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 08:30 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Tiongkok: CPI pangan bulan April turun 1,6% YoY; CPI non-makanan naik 1,8%",
+        "url": "https://www.financialjuice.com/News/9578498/China-April-food-CPI-down-16-year-on-year-non-food-CPI-rises-18.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 08:30 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "CPI Tiongkok bulan April naik 1,2% YoY, mengalahkan perkiraan jajak pendapat sebesar 0,9%",
+        "url": "https://www.financialjuice.com/News/9578494/China-April-CPI-rises-12-year-on-year-beating-poll-estimate-of-09.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 08:30 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PBOC Tiongkok menetapkan titik tengah yuan pada level terkuat sejak 24 Maret 2023",
+        "url": "https://www.financialjuice.com/News/9578492/Chinas-PBOC-sets-yuan-mid-point-at-strongest-level-since-March-24-2023.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 08:18 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PBOC Tiongkok kemungkinan akan menetapkan titik tengah yuan pada 6,7988 per dolar: perkiraan",
+        "url": "https://www.financialjuice.com/News/9578449/China-PBOC-likely-to-set-yuan-midpoint-at-67988-per-dollar-estimate.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 07:20 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Usulan AS sama saja dengan membuat Iran menyerah pada tuntutan Trump yang berlebihan: media pemerintah Iran",
+        "url": "https://www.financialjuice.com/News/9578386/US-proposal-amounted-to-Iran-yielding-to-Trumps-excessive-demands-Iranian-state-media.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 04:18 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Proposal Iran menyerukan pencabutan sanksi OFAC AS terhadap penjualan minyak Iran selama 30 hari: Tasnim, mengutip sumber informasi",
+        "url": "https://www.financialjuice.com/News/9578334/Irans-proposal-calls-for-lifting-US-OFAC-sanctions-on-Iranian-oil-sales-for-30-days-Tasnim-citing-informed-source.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 02:51 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Usulan Iran untuk melakukan pembicaraan dengan AS menggarisbawahi perlunya pencabutan sanksi AS: Tasnim, mengutip sumber informasi",
+        "url": "https://www.financialjuice.com/News/9578328/Irans-proposed-text-for-talks-with-US-underlines-need-for-lifting-US-sanctions-Tasnim-citing-informed-source.aspx?xy=rss",
+        "summary": "",
+        "published": "11 May 2026 02:44 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Macron dari Prancis waspada terhadap Iran terhadap kapal perang Prancis dan Inggris: tidak ada rencana pengerahan, siap untuk mendukung misi internasional",
+        "url": "https://www.financialjuice.com/News/9578270/Frances-Macron-on-Iranian-alert-against-French-UK-warships-no-plan-for-deployment-prepared-to-support-international-mission.aspx?xy=rss",
+        "summary": "",
+        "published": "10 May 2026 23:53 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Wakil Menteri Luar Negeri Iran di X: mengerahkan kapal perusak di dekat Selat Hormuz dengan kedok “melindungi pelayaran” meningkatkan krisis",
+        "url": "https://www.financialjuice.com/News/9578234/Irans-deputy-foreign-minister-on-X-deploying-destroyers-near-the-Strait-of-Hormuz-under-the-guise-of-protecting-shipping-escalates-crisis.aspx?xy=rss",
+        "summary": "",
+        "published": "10 May 2026 22:03 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Menteri Keuangan AS Disetujui: akan berangkat hari Senin untuk pembicaraan singkat di Jepang dan Korea Selatan",
+        "url": "https://www.financialjuice.com/News/9578138/US-Treasury-Secretary-Bessent-to-leave-Monday-for-brief-talks-in-Japan-and-South-Korea.aspx?xy=rss",
+        "summary": "",
+        "published": "10 May 2026 20:01 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Pengambil kebijakan ECB Kocher mengatakan menunggu pertemuan bulan April adalah keputusan yang bisa dibenarkan",
+        "url": "https://investinglive.com/centralbank/ecb-policymaker-kocher-says-waiting-in-april-meeting-was-a-justifiable-decision-20260511/",
+        "summary": "Economic recovery is now at risk Inflation risks have heightened due to the Middle East conflict Risk of a stragflationary trend cannot be ruled out even if economy, labour market remain resilient The duration of the Middle East conflict will be the decisive factor It was a justifiable decision to w",
+        "published": "11 May 2026 12:16 WIB",
+        "sentiment": "Bearish",
+        "score": -0.441,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "RBI dikatakan kemungkinan akan memasuki pasar untuk mencoba dan membatasi jatuhnya rupee",
+        "url": "https://investinglive.com/forex/rbi-said-to-be-likely-stepping-into-the-market-to-try-and-limit-the-rupees-fall-20260511/",
+        "summary": "Reuters is noting that the Indian central bank is likely intervening in the FX market to limit the rupee's drop today, citing three traders on the matter. USD/INR continues to scale higher to start the week, as a renewed jump in oil prices is weighing heavily on the rupee amid a worsening economic o",
+        "published": "11 May 2026 11:21 WIB",
+        "sentiment": "Bearish",
+        "score": -0.532,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Pengambil kebijakan ECB de Guindos mengatakan perbandingan dengan guncangan harga energi pada tahun 2021-2022 tidaklah tepat",
+        "url": "https://investinglive.com/centralbank/ecb-policymaker-de-guindos-says-comparison-to-energy-price-shock-in-2021-22-is-not-right-20260511/",
+        "summary": "I think the inflation risk is lower this time around I think that we were late to act in 2021 and 2022 One reason was that we had too much of an academic discussion about the drivers of inflation Academic discussions are good at university and in academic fora but in central banking, you have to tak",
+        "published": "11 May 2026 11:11 WIB",
+        "sentiment": "Bullish",
+        "score": 0.751,
+        "emoji": "🟢"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Subsidi energi Jepang dan pertahanan yen berada pada jalur yang berlawanan",
+        "url": "https://investinglive.com/forex/japans-energy-subsidies-and-yen-defence-are-on-a-collision-course-20260511/",
+        "summary": "Japan's petrol subsidies are draining funds at 300bn yen a month while yen intervention nears IMF limits, putting Tokyo's fiscal and currency strategy on a collision course, Reuters Breakingviews argues. Summary: A Reuters column by Hudson Lockett argues that Japanese Prime Minister Sanae Takaichi f",
+        "published": "11 May 2026 09:12 WIB",
+        "sentiment": "Bearish",
+        "score": -0.765,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "IHK Tiongkok bulan April 1,2% y/y (diharapkan 0,8%, sebelumnya 0,1%)",
+        "url": "https://investinglive.com/centralbank/china-april-cpi-12-yy-expected-08-prior-05-20260511/",
+        "summary": "Inflation data from China for April 2026. CPI 1.2% y/y expected 0.8%, prior 0.1% CPI 0.3% m/m expected -0.1%, prior -0.7% Core CPI 1.2% y/y prior 1% PPI 2.8% y/y (45 month high) expected 1.5%, prior 0.5% PPI +1.7% m/m I'll have more to come on this separately This article was written by Eamonn Sheri",
+        "published": "11 May 2026 08:30 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "ForexLive",
+        "title": "PBOC menetapkan kurs referensi USD/CNY untuk hari ini di 6,8467 (vs perkiraan di 6,7988)",
+        "url": "https://investinglive.com/centralbank/pboc-sets-usd-cny-reference-rate-for-today-at-68467-vs-estimate-at-67988-20260511/",
+        "summary": "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. Injects 500mn yuan via 7-day reverse repos in open market operates today. Unchanged rate of 1.4%. Confirmation from China, says U.S. President Donald Trump will pay a state visit to China from May 13–15 at the i",
+        "published": "11 May 2026 08:15 WIB",
+        "sentiment": "Bearish",
+        "score": -0.103,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Guncangan harga minyak di Iran telah membuat Fed tidak lagi melakukan pemotongan suku bunga dan menaikkan kembali suku bunganya, kata Pimco",
+        "url": "https://investinglive.com/centralbank/iran-oil-shock-has-put-fed-rate-cuts-off-the-table-and-hikes-back-on-pimco-says-20260511/",
+        "summary": "Pimco's CIO warned the Financial Times (gated) that the Iran war's energy shock could make Fed rate cuts counter-productive and may even necessitate hikes, with Franklin Templeton echoing the concern. Summary: Pimco chief investment officer Dan Ivascyn told the Financial Times at the Milken Institut",
+        "published": "11 May 2026 07:38 WIB",
+        "sentiment": "Bearish",
+        "score": -0.878,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "PBOC diperkirakan akan menetapkan kurs referensi USD/CNY di 6,7988 – perkiraan Reuters",
+        "url": "https://investinglive.com/centralbank/pboc-is-expected-to-set-the-usdcny-reference-rate-at-67988-reuters-estimate-20260511/",
+        "summary": "The People’s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets. China operates a managed floating exchange rate system, under which the renminbi (yuan",
+        "published": "11 May 2026 07:20 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Inggris dan Prancis mengadakan pertemuan pertahanan 40 negara di Hormuz ketika Iran mengeluarkan peringatan perang",
+        "url": "https://investinglive.com/commodities/uk-and-france-convene-40-nation-defence-meet-on-hormuz-as-iran-issues-war-warning-20260511/",
+        "summary": "The UK and France will co-chair a 40-nation defence ministers' meeting Tuesday on plans to restore Hormuz shipping, hours after Iran warned any foreign warships would face a decisive response. Summary: The UK and France will on Tuesday co-chair a virtual meeting of more than 40 nations to advance mi",
+        "published": "11 May 2026 07:13 WIB",
+        "sentiment": "Bullish",
+        "score": 0.317,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Saham beragam, dolar menguat karena perundingan Iran tidak stabil",
+        "url": "https://www.investing.com/news/stock-market-news/share-futures-ease-dollar-gains-as-gulf-talks-teeter-4674873",
+        "summary": "",
+        "published": "11 May 2026 12:24 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "RBI kemungkinan akan menjual dolar untuk mengekang penurunan rupee di tengah lonjakan harga minyak- Reuters",
+        "url": "https://www.investing.com/news/stock-market-news/rbi-likely-sold-dollars-to-curb-rupee-decline-amid-oil-price-surge-reuters-93CH-4674973",
+        "summary": "",
+        "published": "11 May 2026 12:21 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Tagihan Bank Sentral Indonesia yang Beredar Meningkat Terbesar dalam Dua Tahun",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/indonesia-central-bank-bills-outstanding-rise-most-in-two-years",
+        "summary": "The total amount of Indonesian central bank bills outstanding climbed by the most in almost two years last month as the monetary authority sought to attract capital inflows to support the weakening rupiah.",
+        "published": "11 May 2026 11:05 WIB",
+        "sentiment": "Bullish",
+        "score": 0.722,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Saham Naik karena Teknologi, Minyak dan Kenaikan Dolar di Iran: Penutupan Pasar",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
+        "summary": "Asian stocks climbed as traders doubled down on the AI trade, brushing aside Middle East tensions even after President Donald Trump rejected Iran’s latest peace proposal, sending crude oil higher and Treasuries lower.",
+        "published": "11 May 2026 05:09 WIB",
+        "sentiment": "Bearish",
+        "score": -0.838,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC Top Stories",
+        "title": "Mengapa kekalahan Eurovision atas Israel dapat mengubah kompetisi selamanya",
+        "url": "https://www.bbc.com/news/articles/cgkpgm6vk48o?at_medium=RSS&at_campaign=rss",
+        "summary": "With Eurovision facing its biggest boycott in 70 years, questions are growing over the competition's future.",
+        "published": "11 May 2026 06:33 WIB",
+        "sentiment": "Bearish",
+        "score": -0.153,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Risiko dan manfaat dalam kemitraan Perancis-Kenya",
+        "url": "https://www.aljazeera.com/features/2026/5/11/risks-and-rewards-in-france-kenya-partnership?traffic_source=rss",
+        "summary": "Nairobi's partnership with Paris has sparked criticism, with many worried Kenya's interests will be subordinated.",
+        "published": "11 May 2026 11:45 WIB",
+        "sentiment": "Bearish",
+        "score": -0.477,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC Economy",
+        "title": "Temui para pembisik YouTube, kelompok penasihat yang berkembang pesat di balik MrBeast dan saluran bernilai jutaan dolar lainnya",
+        "url": "https://www.cnbc.com/2026/05/10/youtube-advisors-mrbeast-top-creators-platform-viewership.html",
+        "summary": "A burgeoning group of YouTube strategists are charging big money to YouTubers who want to expand their popularity.",
+        "published": "10 May 2026 20:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.691,
+        "emoji": "🟢"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Pasar Eropa akan dibuka beragam karena perundingan perdamaian Iran terhenti",
+        "url": "https://www.cnbc.com/2026/05/11/european-markets-stoxx-600-ftse-dax-cac-iran-war-oil-prices.html",
+        "summary": "European stocks are expected to open in mixed territory on Monday as investors digest the latest in U.S.-Iran peace negotiations.",
+        "published": "11 May 2026 12:24 WIB",
+        "sentiment": "Bullish",
+        "score": 0.542,
+        "emoji": "🟢"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Laba Saudi Aramco Kuartal 1 melonjak 26% karena jaringan pipa utama mencapai kapasitasnya di tengah perang Iran",
+        "url": "https://www.cnbc.com/2026/05/10/saudi-aramco-q1-profit-jumps-26percent-as-key-pipeline-reaches-capacity.html",
+        "summary": "Aramco says its East-West pipeline has helped to mitigate the energy shock caused by the Iran war.",
+        "published": "10 May 2026 15:24 WIB",
+        "sentiment": "Bearish",
+        "score": -0.74,
+        "emoji": "🔴"
       }
     ]
   }

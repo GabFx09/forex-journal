@@ -1,3 +1,4 @@
 config_email.ini
 *.json
 __pycache__/
+*.log

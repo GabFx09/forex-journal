@@ -1363,7 +1363,7 @@ function renderSentimen(){
     const lnk=a.url&&a.url!=='#'?`<a href="${a.url}" target="_blank" style="font-size:10px;color:var(--blue);text-decoration:none">Baca ↗</a>`:'';
     return `<tr>
       <td style="width:80px">${_senChip(s)}</td>
-      <td><div style="color:var(--txt);font-weight:500;font-size:12px">${(a.judul||'').substring(0,120)}</div>
+      <td><div style="color:var(--txt);font-weight:500;font-size:12px">${(a.judul_id||a.judul||'').substring(0,120)}</div>
           <div style="font-size:10px;color:var(--sub);margin-top:3px">${a.sumber||''} · ${a.asal||''} · ${(a.waktu||'').substring(0,10)}</div>
           ${lnk}</td>
       <td style="font-family:var(--mono);color:${sc};white-space:nowrap">${sk>0?'+':''}${sk}</td>
@@ -1414,8 +1414,8 @@ function renderGeopolitik(){
         <span class="bdg bp">${a.kategori||'Global'}</span>
         <span style="font-size:10px;color:${dCol}">${dIcon} Dampak ${a.dampak_pasar||'Netral'}</span>
       </div>
-      <div style="color:var(--txt);font-weight:600;font-size:12px;line-height:1.5;margin-bottom:5px">${(a.judul||'').substring(0,160)}</div>
-      <div style="font-size:11px;color:var(--sub);line-height:1.6;margin-bottom:6px">${(a.ringkasan||'').substring(0,240)}</div>
+      <div style="color:var(--txt);font-weight:600;font-size:12px;line-height:1.5;margin-bottom:5px">${(a.judul_id||a.judul||'').substring(0,160)}</div>
+      <div style="font-size:11px;color:var(--sub);line-height:1.6;margin-bottom:6px">${(a.ringkasan_id||a.ringkasan||'').substring(0,240)}</div>
       <div style="font-size:10px;color:var(--mut)">${a.sumber||''} · ${a.asal||''} · ${(a.waktu||'').substring(0,10)}</div>
       ${lnk}
     </div>`;

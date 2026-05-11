@@ -28,7 +28,26 @@
       "Bash(git push *)",
       "Bash(git pull *)",
       "Bash(git stash *)",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "Bash(git fetch *)",
+      "Bash(git restore *)",
+      "Bash(git merge *)",
+      "Bash(gh secret *)",
+      "PowerShell(gh secret *)",
+      "Bash(gh workflow *)",
+      "PowerShell(gh workflow *)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\PROJECT-FINANCE\\\\\" -Recurse -Depth 2 | Where-Object {$_.Name -match \"forex|stock|\\\\.github|requirements\" -or $_.Extension -eq \".yml\"} | Select-Object FullName)",
+      "Bash(git commit -m 'fix: ganti Netlify ke GitHub Pages — gratis tanpa credit limit *)",
+      "Bash(git *)",
+      "Bash(Start-Process *)",
+      "PowerShell(Start-Process \"C:\\\\PROJECT-FINANCE\\\\files-finance\\\\FinanceJournal_Pro.html\")",
+      "WebFetch(domain:www.financialjuice.com)",
+      "WebSearch",
+      "WebFetch(domain:features.financialjuice.com)",
+      "WebFetch(domain:apify.com)",
+      "WebFetch(domain:corsproxy.io)",
+      "WebFetch(domain:api.allorigins.win)",
+      "PowerShell(Select-String *)"
     ]
   }
 }
