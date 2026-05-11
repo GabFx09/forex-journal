@@ -1,15 +1,15 @@
 name: Forex News Digest Harian
 
-# ─── Jadwal & Trigger ─────────────────────────────────────────────
 on:
   schedule:
     # 00:00 UTC = 07:00 WIB (GMT+7)
     - cron: '0 0 * * *'
-  workflow_dispatch:          # Bisa dijalankan manual dari GitHub UI
+  workflow_dispatch:
 
-# ─── Izin commit & push ───────────────────────────────────────────
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   digest:
@@ -35,7 +35,6 @@ jobs:
         run: pip install -r requirements.txt
 
       # 4. Jalankan script utama
-      #    JSON_DIR → folder "files-forex" di dalam repo
       - name: Jalankan forex_news_digest.py
         env:
           GMAIL_USER:         ${{ secrets.GMAIL_USER }}
@@ -47,7 +46,7 @@ jobs:
       # 5. Commit & push file JSON yang baru di-generate
       - name: Commit dan push data JSON terbaru
         run: |
-          git config user.name  "GitHub Actions Bot"
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add \
             "files-forex/kalender.json" \
@@ -55,66 +54,33 @@ jobs:
             "files-forex/geopolitik.json" \
             "files-forex/news_data.js" \
             "files-forex/_headers"
-          # Hanya commit jika ada perubahan
           if git diff --staged --quiet; then
             echo "Tidak ada perubahan data, skip commit."
           else
-            git commit -m "chore: update data forex $(date +'%Y-%m-%d %H:%M UTC') [skip netlify]"
+            git commit -m "chore: update data forex $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
 
-      # 6. Deploy ke Netlify via curl API — tunggu sampai status ready
-      - name: Deploy ke Netlify
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID:    ${{ secrets.NETLIFY_SITE_ID }}
+      # 6. Siapkan folder deploy (HTML utama jadi index.html)
+      - name: Siapkan folder deploy
         run: |
-          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
-            echo "ERROR: NETLIFY_AUTH_TOKEN / NETLIFY_SITE_ID belum diset di GitHub Secrets!"
-            echo "Silakan tambahkan kedua secret ini di: Settings → Secrets → Actions"
-            exit 1
-          fi
-          # Zip isi folder files-forex langsung ke root (tanpa subfolder)
-          cd "${{ github.workspace }}/files-forex"
-          zip -r ../deploy.zip .
-          cd "${{ github.workspace }}"
-          echo "Mengupload deploy ke Netlify..."
-          # POST zip ke Netlify Deploy API
-          RESPONSE=$(curl -s -w "\n%{http_code}" \
-            -X POST \
-            -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
-            -H "Content-Type: application/zip" \
-            --data-binary @deploy.zip \
-            "https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID/deploys")
-          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
-          BODY=$(echo "$RESPONSE" | head -n-1)
-          echo "HTTP status: $HTTP_CODE"
-          if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "201" ]; then
-            echo "Upload deploy gagal dengan HTTP $HTTP_CODE"
-            echo "$BODY"
-            exit 1
-          fi
-          DEPLOY_ID=$(echo "$BODY" | python3 -c "import sys,json; print(json.load(sys.stdin).get('id',''))" 2>/dev/null)
-          DEPLOY_URL=$(echo "$BODY" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('ssl_url') or d.get('url','?'))" 2>/dev/null)
-          echo "Deploy ID   : $DEPLOY_ID"
-          echo "Deploy URL  : $DEPLOY_URL"
-          # Polling status deploy sampai ready (max 3 menit)
-          echo "Menunggu deploy selesai diproses Netlify..."
-          for i in $(seq 1 18); do
-            sleep 10
-            STATE=$(curl -s \
-              -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
-              "https://api.netlify.com/api/v1/deploys/$DEPLOY_ID" | \
-              python3 -c "import sys,json; print(json.load(sys.stdin).get('state','unknown'))" 2>/dev/null)
-            echo "  [${i}/18] State: $STATE"
-            if [ "$STATE" = "ready" ]; then
-              echo "Deploy BERHASIL dan aktif di: $DEPLOY_URL"
-              exit 0
-            fi
-            if [ "$STATE" = "error" ]; then
-              echo "Deploy GAGAL — state: error"
-              exit 1
-            fi
-          done
-          echo "Timeout: deploy belum ready setelah 3 menit, cek Netlify dashboard."
-          exit 1
+          mkdir -p _deploy
+          cp files-forex/ForexJournal_GoogleSheets.html _deploy/index.html
+          cp files-forex/kalender.json   _deploy/
+          cp files-forex/sentimen.json   _deploy/
+          cp files-forex/geopolitik.json _deploy/
+          cp files-forex/news_data.js    _deploy/
+          echo "Isi folder deploy:"
+          ls -lh _deploy/
+
+      # 7. Deploy ke GitHub Pages (branch gh-pages)
+      - name: Deploy ke GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_deploy
+          publish_branch: gh-pages
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'deploy: forex update $(date -u +%Y-%m-%d)'
