@@ -1,8 +1,8 @@
-// Diperbarui: 11 May 2026 09:41 WIB
+// Diperbarui: 11 May 2026 09:59 WIB
 window.FK_DATA = {
-  "generated": "11 May 2026 09:41 WIB",
+  "generated": "11 May 2026 09:59 WIB",
   "kalender": {
-    "generated": "11 May 2026 09:41 WIB",
+    "generated": "11 May 2026 09:59 WIB",
     "events": [
       {
         "date": "2026-05-11",
@@ -1030,20 +1030,20 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "11 May 2026 09:41 WIB",
+    "generated": "11 May 2026 09:59 WIB",
     "summary": {
-      "total": 81,
-      "bullish": 24,
+      "total": 82,
+      "bullish": 25,
       "bearish": 50,
       "netral": 7,
-      "avg_score": -0.2528,
+      "avg_score": -0.2439,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
           "sentiment": "Bearish",
-          "score": -0.21,
-          "count": 15
+          "score": -0.234,
+          "count": 16
         },
         {
           "currency": "EUR",
@@ -1058,21 +1058,21 @@ window.FK_DATA = {
           "count": 4
         },
         {
+          "currency": "CAD",
+          "sentiment": "Bearish",
+          "score": -0.173,
+          "count": 4
+        },
+        {
           "currency": "CNY",
           "sentiment": "Bullish",
           "score": 0.162,
           "count": 4
         },
         {
-          "currency": "CAD",
-          "sentiment": "Netral",
-          "score": -0.034,
-          "count": 3
-        },
-        {
           "currency": "AUD",
           "sentiment": "Bearish",
-          "score": -0.57,
+          "score": -0.574,
           "count": 2
         },
         {
@@ -1090,6 +1090,16 @@ window.FK_DATA = {
       ]
     },
     "items": [
+      {
+        "source": "ForexLive",
+        "title": "China's April inflation data beats across board as energy costs reshape price landscape",
+        "url": "https://investinglive.com/news/chinas-april-inflation-data-beats-across-board-as-energy-costs-reshape-price-landscape-20260511/",
+        "summary": "China's April PPI jumped 2.8% year-on-year, a 45-month high and well above forecasts, while CPI rose 1.2%, as Iran war energy costs end a 41-month deflationary streak. Summary: China's producer price index rose 2.8% year-on-year in April, the highest reading since July 2022 and well above Reuters po",
+        "published": "11 May 2026 09:51 WIB",
+        "sentiment": "Bullish",
+        "score": 0.281,
+        "emoji": "🟢"
+      },
       {
         "source": "ForexLive",
         "title": "Japan's energy subsidies and yen defence are on a collision course",
@@ -1231,13 +1241,23 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "China's April exports surge 14.1% as Iran war fear drives global stockpiling rush",
-        "url": "https://investinglive.com/news/chinas-april-exports-surge-141-as-iran-war-fear-drives-global-stockpiling-rush-20260510/",
-        "summary": "China's April exports jumped 14.1% year-on-year to $359.4bn, smashing forecasts of 7.9%, while imports surged 25.3% to a record $274.6bn, lifting the trade surplus to $84.8bn. Summary: China's April trade surplus came in at $84.82 billion, up sharply from $51.13 billion in March and above market exp",
-        "published": "11 May 2026 04:21 WIB",
+        "source": "FXStreet News",
+        "title": "Canadian Dollar remains depressed vs firmer USD; rising Oil prices limit further losses",
+        "url": "https://www.fxstreet.com/news/canadian-dollar-remains-depressed-vs-firmer-usd-rising-oil-prices-limit-further-losses-202605110234",
+        "summary": "The USD/CAD pair attracts some dip-buying following Friday's late pullback from the vicinity of the 100-day Simple Moving Average (SMA) and climbs back closer to the 1.3700 during the Asian session on Monday.",
+        "published": "11 May 2026 09:34 WIB",
         "sentiment": "Bearish",
-        "score": -0.796,
+        "score": -0.591,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Australian Dollar holds losses following China’s CPI inflation data",
+        "url": "https://www.fxstreet.com/news/australian-dollar-remains-in-the-negative-territory-ahead-of-chinas-cpi-data-202605110112",
+        "summary": "AUD/USD gains ground after opening at a bearish gap but still remains in the negative territory, trading around 0.7240 during the Asian hours on Monday. The pair moves little despite stronger-than-expected China’s Consumer Price Index (CPI) data.",
+        "published": "11 May 2026 09:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.655,
         "emoji": "🔴"
       },
       {
@@ -1289,16 +1309,6 @@ window.FK_DATA = {
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Australian Dollar remains in the negative territory ahead of China’s CPI data",
-        "url": "https://www.fxstreet.com/news/australian-dollar-remains-in-the-negative-territory-ahead-of-chinas-cpi-data-202605110112",
-        "summary": "AUD/USD gains ground after opening at a bearish gap but still remains in the negative territory, trading around 0.7240 during the Asian hours on Monday. Traders await China’s Consumer Price Index (CPI) data due later in the day.",
-        "published": "11 May 2026 08:12 WIB",
-        "sentiment": "Bearish",
-        "score": -0.647,
-        "emoji": "🔴"
       },
       {
         "source": "FXStreet News",
@@ -1492,6 +1502,16 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
+        "title": "Asian Stocks Rise Led by Tech, Oil Climbs on Iran: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
+        "summary": "Asian stocks rose as traders boosted bets on the AI trade, brushing aside Middle East tensions even after President Donald Trump’s rejection of Iran’s latest peace proposal pushed up oil prices.",
+        "published": "11 May 2026 05:09 WIB",
+        "sentiment": "Bearish",
+        "score": -0.132,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
         "title": "Floundering Rupee May Keep Indian Equities on a Tight Leash",
         "url": "https://www.bloomberg.com/news/newsletters/2026-05-11/indian-rupee-unlikely-to-see-strong-recovery-even-if-iran-war-ends-soon",
         "summary": "Monex Europe expects the rupee to hit 98 per dollar by year-end.",
@@ -1518,16 +1538,6 @@ window.FK_DATA = {
         "published": "11 May 2026 05:34 WIB",
         "sentiment": "Bearish",
         "score": -0.233,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Asian Stocks Advance on Tech, Oil Climbs on Iran: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
-        "summary": "Asian stocks climbed as traders boosted bets on the AI trade, brushing aside Middle East tensions even after President Donald Trump’s rejection of Iran’s latest peace proposal pushed up oil prices.",
-        "published": "11 May 2026 05:09 WIB",
-        "sentiment": "Bearish",
-        "score": -0.132,
         "emoji": "🔴"
       },
       {
@@ -1903,7 +1913,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "11 May 2026 09:41 WIB",
+    "generated": "11 May 2026 09:59 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1911,19 +1921,19 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.479,
+        "score": -0.453,
         "count": 41
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.473,
+        "score": -0.445,
         "count": 39
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.512,
+        "score": -0.479,
         "count": 32
       },
       {
@@ -1935,14 +1945,14 @@ window.FK_DATA = {
       {
         "pair": "CAD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.49,
-        "count": 6
+        "score": -0.504,
+        "count": 7
       },
       {
         "pair": "NOK/SEK",
         "direction": "Tekanan Turun ▼",
-        "score": -0.49,
-        "count": 6
+        "score": -0.504,
+        "count": 7
       },
       {
         "pair": "EUR",
@@ -1958,6 +1968,16 @@ window.FK_DATA = {
       }
     ],
     "items": [
+      {
+        "source": "ForexLive",
+        "title": "China's April inflation data beats across board as energy costs reshape price landscape",
+        "url": "https://investinglive.com/news/chinas-april-inflation-data-beats-across-board-as-energy-costs-reshape-price-landscape-20260511/",
+        "summary": "China's April PPI jumped 2.8% year-on-year, a 45-month high and well above forecasts, while CPI rose 1.2%, as Iran war energy costs end a 41-month deflationary streak. Summary: China's producer price index rose 2.8% year-on-year in April, the highest reading since July 2022 and well above Reuters po",
+        "published": "11 May 2026 09:51 WIB",
+        "sentiment": "Bullish",
+        "score": 0.281,
+        "emoji": "🟢"
+      },
       {
         "source": "ForexLive",
         "title": "Japan's energy subsidies and yen defence are on a collision course",
@@ -2049,13 +2069,13 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "China's April exports surge 14.1% as Iran war fear drives global stockpiling rush",
-        "url": "https://investinglive.com/news/chinas-april-exports-surge-141-as-iran-war-fear-drives-global-stockpiling-rush-20260510/",
-        "summary": "China's April exports jumped 14.1% year-on-year to $359.4bn, smashing forecasts of 7.9%, while imports surged 25.3% to a record $274.6bn, lifting the trade surplus to $84.8bn. Summary: China's April trade surplus came in at $84.82 billion, up sharply from $51.13 billion in March and above market exp",
-        "published": "11 May 2026 04:21 WIB",
+        "source": "FXStreet News",
+        "title": "Canadian Dollar remains depressed vs firmer USD; rising Oil prices limit further losses",
+        "url": "https://www.fxstreet.com/news/canadian-dollar-remains-depressed-vs-firmer-usd-rising-oil-prices-limit-further-losses-202605110234",
+        "summary": "The USD/CAD pair attracts some dip-buying following Friday's late pullback from the vicinity of the 100-day Simple Moving Average (SMA) and climbs back closer to the 1.3700 during the Asian session on Monday.",
+        "published": "11 May 2026 09:34 WIB",
         "sentiment": "Bearish",
-        "score": -0.796,
+        "score": -0.591,
         "emoji": "🔴"
       },
       {
@@ -2130,6 +2150,16 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
+        "title": "Asian Stocks Rise Led by Tech, Oil Climbs on Iran: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
+        "summary": "Asian stocks rose as traders boosted bets on the AI trade, brushing aside Middle East tensions even after President Donald Trump’s rejection of Iran’s latest peace proposal pushed up oil prices.",
+        "published": "11 May 2026 05:09 WIB",
+        "sentiment": "Bearish",
+        "score": -0.132,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
         "title": "China’s Factory Inflation Hits Post-Covid High After Cost Shock",
         "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-s-factory-inflation-soars-near-4-year-high-after-cost-jolt",
         "summary": "China’s factory prices grew at the fastest pace since the pandemic four years ago as the fallout from the Iran war sharply raises costs.",
@@ -2146,16 +2176,6 @@ window.FK_DATA = {
         "published": "11 May 2026 05:34 WIB",
         "sentiment": "Bearish",
         "score": -0.233,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Asian Stocks Advance on Tech, Oil Climbs on Iran: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
-        "summary": "Asian stocks climbed as traders boosted bets on the AI trade, brushing aside Middle East tensions even after President Donald Trump’s rejection of Iran’s latest peace proposal pushed up oil prices.",
-        "published": "11 May 2026 05:09 WIB",
-        "sentiment": "Bearish",
-        "score": -0.132,
         "emoji": "🔴"
       },
       {
