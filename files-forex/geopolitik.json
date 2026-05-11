@@ -1,5 +1,5 @@
 {
-  "generated": "11 May 2026 08:27 WIB",
+  "generated": "11 May 2026 09:41 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,73 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.524,
-      "count": 38
+      "score": -0.479,
+      "count": 41
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.519,
-      "count": 36
+      "score": -0.473,
+      "count": 39
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.556,
+      "score": -0.512,
       "count": 32
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.542,
-      "count": 14
-    },
-    {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.947,
-      "count": 3
+      "score": -0.351,
+      "count": 11
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.473,
-      "count": 3
+      "score": -0.49,
+      "count": 6
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.473,
-      "count": 3
+      "score": -0.49,
+      "count": 6
     },
     {
       "pair": "EUR",
       "direction": "Tekanan Turun ▼",
-      "score": -0.553,
-      "count": 2
+      "score": -0.624,
+      "count": 3
+    },
+    {
+      "pair": "USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.624,
+      "count": 3
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Japan's energy subsidies and yen defence are on a collision course",
+      "url": "https://investinglive.com/forex/japans-energy-subsidies-and-yen-defence-are-on-a-collision-course-20260511/",
+      "summary": "Japan's petrol subsidies are draining funds at 300bn yen a month while yen intervention nears IMF limits, putting Tokyo's fiscal and currency strategy on a collision course, Reuters Breakingviews argues. Summary: A Reuters column by Hudson Lockett argues that Japanese Prime Minister Sanae Takaichi f",
+      "published": "11 May 2026 09:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.765,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI - Netanyahu says Iran war not over and refuses to rule out seizing nuclear material",
+      "url": "https://investinglive.com/commodities/icymi-netanyahu-says-iran-war-not-over-and-refuses-to-rule-out-seizing-nuclear-material-20260511/",
+      "summary": "Netanyahu told CBS the Iran war is not over and declined to rule out seizing nuclear material, while separate reports claim Trump told him 'I want to go in' regarding Iranian nuclear sites. Summary: Netanyahu told CBS's 60 Minutes the war on Iran is not over, with enrichment sites, missile capacity ",
+      "published": "11 May 2026 08:50 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
     {
       "source": "ForexLive",
       "title": "WSJ: Rising defaults and redemption pressure push Apollo to weigh $3bn credit fund sale",
@@ -135,38 +155,38 @@
       "emoji": "🔴"
     },
     {
-      "source": "ForexLive",
-      "title": "Iran dismisses Trump's nuclear talks rejection as irrelevant to its negotiating position",
-      "url": "https://investinglive.com/commodities/iran-dismisses-trumps-nuclear-talks-rejection-as-irrelevant-to-its-negotiating-position-20260510/",
-      "summary": "Iran has dismissed Trump's rejection of its nuclear proposals as irrelevant, with a source telling Tasnim that negotiators draft plans for Iranian interests alone and that Trump's dissatisfaction is \"naturally better.\" Earlier: Iran said to table broad demands covering sanctions, war and security in",
-      "published": "11 May 2026 03:56 WIB",
+      "source": "FXStreet News",
+      "title": "WTI rises above $95.50 as Trump rejects Iran’s proposal",
+      "url": "https://www.fxstreet.com/news/wti-rises-above-9550-as-trump-rejects-irans-proposal-202605110156",
+      "summary": "West Texas Intermediate (WTI) oil price advances after registering nearly 3% losses in the previous trading day, hovering around $95.70 during the Asian hours on Monday.",
+      "published": "11 May 2026 08:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.79,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Japanese Yen drifts lower vs firmer USD on Iran tensions; intervention risks limit losses",
+      "url": "https://www.fxstreet.com/news/japanese-yen-drifts-lower-vs-firmer-usd-on-iran-tensions-intervention-risks-limit-losses-202605110155",
+      "summary": "The USD/JPY pair reverses a modest Asian session dip to the 156.50-156.45 area on Monday as the safe-haven US Dollar (USD) draws support from persistent geopolitical uncertainties.",
+      "published": "11 May 2026 08:55 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
-      "source": "ForexLive",
-      "title": "Monday open indicative forex prices, 11 May 2026. USD bids.",
-      "url": "https://investinglive.com/forex/monday-open-indicative-forex-prices-11-may-2026-usd-bids-20260510/",
-      "summary": "Earlier: Iran said to table broad demands covering sanctions, war and security The prez says no: Trump says Iran's proposals are \"TOTALLY UNACCEPTABLE\" The USD is a touch higher in really early trade. Weekend oil trade is a touch higher. This article was written by Eamonn Sheridan at investinglive.c",
-      "published": "11 May 2026 03:32 WIB",
+      "source": "FXStreet News",
+      "title": "Gold slumps below $4,700 on Trump rejection of Iran peace proposal",
+      "url": "https://www.fxstreet.com/news/gold-slumps-below-4-700-on-trump-rejection-of-iran-peace-proposal-202605110058",
+      "summary": "Gold price (XAU/USD) falls to around $4,690 during the early Asian session on Monday. The precious metal attracts some sellers after US President Donald Trump rejected Iran’s latest peace offer to end the 10-week conflict choking the Strait of Hormuz, fanning inflation fears.",
+      "published": "11 May 2026 07:58 WIB",
       "sentiment": "Bearish",
-      "score": -0.86,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Trump says Iran's proposals are \"TOTALLY UNACCEPTABLE\"",
-      "url": "https://investinglive.com/commodities/trump-says-irans-proposals-are-totally-unacceptable-20260510/",
-      "summary": "Earlier: Iran said to table broad demands covering sanctions, war and security in U.S. talks The usual process is tantrum first, taco later This article was written by Eamonn Sheridan at investinglive.com.",
-      "published": "11 May 2026 03:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.982,
+      "score": -0.288,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "EUR/USD edges lower to near 1.1750 as Trump rejects new Iran peace offer",
+      "title": "Euro edges lower to near 1.1750 as Trump rejects new Iran peace offer",
       "url": "https://www.fxstreet.com/news/eur-usd-edges-lower-to-near-11750-as-trump-rejects-new-iran-peace-offer-202605102337",
       "summary": "The EUR/USD pair loses momentum to around 1.1765 during the early Asian session on Monday. The Euro (EUR) softens against the US Dollar (USD) amid a cautious mood after US President Donald Trump and Iran rejected each other’s latest peace proposals to end the war in the Middle East.",
       "published": "11 May 2026 06:37 WIB",
@@ -199,10 +219,40 @@
       "title": "China April exports rebound strongly, trade surplus widens ahead of Trump visit",
       "url": "https://www.investing.com/news/economic-indicators/china-april-exports-rebound-strongly-trade-surplus-widens-ahead-of-trump-visit-4674872",
       "summary": "",
-      "published": "11 May 2026 08:07 WIB",
+      "published": "11 May 2026 08:54 WIB",
       "sentiment": "Bullish",
       "score": 0.353,
       "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "China’s Factory Inflation Hits Post-Covid High After Cost Shock",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-s-factory-inflation-soars-near-4-year-high-after-cost-jolt",
+      "summary": "China’s factory prices grew at the fastest pace since the pandemic four years ago as the fallout from the Iran war sharply raises costs.",
+      "published": "11 May 2026 08:38 WIB",
+      "sentiment": "Bearish",
+      "score": -0.918,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "CSL Plunges Most Ever on Impairments, Reduced Profit Target",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-10/csl-cuts-profit-outlook-flags-5-billion-in-new-impairments",
+      "summary": "CSL Ltd. plunged the most on record after the Australian biotechnology company cut its full-year outlook and flagged about $5 billion in additional impairments, warning a turnaround will take longer than expected following a review by its interim chief executive.",
+      "published": "11 May 2026 05:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.233,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Asian Stocks Advance on Tech, Oil Climbs on Iran: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
+      "summary": "Asian stocks climbed as traders boosted bets on the AI trade, brushing aside Middle East tensions even after President Donald Trump’s rejection of Iran’s latest peace proposal pushed up oil prices.",
+      "published": "11 May 2026 05:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.132,
+      "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
@@ -235,41 +285,11 @@
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks Advance on Tech, Oil Climbs on Iran: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
-      "summary": "Asian stocks climbed at the open as traders doubled down on the artificial intelligence trade, looking past Middle East tensions even after President Donald Trump rejected Iran’s response to his latest proposal to end the war. Oil jumped.",
-      "published": "11 May 2026 05:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.938,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gold Falls as Trump Rejection of Iran Offer Fans Inflation Fears",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-10/gold-falls-as-trump-rejection-of-iran-offer-fans-inflation-fears",
-      "summary": "Gold fell as President Donald Trump rejected Iran’s latest peace offer to end the 10-week conflict choking the Strait of Hormuz, fanning inflation fears as weekend clashes in the Middle East threatened a fragile ceasefire.",
-      "published": "11 May 2026 05:45 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Trump, Xi Slated for Beijing Summit Amid Iran Conflict",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-10/trump-xi-slated-for-beijing-summit-amid-iran-conflict-video",
-      "summary": "President Donald Trump is scheduled to meet Chinese leader Xi Jinping in Beijing this week as the US focuses on the war in Iran. The summit is also expected to cover trade frameworks for Boeing aircraft, soybeans, and AI semiconductors. Bloomberg’s Stephen Engle reports on what is at stake in the me",
-      "published": "11 May 2026 06:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.895,
-      "emoji": "🔴"
-    },
-    {
       "source": "BBC World",
       "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
       "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
       "summary": "No details have been released of Iran's response - or the US proposals - designed to bring the war to an end.",
-      "published": "11 May 2026 03:57 WIB",
+      "published": "11 May 2026 08:55 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
@@ -282,6 +302,16 @@
       "published": "11 May 2026 04:01 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Oil prices jump after Trump dismisses Iran proposal to end war",
+      "url": "https://www.bbc.com/news/articles/ckgp4ev4yg4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Strait of Hormuz waterway remains effectively shut, severely disrupting global energy shipments.",
+      "published": "11 May 2026 08:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.6,
       "emoji": "🔴"
     },
     {
@@ -429,7 +459,7 @@
       "title": "U.S. stock futures fall, oil surges as Trump calls Iran’s latest offer to end war ‘totally unacceptable’",
       "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-surges-as-trump-calls-irans-latest-offer-to-end-war-totally-unacceptable-187e3d87?mod=mw_rss_topstories",
       "summary": "U.S. stock-index futures fell and oil prices rose on Sunday, after President Donald Trump called Iran’s response to the latest U.S. proposal to end the war “totally unacceptable.”",
-      "published": "11 May 2026 08:04 WIB",
+      "published": "11 May 2026 09:29 WIB",
       "sentiment": "Bearish",
       "score": -0.912,
       "emoji": "🔴"
@@ -466,6 +496,26 @@
     },
     {
       "source": "CNBC World",
+      "title": "China consumer, wholesale inflation tops estimates in April as Iran war drives energy costs higher",
+      "url": "https://www.cnbc.com/2026/05/11/china-cpi-ppi-inflation-energy-costs-oil-iran-war.html",
+      "summary": "China has cushioned the worst of the energy shock through its strategic oil stockpiles and a diversified mix of renewable energy sources.",
+      "published": "11 May 2026 09:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.539,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict",
+      "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html",
+      "summary": "Washington has sought to press Beijing to lean on Tehran to reopen the strait, though China's appetite to act as a pressure mechanism remains unclear.",
+      "published": "11 May 2026 09:21 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
       "title": "Netanyahu says Iran war is 'not over' as Trump rejects latest Iranian offer",
       "url": "https://www.cnbc.com/2026/05/10/netanyahu-says-iran-war-is-not-over-as-peace-deal-remains-elusive.html",
       "summary": "The Iran war, dragging into its second month, has spiked oil and gas prices in the U.S. and around the world.",
@@ -499,7 +549,7 @@
       "title": "South Korea's Kospi hits fresh record as Asia markets trade mixed amid oil surge, Iran risks",
       "url": "https://www.cnbc.com/2026/05/11/asia-markets-today-live-updates-nikkei-kospi-hang-seng-sensex-csi-300-iran-hormuz.html",
       "summary": "Investors headed into Monday on edge as Trump’s rejection of Iran’s ceasefire proposal fueled concerns about a prolonged Middle East conflict.",
-      "published": "11 May 2026 08:21 WIB",
+      "published": "11 May 2026 08:53 WIB",
       "sentiment": "Bearish",
       "score": -0.681,
       "emoji": "🔴"

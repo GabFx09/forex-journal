@@ -1,17 +1,17 @@
-// Diperbarui: 11 May 2026 08:27 WIB
+// Diperbarui: 11 May 2026 09:41 WIB
 window.FK_DATA = {
-  "generated": "11 May 2026 08:27 WIB",
+  "generated": "11 May 2026 09:41 WIB",
   "kalender": {
-    "generated": "11 May 2026 08:27 WIB",
+    "generated": "11 May 2026 09:41 WIB",
     "events": [
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "06:30",
+        "time_wib": "05:30",
         "currency": "CNY",
         "impact": "none",
         "event": "CPI y/y",
-        "actual": "",
+        "actual": "1.2%",
         "forecast": "0.9%",
         "previous": "1.0%"
       },
@@ -22,7 +22,7 @@ window.FK_DATA = {
         "currency": "CNY",
         "impact": "none",
         "event": "PPI y/y",
-        "actual": "",
+        "actual": "2.8%",
         "forecast": "1.7%",
         "previous": "0.5%"
       },
@@ -40,7 +40,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "19:00",
+        "time_wib": "18:00",
         "currency": "USD",
         "impact": "none",
         "event": "Existing Home Sales",
@@ -51,7 +51,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "04:01",
+        "time_wib": "03:01",
         "currency": "GBP",
         "impact": "none",
         "event": "BRC Retail Sales Monitor y/y",
@@ -62,7 +62,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "04:30",
+        "time_wib": "03:30",
         "currency": "JPY",
         "impact": "none",
         "event": "Household Spending y/y",
@@ -73,7 +73,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "04:50",
+        "time_wib": "03:50",
         "currency": "JPY",
         "impact": "none",
         "event": "BOJ Summary of Opinions",
@@ -84,7 +84,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "06:30",
+        "time_wib": "05:30",
         "currency": "AUD",
         "impact": "none",
         "event": "NAB Business Confidence",
@@ -95,7 +95,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "08:35",
+        "time_wib": "07:35",
         "currency": "JPY",
         "impact": "none",
         "event": "10-y Bond Auction",
@@ -106,7 +106,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "10:00",
+        "time_wib": "09:00",
         "currency": "JPY",
         "impact": "none",
         "event": "Leading Indicators",
@@ -117,7 +117,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "11:00",
+        "time_wib": "10:00",
         "currency": "EUR",
         "impact": "none",
         "event": "German Final CPI m/m",
@@ -128,7 +128,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "11:30",
+        "time_wib": "10:30",
         "currency": "CHF",
         "impact": "none",
         "event": "PPI m/m",
@@ -139,7 +139,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "12:15",
+        "time_wib": "11:15",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Williams Speaks",
@@ -150,7 +150,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "EUR",
         "impact": "none",
         "event": "Italian Industrial Production m/m",
@@ -161,7 +161,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "14:00",
+        "time_wib": "13:00",
         "currency": "EUR",
         "impact": "none",
         "event": "German ZEW Economic Sentiment",
@@ -183,7 +183,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "14:30",
+        "time_wib": "13:30",
         "currency": "AUD",
         "impact": "none",
         "event": "Annual Budget Release",
@@ -194,7 +194,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "15:00",
+        "time_wib": "14:00",
         "currency": "USD",
         "impact": "none",
         "event": "NFIB Small Business Index",
@@ -205,7 +205,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "17:15",
+        "time_wib": "16:15",
         "currency": "USD",
         "impact": "none",
         "event": "ADP Weekly Employment Change",
@@ -216,7 +216,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "17:30",
+        "time_wib": "16:30",
         "currency": "USD",
         "impact": "none",
         "event": "Core CPI m/m",
@@ -249,7 +249,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "AUD",
         "impact": "none",
         "event": "CB Leading Index m/m",
@@ -271,7 +271,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "22:00",
+        "time_wib": "21:00",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Goolsbee Speaks",
@@ -282,7 +282,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "22:01",
+        "time_wib": "21:01",
         "currency": "USD",
         "impact": "none",
         "event": "10-y Bond Auction",
@@ -293,7 +293,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "23:00",
+        "time_wib": "22:00",
         "currency": "USD",
         "impact": "none",
         "event": "Federal Budget Balance",
@@ -304,7 +304,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "01:30",
+        "time_wib": "00:30",
         "currency": "USD",
         "impact": "none",
         "event": "API Weekly Statistical Bulletin",
@@ -315,7 +315,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "04:50",
+        "time_wib": "03:50",
         "currency": "JPY",
         "impact": "none",
         "event": "Bank Lending y/y",
@@ -337,7 +337,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "06:30",
+        "time_wib": "05:30",
         "currency": "AUD",
         "impact": "none",
         "event": "Wage Price Index q/q",
@@ -348,7 +348,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "08:00",
+        "time_wib": "07:00",
         "currency": "NZD",
         "impact": "none",
         "event": "Inflation Expectations q/q",
@@ -359,7 +359,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "10:00",
+        "time_wib": "09:00",
         "currency": "JPY",
         "impact": "none",
         "event": "Economy Watchers Sentiment",
@@ -370,7 +370,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "11:00",
+        "time_wib": "10:00",
         "currency": "EUR",
         "impact": "none",
         "event": "German WPI m/m",
@@ -381,7 +381,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "11:45",
+        "time_wib": "10:45",
         "currency": "EUR",
         "impact": "none",
         "event": "French Final CPI m/m",
@@ -392,7 +392,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "14:00",
+        "time_wib": "13:00",
         "currency": "EUR",
         "impact": "none",
         "event": "Flash Employment Change q/q",
@@ -436,7 +436,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "17:30",
+        "time_wib": "16:30",
         "currency": "USD",
         "impact": "none",
         "event": "Core PPI m/m",
@@ -458,7 +458,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "18:30",
+        "time_wib": "17:30",
         "currency": "GBP",
         "impact": "none",
         "event": "CB Leading Index m/m",
@@ -469,7 +469,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "19:00",
+        "time_wib": "18:00",
         "currency": "GBP",
         "impact": "none",
         "event": "MPC Member Mann Speaks",
@@ -480,7 +480,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "USD",
         "impact": "none",
         "event": "Crude Oil Inventories",
@@ -491,7 +491,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "20:05",
+        "time_wib": "19:05",
         "currency": "CAD",
         "impact": "none",
         "event": "Gov Council Member Alexopoulos Speaks",
@@ -502,7 +502,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "20:30",
+        "time_wib": "19:30",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Collins Speaks",
@@ -513,7 +513,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "22:01",
+        "time_wib": "21:01",
         "currency": "USD",
         "impact": "none",
         "event": "30-y Bond Auction",
@@ -524,7 +524,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "22:15",
+        "time_wib": "21:15",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Kashkari Speaks",
@@ -535,7 +535,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "22:30",
+        "time_wib": "21:30",
         "currency": "CAD",
         "impact": "none",
         "event": "BOC Summary of Deliberations",
@@ -546,7 +546,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "00:15",
+        "time_wib": "23:15",
         "currency": "EUR",
         "impact": "none",
         "event": "ECB President Lagarde Speaks",
@@ -557,7 +557,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "03:45",
+        "time_wib": "02:45",
         "currency": "NZD",
         "impact": "none",
         "event": "Visitor Arrivals m/m",
@@ -568,7 +568,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "04:01",
+        "time_wib": "03:01",
         "currency": "GBP",
         "impact": "none",
         "event": "RICS House Price Balance",
@@ -579,7 +579,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "04:50",
+        "time_wib": "03:50",
         "currency": "JPY",
         "impact": "none",
         "event": "M2 Money Stock y/y",
@@ -590,7 +590,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "06:00",
+        "time_wib": "05:00",
         "currency": "AUD",
         "impact": "none",
         "event": "MI Inflation Expectations",
@@ -601,7 +601,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "08:35",
+        "time_wib": "07:35",
         "currency": "JPY",
         "impact": "none",
         "event": "30-y Bond Auction",
@@ -623,7 +623,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "11:00",
+        "time_wib": "10:00",
         "currency": "GBP",
         "impact": "none",
         "event": "GDP m/m",
@@ -755,7 +755,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "17:30",
+        "time_wib": "16:30",
         "currency": "CAD",
         "impact": "none",
         "event": "Wholesale Sales m/m",
@@ -810,7 +810,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "19:00",
+        "time_wib": "18:00",
         "currency": "USD",
         "impact": "none",
         "event": "Business Inventories m/m",
@@ -832,7 +832,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "19:15",
+        "time_wib": "18:15",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Schmid Speaks",
@@ -843,7 +843,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "USD",
         "impact": "none",
         "event": "Natural Gas Storage",
@@ -854,7 +854,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "20:15",
+        "time_wib": "19:15",
         "currency": "GBP",
         "impact": "none",
         "event": "MPC Member Pill Speaks",
@@ -865,7 +865,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "22:00",
+        "time_wib": "21:00",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Hammack Speaks",
@@ -876,7 +876,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "02:30",
+        "time_wib": "01:30",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Barr Speaks",
@@ -887,7 +887,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "02:45",
+        "time_wib": "01:45",
         "currency": "USD",
         "impact": "none",
         "event": "FOMC Member Williams Speaks",
@@ -898,7 +898,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "03:30",
+        "time_wib": "02:30",
         "currency": "NZD",
         "impact": "none",
         "event": "BusinessNZ Manufacturing Index",
@@ -909,7 +909,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "03:45",
+        "time_wib": "02:45",
         "currency": "NZD",
         "impact": "none",
         "event": "FPI m/m",
@@ -920,7 +920,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "04:50",
+        "time_wib": "03:50",
         "currency": "JPY",
         "impact": "none",
         "event": "PPI y/y",
@@ -931,7 +931,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "11:00",
+        "time_wib": "10:00",
         "currency": "JPY",
         "impact": "none",
         "event": "Prelim Machine Tool Orders y/y",
@@ -942,7 +942,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "EUR",
         "impact": "none",
         "event": "ECB Economic Bulletin",
@@ -953,7 +953,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "17:15",
+        "time_wib": "16:15",
         "currency": "CAD",
         "impact": "none",
         "event": "Housing Starts",
@@ -964,7 +964,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "17:30",
+        "time_wib": "16:30",
         "currency": "CAD",
         "impact": "none",
         "event": "Foreign Securities Purchases",
@@ -997,7 +997,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-11",
         "day": "Senin",
-        "time_wib": "18:15",
+        "time_wib": "17:15",
         "currency": "USD",
         "impact": "none",
         "event": "Capacity Utilization Rate",
@@ -1030,60 +1030,96 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "11 May 2026 08:27 WIB",
+    "generated": "11 May 2026 09:41 WIB",
     "summary": {
-      "total": 69,
-      "bullish": 23,
-      "bearish": 44,
-      "netral": 2,
-      "avg_score": -0.2658,
+      "total": 81,
+      "bullish": 24,
+      "bearish": 50,
+      "netral": 7,
+      "avg_score": -0.2528,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
           "sentiment": "Bearish",
-          "score": -0.124,
-          "count": 11
+          "score": -0.21,
+          "count": 15
         },
         {
           "currency": "EUR",
           "sentiment": "Bearish",
-          "score": -0.511,
-          "count": 3
-        },
-        {
-          "currency": "CNY",
-          "sentiment": "Bullish",
-          "score": 0.216,
-          "count": 3
+          "score": -0.383,
+          "count": 4
         },
         {
           "currency": "JPY",
           "sentiment": "Bearish",
-          "score": -0.106,
-          "count": 2
+          "score": -0.494,
+          "count": 4
+        },
+        {
+          "currency": "CNY",
+          "sentiment": "Bullish",
+          "score": 0.162,
+          "count": 4
         },
         {
           "currency": "CAD",
-          "sentiment": "Bearish",
-          "score": -0.051,
-          "count": 2
+          "sentiment": "Netral",
+          "score": -0.034,
+          "count": 3
         },
         {
           "currency": "AUD",
           "sentiment": "Bearish",
-          "score": -0.493,
-          "count": 1
+          "score": -0.57,
+          "count": 2
         },
         {
           "currency": "NZD",
           "sentiment": "Bearish",
-          "score": -0.493,
+          "score": -0.664,
+          "count": 2
+        },
+        {
+          "currency": "GBP",
+          "sentiment": "Bullish",
+          "score": 0.226,
           "count": 1
         }
       ]
     },
     "items": [
+      {
+        "source": "ForexLive",
+        "title": "Japan's energy subsidies and yen defence are on a collision course",
+        "url": "https://investinglive.com/forex/japans-energy-subsidies-and-yen-defence-are-on-a-collision-course-20260511/",
+        "summary": "Japan's petrol subsidies are draining funds at 300bn yen a month while yen intervention nears IMF limits, putting Tokyo's fiscal and currency strategy on a collision course, Reuters Breakingviews argues. Summary: A Reuters column by Hudson Lockett argues that Japanese Prime Minister Sanae Takaichi f",
+        "published": "11 May 2026 09:12 WIB",
+        "sentiment": "Bearish",
+        "score": -0.765,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "ICYMI - Netanyahu says Iran war not over and refuses to rule out seizing nuclear material",
+        "url": "https://investinglive.com/commodities/icymi-netanyahu-says-iran-war-not-over-and-refuses-to-rule-out-seizing-nuclear-material-20260511/",
+        "summary": "Netanyahu told CBS the Iran war is not over and declined to rule out seizing nuclear material, while separate reports claim Trump told him 'I want to go in' regarding Iranian nuclear sites. Summary: Netanyahu told CBS's 60 Minutes the war on Iran is not over, with enrichment sites, missile capacity ",
+        "published": "11 May 2026 08:50 WIB",
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "China April CPI 1.2% y/y (expected 0.8%, prior 0.1%)",
+        "url": "https://investinglive.com/centralbank/china-april-cpi-12-yy-expected-08-prior-05-20260511/",
+        "summary": "Inflation data from China for April 2026. CPI 1.2% y/y expected 0.8%, prior 0.1% CPI 0.3% m/m expected -0.1%, prior -0.7% Core CPI 1.2% y/y prior 1% PPI 2.8% y/y (45 month high) expected 1.5%, prior 0.5% PPI +1.7% m/m I'll have more to come on this separately This article was written by Eamonn Sheri",
+        "published": "11 May 2026 08:30 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
       {
         "source": "ForexLive",
         "title": "PBOC sets USD/ CNY reference rate for today at 6.8467 (vs. estimate at 6.7988)",
@@ -1205,54 +1241,94 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Iran dismisses Trump's nuclear talks rejection as irrelevant to its negotiating position",
-        "url": "https://investinglive.com/commodities/iran-dismisses-trumps-nuclear-talks-rejection-as-irrelevant-to-its-negotiating-position-20260510/",
-        "summary": "Iran has dismissed Trump's rejection of its nuclear proposals as irrelevant, with a source telling Tasnim that negotiators draft plans for Iranian interests alone and that Trump's dissatisfaction is \"naturally better.\" Earlier: Iran said to table broad demands covering sanctions, war and security in",
-        "published": "11 May 2026 03:56 WIB",
+        "source": "FXStreet News",
+        "title": "New Zealand Dollar weakens to near 0.5950 despite hotter Chinese CPI inflation data",
+        "url": "https://www.fxstreet.com/news/new-zealand-dollar-weakens-to-near-05950-despite-hotter-chinese-cpi-inflation-data-202605110201",
+        "summary": "The NZD/USD pair trades in negative territory near 0.5950 during the early Asian trading hours on Monday. The New Zealand Dollar (NZD) remains weak against the US Dollar (USD) after the release of the Chinese inflation report. The US Existing Home Sales data for April is due later on Monday.",
+        "published": "11 May 2026 09:01 WIB",
+        "sentiment": "Bearish",
+        "score": -0.836,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "WTI rises above $95.50 as Trump rejects Iran’s proposal",
+        "url": "https://www.fxstreet.com/news/wti-rises-above-9550-as-trump-rejects-irans-proposal-202605110156",
+        "summary": "West Texas Intermediate (WTI) oil price advances after registering nearly 3% losses in the previous trading day, hovering around $95.70 during the Asian hours on Monday.",
+        "published": "11 May 2026 08:56 WIB",
+        "sentiment": "Bearish",
+        "score": -0.79,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Japanese Yen drifts lower vs firmer USD on Iran tensions; intervention risks limit losses",
+        "url": "https://www.fxstreet.com/news/japanese-yen-drifts-lower-vs-firmer-usd-on-iran-tensions-intervention-risks-limit-losses-202605110155",
+        "summary": "The USD/JPY pair reverses a modest Asian session dip to the 156.50-156.45 area on Monday as the safe-haven US Dollar (USD) draws support from persistent geopolitical uncertainties.",
+        "published": "11 May 2026 08:55 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Monday open indicative forex prices, 11 May 2026. USD bids.",
-        "url": "https://investinglive.com/forex/monday-open-indicative-forex-prices-11-may-2026-usd-bids-20260510/",
-        "summary": "Earlier: Iran said to table broad demands covering sanctions, war and security The prez says no: Trump says Iran's proposals are \"TOTALLY UNACCEPTABLE\" The USD is a touch higher in really early trade. Weekend oil trade is a touch higher. This article was written by Eamonn Sheridan at investinglive.c",
-        "published": "11 May 2026 03:32 WIB",
-        "sentiment": "Bearish",
-        "score": -0.86,
-        "emoji": "🔴"
+        "source": "FXStreet News",
+        "title": "Breaking: China’s CPI inflation climbs to 1.2% YoY in April, vs 0.8% expected",
+        "url": "https://www.fxstreet.com/news/when-are-the-cpi-ppi-and-how-could-they-affect-aud-usd-202605102313",
+        "summary": "China’s Consumer Price Index (CPI) climbed 1.2% in April from a year ago after arriving at a rise of 1.0% in March, the National Bureau of Statistics of China reported on Monday. The market consensus was for 0.8% in the reported period.",
+        "published": "11 May 2026 08:33 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
       },
       {
-        "source": "ForexLive",
-        "title": "Trump says Iran's proposals are \"TOTALLY UNACCEPTABLE\"",
-        "url": "https://investinglive.com/commodities/trump-says-irans-proposals-are-totally-unacceptable-20260510/",
-        "summary": "Earlier: Iran said to table broad demands covering sanctions, war and security in U.S. talks The usual process is tantrum first, taco later This article was written by Eamonn Sheridan at investinglive.com.",
-        "published": "11 May 2026 03:23 WIB",
+        "source": "FXStreet News",
+        "title": "PBOC sets USD/CNY reference rate at 6.8467 vs. 6.8502 previous",
+        "url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-68467-vs-68502-previous-202605110115",
+        "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8467 compared to Friday's fix of 6.8502 and 6.7988 Reuters estimate.",
+        "published": "11 May 2026 08:15 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Australian Dollar remains in the negative territory ahead of China’s CPI data",
+        "url": "https://www.fxstreet.com/news/australian-dollar-remains-in-the-negative-territory-ahead-of-chinas-cpi-data-202605110112",
+        "summary": "AUD/USD gains ground after opening at a bearish gap but still remains in the negative territory, trading around 0.7240 during the Asian hours on Monday. Traders await China’s Consumer Price Index (CPI) data due later in the day.",
+        "published": "11 May 2026 08:12 WIB",
         "sentiment": "Bearish",
-        "score": -0.982,
+        "score": -0.647,
         "emoji": "🔴"
       },
       {
         "source": "FXStreet News",
-        "title": "EUR/USD edges lower to near 1.1750 as Trump rejects new Iran peace offer",
+        "title": "British Pound pares intraday losses; bulls seem hesitant near 1.3600 on firmer USD",
+        "url": "https://www.fxstreet.com/news/british-pound-pares-intraday-losses-bulls-seem-hesitant-near-13600-on-firmer-usd-202605110110",
+        "summary": "The GBP/USD pair rebounds nearly 50 pips following a bearish gap opening at the start of a new week and climbs back to the 1.3600 mark during the Asian session. However, a modest US Dollar (USD) strength might cap any further gains for spot prices.",
+        "published": "11 May 2026 08:10 WIB",
+        "sentiment": "Bullish",
+        "score": 0.226,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Gold slumps below $4,700 on Trump rejection of Iran peace proposal",
+        "url": "https://www.fxstreet.com/news/gold-slumps-below-4-700-on-trump-rejection-of-iran-peace-proposal-202605110058",
+        "summary": "Gold price (XAU/USD) falls to around $4,690 during the early Asian session on Monday. The precious metal attracts some sellers after US President Donald Trump rejected Iran’s latest peace offer to end the 10-week conflict choking the Strait of Hormuz, fanning inflation fears.",
+        "published": "11 May 2026 07:58 WIB",
+        "sentiment": "Bearish",
+        "score": -0.288,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Euro edges lower to near 1.1750 as Trump rejects new Iran peace offer",
         "url": "https://www.fxstreet.com/news/eur-usd-edges-lower-to-near-11750-as-trump-rejects-new-iran-peace-offer-202605102337",
         "summary": "The EUR/USD pair loses momentum to around 1.1765 during the early Asian session on Monday. The Euro (EUR) softens against the US Dollar (USD) amid a cautious mood after US President Donald Trump and Iran rejected each other’s latest peace proposals to end the war in the Middle East.",
         "published": "11 May 2026 06:37 WIB",
         "sentiment": "Bearish",
         "score": -0.807,
         "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "When are the CPI, PPI and how could they affect AUD/USD?",
-        "url": "https://www.fxstreet.com/news/when-are-the-cpi-ppi-and-how-could-they-affect-aud-usd-202605102313",
-        "summary": "The National Bureau of Statistics of China (NBS) will publish its data for April at 01.30 GMT. The Consumer Price Index (CPI) is expected to show an increase of 0.8% YoY in April, compared to 1.0% in March.",
-        "published": "11 May 2026 06:13 WIB",
-        "sentiment": "Bullish",
-        "score": 0.318,
-        "emoji": "🟢"
       },
       {
         "source": "FXStreet News",
@@ -1279,9 +1355,39 @@ window.FK_DATA = {
         "title": "Nintendo shares slump as price hikes, games shortfall spook market",
         "url": "https://www.investing.com/news/stock-market-news/nintendo-shares-slump-as-price-hikes-games-shortfall-spook-market-4674891",
         "summary": "",
-        "published": "11 May 2026 08:13 WIB",
+        "published": "11 May 2026 09:18 WIB",
         "sentiment": "Bullish",
         "score": 0.216,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "India’s Vedanta posts record annual profit; says demerger takes effect",
+        "url": "https://www.investing.com/news/stock-market-news/indias-vedanta-posts-record-annual-profit-says-demerger-takes-effect-4674903",
+        "summary": "",
+        "published": "11 May 2026 09:08 WIB",
+        "sentiment": "Bullish",
+        "score": 0.44,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "How China’s evolving consumer habits may protect the Amazon rainforest",
+        "url": "https://www.investing.com/news/stock-market-news/how-chinas-evolving-consumer-habits-may-protect-the-amazon-rainforest-4674901",
+        "summary": "",
+        "published": "11 May 2026 08:54 WIB",
+        "sentiment": "Bullish",
+        "score": 0.511,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Apollo in talks to sell $3 billion private credit fund, WSJ reports",
+        "url": "https://www.investing.com/news/stock-market-news/apollo-in-talks-to-sell-3-billion-private-credit-fund-wsj-reports-4674888",
+        "summary": "",
+        "published": "11 May 2026 08:30 WIB",
+        "sentiment": "Bullish",
+        "score": 0.382,
         "emoji": "🟢"
       },
       {
@@ -1292,16 +1398,6 @@ window.FK_DATA = {
         "published": "11 May 2026 08:09 WIB",
         "sentiment": "Bullish",
         "score": 0.073,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Apollo in talks to sell $3 billion private credit fund, WSJ reports",
-        "url": "https://www.investing.com/news/stock-market-news/apollo-in-talks-to-sell-3-billion-private-credit-fund-wsj-reports-4674888",
-        "summary": "",
-        "published": "11 May 2026 08:00 WIB",
-        "sentiment": "Bullish",
-        "score": 0.382,
         "emoji": "🟢"
       },
       {
@@ -1355,23 +1451,13 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Investing.com Forex",
-        "title": "NVIDIA’s Huang says AI will make intelligence a commodity for billions",
-        "url": "https://www.investing.com/news/stock-market-news/nvidias-huang-says-ai-will-make-intelligence-a-commodity-for-billions-4674854",
+        "source": "Investing.com Economy",
+        "title": "China’s April producer inflation at 45-month peak on energy price shock",
+        "url": "https://www.investing.com/news/economic-indicators/china-april-producer-inflation-surgesto-45month-high-4674899",
         "summary": "",
-        "published": "10 May 2026 23:55 WIB",
-        "sentiment": "Bullish",
-        "score": 0.477,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Amazon Supply Chain Services: How big of a risk is this for transports?",
-        "url": "https://www.investing.com/news/stock-market-news/amazon-supply-chain-services-how-big-of-a-risk-is-this-for-transports-4674843",
-        "summary": "",
-        "published": "10 May 2026 22:58 WIB",
+        "published": "11 May 2026 09:12 WIB",
         "sentiment": "Bearish",
-        "score": -0.183,
+        "score": -0.128,
         "emoji": "🔴"
       },
       {
@@ -1379,10 +1465,20 @@ window.FK_DATA = {
         "title": "China April exports rebound strongly, trade surplus widens ahead of Trump visit",
         "url": "https://www.investing.com/news/economic-indicators/china-april-exports-rebound-strongly-trade-surplus-widens-ahead-of-trump-visit-4674872",
         "summary": "",
-        "published": "11 May 2026 08:07 WIB",
+        "published": "11 May 2026 08:54 WIB",
         "sentiment": "Bullish",
         "score": 0.353,
         "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Economy",
+        "title": "China CPI inflation picks up more than expected in April, PPI hits near 4-yr high",
+        "url": "https://www.investing.com/news/economic-indicators/china-cpi-inflation-picks-up-more-than-expected-in-april-ppi-hits-near-4yr-high-4674898",
+        "summary": "",
+        "published": "11 May 2026 08:44 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
       },
       {
         "source": "Reuters Currencies",
@@ -1393,6 +1489,46 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.751,
         "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Floundering Rupee May Keep Indian Equities on a Tight Leash",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-11/indian-rupee-unlikely-to-see-strong-recovery-even-if-iran-war-ends-soon",
+        "summary": "Monex Europe expects the rupee to hit 98 per dollar by year-end.",
+        "published": "11 May 2026 09:31 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "China’s Factory Inflation Hits Post-Covid High After Cost Shock",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-s-factory-inflation-soars-near-4-year-high-after-cost-jolt",
+        "summary": "China’s factory prices grew at the fastest pace since the pandemic four years ago as the fallout from the Iran war sharply raises costs.",
+        "published": "11 May 2026 08:38 WIB",
+        "sentiment": "Bearish",
+        "score": -0.918,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "CSL Plunges Most Ever on Impairments, Reduced Profit Target",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/csl-cuts-profit-outlook-flags-5-billion-in-new-impairments",
+        "summary": "CSL Ltd. plunged the most on record after the Australian biotechnology company cut its full-year outlook and flagged about $5 billion in additional impairments, warning a turnaround will take longer than expected following a review by its interim chief executive.",
+        "published": "11 May 2026 05:34 WIB",
+        "sentiment": "Bearish",
+        "score": -0.233,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Asian Stocks Advance on Tech, Oil Climbs on Iran: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
+        "summary": "Asian stocks climbed as traders boosted bets on the AI trade, brushing aside Middle East tensions even after President Donald Trump’s rejection of Iran’s latest peace proposal pushed up oil prices.",
+        "published": "11 May 2026 05:09 WIB",
+        "sentiment": "Bearish",
+        "score": -0.132,
+        "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
@@ -1445,51 +1581,11 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Asian Stocks Advance on Tech, Oil Climbs on Iran: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
-        "summary": "Asian stocks climbed at the open as traders doubled down on the artificial intelligence trade, looking past Middle East tensions even after President Donald Trump rejected Iran’s response to his latest proposal to end the war. Oil jumped.",
-        "published": "11 May 2026 05:09 WIB",
-        "sentiment": "Bearish",
-        "score": -0.938,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Philippine Peso Falling Trajectory Defies Rate Hike Expectations",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/philippine-peso-falling-trajectory-defies-rate-hike-expectations",
-        "summary": "The Philippine peso is likely to sink to new lows against the dollar as the country’s outsized vulnerability to high energy costs offsets expected interest-rate hikes, analysts said.",
-        "published": "11 May 2026 07:00 WIB",
-        "sentiment": "Bearish",
-        "score": -0.216,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Gold Falls as Trump Rejection of Iran Offer Fans Inflation Fears",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/gold-falls-as-trump-rejection-of-iran-offer-fans-inflation-fears",
-        "summary": "Gold fell as President Donald Trump rejected Iran’s latest peace offer to end the 10-week conflict choking the Strait of Hormuz, fanning inflation fears as weekend clashes in the Middle East threatened a fragile ceasefire.",
-        "published": "11 May 2026 05:45 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Trump, Xi Slated for Beijing Summit Amid Iran Conflict",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-10/trump-xi-slated-for-beijing-summit-amid-iran-conflict-video",
-        "summary": "President Donald Trump is scheduled to meet Chinese leader Xi Jinping in Beijing this week as the US focuses on the war in Iran. The summit is also expected to cover trade frameworks for Boeing aircraft, soybeans, and AI semiconductors. Bloomberg’s Stephen Engle reports on what is at stake in the me",
-        "published": "11 May 2026 06:01 WIB",
-        "sentiment": "Bearish",
-        "score": -0.895,
-        "emoji": "🔴"
-      },
-      {
         "source": "BBC World",
         "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
         "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
         "summary": "No details have been released of Iran's response - or the US proposals - designed to bring the war to an end.",
-        "published": "11 May 2026 03:57 WIB",
+        "published": "11 May 2026 08:55 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
         "emoji": "🔴"
@@ -1502,6 +1598,16 @@ window.FK_DATA = {
         "published": "11 May 2026 04:01 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC World",
+        "title": "Oil prices jump after Trump dismisses Iran proposal to end war",
+        "url": "https://www.bbc.com/news/articles/ckgp4ev4yg4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Strait of Hormuz waterway remains effectively shut, severely disrupting global energy shipments.",
+        "published": "11 May 2026 08:12 WIB",
+        "sentiment": "Bearish",
+        "score": -0.6,
         "emoji": "🔴"
       },
       {
@@ -1659,7 +1765,7 @@ window.FK_DATA = {
         "title": "U.S. stock futures fall, oil surges as Trump calls Iran’s latest offer to end war ‘totally unacceptable’",
         "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-surges-as-trump-calls-irans-latest-offer-to-end-war-totally-unacceptable-187e3d87?mod=mw_rss_topstories",
         "summary": "U.S. stock-index futures fell and oil prices rose on Sunday, after President Donald Trump called Iran’s response to the latest U.S. proposal to end the war “totally unacceptable.”",
-        "published": "11 May 2026 08:04 WIB",
+        "published": "11 May 2026 09:29 WIB",
         "sentiment": "Bearish",
         "score": -0.912,
         "emoji": "🔴"
@@ -1716,6 +1822,26 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
+        "title": "China consumer, wholesale inflation tops estimates in April as Iran war drives energy costs higher",
+        "url": "https://www.cnbc.com/2026/05/11/china-cpi-ppi-inflation-energy-costs-oil-iran-war.html",
+        "summary": "China has cushioned the worst of the energy shock through its strategic oil stockpiles and a diversified mix of renewable energy sources.",
+        "published": "11 May 2026 09:05 WIB",
+        "sentiment": "Bearish",
+        "score": -0.539,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict",
+        "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html",
+        "summary": "Washington has sought to press Beijing to lean on Tehran to reopen the strait, though China's appetite to act as a pressure mechanism remains unclear.",
+        "published": "11 May 2026 09:21 WIB",
+        "sentiment": "Bearish",
+        "score": -0.717,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
         "title": "Netanyahu says Iran war is 'not over' as Trump rejects latest Iranian offer",
         "url": "https://www.cnbc.com/2026/05/10/netanyahu-says-iran-war-is-not-over-as-peace-deal-remains-elusive.html",
         "summary": "The Iran war, dragging into its second month, has spiked oil and gas prices in the U.S. and around the world.",
@@ -1749,7 +1875,7 @@ window.FK_DATA = {
         "title": "South Korea's Kospi hits fresh record as Asia markets trade mixed amid oil surge, Iran risks",
         "url": "https://www.cnbc.com/2026/05/11/asia-markets-today-live-updates-nikkei-kospi-hang-seng-sensex-csi-300-iran-hormuz.html",
         "summary": "Investors headed into Monday on edge as Trump’s rejection of Iran’s ceasefire proposal fueled concerns about a prolonged Middle East conflict.",
-        "published": "11 May 2026 08:21 WIB",
+        "published": "11 May 2026 08:53 WIB",
         "sentiment": "Bearish",
         "score": -0.681,
         "emoji": "🔴"
@@ -1777,7 +1903,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "11 May 2026 08:27 WIB",
+    "generated": "11 May 2026 09:41 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1785,53 +1911,73 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.524,
-        "count": 38
+        "score": -0.479,
+        "count": 41
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.519,
-        "count": 36
+        "score": -0.473,
+        "count": 39
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.556,
+        "score": -0.512,
         "count": 32
       },
       {
         "pair": "EUR/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.542,
-        "count": 14
-      },
-      {
-        "pair": "USD/RUB",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.947,
-        "count": 3
+        "score": -0.351,
+        "count": 11
       },
       {
         "pair": "CAD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.473,
-        "count": 3
+        "score": -0.49,
+        "count": 6
       },
       {
         "pair": "NOK/SEK",
         "direction": "Tekanan Turun ▼",
-        "score": -0.473,
-        "count": 3
+        "score": -0.49,
+        "count": 6
       },
       {
         "pair": "EUR",
         "direction": "Tekanan Turun ▼",
-        "score": -0.553,
-        "count": 2
+        "score": -0.624,
+        "count": 3
+      },
+      {
+        "pair": "USD",
+        "direction": "Tekanan Turun ▼",
+        "score": -0.624,
+        "count": 3
       }
     ],
     "items": [
+      {
+        "source": "ForexLive",
+        "title": "Japan's energy subsidies and yen defence are on a collision course",
+        "url": "https://investinglive.com/forex/japans-energy-subsidies-and-yen-defence-are-on-a-collision-course-20260511/",
+        "summary": "Japan's petrol subsidies are draining funds at 300bn yen a month while yen intervention nears IMF limits, putting Tokyo's fiscal and currency strategy on a collision course, Reuters Breakingviews argues. Summary: A Reuters column by Hudson Lockett argues that Japanese Prime Minister Sanae Takaichi f",
+        "published": "11 May 2026 09:12 WIB",
+        "sentiment": "Bearish",
+        "score": -0.765,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "ICYMI - Netanyahu says Iran war not over and refuses to rule out seizing nuclear material",
+        "url": "https://investinglive.com/commodities/icymi-netanyahu-says-iran-war-not-over-and-refuses-to-rule-out-seizing-nuclear-material-20260511/",
+        "summary": "Netanyahu told CBS the Iran war is not over and declined to rule out seizing nuclear material, while separate reports claim Trump told him 'I want to go in' regarding Iranian nuclear sites. Summary: Netanyahu told CBS's 60 Minutes the war on Iran is not over, with enrichment sites, missile capacity ",
+        "published": "11 May 2026 08:50 WIB",
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "emoji": "🔴"
+      },
       {
         "source": "ForexLive",
         "title": "WSJ: Rising defaults and redemption pressure push Apollo to weigh $3bn credit fund sale",
@@ -1913,38 +2059,38 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Iran dismisses Trump's nuclear talks rejection as irrelevant to its negotiating position",
-        "url": "https://investinglive.com/commodities/iran-dismisses-trumps-nuclear-talks-rejection-as-irrelevant-to-its-negotiating-position-20260510/",
-        "summary": "Iran has dismissed Trump's rejection of its nuclear proposals as irrelevant, with a source telling Tasnim that negotiators draft plans for Iranian interests alone and that Trump's dissatisfaction is \"naturally better.\" Earlier: Iran said to table broad demands covering sanctions, war and security in",
-        "published": "11 May 2026 03:56 WIB",
+        "source": "FXStreet News",
+        "title": "WTI rises above $95.50 as Trump rejects Iran’s proposal",
+        "url": "https://www.fxstreet.com/news/wti-rises-above-9550-as-trump-rejects-irans-proposal-202605110156",
+        "summary": "West Texas Intermediate (WTI) oil price advances after registering nearly 3% losses in the previous trading day, hovering around $95.70 during the Asian hours on Monday.",
+        "published": "11 May 2026 08:56 WIB",
+        "sentiment": "Bearish",
+        "score": -0.79,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Japanese Yen drifts lower vs firmer USD on Iran tensions; intervention risks limit losses",
+        "url": "https://www.fxstreet.com/news/japanese-yen-drifts-lower-vs-firmer-usd-on-iran-tensions-intervention-risks-limit-losses-202605110155",
+        "summary": "The USD/JPY pair reverses a modest Asian session dip to the 156.50-156.45 area on Monday as the safe-haven US Dollar (USD) draws support from persistent geopolitical uncertainties.",
+        "published": "11 May 2026 08:55 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Monday open indicative forex prices, 11 May 2026. USD bids.",
-        "url": "https://investinglive.com/forex/monday-open-indicative-forex-prices-11-may-2026-usd-bids-20260510/",
-        "summary": "Earlier: Iran said to table broad demands covering sanctions, war and security The prez says no: Trump says Iran's proposals are \"TOTALLY UNACCEPTABLE\" The USD is a touch higher in really early trade. Weekend oil trade is a touch higher. This article was written by Eamonn Sheridan at investinglive.c",
-        "published": "11 May 2026 03:32 WIB",
+        "source": "FXStreet News",
+        "title": "Gold slumps below $4,700 on Trump rejection of Iran peace proposal",
+        "url": "https://www.fxstreet.com/news/gold-slumps-below-4-700-on-trump-rejection-of-iran-peace-proposal-202605110058",
+        "summary": "Gold price (XAU/USD) falls to around $4,690 during the early Asian session on Monday. The precious metal attracts some sellers after US President Donald Trump rejected Iran’s latest peace offer to end the 10-week conflict choking the Strait of Hormuz, fanning inflation fears.",
+        "published": "11 May 2026 07:58 WIB",
         "sentiment": "Bearish",
-        "score": -0.86,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Trump says Iran's proposals are \"TOTALLY UNACCEPTABLE\"",
-        "url": "https://investinglive.com/commodities/trump-says-irans-proposals-are-totally-unacceptable-20260510/",
-        "summary": "Earlier: Iran said to table broad demands covering sanctions, war and security in U.S. talks The usual process is tantrum first, taco later This article was written by Eamonn Sheridan at investinglive.com.",
-        "published": "11 May 2026 03:23 WIB",
-        "sentiment": "Bearish",
-        "score": -0.982,
+        "score": -0.288,
         "emoji": "🔴"
       },
       {
         "source": "FXStreet News",
-        "title": "EUR/USD edges lower to near 1.1750 as Trump rejects new Iran peace offer",
+        "title": "Euro edges lower to near 1.1750 as Trump rejects new Iran peace offer",
         "url": "https://www.fxstreet.com/news/eur-usd-edges-lower-to-near-11750-as-trump-rejects-new-iran-peace-offer-202605102337",
         "summary": "The EUR/USD pair loses momentum to around 1.1765 during the early Asian session on Monday. The Euro (EUR) softens against the US Dollar (USD) amid a cautious mood after US President Donald Trump and Iran rejected each other’s latest peace proposals to end the war in the Middle East.",
         "published": "11 May 2026 06:37 WIB",
@@ -1977,10 +2123,40 @@ window.FK_DATA = {
         "title": "China April exports rebound strongly, trade surplus widens ahead of Trump visit",
         "url": "https://www.investing.com/news/economic-indicators/china-april-exports-rebound-strongly-trade-surplus-widens-ahead-of-trump-visit-4674872",
         "summary": "",
-        "published": "11 May 2026 08:07 WIB",
+        "published": "11 May 2026 08:54 WIB",
         "sentiment": "Bullish",
         "score": 0.353,
         "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "China’s Factory Inflation Hits Post-Covid High After Cost Shock",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-s-factory-inflation-soars-near-4-year-high-after-cost-jolt",
+        "summary": "China’s factory prices grew at the fastest pace since the pandemic four years ago as the fallout from the Iran war sharply raises costs.",
+        "published": "11 May 2026 08:38 WIB",
+        "sentiment": "Bearish",
+        "score": -0.918,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "CSL Plunges Most Ever on Impairments, Reduced Profit Target",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/csl-cuts-profit-outlook-flags-5-billion-in-new-impairments",
+        "summary": "CSL Ltd. plunged the most on record after the Australian biotechnology company cut its full-year outlook and flagged about $5 billion in additional impairments, warning a turnaround will take longer than expected following a review by its interim chief executive.",
+        "published": "11 May 2026 05:34 WIB",
+        "sentiment": "Bearish",
+        "score": -0.233,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Asian Stocks Advance on Tech, Oil Climbs on Iran: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
+        "summary": "Asian stocks climbed as traders boosted bets on the AI trade, brushing aside Middle East tensions even after President Donald Trump’s rejection of Iran’s latest peace proposal pushed up oil prices.",
+        "published": "11 May 2026 05:09 WIB",
+        "sentiment": "Bearish",
+        "score": -0.132,
+        "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
@@ -2013,41 +2189,11 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Asian Stocks Advance on Tech, Oil Climbs on Iran: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
-        "summary": "Asian stocks climbed at the open as traders doubled down on the artificial intelligence trade, looking past Middle East tensions even after President Donald Trump rejected Iran’s response to his latest proposal to end the war. Oil jumped.",
-        "published": "11 May 2026 05:09 WIB",
-        "sentiment": "Bearish",
-        "score": -0.938,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Gold Falls as Trump Rejection of Iran Offer Fans Inflation Fears",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/gold-falls-as-trump-rejection-of-iran-offer-fans-inflation-fears",
-        "summary": "Gold fell as President Donald Trump rejected Iran’s latest peace offer to end the 10-week conflict choking the Strait of Hormuz, fanning inflation fears as weekend clashes in the Middle East threatened a fragile ceasefire.",
-        "published": "11 May 2026 05:45 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Trump, Xi Slated for Beijing Summit Amid Iran Conflict",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-10/trump-xi-slated-for-beijing-summit-amid-iran-conflict-video",
-        "summary": "President Donald Trump is scheduled to meet Chinese leader Xi Jinping in Beijing this week as the US focuses on the war in Iran. The summit is also expected to cover trade frameworks for Boeing aircraft, soybeans, and AI semiconductors. Bloomberg’s Stephen Engle reports on what is at stake in the me",
-        "published": "11 May 2026 06:01 WIB",
-        "sentiment": "Bearish",
-        "score": -0.895,
-        "emoji": "🔴"
-      },
-      {
         "source": "BBC World",
         "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
         "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
         "summary": "No details have been released of Iran's response - or the US proposals - designed to bring the war to an end.",
-        "published": "11 May 2026 03:57 WIB",
+        "published": "11 May 2026 08:55 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
         "emoji": "🔴"
@@ -2060,6 +2206,16 @@ window.FK_DATA = {
         "published": "11 May 2026 04:01 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC World",
+        "title": "Oil prices jump after Trump dismisses Iran proposal to end war",
+        "url": "https://www.bbc.com/news/articles/ckgp4ev4yg4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Strait of Hormuz waterway remains effectively shut, severely disrupting global energy shipments.",
+        "published": "11 May 2026 08:12 WIB",
+        "sentiment": "Bearish",
+        "score": -0.6,
         "emoji": "🔴"
       },
       {
@@ -2207,7 +2363,7 @@ window.FK_DATA = {
         "title": "U.S. stock futures fall, oil surges as Trump calls Iran’s latest offer to end war ‘totally unacceptable’",
         "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-surges-as-trump-calls-irans-latest-offer-to-end-war-totally-unacceptable-187e3d87?mod=mw_rss_topstories",
         "summary": "U.S. stock-index futures fell and oil prices rose on Sunday, after President Donald Trump called Iran’s response to the latest U.S. proposal to end the war “totally unacceptable.”",
-        "published": "11 May 2026 08:04 WIB",
+        "published": "11 May 2026 09:29 WIB",
         "sentiment": "Bearish",
         "score": -0.912,
         "emoji": "🔴"
@@ -2244,6 +2400,26 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
+        "title": "China consumer, wholesale inflation tops estimates in April as Iran war drives energy costs higher",
+        "url": "https://www.cnbc.com/2026/05/11/china-cpi-ppi-inflation-energy-costs-oil-iran-war.html",
+        "summary": "China has cushioned the worst of the energy shock through its strategic oil stockpiles and a diversified mix of renewable energy sources.",
+        "published": "11 May 2026 09:05 WIB",
+        "sentiment": "Bearish",
+        "score": -0.539,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict",
+        "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html",
+        "summary": "Washington has sought to press Beijing to lean on Tehran to reopen the strait, though China's appetite to act as a pressure mechanism remains unclear.",
+        "published": "11 May 2026 09:21 WIB",
+        "sentiment": "Bearish",
+        "score": -0.717,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
         "title": "Netanyahu says Iran war is 'not over' as Trump rejects latest Iranian offer",
         "url": "https://www.cnbc.com/2026/05/10/netanyahu-says-iran-war-is-not-over-as-peace-deal-remains-elusive.html",
         "summary": "The Iran war, dragging into its second month, has spiked oil and gas prices in the U.S. and around the world.",
@@ -2277,7 +2453,7 @@ window.FK_DATA = {
         "title": "South Korea's Kospi hits fresh record as Asia markets trade mixed amid oil surge, Iran risks",
         "url": "https://www.cnbc.com/2026/05/11/asia-markets-today-live-updates-nikkei-kospi-hang-seng-sensex-csi-300-iran-hormuz.html",
         "summary": "Investors headed into Monday on edge as Trump’s rejection of Iran’s ceasefire proposal fueled concerns about a prolonged Middle East conflict.",
-        "published": "11 May 2026 08:21 WIB",
+        "published": "11 May 2026 08:53 WIB",
         "sentiment": "Bearish",
         "score": -0.681,
         "emoji": "🔴"
