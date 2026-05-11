@@ -58,7 +58,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "Tidak ada perubahan data, skip commit."
           else
-            git commit -m "chore: update data forex $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
+            git commit -m "chore: update data forex $(date +'%Y-%m-%d %H:%M UTC') [skip netlify]"
             git push
           fi
 
