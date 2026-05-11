@@ -2,8 +2,9 @@ name: Forex News Digest Harian
 
 on:
   schedule:
-    # 00:00 UTC = 07:00 WIB (GMT+7)
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'   # 07:00 WIB
+    - cron: '0 6 * * *'   # 13:00 WIB
+    - cron: '0 16 * * *'  # 23:00 WIB
   workflow_dispatch:
 
 permissions:
