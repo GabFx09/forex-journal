@@ -53,7 +53,8 @@ jobs:
             "files-forex/kalender.json" \
             "files-forex/sentimen.json" \
             "files-forex/geopolitik.json" \
-            "files-forex/news_data.js"
+            "files-forex/news_data.js" \
+            "files-forex/_headers"
           # Hanya commit jika ada perubahan
           if git diff --staged --quiet; then
             echo "Tidak ada perubahan data, skip commit."
@@ -62,20 +63,22 @@ jobs:
             git push
           fi
 
-      # 6. Deploy ke Netlify via curl API (tanpa netlify-cli)
+      # 6. Deploy ke Netlify via curl API — tunggu sampai status ready
       - name: Deploy ke Netlify
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID:    ${{ secrets.NETLIFY_SITE_ID }}
         run: |
           if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
-            echo "NETLIFY_AUTH_TOKEN / NETLIFY_SITE_ID belum diset → skip deploy."
-            exit 0
+            echo "ERROR: NETLIFY_AUTH_TOKEN / NETLIFY_SITE_ID belum diset di GitHub Secrets!"
+            echo "Silakan tambahkan kedua secret ini di: Settings → Secrets → Actions"
+            exit 1
           fi
           # Zip isi folder files-forex langsung ke root (tanpa subfolder)
           cd "${{ github.workspace }}/files-forex"
           zip -r ../deploy.zip .
           cd "${{ github.workspace }}"
+          echo "Mengupload deploy ke Netlify..."
           # POST zip ke Netlify Deploy API
           RESPONSE=$(curl -s -w "\n%{http_code}" \
             -X POST \
@@ -86,9 +89,32 @@ jobs:
           HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
           BODY=$(echo "$RESPONSE" | head -n-1)
           echo "HTTP status: $HTTP_CODE"
-          echo "$BODY" | python3 -c "import sys,json; d=json.load(sys.stdin); print('Deploy ID:', d.get('id','?'), '| State:', d.get('state','?'), '| URL:', d.get('ssl_url', d.get('url','?')))" 2>/dev/null || echo "$BODY"
           if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "201" ]; then
-            echo "Deploy gagal dengan HTTP $HTTP_CODE"
+            echo "Upload deploy gagal dengan HTTP $HTTP_CODE"
+            echo "$BODY"
             exit 1
           fi
-          echo "Deploy Netlify selesai."
+          DEPLOY_ID=$(echo "$BODY" | python3 -c "import sys,json; print(json.load(sys.stdin).get('id',''))" 2>/dev/null)
+          DEPLOY_URL=$(echo "$BODY" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('ssl_url') or d.get('url','?'))" 2>/dev/null)
+          echo "Deploy ID   : $DEPLOY_ID"
+          echo "Deploy URL  : $DEPLOY_URL"
+          # Polling status deploy sampai ready (max 3 menit)
+          echo "Menunggu deploy selesai diproses Netlify..."
+          for i in $(seq 1 18); do
+            sleep 10
+            STATE=$(curl -s \
+              -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+              "https://api.netlify.com/api/v1/deploys/$DEPLOY_ID" | \
+              python3 -c "import sys,json; print(json.load(sys.stdin).get('state','unknown'))" 2>/dev/null)
+            echo "  [${i}/18] State: $STATE"
+            if [ "$STATE" = "ready" ]; then
+              echo "Deploy BERHASIL dan aktif di: $DEPLOY_URL"
+              exit 0
+            fi
+            if [ "$STATE" = "error" ]; then
+              echo "Deploy GAGAL — state: error"
+              exit 1
+            fi
+          done
+          echo "Timeout: deploy belum ready setelah 3 menit, cek Netlify dashboard."
+          exit 1
