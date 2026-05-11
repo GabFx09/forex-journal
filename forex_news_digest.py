@@ -41,11 +41,7 @@ from typing import Optional
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from dotenv import load_dotenv
 import os
-try:
-    from deep_translator import GoogleTranslator as _GTranslator
-    _TRANSLATE_OK = True
-except ImportError:
-    _TRANSLATE_OK = False
+import urllib.parse as _urlparse
 
 # Gunakan path absolut agar .env ditemukan saat dipanggil Task Scheduler
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -77,21 +73,21 @@ log = logging.getLogger(__name__)
 
 
 def _translate_id(texts: list[str]) -> list[str]:
-    """Terjemahkan list judul berita dari Inggris ke Indonesia."""
-    if not _TRANSLATE_OK or not texts:
+    """Terjemahkan list judul dari Inggris ke Indonesia via Google Translate (tanpa package tambahan)."""
+    if not texts:
         return texts
     results: list[str] = []
-    try:
-        translator = _GTranslator(source="en", target="id")
-        for text in texts:
-            try:
-                out = translator.translate(text)
-                results.append(out if out else text)
-            except Exception:
-                results.append(text)
-    except Exception as e:
-        log.warning(f"[Translate] Gagal inisialisasi: {e}")
-        return texts
+    for text in texts:
+        try:
+            q   = _urlparse.quote(text)
+            url = (f"https://translate.googleapis.com/translate_a/single"
+                   f"?client=gtx&sl=en&tl=id&dt=t&q={q}")
+            r   = requests.get(url, timeout=5)
+            data = r.json()
+            translated = "".join(seg[0] for seg in (data[0] or []) if seg and seg[0])
+            results.append(translated if translated else text)
+        except Exception:
+            results.append(text)
     return results
 
 
@@ -1987,6 +1983,13 @@ def run_job() -> None:
     if not items and not calendar_events:
         log.warning("Tidak ada berita maupun data kalender yang berhasil dikumpulkan.")
         return
+    # Terjemahkan semua judul sentimen ke Bahasa Indonesia
+    if items:
+        log.info(f"Menerjemahkan {len(items)} judul berita ke Bahasa Indonesia...")
+        translated = _translate_id([i.title for i in items])
+        for idx, item in enumerate(items):
+            item.title = translated[idx]
+        log.info("Terjemahan selesai.")
     fj_items = fetch_fj_rss()
     save_news_data(items, calendar_events, fj_items)
     send_all_emails(items, calendar_events)
