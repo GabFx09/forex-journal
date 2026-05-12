@@ -47,7 +47,9 @@
       "WebFetch(domain:apify.com)",
       "WebFetch(domain:corsproxy.io)",
       "WebFetch(domain:api.allorigins.win)",
-      "PowerShell(Select-String *)"
+      "PowerShell(Select-String *)",
+      "PowerShell(winget install *)",
+      "PowerShell(gh auth *)"
     ]
   }
 }

@@ -1,10 +1,7 @@
 name: Forex News Digest Harian
 
 on:
-  schedule:
-    - cron: '0 0 * * *'   # 07:00 WIB
-    - cron: '0 15 * * *'  # 22:00 WIB
-  workflow_dispatch:
+  workflow_dispatch:  # triggered by cron-job.org (07:00 & 22:00 WIB)
 
 permissions:
   contents: write
