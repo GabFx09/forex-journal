@@ -905,13 +905,14 @@ def fetch_forexfactory_calendar() -> list[EconomicEvent]:
                     " ".join(impact_el.get("class", [])) + " " +
                     impact_el.get("title", "")
                 ).lower()
-                if "high" in combined or "--red" in combined:
+                # FF class format: icon--ff-impact-red/ora/yel/gra (tanpa title attribute)
+                if "impact-red" in combined or "high" in combined:
                     impact = "high"
-                elif "medium" in combined or "--orange" in combined:
+                elif "impact-ora" in combined or "impact-orange" in combined or "medium" in combined:
                     impact = "medium"
-                elif "low" in combined or "--yellow" in combined:
+                elif "impact-yel" in combined or "impact-yellow" in combined or "low" in combined:
                     impact = "low"
-                elif "holiday" in combined or "--gray" in combined:
+                elif "impact-gra" in combined or "impact-gray" in combined or "holiday" in combined:
                     impact = "holiday"
 
             events.append(EconomicEvent(
