@@ -1,5 +1,5 @@
 {
-  "generated": "12 May 2026 08:48 WIB",
+  "generated": "12 May 2026 08:53 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,38 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.344,
-      "count": 32
+      "score": -0.342,
+      "count": 35
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.421,
-      "count": 29
+      "score": -0.413,
+      "count": 32
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.34,
-      "count": 20
+      "score": -0.335,
+      "count": 22
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.33,
-      "count": 19
+      "score": -0.335,
+      "count": 20
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.233,
-      "count": 6
+      "score": -0.104,
+      "count": 4
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.233,
-      "count": 6
+      "score": -0.104,
+      "count": 4
     },
     {
       "pair": "AUD/USD",
@@ -106,7 +106,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "ICYMI - JPMorgan memperingatkan harga minyak sebesar $150 dan inflasi 4% seiring semakin parahnya krisis energi",
+      "title": "ICYMI - JPMorgan memperingatkan harga minyak sebesar $150 dan inflasi 4% seiring semakin mendalamnya krisis energi",
       "url": "https://investinglive.com/commodities/icymi-jpmorgan-warns-of-150-oil-and-4-inflation-as-energy-crisis-deepens-20260511/",
       "summary": "JPMorgan warns global oil supply disruptions of 13.7 million bpd in April could push Brent to $150 and lift US inflation to 4%, with the Fed on hold well into 2027. Summary: Global oil supply disruptions reached 13.7 million barrels per day in April, equal to roughly 14% of total world demand, with ",
       "published": "12 May 2026 05:02 WIB",
@@ -133,6 +133,26 @@
       "sentiment": "Bullish",
       "score": 0.238,
       "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga AUD/USD: Incar support EMA sembilan hari di dekat 0,7200",
+      "url": "https://www.fxstreet.com/news/aud-usd-price-forecast-eyes-nine-day-ema-support-near-07200-202605120115",
+      "summary": "AUD/USD loses ground after two days of gains, trading around 0.7240 during the Asian hours on Monday. The technical analysis of the daily chart indicates that the pair is moving upwards within the ascending channel, suggesting an ongoing bullish bias.",
+      "published": "12 May 2026 08:15 WIB",
+      "sentiment": "Bullish",
+      "score": 0.34,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Presiden AS Donald Trump secara serius mempertimbangkan untuk melanjutkan operasi tempur setelah berminggu-minggu menahan diri – CNN",
+      "url": "https://www.fxstreet.com/news/us-president-donald-trump-seriously-weighs-resuming-combat-operations-after-weeks-of-restraint-cnn-202605120111",
+      "summary": "US President Donald Trump has grown increasingly frustrated with how the Iranians are handling talks to end the conflict, and some Trump aides say that he is now more seriously considering a resumption of major combat operations than he has in recent weeks, CNN reported on Monday.",
+      "published": "12 May 2026 08:11 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
@@ -185,26 +205,6 @@
       "emoji": "🔴"
     },
     {
-      "source": "FXStreet News",
-      "title": "Emas naik karena Trump menolak kesepakatan Iran, risiko perang meningkat",
-      "url": "https://www.fxstreet.com/news/gold-rises-as-trump-rejects-iran-deal-war-risks-increase-202605111957",
-      "summary": "Gold (XAU/USD) price advances modestly by 0.30% on Monday as the Iran-US conflict resolution stalls following Tehran’s proposal, which was disregarded by US President Donald Trump, who said that it was “totally unacceptable.” At the time of writing, XAU/USD trades at $4,726 after bouncing off daily",
-      "published": "12 May 2026 02:57 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga USD/CAD: RSI Netral dan ADX yang lemah menandakan kurangnya momentum",
-      "url": "https://www.fxstreet.com/news/usd-cad-price-forecast-neutral-rsi-and-soft-adx-signal-lack-of-strong-directional-momentum-202605111856",
-      "summary": "USD/CAD fluctuates between minor gains and losses on Monday as the pair faces opposing pressure from a steady US Dollar (USD) and elevated Oil prices. At the time of writing, USD/CAD is trading nearly flat around 1.3672.",
-      "published": "12 May 2026 01:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.361,
-      "emoji": "🔴"
-    },
-    {
       "source": "Investing.com Forex",
       "title": "Ahli waris di Asia-Pasifik beralih ke ahli kekayaan profesional untuk mendapatkan nasihat suksesi, kata UBS",
       "url": "https://www.investing.com/news/stock-market-news/asiapacifics-heirs-turn-to-wealth-professionals-for-succession-advice-ubs-says-4678893",
@@ -216,6 +216,26 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Minyak Menguat karena Kebuntuan Iran, Saham Turun Bersama Obligasi: Pasar Membungkus",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/asia-stocks-to-gain-oil-rises-on-us-iran-deadlock-markets-wrap",
+      "summary": "Oil rose and stocks fell with bonds after President Donald Trump cast doubts over the ceasefire with Iran, prolonging the closure of the Strait of Hormuz.",
+      "published": "12 May 2026 05:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.351,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Emas Stabil seiring Kenaikan Saham Melawan Hormuz dan Kekhawatiran Inflasi",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/gold-steady-as-traders-track-hormuz-stalemate-inflation-risks",
+      "summary": "Gold was little changed, shrugging off the deadlock in the Middle East conflict, as stock markets rose and investors added back positions.",
+      "published": "12 May 2026 05:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.441,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Minyak Memperluas Kenaikan seiring Trump Meragukan Gencatan Senjata dengan Iran",
       "url": "https://www.bloomberg.com/news/articles/2026-05-11/latest-oil-market-news-and-analysis-for-may-12",
       "summary": "Oil pushed higher as US President Donald Trump cast doubt over the ceasefire with Iran after rejecting Tehran’s latest peace offer, prolonging the effective closure of the vital Strait of Hormuz.",
@@ -223,16 +243,6 @@
       "sentiment": "Bullish",
       "score": 0.851,
       "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Minyak Menguat karena Kebuntuan Iran, Departemen Keuangan Menahan Kerugian: Pasar Membungkus",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/asia-stocks-to-gain-oil-rises-on-us-iran-deadlock-markets-wrap",
-      "summary": "Crude oil gained and bonds dropped after President Donald Trump cast doubts over the ceasefire with Iran, prolonging the closure of the Strait of Hormuz and keeping energy prices elevated.",
-      "published": "12 May 2026 05:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.379,
-      "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
@@ -256,7 +266,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Petrobras Meleset dari Estimasi Laba Meskipun Minyak Meningkat karena Perang",
+      "title": "Petrobras Meleset dari Estimasi Laba Meskipun Minyak Meningkat akibat Perang",
       "url": "https://www.bloomberg.com/news/articles/2026-05-11/petrobras-misses-profit-estimates-despite-war-driven-oil-rally",
       "summary": "Brazil’s state-controlled oil company Petrobras fell short of earnings estimates as it held domestic gasoline prices stable during the war-driven price surge.",
       "published": "12 May 2026 06:32 WIB",
@@ -272,16 +282,6 @@
       "published": "12 May 2026 05:06 WIB",
       "sentiment": "Bearish",
       "score": -0.353,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Emas Stabil seiring Pedagang Melacak Kebuntuan Hormuz dan Risiko Inflasi",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/gold-steady-as-traders-track-hormuz-stalemate-inflation-risks",
-      "summary": "Gold was steady as traders assessed the deadlock in the Strait of Hormuz that has sent oil prices higher and added further fuel to inflation concerns.",
-      "published": "12 May 2026 05:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.622,
       "emoji": "🔴"
     },
     {
@@ -415,6 +415,16 @@
       "emoji": "🔴"
     },
     {
+      "source": "Al Jazeera",
+      "title": "Senator Filipina melarikan diri dari penangkapan ICC karena perannya dalam perang narkoba Duterte",
+      "url": "https://www.aljazeera.com/news/2026/5/11/philippine-senator-flees-icc-arrest-over-role-in-dutertes-drug-war?traffic_source=rss",
+      "summary": "Senator Ronald Dela Rosa has evaded a drug war warrant against him.",
+      "published": "12 May 2026 01:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.898,
+      "emoji": "🔴"
+    },
+    {
       "source": "MarketWatch",
       "title": "Grafik harga minyak menghasilkan pola yang tidak terlihat dalam 36 tahun. Apa yang terjadi terakhir kali?",
       "url": "https://www.marketwatch.com/story/oil-price-charts-produced-a-pattern-not-seen-in-36-years-what-happened-last-time-763cdc40?mod=mw_rss_topstories",
@@ -466,7 +476,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Harga minyak melanjutkan kenaikannya karena komentar Trump mengurangi harapan akan kesepakatan perdamaian AS-Iran",
+      "title": "Harga minyak melanjutkan kenaikannya karena komentar Trump menghilangkan harapan akan kesepakatan perdamaian AS-Iran",
       "url": "https://www.cnbc.com/2026/05/12/oil-prices-today-brent-wti-trump-iran-war-hormuz.html",
       "summary": "Oil prices rose Tuesday amid concerns over a prolonged Middle East conflict after President Trump's comments that the ceasefire with Iran is on \"life support\"",
       "published": "12 May 2026 07:25 WIB",
