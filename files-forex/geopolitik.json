@@ -1,5 +1,5 @@
 {
-  "generated": "13 May 2026 07:38 WIB",
+  "generated": "13 May 2026 10:34 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,93 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.442,
-      "count": 27
+      "score": -0.306,
+      "count": 25
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.458,
-      "count": 25
+      "score": -0.348,
+      "count": 22
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.575,
+      "score": -0.331,
       "count": 17
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.132,
-      "count": 13
+      "score": -0.165,
+      "count": 12
     },
     {
       "pair": "AUD/USD",
-      "direction": "Netral →",
-      "score": -0.046,
+      "direction": "Tekanan Turun ▼",
+      "score": -0.081,
       "count": 4
     },
     {
       "pair": "USD/CNY",
-      "direction": "Netral →",
-      "score": -0.046,
+      "direction": "Tekanan Turun ▼",
+      "score": -0.081,
       "count": 4
     },
     {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.361,
+      "pair": "EUR",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.078,
       "count": 3
     },
     {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.361,
+      "pair": "GBP",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.078,
       "count": 3
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Iran membangun kembali akses ke 30 dari 33 situs rudal Hormuz, menurut penilaian AS",
+      "url": "https://investinglive.com/commodities/iran-rebuilds-access-to-30-of-33-hormuz-missile-sites-us-assessments-show-20260513/",
+      "summary": "Iran has restored operational access to 30 of its 33 Hormuz missile sites and retains 70% of its prewar missile stockpile, posing a continued threat to warships and oil tankers, US assessments show. Summary: US assessments reviewed by people with knowledge of the findings show Iran has restored oper",
+      "published": "13 May 2026 09:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.186,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Morgan Stanley menggambarkan empat skenario guncangan harga minyak, mulai dari kenaikan suku bunga The Fed hingga resesi global",
+      "url": "https://investinglive.com/commodities/morgan-stanley-maps-four-oil-shock-scenarios-from-fed-hikes-to-global-recession-20260513/",
+      "summary": "Morgan Stanley's base case is gradual Iran de-escalation and a patient Fed, but four alternate scenarios range from a 100bp rate hike to global recession triggered by $140-160 oil. Summary: Morgan Stanley's base case assumes gradual de-escalation of the Iran conflict, a short-lived headline inflatio",
+      "published": "13 May 2026 08:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.582,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "PM Selandia Baru Luxon menjanjikan tanggung jawab fiskal...seperti yang Anda lakukan",
+      "url": "https://investinglive.com/news/nz-pm-luxon-promises-fiscal-responsibility-as-you-do-20260513/",
+      "summary": "New Zealand PM Luxon: Government committed to putting debt on a downward path towards 40% of GDP, returning to Obegalx surplus by FY 2028/29 Net operating spending on new initiatives will total NZ$2.1 bln, about NZ$300 mln less than set in December Global uncertainties reinforced importance of respo",
+      "published": "13 May 2026 08:09 WIB",
+      "sentiment": "Bullish",
+      "score": 0.477,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI - Iran memperketat cengkeraman Hormuz ketika Irak dan Pakistan mencapai kesepakatan transit bilateral",
+      "url": "https://investinglive.com/commodities/icymi-iran-tightens-hormuz-grip-as-iraq-and-pakistan-strike-bilateral-transit-deals-20260513/",
+      "summary": "Iraq and Pakistan have struck separate deals with Iran for oil and LNG passage through the Strait of Hormuz, as Tehran formalises control of the waterway with vessel traffic at 5% of pre-war levels. Reuters carried the report. Summary: Iraq secured Iranian approval for two very large crude carriers,",
+      "published": "13 May 2026 07:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.172,
+      "emoji": "🔴"
+    },
     {
       "source": "ForexLive",
       "title": "Inflasi AS yang tinggi menimbulkan kekhawatiran akan kenaikan suku bunga The Fed seiring dengan menyebarnya biaya energi",
@@ -65,33 +105,43 @@
       "emoji": "🟢"
     },
     {
-      "source": "ForexLive",
-      "title": "India menaikkan tarif impor emas dan perak lebih dari dua kali lipat menjadi 15%, sebagai upaya untuk menopang rupee",
-      "url": "https://investinglive.com/centralbank/india-more-than-doubles-gold-and-silver-import-tariffs-to-15-effort-to-prop-up-the-rupee-20260512/",
-      "summary": "India has more than doubled import duties on gold and silver to 15%, aiming to narrow its trade deficit and support the rupee, but industry officials warn the move risks reviving smuggling networks. Summary: India raised import tariffs on gold and silver to 15% from 6%, comprising a 10% basic custom",
-      "published": "13 May 2026 04:40 WIB",
+      "source": "FXStreet News",
+      "title": "India menaikkan tarif impor Emas dan Perak menjadi 15% - Reuters",
+      "url": "https://www.fxstreet.com/news/india-raises-import-tariffs-on-gold-and-silver-to-15-reuters-202605130256",
+      "summary": "The Indian government has raised import tariffs on gold and silver to 15% from 6%, in an attempt to discourage the purchase of precious metals due to ease pressure on the nation’s foreign exchange reserves, Reuters reports.",
+      "published": "13 May 2026 09:56 WIB",
+      "sentiment": "Bullish",
+      "score": 0.296,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Luxon dari Selandia Baru mengatakan akan memangkas belanja baru, tetap pada jalur surplus di tengah ketidakpastian",
+      "url": "https://www.fxstreet.com/news/new-zealands-luxon-says-will-trim-new-spending-stick-to-surplus-path-amid-uncertainty-202605130123",
+      "summary": "New Zealand's Prime Minister Christopher Luxon said that global uncertainties from the Middle East conflict reinforced the need for responsible economic management and fiscal discipline, Reuters reported on Wednesday.",
+      "published": "13 May 2026 08:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.973,
+      "score": -0.666,
       "emoji": "🔴"
     },
     {
-      "source": "ForexLive",
-      "title": "Minyak - survei persediaan swasta menunjukkan penurunan minyak mentah kurang dari yang diharapkan",
-      "url": "https://investinglive.com/commodities/oil-private-survey-of-inventory-shows-a-headline-crude-oil-draw-just-less-than-expected-20260512/",
-      "summary": "Via telegram sources: Crude prices advanced steadily through Tuesday's session as tensions between the United States and Iran showed little sign of easing, though the market's attention is already shifting toward Trump's planned visit to China on Wednesday. Middle East developments continued to gene",
-      "published": "13 May 2026 03:46 WIB",
+      "source": "FXStreet News",
+      "title": "Dolar Kanada datar di dekat 1,3700 di tengah panasnya inflasi IHK AS dan ketegangan AS-Iran",
+      "url": "https://www.fxstreet.com/news/canadian-dollar-flat-lines-near-13700-amid-hot-us-cpi-inflation-us-iran-tensions-202605130116",
+      "summary": "The USD/CAD pair trades on a flat note near 1.3695 during the early Asian trading hours on Wednesday. Traders continue to assess hot US inflation data and ongoing tensions in the Middle East. The US April Producer Price Index (PPI) report will take center stage later on Wednesday.",
+      "published": "13 May 2026 08:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.917,
+      "score": -0.74,
       "emoji": "🔴"
     },
     {
-      "source": "ForexLive",
-      "title": "Trump News: Tidak membutuhkan bantuan Xi terhadap Iran",
-      "url": "https://investinglive.com/news/trump-news-does-not-need-xi-help-on-iran-20260512/",
-      "summary": "Pres. Trump speaking to reporters before heading off to China, is saying: Will have long talk with he about the Iran war. Don't think you need Xi's help on Iran The blockade has been 100% successful You are going to have s gusher of oil If you look back 3-4 months ago, you would think oil would be m",
-      "published": "13 May 2026 00:57 WIB",
+      "source": "FXStreet News",
+      "title": "Presiden AS Donald Trump mengatakan perdagangan akan menjadi prioritas dalam pertemuan puncak dengan Xi, bukan Iran",
+      "url": "https://www.fxstreet.com/news/us-president-donald-trump-says-trade-will-be-priority-in-summit-with-xi-not-iran-202605130043",
+      "summary": "US President Donald Trump said that he would prioritize trade discussions during his summit with Chinese President Xi Jinping and downplayed the amount of attention they would devote to the Iran war, Bloomberg reported on Tuesday.",
+      "published": "13 May 2026 07:43 WIB",
       "sentiment": "Bearish",
-      "score": -0.549,
+      "score": -0.441,
       "emoji": "🔴"
     },
     {
@@ -105,93 +155,63 @@
       "emoji": "🟢"
     },
     {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga USD/JPY: Pembeli bergerak saat pasangan ini memantul menuju 158,00",
-      "url": "https://www.fxstreet.com/news/usd-jpy-price-forecast-bulls-move-in-as-pair-bounces-toward-15800-202605122231",
-      "summary": "USD/JPY recovers some ground and rallies towards a daily four-day high near 157.80 as traders digest comments from US Treasury Secretary Scott Bessent on undesirable volatility in the FX space, prompting a Yen buy. At the time of writing, the pair is up by over 0.30%.",
-      "published": "13 May 2026 05:31 WIB",
+      "source": "Bloomberg Markets",
+      "title": "MSCI Memotong Saham-Saham yang Terkait dengan Indeks Terkaya di Indonesia",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/msci-removes-stocks-linked-to-indonesia-s-richest-from-indexes",
+      "summary": "MSCI Inc. removed some Indonesian stocks linked to the country’s richest billionaires from its indexes, following through on a warning last month that it will exclude companies with concentrated ownership. The shares fell.",
+      "published": "13 May 2026 04:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.462,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Tembaga Naik Menuju Rekor Tertinggi seiring Meningkatnya Pasokan Global",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/copper-climbs-toward-record-high-as-global-supply-tightens",
+      "summary": "Copper extended gains above $14,000 a ton, inching toward a record high seen earlier this year, as supply risks mount on mine disruptions around the world.",
+      "published": "13 May 2026 10:08 WIB",
       "sentiment": "Bearish",
       "score": -0.353,
       "emoji": "🔴"
     },
     {
-      "source": "FXStreet News",
-      "title": "Ringgit Malaysia: Kisarannya bertahan karena Malaysia unggul – Commerzbank",
-      "url": "https://www.fxstreet.com/news/malaysian-ringgit-range-holds-as-malaysia-outperforms-commerzbank-202605122139",
-      "summary": "Commerzbank strategists note that USD/MYR has remained in a 3.90–4.05 range since the Middle East conflict began. Malaysia’s March industrial production grew 3.1% year-on-year, supported by strong manufacturing and electronics despite weaker mining.",
-      "published": "13 May 2026 04:39 WIB",
-      "sentiment": "Bullish",
-      "score": 0.611,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Eropa: Ekspor ke AS Anjlok dan Risiko Tarif – Standard Chartered",
-      "url": "https://www.fxstreet.com/news/europe-export-to-us-slump-and-tariff-risks-standard-chartered-202605122051",
-      "summary": "Standard Chartered’s Christopher Graham notes that European Union (EU) exports to the United States (US) are now contracting at rates comparable to COVID and GFC (Great Financial Crisis) periods, potentially reflecting both prior export frontloading and emerging structural weakness.",
-      "published": "13 May 2026 03:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.513,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Forex Hari Ini: IHK AS yang panas meningkatkan Dolar AS karena imbal hasil Treasury naik",
-      "url": "https://www.fxstreet.com/news/forex-today-hot-us-cpi-boosts-us-dollar-as-treasury-yields-climb-202605121946",
-      "summary": "The US Dollar Index (DXY) rallied toward the 98.30 region on Tuesday as hotter-than-expected United States (US) inflation data boosted Treasury yields and reinforced expectations that the Federal Reserve (Fed) may keep interest rates elevated for longer.",
-      "published": "13 May 2026 02:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.792,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Fed: Sikap Netral Saat Inflasi Stabil – TD Securities",
-      "url": "https://www.fxstreet.com/news/fed-neutral-stance-as-inflation-stabilizes-td-securities-202605121940",
-      "summary": "TD Securities economists judge that April Consumer Price Index (CPI) strength was driven by shelter and energy, but see core Personal Consumption Expenditures (PCE) Price Index running softer than CPI. They argue tariff pass-through is fading and supercore PCE should ease.",
-      "published": "13 May 2026 02:40 WIB",
-      "sentiment": "Bullish",
-      "score": 0.612,
-      "emoji": "🟢"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Minyak Stabil Setelah Kenaikan Tiga Hari Karena Aliran Iran Tertekan",
+      "title": "Minyak Turun Setelah Kenaikan Tiga Hari Dengan Kebuntuan Pembicaraan Damai Iran",
       "url": "https://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13",
-      "summary": "Oil steadied after rising almost 8% over the past three sessions as a resolution to the Middle East conflict remains elusive, with Iranian exports showing further strain from a US Naval blockade of the Strait of Hormuz.",
+      "summary": "Oil slipped after rising almost 8% over the past three sessions as a resolution to the Middle East conflict remains elusive, with Iranian exports showing further strain from a US Naval blockade of the Strait of Hormuz.",
       "published": "13 May 2026 05:03 WIB",
       "sentiment": "Bullish",
-      "score": 0.178,
+      "score": 0.66,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Trump Menghadapi Xi yang Berani di Tiongkok",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-13/trump-faces-emboldened-xi-in-china-video",
-      "summary": "Donald Trump is expecting economic deals and a “wild” welcome this week in China. He’ll arrive facing an emboldened Xi Jinping, just as his own hand is constrained by the conflict in Iran. Bloomberg's Stephen Engle breaks down what is at stake. (Source: Bloomberg)",
-      "published": "13 May 2026 07:30 WIB",
+      "title": "Eve Energy Tiongkok Menandatangani Kesepakatan Baterai dengan Godawari dari India",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/china-s-eve-energy-signs-battery-deal-with-india-s-godawari",
+      "summary": "China’s Eve Energy Co. agreed to supply India’s Godawari New Energy Private Ltd. with large-scale batteries, as a rapid renewable power expansion drives demand for energy storage in the South Asian nation.",
+      "published": "13 May 2026 09:47 WIB",
       "sentiment": "Bullish",
-      "score": 0.542,
+      "score": 0.871,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Asia Mengikuti Penurunan Wall Street karena IHK AS: Penutupan Pasar",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/asian-stocks-under-pressure-as-us-inflation-rises-markets-wrap",
-      "summary": "Asian stocks dropped following losses on Wall Street as US inflation quickened, showing the impact of higher oil prices since the war in Iran started.",
-      "published": "13 May 2026 05:08 WIB",
+      "title": "India Lebih dari Dua Kali Lipat Tarif Emas dan Perak untuk Mempertahankan Rupee",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/india-hikes-gold-and-silver-import-tariffs-to-protect-economy",
+      "summary": "India has raised import tariffs on gold and silver in an attempt to defend its currency, a surprise move as the country races to limit the damage from the Middle East war and to shore up foreign-exchange reserves.",
+      "published": "13 May 2026 08:47 WIB",
       "sentiment": "Bearish",
-      "score": -0.992,
+      "score": -0.798,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pandangan Makro “Jauh Lebih Tidak Pasti”, Kata Aus. Bendahara",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-12/macro-outlook-much-more-uncertain-says-aus-treasurer-video",
-      "summary": "The macroeconomic outlook is “much more uncertain” with oil prices expected to remain elevated for some time yet and a slowdown in global growth, says Australian Treasurer Jim Chalmers in budget speech. (Source: Bloomberg)",
-      "published": "13 May 2026 06:05 WIB",
+      "title": "Imbal Hasil Obligasi Patokan Korea Mencapai 4% seiring Meningkatnya Taruhan Kenaikan Suku Bunga",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/korea-benchmark-bond-yield-tops-4-as-rate-hike-bets-grow",
+      "summary": "South Korea’s 10-year bond yield rose above 4% for the first time since late 2023, as an oil shock tied to the Iran conflict leads traders to expect bigger interest rate hikes.",
+      "published": "12 May 2026 16:51 WIB",
       "sentiment": "Bullish",
-      "score": 0.637,
+      "score": 0.34,
       "emoji": "🟢"
     },
     {
@@ -202,16 +222,6 @@
       "published": "12 May 2026 12:03 WIB",
       "sentiment": "Bearish",
       "score": -0.932,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Dolar Selandia Baru mengecewakan karena ketegangan AS-Iran mengangkat USD menjelang IHK AS - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNckZXdW5IdU51OUNxNmxaekdCS1YyelRnbGlWNkY3dmZRekN3T3JqdFJ2VTNNWTJIR2paSVZtajBDZFZFb0NJWmE5T3RJaGZsRHNPZkhfWVY5N3RUQnlOUFFQeTdyeWhWdEFtUHpsMzJQZmlmNGhqX3FPa2pfOFhIVDNxanRBM2c2XzNuUE94cHpXTnBRaldqdnI5QU0ydkFOOG8yWjN6ZUNUWTlRbjdjSW0yUnpiam9fS2U1RU93bnNaQmdJWFJLN0tsN3M?oc=5",
-      "summary": "New Zealand dollar slips as US-Iran tensions lift USD ahead of US CPI FXStreet",
-      "published": "12 May 2026 08:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.482,
       "emoji": "🔴"
     },
     {
@@ -226,32 +236,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Trump mengatakan gencatan senjata Iran didasarkan pada 'dukungan kehidupan yang besar'",
-      "url": "https://www.bbc.com/news/articles/cvgznxn18zgo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president criticises an Iranian counteroffer to end the war, and says the month-long ceasefire is \"unbelievably weak\".",
-      "published": "12 May 2026 07:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.851,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
       "title": "Lebanon mengatakan dua paramedis di antara 13 orang yang tewas dalam serangan Israel",
       "url": "https://www.bbc.com/news/articles/cx21j3xl72zo?at_medium=RSS&at_campaign=rss",
       "summary": "Lebanon's health ministry says the paramedics were carrying out a rescue mission in Nabatieh in response to an earlier attack that killed one person.",
       "published": "13 May 2026 03:00 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Inflasi AS melonjak menjadi 3,8% karena melonjaknya biaya energi akibat perang Iran",
-      "url": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
-      "summary": "The key measure of US inflation rises its highest level since May 2023 as consumers feel the impact of the Iran war.",
-      "published": "13 May 2026 01:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.772,
       "emoji": "🔴"
     },
     {
@@ -275,6 +265,26 @@
       "emoji": "🟢"
     },
     {
+      "source": "BBC Business",
+      "title": "Inflasi AS melonjak menjadi 3,8% karena melonjaknya biaya energi akibat perang Iran",
+      "url": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
+      "summary": "The key measure of US inflation rises its highest level since May 2023 as consumers feel the impact of the Iran war.",
+      "published": "13 May 2026 01:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.772,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Direktur FBI Kash Patel membalas tuduhan minuman keras",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/13/aje-onl-nf_clip_fbi-director-patel-fires-back-at-allegations-120526?traffic_source=rss",
+      "summary": "FBI Director Kash Patel and Senator Chris Van Hollen had a heated exchange during a Senate budget hearing.",
+      "published": "13 May 2026 08:46 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
       "source": "Al Jazeera",
       "title": "Perang Iran sedang berlangsung: Trump melakukan perjalanan ke Tiongkok saat konflik dengan Teheran semakin besar",
       "url": "https://www.aljazeera.com/news/liveblog/2026/5/13/iran-war-live-trump-travels-to-china-as-conflict-with-tehran-looms-large?traffic_source=rss",
@@ -286,12 +296,12 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump meremehkan perbedaan AS-Iran saat ia menuju ke Beijing untuk bertemu dengan Xi",
+      "title": "Trump mengatakan dia tidak memerlukan bantuan Xi dalam perang Iran saat dia menuju ke Tiongkok",
       "url": "https://www.aljazeera.com/news/2026/5/12/trump-downplays-us-iran-differences-as-he-heads-to-beijing-to-meet-with-xi?traffic_source=rss",
-      "summary": "Trump gives conflicting messages on prominence of Iran war in upcoming talks, with his administration emphasising trade.",
+      "summary": "Trump gives conflicting messages on prominence of Iran war in upcoming talks with China's Xi, emphasising trade.",
       "published": "13 May 2026 04:02 WIB",
       "sentiment": "Bearish",
-      "score": -0.925,
+      "score": -0.992,
       "emoji": "🔴"
     },
     {
@@ -335,26 +345,6 @@
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Ukraina menyerang fasilitas gas Rusia yang jauh setelah serangan Moskow menewaskan 6 orang",
-      "url": "https://www.aljazeera.com/news/2026/5/12/russia-ukraine-latest?traffic_source=rss",
-      "summary": "The attack comes in retaliation for the Russian attacks that killed at least six in Ukraine, according to the president.",
-      "published": "13 May 2026 02:36 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Macron mengumumkan investasi sebesar $27 miliar di Afrika, dan mendesak agar Eropa kembali bekerja sama",
-      "url": "https://www.aljazeera.com/video/2026/5/12/macron-unveils-27-billion-africa-investment-urges-reset-with-europe?traffic_source=rss",
-      "summary": "French President Emmanuel Macron, in Kenya for the Africa Forward summit, called for a ‘fundamental reset’ in Africa.",
-      "published": "13 May 2026 02:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
       "source": "MarketWatch",
       "title": "Pakaian baru saja mengalami lonjakan harga terbesar dalam tiga tahun. Berapa banyak lagi yang harus dibayar pembeli?",
       "url": "https://www.marketwatch.com/story/clothes-just-saw-the-biggest-price-jump-in-three-years-how-much-more-will-shoppers-pay-4aba43d7?mod=mw_rss_topstories",
@@ -376,12 +366,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Pasar Asia dibuka lebih rendah karena investor mengamati pertemuan Trump-Xi dan ketegangan Iran",
+      "title": "Pasar Asia beragam karena investor mengamati pertemuan Trump-Xi dan ketegangan Iran",
       "url": "https://www.cnbc.com/2026/05/13/asia-markets-today-live-updates-nikkei-kospi-csi-300-hang-seng-trump-iran.html",
-      "summary": "Asian markets open broadly lower Wednesday as investors grappled with hotter-than-expected inflation, U.S.-Iran tensions and U.S.-China trade talks.",
-      "published": "13 May 2026 07:17 WIB",
+      "summary": "Asian markets mixed on Wednesday as investors grappled with hotter-than-expected inflation, U.S.-Iran tensions and U.S.-China trade talks.",
+      "published": "13 May 2026 08:42 WIB",
       "sentiment": "Bearish",
-      "score": -0.912,
+      "score": -0.74,
       "emoji": "🔴"
     },
     {
@@ -412,26 +402,6 @@
       "published": "13 May 2026 01:10 WIB",
       "sentiment": "Bearish",
       "score": -0.729,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Inflasi India pada bulan April meningkat selama enam bulan berturut-turut, namun di bawah perkiraan",
-      "url": "https://www.cnbc.com/2026/05/12/india-april-inflation-rises-fuel-prices-rbi-growth-outlook.html",
-      "summary": "Disruptions from the Middle East conflict pose a risk to India's economic growth and inflation.",
-      "published": "12 May 2026 21:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.673,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Saham Eropa ditutup lebih rendah, sterling merosot karena gejolak politik Inggris",
-      "url": "https://www.cnbc.com/2026/05/12/europe-markets-stoxx-600-ftse-dax-cac-iran-news-oil-prices.html",
-      "summary": "European stocks were in negative territory as prospects for a speedy resolution to the U.S.-Iran war appear increasingly remote.",
-      "published": "12 May 2026 22:45 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
       "emoji": "🔴"
     }
   ]

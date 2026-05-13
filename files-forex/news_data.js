@@ -1,13 +1,13 @@
-// Diperbarui: 13 May 2026 07:38 WIB
+// Diperbarui: 13 May 2026 10:34 WIB
 window.FK_DATA = {
-  "generated": "13 May 2026 07:38 WIB",
+  "generated": "13 May 2026 10:34 WIB",
   "kalender": {
-    "generated": "13 May 2026 07:38 WIB",
+    "generated": "13 May 2026 10:34 WIB",
     "events": [
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "08:30",
+        "time_wib": "07:30",
         "currency": "CNY",
         "impact": "medium",
         "event": "CPI y/y",
@@ -29,7 +29,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "20:45",
+        "time_wib": "19:45",
         "currency": "USD",
         "impact": "low",
         "event": "Cleveland Fed Inflation Expectations",
@@ -40,7 +40,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "21:00",
+        "time_wib": "20:00",
         "currency": "USD",
         "impact": "low",
         "event": "Existing Home Sales",
@@ -51,7 +51,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "06:01",
+        "time_wib": "05:01",
         "currency": "GBP",
         "impact": "low",
         "event": "BRC Retail Sales Monitor y/y",
@@ -62,7 +62,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "06:30",
+        "time_wib": "05:30",
         "currency": "JPY",
         "impact": "low",
         "event": "Household Spending y/y",
@@ -73,7 +73,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "BOJ Summary of Opinions",
@@ -84,7 +84,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "08:30",
+        "time_wib": "07:30",
         "currency": "AUD",
         "impact": "low",
         "event": "NAB Business Confidence",
@@ -95,7 +95,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "10:35",
+        "time_wib": "09:35",
         "currency": "JPY",
         "impact": "low",
         "event": "10-y Bond Auction",
@@ -106,7 +106,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "12:00",
+        "time_wib": "11:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Leading Indicators",
@@ -117,7 +117,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German Final CPI m/m",
@@ -128,7 +128,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "13:30",
+        "time_wib": "12:30",
         "currency": "CHF",
         "impact": "low",
         "event": "PPI m/m",
@@ -139,7 +139,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "14:15",
+        "time_wib": "13:15",
         "currency": "EUR",
         "impact": "low",
         "event": "German Buba President Nagel Speaks",
@@ -161,7 +161,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "15:00",
+        "time_wib": "14:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Italian Industrial Production m/m",
@@ -172,7 +172,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "16:00",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German ZEW Economic Sentiment",
@@ -194,7 +194,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "16:30",
+        "time_wib": "15:30",
         "currency": "AUD",
         "impact": "low",
         "event": "Annual Budget Release",
@@ -205,7 +205,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "17:00",
+        "time_wib": "16:00",
         "currency": "USD",
         "impact": "low",
         "event": "NFIB Small Business Index",
@@ -216,7 +216,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "19:15",
+        "time_wib": "18:15",
         "currency": "USD",
         "impact": "low",
         "event": "ADP Weekly Employment Change",
@@ -227,7 +227,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "USD",
         "impact": "high",
         "event": "Core CPI m/m",
@@ -260,7 +260,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "20:10",
+        "time_wib": "19:10",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Goolsbee Speaks",
@@ -271,7 +271,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "21:30",
+        "time_wib": "20:30",
         "currency": "AUD",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -282,7 +282,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "00:00",
+        "time_wib": "23:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Goolsbee Speaks",
@@ -293,7 +293,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "00:01",
+        "time_wib": "23:01",
         "currency": "USD",
         "impact": "low",
         "event": "10-y Bond Auction",
@@ -304,7 +304,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "01:00",
+        "time_wib": "00:00",
         "currency": "USD",
         "impact": "low",
         "event": "Federal Budget Balance",
@@ -315,7 +315,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "03:30",
+        "time_wib": "02:30",
         "currency": "USD",
         "impact": "low",
         "event": "API Weekly Statistical Bulletin",
@@ -326,7 +326,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Bank Lending y/y",
@@ -348,29 +348,29 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "08:30",
+        "time_wib": "07:30",
         "currency": "AUD",
         "impact": "medium",
         "event": "Wage Price Index q/q",
-        "actual": "",
+        "actual": "0.8%",
         "forecast": "0.8%",
         "previous": "0.8%"
       },
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "10:00",
+        "time_wib": "09:00",
         "currency": "NZD",
         "impact": "low",
         "event": "Inflation Expectations q/q",
-        "actual": "",
+        "actual": "2.53%",
         "forecast": "",
         "previous": "2.37%"
       },
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "12:00",
+        "time_wib": "11:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Economy Watchers Sentiment",
@@ -381,7 +381,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German WPI m/m",
@@ -392,7 +392,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "13:45",
+        "time_wib": "12:45",
         "currency": "EUR",
         "impact": "low",
         "event": "French Final CPI m/m",
@@ -403,7 +403,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "16:00",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Flash Employment Change q/q",
@@ -447,7 +447,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "USD",
         "impact": "high",
         "event": "Core PPI m/m",
@@ -469,7 +469,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "20:30",
+        "time_wib": "19:30",
         "currency": "GBP",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -480,7 +480,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "21:00",
+        "time_wib": "20:00",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Mann Speaks",
@@ -491,7 +491,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "21:30",
+        "time_wib": "20:30",
         "currency": "USD",
         "impact": "low",
         "event": "Crude Oil Inventories",
@@ -502,7 +502,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "22:05",
+        "time_wib": "21:05",
         "currency": "CAD",
         "impact": "low",
         "event": "Gov Council Member Alexopoulos Speaks",
@@ -513,7 +513,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "22:30",
+        "time_wib": "21:30",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Collins Speaks",
@@ -535,7 +535,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "00:01",
+        "time_wib": "23:01",
         "currency": "USD",
         "impact": "low",
         "event": "30-y Bond Auction",
@@ -546,7 +546,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "00:15",
+        "time_wib": "23:15",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Kashkari Speaks",
@@ -557,7 +557,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "00:30",
+        "time_wib": "23:30",
         "currency": "CAD",
         "impact": "low",
         "event": "BOC Summary of Deliberations",
@@ -568,7 +568,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "02:15",
+        "time_wib": "01:15",
         "currency": "EUR",
         "impact": "low",
         "event": "ECB President Lagarde Speaks",
@@ -579,7 +579,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "05:45",
+        "time_wib": "04:45",
         "currency": "NZD",
         "impact": "low",
         "event": "Visitor Arrivals m/m",
@@ -590,7 +590,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "06:01",
+        "time_wib": "05:01",
         "currency": "GBP",
         "impact": "low",
         "event": "RICS House Price Balance",
@@ -601,7 +601,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "M2 Money Stock y/y",
@@ -612,7 +612,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "08:00",
+        "time_wib": "07:00",
         "currency": "AUD",
         "impact": "low",
         "event": "MI Inflation Expectations",
@@ -623,7 +623,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "10:35",
+        "time_wib": "09:35",
         "currency": "JPY",
         "impact": "low",
         "event": "30-y Bond Auction",
@@ -645,7 +645,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "GBP",
         "impact": "high",
         "event": "GDP m/m",
@@ -777,7 +777,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Wholesale Sales m/m",
@@ -832,7 +832,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "21:00",
+        "time_wib": "20:00",
         "currency": "USD",
         "impact": "low",
         "event": "Business Inventories m/m",
@@ -854,7 +854,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "21:15",
+        "time_wib": "20:15",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Schmid Speaks",
@@ -865,7 +865,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "21:30",
+        "time_wib": "20:30",
         "currency": "USD",
         "impact": "low",
         "event": "Natural Gas Storage",
@@ -876,7 +876,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "22:15",
+        "time_wib": "21:15",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Pill Speaks",
@@ -887,7 +887,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "00:00",
+        "time_wib": "23:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Hammack Speaks",
@@ -898,7 +898,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "04:45",
+        "time_wib": "03:45",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Williams Speaks",
@@ -909,7 +909,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "05:30",
+        "time_wib": "04:30",
         "currency": "NZD",
         "impact": "low",
         "event": "BusinessNZ Manufacturing Index",
@@ -920,7 +920,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "05:45",
+        "time_wib": "04:45",
         "currency": "NZD",
         "impact": "low",
         "event": "FPI m/m",
@@ -931,7 +931,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "06:00",
+        "time_wib": "05:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Barr Speaks",
@@ -942,7 +942,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "PPI y/y",
@@ -953,7 +953,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Prelim Machine Tool Orders y/y",
@@ -964,7 +964,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "15:00",
+        "time_wib": "14:00",
         "currency": "EUR",
         "impact": "low",
         "event": "ECB Economic Bulletin",
@@ -975,7 +975,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "19:15",
+        "time_wib": "18:15",
         "currency": "CAD",
         "impact": "low",
         "event": "Housing Starts",
@@ -986,7 +986,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Foreign Securities Purchases",
@@ -1019,7 +1019,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-13",
         "day": "Rabu",
-        "time_wib": "20:15",
+        "time_wib": "19:15",
         "currency": "USD",
         "impact": "low",
         "event": "Capacity Utilization Rate",
@@ -1041,60 +1041,176 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "13 May 2026 07:38 WIB",
+    "generated": "13 May 2026 10:34 WIB",
     "summary": {
-      "total": 92,
-      "bullish": 28,
-      "bearish": 51,
-      "netral": 13,
-      "avg_score": -0.2088,
+      "total": 89,
+      "bullish": 34,
+      "bearish": 41,
+      "netral": 14,
+      "avg_score": -0.0947,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
           "sentiment": "Netral",
-          "score": -0.004,
-          "count": 19
-        },
-        {
-          "currency": "EUR",
-          "sentiment": "Bearish",
-          "score": -0.165,
-          "count": 6
-        },
-        {
-          "currency": "NZD",
-          "sentiment": "Bearish",
-          "score": -0.671,
-          "count": 3
-        },
-        {
-          "currency": "GBP",
-          "sentiment": "Bearish",
-          "score": -0.659,
-          "count": 2
+          "score": -0.018,
+          "count": 21
         },
         {
           "currency": "JPY",
-          "sentiment": "Bearish",
-          "score": -0.138,
-          "count": 2
+          "sentiment": "Bullish",
+          "score": 0.527,
+          "count": 5
+        },
+        {
+          "currency": "EUR",
+          "sentiment": "Bullish",
+          "score": 0.358,
+          "count": 4
+        },
+        {
+          "currency": "GBP",
+          "sentiment": "Netral",
+          "score": -0.028,
+          "count": 3
         },
         {
           "currency": "CAD",
           "sentiment": "Bearish",
-          "score": -0.359,
-          "count": 2
+          "score": -0.247,
+          "count": 3
         },
         {
           "currency": "CNY",
           "sentiment": "Bullish",
-          "score": 0.295,
+          "score": 0.197,
+          "count": 3
+        },
+        {
+          "currency": "NZD",
+          "sentiment": "Bearish",
+          "score": -0.5,
           "count": 2
+        },
+        {
+          "currency": "AUD",
+          "sentiment": "Bullish",
+          "score": 0.82,
+          "count": 1
         }
       ]
     },
     "items": [
+      {
+        "source": "ForexLive",
+        "title": "Goldman Sachs melihat kekuatan dolar yang luas karena guncangan energi membuat imbal hasil tetap tinggi",
+        "url": "https://investinglive.com/forex/goldman-sachs-sees-broad-dollar-strength-as-energy-shock-keeps-yields-elevated-20260513/",
+        "summary": "Goldman Sachs says the energy price shock will keep US yields elevated and drive broad dollar strength across G10, with favoured longs against the krona, euro and pound. Summary: Goldman Sachs strategists said the combination of rising inflation and resilient economic growth has already produced hig",
+        "published": "13 May 2026 10:21 WIB",
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "emoji": "🟢"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Survei Reserve Bank of New Zealand menunjukkan peningkatan ekspektasi inflasi",
+        "url": "https://investinglive.com/centralbank/reserve-bank-of-new-zealand-survey-shows-rising-inflation-expectations-20260513/",
+        "summary": "New Zealand 2-Year Inflation Expectations Q2 2026: 2.5% (2-years seen as the time frame when RBNZ policy action will filter through to prices) prior 2.4% 1-Year Inflation Expectations 3.4% prior 2.6% Preview and impications here: Economic and event calendar in Asia Wednesday, May 13, 2026 This artic",
+        "published": "13 May 2026 10:07 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Ketua OECD mendukung jalur BoJ dan menyerukan reformasi perdagangan menjelang pembicaraan Trump-Xi",
+        "url": "https://investinglive.com/news/oecd-chief-backs-boj-path-and-calls-for-trade-reform-ahead-of-trump-xi-talks-20260513/",
+        "summary": "The OECD secretary-general said the BOJ is not clearly behind the curve on rates and called for reform of international trading rules, describing the upcoming Trump-Xi summit as an important part of that process. Summary: The BOJ is not considered clearly behind the curve on monetary policy, with in",
+        "published": "13 May 2026 09:58 WIB",
+        "sentiment": "Bullish",
+        "score": 0.124,
+        "emoji": "🟢"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Iran membangun kembali akses ke 30 dari 33 situs rudal Hormuz, menurut penilaian AS",
+        "url": "https://investinglive.com/commodities/iran-rebuilds-access-to-30-of-33-hormuz-missile-sites-us-assessments-show-20260513/",
+        "summary": "Iran has restored operational access to 30 of its 33 Hormuz missile sites and retains 70% of its prewar missile stockpile, posing a continued threat to warships and oil tankers, US assessments show. Summary: US assessments reviewed by people with knowledge of the findings show Iran has restored oper",
+        "published": "13 May 2026 09:32 WIB",
+        "sentiment": "Bearish",
+        "score": -0.186,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "OECD melihat BOJ menaikkan suku bunga menjadi 2% pada akhir tahun 2027 seiring Jepang keluar dari era deflasi",
+        "url": "https://investinglive.com/centralbank/oecd-sees-boj-hiking-rates-to-2-by-end-2027-as-japan-exits-deflation-era-20260513/",
+        "summary": "The OECD projects the Bank of Japan will raise its policy rate to 2% by end-2027 from 0.75% currently, backing continued hikes on solid wage growth and a closed output gap. Summary: The OECD projects the Bank of Japan will raise its short-term policy rate to 2% by the end of 2027, up from the curren",
+        "published": "13 May 2026 09:15 WIB",
+        "sentiment": "Bullish",
+        "score": 0.912,
+        "emoji": "🟢"
+      },
+      {
+        "source": "ForexLive",
+        "title": "NVDA Huang akan pergi ke Tiongkok bersama Trump",
+        "url": "https://investinglive.com/stocks/nvda-huang-is-going-to-china-with-trump-20260513/",
+        "summary": "Nvidia chief executive Jensen Huang is set to join President Donald Trump's delegation to China this week, accompanying more than a dozen US business leaders on the visit. Huang was not included on the White House's initial executive list, and Nvidia's H200 chips have yet to receive Chinese governme",
+        "published": "13 May 2026 08:56 WIB",
+        "sentiment": "Bullish",
+        "score": 0.296,
+        "emoji": "🟢"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Morgan Stanley memetakan empat skenario guncangan harga minyak, mulai dari kenaikan suku bunga The Fed hingga resesi global",
+        "url": "https://investinglive.com/commodities/morgan-stanley-maps-four-oil-shock-scenarios-from-fed-hikes-to-global-recession-20260513/",
+        "summary": "Morgan Stanley's base case is gradual Iran de-escalation and a patient Fed, but four alternate scenarios range from a 100bp rate hike to global recession triggered by $140-160 oil. Summary: Morgan Stanley's base case assumes gradual de-escalation of the Iran conflict, a short-lived headline inflatio",
+        "published": "13 May 2026 08:35 WIB",
+        "sentiment": "Bearish",
+        "score": -0.794,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Indeks harga upah Q1 Australia melonjak 3,3% y/y, seperti yang diharapkan dan di bawah Q4 2025 sebesar 3,4%",
+        "url": "https://investinglive.com/centralbank/australian-q1-wage-price-index-jumps-33-yy-as-expected-and-below-q4-2025-34-20260513/",
+        "summary": "Data only this post, Australian Wage Price Index Q1 2026 +3.3% y/y vs. expected +3.3%, prior +3.4% +0.8% q/q vs. expected +0.8%, prior +0.8% This article was written by Eamonn Sheridan at investinglive.com.",
+        "published": "13 May 2026 08:34 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "ForexLive",
+        "title": "PBOC menetapkan kurs referensi USD/CNY untuk hari ini di 6,8431 (vs perkiraan di 6,7946)",
+        "url": "https://investinglive.com/centralbank/pboc-sets-usd-cny-reference-rate-for-today-at-68431-vs-estimate-at-67946-20260513/",
+        "summary": "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. Injects 500mn yuan via 7-day reverse repos in open market operates today. Unchanged rate of 1.4%. This article was written by Eamonn Sheridan at investinglive.com.",
+        "published": "13 May 2026 08:15 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "ForexLive",
+        "title": "PM Selandia Baru Luxon menjanjikan tanggung jawab fiskal...seperti yang Anda lakukan",
+        "url": "https://investinglive.com/news/nz-pm-luxon-promises-fiscal-responsibility-as-you-do-20260513/",
+        "summary": "New Zealand PM Luxon: Government committed to putting debt on a downward path towards 40% of GDP, returning to Obegalx surplus by FY 2028/29 Net operating spending on new initiatives will total NZ$2.1 bln, about NZ$300 mln less than set in December Global uncertainties reinforced importance of respo",
+        "published": "13 May 2026 08:09 WIB",
+        "sentiment": "Bullish",
+        "score": 0.477,
+        "emoji": "🟢"
+      },
+      {
+        "source": "ForexLive",
+        "title": "ICYMI - Iran memperketat cengkeraman Hormuz ketika Irak dan Pakistan mencapai kesepakatan transit bilateral",
+        "url": "https://investinglive.com/commodities/icymi-iran-tightens-hormuz-grip-as-iraq-and-pakistan-strike-bilateral-transit-deals-20260513/",
+        "summary": "Iraq and Pakistan have struck separate deals with Iran for oil and LNG passage through the Strait of Hormuz, as Tehran formalises control of the waterway with vessel traffic at 5% of pre-war levels. Reuters carried the report. Summary: Iraq secured Iranian approval for two very large crude carriers,",
+        "published": "13 May 2026 07:41 WIB",
+        "sentiment": "Bearish",
+        "score": -0.172,
+        "emoji": "🔴"
+      },
       {
         "source": "ForexLive",
         "title": "PBOC diperkirakan akan menetapkan kurs referensi USD/CNY di 6,7946 – perkiraan Reuters",
@@ -1136,113 +1252,103 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "ForexLive",
-        "title": "Alaska meloloskan undang-undang alat pembayaran emas dan perak yang sah, membebaskan logam mulia dari pajak penjualan",
-        "url": "https://investinglive.com/commodities/alaska-passes-gold-and-silver-legal-tender-bill-exempting-precious-metals-from-sales-tax-20260512/",
-        "summary": "Alaska's Senate has passed HB 1 by 19 votes to 1, recognising gold and silver as legal tender and exempting specie transactions from local sales taxes, with the bill now heading to the governor. Summary: The Alaska State Senate passed House Bill 1 by a vote of 19-1 on May 11, 2026, recognising gold ",
-        "published": "13 May 2026 05:21 WIB",
+        "source": "FXStreet News",
+        "title": "India menaikkan tarif impor Emas dan Perak menjadi 15% - Reuters",
+        "url": "https://www.fxstreet.com/news/india-raises-import-tariffs-on-gold-and-silver-to-15-reuters-202605130256",
+        "summary": "The Indian government has raised import tariffs on gold and silver to 15% from 6%, in an attempt to discourage the purchase of precious metals due to ease pressure on the nation’s foreign exchange reserves, Reuters reports.",
+        "published": "13 May 2026 09:56 WIB",
         "sentiment": "Bullish",
-        "score": 0.735,
+        "score": 0.296,
         "emoji": "🟢"
       },
       {
-        "source": "ForexLive",
-        "title": "India menaikkan tarif impor emas dan perak lebih dari dua kali lipat menjadi 15%, sebagai upaya untuk menopang rupee",
-        "url": "https://investinglive.com/centralbank/india-more-than-doubles-gold-and-silver-import-tariffs-to-15-effort-to-prop-up-the-rupee-20260512/",
-        "summary": "India has more than doubled import duties on gold and silver to 15%, aiming to narrow its trade deficit and support the rupee, but industry officials warn the move risks reviving smuggling networks. Summary: India raised import tariffs on gold and silver to 15% from 6%, comprising a 10% basic custom",
-        "published": "13 May 2026 04:40 WIB",
+        "source": "FXStreet News",
+        "title": "Pound Inggris tampaknya rentan mendekati level terendah dua pekan vs USD; GBP/USD bertahan di atas 1,3500",
+        "url": "https://www.fxstreet.com/news/british-pound-seems-vulnerable-near-two-week-low-vs-usd-gbp-usd-holds-above-13500-202605130256",
+        "summary": "The GBP/USD pair struggles to capitalize on the previous day's late bounce from the 1.3500 psychological mark, or a nearly two-week low, and oscillates in a narrow band during the Asian session on Wednesday.",
+        "published": "13 May 2026 09:56 WIB",
         "sentiment": "Bearish",
-        "score": -0.973,
+        "score": -0.765,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Pratinjau - Citi memperkirakan pendapatan Nvidia Kuartal 1 lebih baik menjelang laporan pendapatan 20 Mei",
-        "url": "https://investinglive.com/stocks/preview-citi-tips-nvidia-q1-revenue-beat-ahead-of-may-20-earnings-report-20260512/",
-        "summary": "Citi maintains a buy rating and $300 price target on Nvidia ahead of May 20 earnings, projecting Q1 revenue of $80bn, above the $78.6bn Street consensus, on strong Blackwell chip demand. Summary: Citi has reiterated a buy rating and $300 price target on Nvidia ahead of its first-quarter fiscal 2027 ",
-        "published": "13 May 2026 04:24 WIB",
+        "source": "FXStreet News",
+        "title": "Yen Jepang tetap lemah meskipun ada nada hawkish seputar prospek kebijakan BoJ",
+        "url": "https://www.fxstreet.com/news/japanese-yen-remains-subdued-despite-hawkish-tone-surrounding-bojs-policy-outlook-202605130232",
+        "summary": "USD/JPY extends its gains for the third successive day, trading around 157.70 during the Asian hours on Wednesday.",
+        "published": "13 May 2026 09:32 WIB",
         "sentiment": "Bullish",
-        "score": 0.581,
+        "score": 0.772,
         "emoji": "🟢"
       },
       {
-        "source": "ForexLive",
-        "title": "Minyak - survei persediaan swasta menunjukkan penurunan minyak mentah kurang dari yang diharapkan",
-        "url": "https://investinglive.com/commodities/oil-private-survey-of-inventory-shows-a-headline-crude-oil-draw-just-less-than-expected-20260512/",
-        "summary": "Via telegram sources: Crude prices advanced steadily through Tuesday's session as tensions between the United States and Iran showed little sign of easing, though the market's attention is already shifting toward Trump's planned visit to China on Wednesday. Middle East developments continued to gene",
-        "published": "13 May 2026 03:46 WIB",
+        "source": "FXStreet News",
+        "title": "OECD memproyeksikan BoJ menaikkan suku bunga menjadi 2% pada akhir tahun 2027",
+        "url": "https://www.fxstreet.com/news/oecd-projects-boj-hiking-rates-to-2-by-end-2027-202605130230",
+        "summary": "The Organization for Economic Co-operation and Development (OECD) projected the Bank of Japan (BoJ) will raise its policy rate to 2.0% by end-2027 from 0.75% currently, supported by higher inflation expectations, solid wage growth and a closed output gap.",
+        "published": "13 May 2026 09:30 WIB",
+        "sentiment": "Bullish",
+        "score": 0.75,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Dolar Australia Naik Lebih Tinggi Mendekati 0,7250 Karena Nada Hawkish RBA, Fokus Pada KTT Trump-Xi",
+        "url": "https://www.fxstreet.com/news/australian-dollar-edges-higher-to-near-07250-on-hawkish-rba-tone-eyes-on-us-ppi-data-202605130215",
+        "summary": "The AUD/USD pair gains ground to around 0.7240 during the Asian trading hours on Wednesday. The Australian Dollar (AUD) strengthens against the US Dollar (USD) amid a hawkish stance from the Reserve Bank of Australia (RBA).",
+        "published": "13 May 2026 09:15 WIB",
+        "sentiment": "Bullish",
+        "score": 0.82,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Perkiraan Harga Perak: XAG/USD naik mendekati $87,00 karena meningkatnya permintaan industri",
+        "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-rises-to-near-8700-on-rising-industrial-demand-202605130157",
+        "summary": "Silver price (XAG/USD) continues its winning streak for the sixth successive day, trading around $86.80 per troy ounce during the Asian hours on Wednesday.",
+        "published": "13 May 2026 08:57 WIB",
+        "sentiment": "Bullish",
+        "score": 0.612,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Luxon dari Selandia Baru mengatakan akan memangkas belanja baru, tetap pada jalur surplus di tengah ketidakpastian",
+        "url": "https://www.fxstreet.com/news/new-zealands-luxon-says-will-trim-new-spending-stick-to-surplus-path-amid-uncertainty-202605130123",
+        "summary": "New Zealand's Prime Minister Christopher Luxon said that global uncertainties from the Middle East conflict reinforced the need for responsible economic management and fiscal discipline, Reuters reported on Wednesday.",
+        "published": "13 May 2026 08:23 WIB",
         "sentiment": "Bearish",
-        "score": -0.917,
+        "score": -0.666,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "investasi Berita Live Americas FX 12 Mei: CPI yang panas menyalakan kembali kekhawatiran inflasi",
-        "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-12-mayhot-cpi-reignites-inflation-fears-20260512/",
-        "summary": "US stocks close mixed. Rotation out of high flyers, and into industrials UK Energy Min. Milband told cabinet ministers he is prepared to run for Labour leadership Crude oil is settling at $102.18 up $4.11 or 4.19% The federal budget surplus for April $215 billion which is less than the $220 billion ",
-        "published": "13 May 2026 03:40 WIB",
+        "source": "FXStreet News",
+        "title": "Dolar Kanada datar di dekat 1,3700 di tengah panasnya inflasi IHK AS dan ketegangan AS-Iran",
+        "url": "https://www.fxstreet.com/news/canadian-dollar-flat-lines-near-13700-amid-hot-us-cpi-inflation-us-iran-tensions-202605130116",
+        "summary": "The USD/CAD pair trades on a flat note near 1.3695 during the early Asian trading hours on Wednesday. Traders continue to assess hot US inflation data and ongoing tensions in the Middle East. The US April Producer Price Index (PPI) report will take center stage later on Wednesday.",
+        "published": "13 May 2026 08:16 WIB",
         "sentiment": "Bearish",
-        "score": -0.877,
+        "score": -0.74,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Kalender ekonomi dan peristiwa di Asia Rabu 13 Mei 2026",
-        "url": "https://investinglive.com/centralbank/economic-and-event-calendar-in-asia-wednesday-may-13-2026-20260512/",
-        "summary": "The item of note is the Reserve Bank of New Zealand's quarterly Survey of Inflation Expectations. This is shaping up as a closely monitored test of whether the recent acceleration in consumer prices is feeding through into longer-term inflation psychology, according to analysis from Westpac. The sur",
-        "published": "13 May 2026 03:28 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Saham-saham AS ditutup beragam. Rotasi keluar dari dataran tinggi, dan menuju industri",
-        "url": "https://investinglive.com/stocks/us-stocks-close-mixed-rotation-out-of-tech-and-into-industrials-20260512/",
-        "summary": "Some of the big winners over the last month became big losers in trading today. Looking at the infograph below Qualcomm tumbled -11.66% but is still up 59.88% for the month. Intel fell -6.81% but is still up 85.06% and SanDisk is down -5.56% but is still up 53.45%. So for some, this is just a modest",
-        "published": "13 May 2026 03:14 WIB",
-        "sentiment": "Netral",
-        "score": -0.039,
-        "emoji": "⚪"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Menteri Energi Inggris. Milband mengatakan kepada para menteri kabinet bahwa dia siap mencalonkan diri sebagai pemimpin Partai Buruh",
-        "url": "https://investinglive.com/news/uk-energy-min-milband-told-cabinet-ministers-he-is-prepared-to-run-for-labour-leadership-20260512/",
-        "summary": "Nearly 100 Labour ministers have called for the prime minister Starmer to resign. Wes Streeting is expected to meet with Starmer tomorrow morning and ask how he expects to solve the problems. If that leads to asking and getting Starmer to step down, Milband will run for the Labour leadership, but th",
-        "published": "13 May 2026 02:17 WIB",
+        "source": "FXStreet News",
+        "title": "Presiden AS Donald Trump mengatakan perdagangan akan menjadi prioritas dalam pertemuan puncak dengan Xi, bukan Iran",
+        "url": "https://www.fxstreet.com/news/us-president-donald-trump-says-trade-will-be-priority-in-summit-with-xi-not-iran-202605130043",
+        "summary": "US President Donald Trump said that he would prioritize trade discussions during his summit with Chinese President Xi Jinping and downplayed the amount of attention they would devote to the Iran war, Bloomberg reported on Tuesday.",
+        "published": "13 May 2026 07:43 WIB",
         "sentiment": "Bearish",
-        "score": -0.45,
+        "score": -0.441,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Minyak mentah menetap di $102,18 naik $4,11 atau 4,19%",
-        "url": "https://investinglive.com/commodities/crude-oil-is-selling-at-10218-of-411-or-419-20260512/",
-        "summary": "The price of crude oil futures is settling at $102.18, up $4.11 or 4.19% on the day. The strong rally pushed the price back above its 200-hour moving average — currently at $100.21 — for the first time since May 5, giving buyers stronger short-term control. Importantly for the bullish bias, once the",
-        "published": "13 May 2026 01:58 WIB",
+        "source": "FXStreet News",
+        "title": "Euro melemah di bawah 1,1750 karena meningkatnya inflasi AS mendukung Dolar AS",
+        "url": "https://www.fxstreet.com/news/euro-weakens-below-11750-as-hotter-us-inflation-bolsters-us-dollar-202605130016",
+        "summary": "The EUR/USD pair trades in negative territory around 1.1735 during the early Asian session on Wednesday. The US Dollar (USD) edges higher against the Euro (EUR) on hotter-than-expected US inflation data.",
+        "published": "13 May 2026 07:16 WIB",
         "sentiment": "Bearish",
-        "score": -0.09,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Surplus anggaran federal untuk bulan April adalah $215 miliar, lebih rendah dari perkiraan $220 miliar.",
-        "url": "https://investinglive.com/news/the-federal-budget-surplus-for-april-215-billion-which-is-less-than-the-220-billion-est-20260512/",
-        "summary": "Budget surplus $215 billion versus $220 million expected. A year ago the surplus was $258 billion. Fiscal 2026 year-to-date deficit $954 billion versus comparable fiscal 2025 deficit of $1.049 trillion April net customs receipts $22.12 billion. Budget outlays $622 billion versus $592 billion in Apri",
-        "published": "13 May 2026 01:10 WIB",
-        "sentiment": "Bearish",
-        "score": -0.66,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Trump News: Tidak membutuhkan bantuan Xi terhadap Iran",
-        "url": "https://investinglive.com/news/trump-news-does-not-need-xi-help-on-iran-20260512/",
-        "summary": "Pres. Trump speaking to reporters before heading off to China, is saying: Will have long talk with he about the Iran war. Don't think you need Xi's help on Iran The blockade has been 100% successful You are going to have s gusher of oil If you look back 3-4 months ago, you would think oil would be m",
-        "published": "13 May 2026 00:57 WIB",
-        "sentiment": "Bearish",
-        "score": -0.549,
+        "score": -0.718,
         "emoji": "🔴"
       },
       {
@@ -1276,104 +1382,84 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "FXStreet News",
-        "title": "Perkiraan Harga USD/JPY: Pembeli bergerak saat pasangan ini memantul menuju 158,00",
-        "url": "https://www.fxstreet.com/news/usd-jpy-price-forecast-bulls-move-in-as-pair-bounces-toward-15800-202605122231",
-        "summary": "USD/JPY recovers some ground and rallies towards a daily four-day high near 157.80 as traders digest comments from US Treasury Secretary Scott Bessent on undesirable volatility in the FX space, prompting a Yen buy. At the time of writing, the pair is up by over 0.30%.",
-        "published": "13 May 2026 05:31 WIB",
-        "sentiment": "Bearish",
-        "score": -0.353,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dolar Selandia Baru melemah setelah IHK AS yang panas dan survei inflasi RBNZ adalah yang berikutnya",
-        "url": "https://www.fxstreet.com/news/new-zealand-dollar-eased-after-hot-us-cpi-with-rbnz-inflation-survey-next-on-the-slate-202605122212",
-        "summary": "NZD/USD edged lower in choppy two-way trade on Tuesday, settling slightly down for the session. The pair set its peak during the Asian and early European hours, then fell to a session low around the 0.5935 area mid-session, before recovering part of the move into the New York close.",
-        "published": "13 May 2026 05:12 WIB",
-        "sentiment": "Bearish",
-        "score": -0.273,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dolar Australia mengurangi kerugian pasca-CPI karena anggaran Chalmers menjawab guncangan minyak",
-        "url": "https://www.fxstreet.com/news/australian-dollar-pared-post-cpi-losses-as-chalmers-budget-answered-the-oil-shock-202605122210",
-        "summary": "AUD/USD swung in a choppy intraday range on Tuesday before settling little changed for the session.",
-        "published": "13 May 2026 05:10 WIB",
-        "sentiment": "Bearish",
-        "score": -0.729,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Ringgit Malaysia: Kisarannya bertahan karena Malaysia unggul – Commerzbank",
-        "url": "https://www.fxstreet.com/news/malaysian-ringgit-range-holds-as-malaysia-outperforms-commerzbank-202605122139",
-        "summary": "Commerzbank strategists note that USD/MYR has remained in a 3.90–4.05 range since the Middle East conflict began. Malaysia’s March industrial production grew 3.1% year-on-year, supported by strong manufacturing and electronics despite weaker mining.",
-        "published": "13 May 2026 04:39 WIB",
+        "source": "Investing.com Forex",
+        "title": "Bank-bank terkemuka di Jepang akan mendapatkan akses ke model Anthropic AI Mythos, Nikkei melaporkan",
+        "url": "https://www.investing.com/news/stock-market-news/japans-top-banks-to-get-access-to-anthropic-ai-model-mythos-nikkei-reports-4683128",
+        "summary": "",
+        "published": "13 May 2026 10:17 WIB",
         "sentiment": "Bullish",
-        "score": 0.611,
+        "score": 0.202,
         "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "Eropa: Ekspor ke AS Anjlok dan Risiko Tarif – Standard Chartered",
-        "url": "https://www.fxstreet.com/news/europe-export-to-us-slump-and-tariff-risks-standard-chartered-202605122051",
-        "summary": "Standard Chartered’s Christopher Graham notes that European Union (EU) exports to the United States (US) are now contracting at rates comparable to COVID and GFC (Great Financial Crisis) periods, potentially reflecting both prior export frontloading and emerging structural weakness.",
-        "published": "13 May 2026 03:51 WIB",
+        "source": "Investing.com Forex",
+        "title": "Pejabat ICE AS yang bekerja di perusahaan penjara swasta akan menjadi penjabat kepala baru lembaga tersebut",
+        "url": "https://www.investing.com/news/stock-market-news/us-ice-official-who-worked-at-private-prison-firm-will-be-agencys-new-acting-head-4683127",
+        "summary": "",
+        "published": "13 May 2026 10:12 WIB",
         "sentiment": "Bearish",
-        "score": -0.513,
+        "score": -0.511,
         "emoji": "🔴"
       },
       {
-        "source": "FXStreet News",
-        "title": "Aluminium: Reformasi ETS UE meningkatkan risiko biaya – Commerzbank",
-        "url": "https://www.fxstreet.com/news/aluminium-eu-ets-reform-raises-cost-risks-commerzbank-202605122028",
-        "summary": "Commerzbank’s Norman Liebke highlights that EU ETS reform, including new benchmark calculations, could significantly raise costs for European Aluminium recyclers and refineries.",
-        "published": "13 May 2026 03:28 WIB",
+        "source": "Investing.com Forex",
+        "title": "CEO Nvidia Huang akan bergabung dengan Trump dalam perjalanan ke Tiongkok - lapor",
+        "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-huang-to-join-trump-on-china-trip--reports-4683119",
+        "summary": "",
+        "published": "13 May 2026 09:14 WIB",
+        "sentiment": "Bullish",
+        "score": 0.296,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Saham Nidec merosot setelah perusahaan menandai pelanggaran kontrol kualitas",
+        "url": "https://www.investing.com/news/stock-market-news/nidec-shares-slump-after-co-flags-quality-control-misconduct-4683107",
+        "summary": "",
+        "published": "13 May 2026 08:51 WIB",
+        "sentiment": "Bullish",
+        "score": 0.296,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Breeze Acquisition Corp. II menetapkan harga IPO $125 juta dengan harga $10 per unit",
+        "url": "https://www.investing.com/news/stock-market-news/breeze-acquisition-corp-ii-prices-125-million-ipo-at-10-per-unit-432SI-4683099",
+        "summary": "",
+        "published": "13 May 2026 08:38 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "CEO BHP yang akan datang akan mempertimbangkan akuisisi langsung demi pertumbuhan",
+        "url": "https://www.investing.com/news/stock-market-news/incoming-bhp-ceo-to-consider-bolton-acquisitions-for-growth-4683092",
+        "summary": "",
+        "published": "13 May 2026 08:36 WIB",
+        "sentiment": "Bullish",
+        "score": 0.462,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Saham Samsung anjlok setelah pembicaraan serikat pekerja gagal",
+        "url": "https://www.investing.com/news/stock-market-news/samsung-shares-drop-after-labor-union-talks-fall-through-4683079",
+        "summary": "",
+        "published": "13 May 2026 07:56 WIB",
         "sentiment": "Bearish",
-        "score": -0.353,
+        "score": -0.054,
         "emoji": "🔴"
       },
       {
-        "source": "FXStreet News",
-        "title": "Perkiraan Harga Perak: Pembeli mengincar $90,00 seiring melonjaknya momentum",
-        "url": "https://www.fxstreet.com/news/silver-price-forecast-bulls-eye-9000-as-momentum-surges-202605122027",
-        "summary": "Silver (XAG/USD) price steadies on Tuesday following Monday’s advance of over 7%. At the time of writing, XAG/USD gains 0.69% and trades at $86.58 after bouncing off daily lows of $83.05.",
-        "published": "13 May 2026 03:27 WIB",
-        "sentiment": "Bullish",
-        "score": 0.313,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Taiwan: Jalur Pengetatan Ringan Direvisi – DBS",
-        "url": "https://www.fxstreet.com/news/taiwan-mild-tightening-path-revised-dbs-202605122003",
-        "summary": "DBS' Senior Economist Ma Tieying revises her Taiwan policy rate outlook after upgrading 2026 Gross Domestic Product (GDP) and Consumer Price Index (CPI) forecasts. She now expects a 12.5bps hike in 3Q, taking the policy discount rate from 2.00% to 2.125%.",
-        "published": "13 May 2026 03:03 WIB",
-        "sentiment": "Bearish",
-        "score": -0.397,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Forex Hari Ini: IHK AS yang panas meningkatkan Dolar AS karena imbal hasil Treasury naik",
-        "url": "https://www.fxstreet.com/news/forex-today-hot-us-cpi-boosts-us-dollar-as-treasury-yields-climb-202605121946",
-        "summary": "The US Dollar Index (DXY) rallied toward the 98.30 region on Tuesday as hotter-than-expected United States (US) inflation data boosted Treasury yields and reinforced expectations that the Federal Reserve (Fed) may keep interest rates elevated for longer.",
-        "published": "13 May 2026 02:46 WIB",
-        "sentiment": "Bullish",
-        "score": 0.824,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Fed: Sikap Netral Saat Inflasi Stabil – TD Securities",
-        "url": "https://www.fxstreet.com/news/fed-neutral-stance-as-inflation-stabilizes-td-securities-202605121940",
-        "summary": "TD Securities economists judge that April Consumer Price Index (CPI) strength was driven by shelter and energy, but see core Personal Consumption Expenditures (PCE) Price Index running softer than CPI. They argue tariff pass-through is fading and supercore PCE should ease.",
-        "published": "13 May 2026 02:40 WIB",
-        "sentiment": "Bullish",
-        "score": 0.612,
-        "emoji": "🟢"
+        "source": "Investing.com Forex",
+        "title": "Raksasa ambulans yang didukung KKR, GMR, mengumpulkan $478,7 juta dalam IPO AS",
+        "url": "https://www.investing.com/news/stock-market-news/kkrbacked-ambulance-giant-gmr-raises-4787-million-in-us-ipo-4683074",
+        "summary": "",
+        "published": "13 May 2026 07:42 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
       },
       {
         "source": "Investing.com Forex",
@@ -1384,96 +1470,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.83,
         "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Samsung Elec menyesali gagalnya pembicaraan gaji dengan serikat pekerja, dan mengatakan akan melanjutkan dialog",
-        "url": "https://www.investing.com/news/stock-market-news/samsung-elec-regrets-collapse-of-pay-talks-with-union-says-to-continue-dialogue-4683065",
-        "summary": "",
-        "published": "13 May 2026 07:30 WIB",
-        "sentiment": "Bearish",
-        "score": -0.727,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Saham berjangka AS turun setelah Wall St jatuh karena ketegangan Iran dan IHK yang panas",
-        "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-dip-after-wall-st-falls-on-iran-tensions-hot-cpi-4683047",
-        "summary": "",
-        "published": "13 May 2026 07:10 WIB",
-        "sentiment": "Bearish",
-        "score": -0.562,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Fervo Energy mengumpulkan $1,89 miliar dalam IPO AS",
-        "url": "https://www.investing.com/news/stock-market-news/fervo-energy-raises-189-billion-in-us-ipo-4683025",
-        "summary": "",
-        "published": "13 May 2026 07:00 WIB",
-        "sentiment": "Bullish",
-        "score": 0.273,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Fervo Energy menaikkan harga IPO menjadi $27 per saham",
-        "url": "https://www.investing.com/news/stock-market-news/fervo-energy-prices-upsized-ipo-at-27-per-share-432SI-4683015",
-        "summary": "",
-        "published": "13 May 2026 06:35 WIB",
-        "sentiment": "Bullish",
-        "score": 0.511,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Anthropic sedang dalam pembicaraan untuk membeli startup alat pengembang seharga $300 juta- Informasi",
-        "url": "https://www.investing.com/news/stock-market-news/anthropic-in-talks-to-buy-dev-tools-startup-for-300-mln-the-information-4683007",
-        "summary": "",
-        "published": "13 May 2026 06:25 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Tanggal dimulainya kembali GM-LG di pabrik baterai Ohio tidak pasti",
-        "url": "https://www.investing.com/news/stock-market-news/gms-restart-date-at-ohio-battery-plant-uncertain-4682089",
-        "summary": "",
-        "published": "13 May 2026 06:12 WIB",
-        "sentiment": "Bearish",
-        "score": -0.296,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Walmart memberhentikan atau merelokasi sekitar 1.000 pekerja perusahaan, lapor WSJ",
-        "url": "https://www.investing.com/news/stock-market-news/walmart-lays-off-or-relocates-about-1000-corporate-workers-wsj-reports-4682898",
-        "summary": "",
-        "published": "13 May 2026 06:00 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Union mengatakan BP menunda negosiasi setelah penutupan kilang Whiting",
-        "url": "https://www.investing.com/news/stock-market-news/union-says-bp-delaying-negotiations-following-whiting-refinery-lockout-4682924",
-        "summary": "",
-        "published": "13 May 2026 05:30 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Gaji CEO saham Nvidia turun 27% karena penghargaan ekuitas yang lebih rendah",
-        "url": "https://www.investing.com/news/stock-market-news/nvidia-stock-ceo-pay-falls-27-on-lower-equity-awards-93CH-4682909",
-        "summary": "",
-        "published": "13 May 2026 05:16 WIB",
-        "sentiment": "Bearish",
-        "score": -0.057,
-        "emoji": "🔴"
       },
       {
         "source": "Investing.com Economy",
@@ -1487,7 +1483,7 @@ window.FK_DATA = {
       },
       {
         "source": "Investing.com Economy",
-        "title": "Perekonomian Perancis tangguh namun krisis Iran membebani, kata bank sentral dalam laporan bulanannya",
+        "title": "Perekonomian Prancis tangguh tetapi krisis Iran membebani, kata bank sentral dalam laporan bulanannya",
         "url": "https://www.investing.com/news/economic-indicators/french-economy-resilient-but-iran-crisis-weighs-central-bank-says-in-monthly-report-4681860",
         "summary": "",
         "published": "13 May 2026 01:13 WIB",
@@ -1506,16 +1502,6 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "Investing.com Economy",
-        "title": "CPI AS memenuhi ekspektasi, menandakan tren inflasi yang stabil",
-        "url": "https://www.investing.com/news/economic-indicators/us-cpi-meets-expectations-signaling-stable-inflation-trends-93CH-4680349",
-        "summary": "",
-        "published": "12 May 2026 19:32 WIB",
-        "sentiment": "Bullish",
-        "score": 0.296,
-        "emoji": "🟢"
-      },
-      {
         "source": "Reuters Currencies",
         "title": "File India: Wisatawan asing dan penghisap dolar lainnya sedang diawasi - Reuters",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ3h4N0hvVWFLektNZ25Lbi01WUJicXNaRjcxMWtRWHBCZGdtZUtaWXBwcDJsNHBURGM1Y1c0WTFLMHUxbTlCUnBUenhmb2R2Y1Uyc2pRWXdPRE0tWTBZcmdjVVNYcDA2bEhOMzh1QkdRLU94MkZiNW5qZTcxT2FXaGJYY2o3dUQ3dXFuQ2gyckN3UUN5eTBLeVVDdnBBQmJh?oc=5",
@@ -1527,43 +1513,103 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Minyak Stabil Setelah Kenaikan Tiga Hari Karena Aliran Iran Tertekan",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13",
-        "summary": "Oil steadied after rising almost 8% over the past three sessions as a resolution to the Middle East conflict remains elusive, with Iranian exports showing further strain from a US Naval blockade of the Strait of Hormuz.",
-        "published": "13 May 2026 05:03 WIB",
-        "sentiment": "Bullish",
-        "score": 0.178,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Trump Menghadapi Xi yang Berani di Tiongkok",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-13/trump-faces-emboldened-xi-in-china-video",
-        "summary": "Donald Trump is expecting economic deals and a “wild” welcome this week in China. He’ll arrive facing an emboldened Xi Jinping, just as his own hand is constrained by the conflict in Iran. Bloomberg's Stephen Engle breaks down what is at stake. (Source: Bloomberg)",
-        "published": "13 May 2026 07:30 WIB",
-        "sentiment": "Bullish",
-        "score": 0.542,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Saham Asia Mengikuti Penurunan Wall Street karena IHK AS: Penutupan Pasar",
+        "title": "Saham Mengurangi Kerugian, Obligasi Turun karena Inflasi AS: Pembungkus Pasar",
         "url": "https://www.bloomberg.com/news/articles/2026-05-12/asian-stocks-under-pressure-as-us-inflation-rises-markets-wrap",
-        "summary": "Asian stocks dropped following losses on Wall Street as US inflation quickened, showing the impact of higher oil prices since the war in Iran started.",
+        "summary": "Equities trimmed declines as dip buyers stepped in following early weakness in chipmakers. Government bonds from Australia to Japan followed Treasuries lower after US inflation accelerated, fueling speculation the Federal Reserve will raise interest rates next year.",
         "published": "13 May 2026 05:08 WIB",
         "sentiment": "Bearish",
-        "score": -0.992,
+        "score": -0.839,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Emas Mempertahankan Penurunan karena Lonjakan Inflasi AS Meningkatkan Peluang Kenaikan Suku Bunga",
+        "title": "Emas Turun karena Lonjakan Inflasi AS Meningkatkan Peluang Kenaikan Suku Bunga",
         "url": "https://www.bloomberg.com/news/articles/2026-05-12/gold-holds-decline-as-us-inflation-jump-lowers-rate-cut-odds",
-        "summary": "Gold held a decline after accelerating US inflation lifted the odds of the Federal Reserve raising interest rates this year.",
+        "summary": "Gold fell a second day after accelerating US inflation lifted the odds of the Federal Reserve raising interest rates this year.",
         "published": "13 May 2026 05:54 WIB",
         "sentiment": "Bullish",
         "score": 0.379,
         "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "MSCI Memotong Saham-Saham yang Terkait dengan Indeks Terkaya di Indonesia",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/msci-removes-stocks-linked-to-indonesia-s-richest-from-indexes",
+        "summary": "MSCI Inc. removed some Indonesian stocks linked to the country’s richest billionaires from its indexes, following through on a warning last month that it will exclude companies with concentrated ownership. The shares fell.",
+        "published": "13 May 2026 04:38 WIB",
+        "sentiment": "Bullish",
+        "score": 0.462,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Tembaga Naik Menuju Rekor Tertinggi seiring Meningkatnya Pasokan Global",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/copper-climbs-toward-record-high-as-global-supply-tightens",
+        "summary": "Copper extended gains above $14,000 a ton, inching toward a record high seen earlier this year, as supply risks mount on mine disruptions around the world.",
+        "published": "13 May 2026 10:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.353,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Minyak Turun Setelah Kenaikan Tiga Hari Dengan Kebuntuan Pembicaraan Damai Iran",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13",
+        "summary": "Oil slipped after rising almost 8% over the past three sessions as a resolution to the Middle East conflict remains elusive, with Iranian exports showing further strain from a US Naval blockade of the Strait of Hormuz.",
+        "published": "13 May 2026 05:03 WIB",
+        "sentiment": "Bullish",
+        "score": 0.66,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Eve Energy Tiongkok Menandatangani Kesepakatan Baterai dengan Godawari dari India",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/china-s-eve-energy-signs-battery-deal-with-india-s-godawari",
+        "summary": "China’s Eve Energy Co. agreed to supply India’s Godawari New Energy Private Ltd. with large-scale batteries, as a rapid renewable power expansion drives demand for energy storage in the South Asian nation.",
+        "published": "13 May 2026 09:47 WIB",
+        "sentiment": "Bullish",
+        "score": 0.871,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "India Lebih dari Dua Kali Lipat Tarif Emas dan Perak untuk Mempertahankan Rupee",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/india-hikes-gold-and-silver-import-tariffs-to-protect-economy",
+        "summary": "India has raised import tariffs on gold and silver in an attempt to defend its currency, a surprise move as the country races to limit the damage from the Middle East war and to shore up foreign-exchange reserves.",
+        "published": "13 May 2026 08:47 WIB",
+        "sentiment": "Bearish",
+        "score": -0.798,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Indonesia Bersumpah ‘Intervensi Cerdas’ saat Rupiah Mencapai Rekor Terendah",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/idr-usd-indonesia-pledges-smart-interventions-as-rupiah-at-record-low",
+        "summary": "Indonesia’s central bank pledged “smart interventions” in the foreign-exchange markets to support the rupiah as the currency fell to a record low.",
+        "published": "13 May 2026 07:22 WIB",
+        "sentiment": "Bearish",
+        "score": -0.128,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Imbal Hasil Obligasi Patokan Korea Mencapai 4% seiring Meningkatnya Taruhan Kenaikan Suku Bunga",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/korea-benchmark-bond-yield-tops-4-as-rate-hike-bets-grow",
+        "summary": "South Korea’s 10-year bond yield rose above 4% for the first time since late 2023, as an oil shock tied to the Iran conflict leads traders to expect bigger interest rate hikes.",
+        "published": "12 May 2026 16:51 WIB",
+        "sentiment": "Bullish",
+        "score": 0.34,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Imbal Hasil Obligasi Jepang Bertenor 20 Tahun Meningkat ke Level Tertinggi pada Tahun 1997 karena Kekhawatiran Inflasi",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/japan-s-20-year-bond-yield-rises-to-1997-high-on-inflation-woes",
+        "summary": "Japan’s 20-year government bond yield breached its January peak to touch the highest level since 1997, as elevated energy prices add to inflation pressure.",
+        "published": "13 May 2026 08:46 WIB",
+        "sentiment": "Bearish",
+        "score": -0.459,
+        "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
@@ -1576,46 +1622,6 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Pandangan Makro “Jauh Lebih Tidak Pasti”, Kata Aus. Bendahara",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-12/macro-outlook-much-more-uncertain-says-aus-treasurer-video",
-        "summary": "The macroeconomic outlook is “much more uncertain” with oil prices expected to remain elevated for some time yet and a slowdown in global growth, says Australian Treasurer Jim Chalmers in budget speech. (Source: Bloomberg)",
-        "published": "13 May 2026 06:05 WIB",
-        "sentiment": "Bullish",
-        "score": 0.637,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Tiongkok Mendominasi Angin Lepas Pantai saat Ketegangan Global Meningkat",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-12/china-dominates-offshore-wind-as-global-tensions-rise-video",
-        "summary": "While the US administration maintains its opposition to wind power, China is now installing nearly 75% of the world’s new offshore turbines. From the South China Sea, Bloomberg’s Stephen Engle reports on Ming Yang’s new 50-megawatt floating turbine and how 45% lower pricing is securing China’s lead ",
-        "published": "13 May 2026 06:01 WIB",
-        "sentiment": "Bearish",
-        "score": -0.42,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Goldman Melihat Kekuatan Dolar sebagai Kejutan Energi untuk Menjaga Suku Bunga Tetap Tinggi",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/goldman-sees-dollar-strength-as-energy-shock-to-keep-rates-high",
-        "summary": "The dollar strength will build further over the near term as the energy-price shock will keep yields elevated as economic growth remains relatively resilient, according to Goldman Sachs Group.",
-        "published": "13 May 2026 05:41 WIB",
-        "sentiment": "Bullish",
-        "score": 0.79,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Google News Geopolitik",
-        "title": "Dolar Kanada kesulitan karena berlanjutnya permintaan safe-haven - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ2JtQ3hBZHoxUjgtUHhOdTJCNkt3enl1TGItbDVXbURTNXktTGJHbVFGOU02V0wzaGJyYkxNeTJHMDBLbTRWcVd6aGE1N1FqSHlhQ0szTFJWZTBiNEMtT2prRjNCWjFzU29rR1FLT1JfWEFRRHlvU2Q4R2hBOEpGTUszLTBYZmRpMHg0T25LZnJfN0tOZDVoTlpCdDkzYXc?oc=5",
-        "summary": "Canadian Dollar struggles due ongoing safe-haven demand FXStreet",
-        "published": "12 May 2026 09:08 WIB",
-        "sentiment": "Bearish",
-        "score": -0.718,
-        "emoji": "🔴"
-      },
-      {
         "source": "Google News Geopolitik",
         "title": "Dolar Selandia Baru Merosot Di Bawah Pertengahan 0,5900an Karena Ketegangan Geopolitik Memicu Penghindaran Risiko - MEXC",
         "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8yUlN6Qlg2cklIU2REOU1CWlVrTkpKM0c4TmZ0R091eGxFbkNQWlA5YVRPMGVlRllnY3hSOUc5U0F6LWdZMk5CTg?oc=5",
@@ -1626,14 +1632,14 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Google News Geopolitik",
-        "title": "Dolar Selandia Baru tergelincir karena ketegangan AS-Iran mengangkat USD menjelang IHK AS - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNckZXdW5IdU51OUNxNmxaekdCS1YyelRnbGlWNkY3dmZRekN3T3JqdFJ2VTNNWTJIR2paSVZtajBDZFZFb0NJWmE5T3RJaGZsRHNPZkhfWVY5N3RUQnlOUFFQeTdyeWhWdEFtUHpsMzJQZmlmNGhqX3FPa2pfOFhIVDNxanRBM2c2XzNuUE94cHpXTnBRaldqdnI5QU0ydkFOOG8yWjN6ZUNUWTlRbjdjSW0yUnpiam9fS2U1RU93bnNaQmdJWFJLN0tsN3M?oc=5",
-        "summary": "New Zealand dollar slips as US-Iran tensions lift USD ahead of US CPI FXStreet",
-        "published": "12 May 2026 08:49 WIB",
-        "sentiment": "Bearish",
-        "score": -0.74,
-        "emoji": "🔴"
+        "source": "BBC World",
+        "title": "Satu dekade kemudian, Trump kembali ke Tiongkok yang lebih kuat dan tegas",
+        "url": "https://www.bbc.com/news/articles/cm2py6l78dxo?at_medium=RSS&at_campaign=rss",
+        "summary": "Beijing is arguably the most powerful competitor the US has confronted in its history, one analyst says.",
+        "published": "13 May 2026 05:07 WIB",
+        "sentiment": "Bullish",
+        "score": 0.519,
+        "emoji": "🟢"
       },
       {
         "source": "BBC World",
@@ -1647,12 +1653,12 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Trump mengatakan gencatan senjata Iran didasarkan pada 'dukungan kehidupan yang besar'",
-        "url": "https://www.bbc.com/news/articles/cvgznxn18zgo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president criticises an Iranian counteroffer to end the war, and says the month-long ceasefire is \"unbelievably weak\".",
-        "published": "12 May 2026 07:59 WIB",
+        "title": "'Kubah Emas' milik Trump akan menelan biaya $1,2 triliun dan mungkin tidak dapat menghentikan serangan rudal habis-habisan",
+        "url": "https://www.bbc.com/news/articles/cqxp27j1xyjo?at_medium=RSS&at_campaign=rss",
+        "summary": "That pricetag is nearly seven times higher than Trump's initial estimate, found an independent budget office.",
+        "published": "13 May 2026 08:59 WIB",
         "sentiment": "Bearish",
-        "score": -0.851,
+        "score": -0.459,
         "emoji": "🔴"
       },
       {
@@ -1663,16 +1669,6 @@ window.FK_DATA = {
         "published": "13 May 2026 03:00 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "BBC World",
-        "title": "Inflasi AS melonjak menjadi 3,8% karena melonjaknya biaya energi akibat perang Iran",
-        "url": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
-        "summary": "The key measure of US inflation rises its highest level since May 2023 as consumers feel the impact of the Iran war.",
-        "published": "13 May 2026 01:36 WIB",
-        "sentiment": "Bearish",
-        "score": -0.772,
         "emoji": "🔴"
       },
       {
@@ -1706,7 +1702,17 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "BBC World",
+        "source": "BBC Business",
+        "title": "Inflasi AS melonjak menjadi 3,8% karena melonjaknya biaya energi akibat perang Iran",
+        "url": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
+        "summary": "The key measure of US inflation rises its highest level since May 2023 as consumers feel the impact of the Iran war.",
+        "published": "13 May 2026 01:36 WIB",
+        "sentiment": "Bearish",
+        "score": -0.772,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC Business",
         "title": "Raksasa makanan ringan beralih ke kemasan hitam putih saat perang Iran menghantam pasokan tinta",
         "url": "https://www.bbc.com/news/articles/c78k405j8pdo?at_medium=RSS&at_campaign=rss",
         "summary": "The effective closure of the Strait of Hormuz has severely disrupted global supplies of energy and petrochemicals.",
@@ -1724,16 +1730,6 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.527,
         "emoji": "🔴"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Satu dekade kemudian, Trump akan kembali ke Tiongkok yang lebih kuat dan tegas",
-        "url": "https://www.bbc.com/news/articles/cm2py6l78dxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Beijing is arguably the most powerful competitor the US has confronted in its history, one analyst says.",
-        "published": "13 May 2026 05:07 WIB",
-        "sentiment": "Bullish",
-        "score": 0.519,
-        "emoji": "🟢"
       },
       {
         "source": "BBC Top Stories",
@@ -1757,6 +1753,16 @@ window.FK_DATA = {
       },
       {
         "source": "Al Jazeera",
+        "title": "Direktur FBI Kash Patel membalas tuduhan minuman keras",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/13/aje-onl-nf_clip_fbi-director-patel-fires-back-at-allegations-120526?traffic_source=rss",
+        "summary": "FBI Director Kash Patel and Senator Chris Van Hollen had a heated exchange during a Senate budget hearing.",
+        "published": "13 May 2026 08:46 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Al Jazeera",
         "title": "Perang Iran sedang berlangsung: Trump melakukan perjalanan ke Tiongkok saat konflik dengan Teheran semakin besar",
         "url": "https://www.aljazeera.com/news/liveblog/2026/5/13/iran-war-live-trump-travels-to-china-as-conflict-with-tehran-looms-large?traffic_source=rss",
         "summary": "Israeli attacks on Lebanon have killed 2,883 people and injured 8,787 since March 2, Lebanon's Health Ministry says.",
@@ -1777,12 +1783,12 @@ window.FK_DATA = {
       },
       {
         "source": "Al Jazeera",
-        "title": "Trump meremehkan perbedaan AS-Iran saat ia menuju ke Beijing untuk bertemu dengan Xi",
+        "title": "Trump mengatakan dia tidak memerlukan bantuan Xi dalam perang Iran saat dia menuju ke Tiongkok",
         "url": "https://www.aljazeera.com/news/2026/5/12/trump-downplays-us-iran-differences-as-he-heads-to-beijing-to-meet-with-xi?traffic_source=rss",
-        "summary": "Trump gives conflicting messages on prominence of Iran war in upcoming talks, with his administration emphasising trade.",
+        "summary": "Trump gives conflicting messages on prominence of Iran war in upcoming talks with China's Xi, emphasising trade.",
         "published": "13 May 2026 04:02 WIB",
         "sentiment": "Bearish",
-        "score": -0.925,
+        "score": -0.992,
         "emoji": "🔴"
       },
       {
@@ -1833,36 +1839,6 @@ window.FK_DATA = {
         "published": "13 May 2026 02:52 WIB",
         "sentiment": "Bearish",
         "score": -0.858,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Mengapa Iran semakin menargetkan UEA dalam pesan perangnya?",
-        "url": "https://www.aljazeera.com/news/2026/5/12/why-is-iran-increasingly-targeting-the-uae-in-its-war-messaging?traffic_source=rss",
-        "summary": "The UAE's close ties to the US and Israel have placed the Gulf country under Iranian suspicion.",
-        "published": "13 May 2026 02:37 WIB",
-        "sentiment": "Bearish",
-        "score": -0.918,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Ukraina menyerang fasilitas gas Rusia yang jauh setelah serangan Moskow menewaskan 6 orang",
-        "url": "https://www.aljazeera.com/news/2026/5/12/russia-ukraine-latest?traffic_source=rss",
-        "summary": "The attack comes in retaliation for the Russian attacks that killed at least six in Ukraine, according to the president.",
-        "published": "13 May 2026 02:36 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Macron mengumumkan investasi sebesar $27 miliar di Afrika, dan mendesak agar Eropa kembali bekerja sama",
-        "url": "https://www.aljazeera.com/video/2026/5/12/macron-unveils-27-billion-africa-investment-urges-reset-with-europe?traffic_source=rss",
-        "summary": "French President Emmanuel Macron, in Kenya for the Africa Forward summit, called for a ‘fundamental reset’ in Africa.",
-        "published": "13 May 2026 02:04 WIB",
-        "sentiment": "Bearish",
-        "score": -0.08,
         "emoji": "🔴"
       },
       {
@@ -1927,12 +1903,22 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Pasar Asia dibuka lebih rendah karena investor mengamati pertemuan Trump-Xi dan ketegangan Iran",
-        "url": "https://www.cnbc.com/2026/05/13/asia-markets-today-live-updates-nikkei-kospi-csi-300-hang-seng-trump-iran.html",
-        "summary": "Asian markets open broadly lower Wednesday as investors grappled with hotter-than-expected inflation, U.S.-Iran tensions and U.S.-China trade talks.",
-        "published": "13 May 2026 07:17 WIB",
+        "title": "Bagi eksportir Tiongkok, Iran khawatir akan melampaui kesengsaraan tarif ketika Trump dan Xi bersiap untuk bertemu",
+        "url": "https://www.cnbc.com/2026/05/13/trump-xi-summit-china-iran-war-tariffs.html",
+        "summary": "Heading into the summit, Beijing and Washington will likely reaffirm their shared intention to reopen the Strait of Hormuz and restore stability in the region.",
+        "published": "13 May 2026 08:14 WIB",
         "sentiment": "Bearish",
-        "score": -0.912,
+        "score": -0.273,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Pasar Asia beragam karena investor mengamati pertemuan Trump-Xi dan ketegangan Iran",
+        "url": "https://www.cnbc.com/2026/05/13/asia-markets-today-live-updates-nikkei-kospi-csi-300-hang-seng-trump-iran.html",
+        "summary": "Asian markets mixed on Wednesday as investors grappled with hotter-than-expected inflation, U.S.-Iran tensions and U.S.-China trade talks.",
+        "published": "13 May 2026 08:42 WIB",
+        "sentiment": "Bearish",
+        "score": -0.74,
         "emoji": "🔴"
       },
       {
@@ -1947,7 +1933,27 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Perusahaan-perusahaan besar di Asia yang bernilai triliunan dolar ini memberi kekuatan – dan mendistorsi – pasar saham yang tumbuh paling cepat",
+        "title": "CNBC Daily Open: Wall Street menghadapi musuh lamanya: Inflasi",
+        "url": "https://www.cnbc.com/2026/05/13/cnbc-daily-open-wall-street-meets-its-old-nemesis-inflation.html",
+        "summary": "March's inflation figures came in hotter than expected, raising the odds of a Fed rate hike and cooling Wall Street's record run.",
+        "published": "13 May 2026 08:13 WIB",
+        "sentiment": "Bullish",
+        "score": 0.08,
+        "emoji": "🟢"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Dibalik kinerja Big Oil di kuartal pertama: Masih tenangnya sektor perdagangan",
+        "url": "https://www.cnbc.com/2026/05/12/oil-energy-trading-iran-war-bp-shell.html",
+        "summary": "Europe's oil supermajors highlighted trading contributions as they reported stronger-than-expected profits through the first three months of the year.",
+        "published": "12 May 2026 21:05 WIB",
+        "sentiment": "Bullish",
+        "score": 0.6,
+        "emoji": "🟢"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Perusahaan-perusahaan raksasa di Asia yang bernilai triliunan dolar ini memberi kekuatan – dan mendistorsi – pasar saham yang tumbuh paling cepat di negara ini",
         "url": "https://www.cnbc.com/2026/05/12/tsmc-samsung-sk-hynixs-south-korea-taiwan-stocks-ai-chipmakers-concentration-risk.html",
         "summary": "Taiwan's Taiex and South Korea's Kospi stock markets have been seeing record breaking rallies. The stunning surge leaves experts wondering if this growth hinges largely on a few AI-linked semiconductor giants.",
         "published": "12 May 2026 11:43 WIB",
@@ -1976,38 +1982,8 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "CNBC World",
-        "title": "Dibalik kinerja Big Oil di kuartal pertama: Masih tenangnya sektor perdagangan",
-        "url": "https://www.cnbc.com/2026/05/12/oil-energy-trading-iran-war-bp-shell.html",
-        "summary": "Europe's oil supermajors highlighted trading contributions as they reported stronger-than-expected profits through the first three months of the year.",
-        "published": "12 May 2026 21:05 WIB",
-        "sentiment": "Bullish",
-        "score": 0.6,
-        "emoji": "🟢"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Inflasi India pada bulan April meningkat selama enam bulan berturut-turut, namun di bawah perkiraan",
-        "url": "https://www.cnbc.com/2026/05/12/india-april-inflation-rises-fuel-prices-rbi-growth-outlook.html",
-        "summary": "Disruptions from the Middle East conflict pose a risk to India's economic growth and inflation.",
-        "published": "12 May 2026 21:03 WIB",
-        "sentiment": "Bearish",
-        "score": -0.673,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Saham Eropa ditutup lebih rendah, sterling merosot karena gejolak politik Inggris",
-        "url": "https://www.cnbc.com/2026/05/12/europe-markets-stoxx-600-ftse-dax-cac-iran-news-oil-prices.html",
-        "summary": "European stocks were in negative territory as prospects for a speedy resolution to the U.S.-Iran war appear increasingly remote.",
-        "published": "12 May 2026 22:45 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
         "source": "CNBC Markets",
-        "title": "Bukan hanya Iran dan minyak yang meningkatkan inflasi. Harga juga meningkat kembali di wilayah lain",
+        "title": "Bukan hanya Iran dan minyak yang meningkatkan inflasi. Harga juga meningkat kembali di wilayah lain ini",
         "url": "https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html",
         "summary": "Here's some of the places where prices are rising fast for consumers.",
         "published": "13 May 2026 04:04 WIB",
@@ -2018,7 +1994,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "13 May 2026 07:38 WIB",
+    "generated": "13 May 2026 10:34 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -2026,53 +2002,93 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.442,
-        "count": 27
+        "score": -0.306,
+        "count": 25
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.458,
-        "count": 25
+        "score": -0.348,
+        "count": 22
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.575,
+        "score": -0.331,
         "count": 17
       },
       {
         "pair": "EUR/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.132,
-        "count": 13
+        "score": -0.165,
+        "count": 12
       },
       {
         "pair": "AUD/USD",
-        "direction": "Netral →",
-        "score": -0.046,
+        "direction": "Tekanan Turun ▼",
+        "score": -0.081,
         "count": 4
       },
       {
         "pair": "USD/CNY",
-        "direction": "Netral →",
-        "score": -0.046,
+        "direction": "Tekanan Turun ▼",
+        "score": -0.081,
         "count": 4
       },
       {
-        "pair": "CAD/JPY",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.361,
+        "pair": "EUR",
+        "direction": "Tekanan Naik ▲",
+        "score": 0.078,
         "count": 3
       },
       {
-        "pair": "NOK/SEK",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.361,
+        "pair": "GBP",
+        "direction": "Tekanan Naik ▲",
+        "score": 0.078,
         "count": 3
       }
     ],
     "items": [
+      {
+        "source": "ForexLive",
+        "title": "Iran membangun kembali akses ke 30 dari 33 situs rudal Hormuz, menurut penilaian AS",
+        "url": "https://investinglive.com/commodities/iran-rebuilds-access-to-30-of-33-hormuz-missile-sites-us-assessments-show-20260513/",
+        "summary": "Iran has restored operational access to 30 of its 33 Hormuz missile sites and retains 70% of its prewar missile stockpile, posing a continued threat to warships and oil tankers, US assessments show. Summary: US assessments reviewed by people with knowledge of the findings show Iran has restored oper",
+        "published": "13 May 2026 09:32 WIB",
+        "sentiment": "Bearish",
+        "score": -0.186,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Morgan Stanley menggambarkan empat skenario guncangan harga minyak, mulai dari kenaikan suku bunga The Fed hingga resesi global",
+        "url": "https://investinglive.com/commodities/morgan-stanley-maps-four-oil-shock-scenarios-from-fed-hikes-to-global-recession-20260513/",
+        "summary": "Morgan Stanley's base case is gradual Iran de-escalation and a patient Fed, but four alternate scenarios range from a 100bp rate hike to global recession triggered by $140-160 oil. Summary: Morgan Stanley's base case assumes gradual de-escalation of the Iran conflict, a short-lived headline inflatio",
+        "published": "13 May 2026 08:35 WIB",
+        "sentiment": "Bearish",
+        "score": -0.582,
+        "emoji": "🔴"
+      },
+      {
+        "source": "ForexLive",
+        "title": "PM Selandia Baru Luxon menjanjikan tanggung jawab fiskal...seperti yang Anda lakukan",
+        "url": "https://investinglive.com/news/nz-pm-luxon-promises-fiscal-responsibility-as-you-do-20260513/",
+        "summary": "New Zealand PM Luxon: Government committed to putting debt on a downward path towards 40% of GDP, returning to Obegalx surplus by FY 2028/29 Net operating spending on new initiatives will total NZ$2.1 bln, about NZ$300 mln less than set in December Global uncertainties reinforced importance of respo",
+        "published": "13 May 2026 08:09 WIB",
+        "sentiment": "Bullish",
+        "score": 0.477,
+        "emoji": "🟢"
+      },
+      {
+        "source": "ForexLive",
+        "title": "ICYMI - Iran memperketat cengkeraman Hormuz ketika Irak dan Pakistan mencapai kesepakatan transit bilateral",
+        "url": "https://investinglive.com/commodities/icymi-iran-tightens-hormuz-grip-as-iraq-and-pakistan-strike-bilateral-transit-deals-20260513/",
+        "summary": "Iraq and Pakistan have struck separate deals with Iran for oil and LNG passage through the Strait of Hormuz, as Tehran formalises control of the waterway with vessel traffic at 5% of pre-war levels. Reuters carried the report. Summary: Iraq secured Iranian approval for two very large crude carriers,",
+        "published": "13 May 2026 07:41 WIB",
+        "sentiment": "Bearish",
+        "score": -0.172,
+        "emoji": "🔴"
+      },
       {
         "source": "ForexLive",
         "title": "Inflasi AS yang tinggi menimbulkan kekhawatiran akan kenaikan suku bunga The Fed seiring dengan menyebarnya biaya energi",
@@ -2084,33 +2100,43 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "ForexLive",
-        "title": "India menaikkan tarif impor emas dan perak lebih dari dua kali lipat menjadi 15%, sebagai upaya untuk menopang rupee",
-        "url": "https://investinglive.com/centralbank/india-more-than-doubles-gold-and-silver-import-tariffs-to-15-effort-to-prop-up-the-rupee-20260512/",
-        "summary": "India has more than doubled import duties on gold and silver to 15%, aiming to narrow its trade deficit and support the rupee, but industry officials warn the move risks reviving smuggling networks. Summary: India raised import tariffs on gold and silver to 15% from 6%, comprising a 10% basic custom",
-        "published": "13 May 2026 04:40 WIB",
+        "source": "FXStreet News",
+        "title": "India menaikkan tarif impor Emas dan Perak menjadi 15% - Reuters",
+        "url": "https://www.fxstreet.com/news/india-raises-import-tariffs-on-gold-and-silver-to-15-reuters-202605130256",
+        "summary": "The Indian government has raised import tariffs on gold and silver to 15% from 6%, in an attempt to discourage the purchase of precious metals due to ease pressure on the nation’s foreign exchange reserves, Reuters reports.",
+        "published": "13 May 2026 09:56 WIB",
+        "sentiment": "Bullish",
+        "score": 0.296,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Luxon dari Selandia Baru mengatakan akan memangkas belanja baru, tetap pada jalur surplus di tengah ketidakpastian",
+        "url": "https://www.fxstreet.com/news/new-zealands-luxon-says-will-trim-new-spending-stick-to-surplus-path-amid-uncertainty-202605130123",
+        "summary": "New Zealand's Prime Minister Christopher Luxon said that global uncertainties from the Middle East conflict reinforced the need for responsible economic management and fiscal discipline, Reuters reported on Wednesday.",
+        "published": "13 May 2026 08:23 WIB",
         "sentiment": "Bearish",
-        "score": -0.973,
+        "score": -0.666,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Minyak - survei persediaan swasta menunjukkan penurunan minyak mentah kurang dari yang diharapkan",
-        "url": "https://investinglive.com/commodities/oil-private-survey-of-inventory-shows-a-headline-crude-oil-draw-just-less-than-expected-20260512/",
-        "summary": "Via telegram sources: Crude prices advanced steadily through Tuesday's session as tensions between the United States and Iran showed little sign of easing, though the market's attention is already shifting toward Trump's planned visit to China on Wednesday. Middle East developments continued to gene",
-        "published": "13 May 2026 03:46 WIB",
+        "source": "FXStreet News",
+        "title": "Dolar Kanada datar di dekat 1,3700 di tengah panasnya inflasi IHK AS dan ketegangan AS-Iran",
+        "url": "https://www.fxstreet.com/news/canadian-dollar-flat-lines-near-13700-amid-hot-us-cpi-inflation-us-iran-tensions-202605130116",
+        "summary": "The USD/CAD pair trades on a flat note near 1.3695 during the early Asian trading hours on Wednesday. Traders continue to assess hot US inflation data and ongoing tensions in the Middle East. The US April Producer Price Index (PPI) report will take center stage later on Wednesday.",
+        "published": "13 May 2026 08:16 WIB",
         "sentiment": "Bearish",
-        "score": -0.917,
+        "score": -0.74,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Trump News: Tidak membutuhkan bantuan Xi terhadap Iran",
-        "url": "https://investinglive.com/news/trump-news-does-not-need-xi-help-on-iran-20260512/",
-        "summary": "Pres. Trump speaking to reporters before heading off to China, is saying: Will have long talk with he about the Iran war. Don't think you need Xi's help on Iran The blockade has been 100% successful You are going to have s gusher of oil If you look back 3-4 months ago, you would think oil would be m",
-        "published": "13 May 2026 00:57 WIB",
+        "source": "FXStreet News",
+        "title": "Presiden AS Donald Trump mengatakan perdagangan akan menjadi prioritas dalam pertemuan puncak dengan Xi, bukan Iran",
+        "url": "https://www.fxstreet.com/news/us-president-donald-trump-says-trade-will-be-priority-in-summit-with-xi-not-iran-202605130043",
+        "summary": "US President Donald Trump said that he would prioritize trade discussions during his summit with Chinese President Xi Jinping and downplayed the amount of attention they would devote to the Iran war, Bloomberg reported on Tuesday.",
+        "published": "13 May 2026 07:43 WIB",
         "sentiment": "Bearish",
-        "score": -0.549,
+        "score": -0.441,
         "emoji": "🔴"
       },
       {
@@ -2124,93 +2150,63 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "Perkiraan Harga USD/JPY: Pembeli bergerak saat pasangan ini memantul menuju 158,00",
-        "url": "https://www.fxstreet.com/news/usd-jpy-price-forecast-bulls-move-in-as-pair-bounces-toward-15800-202605122231",
-        "summary": "USD/JPY recovers some ground and rallies towards a daily four-day high near 157.80 as traders digest comments from US Treasury Secretary Scott Bessent on undesirable volatility in the FX space, prompting a Yen buy. At the time of writing, the pair is up by over 0.30%.",
-        "published": "13 May 2026 05:31 WIB",
+        "source": "Bloomberg Markets",
+        "title": "MSCI Memotong Saham-Saham yang Terkait dengan Indeks Terkaya di Indonesia",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/msci-removes-stocks-linked-to-indonesia-s-richest-from-indexes",
+        "summary": "MSCI Inc. removed some Indonesian stocks linked to the country’s richest billionaires from its indexes, following through on a warning last month that it will exclude companies with concentrated ownership. The shares fell.",
+        "published": "13 May 2026 04:38 WIB",
+        "sentiment": "Bullish",
+        "score": 0.462,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Tembaga Naik Menuju Rekor Tertinggi seiring Meningkatnya Pasokan Global",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/copper-climbs-toward-record-high-as-global-supply-tightens",
+        "summary": "Copper extended gains above $14,000 a ton, inching toward a record high seen earlier this year, as supply risks mount on mine disruptions around the world.",
+        "published": "13 May 2026 10:08 WIB",
         "sentiment": "Bearish",
         "score": -0.353,
         "emoji": "🔴"
       },
       {
-        "source": "FXStreet News",
-        "title": "Ringgit Malaysia: Kisarannya bertahan karena Malaysia unggul – Commerzbank",
-        "url": "https://www.fxstreet.com/news/malaysian-ringgit-range-holds-as-malaysia-outperforms-commerzbank-202605122139",
-        "summary": "Commerzbank strategists note that USD/MYR has remained in a 3.90–4.05 range since the Middle East conflict began. Malaysia’s March industrial production grew 3.1% year-on-year, supported by strong manufacturing and electronics despite weaker mining.",
-        "published": "13 May 2026 04:39 WIB",
-        "sentiment": "Bullish",
-        "score": 0.611,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Eropa: Ekspor ke AS Anjlok dan Risiko Tarif – Standard Chartered",
-        "url": "https://www.fxstreet.com/news/europe-export-to-us-slump-and-tariff-risks-standard-chartered-202605122051",
-        "summary": "Standard Chartered’s Christopher Graham notes that European Union (EU) exports to the United States (US) are now contracting at rates comparable to COVID and GFC (Great Financial Crisis) periods, potentially reflecting both prior export frontloading and emerging structural weakness.",
-        "published": "13 May 2026 03:51 WIB",
-        "sentiment": "Bearish",
-        "score": -0.513,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Forex Hari Ini: IHK AS yang panas meningkatkan Dolar AS karena imbal hasil Treasury naik",
-        "url": "https://www.fxstreet.com/news/forex-today-hot-us-cpi-boosts-us-dollar-as-treasury-yields-climb-202605121946",
-        "summary": "The US Dollar Index (DXY) rallied toward the 98.30 region on Tuesday as hotter-than-expected United States (US) inflation data boosted Treasury yields and reinforced expectations that the Federal Reserve (Fed) may keep interest rates elevated for longer.",
-        "published": "13 May 2026 02:46 WIB",
-        "sentiment": "Bullish",
-        "score": 0.792,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Fed: Sikap Netral Saat Inflasi Stabil – TD Securities",
-        "url": "https://www.fxstreet.com/news/fed-neutral-stance-as-inflation-stabilizes-td-securities-202605121940",
-        "summary": "TD Securities economists judge that April Consumer Price Index (CPI) strength was driven by shelter and energy, but see core Personal Consumption Expenditures (PCE) Price Index running softer than CPI. They argue tariff pass-through is fading and supercore PCE should ease.",
-        "published": "13 May 2026 02:40 WIB",
-        "sentiment": "Bullish",
-        "score": 0.612,
-        "emoji": "🟢"
-      },
-      {
         "source": "Bloomberg Markets",
-        "title": "Minyak Stabil Setelah Kenaikan Tiga Hari Karena Aliran Iran Tertekan",
+        "title": "Minyak Turun Setelah Kenaikan Tiga Hari Dengan Kebuntuan Pembicaraan Damai Iran",
         "url": "https://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13",
-        "summary": "Oil steadied after rising almost 8% over the past three sessions as a resolution to the Middle East conflict remains elusive, with Iranian exports showing further strain from a US Naval blockade of the Strait of Hormuz.",
+        "summary": "Oil slipped after rising almost 8% over the past three sessions as a resolution to the Middle East conflict remains elusive, with Iranian exports showing further strain from a US Naval blockade of the Strait of Hormuz.",
         "published": "13 May 2026 05:03 WIB",
         "sentiment": "Bullish",
-        "score": 0.178,
+        "score": 0.66,
         "emoji": "🟢"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Trump Menghadapi Xi yang Berani di Tiongkok",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-13/trump-faces-emboldened-xi-in-china-video",
-        "summary": "Donald Trump is expecting economic deals and a “wild” welcome this week in China. He’ll arrive facing an emboldened Xi Jinping, just as his own hand is constrained by the conflict in Iran. Bloomberg's Stephen Engle breaks down what is at stake. (Source: Bloomberg)",
-        "published": "13 May 2026 07:30 WIB",
+        "title": "Eve Energy Tiongkok Menandatangani Kesepakatan Baterai dengan Godawari dari India",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/china-s-eve-energy-signs-battery-deal-with-india-s-godawari",
+        "summary": "China’s Eve Energy Co. agreed to supply India’s Godawari New Energy Private Ltd. with large-scale batteries, as a rapid renewable power expansion drives demand for energy storage in the South Asian nation.",
+        "published": "13 May 2026 09:47 WIB",
         "sentiment": "Bullish",
-        "score": 0.542,
+        "score": 0.871,
         "emoji": "🟢"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Saham Asia Mengikuti Penurunan Wall Street karena IHK AS: Penutupan Pasar",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/asian-stocks-under-pressure-as-us-inflation-rises-markets-wrap",
-        "summary": "Asian stocks dropped following losses on Wall Street as US inflation quickened, showing the impact of higher oil prices since the war in Iran started.",
-        "published": "13 May 2026 05:08 WIB",
+        "title": "India Lebih dari Dua Kali Lipat Tarif Emas dan Perak untuk Mempertahankan Rupee",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/india-hikes-gold-and-silver-import-tariffs-to-protect-economy",
+        "summary": "India has raised import tariffs on gold and silver in an attempt to defend its currency, a surprise move as the country races to limit the damage from the Middle East war and to shore up foreign-exchange reserves.",
+        "published": "13 May 2026 08:47 WIB",
         "sentiment": "Bearish",
-        "score": -0.992,
+        "score": -0.798,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Pandangan Makro “Jauh Lebih Tidak Pasti”, Kata Aus. Bendahara",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-12/macro-outlook-much-more-uncertain-says-aus-treasurer-video",
-        "summary": "The macroeconomic outlook is “much more uncertain” with oil prices expected to remain elevated for some time yet and a slowdown in global growth, says Australian Treasurer Jim Chalmers in budget speech. (Source: Bloomberg)",
-        "published": "13 May 2026 06:05 WIB",
+        "title": "Imbal Hasil Obligasi Patokan Korea Mencapai 4% seiring Meningkatnya Taruhan Kenaikan Suku Bunga",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/korea-benchmark-bond-yield-tops-4-as-rate-hike-bets-grow",
+        "summary": "South Korea’s 10-year bond yield rose above 4% for the first time since late 2023, as an oil shock tied to the Iran conflict leads traders to expect bigger interest rate hikes.",
+        "published": "12 May 2026 16:51 WIB",
         "sentiment": "Bullish",
-        "score": 0.637,
+        "score": 0.34,
         "emoji": "🟢"
       },
       {
@@ -2221,16 +2217,6 @@ window.FK_DATA = {
         "published": "12 May 2026 12:03 WIB",
         "sentiment": "Bearish",
         "score": -0.932,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Google News Geopolitik",
-        "title": "Dolar Selandia Baru mengecewakan karena ketegangan AS-Iran mengangkat USD menjelang IHK AS - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNckZXdW5IdU51OUNxNmxaekdCS1YyelRnbGlWNkY3dmZRekN3T3JqdFJ2VTNNWTJIR2paSVZtajBDZFZFb0NJWmE5T3RJaGZsRHNPZkhfWVY5N3RUQnlOUFFQeTdyeWhWdEFtUHpsMzJQZmlmNGhqX3FPa2pfOFhIVDNxanRBM2c2XzNuUE94cHpXTnBRaldqdnI5QU0ydkFOOG8yWjN6ZUNUWTlRbjdjSW0yUnpiam9fS2U1RU93bnNaQmdJWFJLN0tsN3M?oc=5",
-        "summary": "New Zealand dollar slips as US-Iran tensions lift USD ahead of US CPI FXStreet",
-        "published": "12 May 2026 08:49 WIB",
-        "sentiment": "Bearish",
-        "score": -0.482,
         "emoji": "🔴"
       },
       {
@@ -2245,32 +2231,12 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Trump mengatakan gencatan senjata Iran didasarkan pada 'dukungan kehidupan yang besar'",
-        "url": "https://www.bbc.com/news/articles/cvgznxn18zgo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president criticises an Iranian counteroffer to end the war, and says the month-long ceasefire is \"unbelievably weak\".",
-        "published": "12 May 2026 07:59 WIB",
-        "sentiment": "Bearish",
-        "score": -0.851,
-        "emoji": "🔴"
-      },
-      {
-        "source": "BBC World",
         "title": "Lebanon mengatakan dua paramedis di antara 13 orang yang tewas dalam serangan Israel",
         "url": "https://www.bbc.com/news/articles/cx21j3xl72zo?at_medium=RSS&at_campaign=rss",
         "summary": "Lebanon's health ministry says the paramedics were carrying out a rescue mission in Nabatieh in response to an earlier attack that killed one person.",
         "published": "13 May 2026 03:00 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "BBC World",
-        "title": "Inflasi AS melonjak menjadi 3,8% karena melonjaknya biaya energi akibat perang Iran",
-        "url": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
-        "summary": "The key measure of US inflation rises its highest level since May 2023 as consumers feel the impact of the Iran war.",
-        "published": "13 May 2026 01:36 WIB",
-        "sentiment": "Bearish",
-        "score": -0.772,
         "emoji": "🔴"
       },
       {
@@ -2294,6 +2260,26 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
+        "source": "BBC Business",
+        "title": "Inflasi AS melonjak menjadi 3,8% karena melonjaknya biaya energi akibat perang Iran",
+        "url": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
+        "summary": "The key measure of US inflation rises its highest level since May 2023 as consumers feel the impact of the Iran war.",
+        "published": "13 May 2026 01:36 WIB",
+        "sentiment": "Bearish",
+        "score": -0.772,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Direktur FBI Kash Patel membalas tuduhan minuman keras",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/13/aje-onl-nf_clip_fbi-director-patel-fires-back-at-allegations-120526?traffic_source=rss",
+        "summary": "FBI Director Kash Patel and Senator Chris Van Hollen had a heated exchange during a Senate budget hearing.",
+        "published": "13 May 2026 08:46 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
         "source": "Al Jazeera",
         "title": "Perang Iran sedang berlangsung: Trump melakukan perjalanan ke Tiongkok saat konflik dengan Teheran semakin besar",
         "url": "https://www.aljazeera.com/news/liveblog/2026/5/13/iran-war-live-trump-travels-to-china-as-conflict-with-tehran-looms-large?traffic_source=rss",
@@ -2305,12 +2291,12 @@ window.FK_DATA = {
       },
       {
         "source": "Al Jazeera",
-        "title": "Trump meremehkan perbedaan AS-Iran saat ia menuju ke Beijing untuk bertemu dengan Xi",
+        "title": "Trump mengatakan dia tidak memerlukan bantuan Xi dalam perang Iran saat dia menuju ke Tiongkok",
         "url": "https://www.aljazeera.com/news/2026/5/12/trump-downplays-us-iran-differences-as-he-heads-to-beijing-to-meet-with-xi?traffic_source=rss",
-        "summary": "Trump gives conflicting messages on prominence of Iran war in upcoming talks, with his administration emphasising trade.",
+        "summary": "Trump gives conflicting messages on prominence of Iran war in upcoming talks with China's Xi, emphasising trade.",
         "published": "13 May 2026 04:02 WIB",
         "sentiment": "Bearish",
-        "score": -0.925,
+        "score": -0.992,
         "emoji": "🔴"
       },
       {
@@ -2354,26 +2340,6 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Ukraina menyerang fasilitas gas Rusia yang jauh setelah serangan Moskow menewaskan 6 orang",
-        "url": "https://www.aljazeera.com/news/2026/5/12/russia-ukraine-latest?traffic_source=rss",
-        "summary": "The attack comes in retaliation for the Russian attacks that killed at least six in Ukraine, according to the president.",
-        "published": "13 May 2026 02:36 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Macron mengumumkan investasi sebesar $27 miliar di Afrika, dan mendesak agar Eropa kembali bekerja sama",
-        "url": "https://www.aljazeera.com/video/2026/5/12/macron-unveils-27-billion-africa-investment-urges-reset-with-europe?traffic_source=rss",
-        "summary": "French President Emmanuel Macron, in Kenya for the Africa Forward summit, called for a ‘fundamental reset’ in Africa.",
-        "published": "13 May 2026 02:04 WIB",
-        "sentiment": "Bearish",
-        "score": -0.08,
-        "emoji": "🔴"
-      },
-      {
         "source": "MarketWatch",
         "title": "Pakaian baru saja mengalami lonjakan harga terbesar dalam tiga tahun. Berapa banyak lagi yang harus dibayar pembeli?",
         "url": "https://www.marketwatch.com/story/clothes-just-saw-the-biggest-price-jump-in-three-years-how-much-more-will-shoppers-pay-4aba43d7?mod=mw_rss_topstories",
@@ -2395,12 +2361,12 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Pasar Asia dibuka lebih rendah karena investor mengamati pertemuan Trump-Xi dan ketegangan Iran",
+        "title": "Pasar Asia beragam karena investor mengamati pertemuan Trump-Xi dan ketegangan Iran",
         "url": "https://www.cnbc.com/2026/05/13/asia-markets-today-live-updates-nikkei-kospi-csi-300-hang-seng-trump-iran.html",
-        "summary": "Asian markets open broadly lower Wednesday as investors grappled with hotter-than-expected inflation, U.S.-Iran tensions and U.S.-China trade talks.",
-        "published": "13 May 2026 07:17 WIB",
+        "summary": "Asian markets mixed on Wednesday as investors grappled with hotter-than-expected inflation, U.S.-Iran tensions and U.S.-China trade talks.",
+        "published": "13 May 2026 08:42 WIB",
         "sentiment": "Bearish",
-        "score": -0.912,
+        "score": -0.74,
         "emoji": "🔴"
       },
       {
@@ -2432,40 +2398,140 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.729,
         "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Inflasi India pada bulan April meningkat selama enam bulan berturut-turut, namun di bawah perkiraan",
-        "url": "https://www.cnbc.com/2026/05/12/india-april-inflation-rises-fuel-prices-rbi-growth-outlook.html",
-        "summary": "Disruptions from the Middle East conflict pose a risk to India's economic growth and inflation.",
-        "published": "12 May 2026 21:03 WIB",
-        "sentiment": "Bearish",
-        "score": -0.673,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Saham Eropa ditutup lebih rendah, sterling merosot karena gejolak politik Inggris",
-        "url": "https://www.cnbc.com/2026/05/12/europe-markets-stoxx-600-ftse-dax-cac-iran-news-oil-prices.html",
-        "summary": "European stocks were in negative territory as prospects for a speedy resolution to the U.S.-Iran war appear increasingly remote.",
-        "published": "12 May 2026 22:45 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
       }
     ]
   },
   "fj_live": {
-    "generated": "13 May 2026 07:38 WIB",
+    "generated": "13 May 2026 10:34 WIB",
     "summary": {
-      "total": 27,
-      "bullish": 5,
-      "bearish": 6,
-      "netral": 16,
-      "avg_score": 0.0101,
-      "overall": "Netral"
+      "total": 34,
+      "bullish": 8,
+      "bearish": 5,
+      "netral": 21,
+      "avg_score": 0.0686,
+      "overall": "Bullish"
     },
     "items": [
+      {
+        "source": "FinancialJuice",
+        "title": "Perak berjangka India melonjak 6% menjadi 295.805 rupee per kg setelah pemerintah menaikkan tarif impor",
+        "url": "https://www.financialjuice.com/News/9582899/India-silver-futures-surge-6-to-295805-rupees-per-kg-after-government-hikes-import-tariff.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 10:32 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Emas berjangka India melonjak 6% menjadi 162.648 rupee per 10 gram karena pemerintah menaikkan tarif impor",
+        "url": "https://www.financialjuice.com/News/9582898/Indian-gold-futures-surge-6-to-162648-rupees-per-10-grams-as-government-hikes-import-tariff.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 10:31 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Wakil Perdana Menteri Tiongkok He Lifeng kembali ke bandara Incheon Korea Selatan menjelang pertemuan yang diantisipasi dengan Menteri Keuangan AS Bessent - sumber saksi",
+        "url": "https://www.financialjuice.com/News/9582897/Chinese-Vice-Premier-He-Lifeng-returns-to-South-Koreas-Incheon-airport-ahead-of-anticipated-meeting-with-US-Treasury-Secretary-Bessent---source-witness.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 10:26 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Jumlah uang beredar di Korea Selatan pada bulan Maret naik 7,2% tahun/tahun vs 8,2% pada bulan Februari: bank sentral",
+        "url": "https://www.financialjuice.com/News/9582870/SKorea-March-broad-money-supply-up-72-yy-vs-82-in-Feb-central-bank.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 10:00 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Menteri Keuangan AS Bessent kembali ke Bandara Incheon Korea Selatan menjelang pembicaraan yang diantisipasi dengan Wakil Perdana Menteri Tiongkok He Lifeng: sumber saksi",
+        "url": "https://www.financialjuice.com/News/9582867/US-Treasury-Secretary-Bessent-returns-to-South-Koreas-Incheon-Airport-ahead-of-anticipated-talks-with-Chinese-Vice-Premier-He-Lifeng-source-witness.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 09:53 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Sekretaris Jenderal OECD: strategi terbaik adalah menawarkan bantuan fiskal kepada rumah tangga berpendapatan rendah",
+        "url": "https://www.financialjuice.com/News/9582833/OECD-secretary-general-best-strategy-is-to-offer-fiscal-aid-to-low-income-households.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 09:24 WIB",
+        "sentiment": "Bearish",
+        "score": -0.08,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "OECD: BOJ diperkirakan akan menaikkan suku bunga kebijakan jangka pendek menjadi 2% pada akhir tahun 2027",
+        "url": "https://www.financialjuice.com/News/9582727/OECD-BOJ-expected-to-lift-short-term-policy-rate-to-2-by-late-2027.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 09:00 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "OECD: BoJ harus bersiap untuk menyesuaikan kecepatan dan durasi pembelian obligasi di tengah gejolak pasar keuangan atau obligasi",
+        "url": "https://www.financialjuice.com/News/9582725/OECD-BoJ-should-be-prepared-to-adjust-speed-and-duration-of-bond-purchases-amid-financial-or-bond-market-turmoil.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 09:00 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Bank sentral Korea Selatan menjual obligasi stabilisasi moneter 1 tahun dengan imbal hasil 2,900%.",
+        "url": "https://www.financialjuice.com/News/9582705/SKorea-central-bank-sells-1-year-monetary-stabilization-bonds-at-2900-yield.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 08:40 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "C.bank Tiongkok menyuntikkan 500 juta yuan melalui reverse repo 7 hari pada 1,40% vs sebelumnya 1,40%: pernyataan",
+        "url": "https://www.financialjuice.com/News/9582670/China-cbank-injects-500-mln-yuan-through-7-day-reverse-repos-at-140-vs-prior-140-statement.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 08:21 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PM Selandia Baru Luxon: pemerintah berkomitmen untuk mengurangi utang hingga 40% dari PDB, kembali ke surplus fiskal pada tahun 2028/29",
+        "url": "https://www.financialjuice.com/News/9582659/New-Zealand-PM-Luxon-government-committed-to-reducing-debt-to-40-of-GDP-returning-to-fiscal-surplus-by-202829.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 08:04 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "PM Selandia Baru Luxon: Ketidakpastian global memperkuat perlunya manajemen ekonomi yang bijaksana dan disiplin fiskal",
+        "url": "https://www.financialjuice.com/News/9582657/New-Zealand-PM-Luxon-Global-uncertainties-reinforce-need-for-prudent-economic-management-and-fiscal-discipline.aspx?xy=rss",
+        "summary": "",
+        "published": "13 May 2026 08:04 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
       {
         "source": "FinancialJuice",
         "title": "PBOC Tiongkok kemungkinan akan menetapkan nilai tukar referensi yuan pada 6,7946 per dolar: Perkiraan",
@@ -2547,94 +2613,44 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "FinancialJuice",
-        "title": "Arab Saudi melakukan serangan balasan yang tidak dipublikasikan terhadap Iran selama perang - menurut empat orang yang mengetahui masalah tersebut",
-        "url": "https://www.financialjuice.com/News/9582143/Saudi-Arabia-carried-out-unpublicized-retaliatory-strikes-on-Iran-during-the-war---according-to-four-people-familiar-with-the-matter-.aspx?xy=rss",
-        "summary": "",
-        "published": "13 May 2026 01:03 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Pengadilan banding sedang mempertimbangkan upaya AS untuk menunda keputusan tarif lebih lama.",
-        "url": "https://www.financialjuice.com/News/9582088/The-appeals-court-is-weighing-a-US-bid-for-a-longer-pause-on-the-tariff-ruling.aspx?xy=rss",
-        "summary": "",
-        "published": "13 May 2026 00:45 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Nagel, ECB: Kenaikan suku bunga ECB Semakin Mungkin Terjadi - HB",
-        "url": "https://www.financialjuice.com/News/9582078/ECBs-Nagel-ECB-rate-hikes-are-becoming-increasingly-likely---HB.aspx?xy=rss",
-        "summary": "",
-        "published": "13 May 2026 00:36 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Goolsbee, Fed: Laporan IHK memberi tahu kita bahwa tidak banyak hal yang baik.",
-        "url": "https://www.financialjuice.com/News/9582036/Feds-Goolsbee-CPI-report-tells-us-not-much-thats-good.aspx?xy=rss",
-        "summary": "",
-        "published": "13 May 2026 00:20 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Pengadilan banding AS untuk sementara menghentikan keputusan pengadilan perdagangan yang menentang tarif 10% Trump berdasarkan pasal 122.",
-        "url": "https://www.financialjuice.com/News/9581990/The-US-appeals-court-temporarily-pauses-the-trade-court-ruling-against-Trumps-10-tariffs-under-section-122.aspx?xy=rss",
-        "summary": "",
-        "published": "13 May 2026 00:14 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Surat Utang 10 Tahun AS, Imbal Hasil Tinggi, Realisasi 4,468% (Perkiraan -, Sebelumnya 4,282%)",
-        "url": "https://www.financialjuice.com/News/9581985/US-10-Year-Note-High-Yield-Actual-4468-Forecast---Previous-4282.aspx?xy=rss",
-        "summary": "",
-        "published": "13 May 2026 00:02 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Treasury WI 10Y menghasilkan 4,464% sebelum lelang $42 miliar",
-        "url": "https://www.financialjuice.com/News/9581976/Treasury-WI-10Y-yield-4464-before-42-billion-auction.aspx?xy=rss",
-        "summary": "",
-        "published": "13 May 2026 00:00 WIB",
+        "source": "ForexLive",
+        "title": "Ketua OECD mendukung reformasi BoJ dan mencakup seluruh perdagangan menjelang perundingan Trump-Xi",
+        "url": "https://investinglive.com/news/oecd-chief-backs-boj-path-and-calls-for-trade-reform-ahead-of-trump-xi-talks-20260513/",
+        "summary": "The OECD secretary-general said the BOJ is not clearly behind the curve on rates and called for reform of international trading rules, describing the upcoming Trump-Xi summit as an important part of that process. Summary: The BOJ is not considered clearly behind the curve on monetary policy, with in",
+        "published": "13 May 2026 09:58 WIB",
         "sentiment": "Bullish",
-        "score": 0.202,
+        "score": 0.174,
         "emoji": "🟢"
       },
       {
-        "source": "FinancialJuice",
-        "title": "Tawaran The Fed untuk obligasi 10 tahun berjumlah $10 miliar.",
-        "url": "https://www.financialjuice.com/News/9581956/Fed-bids-for-10-year-notes-total-10-bln.aspx?xy=rss",
-        "summary": "",
-        "published": "12 May 2026 23:45 WIB",
+        "source": "ForexLive",
+        "title": "OECD melihat BOJ menaikkan suku bunga menjadi 2% pada akhir tahun 2027 seiring keluarnya Jepang dari era deflasi",
+        "url": "https://investinglive.com/centralbank/oecd-sees-boj-hiking-rates-to-2-by-end-2027-as-japan-exits-deflation-era-20260513/",
+        "summary": "The OECD projects the Bank of Japan will raise its policy rate to 2% by end-2027 from 0.75% currently, backing continued hikes on solid wage growth and a closed output gap. Summary: The OECD projects the Bank of Japan will raise its short-term policy rate to 2% by the end of 2027, up from the curren",
+        "published": "13 May 2026 09:15 WIB",
+        "sentiment": "Bullish",
+        "score": 0.912,
+        "emoji": "🟢"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Morgan Stanley menggambarkan empat skenario guncangan harga minyak, mulai dari kenaikan suku bunga The Fed hingga resesi global",
+        "url": "https://investinglive.com/commodities/morgan-stanley-maps-four-oil-shock-scenarios-from-fed-hikes-to-global-recession-20260513/",
+        "summary": "Morgan Stanley's base case is gradual Iran de-escalation and a patient Fed, but four alternate scenarios range from a 100bp rate hike to global recession triggered by $140-160 oil. Summary: Morgan Stanley's base case assumes gradual de-escalation of the Iran conflict, a short-lived headline inflatio",
+        "published": "13 May 2026 08:35 WIB",
         "sentiment": "Bearish",
-        "score": -0.08,
+        "score": -0.582,
         "emoji": "🔴"
       },
       {
-        "source": "FinancialJuice",
-        "title": "Senat AS mengukuhkan Kevin Warsh sebagai Gubernur Federal Reserve.",
-        "url": "https://www.financialjuice.com/News/9581931/US-Senate-confirms-Kevin-Warsh-to-be-Federal-Reserve-Governor.aspx?xy=rss",
-        "summary": "",
-        "published": "12 May 2026 23:29 WIB",
-        "sentiment": "Bearish",
-        "score": -0.08,
-        "emoji": "🔴"
+        "source": "ForexLive",
+        "title": "PBOC menetapkan kurs referensi USD/CNY untuk hari ini di 6,8431 (vs perkiraan di 6,7946)",
+        "url": "https://investinglive.com/centralbank/pboc-sets-usd-cny-reference-rate-for-today-at-68431-vs-estimate-at-67946-20260513/",
+        "summary": "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. Injects 500mn yuan via 7-day reverse repos in open market operates today. Unchanged rate of 1.4%. This article was written by Eamonn Sheridan at investinglive.com.",
+        "published": "13 May 2026 08:15 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
       },
       {
         "source": "ForexLive",
@@ -2658,6 +2674,46 @@ window.FK_DATA = {
       },
       {
         "source": "FXStreet News",
+        "title": "Pound Inggris tampaknya rentan mendekati level terendah dua pekan vs USD; GBP/USD bertahan di atas 1,3500",
+        "url": "https://www.fxstreet.com/news/british-pound-seems-vulnerable-near-two-week-low-vs-usd-gbp-usd-holds-above-13500-202605130256",
+        "summary": "The GBP/USD pair struggles to capitalize on the previous day's late bounce from the 1.3500 psychological mark, or a nearly two-week low, and oscillates in a narrow band during the Asian session on Wednesday.",
+        "published": "13 May 2026 09:56 WIB",
+        "sentiment": "Bearish",
+        "score": -0.557,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Yen Jepang tetap lemah meskipun ada nada hawkish seputar prospek kebijakan BoJ",
+        "url": "https://www.fxstreet.com/news/japanese-yen-remains-subdued-despite-hawkish-tone-surrounding-bojs-policy-outlook-202605130232",
+        "summary": "USD/JPY extends its gains for the third successive day, trading around 157.70 during the Asian hours on Wednesday.",
+        "published": "13 May 2026 09:32 WIB",
+        "sentiment": "Bullish",
+        "score": 0.772,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "OECD memproyeksikan BoJ menaikkan suku bunga menjadi 2% pada akhir tahun 2027",
+        "url": "https://www.fxstreet.com/news/oecd-projects-boj-hiking-rates-to-2-by-end-2027-202605130230",
+        "summary": "The Organization for Economic Co-operation and Development (OECD) projected the Bank of Japan (BoJ) will raise its policy rate to 2.0% by end-2027 from 0.75% currently, supported by higher inflation expectations, solid wage growth and a closed output gap.",
+        "published": "13 May 2026 09:30 WIB",
+        "sentiment": "Bullish",
+        "score": 0.75,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Perkiraan Harga Perak: XAG/USD naik mendekati $87,00 karena meningkatnya permintaan industri",
+        "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-rises-to-near-8700-on-rising-industrial-demand-202605130157",
+        "summary": "Silver price (XAG/USD) continues its winning streak for the sixth successive day, trading around $86.80 per troy ounce during the Asian hours on Wednesday.",
+        "published": "13 May 2026 08:57 WIB",
+        "sentiment": "Bullish",
+        "score": 0.67,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
         "title": "Pound Sterling kecewa setelah IHK AS yang panas dengan PPI masih unggul",
         "url": "https://www.fxstreet.com/news/pound-sterling-slipped-after-hot-us-cpi-with-ppi-still-ahead-202605122259",
         "summary": "GBP/USD lost about 0.7% on Tuesday, sliding from prior session highs near 1.3650 to test the 1.3500 round figure before a modest late-session rebound.",
@@ -2667,36 +2723,6 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "FXStreet News",
-        "title": "Perkiraan Harga USD/JPY: Pembeli bergerak saat pasangan ini memantul menuju 158,00",
-        "url": "https://www.fxstreet.com/news/usd-jpy-price-forecast-bulls-move-in-as-pair-bounces-toward-15800-202605122231",
-        "summary": "USD/JPY recovers some ground and rallies towards a daily four-day high near 157.80 as traders digest comments from US Treasury Secretary Scott Bessent on undesirable volatility in the FX space, prompting a Yen buy. At the time of writing, the pair is up by over 0.30%.",
-        "published": "13 May 2026 05:31 WIB",
-        "sentiment": "Bearish",
-        "score": -0.353,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dolar Australia mengurangi kerugian pasca-CPI karena anggaran Chalmers menjawab guncangan minyak",
-        "url": "https://www.fxstreet.com/news/australian-dollar-pared-post-cpi-losses-as-chalmers-budget-answered-the-oil-shock-202605122210",
-        "summary": "AUD/USD swung in a choppy intraday range on Tuesday before settling little changed for the session.",
-        "published": "13 May 2026 05:10 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Forex Hari Ini: IHK AS yang panas meningkatkan Dolar AS karena imbal hasil Treasury naik",
-        "url": "https://www.fxstreet.com/news/forex-today-hot-us-cpi-boosts-us-dollar-as-treasury-yields-climb-202605121946",
-        "summary": "The US Dollar Index (DXY) rallied toward the 98.30 region on Tuesday as hotter-than-expected United States (US) inflation data boosted Treasury yields and reinforced expectations that the Federal Reserve (Fed) may keep interest rates elevated for longer.",
-        "published": "13 May 2026 02:46 WIB",
-        "sentiment": "Bullish",
-        "score": 0.792,
-        "emoji": "🟢"
-      },
-      {
         "source": "Google News Geopolitik",
         "title": "Dolar Selandia Baru Merosot Di Bawah mencapai 0,5900an Karena Ketegangan Geopolitik Memicu Penghindaran Risiko - MEXC",
         "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8yUlN6Qlg2cklIU2REOU1CWlVrTkpKM0c4TmZ0R091eGxFbkNQWlA5YVRPMGVlRllnY3hSOUc5U0F6LWdZMk5CTg?oc=5",
@@ -2704,16 +2730,6 @@ window.FK_DATA = {
         "published": "12 May 2026 12:03 WIB",
         "sentiment": "Bearish",
         "score": -0.932,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Google News Geopolitik",
-        "title": "Dolar Selandia Baru mengecewakan karena ketegangan AS-Iran mengangkat USD menjelang IHK AS - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNckZXdW5IdU51OUNxNmxaekdCS1YyelRnbGlWNkY3dmZRekN3T3JqdFJ2VTNNWTJIR2paSVZtajBDZFZFb0NJWmE5T3RJaGZsRHNPZkhfWVY5N3RUQnlOUFFQeTdyeWhWdEFtUHpsMzJQZmlmNGhqX3FPa2pfOFhIVDNxanRBM2c2XzNuUE94cHpXTnBRaldqdnI5QU0ydkFOOG8yWjN6ZUNUWTlRbjdjSW0yUnpiam9fS2U1RU93bnNaQmdJWFJLN0tsN3M?oc=5",
-        "summary": "New Zealand dollar slips as US-Iran tensions lift USD ahead of US CPI FXStreet",
-        "published": "12 May 2026 08:49 WIB",
-        "sentiment": "Bearish",
-        "score": -0.482,
         "emoji": "🔴"
       },
       {
