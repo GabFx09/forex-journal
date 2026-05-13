@@ -829,13 +829,16 @@ def _et_to_wib(time_raw: str) -> str:
     clean = re.sub(r"\s+", "", time_raw.strip().lower())
     if not clean or clean in ("allday", "tentative"):
         return "Sepanjang Hari"
-    try:
-        t = datetime.strptime(clean, "%I:%M%p")
-        # EST (Nov–Feb) = UTC-5 → WIB = ET+12; EDT (Mar–Oct) = UTC-4 → WIB = ET+11
-        offset = 11 if 3 <= datetime.now(tz=timezone.utc).month <= 10 else 12
-        return f"{(t.hour + offset) % 24:02d}:{t.minute:02d}"
-    except Exception:
-        return time_raw.strip().upper()
+    # EST (Nov–Feb) = UTC-5 → WIB = ET+12; EDT (Mar–Oct) = UTC-4 → WIB = ET+11
+    offset = 11 if 3 <= datetime.now(tz=timezone.utc).month <= 10 else 12
+    # Coba format lama "8:30am" dulu, lalu fallback ke format 24-jam "08:30" (format baru FF)
+    for fmt in ("%I:%M%p", "%H:%M"):
+        try:
+            t = datetime.strptime(clean, fmt)
+            return f"{(t.hour + offset) % 24:02d}:{t.minute:02d}"
+        except Exception:
+            continue
+    return time_raw.strip()
 
 
 def _parse_ff_date(date_text: str, year: int) -> tuple[str, str]:
