@@ -1,10 +1,10 @@
 {
-  "generated": "13 May 2026 08:13 WIB",
+  "generated": "13 May 2026 10:48 WIB",
   "events": [
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "19:30",
+      "time_wib": "06:30",
       "currency": "CNY",
       "impact": "medium",
       "event": "CPI y/y",
@@ -26,7 +26,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "07:45",
+      "time_wib": "18:45",
       "currency": "USD",
       "impact": "low",
       "event": "Cleveland Fed Inflation Expectations",
@@ -37,7 +37,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "08:00",
+      "time_wib": "19:00",
       "currency": "USD",
       "impact": "low",
       "event": "Existing Home Sales",
@@ -48,7 +48,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "17:01",
+      "time_wib": "04:01",
       "currency": "GBP",
       "impact": "low",
       "event": "BRC Retail Sales Monitor y/y",
@@ -59,7 +59,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "17:30",
+      "time_wib": "04:30",
       "currency": "JPY",
       "impact": "low",
       "event": "Household Spending y/y",
@@ -70,7 +70,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "17:50",
+      "time_wib": "04:50",
       "currency": "JPY",
       "impact": "low",
       "event": "BOJ Summary of Opinions",
@@ -81,7 +81,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "19:30",
+      "time_wib": "06:30",
       "currency": "AUD",
       "impact": "low",
       "event": "NAB Business Confidence",
@@ -92,7 +92,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "21:35",
+      "time_wib": "08:35",
       "currency": "JPY",
       "impact": "low",
       "event": "10-y Bond Auction",
@@ -103,7 +103,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "23:00",
+      "time_wib": "10:00",
       "currency": "JPY",
       "impact": "low",
       "event": "Leading Indicators",
@@ -114,7 +114,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "00:00",
+      "time_wib": "11:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German Final CPI m/m",
@@ -125,7 +125,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "00:30",
+      "time_wib": "11:30",
       "currency": "CHF",
       "impact": "low",
       "event": "PPI m/m",
@@ -136,7 +136,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "01:15",
+      "time_wib": "12:15",
       "currency": "EUR",
       "impact": "low",
       "event": "German Buba President Nagel Speaks",
@@ -158,7 +158,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "02:00",
+      "time_wib": "13:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Italian Industrial Production m/m",
@@ -169,7 +169,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "03:00",
+      "time_wib": "14:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German ZEW Economic Sentiment",
@@ -191,7 +191,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "03:30",
+      "time_wib": "14:30",
       "currency": "AUD",
       "impact": "low",
       "event": "Annual Budget Release",
@@ -202,7 +202,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "04:00",
+      "time_wib": "15:00",
       "currency": "USD",
       "impact": "low",
       "event": "NFIB Small Business Index",
@@ -213,7 +213,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "06:15",
+      "time_wib": "17:15",
       "currency": "USD",
       "impact": "low",
       "event": "ADP Weekly Employment Change",
@@ -224,7 +224,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "06:30",
+      "time_wib": "17:30",
       "currency": "USD",
       "impact": "high",
       "event": "Core CPI m/m",
@@ -257,7 +257,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "07:10",
+      "time_wib": "18:10",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Goolsbee Speaks",
@@ -268,7 +268,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "08:30",
+      "time_wib": "19:30",
       "currency": "AUD",
       "impact": "low",
       "event": "CB Leading Index m/m",
@@ -279,7 +279,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "11:00",
+      "time_wib": "22:00",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Goolsbee Speaks",
@@ -290,7 +290,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "11:01",
+      "time_wib": "22:01",
       "currency": "USD",
       "impact": "low",
       "event": "10-y Bond Auction",
@@ -301,7 +301,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "12:00",
+      "time_wib": "23:00",
       "currency": "USD",
       "impact": "low",
       "event": "Federal Budget Balance",
@@ -312,7 +312,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "14:30",
+      "time_wib": "01:30",
       "currency": "USD",
       "impact": "low",
       "event": "API Weekly Statistical Bulletin",
@@ -323,7 +323,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "17:50",
+      "time_wib": "04:50",
       "currency": "JPY",
       "impact": "low",
       "event": "Bank Lending y/y",
@@ -345,29 +345,29 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "19:30",
+      "time_wib": "06:30",
       "currency": "AUD",
       "impact": "medium",
       "event": "Wage Price Index q/q",
-      "actual": "",
+      "actual": "0.8%",
       "forecast": "0.8%",
       "previous": "0.8%"
     },
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "21:00",
+      "time_wib": "08:00",
       "currency": "NZD",
       "impact": "low",
       "event": "Inflation Expectations q/q",
-      "actual": "",
+      "actual": "2.53%",
       "forecast": "",
       "previous": "2.37%"
     },
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "23:00",
+      "time_wib": "10:00",
       "currency": "JPY",
       "impact": "low",
       "event": "Economy Watchers Sentiment",
@@ -378,7 +378,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "00:00",
+      "time_wib": "11:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German WPI m/m",
@@ -389,7 +389,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "00:45",
+      "time_wib": "11:45",
       "currency": "EUR",
       "impact": "low",
       "event": "French Final CPI m/m",
@@ -400,7 +400,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "03:00",
+      "time_wib": "14:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Employment Change q/q",
@@ -444,7 +444,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "06:30",
+      "time_wib": "17:30",
       "currency": "USD",
       "impact": "high",
       "event": "Core PPI m/m",
@@ -466,7 +466,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "07:30",
+      "time_wib": "18:30",
       "currency": "GBP",
       "impact": "low",
       "event": "CB Leading Index m/m",
@@ -477,7 +477,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "08:00",
+      "time_wib": "19:00",
       "currency": "GBP",
       "impact": "low",
       "event": "MPC Member Mann Speaks",
@@ -488,7 +488,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "08:30",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "Crude Oil Inventories",
@@ -499,7 +499,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "09:05",
+      "time_wib": "20:05",
       "currency": "CAD",
       "impact": "low",
       "event": "Gov Council Member Alexopoulos Speaks",
@@ -510,7 +510,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "09:30",
+      "time_wib": "20:30",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Collins Speaks",
@@ -532,7 +532,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "11:01",
+      "time_wib": "22:01",
       "currency": "USD",
       "impact": "low",
       "event": "30-y Bond Auction",
@@ -543,7 +543,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "11:15",
+      "time_wib": "22:15",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Kashkari Speaks",
@@ -554,7 +554,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "11:30",
+      "time_wib": "22:30",
       "currency": "CAD",
       "impact": "low",
       "event": "BOC Summary of Deliberations",
@@ -565,7 +565,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "13:15",
+      "time_wib": "00:15",
       "currency": "EUR",
       "impact": "low",
       "event": "ECB President Lagarde Speaks",
@@ -576,7 +576,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "16:45",
+      "time_wib": "03:45",
       "currency": "NZD",
       "impact": "low",
       "event": "Visitor Arrivals m/m",
@@ -587,7 +587,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "17:01",
+      "time_wib": "04:01",
       "currency": "GBP",
       "impact": "low",
       "event": "RICS House Price Balance",
@@ -598,7 +598,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "17:50",
+      "time_wib": "04:50",
       "currency": "JPY",
       "impact": "low",
       "event": "M2 Money Stock y/y",
@@ -609,7 +609,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "19:00",
+      "time_wib": "06:00",
       "currency": "AUD",
       "impact": "low",
       "event": "MI Inflation Expectations",
@@ -620,7 +620,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "21:35",
+      "time_wib": "08:35",
       "currency": "JPY",
       "impact": "low",
       "event": "30-y Bond Auction",
@@ -642,7 +642,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "00:00",
+      "time_wib": "11:00",
       "currency": "GBP",
       "impact": "high",
       "event": "GDP m/m",
@@ -774,7 +774,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "06:30",
+      "time_wib": "17:30",
       "currency": "CAD",
       "impact": "low",
       "event": "Wholesale Sales m/m",
@@ -829,7 +829,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "08:00",
+      "time_wib": "19:00",
       "currency": "USD",
       "impact": "low",
       "event": "Business Inventories m/m",
@@ -851,7 +851,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "08:15",
+      "time_wib": "19:15",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Schmid Speaks",
@@ -862,7 +862,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "08:30",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "Natural Gas Storage",
@@ -873,7 +873,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "09:15",
+      "time_wib": "20:15",
       "currency": "GBP",
       "impact": "low",
       "event": "MPC Member Pill Speaks",
@@ -884,7 +884,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "11:00",
+      "time_wib": "22:00",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Hammack Speaks",
@@ -895,7 +895,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "15:45",
+      "time_wib": "02:45",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Williams Speaks",
@@ -906,7 +906,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "16:30",
+      "time_wib": "03:30",
       "currency": "NZD",
       "impact": "low",
       "event": "BusinessNZ Manufacturing Index",
@@ -917,7 +917,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "16:45",
+      "time_wib": "03:45",
       "currency": "NZD",
       "impact": "low",
       "event": "FPI m/m",
@@ -928,7 +928,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "17:00",
+      "time_wib": "04:00",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Barr Speaks",
@@ -939,7 +939,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "17:50",
+      "time_wib": "04:50",
       "currency": "JPY",
       "impact": "low",
       "event": "PPI y/y",
@@ -950,7 +950,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "00:00",
+      "time_wib": "11:00",
       "currency": "JPY",
       "impact": "low",
       "event": "Prelim Machine Tool Orders y/y",
@@ -961,7 +961,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "02:00",
+      "time_wib": "13:00",
       "currency": "EUR",
       "impact": "low",
       "event": "ECB Economic Bulletin",
@@ -972,7 +972,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "06:15",
+      "time_wib": "17:15",
       "currency": "CAD",
       "impact": "low",
       "event": "Housing Starts",
@@ -983,7 +983,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "06:30",
+      "time_wib": "17:30",
       "currency": "CAD",
       "impact": "low",
       "event": "Foreign Securities Purchases",
@@ -1016,7 +1016,7 @@
     {
       "date": "2026-05-13",
       "day": "Rabu",
-      "time_wib": "07:15",
+      "time_wib": "18:15",
       "currency": "USD",
       "impact": "low",
       "event": "Capacity Utilization Rate",
