@@ -243,6 +243,12 @@ textarea{resize:vertical;min-height:60px;line-height:1.5}
         <div class="met"><div class="ml">Profit Factor</div><div class="mv nt" id="d-pf">—</div><div class="ms">avg RRR</div></div>
         <div class="met"><div class="ml">Max Drawdown</div><div class="mv nt" id="d-dd">—</div><div class="ms">dari semua trade</div></div>
       </div>
+      <!-- Baris akun: dari data transaksi + trade -->
+      <div class="g3" style="margin-bottom:12px">
+        <div class="met"><div class="ml">Modal Aktif (Depo − WD)</div><div class="mv nt" id="d-modal">$0</div><div class="ms" id="d-modal-sub">0 depo · 0 wd</div></div>
+        <div class="met"><div class="ml">Ekuitas (Modal + P&L)</div><div class="mv nt" id="d-equity">$0</div><div class="ms" id="d-equity-sub">—</div></div>
+        <div class="met"><div class="ml">Return (%)</div><div class="mv nt" id="d-return">—</div><div class="ms">P&L ÷ Modal</div></div>
+      </div>
       <div class="g2" style="margin-bottom:12px">
         <div class="card"><div class="ct">Equity Curve</div><div class="cw" style="height:150px"><canvas id="eqC" role="img" aria-label="equity">eq</canvas></div></div>
         <div class="card"><div class="ct">P&L per Pair</div><div class="cw" style="height:150px"><canvas id="prC" role="img" aria-label="pnl">pr</canvas></div></div>
@@ -1540,6 +1546,24 @@ function updateDash() {
         <div class="fb" style="margin-top:8px"><span style="font-size:11px;color:var(--sub)">Best trade</span><span style="font-size:11px;color:${bestT!==null?(bestT>=0?'var(--gold)':'var(--mut)'):'var(--mut)'};font-family:var(--mono)">${bestT!==null?(bestT>=0?'+':'')+fmt(bestT):'—'}</span></div>
         <div class="fb" style="margin-top:8px"><span style="font-size:11px;color:var(--sub)">Worst trade</span><span style="font-size:11px;color:${worstT!==null?'var(--red)':'var(--mut)'};font-family:var(--mono)">${worstT!==null?fmt(worstT):'—'}</span></div>
         ${closedCount===0?'<div style="margin-top:8px;font-size:10px;color:var(--mut);font-style:italic">Streak muncul setelah ada trade dengan hasil WIN/LOSS</div>':''}`;}}
+
+  // Transaksi — modal & ekuitas
+  const totalDepo = transactions.filter(t=>t.type==='depo').reduce((s,t)=>s+parseFloat(t.amount||0),0);
+  const totalWD   = transactions.filter(t=>t.type==='wd').reduce((s,t)=>s+parseFloat(t.amount||0),0);
+  const modal     = totalDepo - totalWD;
+  const equity    = modal + total;
+  const retPct    = modal > 0 ? (total / modal * 100) : null;
+  const fmtD = n => '$'+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0});
+  const dm=$('d-modal');
+  if(dm){ dm.textContent=(modal>=0?'':'-')+fmtD(modal); dm.className='mv '+(transactions.length?(modal>=0?'up':'dn'):'nt'); }
+  const dms=$('d-modal-sub');
+  if(dms) dms.textContent=transactions.filter(t=>t.type==='depo').length+' depo · '+transactions.filter(t=>t.type==='wd').length+' wd';
+  const eq=$('d-equity');
+  if(eq){ eq.textContent=(equity>=0?'':'-')+fmtD(equity); eq.className='mv '+(transactions.length?(equity>=0?'up':'dn'):'nt'); }
+  const eqs=$('d-equity-sub');
+  if(eqs) eqs.textContent=transactions.length?(modal>=0?'modal + P&L':'belum ada modal'):'isi data transaksi';
+  const rp=$('d-return');
+  if(rp){ rp.textContent=retPct!==null?(retPct>=0?'+':'')+retPct.toFixed(2)+'%':'—'; rp.className='mv '+(retPct!==null?(retPct>=0?'up':'dn'):'nt'); }
 
   // Target
   const TGT=2000,pct=Math.min(Math.round(Math.max(total,0)/TGT*100),100);

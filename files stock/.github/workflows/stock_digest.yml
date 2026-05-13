@@ -1,10 +1,7 @@
 name: Stock Digest Harian
 
 on:
-  schedule:
-    # 00:00 UTC = 07:00 WIB (UTC+7) setiap hari
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+  workflow_dispatch:  # triggered by cron-job.org (07:00 WIB = 00:00 UTC) setiap hari
 
 jobs:
   digest:
@@ -62,6 +59,7 @@ jobs:
             echo "Tidak ada perubahan data, skip commit."
           else
             git commit -m "chore: stock digest $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash
             git push
           fi
 
