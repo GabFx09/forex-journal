@@ -1,5 +1,5 @@
 {
-  "generated": "13 May 2026 07:01 WIB",
+  "generated": "13 May 2026 07:38 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,50 +7,50 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.487,
-      "count": 31
+      "score": -0.442,
+      "count": 27
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.498,
-      "count": 29
+      "score": -0.458,
+      "count": 25
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.577,
-      "count": 21
+      "score": -0.575,
+      "count": 17
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.193,
-      "count": 14
+      "score": -0.132,
+      "count": 13
     },
     {
       "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.053,
-      "count": 5
+      "direction": "Netral →",
+      "score": -0.046,
+      "count": 4
     },
     {
       "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.053,
-      "count": 5
+      "direction": "Netral →",
+      "score": -0.046,
+      "count": 4
     },
     {
       "pair": "CAD/JPY",
-      "direction": "Netral →",
-      "score": -0.046,
-      "count": 2
+      "direction": "Tekanan Turun ▼",
+      "score": -0.361,
+      "count": 3
     },
     {
       "pair": "NOK/SEK",
-      "direction": "Netral →",
-      "score": -0.046,
-      "count": 2
+      "direction": "Tekanan Turun ▼",
+      "score": -0.361,
+      "count": 3
     }
   ],
   "items": [
@@ -92,16 +92,6 @@
       "published": "13 May 2026 00:57 WIB",
       "sentiment": "Bearish",
       "score": -0.549,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Goolsbee dari Fed: Inflasi berjalan ke arah yang salah, tidak hanya terkait minyak dan tarif",
-      "url": "https://investinglive.com/centralbank/feds-goolsbeeinflation-is-going-the-wrong-way-not-just-in-oil-and-tariff-related-things-20260512/",
-      "summary": "More from Fed's Goolsbee: inflation is going the wrong way, not just in oil and tariff related things. Drift upward and services inflation is a worry. Today's unexpected disappointment was seeing services inflation going up Labor market is stable but it is not good The job market is basically stable",
-      "published": "13 May 2026 00:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.082,
       "emoji": "🔴"
     },
     {
@@ -165,33 +155,33 @@
       "emoji": "🟢"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Pembuat Jack Daniel menolak tawaran pembelian senilai $15 miliar dari saingannya Sazerac, kata sumber",
-      "url": "https://www.investing.com/news/stock-market-news/brownforman-rejects-15-billion-acquisition-approach-from-sazerac-wsj-reports-4682141",
-      "summary": "",
-      "published": "13 May 2026 04:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.494,
-      "emoji": "🔴"
+      "source": "Bloomberg Markets",
+      "title": "Minyak Stabil Setelah Kenaikan Tiga Hari Karena Aliran Iran Tertekan",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13",
+      "summary": "Oil steadied after rising almost 8% over the past three sessions as a resolution to the Middle East conflict remains elusive, with Iranian exports showing further strain from a US Naval blockade of the Strait of Hormuz.",
+      "published": "13 May 2026 05:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.178,
+      "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Asia Di Bawah Tekanan seiring Meningkatnya Inflasi AS: Pasar Selesai",
+      "title": "Trump Menghadapi Xi yang Berani di Tiongkok",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-13/trump-faces-emboldened-xi-in-china-video",
+      "summary": "Donald Trump is expecting economic deals and a “wild” welcome this week in China. He’ll arrive facing an emboldened Xi Jinping, just as his own hand is constrained by the conflict in Iran. Bloomberg's Stephen Engle breaks down what is at stake. (Source: Bloomberg)",
+      "published": "13 May 2026 07:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.542,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Asia Mengikuti Penurunan Wall Street karena IHK AS: Penutupan Pasar",
       "url": "https://www.bloomberg.com/news/articles/2026-05-12/asian-stocks-under-pressure-as-us-inflation-rises-markets-wrap",
-      "summary": "Asian stocks were poised for a weak open following losses on Wall Street, while the dollar strengthened and bonds fell as US inflation data showed the impact of energy-market disruptions tied to the war in Iran.",
+      "summary": "Asian stocks dropped following losses on Wall Street as US inflation quickened, showing the impact of higher oil prices since the war in Iran started.",
       "published": "13 May 2026 05:08 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Minyak Mempertahankan Keuntungan Karena Ketegangan Ekspor Iran seiring Berlarutnya Konflik",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13",
-      "summary": "Oil was steady after a 4% gain on Tuesday as the Middle East conflict drags on and Iranian exports show further strain from the prolonged near-closure of the crucial Strait of Hormuz.",
-      "published": "13 May 2026 05:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.273,
+      "score": -0.992,
       "emoji": "🔴"
     },
     {
@@ -203,36 +193,6 @@
       "sentiment": "Bullish",
       "score": 0.637,
       "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pasar 'Belum Mengalami Sepenuhnya' Kekurangan Aluminium dari Iran, Kata Timna Tanners",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-12/aluminum-yet-to-fully-experience-squeeze-tanners-video",
-      "summary": "Shortfalls could persist longer than current expectations and drive up the price of aluminum as an impact of war with Iran says Timna Tanners, managing director of equity research for Wells Fargo. Tanners talked about the different impacts of the war on commodity prices, including copper which neare",
-      "published": "13 May 2026 05:26 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Ananym Capital Mendesak BWX Membuat Reaktor Nuklir Komersial",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/activist-ananym-urges-bwx-to-make-commercial-nuclear-reactors",
-      "summary": "Activist fund Ananym Capital Management is pushing nuclear technology company BWX Technologies Inc. to tap its nuclear reactor manufacturing capabilities for commercial use.",
-      "published": "13 May 2026 04:32 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Dolar Menguat karena Permintaan Safe-Haven Meningkat Setelah Kemunduran Diplomatik AS-Iran - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMEthNmFfeTRUNUJTZERMQmZBQ2N5bnhqNUlPb0xCbEpNLUZiZ1pzZGlJb2I1ZXBXeGt4dFdxU3luSkw4cWdYMTJHUWJINVZpNk0xWTJ3MjhyNHc0Wm1DY3FXWTZ0MkJlQUdfdUQzOWpBRWtzUEZ1U2dRZFhyUlczeFdnaXY1dE9uYzVmeWRZXzlBTEJxNnVaejg4ZFFiaV9PMjl2Mw?oc=5",
-      "summary": "Dollar Edges Higher as Safe-Haven Demand Rises After US-Iran Diplomatic Setback CryptoRank",
-      "published": "12 May 2026 10:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.25,
-      "emoji": "🔴"
     },
     {
       "source": "Google News Geopolitik",
@@ -316,6 +276,16 @@
     },
     {
       "source": "Al Jazeera",
+      "title": "Perang Iran sedang berlangsung: Trump melakukan perjalanan ke Tiongkok saat konflik dengan Teheran semakin besar",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/13/iran-war-live-trump-travels-to-china-as-conflict-with-tehran-looms-large?traffic_source=rss",
+      "summary": "Israeli attacks on Lebanon have killed 2,883 people and injured 8,787 since March 2, Lebanon's Health Ministry says.",
+      "published": "13 May 2026 07:00 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Trump meremehkan perbedaan AS-Iran saat ia menuju ke Beijing untuk bertemu dengan Xi",
       "url": "https://www.aljazeera.com/news/2026/5/12/trump-downplays-us-iran-differences-as-he-heads-to-beijing-to-meet-with-xi?traffic_source=rss",
       "summary": "Trump gives conflicting messages on prominence of Iran war in upcoming talks, with his administration emphasising trade.",
@@ -385,16 +355,6 @@
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Trump mengabaikan pertanyaan mengenai ‘garis merah’ AS untuk gencatan senjata Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/12/trump-skirts-question-on-us-red-lines-for-iran-ceasefire?traffic_source=rss",
-      "summary": "Trump skirted a question from a reporter about whether he has a ‘red line’ that would end the ceasefire with Iran.",
-      "published": "13 May 2026 02:01 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢"
-    },
-    {
       "source": "MarketWatch",
       "title": "Pakaian baru saja mengalami lonjakan harga terbesar dalam tiga tahun. Berapa banyak lagi yang harus dibayar pembeli?",
       "url": "https://www.marketwatch.com/story/clothes-just-saw-the-biggest-price-jump-in-three-years-how-much-more-will-shoppers-pay-4aba43d7?mod=mw_rss_topstories",
@@ -402,16 +362,6 @@
       "published": "13 May 2026 04:09 WIB",
       "sentiment": "Bearish",
       "score": -0.713,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Pola grafik 'pembalikan kunci' yang bearish ini mungkin menjadi penyebab saham-saham chip mengalami aksi jual yang jarang terjadi",
-      "url": "https://www.marketwatch.com/story/this-bearish-key-reversal-chart-pattern-could-be-why-chip-stocks-suffered-a-rare-selloff-ec63f843?mod=mw_rss_topstories",
-      "summary": "A bearish chart pattern in the South Korea’s Kospi Composite Index could act as a warning for the U.S. chip sector, given that the two have moved in sync during their recent sharp run ups.",
-      "published": "13 May 2026 03:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.761,
       "emoji": "🔴"
     },
     {
@@ -426,12 +376,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Pasar Asia akan dibuka beragam karena investor mengamati pertemuan Trump-Xi dan ketegangan Iran",
+      "title": "Pasar Asia dibuka lebih rendah karena investor mengamati pertemuan Trump-Xi dan ketegangan Iran",
       "url": "https://www.cnbc.com/2026/05/13/asia-markets-today-live-updates-nikkei-kospi-csi-300-hang-seng-trump-iran.html",
-      "summary": "Asian markets looked set for a mixed open Wednesday as investors grappled with hotter-than-expected inflation, U.S.-Iran tensions and U.S.-China trade talks.",
-      "published": "13 May 2026 06:55 WIB",
+      "summary": "Asian markets open broadly lower Wednesday as investors grappled with hotter-than-expected inflation, U.S.-Iran tensions and U.S.-China trade talks.",
+      "published": "13 May 2026 07:17 WIB",
       "sentiment": "Bearish",
-      "score": -0.74,
+      "score": -0.912,
       "emoji": "🔴"
     },
     {
