@@ -230,6 +230,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.5}
     <button class="nb" onclick="showTab('kalender',this)">📅 Kalender</button>
     <button class="nb" onclick="showTab('sentimen',this)">📊 Sentimen</button>
     <button class="nb" onclick="showTab('geopolitik',this)">🌍 Geopolitik</button>
+    <button class="nb" onclick="showTab('transaksi',this)">💳 Transaksi</button>
   </div>
 
   <div id="main">
@@ -600,6 +601,58 @@ textarea{resize:vertical;min-height:60px;line-height:1.5}
       <div id="geo-content"></div>
     </div>
 
+    <!-- TRANSAKSI (DEPO / WD) -->
+    <div id="tab-transaksi" class="tab">
+      <div class="card">
+        <div class="ct">Tambah Transaksi</div>
+        <div class="fr fr2">
+          <div class="fg"><label class="lb">Tanggal</label><input type="date" id="txn-date"></div>
+          <div class="fg"><label class="lb">Jenis</label>
+            <select id="txn-type">
+              <option value="depo">💰 Deposit (Depo)</option>
+              <option value="wd">💸 Withdrawal (WD)</option>
+            </select>
+          </div>
+        </div>
+        <div class="fr fr2">
+          <div class="fg"><label class="lb">Jumlah ($)</label><input type="number" step="any" min="0" placeholder="100.00" id="txn-amount"></div>
+          <div class="fg"><label class="lb">Metode / Sumber</label><input type="text" placeholder="Bank BCA, Broker, dll" id="txn-method"></div>
+        </div>
+        <div class="fg"><label class="lb">Catatan</label><textarea placeholder="Keterangan tambahan..." id="txn-note" style="min-height:48px"></textarea></div>
+        <div class="fe">
+          <button class="btn bh" onclick="clearTxnForm()">Reset</button>
+          <button class="btn bg" onclick="addTxn()">💾 Simpan Transaksi</button>
+        </div>
+      </div>
+      <div class="g3" style="margin-bottom:12px">
+        <div class="met"><div class="ml">Total Deposit</div><div class="mv up" id="txn-s-depo">$0.00</div><div class="ms" id="txn-s-depo-n">0 transaksi</div></div>
+        <div class="met"><div class="ml">Total Withdrawal</div><div class="mv dn" id="txn-s-wd">$0.00</div><div class="ms" id="txn-s-wd-n">0 transaksi</div></div>
+        <div class="met"><div class="ml">Net (Depo − WD)</div><div class="mv nt" id="txn-s-net">$0.00</div><div class="ms" id="txn-s-net-lbl">seimbang</div></div>
+      </div>
+      <div class="card">
+        <div class="fb" style="margin-bottom:12px">
+          <div class="ct" style="margin-bottom:0">Riwayat Transaksi</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <select style="font-size:11px;padding:4px 8px;width:auto" id="txn-flt" onchange="renderTxn()">
+              <option value="all">Semua</option>
+              <option value="depo">Deposit</option>
+              <option value="wd">Withdrawal</option>
+            </select>
+            <button class="btn br" style="font-size:11px;padding:4px 10px" onclick="clearAllTxn()">Hapus Semua</button>
+          </div>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="tbl">
+            <thead><tr>
+              <th>Tanggal</th><th>Jenis</th><th style="text-align:right">Jumlah</th>
+              <th>Metode</th><th>Catatan</th><th>Del</th>
+            </tr></thead>
+            <tbody id="txn-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
   </div><!-- end main -->
 </div><!-- end app -->
 
@@ -631,6 +684,7 @@ let customRules = lsGet('fj_rules',  []);
 let dailyPlans  = lsGet('fj_dplans', []);  // ARRAY - riwayat, tidak tertimpa
 let weeklyPlans = lsGet('fj_wplans', []); // ARRAY - riwayat, tidak tertimpa
 let psyLogs     = lsGet('fj_psy',    []);
+let transactions= lsGet('fj_txn',    []);
 let GS_URL      = lsGet('fj_gs_url', '');
 let GS_ON       = false;
 
@@ -659,6 +713,7 @@ function saveState() {
   lsSet('fj_dplans', dailyPlans);
   lsSet('fj_wplans', weeklyPlans);
   lsSet('fj_psy',    psyLogs);
+  lsSet('fj_txn',    transactions);
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -672,6 +727,7 @@ function showTab(name, btn) {
   if(name==='kalender')   renderKalender();
   if(name==='sentimen')   renderSentimen();
   if(name==='geopolitik') renderGeopolitik();
+  if(name==='transaksi')  renderTxn();
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -1153,6 +1209,19 @@ async function pullAll(silent=false) {
       })).sort((a,b)=>b.id-a.id);
     } catch(e){}
 
+    // Pull transactions
+    try {
+      const r4 = await gasGet({action:'getTransactions'});
+      if(r4.transactions) transactions = r4.transactions.map(t=>({
+        id:     Number(t.id)||Date.now(),
+        date:   String(t.date||''),
+        type:   String(t.type||'depo'),
+        amount: String(t.amount||'0'),
+        method: String(t.method||''),
+        note:   String(t.note||'')
+      })).sort((a,b)=>b.id-a.id);
+    } catch(e){}
+
     saveState(); renderAll();
     const ts = new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'});
     setSync('ok','✅ Tersambung — Terakhir diperbarui '+ts);
@@ -1175,6 +1244,7 @@ async function pushAll() {
     for(const p of dailyPlans)  await gasPost({action:'savePlan',planType:'daily',data:p});
     for(const p of weeklyPlans) await gasPost({action:'savePlan',planType:'weekly',data:p});
     if(psyLogs.length) await gasPost({action:'syncPsyLogs',logs:psyLogs});
+    if(transactions.length) await gasPost({action:'syncTxns',transactions});
     setSync('ok','✅ Semua data terkirim — '+new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}));
     toast('✅ Semua data berhasil dikirim ke Google Sheets!');
   } catch(e) {
@@ -1784,6 +1854,88 @@ function addRule(){const c=$('rc').value,t=$('rt').value.trim();if(!t)return;cus
 // ═══════════════════════════════════════════════════════════════
 //  RENDER ALL
 // ═══════════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════════
+//  TRANSAKSI (DEPO / WD)
+// ═══════════════════════════════════════════════════════════════
+function clearTxnForm() {
+  const d=$('txn-date'); if(d) d.value=today();
+  const tp=$('txn-type'); if(tp) tp.value='depo';
+  const a=$('txn-amount'); if(a) a.value='';
+  const m=$('txn-method'); if(m) m.value='';
+  const n=$('txn-note'); if(n) n.value='';
+}
+
+function addTxn() {
+  const date   = $('txn-date').value;
+  const type   = $('txn-type').value;
+  const amount = parseFloat($('txn-amount').value);
+  const method = $('txn-method').value.trim();
+  const note   = $('txn-note').value.trim();
+  if (!date)              { toast('❌ Isi tanggal terlebih dahulu'); return; }
+  if (!amount || amount<=0){ toast('❌ Isi jumlah yang valid'); return; }
+  const txn = { id:Date.now(), date, type, amount:amount.toFixed(2), method, note };
+  transactions.unshift(txn);
+  saveState();
+  renderTxn();
+  clearTxnForm();
+  toast('✅ Transaksi disimpan!');
+  if(GS_ON) gasPost({action:'saveTxn', txn}).catch(()=>{});
+}
+
+function deleteTxn(id) {
+  transactions = transactions.filter(t=>t.id!==id);
+  saveState();
+  renderTxn();
+  if(GS_ON) gasPost({action:'deleteTxn', id}).catch(()=>{});
+}
+
+function clearAllTxn() {
+  if(!confirm('Hapus semua riwayat transaksi?')) return;
+  transactions = [];
+  saveState();
+  renderTxn();
+  if(GS_ON) gasPost({action:'clearTxns'}).catch(()=>{});
+}
+
+function renderTxn() {
+  const flt  = ($('txn-flt')||{value:'all'}).value;
+  const list = flt==='all' ? transactions : transactions.filter(t=>t.type===flt);
+  const fmt  = n => '$'+parseFloat(n||0).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+
+  const depoArr = transactions.filter(t=>t.type==='depo');
+  const wdArr   = transactions.filter(t=>t.type==='wd');
+  const totalD  = depoArr.reduce((s,t)=>s+parseFloat(t.amount||0),0);
+  const totalW  = wdArr.reduce((s,t)=>s+parseFloat(t.amount||0),0);
+  const net     = totalD - totalW;
+
+  const sd=$('txn-s-depo');   if(sd) sd.textContent=fmt(totalD);
+  const sdn=$('txn-s-depo-n');if(sdn) sdn.textContent=depoArr.length+' transaksi';
+  const sw=$('txn-s-wd');     if(sw) sw.textContent=fmt(totalW);
+  const swn=$('txn-s-wd-n'); if(swn) swn.textContent=wdArr.length+' transaksi';
+  const sn=$('txn-s-net');    if(sn){sn.textContent=fmt(Math.abs(net));sn.className='mv '+(net>0?'up':net<0?'dn':'nt');}
+  const snl=$('txn-s-net-lbl');if(snl) snl.textContent=net>0?'surplus':net<0?'defisit':'seimbang';
+
+  const body=$('txn-body');
+  if(!body) return;
+  if(!list.length){
+    body.innerHTML=`<tr><td colspan="6" style="text-align:center;padding:22px;color:var(--mut)">Belum ada transaksi</td></tr>`;
+    return;
+  }
+  body.innerHTML=list.map(t=>{
+    const isD=t.type==='depo';
+    const badge=isD?`<span class="bdg bw">💰 Depo</span>`:`<span class="bdg bl">💸 WD</span>`;
+    const amt=parseFloat(t.amount||0).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    return `<tr>
+      <td>${t.date}</td>
+      <td>${badge}</td>
+      <td style="text-align:right" class="${isD?'tw':'tl'}">${isD?'+':'-'}$${amt}</td>
+      <td>${t.method||'<span style="color:var(--mut)">—</span>'}</td>
+      <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${t.note||'<span style="color:var(--mut)">—</span>'}</td>
+      <td><button class="bsm" onclick="deleteTxn(${t.id})">✕</button></td>
+    </tr>`;
+  }).join('');
+}
+
 function renderAll(){
   // Set form defaults safely
   const td=$('t-date'); if(td) td.value=today();
@@ -1799,6 +1951,7 @@ function renderAll(){
   safe(calcRisk,           'risk');
   safe(calcPsy,            'psy-score');
   safe(updateDash,         'dashboard');
+  safe(renderTxn,          'txn');
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -1808,6 +1961,7 @@ function renderAll(){
   if($('t-date'))   $('t-date').value   = today();
   if($('dp-date'))  $('dp-date').value  = today();
   if($('psy-date')) $('psy-date').value = today();
+  if($('txn-date')) $('txn-date').value = today();
 
   if(GS_URL) {
     // URL tersimpan — tampilkan data lokal DULU, lalu cek koneksi saja (TIDAK auto-pull)

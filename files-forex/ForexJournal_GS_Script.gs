@@ -63,6 +63,18 @@ function doGet(e) {
       return ok({ logs });
     }
 
+    // Ambil semua transaksi (depo/wd)
+    if (action === 'getTransactions') {
+      const sheet = ss.getSheetByName('Transaksi');
+      if (!sheet || sheet.getLastRow() <= 1) return ok({ transactions: [] });
+      const rows = sheet.getDataRange().getValues();
+      const hdrs = rows[0];
+      const transactions = rows.slice(1)
+        .filter(r => r[0] !== '')
+        .map(r => Object.fromEntries(hdrs.map((h, i) => [h, String(r[i] ?? '')])));
+      return ok({ transactions });
+    }
+
     return ok({ status: 'ok', message: 'ForexJournal GS Script berjalan' });
 
   } catch(err) {
@@ -300,6 +312,59 @@ function doPost(e) {
       return ok({ status: 'synced', count: logs.length });
     }
 
+    // ── TRANSAKSI: Simpan 1 transaksi ─────────────────────────────
+    if (action === 'saveTxn') {
+      const sheet = getOrCreate(ss, 'Transaksi', TXN_HEADERS);
+      const t     = payload.txn || {};
+      const rows  = sheet.getDataRange().getValues();
+      let found   = false;
+      for (let i = 1; i < rows.length; i++) {
+        if (String(rows[i][0]) === String(t.id)) {
+          sheet.getRange(i+1, 1, 1, TXN_HEADERS.length).setValues([txnRow(t)]);
+          found = true;
+          break;
+        }
+      }
+      if (!found) sheet.appendRow(txnRow(t));
+      return ok({ status: 'saved' });
+    }
+
+    // ── TRANSAKSI: Hapus 1 transaksi ──────────────────────────────
+    if (action === 'deleteTxn') {
+      const sheet = ss.getSheetByName('Transaksi');
+      if (sheet) {
+        const rows = sheet.getDataRange().getValues();
+        for (let i = rows.length - 1; i >= 1; i--) {
+          if (String(rows[i][0]) === String(payload.id)) {
+            sheet.deleteRow(i + 1);
+            break;
+          }
+        }
+      }
+      return ok({ status: 'deleted' });
+    }
+
+    // ── TRANSAKSI: Hapus semua transaksi ──────────────────────────
+    if (action === 'clearTxns') {
+      const sheet = ss.getSheetByName('Transaksi');
+      if (sheet && sheet.getLastRow() > 1) {
+        sheet.deleteRows(2, sheet.getLastRow() - 1);
+      }
+      return ok({ status: 'cleared' });
+    }
+
+    // ── TRANSAKSI: Sync semua (bulk replace) ──────────────────────
+    if (action === 'syncTxns') {
+      const sheet = getOrCreate(ss, 'Transaksi', TXN_HEADERS);
+      if (sheet.getLastRow() > 1) sheet.deleteRows(2, sheet.getLastRow() - 1);
+      const txns = payload.transactions || [];
+      if (txns.length > 0) {
+        const rows = txns.map(t => txnRow(t));
+        sheet.getRange(2, 1, rows.length, TXN_HEADERS.length).setValues(rows);
+      }
+      return ok({ status: 'synced', count: txns.length });
+    }
+
     return ok({ status: 'unknown action', action });
 
   } catch(err) {
@@ -315,6 +380,8 @@ const TRADE_HEADERS = [
   'lot','setup','session','result','pnl','note',
   'sslink'
 ];
+
+const TXN_HEADERS = ['id','date','type','amount','method','note'];
 
 const PSY_HEADERS = [
   'id','date','mood','fokus','emosi','disiplin',
@@ -340,6 +407,17 @@ function tradeRow(t) {
     t.pnl       || '',
     t.note      || '',
     t.sslink    || ''
+  ];
+}
+
+function txnRow(t) {
+  return [
+    t.id     || '',
+    t.date   || '',
+    t.type   || '',
+    t.amount || '',
+    t.method || '',
+    t.note   || ''
   ];
 }
 
