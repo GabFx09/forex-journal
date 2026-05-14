@@ -1,6 +1,6 @@
 // ============================================================
 //  FinanceJournal Pro — Google Apps Script Backend
-//  v1.2
+//  v1.3
 //
 //  CARA SETUP:
 //  1. Buka sheets.new → beri nama "FinanceJournal Pro"
@@ -30,6 +30,7 @@ function doGet(e) {
         debts:        getSheetData(ss, 'Hutang',     DEBT_HEADERS),
         goals:        getSheetData(ss, 'Tujuan',     GOAL_HEADERS),
         assets:       getSheetData(ss, 'Aset',       ASSET_HEADERS),
+        notes:        getSheetData(ss, 'Catatan',    NOTE_HEADERS),
         profile:      getProfile(ss),
         rekening:     getRekening(ss),
       });
@@ -127,6 +128,26 @@ function doPost(e) {
       return ok({ status: 'saved' });
     }
 
+    // ── SAVE CATATAN ──────────────────────────────────────────
+    if (action === 'saveNote') {
+      const sheet = getOrCreate(ss, 'Catatan', NOTE_HEADERS);
+      upsertRow(sheet, payload.note.id, noteRow(payload.note));
+      return ok({ status: 'saved' });
+    }
+
+    // ── DELETE CATATAN ────────────────────────────────────────
+    if (action === 'deleteNote') {
+      deleteRowById(ss, 'Catatan', payload.id);
+      return ok({ status: 'deleted' });
+    }
+
+    // ── CLEAR CATATAN ─────────────────────────────────────────
+    if (action === 'clearNotes') {
+      const sheet = ss.getSheetByName('Catatan');
+      if (sheet && sheet.getLastRow() > 1) clearDataRows(sheet);
+      return ok({ status: 'cleared' });
+    }
+
     // ── SYNC ALL (bulk replace) ──────────────────────────────
     if (action === 'syncAll') {
       // Transaksi
@@ -179,6 +200,15 @@ function doPost(e) {
       if (payload.rekening) {
         saveRekeningData(ss, payload.rekening);
       }
+      // Catatan
+      if (payload.notes) {
+        const s = getOrCreate(ss, 'Catatan', NOTE_HEADERS);
+        clearDataRows(s);
+        if (payload.notes.length > 0) {
+          s.getRange(2, 1, payload.notes.length, NOTE_HEADERS.length)
+           .setValues(payload.notes.map(n => noteRow(n)));
+        }
+      }
       return ok({ status: 'synced' });
     }
 
@@ -196,6 +226,7 @@ const TRX_HEADERS   = ['id','date','type','cat','amount','desc','method','recur'
 const DEBT_HEADERS  = ['id','name','type','original','remaining','payment','rate','due','note'];
 const GOAL_HEADERS  = ['id','name','icon','target','current','deadline','color','note'];
 const ASSET_HEADERS = ['id','name','cat','value','date','note'];
+const NOTE_HEADERS  = ['id','title','cat','content','date'];
 
 // ══════════════════════════════════════════════════════════════
 //  ROW BUILDERS
@@ -211,6 +242,9 @@ function goalRow(g) {
 }
 function assetRow(a) {
   return [a.id||'', a.name||'', a.cat||'', a.value||0, a.date||'', a.note||''];
+}
+function noteRow(n) {
+  return [n.id||'', n.title||'', n.cat||'', n.content||'', n.date||''];
 }
 
 // ══════════════════════════════════════════════════════════════

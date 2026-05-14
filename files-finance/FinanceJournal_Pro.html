@@ -794,8 +794,8 @@ function setSync(st,txt){
 }
 async function gasGet(p){const r=await fetch(GS_URL+'?'+new URLSearchParams(p),{redirect:'follow'});const d=await r.json();if(!d.ok)throw new Error(d.error||'Script error');return d;}
 async function gasPost(b){const r=await fetch(GS_URL,{method:'POST',redirect:'follow',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(b)});const d=await r.json();if(!d.ok)throw new Error(d.error||'Script error');return d;}
-async function pullAll(){if(!GS_ON)return;setSync('busy','Mengambil data...');try{const r=await gasGet({action:'getData'});if(r.transactions)transactions=r.transactions;if(r.budgets)budgets=r.budgets;if(r.debts)debts=r.debts;if(r.goals)goals=r.goals;if(r.assets)assets=r.assets;let profLoaded=false;if(r.profile&&r.profile.name){profile=r.profile;profLoaded=true;if($('p-name'))$('p-name').value=profile.name||'';if($('p-income'))$('p-income').value=profile.income||'';if($('p-save'))$('p-save').value=profile.savingTarget||'';if($('p-saldo'))$('p-saldo').value=profile.saldo||'';if($('p-invest'))$('p-invest').value=profile.invest||'';}if(r.rekening&&Object.keys(r.rekening).length){rekening=Object.assign(rekening,r.rekening);}save();renderAll();setSync('ok','✅ Data terbaru');toast(profLoaded?'✅ Data & profil '+profile.name+' berhasil diambil!':'✅ Data berhasil diambil!');}catch(e){setSync('err','🔴 Pull gagal: '+e.message);renderAll();}}
-async function pushAll(){if(!GS_ON)return;setSync('busy','Mengirim...');try{await gasPost({action:'syncAll',transactions,budgets,debts,goals,assets,profile,rekening});setSync('ok','✅ Terkirim — '+new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}));toast('✅ Semua data terkirim ke Sheets!');}catch(e){setSync('err','🔴 Push gagal');toast('❌ '+e.message,3500);}}
+async function pullAll(){if(!GS_ON)return;setSync('busy','Mengambil data...');try{const r=await gasGet({action:'getData'});if(r.transactions)transactions=r.transactions;if(r.budgets)budgets=r.budgets;if(r.debts)debts=r.debts;if(r.goals)goals=r.goals;if(r.assets)assets=r.assets;let profLoaded=false;if(r.profile&&r.profile.name){profile=r.profile;profLoaded=true;if($('p-name'))$('p-name').value=profile.name||'';if($('p-income'))$('p-income').value=profile.income||'';if($('p-save'))$('p-save').value=profile.savingTarget||'';if($('p-saldo'))$('p-saldo').value=profile.saldo||'';if($('p-invest'))$('p-invest').value=profile.invest||'';}if(r.rekening&&Object.keys(r.rekening).length){rekening=Object.assign(rekening,r.rekening);}if(r.notes&&r.notes.length)notes=r.notes;save();renderAll();setSync('ok','✅ Data terbaru');toast(profLoaded?'✅ Data & profil '+profile.name+' berhasil diambil!':'✅ Data berhasil diambil!');}catch(e){setSync('err','🔴 Pull gagal: '+e.message);renderAll();}}
+async function pushAll(){if(!GS_ON)return;setSync('busy','Mengirim...');try{await gasPost({action:'syncAll',transactions,budgets,debts,goals,assets,notes,profile,rekening});setSync('ok','✅ Terkirim — '+new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}));toast('✅ Semua data terkirim ke Sheets!');}catch(e){setSync('err','🔴 Push gagal');toast('❌ '+e.message,3500);}}
 
 // ── PROFILE MODAL ─────────────────────────────────────────────────
 function openMo(){
@@ -1215,9 +1215,17 @@ function addNote(){
   notes.unshift(n);save();renderNotes();
   $('note-title').value='';$('note-content').value='';
   toast('✅ Catatan disimpan!');
+  if(GS_ON) gasPost({action:'saveNote',note:n}).catch(()=>{});
 }
-function deleteNote(id){notes=notes.filter(n=>n.id!==id);save();renderNotes();}
-function clearNotes(){if(!notes.length)return;if(!confirm('Hapus semua catatan?'))return;notes=[];save();renderNotes();}
+function deleteNote(id){
+  notes=notes.filter(n=>n.id!==id);save();renderNotes();
+  if(GS_ON) gasPost({action:'deleteNote',id}).catch(()=>{});
+}
+function clearNotes(){
+  if(!notes.length)return;if(!confirm('Hapus semua catatan?'))return;
+  notes=[];save();renderNotes();
+  if(GS_ON) gasPost({action:'clearNotes'}).catch(()=>{});
+}
 function renderNotes(){
   const el=$('notes-list');if(!el)return;
   if(!notes.length){el.innerHTML='<div class="em">Belum ada catatan.</div>';return;}

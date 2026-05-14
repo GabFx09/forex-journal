@@ -1,5 +1,5 @@
 {
-  "generated": "14 May 2026 07:02 WIB",
+  "generated": "14 May 2026 07:05 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,20 +7,20 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.426,
-      "count": 21
+      "score": -0.438,
+      "count": 19
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.475,
-      "count": 20
+      "score": -0.493,
+      "count": 18
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.398,
-      "count": 19
+      "score": -0.409,
+      "count": 17
     },
     {
       "pair": "EUR/USD",
@@ -155,30 +155,10 @@
       "emoji": "🟢"
     },
     {
-      "source": "FXStreet News",
-      "title": "Forex Hari Ini: Data inflasi AS yang panas mengangkat Dolar AS karena pasar bersiap menghadapi Penjualan Ritel dan PDB Inggris",
-      "url": "https://www.fxstreet.com/news/forex-today-hot-us-inflation-data-lifts-us-dollar-as-markets-brace-for-retail-sales-and-uk-gdp-202605132002",
-      "summary": "The US Dollar Index (DXY) rises toward the 98.50 region, reaching its highest level since late April after US Producer Price Index (PPI) data came in much hotter than expected.",
-      "published": "14 May 2026 03:02 WIB",
-      "sentiment": "Bullish",
-      "score": 0.122,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "ECB Philip Lane: Kejutan harga minyak memerlukan kenaikan suku bunga",
-      "url": "https://www.fxstreet.com/news/ecb-philip-lane-oil-shock-to-require-rate-hikes-202605131936",
-      "summary": "The European Central Bank (ECB) Chief Economist Philip Lane crossed the wires, saying that the energy shock caused by the Iran war will require a restrictive policy at a conference in London.",
-      "published": "14 May 2026 02:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.74,
-      "emoji": "🔴"
-    },
-    {
       "source": "Bloomberg Markets",
       "title": "Minyak Stabil Menjelang Pembicaraan Trump-Xi seiring Meningkatnya Ketegangan Perang Iran",
       "url": "https://www.bloomberg.com/news/articles/2026-05-13/latest-oil-market-news-and-analysis-for-may-14",
-      "summary": "Oil steadied ahead of a meeting between US President Donald Trump and his Chinese counterpart Xi Jinping, which is being held against the backdrop of the Iran war that shows no signs of a near-term resolution.",
+      "summary": "Oil steadied ahead of a meeting between US President Donald Trump and Chinese leader Xi Jinping, set against the backdrop of the Iran war that shows no signs of a near-term resolution.",
       "published": "14 May 2026 05:08 WIB",
       "sentiment": "Bearish",
       "score": -0.994,

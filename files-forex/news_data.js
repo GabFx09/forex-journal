@@ -1,13 +1,13 @@
-// Diperbarui: 14 May 2026 07:02 WIB
+// Diperbarui: 14 May 2026 07:05 WIB
 window.FK_DATA = {
-  "generated": "14 May 2026 07:02 WIB",
+  "generated": "14 May 2026 07:05 WIB",
   "kalender": {
-    "generated": "14 May 2026 07:02 WIB",
+    "generated": "14 May 2026 07:05 WIB",
     "events": [
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "05:30",
+        "time_wib": "19:30",
         "currency": "CNY",
         "impact": "medium",
         "event": "CPI y/y",
@@ -29,7 +29,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "17:45",
+        "time_wib": "07:45",
         "currency": "USD",
         "impact": "low",
         "event": "Cleveland Fed Inflation Expectations",
@@ -40,7 +40,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "18:00",
+        "time_wib": "08:00",
         "currency": "USD",
         "impact": "low",
         "event": "Existing Home Sales",
@@ -51,7 +51,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "03:01",
+        "time_wib": "17:01",
         "currency": "GBP",
         "impact": "low",
         "event": "BRC Retail Sales Monitor y/y",
@@ -62,7 +62,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "03:30",
+        "time_wib": "17:30",
         "currency": "JPY",
         "impact": "low",
         "event": "Household Spending y/y",
@@ -73,7 +73,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "03:50",
+        "time_wib": "17:50",
         "currency": "JPY",
         "impact": "low",
         "event": "BOJ Summary of Opinions",
@@ -84,7 +84,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "05:30",
+        "time_wib": "19:30",
         "currency": "AUD",
         "impact": "low",
         "event": "NAB Business Confidence",
@@ -95,7 +95,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "07:35",
+        "time_wib": "21:35",
         "currency": "JPY",
         "impact": "low",
         "event": "10-y Bond Auction",
@@ -106,7 +106,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "09:00",
+        "time_wib": "23:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Leading Indicators",
@@ -117,7 +117,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "10:00",
+        "time_wib": "00:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German Final CPI m/m",
@@ -128,7 +128,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "10:30",
+        "time_wib": "00:30",
         "currency": "CHF",
         "impact": "low",
         "event": "PPI m/m",
@@ -139,7 +139,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "11:15",
+        "time_wib": "01:15",
         "currency": "EUR",
         "impact": "low",
         "event": "German Buba President Nagel Speaks",
@@ -161,7 +161,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "12:00",
+        "time_wib": "02:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Italian Industrial Production m/m",
@@ -172,7 +172,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "13:00",
+        "time_wib": "03:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German ZEW Economic Sentiment",
@@ -194,7 +194,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "13:30",
+        "time_wib": "03:30",
         "currency": "AUD",
         "impact": "low",
         "event": "Annual Budget Release",
@@ -205,7 +205,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "14:00",
+        "time_wib": "04:00",
         "currency": "USD",
         "impact": "low",
         "event": "NFIB Small Business Index",
@@ -216,7 +216,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "16:15",
+        "time_wib": "06:15",
         "currency": "USD",
         "impact": "low",
         "event": "ADP Weekly Employment Change",
@@ -227,7 +227,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "16:30",
+        "time_wib": "06:30",
         "currency": "USD",
         "impact": "high",
         "event": "Core CPI m/m",
@@ -260,7 +260,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "17:10",
+        "time_wib": "07:10",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Goolsbee Speaks",
@@ -271,7 +271,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "18:30",
+        "time_wib": "08:30",
         "currency": "AUD",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -282,7 +282,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "21:00",
+        "time_wib": "11:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Goolsbee Speaks",
@@ -293,7 +293,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "21:01",
+        "time_wib": "11:01",
         "currency": "USD",
         "impact": "low",
         "event": "10-y Bond Auction",
@@ -304,7 +304,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "22:00",
+        "time_wib": "12:00",
         "currency": "USD",
         "impact": "low",
         "event": "Federal Budget Balance",
@@ -315,7 +315,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "00:30",
+        "time_wib": "14:30",
         "currency": "USD",
         "impact": "low",
         "event": "API Weekly Statistical Bulletin",
@@ -326,7 +326,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "03:50",
+        "time_wib": "17:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Bank Lending y/y",
@@ -348,7 +348,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "05:30",
+        "time_wib": "19:30",
         "currency": "AUD",
         "impact": "medium",
         "event": "Wage Price Index q/q",
@@ -359,7 +359,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "07:00",
+        "time_wib": "21:00",
         "currency": "NZD",
         "impact": "low",
         "event": "Inflation Expectations q/q",
@@ -370,7 +370,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "09:00",
+        "time_wib": "23:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Economy Watchers Sentiment",
@@ -381,7 +381,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "10:00",
+        "time_wib": "00:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German WPI m/m",
@@ -392,7 +392,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "10:45",
+        "time_wib": "00:45",
         "currency": "EUR",
         "impact": "low",
         "event": "French Final CPI m/m",
@@ -403,7 +403,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "13:00",
+        "time_wib": "03:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Flash Employment Change q/q",
@@ -436,7 +436,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "13:35",
+        "time_wib": "03:35",
         "currency": "EUR",
         "impact": "low",
         "event": "German 30-y Bond Auction",
@@ -447,7 +447,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "16:30",
+        "time_wib": "06:30",
         "currency": "USD",
         "impact": "high",
         "event": "Core PPI m/m",
@@ -469,7 +469,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "17:30",
+        "time_wib": "07:30",
         "currency": "GBP",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -480,7 +480,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "18:00",
+        "time_wib": "08:00",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Mann Speaks",
@@ -491,7 +491,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "18:30",
+        "time_wib": "08:30",
         "currency": "USD",
         "impact": "low",
         "event": "Crude Oil Inventories",
@@ -502,7 +502,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "19:05",
+        "time_wib": "09:05",
         "currency": "CAD",
         "impact": "low",
         "event": "Gov Council Member Alexopoulos Speaks",
@@ -513,7 +513,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "19:30",
+        "time_wib": "09:30",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Collins Speaks",
@@ -524,7 +524,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "21:01",
+        "time_wib": "11:01",
         "currency": "USD",
         "impact": "low",
         "event": "30-y Bond Auction",
@@ -535,7 +535,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "21:15",
+        "time_wib": "11:15",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Kashkari Speaks",
@@ -546,7 +546,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "21:30",
+        "time_wib": "11:30",
         "currency": "CAD",
         "impact": "low",
         "event": "BOC Summary of Deliberations",
@@ -557,7 +557,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "22:40",
+        "time_wib": "12:40",
         "currency": "USD",
         "impact": "high",
         "event": "Fed Chair Nomination Vote",
@@ -568,7 +568,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "23:15",
+        "time_wib": "13:15",
         "currency": "EUR",
         "impact": "low",
         "event": "ECB President Lagarde Speaks",
@@ -579,7 +579,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "02:50",
+        "time_wib": "16:50",
         "currency": "NZD",
         "impact": "low",
         "event": "Visitor Arrivals m/m",
@@ -590,7 +590,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "03:01",
+        "time_wib": "17:01",
         "currency": "GBP",
         "impact": "low",
         "event": "RICS House Price Balance",
@@ -601,7 +601,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "03:50",
+        "time_wib": "17:50",
         "currency": "JPY",
         "impact": "low",
         "event": "M2 Money Stock y/y",
@@ -612,7 +612,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "05:00",
+        "time_wib": "19:00",
         "currency": "AUD",
         "impact": "low",
         "event": "MI Inflation Expectations",
@@ -623,7 +623,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "07:35",
+        "time_wib": "21:35",
         "currency": "JPY",
         "impact": "low",
         "event": "30-y Bond Auction",
@@ -645,7 +645,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "10:00",
+        "time_wib": "00:00",
         "currency": "GBP",
         "impact": "high",
         "event": "GDP m/m",
@@ -777,7 +777,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "16:30",
+        "time_wib": "06:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Wholesale Sales m/m",
@@ -832,7 +832,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "18:00",
+        "time_wib": "08:00",
         "currency": "USD",
         "impact": "low",
         "event": "Business Inventories m/m",
@@ -854,7 +854,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "18:15",
+        "time_wib": "08:15",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Schmid Speaks",
@@ -865,7 +865,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "18:30",
+        "time_wib": "08:30",
         "currency": "USD",
         "impact": "low",
         "event": "Natural Gas Storage",
@@ -876,7 +876,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "19:15",
+        "time_wib": "09:15",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Pill Speaks",
@@ -887,7 +887,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "21:00",
+        "time_wib": "11:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Hammack Speaks",
@@ -898,7 +898,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "01:45",
+        "time_wib": "15:45",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Williams Speaks",
@@ -909,7 +909,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "02:30",
+        "time_wib": "16:30",
         "currency": "NZD",
         "impact": "low",
         "event": "BusinessNZ Manufacturing Index",
@@ -920,7 +920,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "02:45",
+        "time_wib": "16:45",
         "currency": "NZD",
         "impact": "low",
         "event": "FPI m/m",
@@ -931,7 +931,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "03:00",
+        "time_wib": "17:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Barr Speaks",
@@ -942,7 +942,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "03:50",
+        "time_wib": "17:50",
         "currency": "JPY",
         "impact": "low",
         "event": "PPI y/y",
@@ -953,7 +953,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "10:00",
+        "time_wib": "00:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Prelim Machine Tool Orders y/y",
@@ -964,7 +964,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "12:00",
+        "time_wib": "02:00",
         "currency": "EUR",
         "impact": "low",
         "event": "ECB Economic Bulletin",
@@ -975,7 +975,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "16:15",
+        "time_wib": "06:15",
         "currency": "CAD",
         "impact": "low",
         "event": "Housing Starts",
@@ -986,7 +986,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "16:30",
+        "time_wib": "06:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Foreign Securities Purchases",
@@ -1019,7 +1019,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-14",
         "day": "Kamis",
-        "time_wib": "17:15",
+        "time_wib": "07:15",
         "currency": "USD",
         "impact": "low",
         "event": "Capacity Utilization Rate",
@@ -1041,49 +1041,37 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "14 May 2026 07:02 WIB",
+    "generated": "14 May 2026 07:05 WIB",
     "summary": {
-      "total": 80,
-      "bullish": 32,
-      "bearish": 44,
-      "netral": 4,
-      "avg_score": -0.1195,
+      "total": 74,
+      "bullish": 29,
+      "bearish": 39,
+      "netral": 6,
+      "avg_score": -0.1198,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
           "sentiment": "Bullish",
-          "score": 0.197,
-          "count": 20
+          "score": 0.245,
+          "count": 16
         },
         {
           "currency": "EUR",
           "sentiment": "Bearish",
-          "score": -0.177,
-          "count": 9
+          "score": -0.173,
+          "count": 7
         },
         {
           "currency": "GBP",
-          "sentiment": "Bearish",
-          "score": -0.086,
+          "sentiment": "Bullish",
+          "score": 0.415,
           "count": 2
-        },
-        {
-          "currency": "JPY",
-          "sentiment": "Bearish",
-          "score": -0.25,
-          "count": 1
         },
         {
           "currency": "CAD",
           "sentiment": "Bearish",
           "score": -0.591,
-          "count": 1
-        },
-        {
-          "currency": "NZD",
-          "sentiment": "Bullish",
-          "score": 0.42,
           "count": 1
         }
       ]
@@ -1240,133 +1228,83 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "Emas naik lebih tinggi mendekati $4.700 menjelang pertemuan puncak Trump-Xi",
-        "url": "https://www.fxstreet.com/news/gold-edges-higher-to-near-4-700-as-trump-xi-summit-looms-202605132314",
-        "summary": "Gold price (XAU/USD) trades in positive territory near $4,700 during the early Asian session on Thursday. The precious metal edges higher as markets turn cautious ahead of the US President Donald Trump-Chinese President Xi Jinping summit in Beijing.",
-        "published": "14 May 2026 06:14 WIB",
+        "source": "FXStreet",
+        "title": "Emas tetap merah di bawah $4.700 karena USD melanjutkan kenaikan menjelang IHP AS - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX2RNcjkxQUV1VFZBTnY3RzZCc01aTHMzZ2JTWDFNeFZfNnB4eUROeFJPV0xLZDlpdTZVRy1JUGpoOE9ET3JCaU9aaUdGajltNlZxSEZSWlZZbTNWOXFxRmdtcHZycEFMYXdicmU3end2bTNrYTd3c0d0aHk2YktWaTVENXJUNHkwd2RkTHFiUW93UEpta3EwbC1Gb004MUVwdjlhYjhta18xY0U1Rk04VnVlRDV2UmdyNWZBY2NB?oc=5",
+        "summary": "Gold keeps the red below $4,700 as USD extends gains ahead of US PPI FXStreet",
+        "published": "13 May 2026 15:55 WIB",
         "sentiment": "Bullish",
-        "score": 0.743,
+        "score": 0.78,
         "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "Perkiraan Harga GBP/JPY: Menembus SMA 50-hari, namun garis datar di bawah 214,00",
-        "url": "https://www.fxstreet.com/news/gbp-jpy-price-forecast-clears-50-day-sma-yet-flatlines-below-21400-202605132258",
-        "summary": "The GBP/JPY hovers around 213.50 on Wednesday, finishing the session barely unchanged, up a mediocre 0.04% as the Yen weakened against most G10 FX currencies.",
-        "published": "14 May 2026 05:58 WIB",
-        "sentiment": "Bearish",
-        "score": -0.25,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Pound Sterling membalikkan kenaikan intraday karena IHP AS dan risiko politik Inggris membebani",
-        "url": "https://www.fxstreet.com/news/pound-sterling-reverses-intraday-gains-as-us-ppi-and-uk-political-risk-weighs-202605132248",
-        "summary": "GBP/USD ended Wednesday little changed on a net basis, though the session included a sharp intraday swing of around 65 pips.",
-        "published": "14 May 2026 05:48 WIB",
-        "sentiment": "Bullish",
-        "score": 0.077,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dolar Selandia Baru mengembalikan kenaikannya karena IHP AS yang tinggi mengimbangi ekspektasi kenaikan RBNZ",
-        "url": "https://www.fxstreet.com/news/new-zealand-dollar-gave-back-gains-as-hot-us-ppi-offsets-rbnz-expectations-rise-202605132236",
-        "summary": "NZD/USD ended Wednesday virtually flat, though the session produced a sharp two-way range of close to 50 pips.",
-        "published": "14 May 2026 05:36 WIB",
-        "sentiment": "Bullish",
-        "score": 0.42,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dolar Australia mundur dari puncak sesi karena angka IHP AS yang melonjak tajam",
-        "url": "https://www.fxstreet.com/news/australian-dollar-retreats-from-session-peak-as-us-ppi-print-beats-sharply-202605132234",
-        "summary": "AUD/USD gained roughly 0.3% on Wednesday, climbing through the session before peaking just below the recent cycle highs and pulling back into the close.",
-        "published": "14 May 2026 05:34 WIB",
-        "sentiment": "Bullish",
-        "score": 0.542,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dolar Singapura: Konsolidasi dengan preferensi untuk menjual reli – OCBC",
-        "url": "https://www.fxstreet.com/news/singapore-dollar-consolidation-with-preference-to-sell-rallies-ocbc-202605132111",
-        "summary": "OCBC’s Christopher Wong notes USD/SGD has risen with broader USD/AXJ but the move has been milder, reflecting Singapore Dollar's (SGD) lower beta. Wong observes fading bearish momentum and moderated RSI, suggesting two-way trade.",
-        "published": "14 May 2026 04:11 WIB",
-        "sentiment": "Bearish",
-        "score": -0.421,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Perkiraan Harga Perak: Reli enam hari membuat $90 menjadi target pembeli",
-        "url": "https://www.fxstreet.com/news/silver-price-forecast-bulls-eye-9000-as-momentum-surges-202605122027",
-        "summary": "Silver (XAG/USD) price extends its gains for the sixth consecutive day on Wednesday, up over 1.30%, despite US inflation might prevent the Federal Reserve (Fed) from cutting interest rates.",
+        "source": "FXStreet",
+        "title": "Perkiraan Harga Perak: Reli enam hari menempatkan $90 dalam pandangan pembeli - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPazFZMGlCSzRrU3g5cVZoT1V5WFFvSEcxRUYtTWE5TXBRSUc5c0h6MS1sVHFBdUE4TmN6Z05MdHhuYk9GclctQUE2Rll1cjljWV94cTBlcWwtLVNaRTRwUGVBV2tSU2RCR2VaWUJaekhvRThrRTc5cE03V2VkVDlDRV85Z0wxMWZPS01qZUQ4LVl3RGdDcmg4clg5SW4zNEE?oc=5",
+        "summary": "Silver Price Forecast: Six-day rally puts $90 in bulls’ sights FXStreet",
         "published": "14 May 2026 03:31 WIB",
         "sentiment": "Bullish",
-        "score": 0.83,
+        "score": 0.08,
         "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "Malaysia: Biaya subsidi terkendali dan pendanaan berketahanan – BNP Paribas",
-        "url": "https://www.fxstreet.com/news/malaysia-manageable-subsidy-costs-and-resilient-funding-bnp-paribas-202605132021",
-        "summary": "BNP Paribas economists note that Malaysia has kept stable the price of RON 95 fuel used mainly by households, limiting the fiscal impact of subsidies to about 0.2% of GDP if Oil stays below USD 100.",
-        "published": "14 May 2026 03:21 WIB",
-        "sentiment": "Bullish",
-        "score": 0.296,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Forex Hari Ini: Data inflasi AS yang panas mengangkat Dolar AS karena pasar bersiap menghadapi Penjualan Ritel dan PDB Inggris",
-        "url": "https://www.fxstreet.com/news/forex-today-hot-us-inflation-data-lifts-us-dollar-as-markets-brace-for-retail-sales-and-uk-gdp-202605132002",
-        "summary": "The US Dollar Index (DXY) rises toward the 98.50 region, reaching its highest level since late April after US Producer Price Index (PPI) data came in much hotter than expected.",
+        "source": "FXStreet",
+        "title": "Forex Hari Ini: Data inflasi AS yang menarik mengangkat Dolar AS karena pasar bersiap untuk Penjualan Ritel dan PDB Inggris - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQa2RvNzNGNURXOG1QcWhaSEY2X0FnTHlmeTVfNS1Rc3poUU9XSTlyYjRIS1JlY2lwal81b2hBRFlsaTJ6NUNsRnBlMXA1S0tJalFwX1VRSW03QUJpLWV2UmxhU1prajU2YnR6cDItV3pHeFIyZGJFcTZKeTJyaTljZlNvTnprMEZ1ZzNwSHlxWWVTMWVMU2JuMWJMYVowbk1VOVhEMlFBN2puVHRqT1VEUlpyTDhsMDM4a05HMF80a096VHJra3dPMi1uUVRVeFVyQl84?oc=5",
+        "summary": "Forex Today: Hot US inflation data lifts US Dollar as markets brace for Retail Sales and UK GDP FXStreet",
         "published": "14 May 2026 03:02 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FXStreet",
+        "title": "Perkiraan Harga GBP/USD: Lanjutkan Penurunan di Bawah EMA 20-hari - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3l4M2RjejB6dDNBRmtOV1hkSDVLVmRxSFM2dXJzMEczbVVvMURjVmEyd19UNzNFa3JRT3p3emtvM21kaXMzaS1KZVJaOFI5aGdCV3R3dW02NlVDeG5vUUg2ck9vamE0Y1BURExHcmhvdElQWTdHUnd2elM4Tm1oOE5VQ2lFTTVrREF5Q0ExUG1saERfaXZKNzF2ZlZWMEU?oc=5",
+        "summary": "GBP/USD Price Forecast: Extends decline below 20-day EMA FXStreet",
+        "published": "13 May 2026 18:50 WIB",
         "sentiment": "Bullish",
-        "score": 0.122,
+        "score": 0.17,
         "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "Lane, ECB: Guncangan energi saat ini terjadi di lingkungan yang kurang mendukung permintaan",
-        "url": "https://www.fxstreet.com/news/ecbs-lane-current-energy-shock-is-unfolding-in-a-less-demand-supportive-environment-202605132001",
-        "summary": "Philip Lane, Member of the European Central Bank (ECB), told an audience in London on Wednesday that the propagation of the Iran shock may be more contained than in 2022, but stronger and faster than historical averages.",
-        "published": "14 May 2026 03:01 WIB",
+        "source": "FXStreet",
+        "title": "Perkiraan Harga EUR/USD: Berkonsolidasi di bawah pertengahan 1,17 karena risiko Iran, taruhan Fed mendukung USD - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDV4Zmdkc3FjREdKeGtYcHFFWXZLM05Ja015aml6UGFhTVh0VVdHTmpwRVctRGZfSmR1R09hSDZUbWVjb1dnNUlzZkVESC1fWDZmeHJzd0pnN0VzUmdvSlZZT29PWW9wc2lhYmE0YWRZRkFuNjNrZ1ZpVTVOVF80akZsaVljSEdNLUthX3NhbFRBMmY3RlpTMmFONHRJS3lkOV8yVmtNTEVITklYVGpPWG9UelRPOTBINGFvaDZ3X09qWEFpSWt5SVdn?oc=5",
+        "summary": "EUR/USD Price Forecast: Consolidates below mid-1.1700s as Iran risks, Fed bets support USD FXStreet",
+        "published": "13 May 2026 12:00 WIB",
         "sentiment": "Bullish",
-        "score": 0.409,
+        "score": 0.216,
         "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "ECB Philip Lane: Kejutan harga minyak memerlukan kenaikan suku bunga",
-        "url": "https://www.fxstreet.com/news/ecb-philip-lane-oil-shock-to-require-rate-hikes-202605131936",
-        "summary": "The European Central Bank (ECB) Chief Economist Philip Lane crossed the wires, saying that the energy shock caused by the Iran war will require a restrictive policy at a conference in London.",
-        "published": "14 May 2026 02:36 WIB",
-        "sentiment": "Bearish",
-        "score": -0.791,
-        "emoji": "🔴"
+        "source": "FXStreet",
+        "title": "Perkiraan Harga GBP/USD: Pertahankan Sisi Atas Sementara Tetap Bertahan Di Atas Support EMA 100-Hari - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY2xjX2t4R1BhNGRUbm5qNW1Mcng0R25nNXNHZ3k4NWdCN1dhWUNoSWZVQXA5b2lxeENhZkpVeXNQRndDdUdyVXJicE1vZzdsNThoR3RWNzFUMVVSVkVKX2tUNHpuV3cyNVJjeEdoODlyOVR0NmdNN2JfVmxPeVhmVUNVdWVZNmVqM0Q5aGlLTFJERHMtV0JobEFVMGU2WGhQbkJFZkY2ZEFURnNQUWo5Y1RzUV9sMV9nMGxWWmF0VHdYcW9ULU5sZUNNYlpSbTg?oc=5",
+        "summary": "GBP/USD Price Forecast: Holds modest upside while staying anchored above 100-day EMA support FXStreet",
+        "published": "13 May 2026 13:31 WIB",
+        "sentiment": "Bullish",
+        "score": 0.66,
+        "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "Emas tergelincir karena IHP AS yang panas meningkatkan imbal hasil AS dan Dolar AS",
-        "url": "https://www.fxstreet.com/news/gold-slips-as-hot-us-ppi-lifts-us-yields-and-us-dollar-202605131905",
-        "summary": "Gold (XAU/USD) price edges lower during Wednesday’s session following another high inflation print in the US: input prices for producers, which hit their highest level in four years. At the time of writing, the XAU/USD pair trades at $4,699, down some 0.30%.",
-        "published": "14 May 2026 02:05 WIB",
-        "sentiment": "Bearish",
-        "score": -0.296,
-        "emoji": "🔴"
+        "source": "FXStreet",
+        "title": "Perkiraan Harga Perak: XAG/USD mempertahankan kenaikan di sekitar $87, mengabaikan taruhan hawkish Fed - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYjN1a1hEMVBnTG9kbFJYLS1XTllNckM0QUQtOTB1TTY2c1V3bURSWTN3SkZBbTAtSUw2TDhmYXZpMWxPOWk3cVlfRmgyUVJTUk1IQmo1SEFROEt0MHVOYndIbGtQSlZTYXFHdGJVRHBHQTlRai1Zc1pRQU05NDRqWklQRTl0ZllBNEFoeW9hVHhxM3FVcjI4M2RIRVpQOUl1Qk0yc0JDNG1aX1h2VlMxUnBVZjlLUHNpWHJuNVlnSGpjc00?oc=5",
+        "summary": "Silver Price Forecast: XAG/USD holds onto gains around $87, ignoring hawkish Fed bets FXStreet",
+        "published": "13 May 2026 12:45 WIB",
+        "sentiment": "Netral",
+        "score": 0.007,
+        "emoji": "⚪"
       },
       {
-        "source": "FXStreet News",
-        "title": "Indonesia: Risiko fiskal dan utang dengan imbal hasil AS yang lebih tinggi – BNP Paribas",
-        "url": "https://www.fxstreet.com/news/indonesia-fiscal-and-debt-risks-with-higher-us-yields-bnp-paribas-202605131842",
-        "summary": "BNP Paribas analyzes how Indonesia’s decision to cap fuel prices and increase subsidies leaves its public finances exposed if Brent Oil averages USD 92–100 in 2026.",
-        "published": "14 May 2026 01:42 WIB",
+        "source": "Investing.com Forex",
+        "title": "Trump dan Xi bersiap untuk melakukan pembicaraan di Beijing dengan gencatan senjata perdagangan dan perang Iran sebagai taruhannya",
+        "url": "https://www.investing.com/news/stock-market-news/trump-xi-set-for-beijing-talks-with-trade-truce-iran-war-at-stake-4686875",
+        "summary": "",
+        "published": "14 May 2026 06:54 WIB",
         "sentiment": "Bearish",
-        "score": -0.462,
+        "score": -0.679,
         "emoji": "🔴"
       },
       {
@@ -1378,16 +1316,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.296,
         "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Trump dan Xi bersiap untuk melakukan pembicaraan di Beijing dengan gencatan senjata perdagangan dan perang Iran sebagai taruhannya",
-        "url": "https://www.investing.com/news/stock-market-news/trump-xi-set-for-beijing-talks-with-trade-truce-iran-war-at-stake-4686875",
-        "summary": "",
-        "published": "14 May 2026 06:36 WIB",
-        "sentiment": "Bearish",
-        "score": -0.679,
-        "emoji": "🔴"
       },
       {
         "source": "Investing.com Forex",
@@ -1521,6 +1449,16 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
+        "title": "Minyak Stabil Menjelang Pembicaraan Trump-Xi seiring Meningkatnya Ketegangan Perang Iran",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/latest-oil-market-news-and-analysis-for-may-14",
+        "summary": "Oil steadied ahead of a meeting between US President Donald Trump and Chinese leader Xi Jinping, set against the backdrop of the Iran war that shows no signs of a near-term resolution.",
+        "published": "14 May 2026 05:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.994,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
         "title": "ASX Menunjuk Mantan Ketua Euronext Paris Anthony Attia sebagai CEO",
         "url": "https://www.bloomberg.com/news/articles/2026-05-13/asx-names-former-euronext-paris-chief-anthony-attia-as-ceo",
         "summary": "ASX Ltd. named Euronext NV executive Anthony Attia as its new leader, concluding a global search after Helen Lofthouse said earlier this year she would depart Australia’s main exchange operator.",
@@ -1548,16 +1486,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.652,
         "emoji": "🟢"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Minyak Stabil Menjelang Pembicaraan Trump-Xi seiring Meningkatnya Ketegangan Perang Iran",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-13/latest-oil-market-news-and-analysis-for-may-14",
-        "summary": "Oil steadied ahead of a meeting between US President Donald Trump and his Chinese counterpart Xi Jinping, which is being held against the backdrop of the Iran war that shows no signs of a near-term resolution.",
-        "published": "14 May 2026 05:08 WIB",
-        "sentiment": "Bearish",
-        "score": -0.994,
-        "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
@@ -1892,7 +1820,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "14 May 2026 07:02 WIB",
+    "generated": "14 May 2026 07:05 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1900,20 +1828,20 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.426,
-        "count": 21
+        "score": -0.438,
+        "count": 19
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.475,
-        "count": 20
+        "score": -0.493,
+        "count": 18
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.398,
-        "count": 19
+        "score": -0.409,
+        "count": 17
       },
       {
         "pair": "EUR/USD",
@@ -2048,30 +1976,10 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "Forex Hari Ini: Data inflasi AS yang panas mengangkat Dolar AS karena pasar bersiap menghadapi Penjualan Ritel dan PDB Inggris",
-        "url": "https://www.fxstreet.com/news/forex-today-hot-us-inflation-data-lifts-us-dollar-as-markets-brace-for-retail-sales-and-uk-gdp-202605132002",
-        "summary": "The US Dollar Index (DXY) rises toward the 98.50 region, reaching its highest level since late April after US Producer Price Index (PPI) data came in much hotter than expected.",
-        "published": "14 May 2026 03:02 WIB",
-        "sentiment": "Bullish",
-        "score": 0.122,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "ECB Philip Lane: Kejutan harga minyak memerlukan kenaikan suku bunga",
-        "url": "https://www.fxstreet.com/news/ecb-philip-lane-oil-shock-to-require-rate-hikes-202605131936",
-        "summary": "The European Central Bank (ECB) Chief Economist Philip Lane crossed the wires, saying that the energy shock caused by the Iran war will require a restrictive policy at a conference in London.",
-        "published": "14 May 2026 02:36 WIB",
-        "sentiment": "Bearish",
-        "score": -0.74,
-        "emoji": "🔴"
-      },
-      {
         "source": "Bloomberg Markets",
         "title": "Minyak Stabil Menjelang Pembicaraan Trump-Xi seiring Meningkatnya Ketegangan Perang Iran",
         "url": "https://www.bloomberg.com/news/articles/2026-05-13/latest-oil-market-news-and-analysis-for-may-14",
-        "summary": "Oil steadied ahead of a meeting between US President Donald Trump and his Chinese counterpart Xi Jinping, which is being held against the backdrop of the Iran war that shows no signs of a near-term resolution.",
+        "summary": "Oil steadied ahead of a meeting between US President Donald Trump and Chinese leader Xi Jinping, set against the backdrop of the Iran war that shows no signs of a near-term resolution.",
         "published": "14 May 2026 05:08 WIB",
         "sentiment": "Bearish",
         "score": -0.994,
@@ -2250,14 +2158,14 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "14 May 2026 07:02 WIB",
+    "generated": "14 May 2026 07:05 WIB",
     "summary": {
-      "total": 32,
-      "bullish": 5,
-      "bearish": 8,
-      "netral": 19,
-      "avg_score": 0.0094,
-      "overall": "Netral"
+      "total": 33,
+      "bullish": 9,
+      "bearish": 6,
+      "netral": 18,
+      "avg_score": 0.0831,
+      "overall": "Bullish"
     },
     "items": [
       {
@@ -2481,44 +2389,54 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "Perkiraan Harga GBP/JPY: Menembus SMA 50-hari, namun garis datar di bawah 214,00",
-        "url": "https://www.fxstreet.com/news/gbp-jpy-price-forecast-clears-50-day-sma-yet-flatlines-below-21400-202605132258",
-        "summary": "The GBP/JPY hovers around 213.50 on Wednesday, finishing the session barely unchanged, up a mediocre 0.04% as the Yen weakened against most G10 FX currencies.",
-        "published": "14 May 2026 05:58 WIB",
-        "sentiment": "Bearish",
-        "score": -0.318,
-        "emoji": "🔴"
+        "source": "FXStreet",
+        "title": "Emas tetap berada di bawah $4.700 karena USD melanjutkan kenaikan menjelang IHP AS - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX2RNcjkxQUV1VFZBTnY3RzZCc01aTHMzZ2JTWDFNeFZfNnB4eUROeFJPV0xLZDlpdTZVRy1JUGpoOE9ET3JCaU9aaUdGajltNlZxSEZSWlZZbTNWOXFxRmdtcHZycEFMYXdicmU3end2bTNrYTd3c0d0aHk2YktWaTVENXJUNHkwd2RkTHFiUW93UEpta3EwbC1Gb004MUVwdjlhYjhta18xY0U1Rk04VnVlRDV2UmdyNWZBY2NB?oc=5",
+        "summary": "Gold keeps the red below $4,700 as USD extends gains ahead of US PPI FXStreet",
+        "published": "13 May 2026 15:55 WIB",
+        "sentiment": "Bullish",
+        "score": 0.52,
+        "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "Pound Sterling kenaikan intraday karena IHP AS dan risiko politik Inggris ditangguhkan",
-        "url": "https://www.fxstreet.com/news/pound-sterling-reverses-intraday-gains-as-us-ppi-and-uk-political-risk-weighs-202605132248",
-        "summary": "GBP/USD ended Wednesday little changed on a net basis, though the session included a sharp intraday swing of around 65 pips.",
-        "published": "14 May 2026 05:48 WIB",
+        "source": "FXStreet",
+        "title": "Perkiraan Harga GBP/USD: Lanjutkan Penurunan di Bawah EMA 20-hari - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3l4M2RjejB6dDNBRmtOV1hkSDVLVmRxSFM2dXJzMEczbVVvMURjVmEyd19UNzNFa3JRT3p3emtvM21kaXMzaS1KZVJaOFI5aGdCV3R3dW02NlVDeG5vUUg2ck9vamE0Y1BURExHcmhvdElQWTdHUnd2elM4Tm1oOE5VQ2lFTTVrREF5Q0ExUG1saERfaXZKNzF2ZlZWMEU?oc=5",
+        "summary": "GBP/USD Price Forecast: Extends decline below 20-day EMA FXStreet",
+        "published": "13 May 2026 18:50 WIB",
         "sentiment": "Netral",
-        "score": 0.0,
+        "score": 0.048,
         "emoji": "⚪"
       },
       {
-        "source": "FXStreet News",
-        "title": "Dolar Selandia Baru mengembalikan kenaikannya karena IHP AS yang tinggi mengimbangi ekspektasi kenaikan RBNZ",
-        "url": "https://www.fxstreet.com/news/new-zealand-dollar-gave-back-gains-as-hot-us-ppi-offsets-rbnz-expectations-rise-202605132236",
-        "summary": "NZD/USD ended Wednesday virtually flat, though the session produced a sharp two-way range of close to 50 pips.",
-        "published": "14 May 2026 05:36 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
+        "source": "FXStreet",
+        "title": "Perkiraan Harga EUR/USD: Berkonsolidasi di bawah pertengahan 1,17 karena risiko Iran, taruhan Fed mendukung USD - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDV4Zmdkc3FjREdKeGtYcHFFWXZLM05Ja015aml6UGFhTVh0VVdHTmpwRVctRGZfSmR1R09hSDZUbWVjb1dnNUlzZkVESC1fWDZmeHJzd0pnN0VzUmdvSlZZT29PWW9wc2lhYmE0YWRZRkFuNjNrZ1ZpVTVOVF80akZsaVljSEdNLUthX3NhbFRBMmY3RlpTMmFONHRJS3lkOV8yVmtNTEVITklYVGpPWG9UelRPOTBINGFvaDZ3X09qWEFpSWt5SVdn?oc=5",
+        "summary": "EUR/USD Price Forecast: Consolidates below mid-1.1700s as Iran risks, Fed bets support USD FXStreet",
+        "published": "13 May 2026 12:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.073,
+        "emoji": "🟢"
       },
       {
-        "source": "FXStreet News",
-        "title": "ECB Philip Lane: Kejutan harga minyak memerlukan kenaikan suku bunga",
-        "url": "https://www.fxstreet.com/news/ecb-philip-lane-oil-shock-to-require-rate-hikes-202605131936",
-        "summary": "The European Central Bank (ECB) Chief Economist Philip Lane crossed the wires, saying that the energy shock caused by the Iran war will require a restrictive policy at a conference in London.",
-        "published": "14 May 2026 02:36 WIB",
-        "sentiment": "Bearish",
-        "score": -0.74,
-        "emoji": "🔴"
+        "source": "FXStreet",
+        "title": "Perkiraan Harga GBP/USD: Pertahankan Sisi Atas Sementara Tetap Bertahan Di Atas Support EMA 100-Hari - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY2xjX2t4R1BhNGRUbm5qNW1Mcng0R25nNXNHZ3k4NWdCN1dhWUNoSWZVQXA5b2lxeENhZkpVeXNQRndDdUdyVXJicE1vZzdsNThoR3RWNzFUMVVSVkVKX2tUNHpuV3cyNVJjeEdoODlyOVR0NmdNN2JfVmxPeVhmVUNVdWVZNmVqM0Q5aGlLTFJERHMtV0JobEFVMGU2WGhQbkJFZkY2ZEFURnNQUWo5Y1RzUV9sMV9nMGxWWmF0VHdYcW9ULU5sZUNNYlpSbTg?oc=5",
+        "summary": "GBP/USD Price Forecast: Holds modest upside while staying anchored above 100-day EMA support FXStreet",
+        "published": "13 May 2026 13:31 WIB",
+        "sentiment": "Bullish",
+        "score": 0.66,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet",
+        "title": "Perkiraan Harga Perak: XAG/USD mempertahankan kenaikan di sekitar $87, mengabaikan taruhan hawkish Fed - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYjN1a1hEMVBnTG9kbFJYLS1XTllNckM0QUQtOTB1TTY2c1V3bURSWTN3SkZBbTAtSUw2TDhmYXZpMWxPOWk3cVlfRmgyUVJTUk1IQmo1SEFROEt0MHVOYndIbGtQSlZTYXFHdGJVRHBHQTlRai1Zc1pRQU05NDRqWklQRTl0ZllBNEFoeW9hVHhxM3FVcjI4M2RIRVpQOUl1Qk0yc0JDNG1aX1h2VlMxUnBVZjlLUHNpWHJuNVlnSGpjc00?oc=5",
+        "summary": "Silver Price Forecast: XAG/USD holds onto gains around $87, ignoring hawkish Fed bets FXStreet",
+        "published": "13 May 2026 12:45 WIB",
+        "sentiment": "Bullish",
+        "score": 0.083,
+        "emoji": "🟢"
       },
       {
         "source": "Investing.com Economy",
