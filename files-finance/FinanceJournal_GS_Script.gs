@@ -1,6 +1,6 @@
 // ============================================================
 //  FinanceJournal Pro — Google Apps Script Backend
-//  v1.3
+//  v1.4
 //
 //  CARA SETUP:
 //  1. Buka sheets.new → beri nama "FinanceJournal Pro"
@@ -289,8 +289,8 @@ function saveProfileData(ss, profile) {
 }
 
 function getProfile(ss) {
-  const sheet = ss.getSheetByName('Profil');
-  if (!sheet || sheet.getLastRow() <= 1) return {};
+  const sheet = getOrCreate(ss, 'Profil', ['key', 'value']);
+  if (sheet.getLastRow() <= 1) return {};
   const rows = sheet.getDataRange().getValues().slice(1);
   const numericKeys = ['income', 'savingTarget', 'gaji', 'saldo', 'invest'];
   const result = {};
@@ -314,8 +314,8 @@ function saveRekeningData(ss, rekening) {
 }
 
 function getRekening(ss) {
-  const sheet = ss.getSheetByName('Rekening');
-  if (!sheet || sheet.getLastRow() <= 1) return {};
+  const sheet = getOrCreate(ss, 'Rekening', ['key', 'value']);
+  if (sheet.getLastRow() <= 1) return {};
   const rows = sheet.getDataRange().getValues().slice(1);
   const result = {};
   rows.forEach(r => { result[String(r[0])] = Number(r[1]) || 0; });
