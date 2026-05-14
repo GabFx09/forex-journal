@@ -1,6 +1,6 @@
 // ============================================================
 //  FinanceJournal Pro — Google Apps Script Backend
-//  v1.1
+//  v1.2
 //
 //  CARA SETUP:
 //  1. Buka sheets.new → beri nama "FinanceJournal Pro"
@@ -31,6 +31,7 @@ function doGet(e) {
         goals:        getSheetData(ss, 'Tujuan',     GOAL_HEADERS),
         assets:       getSheetData(ss, 'Aset',       ASSET_HEADERS),
         profile:      getProfile(ss),
+        rekening:     getRekening(ss),
       });
     }
 
@@ -120,6 +121,12 @@ function doPost(e) {
       return ok({ status: 'saved' });
     }
 
+    // ── SAVE REKENING ─────────────────────────────────────────
+    if (action === 'saveRekening') {
+      saveRekeningData(ss, payload.rekening);
+      return ok({ status: 'saved' });
+    }
+
     // ── SYNC ALL (bulk replace) ──────────────────────────────
     if (action === 'syncAll') {
       // Transaksi
@@ -167,6 +174,10 @@ function doPost(e) {
       // Profil
       if (payload.profile) {
         saveProfileData(ss, payload.profile);
+      }
+      // Rekening
+      if (payload.rekening) {
+        saveRekeningData(ss, payload.rekening);
       }
       return ok({ status: 'synced' });
     }
@@ -254,6 +265,26 @@ function getProfile(ss) {
     const raw = r[1];
     result[key] = numericKeys.includes(key) ? (Number(raw) || 0) : String(raw);
   });
+  return result;
+}
+
+// ══════════════════════════════════════════════════════════════
+//  REKENING — disimpan di sheet "Rekening"
+// ══════════════════════════════════════════════════════════════
+function saveRekeningData(ss, rekening) {
+  const sheet = getOrCreate(ss, 'Rekening', ['key', 'value']);
+  if (sheet.getLastRow() > 1) sheet.deleteRows(2, sheet.getLastRow() - 1);
+  Object.entries(rekening || {}).forEach(([k, v]) => {
+    sheet.appendRow([k, Number(v) || 0]);
+  });
+}
+
+function getRekening(ss) {
+  const sheet = ss.getSheetByName('Rekening');
+  if (!sheet || sheet.getLastRow() <= 1) return {};
+  const rows = sheet.getDataRange().getValues().slice(1);
+  const result = {};
+  rows.forEach(r => { result[String(r[0])] = Number(r[1]) || 0; });
   return result;
 }
 
