@@ -1,10 +1,10 @@
 {
-  "generated": "15 May 2026 07:02 WIB",
+  "generated": "15 May 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "07:30",
+      "time_wib": "08:30",
       "currency": "CNY",
       "impact": "medium",
       "event": "CPI y/y",
@@ -26,7 +26,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "19:45",
+      "time_wib": "20:45",
       "currency": "USD",
       "impact": "low",
       "event": "Cleveland Fed Inflation Expectations",
@@ -37,7 +37,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "20:00",
+      "time_wib": "21:00",
       "currency": "USD",
       "impact": "low",
       "event": "Existing Home Sales",
@@ -48,7 +48,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "05:01",
+      "time_wib": "06:01",
       "currency": "GBP",
       "impact": "low",
       "event": "BRC Retail Sales Monitor y/y",
@@ -59,7 +59,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "05:30",
+      "time_wib": "06:30",
       "currency": "JPY",
       "impact": "low",
       "event": "Household Spending y/y",
@@ -70,7 +70,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "05:50",
+      "time_wib": "06:50",
       "currency": "JPY",
       "impact": "low",
       "event": "BOJ Summary of Opinions",
@@ -81,7 +81,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "07:30",
+      "time_wib": "08:30",
       "currency": "AUD",
       "impact": "low",
       "event": "NAB Business Confidence",
@@ -92,7 +92,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "09:35",
+      "time_wib": "10:35",
       "currency": "JPY",
       "impact": "low",
       "event": "10-y Bond Auction",
@@ -103,7 +103,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "11:00",
+      "time_wib": "12:00",
       "currency": "JPY",
       "impact": "low",
       "event": "Leading Indicators",
@@ -114,7 +114,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "12:00",
+      "time_wib": "13:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German Final CPI m/m",
@@ -125,7 +125,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "12:30",
+      "time_wib": "13:30",
       "currency": "CHF",
       "impact": "low",
       "event": "PPI m/m",
@@ -136,7 +136,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "13:15",
+      "time_wib": "14:15",
       "currency": "EUR",
       "impact": "low",
       "event": "German Buba President Nagel Speaks",
@@ -158,7 +158,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "14:00",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Italian Industrial Production m/m",
@@ -169,7 +169,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "15:00",
+      "time_wib": "16:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German ZEW Economic Sentiment",
@@ -191,7 +191,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "15:30",
+      "time_wib": "16:30",
       "currency": "AUD",
       "impact": "low",
       "event": "Annual Budget Release",
@@ -202,7 +202,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "16:00",
+      "time_wib": "17:00",
       "currency": "USD",
       "impact": "low",
       "event": "NFIB Small Business Index",
@@ -213,7 +213,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "18:15",
+      "time_wib": "19:15",
       "currency": "USD",
       "impact": "low",
       "event": "ADP Weekly Employment Change",
@@ -224,7 +224,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "18:30",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "high",
       "event": "Core CPI m/m",
@@ -257,7 +257,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "19:10",
+      "time_wib": "20:10",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Goolsbee Speaks",
@@ -268,7 +268,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "20:30",
+      "time_wib": "21:30",
       "currency": "AUD",
       "impact": "low",
       "event": "CB Leading Index m/m",
@@ -279,7 +279,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "23:00",
+      "time_wib": "00:00",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Goolsbee Speaks",
@@ -290,7 +290,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "23:01",
+      "time_wib": "00:01",
       "currency": "USD",
       "impact": "low",
       "event": "10-y Bond Auction",
@@ -301,7 +301,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "00:00",
+      "time_wib": "01:00",
       "currency": "USD",
       "impact": "low",
       "event": "Federal Budget Balance",
@@ -312,7 +312,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "02:30",
+      "time_wib": "03:30",
       "currency": "USD",
       "impact": "low",
       "event": "API Weekly Statistical Bulletin",
@@ -323,7 +323,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "05:50",
+      "time_wib": "06:50",
       "currency": "JPY",
       "impact": "low",
       "event": "Bank Lending y/y",
@@ -345,7 +345,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "07:30",
+      "time_wib": "08:30",
       "currency": "AUD",
       "impact": "medium",
       "event": "Wage Price Index q/q",
@@ -356,7 +356,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "09:00",
+      "time_wib": "10:00",
       "currency": "NZD",
       "impact": "low",
       "event": "Inflation Expectations q/q",
@@ -367,7 +367,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "11:00",
+      "time_wib": "12:00",
       "currency": "JPY",
       "impact": "low",
       "event": "Economy Watchers Sentiment",
@@ -378,7 +378,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "12:00",
+      "time_wib": "13:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German WPI m/m",
@@ -389,7 +389,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "12:45",
+      "time_wib": "13:45",
       "currency": "EUR",
       "impact": "low",
       "event": "French Final CPI m/m",
@@ -400,7 +400,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "15:00",
+      "time_wib": "16:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Employment Change q/q",
@@ -433,7 +433,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "15:35",
+      "time_wib": "16:35",
       "currency": "EUR",
       "impact": "low",
       "event": "German 30-y Bond Auction",
@@ -444,7 +444,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "18:30",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "high",
       "event": "Core PPI m/m",
@@ -466,7 +466,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "19:30",
+      "time_wib": "20:30",
       "currency": "GBP",
       "impact": "low",
       "event": "CB Leading Index m/m",
@@ -477,7 +477,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "20:00",
+      "time_wib": "21:00",
       "currency": "GBP",
       "impact": "low",
       "event": "MPC Member Mann Speaks",
@@ -488,7 +488,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "20:30",
+      "time_wib": "21:30",
       "currency": "USD",
       "impact": "low",
       "event": "Crude Oil Inventories",
@@ -499,7 +499,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "21:05",
+      "time_wib": "22:05",
       "currency": "CAD",
       "impact": "low",
       "event": "Gov Council Member Alexopoulos Speaks",
@@ -510,7 +510,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "21:30",
+      "time_wib": "22:30",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Collins Speaks",
@@ -521,7 +521,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "23:01",
+      "time_wib": "00:01",
       "currency": "USD",
       "impact": "low",
       "event": "30-y Bond Auction",
@@ -532,7 +532,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "23:15",
+      "time_wib": "00:15",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Kashkari Speaks",
@@ -543,7 +543,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "23:30",
+      "time_wib": "00:30",
       "currency": "CAD",
       "impact": "low",
       "event": "BOC Summary of Deliberations",
@@ -554,7 +554,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "00:40",
+      "time_wib": "01:40",
       "currency": "USD",
       "impact": "high",
       "event": "Fed Chair Nomination Vote",
@@ -565,7 +565,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "01:15",
+      "time_wib": "02:15",
       "currency": "EUR",
       "impact": "low",
       "event": "ECB President Lagarde Speaks",
@@ -576,7 +576,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "04:50",
+      "time_wib": "05:50",
       "currency": "NZD",
       "impact": "low",
       "event": "Visitor Arrivals m/m",
@@ -587,7 +587,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "05:01",
+      "time_wib": "06:01",
       "currency": "GBP",
       "impact": "low",
       "event": "RICS House Price Balance",
@@ -598,7 +598,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "05:50",
+      "time_wib": "06:50",
       "currency": "JPY",
       "impact": "low",
       "event": "M2 Money Stock y/y",
@@ -609,7 +609,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "09:35",
+      "time_wib": "10:35",
       "currency": "JPY",
       "impact": "low",
       "event": "30-y Bond Auction",
@@ -631,7 +631,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "12:00",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "high",
       "event": "GDP m/m",
@@ -741,7 +741,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "15:01",
+      "time_wib": "16:01",
       "currency": "CNY",
       "impact": "low",
       "event": "M2 Money Supply y/y",
@@ -752,7 +752,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "15:02",
+      "time_wib": "16:02",
       "currency": "CNY",
       "impact": "low",
       "event": "New Loans",
@@ -763,7 +763,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "18:30",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
       "event": "Wholesale Sales m/m",
@@ -818,7 +818,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "20:00",
+      "time_wib": "21:00",
       "currency": "USD",
       "impact": "low",
       "event": "Business Inventories m/m",
@@ -829,7 +829,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "20:13",
+      "time_wib": "21:13",
       "currency": "USD",
       "impact": "low",
       "event": "Mortgage Delinquencies",
@@ -840,7 +840,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "20:15",
+      "time_wib": "21:15",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Schmid Speaks",
@@ -851,7 +851,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "20:30",
+      "time_wib": "21:30",
       "currency": "USD",
       "impact": "low",
       "event": "Natural Gas Storage",
@@ -862,7 +862,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "21:15",
+      "time_wib": "22:15",
       "currency": "GBP",
       "impact": "low",
       "event": "MPC Member Pill Speaks",
@@ -873,7 +873,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "23:00",
+      "time_wib": "00:00",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Hammack Speaks",
@@ -884,7 +884,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "03:45",
+      "time_wib": "04:45",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Williams Speaks",
@@ -895,7 +895,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "04:30",
+      "time_wib": "05:30",
       "currency": "NZD",
       "impact": "low",
       "event": "BusinessNZ Manufacturing Index",
@@ -906,7 +906,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "04:45",
+      "time_wib": "05:45",
       "currency": "NZD",
       "impact": "low",
       "event": "FPI m/m",
@@ -917,7 +917,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "05:00",
+      "time_wib": "06:00",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Barr Speaks",
@@ -928,7 +928,7 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "05:50",
+      "time_wib": "06:50",
       "currency": "JPY",
       "impact": "low",
       "event": "PPI y/y",
@@ -939,18 +939,18 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "12:00",
+      "time_wib": "13:00",
       "currency": "JPY",
       "impact": "low",
       "event": "Prelim Machine Tool Orders y/y",
-      "actual": "",
+      "actual": "45.1%",
       "forecast": "",
       "previous": "28.0%"
     },
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "14:00",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "ECB Economic Bulletin",
@@ -961,24 +961,24 @@
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "18:15",
+      "time_wib": "19:15",
       "currency": "CAD",
       "impact": "low",
       "event": "Housing Starts",
-      "actual": "",
+      "actual": "279K",
       "forecast": "244K",
-      "previous": "236K"
+      "previous": "240K"
     },
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "18:30",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
       "event": "Foreign Securities Purchases",
-      "actual": "",
-      "forecast": "11.4B",
-      "previous": "6.17B"
+      "actual": "4.62B",
+      "forecast": "11.45B",
+      "previous": "5.84B"
     },
     {
       "date": "2026-05-15",
@@ -987,9 +987,9 @@
       "currency": "CAD",
       "impact": "low",
       "event": "Manufacturing Sales m/m",
-      "actual": "",
+      "actual": "3.0%",
       "forecast": "3.5%",
-      "previous": "3.6%"
+      "previous": "3.4%"
     },
     {
       "date": "2026-05-15",
@@ -998,18 +998,18 @@
       "currency": "USD",
       "impact": "low",
       "event": "Empire State Manufacturing Index",
-      "actual": "",
+      "actual": "19.6",
       "forecast": "7.3",
       "previous": "11.0"
     },
     {
       "date": "2026-05-15",
       "day": "Jumat",
-      "time_wib": "19:15",
+      "time_wib": "20:15",
       "currency": "USD",
       "impact": "low",
       "event": "Capacity Utilization Rate",
-      "actual": "",
+      "actual": "76.1%",
       "forecast": "75.8%",
       "previous": "75.7%"
     },
@@ -1020,9 +1020,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "Industrial Production m/m",
-      "actual": "",
+      "actual": "0.7%",
       "forecast": "0.3%",
-      "previous": "-0.5%"
+      "previous": "-0.3%"
     }
   ]
 }
