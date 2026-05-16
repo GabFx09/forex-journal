@@ -794,7 +794,9 @@ function setSync(st,txt){
 }
 async function gasGet(p){const r=await fetch(GS_URL+'?'+new URLSearchParams(p),{redirect:'follow'});const d=await r.json();if(!d.ok)throw new Error(d.error||'Script error');return d;}
 async function gasPost(b){const r=await fetch(GS_URL,{method:'POST',redirect:'follow',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(b)});const d=await r.json();if(!d.ok)throw new Error(d.error||'Script error');return d;}
-async function pullAll(){if(!GS_ON)return;setSync('busy','Mengambil data...');try{const r=await gasGet({action:'getData'});if(r.transactions)transactions=r.transactions;if(r.budgets)budgets=r.budgets;if(r.debts)debts=r.debts;if(r.goals)goals=r.goals;if(r.assets)assets=r.assets;let profLoaded=false;if(r.profile&&r.profile.name){profile=r.profile;profLoaded=true;if($('p-name'))$('p-name').value=profile.name||'';if($('p-income'))$('p-income').value=profile.income||'';if($('p-save'))$('p-save').value=profile.savingTarget||'';if($('p-saldo'))$('p-saldo').value=profile.saldo||'';if($('p-invest'))$('p-invest').value=profile.invest||'';}if(r.rekening&&Object.keys(r.rekening).length){rekening=Object.assign(rekening,r.rekening);}if(r.notes&&r.notes.length)notes=r.notes;save();renderAll();setSync('ok','✅ Data terbaru');toast(profLoaded?'✅ Data & profil '+profile.name+' berhasil diambil!':'✅ Data berhasil diambil!');}catch(e){setSync('err','🔴 Pull gagal: '+e.message);renderAll();}}
+async function pullAll(){if(!GS_ON)return;setSync('busy','Mengambil data...');try{const r=await gasGet({action:'getData'});if(r.transactions)transactions=r.transactions;if(r.budgets)budgets=r.budgets;if(r.debts)debts=r.debts;if(r.goals)goals=r.goals;if(r.assets)assets=r.assets;let profLoaded=false;// load profile jika ada data apapun di Sheets (bukan hanya jika nama terisi)
+if(r.profile&&Object.keys(r.profile).length){profile=Object.assign({name:'',ccy:'IDR',income:0,savingTarget:0,goal:'',gaji:25,saldo:0,invest:0},r.profile);profLoaded=true;if($('p-name'))$('p-name').value=profile.name||'';if($('p-income'))$('p-income').value=profile.income||'';if($('p-save'))$('p-save').value=profile.savingTarget||'';if($('p-saldo'))$('p-saldo').value=profile.saldo||'';if($('p-invest'))$('p-invest').value=profile.invest||'';if($('p-gaji'))$('p-gaji').value=profile.gaji||25;if($('p-goal'))$('p-goal').value=profile.goal||'';closeMo();}// reset rekening bersih dari GS, bukan merge ke nilai lokal lama
+if(r.rekening&&Object.keys(r.rekening).length){rekening=Object.assign({BNI:0,JAGO:0,BRI:0,MANDIRI:0,BCA:0,DANA:0,GOPAY:0,OVO:0,LINKAJA:0},r.rekening);}if(Array.isArray(r.notes))notes=r.notes;save();renderAll();setSync('ok','✅ Data terbaru');toast(profLoaded?'✅ Data & profil '+profile.name+' berhasil diambil!':'✅ Data berhasil diambil!');}catch(e){setSync('err','🔴 Pull gagal: '+e.message);renderAll();}}
 async function pushAll(){if(!GS_ON)return;setSync('busy','Mengirim...');try{await gasPost({action:'syncAll',transactions,budgets,debts,goals,assets,notes,profile,rekening});setSync('ok','✅ Terkirim — '+new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}));toast('✅ Semua data terkirim ke Sheets!');}catch(e){setSync('err','🔴 Push gagal');toast('❌ '+e.message,3500);}}
 
 // ── PROFILE MODAL ─────────────────────────────────────────────────
@@ -1603,10 +1605,16 @@ function saveRekening(){
 
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeQuickRek();closeRekeningModal();}});
 
-  if(GS_URL){GS_ON=true;setSync('busy','Memeriksa koneksi...');
-    fetch(GS_URL+'?action=ping',{redirect:'follow'}).then(r=>r.json())
-    .then(d=>{if(d.ok)setSync('ok','✅ Tersambung');else setSync('err','🔴 Cek URL di Sheets');})
-    .catch(()=>setSync('err','🔴 Tidak terhubung'));
+  if(GS_URL){GS_ON=true;
+    if(!profile.name){
+      // Komputer baru / localStorage kosong → langsung tarik semua data dari Sheets
+      pullAll();
+    } else {
+      setSync('busy','Memeriksa koneksi...');
+      fetch(GS_URL+'?action=ping',{redirect:'follow'}).then(r=>r.json())
+      .then(d=>{if(d.ok)setSync('ok','✅ Tersambung');else setSync('err','🔴 Cek URL di Sheets');})
+      .catch(()=>setSync('err','🔴 Tidak terhubung'));
+    }
   } else {
     setSync('off','Tidak terhubung — data tersimpan lokal');
     // First time: open profile setup
