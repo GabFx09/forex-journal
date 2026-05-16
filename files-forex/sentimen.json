@@ -1,23 +1,23 @@
 {
-  "generated": "16 May 2026 12:02 WIB",
+  "generated": "16 May 2026 22:00 WIB",
   "summary": {
-    "total": 71,
-    "bullish": 22,
-    "bearish": 38,
-    "netral": 11,
-    "avg_score": -0.1598,
+    "total": 57,
+    "bullish": 18,
+    "bearish": 34,
+    "netral": 5,
+    "avg_score": -0.1972,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Netral",
-        "score": -0.036,
-        "count": 13
+        "score": 0.003,
+        "count": 12
       },
       {
         "currency": "EUR",
         "sentiment": "Bearish",
-        "score": -0.361,
+        "score": -0.396,
         "count": 6
       },
       {
@@ -126,66 +126,6 @@
       "emoji": "🔴"
     },
     {
-      "source": "ForexLive",
-      "title": "Penurunan semikonduktor dan ketahanan teknologi menandai pasar saat ini",
-      "url": "https://investinglive.com/stock-market-update/semiconductor-slide-and-tech-resilience-mark-todays-market-20260515/",
-      "summary": "Semiconductor slide and tech resilience mark today's market 📉 Semiconductor Sector: A Wave of Red The semiconductor sector is experiencing significant declines today, marked by a drop in major players like Nvidia (NVDA) at -3.70%, Micron Technology (MU) down 5.15%, and Intel (INTC) plunging 6.00%. T",
-      "published": "15 May 2026 21:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.06,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Saham Microsoft lebih tinggi karena Pershings Ackman bertaruh pada perusahaan tersebut",
-      "url": "https://investinglive.com/stocks/microsoft-shares-are-higher-as-pershings-ackman-bets-on-the-company-20260515/",
-      "summary": "Shares of Microsoft are trading up nearly $10 or 2.43% at $419.37, bucking the bias in the market which has a second exit down -1.26% in the S&P index down -0.8%. Although higher on the day, the price of Microsoft has been a big underperformer for the year. The stock is still down -13.21% after clos",
-      "published": "15 May 2026 21:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.459,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Menteri Luar Negeri Tiongkok: XI akan mengunjungi AS pada musim gugur",
-      "url": "https://investinglive.com/news/china-foreign-ministerxi-to-visit-the-us-in-the-fall-20260515/",
-      "summary": "China Foreign Minister Wang Yi, on ties with the U.S.: Teams on both sides are still working on details for outcomes on trade Encourages the U.S. and Iran to continue resolving their differences and disputes through talks Calls for reopening the Strait of Hormuz on Ukraine: Says China and the U.S. a",
-      "published": "15 May 2026 21:15 WIB",
-      "sentiment": "Bullish",
-      "score": 0.591,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Indeks utama AS dibuka melemah tajam dipimpin oleh NASDAQ dan Russell 2000",
-      "url": "https://investinglive.com/stocks/major-us-indices-open-sharply-lower-led-by-the-nasdaq-and-the-russell-2000-20260515/",
-      "summary": "The major US stock indices are opening lower: Dow industrial average after closing above 50,000 for the first time since February 11th is back below the level at 49,650. The index is down -415 or -0.83%. S&P index is down 89 points or -1.20% at 7411. NASDAQ index is down -451 points or -1.69% at 261",
-      "published": "15 May 2026 20:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.778,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Produksi industri AS untuk bulan April 0,7% versus perkiraan 0,3%.",
-      "url": "https://investinglive.com/news/us-industrial-production-for-april-07-versus-03-estimate-20260515/",
-      "summary": "Industrial production prior month -0.5% revised to -0.3% Capacity utilization prior month 75.7 Manufacturing production last month -0.1% revised to +0.1% For April: Industrial production 0.7% versus 0.3% expected. Year on Year industrial production is up 1.4% Capacity utilization 76.1% versus 75.8% ",
-      "published": "15 May 2026 20:15 WIB",
-      "sentiment": "Bullish",
-      "score": 0.273,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "USD terus bergerak lebih tinggi karena imbal hasil bergerak lebih tinggi",
-      "url": "https://investinglive.com/technical-analysis/the-usd-continues-to-move-higher-as-yields-move-higher-20260515/",
-      "summary": "The USD is ticking to highs /new highs as yields continue to move higher. The 10 year yield is now up 10.1 basis points at 4.562 year yield. The 2-year yield Is up 8.1 basis points at 4.073%. The EURUSD is moving back below the 50% midpoint retracement of the rally from the March low, which comes in",
-      "published": "15 May 2026 20:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.506,
-      "emoji": "🔴"
-    },
-    {
       "source": "FXStreet News",
       "title": "Jepang: Guncangan energi lebih meningkatkan inflasi dibandingkan PDB – ING",
       "url": "https://www.fxstreet.com/news/japan-energy-shock-lifts-inflation-more-than-gdp-ing-202605152036",
@@ -287,83 +227,103 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Eksklusif-Di Samsung, ledakan AI global memicu pemogokan dan perpecahan yang mendalam",
-      "url": "https://www.investing.com/news/stock-market-news/exclusiveat-samsung-the-global-ai-boom-spurred-a-looming-strike-and-deep-divisions-4691543",
+      "title": "Reli momentum S&P 500 mendekati titik tertinggi mungkin menandakan keuntungan yang lebih lemah di masa depan: Goldman",
+      "url": "https://www.investing.com/news/stock-market-news/sp-500-momentum-rallies-near-highs-may-signal-weaker-returns-ahead-goldman-4694466",
       "summary": "",
-      "published": "16 May 2026 09:30 WIB",
+      "published": "16 May 2026 21:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.25,
+      "score": -0.52,
       "emoji": "🔴"
     },
     {
       "source": "Investing.com Forex",
-      "title": "YouTube, Snap, dan TikTok menyelesaikan klaim kecanduan media sosial di distrik sekolah",
-      "url": "https://www.investing.com/news/stock-market-news/youtube-snap-settle-school-districts-social-media-addiction-claims-4694344",
+      "title": "Kepala pusat obat FDA dipecat setelah komisaris keluar",
+      "url": "https://www.investing.com/news/stock-market-news/fda-drug-center-head-fired-after-commissioners-exit-4694463",
       "summary": "",
-      "published": "16 May 2026 09:24 WIB",
+      "published": "16 May 2026 21:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Tesla menaikkan harga mobil Model Y di AS",
+      "url": "https://www.investing.com/news/stock-market-news/tesla-raises-prices-of-model-y-cars-in-the-us-4694459",
+      "summary": "",
+      "published": "16 May 2026 20:42 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Arm Holdings akan menghadapi penyelidikan antimonopoli AS atas teknologi chip, Bloomberg News melaporkan",
-      "url": "https://www.investing.com/news/stock-market-news/arm-holdings-to-face-us-antitrust-probe-over-chip-tech-bloomberg-news-reports-4694244",
+      "title": "Citi memberikan peringatan terhadap KOSPI Korea Selatan, berikut alasannya",
+      "url": "https://www.investing.com/news/stock-market-news/citi-flags-caution-on-south-koreas-kospi-heres-why-4694458",
       "summary": "",
-      "published": "16 May 2026 08:18 WIB",
+      "published": "16 May 2026 19:30 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Konsumen menuntut Amazon karena tidak mengembalikan biaya tarif Trump",
-      "url": "https://www.investing.com/news/stock-market-news/consumers-sue-amazon-for-not-refunding-trump-tariff-costs-4694313",
+      "title": "5 Saham AI dan Chip Jepang Teratas yang Harus Diperhatikan, Menurut Mizuho",
+      "url": "https://www.investing.com/news/stock-market-news/top-5-japanese-ai-and-chip-stocks-to-watch-according-to-mizuho-93CH-4694456",
       "summary": "",
-      "published": "16 May 2026 07:42 WIB",
+      "published": "16 May 2026 18:57 WIB",
       "sentiment": "Bullish",
-      "score": 0.178,
+      "score": 0.202,
       "emoji": "🟢"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Ackman, Loeb mengambil jalur berbeda dalam taruhan teknologi di awal tahun 2026",
-      "url": "https://www.investing.com/news/stock-market-news/ackman-loeb-take-different-routes-on-tech-bets-in-early-2026-4694302",
+      "title": "Citi: Perluasan adalah kondisi yang diperlukan untuk kenaikan indeks yang berarti mulai saat ini",
+      "url": "https://www.investing.com/news/stock-market-news/citi-broadening-is-a-necessary-condition-for-meaningful-index-upside-from-here-4694452",
       "summary": "",
-      "published": "16 May 2026 07:12 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "published": "16 May 2026 18:11 WIB",
+      "sentiment": "Bullish",
+      "score": 0.318,
+      "emoji": "🟢"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Investor institusi berbondong-bondong membangun saham baru di perusahaan semikonduktor pada kuartal pertama",
-      "url": "https://www.investing.com/news/stock-market-news/institutional-investors-boosted-holdings-of-ai-infrastructure-plays-during-first-quarter-4693317",
+      "title": "Samsung Elec dan serikat pekerja Korea Selatan akan melanjutkan pembicaraan mengenai gaji pada hari Senin, kata serikat pekerja",
+      "url": "https://www.investing.com/news/stock-market-news/samsung-elec-south-korea-union-to-resume-pay-talks-on-monday-union-says-4694441",
       "summary": "",
-      "published": "16 May 2026 06:36 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Fitch mengubah prospek peringkat Goldman Sachs BDC menjadi negatif",
-      "url": "https://www.investing.com/news/stock-market-news/fitch-changes-goldman-sachs-bdcs-ratings-outlook-to-negative-4694264",
-      "summary": "",
-      "published": "16 May 2026 06:18 WIB",
+      "published": "16 May 2026 16:36 WIB",
       "sentiment": "Bearish",
-      "score": -0.572,
+      "score": -0.103,
       "emoji": "🔴"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Trump mengatakan jika Tiongkok membeli 200 jet Boeing, pesanannya bisa meningkat hingga 750",
-      "url": "https://www.investing.com/news/stock-market-news/trump-says-china-to-potentially-buy-750-boeing-planes-4691924",
+      "title": "Para CEO AS mengikuti jejak Trump dengan melakukan diplomasi di Beijing",
+      "url": "https://www.investing.com/news/stock-market-news/chinese-officials-meet-citigroup-goldman-chiefs-in-beijing-4694426",
       "summary": "",
-      "published": "16 May 2026 05:49 WIB",
+      "published": "16 May 2026 16:12 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Ackman mengklarifikasi keluarnya Alphabet adalah sumber pendanaan untuk posisi barunya di Microsoft",
+      "url": "https://www.investing.com/news/stock-market-news/ackman-clarifies-alphabet-exit-was-funding-source-for-his-new-microsoft-position-4694437",
+      "summary": "",
+      "published": "16 May 2026 15:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.226,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Bill Ackman mengatakan penjualan saham Alphabet bukanlah pertaruhan melawan perusahaan",
+      "url": "https://www.investing.com/news/stock-market-news/bill-ackman-says-alphabet-stake-sale-not-a-bet-against-the-company-4694431",
+      "summary": "",
+      "published": "16 May 2026 14:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
     },
     {
       "source": "Investing.com Economy",
@@ -376,94 +336,74 @@
       "emoji": "🔴"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Inflasi Polandia di bulan April dikonfirmasi sebesar 3,2% karena kenaikan harga inti",
-      "url": "https://www.investing.com/news/economic-indicators/polands-april-inflation-confirmed-at-32-as-core-prices-accelerate-93CH-4691436",
-      "summary": "",
-      "published": "15 May 2026 16:51 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "Pertumbuhan PDB Slovenia meningkat menjadi 3% di Q1",
-      "url": "https://www.investing.com/news/economic-indicators/slovenias-gdp-growth-accelerates-to-3-in-q1-93CH-4691375",
-      "summary": "",
-      "published": "15 May 2026 16:47 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "Inflasi Kroasia naik menjadi 5,8% pada bulan April karena biaya transportasi dan energi",
-      "url": "https://www.investing.com/news/economic-indicators/croatias-inflation-rises-to-58-in-april-on-transport-energy-costs-93CH-4691361",
-      "summary": "",
-      "published": "15 May 2026 16:34 WIB",
-      "sentiment": "Bullish",
-      "score": 0.273,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "Obligasi global anjlok karena tingginya inflasi yang membuat takut investor",
-      "url": "https://www.investing.com/news/economic-indicators/global-bonds-tumble-as-flaring-inflation-spooks-investors-4691179",
-      "summary": "",
-      "published": "15 May 2026 13:48 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "Perekonomian Jerman akan terkena dampak perang Iran selama kuartal kedua, kata kementerian",
-      "url": "https://www.investing.com/news/economic-indicators/german-economy-to-take-hit-from-iran-war-during-q2-ministry-says-4691174",
-      "summary": "",
-      "published": "15 May 2026 13:42 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Pekan Wall Street | Peringatan Dalio, Perlombaan Senjata AI, Kekuatan Tiongkok Di Depan, Kebuntuan Pajak NYC",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-16/wall-street-week-dalio-s-warning-nyc-tax-standoff-video",
+      "summary": "This week, Ray Dalio explains why markets shrug off wars and why this time might be different. And, why are AI executives warning about the dangers of systems they are simultaneously racing to build? Plus, China’s massive investments in energy infrastructure are increasingly shaping the global compe",
+      "published": "16 May 2026 21:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.911,
       "emoji": "🔴"
     },
     {
-      "source": "Reuters Currencies",
-      "title": "Lanjutkan Perdagangan: Taruhan Mata Uang G10 Berbasis Nilai Kembali Muncul - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdjBpV3dMM193VWZ4dXJOMmxTWGl5Q21LLUtqSUFyODNJcmREb1JENXBqb2FUUVhESU5YVUtDdjFXMWpZVWpJZXhEVFc2dnNSWkNSWmU2anFhekNQMkFPWk5JNlNJeDhCeE5mMFhkYUpsVm90bjhJTUxydlhtMFBLXzBLRk0tS1NNSEx1Slk3NzhGLXFIXzhsMWhDSndNYl9uYm40YV9fMzVvV3M?oc=5",
-      "summary": "Carry on trading: rate-based G10 currency bets make a comeback Reuters",
-      "published": "15 May 2026 12:12 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "source": "Bloomberg Markets",
+      "title": "Presiden Latvia Mencalonkan Kulbergs untuk Membentuk Pemerintahan Baru",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-16/latvia-s-president-nominates-kulbergs-to-form-new-government",
+      "summary": "Latvia’s President Edgars Rinkevics nominated Andris Kulbergs of the United List party to form a new government after Prime Minister Evika Silina resigned on Thursday ahead of parliamentary elections in October.",
+      "published": "16 May 2026 20:39 WIB",
+      "sentiment": "Bullish",
+      "score": 0.542,
+      "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Strain Ebola Langka Tanpa Vaksin yang Disetujui Membunuh Puluhan Orang di Kongo",
+      "title": "Para Pimpinan Teknologi Menemani Trump dalam Perjalanan ke Tiongkok",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-16/tech-chiefs-accompany-trump-on-china-trip-video",
+      "summary": "President Trump arrived in Beijing for a high-stakes summit with Xi Jinping aimed at stabilizing US-China ties against the backdrop of the Iran war and the race to control and contain AI. Tech CEOs including Jensen Huang and Elon Musk tagged along, sending Nvidia, Tesla and Chinese AI-related stocks",
+      "published": "16 May 2026 19:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Trump Menyebut Kunjungan ke Tiongkok sebagai \"Momen Bersejarah\"",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-16/trump-calls-china-trip-historic-moment-video",
+      "summary": "Tensions between the US and China have deepened since the last time a US president traveled to Beijing for a summit, in 2017. President Trump’s return to China, in a swirl of dinners and festivities, generated positive optics for host and guest alike, but brought less apparent progress on some of th",
+      "published": "16 May 2026 18:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.619,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kenaikan Suku Bunga ECB yang Sederhana Akan Membatasi Kerugian Ekonomi, Kata Stournaras",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-16/modest-ecb-rate-hike-would-limit-economic-pain-stournaras-says",
+      "summary": "A small European Central Bank interest-rate increase could temper inflation without causing economic damage, Governing Council member Yannis Stournaras told Liberal.gr.",
+      "published": "16 May 2026 16:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.21,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Strain Ebola Langka Tanpa Vaksin Terkait dengan 80 Kematian di Kongo",
       "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
-      "summary": "A rare strain of Ebola with no approved vaccine or treatment may have circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing dozens of people.",
+      "summary": "A rare strain of Ebola with no approved vaccine or treatment may have circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing at least 80 people.",
       "published": "16 May 2026 11:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.998,
+      "score": -0.933,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "VinFast Berusaha Menurunkan Utang Terbanyak Dengan Spin-off Pabrik Vietnam",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-16/vinfast-seeks-to-shed-most-debt-with-vietnam-factory-spinoffs",
-      "summary": "VinFast Auto Ltd. said its planned sale of two Vietnamese factories will enable the electric vehicle maker to shed about 182 trillion dong ($6.9 billion) in debt and obligations while potentially speed its path toward profitability.",
-      "published": "16 May 2026 10:45 WIB",
+      "title": "Trump Sebut Pasukan AS dan Militer Nigeria Bunuh Pemimpin ISIS",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-16/trump-says-us-forces-nigeria-armed-forces-killed-isis-leader",
+      "summary": "US and Nigerian forces killed an ISIS leader who was hiding in Africa, President Donald Trump said, adding that his death has “greatly diminished” the group’s global operations.",
+      "published": "16 May 2026 11:06 WIB",
       "sentiment": "Bearish",
-      "score": -0.876,
+      "score": -0.944,
       "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "CEO Enbridge di Canada Pipelines, Natural Gas Outlook",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-15/enbridge-ceo-on-canada-pipelines-natural-gas-outlook-video",
-      "summary": "Enbridge President & CEO Greg Ebel discusses the agreement between Canada and the Alberta province about the carbon tax deal. He discusses the ramifications for future pipelines in the country and how it can affect North America at large going forward. He speaks with Katie Greifeld & Isabelle Lee on",
-      "published": "16 May 2026 05:23 WIB",
-      "sentiment": "Bullish",
-      "score": 0.771,
-      "emoji": "🟢"
     },
     {
       "source": "Google News Forex",
@@ -477,23 +417,43 @@
     },
     {
       "source": "BBC World",
+      "title": "Pemimpin senior ISIS tewas dalam operasi gabungan, kata AS dan Nigeria",
+      "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss",
+      "summary": "President Donald Trump said the operation eliminated \"the most active terrorist in the world\", Abu-Bilal al-Minuki.",
+      "published": "16 May 2026 18:44 WIB",
+      "sentiment": "Bearish",
+      "score": -0.817,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Balita termasuk di antara lebih dari 50 anak sekolah yang diculik di Nigeria",
+      "url": "https://www.bbc.com/news/articles/c202vrxlwqgo?at_medium=RSS&at_campaign=rss",
+      "summary": "No group has yet claimed responsibility for the attacks, which have devastated Mussa town in Borno state.",
+      "published": "16 May 2026 20:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.924,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
       "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Presiden Tiongkok Xi",
       "url": "https://www.bbc.com/news/articles/ce8p61v7l68o?at_medium=RSS&at_campaign=rss",
       "summary": "The US president says he wants Beijing and Taipei to \"cool down\" tensions over the self-governing island.",
-      "published": "16 May 2026 10:30 WIB",
+      "published": "16 May 2026 12:53 WIB",
       "sentiment": "Bearish",
       "score": -0.282,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Trump mengatakan penghentian program nuklir Iran selama 20 tahun sudah cukup",
-      "url": "https://www.bbc.com/news/articles/cgkpnnen5dzo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president says Tehran has to show \"real\" commitment to removing nuclear fuel and stopping uranium enrichment.",
-      "published": "16 May 2026 04:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.25,
-      "emoji": "🟢"
+      "title": "Swiss akan membuka file rahasia tentang Auschwitz 'Malaikat Maut' Mengele",
+      "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Mengele fled Europe after the war but for years there were rumours he spent time in Switzerland.",
+      "published": "16 May 2026 06:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
@@ -507,22 +467,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Pertukaran tahanan dilakukan saat Kyiv berduka atas 24 orang yang tewas dalam serangan Rusia di sebuah flat",
-      "url": "https://www.bbc.com/news/articles/c5y049w8nqwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Among the victims in Kyiv was 12-year-old Lyubava Yakovleva, whose father was killed during the war.",
-      "published": "15 May 2026 19:53 WIB",
+      "title": "Hamas membenarkan komandan tertingginya tewas dalam serangan udara Israel",
+      "url": "https://www.bbc.com/news/articles/cx21jjwz1k1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Friday's strike is the latest launched by Israel on Gaza despite a ceasefire with Hamas.",
+      "published": "16 May 2026 17:12 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Kepala CIA mengunjungi Kuba ketika krisis energi memburuk",
-      "url": "https://www.bbc.com/news/articles/cd7pyrj0vx7o?at_medium=RSS&at_campaign=rss",
-      "summary": "The reported visit to Havana came after the US renewed an offer of aid to ease the effects of its oil blockade.",
-      "published": "16 May 2026 00:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
+      "score": -0.557,
       "emoji": "🔴"
     },
     {
@@ -546,58 +496,8 @@
       "emoji": "🟢"
     },
     {
-      "source": "BBC Business",
-      "title": "Adanis dari India setuju untuk membayar $18 juta untuk menyelesaikan kasus penipuan sipil di AS",
-      "url": "https://www.bbc.com/news/articles/c4g82p5ygp8o?at_medium=RSS&at_campaign=rss",
-      "summary": "The US securities regulator had accused the Adanis of paying bribes and misleading investors, which they denied.",
-      "published": "15 May 2026 13:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.807,
-      "emoji": "🔴"
-    },
-    {
       "source": "BBC Top Stories",
-      "title": "Burnham diizinkan untuk mencalonkan diri dalam pemilihan sela yang penting",
-      "url": "https://www.bbc.com/news/articles/ckgp2e0rrj4o?at_medium=RSS&at_campaign=rss",
-      "summary": "If the Greater Manchester mayor goes on to win the by-election, he would be able to launch a leadership challenge against the PM.",
-      "published": "16 May 2026 06:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.871,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Swiss akan membuka file rahasia tentang Auschwitz 'Malaikat Maut' Mengele",
-      "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Mengele fled Europe after the war but for years there were rumours he spent time in Switzerland.",
-      "published": "16 May 2026 06:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Perusahaan Inggris yang berlomba-lomba membangun jet Red Arrows berikutnya bangkrut",
-      "url": "https://www.bbc.com/news/articles/cpwp11v82lno?at_medium=RSS&at_campaign=rss",
-      "summary": "Aeralis was hoping the UK government would award it a contract to replace the Hawk jets currently flown by the RAF.",
-      "published": "16 May 2026 03:40 WIB",
-      "sentiment": "Bullish",
-      "score": 0.545,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Eurovision hampir tiba! Namun seberapa banyak yang Anda ketahui tentang pertunjukan pop spektakuler terbesar di Eropa?",
-      "url": "https://www.bbc.com/news/articles/c4g7zd66e13o?at_medium=RSS&at_campaign=rss",
-      "summary": "Are you the ultimate Eurovision superfan? Take our quiz to find out",
-      "published": "15 May 2026 20:57 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Final Eurovision: Seks, biola, dan tujuh hal lain yang harus diwaspadai",
+      "title": "Malam ini adalah final Eurovision. Inilah yang dapat Anda harapkan",
       "url": "https://www.bbc.com/news/articles/c1d2qe73ly7o?at_medium=RSS&at_campaign=rss",
       "summary": "A guide to the stand-out moments of Eurovision 2026, ahead of Saturday night's final in Vienna.",
       "published": "16 May 2026 06:04 WIB",
@@ -607,73 +507,43 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Perang Iran langsung: Lebanon, Israel perpanjang gencatan senjata; Teheran siap untuk melakukan pembicaraan lebih lanjut dengan AS",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/5/16/iran-war-live-lebanon-israel-extend-truce-tehran-ready-for-more-us-talks?traffic_source=rss",
-      "summary": "Lebanon's Ministry of Health said Israeli attacks have killed 2,951 people since March 2, with at least 8,988 wounded.",
-      "published": "16 May 2026 07:00 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tujuh orang tewas di Gaza pada Hari Nakba ketika Israel mengatakan mereka menargetkan anggota Hamas",
-      "url": "https://www.aljazeera.com/news/2026/5/15/seven-killed-in-gaza-on-nakba-day-as-israel-says-it-targets-hamas-member?traffic_source=rss",
-      "summary": "Three women and a child among civilians killed in Israel's latest attacks on Gaza City.",
-      "published": "16 May 2026 04:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.997,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump menyebut pemberitaan jurnalis Iran sebagai 'pengkhianatan'",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/15/trump-calls-journalists-iran-reporting?traffic_source=rss",
-      "summary": "Trump called New York Times journalist reporting on the Iran war as “treasonous” while claiming a 'victory'.",
-      "published": "16 May 2026 03:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, dan bertaruh besar pada Delta",
-      "url": "https://www.marketwatch.com/story/berkshires-abel-sours-on-some-of-warren-buffetts-picks-while-betting-big-on-delta-7ad679f7?mod=mw_rss_topstories",
-      "summary": "Warren Buffett exited U.S. airlines back in 2020, but successor Greg Abel placed a $2.8 billion fresh bet on Delta.",
-      "published": "16 May 2026 04:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.569,
-      "emoji": "🟢"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Aksi jual saham dan obligasi terjadi karena kunjungan Trump ke Tiongkok gagal membuka Selat Hormuz",
-      "url": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories",
-      "summary": "Fears of a 2022-style inflation problem are bubbling back up, but there’s also hope for a Trump pivot on the Iran conflict.",
-      "published": "16 May 2026 03:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.492,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Obligasi 'safe haven' ini diproyeksikan memberikan bunga sebesar 5,1% tahun ini — hampir tanpa risiko",
-      "url": "https://www.marketwatch.com/story/this-safe-haven-bond-is-projected-to-pay-5-1-this-year-with-almost-no-risk-ae3fb8fe?mod=mw_rss_topstories",
-      "summary": "The April 2032 inflation-protected U.S. TIPS bond looks like a pretty good deal.",
-      "published": "16 May 2026 03:36 WIB",
-      "sentiment": "Bullish",
-      "score": 0.815,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC Forex",
-      "title": "Kenaikan triliunan dolar Nvidia memberi tekanan pada pembeli",
-      "url": "https://www.cnbc.com/2026/05/15/nvidias-trillion-dollar-run-puts-pressure-on-the-bulls.html",
-      "summary": "Nvidia's market cap is now just shy of $5.7 trillion, up from $4.7 trillion as of market close last Tuesday.",
-      "published": "15 May 2026 19:56 WIB",
+      "title": "Perselisihan wajib militer ultra-Ortodoks mendorong pemerintah Israel ke jurang kehancuran",
+      "url": "https://www.aljazeera.com/news/2026/5/16/how-ultra-orthodox_recruitment_could_unseat_netanyahu_in_israeli_elections?traffic_source=rss",
+      "summary": "Israeli government faces collapse as coalition parties clash over military draft exemptions for Haredi constituents.",
+      "published": "16 May 2026 19:06 WIB",
       "sentiment": "Bearish",
       "score": -0.494,
       "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan Israel di Lebanon selatan terus berlanjut meskipun ada perpanjangan ‘gencatan senjata’",
+      "url": "https://www.aljazeera.com/news/2026/5/16/israeli-strikes-on-southern-lebanon-continue-despite-ceasefire-extension?traffic_source=rss",
+      "summary": "Despite Lebanon and Israel extending the ceasefire deal for another 45 days, Israel continues to bomb Lebanon.",
+      "published": "16 May 2026 17:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.611,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Harga bahan bakar yang tinggi dan inflasi membuat masyarakat stres – namun perekonomian akan baik-baik saja selama mereka terus berbelanja",
+      "url": "https://www.marketwatch.com/story/high-gas-prices-and-inflation-are-stressing-people-out-but-the-economy-will-be-fine-as-long-as-they-keep-spending-4f4b66e3?mod=mw_rss_topstories",
+      "summary": "Nearly three months into the Iran war, Americans are still spending plenty of money to keep the economy on the up and up.",
+      "published": "16 May 2026 20:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.79,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC Economy",
+      "title": "Konten pembuat konten menjadi perhatian utama dalam promosi TV — dan bukan hanya untuk YouTube",
+      "url": "https://www.cnbc.com/2026/05/16/tv-upfronts-creator-content-youtube-fox-wbd.html",
+      "summary": "In media companies' annual pitch to advertisers this week, creator content played a bigger role as a new category for reaching younger audiences.",
+      "published": "16 May 2026 19:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.494,
+      "emoji": "🟢"
     },
     {
       "source": "CNBC Economy",
@@ -687,23 +557,13 @@
     },
     {
       "source": "CNBC World",
-      "title": "Trump meninggalkan Tiongkok setelah perundingan yang didominasi oleh perdagangan, minyak, dan Taiwan",
-      "url": "https://www.cnbc.com/2026/05/15/trump-wraps-up-two-day-china-trip-invites-xi-for-a-september-visit.html",
-      "summary": "U.S. President Donald Trump traveled to China this week for two days of meetings with Chinese President Xi Jinping, after a year of heightened trade tensions.",
-      "published": "15 May 2026 13:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.482,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak turun 7%",
-      "url": "https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html",
-      "summary": "Mounting inflation fears, geopolitical tension and ongoing uncertainty around the Iran war has prompted selling pressure across asset classes.",
-      "published": "15 May 2026 17:47 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
+      "title": "UEA mengatakan keputusannya untuk meninggalkan OPEC adalah langkah ekonomi strategis, bukan politik",
+      "url": "https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html",
+      "summary": "The United Arab Emirates, which joined OPEC in 1967, announced last month it was leaving the oil producer group on May 1.",
+      "published": "16 May 2026 20:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.382,
+      "emoji": "🟢"
     },
     {
       "source": "CNBC World",

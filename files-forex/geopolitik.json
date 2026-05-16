@@ -1,55 +1,55 @@
 {
-  "generated": "16 May 2026 12:02 WIB",
+  "generated": "16 May 2026 22:00 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.301,
-      "count": 17
-    },
-    {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.273,
-      "count": 16
+      "score": -0.393,
+      "count": 12
+    },
+    {
+      "pair": "USD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.391,
+      "count": 11
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.26,
-      "count": 12
+      "score": -0.463,
+      "count": 8
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.26,
-      "count": 5
+      "score": -0.232,
+      "count": 7
     },
     {
       "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.341,
-      "count": 2
+      "direction": "Netral →",
+      "score": -0.021,
+      "count": 3
     },
     {
       "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.341,
-      "count": 2
+      "direction": "Netral →",
+      "score": -0.021,
+      "count": 3
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.871,
+      "score": 0.542,
       "count": 1
     },
     {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.128,
+      "pair": "CAD/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.382,
       "count": 1
     }
   ],
@@ -86,62 +86,102 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Strain Ebola Langka Tanpa Vaksin yang Disetujui Membunuh Puluhan Orang di Kongo",
+      "title": "Pekan Wall Street | Peringatan Dalio, Perlombaan Senjata AI, Kekuatan Tiongkok Di Depan, Kebuntuan Pajak NYC",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-16/wall-street-week-dalio-s-warning-nyc-tax-standoff-video",
+      "summary": "This week, Ray Dalio explains why markets shrug off wars and why this time might be different. And, why are AI executives warning about the dangers of systems they are simultaneously racing to build? Plus, China’s massive investments in energy infrastructure are increasingly shaping the global compe",
+      "published": "16 May 2026 21:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.911,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Presiden Latvia Mencalonkan Kulbergs untuk Membentuk Pemerintahan Baru",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-16/latvia-s-president-nominates-kulbergs-to-form-new-government",
+      "summary": "Latvia’s President Edgars Rinkevics nominated Andris Kulbergs of the United List party to form a new government after Prime Minister Evika Silina resigned on Thursday ahead of parliamentary elections in October.",
+      "published": "16 May 2026 20:39 WIB",
+      "sentiment": "Bullish",
+      "score": 0.542,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Para Pimpinan Teknologi Menemani Trump dalam Perjalanan ke Tiongkok",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-16/tech-chiefs-accompany-trump-on-china-trip-video",
+      "summary": "President Trump arrived in Beijing for a high-stakes summit with Xi Jinping aimed at stabilizing US-China ties against the backdrop of the Iran war and the race to control and contain AI. Tech CEOs including Jensen Huang and Elon Musk tagged along, sending Nvidia, Tesla and Chinese AI-related stocks",
+      "published": "16 May 2026 19:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Trump Menyebut Kunjungan ke Tiongkok sebagai \"Momen Bersejarah\"",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-16/trump-calls-china-trip-historic-moment-video",
+      "summary": "Tensions between the US and China have deepened since the last time a US president traveled to Beijing for a summit, in 2017. President Trump’s return to China, in a swirl of dinners and festivities, generated positive optics for host and guest alike, but brought less apparent progress on some of th",
+      "published": "16 May 2026 18:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.619,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Strain Ebola Langka Tanpa Vaksin Terkait dengan 80 Kematian di Kongo",
       "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
-      "summary": "A rare strain of Ebola with no approved vaccine or treatment may have circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing dozens of people.",
+      "summary": "A rare strain of Ebola with no approved vaccine or treatment may have circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing at least 80 people.",
       "published": "16 May 2026 11:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.998,
+      "score": -0.933,
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "VinFast Berusaha Menurunkan Utang Terbanyak Dengan Spin-off Pabrik Vietnam",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-16/vinfast-seeks-to-shed-most-debt-with-vietnam-factory-spinoffs",
-      "summary": "VinFast Auto Ltd. said its planned sale of two Vietnamese factories will enable the electric vehicle maker to shed about 182 trillion dong ($6.9 billion) in debt and obligations while potentially speed its path toward profitability.",
-      "published": "16 May 2026 10:45 WIB",
+      "source": "BBC World",
+      "title": "Pemimpin senior ISIS tewas dalam operasi gabungan, kata AS dan Nigeria",
+      "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss",
+      "summary": "President Donald Trump said the operation eliminated \"the most active terrorist in the world\", Abu-Bilal al-Minuki.",
+      "published": "16 May 2026 18:44 WIB",
       "sentiment": "Bearish",
-      "score": -0.876,
+      "score": -0.817,
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "CEO Enbridge di Canada Pipelines, Natural Gas Outlook",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-15/enbridge-ceo-on-canada-pipelines-natural-gas-outlook-video",
-      "summary": "Enbridge President & CEO Greg Ebel discusses the agreement between Canada and the Alberta province about the carbon tax deal. He discusses the ramifications for future pipelines in the country and how it can affect North America at large going forward. He speaks with Katie Greifeld & Isabelle Lee on",
-      "published": "16 May 2026 05:23 WIB",
-      "sentiment": "Bullish",
-      "score": 0.771,
-      "emoji": "🟢"
+      "source": "BBC World",
+      "title": "Balita termasuk di antara lebih dari 50 anak sekolah yang diculik di Nigeria",
+      "url": "https://www.bbc.com/news/articles/c202vrxlwqgo?at_medium=RSS&at_campaign=rss",
+      "summary": "No group has yet claimed responsibility for the attacks, which have devastated Mussa town in Borno state.",
+      "published": "16 May 2026 20:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.924,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
       "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Presiden Tiongkok Xi",
       "url": "https://www.bbc.com/news/articles/ce8p61v7l68o?at_medium=RSS&at_campaign=rss",
       "summary": "The US president says he wants Beijing and Taipei to \"cool down\" tensions over the self-governing island.",
-      "published": "16 May 2026 10:30 WIB",
+      "published": "16 May 2026 12:53 WIB",
       "sentiment": "Bearish",
       "score": -0.282,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Trump mengatakan penghentian program nuklir Iran selama 20 tahun sudah cukup",
-      "url": "https://www.bbc.com/news/articles/cgkpnnen5dzo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president says Tehran has to show \"real\" commitment to removing nuclear fuel and stopping uranium enrichment.",
-      "published": "16 May 2026 04:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.25,
-      "emoji": "🟢"
+      "title": "Swiss akan membuka file rahasia tentang Auschwitz 'Malaikat Maut' Mengele",
+      "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Mengele fled Europe after the war but for years there were rumours he spent time in Switzerland.",
+      "published": "16 May 2026 06:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Pertukaran tahanan dilakukan saat Kyiv berduka atas 24 orang yang tewas dalam serangan Rusia di sebuah flat",
-      "url": "https://www.bbc.com/news/articles/c5y049w8nqwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Among the victims in Kyiv was 12-year-old Lyubava Yakovleva, whose father was killed during the war.",
-      "published": "15 May 2026 19:53 WIB",
+      "title": "Hamas membenarkan komandan tertingginya tewas dalam serangan udara Israel",
+      "url": "https://www.bbc.com/news/articles/cx21jjwz1k1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Friday's strike is the latest launched by Israel on Gaza despite a ceasefire with Hamas.",
+      "published": "16 May 2026 17:12 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.557,
       "emoji": "🔴"
     },
     {
@@ -155,83 +195,33 @@
       "emoji": "🔴"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Burnham diizinkan untuk mencalonkan diri dalam pemilihan sela yang penting",
-      "url": "https://www.bbc.com/news/articles/ckgp2e0rrj4o?at_medium=RSS&at_campaign=rss",
-      "summary": "If the Greater Manchester mayor goes on to win the by-election, he would be able to launch a leadership challenge against the PM.",
-      "published": "16 May 2026 06:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.871,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Swiss akan membuka file rahasia tentang Auschwitz 'Malaikat Maut' Mengele",
-      "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Mengele fled Europe after the war but for years there were rumours he spent time in Switzerland.",
-      "published": "16 May 2026 06:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Perusahaan Inggris yang berlomba-lomba membangun jet Red Arrows berikutnya bangkrut",
-      "url": "https://www.bbc.com/news/articles/cpwp11v82lno?at_medium=RSS&at_campaign=rss",
-      "summary": "Aeralis was hoping the UK government would award it a contract to replace the Hawk jets currently flown by the RAF.",
-      "published": "16 May 2026 03:40 WIB",
-      "sentiment": "Bullish",
-      "score": 0.545,
-      "emoji": "🟢"
-    },
-    {
       "source": "Al Jazeera",
-      "title": "Perang Iran langsung: Lebanon, Israel perpanjang gencatan senjata; Teheran siap untuk melakukan pembicaraan lebih lanjut dengan AS",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/5/16/iran-war-live-lebanon-israel-extend-truce-tehran-ready-for-more-us-talks?traffic_source=rss",
-      "summary": "Lebanon's Ministry of Health said Israeli attacks have killed 2,951 people since March 2, with at least 8,988 wounded.",
-      "published": "16 May 2026 07:00 WIB",
+      "title": "Perselisihan wajib militer ultra-Ortodoks mendorong pemerintah Israel ke jurang kehancuran",
+      "url": "https://www.aljazeera.com/news/2026/5/16/how-ultra-orthodox_recruitment_could_unseat_netanyahu_in_israeli_elections?traffic_source=rss",
+      "summary": "Israeli government faces collapse as coalition parties clash over military draft exemptions for Haredi constituents.",
+      "published": "16 May 2026 19:06 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.494,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Tujuh orang tewas di Gaza pada Hari Nakba ketika Israel mengatakan mereka menargetkan anggota Hamas",
-      "url": "https://www.aljazeera.com/news/2026/5/15/seven-killed-in-gaza-on-nakba-day-as-israel-says-it-targets-hamas-member?traffic_source=rss",
-      "summary": "Three women and a child among civilians killed in Israel's latest attacks on Gaza City.",
-      "published": "16 May 2026 04:05 WIB",
+      "title": "Serangan Israel di Lebanon selatan terus berlanjut meskipun ada perpanjangan ‘gencatan senjata’",
+      "url": "https://www.aljazeera.com/news/2026/5/16/israeli-strikes-on-southern-lebanon-continue-despite-ceasefire-extension?traffic_source=rss",
+      "summary": "Despite Lebanon and Israel extending the ceasefire deal for another 45 days, Israel continues to bomb Lebanon.",
+      "published": "16 May 2026 17:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.997,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump menyebut pemberitaan jurnalis Iran sebagai 'pengkhianatan'",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/15/trump-calls-journalists-iran-reporting?traffic_source=rss",
-      "summary": "Trump called New York Times journalist reporting on the Iran war as “treasonous” while claiming a 'victory'.",
-      "published": "16 May 2026 03:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.611,
       "emoji": "🔴"
     },
     {
       "source": "MarketWatch",
-      "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, dan bertaruh besar pada Delta",
-      "url": "https://www.marketwatch.com/story/berkshires-abel-sours-on-some-of-warren-buffetts-picks-while-betting-big-on-delta-7ad679f7?mod=mw_rss_topstories",
-      "summary": "Warren Buffett exited U.S. airlines back in 2020, but successor Greg Abel placed a $2.8 billion fresh bet on Delta.",
-      "published": "16 May 2026 04:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.569,
-      "emoji": "🟢"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Aksi jual saham dan obligasi terjadi karena kunjungan Trump ke Tiongkok gagal membuka Selat Hormuz",
-      "url": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories",
-      "summary": "Fears of a 2022-style inflation problem are bubbling back up, but there’s also hope for a Trump pivot on the Iran conflict.",
-      "published": "16 May 2026 03:57 WIB",
+      "title": "Harga bahan bakar yang tinggi dan inflasi membuat masyarakat stres – namun perekonomian akan baik-baik saja selama mereka terus berbelanja",
+      "url": "https://www.marketwatch.com/story/high-gas-prices-and-inflation-are-stressing-people-out-but-the-economy-will-be-fine-as-long-as-they-keep-spending-4f4b66e3?mod=mw_rss_topstories",
+      "summary": "Nearly three months into the Iran war, Americans are still spending plenty of money to keep the economy on the up and up.",
+      "published": "16 May 2026 20:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.492,
+      "score": -0.79,
       "emoji": "🔴"
     },
     {
@@ -246,23 +236,13 @@
     },
     {
       "source": "CNBC World",
-      "title": "Trump meninggalkan Tiongkok setelah perundingan yang didominasi oleh perdagangan, minyak, dan Taiwan",
-      "url": "https://www.cnbc.com/2026/05/15/trump-wraps-up-two-day-china-trip-invites-xi-for-a-september-visit.html",
-      "summary": "U.S. President Donald Trump traveled to China this week for two days of meetings with Chinese President Xi Jinping, after a year of heightened trade tensions.",
-      "published": "15 May 2026 13:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.482,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak turun 7%",
-      "url": "https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html",
-      "summary": "Mounting inflation fears, geopolitical tension and ongoing uncertainty around the Iran war has prompted selling pressure across asset classes.",
-      "published": "15 May 2026 17:47 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
+      "title": "UEA mengatakan keputusannya untuk meninggalkan OPEC adalah langkah ekonomi strategis, bukan politik",
+      "url": "https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html",
+      "summary": "The United Arab Emirates, which joined OPEC in 1967, announced last month it was leaving the oil producer group on May 1.",
+      "published": "16 May 2026 20:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.382,
+      "emoji": "🟢"
     },
     {
       "source": "CNBC World",
