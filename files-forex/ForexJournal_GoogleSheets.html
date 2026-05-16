@@ -2157,12 +2157,25 @@ function updateDash() {
 function drawCharts() {
   const ec=$('eqC'),pc=$('prC');if(!ec||!pc)return;
 
+  // Robust date formatter — handles both YYYY-MM-DD and full Date strings
+  const fmtDate = d => {
+    if (!d) return '?';
+    const s = String(d);
+    // Already YYYY-MM-DD → take MM-DD
+    if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(5);
+    // Full Date string (e.g. from Sheets) → parse and format
+    const dt = new Date(s);
+    if (!isNaN(dt)) {
+      return String(dt.getMonth()+1).padStart(2,'0')+'-'+String(dt.getDate()).padStart(2,'0');
+    }
+    return s.slice(0,5);
+  };
+
   // Equity Curve
   const cp=[...trades].reverse();let run=0;const eL=[],eD=[];
   cp.forEach((t,i)=>{
     run+=(parseFloat(t.pnl)||0);
-    // Slice YYYY-MM-DD → MM-DD to prevent Chart.js from parsing as Date object
-    eL.push(t.date ? t.date.slice(5) : String(i+1));
+    eL.push(fmtDate(t.date) || String(i+1));
     eD.push(+run.toFixed(2));
   });
   if(!eD.length){eL.push('Start');eD.push(0);}
