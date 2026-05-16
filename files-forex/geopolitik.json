@@ -1,5 +1,5 @@
 {
-  "generated": "16 May 2026 07:01 WIB",
+  "generated": "16 May 2026 11:46 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,25 +7,25 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.289,
+      "score": -0.301,
       "count": 17
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.26,
+      "score": -0.273,
       "count": 16
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.245,
+      "score": -0.26,
       "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.255,
+      "score": -0.26,
       "count": 5
     },
     {
@@ -86,6 +86,26 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Strain Ebola Langka Tanpa Vaksin yang Disetujui Membunuh Puluhan Orang di Kongo",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
+      "summary": "A rare strain of Ebola with no approved vaccine or treatment may have circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing dozens of people.",
+      "published": "16 May 2026 11:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.998,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "VinFast Berusaha Menurunkan Utang Terbanyak Dengan Spin-off Pabrik Vietnam",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-16/vinfast-seeks-to-shed-most-debt-with-vietnam-factory-spinoffs",
+      "summary": "VinFast Auto Ltd. said its planned sale of two Vietnamese factories will enable the electric vehicle maker to shed about 182 trillion dong ($6.9 billion) in debt and obligations while potentially speed its path toward profitability.",
+      "published": "16 May 2026 10:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.876,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "CEO Enbridge di Canada Pipelines, Natural Gas Outlook",
       "url": "https://www.bloomberg.com/news/videos/2026-05-15/enbridge-ceo-on-canada-pipelines-natural-gas-outlook-video",
       "summary": "Enbridge President & CEO Greg Ebel discusses the agreement between Canada and the Alberta province about the carbon tax deal. He discusses the ramifications for future pipelines in the country and how it can affect North America at large going forward. He speaks with Katie Greifeld & Isabelle Lee on",
@@ -95,21 +115,11 @@
       "emoji": "🟢"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Negara-Negara Berkembang Menutup Minggu Terburuk Sejak Maret karena Kekhawatiran Inflasi",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-15/em-stocks-tumble-most-in-more-than-a-month-as-oil-jumps",
-      "summary": "Emerging-market assets tumbled Friday, pushing both stocks and currencies to their worst weekly drop since early March, on renewed concern the conflict in the Middle East will fuel global inflation and force central banks to pursue higher interest rates.",
-      "published": "15 May 2026 12:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.973,
-      "emoji": "🔴"
-    },
-    {
       "source": "BBC World",
-      "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Xi dari Tiongkok",
+      "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Presiden Tiongkok Xi",
       "url": "https://www.bbc.com/news/articles/ce8p61v7l68o?at_medium=RSS&at_campaign=rss",
       "summary": "The US president says he wants Beijing and Taipei to \"cool down\" tensions over the self-governing island.",
-      "published": "16 May 2026 04:28 WIB",
+      "published": "16 May 2026 10:30 WIB",
       "sentiment": "Bearish",
       "score": -0.282,
       "emoji": "🔴"
@@ -156,6 +166,16 @@
     },
     {
       "source": "BBC Top Stories",
+      "title": "Swiss akan membuka file rahasia tentang Auschwitz 'Malaikat Maut' Mengele",
+      "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Mengele fled Europe after the war but for years there were rumours he spent time in Switzerland.",
+      "published": "16 May 2026 06:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Top Stories",
       "title": "Perusahaan Inggris yang berlomba-lomba membangun jet Red Arrows berikutnya bangkrut",
       "url": "https://www.bbc.com/news/articles/cpwp11v82lno?at_medium=RSS&at_campaign=rss",
       "summary": "Aeralis was hoping the UK government would award it a contract to replace the Hawk jets currently flown by the RAF.",
@@ -165,13 +185,13 @@
       "emoji": "🟢"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Bagaimana reaksi para pengkritik Tiongkok dalam gerakan Maga terhadap kunjungan Trump ke Beijing",
-      "url": "https://www.bbc.com/news/articles/cvgz902mqe5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump’s softer approach towards China is one that experts say will likely trickle down to the wider MAGA base.",
-      "published": "16 May 2026 02:52 WIB",
+      "source": "Al Jazeera",
+      "title": "Perang Iran langsung: Lebanon, Israel perpanjang gencatan senjata; Teheran siap untuk melakukan pembicaraan lebih lanjut dengan AS",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/16/iran-war-live-lebanon-israel-extend-truce-tehran-ready-for-more-us-talks?traffic_source=rss",
+      "summary": "Lebanon's Ministry of Health said Israeli attacks have killed 2,951 people since March 2, with at least 8,988 wounded.",
+      "published": "16 May 2026 07:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.376,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
@@ -195,18 +215,8 @@
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Zelensky bersumpah akan memberikan tanggapan setelah serangan Rusia menewaskan 24 orang di Kyiv",
-      "url": "https://www.aljazeera.com/news/2026/5/15/zelenskyy-vows-response-after-russian-strike-kills-24-in-kyiv?traffic_source=rss",
-      "summary": "Ukraine’s air force says the attack on Thursday was part of the largest aerial assault since the war began.",
-      "published": "16 May 2026 01:08 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
       "source": "MarketWatch",
-      "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, sambil bertaruh besar pada Delta",
+      "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, dan bertaruh besar pada Delta",
       "url": "https://www.marketwatch.com/story/berkshires-abel-sours-on-some-of-warren-buffetts-picks-while-betting-big-on-delta-7ad679f7?mod=mw_rss_topstories",
       "summary": "Warren Buffett exited U.S. airlines back in 2020, but successor Greg Abel placed a $2.8 billion fresh bet on Delta.",
       "published": "16 May 2026 04:41 WIB",
@@ -246,7 +256,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak anjlok 7%",
+      "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak turun 7%",
       "url": "https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html",
       "summary": "Mounting inflation fears, geopolitical tension and ongoing uncertainty around the Iran war has prompted selling pressure across asset classes.",
       "published": "15 May 2026 17:47 WIB",

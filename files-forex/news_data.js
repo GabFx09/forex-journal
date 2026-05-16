@@ -1,13 +1,13 @@
-// Diperbarui: 16 May 2026 07:01 WIB
+// Diperbarui: 16 May 2026 11:46 WIB
 window.FK_DATA = {
-  "generated": "16 May 2026 07:01 WIB",
+  "generated": "16 May 2026 11:46 WIB",
   "kalender": {
-    "generated": "16 May 2026 07:01 WIB",
+    "generated": "16 May 2026 11:46 WIB",
     "events": [
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "08:30",
+        "time_wib": "07:30",
         "currency": "CNY",
         "impact": "medium",
         "event": "CPI y/y",
@@ -29,7 +29,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "20:45",
+        "time_wib": "19:45",
         "currency": "USD",
         "impact": "low",
         "event": "Cleveland Fed Inflation Expectations",
@@ -40,7 +40,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:00",
+        "time_wib": "20:00",
         "currency": "USD",
         "impact": "low",
         "event": "Existing Home Sales",
@@ -51,7 +51,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:01",
+        "time_wib": "05:01",
         "currency": "GBP",
         "impact": "low",
         "event": "BRC Retail Sales Monitor y/y",
@@ -62,7 +62,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:30",
+        "time_wib": "05:30",
         "currency": "JPY",
         "impact": "low",
         "event": "Household Spending y/y",
@@ -73,7 +73,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "BOJ Summary of Opinions",
@@ -84,7 +84,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "08:30",
+        "time_wib": "07:30",
         "currency": "AUD",
         "impact": "low",
         "event": "NAB Business Confidence",
@@ -95,7 +95,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "10:35",
+        "time_wib": "09:35",
         "currency": "JPY",
         "impact": "low",
         "event": "10-y Bond Auction",
@@ -106,7 +106,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "12:00",
+        "time_wib": "11:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Leading Indicators",
@@ -117,7 +117,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German Final CPI m/m",
@@ -128,7 +128,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:30",
+        "time_wib": "12:30",
         "currency": "CHF",
         "impact": "low",
         "event": "PPI m/m",
@@ -139,7 +139,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "14:15",
+        "time_wib": "13:15",
         "currency": "EUR",
         "impact": "low",
         "event": "German Buba President Nagel Speaks",
@@ -161,7 +161,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "15:00",
+        "time_wib": "14:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Italian Industrial Production m/m",
@@ -172,7 +172,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:00",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German ZEW Economic Sentiment",
@@ -194,7 +194,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:30",
+        "time_wib": "15:30",
         "currency": "AUD",
         "impact": "low",
         "event": "Annual Budget Release",
@@ -205,7 +205,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "17:00",
+        "time_wib": "16:00",
         "currency": "USD",
         "impact": "low",
         "event": "NFIB Small Business Index",
@@ -216,7 +216,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:15",
+        "time_wib": "18:15",
         "currency": "USD",
         "impact": "low",
         "event": "ADP Weekly Employment Change",
@@ -227,7 +227,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "USD",
         "impact": "high",
         "event": "Core CPI m/m",
@@ -260,7 +260,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "20:10",
+        "time_wib": "19:10",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Goolsbee Speaks",
@@ -271,7 +271,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:30",
+        "time_wib": "20:30",
         "currency": "AUD",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -282,7 +282,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:00",
+        "time_wib": "23:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Goolsbee Speaks",
@@ -293,7 +293,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:01",
+        "time_wib": "23:01",
         "currency": "USD",
         "impact": "low",
         "event": "10-y Bond Auction",
@@ -304,7 +304,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "01:00",
+        "time_wib": "00:00",
         "currency": "USD",
         "impact": "low",
         "event": "Federal Budget Balance",
@@ -315,7 +315,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "03:30",
+        "time_wib": "02:30",
         "currency": "USD",
         "impact": "low",
         "event": "API Weekly Statistical Bulletin",
@@ -326,7 +326,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Bank Lending y/y",
@@ -348,7 +348,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "08:30",
+        "time_wib": "07:30",
         "currency": "AUD",
         "impact": "medium",
         "event": "Wage Price Index q/q",
@@ -359,7 +359,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "10:00",
+        "time_wib": "09:00",
         "currency": "NZD",
         "impact": "low",
         "event": "Inflation Expectations q/q",
@@ -370,7 +370,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "12:00",
+        "time_wib": "11:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Economy Watchers Sentiment",
@@ -381,7 +381,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German WPI m/m",
@@ -392,7 +392,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:45",
+        "time_wib": "12:45",
         "currency": "EUR",
         "impact": "low",
         "event": "French Final CPI m/m",
@@ -403,7 +403,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:00",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Flash Employment Change q/q",
@@ -436,7 +436,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:35",
+        "time_wib": "15:35",
         "currency": "EUR",
         "impact": "low",
         "event": "German 30-y Bond Auction",
@@ -447,7 +447,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "USD",
         "impact": "high",
         "event": "Core PPI m/m",
@@ -469,7 +469,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "20:30",
+        "time_wib": "19:30",
         "currency": "GBP",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -480,7 +480,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:00",
+        "time_wib": "20:00",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Mann Speaks",
@@ -491,7 +491,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:30",
+        "time_wib": "20:30",
         "currency": "USD",
         "impact": "low",
         "event": "Crude Oil Inventories",
@@ -502,7 +502,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "22:05",
+        "time_wib": "21:05",
         "currency": "CAD",
         "impact": "low",
         "event": "Gov Council Member Alexopoulos Speaks",
@@ -513,7 +513,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "22:30",
+        "time_wib": "21:30",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Collins Speaks",
@@ -524,7 +524,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:01",
+        "time_wib": "23:01",
         "currency": "USD",
         "impact": "low",
         "event": "30-y Bond Auction",
@@ -535,7 +535,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:15",
+        "time_wib": "23:15",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Kashkari Speaks",
@@ -546,7 +546,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:30",
+        "time_wib": "23:30",
         "currency": "CAD",
         "impact": "low",
         "event": "BOC Summary of Deliberations",
@@ -557,7 +557,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "01:40",
+        "time_wib": "00:40",
         "currency": "USD",
         "impact": "high",
         "event": "Fed Chair Nomination Vote",
@@ -568,7 +568,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "02:15",
+        "time_wib": "01:15",
         "currency": "EUR",
         "impact": "low",
         "event": "ECB President Lagarde Speaks",
@@ -579,7 +579,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "05:50",
+        "time_wib": "04:50",
         "currency": "NZD",
         "impact": "low",
         "event": "Visitor Arrivals m/m",
@@ -590,7 +590,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:01",
+        "time_wib": "05:01",
         "currency": "GBP",
         "impact": "low",
         "event": "RICS House Price Balance",
@@ -601,7 +601,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "M2 Money Stock y/y",
@@ -612,7 +612,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "10:35",
+        "time_wib": "09:35",
         "currency": "JPY",
         "impact": "low",
         "event": "30-y Bond Auction",
@@ -634,7 +634,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "GBP",
         "impact": "high",
         "event": "GDP m/m",
@@ -744,7 +744,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:01",
+        "time_wib": "15:01",
         "currency": "CNY",
         "impact": "low",
         "event": "M2 Money Supply y/y",
@@ -755,7 +755,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:02",
+        "time_wib": "15:02",
         "currency": "CNY",
         "impact": "low",
         "event": "New Loans",
@@ -766,7 +766,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Wholesale Sales m/m",
@@ -821,7 +821,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:00",
+        "time_wib": "20:00",
         "currency": "USD",
         "impact": "low",
         "event": "Business Inventories m/m",
@@ -832,7 +832,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:13",
+        "time_wib": "20:13",
         "currency": "USD",
         "impact": "low",
         "event": "Mortgage Delinquencies",
@@ -843,7 +843,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:15",
+        "time_wib": "20:15",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Schmid Speaks",
@@ -854,7 +854,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:30",
+        "time_wib": "20:30",
         "currency": "USD",
         "impact": "low",
         "event": "Natural Gas Storage",
@@ -865,7 +865,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "22:15",
+        "time_wib": "21:15",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Pill Speaks",
@@ -876,7 +876,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:00",
+        "time_wib": "23:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Hammack Speaks",
@@ -887,7 +887,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "04:45",
+        "time_wib": "03:45",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Williams Speaks",
@@ -898,7 +898,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "05:30",
+        "time_wib": "04:30",
         "currency": "NZD",
         "impact": "low",
         "event": "BusinessNZ Manufacturing Index",
@@ -909,7 +909,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "05:45",
+        "time_wib": "04:45",
         "currency": "NZD",
         "impact": "low",
         "event": "FPI m/m",
@@ -920,7 +920,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:00",
+        "time_wib": "05:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Barr Speaks",
@@ -931,7 +931,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "PPI y/y",
@@ -942,7 +942,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Prelim Machine Tool Orders y/y",
@@ -953,7 +953,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "15:00",
+        "time_wib": "14:00",
         "currency": "EUR",
         "impact": "low",
         "event": "ECB Economic Bulletin",
@@ -964,7 +964,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:15",
+        "time_wib": "18:15",
         "currency": "CAD",
         "impact": "low",
         "event": "Housing Starts",
@@ -975,7 +975,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Foreign Securities Purchases",
@@ -1008,7 +1008,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "20:15",
+        "time_wib": "19:15",
         "currency": "USD",
         "impact": "low",
         "event": "Capacity Utilization Rate",
@@ -1030,26 +1030,26 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "16 May 2026 07:01 WIB",
+    "generated": "16 May 2026 11:46 WIB",
     "summary": {
-      "total": 72,
-      "bullish": 25,
+      "total": 71,
+      "bullish": 22,
       "bearish": 38,
-      "netral": 9,
-      "avg_score": -0.1219,
+      "netral": 11,
+      "avg_score": -0.1598,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
           "sentiment": "Netral",
-          "score": 0.029,
-          "count": 14
+          "score": -0.036,
+          "count": 13
         },
         {
           "currency": "EUR",
           "sentiment": "Bearish",
-          "score": -0.372,
-          "count": 4
+          "score": -0.361,
+          "count": 6
         },
         {
           "currency": "GBP",
@@ -1318,6 +1318,56 @@ window.FK_DATA = {
       },
       {
         "source": "Investing.com Forex",
+        "title": "Eksklusif-Di Samsung, ledakan AI global memicu pemogokan dan perpecahan yang mendalam",
+        "url": "https://www.investing.com/news/stock-market-news/exclusiveat-samsung-the-global-ai-boom-spurred-a-looming-strike-and-deep-divisions-4691543",
+        "summary": "",
+        "published": "16 May 2026 09:30 WIB",
+        "sentiment": "Bearish",
+        "score": -0.25,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "YouTube, Snap, dan TikTok menyelesaikan klaim kecanduan media sosial di distrik sekolah",
+        "url": "https://www.investing.com/news/stock-market-news/youtube-snap-settle-school-districts-social-media-addiction-claims-4694344",
+        "summary": "",
+        "published": "16 May 2026 09:24 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Arm Holdings akan menghadapi penyelidikan antimonopoli AS atas teknologi chip, Bloomberg News melaporkan",
+        "url": "https://www.investing.com/news/stock-market-news/arm-holdings-to-face-us-antitrust-probe-over-chip-tech-bloomberg-news-reports-4694244",
+        "summary": "",
+        "published": "16 May 2026 08:18 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Konsumen menuntut Amazon karena tidak mengembalikan biaya tarif Trump",
+        "url": "https://www.investing.com/news/stock-market-news/consumers-sue-amazon-for-not-refunding-trump-tariff-costs-4694313",
+        "summary": "",
+        "published": "16 May 2026 07:42 WIB",
+        "sentiment": "Bullish",
+        "score": 0.178,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Ackman, Loeb mengambil jalur berbeda dalam taruhan teknologi di awal tahun 2026",
+        "url": "https://www.investing.com/news/stock-market-news/ackman-loeb-take-different-routes-on-tech-bets-in-early-2026-4694302",
+        "summary": "",
+        "published": "16 May 2026 07:12 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
         "title": "Investor institusi berbondong-bondong membangun saham baru di perusahaan semikonduktor pada kuartal pertama",
         "url": "https://www.investing.com/news/stock-market-news/institutional-investors-boosted-holdings-of-ai-infrastructure-plays-during-first-quarter-4693317",
         "summary": "",
@@ -1338,16 +1388,6 @@ window.FK_DATA = {
       },
       {
         "source": "Investing.com Forex",
-        "title": "Arm Holdings akan menghadapi penyelidikan antimonopoli AS atas teknologi chip, Bloomberg News melaporkan",
-        "url": "https://www.investing.com/news/stock-market-news/arm-holdings-to-face-us-antitrust-probe-over-chip-tech-bloomberg-news-reports-4694244",
-        "summary": "",
-        "published": "16 May 2026 06:00 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
         "title": "Trump mengatakan jika Tiongkok membeli 200 jet Boeing, pesanannya bisa meningkat hingga 750",
         "url": "https://www.investing.com/news/stock-market-news/trump-says-china-to-potentially-buy-750-boeing-planes-4691924",
         "summary": "",
@@ -1355,56 +1395,6 @@ window.FK_DATA = {
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Berkshire membeli Delta, lebih banyak Alphabet; gudang Amazon, UnitedHealth, Visa dan Mastercard",
-        "url": "https://www.investing.com/news/stock-market-news/berkshire-invests-in-delta-sheds-several-stocks-including-amazon-unitedhealth-4693996",
-        "summary": "",
-        "published": "16 May 2026 05:48 WIB",
-        "sentiment": "Bullish",
-        "score": 0.241,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Ares Management mengumpulkan dana kredit dalam jumlah besar pada kuartal pertama tahun 2026",
-        "url": "https://www.investing.com/news/stock-market-news/ares-management-bulks-up-on-credit-funds-in-first-quarter-of-2026-4694211",
-        "summary": "",
-        "published": "16 May 2026 05:30 WIB",
-        "sentiment": "Bullish",
-        "score": 0.382,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Exclusive-SpaceX mempercepat jadwal IPO, menargetkan listing di Nasdaq pada 12 Juni, kata sumber",
-        "url": "https://www.investing.com/news/stock-market-news/exclusivespacex-accelerates-ipo-timeline-targets-june-11-pricing-on-nasdaq-4693540",
-        "summary": "",
-        "published": "16 May 2026 05:18 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Saham Meksiko melemah pada penutupan perdagangan; S&P/BMV IPC turun 1,78%",
-        "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-178-4694103",
-        "summary": "",
-        "published": "16 May 2026 04:30 WIB",
-        "sentiment": "Bearish",
-        "score": -0.296,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Saham Kolombia melemah pada penutupan perdagangan; COLCAP turun 0,98%",
-        "url": "https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-098-4694098",
-        "summary": "",
-        "published": "16 May 2026 04:25 WIB",
-        "sentiment": "Bearish",
-        "score": -0.296,
-        "emoji": "🔴"
       },
       {
         "source": "Investing.com Economy",
@@ -1478,32 +1468,32 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
+        "title": "Strain Ebola Langka Tanpa Vaksin yang Disetujui Membunuh Puluhan Orang di Kongo",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
+        "summary": "A rare strain of Ebola with no approved vaccine or treatment may have circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing dozens of people.",
+        "published": "16 May 2026 11:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.998,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "VinFast Berusaha Menurunkan Utang Terbanyak Dengan Spin-off Pabrik Vietnam",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-16/vinfast-seeks-to-shed-most-debt-with-vietnam-factory-spinoffs",
+        "summary": "VinFast Auto Ltd. said its planned sale of two Vietnamese factories will enable the electric vehicle maker to shed about 182 trillion dong ($6.9 billion) in debt and obligations while potentially speed its path toward profitability.",
+        "published": "16 May 2026 10:45 WIB",
+        "sentiment": "Bearish",
+        "score": -0.876,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
         "title": "CEO Enbridge di Canada Pipelines, Natural Gas Outlook",
         "url": "https://www.bloomberg.com/news/videos/2026-05-15/enbridge-ceo-on-canada-pipelines-natural-gas-outlook-video",
         "summary": "Enbridge President & CEO Greg Ebel discusses the agreement between Canada and the Alberta province about the carbon tax deal. He discusses the ramifications for future pipelines in the country and how it can affect North America at large going forward. He speaks with Katie Greifeld & Isabelle Lee on",
         "published": "16 May 2026 05:23 WIB",
         "sentiment": "Bullish",
         "score": 0.771,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Negara-Negara Berkembang Menutup Minggu Terburuk Sejak Maret karena Kekhawatiran Inflasi",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-15/em-stocks-tumble-most-in-more-than-a-month-as-oil-jumps",
-        "summary": "Emerging-market assets tumbled Friday, pushing both stocks and currencies to their worst weekly drop since early March, on renewed concern the conflict in the Middle East will fuel global inflation and force central banks to pursue higher interest rates.",
-        "published": "15 May 2026 12:25 WIB",
-        "sentiment": "Bearish",
-        "score": -0.973,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Dolar Mencatat Minggu Terbaik Sejak Awal Maret Terkait Kenaikan Suku Bunga Fed",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-15/dollar-rallies-toward-best-week-since-march-on-fed-hike-view",
-        "summary": "The dollar finished its best week in over two months after US data showed price pressures that could push the Federal Reserve to raise interest rates over the next year.",
-        "published": "15 May 2026 15:58 WIB",
-        "sentiment": "Bullish",
-        "score": 0.878,
         "emoji": "🟢"
       },
       {
@@ -1518,10 +1508,10 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Xi dari Tiongkok",
+        "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Presiden Tiongkok Xi",
         "url": "https://www.bbc.com/news/articles/ce8p61v7l68o?at_medium=RSS&at_campaign=rss",
         "summary": "The US president says he wants Beijing and Taipei to \"cool down\" tensions over the self-governing island.",
-        "published": "16 May 2026 04:28 WIB",
+        "published": "16 May 2026 10:30 WIB",
         "sentiment": "Bearish",
         "score": -0.282,
         "emoji": "🔴"
@@ -1608,6 +1598,16 @@ window.FK_DATA = {
       },
       {
         "source": "BBC Top Stories",
+        "title": "Swiss akan membuka file rahasia tentang Auschwitz 'Malaikat Maut' Mengele",
+        "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Mengele fled Europe after the war but for years there were rumours he spent time in Switzerland.",
+        "published": "16 May 2026 06:04 WIB",
+        "sentiment": "Bearish",
+        "score": -0.679,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC Top Stories",
         "title": "Perusahaan Inggris yang berlomba-lomba membangun jet Red Arrows berikutnya bangkrut",
         "url": "https://www.bbc.com/news/articles/cpwp11v82lno?at_medium=RSS&at_campaign=rss",
         "summary": "Aeralis was hoping the UK government would award it a contract to replace the Hawk jets currently flown by the RAF.",
@@ -1628,22 +1628,22 @@ window.FK_DATA = {
       },
       {
         "source": "BBC Top Stories",
-        "title": "Apa pendapat Makerfield tentang pemilihan sela - dan apakah Burnham bisa menang",
-        "url": "https://www.bbc.com/news/articles/cyv26e7yd89o?at_medium=RSS&at_campaign=rss",
-        "summary": "Andy Burnham says he will look to stand in the constituency, after Labour MP Josh Simons announces his resignation.",
-        "published": "16 May 2026 00:00 WIB",
-        "sentiment": "Bullish",
-        "score": 0.382,
-        "emoji": "🟢"
+        "title": "Final Eurovision: Seks, biola, dan tujuh hal lain yang harus diwaspadai",
+        "url": "https://www.bbc.com/news/articles/c1d2qe73ly7o?at_medium=RSS&at_campaign=rss",
+        "summary": "A guide to the stand-out moments of Eurovision 2026, ahead of Saturday night's final in Vienna.",
+        "published": "16 May 2026 06:04 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
       },
       {
-        "source": "BBC Top Stories",
-        "title": "Bagaimana reaksi para pengkritik Tiongkok dalam gerakan Maga terhadap kunjungan Trump ke Beijing",
-        "url": "https://www.bbc.com/news/articles/cvgz902mqe5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump’s softer approach towards China is one that experts say will likely trickle down to the wider MAGA base.",
-        "published": "16 May 2026 02:52 WIB",
+        "source": "Al Jazeera",
+        "title": "Perang Iran langsung: Lebanon, Israel perpanjang gencatan senjata; Teheran siap untuk melakukan pembicaraan lebih lanjut dengan AS",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/16/iran-war-live-lebanon-israel-extend-truce-tehran-ready-for-more-us-talks?traffic_source=rss",
+        "summary": "Lebanon's Ministry of Health said Israeli attacks have killed 2,951 people since March 2, with at least 8,988 wounded.",
+        "published": "16 May 2026 07:00 WIB",
         "sentiment": "Bearish",
-        "score": -0.376,
+        "score": -1.0,
         "emoji": "🔴"
       },
       {
@@ -1667,18 +1667,8 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Zelensky bersumpah akan memberikan tanggapan setelah serangan Rusia menewaskan 24 orang di Kyiv",
-        "url": "https://www.aljazeera.com/news/2026/5/15/zelenskyy-vows-response-after-russian-strike-kills-24-in-kyiv?traffic_source=rss",
-        "summary": "Ukraine’s air force says the attack on Thursday was part of the largest aerial assault since the war began.",
-        "published": "16 May 2026 01:08 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
         "source": "MarketWatch",
-        "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, sambil bertaruh besar pada Delta",
+        "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, dan bertaruh besar pada Delta",
         "url": "https://www.marketwatch.com/story/berkshires-abel-sours-on-some-of-warren-buffetts-picks-while-betting-big-on-delta-7ad679f7?mod=mw_rss_topstories",
         "summary": "Warren Buffett exited U.S. airlines back in 2020, but successor Greg Abel placed a $2.8 billion fresh bet on Delta.",
         "published": "16 May 2026 04:41 WIB",
@@ -1738,7 +1728,7 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak anjlok 7%",
+        "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak turun 7%",
         "url": "https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html",
         "summary": "Mounting inflation fears, geopolitical tension and ongoing uncertainty around the Iran war has prompted selling pressure across asset classes.",
         "published": "15 May 2026 17:47 WIB",
@@ -1789,7 +1779,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "16 May 2026 07:01 WIB",
+    "generated": "16 May 2026 11:46 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1797,25 +1787,25 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.289,
+        "score": -0.301,
         "count": 17
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.26,
+        "score": -0.273,
         "count": 16
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.245,
+        "score": -0.26,
         "count": 12
       },
       {
         "pair": "EUR/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.255,
+        "score": -0.26,
         "count": 5
       },
       {
@@ -1876,6 +1866,26 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
+        "title": "Strain Ebola Langka Tanpa Vaksin yang Disetujui Membunuh Puluhan Orang di Kongo",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
+        "summary": "A rare strain of Ebola with no approved vaccine or treatment may have circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing dozens of people.",
+        "published": "16 May 2026 11:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.998,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "VinFast Berusaha Menurunkan Utang Terbanyak Dengan Spin-off Pabrik Vietnam",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-16/vinfast-seeks-to-shed-most-debt-with-vietnam-factory-spinoffs",
+        "summary": "VinFast Auto Ltd. said its planned sale of two Vietnamese factories will enable the electric vehicle maker to shed about 182 trillion dong ($6.9 billion) in debt and obligations while potentially speed its path toward profitability.",
+        "published": "16 May 2026 10:45 WIB",
+        "sentiment": "Bearish",
+        "score": -0.876,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
         "title": "CEO Enbridge di Canada Pipelines, Natural Gas Outlook",
         "url": "https://www.bloomberg.com/news/videos/2026-05-15/enbridge-ceo-on-canada-pipelines-natural-gas-outlook-video",
         "summary": "Enbridge President & CEO Greg Ebel discusses the agreement between Canada and the Alberta province about the carbon tax deal. He discusses the ramifications for future pipelines in the country and how it can affect North America at large going forward. He speaks with Katie Greifeld & Isabelle Lee on",
@@ -1885,21 +1895,11 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Negara-Negara Berkembang Menutup Minggu Terburuk Sejak Maret karena Kekhawatiran Inflasi",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-15/em-stocks-tumble-most-in-more-than-a-month-as-oil-jumps",
-        "summary": "Emerging-market assets tumbled Friday, pushing both stocks and currencies to their worst weekly drop since early March, on renewed concern the conflict in the Middle East will fuel global inflation and force central banks to pursue higher interest rates.",
-        "published": "15 May 2026 12:25 WIB",
-        "sentiment": "Bearish",
-        "score": -0.973,
-        "emoji": "🔴"
-      },
-      {
         "source": "BBC World",
-        "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Xi dari Tiongkok",
+        "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Presiden Tiongkok Xi",
         "url": "https://www.bbc.com/news/articles/ce8p61v7l68o?at_medium=RSS&at_campaign=rss",
         "summary": "The US president says he wants Beijing and Taipei to \"cool down\" tensions over the self-governing island.",
-        "published": "16 May 2026 04:28 WIB",
+        "published": "16 May 2026 10:30 WIB",
         "sentiment": "Bearish",
         "score": -0.282,
         "emoji": "🔴"
@@ -1946,6 +1946,16 @@ window.FK_DATA = {
       },
       {
         "source": "BBC Top Stories",
+        "title": "Swiss akan membuka file rahasia tentang Auschwitz 'Malaikat Maut' Mengele",
+        "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Mengele fled Europe after the war but for years there were rumours he spent time in Switzerland.",
+        "published": "16 May 2026 06:04 WIB",
+        "sentiment": "Bearish",
+        "score": -0.679,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC Top Stories",
         "title": "Perusahaan Inggris yang berlomba-lomba membangun jet Red Arrows berikutnya bangkrut",
         "url": "https://www.bbc.com/news/articles/cpwp11v82lno?at_medium=RSS&at_campaign=rss",
         "summary": "Aeralis was hoping the UK government would award it a contract to replace the Hawk jets currently flown by the RAF.",
@@ -1955,13 +1965,13 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "BBC Top Stories",
-        "title": "Bagaimana reaksi para pengkritik Tiongkok dalam gerakan Maga terhadap kunjungan Trump ke Beijing",
-        "url": "https://www.bbc.com/news/articles/cvgz902mqe5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump’s softer approach towards China is one that experts say will likely trickle down to the wider MAGA base.",
-        "published": "16 May 2026 02:52 WIB",
+        "source": "Al Jazeera",
+        "title": "Perang Iran langsung: Lebanon, Israel perpanjang gencatan senjata; Teheran siap untuk melakukan pembicaraan lebih lanjut dengan AS",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/16/iran-war-live-lebanon-israel-extend-truce-tehran-ready-for-more-us-talks?traffic_source=rss",
+        "summary": "Lebanon's Ministry of Health said Israeli attacks have killed 2,951 people since March 2, with at least 8,988 wounded.",
+        "published": "16 May 2026 07:00 WIB",
         "sentiment": "Bearish",
-        "score": -0.376,
+        "score": -1.0,
         "emoji": "🔴"
       },
       {
@@ -1985,18 +1995,8 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Zelensky bersumpah akan memberikan tanggapan setelah serangan Rusia menewaskan 24 orang di Kyiv",
-        "url": "https://www.aljazeera.com/news/2026/5/15/zelenskyy-vows-response-after-russian-strike-kills-24-in-kyiv?traffic_source=rss",
-        "summary": "Ukraine’s air force says the attack on Thursday was part of the largest aerial assault since the war began.",
-        "published": "16 May 2026 01:08 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
         "source": "MarketWatch",
-        "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, sambil bertaruh besar pada Delta",
+        "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, dan bertaruh besar pada Delta",
         "url": "https://www.marketwatch.com/story/berkshires-abel-sours-on-some-of-warren-buffetts-picks-while-betting-big-on-delta-7ad679f7?mod=mw_rss_topstories",
         "summary": "Warren Buffett exited U.S. airlines back in 2020, but successor Greg Abel placed a $2.8 billion fresh bet on Delta.",
         "published": "16 May 2026 04:41 WIB",
@@ -2036,7 +2036,7 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak anjlok 7%",
+        "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak turun 7%",
         "url": "https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html",
         "summary": "Mounting inflation fears, geopolitical tension and ongoing uncertainty around the Iran war has prompted selling pressure across asset classes.",
         "published": "15 May 2026 17:47 WIB",
@@ -2067,13 +2067,13 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "16 May 2026 07:01 WIB",
+    "generated": "16 May 2026 11:46 WIB",
     "summary": {
-      "total": 24,
+      "total": 22,
       "bullish": 5,
-      "bearish": 7,
-      "netral": 12,
-      "avg_score": 0.0103,
+      "bearish": 6,
+      "netral": 11,
+      "avg_score": 0.0236,
       "overall": "Netral"
     },
     "items": [
@@ -2099,7 +2099,7 @@ window.FK_DATA = {
       },
       {
         "source": "FinancialJuice",
-        "title": "Posisi EUR CFTC Minggu yang Berakhir 12 Mei - FJElite",
+        "title": "Posisi EUR CFTC Pekan yang Berakhir 12 Mei - FJElite",
         "url": "https://www.financialjuice.com/News/9588779/EUR-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "16 May 2026 02:43 WIB",
@@ -2109,7 +2109,7 @@ window.FK_DATA = {
       },
       {
         "source": "FinancialJuice",
-        "title": "Posisi CFTC USD Minggu yang Berakhir 12 Mei - FJElite",
+        "title": "Posisi CFTC USD Pekan yang Berakhir 12 Mei - FJElite",
         "url": "https://www.financialjuice.com/News/9588778/USD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "16 May 2026 02:42 WIB",
@@ -2159,7 +2159,7 @@ window.FK_DATA = {
       },
       {
         "source": "FinancialJuice",
-        "title": "Menteri Luar Negeri Tiongkok Wang Yi: Kami sepakat untuk mempromosikan perluasan perdagangan dua arah di bawah kerangka pengurangan tarif timbal balik.",
+        "title": "Menteri Luar Negeri Tiongkok Wang Yi: Kami sepakat untuk mendorong perluasan perdagangan dua arah di bawah kerangka pengurangan tarif timbal balik.",
         "url": "https://www.financialjuice.com/News/9588276/Chinas-Foreign-Minister-Wang-Yi-We-agreed-to-promote-the-expansion-of-two-way-trade-under-the-framework-of-reciprocal-tariff-reductions.aspx?xy=rss",
         "summary": "",
         "published": "15 May 2026 21:07 WIB",
@@ -2176,36 +2176,6 @@ window.FK_DATA = {
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Suku bunga dana Fed efektif 3,63% pada 14 Mei vs 3,63% pada 13 Mei.",
-        "url": "https://www.financialjuice.com/News/9588145/Effective-Fed-funds-rate-363-May-14th-vs-363-May-13th.aspx?xy=rss",
-        "summary": "",
-        "published": "15 May 2026 19:59 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Suku bunga berjangka AS kini mencerminkan lebih dari 50% kemungkinan kenaikan suku bunga The Fed pada bulan Januari.",
-        "url": "https://www.financialjuice.com/News/9588142/US-interest-rate-futures-now-reflect-more-than-50-probability-of-a-Fed-rate-hike-by-January.aspx?xy=rss",
-        "summary": "",
-        "published": "15 May 2026 19:54 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Sentimen AS: Imbal Hasil Lebih Tinggi Menghilangkan Penutup Optimisme AI dari Aset Berisiko, RISK OFF - FJElite",
-        "url": "https://www.financialjuice.com/News/9588101/US-Sentiment-Higher-Yields-Remove-the-AI-Optimism-Blinders-from-Risk-Assets-RISK-OFF---FJElite.aspx?xy=rss",
-        "summary": "",
-        "published": "15 May 2026 19:40 WIB",
-        "sentiment": "Bearish",
-        "score": -0.273,
-        "emoji": "🔴"
       },
       {
         "source": "ForexLive",
@@ -2313,6 +2283,16 @@ window.FK_DATA = {
         "url": "https://www.bbc.com/news/articles/c4g7zd66e13o?at_medium=RSS&at_campaign=rss",
         "summary": "Are you the ultimate Eurovision superfan? Take our quiz to find out",
         "published": "15 May 2026 20:57 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "BBC Top Stories",
+        "title": "Final Eurovision: Seks, biola, dan tujuh hal lain yang harus diwaspadai",
+        "url": "https://www.bbc.com/news/articles/c1d2qe73ly7o?at_medium=RSS&at_campaign=rss",
+        "summary": "A guide to the stand-out moments of Eurovision 2026, ahead of Saturday night's final in Vienna.",
+        "published": "16 May 2026 06:04 WIB",
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
