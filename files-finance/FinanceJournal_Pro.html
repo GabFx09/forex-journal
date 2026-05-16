@@ -882,6 +882,7 @@ function addTrx(){
     if(t.type==='income') rekening[method]=(rekening[method]||0)+amount;
     else if(t.type==='expense') rekening[method]=Math.max(0,(rekening[method]||0)-amount);
     save();renderRekening();
+    if(GS_ON)gasPost({action:'saveRekening',rekening}).catch(()=>{});
   }
   transactions.unshift(t);save();renderTrx();updateAllStats();clearTrxForm();
   toast('✅ Transaksi ditambahkan!');
@@ -895,6 +896,7 @@ function deleteTrx(id){
     if(t.type==='income') rekening[t.rekKey]=Math.max(0,(rekening[t.rekKey]||0)-t.amount);
     else if(t.type==='expense') rekening[t.rekKey]=(rekening[t.rekKey]||0)+t.amount;
     save();renderRekening();
+    if(GS_ON)gasPost({action:'saveRekening',rekening}).catch(()=>{});
   }
   transactions=transactions.filter(x=>x.id!==id);save();renderTrx();updateAllStats();
   if(GS_ON)gasPost({action:'deleteTrx',id})
