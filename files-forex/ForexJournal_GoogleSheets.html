@@ -601,34 +601,117 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 
     <!-- DASHBOARD -->
     <div id="tab-dash" class="tab on">
-      <div class="g4" style="margin-bottom:12px">
-        <div class="met"><div class="ml">Total P&L</div><div class="mv nt" id="d-pnl">$0</div><div class="ms" id="d-tc">0 trade</div></div>
-        <div class="met"><div class="ml">Win Rate</div><div class="mv nt" id="d-wr">0%</div><div class="ms" id="d-wl">0W / 0L</div></div>
-        <div class="met"><div class="ml">Profit Factor</div><div class="mv nt" id="d-pf">—</div><div class="ms">avg RRR</div></div>
-        <div class="met"><div class="ml">Max Drawdown</div><div class="mv nt" id="d-dd">—</div><div class="ms">dari semua trade</div></div>
-      </div>
-      <!-- Baris akun: dari data transaksi + trade -->
-      <div class="g3" style="margin-bottom:12px">
-        <div class="met"><div class="ml">Modal Aktif (Depo − WD)</div><div class="mv nt" id="d-modal">$0</div><div class="ms" id="d-modal-sub">0 depo · 0 wd</div></div>
-        <div class="met"><div class="ml">Ekuitas (Modal + P&L)</div><div class="mv nt" id="d-equity">$0</div><div class="ms" id="d-equity-sub">—</div></div>
-        <div class="met"><div class="ml">Return (%)</div><div class="mv nt" id="d-return">—</div><div class="ms">P&L ÷ Modal</div></div>
-      </div>
-      <div class="g2" style="margin-bottom:12px">
-        <div class="card"><div class="ct">Equity Curve</div><div class="cw" style="height:150px"><canvas id="eqC" role="img" aria-label="equity">eq</canvas></div></div>
-        <div class="card"><div class="ct">P&L per Pair</div><div class="cw" style="height:150px"><canvas id="prC" role="img" aria-label="pnl">pr</canvas></div></div>
-      </div>
-      <div class="g3">
-        <div class="card"><div class="ct">Performa per Sesi</div><div id="d-sess"><div class="em">Tambah trade untuk melihat data</div></div></div>
-        <div class="card"><div class="ct">Streak & Stats</div><div id="d-streak"><div class="em">Tambah trade untuk melihat stats</div></div></div>
-        <div class="card">
-          <div class="ct">Target Bulanan</div>
-          <div style="text-align:center;padding:8px 0 4px">
-            <div style="font-size:28px;font-weight:600;color:var(--gold);font-family:var(--mono)" id="d-tpct">0%</div>
-            <div style="font-size:10px;color:var(--mut);margin-top:3px" id="d-tlbl">$0 / $2,000</div>
+
+      <!-- Row 1: Key Metrics -->
+      <div class="g4" style="margin-bottom:14px">
+        <div class="met met-pnl" style="border-color:rgba(240,180,41,.18);box-shadow:0 4px 24px rgba(240,180,41,.08)">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start">
+            <div class="ml">Total P&L</div>
+            <div style="width:28px;height:28px;border-radius:8px;background:rgba(240,180,41,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F0B429" stroke-width="2.2" stroke-linecap="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            </div>
           </div>
-          <div class="pb" style="height:7px;margin-bottom:12px"><div class="pf" id="d-tbar" style="width:0%"></div></div>
-          <div style="font-size:11px;color:var(--mut);margin-bottom:5px">Sisa hari: <span style="color:var(--sub)" id="d-days">—</span></div>
-          <div style="font-size:11px;color:var(--mut)">Perlu/hari: <span style="color:var(--gold);font-family:var(--mono)" id="d-ppd">—</span></div>
+          <div class="mv nt" id="d-pnl" style="margin-top:4px">$0</div>
+          <div class="ms" id="d-tc">0 trade</div>
+        </div>
+        <div class="met" style="border-color:rgba(34,197,94,.15);box-shadow:0 4px 24px rgba(34,197,94,.06)">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start">
+            <div class="ml">Win Rate</div>
+            <div style="width:28px;height:28px;border-radius:8px;background:rgba(34,197,94,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+          </div>
+          <div class="mv nt" id="d-wr" style="margin-top:4px">0%</div>
+          <div class="ms" id="d-wl">0W / 0L</div>
+        </div>
+        <div class="met" style="border-color:rgba(96,165,250,.15);box-shadow:0 4px 24px rgba(96,165,250,.06)">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start">
+            <div class="ml">Profit Factor</div>
+            <div style="width:28px;height:28px;border-radius:8px;background:rgba(96,165,250,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2.2" stroke-linecap="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+          </div>
+          <div class="mv nt" id="d-pf" style="margin-top:4px">—</div>
+          <div class="ms">avg RRR</div>
+        </div>
+        <div class="met" style="border-color:rgba(239,68,68,.15);box-shadow:0 4px 24px rgba(239,68,68,.06)">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start">
+            <div class="ml">Max Drawdown</div>
+            <div style="width:28px;height:28px;border-radius:8px;background:rgba(239,68,68,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2.2" stroke-linecap="round"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/></svg>
+            </div>
+          </div>
+          <div class="mv nt" id="d-dd" style="margin-top:4px">—</div>
+          <div class="ms">dari semua trade</div>
+        </div>
+      </div>
+
+      <!-- Row 2: Account Summary -->
+      <div class="g3" style="margin-bottom:14px">
+        <div class="met" style="border-color:rgba(167,139,250,.15);box-shadow:0 4px 20px rgba(167,139,250,.05)">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start">
+            <div class="ml">Modal Aktif</div>
+            <div style="font-size:9px;color:var(--sub);background:rgba(167,139,250,.1);border-radius:4px;padding:2px 6px;letter-spacing:.04em">DEPO−WD</div>
+          </div>
+          <div class="mv nt" id="d-modal" style="margin-top:6px">$0</div>
+          <div class="ms" id="d-modal-sub">0 depo · 0 wd</div>
+        </div>
+        <div class="met" style="border-color:rgba(240,180,41,.15);box-shadow:0 4px 20px rgba(240,180,41,.06)">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start">
+            <div class="ml">Ekuitas</div>
+            <div style="font-size:9px;color:var(--gold);background:rgba(240,180,41,.1);border-radius:4px;padding:2px 6px;letter-spacing:.04em">MODAL+P&L</div>
+          </div>
+          <div class="mv go" id="d-equity" style="margin-top:6px">$0</div>
+          <div class="ms" id="d-equity-sub">—</div>
+        </div>
+        <div class="met" style="border-color:rgba(96,165,250,.15);box-shadow:0 4px 20px rgba(96,165,250,.05)">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start">
+            <div class="ml">Return</div>
+            <div style="font-size:9px;color:var(--blu);background:rgba(96,165,250,.1);border-radius:4px;padding:2px 6px;letter-spacing:.04em">P&L÷MODAL</div>
+          </div>
+          <div class="mv nt" id="d-return" style="margin-top:6px">—</div>
+          <div class="ms">persentase return</div>
+        </div>
+      </div>
+
+      <!-- Row 3: Charts -->
+      <div class="g2" style="margin-bottom:14px">
+        <div class="card" style="box-shadow:0 8px 32px rgba(0,0,0,.45),0 0 0 1px rgba(240,180,41,.08)">
+          <div class="ct">Equity Curve</div>
+          <div class="cw" style="height:190px"><canvas id="eqC" role="img" aria-label="equity"></canvas></div>
+        </div>
+        <div class="card" style="box-shadow:0 8px 32px rgba(0,0,0,.45),0 0 0 1px rgba(96,165,250,.06)">
+          <div class="ct">P&L per Pair</div>
+          <div class="cw" style="height:190px"><canvas id="prC" role="img" aria-label="pnl"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Row 4: Bottom Cards -->
+      <div class="g3">
+        <div class="card" style="box-shadow:0 4px 20px rgba(0,0,0,.35)">
+          <div class="ct">Performa per Sesi</div>
+          <div id="d-sess"><div class="em">Tambah trade untuk melihat data</div></div>
+        </div>
+        <div class="card" style="box-shadow:0 4px 20px rgba(0,0,0,.35)">
+          <div class="ct">Streak & Stats</div>
+          <div id="d-streak"><div class="em">Tambah trade untuk melihat stats</div></div>
+        </div>
+        <div class="card" style="box-shadow:0 4px 20px rgba(240,180,41,.1),0 0 0 1px rgba(240,180,41,.12)">
+          <div class="ct">Target Bulanan</div>
+          <div style="text-align:center;padding:10px 0 6px">
+            <div style="font-size:36px;font-weight:800;background:var(--g-gold);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-family:var(--mono);letter-spacing:-.02em" id="d-tpct">0%</div>
+            <div style="font-size:11px;color:var(--sub);margin-top:4px" id="d-tlbl">$0 / $2,000</div>
+          </div>
+          <div class="pb" style="height:8px;margin-bottom:14px;background:rgba(255,255,255,.05)"><div class="pf" id="d-tbar" style="width:0%"></div></div>
+          <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--mut)">
+            <span>Sisa hari</span>
+            <span style="color:var(--sub);font-family:var(--mono)" id="d-days">—</span>
+          </div>
+          <div style="height:1px;background:rgba(255,255,255,.05);margin:8px 0"></div>
+          <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--mut)">
+            <span>Perlu/hari</span>
+            <span style="color:var(--gold);font-family:var(--mono);font-weight:600" id="d-ppd">—</span>
+          </div>
         </div>
       </div>
     </div>
@@ -1943,15 +2026,113 @@ function updateDash() {
 
 function drawCharts() {
   const ec=$('eqC'),pc=$('prC');if(!ec||!pc)return;
+
+  // Equity Curve
   const cp=[...trades].reverse();let run=0;const eL=[],eD=[];
-  cp.forEach((t,i)=>{run+=(parseFloat(t.pnl)||0);eL.push(t.date||(i+1));eD.push(+run.toFixed(2));});
+  cp.forEach((t,i)=>{
+    run+=(parseFloat(t.pnl)||0);
+    // Slice YYYY-MM-DD → MM-DD to prevent Chart.js from parsing as Date object
+    eL.push(t.date ? t.date.slice(5) : String(i+1));
+    eD.push(+run.toFixed(2));
+  });
   if(!eD.length){eL.push('Start');eD.push(0);}
+
+  // Canvas gradient fill
+  const ctxEq=ec.getContext('2d');
+  const gradEq=ctxEq.createLinearGradient(0,0,0,ec.offsetHeight||200);
+  gradEq.addColorStop(0,'rgba(240,180,41,.28)');
+  gradEq.addColorStop(0.6,'rgba(240,180,41,.08)');
+  gradEq.addColorStop(1,'rgba(240,180,41,.0)');
+
+  const tooltipDefaults={
+    backgroundColor:'#101f35',
+    borderColor:'rgba(240,180,41,.25)',
+    borderWidth:1,
+    titleColor:'#F0B429',
+    bodyColor:'#94a3b8',
+    padding:10,
+    cornerRadius:8,
+    displayColors:false
+  };
+
   if(eqCh)eqCh.destroy();
-  eqCh=new Chart(ec,{type:'line',data:{labels:eL,datasets:[{data:eD,borderColor:'#F0B429',backgroundColor:'rgba(240,180,41,.07)',tension:.35,fill:true,pointRadius:3,pointBackgroundColor:'#F0B429'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#6b7280',font:{size:9},maxTicksLimit:7},grid:{color:'rgba(255,255,255,.04)'}},y:{ticks:{color:'#6b7280',font:{size:9},callback:v=>'$'+v},grid:{color:'rgba(255,255,255,.04)'}}}}});
+  eqCh=new Chart(ec,{
+    type:'line',
+    data:{
+      labels:eL,
+      datasets:[{
+        data:eD,
+        borderColor:'#F0B429',
+        backgroundColor:gradEq,
+        tension:.4,fill:true,
+        pointRadius:4,
+        pointBackgroundColor:'#F0B429',
+        pointBorderColor:'#0d1a2c',
+        pointBorderWidth:2,
+        pointHoverRadius:6,
+        pointHoverBackgroundColor:'#ffd166',
+        borderWidth:2.5,
+      }]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{...tooltipDefaults,callbacks:{label:ctx=>' $'+ctx.parsed.y.toFixed(2)}}
+      },
+      scales:{
+        x:{
+          type:'category',
+          ticks:{color:'#3d4f63',font:{size:9,family:"'JetBrains Mono'"},maxTicksLimit:6},
+          grid:{color:'rgba(255,255,255,.03)'},
+          border:{color:'rgba(255,255,255,.04)'}
+        },
+        y:{
+          ticks:{color:'#3d4f63',font:{size:9,family:"'JetBrains Mono'"},callback:v=>'$'+v},
+          grid:{color:'rgba(255,255,255,.03)'},
+          border:{color:'rgba(255,255,255,.04)'}
+        }
+      }
+    }
+  });
+
+  // P&L per Pair
   const pm={};trades.forEach(t=>{if(!pm[t.pair])pm[t.pair]=0;pm[t.pair]+=(parseFloat(t.pnl)||0);});
   const pL=Object.keys(pm),pD=pL.map(p=>+pm[p].toFixed(2));
   if(prCh)prCh.destroy();
-  prCh=new Chart(pc,{type:'bar',data:{labels:pL.length?pL:['—'],datasets:[{data:pL.length?pD:[0],backgroundColor:pD.map(v=>v>=0?'rgba(34,197,94,.7)':'rgba(239,68,68,.7)'),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#6b7280',font:{size:9}},grid:{color:'rgba(255,255,255,.04)'}},y:{ticks:{color:'#6b7280',font:{size:9},callback:v=>(v>=0?'+':'')+' $'+Math.abs(v)},grid:{color:'rgba(255,255,255,.04)'}}}}});
+  prCh=new Chart(pc,{
+    type:'bar',
+    data:{
+      labels:pL.length?pL:['—'],
+      datasets:[{
+        data:pL.length?pD:[0],
+        backgroundColor:pD.map(v=>v>=0?'rgba(34,197,94,.65)':'rgba(239,68,68,.65)'),
+        borderColor:pD.map(v=>v>=0?'rgba(34,197,94,.9)':'rgba(239,68,68,.9)'),
+        borderWidth:1,
+        borderRadius:5,
+        borderSkipped:false,
+      }]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{...tooltipDefaults,callbacks:{label:ctx=>' $'+ctx.parsed.y.toFixed(2)}}
+      },
+      scales:{
+        x:{
+          ticks:{color:'#3d4f63',font:{size:9}},
+          grid:{color:'rgba(255,255,255,.03)'},
+          border:{color:'rgba(255,255,255,.04)'}
+        },
+        y:{
+          ticks:{color:'#3d4f63',font:{size:9},callback:v=>(v>=0?'+':'')+' $'+Math.abs(v)},
+          grid:{color:'rgba(255,255,255,.03)'},
+          border:{color:'rgba(255,255,255,.04)'}
+        }
+      }
+    }
+  });
 }
 
 // ═══════════════════════════════════════════════════════════════
