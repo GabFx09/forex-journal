@@ -1,13 +1,13 @@
-// Diperbarui: 16 May 2026 11:56 WIB
+// Diperbarui: 16 May 2026 12:02 WIB
 window.FK_DATA = {
-  "generated": "16 May 2026 11:56 WIB",
+  "generated": "16 May 2026 12:02 WIB",
   "kalender": {
-    "generated": "16 May 2026 11:56 WIB",
+    "generated": "16 May 2026 12:02 WIB",
     "events": [
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "08:30",
+        "time_wib": "07:30",
         "currency": "CNY",
         "impact": "medium",
         "event": "CPI y/y",
@@ -29,7 +29,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "20:45",
+        "time_wib": "19:45",
         "currency": "USD",
         "impact": "low",
         "event": "Cleveland Fed Inflation Expectations",
@@ -40,7 +40,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:00",
+        "time_wib": "20:00",
         "currency": "USD",
         "impact": "low",
         "event": "Existing Home Sales",
@@ -51,7 +51,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:01",
+        "time_wib": "05:01",
         "currency": "GBP",
         "impact": "low",
         "event": "BRC Retail Sales Monitor y/y",
@@ -62,7 +62,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:30",
+        "time_wib": "05:30",
         "currency": "JPY",
         "impact": "low",
         "event": "Household Spending y/y",
@@ -73,7 +73,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "BOJ Summary of Opinions",
@@ -84,7 +84,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "08:30",
+        "time_wib": "07:30",
         "currency": "AUD",
         "impact": "low",
         "event": "NAB Business Confidence",
@@ -95,7 +95,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "10:35",
+        "time_wib": "09:35",
         "currency": "JPY",
         "impact": "low",
         "event": "10-y Bond Auction",
@@ -106,7 +106,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "12:00",
+        "time_wib": "11:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Leading Indicators",
@@ -117,7 +117,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German Final CPI m/m",
@@ -128,7 +128,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:30",
+        "time_wib": "12:30",
         "currency": "CHF",
         "impact": "low",
         "event": "PPI m/m",
@@ -139,7 +139,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "14:15",
+        "time_wib": "13:15",
         "currency": "EUR",
         "impact": "low",
         "event": "German Buba President Nagel Speaks",
@@ -161,7 +161,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "15:00",
+        "time_wib": "14:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Italian Industrial Production m/m",
@@ -172,7 +172,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:00",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German ZEW Economic Sentiment",
@@ -194,7 +194,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:30",
+        "time_wib": "15:30",
         "currency": "AUD",
         "impact": "low",
         "event": "Annual Budget Release",
@@ -205,7 +205,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "17:00",
+        "time_wib": "16:00",
         "currency": "USD",
         "impact": "low",
         "event": "NFIB Small Business Index",
@@ -216,7 +216,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:15",
+        "time_wib": "18:15",
         "currency": "USD",
         "impact": "low",
         "event": "ADP Weekly Employment Change",
@@ -227,7 +227,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "USD",
         "impact": "high",
         "event": "Core CPI m/m",
@@ -260,7 +260,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "20:10",
+        "time_wib": "19:10",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Goolsbee Speaks",
@@ -271,7 +271,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:30",
+        "time_wib": "20:30",
         "currency": "AUD",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -282,7 +282,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:00",
+        "time_wib": "23:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Goolsbee Speaks",
@@ -293,7 +293,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:01",
+        "time_wib": "23:01",
         "currency": "USD",
         "impact": "low",
         "event": "10-y Bond Auction",
@@ -304,7 +304,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "01:00",
+        "time_wib": "00:00",
         "currency": "USD",
         "impact": "low",
         "event": "Federal Budget Balance",
@@ -315,7 +315,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "03:30",
+        "time_wib": "02:30",
         "currency": "USD",
         "impact": "low",
         "event": "API Weekly Statistical Bulletin",
@@ -326,7 +326,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Bank Lending y/y",
@@ -348,7 +348,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "08:30",
+        "time_wib": "07:30",
         "currency": "AUD",
         "impact": "medium",
         "event": "Wage Price Index q/q",
@@ -359,7 +359,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "10:00",
+        "time_wib": "09:00",
         "currency": "NZD",
         "impact": "low",
         "event": "Inflation Expectations q/q",
@@ -370,7 +370,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "12:00",
+        "time_wib": "11:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Economy Watchers Sentiment",
@@ -381,7 +381,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German WPI m/m",
@@ -392,7 +392,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:45",
+        "time_wib": "12:45",
         "currency": "EUR",
         "impact": "low",
         "event": "French Final CPI m/m",
@@ -403,7 +403,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:00",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Flash Employment Change q/q",
@@ -436,7 +436,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:35",
+        "time_wib": "15:35",
         "currency": "EUR",
         "impact": "low",
         "event": "German 30-y Bond Auction",
@@ -447,7 +447,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "USD",
         "impact": "high",
         "event": "Core PPI m/m",
@@ -469,7 +469,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "20:30",
+        "time_wib": "19:30",
         "currency": "GBP",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -480,7 +480,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:00",
+        "time_wib": "20:00",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Mann Speaks",
@@ -491,7 +491,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:30",
+        "time_wib": "20:30",
         "currency": "USD",
         "impact": "low",
         "event": "Crude Oil Inventories",
@@ -502,7 +502,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "22:05",
+        "time_wib": "21:05",
         "currency": "CAD",
         "impact": "low",
         "event": "Gov Council Member Alexopoulos Speaks",
@@ -513,7 +513,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "22:30",
+        "time_wib": "21:30",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Collins Speaks",
@@ -524,7 +524,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:01",
+        "time_wib": "23:01",
         "currency": "USD",
         "impact": "low",
         "event": "30-y Bond Auction",
@@ -535,7 +535,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:15",
+        "time_wib": "23:15",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Kashkari Speaks",
@@ -546,7 +546,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:30",
+        "time_wib": "23:30",
         "currency": "CAD",
         "impact": "low",
         "event": "BOC Summary of Deliberations",
@@ -557,7 +557,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "01:40",
+        "time_wib": "00:40",
         "currency": "USD",
         "impact": "high",
         "event": "Fed Chair Nomination Vote",
@@ -568,7 +568,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "02:15",
+        "time_wib": "01:15",
         "currency": "EUR",
         "impact": "low",
         "event": "ECB President Lagarde Speaks",
@@ -579,7 +579,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "05:50",
+        "time_wib": "04:50",
         "currency": "NZD",
         "impact": "low",
         "event": "Visitor Arrivals m/m",
@@ -590,7 +590,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:01",
+        "time_wib": "05:01",
         "currency": "GBP",
         "impact": "low",
         "event": "RICS House Price Balance",
@@ -601,7 +601,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "M2 Money Stock y/y",
@@ -612,7 +612,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "10:35",
+        "time_wib": "09:35",
         "currency": "JPY",
         "impact": "low",
         "event": "30-y Bond Auction",
@@ -634,7 +634,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "GBP",
         "impact": "high",
         "event": "GDP m/m",
@@ -744,7 +744,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:01",
+        "time_wib": "15:01",
         "currency": "CNY",
         "impact": "low",
         "event": "M2 Money Supply y/y",
@@ -755,7 +755,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "16:02",
+        "time_wib": "15:02",
         "currency": "CNY",
         "impact": "low",
         "event": "New Loans",
@@ -766,7 +766,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Wholesale Sales m/m",
@@ -821,7 +821,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:00",
+        "time_wib": "20:00",
         "currency": "USD",
         "impact": "low",
         "event": "Business Inventories m/m",
@@ -832,7 +832,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:13",
+        "time_wib": "20:13",
         "currency": "USD",
         "impact": "low",
         "event": "Mortgage Delinquencies",
@@ -843,7 +843,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:15",
+        "time_wib": "20:15",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Schmid Speaks",
@@ -854,7 +854,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "21:30",
+        "time_wib": "20:30",
         "currency": "USD",
         "impact": "low",
         "event": "Natural Gas Storage",
@@ -865,7 +865,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "22:15",
+        "time_wib": "21:15",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Pill Speaks",
@@ -876,7 +876,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "00:00",
+        "time_wib": "23:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Hammack Speaks",
@@ -887,7 +887,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "04:45",
+        "time_wib": "03:45",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Williams Speaks",
@@ -898,7 +898,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "05:30",
+        "time_wib": "04:30",
         "currency": "NZD",
         "impact": "low",
         "event": "BusinessNZ Manufacturing Index",
@@ -909,7 +909,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "05:45",
+        "time_wib": "04:45",
         "currency": "NZD",
         "impact": "low",
         "event": "FPI m/m",
@@ -920,7 +920,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:00",
+        "time_wib": "05:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Barr Speaks",
@@ -931,7 +931,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "06:50",
+        "time_wib": "05:50",
         "currency": "JPY",
         "impact": "low",
         "event": "PPI y/y",
@@ -942,7 +942,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "13:00",
+        "time_wib": "12:00",
         "currency": "JPY",
         "impact": "low",
         "event": "Prelim Machine Tool Orders y/y",
@@ -953,7 +953,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "15:00",
+        "time_wib": "14:00",
         "currency": "EUR",
         "impact": "low",
         "event": "ECB Economic Bulletin",
@@ -964,7 +964,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:15",
+        "time_wib": "18:15",
         "currency": "CAD",
         "impact": "low",
         "event": "Housing Starts",
@@ -975,7 +975,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "19:30",
+        "time_wib": "18:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Foreign Securities Purchases",
@@ -1008,7 +1008,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-16",
         "day": "Sabtu",
-        "time_wib": "20:15",
+        "time_wib": "19:15",
         "currency": "USD",
         "impact": "low",
         "event": "Capacity Utilization Rate",
@@ -1030,7 +1030,7 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "16 May 2026 11:56 WIB",
+    "generated": "16 May 2026 12:02 WIB",
     "summary": {
       "total": 71,
       "bullish": 22,
@@ -1508,7 +1508,7 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Xi dari Tiongkok",
+        "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Presiden Tiongkok Xi",
         "url": "https://www.bbc.com/news/articles/ce8p61v7l68o?at_medium=RSS&at_campaign=rss",
         "summary": "The US president says he wants Beijing and Taipei to \"cool down\" tensions over the self-governing island.",
         "published": "16 May 2026 10:30 WIB",
@@ -1668,7 +1668,7 @@ window.FK_DATA = {
       },
       {
         "source": "MarketWatch",
-        "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, sambil bertaruh besar pada Delta",
+        "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, dan bertaruh besar pada Delta",
         "url": "https://www.marketwatch.com/story/berkshires-abel-sours-on-some-of-warren-buffetts-picks-while-betting-big-on-delta-7ad679f7?mod=mw_rss_topstories",
         "summary": "Warren Buffett exited U.S. airlines back in 2020, but successor Greg Abel placed a $2.8 billion fresh bet on Delta.",
         "published": "16 May 2026 04:41 WIB",
@@ -1728,7 +1728,7 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak anjlok 7%",
+        "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak turun 7%",
         "url": "https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html",
         "summary": "Mounting inflation fears, geopolitical tension and ongoing uncertainty around the Iran war has prompted selling pressure across asset classes.",
         "published": "15 May 2026 17:47 WIB",
@@ -1779,7 +1779,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "16 May 2026 11:56 WIB",
+    "generated": "16 May 2026 12:02 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1896,7 +1896,7 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Xi dari Tiongkok",
+        "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Presiden Tiongkok Xi",
         "url": "https://www.bbc.com/news/articles/ce8p61v7l68o?at_medium=RSS&at_campaign=rss",
         "summary": "The US president says he wants Beijing and Taipei to \"cool down\" tensions over the self-governing island.",
         "published": "16 May 2026 10:30 WIB",
@@ -1996,7 +1996,7 @@ window.FK_DATA = {
       },
       {
         "source": "MarketWatch",
-        "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, sambil bertaruh besar pada Delta",
+        "title": "Abel dari Berkshire tidak menyukai beberapa pilihan Warren Buffett, dan bertaruh besar pada Delta",
         "url": "https://www.marketwatch.com/story/berkshires-abel-sours-on-some-of-warren-buffetts-picks-while-betting-big-on-delta-7ad679f7?mod=mw_rss_topstories",
         "summary": "Warren Buffett exited U.S. airlines back in 2020, but successor Greg Abel placed a $2.8 billion fresh bet on Delta.",
         "published": "16 May 2026 04:41 WIB",
@@ -2036,7 +2036,7 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak anjlok 7%",
+        "title": "Obligasi, saham, dan logam mulia merosot karena kekhawatiran inflasi meningkat, perak turun 7%",
         "url": "https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html",
         "summary": "Mounting inflation fears, geopolitical tension and ongoing uncertainty around the Iran war has prompted selling pressure across asset classes.",
         "published": "15 May 2026 17:47 WIB",
@@ -2067,7 +2067,7 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "16 May 2026 11:56 WIB",
+    "generated": "16 May 2026 12:02 WIB",
     "summary": {
       "total": 22,
       "bullish": 5,
@@ -2099,7 +2099,7 @@ window.FK_DATA = {
       },
       {
         "source": "FinancialJuice",
-        "title": "Posisi EUR CFTC Minggu yang Berakhir 12 Mei - FJElite",
+        "title": "Posisi EUR CFTC Pekan yang Berakhir 12 Mei - FJElite",
         "url": "https://www.financialjuice.com/News/9588779/EUR-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx",
         "summary": "",
         "published": "16 May 2026 02:43 WIB",
@@ -2109,7 +2109,7 @@ window.FK_DATA = {
       },
       {
         "source": "FinancialJuice",
-        "title": "Posisi CFTC USD Minggu yang Berakhir 12 Mei - FJElite",
+        "title": "Posisi CFTC USD Pekan yang Berakhir 12 Mei - FJElite",
         "url": "https://www.financialjuice.com/News/9588778/USD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx",
         "summary": "",
         "published": "16 May 2026 02:42 WIB",
@@ -2159,7 +2159,7 @@ window.FK_DATA = {
       },
       {
         "source": "FinancialJuice",
-        "title": "Menteri Luar Negeri Tiongkok Wang Yi: Kami sepakat untuk mempromosikan perluasan perdagangan dua arah di bawah kerangka pengurangan tarif timbal balik.",
+        "title": "Menteri Luar Negeri Tiongkok Wang Yi: Kami sepakat untuk mendorong perluasan perdagangan dua arah di bawah kerangka pengurangan tarif timbal balik.",
         "url": "https://www.financialjuice.com/News/9588276/Chinas-Foreign-Minister-Wang-Yi-We-agreed-to-promote-the-expansion-of-two-way-trade-under-the-framework-of-reciprocal-tariff-reductions.aspx",
         "summary": "",
         "published": "15 May 2026 21:07 WIB",
