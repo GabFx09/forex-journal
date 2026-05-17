@@ -1,49 +1,31 @@
 {
-  "generated": "16 May 2026 22:00 WIB",
+  "generated": "17 May 2026 07:00 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.393,
-      "count": 12
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.391,
-      "count": 11
+      "score": -0.535,
+      "count": 10
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.535,
+      "count": 10
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.463,
+      "score": -0.643,
       "count": 8
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.232,
-      "count": 7
-    },
-    {
-      "pair": "AUD/USD",
-      "direction": "Netral →",
-      "score": -0.021,
-      "count": 3
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Netral →",
-      "score": -0.021,
-      "count": 3
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.542,
+      "score": -0.933,
       "count": 1
     },
     {
@@ -51,37 +33,53 @@
       "direction": "Tekanan Naik ▲",
       "score": 0.382,
       "count": 1
+    },
+    {
+      "pair": "NOK/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.382,
+      "count": 1
     }
   ],
   "items": [
     {
-      "source": "ForexLive",
-      "title": "Israel mengatakan mereka melakukan serangan yang ditargetkan di Gaza terhadap pemimpin Hamas.",
-      "url": "https://investinglive.com/news/israel-says-it-carried-out-targeted-strike-in-gaza-against-hamas-head-20260515/",
-      "summary": "Israel is reporting that they carried out a targeted strike in Gaza against the de facto Hamas head. A senior official also said that Tel Aviv is preparing for an imminent resumption of the war with the Islamic Republic Earlier today, Israeli said that they would accept a cease-fire in exchange for ",
-      "published": "16 May 2026 00:29 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Perlombaan Inventaris Global Meningkat di Tengah Bayangan Perang Iran",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-16/global-inventory-race-intensifies-in-shadow-of-the-iran-war",
+      "summary": "The global rush to stockpile manufactured goods on fears of an energy-supply crunch will again overshadow business surveys in the coming week gauging the impact of a third month of war in the Middle East.",
+      "published": "17 May 2026 03:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.178,
+      "score": -0.891,
       "emoji": "🔴"
     },
     {
-      "source": "FXStreet News",
-      "title": "Indeks Dolar AS naik ke level tertinggi lima minggu seiring meningkatnya spekulasi hawkish Fed",
-      "url": "https://www.fxstreet.com/news/us-dollar-index-climbs-to-five-week-high-as-hawkish-fed-bets-gather-pace-202605151813",
-      "summary": "The US Dollar Index (DXY), which measures the Greenback against a basket of six major currencies, extends its rally on Friday, climbing to its highest level since April 8 as investors continue to favor the US Dollar (USD) amid hawkish Federal Reserve (Fed) expectations and persistent geopolitical un",
-      "published": "16 May 2026 01:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.779,
-      "emoji": "🟢"
+      "source": "Bloomberg Markets",
+      "title": "BDC Publik Menghargai Rasa Sakit Paling Banyak Sejak Covid",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-16/public-bdcs-are-pricing-in-most-pain-since-covid-credit-weekly",
+      "summary": "Private credit’s aggressive push to court retail investors has exposed the industry to a less familiar threat: public market volatility, which is dragging business development company shares toward their steepest discounts relative to their assets since the pandemic.",
+      "published": "17 May 2026 02:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.772,
+      "emoji": "🔴"
     },
     {
-      "source": "FXStreet News",
-      "title": "Indonesia: Ekspektasi kenaikan suku bunga mendukung Rupiah – ING",
-      "url": "https://www.fxstreet.com/news/indonesia-rate-hike-expectations-support-rupiah-ing-202605151745",
-      "summary": "ING economists Deepali Bhargava, Lynn Song and Min Joo Kang expect Bank Indonesia (BI) to shift toward a tighter stance at its upcoming meeting. They highlight recent Indonesian Rupiah weakness, ongoing FX intervention and wider rate differentials versus the United States.",
-      "published": "16 May 2026 00:45 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Strain Ebola Langka Tanpa Vaksin Terkait dengan 87 Kematian di Kongo",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
+      "summary": "A rare strain of Ebola with no approved vaccine or treatment circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing at least 87 people.",
+      "published": "16 May 2026 11:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.933,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bloomberg Akhir Pekan Ini 16/5/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-16/bloomberg-this-weekend-5-16-2026-video",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Nicole Grajewski, Nonresident Scholar, Nuclear Policy Program, Carnegie Endowment for International",
+      "published": "16 May 2026 23:55 WIB",
       "sentiment": "Bullish",
-      "score": 0.545,
+      "score": 0.727,
       "emoji": "🟢"
     },
     {
@@ -96,16 +94,6 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Presiden Latvia Mencalonkan Kulbergs untuk Membentuk Pemerintahan Baru",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-16/latvia-s-president-nominates-kulbergs-to-form-new-government",
-      "summary": "Latvia’s President Edgars Rinkevics nominated Andris Kulbergs of the United List party to form a new government after Prime Minister Evika Silina resigned on Thursday ahead of parliamentary elections in October.",
-      "published": "16 May 2026 20:39 WIB",
-      "sentiment": "Bullish",
-      "score": 0.542,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "Para Pimpinan Teknologi Menemani Trump dalam Perjalanan ke Tiongkok",
       "url": "https://www.bloomberg.com/news/videos/2026-05-16/tech-chiefs-accompany-trump-on-china-trip-video",
       "summary": "President Trump arrived in Beijing for a high-stakes summit with Xi Jinping aimed at stabilizing US-China ties against the backdrop of the Iran war and the race to control and contain AI. Tech CEOs including Jensen Huang and Elon Musk tagged along, sending Nvidia, Tesla and Chinese AI-related stocks",
@@ -115,23 +103,13 @@
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Trump Menyebut Kunjungan ke Tiongkok sebagai \"Momen Bersejarah\"",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-16/trump-calls-china-trip-historic-moment-video",
-      "summary": "Tensions between the US and China have deepened since the last time a US president traveled to Beijing for a summit, in 2017. President Trump’s return to China, in a swirl of dinners and festivities, generated positive optics for host and guest alike, but brought less apparent progress on some of th",
-      "published": "16 May 2026 18:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.619,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Strain Ebola Langka Tanpa Vaksin Terkait dengan 80 Kematian di Kongo",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
-      "summary": "A rare strain of Ebola with no approved vaccine or treatment may have circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing at least 80 people.",
-      "published": "16 May 2026 11:08 WIB",
+      "source": "BBC World",
+      "title": "Taiwan menegaskan negaranya independen setelah peringatan Trump",
+      "url": "https://www.bbc.com/news/articles/cx2132w81jqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Fresh from his summit in Beijing, the US president warned against a formal declaration of independence by the island.",
+      "published": "17 May 2026 00:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.933,
+      "score": -0.296,
       "emoji": "🔴"
     },
     {
@@ -149,90 +127,70 @@
       "title": "Balita termasuk di antara lebih dari 50 anak sekolah yang diculik di Nigeria",
       "url": "https://www.bbc.com/news/articles/c202vrxlwqgo?at_medium=RSS&at_campaign=rss",
       "summary": "No group has yet claimed responsibility for the attacks, which have devastated Mussa town in Borno state.",
-      "published": "16 May 2026 20:55 WIB",
+      "published": "16 May 2026 22:50 WIB",
       "sentiment": "Bearish",
       "score": -0.924,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Trump memperingatkan Taiwan agar tidak mendeklarasikan kemerdekaan, beberapa jam setelah pertemuan puncak dengan Presiden Tiongkok Xi",
-      "url": "https://www.bbc.com/news/articles/ce8p61v7l68o?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president says he wants Beijing and Taipei to \"cool down\" tensions over the self-governing island.",
-      "published": "16 May 2026 12:53 WIB",
+      "title": "Seorang pria terbunuh oleh hiu setinggi 13 kaki di Australia Barat",
+      "url": "https://www.bbc.com/news/articles/c1m2xy3dr20o?at_medium=RSS&at_campaign=rss",
+      "summary": "The attack occurred at Horseshoe Reef - north-west of the popular Rottnest Island near the city of Perth, local police say.",
+      "published": "16 May 2026 23:32 WIB",
       "sentiment": "Bearish",
-      "score": -0.282,
+      "score": -0.78,
       "emoji": "🔴"
     },
     {
-      "source": "BBC World",
-      "title": "Swiss akan membuka file rahasia tentang Auschwitz 'Malaikat Maut' Mengele",
-      "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Mengele fled Europe after the war but for years there were rumours he spent time in Switzerland.",
-      "published": "16 May 2026 06:04 WIB",
+      "source": "BBC Top Stories",
+      "title": "Video serangan drone Hizbullah menunjukkan taktik yang berkembang melawan Israel",
+      "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
+      "published": "17 May 2026 06:10 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Hamas membenarkan komandan tertingginya tewas dalam serangan udara Israel",
-      "url": "https://www.bbc.com/news/articles/cx21jjwz1k1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Friday's strike is the latest launched by Israel on Gaza despite a ceasefire with Hamas.",
-      "published": "16 May 2026 17:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.557,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Apa yang dikritik oleh Tiongkok dalam gerakan Maga terhadap kunjungan Trump ke Beijing",
-      "url": "https://www.bbc.com/news/articles/cvgz902mqe5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump’s softer approach towards China is one that experts say will likely trickle down to the wider MAGA base.",
-      "published": "16 May 2026 02:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.376,
+      "score": -0.527,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Perselisihan wajib militer ultra-Ortodoks mendorong pemerintah Israel ke jurang kehancuran",
-      "url": "https://www.aljazeera.com/news/2026/5/16/how-ultra-orthodox_recruitment_could_unseat_netanyahu_in_israeli_elections?traffic_source=rss",
-      "summary": "Israeli government faces collapse as coalition parties clash over military draft exemptions for Haredi constituents.",
-      "published": "16 May 2026 19:06 WIB",
+      "title": "Tentara Bolivia berupaya membersihkan jalan setelah 11 hari protes",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/16/bolivian-army-attempts-to-clear-roads-after-11-days-of-protests?traffic_source=rss",
+      "summary": "Military police in Bolivia arrested demonstrators, and used tear gas to disrupt road blockades after 11 days of protests",
+      "published": "17 May 2026 03:44 WIB",
       "sentiment": "Bearish",
-      "score": -0.494,
+      "score": -0.511,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Serangan Israel di Lebanon selatan terus berlanjut meskipun ada perpanjangan ‘gencatan senjata’",
-      "url": "https://www.aljazeera.com/news/2026/5/16/israeli-strikes-on-southern-lebanon-continue-despite-ceasefire-extension?traffic_source=rss",
-      "summary": "Despite Lebanon and Israel extending the ceasefire deal for another 45 days, Israel continues to bomb Lebanon.",
-      "published": "16 May 2026 17:34 WIB",
+      "title": "Ribuan orang melakukan protes di final Eurovision ketika lima negara memboikot Israel",
+      "url": "https://www.aljazeera.com/news/2026/5/16/thousands-protest-at-eurovision-final-as-five-countries-boycott-over-israel?traffic_source=rss",
+      "summary": "Spain, Ireland, Iceland, Slovenia and Netherlands all withdrew in protest against Israel's participation amid Gaza war.",
+      "published": "17 May 2026 03:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.611,
+      "score": -0.71,
       "emoji": "🔴"
     },
     {
       "source": "MarketWatch",
-      "title": "Harga bahan bakar yang tinggi dan inflasi membuat masyarakat stres – namun perekonomian akan baik-baik saja selama mereka terus berbelanja",
-      "url": "https://www.marketwatch.com/story/high-gas-prices-and-inflation-are-stressing-people-out-but-the-economy-will-be-fine-as-long-as-they-keep-spending-4f4b66e3?mod=mw_rss_topstories",
-      "summary": "Nearly three months into the Iran war, Americans are still spending plenty of money to keep the economy on the up and up.",
-      "published": "16 May 2026 20:00 WIB",
+      "title": "5 perpindahan uang yang membuat ayah berusia 32 tahun ini menjadi jutawan hanya dalam 9 tahun",
+      "url": "https://www.marketwatch.com/story/5-money-moves-that-made-this-32-year-old-dad-a-millionaire-in-just-9-years-3725c0ed?mod=mw_rss_topstories",
+      "summary": "A low starting salary, global pandemic, unaffordable housing market, graduate school and two kids didn’t stop Blake Edwards and his wife from becoming millionaires by their early 30s.",
+      "published": "17 May 2026 01:13 WIB",
       "sentiment": "Bearish",
-      "score": -0.79,
+      "score": -0.591,
       "emoji": "🔴"
     },
     {
-      "source": "CNBC Economy",
-      "title": "Kendaraan listrik Tiongkok akan datang ke Kanada, dan beberapa dealer tidak sabar untuk menjualnya",
-      "url": "https://www.cnbc.com/2026/05/15/chinese-evs-canada.html",
-      "summary": "Canada is allowing 49,000 Chinese-made electric vehicles to be imported for retail sales annually at a tariff rate of 6.1%.",
-      "published": "16 May 2026 01:25 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢"
+      "source": "MarketWatch",
+      "title": "Lonjakan inflasi di bulan April membuat Warsh dan The Fed tidak memiliki alasan untuk tidak menaikkan suku bunga",
+      "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
+      "summary": "Bond markets won’t wait for the central bank to combat inflation.",
+      "published": "17 May 2026 00:38 WIB",
+      "sentiment": "Bearish",
+      "score": -0.42,
+      "emoji": "🔴"
     },
     {
       "source": "CNBC World",
@@ -243,26 +201,6 @@
       "sentiment": "Bullish",
       "score": 0.382,
       "emoji": "🟢"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Harga minyak melonjak setelah Trump mengatakan dia kehilangan kesabaran terhadap Iran",
-      "url": "https://www.cnbc.com/2026/05/15/oil-prices-china-us-iran-strait-of-hormuz-middle-east.html",
-      "summary": "Oil prices rose Friday on news that China has agreed to purchase oil from America.",
-      "published": "16 May 2026 02:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.128,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Masyarakat Amerika masih merasa pesimistis terhadap perekonomian. Kapan keadaannya akan membaik?",
-      "url": "https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html",
-      "summary": "U.S. consumer sentiment has been on a downward trend since the Covid pandemic. Inflation, wars and Trump's tariffs are to blame, economists say.",
-      "published": "15 May 2026 22:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.761,
-      "emoji": "🔴"
     }
   ]
 }
