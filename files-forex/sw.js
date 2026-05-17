@@ -1,7 +1,6 @@
-const CACHE = 'fj-forex-v1';
-// Hanya file lokal — CDN (Fonts/Chart.js) tidak bisa di-precache karena Cache-Control: private
+const CACHE = 'fj-forex-v2';
+// Hanya file lokal — './' dihilangkan karena bisa redirect 301 di GitHub Pages
 const CORE = [
-  './',
   './index.html',
   './manifest.json'
 ];
@@ -37,7 +36,7 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Cache-first untuk aset statis
+  // Cache-first untuk aset statis; navigation fallback ke index.html
   e.respondWith(
     caches.match(e.request).then(cached => {
       if (cached) return cached;
@@ -46,7 +45,10 @@ self.addEventListener('fetch', e => {
           caches.open(CACHE).then(c => c.put(e.request, res.clone()));
         }
         return res;
-      }).catch(() => cached);
+      }).catch(() => {
+        if (e.request.mode === 'navigate') return caches.match('./index.html');
+        return cached;
+      });
     })
   );
 });
