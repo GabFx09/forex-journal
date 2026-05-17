@@ -1,8 +1,8 @@
-// Diperbarui: 17 May 2026 07:00 WIB
+// Diperbarui: 17 May 2026 10:58 WIB
 window.FK_DATA = {
-  "generated": "17 May 2026 07:00 WIB",
+  "generated": "17 May 2026 10:58 WIB",
   "kalender": {
-    "generated": "17 May 2026 07:00 WIB",
+    "generated": "17 May 2026 10:58 WIB",
     "events": [
       {
         "date": "2026-05-17",
@@ -1030,30 +1030,40 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "17 May 2026 07:00 WIB",
+    "generated": "17 May 2026 10:58 WIB",
     "summary": {
-      "total": 36,
-      "bullish": 6,
-      "bearish": 25,
+      "total": 40,
+      "bullish": 7,
+      "bearish": 28,
       "netral": 5,
-      "avg_score": -0.3367,
+      "avg_score": -0.3646,
       "overall": "Bearish",
       "currency_impact": [
+        {
+          "currency": "EUR",
+          "sentiment": "Bearish",
+          "score": -0.302,
+          "count": 3
+        },
         {
           "currency": "USD",
           "sentiment": "Bearish",
           "score": -0.42,
           "count": 1
-        },
-        {
-          "currency": "EUR",
-          "sentiment": "Bearish",
-          "score": -0.848,
-          "count": 1
         }
       ]
     },
     "items": [
+      {
+        "source": "Investing.com Forex",
+        "title": "Booming AI memicu rekor keuntungan chip memori, namun risiko siklus masih membayangi",
+        "url": "https://www.investing.com/news/stock-market-news/ai-boom-fuels-record-memorychip-profits-but-cyclical-risks-loom-4694500",
+        "summary": "",
+        "published": "17 May 2026 09:48 WIB",
+        "sentiment": "Bearish",
+        "score": -0.548,
+        "emoji": "🔴"
+      },
       {
         "source": "Investing.com Forex",
         "title": "Saham Rusia melemah pada penutupan perdagangan; Indeks MOEX Rusia tidak berubah",
@@ -1135,14 +1145,44 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Investing.com Forex",
-        "title": "Bagaimana 'ulang tahun Trump' masuk dalam daftar katalis untuk menjual saham di bulan Juni",
-        "url": "https://www.investing.com/news/stock-market-news/how-trump-birthday-found-itself-on-a-list-of-catalysts-to-sell-stocks-in-june-4694470",
-        "summary": "",
-        "published": "16 May 2026 22:31 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
+        "source": "Bloomberg Markets",
+        "title": "Ketegangan Malaysia dan Norwegia Meningkat Karena Dibatalkannya Kesepakatan Rudal",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-norway-tensions-deepen-over-scrapped-missile-deal",
+        "summary": "Tensions between Malaysia and Norway heightened over a scrapped weapons deal as Oslo confirmed it had revoked export licenses tied to a naval strike missile system.",
+        "published": "17 May 2026 10:14 WIB",
+        "sentiment": "Bearish",
+        "score": -0.912,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Filipina Meminta Pengadilan Menolak Petisi Senator yang Dicari ICC",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/philippines-asks-court-to-deny-petition-of-senator-sought-by-icc",
+        "summary": "The Philippine government asked the Supreme Court to deny a petition by Senator Ronald Dela Rosa to stop his arrest after the International Criminal Court issued a warrant on allegations of crimes against humanity.",
+        "published": "17 May 2026 10:12 WIB",
+        "sentiment": "Bearish",
+        "score": -0.802,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Malaysia Mengumumkan Langkah-Langkah untuk Membantu Maskapai Penerbangan yang Terkena Perang Iran",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-unveils-measures-to-help-airlines-hit-by-iran-war",
+        "summary": "Malaysia introduced measures to ensure the operational stability of its aviation industry and ease the financial strain on airlines as they struggle with the impact of war in the Middle East.",
+        "published": "17 May 2026 09:55 WIB",
+        "sentiment": "Bearish",
+        "score": -0.622,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "WHO Menyatakan Darurat Kesehatan Global Wabah Ebola di Kongo",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/who-declares-congo-uganda-ebola-outbreak-global-health-emergency",
+        "summary": "The World Health Organization declared an Ebola outbreak in Democratic Republic of Congo and Uganda a public health emergency of international concern, warning that a rare virus strain with no approved vaccine or treatment may already be spreading more widely than detected.",
+        "published": "17 May 2026 08:31 WIB",
+        "sentiment": "Bearish",
+        "score": -0.925,
+        "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
@@ -1205,23 +1245,13 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Pekan Wall Street | Peringatan Dalio, Perlombaan Senjata AI, Kekuatan Tiongkok Di Depan, Kebuntuan Pajak NYC",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-16/wall-street-week-dalio-s-warning-nyc-tax-standoff-video",
-        "summary": "This week, Ray Dalio explains why markets shrug off wars and why this time might be different. And, why are AI executives warning about the dangers of systems they are simultaneously racing to build? Plus, China’s massive investments in energy infrastructure are increasingly shaping the global compe",
-        "published": "16 May 2026 21:15 WIB",
+        "source": "BBC World",
+        "title": "Video serangan drone Hizbullah menunjukkan taktik yang berkembang melawan Israel",
+        "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
+        "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
+        "published": "17 May 2026 06:10 WIB",
         "sentiment": "Bearish",
-        "score": -0.911,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Para Pimpinan Teknologi Menemani Trump dalam Perjalanan ke Tiongkok",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-16/tech-chiefs-accompany-trump-on-china-trip-video",
-        "summary": "President Trump arrived in Beijing for a high-stakes summit with Xi Jinping aimed at stabilizing US-China ties against the backdrop of the Iran war and the race to control and contain AI. Tech CEOs including Jensen Huang and Elon Musk tagged along, sending Nvidia, Tesla and Chinese AI-related stocks",
-        "published": "16 May 2026 19:57 WIB",
-        "sentiment": "Bearish",
-        "score": -0.557,
+        "score": -0.527,
         "emoji": "🔴"
       },
       {
@@ -1266,26 +1296,6 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Seorang pria terbunuh oleh hiu setinggi 13 kaki di Australia Barat",
-        "url": "https://www.bbc.com/news/articles/c1m2xy3dr20o?at_medium=RSS&at_campaign=rss",
-        "summary": "The attack occurred at Horseshoe Reef - north-west of the popular Rottnest Island near the city of Perth, local police say.",
-        "published": "16 May 2026 23:32 WIB",
-        "sentiment": "Bearish",
-        "score": -0.78,
-        "emoji": "🔴"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Video serangan drone Hizbullah menunjukkan taktik yang berkembang melawan Israel",
-        "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
-        "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
-        "published": "17 May 2026 06:10 WIB",
-        "sentiment": "Bearish",
-        "score": -0.527,
-        "emoji": "🔴"
-      },
-      {
-        "source": "BBC Top Stories",
         "title": "Polisi rahasia dan propaganda: Agen Tiongkok memata-matai ekspatriat di AS",
         "url": "https://www.bbc.com/news/articles/cm2p8z261ylo?at_medium=RSS&at_campaign=rss",
         "summary": "Experts say two espionage cases in the US highlight China's attempts to peddle influence globally over the past decade.",
@@ -1293,6 +1303,46 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.103,
         "emoji": "🟢"
+      },
+      {
+        "source": "BBC Top Stories",
+        "title": "Pertentangan kepemimpinan Partai Buruh menempatkan Brexit kembali menjadi sorotan politik",
+        "url": "https://www.bbc.com/news/articles/c5y7l265pe8o?at_medium=RSS&at_campaign=rss",
+        "summary": "The UK's relationship with the EU is shaping up as a key issue for a possible Labour leadership contest and the coming by-election in the Makerfield.",
+        "published": "17 May 2026 09:14 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "BBC Top Stories",
+        "title": "Bangaranga! Bulgaria memenangkan Eurovision - tetapi Inggris berada di urutan terakhir",
+        "url": "https://www.bbc.com/news/articles/c8d87v9v660o?at_medium=RSS&at_campaign=rss",
+        "summary": "Bulgarian singer Dara is a surprise winner beating Israel in second place, while the UK's Look Mum No Computer gets just one point.",
+        "published": "17 May 2026 09:10 WIB",
+        "sentiment": "Bullish",
+        "score": 0.651,
+        "emoji": "🟢"
+      },
+      {
+        "source": "BBC Top Stories",
+        "title": "'Begini Bu, satu hal': Mengapa Inggris terus salah menilai Eurovision?",
+        "url": "https://www.bbc.com/news/articles/cy72e81dp28o?at_medium=RSS&at_campaign=rss",
+        "summary": "After four years of flops, the BBC has to think hard about how it approaches Eurovision in 2027.",
+        "published": "17 May 2026 09:13 WIB",
+        "sentiment": "Bearish",
+        "score": -0.71,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Perang Iran sedang berlangsung: Teheran merencanakan korban jiwa di Hormuz; Trump memperingatkan ‘waktu yang sangat buruk’",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/17/iran-war-live-tehran-eyes-tolls-in-hormuz-trump-warns-of-very-bad-time?traffic_source=rss",
+        "summary": "Iran to reveal its plan for Strait of Hormuz soon as Israel attacks Lebanon and Gaza, killing and wounding dozens.",
+        "published": "17 May 2026 07:00 WIB",
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
@@ -1342,16 +1392,6 @@ window.FK_DATA = {
         "published": "17 May 2026 03:00 WIB",
         "sentiment": "Bearish",
         "score": -0.717,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Menteri Kesehatan Kongo memperingatkan tingkat kematian akibat Ebola yang ‘sangat tinggi’ karena jumlah korban mencapai 80 orang",
-        "url": "https://www.aljazeera.com/news/2026/5/16/drc-health-minister-warns-very-high-ebola-lethality-rate-as-toll-hits-80?traffic_source=rss",
-        "summary": "Africa CDC concerned that outbreak of Bundibugyo strain could spread rapidly due to intense population movement.",
-        "published": "17 May 2026 01:35 WIB",
-        "sentiment": "Bearish",
-        "score": -0.157,
         "emoji": "🔴"
       },
       {
@@ -1417,7 +1457,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "17 May 2026 07:00 WIB",
+    "generated": "17 May 2026 10:58 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1425,25 +1465,31 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.535,
-        "count": 10
+        "score": -0.596,
+        "count": 12
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.535,
-        "count": 10
+        "score": -0.596,
+        "count": 12
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.643,
-        "count": 8
+        "score": -0.67,
+        "count": 9
       },
       {
         "pair": "EUR/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.933,
+        "score": -0.467,
+        "count": 2
+      },
+      {
+        "pair": "GBP/USD",
+        "direction": "Netral →",
+        "score": 0.0,
         "count": 1
       },
       {
@@ -1460,6 +1506,46 @@ window.FK_DATA = {
       }
     ],
     "items": [
+      {
+        "source": "Bloomberg Markets",
+        "title": "Ketegangan Malaysia dan Norwegia Meningkat Karena Dibatalkannya Kesepakatan Rudal",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-norway-tensions-deepen-over-scrapped-missile-deal",
+        "summary": "Tensions between Malaysia and Norway heightened over a scrapped weapons deal as Oslo confirmed it had revoked export licenses tied to a naval strike missile system.",
+        "published": "17 May 2026 10:14 WIB",
+        "sentiment": "Bearish",
+        "score": -0.912,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Filipina Meminta Pengadilan Menolak Petisi Senator yang Dicari ICC",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/philippines-asks-court-to-deny-petition-of-senator-sought-by-icc",
+        "summary": "The Philippine government asked the Supreme Court to deny a petition by Senator Ronald Dela Rosa to stop his arrest after the International Criminal Court issued a warrant on allegations of crimes against humanity.",
+        "published": "17 May 2026 10:12 WIB",
+        "sentiment": "Bearish",
+        "score": -0.802,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Malaysia Mengumumkan Langkah-Langkah untuk Membantu Maskapai Penerbangan yang Terkena Perang Iran",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-unveils-measures-to-help-airlines-hit-by-iran-war",
+        "summary": "Malaysia introduced measures to ensure the operational stability of its aviation industry and ease the financial strain on airlines as they struggle with the impact of war in the Middle East.",
+        "published": "17 May 2026 09:55 WIB",
+        "sentiment": "Bearish",
+        "score": -0.622,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "WHO Menyatakan Darurat Kesehatan Global Wabah Ebola di Kongo",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/who-declares-congo-uganda-ebola-outbreak-global-health-emergency",
+        "summary": "The World Health Organization declared an Ebola outbreak in Democratic Republic of Congo and Uganda a public health emergency of international concern, warning that a rare virus strain with no approved vaccine or treatment may already be spreading more widely than detected.",
+        "published": "17 May 2026 08:31 WIB",
+        "sentiment": "Bearish",
+        "score": -0.925,
+        "emoji": "🔴"
+      },
       {
         "source": "Bloomberg Markets",
         "title": "Perlombaan Inventaris Global Meningkat di Tengah Bayangan Perang Iran",
@@ -1501,23 +1587,13 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Pekan Wall Street | Peringatan Dalio, Perlombaan Senjata AI, Kekuatan Tiongkok Di Depan, Kebuntuan Pajak NYC",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-16/wall-street-week-dalio-s-warning-nyc-tax-standoff-video",
-        "summary": "This week, Ray Dalio explains why markets shrug off wars and why this time might be different. And, why are AI executives warning about the dangers of systems they are simultaneously racing to build? Plus, China’s massive investments in energy infrastructure are increasingly shaping the global compe",
-        "published": "16 May 2026 21:15 WIB",
+        "source": "BBC World",
+        "title": "Video serangan drone Hizbullah menunjukkan taktik yang berkembang melawan Israel",
+        "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
+        "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
+        "published": "17 May 2026 06:10 WIB",
         "sentiment": "Bearish",
-        "score": -0.911,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Para Pimpinan Teknologi Menemani Trump dalam Perjalanan ke Tiongkok",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-16/tech-chiefs-accompany-trump-on-china-trip-video",
-        "summary": "President Trump arrived in Beijing for a high-stakes summit with Xi Jinping aimed at stabilizing US-China ties against the backdrop of the Iran war and the race to control and contain AI. Tech CEOs including Jensen Huang and Elon Musk tagged along, sending Nvidia, Tesla and Chinese AI-related stocks",
-        "published": "16 May 2026 19:57 WIB",
-        "sentiment": "Bearish",
-        "score": -0.557,
+        "score": -0.527,
         "emoji": "🔴"
       },
       {
@@ -1551,23 +1627,23 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "BBC World",
-        "title": "Seorang pria terbunuh oleh hiu setinggi 13 kaki di Australia Barat",
-        "url": "https://www.bbc.com/news/articles/c1m2xy3dr20o?at_medium=RSS&at_campaign=rss",
-        "summary": "The attack occurred at Horseshoe Reef - north-west of the popular Rottnest Island near the city of Perth, local police say.",
-        "published": "16 May 2026 23:32 WIB",
-        "sentiment": "Bearish",
-        "score": -0.78,
-        "emoji": "🔴"
+        "source": "BBC Top Stories",
+        "title": "Pertentangan kepemimpinan Partai Buruh menempatkan Brexit kembali menjadi sorotan politik",
+        "url": "https://www.bbc.com/news/articles/c5y7l265pe8o?at_medium=RSS&at_campaign=rss",
+        "summary": "The UK's relationship with the EU is shaping up as a key issue for a possible Labour leadership contest and the coming by-election in the Makerfield.",
+        "published": "17 May 2026 09:14 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
       },
       {
-        "source": "BBC Top Stories",
-        "title": "Video serangan drone Hizbullah menunjukkan taktik yang berkembang melawan Israel",
-        "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
-        "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
-        "published": "17 May 2026 06:10 WIB",
+        "source": "Al Jazeera",
+        "title": "Perang Iran sedang berlangsung: Teheran merencanakan korban jiwa di Hormuz; Trump memperingatkan ‘waktu yang sangat buruk’",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/5/17/iran-war-live-tehran-eyes-tolls-in-hormuz-trump-warns-of-very-bad-time?traffic_source=rss",
+        "summary": "Iran to reveal its plan for Strait of Hormuz soon as Israel attacks Lebanon and Gaza, killing and wounding dozens.",
+        "published": "17 May 2026 07:00 WIB",
         "sentiment": "Bearish",
-        "score": -0.527,
+        "score": -1.0,
         "emoji": "🔴"
       },
       {
@@ -1623,20 +1699,30 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "17 May 2026 07:00 WIB",
+    "generated": "17 May 2026 10:58 WIB",
     "summary": {
-      "total": 9,
-      "bullish": 0,
-      "bearish": 2,
+      "total": 12,
+      "bullish": 2,
+      "bearish": 3,
       "netral": 7,
-      "avg_score": -0.0878,
-      "overall": "Bearish"
+      "avg_score": -0.0058,
+      "overall": "Netral"
     },
     "items": [
       {
         "source": "FinancialJuice",
+        "title": "Pinjaman bank Korea Selatan untuk rumah tangga pada bulan April meningkat 2,1 triliun won vs 0,5 triliun won pada bulan Maret: bank sentral",
+        "url": "https://www.financialjuice.com/News/9589712/S-Korea-April-bank-lending-to-households-rises-21-trillion-won-vs-05-trillion-won-in-March-central-bank.aspx?xy=rss",
+        "summary": "",
+        "published": "17 May 2026 10:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.813,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FinancialJuice",
         "title": "Dewan Federal Reserve menunjuk Jerome Powell sebagai ketua sementara sampai Kevin Warsh dilantik: pernyataan",
-        "url": "https://www.financialjuice.com/News/9588912/Federal-Reserve-board-appoints-Jerome-Powell-as-interim-chair-until-Kevin-Warsh-is-sworn-in-statement.aspx",
+        "url": "https://www.financialjuice.com/News/9588912/Federal-Reserve-board-appoints-Jerome-Powell-as-interim-chair-until-Kevin-Warsh-is-sworn-in-statement.aspx?xy=rss",
         "summary": "",
         "published": "16 May 2026 04:02 WIB",
         "sentiment": "Bearish",
@@ -1646,7 +1732,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi AUD CFTC Pekan yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588780/AUD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9588780/AUD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "16 May 2026 02:43 WIB",
         "sentiment": "Netral",
@@ -1656,7 +1742,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi EUR CFTC Pekan yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588779/EUR-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9588779/EUR-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "16 May 2026 02:43 WIB",
         "sentiment": "Netral",
@@ -1666,7 +1752,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi CFTC USD Pekan yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588778/USD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9588778/USD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "16 May 2026 02:42 WIB",
         "sentiment": "Netral",
@@ -1676,7 +1762,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi CFTC JPY Minggu yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588775/JPY-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9588775/JPY-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "16 May 2026 02:42 WIB",
         "sentiment": "Netral",
@@ -1686,7 +1772,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Minggu Posisi CFTC CHF yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588773/CHF-CFTC-Positions-Week-Ended-May-12th--FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9588773/CHF-CFTC-Positions-Week-Ended-May-12th--FJElite.aspx?xy=rss",
         "summary": "",
         "published": "16 May 2026 02:42 WIB",
         "sentiment": "Netral",
@@ -1696,7 +1782,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi CFTC NZD Pekan yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588772/NZD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9588772/NZD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "16 May 2026 02:42 WIB",
         "sentiment": "Netral",
@@ -1706,12 +1792,32 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi CAD CFTC Minggu yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588771/CAD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9588771/CAD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "16 May 2026 02:41 WIB",
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
+      },
+      {
+        "source": "BBC Top Stories",
+        "title": "Bangaranga! Bulgaria memenangkan Eurovision - tetapi Inggris berada di urutan terakhir",
+        "url": "https://www.bbc.com/news/articles/c8d87v9v660o?at_medium=RSS&at_campaign=rss",
+        "summary": "Bulgarian singer Dara is a surprise winner beating Israel in second place, while the UK's Look Mum No Computer gets just one point.",
+        "published": "17 May 2026 09:10 WIB",
+        "sentiment": "Bullish",
+        "score": 0.328,
+        "emoji": "🟢"
+      },
+      {
+        "source": "BBC Top Stories",
+        "title": "'Begini Bu, satu hal': Mengapa Inggris terus salah menilai Eurovision?",
+        "url": "https://www.bbc.com/news/articles/cy72e81dp28o?at_medium=RSS&at_campaign=rss",
+        "summary": "After four years of flops, the BBC has to think hard about how it approaches Eurovision in 2027.",
+        "published": "17 May 2026 09:13 WIB",
+        "sentiment": "Bearish",
+        "score": -0.421,
+        "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
