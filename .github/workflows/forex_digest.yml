@@ -58,7 +58,7 @@ jobs:
             git push
           fi
 
-      # 6. Siapkan folder deploy (HTML utama jadi index.html)
+      # 6. Siapkan folder deploy (HTML utama jadi index.html + PWA assets)
       - name: Siapkan folder deploy
         run: |
           mkdir -p _deploy
@@ -67,6 +67,10 @@ jobs:
           cp files-forex/sentimen.json   _deploy/
           cp files-forex/geopolitik.json _deploy/
           cp files-forex/news_data.js    _deploy/
+          cp files-forex/manifest.json   _deploy/
+          cp files-forex/sw.js           _deploy/
+          cp files-forex/icon-192.png    _deploy/
+          cp files-forex/icon-512.png    _deploy/
           echo "Isi folder deploy:"
           ls -lh _deploy/
 
