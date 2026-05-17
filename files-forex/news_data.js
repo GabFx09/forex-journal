@@ -1,8 +1,8 @@
-// Diperbarui: 17 May 2026 10:58 WIB
+// Diperbarui: 17 May 2026 11:09 WIB
 window.FK_DATA = {
-  "generated": "17 May 2026 10:58 WIB",
+  "generated": "17 May 2026 11:09 WIB",
   "kalender": {
-    "generated": "17 May 2026 10:58 WIB",
+    "generated": "17 May 2026 11:09 WIB",
     "events": [
       {
         "date": "2026-05-17",
@@ -1030,13 +1030,13 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "17 May 2026 10:58 WIB",
+    "generated": "17 May 2026 11:09 WIB",
     "summary": {
-      "total": 40,
+      "total": 38,
       "bullish": 7,
-      "bearish": 28,
+      "bearish": 26,
       "netral": 5,
-      "avg_score": -0.3646,
+      "avg_score": -0.3539,
       "overall": "Bearish",
       "currency_impact": [
         {
@@ -1206,16 +1206,6 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Strain Ebola Langka Tanpa Vaksin Terkait dengan 87 Kematian di Kongo",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
-        "summary": "A rare strain of Ebola with no approved vaccine or treatment circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing at least 87 people.",
-        "published": "16 May 2026 11:08 WIB",
-        "sentiment": "Bearish",
-        "score": -0.933,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
         "title": "Bloomberg Akhir Pekan Ini 16/5/2026",
         "url": "https://www.bloomberg.com/news/videos/2026-05-16/bloomberg-this-weekend-5-16-2026-video",
         "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Nicole Grajewski, Nonresident Scholar, Nuclear Policy Program, Carnegie Endowment for International",
@@ -1233,16 +1223,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.784,
         "emoji": "🟢"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "India Memperketat Aturan Impor Perak di Tengah Tindakan Mempertahankan Rupee",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-16/india-tightens-silver-import-rules-amid-measures-to-defend-rupee",
-        "summary": "India tightened rules for imports of silver, one of a number of measures to preserve foreign-exchange reserves and defend the rupee after the currency sank to an all-time low.",
-        "published": "16 May 2026 21:53 WIB",
-        "sentiment": "Bearish",
-        "score": -0.202,
-        "emoji": "🔴"
       },
       {
         "source": "BBC World",
@@ -1457,7 +1437,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "17 May 2026 10:58 WIB",
+    "generated": "17 May 2026 11:09 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1465,14 +1445,14 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.596,
-        "count": 12
+        "score": -0.565,
+        "count": 11
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.596,
-        "count": 12
+        "score": -0.565,
+        "count": 11
       },
       {
         "pair": "USD/CHF",
@@ -1482,9 +1462,9 @@ window.FK_DATA = {
       },
       {
         "pair": "EUR/USD",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.467,
-        "count": 2
+        "direction": "Netral →",
+        "score": 0.0,
+        "count": 1
       },
       {
         "pair": "GBP/USD",
@@ -1564,16 +1544,6 @@ window.FK_DATA = {
         "published": "17 May 2026 02:00 WIB",
         "sentiment": "Bearish",
         "score": -0.772,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Strain Ebola Langka Tanpa Vaksin Terkait dengan 87 Kematian di Kongo",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
-        "summary": "A rare strain of Ebola with no approved vaccine or treatment circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing at least 87 people.",
-        "published": "16 May 2026 11:08 WIB",
-        "sentiment": "Bearish",
-        "score": -0.933,
         "emoji": "🔴"
       },
       {
@@ -1699,7 +1669,7 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "17 May 2026 10:58 WIB",
+    "generated": "17 May 2026 11:09 WIB",
     "summary": {
       "total": 12,
       "bullish": 2,

@@ -1,11 +1,11 @@
 {
-  "generated": "17 May 2026 10:58 WIB",
+  "generated": "17 May 2026 11:09 WIB",
   "summary": {
-    "total": 40,
+    "total": 38,
     "bullish": 7,
-    "bearish": 28,
+    "bearish": 26,
     "netral": 5,
-    "avg_score": -0.3646,
+    "avg_score": -0.3539,
     "overall": "Bearish",
     "currency_impact": [
       {
@@ -175,16 +175,6 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Strain Ebola Langka Tanpa Vaksin Terkait dengan 87 Kematian di Kongo",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
-      "summary": "A rare strain of Ebola with no approved vaccine or treatment circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing at least 87 people.",
-      "published": "16 May 2026 11:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.933,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "Bloomberg Akhir Pekan Ini 16/5/2026",
       "url": "https://www.bloomberg.com/news/videos/2026-05-16/bloomberg-this-weekend-5-16-2026-video",
       "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Nicole Grajewski, Nonresident Scholar, Nuclear Policy Program, Carnegie Endowment for International",
@@ -202,16 +192,6 @@
       "sentiment": "Bullish",
       "score": 0.784,
       "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "India Memperketat Aturan Impor Perak di Tengah Tindakan Mempertahankan Rupee",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-16/india-tightens-silver-import-rules-amid-measures-to-defend-rupee",
-      "summary": "India tightened rules for imports of silver, one of a number of measures to preserve foreign-exchange reserves and defend the rupee after the currency sank to an all-time low.",
-      "published": "16 May 2026 21:53 WIB",
-      "sentiment": "Bearish",
-      "score": -0.202,
-      "emoji": "🔴"
     },
     {
       "source": "BBC World",
