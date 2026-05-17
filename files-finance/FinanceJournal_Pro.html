@@ -9,167 +9,601 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#06090f;--surf:#0b1018;--card:#101720;--card2:#141e2b;--bdr:rgba(255,255,255,.06);
-  --grn:#00c896;--gdim:rgba(0,200,150,.1);--gbrd:rgba(0,200,150,.2);
-  --red:#ff4757;--rdim:rgba(255,71,87,.1);
-  --gold:#f5a623;--ydim:rgba(245,166,35,.1);
-  --blue:#4e8fff;--bdim:rgba(78,143,255,.1);
-  --purple:#a855f7;--pdim:rgba(168,85,247,.1);
-  --txt:#e8edf5;--sub:#8896a7;--mut:#3d4f62;
+  /* ── Surfaces (4-level elevation system) ─────────────────────── */
+  --bg:#020510;
+  --surf:#07101f;
+  --card:#0c1525;
+  --card2:#10192e;
+  --raised:#141f35;
+
+  /* ── Borders ──────────────────────────────────────────────────── */
+  --bdr:rgba(255,255,255,.055);
+  --bdr-hi:rgba(255,255,255,.1);
+  --bdr-g:rgba(0,212,168,.2);
+  --bdr2:rgba(120,160,255,.12);
+
+  /* ── Semantic palette (JS-compatible names) ───────────────────── */
+  --grn:#00d4a8;  --gdim:rgba(0,212,168,.1);  --gbrd:rgba(0,212,168,.3);
+  --red:#ff4d6a;  --rdim:rgba(255,77,106,.1);
+  --gold:#f59e0b; --ydim:rgba(245,158,11,.1);
+  --blue:#4f8bff; --bdim:rgba(79,139,255,.1);
+  --purple:#a78bfa; --pdim:rgba(167,139,250,.1);
+  --txt:#d8e4f0; --sub:#4d6070; --mut:#172030;
+
+  /* ── Typography ───────────────────────────────────────────────── */
   --mono:'JetBrains Mono',monospace;
   --serif:'DM Serif Display',serif;
   --sans:'DM Sans',sans-serif;
+
+  /* ── Shadow system (5-tier + colored) ────────────────────────── */
+  /* Each tier adds depth via multiple layers + inset top highlight */
+  --sh-xs: 0 1px 3px rgba(0,0,0,.5),
+           0 2px 8px rgba(0,0,0,.3),
+           inset 0 1px 0 rgba(255,255,255,.045);
+  --sh-sm: 0 2px 6px rgba(0,0,0,.55),
+           0 6px 20px rgba(0,0,0,.4),
+           0 12px 30px rgba(0,0,0,.25),
+           inset 0 1px 0 rgba(255,255,255,.055);
+  --sh-md: 0 4px 12px rgba(0,0,0,.6),
+           0 12px 36px rgba(0,0,0,.45),
+           0 24px 56px rgba(0,0,0,.3),
+           inset 0 1px 0 rgba(255,255,255,.065);
+  --sh-lg: 0 8px 20px rgba(0,0,0,.65),
+           0 20px 56px rgba(0,0,0,.5),
+           0 40px 90px rgba(0,0,0,.35),
+           inset 0 1px 0 rgba(255,255,255,.075);
+  --sh-xl: 0 12px 32px rgba(0,0,0,.7),
+           0 32px 80px rgba(0,0,0,.55),
+           0 64px 120px rgba(0,0,0,.4),
+           inset 0 1px 0 rgba(255,255,255,.085);
+  /* Colored ambient shadows */
+  --sh-grn: 0 6px 24px rgba(0,212,168,.18), 0 2px 8px rgba(0,212,168,.12), 0 0 60px rgba(0,212,168,.06);
+  --sh-red: 0 6px 24px rgba(255,77,106,.18), 0 2px 8px rgba(255,77,106,.12);
+  --sh-gold:0 6px 24px rgba(245,158,11,.18), 0 2px 8px rgba(245,158,11,.12);
+  --sh-blue:0 6px 24px rgba(79,139,255,.18),  0 2px 8px rgba(79,139,255,.12);
 }
+
+/* ── BASE ─────────────────────────────────────────────────────────── */
 html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--txt);font-family:var(--sans);font-size:13px;line-height:1.5}
-#app{display:flex;flex-direction:column;height:100vh}
 
-/* TOPBAR */
-#tb{background:linear-gradient(90deg,#0b1018 0%,#0e1623 50%,#0b1018 100%);border-bottom:1px solid rgba(0,200,150,.15);padding:10px 20px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;position:relative}
-#tb::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,200,150,.4),transparent)}
-.logo{display:flex;align-items:center;gap:12px}
-.logo-mark{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,#00c896,#00a37a);display:flex;align-items:center;justify-content:center;font-size:18px;box-shadow:0 4px 16px rgba(0,200,150,.3);flex-shrink:0}
-.logo-title{font-family:var(--serif);font-size:16px;color:var(--txt);letter-spacing:.01em}
-.logo-sub{font-size:10px;color:var(--sub);letter-spacing:.08em;text-transform:uppercase;margin-top:1px}
-.tb-right{display:flex;gap:10px;align-items:center}
-#tb-nw{font-family:var(--mono);font-size:14px;font-weight:600;color:var(--grn)}
-#tb-nw-lbl{font-size:10px;color:var(--sub);text-align:right}
+/* Ambient mesh background */
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 0%,   rgba(0,212,168,.055) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 80% 100%,  rgba(79,139,255,.045) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 60% 40%,   rgba(167,139,250,.025) 0%, transparent 60%);
+}
+body::after{content:none}
 
-/* SYNC BAR */
-#sb{background:#080e16;border-bottom:1px solid var(--bdr);padding:5px 20px;display:flex;align-items:center;justify-content:space-between;font-size:11px;flex-shrink:0}
-.sbl{display:flex;align-items:center;gap:8px}
-#sdot{width:7px;height:7px;border-radius:50%;background:var(--mut);flex-shrink:0;transition:.3s}
-.sdot-ok{background:var(--grn)!important;box-shadow:0 0 8px var(--grn)}
-.sdot-busy{background:var(--gold)!important;animation:pulse 1s infinite}
-.sdot-err{background:var(--red)!important}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+#app{display:flex;flex-direction:column;height:100vh;position:relative;z-index:1}
 
-/* NAV */
-#nav{background:var(--surf);border-bottom:1px solid var(--bdr);display:flex;overflow-x:auto;scrollbar-width:none;padding:0 8px;flex-shrink:0}
+/* ── TOPBAR ────────────────────────────────────────────────────────── */
+#tb{
+  background:linear-gradient(180deg,#08121f 0%,#070f1d 100%);
+  border-bottom:1px solid rgba(0,212,168,.12);
+  padding:12px 22px;
+  display:flex;align-items:center;justify-content:space-between;
+  flex-shrink:0;position:relative;gap:14px;
+  box-shadow:0 1px 0 rgba(0,212,168,.1),
+             0 4px 16px rgba(0,0,0,.6),
+             0 12px 32px rgba(0,0,0,.4);
+}
+/* Top edge prismatic shimmer */
+#tb::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,
+    transparent 0%,
+    rgba(0,212,168,.8) 20%,
+    rgba(255,255,255,.4) 40%,
+    rgba(79,139,255,.7) 60%,
+    rgba(0,212,168,.8) 80%,
+    transparent 100%);
+}
+/* Bottom glow line */
+#tb::after{
+  content:'';position:absolute;bottom:-1px;left:10%;right:10%;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(0,212,168,.35),rgba(79,139,255,.2),rgba(0,212,168,.35),transparent);
+  filter:blur(1px);
+}
+.logo{display:flex;align-items:center;gap:14px;min-width:0;flex:1}
+.logo-mark{
+  width:42px;height:42px;border-radius:13px;flex-shrink:0;
+  background:linear-gradient(135deg,#00d4a8 0%,#00a8c8 55%,#2080ff 100%);
+  display:flex;align-items:center;justify-content:center;font-size:20px;
+  position:relative;
+  box-shadow:
+    0 2px 4px rgba(0,0,0,.4),
+    0 6px 20px rgba(0,212,168,.35),
+    0 12px 32px rgba(0,212,168,.18),
+    inset 0 1px 0 rgba(255,255,255,.3),
+    inset 0 -1px 0 rgba(0,0,0,.2);
+}
+.logo-mark::after{
+  content:'';position:absolute;inset:0;border-radius:13px;
+  background:linear-gradient(135deg,rgba(255,255,255,.22) 0%,transparent 50%,rgba(0,0,0,.1) 100%);
+}
+.logo-text{min-width:0}
+.logo-title{
+  font-family:var(--serif);font-size:17px;letter-spacing:.01em;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  background:linear-gradient(135deg,#e8f0f8 0%,#a0b8cc 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  filter:drop-shadow(0 1px 8px rgba(0,212,168,.2));
+}
+.logo-sub{font-size:10px;color:var(--sub);letter-spacing:.12em;text-transform:uppercase;margin-top:1px}
+.tb-right{display:flex;gap:10px;align-items:center;flex-shrink:0}
+#tb-nw-wrap{
+  display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0;
+  padding:6px 14px;background:rgba(0,212,168,.05);border-radius:10px;
+  border:1px solid rgba(0,212,168,.12);
+  box-shadow:var(--sh-xs),0 0 20px rgba(0,212,168,.06);
+}
+#tb-nw{
+  font-family:var(--mono);font-size:17px;font-weight:700;color:var(--grn);
+  text-shadow:0 0 16px rgba(0,212,168,.6),0 0 40px rgba(0,212,168,.25),0 0 80px rgba(0,212,168,.1);
+  letter-spacing:-.02em;
+}
+#tb-nw-lbl{font-size:9px;color:var(--sub);text-align:right;letter-spacing:.12em;text-transform:uppercase}
+
+/* ── SYNC BAR ──────────────────────────────────────────────────────── */
+#sb{
+  background:rgba(7,16,31,.95);
+  border-bottom:1px solid rgba(255,255,255,.04);
+  padding:5px 20px;display:flex;align-items:center;justify-content:space-between;
+  font-size:11px;flex-shrink:0;flex-wrap:wrap;gap:4px;
+  box-shadow:0 2px 8px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.25);
+}
+.sbl{display:flex;align-items:center;gap:8px;min-width:0}
+#sdot{width:8px;height:8px;border-radius:50%;background:var(--mut);flex-shrink:0;transition:all .4s}
+.sdot-ok{
+  background:var(--grn)!important;
+  box-shadow:0 0 0 2px rgba(0,212,168,.2),0 0 12px rgba(0,212,168,.5),0 0 24px rgba(0,212,168,.25);
+}
+.sdot-busy{background:var(--gold)!important;animation:pulse 1.2s ease-in-out infinite;
+  box-shadow:0 0 8px rgba(245,158,11,.4);}
+.sdot-err{background:var(--red)!important;box-shadow:0 0 12px rgba(255,77,106,.5)}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
+
+/* ── NAV ───────────────────────────────────────────────────────────── */
+#nav{
+  background:rgba(7,16,31,.97);
+  border-bottom:1px solid rgba(255,255,255,.04);
+  display:flex;overflow-x:auto;scrollbar-width:none;
+  padding:7px 12px;flex-shrink:0;gap:3px;
+  box-shadow:0 2px 12px rgba(0,0,0,.5),0 6px 24px rgba(0,0,0,.3);
+}
 #nav::-webkit-scrollbar{display:none}
-.nb{padding:11px 15px;font-size:11px;font-weight:500;color:var(--sub);border:none;background:none;cursor:pointer;white-space:nowrap;border-bottom:2px solid transparent;transition:all .18s;letter-spacing:.02em}
-.nb.on{color:var(--grn);border-bottom-color:var(--grn);background:rgba(0,200,150,.04)}
-.nb:hover:not(.on){color:var(--txt)}
+.nb{
+  padding:8px 16px;font-size:11px;font-weight:500;color:var(--sub);
+  border:none;background:transparent;cursor:pointer;white-space:nowrap;
+  border-radius:9px;transition:all .22s cubic-bezier(.4,0,.2,1);
+  letter-spacing:.03em;position:relative;user-select:none;
+}
+.nb.on{
+  color:var(--grn);font-weight:600;
+  background:linear-gradient(135deg,rgba(0,212,168,.12) 0%,rgba(0,212,168,.07) 100%);
+  box-shadow:
+    inset 0 0 0 1px rgba(0,212,168,.28),
+    0 2px 8px rgba(0,212,168,.15),
+    0 4px 16px rgba(0,212,168,.08);
+  text-shadow:0 0 20px rgba(0,212,168,.6);
+}
+.nb.on::after{
+  content:'';position:absolute;bottom:-1px;left:50%;transform:translateX(-50%);
+  width:24px;height:2px;
+  background:linear-gradient(90deg,rgba(0,212,168,.3),var(--grn),rgba(0,212,168,.3));
+  border-radius:2px 2px 0 0;
+  box-shadow:0 0 10px var(--grn),0 0 20px rgba(0,212,168,.4);
+}
+.nb:hover:not(.on){
+  color:var(--txt);
+  background:rgba(255,255,255,.05);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.06);
+}
 
-/* MAIN */
-#main{flex:1;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--bdr) transparent}
-.tab{display:none;padding:20px;animation:fadeIn .2s ease}.tab.on{display:block}
-@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+/* ── MAIN SCROLL ───────────────────────────────────────────────────── */
+#main{
+  flex:1;overflow-y:auto;
+  scrollbar-width:thin;scrollbar-color:rgba(0,212,168,.18) transparent;
+  background:
+    radial-gradient(ellipse 50% 30% at 50% 0%, rgba(0,212,168,.025) 0%, transparent 60%);
+}
+#main::-webkit-scrollbar{width:4px}
+#main::-webkit-scrollbar-track{background:transparent}
+#main::-webkit-scrollbar-thumb{background:rgba(0,212,168,.18);border-radius:4px}
+.tab{display:none;padding:22px;animation:fadeIn .28s cubic-bezier(.4,0,.2,1)}.tab.on{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 
-/* MODAL */
-#mo{position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:9000;display:none;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(4px)}
-.mbox{background:var(--card);border:1px solid var(--bdr);border-radius:18px;max-width:500px;width:100%;max-height:90vh;overflow-y:auto}
-.mh{background:var(--surf);border-radius:18px 18px 0 0;padding:24px 28px;border-bottom:1px solid var(--bdr);text-align:center}
+/* ── MODAL ─────────────────────────────────────────────────────────── */
+#mo{
+  position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:9000;
+  display:none;align-items:center;justify-content:center;padding:16px;
+  backdrop-filter:blur(12px);
+}
+.mbox{
+  background:linear-gradient(155deg,#0e1832 0%,#0a1220 60%,#0c1628 100%);
+  border:1px solid rgba(255,255,255,.07);border-radius:22px;
+  max-width:500px;width:100%;max-height:90vh;overflow-y:auto;
+  box-shadow:var(--sh-xl),var(--sh-grn);
+}
+.mh{
+  background:linear-gradient(135deg,rgba(0,212,168,.08) 0%,rgba(79,139,255,.05) 100%);
+  border-radius:22px 22px 0 0;padding:28px 30px;
+  border-bottom:1px solid rgba(255,255,255,.06);text-align:center;position:relative;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08);
+}
+.mh::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(0,212,168,.5),rgba(79,139,255,.3),rgba(0,212,168,.5),transparent);
+}
 .mb{padding:24px 28px}
-.mf{padding:14px 28px;border-top:1px solid var(--bdr);display:flex;gap:8px;justify-content:flex-end}
+.mf{padding:14px 28px;border-top:1px solid rgba(255,255,255,.05);display:flex;gap:8px;justify-content:flex-end;background:rgba(0,0,0,.2);border-radius:0 0 22px 22px}
 
-/* TOAST */
-#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#1a2535;color:var(--txt);padding:10px 22px;border-radius:12px;font-size:12px;border:1px solid var(--gbrd);transition:transform .3s;z-index:9999;box-shadow:0 8px 32px rgba(0,0,0,.4)}
+/* ── TOAST ─────────────────────────────────────────────────────────── */
+#toast{
+  position:fixed;bottom:28px;left:50%;
+  transform:translateX(-50%) translateY(100px);
+  background:linear-gradient(135deg,#0e1832,#0c1525);
+  color:var(--txt);padding:12px 26px;border-radius:16px;font-size:12px;font-weight:500;
+  border:1px solid rgba(0,212,168,.25);
+  transition:transform .4s cubic-bezier(.34,1.56,.64,1),opacity .3s;
+  z-index:9999;
+  box-shadow:
+    var(--sh-md),
+    0 0 0 1px rgba(0,212,168,.08),
+    0 0 40px rgba(0,212,168,.1);
+  backdrop-filter:blur(20px);white-space:nowrap;
+}
 #toast.show{transform:translateX(-50%) translateY(0)}
 
-/* COMMON COMPONENTS */
-.g2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-.g5{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
-.card{background:var(--card);border:1px solid var(--bdr);border-radius:14px;padding:18px;margin-bottom:16px;position:relative;overflow:hidden}
-.card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent)}
-.ct{font-size:9px;font-weight:700;color:var(--sub);text-transform:uppercase;letter-spacing:.14em;margin-bottom:14px}
+/* ── GRID ──────────────────────────────────────────────────────────── */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.g5{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+
+/* ── CARD ──────────────────────────────────────────────────────────── */
+.card{
+  background:linear-gradient(155deg,#0e1832 0%,#0a1220 70%,#0c1628 100%);
+  border:1px solid rgba(255,255,255,.055);
+  border-radius:18px;padding:22px;margin-bottom:18px;
+  position:relative;overflow:hidden;
+  transition:border-color .3s,box-shadow .35s,transform .25s;
+  box-shadow:var(--sh-sm);
+}
+.card:hover{
+  border-color:rgba(0,212,168,.2);
+  transform:translateY(-1px);
+  box-shadow:var(--sh-md),0 0 0 1px rgba(0,212,168,.07),var(--sh-grn);
+}
+/* Top-edge glass highlight */
+.card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,
+    transparent 0%,
+    rgba(255,255,255,.1) 20%,
+    rgba(0,212,168,.25) 50%,
+    rgba(255,255,255,.1) 80%,
+    transparent 100%);
+}
+/* Corner accent orb */
+.card::after{
+  content:'';position:absolute;top:-30px;right:-30px;
+  width:160px;height:160px;border-radius:50%;
+  background:radial-gradient(circle,rgba(0,212,168,.05),transparent 70%);
+  pointer-events:none;
+}
+.ct{
+  font-size:9.5px;font-weight:700;color:var(--sub);
+  text-transform:uppercase;letter-spacing:.18em;
+  margin-bottom:16px;display:flex;align-items:center;gap:8px;
+}
+.ct::before{
+  content:'';width:16px;height:2px;flex-shrink:0;border-radius:2px;
+  background:linear-gradient(90deg,var(--grn),rgba(0,212,168,.15));
+  box-shadow:0 0 8px rgba(0,212,168,.4);
+}
 .fb{display:flex;justify-content:space-between;align-items:center}
 
-/* METRIC CARDS */
-.met{background:var(--card);border:1px solid var(--bdr);border-radius:12px;padding:16px;position:relative;overflow:hidden}
-.met::after{content:'';position:absolute;top:0;right:0;width:80px;height:80px;border-radius:50%;opacity:.05;transform:translate(20px,-20px)}
+/* ── METRIC CARDS ──────────────────────────────────────────────────── */
+.met{
+  background:linear-gradient(155deg,#0e1832 0%,#0a1220 70%,#0c1628 100%);
+  border:1px solid rgba(255,255,255,.05);
+  border-radius:16px;padding:18px;
+  position:relative;overflow:hidden;
+  transition:transform .22s cubic-bezier(.4,0,.2,1),box-shadow .3s,border-color .3s;
+  box-shadow:var(--sh-sm);
+}
+.met:hover{transform:translateY(-4px)}
+/* Glass top edge */
+.met::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.1),transparent);
+}
+/* Accent orb */
+.met::after{
+  content:'';position:absolute;top:-20px;right:-20px;
+  width:90px;height:90px;border-radius:50%;
+  opacity:.12;filter:blur(12px);
+}
+
+/* ── Metric color system (LEFT accent + colored orb + colored shadow) */
+.met.grn{
+  border-left:2px solid var(--grn);
+  box-shadow:var(--sh-sm),inset 3px 0 16px rgba(0,212,168,.06);
+}
 .met.grn::after{background:var(--grn)}
+.met.grn:hover{
+  border-color:rgba(0,212,168,.35);border-left-color:var(--grn);
+  box-shadow:var(--sh-md),var(--sh-grn),inset 3px 0 20px rgba(0,212,168,.08);
+}
+.met.red{
+  border-left:2px solid var(--red);
+  box-shadow:var(--sh-sm),inset 3px 0 16px rgba(255,77,106,.05);
+}
 .met.red::after{background:var(--red)}
+.met.red:hover{
+  border-color:rgba(255,77,106,.35);border-left-color:var(--red);
+  box-shadow:var(--sh-md),var(--sh-red),inset 3px 0 20px rgba(255,77,106,.07);
+}
+.met.gold{
+  border-left:2px solid var(--gold);
+  box-shadow:var(--sh-sm),inset 3px 0 16px rgba(245,158,11,.05);
+}
 .met.gold::after{background:var(--gold)}
+.met.gold:hover{
+  border-color:rgba(245,158,11,.35);border-left-color:var(--gold);
+  box-shadow:var(--sh-md),var(--sh-gold),inset 3px 0 20px rgba(245,158,11,.07);
+}
+.met.blue{
+  border-left:2px solid var(--blue);
+  box-shadow:var(--sh-sm),inset 3px 0 16px rgba(79,139,255,.05);
+}
 .met.blue::after{background:var(--blue)}
-.ml{font-size:10px;color:var(--sub);margin-bottom:5px;font-weight:500;letter-spacing:.04em}
-.mv{font-size:22px;font-weight:700;font-family:var(--mono);color:var(--txt)}
-.mv.grn{color:var(--grn)}.mv.red{color:var(--red)}.mv.gold{color:var(--gold)}.mv.blue{color:var(--blue)}.mv.nt{color:var(--sub)}
-.ms{font-size:10px;color:var(--sub);margin-top:4px}
-.delta{display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:600;padding:2px 7px;border-radius:20px;margin-top:5px}
-.delta.up{background:var(--gdim);color:var(--grn)}
-.delta.dn{background:var(--rdim);color:var(--red)}
+.met.blue:hover{
+  border-color:rgba(79,139,255,.35);border-left-color:var(--blue);
+  box-shadow:var(--sh-md),var(--sh-blue),inset 3px 0 20px rgba(79,139,255,.07);
+}
 
-/* INPUTS */
-label.lb{font-size:10px;color:var(--sub);display:block;margin-bottom:4px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
-input,select,textarea{background:var(--surf);border:1px solid var(--bdr);border-radius:8px;padding:9px 12px;color:var(--txt);font-size:12px;width:100%;font-family:var(--sans);transition:border-color .2s}
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--grn)}
-select option{background:var(--card)}
-textarea{resize:vertical;min-height:60px;line-height:1.5}
-.fg{display:flex;flex-direction:column;gap:4px;margin-bottom:12px}
-.fr{display:grid;gap:10px;margin-bottom:12px}.fr2{grid-template-columns:1fr 1fr}.fr3{grid-template-columns:repeat(3,1fr)}.fr4{grid-template-columns:repeat(4,1fr)}
+.ml{font-size:10px;color:var(--sub);margin-bottom:6px;font-weight:500;letter-spacing:.05em}
+.mv{font-size:23px;font-weight:700;font-family:var(--mono);color:var(--txt);letter-spacing:-.03em;line-height:1.1}
+.mv.grn{color:var(--grn);text-shadow:0 0 24px rgba(0,212,168,.4),0 0 60px rgba(0,212,168,.15)}
+.mv.red{color:var(--red);text-shadow:0 0 24px rgba(255,77,106,.35)}
+.mv.gold{color:var(--gold);text-shadow:0 0 24px rgba(245,158,11,.35)}
+.mv.blue{color:var(--blue);text-shadow:0 0 24px rgba(79,139,255,.35)}
+.mv.nt{color:var(--sub)}
+.ms{font-size:10px;color:var(--sub);margin-top:5px;opacity:.8}
+.delta{display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:600;padding:2px 8px;border-radius:20px;margin-top:6px}
+.delta.up{background:rgba(0,212,168,.12);color:var(--grn);box-shadow:0 2px 8px rgba(0,212,168,.12),inset 0 1px 0 rgba(0,212,168,.15)}
+.delta.dn{background:rgba(255,77,106,.12);color:var(--red);box-shadow:0 2px 8px rgba(255,77,106,.1)}
 
-/* BUTTONS */
-.btn{padding:8px 18px;border-radius:8px;border:none;font-size:11px;font-weight:600;cursor:pointer;transition:.15s;letter-spacing:.03em;font-family:var(--sans)}
-.bg{background:linear-gradient(135deg,var(--grn),#00a37a);color:#fff;box-shadow:0 3px 12px rgba(0,200,150,.25)}.bg:hover{opacity:.88;box-shadow:0 4px 16px rgba(0,200,150,.35)}
-.bh{background:transparent;color:var(--sub);border:1px solid var(--bdr)}.bh:hover{color:var(--txt);border-color:var(--sub)}
-.br{background:var(--rdim);color:var(--red);border:1px solid rgba(255,71,87,.25)}
-.by{background:var(--ydim);color:var(--gold);border:1px solid rgba(245,166,35,.3)}
-.bb{background:var(--bdim);color:var(--blue);border:1px solid rgba(78,143,255,.3)}
-.bsm{padding:3px 9px;font-size:10px;border-radius:6px;border:none;cursor:pointer;background:var(--rdim);color:var(--red);font-family:var(--sans)}
-.fe{display:flex;justify-content:flex-end;gap:8px;margin-top:14px}
-.dv{height:1px;background:var(--bdr);margin:14px 0}
+/* ── INPUTS ─────────────────────────────────────────────────────────── */
+label.lb{font-size:10px;color:var(--sub);display:block;margin-bottom:6px;font-weight:600;letter-spacing:.07em;text-transform:uppercase}
+input,select,textarea{
+  background:rgba(255,255,255,.028);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:10px;padding:10px 14px;
+  color:var(--txt);font-size:12px;width:100%;font-family:var(--sans);
+  transition:all .22s;
+  box-shadow:var(--sh-xs),inset 0 1px 3px rgba(0,0,0,.3);
+}
+input:focus,select:focus,textarea:focus{
+  outline:none;
+  border-color:rgba(0,212,168,.45);
+  background:rgba(0,212,168,.04);
+  box-shadow:
+    0 0 0 3px rgba(0,212,168,.1),
+    0 0 20px rgba(0,212,168,.08),
+    var(--sh-xs),
+    inset 0 1px 3px rgba(0,0,0,.2);
+}
+input:hover:not(:focus),select:hover:not(:focus),textarea:hover:not(:focus){
+  border-color:rgba(255,255,255,.14);
+  box-shadow:var(--sh-xs),0 0 0 1px rgba(255,255,255,.05),inset 0 1px 3px rgba(0,0,0,.3);
+}
+select option{background:#0c1525}
+textarea{resize:vertical;min-height:64px;line-height:1.65}
+.fg{display:flex;flex-direction:column;gap:5px;margin-bottom:13px}
+.fr{display:grid;gap:12px;margin-bottom:13px}
+.fr2{grid-template-columns:1fr 1fr}.fr3{grid-template-columns:repeat(3,1fr)}.fr4{grid-template-columns:repeat(4,1fr)}
 
-/* BADGE */
-.bdg{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:600}
-.bi{background:var(--gdim);color:var(--grn)} /* income */
-.be{background:var(--rdim);color:var(--red)} /* expense */
-.bt{background:var(--ydim);color:var(--gold)} /* transfer */
-.bs{background:var(--bdim);color:var(--blue)} /* saving */
+/* ── BUTTONS ─────────────────────────────────────────────────────────── */
+.btn{padding:9px 20px;border-radius:10px;border:none;font-size:11px;font-weight:600;cursor:pointer;transition:all .2s;letter-spacing:.04em;font-family:var(--sans)}
+.bg{
+  background:linear-gradient(135deg,#00d4a8 0%,#00b0d0 100%);
+  color:#020e14;font-weight:700;
+  box-shadow:
+    0 2px 4px rgba(0,0,0,.35),
+    0 6px 20px rgba(0,212,168,.35),
+    0 12px 32px rgba(0,212,168,.18),
+    inset 0 1px 0 rgba(255,255,255,.3),
+    inset 0 -1px 0 rgba(0,0,0,.15);
+}
+.bg:hover{
+  transform:translateY(-2px);
+  box-shadow:
+    0 4px 8px rgba(0,0,0,.4),
+    0 10px 30px rgba(0,212,168,.5),
+    0 20px 48px rgba(0,212,168,.25),
+    inset 0 1px 0 rgba(255,255,255,.35),
+    inset 0 -1px 0 rgba(0,0,0,.1);
+}
+.bg:active{transform:translateY(0);box-shadow:0 2px 8px rgba(0,212,168,.25),inset 0 1px 3px rgba(0,0,0,.2)}
+.bh{
+  background:rgba(255,255,255,.045);color:var(--sub);
+  border:1px solid rgba(255,255,255,.08);
+  box-shadow:var(--sh-xs);
+}
+.bh:hover{color:var(--txt);background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.14);box-shadow:var(--sh-sm)}
+.br{background:rgba(255,77,106,.1);color:var(--red);border:1px solid rgba(255,77,106,.22);box-shadow:var(--sh-xs)}
+.br:hover{background:rgba(255,77,106,.2);box-shadow:var(--sh-xs),var(--sh-red)}
+.by{background:rgba(245,158,11,.1);color:var(--gold);border:1px solid rgba(245,158,11,.25);box-shadow:var(--sh-xs)}
+.by:hover{background:rgba(245,158,11,.2);box-shadow:var(--sh-xs),var(--sh-gold)}
+.bb{background:rgba(79,139,255,.1);color:var(--blue);border:1px solid rgba(79,139,255,.25);box-shadow:var(--sh-xs)}
+.bb:hover{background:rgba(79,139,255,.2);box-shadow:var(--sh-xs),var(--sh-blue)}
+.bsm{
+  padding:4px 10px;font-size:10px;border-radius:7px;
+  border:1px solid rgba(255,77,106,.22);cursor:pointer;
+  background:rgba(255,77,106,.08);color:var(--red);
+  font-family:var(--sans);transition:all .18s;
+  box-shadow:0 1px 4px rgba(0,0,0,.3);
+}
+.bsm:hover{background:rgba(255,77,106,.2);box-shadow:0 2px 8px rgba(255,77,106,.2)}
+.fe{display:flex;justify-content:flex-end;gap:9px;margin-top:16px}
+.dv{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.08),transparent);margin:16px 0}
 
-/* TABLE */
+/* ── BADGES ─────────────────────────────────────────────────────────── */
+.bdg{display:inline-block;padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600}
+.bi{
+  background:rgba(0,212,168,.12);color:var(--grn);
+  border:1px solid rgba(0,212,168,.2);
+  box-shadow:0 2px 8px rgba(0,212,168,.12),inset 0 1px 0 rgba(0,212,168,.15);
+}
+.be{background:rgba(255,77,106,.12);color:var(--red);border:1px solid rgba(255,77,106,.2)}
+.bt{background:rgba(245,158,11,.12);color:var(--gold);border:1px solid rgba(245,158,11,.2)}
+.bs{background:rgba(79,139,255,.12);color:var(--blue);border:1px solid rgba(79,139,255,.2)}
+
+/* ── TABLE ───────────────────────────────────────────────────────────── */
 .tbl{width:100%;border-collapse:collapse;font-size:11px}
-.tbl th{font-size:9px;color:var(--sub);font-weight:700;text-align:left;padding:9px 12px;border-bottom:1px solid var(--bdr);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap}
-.tbl td{padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.025);color:var(--sub);vertical-align:middle}
-.tbl tr:hover td{background:rgba(255,255,255,.015)}
-.tw{color:var(--grn)!important;font-weight:600}.tl{color:var(--red)!important;font-weight:600}.ts{color:var(--txt)!important;font-weight:600}
+.tbl thead{position:sticky;top:0;z-index:2}
+.tbl th{
+  font-size:9px;color:var(--sub);font-weight:700;text-align:left;
+  padding:11px 13px;border-bottom:1px solid rgba(255,255,255,.055);
+  text-transform:uppercase;letter-spacing:.12em;white-space:nowrap;
+  background:rgba(14,24,50,.97);
+  box-shadow:0 2px 8px rgba(0,0,0,.3);
+}
+.tbl td{
+  padding:11px 13px;
+  border-bottom:1px solid rgba(255,255,255,.03);
+  color:var(--sub);vertical-align:middle;
+  transition:background .18s,color .18s;
+}
+.tbl tr:hover td{
+  background:rgba(0,212,168,.04);
+  color:rgba(216,228,240,.8);
+  box-shadow:inset 0 0 0 1px rgba(0,212,168,.04);
+}
 .tbl tr:last-child td{border-bottom:none}
+.tw{color:var(--grn)!important;font-weight:600;text-shadow:0 0 12px rgba(0,212,168,.3)}
+.tl{color:var(--red)!important;font-weight:600}
+.ts{color:var(--txt)!important;font-weight:600}
 
-/* PROGRESS BAR */
-.pb{background:rgba(255,255,255,.06);border-radius:6px;height:6px;overflow:hidden}
-.pf{height:100%;border-radius:6px;transition:width .5s}
-.pgrn{background:linear-gradient(90deg,var(--grn),#00e6ac)}
-.pred{background:linear(90deg,var(--red),#ff6b6b)}
-.pgold{background:linear-gradient(90deg,var(--gold),#ffd700)}
-.pblue{background:linear-gradient(90deg,var(--blue),#74a7ff)}
-.ppurp{background:linear-gradient(90deg,var(--purple),#c084fc)}
+/* ── PROGRESS BAR ────────────────────────────────────────────────────── */
+.pb{
+  background:rgba(255,255,255,.04);border-radius:99px;height:6px;overflow:hidden;
+  box-shadow:inset 0 1px 3px rgba(0,0,0,.4),inset 0 0 0 1px rgba(255,255,255,.04);
+}
+.pf{height:100%;border-radius:99px;transition:width .7s cubic-bezier(.4,0,.2,1)}
+.pgrn{background:linear-gradient(90deg,#00b894,#00d4a8,#00e5ff);box-shadow:0 0 10px rgba(0,212,168,.5),0 0 20px rgba(0,212,168,.25)}
+.pred{background:linear-gradient(90deg,#e84057,#ff4d6a,#ff7043)}
+.pgold{background:linear-gradient(90deg,#d97706,#f59e0b,#fbbf24)}
+.pblue{background:linear-gradient(90deg,#3b6fd4,#4f8bff,#818cf8)}
+.ppurp{background:linear-gradient(90deg,#7c5cbf,#a78bfa,#e879f9)}
 
-/* GOAL CARD */
-.goal-card{background:var(--card2);border:1px solid var(--bdr);border-radius:12px;padding:16px;margin-bottom:10px}
-.goal-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+/* ── GOAL CARD ────────────────────────────────────────────────────────── */
+.goal-card{
+  background:linear-gradient(155deg,#0e1832 0%,#0a1220 100%);
+  border:1px solid rgba(255,255,255,.055);
+  border-radius:16px;padding:19px;margin-bottom:12px;
+  transition:all .28s cubic-bezier(.4,0,.2,1);
+  box-shadow:var(--sh-sm);
+}
+.goal-card:hover{
+  border-color:rgba(0,212,168,.2);
+  transform:translateY(-2px);
+  box-shadow:var(--sh-md),var(--sh-grn);
+}
+.goal-icon{width:44px;height:44px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;box-shadow:var(--sh-xs)}
 
-/* DEBT CARD */
-.debt-card{background:var(--card2);border:1px solid var(--bdr);border-radius:12px;padding:16px;margin-bottom:10px;border-left:3px solid var(--red)}
+/* ── DEBT CARD ────────────────────────────────────────────────────────── */
+.debt-card{
+  background:linear-gradient(155deg,#120e1a 0%,#0c0e1e 100%);
+  border:1px solid rgba(255,77,106,.14);
+  border-radius:16px;padding:19px;margin-bottom:12px;
+  border-left:3px solid var(--red);
+  box-shadow:var(--sh-sm),inset 4px 0 24px rgba(255,77,106,.06);
+}
 
-/* ASSET CARD */
-.asset-item{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--bdr)}
+/* ── ASSET ITEM ───────────────────────────────────────────────────────── */
+.asset-item{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 0;border-bottom:1px solid rgba(255,255,255,.04);
+  transition:background .15s;
+}
+.asset-item:hover{background:rgba(255,255,255,.015);margin:0 -4px;padding:12px 4px;border-radius:6px}
+.asset-item:last-child{border-bottom:none}
 
-/* CATEGORY TAG */
-.cat{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:6px;font-size:10px;font-weight:500;background:rgba(255,255,255,.05);color:var(--sub)}
+/* ── CATEGORY TAG ─────────────────────────────────────────────────────── */
+.cat{
+  display:inline-flex;align-items:center;gap:5px;
+  padding:3px 10px;border-radius:20px;font-size:10px;font-weight:500;
+  background:rgba(120,160,255,.07);color:var(--sub);
+  border:1px solid rgba(120,160,255,.1);
+  box-shadow:0 1px 4px rgba(0,0,0,.25);
+}
 
-/* HEALTH SCORE */
-.hs-ring{position:relative;width:100px;height:100px;margin:0 auto 12px}
+/* ── HEALTH SCORE ─────────────────────────────────────────────────────── */
+.hs-ring{position:relative;width:100px;height:100px;margin:0 auto 12px;filter:drop-shadow(0 0 12px rgba(0,212,168,.2))}
 .hs-ring svg{transform:rotate(-90deg)}
 .hs-val{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--mono)}
 
-/* CHART */
+/* ── CHART ────────────────────────────────────────────────────────────── */
 .chart-wrap{height:200px;position:relative}
-.chart-wrap.tall{height:260px}
+.chart-wrap.tall{height:268px}
 
-/* EMPTY */
-.em{text-align:center;padding:36px 16px;color:var(--mut);font-size:12px;line-height:2}
+/* ── EMPTY STATE ─────────────────────────────────────────────────────── */
+.em{text-align:center;padding:40px 16px;color:var(--sub);font-size:12px;line-height:2.4;opacity:.6}
 
-/* ALERT */
-.al{border-radius:8px;padding:10px 14px;font-size:11px;line-height:1.6;margin-bottom:10px}
-.aw{background:var(--ydim);border:1px solid rgba(245,166,35,.2);color:var(--gold)}
-.as{background:var(--gdim);border:1px solid rgba(0,200,150,.2);color:var(--grn)}
-.ar{background:var(--rdim);border:1px solid rgba(255,71,87,.2);color:var(--red)}
+/* ── ALERTS ──────────────────────────────────────────────────────────── */
+.al{border-radius:12px;padding:12px 16px;font-size:11px;line-height:1.75;margin-bottom:12px;box-shadow:var(--sh-xs)}
+.aw{background:linear-gradient(135deg,rgba(245,158,11,.09),rgba(245,158,11,.04));border:1px solid rgba(245,158,11,.22);color:var(--gold);box-shadow:var(--sh-xs),0 0 20px rgba(245,158,11,.06)}
+.as{background:linear-gradient(135deg,rgba(0,212,168,.09),rgba(0,212,168,.04));border:1px solid rgba(0,212,168,.22);color:var(--grn);box-shadow:var(--sh-xs),0 0 20px rgba(0,212,168,.06)}
+.ar{background:linear-gradient(135deg,rgba(255,77,106,.09),rgba(255,77,106,.04));border:1px solid rgba(255,77,106,.22);color:var(--red);box-shadow:var(--sh-xs),0 0 20px rgba(255,77,106,.06)}
 
-/* SCORE BADGE */
-.score-badge{padding:6px 14px;border-radius:20px;font-size:12px;font-weight:700;font-family:var(--mono)}
+/* ── SCORE BADGE ─────────────────────────────────────────────────────── */
+.score-badge{padding:6px 18px;border-radius:20px;font-size:12px;font-weight:700;font-family:var(--mono);box-shadow:var(--sh-xs)}
 
-@media(max-width:640px){.g4,.g5{grid-template-columns:1fr 1fr}.g3{grid-template-columns:1fr 1fr}.g2{grid-template-columns:1fr}.tab{padding:12px}.fr3,.fr4{grid-template-columns:1fr 1fr}}
+/* ── ANIMATIONS ──────────────────────────────────────────────────────── */
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes glow-pulse{0%,100%{box-shadow:var(--sh-sm),var(--sh-grn)}50%{box-shadow:var(--sh-md),0 0 40px rgba(0,212,168,.25)}}
+
+/* ── RESPONSIVE ──────────────────────────────────────────────────────── */
+@media(max-width:640px){
+  .g4,.g5{grid-template-columns:1fr 1fr}
+  .g3{grid-template-columns:1fr 1fr}
+  .g2{grid-template-columns:1fr}
+  .tab{padding:12px}
+  .fr3,.fr4{grid-template-columns:1fr 1fr}
+
+  #tb{padding:9px 12px;gap:8px}
+  .logo-mark{width:36px;height:36px;font-size:16px;border-radius:10px}
+  .logo-title{font-size:14px}
+  .logo-sub{display:none}
+  #tb-date{display:none}
+  #tb-nw-wrap{padding:4px 10px;border-radius:8px}
+  #tb-nw{font-size:14px}
+  #tb-nw-lbl{font-size:8px}
+
+  #sb{padding:4px 12px;font-size:10px}
+  #stxt{max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+  #nav{
+    display:grid;grid-template-columns:repeat(4,1fr);
+    overflow:visible;padding:5px 6px;gap:3px;
+  }
+  .nb{padding:7px 4px;font-size:9.5px;text-align:center;white-space:normal;border-radius:8px;line-height:1.3;letter-spacing:0}
+  .nb.on{background:rgba(0,212,168,.12);box-shadow:inset 0 0 0 1px rgba(0,212,168,.28)}
+  .nb.on::after{display:none}
+
+  .card{padding:15px;border-radius:15px;margin-bottom:14px}
+  .met{padding:14px;border-radius:14px}
+  .mv{font-size:19px}
+  .chart-wrap{height:160px}
+  .chart-wrap.tall{height:210px}
+  .g2,.g3{gap:12px}
+}
 </style>
 </head>
 <body>
@@ -222,18 +656,18 @@ textarea{resize:vertical;min-height:60px;line-height:1.5}
   <div id="tb">
     <div class="logo">
       <div class="logo-mark">💼</div>
-      <div>
+      <div class="logo-text">
         <div class="logo-title">FinanceJournal Pro</div>
         <div class="logo-sub">Laporan Keuangan Pribadi</div>
       </div>
     </div>
-    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:2px">
-      <div id="tb-nw-lbl" style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.1em">Kekayaan Bersih</div>
-      <div id="tb-nw" style="font-family:var(--mono);font-size:16px;font-weight:700;color:var(--grn)">Rp 0</div>
+    <div id="tb-nw-wrap">
+      <div id="tb-nw-lbl">Kekayaan Bersih</div>
+      <div id="tb-nw">Rp 0</div>
     </div>
     <div class="tb-right">
       <div id="tb-date" style="font-size:11px;color:var(--sub);text-align:right"></div>
-      <button class="btn bh" onclick="openMo()" style="font-size:11px;padding:6px 12px">⚙ Profil</button>
+      <button class="btn bh" onclick="openMo()" style="font-size:11px;padding:6px 13px;background:rgba(0,212,168,.06);border-color:rgba(0,212,168,.2);color:var(--grn)">⚙ Profil</button>
     </div>
   </div>
 
@@ -268,40 +702,96 @@ textarea{resize:vertical;min-height:60px;line-height:1.5}
   <!-- ═══ DASHBOARD ═══ -->
   <div id="tab-dash" class="tab on">
     <!-- SALDO AWAL BANNER -->
-    <div id="saldo-banner" style="background:linear-gradient(90deg,rgba(0,200,150,.08),rgba(78,143,255,.06));border:1px solid rgba(0,200,150,.18);border-radius:14px;padding:14px 20px;margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
-      <div>
-        <div style="font-size:9px;color:var(--sub);font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:3px">Saldo Awal / Kas</div>
-        <div style="font-family:var(--mono);font-size:22px;font-weight:700;color:var(--grn)" id="d-saldo-awal">Rp 0</div>
-        <div style="font-size:10px;color:var(--sub);margin-top:2px">Modal kas yang kamu miliki saat ini</div>
+    <div id="saldo-banner" style="
+      background:linear-gradient(135deg,#0c1a2e 0%,#09122a 50%,#0c1630 100%);
+      border:1px solid rgba(0,212,168,.22);border-radius:20px;
+      padding:20px 26px;margin-bottom:18px;
+      display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;
+      position:relative;overflow:hidden;
+      box-shadow:
+        0 2px 8px rgba(0,0,0,.55),
+        0 8px 28px rgba(0,0,0,.4),
+        0 20px 50px rgba(0,0,0,.3),
+        0 0 0 1px rgba(0,212,168,.06),
+        inset 0 1px 0 rgba(255,255,255,.06),
+        0 0 60px rgba(0,212,168,.06);
+    ">
+      <!-- Ambient orbs -->
+      <div style="position:absolute;top:-60px;left:-30px;width:220px;height:220px;background:radial-gradient(circle,rgba(0,212,168,.07),transparent 70%);pointer-events:none"></div>
+      <div style="position:absolute;bottom:-50px;right:20%;width:150px;height:150px;background:radial-gradient(circle,rgba(79,139,255,.05),transparent 70%);pointer-events:none"></div>
+      <!-- Top prismatic line -->
+      <div style="position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,212,168,.7),rgba(255,255,255,.3),rgba(0,212,168,.7),transparent)"></div>
+      <div style="position:relative">
+        <div style="font-size:9px;color:var(--sub);font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin-bottom:6px;display:flex;align-items:center;gap:6px">
+          <span style="width:12px;height:2px;background:var(--grn);border-radius:2px;display:inline-block;box-shadow:0 0 8px var(--grn)"></span>
+          Saldo Awal / Kas
+        </div>
+        <div style="font-family:var(--mono);font-size:28px;font-weight:700;color:var(--grn);letter-spacing:-.03em;text-shadow:0 0 24px rgba(0,212,168,.5),0 0 60px rgba(0,212,168,.2)" id="d-saldo-awal">Rp 0</div>
+        <div style="font-size:10px;color:var(--sub);margin-top:4px;letter-spacing:.02em">Modal kas yang kamu miliki saat ini</div>
       </div>
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <div style="padding:8px 16px;background:var(--surf);border-radius:10px;border:1px solid var(--bdr);text-align:center">
-          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.08em">Investasi Aktif</div>
-          <div style="font-family:var(--mono);font-size:14px;font-weight:700;color:var(--blue);margin-top:2px" id="d-invest-val">Rp 0</div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;position:relative;align-items:center">
+        <div style="padding:11px 20px;background:rgba(79,139,255,.08);border-radius:14px;border:1px solid rgba(79,139,255,.22);text-align:center;box-shadow:0 4px 16px rgba(0,0,0,.35),0 8px 24px rgba(79,139,255,.08),inset 0 1px 0 rgba(79,139,255,.15)">
+          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.12em;margin-bottom:4px">Investasi Aktif</div>
+          <div style="font-family:var(--mono);font-size:16px;font-weight:700;color:var(--blue);text-shadow:0 0 20px rgba(79,139,255,.4)" id="d-invest-val">Rp 0</div>
         </div>
-        <div style="padding:8px 16px;background:var(--surf);border-radius:10px;border:1px solid var(--bdr);text-align:center">
-          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.08em">Total Kekayaan</div>
-          <div style="font-family:var(--mono);font-size:14px;font-weight:700;color:var(--gold);margin-top:2px" id="d-total-wealth">Rp 0</div>
+        <div style="padding:11px 20px;background:rgba(245,158,11,.08);border-radius:14px;border:1px solid rgba(245,158,11,.22);text-align:center;box-shadow:0 4px 16px rgba(0,0,0,.35),0 8px 24px rgba(245,158,11,.08),inset 0 1px 0 rgba(245,158,11,.15)">
+          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.12em;margin-bottom:4px">Total Kekayaan</div>
+          <div style="font-family:var(--mono);font-size:16px;font-weight:700;color:var(--gold);text-shadow:0 0 20px rgba(245,158,11,.4)" id="d-total-wealth">Rp 0</div>
         </div>
-        <div style="padding:8px 16px;background:var(--surf);border-radius:10px;border:1px solid var(--bdr);text-align:center">
-          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.08em">Tersedia Bulan Ini</div>
-          <div style="font-family:var(--mono);font-size:14px;font-weight:700;margin-top:2px" id="d-available">Rp 0</div>
+        <div style="padding:11px 20px;background:rgba(167,139,250,.06);border-radius:14px;border:1px solid rgba(167,139,250,.18);text-align:center;box-shadow:0 4px 16px rgba(0,0,0,.35),0 8px 24px rgba(167,139,250,.06),inset 0 1px 0 rgba(167,139,250,.1)">
+          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.12em;margin-bottom:4px">Tersedia Bulan Ini</div>
+          <div style="font-family:var(--mono);font-size:16px;font-weight:700;color:var(--txt)" id="d-available">Rp 0</div>
         </div>
-        <button class="btn bh" onclick="openMo()" style="font-size:11px;padding:6px 14px">✏️ Edit</button>
+        <button class="btn bh" onclick="openMo()" style="font-size:11px;padding:8px 16px;align-self:center;background:rgba(0,212,168,.07);border-color:rgba(0,212,168,.22);color:var(--grn)">✏️ Edit</button>
       </div>
     </div>
 
     <!-- NET WORTH HERO -->
-    <div style="background:linear-gradient(135deg,#0e1e30 0%,#0b1520 100%);border:1px solid rgba(0,200,150,.15);border-radius:16px;padding:22px 26px;margin-bottom:18px;position:relative;overflow:hidden">
-      <div style="position:absolute;top:-40px;right:-40px;width:200px;height:200px;background:radial-gradient(circle,rgba(0,200,150,.06),transparent 70%);pointer-events:none"></div>
-      <div style="font-size:10px;color:var(--sub);text-transform:uppercase;letter-spacing:.12em;margin-bottom:6px">Kekayaan Bersih (Total Aset − Total Hutang)</div>
-      <div style="font-family:var(--serif);font-size:36px;color:var(--grn)" id="dash-nw">Rp 0</div>
-      <div style="display:flex;gap:24px;margin-top:14px;flex-wrap:wrap">
-        <div><div style="font-size:10px;color:var(--sub)">Total Aset</div><div style="font-family:var(--mono);font-size:14px;color:var(--blue)" id="dash-aset">Rp 0</div></div>
-        <div><div style="font-size:10px;color:var(--sub)">Total Hutang</div><div style="font-family:var(--mono);font-size:14px;color:var(--red)" id="dash-hutang">Rp 0</div></div>
-        <div><div style="font-size:10px;color:var(--sub)">Bulan Ini: Pemasukan</div><div style="font-family:var(--mono);font-size:14px;color:var(--grn)" id="dash-inc">Rp 0</div></div>
-        <div><div style="font-size:10px;color:var(--sub)">Bulan Ini: Pengeluaran</div><div style="font-family:var(--mono);font-size:14px;color:var(--red)" id="dash-exp">Rp 0</div></div>
-        <div><div style="font-size:10px;color:var(--sub)">Sisa / Tabungan</div><div style="font-family:var(--mono);font-size:14px" id="dash-sav">Rp 0</div></div>
+    <div style="
+      background:linear-gradient(135deg,#0e1a30 0%,#0a1222 55%,#0c1630 100%);
+      border:1px solid rgba(0,212,168,.18);border-radius:22px;
+      padding:28px 32px;margin-bottom:20px;
+      position:relative;overflow:hidden;
+      box-shadow:
+        0 4px 12px rgba(0,0,0,.6),
+        0 12px 36px rgba(0,0,0,.45),
+        0 28px 64px rgba(0,0,0,.3),
+        0 0 0 1px rgba(0,212,168,.07),
+        inset 0 1px 0 rgba(255,255,255,.065),
+        0 0 80px rgba(0,212,168,.05);
+    ">
+      <div style="position:absolute;top:-80px;right:-80px;width:320px;height:320px;background:radial-gradient(circle,rgba(0,212,168,.07),transparent 70%);pointer-events:none"></div>
+      <div style="position:absolute;bottom:-60px;left:60px;width:200px;height:200px;background:radial-gradient(circle,rgba(79,139,255,.05),transparent 70%);pointer-events:none"></div>
+      <div style="position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,212,168,.6),rgba(255,255,255,.3),rgba(79,139,255,.5),rgba(0,212,168,.6),transparent)"></div>
+      <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.18em;margin-bottom:10px;display:flex;align-items:center;gap:8px">
+        <span style="width:16px;height:2px;background:linear-gradient(90deg,var(--grn),transparent);display:inline-block;border-radius:2px;box-shadow:0 0 8px rgba(0,212,168,.5)"></span>
+        Kekayaan Bersih
+        <span style="font-size:9px;color:rgba(77,96,112,.6);font-weight:400;letter-spacing:.04em;text-transform:none">(Total Aset − Total Hutang)</span>
+      </div>
+      <div style="font-family:var(--serif);font-size:42px;color:var(--grn);letter-spacing:-.02em;
+        text-shadow:0 0 24px rgba(0,212,168,.5),0 0 60px rgba(0,212,168,.2),0 0 120px rgba(0,212,168,.08);
+        position:relative;line-height:1" id="dash-nw">Rp 0</div>
+      <div style="display:flex;flex-wrap:wrap;margin-top:22px;border-top:1px solid rgba(255,255,255,.055);padding-top:18px;gap:0">
+        <div style="padding:0 24px 0 0;border-right:1px solid rgba(255,255,255,.055)">
+          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.1em;margin-bottom:5px">Total Aset</div>
+          <div style="font-family:var(--mono);font-size:16px;color:var(--blue);font-weight:700;text-shadow:0 0 16px rgba(79,139,255,.35)" id="dash-aset">Rp 0</div>
+        </div>
+        <div style="padding:0 24px;border-right:1px solid rgba(255,255,255,.055)">
+          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.1em;margin-bottom:5px">Total Hutang</div>
+          <div style="font-family:var(--mono);font-size:16px;color:var(--red);font-weight:700" id="dash-hutang">Rp 0</div>
+        </div>
+        <div style="padding:0 24px;border-right:1px solid rgba(255,255,255,.055)">
+          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.1em;margin-bottom:5px">Pemasukan Bulan Ini</div>
+          <div style="font-family:var(--mono);font-size:16px;color:var(--grn);font-weight:700;text-shadow:0 0 14px rgba(0,212,168,.3)" id="dash-inc">Rp 0</div>
+        </div>
+        <div style="padding:0 24px;border-right:1px solid rgba(255,255,255,.055)">
+          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.1em;margin-bottom:5px">Pengeluaran Bulan Ini</div>
+          <div style="font-family:var(--mono);font-size:16px;color:var(--red);font-weight:700" id="dash-exp">Rp 0</div>
+        </div>
+        <div style="padding:0 0 0 24px">
+          <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.1em;margin-bottom:5px">Sisa / Tabungan</div>
+          <div style="font-family:var(--mono);font-size:16px;font-weight:700;color:var(--txt)" id="dash-sav">Rp 0</div>
+        </div>
       </div>
     </div>
 
@@ -455,20 +945,20 @@ textarea{resize:vertical;min-height:60px;line-height:1.5}
       <div class="card">
         <div class="ct">Panduan 50/30/20</div>
         <div style="display:flex;flex-direction:column;gap:10px">
-          <div style="background:var(--surf);border-radius:10px;padding:14px;border-left:3px solid var(--blue)">
+          <div style="background:linear-gradient(135deg,rgba(79,139,255,.08),rgba(79,139,255,.04));border-radius:12px;padding:16px;border-left:3px solid var(--blue);border:1px solid rgba(79,139,255,.15);border-left:3px solid var(--blue)">
             <div style="font-size:13px;font-weight:600;color:var(--blue);margin-bottom:4px">50% — Kebutuhan Pokok</div>
             <div style="font-size:11px;color:var(--sub);line-height:1.7">Makanan, transportasi, listrik, air, sewa/cicilan rumah. Ini kebutuhan yang tidak bisa dikurangi.</div>
-            <div style="font-size:12px;font-family:var(--mono);color:var(--blue);margin-top:6px" id="rule-50">Rp 0</div>
+            <div style="font-size:13px;font-family:var(--mono);font-weight:700;color:var(--blue);margin-top:8px;text-shadow:0 0 12px rgba(79,139,255,.3)" id="rule-50">Rp 0</div>
           </div>
-          <div style="background:var(--surf);border-radius:10px;padding:14px;border-left:3px solid var(--gold)">
+          <div style="background:linear-gradient(135deg,rgba(245,158,11,.08),rgba(245,158,11,.04));border-radius:12px;padding:16px;border:1px solid rgba(245,158,11,.15);border-left:3px solid var(--gold)">
             <div style="font-size:13px;font-weight:600;color:var(--gold);margin-bottom:4px">30% — Keinginan</div>
             <div style="font-size:11px;color:var(--sub);line-height:1.7">Hiburan, makan di luar, belanja, berlangganan. Boleh dinikmati tapi dikontrol.</div>
-            <div style="font-size:12px;font-family:var(--mono);color:var(--gold);margin-top:6px" id="rule-30">Rp 0</div>
+            <div style="font-size:13px;font-family:var(--mono);font-weight:700;color:var(--gold);margin-top:8px;text-shadow:0 0 12px rgba(245,158,11,.3)" id="rule-30">Rp 0</div>
           </div>
-          <div style="background:var(--surf);border-radius:10px;padding:14px;border-left:3px solid var(--grn)">
+          <div style="background:linear-gradient(135deg,rgba(0,212,168,.08),rgba(0,212,168,.04));border-radius:12px;padding:16px;border:1px solid rgba(0,212,168,.15);border-left:3px solid var(--grn)">
             <div style="font-size:13px;font-weight:600;color:var(--grn);margin-bottom:4px">20% — Tabungan & Investasi</div>
             <div style="font-size:11px;color:var(--sub);line-height:1.7">Dana darurat, tabungan tujuan, investasi saham/reksa dana. Bayar dirimu sendiri dulu.</div>
-            <div style="font-size:12px;font-family:var(--mono);color:var(--grn);margin-top:6px" id="rule-20">Rp 0</div>
+            <div style="font-size:13px;font-family:var(--mono);font-weight:700;color:var(--grn);margin-top:8px;text-shadow:0 0 12px rgba(0,212,168,.3)" id="rule-20">Rp 0</div>
           </div>
         </div>
       </div>
@@ -673,26 +1163,27 @@ textarea{resize:vertical;min-height:60px;line-height:1.5}
 </div><!-- end app -->
 
 <!-- GS MODAL -->
-<div id="gs-mo" style="position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:9100;display:none;align-items:center;justify-content:center;padding:16px">
-  <div style="background:var(--card);border:1px solid var(--bdr);border-radius:16px;max-width:480px;width:100%">
-    <div style="background:var(--surf);border-radius:16px 16px 0 0;padding:20px 24px;border-bottom:1px solid var(--bdr)">
-      <div style="font-size:15px;font-weight:600">🔗 Hubungkan Google Sheets</div>
-      <div style="font-size:11px;color:var(--sub);margin-top:3px">Backup & sync data ke Google Sheets kamu</div>
+<div id="gs-mo" style="position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:9100;display:none;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(8px)">
+  <div style="background:linear-gradient(145deg,#0d1428,#090e20);border:1px solid rgba(79,139,255,.2);border-radius:20px;max-width:480px;width:100%;box-shadow:0 32px 80px rgba(0,0,0,.6),0 0 0 1px rgba(79,139,255,.06)">
+    <div style="background:linear-gradient(135deg,rgba(79,139,255,.07),rgba(167,139,250,.05));border-radius:20px 20px 0 0;padding:22px 26px;border-bottom:1px solid rgba(79,139,255,.12);position:relative">
+      <div style="position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(79,139,255,.5),rgba(167,139,250,.3),transparent);border-radius:20px 20px 0 0"></div>
+      <div style="font-size:15px;font-weight:700;color:var(--txt)">🔗 Hubungkan Google Sheets</div>
+      <div style="font-size:11px;color:var(--sub);margin-top:4px">Backup & sync data ke Google Sheets kamu</div>
     </div>
-    <div style="padding:20px 24px">
-      <div style="background:var(--surf);border-radius:8px;padding:12px;font-size:11px;color:var(--sub);line-height:1.9;margin-bottom:14px">
-        1. Buka <a href="https://sheets.new" target="_blank" style="color:var(--blue)">sheets.new</a> → beri nama "FinanceJournal Pro"<br>
+    <div style="padding:22px 26px">
+      <div style="background:rgba(79,139,255,.06);border:1px solid rgba(79,139,255,.12);border-radius:10px;padding:14px;font-size:11px;color:var(--sub);line-height:2;margin-bottom:16px">
+        1. Buka <a href="https://sheets.new" target="_blank" style="color:var(--blue);font-weight:600">sheets.new</a> → beri nama "FinanceJournal Pro"<br>
         2. Extensions → Apps Script → paste script .gs → Save<br>
         3. Deploy → New Deployment → Web app → Execute as: Me → Anyone<br>
         4. Copy URL → paste di bawah
       </div>
       <div class="fg"><label class="lb">Web App URL</label>
         <input type="text" id="gs-url" placeholder="https://script.google.com/macros/s/.../exec" oninput="onGsUrl()" style="font-size:11px;font-family:var(--mono)">
-        <div id="gs-hint" style="font-size:10px;color:var(--sub);margin-top:3px">Paste URL dari Apps Script deployment</div>
+        <div id="gs-hint" style="font-size:10px;color:var(--sub);margin-top:4px">Paste URL dari Apps Script deployment</div>
       </div>
-      <div id="gs-test-res" style="display:none;margin-top:8px;padding:9px;border-radius:6px;font-size:11px"></div>
+      <div id="gs-test-res" style="display:none;margin-top:8px;padding:9px;border-radius:8px;font-size:11px"></div>
     </div>
-    <div style="padding:12px 24px;border-top:1px solid var(--bdr);display:flex;gap:8px;justify-content:flex-end">
+    <div style="padding:14px 26px;border-top:1px solid rgba(120,160,255,.08);display:flex;gap:8px;justify-content:flex-end;background:rgba(0,0,0,.15);border-radius:0 0 20px 20px">
       <button class="btn bh" onclick="closeGSModal()">Batal</button>
       <button class="btn bb" id="gs-btn-test" onclick="testGS()" disabled>🔌 Test</button>
       <button class="btn bg" id="gs-btn-conn" onclick="connectGS()" disabled>Sambungkan ▶</button>
@@ -1625,18 +2116,18 @@ function saveRekening(){
 })();
 </script>
 
-<div id="rek-mo" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:999;align-items:center;justify-content:center;padding:16px">
-  <div style="background:var(--surf);border:1px solid var(--bdr);border-radius:16px;padding:24px;width:100%;max-width:480px;max-height:90vh;overflow-y:auto">
-    <div class="fb" style="margin-bottom:18px">
-      <div style="font-size:16px;font-weight:700">💳 Edit Saldo Rekening & E-Wallet</div>
-      <button class="bsm" onclick="closeRekeningModal()">✕</button>
+<div id="rek-mo" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:999;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(8px)">
+  <div style="background:linear-gradient(145deg,#0d1428,#090e20);border:1px solid rgba(0,212,168,.18);border-radius:20px;padding:26px;width:100%;max-width:480px;max-height:90vh;overflow-y:auto;box-shadow:0 32px 80px rgba(0,0,0,.6)">
+    <div class="fb" style="margin-bottom:20px">
+      <div style="font-size:16px;font-weight:700;color:var(--txt)">💳 Edit Saldo Rekening & E-Wallet</div>
+      <button class="bsm" onclick="closeRekeningModal()" style="border-radius:8px">✕</button>
     </div>
-    <div style="font-size:10px;color:var(--sub);font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px">🏦 Bank</div>
-    <div class="fr fr2" style="margin-bottom:10px">
+    <div style="font-size:9px;color:var(--sub);font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px;display:flex;align-items:center;gap:6px"><span style="width:12px;height:1px;background:linear-gradient(90deg,var(--blue),transparent);display:inline-block"></span>🏦 Rekening Bank</div>
+    <div class="fr fr2" style="margin-bottom:8px">
       <div class="fg"><label class="lb">BNI</label><input type="number" id="rek-BNI" placeholder="0" min="0"></div>
       <div class="fg"><label class="lb">JAGO</label><input type="number" id="rek-JAGO" placeholder="0" min="0"></div>
     </div>
-    <div class="fr fr2" style="margin-bottom:10px">
+    <div class="fr fr2" style="margin-bottom:8px">
       <div class="fg"><label class="lb">BRI</label><input type="number" id="rek-BRI" placeholder="0" min="0"></div>
       <div class="fg"><label class="lb">MANDIRI</label><input type="number" id="rek-MANDIRI" placeholder="0" min="0"></div>
     </div>
@@ -1644,8 +2135,8 @@ function saveRekening(){
       <div class="fg"><label class="lb">BCA</label><input type="number" id="rek-BCA" placeholder="0" min="0"></div>
       <div class="fg"></div>
     </div>
-    <div style="font-size:10px;color:var(--sub);font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px">📱 E-Wallet</div>
-    <div class="fr fr2" style="margin-bottom:10px">
+    <div style="font-size:9px;color:var(--sub);font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px;display:flex;align-items:center;gap:6px"><span style="width:12px;height:1px;background:linear-gradient(90deg,var(--purple),transparent);display:inline-block"></span>📱 E-Wallet</div>
+    <div class="fr fr2" style="margin-bottom:8px">
       <div class="fg"><label class="lb">DANA</label><input type="number" id="rek-DANA" placeholder="0" min="0"></div>
       <div class="fg"><label class="lb">GOPAY</label><input type="number" id="rek-GOPAY" placeholder="0" min="0"></div>
     </div>
@@ -1661,43 +2152,8 @@ function saveRekening(){
 </div>
 
 <!-- QUICK REKENING TRANSACTION MODAL -->
-<div id="rek-quick-mo" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:9200;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(6px)" onclick="if(event.target===this)closeQuickRek()">
+<div id="rek-quick-mo" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:9200;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(8px)" onclick="if(event.target===this)closeQuickRek()">
   <div class="qrk-inner" style="width:100%;display:flex;justify-content:center"></div>
-</div>
-
-<div id="rek-mo" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:999;align-items:center;justify-content:center;padding:16px">
-  <div style="background:var(--surf);border:1px solid var(--bdr);border-radius:16px;padding:24px;width:100%;max-width:480px;max-height:90vh;overflow-y:auto">
-    <div class="fb" style="margin-bottom:18px">
-      <div style="font-size:16px;font-weight:700">💳 Edit Saldo Rekening & E-Wallet</div>
-      <button class="bsm" onclick="closeRekeningModal()">✕</button>
-    </div>
-    <div style="font-size:10px;color:var(--sub);font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px">🏦 Bank</div>
-    <div class="fr fr2" style="margin-bottom:10px">
-      <div class="fg"><label class="lb">BNI</label><input type="number" id="rek-BNI" placeholder="0" min="0"></div>
-      <div class="fg"><label class="lb">JAGO</label><input type="number" id="rek-JAGO" placeholder="0" min="0"></div>
-    </div>
-    <div class="fr fr2" style="margin-bottom:10px">
-      <div class="fg"><label class="lb">BRI</label><input type="number" id="rek-BRI" placeholder="0" min="0"></div>
-      <div class="fg"><label class="lb">MANDIRI</label><input type="number" id="rek-MANDIRI" placeholder="0" min="0"></div>
-    </div>
-    <div class="fr fr2" style="margin-bottom:18px">
-      <div class="fg"><label class="lb">BCA</label><input type="number" id="rek-BCA" placeholder="0" min="0"></div>
-      <div class="fg"></div>
-    </div>
-    <div style="font-size:10px;color:var(--sub);font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px">📱 E-Wallet</div>
-    <div class="fr fr2" style="margin-bottom:10px">
-      <div class="fg"><label class="lb">DANA</label><input type="number" id="rek-DANA" placeholder="0" min="0"></div>
-      <div class="fg"><label class="lb">GOPAY</label><input type="number" id="rek-GOPAY" placeholder="0" min="0"></div>
-    </div>
-    <div class="fr fr2" style="margin-bottom:22px">
-      <div class="fg"><label class="lb">OVO</label><input type="number" id="rek-OVO" placeholder="0" min="0"></div>
-      <div class="fg"><label class="lb">LINKAJA</label><input type="number" id="rek-LINKAJA" placeholder="0" min="0"></div>
-    </div>
-    <div class="fe">
-      <button class="btn bh" onclick="closeRekeningModal()">Batal</button>
-      <button class="btn bg" onclick="saveRekening()">💾 Simpan Saldo</button>
-    </div>
-  </div>
 </div>
 </body>
 </html>
