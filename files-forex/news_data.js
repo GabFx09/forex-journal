@@ -1,486 +1,134 @@
-// Diperbarui: 17 May 2026 11:09 WIB
+// Diperbarui: 17 May 2026 07:04 WIB
 window.FK_DATA = {
-  "generated": "17 May 2026 11:09 WIB",
+  "generated": "17 May 2026 07:04 WIB",
   "kalender": {
-    "generated": "17 May 2026 11:09 WIB",
+    "generated": "17 May 2026 07:04 WIB",
     "events": [
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "07:30",
-        "currency": "CNY",
-        "impact": "medium",
-        "event": "CPI y/y",
-        "actual": "1.2%",
-        "forecast": "0.9%",
-        "previous": "1.0%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "CNY",
-        "impact": "medium",
-        "event": "PPI y/y",
-        "actual": "2.8%",
-        "forecast": "1.7%",
-        "previous": "0.5%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "19:45",
-        "currency": "USD",
+        "time_wib": "16:30",
+        "currency": "NZD",
         "impact": "low",
-        "event": "Cleveland Fed Inflation Expectations",
-        "actual": "3.7%",
+        "event": "BusinessNZ Services Index",
+        "actual": "",
         "forecast": "",
-        "previous": "3.1%"
+        "previous": "46.0"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "20:00",
-        "currency": "USD",
-        "impact": "low",
-        "event": "Existing Home Sales",
-        "actual": "4.02M",
-        "forecast": "4.05M",
-        "previous": "4.01M"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:01",
+        "time_wib": "17:01",
         "currency": "GBP",
         "impact": "low",
-        "event": "BRC Retail Sales Monitor y/y",
-        "actual": "-3.4%",
-        "forecast": "0.7%",
-        "previous": "3.1%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:30",
-        "currency": "JPY",
-        "impact": "low",
-        "event": "Household Spending y/y",
-        "actual": "-2.9%",
-        "forecast": "-1.4%",
-        "previous": "-1.8%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:50",
-        "currency": "JPY",
-        "impact": "low",
-        "event": "BOJ Summary of Opinions",
+        "event": "Rightmove HPI m/m",
         "actual": "",
         "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "07:30",
-        "currency": "AUD",
-        "impact": "low",
-        "event": "NAB Business Confidence",
-        "actual": "-24",
-        "forecast": "",
-        "previous": "-29"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "09:35",
-        "currency": "JPY",
-        "impact": "low",
-        "event": "10-y Bond Auction",
-        "actual": "2.54|3.9",
-        "forecast": "",
-        "previous": "2.35|2.6"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "11:00",
-        "currency": "JPY",
-        "impact": "low",
-        "event": "Leading Indicators",
-        "actual": "114.5%",
-        "forecast": "114.4%",
-        "previous": "113.3%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "12:00",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "German Final CPI m/m",
-        "actual": "0.6%",
-        "forecast": "0.6%",
-        "previous": "0.6%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "12:30",
-        "currency": "CHF",
-        "impact": "low",
-        "event": "PPI m/m",
-        "actual": "0.8%",
-        "forecast": "0.4%",
-        "previous": "0.2%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "13:15",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "German Buba President Nagel Speaks",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "USD",
-        "impact": "low",
-        "event": "FOMC Member Williams Speaks",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "14:00",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "Italian Industrial Production m/m",
-        "actual": "0.7%",
-        "forecast": "0.2%",
-        "previous": "0.2%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "15:00",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "German ZEW Economic Sentiment",
-        "actual": "-10.2",
-        "forecast": "-19.2",
-        "previous": "-17.2"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "ZEW Economic Sentiment",
-        "actual": "-9.1",
-        "forecast": "-21.6",
-        "previous": "-20.4"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "15:30",
-        "currency": "AUD",
-        "impact": "low",
-        "event": "Annual Budget Release",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "16:00",
-        "currency": "USD",
-        "impact": "low",
-        "event": "NFIB Small Business Index",
-        "actual": "95.9",
-        "forecast": "96.1",
-        "previous": "95.8"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "18:15",
-        "currency": "USD",
-        "impact": "low",
-        "event": "ADP Weekly Employment Change",
-        "actual": "33.0K",
-        "forecast": "",
-        "previous": "39.3K"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "18:30",
-        "currency": "USD",
-        "impact": "high",
-        "event": "Core CPI m/m",
-        "actual": "0.4%",
-        "forecast": "0.3%",
-        "previous": "0.2%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "USD",
-        "impact": "high",
-        "event": "CPI m/m",
-        "actual": "0.6%",
-        "forecast": "0.6%",
-        "previous": "0.9%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "USD",
-        "impact": "high",
-        "event": "CPI y/y",
-        "actual": "3.8%",
-        "forecast": "3.7%",
-        "previous": "3.3%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "19:10",
-        "currency": "USD",
-        "impact": "low",
-        "event": "FOMC Member Goolsbee Speaks",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "20:30",
-        "currency": "AUD",
-        "impact": "low",
-        "event": "CB Leading Index m/m",
-        "actual": "-0.6%",
-        "forecast": "",
-        "previous": "1.0%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "23:00",
-        "currency": "USD",
-        "impact": "low",
-        "event": "FOMC Member Goolsbee Speaks",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "23:01",
-        "currency": "USD",
-        "impact": "low",
-        "event": "10-y Bond Auction",
-        "actual": "4.47|2.4",
-        "forecast": "",
-        "previous": "4.28|2.4"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "00:00",
-        "currency": "USD",
-        "impact": "low",
-        "event": "Federal Budget Balance",
-        "actual": "215.0B",
-        "forecast": "157.2B",
-        "previous": "-164.1B"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "02:30",
-        "currency": "USD",
-        "impact": "low",
-        "event": "API Weekly Statistical Bulletin",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:50",
-        "currency": "JPY",
-        "impact": "low",
-        "event": "Bank Lending y/y",
-        "actual": "5.4%",
-        "forecast": "4.6%",
-        "previous": "4.8%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "JPY",
-        "impact": "low",
-        "event": "Current Account",
-        "actual": "3.90T",
-        "forecast": "2.95T",
-        "previous": "2.70T"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "07:30",
-        "currency": "AUD",
-        "impact": "medium",
-        "event": "Wage Price Index q/q",
-        "actual": "0.8%",
-        "forecast": "0.8%",
         "previous": "0.8%"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "09:00",
-        "currency": "NZD",
-        "impact": "low",
-        "event": "Inflation Expectations q/q",
-        "actual": "2.53%",
-        "forecast": "",
-        "previous": "2.37%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "11:00",
-        "currency": "JPY",
-        "impact": "low",
-        "event": "Economy Watchers Sentiment",
-        "actual": "40.8",
-        "forecast": "41.5",
-        "previous": "42.2"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "12:00",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "German WPI m/m",
-        "actual": "2.0%",
-        "forecast": "1.7%",
-        "previous": "2.7%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "12:45",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "French Final CPI m/m",
-        "actual": "1.0%",
-        "forecast": "1.0%",
-        "previous": "1.0%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "15:00",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "Flash Employment Change q/q",
-        "actual": "0.1%",
-        "forecast": "0.0%",
-        "previous": "0.2%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "Flash GDP q/q",
-        "actual": "0.1%",
-        "forecast": "0.1%",
-        "previous": "0.1%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "Industrial Production m/m",
-        "actual": "0.2%",
-        "forecast": "0.3%",
-        "previous": "0.2%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "15:35",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "German 30-y Bond Auction",
-        "actual": "3.62|1.3",
-        "forecast": "",
-        "previous": "3.58|1.4"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "18:30",
-        "currency": "USD",
-        "impact": "high",
-        "event": "Core PPI m/m",
-        "actual": "1.0%",
-        "forecast": "0.3%",
-        "previous": "0.2%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "USD",
-        "impact": "high",
-        "event": "PPI m/m",
-        "actual": "1.4%",
-        "forecast": "0.5%",
-        "previous": "0.7%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
         "time_wib": "19:30",
-        "currency": "GBP",
+        "currency": "CNY",
         "impact": "low",
-        "event": "CB Leading Index m/m",
-        "actual": "-0.7%",
+        "event": "New Home Prices m/m",
+        "actual": "",
         "forecast": "",
-        "previous": "-0.1%"
+        "previous": "-0.21%"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
         "time_wib": "20:00",
+        "currency": "CNY",
+        "impact": "low",
+        "event": "Fixed Asset Investment ytd/y",
+        "actual": "",
+        "forecast": "1.7%",
+        "previous": "1.7%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CNY",
+        "impact": "low",
+        "event": "Industrial Production y/y",
+        "actual": "",
+        "forecast": "6.0%",
+        "previous": "5.7%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CNY",
+        "impact": "low",
+        "event": "NBS Press Conference",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CNY",
+        "impact": "low",
+        "event": "Retail Sales y/y",
+        "actual": "",
+        "forecast": "2.0%",
+        "previous": "1.7%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CNY",
+        "impact": "low",
+        "event": "Unemployment Rate",
+        "actual": "",
+        "forecast": "5.3%",
+        "previous": "5.4%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CNY",
+        "impact": "low",
+        "event": "Foreign Direct Investment ytd/y",
+        "actual": "",
+        "forecast": "",
+        "previous": "-7.3%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "01:35",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "MPC Member Greene Speaks",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "02:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "Italian Trade Balance",
+        "actual": "",
+        "forecast": "5.25B",
+        "previous": "4.94B"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "02:30",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Mann Speaks",
@@ -491,140 +139,19 @@ window.FK_DATA = {
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "20:30",
-        "currency": "USD",
+        "time_wib": "Day 1",
+        "currency": "ALL",
         "impact": "low",
-        "event": "Crude Oil Inventories",
-        "actual": "-4.3M",
-        "forecast": "-2.0M",
-        "previous": "-2.3M"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "21:05",
-        "currency": "CAD",
-        "impact": "low",
-        "event": "Gov Council Member Alexopoulos Speaks",
+        "event": "G7 Meetings",
         "actual": "",
         "forecast": "",
         "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "21:30",
-        "currency": "USD",
-        "impact": "low",
-        "event": "FOMC Member Collins Speaks",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "23:01",
-        "currency": "USD",
-        "impact": "low",
-        "event": "30-y Bond Auction",
-        "actual": "5.05|2.3",
-        "forecast": "",
-        "previous": "4.88|2.4"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "23:15",
-        "currency": "USD",
-        "impact": "low",
-        "event": "FOMC Member Kashkari Speaks",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "23:30",
-        "currency": "CAD",
-        "impact": "low",
-        "event": "BOC Summary of Deliberations",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "00:40",
-        "currency": "USD",
-        "impact": "high",
-        "event": "Fed Chair Nomination Vote",
-        "actual": "Pass",
-        "forecast": "Pass",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "01:15",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "ECB President Lagarde Speaks",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "04:50",
-        "currency": "NZD",
-        "impact": "low",
-        "event": "Visitor Arrivals m/m",
-        "actual": "-3.0%",
-        "forecast": "",
-        "previous": "2.1%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:01",
-        "currency": "GBP",
-        "impact": "low",
-        "event": "RICS House Price Balance",
-        "actual": "-34%",
-        "forecast": "-25%",
-        "previous": "-25%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:50",
-        "currency": "JPY",
-        "impact": "low",
-        "event": "M2 Money Stock y/y",
-        "actual": "2.3%",
-        "forecast": "1.9%",
-        "previous": "2.0%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "09:35",
-        "currency": "JPY",
-        "impact": "low",
-        "event": "30-y Bond Auction",
-        "actual": "3.84|3.5",
-        "forecast": "",
-        "previous": "3.70|3.1"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
         "time_wib": "Sepanjang Hari",
-        "currency": "CHF",
+        "currency": "CAD",
         "impact": "holiday",
         "event": "Bank Holiday",
         "actual": "",
@@ -634,13 +161,134 @@ window.FK_DATA = {
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "12:00",
+        "time_wib": "08:00",
+        "currency": "USD",
+        "impact": "low",
+        "event": "NAHB Housing Market Index",
+        "actual": "",
+        "forecast": "34",
+        "previous": "34"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "14:00",
+        "currency": "USD",
+        "impact": "low",
+        "event": "TIC Long-Term Purchases",
+        "actual": "",
+        "forecast": "82.4B",
+        "previous": "58.6B"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "16:45",
+        "currency": "NZD",
+        "impact": "low",
+        "event": "PPI Input q/q",
+        "actual": "",
+        "forecast": "0.8%",
+        "previous": "-0.5%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "NZD",
+        "impact": "low",
+        "event": "PPI Output q/q",
+        "actual": "",
+        "forecast": "0.5%",
+        "previous": "0.1%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "17:30",
+        "currency": "AUD",
+        "impact": "low",
+        "event": "RBA Assist Gov Hunter Speaks",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "17:50",
+        "currency": "JPY",
+        "impact": "low",
+        "event": "Prelim GDP Price Index y/y",
+        "actual": "",
+        "forecast": "3.1%",
+        "previous": "3.4%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "JPY",
+        "impact": "low",
+        "event": "Prelim GDP q/q",
+        "actual": "",
+        "forecast": "0.4%",
+        "previous": "0.3%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "18:30",
+        "currency": "AUD",
+        "impact": "low",
+        "event": "Westpac Consumer Sentiment",
+        "actual": "",
+        "forecast": "",
+        "previous": "-12.5%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "19:30",
+        "currency": "AUD",
+        "impact": "low",
+        "event": "Monetary Policy Meeting Minutes",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "22:30",
+        "currency": "JPY",
+        "impact": "low",
+        "event": "Revised Industrial Production m/m",
+        "actual": "",
+        "forecast": "-0.5%",
+        "previous": "-0.5%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "JPY",
+        "impact": "low",
+        "event": "Tertiary Industry Activity m/m",
+        "actual": "",
+        "forecast": "-0.3%",
+        "previous": "-0.4%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "00:00",
         "currency": "GBP",
         "impact": "high",
-        "event": "GDP m/m",
-        "actual": "0.3%",
-        "forecast": "-0.1%",
-        "previous": "0.4%"
+        "event": "Claimant Count Change",
+        "actual": "",
+        "forecast": "25.9K",
+        "previous": "26.8K"
       },
       {
         "date": "2026-05-17",
@@ -648,84 +296,183 @@ window.FK_DATA = {
         "time_wib": "Sepanjang Hari",
         "currency": "GBP",
         "impact": "medium",
-        "event": "Prelim GDP q/q",
-        "actual": "0.6%",
+        "event": "Average Earnings Index 3m/y",
+        "actual": "",
+        "forecast": "3.8%",
+        "previous": "3.8%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "Unemployment Rate",
+        "actual": "",
+        "forecast": "4.9%",
+        "previous": "4.9%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "02:10",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "MPC Member Breeden Speaks",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Day 2",
+        "currency": "ALL",
+        "impact": "low",
+        "event": "G7 Meetings",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "03:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "Trade Balance",
+        "actual": "",
+        "forecast": "6.5B",
+        "previous": "7.0B"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "06:00",
+        "currency": "USD",
+        "impact": "low",
+        "event": "FOMC Member Waller Speaks",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "06:15",
+        "currency": "USD",
+        "impact": "low",
+        "event": "ADP Weekly Employment Change",
+        "actual": "",
+        "forecast": "",
+        "previous": "33.0K"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "06:30",
+        "currency": "CAD",
+        "impact": "high",
+        "event": "CPI m/m",
+        "actual": "",
         "forecast": "0.6%",
+        "previous": "0.9%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CAD",
+        "impact": "medium",
+        "event": "Common CPI y/y",
+        "actual": "",
+        "forecast": "2.6%",
+        "previous": "2.6%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CAD",
+        "impact": "medium",
+        "event": "Median CPI y/y",
+        "actual": "",
+        "forecast": "2.2%",
+        "previous": "2.3%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CAD",
+        "impact": "medium",
+        "event": "Trimmed CPI y/y",
+        "actual": "",
+        "forecast": "2.2%",
+        "previous": "2.2%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CAD",
+        "impact": "low",
+        "event": "Building Permits m/m",
+        "actual": "",
+        "forecast": "2.1%",
+        "previous": "-8.4%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CAD",
+        "impact": "low",
+        "event": "Core CPI m/m",
+        "actual": "",
+        "forecast": "",
         "previous": "0.2%"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
         "time_wib": "Sepanjang Hari",
-        "currency": "GBP",
+        "currency": "CAD",
         "impact": "low",
-        "event": "Construction Output m/m",
-        "actual": "1.5%",
-        "forecast": "-0.5%",
-        "previous": "0.5%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "GBP",
-        "impact": "low",
-        "event": "Goods Trade Balance",
-        "actual": "-27.2B",
-        "forecast": "-19.8B",
-        "previous": "-22.8B"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "GBP",
-        "impact": "low",
-        "event": "Index of Services 3m/3m",
-        "actual": "0.8%",
-        "forecast": "0.6%",
-        "previous": "0.6%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "GBP",
-        "impact": "low",
-        "event": "Industrial Production m/m",
-        "actual": "-0.2%",
-        "forecast": "-0.2%",
-        "previous": "0.3%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "GBP",
-        "impact": "low",
-        "event": "Manufacturing Production m/m",
-        "actual": "1.2%",
-        "forecast": "-0.1%",
+        "event": "NHPI m/m",
+        "actual": "",
+        "forecast": "0.0%",
         "previous": "-0.2%"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "GBP",
-        "impact": "low",
-        "event": "Prelim Business Investment q/q",
-        "actual": "0.7%",
-        "forecast": "1.1%",
-        "previous": "-2.5%"
+        "time_wib": "08:00",
+        "currency": "USD",
+        "impact": "medium",
+        "event": "Pending Home Sales m/m",
+        "actual": "",
+        "forecast": "1.2%",
+        "previous": "1.5%"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
         "time_wib": "Sepanjang Hari",
-        "currency": "EUR",
-        "impact": "holiday",
-        "event": "French Bank Holiday",
+        "currency": "NZD",
+        "impact": "low",
+        "event": "GDT Price Index",
+        "actual": "",
+        "forecast": "",
+        "previous": "1.5%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "14:30",
+        "currency": "USD",
+        "impact": "low",
+        "event": "API Weekly Statistical Bulletin",
         "actual": "",
         "forecast": "",
         "previous": ""
@@ -733,194 +480,161 @@ window.FK_DATA = {
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "EUR",
-        "impact": "holiday",
-        "event": "German Bank Holiday",
+        "time_wib": "17:00",
+        "currency": "USD",
+        "impact": "low",
+        "event": "FOMC Member Paulson Speaks",
         "actual": "",
         "forecast": "",
         "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "15:01",
-        "currency": "CNY",
-        "impact": "low",
-        "event": "M2 Money Supply y/y",
-        "actual": "8.6%",
-        "forecast": "8.5%",
-        "previous": "8.5%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "15:02",
-        "currency": "CNY",
-        "impact": "low",
-        "event": "New Loans",
-        "actual": "-10B",
-        "forecast": "320B",
-        "previous": "2990B"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
         "time_wib": "18:30",
-        "currency": "CAD",
+        "currency": "AUD",
         "impact": "low",
-        "event": "Wholesale Sales m/m",
-        "actual": "1.9%",
-        "forecast": "1.3%",
-        "previous": "2.4%"
+        "event": "MI Leading Index m/m",
+        "actual": "",
+        "forecast": "",
+        "previous": "-0.1%"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "USD",
-        "impact": "high",
-        "event": "Core Retail Sales m/m",
-        "actual": "0.7%",
-        "forecast": "0.7%",
-        "previous": "1.9%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "USD",
-        "impact": "high",
-        "event": "Retail Sales m/m",
-        "actual": "0.5%",
-        "forecast": "0.5%",
-        "previous": "1.6%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "USD",
-        "impact": "medium",
-        "event": "Unemployment Claims",
-        "actual": "211K",
-        "forecast": "205K",
-        "previous": "199K"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
-        "currency": "USD",
+        "time_wib": "19:00",
+        "currency": "CNY",
         "impact": "low",
-        "event": "Import Prices m/m",
-        "actual": "1.9%",
-        "forecast": "1.0%",
+        "event": "1-y Loan Prime Rate",
+        "actual": "",
+        "forecast": "3.00%",
+        "previous": "3.00%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CNY",
+        "impact": "low",
+        "event": "5-y Loan Prime Rate",
+        "actual": "",
+        "forecast": "3.50%",
+        "previous": "3.50%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "00:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "German PPI m/m",
+        "actual": "",
+        "forecast": "2.1%",
+        "previous": "2.5%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "GBP",
+        "impact": "high",
+        "event": "CPI y/y",
+        "actual": "",
+        "forecast": "3.0%",
+        "previous": "3.3%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "Core CPI y/y",
+        "actual": "",
+        "forecast": "2.6%",
+        "previous": "3.1%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "PPI Input m/m",
+        "actual": "",
+        "forecast": "1.1%",
+        "previous": "4.4%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "PPI Output m/m",
+        "actual": "",
+        "forecast": "0.9%",
         "previous": "0.9%"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "20:00",
-        "currency": "USD",
-        "impact": "low",
-        "event": "Business Inventories m/m",
-        "actual": "0.9%",
-        "forecast": "0.8%",
-        "previous": "0.4%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "20:13",
-        "currency": "USD",
-        "impact": "low",
-        "event": "Mortgage Delinquencies",
-        "actual": "4.44%",
-        "forecast": "",
-        "previous": "4.26%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "20:15",
-        "currency": "USD",
-        "impact": "low",
-        "event": "FOMC Member Schmid Speaks",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "20:30",
-        "currency": "USD",
-        "impact": "low",
-        "event": "Natural Gas Storage",
-        "actual": "85B",
-        "forecast": "86B",
-        "previous": "63B"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "21:15",
+        "time_wib": "Sepanjang Hari",
         "currency": "GBP",
         "impact": "low",
-        "event": "MPC Member Pill Speaks",
+        "event": "RPI y/y",
+        "actual": "",
+        "forecast": "3.7%",
+        "previous": "4.1%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "02:30",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "HPI y/y",
+        "actual": "",
+        "forecast": "0.8%",
+        "previous": "1.2%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "03:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "Final Core CPI y/y",
+        "actual": "",
+        "forecast": "2.2%",
+        "previous": "2.2%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "Final CPI y/y",
+        "actual": "",
+        "forecast": "3.0%",
+        "previous": "3.0%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "German 10-y Bond Auction",
         "actual": "",
         "forecast": "",
-        "previous": ""
+        "previous": "3.08|1.5"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "23:00",
-        "currency": "USD",
-        "impact": "low",
-        "event": "FOMC Member Hammack Speaks",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "03:45",
-        "currency": "USD",
-        "impact": "low",
-        "event": "FOMC Member Williams Speaks",
-        "actual": "",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "04:30",
-        "currency": "NZD",
-        "impact": "low",
-        "event": "BusinessNZ Manufacturing Index",
-        "actual": "50.5",
-        "forecast": "",
-        "previous": "52.8"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "04:45",
-        "currency": "NZD",
-        "impact": "low",
-        "event": "FPI m/m",
-        "actual": "0.0%",
-        "forecast": "",
-        "previous": "-0.6%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:00",
+        "time_wib": "07:15",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Barr Speaks",
@@ -931,32 +645,21 @@ window.FK_DATA = {
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "05:50",
-        "currency": "JPY",
+        "time_wib": "08:30",
+        "currency": "USD",
         "impact": "low",
-        "event": "PPI y/y",
-        "actual": "4.9%",
-        "forecast": "3.0%",
-        "previous": "2.9%"
+        "event": "Crude Oil Inventories",
+        "actual": "",
+        "forecast": "",
+        "previous": "-4.3M"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
         "time_wib": "12:00",
-        "currency": "JPY",
-        "impact": "low",
-        "event": "Prelim Machine Tool Orders y/y",
-        "actual": "45.1%",
-        "forecast": "",
-        "previous": "28.0%"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "14:00",
-        "currency": "EUR",
-        "impact": "low",
-        "event": "ECB Economic Bulletin",
+        "currency": "USD",
+        "impact": "high",
+        "event": "FOMC Meeting Minutes",
         "actual": "",
         "forecast": "",
         "previous": ""
@@ -964,35 +667,288 @@ window.FK_DATA = {
       {
         "date": "2026-05-17",
         "day": "Minggu",
-        "time_wib": "18:15",
-        "currency": "CAD",
+        "time_wib": "16:45",
+        "currency": "NZD",
         "impact": "low",
-        "event": "Housing Starts",
-        "actual": "279K",
-        "forecast": "244K",
-        "previous": "240K"
+        "event": "Trade Balance",
+        "actual": "",
+        "forecast": "842M",
+        "previous": "698M"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "17:00",
+        "currency": "AUD",
+        "impact": "low",
+        "event": "Flash Manufacturing PMI",
+        "actual": "",
+        "forecast": "",
+        "previous": "51.0"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "AUD",
+        "impact": "low",
+        "event": "Flash Services PMI",
+        "actual": "",
+        "forecast": "",
+        "previous": "50.7"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "17:50",
+        "currency": "JPY",
+        "impact": "low",
+        "event": "Core Machinery Orders m/m",
+        "actual": "",
+        "forecast": "-8.7%",
+        "previous": "13.6%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "JPY",
+        "impact": "low",
+        "event": "Trade Balance",
+        "actual": "",
+        "forecast": "-0.23T",
+        "previous": "0.09T"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
         "time_wib": "18:30",
-        "currency": "CAD",
+        "currency": "JPY",
         "impact": "low",
-        "event": "Foreign Securities Purchases",
-        "actual": "4.62B",
-        "forecast": "11.45B",
-        "previous": "5.84B"
+        "event": "Flash Manufacturing PMI",
+        "actual": "",
+        "forecast": "54.5",
+        "previous": "55.1"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "19:00",
+        "currency": "AUD",
+        "impact": "low",
+        "event": "MI Inflation Expectations",
+        "actual": "",
+        "forecast": "",
+        "previous": "5.9%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "19:30",
+        "currency": "AUD",
+        "impact": "high",
+        "event": "Employment Change",
+        "actual": "",
+        "forecast": "15.7K",
+        "previous": "17.9K"
       },
       {
         "date": "2026-05-17",
         "day": "Minggu",
         "time_wib": "Sepanjang Hari",
-        "currency": "CAD",
+        "currency": "AUD",
+        "impact": "high",
+        "event": "Unemployment Rate",
+        "actual": "",
+        "forecast": "4.3%",
+        "previous": "4.3%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "21:00",
+        "currency": "NZD",
         "impact": "low",
-        "event": "Manufacturing Sales m/m",
-        "actual": "3.0%",
-        "forecast": "3.5%",
-        "previous": "3.4%"
+        "event": "Credit Card Spending y/y",
+        "actual": "",
+        "forecast": "",
+        "previous": "2.1%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "01:15",
+        "currency": "EUR",
+        "impact": "medium",
+        "event": "French Flash Manufacturing PMI",
+        "actual": "",
+        "forecast": "52.3",
+        "previous": "52.8"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "EUR",
+        "impact": "medium",
+        "event": "French Flash Services PMI",
+        "actual": "",
+        "forecast": "46.6",
+        "previous": "46.5"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "01:30",
+        "currency": "EUR",
+        "impact": "medium",
+        "event": "German Flash Manufacturing PMI",
+        "actual": "",
+        "forecast": "51.0",
+        "previous": "51.4"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "EUR",
+        "impact": "medium",
+        "event": "German Flash Services PMI",
+        "actual": "",
+        "forecast": "47.1",
+        "previous": "46.9"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "02:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "Current Account",
+        "actual": "",
+        "forecast": "26.3B",
+        "previous": "24.9B"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "Flash Manufacturing PMI",
+        "actual": "",
+        "forecast": "51.8",
+        "previous": "52.2"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "Flash Services PMI",
+        "actual": "",
+        "forecast": "47.7",
+        "previous": "47.6"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "02:30",
+        "currency": "GBP",
+        "impact": "high",
+        "event": "Flash Manufacturing PMI",
+        "actual": "",
+        "forecast": "53.0",
+        "previous": "53.7"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "GBP",
+        "impact": "high",
+        "event": "Flash Services PMI",
+        "actual": "",
+        "forecast": "51.7",
+        "previous": "52.7"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "03:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "EU Economic Forecasts",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "10-y Bond Auction",
+        "actual": "",
+        "forecast": "",
+        "previous": "4.91|3.5"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "04:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "German Buba Monthly Report",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "CBI Industrial Order Expectations",
+        "actual": "",
+        "forecast": "-40",
+        "previous": "-38"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "06:00",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "MPC Member Taylor Speaks",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "06:30",
+        "currency": "USD",
+        "impact": "medium",
+        "event": "Philly Fed Manufacturing Index",
+        "actual": "",
+        "forecast": "17.9",
+        "previous": "26.7"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "USD",
+        "impact": "medium",
+        "event": "Unemployment Claims",
+        "actual": "",
+        "forecast": "210K",
+        "previous": "211K"
       },
       {
         "date": "2026-05-17",
@@ -1000,21 +956,10 @@ window.FK_DATA = {
         "time_wib": "Sepanjang Hari",
         "currency": "USD",
         "impact": "low",
-        "event": "Empire State Manufacturing Index",
-        "actual": "19.6",
-        "forecast": "7.3",
-        "previous": "11.0"
-      },
-      {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "19:15",
-        "currency": "USD",
-        "impact": "low",
-        "event": "Capacity Utilization Rate",
-        "actual": "76.1%",
-        "forecast": "75.8%",
-        "previous": "75.7%"
+        "event": "Building Permits",
+        "actual": "",
+        "forecast": "1.38M",
+        "previous": "1.37M"
       },
       {
         "date": "2026-05-17",
@@ -1022,48 +967,324 @@ window.FK_DATA = {
         "time_wib": "Sepanjang Hari",
         "currency": "USD",
         "impact": "low",
-        "event": "Industrial Production m/m",
-        "actual": "0.7%",
+        "event": "Housing Starts",
+        "actual": "",
+        "forecast": "1.40M",
+        "previous": "1.50M"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "07:45",
+        "currency": "USD",
+        "impact": "medium",
+        "event": "Flash Manufacturing PMI",
+        "actual": "",
+        "forecast": "53.6",
+        "previous": "54.5"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "USD",
+        "impact": "medium",
+        "event": "Flash Services PMI",
+        "actual": "",
+        "forecast": "51.1",
+        "previous": "51.0"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "08:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "Consumer Confidence",
+        "actual": "",
+        "forecast": "-21",
+        "previous": "-21"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "08:30",
+        "currency": "USD",
+        "impact": "low",
+        "event": "Natural Gas Storage",
+        "actual": "",
+        "forecast": "",
+        "previous": "85B"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "10:20",
+        "currency": "USD",
+        "impact": "low",
+        "event": "FOMC Member Barkin Speaks",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "16:45",
+        "currency": "NZD",
+        "impact": "low",
+        "event": "Core Retail Sales q/q",
+        "actual": "",
+        "forecast": "0.9%",
+        "previous": "1.5%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "NZD",
+        "impact": "low",
+        "event": "Retail Sales q/q",
+        "actual": "",
+        "forecast": "0.6%",
+        "previous": "0.9%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "17:01",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "GfK Consumer Confidence",
+        "actual": "",
+        "forecast": "-28",
+        "previous": "-25"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "17:30",
+        "currency": "JPY",
+        "impact": "low",
+        "event": "National Core CPI y/y",
+        "actual": "",
+        "forecast": "1.7%",
+        "previous": "1.8%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "00:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "German Final GDP q/q",
+        "actual": "",
         "forecast": "0.3%",
-        "previous": "-0.3%"
+        "previous": "0.3%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "German GfK Consumer Climate",
+        "actual": "",
+        "forecast": "-33.8",
+        "previous": "-33.3"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "GBP",
+        "impact": "medium",
+        "event": "Retail Sales m/m",
+        "actual": "",
+        "forecast": "-0.6%",
+        "previous": "0.7%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "GBP",
+        "impact": "low",
+        "event": "Public Sector Net Borrowing",
+        "actual": "",
+        "forecast": "20.5B",
+        "previous": "12.6B"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "02:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "German ifo Business Climate",
+        "actual": "",
+        "forecast": "84.1",
+        "previous": "84.4"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "ECOFIN Meetings",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "Eurogroup Meetings",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "06:30",
+        "currency": "CAD",
+        "impact": "medium",
+        "event": "Core Retail Sales m/m",
+        "actual": "",
+        "forecast": "0.9%",
+        "previous": "0.5%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CAD",
+        "impact": "medium",
+        "event": "Retail Sales m/m",
+        "actual": "",
+        "forecast": "0.7%",
+        "previous": "0.7%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CAD",
+        "impact": "low",
+        "event": "IPPI m/m",
+        "actual": "",
+        "forecast": "1.0%",
+        "previous": "2.4%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "CAD",
+        "impact": "low",
+        "event": "RMPI m/m",
+        "actual": "",
+        "forecast": "2.8%",
+        "previous": "12.0%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "07:00",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "Belgian NBB Business Climate",
+        "actual": "",
+        "forecast": "-14.5",
+        "previous": "-14.2"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "08:00",
+        "currency": "USD",
+        "impact": "medium",
+        "event": "Revised UoM Consumer Sentiment",
+        "actual": "",
+        "forecast": "48.2",
+        "previous": "48.2"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "USD",
+        "impact": "low",
+        "event": "CB Leading Index m/m",
+        "actual": "",
+        "forecast": "",
+        "previous": "-0.6%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "USD",
+        "impact": "low",
+        "event": "FOMC Member Waller Speaks",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "USD",
+        "impact": "low",
+        "event": "Revised UoM Inflation Expectations",
+        "actual": "",
+        "forecast": "",
+        "previous": "4.5%"
+      },
+      {
+        "date": "2026-05-17",
+        "day": "Minggu",
+        "time_wib": "Sepanjang Hari",
+        "currency": "EUR",
+        "impact": "low",
+        "event": "ECOFIN Meetings",
+        "actual": "",
+        "forecast": "",
+        "previous": ""
       }
     ]
   },
   "sentimen": {
-    "generated": "17 May 2026 11:09 WIB",
+    "generated": "17 May 2026 07:04 WIB",
     "summary": {
-      "total": 38,
-      "bullish": 7,
-      "bearish": 26,
+      "total": 36,
+      "bullish": 6,
+      "bearish": 25,
       "netral": 5,
-      "avg_score": -0.3539,
+      "avg_score": -0.3367,
       "overall": "Bearish",
       "currency_impact": [
-        {
-          "currency": "EUR",
-          "sentiment": "Bearish",
-          "score": -0.302,
-          "count": 3
-        },
         {
           "currency": "USD",
           "sentiment": "Bearish",
           "score": -0.42,
           "count": 1
+        },
+        {
+          "currency": "EUR",
+          "sentiment": "Bearish",
+          "score": -0.848,
+          "count": 1
         }
       ]
     },
     "items": [
-      {
-        "source": "Investing.com Forex",
-        "title": "Booming AI memicu rekor keuntungan chip memori, namun risiko siklus masih membayangi",
-        "url": "https://www.investing.com/news/stock-market-news/ai-boom-fuels-record-memorychip-profits-but-cyclical-risks-loom-4694500",
-        "summary": "",
-        "published": "17 May 2026 09:48 WIB",
-        "sentiment": "Bearish",
-        "score": -0.548,
-        "emoji": "🔴"
-      },
       {
         "source": "Investing.com Forex",
         "title": "Saham Rusia melemah pada penutupan perdagangan; Indeks MOEX Rusia tidak berubah",
@@ -1145,44 +1366,14 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Ketegangan Malaysia dan Norwegia Meningkat Karena Dibatalkannya Kesepakatan Rudal",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-norway-tensions-deepen-over-scrapped-missile-deal",
-        "summary": "Tensions between Malaysia and Norway heightened over a scrapped weapons deal as Oslo confirmed it had revoked export licenses tied to a naval strike missile system.",
-        "published": "17 May 2026 10:14 WIB",
-        "sentiment": "Bearish",
-        "score": -0.912,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Filipina Meminta Pengadilan Menolak Petisi Senator yang Dicari ICC",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/philippines-asks-court-to-deny-petition-of-senator-sought-by-icc",
-        "summary": "The Philippine government asked the Supreme Court to deny a petition by Senator Ronald Dela Rosa to stop his arrest after the International Criminal Court issued a warrant on allegations of crimes against humanity.",
-        "published": "17 May 2026 10:12 WIB",
-        "sentiment": "Bearish",
-        "score": -0.802,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Malaysia Mengumumkan Langkah-Langkah untuk Membantu Maskapai Penerbangan yang Terkena Perang Iran",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-unveils-measures-to-help-airlines-hit-by-iran-war",
-        "summary": "Malaysia introduced measures to ensure the operational stability of its aviation industry and ease the financial strain on airlines as they struggle with the impact of war in the Middle East.",
-        "published": "17 May 2026 09:55 WIB",
-        "sentiment": "Bearish",
-        "score": -0.622,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "WHO Menyatakan Darurat Kesehatan Global Wabah Ebola di Kongo",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/who-declares-congo-uganda-ebola-outbreak-global-health-emergency",
-        "summary": "The World Health Organization declared an Ebola outbreak in Democratic Republic of Congo and Uganda a public health emergency of international concern, warning that a rare virus strain with no approved vaccine or treatment may already be spreading more widely than detected.",
-        "published": "17 May 2026 08:31 WIB",
-        "sentiment": "Bearish",
-        "score": -0.925,
-        "emoji": "🔴"
+        "source": "Investing.com Forex",
+        "title": "Bagaimana 'ulang tahun Trump' masuk dalam daftar katalis untuk menjual saham di bulan Juni",
+        "url": "https://www.investing.com/news/stock-market-news/how-trump-birthday-found-itself-on-a-list-of-catalysts-to-sell-stocks-in-june-4694470",
+        "summary": "",
+        "published": "16 May 2026 22:31 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
       },
       {
         "source": "Bloomberg Markets",
@@ -1206,6 +1397,16 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
+        "title": "Strain Ebola Langka Tanpa Vaksin Terkait dengan 87 Kematian di Kongo",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
+        "summary": "A rare strain of Ebola with no approved vaccine or treatment circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing at least 87 people.",
+        "published": "16 May 2026 11:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.933,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
         "title": "Bloomberg Akhir Pekan Ini 16/5/2026",
         "url": "https://www.bloomberg.com/news/videos/2026-05-16/bloomberg-this-weekend-5-16-2026-video",
         "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Nicole Grajewski, Nonresident Scholar, Nuclear Policy Program, Carnegie Endowment for International",
@@ -1225,13 +1426,33 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "BBC World",
-        "title": "Video serangan drone Hizbullah menunjukkan taktik yang berkembang melawan Israel",
-        "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
-        "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
-        "published": "17 May 2026 06:10 WIB",
+        "source": "Bloomberg Markets",
+        "title": "India Memperketat Aturan Impor Perak di Tengah Tindakan Mempertahankan Rupee",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-16/india-tightens-silver-import-rules-amid-measures-to-defend-rupee",
+        "summary": "India tightened rules for imports of silver, one of a number of measures to preserve foreign-exchange reserves and defend the rupee after the currency sank to an all-time low.",
+        "published": "16 May 2026 21:53 WIB",
         "sentiment": "Bearish",
-        "score": -0.527,
+        "score": -0.202,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Pekan Wall Street | Peringatan Dalio, Perlombaan Senjata AI, Kekuatan Tiongkok Di Depan, Kebuntuan Pajak NYC",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-16/wall-street-week-dalio-s-warning-nyc-tax-standoff-video",
+        "summary": "This week, Ray Dalio explains why markets shrug off wars and why this time might be different. And, why are AI executives warning about the dangers of systems they are simultaneously racing to build? Plus, China’s massive investments in energy infrastructure are increasingly shaping the global compe",
+        "published": "16 May 2026 21:15 WIB",
+        "sentiment": "Bearish",
+        "score": -0.911,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Para Pimpinan Teknologi Menemani Trump dalam Perjalanan ke Tiongkok",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-16/tech-chiefs-accompany-trump-on-china-trip-video",
+        "summary": "President Trump arrived in Beijing for a high-stakes summit with Xi Jinping aimed at stabilizing US-China ties against the backdrop of the Iran war and the race to control and contain AI. Tech CEOs including Jensen Huang and Elon Musk tagged along, sending Nvidia, Tesla and Chinese AI-related stocks",
+        "published": "16 May 2026 19:57 WIB",
+        "sentiment": "Bearish",
+        "score": -0.557,
         "emoji": "🔴"
       },
       {
@@ -1276,6 +1497,26 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
+        "title": "Seorang pria terbunuh oleh hiu setinggi 13 kaki di Australia Barat",
+        "url": "https://www.bbc.com/news/articles/c1m2xy3dr20o?at_medium=RSS&at_campaign=rss",
+        "summary": "The attack occurred at Horseshoe Reef - north-west of the popular Rottnest Island near the city of Perth, local police say.",
+        "published": "16 May 2026 23:32 WIB",
+        "sentiment": "Bearish",
+        "score": -0.78,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC Top Stories",
+        "title": "Video serangan drone Hizbullah menunjukkan taktik yang berkembang melawan Israel",
+        "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
+        "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
+        "published": "17 May 2026 06:10 WIB",
+        "sentiment": "Bearish",
+        "score": -0.527,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC Top Stories",
         "title": "Polisi rahasia dan propaganda: Agen Tiongkok memata-matai ekspatriat di AS",
         "url": "https://www.bbc.com/news/articles/cm2p8z261ylo?at_medium=RSS&at_campaign=rss",
         "summary": "Experts say two espionage cases in the US highlight China's attempts to peddle influence globally over the past decade.",
@@ -1283,46 +1524,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.103,
         "emoji": "🟢"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Pertentangan kepemimpinan Partai Buruh menempatkan Brexit kembali menjadi sorotan politik",
-        "url": "https://www.bbc.com/news/articles/c5y7l265pe8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The UK's relationship with the EU is shaping up as a key issue for a possible Labour leadership contest and the coming by-election in the Makerfield.",
-        "published": "17 May 2026 09:14 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Bangaranga! Bulgaria memenangkan Eurovision - tetapi Inggris berada di urutan terakhir",
-        "url": "https://www.bbc.com/news/articles/c8d87v9v660o?at_medium=RSS&at_campaign=rss",
-        "summary": "Bulgarian singer Dara is a surprise winner beating Israel in second place, while the UK's Look Mum No Computer gets just one point.",
-        "published": "17 May 2026 09:10 WIB",
-        "sentiment": "Bullish",
-        "score": 0.651,
-        "emoji": "🟢"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "'Begini Bu, satu hal': Mengapa Inggris terus salah menilai Eurovision?",
-        "url": "https://www.bbc.com/news/articles/cy72e81dp28o?at_medium=RSS&at_campaign=rss",
-        "summary": "After four years of flops, the BBC has to think hard about how it approaches Eurovision in 2027.",
-        "published": "17 May 2026 09:13 WIB",
-        "sentiment": "Bearish",
-        "score": -0.71,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Perang Iran sedang berlangsung: Teheran merencanakan korban jiwa di Hormuz; Trump memperingatkan ‘waktu yang sangat buruk’",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/5/17/iran-war-live-tehran-eyes-tolls-in-hormuz-trump-warns-of-very-bad-time?traffic_source=rss",
-        "summary": "Iran to reveal its plan for Strait of Hormuz soon as Israel attacks Lebanon and Gaza, killing and wounding dozens.",
-        "published": "17 May 2026 07:00 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
@@ -1372,6 +1573,16 @@ window.FK_DATA = {
         "published": "17 May 2026 03:00 WIB",
         "sentiment": "Bearish",
         "score": -0.717,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Menteri Kesehatan Kongo memperingatkan tingkat kematian akibat Ebola yang ‘sangat tinggi’ karena jumlah korban mencapai 80 orang",
+        "url": "https://www.aljazeera.com/news/2026/5/16/drc-health-minister-warns-very-high-ebola-lethality-rate-as-toll-hits-80?traffic_source=rss",
+        "summary": "Africa CDC concerned that outbreak of Bundibugyo strain could spread rapidly due to intense population movement.",
+        "published": "17 May 2026 01:35 WIB",
+        "sentiment": "Bearish",
+        "score": -0.157,
         "emoji": "🔴"
       },
       {
@@ -1437,7 +1648,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "17 May 2026 11:09 WIB",
+    "generated": "17 May 2026 07:04 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1445,31 +1656,25 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.565,
-        "count": 11
+        "score": -0.535,
+        "count": 10
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.565,
-        "count": 11
+        "score": -0.535,
+        "count": 10
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.67,
-        "count": 9
+        "score": -0.643,
+        "count": 8
       },
       {
         "pair": "EUR/USD",
-        "direction": "Netral →",
-        "score": 0.0,
-        "count": 1
-      },
-      {
-        "pair": "GBP/USD",
-        "direction": "Netral →",
-        "score": 0.0,
+        "direction": "Tekanan Turun ▼",
+        "score": -0.933,
         "count": 1
       },
       {
@@ -1486,46 +1691,6 @@ window.FK_DATA = {
       }
     ],
     "items": [
-      {
-        "source": "Bloomberg Markets",
-        "title": "Ketegangan Malaysia dan Norwegia Meningkat Karena Dibatalkannya Kesepakatan Rudal",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-norway-tensions-deepen-over-scrapped-missile-deal",
-        "summary": "Tensions between Malaysia and Norway heightened over a scrapped weapons deal as Oslo confirmed it had revoked export licenses tied to a naval strike missile system.",
-        "published": "17 May 2026 10:14 WIB",
-        "sentiment": "Bearish",
-        "score": -0.912,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Filipina Meminta Pengadilan Menolak Petisi Senator yang Dicari ICC",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/philippines-asks-court-to-deny-petition-of-senator-sought-by-icc",
-        "summary": "The Philippine government asked the Supreme Court to deny a petition by Senator Ronald Dela Rosa to stop his arrest after the International Criminal Court issued a warrant on allegations of crimes against humanity.",
-        "published": "17 May 2026 10:12 WIB",
-        "sentiment": "Bearish",
-        "score": -0.802,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Malaysia Mengumumkan Langkah-Langkah untuk Membantu Maskapai Penerbangan yang Terkena Perang Iran",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-unveils-measures-to-help-airlines-hit-by-iran-war",
-        "summary": "Malaysia introduced measures to ensure the operational stability of its aviation industry and ease the financial strain on airlines as they struggle with the impact of war in the Middle East.",
-        "published": "17 May 2026 09:55 WIB",
-        "sentiment": "Bearish",
-        "score": -0.622,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "WHO Menyatakan Darurat Kesehatan Global Wabah Ebola di Kongo",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/who-declares-congo-uganda-ebola-outbreak-global-health-emergency",
-        "summary": "The World Health Organization declared an Ebola outbreak in Democratic Republic of Congo and Uganda a public health emergency of international concern, warning that a rare virus strain with no approved vaccine or treatment may already be spreading more widely than detected.",
-        "published": "17 May 2026 08:31 WIB",
-        "sentiment": "Bearish",
-        "score": -0.925,
-        "emoji": "🔴"
-      },
       {
         "source": "Bloomberg Markets",
         "title": "Perlombaan Inventaris Global Meningkat di Tengah Bayangan Perang Iran",
@@ -1548,6 +1713,16 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
+        "title": "Strain Ebola Langka Tanpa Vaksin Terkait dengan 87 Kematian di Kongo",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo",
+        "summary": "A rare strain of Ebola with no approved vaccine or treatment circulated undetected for weeks in conflict-hit northeastern Democratic Republic of Congo before killing at least 87 people.",
+        "published": "16 May 2026 11:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.933,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
         "title": "Bloomberg Akhir Pekan Ini 16/5/2026",
         "url": "https://www.bloomberg.com/news/videos/2026-05-16/bloomberg-this-weekend-5-16-2026-video",
         "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Nicole Grajewski, Nonresident Scholar, Nuclear Policy Program, Carnegie Endowment for International",
@@ -1557,13 +1732,23 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "BBC World",
-        "title": "Video serangan drone Hizbullah menunjukkan taktik yang berkembang melawan Israel",
-        "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
-        "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
-        "published": "17 May 2026 06:10 WIB",
+        "source": "Bloomberg Markets",
+        "title": "Pekan Wall Street | Peringatan Dalio, Perlombaan Senjata AI, Kekuatan Tiongkok Di Depan, Kebuntuan Pajak NYC",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-16/wall-street-week-dalio-s-warning-nyc-tax-standoff-video",
+        "summary": "This week, Ray Dalio explains why markets shrug off wars and why this time might be different. And, why are AI executives warning about the dangers of systems they are simultaneously racing to build? Plus, China’s massive investments in energy infrastructure are increasingly shaping the global compe",
+        "published": "16 May 2026 21:15 WIB",
         "sentiment": "Bearish",
-        "score": -0.527,
+        "score": -0.911,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Para Pimpinan Teknologi Menemani Trump dalam Perjalanan ke Tiongkok",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-16/tech-chiefs-accompany-trump-on-china-trip-video",
+        "summary": "President Trump arrived in Beijing for a high-stakes summit with Xi Jinping aimed at stabilizing US-China ties against the backdrop of the Iran war and the race to control and contain AI. Tech CEOs including Jensen Huang and Elon Musk tagged along, sending Nvidia, Tesla and Chinese AI-related stocks",
+        "published": "16 May 2026 19:57 WIB",
+        "sentiment": "Bearish",
+        "score": -0.557,
         "emoji": "🔴"
       },
       {
@@ -1597,23 +1782,23 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "BBC Top Stories",
-        "title": "Pertentangan kepemimpinan Partai Buruh menempatkan Brexit kembali menjadi sorotan politik",
-        "url": "https://www.bbc.com/news/articles/c5y7l265pe8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The UK's relationship with the EU is shaping up as a key issue for a possible Labour leadership contest and the coming by-election in the Makerfield.",
-        "published": "17 May 2026 09:14 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
+        "source": "BBC World",
+        "title": "Seorang pria terbunuh oleh hiu setinggi 13 kaki di Australia Barat",
+        "url": "https://www.bbc.com/news/articles/c1m2xy3dr20o?at_medium=RSS&at_campaign=rss",
+        "summary": "The attack occurred at Horseshoe Reef - north-west of the popular Rottnest Island near the city of Perth, local police say.",
+        "published": "16 May 2026 23:32 WIB",
+        "sentiment": "Bearish",
+        "score": -0.78,
+        "emoji": "🔴"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Perang Iran sedang berlangsung: Teheran merencanakan korban jiwa di Hormuz; Trump memperingatkan ‘waktu yang sangat buruk’",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/5/17/iran-war-live-tehran-eyes-tolls-in-hormuz-trump-warns-of-very-bad-time?traffic_source=rss",
-        "summary": "Iran to reveal its plan for Strait of Hormuz soon as Israel attacks Lebanon and Gaza, killing and wounding dozens.",
-        "published": "17 May 2026 07:00 WIB",
+        "source": "BBC Top Stories",
+        "title": "Video serangan drone Hizbullah menunjukkan taktik yang berkembang melawan Israel",
+        "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
+        "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
+        "published": "17 May 2026 06:10 WIB",
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.527,
         "emoji": "🔴"
       },
       {
@@ -1669,26 +1854,16 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "17 May 2026 11:09 WIB",
+    "generated": "17 May 2026 07:04 WIB",
     "summary": {
-      "total": 12,
-      "bullish": 2,
-      "bearish": 3,
+      "total": 9,
+      "bullish": 0,
+      "bearish": 2,
       "netral": 7,
-      "avg_score": -0.0058,
-      "overall": "Netral"
+      "avg_score": -0.0878,
+      "overall": "Bearish"
     },
     "items": [
-      {
-        "source": "FinancialJuice",
-        "title": "Pinjaman bank Korea Selatan untuk rumah tangga pada bulan April meningkat 2,1 triliun won vs 0,5 triliun won pada bulan Maret: bank sentral",
-        "url": "https://www.financialjuice.com/News/9589712/S-Korea-April-bank-lending-to-households-rises-21-trillion-won-vs-05-trillion-won-in-March-central-bank.aspx?xy=rss",
-        "summary": "",
-        "published": "17 May 2026 10:00 WIB",
-        "sentiment": "Bullish",
-        "score": 0.813,
-        "emoji": "🟢"
-      },
       {
         "source": "FinancialJuice",
         "title": "Dewan Federal Reserve menunjuk Jerome Powell sebagai ketua sementara sampai Kevin Warsh dilantik: pernyataan",
@@ -1768,26 +1943,6 @@ window.FK_DATA = {
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Bangaranga! Bulgaria memenangkan Eurovision - tetapi Inggris berada di urutan terakhir",
-        "url": "https://www.bbc.com/news/articles/c8d87v9v660o?at_medium=RSS&at_campaign=rss",
-        "summary": "Bulgarian singer Dara is a surprise winner beating Israel in second place, while the UK's Look Mum No Computer gets just one point.",
-        "published": "17 May 2026 09:10 WIB",
-        "sentiment": "Bullish",
-        "score": 0.328,
-        "emoji": "🟢"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "'Begini Bu, satu hal': Mengapa Inggris terus salah menilai Eurovision?",
-        "url": "https://www.bbc.com/news/articles/cy72e81dp28o?at_medium=RSS&at_campaign=rss",
-        "summary": "After four years of flops, the BBC has to think hard about how it approaches Eurovision in 2027.",
-        "published": "17 May 2026 09:13 WIB",
-        "sentiment": "Bearish",
-        "score": -0.421,
-        "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
