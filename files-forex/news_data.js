@@ -1,8 +1,8 @@
-// Diperbarui: 17 May 2026 11:36 WIB
+// Diperbarui: 17 May 2026 11:47 WIB
 window.FK_DATA = {
-  "generated": "17 May 2026 11:36 WIB",
+  "generated": "17 May 2026 11:47 WIB",
   "kalender": {
-    "generated": "17 May 2026 11:36 WIB",
+    "generated": "17 May 2026 11:47 WIB",
     "events": [
       {
         "date": "2026-05-17",
@@ -1261,7 +1261,7 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "17 May 2026 11:36 WIB",
+    "generated": "17 May 2026 11:47 WIB",
     "summary": {
       "total": 38,
       "bullish": 7,
@@ -1668,7 +1668,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "17 May 2026 11:36 WIB",
+    "generated": "17 May 2026 11:47 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1900,7 +1900,7 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "17 May 2026 11:36 WIB",
+    "generated": "17 May 2026 11:47 WIB",
     "summary": {
       "total": 12,
       "bullish": 2,
