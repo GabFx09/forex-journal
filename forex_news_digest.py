@@ -824,11 +824,29 @@ def fetch_geopolitik_news_sources() -> list[NewsItem]:
 
 # ─── SCRAPER KALENDER EKONOMI ─────────────────────────────────────────────────
 
-def _et_to_wib(time_raw: str) -> str:
+# Waktu WIB default untuk event "Tentative" per mata uang
+# (berdasarkan jam rilis tipikal di zona waktu negara masing-masing → WIB UTC+7)
+_TENTATIVE_WIB: dict[str, str] = {
+    "CNY": "09:00",  # 10:00 CST (UTC+8)
+    "JPY": "07:50",  # 08:50 JST (UTC+9)
+    "AUD": "08:30",  # 11:30 AEST (UTC+10)
+    "NZD": "07:45",  # 09:45 NZST (UTC+12 → -1 day shift diabaikan, pakai jam lokal)
+    "GBP": "13:00",  # 07:00 BST (UTC+1) → Apr–Oct
+    "EUR": "15:00",  # 09:00 CEST (UTC+2) → Apr–Oct
+    "CHF": "15:00",  # 09:00 CEST (UTC+2)
+    "CAD": "19:30",  # 08:30 EDT (UTC-4) → Mar–Nov
+    "USD": "19:30",  # 08:30 EDT (UTC-4) → Mar–Nov
+}
+
+
+def _et_to_wib(time_raw: str, currency: str = "") -> str:
     """Konversi waktu ET (default ForexFactory) → WIB (UTC+7)."""
     clean = re.sub(r"\s+", "", time_raw.strip().lower())
-    if not clean or clean in ("allday", "tentative"):
+    if not clean or clean == "allday":
         return "Sepanjang Hari"
+    if clean == "tentative":
+        # Gunakan waktu rilis tipikal per mata uang; fallback ke 08:00 WIB
+        return _TENTATIVE_WIB.get(currency.upper(), "08:00")
     # EST (Nov–Feb) = UTC-5 → WIB = ET+12; EDT (Mar–Oct) = UTC-4 → WIB = ET+11
     offset = 11 if 3 <= datetime.now(tz=timezone.utc).month <= 10 else 12
     # Coba format lama "8:30am" dulu, lalu fallback ke format 24-jam "08:30" (format baru FF)
@@ -918,11 +936,12 @@ def fetch_forexfactory_calendar() -> list[EconomicEvent]:
                 elif "impact-gra" in combined or "impact-gray" in combined or "holiday" in combined:
                     impact = "holiday"
 
+            _ccy = (currency_el.get_text(strip=True) if currency_el else "").upper()
             events.append(EconomicEvent(
                 date_str=current_date,
                 day_id=current_day,
-                time_wib=_et_to_wib(time_el.get_text(strip=True) if time_el else ""),
-                currency=(currency_el.get_text(strip=True) if currency_el else "").upper(),
+                time_wib=_et_to_wib(time_el.get_text(strip=True) if time_el else "", _ccy),
+                currency=_ccy,
                 impact=impact,
                 event_name=event_el.get_text(strip=True),
                 actual=(actual_el.get_text(strip=True) if actual_el else ""),
