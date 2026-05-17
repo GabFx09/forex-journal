@@ -1,8 +1,8 @@
-// Diperbarui: 17 May 2026 11:47 WIB
+// Diperbarui: 17 May 2026 22:00 WIB
 window.FK_DATA = {
-  "generated": "17 May 2026 11:47 WIB",
+  "generated": "17 May 2026 22:00 WIB",
   "kalender": {
-    "generated": "17 May 2026 11:47 WIB",
+    "generated": "17 May 2026 22:00 WIB",
     "events": [
       {
         "date": "2026-05-17",
@@ -1261,25 +1261,31 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "17 May 2026 11:47 WIB",
+    "generated": "17 May 2026 22:00 WIB",
     "summary": {
-      "total": 38,
-      "bullish": 7,
+      "total": 37,
+      "bullish": 5,
       "bearish": 26,
-      "netral": 5,
-      "avg_score": -0.3567,
+      "netral": 6,
+      "avg_score": -0.4015,
       "overall": "Bearish",
       "currency_impact": [
         {
-          "currency": "EUR",
-          "sentiment": "Bearish",
-          "score": -0.302,
-          "count": 3
-        },
-        {
           "currency": "USD",
           "sentiment": "Bearish",
-          "score": -0.42,
+          "score": -0.129,
+          "count": 4
+        },
+        {
+          "currency": "EUR",
+          "sentiment": "Bearish",
+          "score": -0.75,
+          "count": 2
+        },
+        {
+          "currency": "GBP",
+          "sentiment": "Bearish",
+          "score": -0.532,
           "count": 1
         }
       ]
@@ -1287,13 +1293,73 @@ window.FK_DATA = {
     "items": [
       {
         "source": "Investing.com Forex",
+        "title": "India menaikkan tarif impor emas dan perak: Implikasinya bagi Titan",
+        "url": "https://www.investing.com/news/stock-market-news/india-raised-gold-silver-import-tariffs-the-implications-for-titan-4694541",
+        "summary": "",
+        "published": "17 May 2026 20:57 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Nvidia, retailer melaporkan untuk menjelaskan ledakan AI dan belanja konsumen",
+        "url": "https://www.investing.com/news/stock-market-news/nvidia-retailer-reports-to-shed-lighton-ai-boom-consumer-spending-4694530",
+        "summary": "",
+        "published": "17 May 2026 20:00 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Saham Arab Saudi melemah pada penutupan perdagangan; Tadawul Semua Saham turun 0,25%",
+        "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-025-4694528",
+        "summary": "",
+        "published": "17 May 2026 19:45 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Fokus investor beralih ke kebijakan fiskal The Fed seiring dengan meredanya ketegangan perang",
+        "url": "https://www.investing.com/news/stock-market-news/investor-focus-shifts-to-fed-fiscal-policy-as-war-tensions-recede-4694525",
+        "summary": "",
+        "published": "17 May 2026 19:15 WIB",
+        "sentiment": "Bearish",
+        "score": -0.925,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Analisis-Lonjakan imbal hasil obligasi merupakan risiko bagi pasar ekuitas yang tidak siap, para investor memperingatkan",
+        "url": "https://www.investing.com/news/stock-market-news/analysisbond-yield-spike-is-risk-to-unprepared-equities-market-investors-warn-4694516",
+        "summary": "",
+        "published": "17 May 2026 18:48 WIB",
+        "sentiment": "Bearish",
+        "score": -0.521,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Forex",
         "title": "Korea Selatan mengatakan akan mengambil semua opsi untuk menghindari serangan Samsung",
         "url": "https://www.investing.com/news/stock-market-news/south-korea-says-it-will-pursue-all-options-to-avoid-samsung-strike-4694503",
         "summary": "",
-        "published": "17 May 2026 11:06 WIB",
+        "published": "17 May 2026 17:54 WIB",
         "sentiment": "Bearish",
         "score": -0.402,
         "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "5 langkah analis besar AI: Kenaikan PT untuk Samsung dan SK Hynix, AMD diturunkan peringkatnya",
+        "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-pt-hikes-for-samsung-and-sk-hynix-amd-downgraded-4694462",
+        "summary": "",
+        "published": "17 May 2026 16:00 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
       },
       {
         "source": "Investing.com Forex",
@@ -1326,93 +1392,73 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "Investing.com Forex",
-        "title": "BlackRock mempertimbangkan investasi bernilai miliaran dolar dalam IPO SpaceX, lapor Information",
-        "url": "https://www.investing.com/news/stock-market-news/blackrock-weighs-multibilliondollar-investment-in-spacex-ipo-the-information-reports-4694472",
+        "source": "Investing.com Economy",
+        "title": "PDB Israel pada kuartal pertama menyusut 3,3% secara tahunan karena perang Iran yang semakin berat",
+        "url": "https://www.investing.com/news/economic-indicators/israel-q1-gdp-shrinks-33-annualised-as-iran-war-weighs-4694519",
         "summary": "",
-        "published": "17 May 2026 00:24 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Kepala pusat obat FDA dipecat setelah komisaris keluar, digantikan oleh Davis",
-        "url": "https://www.investing.com/news/stock-market-news/fda-drug-center-head-fired-after-commissioners-exit-4694463",
-        "summary": "",
-        "published": "17 May 2026 00:18 WIB",
+        "published": "17 May 2026 17:48 WIB",
         "sentiment": "Bearish",
-        "score": -0.637,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Kepala pusat obat FDA diperkirakan akan mengundurkan diri setelah komisaris keluar, kata sumber",
-        "url": "https://www.investing.com/news/stock-market-news/fda-drug-center-head-expected-to-leave-after-commissioners-exit-sources-say-4694476",
-        "summary": "",
-        "published": "17 May 2026 00:00 WIB",
-        "sentiment": "Bearish",
-        "score": -0.132,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "BlackRock mempertimbangkan investasi $5 miliar-$10 miliar dalam IPO SpaceX– Informasi",
-        "url": "https://www.investing.com/news/stock-market-news/blackrock-weighs-5-bln10-bln-investment-in-spacex-ipo-the-information-4694475",
-        "summary": "",
-        "published": "16 May 2026 23:49 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "NextEra dalam pembicaraan untuk mengakuisisi saingan utilitas Dominion- FT",
-        "url": "https://www.investing.com/news/stock-market-news/nextera-in-talks-to-acquire-utility-rival-dominion-ft-4694473",
-        "summary": "",
-        "published": "16 May 2026 23:26 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Ketegangan Malaysia dan Norwegia Meningkat Karena Dibatalkannya Kesepakatan Rudal",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-norway-tensions-deepen-over-scrapped-missile-deal",
-        "summary": "Tensions between Malaysia and Norway heightened over a scrapped weapons deal as Oslo confirmed it had revoked export licenses tied to a naval strike missile system.",
-        "published": "17 May 2026 10:14 WIB",
-        "sentiment": "Bearish",
-        "score": -0.912,
+        "score": -0.679,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Filipina Meminta Pengadilan Menolak Petisi Senator yang Dicari ICC",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/philippines-asks-court-to-deny-petition-of-senator-sought-by-icc",
-        "summary": "The Philippine government asked the Supreme Court to deny a petition by Senator Ronald Dela Rosa to stop his arrest after the International Criminal Court issued a warrant on allegations of crimes against humanity.",
-        "published": "17 May 2026 10:12 WIB",
+        "title": "Bisakah Kota New York Memungut Pajak pada Orang Kaya Tanpa Mengusir Mereka?",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/why-new-york-keeps-debating-taxes-on-the-wealthy-video",
+        "summary": "New York City’s effort to close a multibillion-dollar budget gap has triggered a high-profile clash between Mayor Zohran Mamdani and Wall Street leaders, including Citadel founder Ken Griffin. Mamdani’s proposed “pied-à-terre” tax on luxury second homes has become a flashpoint in a broader debate ov",
+        "published": "17 May 2026 21:04 WIB",
+        "sentiment": "Bullish",
+        "score": 0.748,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Rekam Serangan Drone di Moskow Tewaskan Tiga Orang, Targetkan Kilang",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/record-drone-attack-on-moscow-kills-three-targets-refinery",
+        "summary": "Russia’s capital and the surrounding Moscow region came under record drone attacks overnight, leaving at least three people killed and over a dozen wounded.",
+        "published": "17 May 2026 12:21 WIB",
         "sentiment": "Bearish",
-        "score": -0.802,
+        "score": -1.0,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Malaysia Mengumumkan Langkah-Langkah untuk Membantu Maskapai Penerbangan yang Terkena Perang Iran",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-unveils-measures-to-help-airlines-hit-by-iran-war",
-        "summary": "Malaysia introduced measures to ensure the operational stability of its aviation industry and ease the financial strain on airlines as they struggle with the impact of war in the Middle East.",
-        "published": "17 May 2026 09:55 WIB",
+        "title": "Harga Gas Nasional Mendekati Rekor Tertinggi",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/national-gas-prices-near-record-high-video",
+        "summary": "For decades — coincidentally, at least since the Iranian Revolution and hostage crisis of 1979-80 — the price at the pump has been a crucial lens through which Americans judge a president’s success or failure. In this conflict, the impact on gasoline prices matters more to individual Americans than ",
+        "published": "17 May 2026 20:54 WIB",
         "sentiment": "Bearish",
-        "score": -0.622,
+        "score": -0.87,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "WHO Menyatakan Darurat Kesehatan Global Wabah Ebola di Kongo",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/who-declares-congo-uganda-ebola-outbreak-global-health-emergency",
-        "summary": "The World Health Organization declared an Ebola outbreak in Democratic Republic of Congo and Uganda a public health emergency of international concern, warning that a rare virus strain with no approved vaccine or treatment may already be spreading more widely than detected.",
-        "published": "17 May 2026 08:31 WIB",
+        "title": "Pengajuan Etika Trump Mengungkapkan Perdagangan Saham Teknologi Tinggi yang Luar Biasa",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/trump-ethics-filings-reveal-high-tech-stock-trades-video",
+        "summary": "President Donald Trump’s latest financial disclosures show that he or his investment advisers made more than 3,700 trades in the first quarter, a flurry totaling tens of millions of dollars and involving major companies that have dealings with his administration. Bloomberg News Senior Equities Repor",
+        "published": "17 May 2026 20:36 WIB",
+        "sentiment": "Bullish",
+        "score": 0.08,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Pedagang Obligasi Melihat Titik Balik Menuju Era Baru Imbal Hasil Lebih Tinggi",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/bond-traders-see-tipping-point-toward-new-era-of-higher-yields",
+        "summary": "A new era of elevated borrowing costs is potentially underway as war-driven inflation angst intensifies in the US bond market, sending 30-year yields toward a two-decade high above 5%.",
+        "published": "17 May 2026 20:30 WIB",
         "sentiment": "Bearish",
-        "score": -0.925,
+        "score": -0.08,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Perdagangan Saat Perekonomian Global Bergeser",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/trading-while-the-global-economy-shifts-video",
+        "summary": "Financial Times columnist and coauthor of the new book \"How to Win a Trade War\" Soumaya Keynes joined Bloomberg This Weekend to discuss the evolving nature of global trade conflicts. Keynes suggests to hosts David Gura and Christina Ruffini that rather than trying to \"win\" a trade war, the goal shou",
+        "published": "17 May 2026 20:21 WIB",
+        "sentiment": "Bearish",
+        "score": -0.878,
         "emoji": "🔴"
       },
       {
@@ -1427,33 +1473,23 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
-        "title": "BDC Publik Menghargai Rasa Sakit Paling Banyak Sejak Covid",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-16/public-bdcs-are-pricing-in-most-pain-since-covid-credit-weekly",
-        "summary": "Private credit’s aggressive push to court retail investors has exposed the industry to a less familiar threat: public market volatility, which is dragging business development company shares toward their steepest discounts relative to their assets since the pandemic.",
-        "published": "17 May 2026 02:00 WIB",
+        "title": "Perwakilan Lawler: Saya Mendukung Terus Mempersenjatai Taiwan",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/rep-lawler-i-support-continuing-to-arm-taiwan-video",
+        "summary": "Rep. Mike Lawler (R-NY) joined Christina Ruffini and David Gura this morning on Bloomberg This Weekend for a wide-ranging discussion, including President Trump's impending decision to approve a $14 billion US arms sale to Taiwan, which could unleash a bipartisan backlash in Washington or face Beijin",
+        "published": "17 May 2026 19:14 WIB",
+        "sentiment": "Bullish",
+        "score": 0.527,
+        "emoji": "🟢"
+      },
+      {
+        "source": "BBC World",
+        "title": "Serangan pesawat tak berawak skala besar di Ukraina menewaskan tiga orang di wilayah Moskow, kata Rusia",
+        "url": "https://www.bbc.com/news/articles/c5ye480kxpmo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine's president says the strikes are a \"justified\" response to deadly Russian attacks on Ukrainian cities.",
+        "published": "17 May 2026 21:18 WIB",
         "sentiment": "Bearish",
-        "score": -0.772,
+        "score": -0.932,
         "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Bloomberg Akhir Pekan Ini 16/5/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-16/bloomberg-this-weekend-5-16-2026-video",
-        "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Nicole Grajewski, Nonresident Scholar, Nuclear Policy Program, Carnegie Endowment for International",
-        "published": "16 May 2026 23:55 WIB",
-        "sentiment": "Bullish",
-        "score": 0.727,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Olahraga, Media, Inflasi | Kuis Berita Runcing",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-16/sports-media-inflation-pointed-news-quiz-video",
-        "summary": "David Gura, Christina Ruffini, and Lisa Mateo of “Bloomberg This Weekend” are joined by Bloomberg News Senior Executive Editor Dave Merritt to play Pointed! Wager your points, leverage your bets and answer wisely. A new quiz is available to play each week on Bloomberg.com (Source: Bloomberg)",
-        "published": "16 May 2026 22:24 WIB",
-        "sentiment": "Bullish",
-        "score": 0.784,
-        "emoji": "🟢"
       },
       {
         "source": "BBC World",
@@ -1477,13 +1513,13 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Pemimpin senior ISIS tewas dalam operasi gabungan, kata AS dan Nigeria",
-        "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss",
-        "summary": "President Donald Trump said the operation eliminated \"the most active terrorist in the world\", Abu-Bilal al-Minuki.",
-        "published": "16 May 2026 18:44 WIB",
-        "sentiment": "Bearish",
-        "score": -0.817,
-        "emoji": "🔴"
+        "title": "Penantang yang didukung Trump mengalahkan senator Partai Republik yang memilih untuk menghukum presiden",
+        "url": "https://www.bbc.com/news/articles/cx21d4pxq23o?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump threw his full support behind Julia Letlow in Louisiana's high-stakes contest, branding the incumbent \"disloyal\".",
+        "published": "17 May 2026 21:16 WIB",
+        "sentiment": "Bullish",
+        "score": 0.226,
+        "emoji": "🟢"
       },
       {
         "source": "BBC World",
@@ -1506,14 +1542,14 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "BBC World",
-        "title": "Polisi rahasia dan propaganda: Agen Tiongkok memata-matai ekspatriat di AS",
-        "url": "https://www.bbc.com/news/articles/cm2p8z261ylo?at_medium=RSS&at_campaign=rss",
-        "summary": "Experts say two espionage cases in the US highlight China's attempts to peddle influence globally over the past decade.",
-        "published": "17 May 2026 06:15 WIB",
-        "sentiment": "Bullish",
-        "score": 0.103,
-        "emoji": "🟢"
+        "source": "BBC Top Stories",
+        "title": "'Begini Bu, satu hal': Mengapa Inggris terus salah menilai Eurovision?",
+        "url": "https://www.bbc.com/news/articles/cy72e81dp28o?at_medium=RSS&at_campaign=rss",
+        "summary": "After four years of flops, the BBC has to think hard about how it approaches Eurovision in 2027.",
+        "published": "17 May 2026 09:13 WIB",
+        "sentiment": "Bearish",
+        "score": -0.71,
+        "emoji": "🔴"
       },
       {
         "source": "BBC Top Stories",
@@ -1526,83 +1562,63 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "BBC Top Stories",
-        "title": "Bangaranga! Bulgaria memenangkan Eurovision - tetapi Inggris berada di urutan terakhir",
-        "url": "https://www.bbc.com/news/articles/c8d87v9v660o?at_medium=RSS&at_campaign=rss",
-        "summary": "Bulgarian singer Dara is a surprise winner beating Israel in second place, while the UK's Look Mum No Computer gets just one point.",
-        "published": "17 May 2026 09:10 WIB",
-        "sentiment": "Bullish",
-        "score": 0.651,
-        "emoji": "🟢"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "'Begini Bu, satu hal': Mengapa Inggris terus salah menilai Eurovision?",
-        "url": "https://www.bbc.com/news/articles/cy72e81dp28o?at_medium=RSS&at_campaign=rss",
-        "summary": "After four years of flops, the BBC has to think hard about how it approaches Eurovision in 2027.",
-        "published": "17 May 2026 09:13 WIB",
+        "source": "Al Jazeera",
+        "title": "Serangan drone memicu kebakaran di sekeliling pembangkit listrik tenaga nuklir Barakah UEA",
+        "url": "https://www.aljazeera.com/news/2026/5/17/drone-strike-sparks-fire-at-uaes-barakah-nuclear-power-plant?traffic_source=rss",
+        "summary": "Authorities say radiation levels remain normal, operations not affected.",
+        "published": "17 May 2026 21:07 WIB",
         "sentiment": "Bearish",
-        "score": -0.71,
+        "score": -0.352,
         "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
-        "title": "Perang Iran langsung: Teheran merencanakan korban jiwa di Hormuz; Trump memperingatkan ‘waktu yang sangat buruk’",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/5/17/iran-war-live-tehran-eyes-tolls-in-hormuz-trump-warns-of-very-bad-time?traffic_source=rss",
-        "summary": "Iran to reveal its plan for Strait of Hormuz soon as Israel attacks Lebanon and Gaza, killing and wounding dozens.",
-        "published": "17 May 2026 07:00 WIB",
+        "title": "Bagaimana dampak pembunuhan Izz al-Din al-Haddad terhadap operasi Hamas di Gaza?",
+        "url": "https://www.aljazeera.com/news/2026/5/17/how-will-izz-al-din-al-haddads-assassination-impact-hamas-gaza-operations?traffic_source=rss",
+        "summary": "Israel's killing of Hamas's top commander Izz al-Din al-Haddad tests the Gaza ceasefire as the group pledges to adapt.",
+        "published": "17 May 2026 20:41 WIB",
+        "sentiment": "Bearish",
+        "score": -0.738,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Gelombang baru serangan Israel menghantam Lebanon meskipun ada gencatan senjata",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/new-wave-of-israeli-strikes-pound-lebanon-despite-ceasefire?traffic_source=rss",
+        "summary": "New wave of Israeli strikes pound Lebanon despite ceasefire",
+        "published": "17 May 2026 20:36 WIB",
+        "sentiment": "Bearish",
+        "score": -0.532,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Israel berada di urutan kedua di Eurovision di tengah boikot dan reaksi balik",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/israel-comes-second-at-eurovision-amid-boycotts-and-backlash?traffic_source=rss",
+        "summary": "Bulgaria won Eurovision, pushing Israel into second place amid boycotts and protests over Israel’s war on Gaza.",
+        "published": "17 May 2026 19:05 WIB",
+        "sentiment": "Bearish",
+        "score": -0.79,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Senator Partai Republik Cassidy kalah dalam pemilihan pendahuluan di Louisiana setelah menentang Trump",
+        "url": "https://www.aljazeera.com/news/2026/5/17/republican-senator-cassidy-loses-louisiana-primary-after-opposing-trump?traffic_source=rss",
+        "summary": "Bill Cassidy is among seven Republican senators who voted to convict Trump after the January 6, 2021, Capitol attack.",
+        "published": "17 May 2026 17:29 WIB",
+        "sentiment": "Bearish",
+        "score": -0.74,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Serangan yang mengubah geometri perang",
+        "url": "https://www.aljazeera.com/opinions/2026/5/17/the-strike-that-changed-the-geometry-of-war?traffic_source=rss",
+        "summary": "Israel's attacks on Doha and Tehran demonstrate a new capability that may make warfare more unpredictable.",
+        "published": "17 May 2026 17:13 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Dua staf kampanye presiden terbunuh di Kolombia menjelang pemilu",
-        "url": "https://www.aljazeera.com/news/2026/5/16/two-presidential-campaign-staffers-killed-in-colombia-as-elections-near?traffic_source=rss",
-        "summary": "Rights office says the violence could hinder 'exercise of political rights' ahead of May vote to replace Gustavo Petro.",
-        "published": "17 May 2026 04:42 WIB",
-        "sentiment": "Bearish",
-        "score": -0.863,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Jajak pendapat menunjukkan Lula dan Bolsonaro sama-sama unggul sebelum pemilihan presiden Brasil",
-        "url": "https://www.aljazeera.com/news/2026/5/16/poll-shows-lula-and-bolsonaro-tied-before-brazils-presidential-election?traffic_source=rss",
-        "summary": "Right-wing challenger Flavio Bolsonaro faces new scrutiny over a film funding scandal, which could affect the race.",
-        "published": "17 May 2026 04:05 WIB",
-        "sentiment": "Bearish",
-        "score": -0.34,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Tentara Bolivia berupaya membersihkan jalan setelah 11 hari protes",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/16/bolivian-army-attempts-to-clear-roads-after-11-days-of-protests?traffic_source=rss",
-        "summary": "Military police in Bolivia arrested demonstrators, and used tear gas to disrupt road blockades after 11 days of protests",
-        "published": "17 May 2026 03:44 WIB",
-        "sentiment": "Bearish",
-        "score": -0.511,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Ribuan orang melakukan protes di final Eurovision ketika lima negara memboikot Israel",
-        "url": "https://www.aljazeera.com/news/2026/5/16/thousands-protest-at-eurovision-final-as-five-countries-boycott-over-israel?traffic_source=rss",
-        "summary": "Spain, Ireland, Iceland, Slovenia and Netherlands all withdrew in protest against Israel's participation amid Gaza war.",
-        "published": "17 May 2026 03:31 WIB",
-        "sentiment": "Bearish",
-        "score": -0.848,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Bisakah ketegangan baru Pakistan-Afghanistan menyebabkan bentrokan perbatasan lagi?",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/5/16/can-new-pakistan-afghanistan-tensions-lead-to-another-border-clash?traffic_source=rss",
-        "summary": "Both sides target each other despite a pause in fighting mediated in March.",
-        "published": "17 May 2026 03:00 WIB",
-        "sentiment": "Bearish",
-        "score": -0.717,
         "emoji": "🔴"
       },
       {
@@ -1636,65 +1652,57 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "MarketWatch",
-        "title": "Perang Iran bisa menimbulkan guncangan senilai $300 miliar – menaikkan suku bunga hipotek dan menekan upah",
-        "url": "https://www.marketwatch.com/story/the-iran-war-could-be-a-300-billion-shock-driving-up-mortgage-rates-and-squeezing-wages-06afc027?mod=mw_rss_topstories",
-        "summary": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable.",
-        "published": "17 May 2026 00:07 WIB",
-        "sentiment": "Bearish",
-        "score": -0.74,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC Economy",
-        "title": "Konten pembuat konten menjadi perhatian utama dalam promosi TV — dan bukan hanya untuk YouTube",
-        "url": "https://www.cnbc.com/2026/05/16/tv-upfronts-creator-content-youtube-fox-wbd.html",
-        "summary": "In media companies' annual pitch to advertisers this week, creator content played a bigger role as a new category for reaching younger audiences.",
-        "published": "16 May 2026 19:00 WIB",
-        "sentiment": "Bullish",
-        "score": 0.494,
-        "emoji": "🟢"
-      },
-      {
         "source": "CNBC World",
-        "title": "UEA mengatakan keputusannya untuk meninggalkan OPEC adalah langkah ekonomi strategis, bukan politik",
-        "url": "https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html",
-        "summary": "The United Arab Emirates, which joined OPEC in 1967, announced last month it was leaving the oil producer group on May 1.",
-        "published": "16 May 2026 20:13 WIB",
-        "sentiment": "Bullish",
-        "score": 0.382,
-        "emoji": "🟢"
+        "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
+        "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
+        "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
+        "published": "17 May 2026 19:14 WIB",
+        "sentiment": "Bearish",
+        "score": -0.34,
+        "emoji": "🔴"
       }
     ]
   },
   "geopolitik": {
-    "generated": "17 May 2026 11:47 WIB",
+    "generated": "17 May 2026 22:00 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
     "pairs_affected": [
       {
-        "pair": "USD/JPY",
+        "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.565,
+        "score": -0.501,
         "count": 11
       },
       {
-        "pair": "XAU/USD",
+        "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.565,
-        "count": 11
+        "score": -0.512,
+        "count": 10
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.67,
+        "score": -0.472,
         "count": 9
       },
       {
         "pair": "EUR/USD",
-        "direction": "Netral →",
-        "score": 0.0,
+        "direction": "Tekanan Turun ▼",
+        "score": -0.604,
+        "count": 5
+      },
+      {
+        "pair": "AUD/USD",
+        "direction": "Tekanan Turun ▼",
+        "score": -0.878,
+        "count": 1
+      },
+      {
+        "pair": "USD/CNY",
+        "direction": "Tekanan Turun ▼",
+        "score": -0.878,
         "count": 1
       },
       {
@@ -1704,57 +1712,51 @@ window.FK_DATA = {
         "count": 1
       },
       {
-        "pair": "CAD/USD",
+        "pair": "EUR",
         "direction": "Tekanan Naik ▲",
-        "score": 0.382,
-        "count": 1
-      },
-      {
-        "pair": "NOK/USD",
-        "direction": "Tekanan Naik ▲",
-        "score": 0.382,
+        "score": 0.08,
         "count": 1
       }
     ],
     "items": [
       {
         "source": "Bloomberg Markets",
-        "title": "Ketegangan Malaysia dan Norwegia Meningkat Karena Dibatalkannya Kesepakatan Rudal",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-norway-tensions-deepen-over-scrapped-missile-deal",
-        "summary": "Tensions between Malaysia and Norway heightened over a scrapped weapons deal as Oslo confirmed it had revoked export licenses tied to a naval strike missile system.",
-        "published": "17 May 2026 10:14 WIB",
+        "title": "Rekam Serangan Drone di Moskow Tewaskan Tiga Orang, Targetkan Kilang",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/record-drone-attack-on-moscow-kills-three-targets-refinery",
+        "summary": "Russia’s capital and the surrounding Moscow region came under record drone attacks overnight, leaving at least three people killed and over a dozen wounded.",
+        "published": "17 May 2026 12:21 WIB",
         "sentiment": "Bearish",
-        "score": -0.912,
+        "score": -1.0,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Filipina Meminta Pengadilan Menolak Petisi Senator yang Dicari ICC",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/philippines-asks-court-to-deny-petition-of-senator-sought-by-icc",
-        "summary": "The Philippine government asked the Supreme Court to deny a petition by Senator Ronald Dela Rosa to stop his arrest after the International Criminal Court issued a warrant on allegations of crimes against humanity.",
-        "published": "17 May 2026 10:12 WIB",
+        "title": "Harga Gas Nasional Mendekati Rekor Tertinggi",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/national-gas-prices-near-record-high-video",
+        "summary": "For decades — coincidentally, at least since the Iranian Revolution and hostage crisis of 1979-80 — the price at the pump has been a crucial lens through which Americans judge a president’s success or failure. In this conflict, the impact on gasoline prices matters more to individual Americans than ",
+        "published": "17 May 2026 20:54 WIB",
         "sentiment": "Bearish",
-        "score": -0.802,
+        "score": -0.87,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Malaysia Mengumumkan Langkah-Langkah untuk Membantu Maskapai Penerbangan yang Terkena Perang Iran",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-unveils-measures-to-help-airlines-hit-by-iran-war",
-        "summary": "Malaysia introduced measures to ensure the operational stability of its aviation industry and ease the financial strain on airlines as they struggle with the impact of war in the Middle East.",
-        "published": "17 May 2026 09:55 WIB",
+        "title": "Pedagang Obligasi Melihat Titik Balik Menuju Era Baru Imbal Hasil Lebih Tinggi",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/bond-traders-see-tipping-point-toward-new-era-of-higher-yields",
+        "summary": "A new era of elevated borrowing costs is potentially underway as war-driven inflation angst intensifies in the US bond market, sending 30-year yields toward a two-decade high above 5%.",
+        "published": "17 May 2026 20:30 WIB",
         "sentiment": "Bearish",
-        "score": -0.622,
+        "score": -0.08,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "WHO Menyatakan Darurat Kesehatan Global Wabah Ebola di Kongo",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/who-declares-congo-uganda-ebola-outbreak-global-health-emergency",
-        "summary": "The World Health Organization declared an Ebola outbreak in Democratic Republic of Congo and Uganda a public health emergency of international concern, warning that a rare virus strain with no approved vaccine or treatment may already be spreading more widely than detected.",
-        "published": "17 May 2026 08:31 WIB",
+        "title": "Perdagangan Saat Perekonomian Global Bergeser",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/trading-while-the-global-economy-shifts-video",
+        "summary": "Financial Times columnist and coauthor of the new book \"How to Win a Trade War\" Soumaya Keynes joined Bloomberg This Weekend to discuss the evolving nature of global trade conflicts. Keynes suggests to hosts David Gura and Christina Ruffini that rather than trying to \"win\" a trade war, the goal shou",
+        "published": "17 May 2026 20:21 WIB",
         "sentiment": "Bearish",
-        "score": -0.925,
+        "score": -0.878,
         "emoji": "🔴"
       },
       {
@@ -1769,23 +1771,23 @@ window.FK_DATA = {
       },
       {
         "source": "Bloomberg Markets",
-        "title": "BDC Publik Menghargai Rasa Sakit Paling Banyak Sejak Covid",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-16/public-bdcs-are-pricing-in-most-pain-since-covid-credit-weekly",
-        "summary": "Private credit’s aggressive push to court retail investors has exposed the industry to a less familiar threat: public market volatility, which is dragging business development company shares toward their steepest discounts relative to their assets since the pandemic.",
-        "published": "17 May 2026 02:00 WIB",
-        "sentiment": "Bearish",
-        "score": -0.772,
-        "emoji": "🔴"
+        "title": "Perwakilan Lawler: Saya Mendukung Terus Mempersenjatai Taiwan",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/rep-lawler-i-support-continuing-to-arm-taiwan-video",
+        "summary": "Rep. Mike Lawler (R-NY) joined Christina Ruffini and David Gura this morning on Bloomberg This Weekend for a wide-ranging discussion, including President Trump's impending decision to approve a $14 billion US arms sale to Taiwan, which could unleash a bipartisan backlash in Washington or face Beijin",
+        "published": "17 May 2026 19:14 WIB",
+        "sentiment": "Bullish",
+        "score": 0.527,
+        "emoji": "🟢"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Bloomberg Akhir Pekan Ini 16/5/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-16/bloomberg-this-weekend-5-16-2026-video",
-        "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Nicole Grajewski, Nonresident Scholar, Nuclear Policy Program, Carnegie Endowment for International",
-        "published": "16 May 2026 23:55 WIB",
-        "sentiment": "Bullish",
-        "score": 0.727,
-        "emoji": "🟢"
+        "source": "BBC World",
+        "title": "Serangan pesawat tak berawak skala besar di Ukraina menewaskan tiga orang di wilayah Moskow, kata Rusia",
+        "url": "https://www.bbc.com/news/articles/c5ye480kxpmo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine's president says the strikes are a \"justified\" response to deadly Russian attacks on Ukrainian cities.",
+        "published": "17 May 2026 21:18 WIB",
+        "sentiment": "Bearish",
+        "score": -0.932,
+        "emoji": "🔴"
       },
       {
         "source": "BBC World",
@@ -1809,13 +1811,13 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Pemimpin senior ISIS tewas dalam operasi gabungan, kata AS dan Nigeria",
-        "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss",
-        "summary": "President Donald Trump said the operation eliminated \"the most active terrorist in the world\", Abu-Bilal al-Minuki.",
-        "published": "16 May 2026 18:44 WIB",
-        "sentiment": "Bearish",
-        "score": -0.817,
-        "emoji": "🔴"
+        "title": "Penantang yang didukung Trump mengalahkan senator Partai Republik yang memilih untuk menghukum presiden",
+        "url": "https://www.bbc.com/news/articles/cx21d4pxq23o?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump threw his full support behind Julia Letlow in Louisiana's high-stakes contest, branding the incumbent \"disloyal\".",
+        "published": "17 May 2026 21:16 WIB",
+        "sentiment": "Bullish",
+        "score": 0.226,
+        "emoji": "🟢"
       },
       {
         "source": "BBC World",
@@ -1839,32 +1841,52 @@ window.FK_DATA = {
       },
       {
         "source": "Al Jazeera",
-        "title": "Perang Iran langsung: Teheran merencanakan korban jiwa di Hormuz; Trump memperingatkan ‘waktu yang sangat buruk’",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/5/17/iran-war-live-tehran-eyes-tolls-in-hormuz-trump-warns-of-very-bad-time?traffic_source=rss",
-        "summary": "Iran to reveal its plan for Strait of Hormuz soon as Israel attacks Lebanon and Gaza, killing and wounding dozens.",
-        "published": "17 May 2026 07:00 WIB",
+        "title": "Bagaimana dampak pembunuhan Izz al-Din al-Haddad terhadap operasi Hamas di Gaza?",
+        "url": "https://www.aljazeera.com/news/2026/5/17/how-will-izz-al-din-al-haddads-assassination-impact-hamas-gaza-operations?traffic_source=rss",
+        "summary": "Israel's killing of Hamas's top commander Izz al-Din al-Haddad tests the Gaza ceasefire as the group pledges to adapt.",
+        "published": "17 May 2026 20:41 WIB",
+        "sentiment": "Bearish",
+        "score": -0.738,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Gelombang baru serangan Israel menghantam Lebanon meskipun ada gencatan senjata",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/new-wave-of-israeli-strikes-pound-lebanon-despite-ceasefire?traffic_source=rss",
+        "summary": "New wave of Israeli strikes pound Lebanon despite ceasefire",
+        "published": "17 May 2026 20:36 WIB",
+        "sentiment": "Bearish",
+        "score": -0.532,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Israel berada di urutan kedua di Eurovision di tengah boikot dan reaksi balik",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/israel-comes-second-at-eurovision-amid-boycotts-and-backlash?traffic_source=rss",
+        "summary": "Bulgaria won Eurovision, pushing Israel into second place amid boycotts and protests over Israel’s war on Gaza.",
+        "published": "17 May 2026 19:05 WIB",
+        "sentiment": "Bearish",
+        "score": -0.622,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Senator Partai Republik Cassidy kalah dalam pemilihan pendahuluan di Louisiana setelah menentang Trump",
+        "url": "https://www.aljazeera.com/news/2026/5/17/republican-senator-cassidy-loses-louisiana-primary-after-opposing-trump?traffic_source=rss",
+        "summary": "Bill Cassidy is among seven Republican senators who voted to convict Trump after the January 6, 2021, Capitol attack.",
+        "published": "17 May 2026 17:29 WIB",
+        "sentiment": "Bearish",
+        "score": -0.74,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Serangan yang mengubah geometri perang",
+        "url": "https://www.aljazeera.com/opinions/2026/5/17/the-strike-that-changed-the-geometry-of-war?traffic_source=rss",
+        "summary": "Israel's attacks on Doha and Tehran demonstrate a new capability that may make warfare more unpredictable.",
+        "published": "17 May 2026 17:13 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Tentara Bolivia berupaya membersihkan jalan setelah 11 hari protes",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/16/bolivian-army-attempts-to-clear-roads-after-11-days-of-protests?traffic_source=rss",
-        "summary": "Military police in Bolivia arrested demonstrators, and used tear gas to disrupt road blockades after 11 days of protests",
-        "published": "17 May 2026 03:44 WIB",
-        "sentiment": "Bearish",
-        "score": -0.511,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Ribuan orang melakukan protes di final Eurovision ketika lima negara memboikot Israel",
-        "url": "https://www.aljazeera.com/news/2026/5/16/thousands-protest-at-eurovision-final-as-five-countries-boycott-over-israel?traffic_source=rss",
-        "summary": "Spain, Ireland, Iceland, Slovenia and Netherlands all withdrew in protest against Israel's participation amid Gaza war.",
-        "published": "17 May 2026 03:31 WIB",
-        "sentiment": "Bearish",
-        "score": -0.71,
         "emoji": "🔴"
       },
       {
@@ -1889,27 +1911,37 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "UEA mengatakan keputusannya untuk meninggalkan OPEC adalah langkah ekonomi strategis, bukan politik",
-        "url": "https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html",
-        "summary": "The United Arab Emirates, which joined OPEC in 1967, announced last month it was leaving the oil producer group on May 1.",
-        "published": "16 May 2026 20:13 WIB",
+        "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
+        "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
+        "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
+        "published": "17 May 2026 19:14 WIB",
         "sentiment": "Bullish",
-        "score": 0.382,
+        "score": 0.08,
         "emoji": "🟢"
       }
     ]
   },
   "fj_live": {
-    "generated": "17 May 2026 11:47 WIB",
+    "generated": "17 May 2026 22:00 WIB",
     "summary": {
-      "total": 12,
+      "total": 7,
       "bullish": 2,
-      "bearish": 3,
-      "netral": 7,
-      "avg_score": -0.0058,
+      "bearish": 2,
+      "netral": 3,
+      "avg_score": -0.0214,
       "overall": "Netral"
     },
     "items": [
+      {
+        "source": "FinancialJuice",
+        "title": "Polisi Tiongkok, AS, UEA menindak jaringan penipuan telekomunikasi di Dubai: media pemerintah Tiongkok",
+        "url": "https://www.financialjuice.com/News/9589804/China-US-UAE-police-crack-down-on-telecom-fraud-rings-in-Dubai-Chinese-state-media.aspx?xy=rss",
+        "summary": "",
+        "published": "17 May 2026 15:54 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
       {
         "source": "FinancialJuice",
         "title": "Pinjaman bank Korea Selatan untuk rumah tangga pada bulan April meningkat 2,1 triliun won vs 0,5 triliun won pada bulan Maret: bank sentral",
@@ -1921,94 +1953,24 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "FinancialJuice",
-        "title": "Dewan Federal Reserve menunjuk Jerome Powell sebagai ketua sementara sampai Kevin Warsh dilantik: pernyataan",
-        "url": "https://www.financialjuice.com/News/9588912/Federal-Reserve-board-appoints-Jerome-Powell-as-interim-chair-until-Kevin-Warsh-is-sworn-in-statement.aspx?xy=rss",
+        "source": "Investing.com Forex",
+        "title": "Saham Arab Saudi ditutup pada penutupan perdagangan; Tadawul Semua Saham turun 0,25%",
+        "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-025-4694528",
         "summary": "",
-        "published": "16 May 2026 04:02 WIB",
-        "sentiment": "Bearish",
-        "score": -0.08,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Posisi AUD CFTC Pekan yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588780/AUD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
-        "summary": "",
-        "published": "16 May 2026 02:43 WIB",
+        "published": "17 May 2026 19:45 WIB",
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
       },
       {
-        "source": "FinancialJuice",
-        "title": "Posisi EUR CFTC Minggu yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588779/EUR-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
+        "source": "Investing.com Forex",
+        "title": "Fokus investor beralih ke kebijakan fiskal The Fed seiring dengan meredanya ketegangan perang",
+        "url": "https://www.investing.com/news/stock-market-news/investor-focus-shifts-to-fed-fiscal-policy-as-war-tensions-recede-4694525",
         "summary": "",
-        "published": "16 May 2026 02:43 WIB",
+        "published": "17 May 2026 19:15 WIB",
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Posisi CFTC USD Minggu yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588778/USD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
-        "summary": "",
-        "published": "16 May 2026 02:42 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Posisi CFTC JPY Minggu yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588775/JPY-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
-        "summary": "",
-        "published": "16 May 2026 02:42 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Minggu Posisi CFTC CHF yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588773/CHF-CFTC-Positions-Week-Ended-May-12th--FJElite.aspx?xy=rss",
-        "summary": "",
-        "published": "16 May 2026 02:42 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Posisi CFTC NZD Pekan yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588772/NZD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
-        "summary": "",
-        "published": "16 May 2026 02:42 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Posisi CAD CFTC Minggu yang Berakhir 12 Mei - FJElite",
-        "url": "https://www.financialjuice.com/News/9588771/CAD-CFTC-Positions-Week-Ended-May-12th---FJElite.aspx?xy=rss",
-        "summary": "",
-        "published": "16 May 2026 02:41 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "BBC Top Stories",
-        "title": "Bangaranga! Bulgaria memenangkan Eurovision - tetapi Inggris berada di urutan terakhir",
-        "url": "https://www.bbc.com/news/articles/c8d87v9v660o?at_medium=RSS&at_campaign=rss",
-        "summary": "Bulgarian singer Dara is a surprise winner beating Israel in second place, while the UK's Look Mum No Computer gets just one point.",
-        "published": "17 May 2026 09:10 WIB",
-        "sentiment": "Bullish",
-        "score": 0.328,
-        "emoji": "🟢"
       },
       {
         "source": "BBC Top Stories",
@@ -2022,13 +1984,23 @@ window.FK_DATA = {
       },
       {
         "source": "Al Jazeera",
-        "title": "Ribuan orang melakukan protes di final Eurovision ketika lima negara memboikot Israel",
-        "url": "https://www.aljazeera.com/news/2026/5/16/thousands-protest-at-eurovision-final-as-five-countries-boycott-over-israel?traffic_source=rss",
-        "summary": "Spain, Ireland, Iceland, Slovenia and Netherlands all withdrew in protest against Israel's participation amid Gaza war.",
-        "published": "17 May 2026 03:31 WIB",
+        "title": "Israel berada di urutan kedua di Eurovision di tengah boikot dan reaksi balik",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/israel-comes-second-at-eurovision-amid-boycotts-and-backlash?traffic_source=rss",
+        "summary": "Bulgaria won Eurovision, pushing Israel into second place amid boycotts and protests over Israel’s war on Gaza.",
+        "published": "17 May 2026 19:05 WIB",
         "sentiment": "Bearish",
-        "score": -0.71,
+        "score": -0.622,
         "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
+        "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
+        "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
+        "published": "17 May 2026 19:14 WIB",
+        "sentiment": "Bullish",
+        "score": 0.08,
+        "emoji": "🟢"
       }
     ]
   }

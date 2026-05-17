@@ -1,31 +1,43 @@
 {
-  "generated": "17 May 2026 11:47 WIB",
+  "generated": "17 May 2026 22:00 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
+      "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.565,
+      "score": -0.501,
       "count": 11
     },
     {
-      "pair": "XAU/USD",
+      "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.565,
-      "count": 11
+      "score": -0.512,
+      "count": 10
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.67,
+      "score": -0.472,
       "count": 9
     },
     {
       "pair": "EUR/USD",
-      "direction": "Netral →",
-      "score": 0.0,
+      "direction": "Tekanan Turun ▼",
+      "score": -0.604,
+      "count": 5
+    },
+    {
+      "pair": "AUD/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.878,
+      "count": 1
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.878,
       "count": 1
     },
     {
@@ -35,57 +47,51 @@
       "count": 1
     },
     {
-      "pair": "CAD/USD",
+      "pair": "EUR",
       "direction": "Tekanan Naik ▲",
-      "score": 0.382,
-      "count": 1
-    },
-    {
-      "pair": "NOK/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.382,
+      "score": 0.08,
       "count": 1
     }
   ],
   "items": [
     {
       "source": "Bloomberg Markets",
-      "title": "Ketegangan Malaysia dan Norwegia Meningkat Karena Dibatalkannya Kesepakatan Rudal",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-norway-tensions-deepen-over-scrapped-missile-deal",
-      "summary": "Tensions between Malaysia and Norway heightened over a scrapped weapons deal as Oslo confirmed it had revoked export licenses tied to a naval strike missile system.",
-      "published": "17 May 2026 10:14 WIB",
+      "title": "Rekam Serangan Drone di Moskow Tewaskan Tiga Orang, Targetkan Kilang",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-17/record-drone-attack-on-moscow-kills-three-targets-refinery",
+      "summary": "Russia’s capital and the surrounding Moscow region came under record drone attacks overnight, leaving at least three people killed and over a dozen wounded.",
+      "published": "17 May 2026 12:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.912,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Filipina Meminta Pengadilan Menolak Petisi Senator yang Dicari ICC",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/philippines-asks-court-to-deny-petition-of-senator-sought-by-icc",
-      "summary": "The Philippine government asked the Supreme Court to deny a petition by Senator Ronald Dela Rosa to stop his arrest after the International Criminal Court issued a warrant on allegations of crimes against humanity.",
-      "published": "17 May 2026 10:12 WIB",
+      "title": "Harga Gas Nasional Mendekati Rekor Tertinggi",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-17/national-gas-prices-near-record-high-video",
+      "summary": "For decades — coincidentally, at least since the Iranian Revolution and hostage crisis of 1979-80 — the price at the pump has been a crucial lens through which Americans judge a president’s success or failure. In this conflict, the impact on gasoline prices matters more to individual Americans than ",
+      "published": "17 May 2026 20:54 WIB",
       "sentiment": "Bearish",
-      "score": -0.802,
+      "score": -0.87,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Malaysia Mengumumkan Langkah-Langkah untuk Membantu Maskapai Penerbangan yang Terkena Perang Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-unveils-measures-to-help-airlines-hit-by-iran-war",
-      "summary": "Malaysia introduced measures to ensure the operational stability of its aviation industry and ease the financial strain on airlines as they struggle with the impact of war in the Middle East.",
-      "published": "17 May 2026 09:55 WIB",
+      "title": "Pedagang Obligasi Melihat Titik Balik Menuju Era Baru Imbal Hasil Lebih Tinggi",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-17/bond-traders-see-tipping-point-toward-new-era-of-higher-yields",
+      "summary": "A new era of elevated borrowing costs is potentially underway as war-driven inflation angst intensifies in the US bond market, sending 30-year yields toward a two-decade high above 5%.",
+      "published": "17 May 2026 20:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.622,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "WHO Menyatakan Darurat Kesehatan Global Wabah Ebola di Kongo",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/who-declares-congo-uganda-ebola-outbreak-global-health-emergency",
-      "summary": "The World Health Organization declared an Ebola outbreak in Democratic Republic of Congo and Uganda a public health emergency of international concern, warning that a rare virus strain with no approved vaccine or treatment may already be spreading more widely than detected.",
-      "published": "17 May 2026 08:31 WIB",
+      "title": "Perdagangan Saat Perekonomian Global Bergeser",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-17/trading-while-the-global-economy-shifts-video",
+      "summary": "Financial Times columnist and coauthor of the new book \"How to Win a Trade War\" Soumaya Keynes joined Bloomberg This Weekend to discuss the evolving nature of global trade conflicts. Keynes suggests to hosts David Gura and Christina Ruffini that rather than trying to \"win\" a trade war, the goal shou",
+      "published": "17 May 2026 20:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.925,
+      "score": -0.878,
       "emoji": "🔴"
     },
     {
@@ -100,23 +106,23 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "BDC Publik Menghargai Rasa Sakit Paling Banyak Sejak Covid",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-16/public-bdcs-are-pricing-in-most-pain-since-covid-credit-weekly",
-      "summary": "Private credit’s aggressive push to court retail investors has exposed the industry to a less familiar threat: public market volatility, which is dragging business development company shares toward their steepest discounts relative to their assets since the pandemic.",
-      "published": "17 May 2026 02:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.772,
-      "emoji": "🔴"
+      "title": "Perwakilan Lawler: Saya Mendukung Terus Mempersenjatai Taiwan",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-17/rep-lawler-i-support-continuing-to-arm-taiwan-video",
+      "summary": "Rep. Mike Lawler (R-NY) joined Christina Ruffini and David Gura this morning on Bloomberg This Weekend for a wide-ranging discussion, including President Trump's impending decision to approve a $14 billion US arms sale to Taiwan, which could unleash a bipartisan backlash in Washington or face Beijin",
+      "published": "17 May 2026 19:14 WIB",
+      "sentiment": "Bullish",
+      "score": 0.527,
+      "emoji": "🟢"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Bloomberg Akhir Pekan Ini 16/5/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-16/bloomberg-this-weekend-5-16-2026-video",
-      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Nicole Grajewski, Nonresident Scholar, Nuclear Policy Program, Carnegie Endowment for International",
-      "published": "16 May 2026 23:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.727,
-      "emoji": "🟢"
+      "source": "BBC World",
+      "title": "Serangan pesawat tak berawak skala besar di Ukraina menewaskan tiga orang di wilayah Moskow, kata Rusia",
+      "url": "https://www.bbc.com/news/articles/c5ye480kxpmo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine's president says the strikes are a \"justified\" response to deadly Russian attacks on Ukrainian cities.",
+      "published": "17 May 2026 21:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.932,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
@@ -140,13 +146,13 @@
     },
     {
       "source": "BBC World",
-      "title": "Pemimpin senior ISIS tewas dalam operasi gabungan, kata AS dan Nigeria",
-      "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss",
-      "summary": "President Donald Trump said the operation eliminated \"the most active terrorist in the world\", Abu-Bilal al-Minuki.",
-      "published": "16 May 2026 18:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.817,
-      "emoji": "🔴"
+      "title": "Penantang yang didukung Trump mengalahkan senator Partai Republik yang memilih untuk menghukum presiden",
+      "url": "https://www.bbc.com/news/articles/cx21d4pxq23o?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump threw his full support behind Julia Letlow in Louisiana's high-stakes contest, branding the incumbent \"disloyal\".",
+      "published": "17 May 2026 21:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.226,
+      "emoji": "🟢"
     },
     {
       "source": "BBC World",
@@ -170,32 +176,52 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Perang Iran langsung: Teheran merencanakan korban jiwa di Hormuz; Trump memperingatkan ‘waktu yang sangat buruk’",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/5/17/iran-war-live-tehran-eyes-tolls-in-hormuz-trump-warns-of-very-bad-time?traffic_source=rss",
-      "summary": "Iran to reveal its plan for Strait of Hormuz soon as Israel attacks Lebanon and Gaza, killing and wounding dozens.",
-      "published": "17 May 2026 07:00 WIB",
+      "title": "Bagaimana dampak pembunuhan Izz al-Din al-Haddad terhadap operasi Hamas di Gaza?",
+      "url": "https://www.aljazeera.com/news/2026/5/17/how-will-izz-al-din-al-haddads-assassination-impact-hamas-gaza-operations?traffic_source=rss",
+      "summary": "Israel's killing of Hamas's top commander Izz al-Din al-Haddad tests the Gaza ceasefire as the group pledges to adapt.",
+      "published": "17 May 2026 20:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.738,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Gelombang baru serangan Israel menghantam Lebanon meskipun ada gencatan senjata",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/new-wave-of-israeli-strikes-pound-lebanon-despite-ceasefire?traffic_source=rss",
+      "summary": "New wave of Israeli strikes pound Lebanon despite ceasefire",
+      "published": "17 May 2026 20:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.532,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Israel berada di urutan kedua di Eurovision di tengah boikot dan reaksi balik",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/17/israel-comes-second-at-eurovision-amid-boycotts-and-backlash?traffic_source=rss",
+      "summary": "Bulgaria won Eurovision, pushing Israel into second place amid boycotts and protests over Israel’s war on Gaza.",
+      "published": "17 May 2026 19:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.622,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Senator Partai Republik Cassidy kalah dalam pemilihan pendahuluan di Louisiana setelah menentang Trump",
+      "url": "https://www.aljazeera.com/news/2026/5/17/republican-senator-cassidy-loses-louisiana-primary-after-opposing-trump?traffic_source=rss",
+      "summary": "Bill Cassidy is among seven Republican senators who voted to convict Trump after the January 6, 2021, Capitol attack.",
+      "published": "17 May 2026 17:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.74,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan yang mengubah geometri perang",
+      "url": "https://www.aljazeera.com/opinions/2026/5/17/the-strike-that-changed-the-geometry-of-war?traffic_source=rss",
+      "summary": "Israel's attacks on Doha and Tehran demonstrate a new capability that may make warfare more unpredictable.",
+      "published": "17 May 2026 17:13 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tentara Bolivia berupaya membersihkan jalan setelah 11 hari protes",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/16/bolivian-army-attempts-to-clear-roads-after-11-days-of-protests?traffic_source=rss",
-      "summary": "Military police in Bolivia arrested demonstrators, and used tear gas to disrupt road blockades after 11 days of protests",
-      "published": "17 May 2026 03:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.511,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ribuan orang melakukan protes di final Eurovision ketika lima negara memboikot Israel",
-      "url": "https://www.aljazeera.com/news/2026/5/16/thousands-protest-at-eurovision-final-as-five-countries-boycott-over-israel?traffic_source=rss",
-      "summary": "Spain, Ireland, Iceland, Slovenia and Netherlands all withdrew in protest against Israel's participation amid Gaza war.",
-      "published": "17 May 2026 03:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.71,
       "emoji": "🔴"
     },
     {
@@ -220,12 +246,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "UEA mengatakan keputusannya untuk meninggalkan OPEC adalah langkah ekonomi strategis, bukan politik",
-      "url": "https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html",
-      "summary": "The United Arab Emirates, which joined OPEC in 1967, announced last month it was leaving the oil producer group on May 1.",
-      "published": "16 May 2026 20:13 WIB",
+      "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
+      "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
+      "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
+      "published": "17 May 2026 19:14 WIB",
       "sentiment": "Bullish",
-      "score": 0.382,
+      "score": 0.08,
       "emoji": "🟢"
     }
   ]
