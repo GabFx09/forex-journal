@@ -1,5 +1,5 @@
 {
-  "generated": "18 May 2026 07:01 WIB",
+  "generated": "18 May 2026 07:10 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,19 +7,19 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.357,
+      "score": -0.364,
       "count": 23
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.332,
+      "score": -0.338,
       "count": 22
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.437,
+      "score": -0.445,
       "count": 18
     },
     {
@@ -386,12 +386,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Pasar Asia-Pasifik akan dibuka beragam karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
+      "title": "Pasar Asia-Pasifik melemah karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
       "url": "https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html",
-      "summary": "Asia-Pacific markets were poised for a mixed open as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
-      "published": "18 May 2026 06:51 WIB",
+      "summary": "Asia-Pacific markets fell as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
+      "published": "18 May 2026 07:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.851,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {

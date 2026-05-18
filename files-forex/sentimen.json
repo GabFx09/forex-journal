@@ -1,11 +1,11 @@
 {
-  "generated": "18 May 2026 07:01 WIB",
+  "generated": "18 May 2026 07:10 WIB",
   "summary": {
     "total": 59,
     "bullish": 16,
     "bearish": 37,
     "netral": 6,
-    "avg_score": -0.2906,
+    "avg_score": -0.2932,
     "overall": "Bearish",
     "currency_impact": [
       {
@@ -197,6 +197,16 @@
     },
     {
       "source": "Investing.com Forex",
+      "title": "Standard Chartered menunjuk Manus Costello sebagai CFO permanen",
+      "url": "https://www.investing.com/news/stock-market-news/standard-chartered-names-manus-costello-as-permanent-cfo-4694569",
+      "summary": "",
+      "published": "18 May 2026 07:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
       "title": "NextEra membahas penawaran $76/saham untuk Dominion Energy- Bloomberg",
       "url": "https://www.investing.com/news/stock-market-news/nextera-discusses-offering-76share-for-dominion-energy-bloomberg-4694576",
       "summary": "",
@@ -204,16 +214,6 @@
       "sentiment": "Bullish",
       "score": 0.273,
       "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Standard Chartered menunjuk Manus Costello sebagai CFO permanen",
-      "url": "https://www.investing.com/news/stock-market-news/standard-chartered-names-manus-costello-as-permanent-cfo-4694569",
-      "summary": "",
-      "published": "18 May 2026 06:12 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
     },
     {
       "source": "Investing.com Forex",
@@ -597,12 +597,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Pasar Asia-Pasifik akan dibuka beragam karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
+      "title": "Pasar Asia-Pasifik melemah karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
       "url": "https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html",
-      "summary": "Asia-Pacific markets were poised for a mixed open as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
-      "published": "18 May 2026 06:51 WIB",
+      "summary": "Asia-Pacific markets fell as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
+      "published": "18 May 2026 07:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.851,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
