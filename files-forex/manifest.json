@@ -2,6 +2,7 @@
   "name": "ForexJournal Pro",
   "short_name": "ForexJournal",
   "description": "Aplikasi jurnal trading forex — catat trade, analisis risiko, pantau psikologi trading, dan sinkronisasi Google Sheets.",
+  "id": "/forex-journal/",
   "start_url": "/forex-journal/",
   "scope": "/forex-journal/",
   "display": "standalone",
@@ -9,18 +10,32 @@
   "background_color": "#07101e",
   "theme_color": "#F0B429",
   "lang": "id",
+  "categories": ["finance", "productivity"],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }

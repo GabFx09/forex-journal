@@ -1,24 +1,32 @@
-const CACHE = 'fj-forex-v2';
-// Hanya file lokal — './' dihilangkan karena bisa redirect 301 di GitHub Pages
+const CACHE = 'fj-forex-v3';
+
+// Aset inti yang dicache saat install (path absolut relatif ke root scope)
 const CORE = [
-  './index.html',
-  './manifest.json'
+  '/forex-journal/',
+  '/forex-journal/index.html',
+  '/forex-journal/manifest.json',
+  '/forex-journal/icon-192.png',
+  '/forex-journal/icon-512.png'
 ];
 
-// File data dinamis — selalu ambil dari network (update harian)
+// File data dinamis — selalu ambil dari network, fallback ke cache
 const DYNAMIC = ['news_data.js', 'kalender.json', 'sentimen.json', 'geopolitik.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
-    caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting())
+    caches.open(CACHE)
+      .then(c => c.addAll(CORE))
+      .then(() => self.skipWaiting())
   );
 });
 
 self.addEventListener('activate', e => {
   e.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))
-    ).then(() => self.clients.claim())
+    caches.keys()
+      .then(keys => Promise.all(
+        keys.filter(k => k !== CACHE).map(k => caches.delete(k))
+      ))
+      .then(() => self.clients.claim())
   );
 });
 
@@ -31,7 +39,14 @@ self.addEventListener('fetch', e => {
   if (isDynamic) {
     // Network-first: data harian harus selalu fresh
     e.respondWith(
-      fetch(e.request).catch(() => caches.match(e.request))
+      fetch(e.request)
+        .then(res => {
+          if (res && res.status === 200) {
+            caches.open(CACHE).then(c => c.put(e.request, res.clone()));
+          }
+          return res;
+        })
+        .catch(() => caches.match(e.request))
     );
     return;
   }
@@ -46,8 +61,9 @@ self.addEventListener('fetch', e => {
         }
         return res;
       }).catch(() => {
-        if (e.request.mode === 'navigate') return caches.match('./index.html');
-        return cached;
+        if (e.request.mode === 'navigate') {
+          return caches.match('/forex-journal/index.html');
+        }
       });
     })
   );
