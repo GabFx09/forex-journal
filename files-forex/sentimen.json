@@ -1,11 +1,11 @@
 {
-  "generated": "18 May 2026 07:10 WIB",
+  "generated": "18 May 2026 07:19 WIB",
   "summary": {
     "total": 59,
-    "bullish": 16,
-    "bearish": 37,
+    "bullish": 15,
+    "bearish": 38,
     "netral": 6,
-    "avg_score": -0.2932,
+    "avg_score": -0.3089,
     "overall": "Bearish",
     "currency_impact": [
       {
@@ -307,6 +307,16 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Saham dan Obligasi Perpanjang Kerugian seiring Kenaikan Minyak di Iran: Pembungkus Pasar",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-17/oil-climbs-as-iran-war-shows-no-sign-of-ending-markets-wrap",
+      "summary": "Stocks extended their slide as the US and Iran remained deadlocked over ending nearly three months of conflict, pulling global equities further from record highs reached during the artificial intelligence-driven rally. Oil rose and Treasuries fell.",
+      "published": "18 May 2026 05:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.33,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Emas Menahan Penurunan karena Hormuz Quagmire Menjaga Ketakutan Inflasi Tetap Tinggi",
       "url": "https://www.bloomberg.com/news/articles/2026-05-17/gold-holds-decline-as-hormuz-quagmire-keeps-inflation-fear-high",
       "summary": "Gold held a decline as a lack of progress in reopening the Strait of Hormuz continued to fan inflation concerns that sent bond markets tumbling.",
@@ -314,16 +324,6 @@
       "sentiment": "Bearish",
       "score": -0.183,
       "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Minyak Naik, Treasury Futures Tergelincir Karena Kebuntuan Iran: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/oil-climbs-as-iran-war-shows-no-sign-of-ending-markets-wrap",
-      "summary": "Oil extended gains and Treasury futures slipped as the US and Iran remained deadlocked in efforts to end nearly three months of conflict and restore shipping through the Strait of Hormuz.",
-      "published": "18 May 2026 05:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.599,
-      "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",

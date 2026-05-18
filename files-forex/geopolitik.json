@@ -1,5 +1,5 @@
 {
-  "generated": "18 May 2026 07:10 WIB",
+  "generated": "18 May 2026 07:19 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,13 +7,13 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.364,
+      "score": -0.404,
       "count": 23
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.338,
+      "score": -0.381,
       "count": 22
     },
     {
@@ -25,7 +25,7 @@
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.203,
+      "score": -0.336,
       "count": 7
     },
     {
@@ -156,13 +156,13 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Minyak Naik, Treasury Futures Tergelincir Karena Kebuntuan Iran: Pasar Selesai",
+      "title": "Saham dan Obligasi Perpanjang Kerugian seiring Kenaikan Minyak di Iran: Pembungkus Pasar",
       "url": "https://www.bloomberg.com/news/articles/2026-05-17/oil-climbs-as-iran-war-shows-no-sign-of-ending-markets-wrap",
-      "summary": "Oil extended gains and Treasury futures slipped as the US and Iran remained deadlocked in efforts to end nearly three months of conflict and restore shipping through the Strait of Hormuz.",
+      "summary": "Stocks extended their slide as the US and Iran remained deadlocked over ending nearly three months of conflict, pulling global equities further from record highs reached during the artificial intelligence-driven rally. Oil rose and Treasuries fell.",
       "published": "18 May 2026 05:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.599,
-      "emoji": "🟢"
+      "sentiment": "Bearish",
+      "score": -0.33,
+      "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
