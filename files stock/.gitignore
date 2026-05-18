@@ -1,5 +1,8 @@
 config_email.ini
 *.json
 !manifest.json
+!kalender.json
+!sentimen.json
+!geopolitik.json
 __pycache__/
 *.log
