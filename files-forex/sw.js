@@ -1,12 +1,12 @@
-const CACHE = 'fj-forex-v3';
+const CACHE = 'fj-forex-v4';
 
-// Aset inti yang dicache saat install (path absolut relatif ke root scope)
+// Aset inti yang dicache saat install
+// Pakai path relatif dari lokasi sw.js agar tidak ada redirect 301
 const CORE = [
-  '/forex-journal/',
-  '/forex-journal/index.html',
-  '/forex-journal/manifest.json',
-  '/forex-journal/icon-192.png',
-  '/forex-journal/icon-512.png'
+  'index.html',
+  'manifest.json',
+  'icon-192.png',
+  'icon-512.png'
 ];
 
 // File data dinamis — selalu ambil dari network, fallback ke cache
@@ -62,7 +62,7 @@ self.addEventListener('fetch', e => {
         return res;
       }).catch(() => {
         if (e.request.mode === 'navigate') {
-          return caches.match('/forex-journal/index.html');
+          return caches.match('index.html');
         }
       });
     })
