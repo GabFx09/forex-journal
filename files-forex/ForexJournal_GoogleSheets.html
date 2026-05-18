@@ -1443,15 +1443,48 @@ function renderKalender() {
   const upcoming = events.filter(ev => !isReleased(ev));
   const released = events.filter(ev => isReleased(ev));
 
+  const _BULAN = ['','Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agt','Sep','Okt','Nov','Des'];
+  const _fmtTgl = d => { const [y,m,dd]=d.split('-'); return `${+dd} ${_BULAN[+m]} ${y}`; };
+
   function buildDayTables(evList, borderColor) {
+    const _HARI = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
+    const toMin = t => {
+      if (!t || t === 'Sepanjang Hari') return -1;
+      const [h, mm] = (t || '0:0').split(':');
+      return +h * 60 + (+mm || 0);
+    };
+    // Advance a YYYY-MM-DD string by 1 day
+    const advDate = d => {
+      const dt = new Date(d + 'T12:00:00');
+      dt.setDate(dt.getDate() + 1);
+      return dt.toISOString().split('T')[0];
+    };
+
     const days = {};
-    evList.forEach(e => { if(!days[e.date]) days[e.date]=[]; days[e.date].push(e); });
+    evList.forEach(e => {
+      const min = toMin(e.time_wib);
+      // EDT = UTC-4, WIB = UTC+7 → selisih 11 jam.
+      // Event dengan time_wib < 11:00 (660 menit) sudah melewati tengah malam WIB
+      // sehingga tanggal WIB-nya adalah hari berikutnya dari tanggal ET.
+      const bucket = (min >= 0 && min < 660) ? advDate(e.date) : e.date;
+      if (!days[bucket]) days[bucket] = [];
+      days[bucket].push(e);
+    });
+
     let tables = '';
-    Object.entries(days).forEach(([date, dayEvs]) => {
-      dayEvs.sort((a,b)=>{
-        const m=t=>{ if(!t||t==='Sepanjang Hari') return 0; const[h,mm]=(t||'0:0').split(':'); return +h*60+(+mm||0); };
-        return m(a.time_wib)-m(b.time_wib);
+    Object.entries(days).sort(([a],[b]) => a.localeCompare(b)).forEach(([date, dayEvs]) => {
+      // Hitung nama hari dari tanggal bucket (bukan dari data event)
+      const dayName = _HARI[new Date(date + 'T12:00:00').getDay()];
+
+      // Urut ascending: 'Sepanjang Hari' paling atas, lalu waktu naik
+      dayEvs.sort((a, b) => {
+        const ma = toMin(a.time_wib), mb = toMin(b.time_wib);
+        if (ma < 0 && mb < 0) return 0;
+        if (ma < 0) return -1;
+        if (mb < 0) return 1;
+        return ma - mb;
       });
+
       const rows = dayEvs.map(ev => {
         const cfg = _IMP[ev.impact]||_IMP.none;
         const dot = `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${cfg.dot}" title="${cfg.label}"></span>`;
@@ -1477,12 +1510,19 @@ function renderKalender() {
         </tr>`;
       }).join('');
 
-      tables += `<div class="card" style="padding:0;overflow:hidden;margin-bottom:14px">
+      tables += `
+        <div style="display:flex;align-items:center;gap:10px;margin:18px 0 8px">
+          <div style="width:4px;height:22px;background:${borderColor};border-radius:2px;flex-shrink:0"></div>
+          <span style="color:var(--txt);font-weight:800;font-size:15px">${dayName}</span>
+          <span style="color:var(--gold);font-weight:700;font-size:14px">${_fmtTgl(date)}</span>
+          <div style="flex:1;height:1px;background:linear-gradient(90deg,${borderColor}55,transparent)"></div>
+        </div>
+        <div class="card" style="padding:0;overflow:hidden;margin-bottom:14px">
         <div style="background:linear-gradient(90deg,#1a2035,var(--surf));padding:9px 14px;
             border-left:4px solid ${borderColor};display:flex;justify-content:space-between;align-items:center">
-          <div>
-            <span style="color:var(--txt);font-weight:700;font-size:13px">${dayEvs[0].day}</span>
-            <span style="color:var(--mut);font-size:11px;margin-left:10px">${date}</span>
+          <div style="display:flex;align-items:baseline;gap:10px">
+            <span style="color:var(--txt);font-weight:700;font-size:13px">${dayName}</span>
+            <span style="color:var(--gold);font-weight:600;font-size:12px">${_fmtTgl(date)}</span>
           </div>
           <span style="color:var(--mut);font-size:11px">${dayEvs.length} event</span>
         </div>
