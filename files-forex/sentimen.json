@@ -1,18 +1,18 @@
 {
-  "generated": "18 May 2026 06:57 WIB",
+  "generated": "18 May 2026 07:01 WIB",
   "summary": {
-    "total": 60,
-    "bullish": 17,
+    "total": 59,
+    "bullish": 16,
     "bearish": 37,
     "netral": 6,
-    "avg_score": -0.2733,
+    "avg_score": -0.2906,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
-        "sentiment": "Bullish",
-        "score": 0.064,
-        "count": 4
+        "sentiment": "Bearish",
+        "score": -0.164,
+        "count": 3
       },
       {
         "currency": "EUR",
@@ -396,16 +396,6 @@
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Bisakah Kota New York Memungut Pajak pada Orang Kaya Tanpa Mengusir Mereka?",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-17/why-new-york-keeps-debating-taxes-on-the-wealthy-video",
-      "summary": "New York City’s effort to close a multibillion-dollar budget gap has triggered a high-profile clash between Mayor Zohran Mamdani and Wall Street leaders, including Citadel founder Ken Griffin. Mamdani’s proposed “pied-à-terre” tax on luxury second homes has become a flashpoint in a broader debate ov",
-      "published": "17 May 2026 21:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.748,
-      "emoji": "🟢"
-    },
-    {
       "source": "Google News Forex",
       "title": "Makroekonomi tarif dengan produksi global dan jaringan keuangan - CEPR",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV0NLNWZ2aW9DYzVHQjRXUm84QVNvcl9xb3dRaDJyZ1FiSUF2eGwwdlgtaTc0UDBkQjZBVVpBZG5ud0VsUlFBWC1VTHExWktiMGRCbEhIVjR5RFBiVzVEeVo1MnlBWElZZlNjdnNfcnVYRjhzbFhhSXNoVkN4RUtSbTU1RnlLRFhXc2hyMnJ0Zkh6R2NRVHJCdQ?oc=5",
@@ -607,12 +597,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
-      "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
-      "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
-      "published": "17 May 2026 19:14 WIB",
+      "title": "Pasar Asia-Pasifik akan dibuka beragam karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
+      "url": "https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html",
+      "summary": "Asia-Pacific markets were poised for a mixed open as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
+      "published": "18 May 2026 06:51 WIB",
       "sentiment": "Bearish",
-      "score": -0.34,
+      "score": -0.851,
       "emoji": "🔴"
     },
     {
@@ -627,12 +617,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Pasar Asia-Pasifik akan dibuka beragam karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
-      "url": "https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html",
-      "summary": "Asia-Pacific markets were poised for a mixed open as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
-      "published": "18 May 2026 06:51 WIB",
+      "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
+      "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
+      "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
+      "published": "17 May 2026 19:14 WIB",
       "sentiment": "Bearish",
-      "score": -0.851,
+      "score": -0.34,
       "emoji": "🔴"
     }
   ]

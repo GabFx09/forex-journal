@@ -1,13 +1,13 @@
-// Diperbarui: 18 May 2026 06:57 WIB
+// Diperbarui: 18 May 2026 07:01 WIB
 window.FK_DATA = {
-  "generated": "18 May 2026 06:57 WIB",
+  "generated": "18 May 2026 07:01 WIB",
   "kalender": {
-    "generated": "18 May 2026 06:57 WIB",
+    "generated": "18 May 2026 07:01 WIB",
     "events": [
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "04:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "05:30",
         "currency": "NZD",
         "impact": "low",
         "event": "BusinessNZ Services Index",
@@ -16,9 +16,9 @@ window.FK_DATA = {
         "previous": "46.2"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:01",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "06:01",
         "currency": "GBP",
         "impact": "low",
         "event": "Rightmove HPI m/m",
@@ -27,9 +27,9 @@ window.FK_DATA = {
         "previous": "0.8%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "07:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "08:30",
         "currency": "CNY",
         "impact": "low",
         "event": "New Home Prices m/m",
@@ -38,9 +38,9 @@ window.FK_DATA = {
         "previous": "-0.21%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "08:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
         "event": "Fixed Asset Investment ytd/y",
@@ -49,9 +49,9 @@ window.FK_DATA = {
         "previous": "1.7%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
         "event": "Industrial Production y/y",
@@ -60,9 +60,9 @@ window.FK_DATA = {
         "previous": "5.7%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
         "event": "NBS Press Conference",
@@ -71,9 +71,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
         "event": "Retail Sales y/y",
@@ -82,9 +82,9 @@ window.FK_DATA = {
         "previous": "1.7%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
         "event": "Unemployment Rate",
@@ -93,8 +93,8 @@ window.FK_DATA = {
         "previous": "5.4%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
+        "date": "2026-05-18",
+        "day": "Senin",
         "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
@@ -104,9 +104,9 @@ window.FK_DATA = {
         "previous": "-7.3%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "13:35",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "14:35",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Greene Speaks",
@@ -115,9 +115,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "14:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Italian Trade Balance",
@@ -126,9 +126,9 @@ window.FK_DATA = {
         "previous": "4.94B"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "14:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:30",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Mann Speaks",
@@ -137,8 +137,8 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
+        "date": "2026-05-18",
+        "day": "Senin",
         "time_wib": "Day 1",
         "currency": "ALL",
         "impact": "low",
@@ -148,8 +148,8 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
+        "date": "2026-05-18",
+        "day": "Senin",
         "time_wib": "Sepanjang Hari",
         "currency": "CAD",
         "impact": "holiday",
@@ -159,9 +159,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "20:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "21:00",
         "currency": "USD",
         "impact": "low",
         "event": "NAHB Housing Market Index",
@@ -170,9 +170,9 @@ window.FK_DATA = {
         "previous": "34"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "02:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "03:00",
         "currency": "USD",
         "impact": "low",
         "event": "TIC Long-Term Purchases",
@@ -181,9 +181,9 @@ window.FK_DATA = {
         "previous": "58.6B"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "04:45",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "05:45",
         "currency": "NZD",
         "impact": "low",
         "event": "PPI Input q/q",
@@ -192,9 +192,9 @@ window.FK_DATA = {
         "previous": "-0.5%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "07:45",
         "currency": "NZD",
         "impact": "low",
         "event": "PPI Output q/q",
@@ -203,9 +203,9 @@ window.FK_DATA = {
         "previous": "0.1%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "06:30",
         "currency": "AUD",
         "impact": "low",
         "event": "RBA Assist Gov Hunter Speaks",
@@ -214,9 +214,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:50",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "06:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Prelim GDP Price Index y/y",
@@ -225,9 +225,9 @@ window.FK_DATA = {
         "previous": "3.4%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "07:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Prelim GDP q/q",
@@ -236,9 +236,9 @@ window.FK_DATA = {
         "previous": "0.3%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "06:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "07:30",
         "currency": "AUD",
         "impact": "low",
         "event": "Westpac Consumer Sentiment",
@@ -247,9 +247,9 @@ window.FK_DATA = {
         "previous": "-12.5%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "07:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "08:30",
         "currency": "AUD",
         "impact": "low",
         "event": "Monetary Policy Meeting Minutes",
@@ -258,9 +258,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "10:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "11:30",
         "currency": "JPY",
         "impact": "low",
         "event": "Revised Industrial Production m/m",
@@ -269,9 +269,9 @@ window.FK_DATA = {
         "previous": "-0.5%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "07:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Tertiary Industry Activity m/m",
@@ -280,9 +280,9 @@ window.FK_DATA = {
         "previous": "-0.4%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "12:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "high",
         "event": "Claimant Count Change",
@@ -291,9 +291,9 @@ window.FK_DATA = {
         "previous": "26.8K"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "medium",
         "event": "Average Earnings Index 3m/y",
@@ -302,9 +302,9 @@ window.FK_DATA = {
         "previous": "3.8%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
         "event": "Unemployment Rate",
@@ -313,9 +313,9 @@ window.FK_DATA = {
         "previous": "4.9%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "14:10",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:10",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Breeden Speaks",
@@ -324,8 +324,8 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
+        "date": "2026-05-18",
+        "day": "Senin",
         "time_wib": "Day 2",
         "currency": "ALL",
         "impact": "low",
@@ -335,9 +335,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "15:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "16:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Trade Balance",
@@ -346,9 +346,9 @@ window.FK_DATA = {
         "previous": "7.0B"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "18:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Waller Speaks",
@@ -357,9 +357,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "18:15",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:15",
         "currency": "USD",
         "impact": "low",
         "event": "ADP Weekly Employment Change",
@@ -368,9 +368,9 @@ window.FK_DATA = {
         "previous": "33.0K"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "18:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "high",
         "event": "CPI m/m",
@@ -379,9 +379,9 @@ window.FK_DATA = {
         "previous": "0.9%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "medium",
         "event": "Common CPI y/y",
@@ -390,9 +390,9 @@ window.FK_DATA = {
         "previous": "2.6%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "medium",
         "event": "Median CPI y/y",
@@ -401,9 +401,9 @@ window.FK_DATA = {
         "previous": "2.3%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "medium",
         "event": "Trimmed CPI y/y",
@@ -412,9 +412,9 @@ window.FK_DATA = {
         "previous": "2.2%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Building Permits m/m",
@@ -423,9 +423,9 @@ window.FK_DATA = {
         "previous": "-8.4%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Core CPI m/m",
@@ -434,9 +434,9 @@ window.FK_DATA = {
         "previous": "0.2%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "low",
         "event": "NHPI m/m",
@@ -445,9 +445,9 @@ window.FK_DATA = {
         "previous": "-0.2%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "20:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "21:00",
         "currency": "USD",
         "impact": "medium",
         "event": "Pending Home Sales m/m",
@@ -456,8 +456,8 @@ window.FK_DATA = {
         "previous": "1.5%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
+        "date": "2026-05-18",
+        "day": "Senin",
         "time_wib": "07:45",
         "currency": "NZD",
         "impact": "low",
@@ -467,9 +467,9 @@ window.FK_DATA = {
         "previous": "1.5%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "02:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "03:30",
         "currency": "USD",
         "impact": "low",
         "event": "API Weekly Statistical Bulletin",
@@ -478,9 +478,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "06:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Paulson Speaks",
@@ -489,9 +489,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "06:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "07:30",
         "currency": "AUD",
         "impact": "low",
         "event": "MI Leading Index m/m",
@@ -500,9 +500,9 @@ window.FK_DATA = {
         "previous": "-0.1%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "07:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "08:00",
         "currency": "CNY",
         "impact": "low",
         "event": "1-y Loan Prime Rate",
@@ -511,9 +511,9 @@ window.FK_DATA = {
         "previous": "3.00%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
         "event": "5-y Loan Prime Rate",
@@ -522,9 +522,9 @@ window.FK_DATA = {
         "previous": "3.50%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "12:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German PPI m/m",
@@ -533,9 +533,9 @@ window.FK_DATA = {
         "previous": "2.5%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "high",
         "event": "CPI y/y",
@@ -544,9 +544,9 @@ window.FK_DATA = {
         "previous": "3.3%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
         "event": "Core CPI y/y",
@@ -555,9 +555,9 @@ window.FK_DATA = {
         "previous": "3.1%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
         "event": "PPI Input m/m",
@@ -566,9 +566,9 @@ window.FK_DATA = {
         "previous": "4.4%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
         "event": "PPI Output m/m",
@@ -577,9 +577,9 @@ window.FK_DATA = {
         "previous": "0.9%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
         "event": "RPI y/y",
@@ -588,9 +588,9 @@ window.FK_DATA = {
         "previous": "4.1%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "14:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:30",
         "currency": "GBP",
         "impact": "low",
         "event": "HPI y/y",
@@ -599,9 +599,9 @@ window.FK_DATA = {
         "previous": "1.2%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "15:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "16:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Final Core CPI y/y",
@@ -610,9 +610,9 @@ window.FK_DATA = {
         "previous": "2.2%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Final CPI y/y",
@@ -621,8 +621,8 @@ window.FK_DATA = {
         "previous": "3.0%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
+        "date": "2026-05-18",
+        "day": "Senin",
         "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
@@ -632,9 +632,9 @@ window.FK_DATA = {
         "previous": "3.08|1.5"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "19:15",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "20:15",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Barr Speaks",
@@ -643,9 +643,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "20:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "21:30",
         "currency": "USD",
         "impact": "low",
         "event": "Crude Oil Inventories",
@@ -654,9 +654,9 @@ window.FK_DATA = {
         "previous": "-4.3M"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "00:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "01:00",
         "currency": "USD",
         "impact": "high",
         "event": "FOMC Meeting Minutes",
@@ -665,9 +665,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "04:45",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "05:45",
         "currency": "NZD",
         "impact": "low",
         "event": "Trade Balance",
@@ -676,9 +676,9 @@ window.FK_DATA = {
         "previous": "698M"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "06:00",
         "currency": "AUD",
         "impact": "low",
         "event": "Flash Manufacturing PMI",
@@ -687,9 +687,9 @@ window.FK_DATA = {
         "previous": "51.0"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "08:30",
         "currency": "AUD",
         "impact": "low",
         "event": "Flash Services PMI",
@@ -698,9 +698,9 @@ window.FK_DATA = {
         "previous": "50.7"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:50",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "06:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Core Machinery Orders m/m",
@@ -709,9 +709,9 @@ window.FK_DATA = {
         "previous": "13.6%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "07:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Trade Balance",
@@ -720,9 +720,9 @@ window.FK_DATA = {
         "previous": "0.09T"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "06:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "07:30",
         "currency": "JPY",
         "impact": "low",
         "event": "Flash Manufacturing PMI",
@@ -731,9 +731,9 @@ window.FK_DATA = {
         "previous": "55.1"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "07:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "08:00",
         "currency": "AUD",
         "impact": "low",
         "event": "MI Inflation Expectations",
@@ -742,9 +742,9 @@ window.FK_DATA = {
         "previous": "5.9%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "07:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "08:30",
         "currency": "AUD",
         "impact": "high",
         "event": "Employment Change",
@@ -753,9 +753,9 @@ window.FK_DATA = {
         "previous": "17.9K"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "08:30",
         "currency": "AUD",
         "impact": "high",
         "event": "Unemployment Rate",
@@ -764,9 +764,9 @@ window.FK_DATA = {
         "previous": "4.3%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "09:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "10:00",
         "currency": "NZD",
         "impact": "low",
         "event": "Credit Card Spending y/y",
@@ -775,9 +775,9 @@ window.FK_DATA = {
         "previous": "2.1%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "13:15",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "14:15",
         "currency": "EUR",
         "impact": "medium",
         "event": "French Flash Manufacturing PMI",
@@ -786,9 +786,9 @@ window.FK_DATA = {
         "previous": "52.8"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "medium",
         "event": "French Flash Services PMI",
@@ -797,9 +797,9 @@ window.FK_DATA = {
         "previous": "46.5"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "13:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "14:30",
         "currency": "EUR",
         "impact": "medium",
         "event": "German Flash Manufacturing PMI",
@@ -808,9 +808,9 @@ window.FK_DATA = {
         "previous": "51.4"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "medium",
         "event": "German Flash Services PMI",
@@ -819,9 +819,9 @@ window.FK_DATA = {
         "previous": "46.9"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "14:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Current Account",
@@ -830,9 +830,9 @@ window.FK_DATA = {
         "previous": "24.9B"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Flash Manufacturing PMI",
@@ -841,9 +841,9 @@ window.FK_DATA = {
         "previous": "52.2"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Flash Services PMI",
@@ -852,9 +852,9 @@ window.FK_DATA = {
         "previous": "47.6"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "14:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:30",
         "currency": "GBP",
         "impact": "high",
         "event": "Flash Manufacturing PMI",
@@ -863,9 +863,9 @@ window.FK_DATA = {
         "previous": "53.7"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "high",
         "event": "Flash Services PMI",
@@ -874,9 +874,9 @@ window.FK_DATA = {
         "previous": "52.7"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "15:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "16:00",
         "currency": "EUR",
         "impact": "low",
         "event": "EU Economic Forecasts",
@@ -885,8 +885,8 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
+        "date": "2026-05-18",
+        "day": "Senin",
         "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
@@ -896,9 +896,9 @@ window.FK_DATA = {
         "previous": "4.91|3.5"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "16:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "17:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German Buba Monthly Report",
@@ -907,9 +907,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
         "event": "CBI Industrial Order Expectations",
@@ -918,9 +918,9 @@ window.FK_DATA = {
         "previous": "-38"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "18:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:00",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Taylor Speaks",
@@ -929,9 +929,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "18:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "USD",
         "impact": "medium",
         "event": "Philly Fed Manufacturing Index",
@@ -940,9 +940,9 @@ window.FK_DATA = {
         "previous": "26.7"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "USD",
         "impact": "medium",
         "event": "Unemployment Claims",
@@ -951,9 +951,9 @@ window.FK_DATA = {
         "previous": "211K"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "USD",
         "impact": "low",
         "event": "Building Permits",
@@ -962,9 +962,9 @@ window.FK_DATA = {
         "previous": "1.37M"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "USD",
         "impact": "low",
         "event": "Housing Starts",
@@ -973,9 +973,9 @@ window.FK_DATA = {
         "previous": "1.50M"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "19:45",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "20:45",
         "currency": "USD",
         "impact": "medium",
         "event": "Flash Manufacturing PMI",
@@ -984,9 +984,9 @@ window.FK_DATA = {
         "previous": "54.5"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "USD",
         "impact": "medium",
         "event": "Flash Services PMI",
@@ -995,9 +995,9 @@ window.FK_DATA = {
         "previous": "51.0"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "20:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "21:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Consumer Confidence",
@@ -1006,9 +1006,9 @@ window.FK_DATA = {
         "previous": "-21"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "20:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "21:30",
         "currency": "USD",
         "impact": "low",
         "event": "Natural Gas Storage",
@@ -1017,9 +1017,9 @@ window.FK_DATA = {
         "previous": "85B"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "22:20",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "23:20",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Barkin Speaks",
@@ -1028,9 +1028,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "04:45",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "05:45",
         "currency": "NZD",
         "impact": "low",
         "event": "Core Retail Sales q/q",
@@ -1039,9 +1039,9 @@ window.FK_DATA = {
         "previous": "1.5%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "07:45",
         "currency": "NZD",
         "impact": "low",
         "event": "Retail Sales q/q",
@@ -1050,9 +1050,9 @@ window.FK_DATA = {
         "previous": "0.9%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:01",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "06:01",
         "currency": "GBP",
         "impact": "low",
         "event": "GfK Consumer Confidence",
@@ -1061,9 +1061,9 @@ window.FK_DATA = {
         "previous": "-25"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "05:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "06:30",
         "currency": "JPY",
         "impact": "low",
         "event": "National Core CPI y/y",
@@ -1072,9 +1072,9 @@ window.FK_DATA = {
         "previous": "1.8%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "12:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German Final GDP q/q",
@@ -1083,9 +1083,9 @@ window.FK_DATA = {
         "previous": "0.3%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German GfK Consumer Climate",
@@ -1094,9 +1094,9 @@ window.FK_DATA = {
         "previous": "-33.3"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "medium",
         "event": "Retail Sales m/m",
@@ -1105,9 +1105,9 @@ window.FK_DATA = {
         "previous": "0.7%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
         "event": "Public Sector Net Borrowing",
@@ -1116,9 +1116,9 @@ window.FK_DATA = {
         "previous": "12.6B"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "14:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German ifo Business Climate",
@@ -1127,9 +1127,9 @@ window.FK_DATA = {
         "previous": "84.4"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "ECOFIN Meetings",
@@ -1138,9 +1138,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Eurogroup Meetings",
@@ -1149,9 +1149,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "18:30",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "medium",
         "event": "Core Retail Sales m/m",
@@ -1160,9 +1160,9 @@ window.FK_DATA = {
         "previous": "0.5%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "medium",
         "event": "Retail Sales m/m",
@@ -1171,9 +1171,9 @@ window.FK_DATA = {
         "previous": "0.7%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "low",
         "event": "IPPI m/m",
@@ -1182,9 +1182,9 @@ window.FK_DATA = {
         "previous": "2.4%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "low",
         "event": "RMPI m/m",
@@ -1193,9 +1193,9 @@ window.FK_DATA = {
         "previous": "12.0%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "19:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "20:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Belgian NBB Business Climate",
@@ -1204,9 +1204,9 @@ window.FK_DATA = {
         "previous": "-14.2"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "20:00",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "21:00",
         "currency": "USD",
         "impact": "medium",
         "event": "Revised UoM Consumer Sentiment",
@@ -1215,9 +1215,9 @@ window.FK_DATA = {
         "previous": "48.2"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "USD",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -1226,9 +1226,9 @@ window.FK_DATA = {
         "previous": "-0.6%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Waller Speaks",
@@ -1237,9 +1237,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "19:30",
         "currency": "USD",
         "impact": "low",
         "event": "Revised UoM Inflation Expectations",
@@ -1248,9 +1248,9 @@ window.FK_DATA = {
         "previous": "4.5%"
       },
       {
-        "date": "2026-05-17",
-        "day": "Minggu",
-        "time_wib": "Sepanjang Hari",
+        "date": "2026-05-18",
+        "day": "Senin",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "ECOFIN Meetings",
@@ -1261,20 +1261,20 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "18 May 2026 06:57 WIB",
+    "generated": "18 May 2026 07:01 WIB",
     "summary": {
-      "total": 60,
-      "bullish": 17,
+      "total": 59,
+      "bullish": 16,
       "bearish": 37,
       "netral": 6,
-      "avg_score": -0.2733,
+      "avg_score": -0.2906,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
-          "sentiment": "Bullish",
-          "score": 0.064,
-          "count": 4
+          "sentiment": "Bearish",
+          "score": -0.164,
+          "count": 3
         },
         {
           "currency": "EUR",
@@ -1658,16 +1658,6 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Bisakah Kota New York Memungut Pajak pada Orang Kaya Tanpa Mengusir Mereka?",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-17/why-new-york-keeps-debating-taxes-on-the-wealthy-video",
-        "summary": "New York City’s effort to close a multibillion-dollar budget gap has triggered a high-profile clash between Mayor Zohran Mamdani and Wall Street leaders, including Citadel founder Ken Griffin. Mamdani’s proposed “pied-à-terre” tax on luxury second homes has become a flashpoint in a broader debate ov",
-        "published": "17 May 2026 21:04 WIB",
-        "sentiment": "Bullish",
-        "score": 0.748,
-        "emoji": "🟢"
-      },
-      {
         "source": "Google News Forex",
         "title": "Makroekonomi tarif dengan produksi global dan jaringan keuangan - CEPR",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV0NLNWZ2aW9DYzVHQjRXUm84QVNvcl9xb3dRaDJyZ1FiSUF2eGwwdlgtaTc0UDBkQjZBVVpBZG5ud0VsUlFBWC1VTHExWktiMGRCbEhIVjR5RFBiVzVEeVo1MnlBWElZZlNjdnNfcnVYRjhzbFhhSXNoVkN4RUtSbTU1RnlLRFhXc2hyMnJ0Zkh6R2NRVHJCdQ?oc=5",
@@ -1869,12 +1859,12 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
-        "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
-        "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
-        "published": "17 May 2026 19:14 WIB",
+        "title": "Pasar Asia-Pasifik akan dibuka beragam karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
+        "url": "https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html",
+        "summary": "Asia-Pacific markets were poised for a mixed open as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
+        "published": "18 May 2026 06:51 WIB",
         "sentiment": "Bearish",
-        "score": -0.34,
+        "score": -0.851,
         "emoji": "🔴"
       },
       {
@@ -1889,18 +1879,18 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Pasar Asia-Pasifik akan dibuka beragam karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
-        "url": "https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html",
-        "summary": "Asia-Pacific markets were poised for a mixed open as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
-        "published": "18 May 2026 06:51 WIB",
+        "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
+        "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
+        "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
+        "published": "17 May 2026 19:14 WIB",
         "sentiment": "Bearish",
-        "score": -0.851,
+        "score": -0.34,
         "emoji": "🔴"
       }
     ]
   },
   "geopolitik": {
-    "generated": "18 May 2026 06:57 WIB",
+    "generated": "18 May 2026 07:01 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -2287,13 +2277,13 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
-        "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
-        "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
-        "published": "17 May 2026 19:14 WIB",
-        "sentiment": "Bullish",
-        "score": 0.08,
-        "emoji": "🟢"
+        "title": "Pasar Asia-Pasifik akan dibuka beragam karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
+        "url": "https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html",
+        "summary": "Asia-Pacific markets were poised for a mixed open as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
+        "published": "18 May 2026 06:51 WIB",
+        "sentiment": "Bearish",
+        "score": -0.851,
+        "emoji": "🔴"
       },
       {
         "source": "CNBC World",
@@ -2307,18 +2297,18 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Pasar Asia-Pasifik akan dibuka beragam karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
-        "url": "https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html",
-        "summary": "Asia-Pacific markets were poised for a mixed open as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
-        "published": "18 May 2026 06:51 WIB",
-        "sentiment": "Bearish",
-        "score": -0.851,
-        "emoji": "🔴"
+        "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
+        "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
+        "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
+        "published": "17 May 2026 19:14 WIB",
+        "sentiment": "Bullish",
+        "score": 0.08,
+        "emoji": "🟢"
       }
     ]
   },
   "fj_live": {
-    "generated": "18 May 2026 06:57 WIB",
+    "generated": "18 May 2026 07:01 WIB",
     "summary": {
       "total": 10,
       "bullish": 3,

@@ -1,5 +1,5 @@
 {
-  "generated": "18 May 2026 06:57 WIB",
+  "generated": "18 May 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -386,13 +386,13 @@
     },
     {
       "source": "CNBC World",
-      "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
-      "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
-      "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
-      "published": "17 May 2026 19:14 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢"
+      "title": "Pasar Asia-Pasifik akan dibuka beragam karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
+      "url": "https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html",
+      "summary": "Asia-Pacific markets were poised for a mixed open as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
+      "published": "18 May 2026 06:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.851,
+      "emoji": "🔴"
     },
     {
       "source": "CNBC World",
@@ -406,13 +406,13 @@
     },
     {
       "source": "CNBC World",
-      "title": "Pasar Asia-Pasifik akan dibuka beragam karena peringatan Trump terhadap Iran memicu kekhawatiran baru akan pasokan minyak",
-      "url": "https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html",
-      "summary": "Asia-Pacific markets were poised for a mixed open as investors weighed renewed geopolitical tensions after Donald Trump warned Iran to \"get moving, FAST.\"",
-      "published": "18 May 2026 06:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.851,
-      "emoji": "🔴"
+      "title": "Para menteri keuangan G7 akan bertemu di tengah peringatan akan konsekuensi ekonomi dari penutupan Selat Hormuz yang berkepanjangan",
+      "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
+      "summary": "G7 finance ministers are due to meet in Paris on Monday and Tuesday as long-term borrowing costs surge.",
+      "published": "17 May 2026 19:14 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
     }
   ]
 }
