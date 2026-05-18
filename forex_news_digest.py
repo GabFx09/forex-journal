@@ -842,10 +842,9 @@ _TENTATIVE_WIB: dict[str, str] = {
 def _et_to_wib(time_raw: str, currency: str = "") -> str:
     """Konversi waktu ET (default ForexFactory) → WIB (UTC+7)."""
     clean = re.sub(r"\s+", "", time_raw.strip().lower())
-    if not clean or clean == "allday":
-        return "Sepanjang Hari"
-    if clean == "tentative":
+    if not clean or clean in ("allday", "tentative"):
         # Gunakan waktu rilis tipikal per mata uang; fallback ke 08:00 WIB
+        # Bank holiday akan di-override ke "Sepanjang Hari" di call site
         return _TENTATIVE_WIB.get(currency.upper(), "08:00")
     # EST (Nov–Feb) = UTC-5 → WIB = ET+12; EDT (Mar–Oct) = UTC-4 → WIB = ET+11
     offset = 11 if 3 <= datetime.now(tz=timezone.utc).month <= 10 else 12
@@ -937,10 +936,14 @@ def fetch_forexfactory_calendar() -> list[EconomicEvent]:
                     impact = "holiday"
 
             _ccy = (currency_el.get_text(strip=True) if currency_el else "").upper()
+            _wib = _et_to_wib(time_el.get_text(strip=True) if time_el else "", _ccy)
+            # Bank holiday tidak punya jam spesifik — tetap tampilkan "Sepanjang Hari"
+            if impact == "holiday":
+                _wib = "Sepanjang Hari"
             events.append(EconomicEvent(
                 date_str=current_date,
                 day_id=current_day,
-                time_wib=_et_to_wib(time_el.get_text(strip=True) if time_el else "", _ccy),
+                time_wib=_wib,
                 currency=_ccy,
                 impact=impact,
                 event_name=event_el.get_text(strip=True),

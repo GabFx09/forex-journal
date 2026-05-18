@@ -48,7 +48,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
       "event": "Industrial Production y/y",
@@ -59,7 +59,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
       "event": "NBS Press Conference",
@@ -70,7 +70,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
       "event": "Retail Sales y/y",
@@ -81,7 +81,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
       "event": "Unemployment Rate",
@@ -191,7 +191,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "07:45",
       "currency": "NZD",
       "impact": "low",
       "event": "PPI Output q/q",
@@ -224,7 +224,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "07:50",
       "currency": "JPY",
       "impact": "low",
       "event": "Prelim GDP q/q",
@@ -268,7 +268,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "07:50",
       "currency": "JPY",
       "impact": "low",
       "event": "Tertiary Industry Activity m/m",
@@ -290,7 +290,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "medium",
       "event": "Average Earnings Index 3m/y",
@@ -301,7 +301,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
       "event": "Unemployment Rate",
@@ -378,7 +378,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "medium",
       "event": "Common CPI y/y",
@@ -389,7 +389,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "medium",
       "event": "Median CPI y/y",
@@ -400,7 +400,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "medium",
       "event": "Trimmed CPI y/y",
@@ -411,7 +411,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
       "event": "Building Permits m/m",
@@ -422,7 +422,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
       "event": "Core CPI m/m",
@@ -433,7 +433,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
       "event": "NHPI m/m",
@@ -510,7 +510,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
       "event": "5-y Loan Prime Rate",
@@ -532,7 +532,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "high",
       "event": "CPI y/y",
@@ -543,7 +543,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
       "event": "Core CPI y/y",
@@ -554,7 +554,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
       "event": "PPI Input m/m",
@@ -565,7 +565,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
       "event": "PPI Output m/m",
@@ -576,7 +576,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
       "event": "RPI y/y",
@@ -609,7 +609,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Final CPI y/y",
@@ -686,7 +686,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "08:30",
       "currency": "AUD",
       "impact": "low",
       "event": "Flash Services PMI",
@@ -708,7 +708,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "07:50",
       "currency": "JPY",
       "impact": "low",
       "event": "Trade Balance",
@@ -752,7 +752,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "08:30",
       "currency": "AUD",
       "impact": "high",
       "event": "Unemployment Rate",
@@ -785,7 +785,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "medium",
       "event": "French Flash Services PMI",
@@ -807,7 +807,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "medium",
       "event": "German Flash Services PMI",
@@ -829,7 +829,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Manufacturing PMI",
@@ -840,7 +840,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Services PMI",
@@ -862,7 +862,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "high",
       "event": "Flash Services PMI",
@@ -906,7 +906,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
       "event": "CBI Industrial Order Expectations",
@@ -939,7 +939,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "medium",
       "event": "Unemployment Claims",
@@ -950,7 +950,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "Building Permits",
@@ -961,7 +961,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "Housing Starts",
@@ -983,7 +983,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "medium",
       "event": "Flash Services PMI",
@@ -1038,7 +1038,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "07:45",
       "currency": "NZD",
       "impact": "low",
       "event": "Retail Sales q/q",
@@ -1082,7 +1082,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German GfK Consumer Climate",
@@ -1093,7 +1093,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "medium",
       "event": "Retail Sales m/m",
@@ -1104,7 +1104,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
       "event": "Public Sector Net Borrowing",
@@ -1126,7 +1126,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "ECOFIN Meetings",
@@ -1137,7 +1137,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Eurogroup Meetings",
@@ -1159,7 +1159,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "medium",
       "event": "Retail Sales m/m",
@@ -1170,7 +1170,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
       "event": "IPPI m/m",
@@ -1181,7 +1181,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
       "event": "RMPI m/m",
@@ -1214,7 +1214,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "CB Leading Index m/m",
@@ -1225,7 +1225,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Waller Speaks",
@@ -1236,7 +1236,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "Revised UoM Inflation Expectations",
@@ -1247,7 +1247,7 @@
     {
       "date": "2026-05-17",
       "day": "Minggu",
-      "time_wib": "Sepanjang Hari",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "ECOFIN Meetings",
