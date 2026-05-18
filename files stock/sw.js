@@ -1,4 +1,4 @@
-const CACHE = 'sj-stock-v1';
+const CACHE = 'sj-stock-v2';
 
 const CORE = [
   'StockJournal_Pro_1.html',

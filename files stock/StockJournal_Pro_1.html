@@ -35,6 +35,8 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--txt);font
 .logo-title{font-size:15px;font-weight:700;color:var(--txt);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .logo-sub{font-size:10px;color:var(--sub);margin-top:1px}
 .tb-right{display:flex;gap:8px;align-items:center;flex-shrink:0}
+#btn-install{display:none;align-items:center;gap:5px;font-size:11px;padding:5px 11px;background:linear-gradient(135deg,#10b981,#059669);border:none;border-radius:7px;color:#fff;cursor:pointer;font-weight:600;box-shadow:0 2px 10px rgba(16,185,129,.35)}
+#btn-install:hover{background:linear-gradient(135deg,#059669,#047857)}
 
 /* SYNC BAR */
 #sb{background:#05101e;border-bottom:1px solid rgba(16,185,129,.12);padding:4px 16px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;font-size:11px;flex-wrap:wrap;gap:4px}
@@ -310,6 +312,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.5}
     </div>
     <div class="tb-right">
       <span id="last-update" style="font-size:10px;color:var(--sub)"></span>
+      <button id="btn-install" onclick="installApp()">⬇ Install App</button>
       <button class="btn bh" onclick="openMo()" style="font-size:11px;padding:5px 11px">⚙ Settings</button>
     </div>
   </div>
@@ -1508,7 +1511,30 @@ async function pingGS(){
 }
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').catch(() => {});
+  navigator.serviceWorker.register('./sw.js').catch(err => console.warn('SW error:', err));
+}
+
+let _dip = null;
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  _dip = e;
+  const btn = document.getElementById('btn-install');
+  if (btn) btn.style.display = 'flex';
+});
+window.addEventListener('appinstalled', () => {
+  _dip = null;
+  const btn = document.getElementById('btn-install');
+  if (btn) btn.style.display = 'none';
+  toast('✅ App berhasil diinstal!');
+});
+function installApp() {
+  if (!_dip) return;
+  _dip.prompt();
+  _dip.userChoice.then(() => {
+    _dip = null;
+    const btn = document.getElementById('btn-install');
+    if (btn) btn.style.display = 'none';
+  });
 }
 </script>
 </body>
