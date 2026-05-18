@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StockJournal Pro — Jurnal Investasi Saham</title>
+<meta name="theme-color" content="#10b981">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="StockJournal">
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#05101e;--surf:#09172a;--card:#0d1e33;
+  --bdr:rgba(255,255,255,.07);--bdr2:rgba(255,255,255,.13);
+  --green:#10b981;--gdim:rgba(16,185,129,.12);
+  --red:#f43f5e;--rdim:rgba(244,63,94,.1);
+  --blue:#3b82f6;--bdim:rgba(59,130,246,.12);
+  --gold:#f59e0b;--ydim:rgba(245,158,11,.12);
+  --purple:#8b5cf6;--pdim:rgba(139,92,246,.12);
+  --cyan:#06b6d4;
+  --txt:#e8f2fc;--sub:#7090aa;--mut:#334a62;
+  --mono:'JetBrains Mono','Courier New',monospace;
+
+  /* Shadow system */
+  --sh-xs:0 1px 4px rgba(0,0,0,.55);
+  --sh-sm:0 2px 10px rgba(0,0,0,.5),0 1px 3px rgba(0,0,0,.35);
+  --sh-md:0 6px 28px rgba(0,0,0,.55),0 2px 10px rgba(0,0,0,.35);
+  --sh-lg:0 12px 48px rgba(0,0,0,.65),0 4px 18px rgba(0,0,0,.4);
+  --sh-xl:0 24px 72px rgba(0,0,0,.75),0 8px 28px rgba(0,0,0,.5);
+  --glow-g:0 0 28px rgba(16,185,129,.18),0 0 60px rgba(16,185,129,.07);
+  --glow-b:0 0 28px rgba(59,130,246,.18),0 0 60px rgba(59,130,246,.07);
+  --inset-top:inset 0 1px 0 rgba(255,255,255,.07);
+}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--txt);font-family:'Inter','Segoe UI',Arial,sans-serif;font-size:13px}
+#app{display:flex;flex-direction:column;height:100vh}
+
+/* ─── TOPBAR ─── */
+#tb{
+  background:linear-gradient(135deg,#030c1a 0%,#09182e 45%,#040e1d 100%);
+  border-bottom:1px solid rgba(16,185,129,.1);
+  padding:10px 20px;display:flex;align-items:center;justify-content:space-between;
+  flex-shrink:0;position:relative;gap:12px;
+  box-shadow:0 4px 28px rgba(0,0,0,.65),0 1px 0 rgba(16,185,129,.06);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)
+}
+#tb::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(16,185,129,.65),rgba(59,130,246,.3),rgba(16,185,129,.65),transparent)}
+.logo{display:flex;align-items:center;gap:13px;min-width:0;flex:1}
+.logo-icon{
+  width:38px;height:38px;
+  background:linear-gradient(135deg,#10b981 0%,#059669 60%,#047857 100%);
+  border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:19px;
+  box-shadow:0 4px 22px rgba(16,185,129,.45),0 2px 8px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.22);
+  flex-shrink:0
+}
+.logo-text{min-width:0}
+.logo-title{font-size:15px;font-weight:700;color:var(--txt);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:-.01em}
+.logo-sub{font-size:10px;color:var(--sub);margin-top:1px;letter-spacing:.03em}
+.tb-right{display:flex;gap:8px;align-items:center;flex-shrink:0}
+#btn-install{
+  display:none;align-items:center;gap:5px;font-size:11px;padding:6px 13px;
+  background:linear-gradient(135deg,#10b981,#059669);border:none;border-radius:8px;
+  color:#fff;cursor:pointer;font-weight:600;letter-spacing:.03em;
+  box-shadow:0 3px 14px rgba(16,185,129,.45),0 1px 4px rgba(0,0,0,.3);
+  transition:all .2s
+}
+#btn-install:hover{transform:translateY(-1px);box-shadow:0 6px 22px rgba(16,185,129,.55),0 2px 8px rgba(0,0,0,.3)}
+
+/* ─── SYNC BAR ─── */
+#sb{
+  background:#030b17;border-bottom:1px solid rgba(16,185,129,.07);
+  padding:4px 18px;display:flex;align-items:center;justify-content:space-between;
+  flex-shrink:0;font-size:11px;flex-wrap:wrap;gap:4px;
+  box-shadow:0 2px 10px rgba(0,0,0,.45)
+}
+.sbl{display:flex;align-items:center;gap:10px;min-width:0}
+#sdot{width:7px;height:7px;border-radius:50%;background:var(--mut);transition:.3s;flex-shrink:0}
+.s-ok{background:var(--green)!important;box-shadow:0 0 8px var(--green),0 0 18px rgba(16,185,129,.4)}
+.s-busy{background:var(--gold)!important;animation:pulse 1s infinite}
+.s-err{background:var(--red)!important;box-shadow:0 0 8px var(--red)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ─── NAV ─── */
+#nav{
+  background:var(--surf);border-bottom:1px solid var(--bdr);
+  display:flex;overflow-x:auto;scrollbar-width:none;flex-shrink:0;gap:2px;padding:0 6px;
+  box-shadow:0 3px 14px rgba(0,0,0,.4),var(--inset-top)
+}
+#nav::-webkit-scrollbar{display:none}
+.nb{
+  padding:10px 15px;font-size:11px;font-weight:500;color:var(--sub);
+  border:none;background:none;cursor:pointer;white-space:nowrap;
+  border-bottom:2px solid transparent;transition:all .2s;border-radius:6px 6px 0 0;
+  letter-spacing:.01em
+}
+.nb.on{
+  color:var(--green);border-bottom-color:var(--green);
+  background:rgba(16,185,129,.09);text-shadow:0 0 22px rgba(16,185,129,.65);
+  box-shadow:inset 0 -2px 10px rgba(16,185,129,.12)
+}
+.nb:hover:not(.on){color:var(--txt);background:rgba(255,255,255,.04)}
+#main{flex:1;overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.1) transparent}
+#main::-webkit-scrollbar{width:5px}
+#main::-webkit-scrollbar-track{background:transparent}
+#main::-webkit-scrollbar-thumb{background:rgba(255,255,255,.1);border-radius:4px}
+#main::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,.18)}
+.tab{display:none;padding:18px;animation:fadeIn .22s ease}.tab.on{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+
+/* ─── MODALS ─── */
+#mo{position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:9000;display:none;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.mbox{
+  background:linear-gradient(150deg,#0e2040,#0a1829);
+  border:1px solid rgba(255,255,255,.09);border-radius:18px;
+  max-width:500px;width:100%;max-height:90vh;overflow-y:auto;
+  box-shadow:var(--sh-xl),0 0 70px rgba(16,185,129,.07)
+}
+.mhead{
+  background:linear-gradient(135deg,#040c1a,#09182e);
+  border-radius:18px 18px 0 0;padding:24px 28px;
+  border-bottom:1px solid rgba(255,255,255,.07);text-align:center;
+  box-shadow:0 1px 0 rgba(255,255,255,.05)
+}
+.mbody{padding:22px 26px}
+.scard{
+  background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);
+  border-radius:12px;padding:14px;margin-bottom:9px;
+  box-shadow:var(--sh-xs);transition:border-color .2s,box-shadow .2s
+}
+.scard:hover{border-color:rgba(16,185,129,.22);box-shadow:var(--sh-sm),0 0 18px rgba(16,185,129,.07)}
+.snum{
+  width:22px;height:22px;border-radius:50%;
+  background:linear-gradient(135deg,#10b981,#059669);color:#04101d;
+  font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  box-shadow:0 2px 8px rgba(16,185,129,.45)
+}
+.sttl{font-size:12px;font-weight:600;color:var(--txt)}
+.sdsc{font-size:11px;color:var(--sub);line-height:1.7;padding-left:30px}
+.sdsc b{color:var(--sub)}.sdsc a{color:var(--blue)}
+.mfoot{padding:14px 26px;border-top:1px solid rgba(255,255,255,.06);display:flex;gap:8px;justify-content:flex-end}
+
+/* ─── TOAST ─── */
+#toast{
+  position:fixed;bottom:24px;left:50%;
+  transform:translateX(-50%) translateY(80px);
+  background:linear-gradient(135deg,#0e2240,#0b1c38);
+  color:var(--txt);padding:11px 22px;border-radius:12px;font-size:12px;
+  border:1px solid rgba(16,185,129,.28);
+  box-shadow:var(--sh-md),0 0 24px rgba(16,185,129,.14);
+  transition:transform .32s cubic-bezier(.34,1.56,.64,1);
+  z-index:9999;white-space:nowrap
+}
+#toast.show{transform:translateX(-50%) translateY(0)}
+
+/* ─── LAYOUT GRIDS ─── */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+
+/* ─── CARD ─── */
+.card{
+  background:linear-gradient(150deg,#0e2040 0%,#091830 100%);
+  border:1px solid rgba(255,255,255,.08);border-radius:15px;
+  padding:18px;margin-bottom:14px;position:relative;overflow:hidden;
+  box-shadow:var(--sh-sm),var(--inset-top);
+  transition:border-color .25s,box-shadow .25s,transform .2s
+}
+.card::before{
+  content:'';position:absolute;top:0;left:15%;right:15%;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.12),transparent)
+}
+.card:hover{
+  border-color:rgba(16,185,129,.2);transform:translateY(-1px);
+  box-shadow:var(--sh-md),0 0 28px rgba(16,185,129,.09),var(--inset-top)
+}
+.ct{font-size:9px;font-weight:700;color:var(--sub);text-transform:uppercase;letter-spacing:.14em;margin-bottom:14px}
+
+/* ─── METRIC CARDS ─── */
+.met{
+  background:linear-gradient(150deg,#0e2040 0%,#091830 100%);
+  border:1px solid rgba(255,255,255,.08);border-radius:15px;
+  padding:16px;position:relative;overflow:hidden;
+  box-shadow:var(--sh-sm),var(--inset-top);
+  transition:transform .18s,border-color .2s,box-shadow .2s
+}
+.met::before{
+  content:'';position:absolute;top:0;left:15%;right:15%;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.1),transparent)
+}
+.met:hover{
+  transform:translateY(-2px);border-color:rgba(16,185,129,.24);
+  box-shadow:var(--sh-md),var(--glow-g)
+}
+.ml{font-size:10px;color:var(--sub);margin-bottom:6px;letter-spacing:.03em}
+.mv{font-size:22px;font-weight:700;font-family:var(--mono)}
+.ms{font-size:10px;color:var(--sub);margin-top:4px}
+.up{color:var(--green)}.dn{color:var(--red)}.yl{color:var(--gold)}.nt{color:var(--sub)}
+
+/* ─── FORM ─── */
+label.lb{font-size:10px;color:var(--sub);display:block;margin-bottom:4px;font-weight:500;letter-spacing:.03em}
+input,select,textarea{
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);
+  border-radius:8px;padding:8px 11px;color:var(--txt);font-size:12px;width:100%;
+  font-family:'Inter','Segoe UI',Arial,sans-serif;
+  box-shadow:inset 0 1px 5px rgba(0,0,0,.35);
+  transition:border-color .2s,box-shadow .2s
+}
+input:focus,select:focus,textarea:focus{
+  outline:none;border-color:var(--green);
+  box-shadow:inset 0 1px 5px rgba(0,0,0,.35),0 0 0 3px rgba(16,185,129,.13)
+}
+textarea{resize:vertical;min-height:60px;line-height:1.5}
+.fg{display:flex;flex-direction:column;gap:4px;margin-bottom:10px}
+.fr{display:grid;gap:10px;margin-bottom:10px}
+.fr2{grid-template-columns:1fr 1fr}.fr3{grid-template-columns:repeat(3,1fr)}.fr4{grid-template-columns:repeat(4,1fr)}
+
+/* ─── BUTTONS ─── */
+.btn{
+  padding:7px 17px;border-radius:8px;border:none;
+  font-size:11px;font-weight:600;cursor:pointer;transition:all .18s;
+  letter-spacing:.03em;font-family:'Inter','Segoe UI',Arial,sans-serif
+}
+.bg{
+  background:linear-gradient(135deg,#10b981,#059669);color:#fff;
+  box-shadow:0 3px 14px rgba(16,185,129,.35),0 1px 4px rgba(0,0,0,.3)
+}
+.bg:hover{transform:translateY(-1px);box-shadow:0 6px 22px rgba(16,185,129,.5),0 2px 8px rgba(0,0,0,.3)}
+.bh{
+  background:rgba(255,255,255,.04);color:var(--sub);
+  border:1px solid rgba(255,255,255,.1)!important;
+  box-shadow:var(--sh-xs)
+}
+.bh:hover{color:var(--txt);border-color:rgba(255,255,255,.2)!important;background:rgba(255,255,255,.07)}
+.bb{background:var(--bdim);color:var(--blue);border:1px solid rgba(59,130,246,.3);box-shadow:0 2px 10px rgba(59,130,246,.15)}
+.br{background:var(--rdim);color:var(--red);border:1px solid rgba(244,63,94,.25);box-shadow:0 2px 10px rgba(244,63,94,.15)}
+.by{background:var(--ydim);color:var(--gold);border:1px solid rgba(245,158,11,.3);box-shadow:0 2px 10px rgba(245,158,11,.15)}
+.bsm{padding:3px 8px;font-size:10px;border-radius:5px;border:none;cursor:pointer;background:var(--rdim);color:var(--red)}
+.fe{display:flex;justify-content:flex-end;gap:8px;margin-top:12px}
+.fb{display:flex;justify-content:space-between;align-items:center}
+.dv{height:1px;background:rgba(255,255,255,.06);margin:12px 0}
+
+/* ─── BADGES ─── */
+.bdg{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:600}
+.bg2{background:var(--gdim);color:var(--green)}
+.br2{background:var(--rdim);color:var(--red)}
+.bb2{background:var(--bdim);color:var(--blue)}
+.by2{background:var(--ydim);color:var(--gold)}
+.bp{background:var(--pdim);color:var(--purple)}
+
+/* ─── TABLE ─── */
+.tbl{width:100%;border-collapse:collapse;font-size:11px}
+.tbl th{
+  font-size:9px;color:var(--sub);font-weight:600;text-align:left;
+  padding:9px 10px;border-bottom:1px solid rgba(255,255,255,.07);
+  text-transform:uppercase;letter-spacing:.09em;white-space:nowrap;
+  background:rgba(0,0,0,.2)
+}
+.tbl td{padding:10px 10px;border-bottom:1px solid rgba(255,255,255,.03);color:var(--sub);vertical-align:middle}
+.tbl tr:hover td{background:rgba(255,255,255,.025)}
+.tw{color:var(--green)!important;font-weight:600}.tl{color:var(--red)!important;font-weight:600}.ts{color:var(--txt)!important;font-weight:700}
+
+/* ─── MISC ─── */
+.pb{background:rgba(255,255,255,.07);border-radius:4px;height:5px;overflow:hidden;box-shadow:inset 0 1px 3px rgba(0,0,0,.4)}
+.pf{height:100%;border-radius:4px}
+.al{border-radius:10px;padding:11px 15px;margin-bottom:10px;font-size:12px;line-height:1.5;box-shadow:var(--sh-xs)}
+.aw{background:var(--ydim);border:1px solid rgba(245,158,11,.2);color:var(--gold)}
+.as{background:var(--gdim);border:1px solid rgba(16,185,129,.2);color:var(--green)}
+.ad{background:var(--rdim);border:1px solid rgba(244,63,94,.2);color:var(--red)}
+.em{text-align:center;padding:32px 16px;color:var(--mut);font-size:12px;line-height:1.9}
+.cw{position:relative;width:100%}
+
+/* ─── STOCK SPECIFIC ─── */
+.ticker-badge{
+  display:inline-block;padding:3px 9px;
+  background:rgba(59,130,246,.15);color:var(--blue);
+  border-radius:6px;font-weight:700;font-family:var(--mono);font-size:11px;
+  letter-spacing:.06em;box-shadow:0 1px 5px rgba(59,130,246,.22)
+}
+.sector-tag{display:inline-block;padding:2px 7px;border-radius:10px;font-size:10px;font-weight:500}
+.horizon-tag{display:inline-block;padding:2px 9px;border-radius:10px;font-size:10px;font-weight:600}
+.hz-spot{background:rgba(245,158,11,.15);color:var(--gold)}
+.hz-swing{background:rgba(59,130,246,.15);color:var(--blue)}
+.hz-invest{background:rgba(16,185,129,.15);color:var(--green)}
+.hz-long{background:rgba(139,92,246,.15);color:var(--purple)}
+
+/* ─── PORTFOLIO CARDS ─── */
+.port-card{
+  background:linear-gradient(150deg,#0e2040,#091830);
+  border:1px solid rgba(255,255,255,.08);border-radius:14px;
+  padding:16px;position:relative;overflow:hidden;
+  box-shadow:var(--sh-sm),var(--inset-top);
+  transition:transform .2s,box-shadow .2s
+}
+.port-card:hover{transform:translateY(-2px);box-shadow:var(--sh-md)}
+.port-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.pc-buy::before{background:linear-gradient(90deg,#10b981,#059669)}
+.pc-hold::before{background:linear-gradient(90deg,#3b82f6,#2563eb)}
+.pc-watch::before{background:linear-gradient(90deg,#f59e0b,#d97706)}
+.pc-sell::before{background:linear-gradient(90deg,#f43f5e,#e11d48)}
+
+/* ─── WATCHLIST ─── */
+.wl-item{
+  background:linear-gradient(150deg,#0c1d36,#091528);
+  border:1px solid rgba(255,255,255,.07);border-radius:11px;
+  padding:14px;margin-bottom:9px;
+  display:flex;align-items:flex-start;justify-content:space-between;gap:12px;
+  box-shadow:var(--sh-xs);
+  transition:border-color .2s,box-shadow .2s,transform .2s
+}
+.wl-item:hover{border-color:rgba(59,130,246,.22);box-shadow:var(--sh-sm),var(--glow-b);transform:translateY(-1px)}
+
+/* ─── SLIDER ─── */
+.sr{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.sl{font-size:11px;color:var(--sub);width:130px;flex-shrink:0}
+.si{flex:1;accent-color:var(--green)}
+.sv{font-size:11px;color:var(--green);font-family:var(--mono);width:22px;text-align:right}
+
+/* ─── CHART ─── */
+.chart-area{height:180px;position:relative}
+
+/* ─── MOBILE ─── */
+@media(max-width:640px){
+  .g3,.g4{grid-template-columns:1fr 1fr}
+  .g2{grid-template-columns:1fr}
+  .fr3,.fr4{grid-template-columns:1fr 1fr}
+  .tab{padding:10px}
+  #tb{padding:8px 12px;gap:8px}
+  .logo-icon{width:30px;height:30px;font-size:15px}
+  .logo-title{font-size:13px}
+  .logo-sub{display:none}
+  #last-update{display:none}
+  #sb{padding:3px 10px;font-size:10px}
+  #stxt{max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  #nav{
+    display:grid;grid-template-columns:repeat(4,1fr);
+    overflow:visible;padding:5px 6px;gap:3px;
+    border-bottom:1px solid var(--bdr)
+  }
+  #nav::-webkit-scrollbar{display:none}
+  .nb{
+    padding:7px 4px;font-size:9px;text-align:center;
+    white-space:normal;border-bottom:none;border-radius:8px;
+    border:1px solid transparent;line-height:1.3;letter-spacing:0
+  }
+  .nb.on{
+    background:rgba(16,185,129,.12);border-color:rgba(16,185,129,.3);
+    color:var(--green);text-shadow:0 0 12px rgba(16,185,129,.55);
+    box-shadow:0 2px 10px rgba(16,185,129,.16)
+  }
+  .nb:hover:not(.on){background:rgba(255,255,255,.04);border-color:var(--bdr)}
+  .card{padding:12px}.met{padding:12px}.mv{font-size:18px}
+  .chart-area{height:140px}
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- SETUP MODAL -->
+<div id="mo">
+  <div class="mbox">
+    <div class="mhead">
+      <div style="font-size:32px;margin-bottom:8px">📈</div>
+      <div style="font-size:17px;font-weight:700;color:var(--txt)">StockJournal Pro</div>
+      <div style="font-size:11px;color:var(--sub);margin-top:4px">Sync ke Google Sheets — Opsional</div>
+    </div>
+    <div class="mbody">
+      <div class="scard">
+        <div style="display:flex;gap:8px;align-items:center;margin-bottom:7px"><div class="snum">1</div><div class="sttl">Buat Google Spreadsheet</div></div>
+        <div class="sdsc">Buka <a href="https://sheets.new" target="_blank">sheets.new</a> → spreadsheet baru otomatis terbuat.</div>
+      </div>
+      <div class="scard">
+        <div style="display:flex;gap:8px;align-items:center;margin-bottom:7px"><div class="snum">2</div><div class="sttl">Paste Apps Script & Deploy</div></div>
+        <div class="sdsc"><b>Extensions → Apps Script</b> → paste isi file .gs → Save<br><b>Deploy → New Deployment → Web app</b><br>Execute as: <b style="color:var(--txt)">Me</b> · Access: <b style="color:var(--txt)">Anyone</b> → Deploy → Allow → Copy URL</div>
+      </div>
+      <div class="scard">
+        <div style="display:flex;gap:8px;align-items:center;margin-bottom:7px"><div class="snum">3</div><div class="sttl">Paste Web App URL</div></div>
+        <div style="padding-left:30px">
+          <input type="text" id="gs-inp" placeholder="https://script.google.com/macros/s/.../exec" oninput="onGSUrl()" style="margin-top:6px;font-size:11px;font-family:var(--mono)">
+          <div id="gs-hint" style="font-size:10px;color:var(--sub);margin-top:5px">Paste URL dari langkah 2</div>
+          <div id="gs-test-res" style="display:none;margin-top:8px;padding:9px;border-radius:6px;font-size:11px"></div>
+        </div>
+      </div>
+    </div>
+    <div class="mfoot">
+      <button class="btn bh" onclick="skipGS()">Pakai Tanpa Sync</button>
+      <button class="btn bb" id="btn-test" onclick="testGS()" disabled>🔌 Test</button>
+      <button class="btn bg" id="btn-conn" onclick="connectGS()" disabled>Sambungkan ▶</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- SALDO MODAL -->
+<div id="saldo-mo" style="position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:9100;display:none;align-items:center;justify-content:center;padding:16px">
+  <div style="background:var(--card);border:1px solid var(--bdr);border-radius:14px;max-width:480px;width:100%">
+    <div style="background:var(--bg);border-radius:14px 14px 0 0;padding:20px 24px;border-bottom:1px solid var(--bdr)">
+      <div style="font-size:16px;font-weight:700;color:var(--txt)">💼 Profil & Modal Awal</div>
+      <div style="font-size:11px;color:var(--sub);margin-top:3px">Investment Mix — Focus: US Stocks (NYSE/NASDAQ)</div>
+    </div>
+    <div style="padding:20px 24px">
+      <div class="fg"><label class="lb">Nama / Label Portfolio</label><input type="text" id="s-name" placeholder="Investment Portfolio 2026" value="Investment Portfolio 2026"></div>
+      <div class="fr fr2">
+        <div class="fg"><label class="lb">Mata Uang Utama</label>
+          <select id="s-currency">
+            <option value="IDR">🇮🇩 IDR (Rupiah)</option>
+            <option value="USD">🇺🇸 USD (Dollar)</option>
+            <option value="MIX">🌏 MIX (IDR + USD)</option>
+          </select>
+        </div>
+        <div class="fg"><label class="lb">Profil Investor</label>
+          <select id="s-profile">
+            <option value="mix_idx">🇮🇩 Mix — IDX Dominant</option>
+            <option value="mix_us">🇺🇸 Mix — US Stock Dominant</option>
+            <option value="growth">📈 Growth Investor</option>
+            <option value="value">💎 Value Investor</option>
+            <option value="dividen">💰 Dividen Investor</option>
+          </select>
+        </div>
+      </div>
+      <div class="fr fr2">
+        <div class="fg"><label class="lb">Modal Awal / Saldo Investasi (Rp)</label><input type="number" id="s-saldo" placeholder="100000000" step="1000000"></div>
+        <div class="fg"><label class="lb">Target Return Tahunan (%)</label><input type="number" id="s-target-ret" placeholder="15" step="1"></div>
+      </div>
+      <div class="fr fr2">
+        <div class="fg"><label class="lb">Cash Buffer yang Disiapkan (Rp)</label><input type="number" id="s-buffer" placeholder="10000000" step="1000000"></div>
+        <div class="fg"><label class="lb">Max 1 Saham (% dari Modal)</label><input type="number" id="s-maxpos" placeholder="15" step="1"></div>
+      </div>
+      <div style="background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:8px;padding:12px;font-size:11px;color:var(--sub);line-height:1.7;margin-top:4px">
+        💡 <b style="color:var(--blue)">Investment Mix US Focus</b><br>
+        Strategi: 60-70% IDX bluechip + 20-30% US Stocks (growth/tech) + 5-10% speculative<br>
+        Horizon: Mayoritas invest 3-12 bulan, sebagian kecil swing untuk peluang jangka pendek
+      </div>
+    </div>
+    <div style="padding:14px 24px;border-top:1px solid var(--bdr);display:flex;gap:8px;justify-content:flex-end">
+      <button class="btn bh" onclick="closeSaldoModal()">Batal</button>
+      <button class="btn bg" onclick="saveSaldo()">💾 Simpan Profil</button>
+    </div>
+  </div>
+</div>
+<div id="toast"></div>
+<div id="app">
+  <!-- TOPBAR -->
+  <div id="tb">
+    <div class="logo">
+      <div class="logo-icon">📈</div>
+      <div class="logo-text">
+        <div class="logo-title">StockJournal Pro</div>
+        <div class="logo-sub">Jurnal Investasi Saham</div>
+      </div>
+    </div>
+    <div class="tb-right">
+      <span id="last-update" style="font-size:10px;color:var(--sub)"></span>
+      <button id="btn-install" onclick="installApp()">⬇ Install App</button>
+      <button class="btn bh" onclick="openMo()" style="font-size:11px;padding:5px 11px">⚙ Settings</button>
+    </div>
+  </div>
+
+  <!-- SYNC BAR -->
+  <div id="sb">
+    <div class="sbl">
+      <div id="sdot"></div>
+      <span style="color:var(--sub)">Google Sheets:</span>
+      <span id="stxt" style="color:var(--txt);font-weight:500">Tidak terhubung</span>
+    </div>
+    <div style="display:flex;gap:6px">
+      <button id="btn-pull" class="btn bb" onclick="pullAll()" style="display:none;font-size:11px;padding:4px 11px">⬇ Ambil dari Sheets</button>
+      <button id="btn-push" class="btn by" onclick="pushAll()" style="display:none;font-size:11px;padding:4px 11px">⬆ Kirim ke Sheets</button>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <div id="nav">
+    <button class="nb on" onclick="showTab('dash',this)">📊 Dashboard</button>
+    <button class="nb" onclick="showTab('portfolio',this)">💼 Portfolio</button>
+    <button class="nb" onclick="showTab('stocklog',this)">📋 Stock Log</button>
+    <button class="nb" onclick="showTab('watchlist',this)">👁 Watchlist</button>
+    <button class="nb" onclick="showTab('dividen',this)">💰 Dividen</button>
+    <button class="nb" onclick="showTab('risk',this)">⚡ Risk Manager</button>
+    <button class="nb" onclick="showTab('psy',this)">🧠 Psikologi</button>
+    <button class="nb" onclick="showTab('rules',this)">📜 Aturan</button>
+    <button class="nb" onclick="showTab('kalender',this)">📅 Kalender</button>
+    <button class="nb" onclick="showTab('sentimen',this)">📊 Sentimen</button>
+    <button class="nb" onclick="showTab('geopolitik',this)">🌍 Geopolitik</button>
+  </div>
+
+  <div id="main">
+
+    <!-- ═══ DASHBOARD ═══ -->
+    <div id="tab-dash" class="tab on">
+      <!-- SALDO AWAL BANNER -->
+      <div id="saldo-banner" style="background:linear-gradient(135deg,rgba(16,185,129,.12),rgba(59,130,246,.08));border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:14px 18px;margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+        <div>
+          <div style="font-size:10px;color:var(--sub);font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px">Modal Awal (Saldo Investasi)</div>
+          <div style="font-size:24px;font-weight:700;color:var(--green);font-family:var(--mono)" id="d-saldo-show">Rp 0</div>
+          <div style="font-size:11px;color:var(--sub);margin-top:2px" id="d-fokus-lbl">Fokus: 🇮🇩 IDX (BEI) + Mix US Stocks</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+          <div style="text-align:center;padding:8px 14px;background:var(--surf);border-radius:9px;border:1px solid var(--bdr)">
+            <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.08em">Deployed</div>
+            <div style="font-size:14px;font-weight:700;color:var(--gold);font-family:var(--mono)" id="d-deployed">Rp 0</div>
+          </div>
+          <div style="text-align:center;padding:8px 14px;background:var(--surf);border-radius:9px;border:1px solid var(--bdr)">
+            <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.08em">Cash Sisa</div>
+            <div style="font-size:14px;font-weight:700;color:var(--cyan);font-family:var(--mono)" id="d-cash">Rp 0</div>
+          </div>
+          <div style="text-align:center;padding:8px 14px;background:var(--surf);border-radius:9px;border:1px solid var(--bdr)">
+            <div style="font-size:9px;color:var(--sub);text-transform:uppercase;letter-spacing:.08em">% Deployed</div>
+            <div style="font-size:14px;font-weight:700;color:var(--purple);font-family:var(--mono)" id="d-dep-pct">0%</div>
+          </div>
+          <button class="btn bh" onclick="openSaldoModal()" style="font-size:11px;padding:6px 12px">✏️ Edit Saldo</button>
+        </div>
+      </div>
+
+      <div class="g4" style="margin-bottom:14px">
+        <div class="met"><div class="ml">Nilai Portfolio (Cost)</div><div class="mv nt" id="d-total">Rp 0</div><div class="ms" id="d-tpos">0 posisi aktif</div></div>
+        <div class="met"><div class="ml">Unrealized P&L</div><div class="mv nt" id="d-gl">Rp 0</div><div class="ms" id="d-glpct">perbarui harga terkini</div></div>
+        <div class="met"><div class="ml">Realized P&L</div><div class="mv nt" id="d-rpl">Rp 0</div><div class="ms">dari transaksi SELL</div></div>
+        <div class="met"><div class="ml">Win Rate (Closed)</div><div class="mv nt" id="d-wr">—</div><div class="ms" id="d-wl">0W / 0L</div></div>
+      </div>
+      <div class="g2" style="margin-bottom:14px">
+        <div class="card"><div class="ct">Equity Curve</div><div class="chart-area"><canvas id="eqC"></canvas></div></div>
+        <div class="card"><div class="ct">Alokasi Sektor</div><div class="chart-area"><canvas id="secC"></canvas></div></div>
+      </div>
+      <div class="g3">
+        <div class="card">
+          <div class="ct">Top Holdings</div>
+          <div id="d-top"><div class="em" style="padding:16px">Tambah posisi untuk melihat holdings</div></div>
+        </div>
+        <div class="card">
+          <div class="ct">Horizon Breakdown</div>
+          <div id="d-horizon"><div class="em" style="padding:16px">Belum ada data</div></div>
+        </div>
+        <div class="card">
+          <div class="ct">Ringkasan Portfolio</div>
+          <div style="font-size:11px;color:var(--sub);display:flex;flex-direction:column;gap:8px">
+            <div style="display:flex;justify-content:space-between;align-items:center"><span>Posisi Aktif</span><span style="color:var(--gold);font-family:var(--mono);font-weight:600" id="d-open">0</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center"><span>US Stocks (NYSE/NASDAQ)</span><span style="color:var(--blue);font-family:var(--mono);font-weight:600" id="d-us-count">0</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center"><span>IDX Stocks</span><span style="color:var(--green);font-family:var(--mono);font-weight:600" id="d-idx-count">0</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center"><span>Lainnya</span><span style="color:var(--sub);font-family:var(--mono)" id="d-other-count">0</span></div>
+            <div class="dv" style="margin:2px 0"></div>
+            <div style="display:flex;justify-content:space-between;align-items:center"><span>Avg Holding Size</span><span style="color:var(--txt);font-family:var(--mono)" id="d-avg">—</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center"><span>Saham Dividen</span><span style="color:var(--gold);font-family:var(--mono)" id="d-div-count">0</span></div>
+            <div class="dv" style="margin:2px 0"></div>
+            <!-- UPDATE HARGA TERKINI -->
+            <div style="background:var(--surf);border-radius:8px;padding:9px 10px;border:1px solid var(--bdr)">
+              <div style="font-size:10px;color:var(--green);font-weight:600;margin-bottom:6px">📊 Update Harga Terkini</div>
+              <div style="display:flex;gap:6px;margin-bottom:6px">
+                <input type="text" id="upd-ticker" placeholder="AAPL" style="width:70px;font-size:11px;padding:4px 7px;text-transform:uppercase" oninput="this.value=this.value.toUpperCase()">
+                <input type="number" id="upd-price" placeholder="Harga Rp" style="flex:1;font-size:11px;padding:4px 7px">
+              </div>
+              <button class="btn bg" style="width:100%;font-size:10px;padding:5px" onclick="updateCurPrice()">Update Harga</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ PORTFOLIO ═══ -->
+    <div id="tab-portfolio" class="tab">
+      <div class="fb" style="margin-bottom:14px">
+        <div>
+          <div style="font-size:15px;font-weight:700;color:var(--txt)">💼 Portfolio Aktif</div>
+          <div style="font-size:11px;color:var(--sub);margin-top:2px">Posisi yang sedang dipegang</div>
+        </div>
+        <div style="display:flex;gap:8px">
+          <select id="pf-filter" onchange="renderPortfolio()" style="font-size:11px;padding:5px 9px;width:auto">
+            <option value="all">Semua</option><option value="spot">Spot/Swing</option><option value="invest">Invest</option><option value="long">Long Term</option>
+          </select>
+        </div>
+      </div>
+      <div id="pf-grid" class="g3">
+        <div class="em" style="grid-column:1/-1">Belum ada posisi. Tambahkan transaksi BUY di Stock Log.</div>
+      </div>
+    </div>
+
+    <!-- ═══ STOCK LOG ═══ -->
+    <div id="tab-stocklog" class="tab">
+      <div class="card">
+        <div class="ct">Tambah Transaksi Baru</div>
+        <div class="fr fr4">
+          <div class="fg"><label class="lb">Tanggal</label><input type="date" id="sl-date"></div>
+          <div class="fg"><label class="lb">Ticker</label><input type="text" placeholder="BBCA, TLKM, GOTO..." id="sl-ticker" style="text-transform:uppercase" oninput="this.value=this.value.toUpperCase()"></div>
+          <div class="fg"><label class="lb">Nama Perusahaan</label><input type="text" placeholder="Bank BCA, Telkom..." id="sl-name"></div>
+          <div class="fg"><label class="lb">Aksi</label>
+            <select id="sl-action">
+              <option value="BUY">BUY</option>
+              <option value="SELL">SELL</option>
+              <option value="DCA">DCA (Cost Average)</option>
+              <option value="DIVIDEN">Terima Dividen</option>
+            </select>
+          </div>
+        </div>
+        <div class="fr fr4">
+          <div class="fg"><label class="lb">Harga (Rp/$)</label><input type="number" placeholder="8500" id="sl-price"></div>
+          <div class="fg"><label class="lb">Jumlah Lot/Lembar</label><input type="number" placeholder="10" id="sl-qty"></div>
+          <div class="fg"><label class="lb">Total Nilai</label><input type="number" placeholder="850000" id="sl-total" readonly style="color:var(--sub)"></div>
+          <div class="fg"><label class="lb">Fee/Komisi</label><input type="number" placeholder="0" id="sl-fee"></div>
+        </div>
+        <div class="fr fr4">
+          <div class="fg"><label class="lb">Sektor</label>
+            <select id="sl-sector">
+              <option>Perbankan</option><option>Teknologi</option><option>Energi</option><option>Kesehatan</option>
+              <option>Konsumer</option><option>Properti</option><option>Infrastruktur</option><option>Telekomunikasi</option>
+              <option>Pertambangan</option><option>Agrikultur</option><option>Keuangan</option><option>Lainnya</option>
+            </select>
+          </div>
+          <div class="fg"><label class="lb">Horizon Investasi</label>
+            <select id="sl-horizon">
+              <option value="invest">🟢 Invest (3–12 bulan)</option>
+              <option value="swing">🔵 Swing (minggu–bulan)</option>
+              <option value="long">🟣 Long Term (1+ tahun)</option>
+              <option value="spot">🟡 Spot (< 1 minggu)</option>
+              <option value="long">🟣 Long Term (1+ tahun)</option>
+            </select>
+          </div>
+          <div class="fg"><label class="lb">Target Harga</label><input type="number" placeholder="10000" id="sl-target"></div>
+          <div class="fg"><label class="lb">Stop Loss</label><input type="number" placeholder="7500" id="sl-sl"></div>
+        </div>
+        <div class="fr fr2">
+          <div class="fg"><label class="lb">Exchange</label>
+            <select id="sl-exch"><option>NYSE</option><option>NASDAQ</option><option>IDX (BEI)</option><option>SGX</option><option>HKEX</option><option>LSE</option></select>
+          </div>
+          <div class="fg"><label class="lb">P/E Ratio saat beli</label><input type="number" step="0.1" placeholder="12.5" id="sl-pe"></div>
+        </div>
+        <div class="fg"><label class="lb">Tesis / Alasan Investasi</label><textarea placeholder="Kenapa beli saham ini? Katalis apa? Kapan target exit?..." id="sl-thesis"></textarea></div>
+        <div class="fg">
+          <label class="lb">Link Screenshot Chart (Imgur, Google Drive, dll)</label>
+          <input type="text" id="sl-sslink" placeholder="https://imgur.com/xxx atau link chart lainnya...">
+          <div style="font-size:10px;color:var(--mut);margin-top:3px">Upload ke <a href="https://imgur.com" target="_blank" style="color:var(--green)">Imgur</a> atau <a href="https://drive.google.com" target="_blank" style="color:var(--green)">Google Drive</a> → paste link di sini · bisa dibuka dari komputer manapun</div>
+        </div>
+        <div class="fe">
+          <button class="btn bh" onclick="clearSLForm()">Reset</button>
+          <button class="btn bg" onclick="addStock()">💾 Simpan Transaksi</button>
+        </div>
+      </div>
+      <!-- HISTORY TABLE -->
+      <div class="card">
+        <div class="fb" style="margin-bottom:12px">
+          <div class="ct" style="margin-bottom:0">Riwayat Transaksi</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <input type="text" id="sl-search" placeholder="Cari ticker..." style="width:130px;padding:5px 9px;font-size:11px" oninput="renderStockLog()">
+            <select id="sl-filter" onchange="renderStockLog()" style="font-size:11px;padding:5px 9px;width:auto">
+              <option value="all">Semua Aksi</option><option value="BUY">BUY</option><option value="SELL">SELL</option><option value="DCA">DCA</option>
+            </select>
+            <button class="btn br" style="font-size:11px;padding:4px 10px" onclick="clearAllStocks()">Hapus Semua</button>
+          </div>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="tbl">
+            <thead><tr><th>Tgl</th><th>Ticker</th><th>Perusahaan</th><th>Aksi</th><th>Harga</th><th>Lot/Lembar</th><th>Total</th><th>Sektor</th><th>Horizon</th><th>P/E</th><th>📸</th><th>📝</th><th>Del</th></tr></thead>
+            <tbody id="sl-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ WATCHLIST ═══ -->
+    <div id="tab-watchlist" class="tab">
+      <div class="g2" style="margin-bottom:14px">
+        <div class="card">
+          <div class="ct">Tambah ke Watchlist</div>
+          <div class="fr fr2">
+            <div class="fg"><label class="lb">Ticker</label><input type="text" id="wl-ticker" placeholder="BBRI" oninput="this.value=this.value.toUpperCase()"></div>
+            <div class="fg"><label class="lb">Nama Perusahaan</label><input type="text" id="wl-name" placeholder="Bank Rakyat Indonesia"></div>
+          </div>
+          <div class="fr fr3">
+            <div class="fg"><label class="lb">Harga Saat Ini</label><input type="number" id="wl-cur" placeholder="4200"></div>
+            <div class="fg"><label class="lb">Target Buy</label><input type="number" id="wl-buy" placeholder="3800"></div>
+            <div class="fg"><label class="lb">Target Sell</label><input type="number" id="wl-sell" placeholder="5000"></div>
+          </div>
+          <div class="fr fr2">
+            <div class="fg"><label class="lb">Sektor</label>
+              <select id="wl-sector"><option>Perbankan</option><option>Teknologi</option><option>Energi</option><option>Kesehatan</option><option>Konsumer</option><option>Properti</option><option>Infrastruktur</option><option>Telekomunikasi</option><option>Pertambangan</option><option>Agrikultur</option><option>Keuangan</option><option>Lainnya</option></select>
+            </div>
+            <div class="fg"><label class="lb">Prioritas</label>
+              <select id="wl-prio"><option value="high">🔴 Tinggi</option><option value="med">🟡 Sedang</option><option value="low">🟢 Rendah</option></select>
+            </div>
+          </div>
+          <div class="fg"><label class="lb">Alasan / Tesis Singkat</label><textarea style="min-height:50px" id="wl-note" placeholder="Kenapa saham ini menarik?..."></textarea></div>
+          <div class="fe"><button class="btn bg" onclick="addWatchlist()">+ Tambah Watchlist</button></div>
+        </div>
+        <div class="card">
+          <div class="ct">Tips Seleksi Saham</div>
+          <div style="display:flex;flex-direction:column;gap:7px">
+            <div style="background:var(--surf);border-left:3px solid var(--green);border-radius:6px;padding:9px 12px;font-size:11px;color:var(--sub)"><b style="color:var(--green)">Fundamental kuat</b><br>ROE > 15%, Debt/Equity < 1x, NPM konsisten naik</div>
+            <div style="background:var(--surf);border-left:3px solid var(--blue);border-radius:6px;padding:9px 12px;font-size:11px;color:var(--sub)"><b style="color:var(--blue)">Valuasi wajar</b><br>P/E di bawah rata-rata industri, PBV < 2x</div>
+            <div style="background:var(--surf);border-left:3px solid var(--gold);border-radius:6px;padding:9px 12px;font-size:11px;color:var(--sub)"><b style="color:var(--gold)">Likuiditas cukup</b><br>Volume harian > 1 juta lembar, free float > 20%</div>
+            <div style="background:var(--surf);border-left:3px solid var(--purple);border-radius:6px;padding:9px 12px;font-size:11px;color:var(--sub)"><b style="color:var(--purple)">Katalis jelas</b><br>Ekspansi bisnis, kontrak baru, kebijakan pemerintah</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="fb" style="margin-bottom:12px">
+          <div class="ct" style="margin-bottom:0">👁 Daftar Watchlist</div>
+          <div style="display:flex;gap:8px">
+            <select id="wl-filter" onchange="renderWatchlist()" style="font-size:11px;padding:4px 8px;width:auto">
+              <option value="all">Semua</option><option value="high">Prioritas Tinggi</option><option value="med">Sedang</option><option value="low">Rendah</option>
+            </select>
+            <button class="btn br" style="font-size:11px;padding:4px 9px" onclick="clearWatchlist()">Hapus Semua</button>
+          </div>
+        </div>
+        <div id="wl-list"><div class="em">Watchlist kosong. Tambahkan saham yang kamu pantau.</div></div>
+      </div>
+    </div>
+
+    <!-- ═══ DIVIDEN ═══ -->
+    <div id="tab-dividen" class="tab">
+      <div class="g4" style="margin-bottom:14px">
+        <div class="met"><div class="ml">Total Dividen Diterima</div><div class="mv yl" id="dv-total">Rp 0</div><div class="ms">sepanjang waktu</div></div>
+        <div class="met"><div class="ml">Dividen Tahun Ini</div><div class="mv yl" id="dv-year">Rp 0</div><div class="ms" id="dv-yy">2026</div></div>
+        <div class="met"><div class="ml">Avg Dividen Yield</div><div class="mv yl" id="dv-yield">0%</div><div class="ms">dari portofolio</div></div>
+        <div class="met"><div class="ml">Dividen Berikutnya</div><div class="mv nt" id="dv-next">—</div><div class="ms" id="dv-ndate">—</div></div>
+      </div>
+      <div class="g2" style="margin-bottom:14px">
+        <div class="card">
+          <div class="ct">Catat Dividen / Ekspektasi</div>
+          <div class="fr fr2">
+            <div class="fg"><label class="lb">Ticker</label><input type="text" id="dv-ticker" placeholder="BBCA" oninput="this.value=this.value.toUpperCase()"></div>
+            <div class="fg"><label class="lb">Tanggal Ex-Dividend</label><input type="date" id="dv-exdate"></div>
+          </div>
+          <div class="fr fr3">
+            <div class="fg"><label class="lb">Dividen per Lembar</label><input type="number" id="dv-pershare" placeholder="250"></div>
+            <div class="fg"><label class="lb">Jumlah Lembar</label><input type="number" id="dv-shares" placeholder="1000"></div>
+            <div class="fg"><label class="lb">Total Dividen</label><input type="number" id="dv-amount" readonly style="color:var(--gold)"></div>
+          </div>
+          <div class="fr fr2">
+            <div class="fg"><label class="lb">Harga Beli Saham</label><input type="number" id="dv-buyprice" placeholder="8000" oninput="calcDivYield()"></div>
+            <div class="fg"><label class="lb">Dividend Yield</label><input type="text" id="dv-dyield" readonly style="color:var(--gold)"></div>
+          </div>
+          <div class="fg"><label class="lb">Status</label>
+            <select id="dv-status"><option value="expected">Ekspektasi / Belum Diterima</option><option value="received">✅ Sudah Diterima</option></select>
+          </div>
+          <div class="fg"><label class="lb">Catatan</label><input type="text" id="dv-note" placeholder="Dividen interim / final / spesial"></div>
+          <div class="fe"><button class="btn bg" onclick="addDividen()">💰 Catat Dividen</button></div>
+        </div>
+        <div class="card">
+          <div class="ct">Panduan Dividen Investing</div>
+          <div style="display:flex;flex-direction:column;gap:7px;font-size:11px;color:var(--sub)">
+            <div style="background:var(--surf);border-radius:7px;padding:10px 12px;border-left:3px solid var(--gold)"><b style="color:var(--gold)">Ex-Dividend Date</b><br>Kamu harus punya saham SEBELUM tanggal ini untuk dapat dividen</div>
+            <div style="background:var(--surf);border-radius:7px;padding:10px 12px;border-left:3px solid var(--green)"><b style="color:var(--green)">Dividend Yield Bagus</b><br>IDX: > 3% ● NYSE/NASDAQ: > 2% ● REITs: > 4%</div>
+            <div style="background:var(--surf);border-radius:7px;padding:10px 12px;border-left:3px solid var(--blue)"><b style="color:var(--blue)">Payout Ratio</b><br>Ideal: 30–70%. Terlalu tinggi (>90%) = tidak sustainable</div>
+            <div style="background:var(--surf);border-radius:7px;padding:10px 12px;border-left:3px solid var(--purple)"><b style="color:var(--purple)">DRP (Dividend Reinvestment)</b><br>Reinvest dividen = efek compounding jangka panjang sangat kuat</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="fb" style="margin-bottom:12px">
+          <div class="ct" style="margin-bottom:0">Riwayat & Ekspektasi Dividen</div>
+          <button class="btn br" style="font-size:11px;padding:4px 9px" onclick="clearDividen()">Hapus Semua</button>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="tbl">
+            <thead><tr><th>Ticker</th><th>Ex-Date</th><th>Per Lembar</th><th>Lembar</th><th>Total</th><th>Yield</th><th>Status</th><th>Catatan</th><th>Del</th></tr></thead>
+            <tbody id="dv-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ RISK MANAGER ═══ -->
+    <div id="tab-risk" class="tab">
+      <div class="g2" style="margin-bottom:14px">
+        <div class="card">
+          <div class="ct">Kalkulator Position Sizing Saham</div>
+          <div class="fg"><label class="lb">Total Modal (Rp/$)</label><input type="number" placeholder="100000000" id="r-capital" oninput="calcStockRisk()"></div>
+          <div class="fg"><label class="lb">Risk per Trade (%)
+            <div style="display:flex;align-items:center;gap:10px;margin-top:4px">
+              <input type="range" class="si" min="0.5" max="10" step="0.5" value="2" id="r-rp" oninput="document.getElementById('r-rpv').textContent=parseFloat(this.value).toFixed(1)+'%';calcStockRisk()">
+              <span style="font-size:12px;color:var(--green);font-family:var(--mono);width:40px" id="r-rpv">2.0%</span>
+            </div>
+          </label></div>
+          <div class="fr fr2">
+            <div class="fg"><label class="lb">Harga Beli</label><input type="number" placeholder="8500" id="r-buy" oninput="calcStockRisk()"></div>
+            <div class="fg"><label class="lb">Stop Loss</label><input type="number" placeholder="7800" id="r-sl" oninput="calcStockRisk()"></div>
+          </div>
+          <div class="fr fr2">
+            <div class="fg"><label class="lb">Target Harga</label><input type="number" placeholder="10500" id="r-target" oninput="calcStockRisk()"></div>
+            <div class="fg"><label class="lb">1 Lot = ? Lembar</label><input type="number" placeholder="100" value="100" id="r-lotsize" oninput="calcStockRisk()"></div>
+          </div>
+          <div style="background:var(--gdim);border:1px solid rgba(16,185,129,.2);border-radius:9px;padding:14px;margin-top:4px">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-size:12px"><span style="color:var(--sub)">Nominal Risk</span><span style="color:var(--red);font-family:var(--mono);font-weight:600" id="ro-risk">Rp 0</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-size:12px"><span style="color:var(--sub)">Jumlah Lot Ideal</span><span style="color:var(--green);font-family:var(--mono);font-weight:700" id="ro-lot">0 lot</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-size:12px"><span style="color:var(--sub)">Jumlah Lembar</span><span style="color:var(--green);font-family:var(--mono);font-weight:700" id="ro-shares">0 lembar</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-size:12px"><span style="color:var(--sub)">Modal yang Diperlukan</span><span style="color:var(--gold);font-family:var(--mono);font-weight:600" id="ro-cap">Rp 0</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-size:12px"><span style="color:var(--sub)">Risk:Reward Ratio</span><span style="color:var(--blue);font-family:var(--mono);font-weight:600" id="ro-rrr">1 : 0.0</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;font-size:12px;border-top:1px solid rgba(16,185,129,.2);padding-top:8px;margin-top:5px"><span style="color:var(--sub)">Potensi Profit</span><span style="color:var(--green);font-family:var(--mono);font-weight:700" id="ro-profit">Rp 0</span></div>
+          </div>
+        </div>
+        <div>
+          <div class="card" style="margin-bottom:14px">
+            <div class="ct">Monitor Portfolio Risk</div>
+            <div class="fg"><label class="lb">Drawdown Portfolio Saat Ini (%)</label><input type="number" placeholder="0" id="r-dd" oninput="calcDD()"></div>
+            <div id="dd-msg"></div>
+            <div class="dv"></div>
+            <div style="display:flex;flex-direction:column;gap:7px;font-size:11px">
+              <div style="padding:8px 11px;background:var(--surf);border-radius:6px;border-left:3px solid var(--green);color:var(--sub)">Max 1 saham: <b style="color:var(--txt)">max 10-15% portfolio</b></div>
+              <div style="padding:8px 11px;background:var(--surf);border-radius:6px;border-left:3px solid var(--blue);color:var(--sub)">Max 1 sektor: <b style="color:var(--txt)">max 30% portfolio</b></div>
+              <div style="padding:8px 11px;background:var(--surf);border-radius:6px;border-left:3px solid var(--gold);color:var(--sub)">Cash buffer: <b style="color:var(--txt)">simpan 10-20% cash</b></div>
+              <div style="padding:8px 11px;background:var(--surf);border-radius:6px;border-left:3px solid var(--red);color:var(--sub)">Stop invest jika DD: <b style="color:var(--txt)">≥ 20% portfolio</b></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="ct">Aturan Position Sizing</div>
+            <div style="font-size:11px;color:var(--sub);line-height:1.9">
+              <div>🟢 <b style="color:var(--txt)">Konviksi Tinggi</b> = 8-12% modal</div>
+              <div>🔵 <b style="color:var(--txt)">Konviksi Sedang</b> = 4-8% modal</div>
+              <div>🟡 <b style="color:var(--txt)">Konviksi Rendah</b> = 2-4% modal</div>
+              <div>⚠️ <b style="color:var(--txt)">Speculative</b> = max 2% modal</div>
+              <div style="margin-top:8px;padding:8px;background:var(--surf);border-radius:6px">Diversifikasi ideal: <b style="color:var(--green)">8-15 saham</b> berbeda sektor</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ PSIKOLOGI ═══ -->
+    <div id="tab-psy" class="tab">
+      <div class="g2" style="margin-bottom:14px">
+        <div class="card">
+          <div class="ct">Check-In Psikologi Investor</div>
+          <div class="fg"><label class="lb">Tanggal</label><input type="date" id="psy-date"></div>
+          <label class="lb" style="margin-bottom:6px">Kondisi Mental Hari Ini</label>
+          <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin:8px 0 14px">
+            <div style="padding:9px 3px;background:var(--surf);border:1px solid var(--bdr);border-radius:7px;cursor:pointer;text-align:center;font-size:18px;transition:.18s" class="mb2" onclick="selM(this,'😱 Panik')"><div>😱</div><div style="font-size:9px;color:var(--sub);margin-top:3px">Panik</div></div>
+            <div style="padding:9px 3px;background:var(--surf);border:1px solid var(--bdr);border-radius:7px;cursor:pointer;text-align:center;font-size:18px;transition:.18s" class="mb2" onclick="selM(this,'😰 Cemas')"><div>😰</div><div style="font-size:9px;color:var(--sub);margin-top:3px">Cemas</div></div>
+            <div style="padding:9px 3px;background:var(--surf);border:1px solid var(--bdr);border-radius:7px;cursor:pointer;text-align:center;font-size:18px;transition:.18s" class="mb2" onclick="selM(this,'😐 Netral')"><div>😐</div><div style="font-size:9px;color:var(--sub);margin-top:3px">Netral</div></div>
+            <div style="padding:9px 3px;background:var(--surf);border:1px solid var(--bdr);border-radius:7px;cursor:pointer;text-align:center;font-size:18px;transition:.18s" class="mb2" onclick="selM(this,'😊 Tenang')"><div>😊</div><div style="font-size:9px;color:var(--sub);margin-top:3px">Tenang</div></div>
+            <div style="padding:9px 3px;background:var(--surf);border:1px solid var(--bdr);border-radius:7px;cursor:pointer;text-align:center;font-size:18px;transition:.18s" class="mb2" onclick="selM(this,'🦁 Percaya Diri')"><div>🦁</div><div style="font-size:9px;color:var(--sub);margin-top:3px">Yakin</div></div>
+          </div>
+          <div class="sr"><span class="sl">Ketahanan Mental</span><input type="range" class="si" min="1" max="10" value="7" id="ps-1" oninput="document.getElementById('pv-1').textContent=this.value;calcPsy()"><span class="sv" id="pv-1">7</span></div>
+          <div class="sr"><span class="sl">Kontrol Emosi</span><input type="range" class="si" min="1" max="10" value="6" id="ps-2" oninput="document.getElementById('pv-2').textContent=this.value;calcPsy()"><span class="sv" id="pv-2">6</span></div>
+          <div class="sr"><span class="sl">Disiplin Aturan</span><input type="range" class="si" min="1" max="10" value="8" id="ps-3" oninput="document.getElementById('pv-3').textContent=this.value;calcPsy()"><span class="sv" id="pv-3">8</span></div>
+          <div class="sr"><span class="sl">Tidak FOMO/Greed</span><input type="range" class="si" min="1" max="10" value="7" id="ps-4" oninput="document.getElementById('pv-4').textContent=this.value;calcPsy()"><span class="sv" id="pv-4">7</span></div>
+          <div class="sr"><span class="sl">Kualitas Riset</span><input type="range" class="si" min="1" max="10" value="7" id="ps-5" oninput="document.getElementById('pv-5').textContent=this.value;calcPsy()"><span class="sv" id="pv-5">7</span></div>
+          <div class="sr"><span class="sl">Kualitas Tidur</span><input type="range" class="si" min="1" max="10" value="7" id="ps-6" oninput="document.getElementById('pv-6').textContent=this.value;calcPsy()"><span class="sv" id="pv-6">7</span></div>
+        </div>
+        <div>
+          <div class="card" style="margin-bottom:14px">
+            <div class="ct">Skor Psikologi Investor</div>
+            <div style="text-align:center;padding:12px 0 6px">
+              <div style="font-size:48px;font-weight:700;font-family:var(--mono);color:var(--green)" id="psy-s">70</div>
+              <div style="font-size:12px;color:var(--sub);margin-top:5px" id="psy-l">Investor Tenang</div>
+            </div>
+            <div style="font-size:12px;color:var(--sub);text-align:center;padding:0 8px;line-height:1.6" id="psy-a"></div>
+          </div>
+          <div class="card">
+            <div class="ct">Jurnal Refleksi Investor</div>
+            <div class="fg"><label class="lb">Kondisi & Perasaan</label><textarea style="min-height:48px" placeholder="Perasaan tentang portfolio hari ini..." id="psy-feel"></textarea></div>
+            <div class="fg"><label class="lb">Keputusan & Pelajaran</label><textarea style="min-height:48px" placeholder="Apa yang dipelajari? Keputusan apa yang dibuat?" id="psy-lesson"></textarea></div>
+            <div class="fe"><button class="btn bg" onclick="savePsy()">💾 Simpan</button></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="fb" style="margin-bottom:12px">
+          <div class="ct" style="margin-bottom:0">Riwayat Psikologi</div>
+          <button class="btn br" style="font-size:11px;padding:4px 9px" onclick="clearPsyLogs()">Hapus Semua</button>
+        </div>
+        <div style="overflow-x:auto"><table class="tbl"><thead><tr><th>Tanggal</th><th>Emosi</th><th>Mental</th><th>Emosi</th><th>Disiplin</th><th>FOMO</th><th>Riset</th><th>Tidur</th><th>Skor</th><th>Del</th></tr></thead><tbody id="psy-body"></tbody></table></div>
+      </div>
+    </div>
+
+    <!-- ═══ ATURAN INVESTASI ═══ -->
+    <div id="tab-rules" class="tab">
+      <div class="al aw" style="margin-bottom:14px">📌 Baca dan taati aturan investasi ini sebelum setiap keputusan beli/jual.</div>
+      <div id="rules-w"></div>
+      <div class="card" style="margin-top:12px">
+        <div class="ct">Tambah Aturan Sendiri</div>
+        <div class="fr fr2">
+          <div class="fg"><label class="lb">Kategori</label>
+            <select id="rc"><option>Entry</option><option>Exit</option><option>Risk</option><option>Psikologi</option><option>Fundamental</option><option>Portofolio</option><option>Umum</option></select>
+          </div>
+          <div class="fg"><label class="lb">Aturan</label><input type="text" id="rt" placeholder="Tulis aturan investasi kamu..."></div>
+        </div>
+        <div class="fe"><button class="btn bg" onclick="addRule()">+ Tambah Aturan</button></div>
+      </div>
+    </div>
+
+    <!-- ═══ KALENDER ═══ -->
+    <div id="tab-kalender" class="tab">
+      <div id="kal-content"><div class="em" style="padding:48px 16px">Memuat kalender...</div></div>
+    </div>
+
+    <!-- ═══ SENTIMEN ═══ -->
+    <div id="tab-sentimen" class="tab">
+      <div id="sen-content"><div class="em" style="padding:48px 16px">Memuat sentimen...</div></div>
+    </div>
+
+    <!-- ═══ GEOPOLITIK ═══ -->
+    <div id="tab-geopolitik" class="tab">
+      <div id="geo-content"><div class="em" style="padding:48px 16px">Memuat geopolitik...</div></div>
+    </div>
+
+  </div><!-- end main -->
+</div><!-- end app -->
+
+<script src="stock_analysis_data.js" onerror="console.warn('stock_analysis_data.js belum ada — jalankan: python stock_news_digest.py --run-now')"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+'use strict';
+const $ = id => document.getElementById(id);
+const today = () => new Date().toISOString().split('T')[0];
+function lsGet(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d;}catch(e){return d;}}
+function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+function toast(m,d=2600){const t=$('toast');t.textContent=m;t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),d);}
+
+// ── STATE ─────────────────────────────────────────────────────────
+let stocks     = (lsGet('sj_stocks',[])||[]).map(s=>({...s,sslink:String(s.sslink||'')}));
+let watchlist  = lsGet('sj_watch',    []);
+let dividens   = lsGet('sj_div',      []);
+let psyLogs    = lsGet('sj_psy',      []);
+let customRules= lsGet('sj_rules',    []);
+let GS_URL     = lsGet('sj_gs_url',   '');
+let saldoAwal  = lsGet('sj_saldo',     0);  // Modal awal investor
+let saldoCur   = lsGet('sj_curprice',  {}); // Harga terkini per ticker
+let profile    = lsGet('sj_profile',   {name:'Portfolio Saham 2026',currency:'IDR',profile:'mix_idx',targetRet:20,buffer:10000000,maxPos:15});
+let GS_ON      = false;
+// curSS removed
+let curMood    = '';
+
+function save(){
+  lsSet('sj_stocks', stocks);
+  lsSet('sj_watch',  watchlist);
+  lsSet('sj_div',    dividens);
+  lsSet('sj_psy',    psyLogs);
+  lsSet('sj_rules',  customRules);
+  lsSet('sj_saldo',    saldoAwal);
+  lsSet('sj_curprice', saldoCur);
+}
+
+
+// ── SALDO & PROFIL ──────────────────────────────────────────────
+function openSaldoModal(){
+  if($('s-saldo')) $('s-saldo').value = saldoAwal || '';
+  if($('s-name'))  $('s-name').value  = profile.name || 'Investment Portfolio 2026';
+  if($('s-currency')) $('s-currency').value = profile.currency || 'IDR';
+  if($('s-profile'))  $('s-profile').value  = profile.profile  || 'mix_idx';
+  if($('s-target-ret')) $('s-target-ret').value = profile.targetRet || 15;
+  if($('s-buffer'))   $('s-buffer').value   = profile.buffer  || 2000;
+  if($('s-maxpos'))   $('s-maxpos').value   = profile.maxPos  || 15;
+  $('saldo-mo').style.display='flex';
+}
+function closeSaldoModal(){$('saldo-mo').style.display='none';}
+function saveSaldo(){
+  saldoAwal = parseFloat($('s-saldo').value)||0;
+  profile = {
+    name:      $('s-name').value||'Investment Portfolio 2026',
+    currency:  $('s-currency').value||'IDR',
+    profile:   $('s-profile').value||'mix_idx',
+    targetRet: parseFloat($('s-target-ret').value)||15,
+    buffer:    parseFloat($('s-buffer').value)||2000,
+    maxPos:    parseFloat($('s-maxpos').value)||15,
+  };
+  lsSet('sj_profile', profile);
+  save();
+  closeSaldoModal();
+  updateDash();
+  toast('✅ Profil & saldo disimpan!');
+  // Also fill risk manager capital
+  if($('r-capital')) $('r-capital').value = saldoAwal;
+}
+
+// Update harga terkini per ticker untuk kalkulasi unrealized P&L
+function updateCurPrice(){
+  const tk=($('upd-ticker')?$('upd-ticker').value.trim().toUpperCase():'');
+  const pr=parseFloat($('upd-price')?$('upd-price').value:0)||0;
+  if(!tk||!pr){toast('❌ Isi ticker dan harga terkini');return;}
+  saldoCur[tk]=pr;
+  save();
+  if($('upd-ticker'))$('upd-ticker').value='';
+  if($('upd-price'))$('upd-price').value='';
+  updateDash();
+  toast('✅ Harga '+tk+' diperbarui: $'+pr.toLocaleString());
+}
+
+// ── TABS ──────────────────────────────────────────────────────────
+function showTab(n,btn){
+  document.querySelectorAll('.tab').forEach(e=>e.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(e=>e.classList.remove('on'));
+  $('tab-'+n).classList.add('on'); btn.classList.add('on');
+  if(n==='dash')      setTimeout(drawCharts,60);
+  if(n==='kalender')  renderKalender();
+  if(n==='sentimen')  renderSentimen();
+  if(n==='geopolitik') renderGeopolitik();
+}
+
+// ── GOOGLE SHEETS SYNC ───────────────────────────────────────────
+function setSync(st,txt){
+  const d=$('sdot'),l=$('stxt');
+  d.className='';
+  if(st==='ok')d.classList.add('s-ok');
+  if(st==='busy')d.classList.add('s-busy');
+  if(st==='err')d.classList.add('s-err');
+  if(l)l.textContent=txt;
+  const show=st==='ok';
+  $('btn-pull').style.display=show?'block':'none';
+  $('btn-push').style.display=show?'block':'none';
+}
+async function gasGet(p){const r=await fetch(GS_URL+'?'+new URLSearchParams(p),{redirect:'follow'});const d=await r.json();if(!d.ok)throw new Error(d.error||'Script error');return d;}
+async function gasPost(b){const r=await fetch(GS_URL,{method:'POST',redirect:'follow',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(b)});const d=await r.json();if(!d.ok)throw new Error(d.error||'Script error');return d;}
+
+async function pullAll(){if(!GS_ON)return;setSync('busy','Mengambil data...');try{const r=await gasGet({action:'getData'});if(r.stocks)stocks=r.stocks;if(r.watchlist)watchlist=r.watchlist;if(r.dividens)dividens=r.dividens;save();renderAll();setSync('ok','✅ Data terbaru — '+new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}));toast('✅ Data berhasil diambil!');}catch(e){setSync('err','🔴 Pull gagal');toast('❌ '+e.message,3500);renderAll();}}
+async function pushAll(){if(!GS_ON)return;setSync('busy','Mengirim...');try{await gasPost({action:'syncAll',stocks,watchlist,dividens});setSync('ok','✅ Terkirim — '+new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}));toast('✅ Semua data terkirim ke Sheets!');}catch(e){setSync('err','🔴 Push gagal');toast('❌ '+e.message,3500);}}
+
+// ── SETUP MODAL ──────────────────────────────────────────────────
+function openMo(){if(GS_URL)$('gs-inp').value=GS_URL;onGSUrl();$('mo').style.display='flex';}
+function closeMo(){$('mo').style.display='none';}
+function skipGS(){closeMo();setSync('off','Tidak terhubung — data tersimpan lokal');renderAll();}
+function onGSUrl(){const u=$('gs-inp').value.trim();const ok=u.startsWith('https://script.google.com/macros/s/')&&u.endsWith('/exec');$('gs-inp').style.borderColor=!u?'var(--bdr)':ok?'var(--green)':'var(--red)';const h=$('gs-hint');h.textContent=!u?'Paste URL dari langkah 2':ok?'✅ Format URL benar!':'❌ Harus berakhir /exec';h.style.color=!u?'var(--sub)':ok?'var(--green)':'var(--red)';$('btn-test').disabled=!ok;$('btn-conn').disabled=!ok;$('gs-test-res').style.display='none';}
+async function testGS(){const u=$('gs-inp').value.trim();const tr=$('gs-test-res');tr.style.display='block';tr.style.cssText='display:block;padding:9px;border-radius:6px;font-size:11px;background:var(--ydim);border:1px solid rgba(245,158,11,.2);color:var(--gold)';tr.textContent='🔄 Menguji koneksi...';try{const r=await fetch(u+'?action=ping',{redirect:'follow'});const d=await r.json();if(d.ok){tr.style.cssText='display:block;padding:9px;border-radius:6px;font-size:11px;background:var(--gdim);border:1px solid rgba(16,185,129,.2);color:var(--green)';tr.textContent='✅ Berhasil! Klik Sambungkan.';$('btn-conn').disabled=false;}else throw new Error();}catch(e){tr.style.cssText='display:block;padding:9px;border-radius:6px;font-size:11px;background:var(--rdim);border:1px solid rgba(244,63,94,.2);color:var(--red)';tr.textContent='❌ Gagal — pastikan URL benar dan Who has access = Anyone.';}}
+async function connectGS(){GS_URL=$('gs-inp').value.trim();lsSet('sj_gs_url',GS_URL);GS_ON=true;closeMo();await pullAll();}
+
+// ── SCREENSHOT ───────────────────────────────────────────────────
+// screenshot functions removed — gunakan link field
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLB();});
+
+// ── STOCK LOG ────────────────────────────────────────────────────
+function addStock(){
+  const ticker=$('sl-ticker').value.trim().toUpperCase();
+  if(!ticker){toast('❌ Ticker tidak boleh kosong');return;}
+  const qty=parseFloat($('sl-qty').value)||0;
+  const price=parseFloat($('sl-price').value)||0;
+  const s={
+    id:Date.now(),date:$('sl-date').value,ticker,name:$('sl-name').value,
+    action:$('sl-action').value,price,qty,
+    total:parseFloat($('sl-total').value)||(price*qty),
+    fee:parseFloat($('sl-fee').value)||0,
+    sector:$('sl-sector').value,horizon:$('sl-horizon').value,
+    target:parseFloat($('sl-target').value)||0,sl:parseFloat($('sl-sl').value)||0,
+    exchange:$('sl-exch').value,pe:parseFloat($('sl-pe').value)||0,
+    thesis:$('sl-thesis').value,sslink:String($('sl-sslink')?$('sl-sslink').value||'':'')
+  };
+  stocks.unshift(s);save();renderStockLog();renderPortfolio();updateDash();clearSLForm();
+  toast('✅ Transaksi '+s.action+' '+ticker+' tersimpan!');
+  if(GS_ON)gasPost({action:'saveStock',stock:s}).then(()=>setSync('ok','✅ Tersimpan di Sheets')).catch(()=>setSync('err','⚠️ Tersimpan lokal saja'));
+}
+
+// Auto-calc total
+['sl-price','sl-qty'].forEach(id=>{
+  const el=$(id);if(el)el.addEventListener('input',()=>{
+    const p=parseFloat($('sl-price').value)||0,q=parseFloat($('sl-qty').value)||0;
+    if($('sl-total'))$('sl-total').value=p*q?Math.round(p*q):'';
+  });
+});
+
+function deleteStock(id){stocks=stocks.filter(s=>s.id!==id);save();renderStockLog();renderPortfolio();updateDash();if(GS_ON)gasPost({action:'deleteStock',id}).catch(()=>{});}
+function clearAllStocks(){if(!stocks.length)return;if(!confirm('Hapus SEMUA riwayat transaksi?'))return;stocks=[];save();renderStockLog();renderPortfolio();updateDash();}
+function clearSLForm(){['sl-ticker','sl-name','sl-price','sl-qty','sl-total','sl-fee','sl-target','sl-sl','sl-pe','sl-thesis'].forEach(id=>{const e=$(id);if(e)e.value='';});$('sl-date').value=today();const ssl=$('sl-sslink');if(ssl)ssl.value='';}
+
+function renderStockLog(){
+  const tb=$('sl-body');if(!tb)return;
+  const flt=$('sl-filter')?$('sl-filter').value:'all';
+  const srch=$('sl-search')?$('sl-search').value.toLowerCase():'';
+  const list=stocks.filter(s=>(flt==='all'||s.action===flt)&&(!srch||s.ticker.toLowerCase().includes(srch)||s.name.toLowerCase().includes(srch)));
+  if(!list.length){tb.innerHTML=`<tr><td colspan="13" style="text-align:center;padding:24px;color:var(--mut)">Belum ada transaksi. Tambahkan di form atas.</td></tr>`;return;}
+  const hzMap={spot:'<span class="horizon-tag hz-spot">Spot</span>',swing:'<span class="horizon-tag hz-swing">Swing</span>',invest:'<span class="horizon-tag hz-invest">Invest</span>',long:'<span class="horizon-tag hz-long">Long</span>'};
+  const actColor={BUY:'var(--green)',SELL:'var(--red)',DCA:'var(--blue)',DIVIDEN:'var(--gold)'};
+  tb.innerHTML=list.map(s=>{
+    const sslink=String(s.sslink||'').trim();
+    const hasTh=s.thesis&&s.thesis.trim();
+    const ssCell=sslink?'<a href="'+sslink+'" target="_blank" onclick="event.stopPropagation()" title="Buka screenshot" style="color:var(--green);font-size:16px;text-decoration:none">🔗</a>':'—';
+    const noteRow=hasTh?`<tr id="th-${s.id}" style="display:none"><td colspan="13" style="padding:0 10px 10px"><div style="background:#06101f;border:1px solid var(--bdr);border-radius:7px;padding:10px 13px;font-size:11px;color:var(--sub);line-height:1.7;white-space:pre-wrap"><b style="color:var(--mut);font-size:10px">📝 TESIS / ALASAN:</b><br>${s.thesis}</div></td></tr>`:'';
+    return `<tr style="cursor:${hasTh?'pointer':'default'}" onclick="${hasTh?`toggleTh(${s.id})`:''}">
+      <td>${s.date||'—'}</td>
+      <td class="ts"><span class="ticker-badge">${s.ticker}</span></td>
+      <td style="color:var(--txt);max-width:120px;overflow:hidden;text-overflow:ellipsis">${s.name||'—'}</td>
+      <td style="color:${actColor[s.action]||'var(--sub)'};font-weight:700;font-size:11px">${s.action}</td>
+      <td style="font-family:var(--mono)">${s.price?Number(s.price).toLocaleString('id-ID'):'—'}</td>
+      <td style="font-family:var(--mono)">${s.qty?Number(s.qty).toLocaleString('id-ID'):'—'}</td>
+      <td style="font-family:var(--mono);color:var(--gold)">${s.total?Number(s.total).toLocaleString('id-ID'):'—'}</td>
+      <td><span class="sector-tag" style="background:rgba(59,130,246,.1);color:var(--blue);font-size:10px">${s.sector||'—'}</span></td>
+      <td>${hzMap[s.horizon]||'—'}</td>
+      <td style="font-family:var(--mono)">${s.pe?s.pe+'x':'—'}</td>
+      <td>${ssCell}</td>
+      <td style="text-align:center;font-size:13px;color:var(--gold)">${hasTh?'📝':''}</td>
+      <td><button class="bsm" onclick="event.stopPropagation();deleteStock(${s.id})">✕</button></td>
+    </tr>${noteRow}`;
+  }).join('');
+}
+function toggleTh(id){const el=document.getElementById('th-'+id);if(el)el.style.display=el.style.display==='none'?'table-row':'none';}
+
+// ── PORTFOLIO ────────────────────────────────────────────────────
+function renderPortfolio(){
+  const el=$('pf-grid');if(!el)return;
+  const flt=$('pf-filter')?$('pf-filter').value:'all';
+  // Compute holdings: BUY/DCA add, SELL removes
+  const holdings={};
+  [...stocks].reverse().forEach(s=>{
+    if(!holdings[s.ticker])holdings[s.ticker]={ticker:s.ticker,name:s.name,sector:s.sector,horizon:s.horizon,exchange:s.exchange,qty:0,cost:0,target:s.target,sl:s.sl,thesis:s.thesis};
+    if(s.action==='BUY'||s.action==='DCA'){holdings[s.ticker].qty+=Number(s.qty);holdings[s.ticker].cost+=Number(s.total);}
+    if(s.action==='SELL'){holdings[s.ticker].qty-=Number(s.qty);holdings[s.ticker].cost-=Number(s.total);}
+  });
+  const active=Object.values(holdings).filter(h=>h.qty>0);
+  const filtered=flt==='all'?active:active.filter(h=>flt==='spot'?(h.horizon==='spot'||h.horizon==='swing'):h.horizon===flt);
+  if(!filtered.length){el.innerHTML='<div class="em" style="grid-column:1/-1">Belum ada posisi aktif.</div>';return;}
+  const hzClr={spot:'var(--gold)',swing:'var(--blue)',invest:'var(--green)',long:'var(--purple)'};
+  const hzLbl={spot:'Spot',swing:'Swing',invest:'Invest',long:'Long Term'};
+  el.innerHTML=filtered.map(h=>{
+    const avgCost=h.qty>0?h.cost/h.qty:0;
+    const pctToTarget=h.target&&avgCost?((h.target-avgCost)/avgCost*100).toFixed(1):'—';
+    const clr=hzClr[h.horizon]||'var(--sub)';
+    return `<div class="port-card" style="border-color:${clr}22;border-top-color:${clr};margin-bottom:0">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+        <div><span class="ticker-badge" style="font-size:13px">${h.ticker}</span></div>
+        <span style="font-size:10px;font-weight:600;color:${clr};background:${clr}22;padding:2px 8px;border-radius:10px">${hzLbl[h.horizon]||'—'}</span>
+      </div>
+      <div style="font-size:11px;color:var(--sub);margin-bottom:10px">${h.name||'—'} · ${h.sector||'—'}</div>
+      <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:5px"><span style="color:var(--sub)">Lot/Lembar</span><span style="color:var(--txt);font-family:var(--mono);font-weight:600">${Number(h.qty).toLocaleString('id-ID')}</span></div>
+      <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:5px"><span style="color:var(--sub)">Avg Biaya</span><span style="color:var(--txt);font-family:var(--mono)">${avgCost?Number(Math.round(avgCost)).toLocaleString('id-ID'):'—'}</span></div>
+      <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:5px"><span style="color:var(--sub)">Total Modal</span><span style="color:var(--gold);font-family:var(--mono)">${Number(Math.round(h.cost)).toLocaleString('id-ID')}</span></div>
+      ${h.target?`<div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:5px"><span style="color:var(--sub)">Target Harga</span><span style="color:var(--green);font-family:var(--mono)">${Number(h.target).toLocaleString('id-ID')} <span style="font-size:10px">(+${pctToTarget}%)</span></span></div>`:''}
+      ${h.sl?`<div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:5px"><span style="color:var(--sub)">Stop Loss</span><span style="color:var(--red);font-family:var(--mono)">${Number(h.sl).toLocaleString('id-ID')}</span></div>`:''}
+      ${h.thesis?`<div style="margin-top:8px;font-size:10px;color:var(--sub);line-height:1.5;background:var(--surf);border-radius:6px;padding:7px 9px">${h.thesis.substring(0,100)}${h.thesis.length>100?'...':''}</div>`:''}
+    </div>`;
+  }).join('');
+}
+
+// ── WATCHLIST ────────────────────────────────────────────────────
+function addWatchlist(){
+  const tk=$('wl-ticker').value.trim().toUpperCase();
+  if(!tk){toast('❌ Ticker tidak boleh kosong');return;}
+  const w={id:Date.now(),ticker:tk,name:$('wl-name').value,cur:parseFloat($('wl-cur').value)||0,buy:parseFloat($('wl-buy').value)||0,sell:parseFloat($('wl-sell').value)||0,sector:$('wl-sector').value,prio:$('wl-prio').value,note:$('wl-note').value};
+  watchlist.unshift(w);save();renderWatchlist();
+  ['wl-ticker','wl-name','wl-cur','wl-buy','wl-sell','wl-note'].forEach(id=>{const e=$(id);if(e)e.value='';});
+  toast('✅ '+tk+' ditambahkan ke watchlist!');
+}
+function deleteWL(id){watchlist=watchlist.filter(w=>w.id!==id);save();renderWatchlist();}
+function clearWatchlist(){if(!watchlist.length)return;if(!confirm('Hapus semua watchlist?'))return;watchlist=[];save();renderWatchlist();}
+function renderWatchlist(){
+  const el=$('wl-list');if(!el)return;
+  const flt=$('wl-filter')?$('wl-filter').value:'all';
+  const list=flt==='all'?watchlist:watchlist.filter(w=>w.prio===flt);
+  if(!list.length){el.innerHTML='<div class="em">Watchlist kosong.</div>';return;}
+  const pc={high:'var(--red)',med:'var(--gold)',low:'var(--green)'};
+  const pl={high:'🔴 Tinggi',med:'🟡 Sedang',low:'🟢 Rendah'};
+  el.innerHTML=list.map(w=>{
+    const upside=w.cur&&w.sell?((w.sell-w.cur)/w.cur*100).toFixed(1):null;
+    const gap=w.cur&&w.buy?((w.cur-w.buy)/w.cur*100).toFixed(1):null;
+    return `<div class="wl-item">
+      <div style="flex:1">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
+          <span class="ticker-badge">${w.ticker}</span>
+          <span style="font-size:12px;font-weight:500;color:var(--txt)">${w.name||''}</span>
+          <span style="font-size:9px;padding:1px 7px;border-radius:10px;background:${pc[w.prio]}22;color:${pc[w.prio]};font-weight:600">${pl[w.prio]||''}</span>
+        </div>
+        <div style="display:flex;gap:16px;font-size:11px;margin-bottom:4px">
+          ${w.cur?`<span style="color:var(--sub)">Harga: <b style="color:var(--txt);font-family:var(--mono)">${Number(w.cur).toLocaleString('id-ID')}</b></span>`:''}
+          ${w.buy?`<span style="color:var(--sub)">Target Buy: <b style="color:var(--green);font-family:var(--mono)">${Number(w.buy).toLocaleString('id-ID')}</b>${gap?` <span style="color:var(--mut)">(gap ${gap}%)</span>`:''}</span>`:''}
+          ${w.sell?`<span style="color:var(--sub)">Target Sell: <b style="color:var(--gold);font-family:var(--mono)">${Number(w.sell).toLocaleString('id-ID')}</b>${upside?` <span style="color:var(--mut)">(+${upside}%)</span>`:''}</span>`:''}
+        </div>
+        ${w.note?`<div style="font-size:11px;color:var(--sub);line-height:1.5">${w.note}</div>`:''}
+      </div>
+      <button class="bsm" onclick="deleteWL(${w.id})">✕</button>
+    </div>`;
+  }).join('');
+}
+
+// ── DIVIDEN ──────────────────────────────────────────────────────
+['dv-pershare','dv-shares'].forEach(id=>{
+  const el=$(id);if(el)el.addEventListener('input',()=>{
+    const ps=parseFloat($('dv-pershare').value)||0,sh=parseFloat($('dv-shares').value)||0;
+    if($('dv-amount'))$('dv-amount').value=ps*sh||'';
+    calcDivYield();
+  });
+});
+function calcDivYield(){
+  const ps=parseFloat($('dv-pershare').value)||0,bp=parseFloat($('dv-buyprice').value)||0;
+  const dy=$('dv-dyield');if(dy)dy.value=bp&&ps?(ps/bp*100).toFixed(2)+'%':'';
+}
+function addDividen(){
+  const tk=$('dv-ticker').value.trim().toUpperCase();if(!tk){toast('❌ Ticker wajib diisi');return;}
+  const d={id:Date.now(),ticker:tk,exdate:$('dv-exdate').value,pershare:parseFloat($('dv-pershare').value)||0,shares:parseFloat($('dv-shares').value)||0,amount:parseFloat($('dv-amount').value)||0,buyprice:parseFloat($('dv-buyprice').value)||0,yield:$('dv-dyield').value,status:$('dv-status').value,note:$('dv-note').value};
+  dividens.unshift(d);save();renderDividen();updateDivStats();
+  ['dv-ticker','dv-exdate','dv-pershare','dv-shares','dv-amount','dv-buyprice','dv-dyield','dv-note'].forEach(id=>{const e=$(id);if(e)e.value='';});
+  toast('💰 Dividen '+tk+' dicatat!');
+}
+function deleteDividen(id){dividens=dividens.filter(d=>d.id!==id);save();renderDividen();updateDivStats();}
+function clearDividen(){if(!dividens.length)return;if(!confirm('Hapus semua catatan dividen?'))return;dividens=[];save();renderDividen();updateDivStats();}
+function renderDividen(){
+  const tb=$('dv-body');if(!tb)return;
+  if(!dividens.length){tb.innerHTML='<tr><td colspan="9" style="text-align:center;padding:20px;color:var(--mut)">Belum ada catatan dividen.</td></tr>';return;}
+  tb.innerHTML=dividens.map(d=>`<tr>
+    <td><span class="ticker-badge">${d.ticker}</span></td>
+    <td>${d.exdate||'—'}</td>
+    <td style="font-family:var(--mono)">${d.pershare?Number(d.pershare).toLocaleString('id-ID'):'—'}</td>
+    <td style="font-family:var(--mono)">${d.shares?Number(d.shares).toLocaleString('id-ID'):'—'}</td>
+    <td style="color:var(--gold);font-family:var(--mono);font-weight:600">${d.amount?Number(d.amount).toLocaleString('id-ID'):'—'}</td>
+    <td style="color:var(--green)">${d.yield||'—'}</td>
+    <td><span class="bdg ${d.status==='received'?'bg2':'by2'}">${d.status==='received'?'✅ Diterima':'⏳ Ekspektasi'}</span></td>
+    <td style="font-size:10px;color:var(--sub)">${d.note||'—'}</td>
+    <td><button class="bsm" onclick="deleteDividen(${d.id})">✕</button></td>
+  </tr>`).join('');
+}
+function updateDivStats(){
+  const total=dividens.filter(d=>d.status==='received').reduce((s,d)=>s+(Number(d.amount)||0),0);
+  const yr=new Date().getFullYear();
+  const ytd=dividens.filter(d=>d.status==='received'&&d.exdate&&d.exdate.startsWith(yr)).reduce((s,d)=>s+(Number(d.amount)||0),0);
+  const upcoming=dividens.filter(d=>d.status!=='received').sort((a,b)=>a.exdate<b.exdate?-1:1);
+  if($('dv-total'))$('dv-total').textContent='Rp '+total.toLocaleString('id-ID');
+  if($('dv-year'))$('dv-year').textContent='Rp '+ytd.toLocaleString('id-ID');
+  if($('dv-yy'))$('dv-yy').textContent=yr;
+  if($('dv-next'))$('dv-next').textContent=upcoming.length?upcoming[0].ticker:'—';
+  if($('dv-ndate'))$('dv-ndate').textContent=upcoming.length?(upcoming[0].exdate||'—'):'Tidak ada';
+}
+
+// ── RISK MANAGER ─────────────────────────────────────────────────
+function calcStockRisk(){
+  const cap=parseFloat($('r-capital').value)||100000000;
+  const rp=parseFloat($('r-rp').value)||2;
+  const buy=parseFloat($('r-buy').value)||0;
+  const sl=parseFloat($('r-sl').value)||0;
+  const tgt=parseFloat($('r-target').value)||0;
+  const lotsize=parseFloat($('r-lotsize').value)||100;
+  if(!buy||!sl){if($('ro-risk'))$('ro-risk').textContent='—';return;}
+  const riskPerShare=buy-sl;
+  const riskAmt=cap*rp/100;
+  const shares=riskPerShare>0?Math.floor(riskAmt/riskPerShare):0;
+  const lots=Math.floor(shares/lotsize);
+  const actualShares=lots*lotsize;
+  const capitalNeeded=actualShares*buy;
+  const potProfit=tgt&&actualShares?(tgt-buy)*actualShares:0;
+  const rrr=riskPerShare>0&&tgt?(((tgt-buy)/riskPerShare)).toFixed(1):'—';
+  if($('ro-risk'))$('ro-risk').textContent='Rp '+Math.round(riskAmt).toLocaleString('id-ID');
+  if($('ro-lot'))$('ro-lot').textContent=lots+' lot';
+  if($('ro-shares'))$('ro-shares').textContent=actualShares.toLocaleString('id-ID')+' lembar';
+  if($('ro-cap'))$('ro-cap').textContent='Rp '+Math.round(capitalNeeded).toLocaleString('id-ID');
+  if($('ro-rrr'))$('ro-rrr').textContent='1 : '+rrr;
+  if($('ro-profit'))$('ro-profit').textContent=potProfit?'Rp '+Math.round(potProfit).toLocaleString('id-ID'):'—';
+}
+function calcDD(){
+  const dd=parseFloat($('r-dd').value)||0,el=$('dd-msg');if(!el)return;
+  if(dd<=0){el.innerHTML='';return;}
+  if(dd>=20)el.innerHTML='<div class="al ad">🚨 STOP BERINVESTASI. Evaluasi total strategi. Istirahat dari pasar.</div>';
+  else if(dd>=10)el.innerHTML='<div class="al aw">⚠️ Warning serius! Hentikan beli saham baru. Evaluasi portfolio.</div>';
+  else el.innerHTML='<div class="al as">✅ Drawdown masih terkontrol. Lanjutkan dengan disiplin.</div>';
+}
+
+// ── PSIKOLOGI ────────────────────────────────────────────────────
+let curMoodVal='';
+function selM(el,m){document.querySelectorAll('.mb2').forEach(b=>{b.style.borderColor='var(--bdr)';b.style.background='var(--surf)'});el.style.borderColor='var(--green)';el.style.background='var(--gdim)';curMoodVal=m;}
+function calcPsy(){
+  const ids=['ps-1','ps-2','ps-3','ps-4','ps-5','ps-6'];
+  const vals=ids.map(id=>{const e=$(id);return e?parseInt(e.value)||5:5;});
+  const sc=Math.round(vals.reduce((a,v)=>a+v,0)/vals.length*10);
+  const el=$('psy-s');if(el)el.textContent=sc;
+  let l,a,col;
+  if(sc>=80){l='Investor Prima';a='Mental sangat baik. Jalankan rencana dengan disiplin.';col='var(--green)';}
+  else if(sc>=60){l='Investor Tenang';a='Kondisi cukup baik untuk berinvestasi.';col='var(--blue)';}
+  else if(sc>=40){l='Perlu Waspada';a='Jangan ambil keputusan besar. Riset lebih dalam dulu.';col='var(--gold)';}
+  else{l='Istirahat dari Pasar';a='Kondisi tidak ideal. Hindari beli/jual sampai lebih stabil.';col='var(--red)';}
+  if($('psy-s'))$('psy-s').style.color=col;
+  if($('psy-l'))$('psy-l').textContent=l;
+  if($('psy-a'))$('psy-a').textContent=a;
+  return sc;
+}
+function savePsy(){
+  const date=($('psy-date')?$('psy-date').value:null)||today();
+  const sc=calcPsy();
+  const ids=['ps-1','ps-2','ps-3','ps-4','ps-5','ps-6'];
+  const vals=ids.map(id=>{const e=$(id);return e?parseInt(e.value)||5:5;});
+  const p={id:Date.now(),date,mood:curMoodVal||'😐 Netral',v1:vals[0],v2:vals[1],v3:vals[2],v4:vals[3],v5:vals[4],v6:vals[5],score:sc,feel:($('psy-feel')?$('psy-feel').value:''),lesson:($('psy-lesson')?$('psy-lesson').value:'')};
+  psyLogs=psyLogs.filter(x=>x.date!==date);psyLogs.unshift(p);save();renderPsy();
+  if($('psy-feel'))$('psy-feel').value='';if($('psy-lesson'))$('psy-lesson').value='';curMoodVal='';document.querySelectorAll('.mb2').forEach(b=>{b.style.borderColor='var(--bdr)';b.style.background='var(--surf)';});
+  toast('✅ Psikologi investor tersimpan!');
+}
+function deletePsy(id){psyLogs=psyLogs.filter(p=>p.id!==id);save();renderPsy();}
+function clearPsyLogs(){if(!psyLogs.length)return;if(!confirm('Hapus semua riwayat psikologi?'))return;psyLogs=[];save();renderPsy();}
+function renderPsy(){
+  const tb=$('psy-body');if(!tb)return;
+  if(!psyLogs.length){tb.innerHTML='<tr><td colspan="10" style="text-align:center;padding:20px;color:var(--mut)">Belum ada catatan psikologi.</td></tr>';return;}
+  tb.innerHTML=psyLogs.map(p=>{
+    const sc=p.score||0,col=sc>=80?'var(--green)':sc>=60?'var(--blue)':sc>=40?'var(--gold)':'var(--red)';
+    return `<tr><td>${p.date}</td><td style="font-size:14px">${p.mood||'—'}</td><td style="text-align:center">${p.v1||'—'}</td><td style="text-align:center">${p.v2||'—'}</td><td style="text-align:center">${p.v3||'—'}</td><td style="text-align:center">${p.v4||'—'}</td><td style="text-align:center">${p.v5||'—'}</td><td style="text-align:center">${p.v6||'—'}</td><td style="color:${col};font-family:var(--mono);font-weight:700;text-align:center">${sc}</td><td><button class="bsm" onclick="deletePsy(${p.id})">✕</button></td></tr>`;
+  }).join('');
+}
+
+// ── ATURAN INVESTASI ─────────────────────────────────────────────
+const defRules=[
+  {cat:'Fundamental',text:'Hanya beli saham dengan ROE > 15% dan NPM positif minimal 3 tahun berturut-turut'},
+  {cat:'Entry',text:'Masuk bertahap (DCA) — jangan taruh semua modal sekaligus'},
+  {cat:'Portofolio',text:'Maksimal 1 saham = 15% dari total portfolio'},
+  {cat:'Risk',text:'Selalu pasang stop loss, bahkan untuk investasi jangka panjang'},
+  {cat:'Psikologi',text:'Jangan jual panik saat market turun jika fundamental tidak berubah'},
+  {cat:'Exit',text:'Jual saat target harga tercapai ATAU fundamental berubah negatif'},
+  {cat:'Umum',text:'Riset minimal 30 menit sebelum memutuskan beli saham apapun'},
+  {cat:'Psikologi',text:'Jangan invest dengan uang yang dibutuhkan dalam 1 tahun ke depan'},
+];
+const catCol={Fundamental:'var(--green)',Entry:'var(--blue)',Exit:'var(--red)',Risk:'var(--gold)',Psikologi:'var(--purple)',Portofolio:'var(--cyan)',Umum:'var(--sub)'};
+function renderRules(){
+  const el=$('rules-w');if(!el)return;
+  const all=[...defRules,...customRules];
+  const cats=[...new Set(all.map(r=>r.cat))];
+  el.innerHTML=cats.map(cat=>{
+    const cr=all.filter(r=>r.cat===cat);const col=catCol[cat]||'var(--sub)';
+    return `<div class="card" style="margin-bottom:10px"><div style="display:flex;align-items:center;gap:7px;margin-bottom:10px"><div style="width:8px;height:8px;border-radius:2px;background:${col}"></div><div style="font-size:11px;font-weight:600;color:${col}">${cat}</div></div>${cr.map((r,i)=>`<div style="font-size:11px;color:var(--sub);padding:7px 0;border-bottom:1px solid var(--bdr);display:flex;gap:8px"><span style="color:var(--mut);font-family:var(--mono);font-size:10px;flex-shrink:0">${String(i+1).padStart(2,'0')}</span>${r.text}</div>`).join('')}</div>`;
+  }).join('');
+}
+function addRule(){const c=$('rc').value,t=$('rt').value.trim();if(!t)return;customRules.push({cat:c,text:t});save();$('rt').value='';renderRules();toast('Aturan ditambahkan!');}
+
+// ── DASHBOARD ────────────────────────────────────────────────────
+let eqCh,secCh;
+function fmtVal(v){
+  // Gunakan Rp untuk nilai besar (IDR), $ untuk nilai kecil (USD)
+  const abs = Math.abs(v);
+  const sign = v < 0 ? '-' : '';
+  const ccy  = (profile && profile.currency === 'USD') ? 'USD' : 'IDR';
+  if(ccy === 'USD') {
+    if(abs >= 1000000) return sign + '$' + (abs/1000000).toFixed(2) + 'M';
+    if(abs >= 1000)    return sign + '$' + abs.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    return sign + '$' + abs.toFixed(2);
+  } else {
+    // IDR format
+    if(abs >= 1000000000) return sign + 'Rp ' + (abs/1000000000).toFixed(2) + 'M';
+    if(abs >= 1000000)    return sign + 'Rp ' + (abs/1000000).toFixed(1) + 'jt';
+    if(abs >= 1000)       return sign + 'Rp ' + abs.toLocaleString('id-ID',{maximumFractionDigits:0});
+    return sign + 'Rp ' + abs.toFixed(0);
+  }
+}
+
+function updateDash(){
+  // Build holdings
+  const holdings={};
+  [...stocks].reverse().forEach(s=>{
+    if(!holdings[s.ticker])holdings[s.ticker]={ticker:s.ticker,name:s.name,sector:s.sector||'Lainnya',horizon:s.horizon,exchange:s.exchange||'NYSE',qty:0,cost:0,buyQty:0,buyCost:0,target:Number(s.target)||0,sl:Number(s.sl)||0,thesis:s.thesis};
+    if(s.action==='BUY'||s.action==='DCA'){holdings[s.ticker].qty+=Number(s.qty);holdings[s.ticker].cost+=Number(s.total)||0;holdings[s.ticker].buyQty+=Number(s.qty);holdings[s.ticker].buyCost+=Number(s.total)||0;}
+    if(s.action==='SELL'){holdings[s.ticker].qty-=Number(s.qty);holdings[s.ticker].cost-=Number(s.total)||0;}
+  });
+  const active=Object.values(holdings).filter(h=>h.qty>0);
+  const totalCost=active.reduce((s,h)=>s+h.cost,0);
+
+  // Unrealized P&L from current prices
+  let unrealizedPL=0;
+  active.forEach(h=>{const curP=saldoCur[h.ticker];if(curP&&h.qty>0){const avgC=h.cost/h.qty;unrealizedPL+=(curP-avgC)*h.qty;}});
+
+  // Realized P&L from SELL vs avg buy cost
+  let realizedPL=0,winTrades=0,lossTrades=0;
+  stocks.filter(s=>s.action==='SELL').forEach(s=>{
+    const h=holdings[s.ticker];const avgBuy=h&&h.buyQty>0?h.buyCost/h.buyQty:0;
+    if(avgBuy){const pl=(Number(s.price)-avgBuy)*Number(s.qty);realizedPL+=pl;if(pl>0)winTrades++;else lossTrades++;}
+  });
+  const closedTotal=winTrades+lossTrades;
+  const wr=closedTotal?Math.round(winTrades/closedTotal*100):null;
+
+  // Exchange stats
+  const usEx=['NYSE','NASDAQ'];
+  const usCount=active.filter(h=>usEx.includes(h.exchange)).length;
+  const idxCount=active.filter(h=>h.exchange==='IDX (BEI)').length;
+  const otherCount=active.length-usCount-idxCount;
+  const divTickers=new Set(dividens.map(d=>d.ticker));
+  const divCount=active.filter(h=>divTickers.has(h.ticker)).length;
+
+  // Saldo banner
+  const deployed=totalCost;
+  const cash=Math.max((saldoAwal||0)-deployed,0);
+  const depPct=saldoAwal?Math.min(Math.round(deployed/saldoAwal*100),999):0;
+  if($('d-saldo-show'))$('d-saldo-show').textContent=fmtVal(saldoAwal||0);
+  if($('d-deployed'))$('d-deployed').textContent=fmtVal(deployed);
+  if($('d-cash'))$('d-cash').textContent=fmtVal(cash);
+  if($('d-dep-pct'))$('d-dep-pct').textContent=depPct+'%';
+
+  // Metrics
+  const te=$('d-total');if(te){te.textContent=fmtVal(totalCost);te.className='mv '+(active.length?'up':'nt');}
+  if($('d-tpos'))$('d-tpos').textContent=active.length+' posisi aktif';
+  const glEl=$('d-gl');if(glEl){if(unrealizedPL!==0){glEl.textContent=(unrealizedPL>=0?'+':'')+fmtVal(unrealizedPL);glEl.className='mv '+(unrealizedPL>0?'up':'dn');}else{glEl.textContent='—';glEl.className='mv nt';}}
+  if($('d-glpct'))$('d-glpct').textContent=unrealizedPL!==0&&totalCost>0?(unrealizedPL>=0?'+':'')+(unrealizedPL/totalCost*100).toFixed(2)+'%':'ketik ticker+harga di panel kanan →';
+  const rplEl=$('d-rpl');if(rplEl){rplEl.textContent=(realizedPL>=0?'+':'')+fmtVal(realizedPL);rplEl.className='mv '+(realizedPL>0?'up':realizedPL<0?'dn':'nt');}
+  const wrEl=$('d-wr');if(wrEl){wrEl.textContent=wr!==null?wr+'%':'—';wrEl.className='mv '+(wr!==null?wr>=50?'up':'dn':'nt');}
+  if($('d-wl'))$('d-wl').textContent=closedTotal?winTrades+'W / '+lossTrades+'L':'belum ada posisi closed';
+
+  // Sidebar
+  if($('d-open'))$('d-open').textContent=active.length;
+  if($('d-us-count'))$('d-us-count').textContent=usCount+' saham';
+  if($('d-idx-count'))$('d-idx-count').textContent=idxCount+' saham';
+  if($('d-other-count'))$('d-other-count').textContent=otherCount+' saham';
+  if($('d-avg'))$('d-avg').textContent=active.length?fmtVal(totalCost/active.length):'—';
+  if($('d-div-count'))$('d-div-count').textContent=divCount+' saham';
+
+  // Top holdings
+  const topEl=$('d-top');
+  if(topEl){
+    const sorted=[...active].sort((a,b)=>b.cost-a.cost).slice(0,6);
+    if(!sorted.length){topEl.innerHTML='<div class="em" style="padding:16px">Belum ada holding</div>';}
+    else{topEl.innerHTML=sorted.map(h=>{
+      const pct=totalCost?((h.cost/totalCost)*100).toFixed(1):0;
+      const curP=saldoCur[h.ticker];const avgC=h.qty>0?h.cost/h.qty:0;
+      const plPct=curP&&avgC?((curP-avgC)/avgC*100).toFixed(1):null;
+      const flag=usEx.includes(h.exchange)?'🇺🇸':h.exchange==='IDX (BEI)'?'🇮🇩':'🌏';
+      return`<div style="margin-bottom:11px"><div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:4px"><span>${flag} <b style="color:var(--txt)">${h.ticker}</b> <span style="color:var(--mut);font-size:10px">${h.sector||''}</span></span><span style="display:flex;gap:8px">${plPct!==null?`<span style="color:${parseFloat(plPct)>=0?'var(--green)':'var(--red)'};font-size:10px">${parseFloat(plPct)>=0?'+':''}${plPct}%</span>`:''}<span style="color:var(--sub)">${pct}%</span></span></div><div class="pb"><div class="pf" style="width:${Math.min(parseFloat(pct)*4,100)}%;background:var(--green)"></div></div></div>`;
+    }).join('');}
+  }
+
+  // Horizon breakdown
+  const hzEl=$('d-horizon');
+  if(hzEl){
+    const hzc={invest:0,swing:0,long:0,spot:0};
+    active.forEach(h=>{const k=h.horizon||'invest';if(hzc[k]!==undefined)hzc[k]+=h.cost;else hzc['invest']+=h.cost;});
+    const hzLbl2={spot:'🟡 Spot',swing:'🔵 Swing',invest:'🟢 Invest',long:'🟣 Long Term'};
+    const hzClr2={spot:'var(--gold)',swing:'var(--blue)',invest:'var(--green)',long:'var(--purple)'};
+    const hzData=Object.entries(hzc).filter(([,v])=>v>0);
+    if(!hzData.length)hzEl.innerHTML='<div class="em" style="padding:16px">Belum ada data</div>';
+    else hzEl.innerHTML=hzData.map(([k,v])=>{const pct=totalCost?((v/totalCost)*100).toFixed(1):0;return`<div style="margin-bottom:10px"><div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:4px"><span style="color:${hzClr2[k]}">${hzLbl2[k]}</span><span style="color:var(--sub)">${pct}%</span></div><div class="pb"><div class="pf" style="width:${pct}%;background:${hzClr2[k]}"></div></div></div>`;}).join('');
+  }
+
+  drawCharts(active);
+}
+
+
+function drawCharts(active){
+  const ec=$('eqC'),sc2=$('secC');if(!ec||!sc2)return;
+  // Equity curve from transactions by date
+  const byDate={};[...stocks].reverse().forEach(s=>{const d=s.date||'';if(!byDate[d])byDate[d]=0;if(s.action==='BUY'||s.action==='DCA')byDate[d]+=Number(s.total)||0;if(s.action==='SELL')byDate[d]-=Number(s.total)||0;});
+  const dates=Object.keys(byDate).sort();let run=0;const eqL=[],eqD=[];
+  dates.forEach(d=>{run+=byDate[d];eqL.push(d);eqD.push(+run.toFixed(0));});
+  if(!eqD.length){eqL.push('Start');eqD.push(0);}
+  if(eqCh)eqCh.destroy();
+  eqCh=new Chart(ec,{type:'line',data:{labels:eqL,datasets:[{data:eqD,borderColor:'#10b981',backgroundColor:'rgba(16,185,129,.07)',tension:.35,fill:true,pointRadius:3,pointBackgroundColor:'#10b981'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#4a5568',font:{size:9},maxTicksLimit:7},grid:{color:'rgba(255,255,255,.03)'}},y:{ticks:{color:'#4a5568',font:{size:9},callback:v=>{const abs=Math.abs(v);return(abs>=1e6?'Rp '+(abs/1e6).toFixed(1)+'M':abs>=1e3?'Rp '+(abs/1e3).toFixed(0)+'K':'Rp '+abs);}},grid:{color:'rgba(255,255,255,.03)'}}}}});
+
+  // Sector allocation pie
+  const secMap={};(active||[]).forEach(h=>{const s=h.sector||'Lainnya';if(!secMap[s])secMap[s]=0;secMap[s]+=h.cost;});
+  const sL=Object.keys(secMap),sD=sL.map(s=>+secMap[s].toFixed(0));
+  const colors=['#10b981','#3b82f6','#f59e0b','#8b5cf6','#f43f5e','#06b6d4','#84cc16','#fb923c','#e879f9','#38bdf8','#a78bfa','#34d399'];
+  if(secCh)secCh.destroy();
+  if(!sL.length){secCh=new Chart(sc2,{type:'doughnut',data:{labels:['Belum ada'],datasets:[{data:[1],backgroundColor:['#1a2d48']}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}}}});return;}
+  secCh=new Chart(sc2,{type:'doughnut',data:{labels:sL,datasets:[{data:sD,backgroundColor:colors.slice(0,sL.length),borderWidth:2,borderColor:'#152440'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:'#8899aa',font:{size:10},boxWidth:10,padding:8}}},cutout:'60%'}});
+}
+
+// ── RENDER ALL ────────────────────────────────────────────────────
+function renderAll(){
+  const safe=(fn,n)=>{try{fn();}catch(e){console.warn('renderAll:',n,e.message);}};
+  safe(()=>{if($('sl-date'))$('sl-date').value=today();},'date-init');
+  safe(()=>{if($('psy-date'))$('psy-date').value=today();},'psy-date');
+  safe(()=>{if($('dv-exdate'))$('dv-exdate').value=today();},'dv-date');
+  safe(renderStockLog,'stocklog');
+  safe(renderPortfolio,'portfolio');
+  safe(renderWatchlist,'watchlist');
+  safe(renderDividen,'dividen');
+  safe(renderPsy,'psy');
+  safe(renderRules,'rules');
+  safe(updateDash,'dashboard');
+  safe(updateDivStats,'divstats');
+  safe(calcPsy,'psy-score');
+  safe(renderKalender,'kalender');
+  safe(renderSentimen,'sentimen');
+  safe(renderGeopolitik,'geopolitik');
+}
+
+// ── INIT ─────────────────────────────────────────────────────────
+(function init(){
+  if(GS_URL){
+    GS_ON=true;
+    $('mo').style.display='none';
+    setSync('busy','Menghubungkan ke Sheets...');
+    renderAll();
+    pingGS();
+  } else {
+    $('mo').style.display='none'; // skip GS setup - show after saldo
+    renderAll();
+    // Auto-open saldo modal on first visit
+    if(!saldoAwal){
+      setTimeout(()=>openSaldoModal(), 400);
+    }
+  }
+  // Populate risk manager capital from saldo
+  if(saldoAwal && $('r-capital')) $('r-capital').value = saldoAwal;
+})();
+
+// ── KALENDER / SENTIMEN / GEOPOLITIK ────────────────────────────────────────
+
+function _noData(tab){
+  const icons={kalender:'📅',sentimen:'📊',geopolitik:'🌍'};
+  const names={kalender:'kalender ekonomi hari ini',sentimen:'analisis sentimen saham',geopolitik:'berita geopolitik terkini'};
+  return `<div class="em" style="padding:48px 16px">
+    <div style="font-size:40px;margin-bottom:14px">${icons[tab]}</div>
+    <div style="color:var(--txt);font-size:14px;font-weight:700;margin-bottom:10px">Data Belum Tersedia</div>
+    <div style="max-width:440px;margin:0 auto;line-height:1.9;font-size:12px">
+      Jalankan script Python untuk mengumpulkan ${names[tab]}:<br>
+      <code style="background:var(--surf);padding:4px 14px;border-radius:6px;font-size:11px;color:var(--green);display:inline-block;margin:10px 0">python stock_news_digest.py --run-now</code><br>
+      <span style="color:var(--sub)">Data diperbarui otomatis setiap hari jam 07:00 WIB.<br>
+      Pastikan <code style="color:var(--blue)">config_email.ini</code> sudah dikonfigurasi.</span>
+    </div>
+    ${window.STOCK_LAST_UPDATE?'':'<div style="margin-top:14px;font-size:11px;color:var(--mut)">File <code style="color:var(--gold)">stock_analysis_data.js</code> belum ada atau kosong.</div>'}
+  </div>`;
+}
+
+function _senChip(s){
+  if(s==='Bullish') return '<span class="bdg bg2">▲ Bullish</span>';
+  if(s==='Bearish') return '<span class="bdg br2">▼ Bearish</span>';
+  return '<span class="bdg" style="background:rgba(74,85,104,.25);color:var(--sub)">→ Netral</span>';
+}
+
+function _dampakChip(d){
+  if(d==='Tinggi') return '<span class="bdg" style="background:var(--rdim);color:var(--red)">🔴 Tinggi</span>';
+  if(d==='Sedang') return '<span class="bdg" style="background:var(--ydim);color:var(--gold)">🟡 Sedang</span>';
+  return '<span class="bdg" style="background:var(--bdim);color:var(--blue)">🟢 Rendah</span>';
+}
+
+function renderKalender(){
+  const el=$('kal-content'); if(!el) return;
+  if(!window.STOCK_KALENDER||!window.STOCK_KALENDER.hari_ini){el.innerHTML=_noData('kalender');return;}
+  const kal=window.STOCK_KALENDER;
+  const events=kal.hari_ini||[];
+  const rows=events.length
+    ?events.map(e=>`<tr>
+        <td style="color:var(--txt);font-weight:700;white-space:nowrap;font-family:var(--mono)">${e.waktu||'—'}</td>
+        <td><div style="color:var(--txt);font-weight:500">${e.event||'—'}</div>
+            <div style="font-size:10px;color:var(--sub);margin-top:3px">${e.dampak_saham||''}</div></td>
+        <td>${_dampakChip(e.dampak)}</td>
+        <td style="font-family:var(--mono);color:var(--green)">${e.aktual||'—'}</td>
+        <td style="font-family:var(--mono);color:var(--sub)">${e.perkiraan||'—'}</td>
+        <td style="font-family:var(--mono);color:var(--sub)">${e.sebelumnya||'—'}</td>
+      </tr>`).join('')
+    :`<tr><td colspan="6" style="text-align:center;padding:24px;color:var(--mut)">Tidak ada event ekonomi USD hari ini — pasar lebih tenang</td></tr>`;
+
+  el.innerHTML=`
+    <div class="g3" style="margin-bottom:14px">
+      <div class="met"><div class="ml">Total Event USD</div><div class="mv yl">${kal.total_event||events.length}</div><div class="ms">${kal.hari_ini_label||kal.tanggal||''}</div></div>
+      <div class="met"><div class="ml">Dampak Tinggi</div><div class="mv" style="color:var(--red)">${kal.event_tinggi||0}</div><div class="ms">event krusial hari ini</div></div>
+      <div class="met"><div class="ml">Update Terakhir</div><div style="font-size:12px;font-weight:600;color:var(--blue);margin-top:6px">${kal.jam_update||'—'}</div></div>
+    </div>
+    <div class="card">
+      <div class="ct">🗓 ${kal.hari_ini_label||kal.tanggal||'Hari Ini'} — Event Ekonomi USD</div>
+      <div class="al aw" style="margin-bottom:12px;font-size:11px">⚡ Waktu dalam <b>ET (Eastern Time)</b> = WIB − 12 jam &nbsp;|&nbsp; 🔴 Dampak Tinggi = volatilitas besar, hati-hati sebelum rilis data</div>
+      <div style="overflow-x:auto"><table class="tbl">
+        <thead><tr><th>Waktu ET</th><th>Event Ekonomi</th><th>Dampak</th><th>Aktual</th><th>Perkiraan</th><th>Sebelumnya</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
+    </div>
+    <div class="card" style="font-size:11px;color:var(--sub);line-height:2">
+      <div class="ct">📌 Cara Membaca Kalender Ekonomi</div>
+      <div>${_dampakChip('Tinggi')} &nbsp;NFP, CPI, FOMC — hindari trade besar, volatilitas ekstrem</div>
+      <div style="margin-top:6px">${_dampakChip('Sedang')} &nbsp;Retail Sales, Jobless Claims — pantau arah trend</div>
+      <div style="margin-top:6px">${_dampakChip('Rendah')} &nbsp;Data minor — dampak terbatas</div>
+      <div style="margin-top:8px;color:var(--green)">✅ <b>Aktual > Perkiraan</b> = umumnya bullish untuk S&P 500 & NASDAQ (kecuali data CPI/inflasi tinggi)</div>
+    </div>`;
+}
+
+function renderSentimen(){
+  const el=$('sen-content'); if(!el) return;
+  if(!window.STOCK_SENTIMEN||!window.STOCK_SENTIMEN.ringkasan){el.innerHTML=_noData('sentimen');return;}
+  const sen=window.STOCK_SENTIMEN;
+  const ring=sen.ringkasan||{};
+  const idx=sen.indeks||{};
+  const panas=sen.saham_panas||{};
+  const berita=sen.berita||[];
+
+  const overall=ring.overall||'Netral';
+  const skor=ring.skor_rata||0;
+  const ovCol=overall==='Bullish'?'var(--green)':overall==='Bearish'?'var(--red)':'var(--sub)';
+  const ovIcon=overall==='Bullish'?'▲':overall==='Bearish'?'▼':'→';
+
+  const idxRows=[['sp500','S&P 500'],['nasdaq','NASDAQ'],['dow_jones','Dow Jones']].map(([k,lbl])=>{
+    const d=idx[k]||{};const s=d.skor||0;
+    const sc=s>0?'var(--green)':s<0?'var(--red)':'var(--sub)';
+    return `<tr><td style="color:var(--txt);font-weight:600">${lbl}</td>
+      <td>${_senChip(d.sentimen||'Netral')}</td>
+      <td style="font-family:var(--mono);color:${sc}">${s>0?'+':''}${s.toFixed(1)}</td>
+      <td style="color:var(--sub)">${d.jumlah_berita||0} berita</td></tr>`;
+  }).join('');
+
+  const bullChips=(panas.bullish||[]).map(s=>`<span class="bdg bg2" style="margin:3px;display:inline-block">${s.ticker} +${s.skor}</span>`).join('')||'<span style="color:var(--mut)">—</span>';
+  const bearChips=(panas.bearish||[]).map(s=>`<span class="bdg br2" style="margin:3px;display:inline-block">${s.ticker} ${s.skor}</span>`).join('')||'<span style="color:var(--mut)">—</span>';
+
+  const newsRows=berita.slice(0,30).map(a=>{
+    const s=a.sentimen||'Netral';
+    const sk=a.skor||0;
+    const sc=sk>0?'var(--green)':sk<0?'var(--red)':'var(--sub)';
+    const lnk=a.url&&a.url!=='#'?`<a href="${a.url}" target="_blank" style="font-size:10px;color:var(--blue);text-decoration:none">Baca ↗</a>`:'';
+    return `<tr>
+      <td style="width:80px">${_senChip(s)}</td>
+      <td><div style="color:var(--txt);font-weight:500;font-size:12px">${(a.judul_id||a.judul||'').substring(0,120)}</div>
+          <div style="font-size:10px;color:var(--sub);margin-top:3px">${a.sumber||''} · ${a.asal||''} · ${(a.waktu||'').substring(0,10)}</div>
+          ${lnk}</td>
+      <td style="font-family:var(--mono);color:${sc};white-space:nowrap">${sk>0?'+':''}${sk}</td>
+    </tr>`;
+  }).join('');
+
+  el.innerHTML=`
+    <div class="card" style="text-align:center;margin-bottom:14px">
+      <div style="font-size:10px;color:var(--sub);text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px">Sentimen Pasar Keseluruhan</div>
+      <div style="font-size:38px;font-weight:700;color:${ovCol};font-family:var(--mono)">${ovIcon} ${overall}</div>
+      <div style="font-size:12px;color:var(--sub);margin-top:6px">Skor rata-rata: <b style="color:${ovCol}">${skor>0?'+':''}${skor.toFixed(2)}</b> &nbsp;·&nbsp; ${ring.total_berita||0} berita dianalisis</div>
+      <div class="g3" style="margin-top:14px">
+        <div class="met"><div class="ml">Bullish</div><div class="mv up">${ring.bullish_pct||0}%</div></div>
+        <div class="met"><div class="ml">Bearish</div><div class="mv dn">${ring.bearish_pct||0}%</div></div>
+        <div class="met"><div class="ml">Netral</div><div class="mv nt">${ring.netral_pct||0}%</div></div>
+      </div>
+    </div>
+    <div class="card" style="margin-bottom:14px">
+      <div class="ct">📈 Sentimen Per Indeks Amerika</div>
+      <table class="tbl"><thead><tr><th>Indeks</th><th>Sentimen</th><th>Skor</th><th>Berita</th></tr></thead>
+      <tbody>${idxRows}</tbody></table>
+    </div>
+    <div class="g2" style="margin-bottom:14px">
+      <div class="card"><div class="ct">🔥 Trending Bullish</div><div style="line-height:2">${bullChips}</div></div>
+      <div class="card"><div class="ct">❄️ Trending Bearish</div><div style="line-height:2">${bearChips}</div></div>
+    </div>
+    <div class="card">
+      <div class="ct">📰 30 Berita Terkini + Sentimen &nbsp;<span style="font-size:9px;color:var(--sub);font-weight:400;text-transform:none">${sen.jam_update||''}</span></div>
+      <div style="overflow-x:auto"><table class="tbl">
+        <thead><tr><th style="width:80px">Sentimen</th><th>Berita</th><th>Skor</th></tr></thead>
+        <tbody>${newsRows}</tbody>
+      </table></div>
+    </div>`;
+}
+
+function renderGeopolitik(){
+  const el=$('geo-content'); if(!el) return;
+  if(!window.STOCK_GEOPOLITIK||!window.STOCK_GEOPOLITIK.berita){el.innerHTML=_noData('geopolitik');return;}
+  const geo=window.STOCK_GEOPOLITIK;
+  const berita=geo.berita||[];
+
+  const items=berita.slice(0,30).map(a=>{
+    const dCol=a.dampak_pasar==='Positif'?'var(--green)':a.dampak_pasar==='Negatif'?'var(--red)':'var(--sub)';
+    const dIcon=a.dampak_pasar==='Positif'?'▲':a.dampak_pasar==='Negatif'?'▼':'→';
+    const lnk=a.url&&a.url!=='#'?`<a href="${a.url}" target="_blank" class="btn bb" style="font-size:10px;padding:3px 10px;display:inline-block;margin-top:6px">Baca ↗</a>`:'';
+    return `<div style="background:var(--surf);border:1px solid var(--bdr);border-radius:9px;padding:13px;margin-bottom:9px">
+      <div style="display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-bottom:7px">
+        <span class="bdg bp">${a.kategori||'Global'}</span>
+        <span style="font-size:10px;color:${dCol}">${dIcon} Dampak ${a.dampak_pasar||'Netral'}</span>
+      </div>
+      <div style="color:var(--txt);font-weight:600;font-size:12px;line-height:1.5;margin-bottom:5px">${(a.judul_id||a.judul||'').substring(0,160)}</div>
+      <div style="font-size:11px;color:var(--sub);line-height:1.6;margin-bottom:6px">${(a.ringkasan_id||a.ringkasan||'').substring(0,240)}</div>
+      <div style="font-size:10px;color:var(--mut)">${a.sumber||''} · ${a.asal||''} · ${(a.waktu||'').substring(0,10)}</div>
+      ${lnk}
+    </div>`;
+  }).join('')||'<div class="em">Tidak ada berita geopolitik signifikan hari ini</div>';
+
+  el.innerHTML=`
+    <div class="al aw" style="margin-bottom:14px">
+      🌍 Berita geopolitik berikut berpotensi mempengaruhi <b>S&P 500, NASDAQ, sektor energi, teknologi, dan keuangan</b>. Pantau sebelum keputusan beli/jual.
+    </div>
+    <div class="g2" style="margin-bottom:14px">
+      <div class="met"><div class="ml">Total Berita Geo</div><div class="mv bp">${geo.total_berita||berita.length}</div></div>
+      <div class="met"><div class="ml">Update Terakhir</div><div style="font-size:12px;font-weight:600;color:var(--blue);margin-top:6px">${geo.jam_update||'—'}</div></div>
+    </div>
+    <div class="card">
+      <div class="ct">🌐 Berita Geopolitik Penting (${Math.min(berita.length,30)} berita)</div>
+      ${items}
+    </div>`;
+}
+
+async function pingGS(){
+  try{
+    const r=await fetch(GS_URL+'?action=ping',{redirect:'follow'});
+    const d=await r.json();
+    if(d.ok)setSync('ok','✅ Tersambung — klik "Ambil dari Sheets" untuk perbarui data');
+    else throw new Error();
+  }catch(e){setSync('err','🔴 Tidak terhubung — cek URL di Settings');}
+}
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').catch(err => console.warn('SW error:', err));
+}
+
+let _dip = null;
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  _dip = e;
+  const btn = document.getElementById('btn-install');
+  if (btn) btn.style.display = 'flex';
+});
+window.addEventListener('appinstalled', () => {
+  _dip = null;
+  const btn = document.getElementById('btn-install');
+  if (btn) btn.style.display = 'none';
+  toast('✅ App berhasil diinstal!');
+});
+function installApp() {
+  if (!_dip) return;
+  _dip.prompt();
+  _dip.userChoice.then(() => {
+    _dip = null;
+    const btn = document.getElementById('btn-install');
+    if (btn) btn.style.display = 'none';
+  });
+}
+</script>
+</body>
+</html>
