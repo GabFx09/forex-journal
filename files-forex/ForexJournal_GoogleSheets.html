@@ -1453,7 +1453,6 @@ function renderKalender() {
       const [h, mm] = (t || '0:0').split(':');
       return +h * 60 + (+mm || 0);
     };
-    // Advance a YYYY-MM-DD string by 1 day
     const advDate = d => {
       const dt = new Date(d + 'T12:00:00');
       dt.setDate(dt.getDate() + 1);
@@ -1463,20 +1462,18 @@ function renderKalender() {
     const days = {};
     evList.forEach(e => {
       const min = toMin(e.time_wib);
-      // EDT = UTC-4, WIB = UTC+7 → selisih 11 jam.
-      // Event dengan time_wib < 11:00 (660 menit) sudah melewati tengah malam WIB
-      // sehingga tanggal WIB-nya adalah hari berikutnya dari tanggal ET.
       const bucket = (min >= 0 && min < 660) ? advDate(e.date) : e.date;
       if (!days[bucket]) days[bucket] = [];
       days[bucket].push(e);
     });
 
-    let tables = '';
-    Object.entries(days).sort(([a],[b]) => a.localeCompare(b)).forEach(([date, dayEvs]) => {
-      // Hitung nama hari dari tanggal bucket (bukan dari data event)
+    const sorted = Object.entries(days).sort(([a],[b]) => a.localeCompare(b));
+    if (!sorted.length) return '';
+
+    let bodyRows = '';
+    sorted.forEach(([date, dayEvs], dayIdx) => {
       const dayName = _HARI[new Date(date + 'T12:00:00').getDay()];
 
-      // Urut ascending: 'Sepanjang Hari' paling atas, lalu waktu naik
       dayEvs.sort((a, b) => {
         const ma = toMin(a.time_wib), mb = toMin(b.time_wib);
         if (ma < 0 && mb < 0) return 0;
@@ -1485,7 +1482,12 @@ function renderKalender() {
         return ma - mb;
       });
 
-      const rows = dayEvs.map(ev => {
+      // Garis pemisah tipis antar hari (bukan sebelum hari pertama)
+      if (dayIdx > 0) {
+        bodyRows += `<tr><td colspan="8" style="padding:0;height:3px;background:linear-gradient(90deg,${borderColor}88,transparent)"></td></tr>`;
+      }
+
+      dayEvs.forEach((ev, evIdx) => {
         const cfg = _IMP[ev.impact]||_IMP.none;
         const dot = `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${cfg.dot}" title="${cfg.label}"></span>`;
         let actSt = 'color:var(--sub)';
@@ -1497,7 +1499,24 @@ function renderKalender() {
           } catch(e){}
         }
         const cell = v => v||'<span style="color:#374151">—</span>';
-        return `<tr style="border-top:1px solid var(--bdr)">
+
+        // Kolom tanggal: hanya muncul di baris pertama tiap hari, rowspan = jumlah event hari itu
+        const dateCell = evIdx === 0 ? `
+          <td rowspan="${dayEvs.length}" style="
+            padding:10px 14px;
+            text-align:center;
+            vertical-align:middle;
+            border-right:3px solid ${borderColor};
+            background:linear-gradient(180deg,${borderColor}22,${borderColor}08);
+            white-space:nowrap;
+            min-width:76px;
+          ">
+            <div style="font-weight:800;font-size:13px;color:var(--txt);line-height:1.4">${dayName}</div>
+            <div style="font-weight:600;font-size:11px;color:var(--gold);margin-top:4px">${_fmtTgl(date)}</div>
+          </td>` : '';
+
+        bodyRows += `<tr style="border-top:1px solid var(--bdr)">
+          ${dateCell}
           <td style="padding:7px 8px;color:var(--mut);font-size:11px;white-space:nowrap;font-family:var(--mono)">${ev.time_wib||'—'}</td>
           <td style="padding:7px 8px;text-align:center">
             <span style="background:var(--surf);border:1px solid var(--bdr);color:var(--txt);font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px">${ev.currency||'—'}</span>
@@ -1508,39 +1527,26 @@ function renderKalender() {
           <td style="padding:7px 8px;text-align:center;color:var(--sub);font-size:12px">${cell(ev.forecast)}</td>
           <td style="padding:7px 8px;text-align:center;color:var(--mut);font-size:12px">${cell(ev.previous)}</td>
         </tr>`;
-      }).join('');
-
-      tables += `
-        <div style="display:flex;align-items:center;gap:10px;margin:18px 0 8px">
-          <div style="width:4px;height:22px;background:${borderColor};border-radius:2px;flex-shrink:0"></div>
-          <span style="color:var(--txt);font-weight:800;font-size:15px">${dayName}</span>
-          <span style="color:var(--gold);font-weight:700;font-size:14px">${_fmtTgl(date)}</span>
-          <div style="flex:1;height:1px;background:linear-gradient(90deg,${borderColor}55,transparent)"></div>
-        </div>
-        <div class="card" style="padding:0;overflow:hidden;margin-bottom:14px">
-        <div style="background:linear-gradient(90deg,#1a2035,var(--surf));padding:9px 14px;
-            border-left:4px solid ${borderColor};display:flex;justify-content:space-between;align-items:center">
-          <div style="display:flex;align-items:baseline;gap:10px">
-            <span style="color:var(--txt);font-weight:700;font-size:13px">${dayName}</span>
-            <span style="color:var(--gold);font-weight:600;font-size:12px">${_fmtTgl(date)}</span>
-          </div>
-          <span style="color:var(--mut);font-size:11px">${dayEvs.length} event</span>
-        </div>
-        <div style="overflow-x:auto">
-          <table class="tbl">
-            <thead><tr>
-              <th>WAKTU (WIB)</th><th style="text-align:center">MATA UANG</th>
-              <th style="text-align:center">DAMPAK</th><th>NAMA EVENT</th>
-              <th style="text-align:center">AKTUAL</th>
-              <th style="text-align:center">PERKIRAAN</th>
-              <th style="text-align:center">SEBELUMNYA</th>
-            </tr></thead>
-            <tbody>${rows}</tbody>
-          </table>
-        </div>
-      </div>`;
+      });
     });
-    return tables;
+
+    return `<div class="card" style="padding:0;overflow:hidden;margin-bottom:14px">
+      <div style="overflow-x:auto">
+        <table class="tbl">
+          <thead><tr>
+            <th style="text-align:center;min-width:76px">TANGGAL</th>
+            <th>WAKTU (WIB)</th>
+            <th style="text-align:center">MATA UANG</th>
+            <th style="text-align:center">DAMPAK</th>
+            <th>NAMA EVENT</th>
+            <th style="text-align:center">AKTUAL</th>
+            <th style="text-align:center">PERKIRAAN</th>
+            <th style="text-align:center">SEBELUMNYA</th>
+          </tr></thead>
+          <tbody>${bodyRows}</tbody>
+        </table>
+      </div>
+    </div>`;
   }
 
   const sectionUpcoming = upcoming.length
