@@ -1,7 +1,8 @@
-const CACHE = 'sj-stock-v2';
+const CACHE = 'sj-stock-v3';
 
 const CORE = [
-  'StockJournal_Pro_1.html',
+  './',
+  'index.html',
   'manifest.json',
   'icon-192.png',
   'icon-512.png'
@@ -60,7 +61,7 @@ self.addEventListener('fetch', e => {
         return res;
       }).catch(() => {
         if (e.request.mode === 'navigate') {
-          return caches.match('StockJournal_Pro_1.html');
+          return caches.match('index.html');
         }
       });
     })

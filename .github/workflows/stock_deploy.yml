@@ -1,0 +1,85 @@
+name: Stock Journal Deploy
+
+on:
+  workflow_dispatch:  # triggered manually or by cron-job.org
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # 1. Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Setup Python 3.11
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. Install dependensi
+      - name: Install dependensi Python
+        run: pip install -r "files stock/requirements.txt"
+
+      # 4. Jalankan stock_news_digest.py
+      - name: Jalankan stock_news_digest.py
+        env:
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SEND_TO:            ${{ secrets.SEND_TO }}
+          JSON_DIR:           "${{ github.workspace }}/files stock"
+        run: python "files stock/stock_news_digest.py"
+
+      # 5. Commit data JSON terbaru ke repo
+      - name: Commit dan push data JSON terbaru
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add \
+            "files stock/kalender.json" \
+            "files stock/sentimen.json" \
+            "files stock/geopolitik.json" \
+            "files stock/stock_analysis_data.js"
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan data, skip commit."
+          else
+            git commit -m "chore: stock digest $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      # 6. Siapkan folder deploy (HTML utama jadi index.html + PWA assets)
+      - name: Siapkan folder deploy
+        run: |
+          mkdir -p _deploy_stock
+          cp "files stock/StockJournal_Pro_1.html" _deploy_stock/index.html
+          cp "files stock/kalender.json"            _deploy_stock/
+          cp "files stock/sentimen.json"            _deploy_stock/
+          cp "files stock/geopolitik.json"          _deploy_stock/
+          cp "files stock/stock_analysis_data.js"   _deploy_stock/
+          cp "files stock/manifest.json"            _deploy_stock/
+          cp "files stock/sw.js"                    _deploy_stock/
+          cp "files stock/icon-192.png"             _deploy_stock/
+          cp "files stock/icon-512.png"             _deploy_stock/
+          echo "Isi folder deploy:"
+          ls -lh _deploy_stock/
+
+      # 7. Deploy ke GitHub Pages repo GabFx09/Stock-journal
+      - name: Deploy ke GitHub Pages Stock-journal
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.STOCK_DEPLOY_TOKEN }}
+          external_repository: GabFx09/Stock-journal
+          publish_dir: ./_deploy_stock
+          publish_branch: gh-pages
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'deploy: stock update $(date -u +%Y-%m-%d)'
