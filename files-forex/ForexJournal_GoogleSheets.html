@@ -1460,18 +1460,13 @@ function renderKalender() {
       return dt.toISOString().split('T')[0];
     };
 
-    // Script berjalan jam 07:00 WIB = 20:00 ET hari sebelumnya.
-    // Hari ET pertama = tanggal script dikurangi 1 hari.
-    const baseDate = addDays(
-      evList.length ? evList[0].date : new Date().toISOString().split('T')[0],
-      -1
-    );
+    // Base date = tanggal script berjalan (dari event pertama)
+    const baseDate = evList.length ? evList[0].date : new Date().toISOString().split('T')[0];
 
-    // Deteksi pergantian hari ET dari urutan kronologis ForexFactory:
-    // WIB 11:00 = ET 00:00 (tengah malam ET) → hari ET berganti saat time_wib
-    // naik melewati 11:00 (dari < 660 ke >= 660 menit).
-    // Drop time (WIB midnight) TIDAK dihitung ganti hari ET — itu masih
-    // sore/malam hari ET yang sama yang melewati tengah malam WIB.
+    // Deteksi batas hari WIB dari urutan kronologis ForexFactory:
+    // Jika time_wib turun > 240 menit dari event sebelumnya → sudah ganti hari WIB.
+    // Field 'date' dan 'day' tidak dipakai karena script Python menyimpan
+    // tanggal script-berjalan (bukan tanggal event asli) ke semua event.
     let dayOffset = 0;
     let prevMin   = -1;
 
@@ -1479,7 +1474,7 @@ function renderKalender() {
     evList.forEach(e => {
       const min = toMin(e.time_wib);
       if (min >= 0) {
-        if (prevMin >= 0 && prevMin < 660 && min >= 660) dayOffset++;
+        if (prevMin >= 0 && min < prevMin - 240) dayOffset++;
         prevMin = min;
       }
       const bucket = addDays(baseDate, dayOffset);
