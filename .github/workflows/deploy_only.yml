@@ -1,0 +1,41 @@
+name: Deploy ke GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Siapkan folder deploy
+        run: |
+          mkdir -p _deploy
+          cp files-forex/ForexJournal_GoogleSheets.html _deploy/index.html
+          cp files-forex/kalender.json    _deploy/
+          cp files-forex/sentimen.json    _deploy/
+          cp files-forex/geopolitik.json  _deploy/
+          cp files-forex/news_data.js     _deploy/
+          cp files-forex/manifest.json    _deploy/
+          cp files-forex/sw.js            _deploy/
+          cp files-forex/icon-192.png     _deploy/
+          cp files-forex/icon-512.png     _deploy/
+          echo "Isi folder deploy:"
+          ls -lh _deploy/
+
+      - name: Deploy ke GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_deploy
+          publish_branch: gh-pages
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
