@@ -1448,21 +1448,41 @@ function renderKalender() {
 
   function buildDayTables(evList, borderColor) {
     const _HARI = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
+    // Offset hari dari Senin (Senin=0, Selasa=1, ..., Minggu=6)
+    const _DAY_OFF = { 'Senin':0,'Selasa':1,'Rabu':2,'Kamis':3,'Jumat':4,'Sabtu':5,'Minggu':6 };
+
     const toMin = t => {
-      if (!t || t === 'Sepanjang Hari') return -1;
-      const [h, mm] = (t || '0:0').split(':');
+      if (!t || !(/^\d/).test(t)) return -1;
+      const [h, mm] = t.split(':');
       return +h * 60 + (+mm || 0);
     };
-    const advDate = d => {
-      const dt = new Date(d + 'T12:00:00');
-      dt.setDate(dt.getDate() + 1);
+    const addDays = (dateStr, n) => {
+      const dt = new Date(dateStr + 'T12:00:00');
+      dt.setDate(dt.getDate() + n);
       return dt.toISOString().split('T')[0];
     };
+    // Hitung Senin dari minggu yang mengandung dateStr
+    const getMon = dateStr => {
+      const dt = new Date(dateStr + 'T12:00:00');
+      const dow = dt.getDay(); // 0=Min,1=Sen,...,6=Sab
+      return addDays(dateStr, -(dow === 0 ? 6 : dow - 1));
+    };
+
+    // Anchor = tanggal script berjalan (dari event pertama)
+    const anchor = evList.length ? evList[0].date : new Date().toISOString().split('T')[0];
+    const monday = getMon(anchor);
 
     const days = {};
     evList.forEach(e => {
+      // Hitung tanggal ET event dari nama hari (lebih andal dari field date)
+      const off = _DAY_OFF[e.day] ?? _DAY_OFF[evList[0].day] ?? 0;
+      let bucket = addDays(monday, off);
+
+      // EDT = UTC-4, WIB = UTC+7 → selisih 11 jam.
+      // time_wib < 11:00 berarti event ini melewati tengah malam WIB → tanggal WIB +1 hari
       const min = toMin(e.time_wib);
-      const bucket = (min >= 0 && min < 660) ? advDate(e.date) : e.date;
+      if (min >= 0 && min < 660) bucket = addDays(bucket, 1);
+
       if (!days[bucket]) days[bucket] = [];
       days[bucket].push(e);
     });
