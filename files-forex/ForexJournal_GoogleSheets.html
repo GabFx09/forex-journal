@@ -1448,8 +1448,6 @@ function renderKalender() {
 
   function buildDayTables(evList, borderColor) {
     const _HARI = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
-    // Offset hari dari Senin (Senin=0, Selasa=1, ..., Minggu=6)
-    const _DAY_OFF = { 'Senin':0,'Selasa':1,'Rabu':2,'Kamis':3,'Jumat':4,'Sabtu':5,'Minggu':6 };
 
     const toMin = t => {
       if (!t || !(/^\d/).test(t)) return -1;
@@ -1461,28 +1459,25 @@ function renderKalender() {
       dt.setDate(dt.getDate() + n);
       return dt.toISOString().split('T')[0];
     };
-    // Hitung Senin dari minggu yang mengandung dateStr
-    const getMon = dateStr => {
-      const dt = new Date(dateStr + 'T12:00:00');
-      const dow = dt.getDay(); // 0=Min,1=Sen,...,6=Sab
-      return addDays(dateStr, -(dow === 0 ? 6 : dow - 1));
-    };
 
-    // Anchor = tanggal script berjalan (dari event pertama)
-    const anchor = evList.length ? evList[0].date : new Date().toISOString().split('T')[0];
-    const monday = getMon(anchor);
+    // Base date = tanggal script berjalan (dari event pertama)
+    const baseDate = evList.length ? evList[0].date : new Date().toISOString().split('T')[0];
+
+    // Deteksi batas hari WIB dari urutan kronologis ForexFactory:
+    // Jika time_wib turun > 240 menit dari event sebelumnya → sudah ganti hari WIB.
+    // Field 'date' dan 'day' tidak dipakai karena script Python menyimpan
+    // tanggal script-berjalan (bukan tanggal event asli) ke semua event.
+    let dayOffset = 0;
+    let prevMin   = -1;
 
     const days = {};
     evList.forEach(e => {
-      // Hitung tanggal ET event dari nama hari (lebih andal dari field date)
-      const off = _DAY_OFF[e.day] ?? _DAY_OFF[evList[0].day] ?? 0;
-      let bucket = addDays(monday, off);
-
-      // EDT = UTC-4, WIB = UTC+7 → selisih 11 jam.
-      // time_wib < 11:00 berarti event ini melewati tengah malam WIB → tanggal WIB +1 hari
       const min = toMin(e.time_wib);
-      if (min >= 0 && min < 660) bucket = addDays(bucket, 1);
-
+      if (min >= 0) {
+        if (prevMin >= 0 && min < prevMin - 240) dayOffset++;
+        prevMin = min;
+      }
+      const bucket = addDays(baseDate, dayOffset);
       if (!days[bucket]) days[bucket] = [];
       days[bucket].push(e);
     });
