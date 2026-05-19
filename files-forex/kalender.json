@@ -1,9 +1,9 @@
 {
-  "generated": "18 May 2026 22:01 WIB",
+  "generated": "19 May 2026 07:01 WIB",
   "events": [
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "04:30",
       "currency": "NZD",
       "impact": "low",
@@ -13,8 +13,8 @@
       "previous": "46.2"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "05:01",
       "currency": "GBP",
       "impact": "low",
@@ -24,8 +24,8 @@
       "previous": "0.8%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:30",
       "currency": "CNY",
       "impact": "low",
@@ -35,8 +35,8 @@
       "previous": "-0.21%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "08:00",
       "currency": "CNY",
       "impact": "low",
@@ -46,8 +46,8 @@
       "previous": "1.7%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
@@ -57,8 +57,8 @@
       "previous": "5.7%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
@@ -68,8 +68,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
@@ -79,8 +79,8 @@
       "previous": "1.7%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
@@ -90,8 +90,8 @@
       "previous": "5.4%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:35",
       "currency": "GBP",
       "impact": "low",
@@ -101,8 +101,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "14:00",
       "currency": "EUR",
       "impact": "low",
@@ -112,8 +112,8 @@
       "previous": "4.98B"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "14:30",
       "currency": "GBP",
       "impact": "low",
@@ -123,8 +123,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "Day 1",
       "currency": "ALL",
       "impact": "low",
@@ -134,8 +134,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "Sepanjang Hari",
       "currency": "CAD",
       "impact": "holiday",
@@ -145,8 +145,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "20:00",
       "currency": "USD",
       "impact": "low",
@@ -156,42 +156,53 @@
       "previous": "34"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
+      "time_wib": "01:35",
+      "currency": "USD",
+      "impact": "low",
+      "event": "FOMC Member Goolsbee Speaks",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "02:00",
       "currency": "USD",
       "impact": "low",
       "event": "TIC Long-Term Purchases",
-      "actual": "",
-      "forecast": "82.4B",
-      "previous": "58.6B"
+      "actual": "81.3B",
+      "forecast": "87.2B",
+      "previous": "57.0B"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "04:45",
       "currency": "NZD",
       "impact": "low",
       "event": "PPI Input q/q",
-      "actual": "",
+      "actual": "1.4%",
       "forecast": "0.8%",
       "previous": "-0.5%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:45",
       "currency": "NZD",
       "impact": "low",
       "event": "PPI Output q/q",
-      "actual": "",
+      "actual": "0.8%",
       "forecast": "0.5%",
       "previous": "0.1%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
-      "time_wib": "05:30",
+      "date": "2026-05-19",
+      "day": "Selasa",
+      "time_wib": "05:25",
       "currency": "AUD",
       "impact": "low",
       "event": "RBA Assist Gov Hunter Speaks",
@@ -200,30 +211,30 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "05:50",
       "currency": "JPY",
       "impact": "low",
       "event": "Prelim GDP Price Index y/y",
-      "actual": "",
+      "actual": "3.4%",
       "forecast": "3.1%",
       "previous": "3.4%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:50",
       "currency": "JPY",
       "impact": "low",
       "event": "Prelim GDP q/q",
-      "actual": "",
+      "actual": "0.5%",
       "forecast": "0.4%",
       "previous": "0.3%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "06:30",
       "currency": "AUD",
       "impact": "low",
@@ -233,8 +244,19 @@
       "previous": "-12.5%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
+      "time_wib": "06:40",
+      "currency": "AUD",
+      "impact": "low",
+      "event": "RBA Assist Gov Hunter Speaks",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:30",
       "currency": "AUD",
       "impact": "medium",
@@ -244,8 +266,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "10:30",
       "currency": "JPY",
       "impact": "low",
@@ -255,30 +277,30 @@
       "previous": "-0.5%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:50",
       "currency": "JPY",
       "impact": "low",
       "event": "Tertiary Industry Activity m/m",
       "actual": "",
-      "forecast": "-0.3%",
+      "forecast": "-0.4%",
       "previous": "-0.4%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "12:00",
       "currency": "GBP",
       "impact": "high",
       "event": "Claimant Count Change",
       "actual": "",
-      "forecast": "25.9K",
+      "forecast": "23.1K",
       "previous": "26.8K"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "medium",
@@ -288,8 +310,8 @@
       "previous": "3.8%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
@@ -299,8 +321,8 @@
       "previous": "4.9%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "14:10",
       "currency": "GBP",
       "impact": "low",
@@ -310,8 +332,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "Day 2",
       "currency": "ALL",
       "impact": "low",
@@ -321,19 +343,19 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Trade Balance",
       "actual": "",
-      "forecast": "6.5B",
+      "forecast": "5.4B",
       "previous": "7.0B"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "18:00",
       "currency": "USD",
       "impact": "low",
@@ -343,8 +365,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "18:15",
       "currency": "USD",
       "impact": "low",
@@ -354,19 +376,19 @@
       "previous": "33.0K"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "18:30",
       "currency": "CAD",
       "impact": "high",
       "event": "CPI m/m",
       "actual": "",
-      "forecast": "0.6%",
+      "forecast": "0.7%",
       "previous": "0.9%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "CAD",
       "impact": "medium",
@@ -376,19 +398,19 @@
       "previous": "2.6%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "CAD",
       "impact": "medium",
       "event": "Median CPI y/y",
       "actual": "",
-      "forecast": "2.2%",
+      "forecast": "2.3%",
       "previous": "2.3%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "CAD",
       "impact": "medium",
@@ -398,8 +420,8 @@
       "previous": "2.2%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
@@ -409,8 +431,8 @@
       "previous": "-8.4%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
@@ -420,8 +442,8 @@
       "previous": "0.2%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
@@ -431,19 +453,19 @@
       "previous": "-0.2%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "20:00",
       "currency": "USD",
       "impact": "medium",
       "event": "Pending Home Sales m/m",
       "actual": "",
-      "forecast": "1.2%",
+      "forecast": "1.0%",
       "previous": "1.5%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:45",
       "currency": "NZD",
       "impact": "low",
@@ -453,8 +475,8 @@
       "previous": "1.5%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "02:30",
       "currency": "USD",
       "impact": "low",
@@ -464,8 +486,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "05:00",
       "currency": "USD",
       "impact": "low",
@@ -475,19 +497,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
-      "time_wib": "06:30",
-      "currency": "AUD",
-      "impact": "low",
-      "event": "MI Leading Index m/m",
-      "actual": "",
-      "forecast": "",
-      "previous": "-0.1%"
-    },
-    {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:00",
       "currency": "CNY",
       "impact": "low",
@@ -497,8 +508,8 @@
       "previous": "3.00%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
@@ -508,19 +519,19 @@
       "previous": "3.50%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "12:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German PPI m/m",
       "actual": "",
-      "forecast": "2.1%",
+      "forecast": "2.0%",
       "previous": "2.5%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "high",
@@ -530,8 +541,8 @@
       "previous": "3.3%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
@@ -541,8 +552,8 @@
       "previous": "3.1%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
@@ -552,41 +563,41 @@
       "previous": "4.4%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
       "event": "PPI Output m/m",
       "actual": "",
-      "forecast": "0.9%",
+      "forecast": "1.0%",
       "previous": "0.9%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
       "event": "RPI y/y",
       "actual": "",
-      "forecast": "3.7%",
+      "forecast": "3.6%",
       "previous": "4.1%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "14:30",
       "currency": "GBP",
       "impact": "low",
       "event": "HPI y/y",
       "actual": "",
-      "forecast": "0.8%",
+      "forecast": "-0.1%",
       "previous": "1.2%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
@@ -596,8 +607,8 @@
       "previous": "2.2%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
@@ -607,8 +618,8 @@
       "previous": "3.0%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
@@ -618,9 +629,20 @@
       "previous": "3.08|1.5"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:15",
+      "currency": "GBP",
+      "impact": "medium",
+      "event": "Monetary Policy Report Hearings",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "2026-05-19",
+      "day": "Selasa",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Barr Speaks",
@@ -629,8 +651,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "20:30",
       "currency": "USD",
       "impact": "low",
@@ -640,8 +662,8 @@
       "previous": "-4.3M"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "00:00",
       "currency": "USD",
       "impact": "high",
@@ -651,19 +673,19 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "04:45",
       "currency": "NZD",
       "impact": "low",
       "event": "Trade Balance",
       "actual": "",
-      "forecast": "842M",
+      "forecast": "980M",
       "previous": "698M"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "05:00",
       "currency": "AUD",
       "impact": "low",
@@ -673,8 +695,8 @@
       "previous": "51.0"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "08:30",
       "currency": "AUD",
       "impact": "low",
@@ -684,19 +706,19 @@
       "previous": "50.7"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "05:50",
       "currency": "JPY",
       "impact": "low",
       "event": "Core Machinery Orders m/m",
       "actual": "",
-      "forecast": "-8.7%",
+      "forecast": "-8.1%",
       "previous": "13.6%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:50",
       "currency": "JPY",
       "impact": "low",
@@ -706,8 +728,8 @@
       "previous": "0.09T"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "06:30",
       "currency": "JPY",
       "impact": "low",
@@ -717,8 +739,8 @@
       "previous": "55.1"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:00",
       "currency": "AUD",
       "impact": "low",
@@ -728,19 +750,19 @@
       "previous": "5.9%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:30",
       "currency": "AUD",
       "impact": "high",
       "event": "Employment Change",
       "actual": "",
-      "forecast": "15.7K",
+      "forecast": "16.2K",
       "previous": "17.9K"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "08:30",
       "currency": "AUD",
       "impact": "high",
@@ -750,8 +772,8 @@
       "previous": "4.3%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "09:00",
       "currency": "NZD",
       "impact": "low",
@@ -761,19 +783,19 @@
       "previous": "2.1%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:15",
       "currency": "EUR",
       "impact": "medium",
       "event": "French Flash Manufacturing PMI",
       "actual": "",
-      "forecast": "52.3",
+      "forecast": "52.1",
       "previous": "52.8"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "medium",
@@ -783,8 +805,8 @@
       "previous": "46.5"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:30",
       "currency": "EUR",
       "impact": "medium",
@@ -794,8 +816,8 @@
       "previous": "51.4"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "medium",
@@ -805,8 +827,8 @@
       "previous": "46.9"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "14:00",
       "currency": "EUR",
       "impact": "low",
@@ -816,41 +838,41 @@
       "previous": "24.9B"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Manufacturing PMI",
       "actual": "",
-      "forecast": "51.8",
+      "forecast": "51.7",
       "previous": "52.2"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Services PMI",
       "actual": "",
-      "forecast": "47.7",
+      "forecast": "47.8",
       "previous": "47.6"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "14:30",
       "currency": "GBP",
       "impact": "high",
       "event": "Flash Manufacturing PMI",
       "actual": "",
-      "forecast": "53.0",
+      "forecast": "52.8",
       "previous": "53.7"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "high",
@@ -860,8 +882,8 @@
       "previous": "52.7"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
@@ -871,8 +893,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
@@ -882,8 +904,8 @@
       "previous": "4.91|3.5"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "16:00",
       "currency": "EUR",
       "impact": "low",
@@ -893,8 +915,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
@@ -904,8 +926,8 @@
       "previous": "-38"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "18:00",
       "currency": "GBP",
       "impact": "low",
@@ -915,19 +937,19 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "18:30",
       "currency": "USD",
       "impact": "medium",
       "event": "Philly Fed Manufacturing Index",
       "actual": "",
-      "forecast": "17.9",
+      "forecast": "17.8",
       "previous": "26.7"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "USD",
       "impact": "medium",
@@ -937,8 +959,8 @@
       "previous": "211K"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
@@ -948,30 +970,30 @@
       "previous": "1.37M"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "Housing Starts",
       "actual": "",
-      "forecast": "1.40M",
+      "forecast": "1.42M",
       "previous": "1.50M"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:45",
       "currency": "USD",
       "impact": "medium",
       "event": "Flash Manufacturing PMI",
       "actual": "",
-      "forecast": "53.6",
+      "forecast": "53.7",
       "previous": "54.5"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "USD",
       "impact": "medium",
@@ -981,8 +1003,8 @@
       "previous": "51.0"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "20:00",
       "currency": "EUR",
       "impact": "low",
@@ -992,8 +1014,8 @@
       "previous": "-21"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "20:30",
       "currency": "USD",
       "impact": "low",
@@ -1003,8 +1025,19 @@
       "previous": "85B"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
+      "time_wib": "21:00",
+      "currency": "GBP",
+      "impact": "high",
+      "event": "BOE Gov Bailey Speaks",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "22:20",
       "currency": "USD",
       "impact": "low",
@@ -1014,30 +1047,30 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "04:45",
       "currency": "NZD",
       "impact": "low",
       "event": "Core Retail Sales q/q",
       "actual": "",
-      "forecast": "0.9%",
+      "forecast": "0.8%",
       "previous": "1.5%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "07:45",
       "currency": "NZD",
       "impact": "low",
       "event": "Retail Sales q/q",
       "actual": "",
-      "forecast": "0.6%",
+      "forecast": "0.5%",
       "previous": "0.9%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "05:01",
       "currency": "GBP",
       "impact": "low",
@@ -1047,8 +1080,8 @@
       "previous": "-25"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "05:30",
       "currency": "JPY",
       "impact": "low",
@@ -1058,8 +1091,8 @@
       "previous": "1.8%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "12:00",
       "currency": "EUR",
       "impact": "low",
@@ -1069,19 +1102,19 @@
       "previous": "0.3%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German GfK Consumer Climate",
       "actual": "",
-      "forecast": "-33.8",
+      "forecast": "-33.7",
       "previous": "-33.3"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "medium",
@@ -1091,19 +1124,19 @@
       "previous": "0.7%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "13:00",
       "currency": "GBP",
       "impact": "low",
       "event": "Public Sector Net Borrowing",
       "actual": "",
-      "forecast": "20.5B",
+      "forecast": "20.8B",
       "previous": "12.6B"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "09:00",
       "currency": "CNY",
       "impact": "low",
@@ -1113,19 +1146,19 @@
       "previous": "-7.3%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "14:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German ifo Business Climate",
       "actual": "",
-      "forecast": "84.1",
+      "forecast": "84.2",
       "previous": "84.4"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
@@ -1135,8 +1168,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
@@ -1146,8 +1179,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "18:30",
       "currency": "CAD",
       "impact": "medium",
@@ -1157,30 +1190,30 @@
       "previous": "0.5%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "CAD",
       "impact": "medium",
       "event": "Retail Sales m/m",
       "actual": "",
-      "forecast": "0.7%",
+      "forecast": "0.6%",
       "previous": "0.7%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
       "event": "IPPI m/m",
       "actual": "",
-      "forecast": "1.0%",
+      "forecast": "1.2%",
       "previous": "2.4%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "CAD",
       "impact": "low",
@@ -1190,41 +1223,41 @@
       "previous": "12.0%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Belgian NBB Business Climate",
       "actual": "",
-      "forecast": "-14.5",
+      "forecast": "-13.5",
       "previous": "-14.2"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "20:00",
       "currency": "USD",
       "impact": "medium",
       "event": "Revised UoM Consumer Sentiment",
       "actual": "",
-      "forecast": "48.2",
+      "forecast": "48.3",
       "previous": "48.2"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "CB Leading Index m/m",
       "actual": "",
-      "forecast": "",
+      "forecast": "-0.1%",
       "previous": "-0.6%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
@@ -1234,8 +1267,8 @@
       "previous": ""
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
@@ -1245,8 +1278,8 @@
       "previous": "4.5%"
     },
     {
-      "date": "2026-05-18",
-      "day": "Senin",
+      "date": "2026-05-19",
+      "day": "Selasa",
       "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
