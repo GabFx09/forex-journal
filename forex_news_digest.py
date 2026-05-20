@@ -895,31 +895,18 @@ def fetch_forexfactory_calendar() -> list[EconomicEvent]:
         current_date = now_utc.strftime("%Y-%m-%d")
         current_day  = _HARI_ID.get(now_utc.strftime("%A"), "")
 
-        _dbg_logged = False
         for row in table.select("tr.calendar__row"):
             row_classes = row.get("class", [])
 
             # ── Baris pemisah hari ──
+            # FF HTML: <td class="calendar__cell">Sun <span>May 17</span></td>
+            # Gunakan separator=" " agar "Sun" + "May 17" tidak bergabung jadi "SunMay 17"
             if "calendar__row--day-breaker" in row_classes:
-                # Debug: cetak HTML row pertama ke log untuk satu siklus diagnosis
-                if not _dbg_logged:
-                    log.warning(f"[FF DBG] day-breaker HTML: {str(row)[:400]}")
-                    _dbg_logged = True
-                date_cell = row.select_one(
-                    "td.calendar__date, td[class*='date'], th.calendar__date, th[class*='date']"
-                )
-                date_text = date_cell.get_text(strip=True) if date_cell else ""
-                if not date_text:
-                    # Fallback: cari elemen apa pun yang mengandung nama hari singkat
-                    for el in row.select("td, th, span, div"):
-                        txt = el.get_text(strip=True)
-                        if re.search(r'\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b', txt, re.I) and len(txt) < 40:
-                            date_text = txt
-                            break
+                date_text = row.get_text(separator=" ", strip=True)
                 if date_text:
                     current_date, current_day = _parse_ff_date(date_text, now_utc.year)
                 else:
-                    log.warning(f"[FF Kalender] Day-breaker tanpa tanggal: {row.get_text(' ', strip=True)[:100]}")
+                    log.warning(f"[FF Kalender] Day-breaker tanpa tanggal: {str(row)[:120]}")
                 continue
 
             # ── Baris event ──
