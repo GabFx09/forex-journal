@@ -900,11 +900,21 @@ def fetch_forexfactory_calendar() -> list[EconomicEvent]:
 
             # ── Baris pemisah hari ──
             if "calendar--day-breaker" in row_classes:
-                date_cell = row.select_one("td.calendar__date, td[class*='date']")
-                if date_cell:
-                    current_date, current_day = _parse_ff_date(
-                        date_cell.get_text(strip=True), now_utc.year
-                    )
+                date_cell = row.select_one(
+                    "td.calendar__date, td[class*='date'], th.calendar__date, th[class*='date']"
+                )
+                date_text = date_cell.get_text(strip=True) if date_cell else ""
+                if not date_text:
+                    # Fallback: cari elemen apa pun yang mengandung nama hari singkat
+                    for el in row.select("td, th, span, div"):
+                        txt = el.get_text(strip=True)
+                        if re.search(r'\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b', txt, re.I) and len(txt) < 40:
+                            date_text = txt
+                            break
+                if date_text:
+                    current_date, current_day = _parse_ff_date(date_text, now_utc.year)
+                else:
+                    log.warning(f"[FF Kalender] Day-breaker tanpa tanggal: {row.get_text(' ', strip=True)[:100]}")
                 continue
 
             # ── Baris event ──
