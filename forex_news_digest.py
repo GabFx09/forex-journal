@@ -895,6 +895,12 @@ def fetch_forexfactory_calendar() -> list[EconomicEvent]:
         current_date = now_utc.strftime("%Y-%m-%d")
         current_day  = _HARI_ID.get(now_utc.strftime("%A"), "")
 
+        # Debug: cetak kelas unik dari semua tr.calendar__row untuk diagnosis
+        _all_classes: set = set()
+        for _r in table.select("tr.calendar__row"):
+            _all_classes.update(_r.get("class", []))
+        log.warning(f"[FF DBG] Semua class tr.calendar__row: {sorted(_all_classes)}")
+
         _dbg_logged = False
         for row in table.select("tr.calendar__row"):
             row_classes = row.get("class", [])
