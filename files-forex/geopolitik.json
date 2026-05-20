@@ -1,5 +1,5 @@
 {
-  "generated": "20 May 2026 11:49 WIB",
+  "generated": "20 May 2026 11:52 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,14 +7,14 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.478,
-      "count": 23
+      "score": -0.462,
+      "count": 22
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.478,
-      "count": 23
+      "score": -0.462,
+      "count": 22
     },
     {
       "pair": "USD/CHF",
@@ -24,9 +24,9 @@
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.11,
-      "count": 9
+      "direction": "Netral →",
+      "score": -0.019,
+      "count": 8
     },
     {
       "pair": "AUD/USD",
@@ -162,16 +162,6 @@
       "published": "20 May 2026 08:08 WIB",
       "sentiment": "Bearish",
       "score": -0.902,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Euro stabil ketika Trump mengancam untuk melanjutkan serangan terhadap Iran",
-      "url": "https://www.fxstreet.com/news/euro-steadies-as-trump-threatens-to-resume-iran-strikes-202605200107",
-      "summary": "EUR/USD moves little after posting modest losses in the previous day, hovering around 1.1600 during the Asian hours on Wednesday. The currency pair may experience further depreciation as the US Dollar (USD) gains ground due to increased risk aversion stemming from the Middle East conflict.",
-      "published": "20 May 2026 08:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.83,
       "emoji": "🔴"
     },
     {

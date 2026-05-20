@@ -1,42 +1,48 @@
 {
-  "generated": "20 May 2026 11:49 WIB",
+  "generated": "20 May 2026 11:52 WIB",
   "summary": {
-    "total": 82,
+    "total": 83,
     "bullish": 24,
-    "bearish": 47,
+    "bearish": 48,
     "netral": 11,
-    "avg_score": -0.2369,
+    "avg_score": -0.2292,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
-        "sentiment": "Bearish",
-        "score": -0.118,
+        "sentiment": "Netral",
+        "score": -0.047,
         "count": 17
       },
       {
         "currency": "CAD",
-        "sentiment": "Netral",
-        "score": 0.025,
-        "count": 7
+        "sentiment": "Bearish",
+        "score": -0.096,
+        "count": 5
       },
       {
         "currency": "CNY",
-        "sentiment": "Netral",
-        "score": -0.031,
-        "count": 6
-      },
-      {
-        "currency": "EUR",
         "sentiment": "Bearish",
-        "score": -0.06,
-        "count": 3
+        "score": -0.096,
+        "count": 5
       },
       {
         "currency": "JPY",
         "sentiment": "Bearish",
-        "score": -0.385,
-        "count": 3
+        "score": -0.516,
+        "count": 4
+      },
+      {
+        "currency": "EUR",
+        "sentiment": "Bullish",
+        "score": 0.41,
+        "count": 2
+      },
+      {
+        "currency": "GBP",
+        "sentiment": "Bearish",
+        "score": -0.954,
+        "count": 2
       },
       {
         "currency": "AUD",
@@ -45,9 +51,9 @@
         "count": 2
       },
       {
-        "currency": "GBP",
-        "sentiment": "Bearish",
-        "score": -1.0,
+        "currency": "CHF",
+        "sentiment": "Bullish",
+        "score": 0.78,
         "count": 1
       },
       {
@@ -211,6 +217,46 @@
     },
     {
       "source": "FXStreet News",
+      "title": "Perkiraan Harga Perak: XAG/USD tetap tenang di atas $73,50 karena risiko inflasi meningkat",
+      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-remains-calm-above-7350-as-inflationary-risks-increase-202605200433",
+      "summary": "Silver price (XAG/USD) remains flat after registering 5.18% losses in the previous day, hovering around $73.70 per troy ounce during the Asian hours on Wednesday.",
+      "published": "20 May 2026 11:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.212,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "IHK Inggris akan menunjukkan perlambatan inflasi sementara karena batasan harga energi melindungi konsumen",
+      "url": "https://www.fxstreet.com/news/uk-cpi-data-set-to-show-a-temporary-inflation-respite-in-april-providing-leeway-to-boe-202605200215",
+      "summary": "The United Kingdom (UK) Office for National Statistics (ONS) will publish the high-impact Consumer Price Index (CPI) data for March at 06:00 GMT.",
+      "published": "20 May 2026 11:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.599,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Pound Inggris tetap tertekan di bawah 213,00 vs JPY di tengah kekacauan politik Inggris, menjelang IHK Inggris",
+      "url": "https://www.fxstreet.com/news/british-pound-stays-depressed-below-21300-vs-jpy-amid-uk-political-chaos-ahead-of-uk-cpi-202605200415",
+      "summary": "The GBP/JPY cross remains depressed for the second consecutive day on Wednesday, though it lacks follow-through selling and holds above the previous day's swing low.",
+      "published": "20 May 2026 11:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.908,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Franc Swiss melemah karena permintaan safe-haven mengangkat USD",
+      "url": "https://www.fxstreet.com/news/swiss-franc-weakens-as-safe-haven-demand-lifts-usd-202605200402",
+      "summary": "USD/CHF extends its gains for the second successive day, trading around 0.7890 during the Asian hours on Wednesday. The pair remains stronger as safe-haven demand supports the US Dollar (USD).",
+      "published": "20 May 2026 11:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.78,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Emas turun ke level terendah baru sejak akhir Maret karena penguatan USD dan spekulasi Fed yang hawkish",
       "url": "https://www.fxstreet.com/news/gold-drops-to-fresh-low-since-late-march-on-firmer-usd-and-hawkish-fed-bets-202605200351",
       "summary": "Gold (XAU/USD) drops to a fresh low since March 30 following an Asian session uptick to levels just above the $4,500 mark on Wednesday, and seems vulnerable to a further decline amid a bullish US Dollar (USD).",
@@ -228,16 +274,6 @@
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "CPI Inggris diperkirakan menunjukkan inflasi mereda pada bulan April, sebelum harga energi yang tinggi mendorong lonjakan baru",
-      "url": "https://www.fxstreet.com/news/uk-cpi-data-set-to-show-a-temporary-inflation-respite-in-april-providing-leeway-to-boe-202605200215",
-      "summary": "The United Kingdom (UK) Office for National Statistics (ONS) will publish the high-impact Consumer Price Index (CPI) data for March at 06:00 GMT.",
-      "published": "20 May 2026 10:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.893,
-      "emoji": "🟢"
     },
     {
       "source": "FXStreet News",
@@ -281,7 +317,7 @@
     },
     {
       "source": "FXStreet News",
-      "title": "Perkiraan Harga Perak: XAG/USD Stabil Dekat $74,00; kerusakan saluran naik sedang dimainkan",
+      "title": "Perkiraan Harga Perak: XAG/USD Stabil Dekat $74,00; kerusakan saluran naik sedang diputar",
       "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-steadies-near-7400-ascending-channel-breakdown-in-play-202605200153",
       "summary": "Silver (XAG/USD) attracts fresh sellers following a modest Asian session uptick to the $75.00 neighborhood and retreats to the lower end of the daily range in the last hour.",
       "published": "20 May 2026 08:53 WIB",
@@ -328,36 +364,6 @@
       "sentiment": "Bearish",
       "score": -0.902,
       "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Kanada melemah di dekat level terendah lima minggu vs USD karena fokus beralih ke Risalah FOMC",
-      "url": "https://www.fxstreet.com/news/canadian-dollar-languishes-near-five-week-low-vs-usd-as-focus-shifts-to-fomc-minutes-202605200108",
-      "summary": "The USD/CAD pair attracts some dip-buyers during the Asian session on Wednesday, stalling the previous day's late pullback from the 1.3775 region or the highest since mid-April. Spot prices currently trade just above mid-1.3700s and continue to draw support from a bullish US Dollar (USD).",
-      "published": "20 May 2026 08:08 WIB",
-      "sentiment": "Bullish",
-      "score": 0.361,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Euro stabil ketika Trump mengancam untuk melanjutkan serangan terhadap Iran",
-      "url": "https://www.fxstreet.com/news/euro-steadies-as-trump-threatens-to-resume-iran-strikes-202605200107",
-      "summary": "EUR/USD moves little after posting modest losses in the previous day, hovering around 1.1600 during the Asian hours on Wednesday. The currency pair may experience further depreciation as the US Dollar (USD) gains ground due to increased risk aversion stemming from the Middle East conflict.",
-      "published": "20 May 2026 08:07 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "PBOC membiarkan Suku Bunga Pinjaman Utama tidak berubah di bulan Mei",
-      "url": "https://www.fxstreet.com/news/pboc-leaves-loan-prime-rates-unchanged-in-may-202605200106",
-      "summary": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Wednesday. The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
-      "published": "20 May 2026 08:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢"
     },
     {
       "source": "Investing.com Forex",
@@ -468,6 +474,16 @@
       "sentiment": "Bearish",
       "score": -0.216,
       "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "McCulloch dari AEP tentang Jalur Energi Australia ke Depan",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-20/aep-s-mcculloch-on-australia-s-energy-path-forward-video",
+      "summary": "Australian Energy Producers CEO Samantha McCulloch addresses the pressing challenges facing Australia’s energy sector. She speaks with Paul Allen from the sidelines of 'Australian Energy Producers Conference & Exhibition 2026' in Adelaide. (Source: Bloomberg)",
+      "published": "20 May 2026 11:43 WIB",
+      "sentiment": "Bullish",
+      "score": 0.692,
+      "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",

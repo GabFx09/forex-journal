@@ -1,13 +1,13 @@
-// Diperbarui: 20 May 2026 11:49 WIB
+// Diperbarui: 20 May 2026 11:52 WIB
 window.FK_DATA = {
-  "generated": "20 May 2026 11:49 WIB",
+  "generated": "20 May 2026 11:52 WIB",
   "kalender": {
-    "generated": "20 May 2026 11:49 WIB",
+    "generated": "20 May 2026 11:52 WIB",
     "events": [
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "04:30",
+        "time_wib": "05:30",
         "currency": "NZD",
         "impact": "low",
         "event": "BusinessNZ Services Index",
@@ -18,7 +18,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "05:01",
+        "time_wib": "06:01",
         "currency": "GBP",
         "impact": "low",
         "event": "Rightmove HPI m/m",
@@ -29,7 +29,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "07:30",
+        "time_wib": "08:30",
         "currency": "CNY",
         "impact": "low",
         "event": "New Home Prices m/m",
@@ -40,7 +40,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "08:00",
+        "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
         "event": "Fixed Asset Investment ytd/y",
@@ -95,7 +95,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "13:35",
+        "time_wib": "14:35",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Greene Speaks",
@@ -106,7 +106,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "14:00",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Italian Trade Balance",
@@ -117,7 +117,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "14:30",
+        "time_wib": "15:30",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Mann Speaks",
@@ -150,7 +150,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "20:00",
+        "time_wib": "21:00",
         "currency": "USD",
         "impact": "low",
         "event": "NAHB Housing Market Index",
@@ -161,7 +161,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "01:35",
+        "time_wib": "02:35",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Goolsbee Speaks",
@@ -172,7 +172,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "02:00",
+        "time_wib": "03:00",
         "currency": "USD",
         "impact": "low",
         "event": "TIC Long-Term Purchases",
@@ -183,7 +183,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "04:45",
+        "time_wib": "05:45",
         "currency": "NZD",
         "impact": "low",
         "event": "PPI Input q/q",
@@ -205,7 +205,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "05:25",
+        "time_wib": "06:25",
         "currency": "AUD",
         "impact": "low",
         "event": "RBA Assist Gov Hunter Speaks",
@@ -216,7 +216,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "05:50",
+        "time_wib": "06:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Prelim GDP Price Index y/y",
@@ -238,7 +238,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "06:30",
+        "time_wib": "07:30",
         "currency": "AUD",
         "impact": "low",
         "event": "Westpac Consumer Sentiment",
@@ -249,7 +249,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "06:40",
+        "time_wib": "07:40",
         "currency": "AUD",
         "impact": "low",
         "event": "RBA Assist Gov Hunter Speaks",
@@ -260,7 +260,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "07:30",
+        "time_wib": "08:30",
         "currency": "AUD",
         "impact": "medium",
         "event": "Monetary Policy Meeting Minutes",
@@ -271,7 +271,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "10:30",
+        "time_wib": "11:30",
         "currency": "JPY",
         "impact": "low",
         "event": "Revised Industrial Production m/m",
@@ -293,7 +293,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "12:00",
+        "time_wib": "13:00",
         "currency": "GBP",
         "impact": "high",
         "event": "Claimant Count Change",
@@ -326,7 +326,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "14:10",
+        "time_wib": "15:10",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Breeden Speaks",
@@ -348,7 +348,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "15:00",
+        "time_wib": "16:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Trade Balance",
@@ -359,7 +359,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "18:00",
+        "time_wib": "19:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Waller Speaks",
@@ -370,7 +370,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "18:15",
+        "time_wib": "19:15",
         "currency": "USD",
         "impact": "low",
         "event": "ADP Weekly Employment Change",
@@ -381,7 +381,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "18:30",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "high",
         "event": "CPI m/m",
@@ -447,7 +447,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "18:32",
+        "time_wib": "19:32",
         "currency": "CAD",
         "impact": "low",
         "event": "Core CPI m/m",
@@ -458,7 +458,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "20:00",
+        "time_wib": "21:00",
         "currency": "USD",
         "impact": "medium",
         "event": "Pending Home Sales m/m",
@@ -469,7 +469,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "20:53",
+        "time_wib": "21:53",
         "currency": "NZD",
         "impact": "low",
         "event": "GDT Price Index",
@@ -480,7 +480,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "02:30",
+        "time_wib": "03:30",
         "currency": "USD",
         "impact": "low",
         "event": "API Weekly Statistical Bulletin",
@@ -491,7 +491,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "05:00",
+        "time_wib": "06:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Paulson Speaks",
@@ -502,7 +502,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "07:00",
+        "time_wib": "08:00",
         "currency": "CNY",
         "impact": "low",
         "event": "1-y Loan Prime Rate",
@@ -524,7 +524,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "12:00",
+        "time_wib": "13:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German PPI m/m",
@@ -590,7 +590,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "14:30",
+        "time_wib": "15:30",
         "currency": "GBP",
         "impact": "low",
         "event": "HPI y/y",
@@ -601,7 +601,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "15:00",
+        "time_wib": "16:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Final Core CPI y/y",
@@ -634,7 +634,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "19:15",
+        "time_wib": "20:15",
         "currency": "GBP",
         "impact": "medium",
         "event": "Monetary Policy Report Hearings",
@@ -656,7 +656,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "20:30",
+        "time_wib": "21:30",
         "currency": "USD",
         "impact": "low",
         "event": "Crude Oil Inventories",
@@ -667,7 +667,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "00:00",
+        "time_wib": "01:00",
         "currency": "USD",
         "impact": "high",
         "event": "FOMC Meeting Minutes",
@@ -678,7 +678,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "04:45",
+        "time_wib": "05:45",
         "currency": "NZD",
         "impact": "low",
         "event": "Trade Balance",
@@ -689,7 +689,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "05:00",
+        "time_wib": "06:00",
         "currency": "AUD",
         "impact": "low",
         "event": "Flash Manufacturing PMI",
@@ -711,7 +711,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "05:50",
+        "time_wib": "06:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Core Machinery Orders m/m",
@@ -733,7 +733,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "06:30",
+        "time_wib": "07:30",
         "currency": "JPY",
         "impact": "low",
         "event": "Flash Manufacturing PMI",
@@ -744,7 +744,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "07:00",
+        "time_wib": "08:00",
         "currency": "AUD",
         "impact": "low",
         "event": "MI Inflation Expectations",
@@ -755,7 +755,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "07:30",
+        "time_wib": "08:30",
         "currency": "AUD",
         "impact": "high",
         "event": "Employment Change",
@@ -777,7 +777,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "09:00",
+        "time_wib": "10:00",
         "currency": "NZD",
         "impact": "low",
         "event": "Credit Card Spending y/y",
@@ -788,7 +788,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "13:15",
+        "time_wib": "14:15",
         "currency": "EUR",
         "impact": "medium",
         "event": "French Flash Manufacturing PMI",
@@ -810,7 +810,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "13:30",
+        "time_wib": "14:30",
         "currency": "EUR",
         "impact": "medium",
         "event": "German Flash Manufacturing PMI",
@@ -832,7 +832,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "14:00",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Current Account",
@@ -865,7 +865,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "14:30",
+        "time_wib": "15:30",
         "currency": "GBP",
         "impact": "medium",
         "event": "Flash Manufacturing PMI",
@@ -887,7 +887,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "15:00",
+        "time_wib": "16:00",
         "currency": "EUR",
         "impact": "low",
         "event": "EU Economic Forecasts",
@@ -909,7 +909,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "16:00",
+        "time_wib": "17:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German Buba Monthly Report",
@@ -931,7 +931,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "18:00",
+        "time_wib": "19:00",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Taylor Speaks",
@@ -942,7 +942,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "18:30",
+        "time_wib": "19:30",
         "currency": "USD",
         "impact": "medium",
         "event": "Philly Fed Manufacturing Index",
@@ -986,7 +986,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "19:45",
+        "time_wib": "20:45",
         "currency": "USD",
         "impact": "medium",
         "event": "Flash Manufacturing PMI",
@@ -1008,7 +1008,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "20:00",
+        "time_wib": "21:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Consumer Confidence",
@@ -1019,7 +1019,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "20:30",
+        "time_wib": "21:30",
         "currency": "USD",
         "impact": "low",
         "event": "Natural Gas Storage",
@@ -1030,7 +1030,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "21:00",
+        "time_wib": "22:00",
         "currency": "GBP",
         "impact": "high",
         "event": "BOE Gov Bailey Speaks",
@@ -1041,7 +1041,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "22:20",
+        "time_wib": "23:20",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Barkin Speaks",
@@ -1052,7 +1052,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "04:45",
+        "time_wib": "05:45",
         "currency": "NZD",
         "impact": "low",
         "event": "Core Retail Sales q/q",
@@ -1074,7 +1074,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "05:01",
+        "time_wib": "06:01",
         "currency": "GBP",
         "impact": "low",
         "event": "GfK Consumer Confidence",
@@ -1085,7 +1085,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "05:30",
+        "time_wib": "06:30",
         "currency": "JPY",
         "impact": "low",
         "event": "National Core CPI y/y",
@@ -1096,7 +1096,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "12:00",
+        "time_wib": "13:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German Final GDP q/q",
@@ -1151,7 +1151,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "14:00",
+        "time_wib": "15:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German ifo Business Climate",
@@ -1184,7 +1184,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "18:30",
+        "time_wib": "19:30",
         "currency": "CAD",
         "impact": "medium",
         "event": "Core Retail Sales m/m",
@@ -1228,7 +1228,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "19:00",
+        "time_wib": "20:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Belgian NBB Business Climate",
@@ -1239,7 +1239,7 @@ window.FK_DATA = {
       {
         "date": "2026-05-20",
         "day": "Rabu",
-        "time_wib": "20:00",
+        "time_wib": "21:00",
         "currency": "USD",
         "impact": "medium",
         "event": "Revised UoM Consumer Sentiment",
@@ -1294,44 +1294,50 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "20 May 2026 11:49 WIB",
+    "generated": "20 May 2026 11:52 WIB",
     "summary": {
-      "total": 82,
+      "total": 83,
       "bullish": 24,
-      "bearish": 47,
+      "bearish": 48,
       "netral": 11,
-      "avg_score": -0.2369,
+      "avg_score": -0.2292,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
-          "sentiment": "Bearish",
-          "score": -0.118,
+          "sentiment": "Netral",
+          "score": -0.047,
           "count": 17
         },
         {
           "currency": "CAD",
-          "sentiment": "Netral",
-          "score": 0.025,
-          "count": 7
+          "sentiment": "Bearish",
+          "score": -0.096,
+          "count": 5
         },
         {
           "currency": "CNY",
-          "sentiment": "Netral",
-          "score": -0.031,
-          "count": 6
-        },
-        {
-          "currency": "EUR",
           "sentiment": "Bearish",
-          "score": -0.06,
-          "count": 3
+          "score": -0.096,
+          "count": 5
         },
         {
           "currency": "JPY",
           "sentiment": "Bearish",
-          "score": -0.385,
-          "count": 3
+          "score": -0.516,
+          "count": 4
+        },
+        {
+          "currency": "EUR",
+          "sentiment": "Bullish",
+          "score": 0.41,
+          "count": 2
+        },
+        {
+          "currency": "GBP",
+          "sentiment": "Bearish",
+          "score": -0.954,
+          "count": 2
         },
         {
           "currency": "AUD",
@@ -1340,9 +1346,9 @@ window.FK_DATA = {
           "count": 2
         },
         {
-          "currency": "GBP",
-          "sentiment": "Bearish",
-          "score": -1.0,
+          "currency": "CHF",
+          "sentiment": "Bullish",
+          "score": 0.78,
           "count": 1
         },
         {
@@ -1506,6 +1512,46 @@ window.FK_DATA = {
       },
       {
         "source": "FXStreet News",
+        "title": "Perkiraan Harga Perak: XAG/USD tetap tenang di atas $73,50 karena risiko inflasi meningkat",
+        "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-remains-calm-above-7350-as-inflationary-risks-increase-202605200433",
+        "summary": "Silver price (XAG/USD) remains flat after registering 5.18% losses in the previous day, hovering around $73.70 per troy ounce during the Asian hours on Wednesday.",
+        "published": "20 May 2026 11:33 WIB",
+        "sentiment": "Bearish",
+        "score": -0.212,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "IHK Inggris akan menunjukkan perlambatan inflasi sementara karena batasan harga energi melindungi konsumen",
+        "url": "https://www.fxstreet.com/news/uk-cpi-data-set-to-show-a-temporary-inflation-respite-in-april-providing-leeway-to-boe-202605200215",
+        "summary": "The United Kingdom (UK) Office for National Statistics (ONS) will publish the high-impact Consumer Price Index (CPI) data for March at 06:00 GMT.",
+        "published": "20 May 2026 11:30 WIB",
+        "sentiment": "Bullish",
+        "score": 0.599,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Pound Inggris tetap tertekan di bawah 213,00 vs JPY di tengah kekacauan politik Inggris, menjelang IHK Inggris",
+        "url": "https://www.fxstreet.com/news/british-pound-stays-depressed-below-21300-vs-jpy-amid-uk-political-chaos-ahead-of-uk-cpi-202605200415",
+        "summary": "The GBP/JPY cross remains depressed for the second consecutive day on Wednesday, though it lacks follow-through selling and holds above the previous day's swing low.",
+        "published": "20 May 2026 11:15 WIB",
+        "sentiment": "Bearish",
+        "score": -0.908,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Franc Swiss melemah karena permintaan safe-haven mengangkat USD",
+        "url": "https://www.fxstreet.com/news/swiss-franc-weakens-as-safe-haven-demand-lifts-usd-202605200402",
+        "summary": "USD/CHF extends its gains for the second successive day, trading around 0.7890 during the Asian hours on Wednesday. The pair remains stronger as safe-haven demand supports the US Dollar (USD).",
+        "published": "20 May 2026 11:02 WIB",
+        "sentiment": "Bullish",
+        "score": 0.78,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
         "title": "Emas turun ke level terendah baru sejak akhir Maret karena penguatan USD dan spekulasi Fed yang hawkish",
         "url": "https://www.fxstreet.com/news/gold-drops-to-fresh-low-since-late-march-on-firmer-usd-and-hawkish-fed-bets-202605200351",
         "summary": "Gold (XAU/USD) drops to a fresh low since March 30 following an Asian session uptick to levels just above the $4,500 mark on Wednesday, and seems vulnerable to a further decline amid a bullish US Dollar (USD).",
@@ -1523,16 +1569,6 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -1.0,
         "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "CPI Inggris diperkirakan menunjukkan inflasi mereda pada bulan April, sebelum harga energi yang tinggi mendorong lonjakan baru",
-        "url": "https://www.fxstreet.com/news/uk-cpi-data-set-to-show-a-temporary-inflation-respite-in-april-providing-leeway-to-boe-202605200215",
-        "summary": "The United Kingdom (UK) Office for National Statistics (ONS) will publish the high-impact Consumer Price Index (CPI) data for March at 06:00 GMT.",
-        "published": "20 May 2026 10:45 WIB",
-        "sentiment": "Bullish",
-        "score": 0.893,
-        "emoji": "🟢"
       },
       {
         "source": "FXStreet News",
@@ -1576,7 +1612,7 @@ window.FK_DATA = {
       },
       {
         "source": "FXStreet News",
-        "title": "Perkiraan Harga Perak: XAG/USD Stabil Dekat $74,00; kerusakan saluran naik sedang dimainkan",
+        "title": "Perkiraan Harga Perak: XAG/USD Stabil Dekat $74,00; kerusakan saluran naik sedang diputar",
         "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-steadies-near-7400-ascending-channel-breakdown-in-play-202605200153",
         "summary": "Silver (XAG/USD) attracts fresh sellers following a modest Asian session uptick to the $75.00 neighborhood and retreats to the lower end of the daily range in the last hour.",
         "published": "20 May 2026 08:53 WIB",
@@ -1623,36 +1659,6 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.902,
         "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dolar Kanada melemah di dekat level terendah lima minggu vs USD karena fokus beralih ke Risalah FOMC",
-        "url": "https://www.fxstreet.com/news/canadian-dollar-languishes-near-five-week-low-vs-usd-as-focus-shifts-to-fomc-minutes-202605200108",
-        "summary": "The USD/CAD pair attracts some dip-buyers during the Asian session on Wednesday, stalling the previous day's late pullback from the 1.3775 region or the highest since mid-April. Spot prices currently trade just above mid-1.3700s and continue to draw support from a bullish US Dollar (USD).",
-        "published": "20 May 2026 08:08 WIB",
-        "sentiment": "Bullish",
-        "score": 0.361,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Euro stabil ketika Trump mengancam untuk melanjutkan serangan terhadap Iran",
-        "url": "https://www.fxstreet.com/news/euro-steadies-as-trump-threatens-to-resume-iran-strikes-202605200107",
-        "summary": "EUR/USD moves little after posting modest losses in the previous day, hovering around 1.1600 during the Asian hours on Wednesday. The currency pair may experience further depreciation as the US Dollar (USD) gains ground due to increased risk aversion stemming from the Middle East conflict.",
-        "published": "20 May 2026 08:07 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "PBOC membiarkan Suku Bunga Pinjaman Utama tidak berubah di bulan Mei",
-        "url": "https://www.fxstreet.com/news/pboc-leaves-loan-prime-rates-unchanged-in-may-202605200106",
-        "summary": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Wednesday. The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
-        "published": "20 May 2026 08:06 WIB",
-        "sentiment": "Bullish",
-        "score": 0.296,
-        "emoji": "🟢"
       },
       {
         "source": "Investing.com Forex",
@@ -1763,6 +1769,16 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.216,
         "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "McCulloch dari AEP tentang Jalur Energi Australia ke Depan",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-20/aep-s-mcculloch-on-australia-s-energy-path-forward-video",
+        "summary": "Australian Energy Producers CEO Samantha McCulloch addresses the pressing challenges facing Australia’s energy sector. She speaks with Paul Allen from the sidelines of 'Australian Energy Producers Conference & Exhibition 2026' in Adelaide. (Source: Bloomberg)",
+        "published": "20 May 2026 11:43 WIB",
+        "sentiment": "Bullish",
+        "score": 0.692,
+        "emoji": "🟢"
       },
       {
         "source": "Bloomberg Markets",
@@ -2177,7 +2193,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "20 May 2026 11:49 WIB",
+    "generated": "20 May 2026 11:52 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -2185,14 +2201,14 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.478,
-        "count": 23
+        "score": -0.462,
+        "count": 22
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.478,
-        "count": 23
+        "score": -0.462,
+        "count": 22
       },
       {
         "pair": "USD/CHF",
@@ -2202,9 +2218,9 @@ window.FK_DATA = {
       },
       {
         "pair": "EUR/USD",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.11,
-        "count": 9
+        "direction": "Netral →",
+        "score": -0.019,
+        "count": 8
       },
       {
         "pair": "AUD/USD",
@@ -2340,16 +2356,6 @@ window.FK_DATA = {
         "published": "20 May 2026 08:08 WIB",
         "sentiment": "Bearish",
         "score": -0.902,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Euro stabil ketika Trump mengancam untuk melanjutkan serangan terhadap Iran",
-        "url": "https://www.fxstreet.com/news/euro-steadies-as-trump-threatens-to-resume-iran-strikes-202605200107",
-        "summary": "EUR/USD moves little after posting modest losses in the previous day, hovering around 1.1600 during the Asian hours on Wednesday. The currency pair may experience further depreciation as the US Dollar (USD) gains ground due to increased risk aversion stemming from the Middle East conflict.",
-        "published": "20 May 2026 08:07 WIB",
-        "sentiment": "Bearish",
-        "score": -0.83,
         "emoji": "🔴"
       },
       {
@@ -2605,13 +2611,13 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "20 May 2026 11:49 WIB",
+    "generated": "20 May 2026 11:52 WIB",
     "summary": {
-      "total": 40,
-      "bullish": 7,
+      "total": 39,
+      "bullish": 6,
       "bearish": 10,
       "netral": 23,
-      "avg_score": -0.0022,
+      "avg_score": 0.0054,
       "overall": "Netral"
     },
     "items": [
@@ -2867,6 +2873,26 @@ window.FK_DATA = {
       },
       {
         "source": "FXStreet News",
+        "title": "Pound Inggris tetap tertekan di bawah 213,00 vs JPY di tengah kekacauan politik Inggris, menjelang IHK Inggris",
+        "url": "https://www.fxstreet.com/news/british-pound-stays-depressed-below-21300-vs-jpy-amid-uk-political-chaos-ahead-of-uk-cpi-202605200415",
+        "summary": "The GBP/JPY cross remains depressed for the second consecutive day on Wednesday, though it lacks follow-through selling and holds above the previous day's swing low.",
+        "published": "20 May 2026 11:15 WIB",
+        "sentiment": "Bearish",
+        "score": -0.66,
+        "emoji": "🔴"
+      },
+      {
+        "source": "FXStreet News",
+        "title": "Franc Swiss melemah karena permintaan safe-haven mengangkat USD",
+        "url": "https://www.fxstreet.com/news/swiss-franc-weakens-as-safe-haven-demand-lifts-usd-202605200402",
+        "summary": "USD/CHF extends its gains for the second successive day, trading around 0.7890 during the Asian hours on Wednesday. The pair remains stronger as safe-haven demand supports the US Dollar (USD).",
+        "published": "20 May 2026 11:02 WIB",
+        "sentiment": "Bullish",
+        "score": 0.982,
+        "emoji": "🟢"
+      },
+      {
+        "source": "FXStreet News",
         "title": "Emas turun ke level terendah baru sejak akhir Maret karena penguatan USD dan ekonometrik Fed yang hawkish",
         "url": "https://www.fxstreet.com/news/gold-drops-to-fresh-low-since-late-march-on-firmer-usd-and-hawkish-fed-bets-202605200351",
         "summary": "Gold (XAU/USD) drops to a fresh low since March 30 following an Asian session uptick to levels just above the $4,500 mark on Wednesday, and seems vulnerable to a further decline amid a bullish US Dollar (USD).",
@@ -2907,7 +2933,7 @@ window.FK_DATA = {
       },
       {
         "source": "FXStreet News",
-        "title": "Perkiraan Harga Perak: XAG/USD Stabil Dekat $74,00; kerusakan saluran naik sedang dimainkan",
+        "title": "Perkiraan Harga Perak: XAG/USD Stabil Dekat $74,00; kerusakan saluran naik sedang diputar",
         "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-steadies-near-7400-ascending-channel-breakdown-in-play-202605200153",
         "summary": "Silver (XAG/USD) attracts fresh sellers following a modest Asian session uptick to the $75.00 neighborhood and retreats to the lower end of the daily range in the last hour.",
         "published": "20 May 2026 08:53 WIB",
@@ -2934,36 +2960,6 @@ window.FK_DATA = {
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dolar Kanada melemah di dekat level terendah lima minggu vs USD karena fokus beralih ke Risalah FOMC",
-        "url": "https://www.fxstreet.com/news/canadian-dollar-languishes-near-five-week-low-vs-usd-as-focus-shifts-to-fomc-minutes-202605200108",
-        "summary": "The USD/CAD pair attracts some dip-buyers during the Asian session on Wednesday, stalling the previous day's late pullback from the 1.3775 region or the highest since mid-April. Spot prices currently trade just above mid-1.3700s and continue to draw support from a bullish US Dollar (USD).",
-        "published": "20 May 2026 08:08 WIB",
-        "sentiment": "Bullish",
-        "score": 0.557,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Euro stabil ketika Trump mengancam untuk melanjutkan serangan terhadap Iran",
-        "url": "https://www.fxstreet.com/news/euro-steadies-as-trump-threatens-to-resume-iran-strikes-202605200107",
-        "summary": "EUR/USD moves little after posting modest losses in the previous day, hovering around 1.1600 during the Asian hours on Wednesday. The currency pair may experience further depreciation as the US Dollar (USD) gains ground due to increased risk aversion stemming from the Middle East conflict.",
-        "published": "20 May 2026 08:07 WIB",
-        "sentiment": "Bearish",
-        "score": -0.83,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "PBOC membiarkan Suku Bunga Pinjaman Utama tidak berubah pada bulan Mei",
-        "url": "https://www.fxstreet.com/news/pboc-leaves-loan-prime-rates-unchanged-in-may-202605200106",
-        "summary": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Wednesday. The one-year and five-year LPRs were at 3.00% and 3.50%, respectively.",
-        "published": "20 May 2026 08:06 WIB",
-        "sentiment": "Bullish",
-        "score": 0.296,
-        "emoji": "🟢"
       },
       {
         "source": "Al Jazeera",
