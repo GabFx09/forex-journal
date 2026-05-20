@@ -895,19 +895,13 @@ def fetch_forexfactory_calendar() -> list[EconomicEvent]:
         current_date = now_utc.strftime("%Y-%m-%d")
         current_day  = _HARI_ID.get(now_utc.strftime("%A"), "")
 
-        # Debug: cetak kelas unik dari semua tr.calendar__row untuk diagnosis
-        _all_classes: set = set()
-        for _r in table.select("tr.calendar__row"):
-            _all_classes.update(_r.get("class", []))
-        log.warning(f"[FF DBG] Semua class tr.calendar__row: {sorted(_all_classes)}")
-
         _dbg_logged = False
         for row in table.select("tr.calendar__row"):
             row_classes = row.get("class", [])
 
             # ── Baris pemisah hari ──
-            if "calendar--day-breaker" in row_classes:
-                # Debug: cetak HTML row pertama ke log untuk diagnosis
+            if "calendar__row--day-breaker" in row_classes:
+                # Debug: cetak HTML row pertama ke log untuk satu siklus diagnosis
                 if not _dbg_logged:
                     log.warning(f"[FF DBG] day-breaker HTML: {str(row)[:400]}")
                     _dbg_logged = True
@@ -923,9 +917,7 @@ def fetch_forexfactory_calendar() -> list[EconomicEvent]:
                             date_text = txt
                             break
                 if date_text:
-                    parsed_date, parsed_day = _parse_ff_date(date_text, now_utc.year)
-                    log.warning(f"[FF DBG] date_text='{date_text}' → {parsed_date} ({parsed_day})")
-                    current_date, current_day = parsed_date, parsed_day
+                    current_date, current_day = _parse_ff_date(date_text, now_utc.year)
                 else:
                     log.warning(f"[FF Kalender] Day-breaker tanpa tanggal: {row.get_text(' ', strip=True)[:100]}")
                 continue
