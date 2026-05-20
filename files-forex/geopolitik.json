@@ -1,5 +1,5 @@
 {
-  "generated": "20 May 2026 07:02 WIB",
+  "generated": "20 May 2026 11:41 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,221 +7,201 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.217,
-      "count": 33
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.218,
-      "count": 32
+      "score": -0.488,
+      "count": 24
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.268,
-      "count": 32
+      "score": -0.488,
+      "count": 24
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.493,
+      "count": 18
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.098,
-      "count": 6
+      "score": -0.11,
+      "count": 9
     },
     {
-      "pair": "EUR",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.153,
-      "count": 3
+      "pair": "AUD/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.171,
+      "count": 5
     },
     {
-      "pair": "GBP",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.153,
-      "count": 3
+      "pair": "USD/CNY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.171,
+      "count": 5
     },
     {
-      "pair": "USD",
+      "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.153,
-      "count": 3
+      "score": -0.951,
+      "count": 2
     },
     {
-      "pair": "USD/RUB",
+      "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.053,
+      "score": -0.951,
       "count": 2
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Paulson mengatakan kebijakan Fed saat ini sudah tepat, namun pasar sudah tepat dalam meramalkan kenaikan suku bunga",
-      "url": "https://investinglive.com/centralbank/paulson-says-current-fed-policy-appropriate-but-markets-right-to-price-in-hikes-20260519/",
-      "summary": "Philadelphia Fed President Paulson said current policy is appropriate and putting downward pressure on inflation, but called it healthy that markets are now pricing in scenarios of an extended hold or further rate hikes. Summary: The following is drawn from Paulson's prepared remarks to an Atlanta F",
-      "published": "20 May 2026 06:04 WIB",
+      "title": "Tiongkok akan membeli 200 jet Boeing dan mengurangi pembatasan bahan langka dalam terobosan perdagangan AS",
+      "url": "https://investinglive.com/news/china-to-buy-200-boeing-jets-and-ease-rare-earth-curbs-in-us-trade-breakthrough-20260520/",
+      "summary": "China announced it will purchase 200 Boeing jets, review rare earth export licences for civilian use and pursue reciprocal tariff cuts on $30 billion or more of goods with the US as part of a broad trade package. Summary: The following is drawn from a China Commerce Ministry statement. China will pu",
+      "published": "20 May 2026 10:40 WIB",
       "sentiment": "Bullish",
-      "score": 0.649,
+      "score": 0.153,
       "emoji": "🟢"
     },
     {
       "source": "ForexLive",
-      "title": "Nagel dari ECB mengatakan bank mungkin harus bertindak pada bulan Juni karena guncangan energi Iran menyebar",
-      "url": "https://investinglive.com/centralbank/ecbs-nagel-says-bank-may-have-to-act-in-june-as-iran-energy-shock-spreads-20260519/",
-      "summary": "ECB Governing Council member and Bundesbank President Nagel said the ECB may have to act at its June meeting as the Iran energy shock proves persistent and the probability of broader inflation spreading continues to rise. Related: ECB's Kocher warns June rate hike unavoidable if Hormuz stays shut Su",
-      "published": "20 May 2026 05:55 WIB",
+      "title": "investmentRingkasan berita FX Asia-Pasifik langsung: Trump mengatakan, sekali lagi, perang akan segera berakhir",
+      "url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-trump-said-again-war-will-be-over-soon-20260520/",
+      "summary": "Samsung Electronics union to strike Thursday after South Korea mediation talks collapse Citi bull case Brent hitting $150 near term as oil markets under-price disruption risk Oil slips a little on Trump peace talk but supply fears keep prices elevated EU strikes provisional deal to cut US tariffs ah",
+      "published": "20 May 2026 10:25 WIB",
       "sentiment": "Bearish",
-      "score": -0.226,
+      "score": -0.91,
       "emoji": "🔴"
     },
     {
       "source": "ForexLive",
-      "title": "War ICYMI - Trump memberi pengarahan mengenai opsi serangan terhadap Iran setelah menghentikan serangan, kata para pejabat",
-      "url": "https://investinglive.com/commodities/war-icymi-trump-briefed-on-iran-strike-options-after-pausing-attack-officials-say-20260519/",
-      "summary": "Trump convened a national security meeting on Iran war plans Monday evening, hours after announcing a pause in strikes, with Gulf leaders' concerns over oil facility retaliation cited as a key factor in his decision to hold off. Related: US Senate advances war powers vote to curb Iran strikes withou",
-      "published": "20 May 2026 05:14 WIB",
+      "title": "Citi bull case Brent mencapai $150 dalam waktu dekat karena risiko gangguan pasar minyak di bawah harga",
+      "url": "https://investinglive.com/commodities/citi-bull-case-brent-hitting-150-near-term-as-oil-markets-under-price-disruption-risk-20260520/",
+      "summary": "Citi forecasts Brent crude will reach $120 per barrel near term, warning oil markets are under-pricing prolonged supply disruption risk, with a bull case of $150 if Hormuz reopens only gradually in Q3. Summary: From a Citi note published Tuesday: Citi forecasts Brent crude will reach $120 per barrel",
+      "published": "20 May 2026 09:23 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "ForexLive",
-      "title": "Senat AS memajukan pemungutan suara kekuatan perang untuk mengekang serangan Iran tanpa Kongres (tidak masalah)",
-      "url": "https://investinglive.com/commodities/us-senate-advances-war-powers-vote-to-curb-iran-strikes-without-congress-doesnt-matter-20260519/",
-      "summary": "The US Senate voted 50-47 to advance a war powers measure that would require Congressional approval before further strikes on Iran, with four Republican senators breaking ranks to support the motion. Summary: The US Senate voted 50-47 to advance a War Powers Resolution that would end US military str",
-      "published": "20 May 2026 04:54 WIB",
+      "title": "Harga minyak sedikit tergelincir karena perundingan perdamaian Trump namun kekhawatiran pasokan membuat harga tetap tinggi",
+      "url": "https://investinglive.com/commodities/oil-slips-a-little-on-trump-peace-talk-but-supply-fears-keep-prices-elevated-20260520/",
+      "summary": "Brent fell 0.4% and WTI slipped 0.3% after Trump claimed the Iran war will end very quickly, though investors remain cautious as US crude stocks fell for a fifth straight week. Summary: Brent crude fell 45 cents, or 0.4%, to $110.83 a barrel in early trade, while WTI dropped 27 cents, or 0.3%, to $1",
+      "published": "20 May 2026 09:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.97,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "ForexLive",
-      "title": "Kocher dari ECB pengumuman kenaikan suku bunga di bulan Juni tidak dapat dihindari jika Hormuz tetap tutup",
-      "url": "https://investinglive.com/centralbank/ecbs-kocher-warns-june-rate-hike-unavoidable-if-hormuz-stays-shut-20260519/",
-      "summary": "ECB Governing Council member Kocher says a June rate hike is unavoidable if the Hormuz Strait remains closed, warning prolonged conflict will push eurozone inflation materially higher. Summary: Kocher said if the Hormuz Strait remains closed and the Middle East conflict continues, \"there is no way a",
-      "published": "20 May 2026 04:19 WIB",
+      "title": "UE mencapai kesepakatan sementara untuk memotong tarif AS menjelang batas waktu yang ditetapkan Trump pada 4 Juli",
+      "url": "https://investinglive.com/news/eu-strikes-provisional-deal-to-cut-us-tariffs-ahead-of-trumps-july-4-deadline-20260520/",
+      "summary": "The EU has struck a provisional agreement to implement its Turnberry trade deal with the US, paving the way for duty cuts on American goods before Trump's July 4 deadline and averting the threat of higher US tariffs on European products. Summary: The European Parliament and the Council of the EU rea",
+      "published": "20 May 2026 08:38 WIB",
       "sentiment": "Bearish",
-      "score": -0.882,
+      "score": -0.066,
       "emoji": "🔴"
     },
     {
       "source": "ForexLive",
-      "title": "Minyak: Survei inventaris swasta menunjukkan penarikan minyak mentah jauh lebih besar dari perkiraan",
-      "url": "https://investinglive.com/commodities/oil-private-inventory-survey-shows-a-headline-crude-oil-draw-much-greater-than-expected-20260519/",
-      "summary": "Huge draw ... Expectations I had seen centred on: Headline crude -3.4 mn barrels Distillates -1.3 mn bbls Gasoline -2.1 mn --- Crude markets navigated a choppy session before settling broadly flat on Tuesday, with two late Wall Street Journal reports pulling benchmarks back toward their highs into t",
-      "published": "20 May 2026 03:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.823,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "investBerita Live Americas FX 19 Mei: Meningkatnya imbal hasil mendukung USD.",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-19-may-rising-yields-supports-the-usd-20260519/",
-      "summary": "Major US stock indices close lower WSJ: Little progress in US/Iran talks VP Vance: Made a lot of progress on Iran Al Hadath: Trump has made decision to attack Iran Japan's Finance Katayam: Ready to take decisive action on forex Trump: We may have to give Iran another hit. I am not sure NATO warns al",
-      "published": "20 May 2026 03:29 WIB",
+      "title": "Tiongkok akan membatalkan target pinjaman UKM dan beralih ke kredit berbasis pasar, kata laporan",
+      "url": "https://investinglive.com/centralbank/china-to-scrap-sme-loan-targets-in-shift-toward-market-driven-credit-report-says-20260520/",
+      "summary": "China is set to cancel mandatory loan targets for small companies as part of a broader policy shift toward market-driven credit allocation, according to Shanghai Securities News. Summary: According to Shanghai Securities News, a state-backed Chinese financial daily: China plans to cancel mandatory l",
+      "published": "20 May 2026 07:23 WIB",
       "sentiment": "Bullish",
-      "score": 0.373,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Indeks saham utama AS ditutup melemah",
-      "url": "https://investinglive.com/stock-market-update/major-us-stock-indices-close-lower-20260519/",
-      "summary": "Major US stock indices moved lower today as investors continued to weigh rising global yields, geopolitical uncertainty in the Middle East, and concerns that higher energy prices could keep inflation pressures elevated. The declines were led by technology and small-cap stocks, with the NASDAQ index ",
-      "published": "20 May 2026 03:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.925,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "WSJ: Sedikit kemajuan dalam perundingan AS/Iran",
-      "url": "https://investinglive.com/news/wsj-little-progress-in-usiran-talks-20260519/",
-      "summary": "The WSJ is reporting: Iran’s negotiating position remains largely unchanged, with mediators and U.S. officials saying there has been little progress toward a breakthrough deal. Trump said he halted planned U.S. strikes on Tuesday due to what he described as positive developments in negotiations. Ira",
-      "published": "20 May 2026 01:37 WIB",
-      "sentiment": "Bullish",
-      "score": 0.639,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "VP Vance: Membuat banyak kemajuan di Iran",
-      "url": "https://investinglive.com/news/vp-vance-made-a-lot-of-progress-on-iran-20260519/",
-      "summary": "We've made a lot of progress on Iran We can restart military campaign That is not what Trump or Iran wants to do. Iran wants to make a deal but won't know until they sign a deal Earlier, seeming to lean more toward a another \"hit\" These are less alarming. The Dow is down -0.21%, the S&P down -0.22% ",
-      "published": "20 May 2026 00:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.359,
+      "score": 0.711,
       "emoji": "🟢"
     },
     {
       "source": "FXStreet News",
-      "title": "Presiden AS Donald Trump mengatakan AS mungkin akan menyerang Iran lagi jika tidak ada kesepakatan dalam waktu dekat",
-      "url": "https://www.fxstreet.com/news/us-president-donald-trump-says-us-may-strike-iran-again-if-theres-no-deal-soon-202605192326",
-      "summary": "US President Donald Trump threatened to resume attacks on Iran in “two or three days” as part of the push for a deal to end the war, after he said he had just called off a US attack, Bloomberg reported on Tuesday.",
-      "published": "20 May 2026 06:26 WIB",
+      "title": "WTI melayang lebih rendah di bawah $103,50 karena para pedagang mempertimbangkan sinyal beragam dari Trump",
+      "url": "https://www.fxstreet.com/news/wti-drifts-lower-below-10350-as-traders-weigh-mixed-signals-from-trump-202605200350",
+      "summary": "West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $103.20 during the Asian trading hours on Wednesday. The WTI price trades with mild losses as traders weigh mixed signals from US President Donald Trump on whether the United States (US) will resume the Iran war.",
+      "published": "20 May 2026 10:50 WIB",
       "sentiment": "Bearish",
-      "score": -0.939,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "NZD/USD melemah di tengah data tenaga kerja AS yang kuat dan komentar Trump mengenai Iran",
-      "url": "https://www.fxstreet.com/news/nzd-usd-weakens-amid-strong-us-labor-data-and-trumps-iran-comments-202605192153",
-      "summary": "The NZD/USD pair falls toward the 0.5830 region on Wednesday as the United States (US) Dollar (USD) strengthens following upbeat labor-market data and renewed tensions linked to Iran.",
-      "published": "20 May 2026 04:53 WIB",
+      "title": "Dolar Selandia Baru turun di bawah 0,5850, PBOC membiarkan cetakan pinjaman tidak berubah",
+      "url": "https://www.fxstreet.com/news/new-zealand-dollar-declines-below-05850-pboc-leaves-lending-benchmarks-unchanged-202605200203",
+      "summary": "The NZD/USD pair declines to around 0.5820 during the Asian trading hours on Wednesday. The US Dollar (USD) strengthens against the New Zealand Dollar (NZD) on rising tensions in the Middle East and a higher-for-longer Federal Reserve (Fed) interest rate stance.",
+      "published": "20 May 2026 09:03 WIB",
       "sentiment": "Bullish",
-      "score": 0.317,
+      "score": 0.431,
       "emoji": "🟢"
     },
     {
       "source": "FXStreet News",
-      "title": "Yen Jepang bocor lebih rendah karena BoJ terus berpura-pura tidak ada yang salah",
-      "url": "https://www.fxstreet.com/news/japanese-yen-leaks-lower-as-the-boj-keeps-pretending-nothing-is-wrong-202605192139",
-      "summary": "The Yen's slow drift back toward 160.00 has the feel of a market that has stopped waiting.",
-      "published": "20 May 2026 04:39 WIB",
+      "title": "Pound Inggris menurun karena suasana risk-off (penghindaran risiko) terjadi di tengah ketegangan di Timur Tengah",
+      "url": "https://www.fxstreet.com/news/british-pound-declines-as-risk-off-mood-prevails-on-middle-east-tensions-202605200148",
+      "summary": "GBP/USD extends its losses for the second successive day, trading around 1.3390 during the Asian hours on Wednesday. The pair depreciates as the US Dollar (USD) receives support from increased risk aversion stemming from the Middle East conflict.",
+      "published": "20 May 2026 08:48 WIB",
       "sentiment": "Bearish",
-      "score": -0.306,
+      "score": -0.622,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "Forex Hari Ini: Dolar AS menguat karena data pekerjaan ADP yang kuat dan pernyataan Trump di Iran",
-      "url": "https://www.fxstreet.com/news/forex-today-us-dollar-rallies-on-strong-adp-jobs-data-and-trumps-iran-remarks-202605192022",
-      "summary": "The US Dollar Index (DXY) strengthens toward the 99.30 region after the latest ADP employment report showed US private employers added 42,250 jobs on average over the previous four weeks, marking the strongest reading since the weekly series began in October 2025.",
-      "published": "20 May 2026 03:22 WIB",
+      "title": "Zovko dari Perunding Perdagangan UE mengatakan kesepakatan perdagangan AS-UE telah tercapai",
+      "url": "https://www.fxstreet.com/news/eu-trade-negotiators-zovko-says-us-eu-tariff-deal-reached-202605200140",
+      "summary": "European People’s Party lead trade negotiator Željana Zovko said that a deal between the United States (US) and the European Union (EU) was reached, Reuters reported on Wednesday. Zovko added that deal on US tariffs provides certainty for European firms",
+      "published": "20 May 2026 08:40 WIB",
       "sentiment": "Bullish",
-      "score": 0.848,
+      "score": 0.887,
       "emoji": "🟢"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Senator AS Warner, seorang Demokrat dan mantan eksekutif telekomunikasi, mempertanyakan klaim Trump Mobile",
-      "url": "https://www.investing.com/news/stock-market-news/democratic-senator-says-trump-mobile-is-making-misleading-claims-4699360",
-      "summary": "",
-      "published": "20 May 2026 04:30 WIB",
+      "source": "FXStreet News",
+      "title": "Dolar Australia melemah di bawah 0,7100 karena ketidakpastian Timur Tengah",
+      "url": "https://www.fxstreet.com/news/australian-dollar-weakens-below-07100-on-middle-east-uncertainties-202605200108",
+      "summary": "The AUD/USD pair loses momentum to near 0.7095 during the early Asian trading hours on Wednesday. Geopolitical uncertainties and elevated crude oil prices weigh on the Australian Dollar (AUD) against the US Dollar (USD).",
+      "published": "20 May 2026 08:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.902,
       "emoji": "🔴"
     },
     {
-      "source": "Reuters Currencies",
-      "title": "Rupee mendapat dukungan pada penawaran dolar dari bank asing yang dikelola negara - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUkVUWF9DNXRYTHZpU2VEZE56Zm5DbjNIajJmVFR4M3B0OWxsNU9PZzEycUxfSFAwWERHc0tQUUM5LTI3b0kwd0txVmxaa2UzV3g2LUlxM1llalFFNFNhSEtpRTM4YVg1dVA5SFk3NGN4VDVvNnlrbTI0eUlVTlRBSjB1YTB6QlQ0ZWEwYUJrTTM0M2J6UUVtY0tZdEh6dm5kV1JYcFlNNURUZXFQdUEzSGtvZFJ4Vkh3bnc?oc=5",
-      "summary": "Rupee finds some footing on dollar offers from state-run, foreign banks Reuters",
-      "published": "19 May 2026 09:59 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "source": "FXStreet News",
+      "title": "Euro stabil ketika Trump mengancam untuk melanjutkan serangan terhadap Iran",
+      "url": "https://www.fxstreet.com/news/euro-steadies-as-trump-threatens-to-resume-iran-strikes-202605200107",
+      "summary": "EUR/USD moves little after posting modest losses in the previous day, hovering around 1.1600 during the Asian hours on Wednesday. The currency pair may experience further depreciation as the US Dollar (USD) gains ground due to increased risk aversion stemming from the Middle East conflict.",
+      "published": "20 May 2026 08:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.83,
+      "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Aksi Jual Obligasi Global Mengancam Gejolak di Negara-Negara Terlemah di Asia",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/global-bond-selloff-threatens-turmoil-in-weakest-asian-economies",
-      "summary": "Three of Asia’s most vulnerable economies are showing rising strains as their central banks come under pressure to tighten policy even as the economic hit from the Iran-war oil shock deepens.",
-      "published": "19 May 2026 14:15 WIB",
+      "title": "Ketakutan Pasar Obligasi Mungkin Mengakhiri Era Dana Murah",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-05-20/bond-market-fright-may-end-cheap-funds-era",
+      "summary": "What’s the same, and different, between now and the run-up to the Global Financial Crisis.",
+      "published": "20 May 2026 11:07 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.852,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Logam Industri Merosot karena Kekhawatiran Inflasi Memicu Suasana Bearish",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/industrial-metals-slide-as-inflation-fears-fuel-bearish-mood",
+      "summary": "Copper edged lower and iron ore declined for a fifth day as concerns mount that global central banks will take a hawkish turn to fight inflation stemming from the war in the Middle East.",
+      "published": "20 May 2026 10:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.968,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Peringatan Katayama dan Dukungan BoJ dari Bessent Masih Membuat Yen Lemah",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/japan-s-finance-chief-pledges-bold-action-for-weak-yen-as-needed",
+      "summary": "Japan’s Finance Minister Satsuki Katayama’s warnings and Treasury Secretary Scott Bessent’s backing of the Bank of Japan to run policy “successfully” only briefly helped the yen as it continued to hover close to its weakest levels since last month’s intervention.",
+      "published": "20 May 2026 01:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
       "emoji": "🔴"
     },
     {
@@ -285,6 +265,56 @@
       "emoji": "🔴"
     },
     {
+      "source": "BBC Top Stories",
+      "title": "Wakil Duta Besar Inggris untuk AS tiba-tiba meninggalkan jabatannya",
+      "url": "https://www.bbc.com/news/articles/c0520j079n2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Until his sudden departure, James Roscoe held one the most senior, high-profile roles in the British diplomatic service",
+      "published": "20 May 2026 10:52 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Nigeria mengatakan serangan gabungan AS menewaskan 175 pejuang ISIS di timur laut negara itu",
+      "url": "https://www.aljazeera.com/news/2026/5/20/nigeria-says-joint-us-strikes-kill-175-isil-fighters-in-countrys-northeast?traffic_source=rss",
+      "summary": "Nigerian Army lauds joint US operation as part of ongoing military campaign to 'hunt down and kill terrorists anywhere'.",
+      "published": "20 May 2026 09:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.953,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Vance: AS ‘mengunci dan memuat’ tindakan militer jika perundingan Iran gagal",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/20/vance-us-locked-and-loaded-for-military-action-if-iran-talks-fail?traffic_source=rss",
+      "summary": "US Vice President JD Vance says the US is prepared to take military action if Iran does not agree to a nuclear deal",
+      "published": "20 May 2026 08:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.493,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Senat AS mengajukan resolusi untuk mengekang kekuasaan Trump dalam melancarkan perang terhadap Iran",
+      "url": "https://www.aljazeera.com/news/2026/5/20/us-senate-advances-resolution-to-curb-trumps-power-to-wage-war-on-iran?traffic_source=rss",
+      "summary": "Vote to advance War Powers Resolution seen as rare rebuke of the president as pressure grows to end US attack on Iran.",
+      "published": "20 May 2026 07:49 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Perang Iran langsung: Teheran peringatkan AS akan ‘kejutan’; Xi, Putin bertemu di Beijing",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/20/iran-war-live-tehran-warns-of-many-more-surprises-if-conflict-resumes?traffic_source=rss",
+      "summary": "Warning comes after Trump threatened military action against Iran and gave it 'two to three days' to strike a deal.",
+      "published": "20 May 2026 07:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.801,
+      "emoji": "🔴"
+    },
+    {
       "source": "Al Jazeera",
       "title": "Pihak berwenang AS mengatakan misionaris yang tertular Ebola dalam perjalanan ke Jerman",
       "url": "https://www.aljazeera.com/news/2026/5/19/us-authorities-say-missionary-who-contracted-ebola-en-route-to-germany?traffic_source=rss",
@@ -305,36 +335,6 @@
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Lebih dari 15.800 orang tewas dalam perang habis-habisan Rusia melawan Ukraina: PBB",
-      "url": "https://www.aljazeera.com/news/2026/5/19/more-than-15800-people-killed-in-russias-all-out-war-on-ukraine-un?traffic_source=rss",
-      "summary": "Nearly 800 children are among those killed in Ukraine since Russia's full-scale invasion in February 2022, the UN says.",
-      "published": "20 May 2026 03:18 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah Ukraina mempunyai keuntungan saat ini?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/5/19/does-ukraine-have-the-advantage-at-the-moment?traffic_source=rss",
-      "summary": "Kyiv takes the war deeper into Russia with a huge attack on the Moscow region.",
-      "published": "20 May 2026 03:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.732,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mansour Kaziha, Nader Awad diidentifikasi sebagai korban serangan Masjid San Diego",
-      "url": "https://www.aljazeera.com/news/2026/5/19/mansour-kaziha-nader-awad-identified-as-victims-in-san-diego-mosque-attack?traffic_source=rss",
-      "summary": "All three victims have now been identified in California attack being investigated as hate crime.",
-      "published": "20 May 2026 02:48 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
       "source": "MarketWatch",
       "title": "Grafik ini memberikan peringatan: Era baru imbal hasil Treasury yang lebih tinggi mungkin akan datang",
       "url": "https://www.marketwatch.com/story/these-charts-offer-a-warning-to-the-next-generation-a-new-era-of-higher-rates-may-be-coming-ee913d36?mod=mw_rss_topstories",
@@ -342,26 +342,6 @@
       "published": "20 May 2026 04:46 WIB",
       "sentiment": "Bullish",
       "score": 0.693,
-      "emoji": "🟢"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Home Depot mengatakan penjualannya sehat, namun di sinilah pelanggan menahan diri",
-      "url": "https://www.marketwatch.com/story/home-depots-stock-rises-as-the-full-year-outlook-was-kept-intact-a-relief-for-worried-investors-75cdfb7c?mod=mw_rss_topstories",
-      "summary": "Shares of Home Depot crept higher on Tuesday after the home- improvement giant kept its full-year outlook intact — a relief for investors worried that higher gasoline prices due to the Iran war would further crimp consumer spending.",
-      "published": "20 May 2026 03:35 WIB",
-      "sentiment": "Bullish",
-      "score": 0.625,
-      "emoji": "🟢"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Trump mengatakan dia akan membiarkan Warsh 'melakukan apa yang dia ingin lakukan' dengan suku bunga. Pernyataan ini telah ditunggu-tunggu oleh para pengamat The Fed.",
-      "url": "https://www.marketwatch.com/story/trump-says-hell-let-warsh-do-what-he-wants-to-do-with-interest-rates-its-a-remark-that-fed-watchers-have-been-bracing-for-2b014504?mod=mw_rss_topstories",
-      "summary": "President Donald Trump on Tuesday shifted his message for the Federal Reserve, suggesting he’ll give some slack to incoming Fed chair Kevin Warsh after putting unprecedented pressure on the U.S. central bank for more than a year.",
-      "published": "20 May 2026 03:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.122,
       "emoji": "🟢"
     },
     {
@@ -406,13 +386,13 @@
     },
     {
       "source": "CNBC World",
-      "title": "Pasar Asia bersiap untuk pembukaan beragam di tengah menampilkan imbal hasil Treasury dan ketegangan Iran",
-      "url": "https://www.cnbc.com/2026/05/20/asia-pacific-markets-today-live-updates-treasury-yields-nikkei-225-kospi-hang-seng-nifty.html",
-      "summary": "Asia-Pacific markets were poised to open mixed on Wednesday as investors weighed elevated bond yields and renewed geopolitical tensions.",
-      "published": "20 May 2026 06:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.054,
-      "emoji": "🔴"
+      "title": "Booming AI mengubah urutan kekuasaan pasar saham global seiring melonjaknya Korea Selatan dan Taiwan",
+      "url": "https://www.cnbc.com/2026/05/20/global-market-reordering-is-accelerating-as-the-ai-rally-gains-pace.html",
+      "summary": "A global reshuffling in stock-market hierarchy is underway. AI is propelling Taiwan and South Korea past a couple long-established Western countries.",
+      "published": "20 May 2026 09:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
     },
     {
       "source": "CNBC World",
@@ -426,12 +406,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Senat memajukan langkah-langkah untuk mengakhiri aksi militer di Iran sebagai teguran terhadap Trump",
-      "url": "https://www.cnbc.com/2026/05/19/senate-advances-measure-to-end-military-action-in-iran-in-rebuke-to-trump.html",
-      "summary": "The war with Iran has now blown past the 60-day requirement under the War Powers Act for the president to seek the authorization of Congress.",
-      "published": "20 May 2026 05:57 WIB",
+      "title": "Pasar Asia melemah karena imbal hasil Treasury meningkat dan ketegangan Iran masih berlanjut",
+      "url": "https://www.cnbc.com/2026/05/20/asia-pacific-markets-today-live-updates-treasury-yields-nikkei-225-kospi-hang-seng-nifty.html",
+      "summary": "Asia-Pacific markets fell on Wednesday as investors weighed elevated bond yields and renewed geopolitical tensions.",
+      "published": "20 May 2026 08:59 WIB",
       "sentiment": "Bearish",
-      "score": -0.912,
+      "score": -0.306,
       "emoji": "🔴"
     },
     {
@@ -442,26 +422,6 @@
       "published": "19 May 2026 21:51 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Setelah US SEC, Departemen Keuangan dan Kehakiman menawarkan keringanan hukum kepada miliarder Gautam Adani",
-      "url": "https://www.cnbc.com/2026/05/19/adani-treasury-justice-department-sec-settlement.html",
-      "summary": "The U.S. Treasury Department settled a case against Adani Enterprises, involving the purchase of sanctioned Iranian energy between November 2023 and June 2025.",
-      "published": "19 May 2026 11:02 WIB",
-      "sentiment": "Bullish",
-      "score": 0.893,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump mengatakan ini bukan 'perang'. Perusahaan asuransi yang mempertaruhkan uang mengatakan demikian",
-      "url": "https://www.cnbc.com/2026/05/19/trump-says-its-not-a-war-insurers-with-money-on-the-line-say-it-is.html",
-      "summary": "Businesses in the Middle East bought insurance that protects against terrorism or sabotage, but far fewer purchased coverage explicitly designed to cover \"war.\"",
-      "published": "19 May 2026 22:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.824,
       "emoji": "🔴"
     },
     {
