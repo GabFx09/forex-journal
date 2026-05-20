@@ -1460,31 +1460,34 @@ function renderKalender() {
       return dt.toISOString().split('T')[0];
     };
 
-    // Script berjalan jam 07:00 WIB = 20:00 ET hari sebelumnya.
-    // Hari ET pertama yang ditampilkan ForexFactory = tanggal script dikurangi 1 hari.
-    const baseDate = addDays(
-      evList.length ? evList[0].date : new Date().toISOString().split('T')[0],
-      -1
-    );
-
-    // Deteksi batas hari ET dari urutan kronologis ForexFactory:
-    // Pergantian hari ET terjadi saat time_wib TURUN > 420 menit (7 jam) dari event sebelumnya.
-    // Threshold 420 menit mencegah false-positive dari drop kecil dalam 1 hari ET yang sama.
-    // Field 'date' dan 'day' tidak dipakai karena Python menyimpan tanggal script ke semua event.
-    let dayOffset = 0;
-    let prevMin   = -1;
-
     const days = {};
-    evList.forEach(e => {
-      const min = toMin(e.time_wib);
-      if (min >= 0) {
-        if (prevMin >= 0 && min < prevMin - 420) dayOffset++;
-        prevMin = min;
-      }
-      const bucket = addDays(baseDate, dayOffset);
-      if (!days[bucket]) days[bucket] = [];
-      days[bucket].push(e);
-    });
+    const uniqueDates = new Set(evList.map(e => e.date).filter(Boolean));
+
+    if (uniqueDates.size > 1) {
+      // Python menyimpan tanggal ET yang benar per event — group langsung by date
+      evList.forEach(e => {
+        const bucket = e.date;
+        if (!days[bucket]) days[bucket] = [];
+        days[bucket].push(e);
+      });
+    } else {
+      // Fallback: Python gagal deteksi hari (semua date sama) — deteksi dari drop time_wib
+      const baseDate = addDays(
+        evList.length ? evList[0].date : new Date().toISOString().split('T')[0],
+        -1
+      );
+      let dayOffset = 0, prevMin = -1;
+      evList.forEach(e => {
+        const min = toMin(e.time_wib);
+        if (min >= 0) {
+          if (prevMin >= 0 && min < prevMin - 420) dayOffset++;
+          prevMin = min;
+        }
+        const bucket = addDays(baseDate, dayOffset);
+        if (!days[bucket]) days[bucket] = [];
+        days[bucket].push(e);
+      });
+    }
 
     const sorted = Object.entries(days).sort(([a],[b]) => a.localeCompare(b));
     if (!sorted.length) return '';
