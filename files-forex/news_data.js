@@ -1,8 +1,8 @@
-// Diperbarui: 20 May 2026 11:41 WIB
+// Diperbarui: 20 May 2026 11:49 WIB
 window.FK_DATA = {
-  "generated": "20 May 2026 11:41 WIB",
+  "generated": "20 May 2026 11:49 WIB",
   "kalender": {
-    "generated": "20 May 2026 11:41 WIB",
+    "generated": "20 May 2026 11:49 WIB",
     "events": [
       {
         "date": "2026-05-20",
@@ -1294,13 +1294,13 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "20 May 2026 11:41 WIB",
+    "generated": "20 May 2026 11:49 WIB",
     "summary": {
-      "total": 83,
-      "bullish": 22,
-      "bearish": 49,
-      "netral": 12,
-      "avg_score": -0.264,
+      "total": 82,
+      "bullish": 24,
+      "bearish": 47,
+      "netral": 11,
+      "avg_score": -0.2369,
       "overall": "Bearish",
       "currency_impact": [
         {
@@ -1322,15 +1322,15 @@ window.FK_DATA = {
           "count": 6
         },
         {
-          "currency": "JPY",
-          "sentiment": "Bearish",
-          "score": -0.537,
-          "count": 4
-        },
-        {
           "currency": "EUR",
           "sentiment": "Bearish",
           "score": -0.06,
+          "count": 3
+        },
+        {
+          "currency": "JPY",
+          "sentiment": "Bearish",
+          "score": -0.385,
           "count": 3
         },
         {
@@ -1656,6 +1656,16 @@ window.FK_DATA = {
       },
       {
         "source": "Investing.com Forex",
+        "title": "Singapura mendesak perusahaan keuangan untuk menggunakan AI untuk menciptakan lapangan kerja yang lebih baik",
+        "url": "https://www.investing.com/news/stock-market-news/singapore-urges-financial-firms-to-use-ai-to-create-better-jobs-4700187",
+        "summary": "",
+        "published": "20 May 2026 11:36 WIB",
+        "sentiment": "Bullish",
+        "score": 0.612,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
         "title": "Kokusai Electric tergelincir setelah KKR menyatakan akan menjual sisa sahamnya",
         "url": "https://www.investing.com/news/stock-market-news/kokusai-electric-slides-after-kkr-says-it-will-sell-remaining-stake-4700186",
         "summary": "",
@@ -1745,16 +1755,6 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Investing.com Forex",
-        "title": "Rusia mempertimbangkan proyek bersama dengan AS dan Tiongkok, media mengutip utusan Putin",
-        "url": "https://www.investing.com/news/stock-market-news/russia-considers-joint-projects-with-us-and-china-media-report-4700148",
-        "summary": "",
-        "published": "20 May 2026 09:42 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
         "source": "Investing.com Economy",
         "title": "UE membuka jalan untuk menyelesaikan kesepakatan perdagangan AS dan menghindari kenaikan tarif Trump",
         "url": "https://www.investing.com/news/economic-indicators/eu-paves-way-to-finalise-us-trade-deal-and-avoid-trump-tariff-hike-4700151",
@@ -1763,6 +1763,16 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.216,
         "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Emas Menahan Penurunan karena Kebuntuan Iran Mempertahankan Taruhan Kenaikan Suku Bunga Tetap Tinggi",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/gold-holds-losses-as-iran-impasse-keeps-rate-hike-bets-high",
+        "summary": "Gold held a decline as a lack of progress in reopening the Strait of Hormuz continued to fuel concerns over inflation and increase bets that global central banks may hike interest rates.",
+        "published": "20 May 2026 05:30 WIB",
+        "sentiment": "Bullish",
+        "score": 0.397,
+        "emoji": "🟢"
       },
       {
         "source": "Bloomberg Markets",
@@ -1833,26 +1843,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.586,
         "emoji": "🟢"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Pasar Indonesia Rebound Jelang Pidato Parlemen Prabowo",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/indonesian-markets-extend-fall-on-government-export-control-plan",
-        "summary": "Indonesia’s currency and stocks rebounded Wednesday in volatile trade, erasing earlier losses ahead of a key budget speech by President Prabowo Subianto.",
-        "published": "20 May 2026 09:24 WIB",
-        "sentiment": "Bearish",
-        "score": -0.482,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Peringatan Katayama dan Dukungan BoJ dari Bessent Masih Membuat Yen Lemah",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-19/japan-s-finance-chief-pledges-bold-action-for-weak-yen-as-needed",
-        "summary": "Japan’s Finance Minister Satsuki Katayama’s warnings and Treasury Secretary Scott Bessent’s backing of the Bank of Japan to run policy “successfully” only briefly helped the yen as it continued to hover close to its weakest levels since last month’s intervention.",
-        "published": "20 May 2026 01:15 WIB",
-        "sentiment": "Bearish",
-        "score": -0.992,
-        "emoji": "🔴"
       },
       {
         "source": "BBC World",
@@ -2109,7 +2099,7 @@ window.FK_DATA = {
         "title": "Saat Putin-Xi bertemu, gangguan energi akibat perang Iran membuat jaringan pipa gas Rusia yang telah lama terhenti kembali menjadi agenda",
         "url": "https://www.cnbc.com/2026/05/20/putin-xi-gas-pipeline-power-of-siberia-iran-war-.html",
         "summary": "Putin is expected to hold talks with Chinese leader Xi Jinping on Wednesday, with the long-stalled Power of Siberia 2 natural gas pipeline topping the agenda.",
-        "published": "20 May 2026 11:40 WIB",
+        "published": "20 May 2026 11:42 WIB",
         "sentiment": "Bearish",
         "score": -0.501,
         "emoji": "🔴"
@@ -2187,7 +2177,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "20 May 2026 11:41 WIB",
+    "generated": "20 May 2026 11:49 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -2195,20 +2185,20 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.488,
-        "count": 24
+        "score": -0.478,
+        "count": 23
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.488,
-        "count": 24
+        "score": -0.478,
+        "count": 23
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.493,
-        "count": 18
+        "score": -0.48,
+        "count": 17
       },
       {
         "pair": "EUR/USD",
@@ -2380,16 +2370,6 @@ window.FK_DATA = {
         "published": "20 May 2026 10:50 WIB",
         "sentiment": "Bearish",
         "score": -0.968,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Peringatan Katayama dan Dukungan BoJ dari Bessent Masih Membuat Yen Lemah",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-19/japan-s-finance-chief-pledges-bold-action-for-weak-yen-as-needed",
-        "summary": "Japan’s Finance Minister Satsuki Katayama’s warnings and Treasury Secretary Scott Bessent’s backing of the Bank of Japan to run policy “successfully” only briefly helped the yen as it continued to hover close to its weakest levels since last month’s intervention.",
-        "published": "20 May 2026 01:15 WIB",
-        "sentiment": "Bearish",
-        "score": -0.717,
         "emoji": "🔴"
       },
       {
@@ -2625,16 +2605,46 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "20 May 2026 11:41 WIB",
+    "generated": "20 May 2026 11:49 WIB",
     "summary": {
       "total": 40,
       "bullish": 7,
-      "bearish": 11,
-      "netral": 22,
-      "avg_score": -0.0201,
+      "bearish": 10,
+      "netral": 23,
+      "avg_score": -0.0022,
       "overall": "Netral"
     },
     "items": [
+      {
+        "source": "FinancialJuice",
+        "title": "von der Leyen, Uni Eropa: Saya sekarang mendesak para legislator untuk bertindak cepat dan menyelesaikan prosesnya",
+        "url": "https://www.financialjuice.com/News/9594691/EUs-von-der-Leyen-I-now-urge-co-legislators-to-act-quickly-and-complete-the-process.aspx?xy=rss",
+        "summary": "",
+        "published": "20 May 2026 11:46 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "von der Leyen dari UE: ini berarti kami akan segera memenuhi peran kami dalam pernyataan bersama UE-AS",
+        "url": "https://www.financialjuice.com/News/9594683/EUs-von-der-Leyen-this-means-we-will-shortly-fulfill-our-role-in-EU-US-joint-statement.aspx?xy=rss",
+        "summary": "",
+        "published": "20 May 2026 11:44 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "von der Leyen dari UE: kesepakatan dicapai oleh Parlemen dan Dewan Eropa untuk memotong tarif ekspor industri AS ke UE",
+        "url": "https://www.financialjuice.com/News/9594682/EUs-von-der-Leyen-agreement-reached-by-European-Parliament-and-Council-to-cut-tariffs-on-US-industrial-exports-to-EU.aspx?xy=rss",
+        "summary": "",
+        "published": "20 May 2026 11:44 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
       {
         "source": "FinancialJuice",
         "title": "IHK bulan April Belanda naik 2,8% tahun ke tahun: CBS",
@@ -2806,26 +2816,6 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "FinancialJuice",
-        "title": "Paulson: Penting bagi The Fed untuk menggunakan berbagai metode komunikasi, SEP adalah salah satu aspeknya",
-        "url": "https://www.financialjuice.com/News/9594238/Paulson-Its-important-for-the-Fed-to-use-various-communication-methods-SEP-is-one-aspect-of-that.aspx?xy=rss",
-        "summary": "",
-        "published": "20 May 2026 06:30 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Trump akan bergabung dalam KTT G7 di Prancis meskipun ada ketegangan dengan sekutunya: Axios",
-        "url": "https://www.financialjuice.com/News/9594237/Trump-to-join-G7-summit-in-France-despite-tensions-with-allies-Axios.aspx?xy=rss",
-        "summary": "",
-        "published": "20 May 2026 06:29 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
         "source": "ForexLive",
         "title": "BofA memangkas perkiraan USD/JPY menjadi 152 (sebelumnya 157) dan menandai tiga pemicu perubahan bullish yen",
         "url": "https://investinglive.com/forex/bofa-cuts-usdjpy-forecast-to-152-prior-157-and-flags-three-triggers-for-yen-bull-turn-20260520/",
@@ -2974,16 +2964,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.296,
         "emoji": "🟢"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Peringatan Katayama dan Dukungan BoJ dari Bessent Masih Membuat Yen Lemah",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-19/japan-s-finance-chief-pledges-bold-action-for-weak-yen-as-needed",
-        "summary": "Japan’s Finance Minister Satsuki Katayama’s warnings and Treasury Secretary Scott Bessent’s backing of the Bank of Japan to run policy “successfully” only briefly helped the yen as it continued to hover close to its weakest levels since last month’s intervention.",
-        "published": "20 May 2026 01:15 WIB",
-        "sentiment": "Bearish",
-        "score": -0.717,
-        "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",

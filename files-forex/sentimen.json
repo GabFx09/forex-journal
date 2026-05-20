@@ -1,11 +1,11 @@
 {
-  "generated": "20 May 2026 11:41 WIB",
+  "generated": "20 May 2026 11:49 WIB",
   "summary": {
-    "total": 83,
-    "bullish": 22,
-    "bearish": 49,
-    "netral": 12,
-    "avg_score": -0.264,
+    "total": 82,
+    "bullish": 24,
+    "bearish": 47,
+    "netral": 11,
+    "avg_score": -0.2369,
     "overall": "Bearish",
     "currency_impact": [
       {
@@ -27,15 +27,15 @@
         "count": 6
       },
       {
-        "currency": "JPY",
-        "sentiment": "Bearish",
-        "score": -0.537,
-        "count": 4
-      },
-      {
         "currency": "EUR",
         "sentiment": "Bearish",
         "score": -0.06,
+        "count": 3
+      },
+      {
+        "currency": "JPY",
+        "sentiment": "Bearish",
+        "score": -0.385,
         "count": 3
       },
       {
@@ -361,6 +361,16 @@
     },
     {
       "source": "Investing.com Forex",
+      "title": "Singapura mendesak perusahaan keuangan untuk menggunakan AI untuk menciptakan lapangan kerja yang lebih baik",
+      "url": "https://www.investing.com/news/stock-market-news/singapore-urges-financial-firms-to-use-ai-to-create-better-jobs-4700187",
+      "summary": "",
+      "published": "20 May 2026 11:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.612,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
       "title": "Kokusai Electric tergelincir setelah KKR menyatakan akan menjual sisa sahamnya",
       "url": "https://www.investing.com/news/stock-market-news/kokusai-electric-slides-after-kkr-says-it-will-sell-remaining-stake-4700186",
       "summary": "",
@@ -450,16 +460,6 @@
       "emoji": "🔴"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Rusia mempertimbangkan proyek bersama dengan AS dan Tiongkok, media mengutip utusan Putin",
-      "url": "https://www.investing.com/news/stock-market-news/russia-considers-joint-projects-with-us-and-china-media-report-4700148",
-      "summary": "",
-      "published": "20 May 2026 09:42 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "UE membuka jalan untuk menyelesaikan kesepakatan perdagangan AS dan menghindari kenaikan tarif Trump",
       "url": "https://www.investing.com/news/economic-indicators/eu-paves-way-to-finalise-us-trade-deal-and-avoid-trump-tariff-hike-4700151",
@@ -468,6 +468,16 @@
       "sentiment": "Bearish",
       "score": -0.216,
       "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Emas Menahan Penurunan karena Kebuntuan Iran Mempertahankan Taruhan Kenaikan Suku Bunga Tetap Tinggi",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/gold-holds-losses-as-iran-impasse-keeps-rate-hike-bets-high",
+      "summary": "Gold held a decline as a lack of progress in reopening the Strait of Hormuz continued to fuel concerns over inflation and increase bets that global central banks may hike interest rates.",
+      "published": "20 May 2026 05:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.397,
+      "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
@@ -538,26 +548,6 @@
       "sentiment": "Bullish",
       "score": 0.586,
       "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pasar Indonesia Rebound Jelang Pidato Parlemen Prabowo",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-20/indonesian-markets-extend-fall-on-government-export-control-plan",
-      "summary": "Indonesia’s currency and stocks rebounded Wednesday in volatile trade, erasing earlier losses ahead of a key budget speech by President Prabowo Subianto.",
-      "published": "20 May 2026 09:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.482,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Peringatan Katayama dan Dukungan BoJ dari Bessent Masih Membuat Yen Lemah",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/japan-s-finance-chief-pledges-bold-action-for-weak-yen-as-needed",
-      "summary": "Japan’s Finance Minister Satsuki Katayama’s warnings and Treasury Secretary Scott Bessent’s backing of the Bank of Japan to run policy “successfully” only briefly helped the yen as it continued to hover close to its weakest levels since last month’s intervention.",
-      "published": "20 May 2026 01:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.992,
-      "emoji": "🔴"
     },
     {
       "source": "BBC World",
@@ -814,7 +804,7 @@
       "title": "Saat Putin-Xi bertemu, gangguan energi akibat perang Iran membuat jaringan pipa gas Rusia yang telah lama terhenti kembali menjadi agenda",
       "url": "https://www.cnbc.com/2026/05/20/putin-xi-gas-pipeline-power-of-siberia-iran-war-.html",
       "summary": "Putin is expected to hold talks with Chinese leader Xi Jinping on Wednesday, with the long-stalled Power of Siberia 2 natural gas pipeline topping the agenda.",
-      "published": "20 May 2026 11:40 WIB",
+      "published": "20 May 2026 11:42 WIB",
       "sentiment": "Bearish",
       "score": -0.501,
       "emoji": "🔴"

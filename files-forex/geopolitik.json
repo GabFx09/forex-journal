@@ -1,5 +1,5 @@
 {
-  "generated": "20 May 2026 11:41 WIB",
+  "generated": "20 May 2026 11:49 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,20 +7,20 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.488,
-      "count": 24
+      "score": -0.478,
+      "count": 23
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.488,
-      "count": 24
+      "score": -0.478,
+      "count": 23
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.493,
-      "count": 18
+      "score": -0.48,
+      "count": 17
     },
     {
       "pair": "EUR/USD",
@@ -192,16 +192,6 @@
       "published": "20 May 2026 10:50 WIB",
       "sentiment": "Bearish",
       "score": -0.968,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Peringatan Katayama dan Dukungan BoJ dari Bessent Masih Membuat Yen Lemah",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/japan-s-finance-chief-pledges-bold-action-for-weak-yen-as-needed",
-      "summary": "Japan’s Finance Minister Satsuki Katayama’s warnings and Treasury Secretary Scott Bessent’s backing of the Bank of Japan to run policy “successfully” only briefly helped the yen as it continued to hover close to its weakest levels since last month’s intervention.",
-      "published": "20 May 2026 01:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.717,
       "emoji": "🔴"
     },
     {
