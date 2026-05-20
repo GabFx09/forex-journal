@@ -1446,7 +1446,7 @@ function renderKalender() {
   const _BULAN = ['','Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agt','Sep','Okt','Nov','Des'];
   const _fmtTgl = d => { const [y,m,dd]=d.split('-'); return `${+dd} ${_BULAN[+m]} ${y}`; };
 
-  function buildDayTables(evList, borderColor, useEvDate = false) {
+  function buildDayTables(evList, borderColor) {
     const _HARI = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
 
     const toMin = t => {
@@ -1460,38 +1460,31 @@ function renderKalender() {
       return dt.toISOString().split('T')[0];
     };
 
+    // Script berjalan jam 07:00 WIB = 20:00 ET hari sebelumnya.
+    // Hari ET pertama yang ditampilkan ForexFactory = tanggal script dikurangi 1 hari.
+    const baseDate = addDays(
+      evList.length ? evList[0].date : new Date().toISOString().split('T')[0],
+      -1
+    );
+
+    // Deteksi batas hari ET dari urutan kronologis ForexFactory:
+    // Pergantian hari ET terjadi saat time_wib TURUN > 420 menit (7 jam) dari event sebelumnya.
+    // Threshold 420 menit mencegah false-positive dari drop kecil dalam 1 hari ET yang sama.
+    // Field 'date' dan 'day' tidak dipakai karena Python menyimpan tanggal script ke semua event.
+    let dayOffset = 0;
+    let prevMin   = -1;
+
     const days = {};
-    if (useEvDate) {
-      // ev.date = tanggal ET aktual per event dari Python scraper (via _parse_ff_date)
-      evList.forEach(e => {
-        const bucket = e.date || new Date().toISOString().split('T')[0];
-        if (!days[bucket]) days[bucket] = [];
-        days[bucket].push(e);
-      });
-    } else {
-      // Script berjalan jam 07:00 WIB = 20:00 ET hari sebelumnya.
-      // Hari ET pertama yang ditampilkan ForexFactory = tanggal script dikurangi 1 hari.
-      const baseDate = addDays(
-        evList.length ? evList[0].date : new Date().toISOString().split('T')[0],
-        -1
-      );
-
-      // Deteksi batas hari ET dari urutan kronologis ForexFactory:
-      // Pergantian hari ET terjadi saat time_wib TURUN > 420 menit (7 jam) dari event sebelumnya.
-      let dayOffset = 0;
-      let prevMin   = -1;
-
-      evList.forEach(e => {
-        const min = toMin(e.time_wib);
-        if (min >= 0) {
-          if (prevMin >= 0 && min < prevMin - 420) dayOffset++;
-          prevMin = min;
-        }
-        const bucket = addDays(baseDate, dayOffset);
-        if (!days[bucket]) days[bucket] = [];
-        days[bucket].push(e);
-      });
-    }
+    evList.forEach(e => {
+      const min = toMin(e.time_wib);
+      if (min >= 0) {
+        if (prevMin >= 0 && min < prevMin - 420) dayOffset++;
+        prevMin = min;
+      }
+      const bucket = addDays(baseDate, dayOffset);
+      if (!days[bucket]) days[bucket] = [];
+      days[bucket].push(e);
+    });
 
     const sorted = Object.entries(days).sort(([a],[b]) => a.localeCompare(b));
     if (!sorted.length) return '';
@@ -1587,7 +1580,7 @@ function renderKalender() {
             <div style="color:var(--mut);font-size:11px">${upcoming.length} event belum memiliki data aktual</div>
           </div>
         </div>
-        ${buildDayTables(upcoming, '#3b82f6', true)}
+        ${buildDayTables(upcoming, '#3b82f6')}
       </div>`
     : `<div style="text-align:center;padding:18px;color:var(--mut);font-size:13px;
           border:1px dashed rgba(59,130,246,0.35);border-radius:8px;margin-bottom:20px">
@@ -1606,7 +1599,7 @@ function renderKalender() {
             <div style="color:var(--mut);font-size:11px">${released.length} event sudah memiliki data aktual</div>
           </div>
         </div>
-        ${buildDayTables(released, '#22c55e', true)}
+        ${buildDayTables(released, '#22c55e')}
       </div>`
     : `<div style="text-align:center;padding:18px;color:var(--mut);font-size:13px;
           border:1px dashed rgba(34,197,94,0.35);border-radius:8px">
