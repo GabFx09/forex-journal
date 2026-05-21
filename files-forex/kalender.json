@@ -1,5 +1,5 @@
 {
-  "generated": "21 May 2026 07:01 WIB",
+  "generated": "21 May 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-05-17",
@@ -734,7 +734,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "54.5",
       "forecast": "54.5",
       "previous": "55.1"
     },
@@ -745,7 +745,7 @@
       "currency": "AUD",
       "impact": "low",
       "event": "MI Inflation Expectations",
-      "actual": "",
+      "actual": "5.6%",
       "forecast": "",
       "previous": "5.9%"
     },
@@ -756,9 +756,9 @@
       "currency": "AUD",
       "impact": "high",
       "event": "Employment Change",
-      "actual": "",
+      "actual": "-18.6K",
       "forecast": "16.7K",
-      "previous": "17.9K"
+      "previous": "23.3K"
     },
     {
       "date": "2026-05-20",
@@ -767,7 +767,7 @@
       "currency": "AUD",
       "impact": "high",
       "event": "Unemployment Rate",
-      "actual": "",
+      "actual": "4.5%",
       "forecast": "4.3%",
       "previous": "4.3%"
     },
@@ -778,7 +778,7 @@
       "currency": "NZD",
       "impact": "low",
       "event": "Credit Card Spending y/y",
-      "actual": "",
+      "actual": "2.9%",
       "forecast": "",
       "previous": "2.1%"
     },
@@ -789,7 +789,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "French Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "48.9",
       "forecast": "52.1",
       "previous": "52.8"
     },
@@ -800,7 +800,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "French Flash Services PMI",
-      "actual": "",
+      "actual": "42.9",
       "forecast": "46.6",
       "previous": "46.5"
     },
@@ -811,7 +811,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "German Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "49.9",
       "forecast": "51.0",
       "previous": "51.4"
     },
@@ -822,7 +822,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "German Flash Services PMI",
-      "actual": "",
+      "actual": "47.8",
       "forecast": "47.1",
       "previous": "46.9"
     },
@@ -833,9 +833,9 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Current Account",
-      "actual": "",
+      "actual": "14.9B",
       "forecast": "26.3B",
-      "previous": "24.9B"
+      "previous": "25.6B"
     },
     {
       "date": "2026-05-21",
@@ -844,7 +844,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "51.4",
       "forecast": "51.7",
       "previous": "52.2"
     },
@@ -855,7 +855,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Services PMI",
-      "actual": "",
+      "actual": "46.4",
       "forecast": "47.8",
       "previous": "47.6"
     },
@@ -866,7 +866,7 @@
       "currency": "GBP",
       "impact": "medium",
       "event": "Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "53.7",
       "forecast": "52.9",
       "previous": "53.7"
     },
@@ -877,31 +877,31 @@
       "currency": "GBP",
       "impact": "medium",
       "event": "Flash Services PMI",
-      "actual": "",
+      "actual": "47.9",
       "forecast": "51.7",
       "previous": "52.7"
     },
     {
       "date": "2026-05-21",
       "day": "Kamis",
-      "time_wib": "15:00",
+      "time_wib": "15:03",
+      "currency": "GBP",
+      "impact": "low",
+      "event": "10-y Bond Auction",
+      "actual": "5.03|3.4",
+      "forecast": "",
+      "previous": "4.91|3.5"
+    },
+    {
+      "date": "2026-05-21",
+      "day": "Kamis",
+      "time_wib": "15:30",
       "currency": "EUR",
       "impact": "low",
       "event": "EU Economic Forecasts",
       "actual": "",
       "forecast": "",
       "previous": ""
-    },
-    {
-      "date": "2026-05-21",
-      "day": "Kamis",
-      "time_wib": "13:00",
-      "currency": "GBP",
-      "impact": "low",
-      "event": "10-y Bond Auction",
-      "actual": "",
-      "forecast": "",
-      "previous": "4.91|3.5"
     },
     {
       "date": "2026-05-21",
@@ -921,7 +921,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "CBI Industrial Order Expectations",
-      "actual": "",
+      "actual": "-41",
       "forecast": "-40",
       "previous": "-38"
     },
@@ -943,7 +943,7 @@
       "currency": "USD",
       "impact": "medium",
       "event": "Philly Fed Manufacturing Index",
-      "actual": "",
+      "actual": "-0.4",
       "forecast": "17.6",
       "previous": "26.7"
     },
@@ -954,9 +954,9 @@
       "currency": "USD",
       "impact": "medium",
       "event": "Unemployment Claims",
-      "actual": "",
+      "actual": "209K",
       "forecast": "210K",
-      "previous": "211K"
+      "previous": "212K"
     },
     {
       "date": "2026-05-21",
@@ -965,7 +965,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Building Permits",
-      "actual": "",
+      "actual": "1.44M",
       "forecast": "1.38M",
       "previous": "1.37M"
     },
@@ -976,9 +976,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "Housing Starts",
-      "actual": "",
+      "actual": "1.47M",
       "forecast": "1.42M",
-      "previous": "1.50M"
+      "previous": "1.51M"
     },
     {
       "date": "2026-05-21",
@@ -987,7 +987,7 @@
       "currency": "USD",
       "impact": "medium",
       "event": "Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "55.3",
       "forecast": "53.8",
       "previous": "54.5"
     },
@@ -998,18 +998,18 @@
       "currency": "USD",
       "impact": "medium",
       "event": "Flash Services PMI",
-      "actual": "",
+      "actual": "50.9",
       "forecast": "51.1",
       "previous": "51.0"
     },
     {
       "date": "2026-05-21",
       "day": "Kamis",
-      "time_wib": "20:00",
+      "time_wib": "20:02",
       "currency": "EUR",
       "impact": "low",
       "event": "Consumer Confidence",
-      "actual": "",
+      "actual": "-19",
       "forecast": "-21",
       "previous": "-21"
     },
@@ -1020,7 +1020,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Natural Gas Storage",
-      "actual": "",
+      "actual": "101B",
       "forecast": "96B",
       "previous": "85B"
     },
