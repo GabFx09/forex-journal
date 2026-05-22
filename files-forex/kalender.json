@@ -1,5 +1,5 @@
 {
-  "generated": "21 May 2026 22:02 WIB",
+  "generated": "22 May 2026 07:01 WIB",
   "events": [
     {
       "date": "2026-05-17",
@@ -1053,9 +1053,9 @@
       "currency": "NZD",
       "impact": "low",
       "event": "Core Retail Sales q/q",
-      "actual": "",
+      "actual": "1.0%",
       "forecast": "0.8%",
-      "previous": "1.5%"
+      "previous": "1.4%"
     },
     {
       "date": "2026-05-21",
@@ -1064,7 +1064,7 @@
       "currency": "NZD",
       "impact": "low",
       "event": "Retail Sales q/q",
-      "actual": "",
+      "actual": "0.9%",
       "forecast": "0.5%",
       "previous": "0.9%"
     },
@@ -1075,7 +1075,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "GfK Consumer Confidence",
-      "actual": "",
+      "actual": "-23",
       "forecast": "-28",
       "previous": "-25"
     },
@@ -1086,7 +1086,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "National Core CPI y/y",
-      "actual": "",
+      "actual": "1.4%",
       "forecast": "1.7%",
       "previous": "1.8%"
     },
