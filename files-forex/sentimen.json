@@ -1,22 +1,68 @@
 {
-  "generated": "24 May 2026 07:01 WIB",
+  "generated": "24 May 2026 22:01 WIB",
   "summary": {
-    "total": 36,
-    "bullish": 14,
-    "bearish": 17,
+    "total": 39,
+    "bullish": 10,
+    "bearish": 24,
     "netral": 5,
-    "avg_score": -0.0368,
-    "overall": "Netral",
+    "avg_score": -0.3255,
+    "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
-        "sentiment": "Bullish",
-        "score": 0.338,
-        "count": 4
+        "sentiment": "Netral",
+        "score": 0.02,
+        "count": 2
+      },
+      {
+        "currency": "EUR",
+        "sentiment": "Bearish",
+        "score": -0.317,
+        "count": 2
       }
     ]
   },
   "items": [
+    {
+      "source": "Investing.com Forex",
+      "title": "5 langkah analis AI besar: ASML, Dell, dan Nokia ditandai sebagai pilihan teratas",
+      "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-asml-dell-and-nokia-flagged-as-top-picks-4708070",
+      "summary": "",
+      "published": "24 May 2026 16:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.202,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Unit Nissan membatalkan rencana membuat powertrain EV di Inggris, kata Nikkei",
+      "url": "https://www.investing.com/news/stock-market-news/nissan-unit-scraps-plan-to-make-ev-powertrains-in-uk-nikkei-says-4708143",
+      "summary": "",
+      "published": "24 May 2026 12:54 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Korea Selatan akan meluncurkan ETF saham leverage di Samsung, SK Hynix - Bloomberg",
+      "url": "https://www.investing.com/news/stock-market-news/south-korea-to-launch-leveraged-stock-etfs-on-samsung-sk-hynix--bloomberg-4708130",
+      "summary": "",
+      "published": "24 May 2026 10:18 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Apa dampak TikTok Shop pada Retail Eropa satu tahun sejak peluncurannya",
+      "url": "https://www.investing.com/news/stock-market-news/what-is-the-impact-of-tiktok-shop-on-european-retail-one-year-since-launch-4708127",
+      "summary": "",
+      "published": "24 May 2026 09:44 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
     {
       "source": "Investing.com Forex",
       "title": "Mengapa maskapai penerbangan tampaknya akan melakukan pengurangan kapasitas di musim dingin",
@@ -78,44 +124,34 @@
       "emoji": "🟢"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Delivery Hero mengonfirmasi tawaran pengambilalihan dari Uber",
-      "url": "https://www.investing.com/news/stock-market-news/delivery-hero-confirms-takeover-offer-from-uber-4708055",
-      "summary": "",
-      "published": "23 May 2026 21:36 WIB",
-      "sentiment": "Bullish",
-      "score": 0.557,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Uber dan DoorDash mencari investor untuk tawaran Delivery Hero, lapor FT",
-      "url": "https://www.investing.com/news/stock-market-news/uber-and-doordash-sound-out-investors-for-delivery-hero-bid-ft-reports-4708049",
-      "summary": "",
-      "published": "23 May 2026 20:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.557,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "DeepSeek Tiongkok akan melakukan pemotongan harga permanen sebesar 75% pada model AI andalan V4‑Pro",
-      "url": "https://www.investing.com/news/stock-market-news/chinas-deepseek-to-make-permanent-75-price-cut-on-flagship-v4pro-ai-model-4708051",
-      "summary": "",
-      "published": "23 May 2026 20:36 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Gedung Putih Memberi Sinyal Pengumuman Kesepakatan dengan Iran dalam waktu dekat",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-24/white-house-signals-imminent-deal-announcement-with-iran-video",
+      "summary": "Bloomberg White House Correspondent Jeff Mason and Bloomberg News Reporter Dan Williams join David Gura, Christina Ruffini, and Lisa Mateo on Bloomberg This Weekend to discuss the White House announcement that a deal with Iran to end the war and reopen the Strait of Hormuz is forthcoming. (Source: B",
+      "published": "24 May 2026 20:14 WIB",
       "sentiment": "Bearish",
-      "score": -0.178,
+      "score": -0.402,
       "emoji": "🔴"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Di mana berinvestasi ketika pasar berada pada titik tertinggi sepanjang masa, menurut UBS",
-      "url": "https://www.investing.com/news/stock-market-news/where-to-invest-when-markets-are-at-alltime-highs-according-to-ubs-4708045",
-      "summary": "",
-      "published": "23 May 2026 19:53 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "source": "Bloomberg Markets",
+      "title": "Ahli Strategi Obligasi Memperingatkan Imbal Hasil Tetap Tinggi Sekalipun Perang Iran Berakhir",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-24/bond-strategists-warn-yields-to-stay-high-even-if-iran-war-ends",
+      "summary": "For all the hand-wringing over war-related inflation fears, there are signs that other drivers are having as much a bearing on longer-term borrowing costs.",
+      "published": "24 May 2026 20:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.876,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kebangkitan Risiko Politik Menggagalkan Unjuk Rasa di Negara-Negara Berkembang",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-24/resurgent-political-risk-derails-rallies-across-emerging-markets",
+      "summary": "Investors in emerging markets are getting slammed by a fresh wave of political turmoil that is derailing bets from Latin America to Eastern Europe.",
+      "published": "24 May 2026 19:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
@@ -129,6 +165,46 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Ledakan Tambang Batubara Tiongkok Menguji Batasan Dorongan Keamanan Energi Xi",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-24/china-coal-mine-blast-tests-limits-of-xi-s-energy-security-push",
+      "summary": "China’s world-beating coal production has helped shield its economy from the worst of the Iran war shock. Now the deadliest mining disaster in years is raising uncomfortable questions about the cost of that drive.",
+      "published": "24 May 2026 10:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.93,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "ECB Menghadapi Tekanan untuk Menaikkan Suku Bunga karena Perang Iran Mendorong Harga, Kata Kocher",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-24/ecb-faces-pressure-to-hike-as-iran-war-feeds-prices-kocher-says",
+      "summary": "The European Central Bank is heading for an interest-rate increase next month unless a sustainable peace deal between the US and Iran can be found, according to Governing Council member Martin Kocher.",
+      "published": "24 May 2026 14:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.077,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Tanker LNG Keluar dari Hormuz menuju India untuk Pertama Kalinya Sejak Perang Dimulai",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-24/lng-tanker-exits-hormuz-for-india-for-first-time-since-war-began",
+      "summary": "A liquefied natural gas tanker carrying a shipment for India has exited the Strait of Hormuz, the first for the country from the Persian Gulf since the Iran war began months ago as the region’s exporters discreetly supply key buyers.",
+      "published": "24 May 2026 08:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.823,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Ebola Menyebar ke Seluruh Kongo karena Penerbangan Dihentikan, Persediaan Menipis",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-23/congo-faces-surge-in-ebola-cases-as-key-medical-tools-run-short",
+      "summary": "Congo suspended flights to the eastern city of Bunia and regional health ministers warned of escalating cross-border risks from Ebola as the outbreak spread across three provinces and overwhelmed contact-tracing efforts.",
+      "published": "24 May 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.962,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Perdana Menteri Baru Hongaria Memperingatkan Pendahulunya Meninggalkan ‘Kerangka’ Anggaran",
       "url": "https://www.bloomberg.com/news/articles/2026-05-23/hungary-s-new-premier-warns-predcessor-left-budget-skeletons",
       "summary": "Hungary’s new Prime Minister Peter Magyar said he was hoping for economic growth of about 2% this year but put voters on notice that the state of public finances left by his predecessor made it impossible to make firm forecasts.",
@@ -138,98 +214,48 @@
       "emoji": "🟢"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Bloomberg Akhir Pekan Ini 23/5/2026 | Trump Mempertimbangkan Pilihan Iran, Melacak Wabah Ebola",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-23/bloomberg-this-weekend-5-23-2026-video",
-      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by GasBuddy Head of Petroleum Analysis Patrick De Haan, The Points Guy Managing Editor Clint Henderson",
-      "published": "23 May 2026 23:14 WIB",
-      "sentiment": "Bullish",
-      "score": 0.382,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Dividen Besar Chanel Menghasilkan Rejeki nomplok Pemiliknya menjadi $21 Miliar",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-23/chanel-s-mega-dividend-brings-owners-windfall-to-21b-video",
-      "summary": "The billionaire family behind Chanel is on track to pocket at least $21 billion from payouts over the past decade, a huge windfall as their brand prospers during a downturn hitting some luxury-good rivals. Angelina Rascouet joined Christina Ruffini and David Gura on Bloomberg This Weekend to discuss",
-      "published": "23 May 2026 22:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.238,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Akankah Dolar Tetap Menjadi Raja dalam Masyarakat Tanpa Uang Tunai?",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-23/will-the-dollar-remain-king-in-a-cashless-society-video",
-      "summary": "The dollar has been the world's reserve currency for decades, but it's history goes back centuries – to before the United States was the United States. Brendan Greeley, author of the new book \"The Almighty Dollar: 500 Years of the World's Most Powerful Money,\" joined David Gura and Christina Ruffini",
-      "published": "23 May 2026 20:54 WIB",
-      "sentiment": "Bullish",
-      "score": 0.929,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Bank Sentral Bangladesh Meluncurkan Dana $5 Miliar untuk Memacu Pertumbuhan",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-23/bangladesh-central-bank-launches-5-billion-fund-to-spur-growth",
-      "summary": "Bangladesh’s central bank unveiled a 600 billion-taka ($5 billion) package to boost economic growth, revive shuttered factories and support small businesses.",
-      "published": "23 May 2026 19:51 WIB",
-      "sentiment": "Bullish",
-      "score": 0.98,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Google News Forex",
-      "title": "Kebijakan nilai tukar dapat memicu inflasi – Fahmida Khatun - Center for Policy Dialogue (CPD)",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hckZZN19BcGpfdEM4WFhjVmRmd0R1eDJlOTMwbDRlNHRzTDFBd2dtaFQ4TXNRd0Y4X2wtY0pTT2dfbnlZTzBiVGxJNzItT3dZeG80SlVoeVlDQktXeEc3MF9RdHJ6SEZXX2RZ?oc=5",
-      "summary": "Exchange rate policy may fuel inflation – Fahmida Khatun Centre for Policy Dialogue (CPD)",
-      "published": "23 May 2026 15:59 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
       "source": "BBC World",
-      "title": "Trump mengatakan kesepakatan Iran 'sebagian besar telah dinegosiasikan' termasuk pembukaan kembali Selat Hormuz",
-      "url": "https://www.bbc.com/news/articles/crmp121z3z8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
-      "published": "24 May 2026 05:10 WIB",
+      "title": "Serangan besar-besaran Rusia ke Ukraina menyebabkan empat orang tewas dan puluhan lainnya luka-luka",
+      "url": "https://www.bbc.com/news/articles/clyp6831yp5o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Oreshnik missile, which reportedly travels over 10 times the speed of sound, was used, Russia has confirmed.",
+      "published": "24 May 2026 20:02 WIB",
       "sentiment": "Bearish",
-      "score": -0.37,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Ibu dan pasangan asal Prancis ditahan hingga persidangan setelah putranya ditinggalkan di jalan raya di Portugal",
-      "url": "https://www.bbc.com/news/articles/cq5p75l7n17o?at_medium=RSS&at_campaign=rss",
-      "summary": "The couple, who allegedly left the woman's sons on a roadside in southern Portugal, will remain in custody.",
-      "published": "23 May 2026 21:24 WIB",
+      "title": "BBC di lokasi bencana pertambangan terburuk di Tiongkok dalam lebih dari satu dekade",
+      "url": "https://www.bbc.com/news/videos/c809m33yjz7o?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 82 people have been killed after a gas explosion at the Liushenyu mine in China.",
+      "published": "24 May 2026 17:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.459,
+      "score": -0.929,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Putin bersumpah akan melakukan pembalasan setelah menuduh Ukraina menyerang asrama mahasiswa",
-      "url": "https://www.bbc.com/news/articles/c5y74lwx395o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine says it struck Russia's elite Rubicon drone military unit in a Moscow-occupied region.",
-      "published": "23 May 2026 21:06 WIB",
+      "title": "Ledakan yang menargetkan kereta api menewaskan sedikitnya 20 orang di Pakistan",
+      "url": "https://www.bbc.com/news/articles/cm2pkd58xldo?at_medium=RSS&at_campaign=rss",
+      "summary": "Officials say the train had been transporting military personnel home for Eid when it was attacked by armed separatists.",
+      "published": "24 May 2026 19:26 WIB",
       "sentiment": "Bearish",
-      "score": -0.402,
+      "score": -0.838,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Rubio bertemu Modi selama kunjungan ke India dengan agenda yang penuh semangat",
-      "url": "https://www.bbc.com/news/articles/c87qrwyyrn2o?at_medium=RSS&at_campaign=rss",
-      "summary": "The secretary of state wants to sell US energy to Delhi to make up for shortfalls caused by the Iran war.",
-      "published": "23 May 2026 18:55 WIB",
+      "title": "Seorang pria tewas dalam serangan hiu di lepas pantai timur laut Australia",
+      "url": "https://www.bbc.com/news/articles/cn9pq5l2d14o?at_medium=RSS&at_campaign=rss",
+      "summary": "The 39-year-old was fatally injured while swimming out at a shoal off the Cassowary Coast in Queensland.",
+      "published": "24 May 2026 14:12 WIB",
       "sentiment": "Bearish",
-      "score": -0.338,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "California mengumumkan keadaan darurat saat petugas pemadam kebakaran berlomba untuk mengatasi kebocoran bahan kimia beracun",
+      "title": "California mengumumkan keadaan darurat saat petugas pemadam kebakaran berlomba untuk mengatasi kebocoran racun",
       "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
       "summary": "Thousands have been evacuated as officials warn a tank containing about 7,000 gallons of methyl methacrylate could explode.",
       "published": "24 May 2026 03:07 WIB",
@@ -239,63 +265,93 @@
     },
     {
       "source": "BBC World",
-      "title": "Presiden Senegal memecat PM dan mantan sekutunya setelah perselisihan selama berbulan-bulan",
-      "url": "https://www.bbc.com/news/articles/c202jwpd24go?at_medium=RSS&at_campaign=rss",
-      "summary": "Bassirou Diomaye Faye also dissolved the government, creating uncertainty amid a debt crisis in the country.",
-      "published": "23 May 2026 18:36 WIB",
+      "title": "Trump mengatakan kesepakatan Iran 'sebagian besar telah dinegosiasikan' termasuk pembukaan kembali Selat Hormuz",
+      "url": "https://www.bbc.com/news/articles/crmp121z3z8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
+      "published": "24 May 2026 08:18 WIB",
       "sentiment": "Bearish",
-      "score": -0.928,
+      "score": -0.37,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Saya selamat dari serangan rudal di Selat Hormuz, namun teman saya belum ditemukan",
+      "url": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
+      "summary": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
+      "published": "24 May 2026 06:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.552,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Apakah pragmatisme menggantikan ideologi dalam urusan internasional?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/5/23/is-pragmatism-replacing-ideology-in-international?traffic_source=rss",
-      "summary": "Overlapping interests and conflict are shaping modern relations.",
-      "published": "24 May 2026 02:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.157,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Puluhan ribu orang berunjuk rasa di Serbia untuk demonstrasi antipemerintah",
-      "url": "https://www.aljazeera.com/news/2026/5/23/tens-of-thousands-rally-in-serbia-for-antigovernment-demonstrations?traffic_source=rss",
-      "summary": "The student-led movement, which began after the Novi Sad disaster in November 2024, is pushing for early elections.",
-      "published": "24 May 2026 01:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.722,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Panglima militer Pakistan mengunjungi Teheran untuk mendorong diakhirinya perang AS-Israel terhadap Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/23/pakistan-army-chief-visits-tehran-to-push-for-end-to-us-israeli-war-on-iran-2?traffic_source=rss",
-      "summary": "Munir met senior Iranian officials on Saturday as Islamabad and Doha push to finalise a memorandum to end the war.",
-      "published": "24 May 2026 01:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.912,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "‘Amerika Serikat di Timur Tengah?’: Trump memasang bendera AS yang menutupi Iran",
-      "url": "https://www.aljazeera.com/news/2026/5/23/united-states-of-the-middle-east-trump-posts-us-flag-covering-iran?traffic_source=rss",
-      "summary": "Latest Truth Social post comes amid 'delicate diplomacy', expert says, as US and Iran indicate progress in talks.",
-      "published": "24 May 2026 00:56 WIB",
+      "title": "‘Kita tidak akan tahu siapa yang menang sampai hasil akhir dari gencatan senjata AS-Iran’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/we-wont-know-who-won-until-final-outcome-of-us-iran?traffic_source=rss",
+      "summary": "‘We won't know who won until final outcome of US-Iran ceasefire’",
+      "published": "24 May 2026 20:45 WIB",
       "sentiment": "Bullish",
-      "score": 0.649,
+      "score": 0.258,
       "emoji": "🟢"
     },
     {
       "source": "Al Jazeera",
-      "title": "Raja Maroko mengampuni penggemar sepak bola Senegal yang dipenjara dari final AFCON",
-      "url": "https://www.aljazeera.com/sports/2026/5/23/morocco-king-pardons-jailed-senegal-football-fans-for-humanitarian-reasons?traffic_source=rss",
-      "summary": "Morocco jailed 18 Senegal fans following fan disturbances at the Africa Cup of Nations final in January.",
-      "published": "24 May 2026 00:53 WIB",
+      "title": "Iran mengisyaratkan AS akan mengakhiri perang dengan perdamaian “gaya Persia” sesuai dengan ketentuan Teheran",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/iran-hints-us-will-end-war-in-persian-style-peace-on-tehrans-terms?traffic_source=rss",
+      "summary": "Iran’s foreign ministry spokesman invoked ancient Persia’s victory over Rome in comparison to today’s US-Iran talks.",
+      "published": "24 May 2026 20:26 WIB",
       "sentiment": "Bearish",
-      "score": -0.649,
+      "score": -0.183,
       "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan bom mobil bunuh diri terhadap kereta api di Pakistan menewaskan puluhan orang",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/suicide-car-bombing-attack-on-a-train-in-pakistan-kills-dozens?traffic_source=rss",
+      "summary": "A Baloch separatist group has claimed responsibility for an attack on a train carrying soldiers in Quetta, Pakistan.",
+      "published": "24 May 2026 19:35 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Ledakan menghantam kereta api di Balochistan, Pakistan, menewaskan sedikitnya 24 orang",
+      "url": "https://www.aljazeera.com/gallery/2026/5/24/blast-hits-train-in-pakistans-balochistan-killing-at-least-24-people?traffic_source=rss",
+      "summary": "More than 50 people injured in attack on train carrying military personnel in Quetta, capital of southwestern province.",
+      "published": "24 May 2026 19:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.961,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Bentrokan di Beograd saat protes yang dipimpin mahasiswa menuntut pemilu",
+      "url": "https://www.aljazeera.com/gallery/2026/5/24/clashes-in-belgrade-as-student-led-protests-demand-elections?traffic_source=rss",
+      "summary": "Demonstrators challenge President Vucic’s rule and demand elections, justice and rule of law.",
+      "published": "24 May 2026 18:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.202,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan Israel di Gaza menewaskan tiga anggota keluarga, termasuk bayi",
+      "url": "https://www.aljazeera.com/news/2026/5/24/israeli-attack-on-gaza-kills-three-family-members-including-infant?traffic_source=rss",
+      "summary": "Mohammad Abu Mallouh, ​Alaa Zaqlan and their child, Osama, killed in the attack on Nuseirat refugee camp, medics say.",
+      "published": "24 May 2026 18:41 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Hari Perang Iran ke-86: Trump mengumumkan potensi kesepakatan di tengah ‘awan ketidakpercayaan’",
+      "url": "https://www.aljazeera.com/news/2026/5/24/iran-war-day-86-trump-announces-potential-deal-amid-cloud-of-mistrust?traffic_source=rss",
+      "summary": "Trump announces progress on Iran peace deal, signalling the Strait of Hormuz, vital for global trade, could reopen soon.",
+      "published": "24 May 2026 17:25 WIB",
+      "sentiment": "Bullish",
+      "score": 0.557,
+      "emoji": "🟢"
     },
     {
       "source": "MarketWatch",
@@ -338,44 +394,24 @@
       "emoji": "🔴"
     },
     {
-      "source": "MarketWatch",
-      "title": "'Indikator Prasmanan' memperingatkan puncak pasar — ​​8 tanda penting bahwa saham sedang kehabisan tenaga",
-      "url": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?mod=mw_rss_topstories",
-      "summary": "From a grotesque 230% valuation gap to a ticking energy crisis, this unstoppable market is more fragile than it looks.",
-      "published": "23 May 2026 22:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.702,
-      "emoji": "🔴"
-    },
-    {
       "source": "CNBC World",
       "title": "Trump mengatakan kesepakatan Iran untuk membuka kembali Selat Hormuz 'sebagian besar telah dinegosiasikan', akan segera diumumkan",
       "url": "https://www.cnbc.com/2026/05/23/us-iran-war-talks.html",
       "summary": "A fragile ceasefire has been in place since April 8, punctuated by skirmishes as the U.S. and Iran jockey over the Strait of Hormuz.",
-      "published": "24 May 2026 06:29 WIB",
+      "published": "24 May 2026 15:27 WIB",
       "sentiment": "Bullish",
       "score": 0.16,
       "emoji": "🟢"
     },
     {
       "source": "CNBC World",
-      "title": "Kekayaan AI harus bermanfaat bagi masyarakat, kata wakil PM Korea Selatan di tengah ketegangan perburuhan Samsung",
-      "url": "https://www.cnbc.com/2026/05/23/ai-wealth-must-benefit-the-public-south-koreas-deputy-pm-says.html",
-      "summary": "South Korea's deputy PM tells CNBC there are concerns as to whether AI could worsen wealth gaps or lead to job losses.",
-      "published": "23 May 2026 17:07 WIB",
-      "sentiment": "Netral",
-      "score": 0.018,
-      "emoji": "⚪"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Masyarakat Amerika merasakan tekanan inflasi menjelang liburan akhir pekan. Di sinilah harga-harga naik paling tinggi",
-      "url": "https://www.cnbc.com/2026/05/23/memorial-day-weekend-prices-inflation-war.html",
-      "summary": "Prices related to travel, recreation and food saw particularly steep increases, stretching Americans' wallets as they celebrate the unofficial start of summer.",
-      "published": "23 May 2026 19:32 WIB",
-      "sentiment": "Bullish",
-      "score": 0.784,
-      "emoji": "🟢"
+      "title": "Perang di Timur Tengah menguji ambisi negara-negara Teluk untuk menjadi pusat AI",
+      "url": "https://www.cnbc.com/2026/05/24/middle-east-war-testing-gulfs-ambitions-to-become-ai-hub.html",
+      "summary": "Attacks on data centers in the Middle East and persistently high energy prices have altered the calculus for operators of the facilities, analysts say.",
+      "published": "24 May 2026 20:21 WIB",
+      "sentiment": "Bearish",
+      "score": -0.851,
+      "emoji": "🔴"
     }
   ]
 }
