@@ -1,66 +1,172 @@
 {
-  "generated": "24 May 2026 22:01 WIB",
+  "generated": "25 May 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.469,
-      "count": 15
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.573,
-      "count": 13
+      "score": -0.42,
+      "count": 24
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.451,
+      "count": 24
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.59,
-      "count": 12
+      "score": -0.528,
+      "count": 19
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.207,
-      "count": 3
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.202,
-      "count": 1
-    },
-    {
-      "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.928,
-      "count": 1
+      "score": -0.068,
+      "count": 7
     },
     {
-      "pair": "USD/CNY",
+      "pair": "USD/RUB",
+      "direction": "Netral →",
+      "score": -0.033,
+      "count": 4
+    },
+    {
+      "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.928,
+      "score": -0.19,
+      "count": 2
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.19,
+      "count": 2
+    },
+    {
+      "pair": "EUR",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.103,
       "count": 1
     }
   ],
   "items": [
     {
-      "source": "Bloomberg Markets",
-      "title": "Gedung Putih Memberi Sinyal Pengumuman Kesepakatan dengan Iran dalam waktu dekat",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-24/white-house-signals-imminent-deal-announcement-with-iran-video",
-      "summary": "Bloomberg White House Correspondent Jeff Mason and Bloomberg News Reporter Dan Williams join David Gura, Christina Ruffini, and Lisa Mateo on Bloomberg This Weekend to discuss the White House announcement that a deal with Iran to end the war and reopen the Strait of Hormuz is forthcoming. (Source: B",
-      "published": "24 May 2026 20:14 WIB",
+      "source": "ForexLive",
+      "title": "Lagarde menandai revisi perkiraan inflasi ECB menjelang keputusan suku bunga 11 Juni",
+      "url": "https://investinglive.com/centralbank/lagarde-flags-ecb-inflation-forecast-revision-ahead-of-june-11-rate-decision-20260524/",
+      "summary": "ECB president Christine Lagarde says the bank's March inflation forecast of 2.6% for 2025 will probably be revised upward when policymakers meet in June, confirming signals from other council members. Earlier: ECB's Kocher warns June rate hike unavoidable if Hormuz stays shut ECB policymaker Demarco",
+      "published": "25 May 2026 06:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.402,
+      "score": -0.103,
       "emoji": "🔴"
     },
     {
+      "source": "ForexLive",
+      "title": "Dewan bayangan NZIER mendukung RBNZ mempertahankan minggu ini (27 Mei) di 2,25% tetapi kenaikan suku bunga diperkirakan akan terjadi di masa depan",
+      "url": "https://investinglive.com/centralbank/nzier-shadow-board-backs-rbnz-hold-this-week-may-27-at-225-but-rate-rises-seen-ahead-20260524/",
+      "summary": "Most NZIER shadow board members back holding New Zealand's OCR at 2.25% in May (statement due at pm New Zealand time on May 27), citing weak growth and Iran war uncertainty, though all agree rates must rise over the coming year. Summary: Source: NZIER Monetary Policy Shadow Board The majority favour",
+      "published": "25 May 2026 06:06 WIB",
+      "sentiment": "Netral",
+      "score": 0.023,
+      "emoji": "⚪"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Minyak diperdagangkan lebih rendah lagi setelah gap down yang besar di pembukaan kembali Globex",
+      "url": "https://investinglive.com/commodities/oil-is-trading-even-lower-after-its-big-gap-down-at-globex-reopen-20260524/",
+      "summary": "Globex has reopened for the week's trade. Not it's a holiday in the US, Globex will stay open until noon Central Time on Memorial Day Monday before the evening session resumes at 5:00 p.m. Central Time. Oil down, equites up. Weekend hope based on: Weekend: Hormuz deal in outline but nuclear and sanc",
+      "published": "25 May 2026 05:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.221,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Harapan sudah habis. Begitu juga AUD, ekuitas (ES +0.4%, NQ +0.6%) Perdagangan Globex sekarang dibuka untuk minggu ini.",
+      "url": "https://investinglive.com/commodities/hope-is-up-so-is-aud-equites-es-04-nq-06-globex-trade-now-open-for-the-week-20260524/",
+      "summary": "Early FX guide showing the way: Monday open indicative forex prices, 25 May 2026 Weekend news somewhat encouraging, hence the 'hope': Weekend: Hormuz deal in outline but nuclear and sanctions gaps Iran nuclear deal 95% done but signing still days away Wall Street Journal cautious (gated): Trump Says",
+      "published": "25 May 2026 05:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.102,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Kesepakatan nuklir Iran sudah mencapai 95% tetapi penandatanganannya masih beberapa hari lagi, kata pejabat AS",
+      "url": "https://investinglive.com/commodities/iran-nuclear-deal-95-done-but-signing-still-days-away-us-official-says-20260524/",
+      "summary": "A senior US official says an Iran deal is around 95% complete but will not be signed for several days, with Iran receiving no sanctions relief until its nuclear stockpile is handed over. Summary: Source: senior US administration official via Sky (?) The deal is roughly 95% complete but remains unsig",
+      "published": "25 May 2026 03:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.73,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan: Garis besar kesepakatan Hormuz namun kesenjangan nuklir dan sanksi menghambat tercapainya kesepakatan",
+      "url": "https://investinglive.com/commodities/weekend-hormuz-deal-in-outline-but-nuclear-and-sanctions-gaps-keep-agreement-at-bay-20260524/",
+      "summary": "Trump says no Iran deal is imminent and the Hormuz naval blockade stays in place, as both sides remain split on nuclear disposal, sanctions relief and frozen Iranian funds. Summary: Trump posted on Truth Social that the Hormuz blockade would remain in force until a deal is certified and signed, walk",
+      "published": "25 May 2026 03:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.92,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Senin buka harga indikatif forex, 25 Mei 2026",
+      "url": "https://investinglive.com/forex/monday-open-indicative-forex-prices-25-may-2026-20260524/",
+      "summary": "I'll be back with the weekend news soon. In war developments, the two-week war entered day 86. The two sides are edging closer to a deal, so they say. The USD is down a little from late Friday levels, so early FX is a believer! This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "25 May 2026 02:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.844,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Euro mengumpulkan kekuatan mendekati 1,1650 karena perdamaian perdamaian AS-Iran",
+      "url": "https://www.fxstreet.com/news/euro-gathers-strength-to-near-11650-on-us-iran-peace-progress-202605242248",
+      "summary": "The EUR/USD pair gathers strength to around 1.1640 during the early Asian session on Monday. The Euro (EUR) edges higher against the US Dollar (USD) as US-Iran peace deal hopes improve risk sentiment.",
+      "published": "25 May 2026 05:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.92,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Berita Terkini Perang Timur Tengah: Trump mengatakan perjanjian perdamaian AS-Iran 'bahkan belum sepenuhnya dinegosiasikan'",
+      "url": "https://www.fxstreet.com/news/middle-east-war-updates-trump-says-us-iran-peace-deal-isnt-even-fully-negotiated-yet-202605242217",
+      "summary": "Here’s a brief recap of the key developments in the Middle East war that occurred over the weekend, which are expected to have a significant impact on markets in the upcoming week.",
+      "published": "25 May 2026 05:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.542,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Uber mempertimbangkan tawaran yang lebih tinggi untuk Delivery Hero, lapor FT",
+      "url": "https://www.investing.com/news/stock-market-news/uber-weighs-higher-bid-for-delivery-hero-ft-reports-4708228",
+      "summary": "",
+      "published": "25 May 2026 03:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.557,
+      "emoji": "🟢"
+    },
+    {
       "source": "Bloomberg Markets",
-      "title": "Ahli Strategi Obligasi Memperingatkan Imbal Hasil Tetap Tinggi Sekalipun Perang Iran Berakhir",
+      "title": "Minyak Turun seiring AS Membangkitkan Kemajuan dalam Kesepakatan Pembukaan Kembali Selat",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-24/latest-oil-market-news-and-analysis-for-may-25",
+      "summary": "Oil dropped as the US and Iran edged toward a deal, although President Donald Trump said that Washington’s blockade of the Strait of Hormuz would remain until an agreement was completed.",
+      "published": "25 May 2026 05:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.79,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Para ahli strategi memperingatkan imbal hasil tetap tinggi meski perang Iran berakhir",
       "url": "https://www.bloomberg.com/news/articles/2026-05-24/bond-strategists-warn-yields-to-stay-high-even-if-iran-war-ends",
       "summary": "For all the hand-wringing over war-related inflation fears, there are signs that other drivers are having as much a bearing on longer-term borrowing costs.",
       "published": "24 May 2026 20:00 WIB",
@@ -70,60 +176,60 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Lebih Banyak Inflasi Akibat Perang Terlihat pada Indeks Favorit The Fed",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-23/more-war-driven-inflation-seen-in-fed-s-favored-gauge",
-      "summary": "The Federal Reserve’s favored top-line inflation gauge is rapidly approaching 4% as a war-driven spike in energy costs generates unease that price pressures will broaden.",
-      "published": "24 May 2026 03:00 WIB",
+      "title": "Regulator Jepang Mendesak Perusahaan Menggunakan Uang Tunai untuk Pertumbuhan, Bukan Imbal Hasil",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-24/japan-regulator-urges-firms-to-use-cash-for-growth-not-returns",
+      "summary": "Japan’s financial regulator is urging the country’s listed companies to spend more of their cash piles on long-term business investment instead of rewarding shareholders with buybacks and higher dividends.",
+      "published": "25 May 2026 04:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.322,
+      "score": 0.718,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ledakan Tambang Batubara Tiongkok Menguji Batasan Dorongan Keamanan Energi Xi",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-24/china-coal-mine-blast-tests-limits-of-xi-s-energy-security-push",
-      "summary": "China’s world-beating coal production has helped shield its economy from the worst of the Iran war shock. Now the deadliest mining disaster in years is raising uncomfortable questions about the cost of that drive.",
-      "published": "24 May 2026 10:47 WIB",
+      "title": "Supertanker Dengan Minyak Mentah Irak Keluar dari Teluk Persia saat Pembicaraan Berlanjut",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-24/supertanker-with-iraq-crude-exits-persian-gulf-as-talks-continue",
+      "summary": "A supertanker hauling Iraqi crude to China has left the Persian Gulf and crossed the US blockade line into the Arabian Sea, as talks continue to end the war between the US and Iran and reopen the Strait of Hormuz.",
+      "published": "25 May 2026 00:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.93,
+      "score": -0.986,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "ECB Menghadapi Tekanan untuk Menaikkan Suku Bunga karena Perang Iran Mendorong Harga, Kata Kocher",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-24/ecb-faces-pressure-to-hike-as-iran-war-feeds-prices-kocher-says",
-      "summary": "The European Central Bank is heading for an interest-rate increase next month unless a sustainable peace deal between the US and Iran can be found, according to Governing Council member Martin Kocher.",
-      "published": "24 May 2026 14:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.78,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Tanker LNG Keluar dari Hormuz menuju India untuk Pertama Kalinya Sejak Perang Dimulai",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-24/lng-tanker-exits-hormuz-for-india-for-first-time-since-war-began",
-      "summary": "A liquefied natural gas tanker carrying a shipment for India has exited the Strait of Hormuz, the first for the country from the Persian Gulf since the Iran war began months ago as the region’s exporters discreetly supply key buyers.",
-      "published": "24 May 2026 08:02 WIB",
+      "title": "Harga Energi Menimbulkan Tantangan bagi Wisatawan",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-24/energy-prices-pose-challenge-for-travelers-video",
+      "summary": "The Iran war, the Trump administration's policies on immigration, energy-price volatility and economic uncertainties have added wrinkles to travel plans for many consumers in 2026. Yet BI's proprietary survey data show resiliency in discretionary spending, at least for now, despite shifting preferen",
+      "published": "24 May 2026 23:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.823,
+      "score": -0.679,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
       "title": "Ebola Menyebar ke Seluruh Kongo karena Penerbangan Dihentikan, Persediaan Menipis",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-23/congo-faces-surge-in-ebola-cases-as-key-medical-tools-run-short",
-      "summary": "Congo suspended flights to the eastern city of Bunia and regional health ministers warned of escalating cross-border risks from Ebola as the outbreak spread across three provinces and overwhelmed contact-tracing efforts.",
-      "published": "24 May 2026 06:01 WIB",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-24/ebola-spreads-across-congo-as-supplies-run-low-video",
+      "summary": "Congo suspended flights to the eastern city of Bunia and regional health ministers warned of escalating cross-border risks from Ebola as the outbreak spread across three provinces and overwhelmed contact-tracing efforts. Bloomberg Health and Consumer Reporter Janice Kew joined Christina Ruffini and ",
+      "published": "24 May 2026 22:57 WIB",
       "sentiment": "Bearish",
       "score": -0.962,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
+      "title": "Trump mengatakan kepada para perunding AS untuk 'tidak terburu-buru' dalam mencapai kesepakatan dengan Iran",
+      "url": "https://www.bbc.com/news/articles/clyp0040x7po?at_medium=RSS&at_campaign=rss",
+      "summary": "The deal under discussion would involve a 60-day ceasefire extension during which the Strait of Hormuz would be reopened, according to US media.",
+      "published": "25 May 2026 03:26 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC World",
       "title": "Serangan besar-besaran Rusia ke Ukraina menyebabkan empat orang tewas dan puluhan lainnya luka-luka",
       "url": "https://www.bbc.com/news/articles/clyp6831yp5o?at_medium=RSS&at_campaign=rss",
       "summary": "The Oreshnik missile, which reportedly travels over 10 times the speed of sound, was used, Russia has confirmed.",
-      "published": "24 May 2026 20:02 WIB",
+      "published": "24 May 2026 23:50 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
@@ -133,7 +239,7 @@
       "title": "Ledakan yang menargetkan kereta api menewaskan sedikitnya 20 orang di Pakistan",
       "url": "https://www.bbc.com/news/articles/cm2pkd58xldo?at_medium=RSS&at_campaign=rss",
       "summary": "Officials say the train had been transporting military personnel home for Eid when it was attacked by armed separatists.",
-      "published": "24 May 2026 19:26 WIB",
+      "published": "25 May 2026 05:11 WIB",
       "sentiment": "Bearish",
       "score": -0.838,
       "emoji": "🔴"
@@ -142,8 +248,8 @@
       "source": "BBC World",
       "title": "Seorang pria tewas dalam serangan hiu di lepas pantai timur laut Australia",
       "url": "https://www.bbc.com/news/articles/cn9pq5l2d14o?at_medium=RSS&at_campaign=rss",
-      "summary": "The 39-year-old was fatally injured while swimming out at a shoal off the Cassowary Coast in Queensland.",
-      "published": "24 May 2026 14:12 WIB",
+      "summary": "The 39-year-old was fatally injured at a shoal off the Cassowary Coast in Queensland, apparently while spearfishing.",
+      "published": "24 May 2026 22:29 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
@@ -153,129 +259,89 @@
       "title": "California mengumumkan keadaan darurat saat petugas pemadam kebakaran berlomba untuk mengatasi kebocoran racun",
       "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
       "summary": "Thousands have been evacuated as officials warn a tank containing about 7,000 gallons of methyl methacrylate could explode.",
-      "published": "24 May 2026 03:07 WIB",
+      "published": "25 May 2026 01:51 WIB",
       "sentiment": "Bearish",
       "score": -0.858,
       "emoji": "🔴"
     },
     {
-      "source": "BBC World",
-      "title": "Trump mengatakan kesepakatan Iran 'sebagian besar telah dinegosiasikan' termasuk pembukaan kembali Selat Hormuz",
-      "url": "https://www.bbc.com/news/articles/crmp121z3z8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
-      "published": "24 May 2026 08:18 WIB",
+      "source": "Al Jazeera",
+      "title": "Noboa dari Ekuador berjanji untuk mengekstradisi penjahat dalam pidato kenegaraannya",
+      "url": "https://www.aljazeera.com/news/2026/5/24/ecuadors-noboa-pledges-to-extradite-criminals-in-state-of-the-union-speech?traffic_source=rss",
+      "summary": "The right-wing president highlighted anti-crime operations and economic progress, while critics warned of abuses.",
+      "published": "25 May 2026 05:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.37,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Saya selamat dari serangan rudal di Selat Hormuz, namun teman saya belum ditemukan",
-      "url": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
-      "summary": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
-      "published": "24 May 2026 06:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.552,
+      "score": -0.912,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "‘Kita tidak akan tahu siapa yang menang sampai hasil akhir dari gencatan senjata AS-Iran’",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/we-wont-know-who-won-until-final-outcome-of-us-iran?traffic_source=rss",
-      "summary": "‘We won't know who won until final outcome of US-Iran ceasefire’",
-      "published": "24 May 2026 20:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.258,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Serangan bom mobil bunuh diri terhadap kereta api di Pakistan menewaskan puluhan orang",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/suicide-car-bombing-attack-on-a-train-in-pakistan-kills-dozens?traffic_source=rss",
-      "summary": "A Baloch separatist group has claimed responsibility for an attack on a train carrying soldiers in Quetta, Pakistan.",
-      "published": "24 May 2026 19:35 WIB",
+      "title": "Di dalam tempat pangkas rambut di Beirut yang dibentuk oleh perang dan krisis",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/inside-a-beirut-barbershop-shaped-by-war-and-crisis?traffic_source=rss",
+      "summary": "For nearly 20 years, Mario Habib has run a barbershop through wars, economic collapse and political crisis in Lebanon.",
+      "published": "25 May 2026 04:40 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Ledakan menghantam kereta api di Balochistan, Pakistan, menewaskan sedikitnya 24 orang",
-      "url": "https://www.aljazeera.com/gallery/2026/5/24/blast-hits-train-in-pakistans-balochistan-killing-at-least-24-people?traffic_source=rss",
-      "summary": "More than 50 people injured in attack on train carrying military personnel in Quetta, capital of southwestern province.",
-      "published": "24 May 2026 19:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.961,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Bentrokan di Beograd saat protes yang dipimpin mahasiswa menuntut pemilu",
-      "url": "https://www.aljazeera.com/gallery/2026/5/24/clashes-in-belgrade-as-student-led-protests-demand-elections?traffic_source=rss",
-      "summary": "Demonstrators challenge President Vucic’s rule and demand elections, justice and rule of law.",
-      "published": "24 May 2026 18:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.202,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Serangan Israel di Gaza menewaskan tiga anggota keluarga, termasuk bayi",
-      "url": "https://www.aljazeera.com/news/2026/5/24/israeli-attack-on-gaza-kills-three-family-members-including-infant?traffic_source=rss",
-      "summary": "Mohammad Abu Mallouh, ​Alaa Zaqlan and their child, Osama, killed in the attack on Nuseirat refugee camp, medics say.",
-      "published": "24 May 2026 18:41 WIB",
+      "title": "Pedagang ternak di Pakistan pada hari raya Idul Fitri mengalami kerugian akibat perang terhadap Iran yang mendorong kenaikan harga",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/pakistans-eid-livestock-traders-losing-as-war-on-iran-pushes-up-prices?traffic_source=rss",
+      "summary": "Livestock traders in Pakistan say the war on Iran has hurt their sales ahead of Eid al-Adha.",
+      "published": "25 May 2026 04:03 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Hari Perang Iran ke-86: Trump mengumumkan potensi kesepakatan di tengah ‘awan ketidakpercayaan’",
-      "url": "https://www.aljazeera.com/news/2026/5/24/iran-war-day-86-trump-announces-potential-deal-amid-cloud-of-mistrust?traffic_source=rss",
-      "summary": "Trump announces progress on Iran peace deal, signalling the Strait of Hormuz, vital for global trade, could reopen soon.",
-      "published": "24 May 2026 17:25 WIB",
+      "title": "Bagaimana dampak perang Iran terhadap pemilu AS mendatang?",
+      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/5/24/how-will-iran-war-fallout-impact-upcoming-us-elections?traffic_source=rss",
+      "summary": "Trump purges Republican critics, but are the prospects for his party in upcoming elections heading up or down?",
+      "published": "25 May 2026 02:30 WIB",
       "sentiment": "Bullish",
-      "score": 0.557,
+      "score": 0.406,
       "emoji": "🟢"
     },
     {
-      "source": "MarketWatch",
-      "title": "Nvidia dapat mengirimkan chip – tetapi mereka tidak dapat membeli Big Tech dari krisis kredit dan jaringan listriknya",
-      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
-      "summary": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
-      "published": "24 May 2026 01:17 WIB",
+      "source": "Al Jazeera",
+      "title": "Serangan Israel menewaskan enam orang di Lebanon selatan di tengah perintah evakuasi baru",
+      "url": "https://www.aljazeera.com/news/2026/5/24/israeli-strikes-kill-six-in-southern-lebanon-amid-fresh-evacuation-orders?traffic_source=rss",
+      "summary": "Israel's attacks in southern Lebanon are expanding despite supposed ceasefire.",
+      "published": "25 May 2026 02:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.928,
+      "score": -0.832,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Zelenskyy berbicara kepada Al Jazeera di lokasi serangan besar Rusia di Kyiv",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/zelenskyy-speaks-to-al-jazeera-at-site-of-major-russian-attacks-in-kyiv?traffic_source=rss",
+      "summary": "Russia has launched one of its largest attacks on Kyiv since the war began, firing hundreds of drones and missiles.",
+      "published": "25 May 2026 01:22 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "MarketWatch",
-      "title": "Kevin Warsh masuk ke dalam perangkap di mana The Fed tidak dapat menurunkan suku bunganya meskipun mereka menginginkannya",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-walks-into-a-trap-where-the-fed-cant-cut-rates-even-if-it-wants-to-8475e97c?mod=mw_rss_topstories",
-      "summary": "Kevin Warsh is becoming Federal Reserve chair at a pivotal moment for the U.S. economy — forcing him to be something other than the disruptor he hoped to be.",
-      "published": "24 May 2026 01:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.302,
-      "emoji": "🟢"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Portofolio obligasi Anda menghadapi serangan 'rayap' yang jauh lebih buruk daripada 'kecoa' Jamie Dimon",
-      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
-      "summary": "JP Morgan Chase CEO warned of credit-market ‘cockroaches.’ But opaque AI loans and excessive leverage — ‘credit termites’ — are hollowing out the economy.",
-      "published": "24 May 2026 00:58 WIB",
+      "title": "Harga minyak anjlok karena kesepakatan untuk mengakhiri perang Iran semakin dekat, meski Trump mengatakan tidak perlu terburu-buru",
+      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
+      "summary": "The U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz, according to reports Sunday, sending oil prices sharply lower.",
+      "published": "25 May 2026 06:07 WIB",
       "sentiment": "Bearish",
-      "score": -0.376,
+      "score": -0.722,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "Trump mengatakan kesepakatan Iran untuk membuka kembali Selat Hormuz 'sebagian besar telah dinegosiasikan', akan segera diumumkan",
-      "url": "https://www.cnbc.com/2026/05/23/us-iran-war-talks.html",
-      "summary": "A fragile ceasefire has been in place since April 8, punctuated by skirmishes as the U.S. and Iran jockey over the Strait of Hormuz.",
-      "published": "24 May 2026 15:27 WIB",
+      "title": "Pasar Asia akan dibuka beragam karena penurunan harga minyak karena harapan pembukaan kembali Hormuz",
+      "url": "https://www.cnbc.com/2026/05/25/asia-markets-today-live-updates-asx-nikkei-sensei-iran-us-trump-oil-hormuz.html",
+      "summary": "Asia-Pacific markets were set to open mixed Monday amid reports that the crucial Strait of Hormuz may reopen soon, pushing oil prices down and lifting investor sentiment.",
+      "published": "25 May 2026 06:49 WIB",
       "sentiment": "Bullish",
-      "score": 0.16,
+      "score": 0.341,
       "emoji": "🟢"
     },
     {
@@ -286,6 +352,16 @@
       "published": "24 May 2026 20:21 WIB",
       "sentiment": "Bearish",
       "score": -0.851,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "'The Mandalorian and Grogu' adalah film pembuka Star Wars terendah yang pernah ada di Disney",
+      "url": "https://www.cnbc.com/2026/05/24/the-mandalorian-and-grogu-is-disneys-lowest-star-wars-film-opening.html",
+      "summary": "Disney's \"The Mandalorian and Grogu\" tallied and estimated $82 million in domestic ticket sales through its first three days in theaters.",
+      "published": "24 May 2026 23:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
       "emoji": "🔴"
     }
   ]
