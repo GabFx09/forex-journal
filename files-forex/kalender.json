@@ -1,5 +1,5 @@
 {
-  "generated": "26 May 2026 07:02 WIB",
+  "generated": "26 May 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-05-25",
@@ -85,7 +85,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "BOJ Core CPI y/y",
-      "actual": "",
+      "actual": "1.4%",
       "forecast": "1.7%",
       "previous": "1.7%"
     },
@@ -96,14 +96,14 @@
       "currency": "GBP",
       "impact": "low",
       "event": "CBI Realized Sales",
-      "actual": "",
+      "actual": "-46",
       "forecast": "-52",
       "previous": "-68"
     },
     {
       "date": "2026-05-26",
       "day": "Selasa",
-      "time_wib": "19:30",
+      "time_wib": "19:20",
       "currency": "CAD",
       "impact": "low",
       "event": "Gov Council Member Vincent Speaks",
@@ -118,9 +118,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "HPI m/m",
-      "actual": "",
+      "actual": "0.1%",
       "forecast": "0.1%",
-      "previous": "0.0%"
+      "previous": "-0.1%"
     },
     {
       "date": "2026-05-26",
@@ -129,7 +129,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "S&P/CS Composite-20 HPI y/y",
-      "actual": "",
+      "actual": "0.8%",
       "forecast": "0.9%",
       "previous": "0.9%"
     },
@@ -140,9 +140,9 @@
       "currency": "USD",
       "impact": "medium",
       "event": "CB Consumer Confidence",
-      "actual": "",
+      "actual": "93.1",
       "forecast": "91.9",
-      "previous": "92.8"
+      "previous": "93.8"
     },
     {
       "date": "2026-05-26",
@@ -405,7 +405,7 @@
       "impact": "low",
       "event": "Household Spending m/m",
       "actual": "",
-      "forecast": "0.7%",
+      "forecast": "-0.5%",
       "previous": "1.6%"
     },
     {
@@ -670,23 +670,12 @@
       "event": "Natural Gas Storage",
       "actual": "",
       "forecast": "",
-      "previous": ""
+      "previous": "101B"
     },
     {
       "date": "2026-05-28",
       "day": "Kamis",
       "time_wib": "22:00",
-      "currency": "CAD",
-      "impact": "medium",
-      "event": "BOC Gov Macklem Speaks",
-      "actual": "",
-      "forecast": "",
-      "previous": ""
-    },
-    {
-      "date": "2026-05-28",
-      "day": "Kamis",
-      "time_wib": "19:30",
       "currency": "CAD",
       "impact": "medium",
       "event": "BOC Press Conference",
@@ -966,7 +955,7 @@
       "impact": "low",
       "event": "Goods Trade Balance",
       "actual": "",
-      "forecast": "-86.9B",
+      "forecast": "-86.5B",
       "previous": "-87.9B"
     },
     {
@@ -1043,7 +1032,7 @@
       "impact": "low",
       "event": "Manufacturing PMI",
       "actual": "",
-      "forecast": "",
+      "forecast": "50.2",
       "previous": "50.3"
     },
     {
@@ -1054,7 +1043,7 @@
       "impact": "low",
       "event": "Non-Manufacturing PMI",
       "actual": "",
-      "forecast": "",
+      "forecast": "49.5",
       "previous": "49.4"
     }
   ]
