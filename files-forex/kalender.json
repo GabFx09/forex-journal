@@ -1,5 +1,5 @@
 {
-  "generated": "27 May 2026 07:02 WIB",
+  "generated": "27 May 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-05-24",
@@ -173,7 +173,7 @@
       "currency": "AUD",
       "impact": "low",
       "event": "MI Leading Index m/m",
-      "actual": "",
+      "actual": "0.0%",
       "forecast": "",
       "previous": "-0.1%"
     },
@@ -184,7 +184,7 @@
       "currency": "AUD",
       "impact": "high",
       "event": "CPI m/m",
-      "actual": "",
+      "actual": "0.4%",
       "forecast": "0.6%",
       "previous": "1.1%"
     },
@@ -195,7 +195,7 @@
       "currency": "AUD",
       "impact": "high",
       "event": "CPI y/y",
-      "actual": "",
+      "actual": "4.2%",
       "forecast": "4.4%",
       "previous": "4.6%"
     },
@@ -206,9 +206,9 @@
       "currency": "AUD",
       "impact": "high",
       "event": "Trimmed Mean CPI m/m",
-      "actual": "",
+      "actual": "0.3%",
       "forecast": "0.3%",
-      "previous": "0.3%"
+      "previous": "0.2%"
     },
     {
       "date": "2026-05-26",
@@ -217,9 +217,9 @@
       "currency": "AUD",
       "impact": "low",
       "event": "Construction Work Done q/q",
-      "actual": "",
+      "actual": "3.4%",
       "forecast": "0.8%",
-      "previous": "-0.1%"
+      "previous": "0.2%"
     },
     {
       "date": "2026-05-26",
@@ -228,7 +228,7 @@
       "currency": "NZD",
       "impact": "high",
       "event": "Official Cash Rate",
-      "actual": "",
+      "actual": "2.25%",
       "forecast": "2.25%",
       "previous": "2.25%"
     },
@@ -283,7 +283,7 @@
       "currency": "CHF",
       "impact": "low",
       "event": "UBS Economic Expectations",
-      "actual": "",
+      "actual": "-11.1",
       "forecast": "",
       "previous": "-30.3"
     },
@@ -312,11 +312,11 @@
     {
       "date": "2026-05-27",
       "day": "Rabu",
-      "time_wib": "15:00",
+      "time_wib": "13:33",
       "currency": "EUR",
       "impact": "low",
       "event": "German 30-y Bond Auction",
-      "actual": "",
+      "actual": "3.50|1.8",
       "forecast": "",
       "previous": "3.62|1.3"
     },
@@ -327,9 +327,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "ADP Weekly Employment Change",
-      "actual": "",
+      "actual": "35.8K",
       "forecast": "",
-      "previous": "42.3K"
+      "previous": "40.8K"
     },
     {
       "date": "2026-05-27",
@@ -338,9 +338,9 @@
       "currency": "CNY",
       "impact": "low",
       "event": "CB Leading Index m/m",
-      "actual": "",
+      "actual": "-0.8%",
       "forecast": "",
-      "previous": "-0.2%"
+      "previous": "-0.3%"
     },
     {
       "date": "2026-05-27",
@@ -349,7 +349,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Richmond Manufacturing Index",
-      "actual": "",
+      "actual": "13",
       "forecast": "4",
       "previous": "3"
     },
@@ -669,7 +669,7 @@
       "impact": "low",
       "event": "Natural Gas Storage",
       "actual": "",
-      "forecast": "",
+      "forecast": "96B",
       "previous": "101B"
     },
     {
@@ -691,7 +691,7 @@
       "impact": "low",
       "event": "Crude Oil Inventories",
       "actual": "",
-      "forecast": "",
+      "forecast": "-3.8M",
       "previous": "-7.9M"
     },
     {
@@ -966,7 +966,7 @@
       "impact": "low",
       "event": "Goods Trade Balance",
       "actual": "",
-      "forecast": "-86.5B",
+      "forecast": "-86.7B",
       "previous": "-87.9B"
     },
     {
