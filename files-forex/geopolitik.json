@@ -1,5 +1,5 @@
 {
-  "generated": "31 May 2026 10:01 WIB",
+  "generated": "31 May 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,112 +7,106 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.194,
-      "count": 10
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.194,
-      "count": 10
+      "score": -0.227,
+      "count": 9
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.206,
+      "score": -0.166,
+      "count": 8
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.176,
       "count": 8
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.196,
-      "count": 4
-    },
-    {
-      "pair": "EUR",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.459,
-      "count": 1
-    },
-    {
-      "pair": "USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.459,
-      "count": 1
-    },
-    {
-      "pair": "emerging markets",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.459,
-      "count": 1
+      "score": -0.319,
+      "count": 2
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.494,
+      "score": -0.637,
+      "count": 1
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.637,
+      "count": 1
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Netral →",
+      "score": 0.0,
       "count": 1
     }
   ],
   "items": [
     {
-      "source": "Bloomberg Markets",
-      "title": "Filipina Mengupayakan Hubungan Lebih Dekat dengan Musuh Tiongkok",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-31/philippines-seeks-closer-ties-with-china-s-adversaries-video",
-      "summary": "Philippine Defense Secretary Gilberto Teodoro outlines deepening military ties with a network of US allies and tells Bloomberg's Haslinda Amin why it's important to work together on military deterrence. They speak on the sidelines of the Shangri-La Dialogue in Singapore. (Source: Bloomberg)",
-      "published": "31 May 2026 09:35 WIB",
-      "sentiment": "Bullish",
-      "score": 0.077,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Mengapa Pasar Obligasi Inggris Membunyikan Alarm",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-30/why-britain-s-bond-market-is-sounding-the-alarm-video",
-      "summary": "As political uncertainty grows in the United Kingdom, investors are increasingly focused on the country’s fiscal outlook and rising government borrowing costs. Bloomberg Opinion Columnist John Authers says concerns over spending, debt, and political instability are pushing gilt yields higher, revivi",
-      "published": "30 May 2026 19:03 WIB",
+      "source": "Investing.com Forex",
+      "title": "Gubernur New Jersey menyalahkan agitator dari luar negara bagian yang mengobarkan protes penahanan ICE di Newark",
+      "url": "https://www.investing.com/news/stock-market-news/new-jersey-governor-links-rising-tension-around-immigrant-detention-center-to-outofstate-troublemakers-4717807",
+      "summary": "",
+      "published": "31 May 2026 15:42 WIB",
       "sentiment": "Bearish",
-      "score": -0.306,
+      "score": -0.928,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ketua IMF dan Pejabat Venezuela Mengadakan Pembicaraan tentang Stabilitas Ekonomi",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-30/imf-chief-venezuelan-officials-hold-talks-on-economic-stability",
-      "summary": "International Monetary Fund Managing Director Kristalina Georgieva and Venezuelan economic official Calixto Ortega held talks in Washington, the IMF head’s first in-person meeting with country’s authorities since the fund resumed formal engagement with Venezuela last month.",
-      "published": "31 May 2026 04:59 WIB",
-      "sentiment": "Bullish",
-      "score": 0.459,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Brasil Memperluas Tindakan untuk Membatasi Kenaikan Harga Bahan Bakar selama Dua Bulan",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-30/brazil-extends-measures-to-limit-fuel-price-hikes-by-two-months",
-      "summary": "The Brazilian government extended by two months measures to contain the rise in fuel prices triggered by the conflict in Middle East.",
-      "published": "31 May 2026 02:47 WIB",
+      "title": "Guncangan Aluminium yang Menghantam Perekonomian Global",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-31/the-aluminum-shock-hitting-the-global-economy-video",
+      "summary": "The global aluminum market is being squeezed by two powerful forces at once: conflict in the Middle East and rising US tariffs. Industry executives say disruptions to production and shipping in the Gulf region are removing significant supply from global markets just as tariffs are already pushing pr",
+      "published": "31 May 2026 21:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.282,
+      "score": -0.637,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Paramount Menarik Setiap Tuas untuk Menjual Hutang LBO",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-30/paramount-is-pulling-every-lever-to-sell-lbo-debt-credit-weekly",
-      "summary": "Paramount Skydance Corp. stretched, then stretched, then stretched again in its audacious $110 billion takeover bid for Warner Bros. Discovery Inc.",
-      "published": "31 May 2026 02:00 WIB",
+      "title": "Bagaimana Polandia Menjadi Pemimpin Pertumbuhan Eropa",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-31/how-poland-became-europe-s-growth-leader-video",
+      "summary": "Poland has become one of Europe’s standout growth stories, with an economy that crossed $1 trillion and a new generation of entrepreneurs returning home after studying and working abroad. Finance Minister Andrzej Domański points to decades of reform, EU integration, foreign investment and a diversif",
+      "published": "31 May 2026 19:05 WIB",
+      "sentiment": "Bullish",
+      "score": 0.637,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC World",
+      "title": "Menteri Pertahanan Jepang menyangkal militerisme dan mengkritik 'persenjataan besar' Tiongkok",
+      "url": "https://www.bbc.com/news/articles/cp8p4ejy8ppo?at_medium=RSS&at_campaign=rss",
+      "summary": "Shinjiro Koizumi makes some of Tokyo's most pointed remarks yet in the dispute over Japan's military build-up.",
+      "published": "31 May 2026 13:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.153,
+      "score": -0.625,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "AS, Inggris, dan Australia akan mengembangkan teknologi drone bawah air",
-      "url": "https://www.bbc.com/news/articles/c5y8wjvd1ypo?at_medium=RSS&at_campaign=rss",
-      "summary": "The technology, developed under the Aukus military pact, is aimed at protecting undersea cables and boosting naval defence.",
-      "published": "30 May 2026 19:16 WIB",
-      "sentiment": "Bullish",
-      "score": 0.421,
-      "emoji": "🟢"
+      "title": "Kolombia memberikan suara dalam pemilihan presiden yang dapat mendefinisikan kembali hubungan dengan AS",
+      "url": "https://www.bbc.com/news/articles/c2027g423glo?at_medium=RSS&at_campaign=rss",
+      "summary": "The election is held after months of public recrimination between current left-wing President Gustavo Petro and his US counterpart Donald Trump.",
+      "published": "31 May 2026 21:03 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "BBC World",
+      "title": "Israel merebut benteng di Lebanon saat mereka memperluas serangan darat",
+      "url": "https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Israeli military says everyone south of the Zahrani river should leave, after it captured the strategic Beaufort Castle.",
+      "published": "31 May 2026 19:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.421,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
@@ -126,16 +120,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Ekuador dituduh ikut campur dalam pemilu Kolombia dengan janji tarif",
-      "url": "https://www.bbc.com/news/articles/czx2zndk7elo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ecuadorian leader Daniel Noboa offers to cancel tariffs after speaking to a right-wing presidential candidate ahead of Sunday's vote.",
-      "published": "31 May 2026 03:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.494,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
       "title": "Bagaimana Putin menjadi ahli dalam pencitraan",
       "url": "https://www.bbc.com/news/articles/cddpl33v247o?at_medium=RSS&at_campaign=rss",
       "summary": "From enigmatic KGB agent to wartime ruler, this is how Putin has repeatedly reinvented his image, and himself.",
@@ -145,104 +129,84 @@
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Perang Iran langsung: PM Lebanon mengecam serangan Israel; Kesepakatan AS-Teheran dalam ketidakpastian",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/5/31/iran-war-live-lebanon-accuses-israel-of-scorched-earth-policy?traffic_source=rss",
-      "summary": "Lebanese PM describes Israel's attacks as collective punishment as US warns Iran of strikes if no deal is reached.",
-      "published": "31 May 2026 07:00 WIB",
+      "source": "BBC Business",
+      "title": "Mantan kepala M&S untuk membantu pemerintah mengatasi pengangguran kaum muda",
+      "url": "https://www.bbc.com/news/articles/cg5p9y25qj1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Marc Bolland will advise on getting young people into work after a review warned of a \"lost generation\".",
+      "published": "31 May 2026 04:30 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.637,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Wawancara eksklusif Al Jazeera dengan faksi pemberontak FARC di Kolombia",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/al-jazeera-exclusive-interview-with-rebel-farc-faction-in-colombia?traffic_source=rss",
-      "summary": "In Colombia, FARC dissidents say they returned to war after a historic peace deal failed to deliver security",
-      "published": "31 May 2026 04:54 WIB",
+      "title": "Bukan hanya AS: Bagaimana 51 negara mempersenjatai Israel selama perang Gaza",
+      "url": "https://www.aljazeera.com/video/2026/5/31/not-just-the-us-how-51-countries-armed-israel-during-gaza-war?traffic_source=rss",
+      "summary": "An Al Jazeera investigation has found that military-related goods from at least 51 countries and territories continued e",
+      "published": "31 May 2026 21:41 WIB",
       "sentiment": "Bearish",
-      "score": -0.34,
+      "score": -0.679,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Tentara Lebanon ‘terlalu berusaha’ untuk melawan invasi Israel terbaru",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/lebanese-army-overly-stretched-to-fight-off-latest-israeli-invasion?traffic_source=rss",
-      "summary": "Geopolitical analyst Joe Macaron says the Lebanese army is ‘overly stretched’ as Israeli troops expand their occupation.",
-      "published": "31 May 2026 04:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.157,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah perang di Ukraina memasuki babak baru?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/5/30/is-the-war-in-ukraine-entering-a-new-phase-2?traffic_source=rss",
-      "summary": "NATO says it is ready to defend allied territory against Russian attacks.",
-      "published": "31 May 2026 03:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.729,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran menegaskan kembali kendali atas Selat Hormuz karena kesepakatan dengan AS masih sulit dicapai",
-      "url": "https://www.aljazeera.com/news/2026/5/30/iran-reasserts-control-over-hormuz-strait-as-deal-with-us-remains-elusive?traffic_source=rss",
-      "summary": "Pentagon chief Pete Hegseth says US 'more than capable' of restarting war if satisfactory deal not reached.",
-      "published": "31 May 2026 02:48 WIB",
-      "sentiment": "Netral",
-      "score": 0.047,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Para pemilih di Malta pergi ke tempat pemungutan suara untuk pemilu dini",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/voters-in-malta-head-to-polls-for-early-elections?traffic_source=rss",
-      "summary": "Maltese voters are at the polls after PM Robert Abela called a snap election.",
-      "published": "31 May 2026 00:20 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Portofolio Anda tidak mampu membayar biaya sebenarnya untuk perang Iran",
-      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
-      "summary": "The Pentagon claims the conflict has cost $29 billion — but the true cost is much higher and it’s fueling inflation.",
-      "published": "31 May 2026 01:18 WIB",
-      "sentiment": "Netral",
-      "score": -0.007,
-      "emoji": "⚪"
-    },
-    {
-      "source": "CNBC Economy",
-      "title": "Investor dan label rekaman membeli bisnis musik Asia Selatan yang sedang berkembang di AS.",
-      "url": "https://www.cnbc.com/2026/05/30/south-asian-music-warner-records-5-junction.html",
-      "summary": "Warner Music Group, the third-largest music label by market share, is tapping into the South Asian music movement with its latest venture, 5 Junction.",
-      "published": "30 May 2026 20:24 WIB",
+      "title": "Pasukan Israel menerobos Sungai Litani di Lebanon: Seberapa signifikankah hal ini?",
+      "url": "https://www.aljazeera.com/news/2026/5/31/israeli-forces-push-past-lebanons-litani-river-how-significant-is-it?traffic_source=rss",
+      "summary": "Analysts say Israel is effectively expanding its area of military control northward towards the Zahrani River.",
+      "published": "31 May 2026 20:39 WIB",
       "sentiment": "Bullish",
-      "score": 0.36,
+      "score": 0.492,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Citra satelit menunjukkan penghapusan wilayah selatan Gaza seiring perluasan kendali Israel",
+      "url": "https://www.aljazeera.com/news/2026/5/31/satellite-imagery-shows-erasure-of-southern-gaza-as-israel-expands-control?traffic_source=rss",
+      "summary": "Satellite images show transformation as Netanyahu orders military to occupy 70 percent of Gaza.",
+      "published": "31 May 2026 20:28 WIB",
+      "sentiment": "Bullish",
+      "score": 0.103,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Jepang menolak ‘militerisme baru’, dan mengatakan Tiongkok dengan cepat mempersenjatai diri",
+      "url": "https://www.aljazeera.com/news/2026/5/31/japan-rejects-new-militarism-says-china-is-rapidly-arming?traffic_source=rss",
+      "summary": "Japan accuses China of lacking military transparency and stresses the importance of dialogue for regional stability.",
+      "published": "31 May 2026 19:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.727,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Partai Buruh menang dalam pemilu Malta, hasil awal menunjukkan",
+      "url": "https://www.aljazeera.com/news/2026/5/31/labour-triumphs-in-malta-election-preliminary-results-show?traffic_source=rss",
+      "summary": "Labour Party secures historic fourth term in Malta amid geopolitical and economic instability concerns.",
+      "published": "31 May 2026 17:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.791,
       "emoji": "🟢"
     },
     {
       "source": "CNBC World",
-      "title": "Trump mengakhiri pertemuan dengan Iran tanpa mengumumkan 'penentuan akhir' mengenai kesepakatan",
-      "url": "https://www.cnbc.com/2026/05/29/trump-iran-deal-hormuz-nuclear-war.html",
-      "summary": "Trump's Truth Social statement left unclear which of his conditions are already part of a deal that negotiators are working on to pause the U.S.-Iran war.",
-      "published": "30 May 2026 16:40 WIB",
+      "title": "Jepang mengupayakan dialog yang jujur, kata menteri pertahanan, dan menolak klaim 'neo-militerisme'",
+      "url": "https://www.cnbc.com/2026/05/31/japan-seeks-dialog-rejects-neo-militarism-label-defense-minister.html",
+      "summary": "Koizumi calls for transparency and dialog as he addresses tensions in the region.",
+      "published": "31 May 2026 12:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.717,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "Startup yang berafiliasi dengan Trump ini berencana memasukkan robot humanoid ke dalam militer",
-      "url": "https://www.cnbc.com/2026/05/30/humanoid-robots-ukraine-war-foundation-military-ai.html",
-      "summary": "With ties to the Trump family, Foundation Robotics Labs is aiming to deploy humanoid robots in the military in the next 12 to 18 months.",
-      "published": "30 May 2026 17:03 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "title": "Saya mendaki ketinggian vertikal Gunung Everest dalam 36 jam—hal ini mengubah saya menjadi 'versi baru dari diri saya sendiri'",
+      "url": "https://www.cnbc.com/2026/05/31/i-climbed-the-vertical-height-of-mount-everest-in-36-hourswhat-i-learned.html",
+      "summary": "\"I'm proud to say I earned the coveted Red Hat, awarded to participants who finish the event. But that was never the real prize,\" says Kristy Ellmer, a managing director and senior partner at BCG.",
+      "published": "31 May 2026 20:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.246,
+      "emoji": "🔴"
     }
   ]
 }
