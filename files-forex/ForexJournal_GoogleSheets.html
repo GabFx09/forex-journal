@@ -1978,8 +1978,35 @@ function _rkDetailCard(r) {
       ${_rkMaRow('SMA 200', r.sma200, r.lastClose)}
     </div>
     <div style="background:rgba(255,255,255,.03);border:1px solid var(--bdr);border-radius:7px;padding:9px 11px">
-      <div style="font-size:9px;font-weight:600;color:var(--sub);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">Analisis</div>
-      <div style="font-size:11px;color:var(--txt);line-height:1.6">${_rkSignalText(r)}</div>
+      <div style="font-size:9px;font-weight:600;color:var(--sub);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">Analisis Teknikal</div>
+      <div style="font-size:11px;color:var(--txt);line-height:1.6;margin-bottom:${r.fundamental?'8px':'0'}">${_rkSignalText(r)}</div>
+      ${(()=>{
+        const f=r.fundamental; if(!f) return '';
+        const sCol=s=>s==='Bullish'?'var(--grn)':s==='Bearish'?'var(--red)':'var(--sub)';
+        const sBg =s=>s==='Bullish'?'var(--grn-d)':s==='Bearish'?'var(--red-d)':'rgba(100,116,139,.1)';
+        const sIco=s=>s==='Bullish'?'↑':s==='Bearish'?'↓':'→';
+        const fCol=f.signal==='BUY'?'var(--grn)':f.signal==='SELL'?'var(--red)':'var(--sub)';
+        const fBg =f.signal==='BUY'?'var(--grn-d)':f.signal==='SELL'?'var(--red-d)':'rgba(100,116,139,.1)';
+        const sc  =v=>(v>=0?'+':'')+v;
+        let txt='';
+        if(f.signal==='BUY')
+          txt=`${f.base} ${f.base_sentiment.toLowerCase()} (${sc(f.base_score)}), ${f.quote} ${f.quote_sentiment.toLowerCase()} (${sc(f.quote_score)}). Sentimen berita mendukung kenaikan ${r.label}.`;
+        else if(f.signal==='SELL')
+          txt=`${f.base} ${f.base_sentiment.toLowerCase()} (${sc(f.base_score)}), ${f.quote} ${f.quote_sentiment.toLowerCase()} (${sc(f.quote_score)}). Sentimen berita mendukung penurunan ${r.label}.`;
+        else
+          txt=`${f.base} ${f.base_sentiment.toLowerCase()} (${sc(f.base_score)}), ${f.quote} ${f.quote_sentiment.toLowerCase()} (${sc(f.quote_score)}). Tidak ada sinyal fundamental yang dominan.`;
+        const align=f.signal!=='Netral'&&f.signal===r.direction?` <span style="color:var(--grn);font-size:10px">✅ Selaras dengan teknikal.</span>`
+                   :f.signal!=='Netral'&&r.direction!=='WAIT'&&f.signal!==r.direction?` <span style="color:var(--gold);font-size:10px">⚠️ Berlawanan dengan teknikal.</span>`:'';
+        return `<div style="border-top:1px solid var(--bdr);padding-top:8px">
+          <div style="font-size:9px;font-weight:600;color:var(--sub);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px">Analisis Fundamental</div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px">
+            <span style="background:${sBg(f.base_sentiment)};color:${sCol(f.base_sentiment)};padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600">${f.base} ${sIco(f.base_sentiment)} ${f.base_sentiment}</span>
+            <span style="background:${sBg(f.quote_sentiment)};color:${sCol(f.quote_sentiment)};padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600">${f.quote} ${sIco(f.quote_sentiment)} ${f.quote_sentiment}</span>
+            <span style="background:${fBg};color:${fCol};padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600">→ ${f.signal}</span>
+          </div>
+          <div style="font-size:11px;color:var(--txt);line-height:1.6">${txt}${align}</div>
+        </div>`;
+      })()}
     </div>
   </div>`;
 }
