@@ -1,131 +1,59 @@
 {
-  "generated": "30 May 2026 22:00 WIB",
+  "generated": "31 May 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Netral →",
-      "score": -0.043,
-      "count": 14
+      "pair": "USD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.144,
+      "count": 10
     },
     {
-      "pair": "USD/JPY",
-      "direction": "Netral →",
-      "score": 0.03,
-      "count": 13
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.144,
+      "count": 10
     },
     {
       "pair": "USD/CHF",
-      "direction": "Netral →",
-      "score": -0.037,
-      "count": 12
+      "direction": "Tekanan Turun ▼",
+      "score": -0.093,
+      "count": 7
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.116,
-      "count": 3
+      "direction": "Tekanan Turun ▼",
+      "score": -0.257,
+      "count": 5
     },
     {
-      "pair": "GBP/USD",
+      "pair": "EUR",
       "direction": "Tekanan Naik ▲",
-      "score": 0.508,
+      "score": 0.459,
+      "count": 1
+    },
+    {
+      "pair": "USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.459,
+      "count": 1
+    },
+    {
+      "pair": "emerging markets",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.459,
+      "count": 1
+    },
+    {
+      "pair": "AUD/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.494,
       "count": 1
     }
   ],
   "items": [
-    {
-      "source": "ForexLive",
-      "title": "AS yang menyetujui blokade Iran mengatakan apa pun yang dicabut akan dicabut secara perlahan",
-      "url": "https://investinglive.com/news/us-bessent-on-iran-blockade-says-anything-that-is-taken-off-will-be-taken-off-slowly-20260529/",
-      "summary": "On Iran blockade says anything that is taken off will be taken off slowly There are 3 scenarios on Iran: deal, no deal, or kinetic action There's more we can do on Iran if we have to See real wage growth to resume, on the other side of the war 100% approve of the Fed getting rid of forward guidance ",
-      "published": "30 May 2026 02:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.351,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "InvestmentRingkasan berita Live Americas FX: Trump menggembar-gemborkan pencabutan blokade angkatan laut dan kemajuan menuju kesepakatan",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-trump-touts-naval-blockade-lift-progress-toward-deal-20260529/",
-      "summary": "Trump did not reach a decision on any new deal with Iran after Situation Room meeting How have interest rate expectations changed after this week's event? Iran's Baghaei: No agreement has been finalised with the United States so far Fed's Daly says she doesn't see mass unemployment or displacement f",
-      "published": "30 May 2026 02:31 WIB",
-      "sentiment": "Bullish",
-      "score": 0.92,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Baghaei Iran: Sejauh ini belum ada kesepakatan yang diselesaikan dengan Amerika Serikat",
-      "url": "https://investinglive.com/news/irans-baghaei-no-agreement-has-been-finalised-with-the-united-states-so-far-20260529/",
-      "summary": "No agreement has been finalised with the United States so far The management of the Strait of Hormuz must be decided by Iran and Oman At this stage, we are focused on ending the war; we are not negotiating over Iran's nuclear program Iran's Foreign Ministry spokesperson Esmaeil Baghaei said no final",
-      "published": "30 May 2026 00:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.139,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Perkiraan minggu depan: Dolar AS melemah karena harapan gencatan senjata mendukung sentimen risiko",
-      "url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-the-us-dollar-fell-as-ceasefire-hopes-supported-risk-sentiment-202605292007",
-      "summary": "The US Dollar Index (DXY) fell toward the 98.90 region on Friday as improving market sentiment linked to developments in the Middle East reduces demand for safe-haven assets.",
-      "published": "30 May 2026 03:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.638,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Emas naik karena kemajuan gencatan senjata AS-Iran seiring memudarnya taruhan kenaikan suku bunga Fed",
-      "url": "https://www.fxstreet.com/news/gold-climbs-on-us-iran-ceasefire-progress-as-fed-rate-hike-bets-fade-202605291849",
-      "summary": "Gold (XAU/USD) price advanced more than 1.50% on Friday amid news that Iran and the US are close to signing a deal aimed at extending the ceasefire for 60 days to allow negotiations on Iran’s nuclear program. At the time of writing, XAU/USD trades at $4,563, after bouncing off daily lows of $4,489.",
-      "published": "30 May 2026 01:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.839,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Pound Inggris rebound karena Dolar AS melemah karena harapan kesepakatan Iran",
-      "url": "https://www.fxstreet.com/news/british-pound-rebounds-as-us-dollar-weakens-on-iran-deal-hopes-202605291823",
-      "summary": "GBP/USD holds minor gains on Friday after rebounding from intraday lows, supported by improving risk sentiment surrounding a potential US-Iran peace deal. At the time of writing, the pair trades around 1.3460 and is on course to end the week little changed.",
-      "published": "30 May 2026 01:23 WIB",
-      "sentiment": "Bullish",
-      "score": 0.876,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Yen Jepang melemah di tengah data PCE AS yang stabil",
-      "url": "https://www.fxstreet.com/news/japanese-yen-muted-amid-steady-us-pce-data-202605291635",
-      "summary": "The USD/JPY pair trades in a muted fashion toward the 159.20 region on Friday as the United States Dollar (USD) finds support following the latest inflation data, while the Japanese Yen (JPY) remains pressured amid uncertainty surrounding the Bank of Japan’s (BoJ) policy outlook.",
-      "published": "29 May 2026 23:35 WIB",
-      "sentiment": "Bullish",
-      "score": 0.216,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga Perak: XAG/USD kesulitan menentukan arah meskipun ada harapan kesepakatan AS-Iran, dan Dolar AS yang lebih lemah",
-      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-struggles-for-direction-despite-us-iran-deal-hopes-softer-us-dollar-202605291623",
-      "summary": "Silver (XAG/USD) trades flat on Friday, failing to capitalize on improving market sentiment surrounding a potential US-Iran peace deal, even as the US Dollar (USD) slides to a two-week low. At the time of writing, XAG/USD trades around $75.60 and is on track to end the week virtually unchanged.",
-      "published": "29 May 2026 23:23 WIB",
-      "sentiment": "Bullish",
-      "score": 0.306,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Hegseth Memuji Sekutu Asia, Mengkritik NATO",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-30/hegseth-praises-asian-allies-takes-swipe-at-nato-video",
-      "summary": "US Defense Secretary Pete Hegseth praised defense allies in Asia and hailed newly stable ties with China, while taking swipes at longstanding security partners in Europe. Bloomberg's Singapore Editor-At-Large Haslinda Amin joined Christina Ruffini and David Gura on Bloomberg This Weekend to discuss ",
-      "published": "30 May 2026 19:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.938,
-      "emoji": "🟢"
-    },
     {
       "source": "Bloomberg Markets",
       "title": "Mengapa Pasar Obligasi Inggris Membunyikan Alarm",
@@ -138,42 +66,32 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Hegseth Memuji Hubungan Tiongkok di KTT Pertahanan",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-30/hegseth-hails-china-relationship-at-defense-summit-video",
-      "summary": "Jabs at European allies and talks of stable US-China ties — Defense Secretary Pete Hegseth took to the stage at a security summit in Singapore this weekend. But two topics were notably missing from his address: Taiwan and the Iran war. Haslinda Amin with more. (Source: Bloomberg)",
-      "published": "30 May 2026 18:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.907,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Tiongkok Berjanji untuk Membalas Jika UE Memberlakukan Pembatasan Perdagangan",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-30/china-pledges-to-retaliate-if-eu-imposes-trade-restrictions",
-      "summary": "China warned it would “resolutely” retaliate if the European Union proceeds with new restrictive trade measures, following a May 29 European Commission discussion on China policy.",
-      "published": "30 May 2026 17:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.521,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Penk Selandia Baru tentang Ketidakpastian Hormuz (Video) (Benar)",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-30/australia-s-marles-on-hormuz-uncertainty-video",
-      "summary": "New Zealand’s Defense Minister Chris Penk speaks to Bloomberg TV about how the Iran war is shaping his country’s security outlook, and the importance of freedom of navigation through the seas. He speaks with Bloomberg’s Haslinda Amin on the sidelines of the Shangri-La Dialogue. (Corrects name of int",
-      "published": "30 May 2026 15:00 WIB",
+      "title": "Ketua IMF dan Pejabat Venezuela Mengadakan Pembicaraan tentang Stabilitas Ekonomi",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-30/imf-chief-venezuelan-officials-hold-talks-on-economic-stability",
+      "summary": "International Monetary Fund Managing Director Kristalina Georgieva and Venezuelan economic official Calixto Ortega held talks in Washington, the IMF head’s first in-person meeting with country’s authorities since the fund resumed formal engagement with Venezuela last month.",
+      "published": "31 May 2026 04:59 WIB",
       "sentiment": "Bullish",
-      "score": 0.431,
+      "score": 0.459,
       "emoji": "🟢"
     },
     {
-      "source": "BBC World",
-      "title": "NATO dan UE mengutuk Rusia setelah drone menghantam blok perumahan Rumania",
-      "url": "https://www.bbc.com/news/articles/c93x4nxlkjeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Romania says the Russian drone was likely hit over Ukraine by its air defences and altered its trajectory.",
-      "published": "30 May 2026 00:27 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Brasil Memperluas Tindakan untuk Membatasi Kenaikan Harga Bahan Bakar selama Dua Bulan",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-30/brazil-extends-measures-to-limit-fuel-price-hikes-by-two-months",
+      "summary": "The Brazilian government extended by two months measures to contain the rise in fuel prices triggered by the conflict in Middle East.",
+      "published": "31 May 2026 02:47 WIB",
       "sentiment": "Bearish",
-      "score": -0.691,
+      "score": -0.282,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Paramount Menarik Setiap Tuas untuk Menjual Hutang LBO",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-30/paramount-is-pulling-every-lever-to-sell-lbo-debt-credit-weekly",
+      "summary": "Paramount Skydance Corp. stretched, then stretched, then stretched again in its audacious $110 billion takeover bid for Warner Bros. Discovery Inc.",
+      "published": "31 May 2026 02:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.153,
       "emoji": "🔴"
     },
     {
@@ -187,83 +105,113 @@
       "emoji": "🟢"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Tentara Israel mencapai Nabatieh, salah satu kota terbesar di Lebanon selatan",
-      "url": "https://www.aljazeera.com/news/2026/5/30/israeli-soldiers-reach-nabatieh-one-of-southern-lebanons-biggest-cities?traffic_source=rss",
-      "summary": "Israel’s military has advanced beyond Lebanon's Litani River for the first time since 2006.",
-      "published": "30 May 2026 20:50 WIB",
+      "source": "BBC World",
+      "title": "Editor Star Wars pemenang Oscar Marcia Lucas meninggal pada usia 80 tahun",
+      "url": "https://www.bbc.com/news/articles/cvgzy64j9l1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The film editor and ex-wife of director George Lucas was widely recognised as a pivotal creative force behind the original space trilogy.",
+      "published": "31 May 2026 01:03 WIB",
       "sentiment": "Bullish",
-      "score": 0.273,
+      "score": 0.073,
       "emoji": "🟢"
     },
     {
+      "source": "BBC World",
+      "title": "Ekuador dituduh ikut campur dalam pemilu Kolombia dengan janji tarif",
+      "url": "https://www.bbc.com/news/articles/czx2zndk7elo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ecuadorian leader Daniel Noboa offers to cancel tariffs after speaking to a right-wing presidential candidate ahead of Sunday's vote.",
+      "published": "31 May 2026 03:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.494,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Bagaimana Putin menjadi ahli dalam pencitraan",
+      "url": "https://www.bbc.com/news/articles/cddpl33v247o?at_medium=RSS&at_campaign=rss",
+      "summary": "From enigmatic KGB agent to wartime ruler, this is how Putin has repeatedly reinvented his image, and himself.",
+      "published": "31 May 2026 06:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴"
+    },
+    {
       "source": "Al Jazeera",
-      "title": "Kuba Menyebut Perundingan Guantanamo dengan Jenderal AS 'Positif'",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/cuba-calls-guantanamo-talks-with-u-s-general-positive?traffic_source=rss",
-      "summary": "Senior U.S. and Cuban military officials held a rare face-to-face meeting near Guantanamo Bay.",
-      "published": "30 May 2026 19:49 WIB",
+      "title": "Wawancara eksklusif Al Jazeera dengan faksi pemberontak FARC di Kolombia",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/al-jazeera-exclusive-interview-with-rebel-farc-faction-in-colombia?traffic_source=rss",
+      "summary": "In Colombia, FARC dissidents say they returned to war after a historic peace deal failed to deliver security",
+      "published": "31 May 2026 04:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.34,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Tentara Lebanon ‘terlalu berusaha’ untuk melawan invasi Israel terbaru",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/lebanese-army-overly-stretched-to-fight-off-latest-israeli-invasion?traffic_source=rss",
+      "summary": "Geopolitical analyst Joe Macaron says the Lebanese army is ‘overly stretched’ as Israeli troops expand their occupation.",
+      "published": "31 May 2026 04:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.157,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apakah perang di Ukraina memasuki babak baru?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/5/30/is-the-war-in-ukraine-entering-a-new-phase-2?traffic_source=rss",
+      "summary": "NATO says it is ready to defend allied territory against Russian attacks.",
+      "published": "31 May 2026 03:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.729,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran menegaskan kembali kendali atas Selat Hormuz karena kesepakatan dengan AS masih sulit dicapai",
+      "url": "https://www.aljazeera.com/news/2026/5/30/iran-reasserts-control-over-hormuz-strait-as-deal-with-us-remains-elusive?traffic_source=rss",
+      "summary": "Pentagon chief Pete Hegseth says US 'more than capable' of restarting war if satisfactory deal not reached.",
+      "published": "31 May 2026 02:48 WIB",
+      "sentiment": "Netral",
+      "score": 0.047,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Para pemilih di Malta pergi ke tempat pemungutan suara untuk pemilu dini",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/voters-in-malta-head-to-polls-for-early-elections?traffic_source=rss",
+      "summary": "Maltese voters are at the polls after PM Robert Abela called a snap election.",
+      "published": "31 May 2026 00:20 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mesir memperingatkan Israel bahwa eskalasi yang berbahaya di Gaza mengancam gencatan senjata",
-      "url": "https://www.aljazeera.com/news/2026/5/30/egypt-warns-israel-that-dangerous-gaza-escalations-threaten-ceasefire?traffic_source=rss",
-      "summary": "Egypt races to salvage Gaza ceasefire as Israeli attacks and displacement threats push deal to the brink of collapse.",
-      "published": "30 May 2026 19:04 WIB",
+      "title": "Dua orang tewas, termasuk dokter Palestina, dalam serangan Israel di Gaza",
+      "url": "https://www.aljazeera.com/news/2026/5/30/palestinian-doctor-killed-three-people-injured-in-israeli-attack-on-gaza?traffic_source=rss",
+      "summary": "Several injured in Gaza, while Israeli settlers attack Palestinian homes and property across the occupied West Bank.",
+      "published": "31 May 2026 00:04 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Apa komentar Hegseth di Dialog Shangri-La tentang kebijakan luar negeri AS",
-      "url": "https://www.aljazeera.com/news/2026/5/30/what-hegseths-comments-at-shangri-la-dialogue-say-about-us-foreign-policy?traffic_source=rss",
-      "summary": "The US has addressed defence leaders in Singapore, outlining America's geopolitical goals.",
-      "published": "30 May 2026 18:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.103,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kerusakan terlihat di Israel utara setelah Hizbullah meluncurkan serangan roket",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/damage-seen-in-northern-israel-after-hezbollah-launches-rocket-barrages?traffic_source=rss",
-      "summary": "Israel says it has intercepted an air attack from Hezbollah on Saturday, May 30th.",
-      "published": "30 May 2026 17:13 WIB",
+      "title": "Kasus Ebola yang terkonfirmasi hampir dua kali lipat dalam beberapa hari ketika kepala WHO mengunjungi Republik Demokratik Kongo",
+      "url": "https://www.aljazeera.com/news/2026/5/30/confirmed-ebola-cases-nearly-double-in-days-as-who-chief-visits-dr-congo?traffic_source=rss",
+      "summary": "WHO's Tedros calls for a community-led fight as a rare Ebola strain spreads rapidly through conflict-hit eastern DRC.",
+      "published": "30 May 2026 23:44 WIB",
       "sentiment": "Bearish",
-      "score": -0.823,
+      "score": -0.501,
       "emoji": "🔴"
     },
     {
       "source": "MarketWatch",
-      "title": "Indeks saham tempat Anda berinvestasi tidak selalu merupakan keputusan terpenting. Inilah yang lebih penting.",
-      "url": "https://www.marketwatch.com/story/investing-in-the-dow-or-s-p-500-doesnt-matter-heres-what-actually-does-757aa571?mod=mw_rss_topstories",
-      "summary": "Time in the stock market is more important than index selection — and the Dow’s 130-year history proves it.",
-      "published": "30 May 2026 21:58 WIB",
-      "sentiment": "Bullish",
-      "score": 0.508,
-      "emoji": "🟢"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Persaingan AS-Tiongkok mematikan rantai pasokan global. Portofolio Anda membutuhkan 'keuntungan sebagai tuan rumah'.",
-      "url": "https://www.marketwatch.com/story/the-u-s-china-rivalry-is-killing-global-supply-chains-your-portfolio-needs-a-home-court-advantage-02870253?mod=mw_rss_topstories",
-      "summary": "Globalization is giving way to geopolitical power cartels and a structural shift toward domestic, state-subsidized industries.",
-      "published": "30 May 2026 20:35 WIB",
-      "sentiment": "Bearish",
-      "score": -0.539,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC Forex",
-      "title": "Stok perangkat lunak sedang anjlok. Inilah para pemenangnya",
-      "url": "https://www.cnbc.com/2026/05/29/software-stocks-are-crashing-up-here-are-the-winners.html",
-      "summary": "The rally in software stocks has gone from recovery to raging bull market, and traders are betting there's more to come.",
-      "published": "30 May 2026 01:07 WIB",
+      "title": "Portofolio Anda tidak mampu membayar biaya sebenarnya untuk perang Iran",
+      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
+      "summary": "The Pentagon claims the conflict has cost $29 billion — but the true cost is much higher and it’s fueling inflation.",
+      "published": "31 May 2026 01:18 WIB",
       "sentiment": "Netral",
-      "score": 0.003,
+      "score": -0.007,
       "emoji": "⚪"
     },
     {
