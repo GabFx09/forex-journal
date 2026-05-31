@@ -1,8 +1,8 @@
-// Diperbarui: 31 May 2026 09:42 WIB
+// Diperbarui: 31 May 2026 10:01 WIB
 window.FK_DATA = {
-  "generated": "31 May 2026 09:42 WIB",
+  "generated": "31 May 2026 10:01 WIB",
   "kalender": {
-    "generated": "31 May 2026 09:42 WIB",
+    "generated": "31 May 2026 10:01 WIB",
     "events": [
       {
         "date": "2026-05-31",
@@ -1283,13 +1283,13 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "31 May 2026 09:42 WIB",
+    "generated": "31 May 2026 10:01 WIB",
     "summary": {
-      "total": 41,
+      "total": 40,
       "bullish": 11,
-      "bearish": 22,
+      "bearish": 21,
       "netral": 8,
-      "avg_score": -0.1325,
+      "avg_score": -0.1108,
       "overall": "Bearish",
       "currency_impact": [
         {
@@ -1634,16 +1634,6 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Dua orang tewas, termasuk dokter Palestina, dalam serangan Israel di Gaza",
-        "url": "https://www.aljazeera.com/news/2026/5/30/palestinian-doctor-killed-three-people-injured-in-israeli-attack-on-gaza?traffic_source=rss",
-        "summary": "Several injured in Gaza, while Israeli settlers attack Palestinian homes and property across the occupied West Bank.",
-        "published": "31 May 2026 00:04 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
         "source": "MarketWatch",
         "title": "Amerika kalah dalam perang produktivitas AI karena 3,5 juta lulusan STEM Tiongkok",
         "url": "https://www.marketwatch.com/story/why-america-is-losing-the-ai-productivity-war-to-3-5-million-chinese-stem-graduates-4ffeb298?mod=mw_rss_topstories",
@@ -1726,7 +1716,7 @@ window.FK_DATA = {
     ]
   },
   "geopolitik": {
-    "generated": "31 May 2026 09:42 WIB",
+    "generated": "31 May 2026 10:01 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1932,16 +1922,6 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Dua orang tewas, termasuk dokter Palestina, dalam serangan Israel di Gaza",
-        "url": "https://www.aljazeera.com/news/2026/5/30/palestinian-doctor-killed-three-people-injured-in-israeli-attack-on-gaza?traffic_source=rss",
-        "summary": "Several injured in Gaza, while Israeli settlers attack Palestinian homes and property across the occupied West Bank.",
-        "published": "31 May 2026 00:04 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
         "source": "MarketWatch",
         "title": "Portofolio Anda tidak mampu membayar biaya sebenarnya untuk perang Iran",
         "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
@@ -1984,7 +1964,7 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "31 May 2026 09:42 WIB",
+    "generated": "31 May 2026 10:01 WIB",
     "summary": {
       "total": 30,
       "bullish": 2,
@@ -2297,8 +2277,233 @@ window.FK_DATA = {
     ]
   },
   "rekomendasi": {
-    "generated": "31 May 2026 09:42 WIB",
+    "generated": "31 May 2026 10:01 WIB",
     "pairs": [
+      {
+        "label": "EUR/NZD",
+        "score": 85,
+        "direction": "SELL",
+        "rsi": 15.8,
+        "last_close": "1.94657",
+        "sma20": "1.96814",
+        "sma50": "1.97721",
+        "sma200": "1.98447",
+        "bull": 0,
+        "bear": 5,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "BUY",
+          "fund_score": 0.839,
+          "base": "EUR",
+          "quote": "NZD",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Netral",
+          "base_score": 0.839,
+          "quote_score": 0.0,
+          "base_count": 2,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "NZD/CAD",
+        "score": 84,
+        "direction": "BUY",
+        "rsi": 82.6,
+        "last_close": "0.82592",
+        "sma20": "0.81780",
+        "sma50": "0.81161",
+        "sma200": "0.80805",
+        "bull": 5,
+        "bear": 0,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "SELL",
+          "fund_score": -0.876,
+          "base": "NZD",
+          "quote": "CAD",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.0,
+          "quote_score": 0.876,
+          "base_count": 0,
+          "quote_count": 1
+        }
+      },
+      {
+        "label": "AUD/NZD",
+        "score": 80,
+        "direction": "SELL",
+        "rsi": 23.2,
+        "last_close": "1.19905",
+        "sma20": "1.20803",
+        "sma50": "1.21488",
+        "sma200": "1.21667",
+        "bull": 0,
+        "bear": 5,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": 0.0,
+          "base": "AUD",
+          "quote": "NZD",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Netral",
+          "base_score": 0.0,
+          "quote_score": 0.0,
+          "base_count": 0,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "NZD/JPY",
+        "score": 78,
+        "direction": "BUY",
+        "rsi": 83.3,
+        "last_close": "95.375",
+        "sma20": "94.331",
+        "sma50": "93.621",
+        "sma200": "93.471",
+        "bull": 5,
+        "bear": 0,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": 0.0,
+          "base": "NZD",
+          "quote": "JPY",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Netral",
+          "base_score": 0.0,
+          "quote_score": 0.0,
+          "base_count": 0,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "CHF/JPY",
+        "score": 76,
+        "direction": "BUY",
+        "rsi": 70.4,
+        "last_close": "204.010",
+        "sma20": "203.019",
+        "sma50": "202.601",
+        "sma200": "202.326",
+        "bull": 5,
+        "bear": 0,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": 0.0,
+          "base": "CHF",
+          "quote": "JPY",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Netral",
+          "base_score": 0.0,
+          "quote_score": 0.0,
+          "base_count": 0,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "CAD/CHF",
+        "score": 74,
+        "direction": "SELL",
+        "rsi": 33.1,
+        "last_close": "0.56514",
+        "sma20": "0.56796",
+        "sma50": "0.56919",
+        "sma200": "0.57159",
+        "bull": 0,
+        "bear": 5,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "BUY",
+          "fund_score": 0.876,
+          "base": "CAD",
+          "quote": "CHF",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Netral",
+          "base_score": 0.876,
+          "quote_score": 0.0,
+          "base_count": 1,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "GBP/CHF",
+        "score": 73,
+        "direction": "SELL",
+        "rsi": 35.4,
+        "last_close": "1.05006",
+        "sma20": "1.05465",
+        "sma50": "1.05581",
+        "sma200": "1.05785",
+        "bull": 0,
+        "bear": 5,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": 0.0,
+          "base": "GBP",
+          "quote": "CHF",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Netral",
+          "base_score": 0.0,
+          "quote_score": 0.0,
+          "base_count": 0,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "GBP/AUD",
+        "score": 73,
+        "direction": "SELL",
+        "rsi": 35.7,
+        "last_close": "1.87246",
+        "sma20": "1.87833",
+        "sma50": "1.88058",
+        "sma200": "1.88195",
+        "bull": 0,
+        "bear": 5,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": 0.0,
+          "base": "GBP",
+          "quote": "AUD",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Netral",
+          "base_score": 0.0,
+          "quote_score": 0.0,
+          "base_count": 0,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "NZD/CHF",
+        "score": 71,
+        "direction": "BUY",
+        "rsi": 71.5,
+        "last_close": "0.46727",
+        "sma20": "0.46456",
+        "sma50": "0.46202",
+        "sma200": "0.46192",
+        "bull": 5,
+        "bear": 0,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": 0.0,
+          "base": "NZD",
+          "quote": "CHF",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Netral",
+          "base_score": 0.0,
+          "quote_score": 0.0,
+          "base_count": 0,
+          "quote_count": 0
+        }
+      },
       {
         "label": "USD/CHF",
         "score": 69,
@@ -2310,7 +2515,44 @@ window.FK_DATA = {
         "sma200": "0.78351",
         "bull": 1,
         "bear": 4,
-        "total_sigs": 5
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "BUY",
+          "fund_score": 0.15,
+          "base": "USD",
+          "quote": "CHF",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Netral",
+          "base_score": 0.15,
+          "quote_score": 0.0,
+          "base_count": 2,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "AUD/JPY",
+        "score": 65,
+        "direction": "BUY",
+        "rsi": 62.2,
+        "last_close": "114.408",
+        "sma20": "113.978",
+        "sma50": "113.757",
+        "sma200": "113.740",
+        "bull": 5,
+        "bear": 0,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": 0.0,
+          "base": "AUD",
+          "quote": "JPY",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Netral",
+          "base_score": 0.0,
+          "quote_score": 0.0,
+          "base_count": 0,
+          "quote_count": 0
+        }
       },
       {
         "label": "NZD/USD",
@@ -2323,7 +2565,219 @@ window.FK_DATA = {
         "sma200": "0.58982",
         "bull": 4,
         "bear": 1,
-        "total_sigs": 5
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "SELL",
+          "fund_score": -0.15,
+          "base": "NZD",
+          "quote": "USD",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.0,
+          "quote_score": 0.15,
+          "base_count": 0,
+          "quote_count": 2
+        }
+      },
+      {
+        "label": "EUR/CAD",
+        "score": 61,
+        "direction": "BUY",
+        "rsi": 55.3,
+        "last_close": "1.60811",
+        "sma20": "1.60778",
+        "sma50": "1.60399",
+        "sma200": "1.60368",
+        "bull": 5,
+        "bear": 0,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": -0.037,
+          "base": "EUR",
+          "quote": "CAD",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.839,
+          "quote_score": 0.876,
+          "base_count": 2,
+          "quote_count": 1
+        }
+      },
+      {
+        "label": "EUR/CHF",
+        "score": 60,
+        "direction": "SELL",
+        "rsi": 35.3,
+        "last_close": "0.91017",
+        "sma20": "0.91362",
+        "sma50": "0.91341",
+        "sma200": "0.91679",
+        "bull": 1,
+        "bear": 4,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "BUY",
+          "fund_score": 0.839,
+          "base": "EUR",
+          "quote": "CHF",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Netral",
+          "base_score": 0.839,
+          "quote_score": 0.0,
+          "base_count": 2,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "AUD/CAD",
+        "score": 58,
+        "direction": "BUY",
+        "rsi": 59.6,
+        "last_close": "0.99004",
+        "sma20": "0.98802",
+        "sma50": "0.98610",
+        "sma200": "0.98324",
+        "bull": 4,
+        "bear": 1,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "SELL",
+          "fund_score": -0.876,
+          "base": "AUD",
+          "quote": "CAD",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.0,
+          "quote_score": 0.876,
+          "base_count": 0,
+          "quote_count": 1
+        }
+      },
+      {
+        "label": "EUR/GBP",
+        "score": 55,
+        "direction": "BUY",
+        "rsi": 56.8,
+        "last_close": "0.86682",
+        "sma20": "0.86621",
+        "sma50": "0.86505",
+        "sma200": "0.86657",
+        "bull": 4,
+        "bear": 1,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "BUY",
+          "fund_score": 0.839,
+          "base": "EUR",
+          "quote": "GBP",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Netral",
+          "base_score": 0.839,
+          "quote_score": 0.0,
+          "base_count": 2,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "EUR/JPY",
+        "score": 53,
+        "direction": "BUY",
+        "rsi": 63.2,
+        "last_close": "185.709",
+        "sma20": "185.451",
+        "sma50": "185.035",
+        "sma200": "185.508",
+        "bull": 4,
+        "bear": 1,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "BUY",
+          "fund_score": 0.839,
+          "base": "EUR",
+          "quote": "JPY",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Netral",
+          "base_score": 0.839,
+          "quote_score": 0.0,
+          "base_count": 2,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "EUR/AUD",
+        "score": 50,
+        "direction": "SELL",
+        "rsi": 41.3,
+        "last_close": "1.62266",
+        "sma20": "1.62708",
+        "sma50": "1.62685",
+        "sma200": "1.63093",
+        "bull": 1,
+        "bear": 4,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "BUY",
+          "fund_score": 0.839,
+          "base": "EUR",
+          "quote": "AUD",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Netral",
+          "base_score": 0.839,
+          "quote_score": 0.0,
+          "base_count": 2,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "GBP/JPY",
+        "score": 26,
+        "direction": "WAIT",
+        "rsi": 53.7,
+        "last_close": "214.235",
+        "sma20": "214.085",
+        "sma50": "213.889",
+        "sma200": "214.060",
+        "bull": 3,
+        "bear": 2,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": 0.0,
+          "base": "GBP",
+          "quote": "JPY",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Netral",
+          "base_score": 0.0,
+          "quote_score": 0.0,
+          "base_count": 0,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "CAD/JPY",
+        "score": 26,
+        "direction": "WAIT",
+        "rsi": 53.3,
+        "last_close": "115.423",
+        "sma20": "115.333",
+        "sma50": "115.339",
+        "sma200": "115.665",
+        "bull": 2,
+        "bear": 3,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "BUY",
+          "fund_score": 0.876,
+          "base": "CAD",
+          "quote": "JPY",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Netral",
+          "base_score": 0.876,
+          "quote_score": 0.0,
+          "base_count": 1,
+          "quote_count": 0
+        }
       },
       {
         "label": "AUD/USD",
@@ -2336,7 +2790,19 @@ window.FK_DATA = {
         "sma200": "0.71767",
         "bull": 3,
         "bear": 2,
-        "total_sigs": 5
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "SELL",
+          "fund_score": -0.15,
+          "base": "AUD",
+          "quote": "USD",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.0,
+          "quote_score": 0.15,
+          "base_count": 0,
+          "quote_count": 2
+        }
       },
       {
         "label": "EUR/USD",
@@ -2349,20 +2815,19 @@ window.FK_DATA = {
         "sma200": "1.17049",
         "bull": 3,
         "bear": 2,
-        "total_sigs": 5
-      },
-      {
-        "label": "GBP/USD",
-        "score": 20,
-        "direction": "WAIT",
-        "rsi": 53.4,
-        "last_close": "1.34570",
-        "sma20": "1.34367",
-        "sma50": "1.34409",
-        "sma200": "1.35030",
-        "bull": 2,
-        "bear": 3,
-        "total_sigs": 5
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "BUY",
+          "fund_score": 0.689,
+          "base": "EUR",
+          "quote": "USD",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.839,
+          "quote_score": 0.15,
+          "base_count": 2,
+          "quote_count": 2
+        }
       },
       {
         "label": "USD/CAD",
@@ -2375,7 +2840,44 @@ window.FK_DATA = {
         "sma200": "1.37064",
         "bull": 2,
         "bear": 3,
-        "total_sigs": 5
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "SELL",
+          "fund_score": -0.726,
+          "base": "USD",
+          "quote": "CAD",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.15,
+          "quote_score": 0.876,
+          "base_count": 2,
+          "quote_count": 1
+        }
+      },
+      {
+        "label": "GBP/USD",
+        "score": 20,
+        "direction": "WAIT",
+        "rsi": 53.4,
+        "last_close": "1.34570",
+        "sma20": "1.34367",
+        "sma50": "1.34409",
+        "sma200": "1.35030",
+        "bull": 2,
+        "bear": 3,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "SELL",
+          "fund_score": -0.15,
+          "base": "GBP",
+          "quote": "USD",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.0,
+          "quote_score": 0.15,
+          "base_count": 0,
+          "quote_count": 2
+        }
       },
       {
         "label": "USD/JPY",
@@ -2388,9 +2890,46 @@ window.FK_DATA = {
         "sma200": "158.541",
         "bull": 3,
         "bear": 2,
-        "total_sigs": 5
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "BUY",
+          "fund_score": 0.15,
+          "base": "USD",
+          "quote": "JPY",
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Netral",
+          "base_score": 0.15,
+          "quote_score": 0.0,
+          "base_count": 2,
+          "quote_count": 0
+        }
+      },
+      {
+        "label": "GBP/CAD",
+        "score": 12,
+        "direction": "WAIT",
+        "rsi": 50.0,
+        "last_close": "1.85547",
+        "sma20": "1.85602",
+        "sma50": "1.85410",
+        "sma200": "1.85049",
+        "bull": 3,
+        "bear": 2,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "SELL",
+          "fund_score": -0.876,
+          "base": "GBP",
+          "quote": "CAD",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.0,
+          "quote_score": 0.876,
+          "base_count": 0,
+          "quote_count": 1
+        }
       }
     ],
-    "total": 7
+    "total": 26
   }
 };

@@ -1,11 +1,11 @@
 {
-  "generated": "31 May 2026 09:42 WIB",
+  "generated": "31 May 2026 10:01 WIB",
   "summary": {
-    "total": 41,
+    "total": 40,
     "bullish": 11,
-    "bearish": 22,
+    "bearish": 21,
     "netral": 8,
-    "avg_score": -0.1325,
+    "avg_score": -0.1108,
     "overall": "Bearish",
     "currency_impact": [
       {
@@ -348,16 +348,6 @@
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Dua orang tewas, termasuk dokter Palestina, dalam serangan Israel di Gaza",
-      "url": "https://www.aljazeera.com/news/2026/5/30/palestinian-doctor-killed-three-people-injured-in-israeli-attack-on-gaza?traffic_source=rss",
-      "summary": "Several injured in Gaza, while Israeli settlers attack Palestinian homes and property across the occupied West Bank.",
-      "published": "31 May 2026 00:04 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
     },
     {
       "source": "MarketWatch",

@@ -1,5 +1,5 @@
 {
-  "generated": "31 May 2026 09:42 WIB",
+  "generated": "31 May 2026 10:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -203,16 +203,6 @@
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Dua orang tewas, termasuk dokter Palestina, dalam serangan Israel di Gaza",
-      "url": "https://www.aljazeera.com/news/2026/5/30/palestinian-doctor-killed-three-people-injured-in-israeli-attack-on-gaza?traffic_source=rss",
-      "summary": "Several injured in Gaza, while Israeli settlers attack Palestinian homes and property across the occupied West Bank.",
-      "published": "31 May 2026 00:04 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
     },
     {
       "source": "MarketWatch",
