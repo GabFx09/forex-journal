@@ -1,11 +1,11 @@
 {
-  "generated": "31 May 2026 07:01 WIB",
+  "generated": "31 May 2026 09:42 WIB",
   "summary": {
-    "total": 40,
-    "bullish": 9,
-    "bearish": 23,
+    "total": 41,
+    "bullish": 11,
+    "bearish": 22,
     "netral": 8,
-    "avg_score": -0.127,
+    "avg_score": -0.1325,
     "overall": "Bearish",
     "currency_impact": [
       {
@@ -37,6 +37,36 @@
       "published": "31 May 2026 04:34 WIB",
       "sentiment": "Bullish",
       "score": 0.876,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "AS mengatakan pihaknya menyerang kapal lain di Pasifik timur, menewaskan tiga orang",
+      "url": "https://www.investing.com/news/stock-market-news/us-says-it-struck-another-vessel-in-eastern-pacific-killing-three-4717813",
+      "summary": "",
+      "published": "31 May 2026 09:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.751,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Gubernur New Jersey mengaitkan meningkatnya ketegangan di sekitar pusat penahanan imigran dengan pembuat onar di luar negara bagian",
+      "url": "https://www.investing.com/news/stock-market-news/new-jersey-governor-links-rising-tension-around-immigrant-detention-center-to-outofstate-troublemakers-4717807",
+      "summary": "",
+      "published": "31 May 2026 08:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.871,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Investor tidak hanya memperhatikan pembuat chip saja, namun juga melihat gelombang pemenang AI berikutnya di Asia",
+      "url": "https://www.investing.com/news/stock-market-news/investors-look-beyond-chipmakers-for-next-wave-of-ai-winners-in-asia-4717806",
+      "summary": "",
+      "published": "31 May 2026 07:40 WIB",
+      "sentiment": "Bullish",
+      "score": 0.477,
       "emoji": "🟢"
     },
     {
@@ -110,34 +140,14 @@
       "emoji": "⚪"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Polisi negara bagian New Jersey menegaskan kontrol di luar pusat penahanan migran",
-      "url": "https://www.investing.com/news/stock-market-news/new-jersey-state-police-assert-control-outside-migrant-detention-center-4717585",
-      "summary": "",
-      "published": "30 May 2026 20:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.361,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Kombinasi obat kanker darah Incyte mengurangi risiko perkembangan penyakit tetapi dengan tingkat efek samping yang tinggi",
-      "url": "https://www.investing.com/news/stock-market-news/incyte-blood-cancer-drug-combo-reduces-diseaseprogression-risk-but-with-high-sideeffect-rate-4717753",
-      "summary": "",
-      "published": "30 May 2026 19:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.582,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Pengadilan membuka jalan bagi Texas untuk menegakkan hukum penangkapan migran",
-      "url": "https://www.investing.com/news/stock-market-news/court-clears-way-for-texas-to-enforce-migrant-arrest-law-4717577",
-      "summary": "",
-      "published": "30 May 2026 09:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.273,
-      "emoji": "🔴"
+      "source": "Bloomberg Markets",
+      "title": "Filipina Mengupayakan Hubungan Lebih Dekat dengan Musuh Tiongkok",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-31/philippines-seeks-closer-ties-with-china-s-adversaries-video",
+      "summary": "Philippine Defense Secretary Gilberto Teodoro outlines deepening military ties with a network of US allies and tells Bloomberg's Haslinda Amin why it's important to work together on military deterrence. They speak on the sidelines of the Shangri-La Dialogue in Singapore. (Source: Bloomberg)",
+      "published": "31 May 2026 09:35 WIB",
+      "sentiment": "Bullish",
+      "score": 0.077,
+      "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
@@ -271,6 +281,16 @@
     },
     {
       "source": "Al Jazeera",
+      "title": "Perang Iran langsung: PM Lebanon mengecam serangan Israel; Kesepakatan AS-Teheran dalam ketidakpastian",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/31/iran-war-live-lebanon-accuses-israel-of-scorched-earth-policy?traffic_source=rss",
+      "summary": "Lebanese PM describes Israel's attacks as collective punishment as US warns Iran of strikes if no deal is reached.",
+      "published": "31 May 2026 07:00 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Kongres AS memajukan rencana integrasi militer Amerika-Israel",
       "url": "https://www.aljazeera.com/news/2026/5/30/us-congress-advances-american-israeli-military-integration-plan?traffic_source=rss",
       "summary": "A provision in the 2027 draft US defence bill could bind the two countries' weapons industries closer than ever.",
@@ -340,16 +360,6 @@
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Kasus Ebola yang terkonfirmasi hampir dua kali lipat dalam beberapa hari ketika kepala WHO mengunjungi Republik Demokratik Kongo",
-      "url": "https://www.aljazeera.com/news/2026/5/30/confirmed-ebola-cases-nearly-double-in-days-as-who-chief-visits-dr-congo?traffic_source=rss",
-      "summary": "WHO's Tedros calls for a community-led fight as a rare Ebola strain spreads rapidly through conflict-hit eastern DRC.",
-      "published": "30 May 2026 23:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.501,
-      "emoji": "🔴"
-    },
-    {
       "source": "MarketWatch",
       "title": "Amerika kalah dalam perang produktivitas AI karena 3,5 juta lulusan STEM Tiongkok",
       "url": "https://www.marketwatch.com/story/why-america-is-losing-the-ai-productivity-war-to-3-5-million-chinese-stem-graduates-4ffeb298?mod=mw_rss_topstories",
@@ -411,7 +421,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Stok pertahanan Eropa melemah setelah lonjakan belanja militer. Inilah yang selanjutnya",
+      "title": "Persediaan pertahanan Eropa melemah setelah lonjakan belanja militer. Inilah yang selanjutnya",
       "url": "https://www.cnbc.com/2026/05/30/defense-stocks-consolidation-rheinmetall-saab-renk.html",
       "summary": "Analysts see 2026 as a period of consolidation for the sector, as excitement over Europe's increased defense budget is replaced by company-specific drivers.",
       "published": "30 May 2026 13:01 WIB",

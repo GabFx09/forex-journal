@@ -1,5 +1,5 @@
 {
-  "generated": "31 May 2026 07:01 WIB",
+  "generated": "31 May 2026 09:42 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.144,
+      "score": -0.194,
       "count": 10
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.144,
+      "score": -0.194,
       "count": 10
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.093,
-      "count": 7
+      "score": -0.206,
+      "count": 8
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.257,
-      "count": 5
+      "score": -0.196,
+      "count": 4
     },
     {
       "pair": "EUR",
@@ -54,6 +54,16 @@
     }
   ],
   "items": [
+    {
+      "source": "Bloomberg Markets",
+      "title": "Filipina Mengupayakan Hubungan Lebih Dekat dengan Musuh Tiongkok",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-31/philippines-seeks-closer-ties-with-china-s-adversaries-video",
+      "summary": "Philippine Defense Secretary Gilberto Teodoro outlines deepening military ties with a network of US allies and tells Bloomberg's Haslinda Amin why it's important to work together on military deterrence. They speak on the sidelines of the Shangri-La Dialogue in Singapore. (Source: Bloomberg)",
+      "published": "31 May 2026 09:35 WIB",
+      "sentiment": "Bullish",
+      "score": 0.077,
+      "emoji": "🟢"
+    },
     {
       "source": "Bloomberg Markets",
       "title": "Mengapa Pasar Obligasi Inggris Membunyikan Alarm",
@@ -136,6 +146,16 @@
     },
     {
       "source": "Al Jazeera",
+      "title": "Perang Iran langsung: PM Lebanon mengecam serangan Israel; Kesepakatan AS-Teheran dalam ketidakpastian",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/31/iran-war-live-lebanon-accuses-israel-of-scorched-earth-policy?traffic_source=rss",
+      "summary": "Lebanese PM describes Israel's attacks as collective punishment as US warns Iran of strikes if no deal is reached.",
+      "published": "31 May 2026 07:00 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Wawancara eksklusif Al Jazeera dengan faksi pemberontak FARC di Kolombia",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/al-jazeera-exclusive-interview-with-rebel-farc-faction-in-colombia?traffic_source=rss",
       "summary": "In Colombia, FARC dissidents say they returned to war after a historic peace deal failed to deliver security",
@@ -192,16 +212,6 @@
       "published": "31 May 2026 00:04 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kasus Ebola yang terkonfirmasi hampir dua kali lipat dalam beberapa hari ketika kepala WHO mengunjungi Republik Demokratik Kongo",
-      "url": "https://www.aljazeera.com/news/2026/5/30/confirmed-ebola-cases-nearly-double-in-days-as-who-chief-visits-dr-congo?traffic_source=rss",
-      "summary": "WHO's Tedros calls for a community-led fight as a rare Ebola strain spreads rapidly through conflict-hit eastern DRC.",
-      "published": "30 May 2026 23:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.501,
       "emoji": "🔴"
     },
     {
