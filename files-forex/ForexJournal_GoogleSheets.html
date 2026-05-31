@@ -702,6 +702,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
     <button class="nb" onclick="showTab('kalender',this)">📅 Kalender</button>
     <button class="nb" onclick="showTab('sentimen',this)">📊 Sentimen</button>
     <button class="nb" onclick="showTab('geopolitik',this)">🌍 Geopolitik</button>
+    <button class="nb" onclick="showTab('rekomend',this)">🎯 Rekomendasi</button>
     <button class="nb" onclick="showTab('transaksi',this)">💳 Transaksi</button>
   </div>
 
@@ -1190,6 +1191,11 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
       <div id="geo-content"></div>
     </div>
 
+    <!-- ═══ REKOMENDASI TEKNIKAL ═══ -->
+    <div id="tab-rekomend" class="tab">
+      <div id="rekomend-content"></div>
+    </div>
+
     <!-- TRANSAKSI (DEPO / WD) -->
     <div id="tab-transaksi" class="tab">
       <div class="card">
@@ -1316,6 +1322,7 @@ function showTab(name, btn) {
   if(name==='kalender')   renderKalender();
   if(name==='sentimen')   renderSentimen();
   if(name==='geopolitik') renderGeopolitik();
+  if(name==='rekomend')   renderRekomend();
   if(name==='transaksi')  renderTxn();
 }
 
@@ -1764,6 +1771,284 @@ function renderGeopolitik() {
   ${_section(`🟢 Peristiwa Positif/Bullish (${bull.length})`,bullS,15,i=>_newsCard(i,true))}
   ${_section(`⚪ Peristiwa Netral (${net.length})`,net,10,i=>_newsCard(i,true))}`;
   _translateAll('geo-content');
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  REKOMENDASI TEKNIKAL (4H) — Yahoo Finance live
+// ═══════════════════════════════════════════════════════════════
+const _RK_PAIRS = [
+  {sym:'EURUSD=X', label:'EUR/USD'},
+  {sym:'GBPUSD=X', label:'GBP/USD'},
+  {sym:'USDJPY=X', label:'USD/JPY'},
+  {sym:'USDCHF=X', label:'USD/CHF'},
+  {sym:'USDCAD=X', label:'USD/CAD'},
+  {sym:'AUDUSD=X', label:'AUD/USD'},
+  {sym:'NZDUSD=X', label:'NZD/USD'},
+];
+let _rkCache = null;
+
+function _rkRSI(c, p=14) {
+  if (c.length < p+1) return 50;
+  let ag=0, al=0;
+  for (let i=1; i<=p; i++) { const d=c[i]-c[i-1]; if(d>0) ag+=d; else al-=d; }
+  ag/=p; al/=p;
+  for (let i=p+1; i<c.length; i++) {
+    const d=c[i]-c[i-1];
+    ag=(ag*(p-1)+Math.max(d,0))/p;
+    al=(al*(p-1)+Math.max(-d,0))/p;
+  }
+  if (al===0) return 100;
+  return 100-(100/(1+ag/al));
+}
+
+function _rkSMA(c, p) {
+  if (c.length < p) return null;
+  return c.slice(-p).reduce((a,b)=>a+b,0)/p;
+}
+
+function _rkCompute(opens, closes, pair) {
+  const n = closes.length;
+  if (n < 20) throw new Error('Data tidak cukup');
+  const last = closes[n-1];
+  const rsi   = _rkRSI(closes, 14);
+  const sma20  = _rkSMA(closes, 20);
+  const sma50  = _rkSMA(closes, 50);
+  const sma200 = _rkSMA(closes, 200);
+  const sigs = [
+    last>sma20?1:-1,
+    sma20>sma50?1:-1,
+    sma50&&sma200?(sma50>sma200?1:-1):0,
+    rsi>50?1:-1,
+    closes.slice(-5).map((c,i)=>c>opens[n-5+i]?1:-1).reduce((a,b)=>a+b,0)>0?1:-1,
+  ].filter(s=>s!==0);
+  const bull=sigs.filter(s=>s>0).length, bear=sigs.filter(s=>s<0).length;
+  const direction=bull>=4?'BUY':bear>=4?'SELL':'WAIT';
+  const dirColor=direction==='BUY'?'var(--grn)':direction==='SELL'?'var(--red)':'var(--sub)';
+  const rsiScore=Math.round(Math.abs(rsi-50)/50*30);
+  let maAligned=0;
+  if(direction!=='WAIT'){
+    const up=direction==='BUY';
+    if(up?last>sma20:last<sma20) maAligned++;
+    if(up?sma20>sma50:sma20<sma50) maAligned++;
+    if(sma50&&sma200&&(up?sma50>sma200:sma50<sma200)) maAligned++;
+  }
+  const maScore=[0,13,27,40][maAligned];
+  const l5bull=closes.slice(-5).map((c,i)=>c>opens[n-5+i]).filter(Boolean).length;
+  const momScore=Math.round((direction==='BUY'?l5bull:5-l5bull)/5*30);
+  const score=Math.min(100,rsiScore+maScore+momScore);
+  const dp=pair.sym.includes('JPY')?3:5;
+  const fmt=v=>v?v.toFixed(dp):'—';
+  return {label:pair.label, score, direction, dirColor,
+          rsi:Math.round(rsi*10)/10, lastClose:fmt(last),
+          sma20:fmt(sma20), sma50:fmt(sma50), sma200:fmt(sma200),
+          bull, bear, total:sigs.length};
+}
+
+async function _rkFetch(pair) {
+  const sym = pair.sym;
+  const yhUrl  = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=4h&range=90d`;
+  const yh2Url = `https://query2.finance.yahoo.com/v8/finance/chart/${sym}?interval=4h&range=90d`;
+
+  // Twelve Data (reliable CORS) — pakai jika API key tersedia
+  const tdKey = localStorage.getItem('rk_td_key');
+  if (tdKey) {
+    const tdSym = sym.replace('=X','').replace(/^(.{3})(.{3})$/, '$1/$2');
+    try {
+      const r = await fetch(
+        `https://api.twelvedata.com/time_series?symbol=${encodeURIComponent(tdSym)}&interval=4h&outputsize=200&apikey=${tdKey}`,
+        {signal:AbortSignal.timeout(12000)}
+      );
+      if (r.ok) {
+        const j = await r.json();
+        if (j.values?.length) {
+          const vals = [...j.values].reverse();
+          return _rkCompute(vals.map(v=>+v.open), vals.map(v=>+v.close), pair);
+        }
+        if (j.status==='error') throw new Error('TD: '+j.message);
+      }
+    } catch(e) { if(e.message?.startsWith('TD:')) throw e; }
+  }
+
+  // Yahoo Finance — coba langsung lalu via beberapa proxy
+  const proxies = [
+    yhUrl,
+    yh2Url,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(yhUrl)}`,
+    `https://corsproxy.io/?${encodeURIComponent(yhUrl)}`,
+    `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(yhUrl)}`,
+  ];
+  for (const url of proxies) {
+    try {
+      const r = await fetch(url, {signal:AbortSignal.timeout(12000)});
+      if (!r.ok) continue;
+      const j = await r.json();
+      if (!j.chart?.result?.[0]) continue;
+      const q = j.chart.result[0].indicators.quote[0];
+      const valid = q.close.map((c,i)=>[q.open[i],c]).filter(([o,c])=>o!=null&&c!=null);
+      if (valid.length < 20) continue;
+      return _rkCompute(valid.map(v=>v[0]), valid.map(v=>v[1]), pair);
+    } catch(_) {}
+  }
+  throw new Error('no_data');
+}
+
+function _rkSaveKey() {
+  const inp = document.getElementById('rk-apikey-input');
+  const key = inp?.value?.trim();
+  if (!key) { toast('Masukkan API Key terlebih dahulu.'); return; }
+  localStorage.setItem('rk_td_key', key);
+  _rkCache = null;
+  toast('✅ API Key disimpan — memuat data...');
+  renderRekomend();
+}
+
+function _rkClearKey() {
+  localStorage.removeItem('rk_td_key');
+  _rkCache = null;
+  toast('🗑 API Key dihapus.');
+  renderRekomend();
+}
+
+function _rkRsiBar(rsi) {
+  const pos = Math.max(2, Math.min(98, rsi));
+  const col = rsi<30?'var(--grn)':rsi>70?'var(--red)':'var(--gold)';
+  const zone = rsi<30?'Oversold':rsi>70?'Overbought':rsi<45?'Bearish':rsi>55?'Bullish':'Netral';
+  return `<div style="margin:7px 0 10px">
+    <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+      <span style="font-size:10px;color:var(--sub)">RSI(14)</span>
+      <span style="font-family:var(--mono);font-size:11px;font-weight:600;color:${col}">${rsi} <span style="opacity:.65;font-weight:400">— ${zone}</span></span>
+    </div>
+    <div style="height:6px;background:linear-gradient(90deg,#22c55e 0%,#64748b 30%,#64748b 70%,#ef4444 100%);border-radius:3px;position:relative">
+      <div style="position:absolute;left:30%;top:-2px;width:1px;height:10px;background:rgba(255,255,255,.3)"></div>
+      <div style="position:absolute;left:70%;top:-2px;width:1px;height:10px;background:rgba(255,255,255,.3)"></div>
+      <div style="position:absolute;left:calc(${pos}% - 5px);top:-3px;width:10px;height:12px;background:${col};border-radius:3px;border:2px solid rgba(0,0,0,.5)"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-top:3px">
+      <span style="font-size:9px;color:var(--grn)">0 ← Oversold 30</span>
+      <span style="font-size:9px;color:var(--red)">70 Overbought → 100</span>
+    </div>
+  </div>`;
+}
+
+function _rkMaRow(label, val, price) {
+  const pF=parseFloat(price), vF=parseFloat(val);
+  const ok=val!=='—'&&!isNaN(pF)&&!isNaN(vF);
+  const up=ok&&pF>vF;
+  const col=ok?(up?'var(--grn)':'var(--red)'):'var(--mut)';
+  const tag=ok?`<span style="font-size:9px;opacity:.6">${up?'↑ di atas':'↓ di bawah'}</span>`:'';
+  return `<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid var(--bdr)">
+    <span style="font-size:11px;color:var(--sub)">${label}</span>
+    <span style="font-family:var(--mono);font-size:11px;color:${col}">${val} ${tag}</span>
+  </div>`;
+}
+
+function _rkSignalText(r) {
+  if (r.direction==='WAIT') return `Sinyal tidak konsisten (${r.bull} bullish vs ${r.bear} bearish dari ${r.total} indikator). Tunggu konfirmasi lebih lanjut sebelum entry.`;
+  const maj = r.direction==='BUY'?r.bull:r.bear;
+  let t = `${maj}/${r.total} indikator ${r.direction==='BUY'?'bullish':'bearish'}.`;
+  if (r.rsi<30)      t+=' RSI oversold — potensi reversal naik.';
+  else if (r.rsi>70) t+=' RSI overbought — potensi koreksi turun.';
+  else if (r.rsi<40&&r.direction==='BUY')   t+=' RSI mendekati zona bullish.';
+  else if (r.rsi>60&&r.direction==='SELL')  t+=' RSI mendekati zona bearish.';
+  return t;
+}
+
+function _rkDetailCard(r) {
+  const bdr = r.direction==='BUY'?'rgba(34,197,94,.22)':r.direction==='SELL'?'rgba(239,68,68,.22)':'rgba(100,116,139,.15)';
+  const bg  = r.direction==='BUY'?'rgba(34,197,94,.04)':r.direction==='SELL'?'rgba(239,68,68,.04)':'transparent';
+  const dirBg = r.direction==='BUY'?'var(--grn-d)':r.direction==='SELL'?'var(--red-d)':'rgba(100,116,139,.12)';
+  const sCol  = r.score>=70?'var(--grn)':r.score>=45?'var(--gold)':'var(--sub)';
+  return `<div class="card" style="border:1px solid ${bdr};background:${bg};margin-bottom:10px;padding:14px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+      <div style="display:flex;align-items:center;gap:9px">
+        <span style="font-family:var(--mono);font-size:15px;font-weight:700;color:var(--txt2)">${r.label}</span>
+        <span style="background:${dirBg};color:${r.dirColor};padding:3px 10px;border-radius:5px;font-size:11px;font-weight:700;letter-spacing:.03em">${r.direction}</span>
+      </div>
+      <div style="text-align:right">
+        <span style="font-size:24px;font-weight:800;font-family:var(--mono);color:${sCol}">${r.score}</span><span style="font-size:10px;color:var(--sub)">/100</span>
+      </div>
+    </div>
+    <div style="font-family:var(--mono);font-size:12px;color:var(--sub);margin-bottom:8px">
+      Harga Terakhir: <strong style="color:var(--txt2)">${r.lastClose}</strong>
+    </div>
+    ${_rkRsiBar(r.rsi)}
+    <div style="margin-bottom:10px">
+      ${_rkMaRow('SMA 20', r.sma20, r.lastClose)}
+      ${_rkMaRow('SMA 50', r.sma50, r.lastClose)}
+      ${_rkMaRow('SMA 200', r.sma200, r.lastClose)}
+    </div>
+    <div style="background:rgba(255,255,255,.03);border:1px solid var(--bdr);border-radius:7px;padding:9px 11px">
+      <div style="font-size:9px;font-weight:600;color:var(--sub);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">Analisis</div>
+      <div style="font-size:11px;color:var(--txt);line-height:1.6">${_rkSignalText(r)}</div>
+    </div>
+  </div>`;
+}
+
+function renderRekomend() {
+  const el = $('rekomend-content');
+  if (!window.FK_DATA) { el.innerHTML = _noData(); return; }
+  const { rekomendasi } = window.FK_DATA;
+  if (!rekomendasi || !rekomendasi.pairs?.length) {
+    el.innerHTML = _noData('Jalankan <b>forex_news_digest.py</b> untuk menghasilkan data rekomendasi teknikal.');
+    return;
+  }
+
+  // Normalisasi field Python (snake_case) → field yang dipakai helper render
+  const results = rekomendasi.pairs.map(p => ({
+    ...p,
+    lastClose: p.last_close,
+    total:     p.total_sigs,
+    dirColor:  p.direction==='BUY'?'var(--grn)':p.direction==='SELL'?'var(--red)':'var(--sub)',
+  }));
+
+  const header = `<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+    <div class="ct" style="margin-bottom:0">🎯 Rekomendasi Teknikal — 4H</div>
+    ${_badge(rekomendasi.generated)}
+  </div>`;
+
+  const rows = results.map((r,i)=>{
+    const rank=i+1;
+    const rC  = rank===1?'var(--gold)':rank===2?'#94a3b8':rank===3?'#cd7c2e':'var(--sub)';
+    const dBg = r.direction==='BUY'?'var(--grn-d)':r.direction==='SELL'?'var(--red-d)':'rgba(100,116,139,.12)';
+    const sC  = r.score>=70?'var(--grn)':r.score>=45?'var(--gold)':'var(--sub)';
+    const rC2 = r.rsi<30?'var(--grn)':r.rsi>70?'var(--red)':r.rsi<40?'#86efac':r.rsi>60?'#fca5a5':'var(--sub)';
+    return `<tr style="border-top:1px solid var(--bdr)">
+      <td style="padding:9px 10px;text-align:center;font-weight:800;color:${rC};font-size:13px">${rank}</td>
+      <td style="padding:9px 12px;font-family:var(--mono);font-weight:700;color:var(--txt2)">${r.label}</td>
+      <td style="padding:9px 12px">
+        <span style="font-family:var(--mono);font-weight:700;color:${sC};font-size:14px">${r.score}</span>
+        <div style="margin-top:3px;height:4px;width:56px;background:var(--mut);border-radius:2px;overflow:hidden">
+          <div style="width:${r.score}%;height:100%;background:${r.score>=70?'var(--grn)':r.score>=45?'var(--gold)':'var(--red)'};border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="padding:9px 12px"><span style="background:${dBg};color:${r.dirColor};padding:2px 9px;border-radius:4px;font-size:11px;font-weight:700">${r.direction}</span></td>
+      <td style="padding:9px 12px;font-family:var(--mono);font-size:12px;color:${rC2}">${r.rsi}</td>
+      <td style="padding:9px 12px;font-family:var(--mono);font-size:12px;color:var(--sub)">${r.lastClose}</td>
+    </tr>`;
+  }).join('');
+
+  const ranking = `<div class="card" style="padding:0;overflow:hidden;margin-bottom:14px">
+    <div style="padding:10px 14px;border-bottom:1px solid var(--bdr);display:flex;justify-content:space-between;align-items:center">
+      <span style="font-size:11px;font-weight:600;color:var(--sub)">🏆 RANKING HARI INI</span>
+      <span style="font-size:10px;color:var(--mut)">Skor 0–100 · Timeframe 4H</span>
+    </div>
+    <table class="tbl" style="margin:0">
+      <thead><tr><th style="width:36px">#</th><th>PASANGAN</th><th>SKOR</th><th>SINYAL</th><th>RSI(14)</th><th>HARGA</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+
+  const legend = `<div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px;font-size:10px;color:var(--sub);padding:0 2px">
+    <span>📊 Komponen skor:</span>
+    <span style="color:var(--gold)">RSI extremity (0–30)</span>
+    <span style="color:var(--blu)">Keselarasan MA (0–40)</span>
+    <span style="color:var(--pur)">Momentum 5 candle (0–30)</span>
+  </div>`;
+
+  const partial = results.length < 7
+    ? `<div style="color:var(--sub);font-size:11px;text-align:center;padding:6px 0 10px">⚠️ ${7-results.length} pair tidak tersedia saat script dijalankan.</div>` : '';
+
+  el.innerHTML = header + ranking + legend + partial + results.map(r=>_rkDetailCard(r)).join('');
 }
 
 // ═══════════════════════════════════════════════════════════════
