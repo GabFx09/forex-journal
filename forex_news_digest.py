@@ -1852,11 +1852,17 @@ def send_all_emails(items: list[NewsItem], calendar_events: list[EconomicEvent])
 # ─── TECHNICAL ANALYSIS ──────────────────────────────────────────────────────
 
 def fetch_forex_technicals() -> dict:
-    """Ambil OHLC 4H dari Yahoo Finance dan hitung RSI/SMA untuk 7 major pair."""
+    """Ambil OHLC 4H dari Yahoo Finance dan hitung RSI/SMA untuk 26 pair."""
     PAIRS = [
-        ("EURUSD=X", "EUR/USD"), ("GBPUSD=X", "GBP/USD"), ("USDJPY=X", "USD/JPY"),
-        ("USDCHF=X", "USD/CHF"), ("USDCAD=X", "USD/CAD"), ("AUDUSD=X", "AUD/USD"),
-        ("NZDUSD=X", "NZD/USD"),
+        ("USDJPY=X","USD/JPY"), ("USDCHF=X","USD/CHF"), ("USDCAD=X","USD/CAD"),
+        ("NZDUSD=X","NZD/USD"), ("NZDJPY=X","NZD/JPY"), ("NZDCHF=X","NZD/CHF"),
+        ("NZDCAD=X","NZD/CAD"), ("GBPUSD=X","GBP/USD"), ("GBPJPY=X","GBP/JPY"),
+        ("GBPCHF=X","GBP/CHF"), ("GBPCAD=X","GBP/CAD"), ("GBPAUD=X","GBP/AUD"),
+        ("EURUSD=X","EUR/USD"), ("EURJPY=X","EUR/JPY"), ("EURGBP=X","EUR/GBP"),
+        ("EURCHF=X","EUR/CHF"), ("EURCAD=X","EUR/CAD"), ("EURAUD=X","EUR/AUD"),
+        ("EURNZD=X","EUR/NZD"), ("AUDUSD=X","AUD/USD"), ("AUDJPY=X","AUD/JPY"),
+        ("AUDNZD=X","AUD/NZD"), ("AUDCAD=X","AUD/CAD"), ("CADJPY=X","CAD/JPY"),
+        ("CADCHF=X","CAD/CHF"), ("CHFJPY=X","CHF/JPY"),
     ]
 
     def calc_rsi(closes: list[float], period: int = 14) -> float:
@@ -1947,6 +1953,38 @@ def fetch_forex_technicals() -> dict:
         "pairs": results,
         "total": len(results),
     }
+
+
+# ─── FUNDAMENTAL ENRICHMENT ──────────────────────────────────────────────────
+
+def _enrich_fundamental(rekomendasi_data: dict, currency_impact: list[dict]) -> None:
+    """Tambahkan analisis fundamental ke setiap pair berdasarkan sentimen berita."""
+    if not rekomendasi_data or not rekomendasi_data.get("pairs"):
+        return
+    ci_map = {c["currency"]: c for c in currency_impact}
+    for pair in rekomendasi_data["pairs"]:
+        parts = pair["label"].split("/")
+        if len(parts) != 2:
+            continue
+        base, quote = parts
+        bd = ci_map.get(base, {})
+        qd = ci_map.get(quote, {})
+        bs = bd.get("score", 0.0)
+        qs = qd.get("score", 0.0)
+        fund_score = round(bs - qs, 3)
+        signal = "BUY" if fund_score > 0.08 else "SELL" if fund_score < -0.08 else "Netral"
+        pair["fundamental"] = {
+            "signal":          signal,
+            "fund_score":      fund_score,
+            "base":            base,
+            "quote":           quote,
+            "base_sentiment":  bd.get("sentiment", "Netral"),
+            "quote_sentiment": qd.get("sentiment", "Netral"),
+            "base_score":      round(bs, 3),
+            "quote_score":     round(qs, 3),
+            "base_count":      bd.get("count", 0),
+            "quote_count":     qd.get("count", 0),
+        }
 
 
 # ─── MAIN JOB ────────────────────────────────────────────────────────────────
@@ -2065,6 +2103,10 @@ def save_news_data(items: list[NewsItem], events: list[EconomicEvent],
             "direction": "Tekanan Naik ▲" if avg_p >= 0.05 else "Tekanan Turun ▼" if avg_p <= -0.05 else "Netral →",
             "score": round(avg_p, 3), "count": len(scores),
         })
+    # Enrichment fundamental — tambah analisis sentimen per mata uang ke rekomendasi
+    if rekomendasi_data:
+        _enrich_fundamental(rekomendasi_data, sentimen_data["summary"]["currency_impact"])
+
     geopolitik_data = {
         "generated": generated,
         "risk_level": risk_level, "risk_color": risk_color, "risk_emoji": risk_emoji,
