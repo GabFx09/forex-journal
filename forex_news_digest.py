@@ -899,12 +899,14 @@ def fetch_forexfactory_calendar() -> list[EconomicEvent]:
             row_classes = row.get("class", [])
 
             # ── Baris pemisah hari ──
-            if "calendar--day-breaker" in row_classes:
-                date_cell = row.select_one("td.calendar__date, td[class*='date']")
-                if date_cell:
-                    current_date, current_day = _parse_ff_date(
-                        date_cell.get_text(strip=True), now_utc.year
-                    )
+            # FF HTML: <td class="calendar__cell">Sun <span>May 17</span></td>
+            # Gunakan separator=" " agar "Sun" + "May 17" tidak bergabung jadi "SunMay 17"
+            if "calendar__row--day-breaker" in row_classes:
+                date_text = row.get_text(separator=" ", strip=True)
+                if date_text:
+                    current_date, current_day = _parse_ff_date(date_text, now_utc.year)
+                else:
+                    log.warning(f"[FF Kalender] Day-breaker tanpa tanggal: {str(row)[:120]}")
                 continue
 
             # ── Baris event ──
@@ -1847,10 +1849,111 @@ def send_all_emails(items: list[NewsItem], calendar_events: list[EconomicEvent])
             time.sleep(3)  # jeda antar email agar tidak dianggap spam
 
 
+# ─── TECHNICAL ANALYSIS ──────────────────────────────────────────────────────
+
+def fetch_forex_technicals() -> dict:
+    """Ambil OHLC 4H dari Yahoo Finance dan hitung RSI/SMA untuk 7 major pair."""
+    PAIRS = [
+        ("EURUSD=X", "EUR/USD"), ("GBPUSD=X", "GBP/USD"), ("USDJPY=X", "USD/JPY"),
+        ("USDCHF=X", "USD/CHF"), ("USDCAD=X", "USD/CAD"), ("AUDUSD=X", "AUD/USD"),
+        ("NZDUSD=X", "NZD/USD"),
+    ]
+
+    def calc_rsi(closes: list[float], period: int = 14) -> float:
+        if len(closes) < period + 1:
+            return 50.0
+        ag, al = 0.0, 0.0
+        for i in range(1, period + 1):
+            d = closes[i] - closes[i - 1]
+            if d > 0: ag += d
+            else:     al -= d
+        ag /= period; al /= period
+        for i in range(period + 1, len(closes)):
+            d = closes[i] - closes[i - 1]
+            ag = (ag * (period - 1) + max(d, 0))  / period
+            al = (al * (period - 1) + max(-d, 0)) / period
+        return round(100 - (100 / (1 + ag / al)), 1) if al else 100.0
+
+    def calc_sma(closes: list[float], period: int):
+        return sum(closes[-period:]) / period if len(closes) >= period else None
+
+    def fetch_pair(sym: str, label: str) -> dict | None:
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?interval=4h&range=90d"
+        try:
+            r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+            r.raise_for_status()
+            q = r.json()["chart"]["result"][0]["indicators"]["quote"][0]
+            valid = [(o, c) for o, c in zip(q["open"], q["close"]) if o is not None and c is not None]
+            if len(valid) < 20:
+                return None
+            opens  = [v[0] for v in valid]
+            closes = [v[1] for v in valid]
+            n      = len(closes)
+            last   = closes[-1]
+            rsi    = calc_rsi(closes, 14)
+            sma20  = calc_sma(closes, 20)
+            sma50  = calc_sma(closes, 50)
+            sma200 = calc_sma(closes, 200)
+
+            sigs = [
+                1 if last  > sma20  else -1,
+                1 if sma20 > sma50  else -1,
+                (1 if sma50 > sma200 else -1) if sma50 and sma200 else 0,
+                1 if rsi > 50 else -1,
+                1 if sum(1 if c > o else -1 for c, o in zip(closes[-5:], opens[n-5:])) > 0 else -1,
+            ]
+            sigs = [s for s in sigs if s != 0]
+            bull = sum(1 for s in sigs if s > 0)
+            bear = sum(1 for s in sigs if s < 0)
+            direction = "BUY" if bull >= 4 else "SELL" if bear >= 4 else "WAIT"
+
+            rsi_score = round(abs(rsi - 50) / 50 * 30)
+            ma_aligned = 0
+            if direction != "WAIT":
+                up = direction == "BUY"
+                if (up and last > sma20)   or (not up and last < sma20):   ma_aligned += 1
+                if (up and sma20 > sma50)  or (not up and sma20 < sma50):  ma_aligned += 1
+                if sma50 and sma200 and ((up and sma50 > sma200) or (not up and sma50 < sma200)):
+                    ma_aligned += 1
+            ma_score  = [0, 13, 27, 40][ma_aligned]
+            l5_bull   = sum(1 for c, o in zip(closes[-5:], opens[n-5:]) if c > o)
+            mom_score = round((l5_bull if direction == "BUY" else 5 - l5_bull) / 5 * 30)
+            score     = min(100, rsi_score + ma_score + mom_score)
+
+            dp  = 3 if "JPY" in sym else 5
+            fmt = lambda v: f"{v:.{dp}f}" if v is not None else "—"
+            return {
+                "label": label, "score": score, "direction": direction,
+                "rsi": rsi, "last_close": fmt(last),
+                "sma20": fmt(sma20), "sma50": fmt(sma50), "sma200": fmt(sma200),
+                "bull": bull, "bear": bear, "total_sigs": len(sigs),
+            }
+        except Exception as e:
+            log.warning(f"[TEKNIKAL] {label} gagal: {e}")
+            return None
+
+    results = []
+    for sym, label in PAIRS:
+        p = fetch_pair(sym, label)
+        if p:
+            results.append(p)
+        time.sleep(0.5)
+    results.sort(key=lambda x: x["score"], reverse=True)
+
+    now_wib = datetime.now(tz=timezone.utc) + timedelta(hours=7)
+    log.info(f"[TEKNIKAL] {len(results)}/7 pair berhasil diambil.")
+    return {
+        "generated": now_wib.strftime("%d %b %Y %H:%M WIB"),
+        "pairs": results,
+        "total": len(results),
+    }
+
+
 # ─── MAIN JOB ────────────────────────────────────────────────────────────────
 
 def save_news_data(items: list[NewsItem], events: list[EconomicEvent],
-                   fj_items: list[NewsItem] | None = None) -> None:
+                   fj_items: list[NewsItem] | None = None,
+                   rekomendasi_data: dict | None = None) -> None:
     """Simpan data ke JSON + news_data.js agar bisa dibaca oleh HTML app."""
     now_wib   = datetime.now(tz=timezone.utc) + timedelta(hours=7)
     generated = now_wib.strftime("%d %b %Y %H:%M WIB")
@@ -1985,11 +2088,12 @@ def save_news_data(items: list[NewsItem], events: list[EconomicEvent],
 
         # news_data.js — satu file gabungan yang dibaca langsung oleh HTML
         combined = {
-            "generated": generated,
-            "kalender": kalender_data,
-            "sentimen": sentimen_data,
-            "geopolitik": geopolitik_data,
-            "fj_live": fj_live_data,
+            "generated":   generated,
+            "kalender":    kalender_data,
+            "sentimen":    sentimen_data,
+            "geopolitik":  geopolitik_data,
+            "fj_live":     fj_live_data,
+            "rekomendasi": rekomendasi_data,
         }
         js_path = os.path.join(JSON_DIR, "news_data.js")
         with open(js_path, "w", encoding="utf-8") as f:
@@ -2016,8 +2120,9 @@ def run_job() -> None:
         for idx, item in enumerate(items):
             item.title = translated[idx]
         log.info("Terjemahan selesai.")
-    fj_items = fetch_fj_rss()
-    save_news_data(items, calendar_events, fj_items)
+    fj_items         = fetch_fj_rss()
+    rekomendasi_data = fetch_forex_technicals()
+    save_news_data(items, calendar_events, fj_items, rekomendasi_data)
     send_all_emails(items, calendar_events)
     log.info("Job selesai.")
     log.info("=" * 60)
