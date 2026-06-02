@@ -1,5 +1,5 @@
 {
-  "generated": "02 Jun 2026 07:02 WIB",
+  "generated": "02 Jun 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-05-31",
@@ -349,7 +349,7 @@
       "currency": "AUD",
       "impact": "low",
       "event": "Building Approvals m/m",
-      "actual": "",
+      "actual": "-3.4%",
       "forecast": "-1.5%",
       "previous": "-10.5%"
     },
@@ -360,9 +360,9 @@
       "currency": "AUD",
       "impact": "low",
       "event": "Company Operating Profits q/q",
-      "actual": "",
+      "actual": "-1.3%",
       "forecast": "0.5%",
-      "previous": "5.8%"
+      "previous": "5.9%"
     },
     {
       "date": "2026-06-01",
@@ -371,20 +371,9 @@
       "currency": "AUD",
       "impact": "low",
       "event": "Current Account",
-      "actual": "",
+      "actual": "-27.1B",
       "forecast": "-23.1B",
-      "previous": "-21.1B"
-    },
-    {
-      "date": "2026-06-01",
-      "day": "Senin",
-      "time_wib": "08:30",
-      "currency": "AUD",
-      "impact": "low",
-      "event": "Private Sector Credit m/m",
-      "actual": "",
-      "forecast": "0.6%",
-      "previous": "0.7%"
+      "previous": "-23.0B"
     },
     {
       "date": "2026-06-01",
@@ -393,7 +382,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "10-y Bond Auction",
-      "actual": "",
+      "actual": "2.65|3.5",
       "forecast": "",
       "previous": "2.54|3.9"
     },
@@ -426,7 +415,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "French Gov Budget Balance",
-      "actual": "",
+      "actual": "-69.6B",
       "forecast": "",
       "previous": "-42.9B"
     },
@@ -437,7 +426,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Spanish Unemployment Change",
-      "actual": "",
+      "actual": "-36.3K",
       "forecast": "-56.8K",
       "previous": "-62.7K"
     },
@@ -448,7 +437,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "M4 Money Supply m/m",
-      "actual": "",
+      "actual": "0.2%",
       "forecast": "0.6%",
       "previous": "0.8%"
     },
@@ -459,7 +448,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Mortgage Approvals",
-      "actual": "",
+      "actual": "65.9K",
       "forecast": "62K",
       "previous": "64K"
     },
@@ -470,9 +459,9 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Net Lending to Individuals m/m",
-      "actual": "",
+      "actual": "6.2B",
       "forecast": "7.1B",
-      "previous": "8.0B"
+      "previous": "8.7B"
     },
     {
       "date": "2026-06-02",
@@ -481,7 +470,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "Core CPI Flash Estimate y/y",
-      "actual": "",
+      "actual": "2.5%",
       "forecast": "2.4%",
       "previous": "2.2%"
     },
@@ -492,7 +481,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "CPI Flash Estimate y/y",
-      "actual": "",
+      "actual": "3.2%",
       "forecast": "3.2%",
       "previous": "3.0%"
     },
@@ -503,7 +492,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "10-y Bond Auction",
-      "actual": "",
+      "actual": "4.98|3.6",
       "forecast": "",
       "previous": "5.03|3.4"
     },
@@ -536,18 +525,18 @@
       "currency": "USD",
       "impact": "medium",
       "event": "JOLTS Job Openings",
-      "actual": "",
-      "forecast": "6.86M",
-      "previous": "6.87M"
+      "actual": "7.62M",
+      "forecast": "6.87M",
+      "previous": "6.89M"
     },
     {
       "date": "2026-06-02",
       "day": "Selasa",
-      "time_wib": "19:30",
+      "time_wib": "18:02",
       "currency": "USD",
       "impact": "low",
       "event": "RCM/TIPP Economic Optimism",
-      "actual": "",
+      "actual": "42.5",
       "forecast": "44.5",
       "previous": "42.6"
     },
@@ -557,21 +546,10 @@
       "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
-      "event": "Wards Total Vehicle Sales",
+      "event": "Omdia Total Vehicle Sales",
       "actual": "",
       "forecast": "16.0M",
       "previous": "15.9M"
-    },
-    {
-      "date": "2026-06-02",
-      "day": "Selasa",
-      "time_wib": "07:45",
-      "currency": "NZD",
-      "impact": "low",
-      "event": "GDT Price Index",
-      "actual": "",
-      "forecast": "",
-      "previous": "0.6%"
     },
     {
       "date": "2026-06-02",
@@ -583,6 +561,17 @@
       "actual": "",
       "forecast": "",
       "previous": ""
+    },
+    {
+      "date": "2026-06-02",
+      "day": "Selasa",
+      "time_wib": "07:45",
+      "currency": "NZD",
+      "impact": "low",
+      "event": "GDT Price Index",
+      "actual": "",
+      "forecast": "",
+      "previous": "0.6%"
     },
     {
       "date": "2026-06-02",
@@ -614,7 +603,7 @@
       "impact": "low",
       "event": "Overseas Trade Index q/q",
       "actual": "",
-      "forecast": "-1.2%",
+      "forecast": "-1.7%",
       "previous": "3.7%"
     },
     {
@@ -640,6 +629,28 @@
       "previous": "52.6"
     },
     {
+      "date": "2026-06-02",
+      "day": "Selasa",
+      "time_wib": "08:30",
+      "currency": "AUD",
+      "impact": "low",
+      "event": "Private Sector Credit m/m",
+      "actual": "",
+      "forecast": "0.6%",
+      "previous": "0.7%"
+    },
+    {
+      "date": "2026-06-02",
+      "day": "Selasa",
+      "time_wib": "07:00",
+      "currency": "USD",
+      "impact": "low",
+      "event": "FOMC Member Goolsbee Speaks",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "date": "2026-06-03",
       "day": "Rabu",
       "time_wib": "11:15",
@@ -647,7 +658,7 @@
       "impact": "low",
       "event": "Spanish Services PMI",
       "actual": "",
-      "forecast": "48.3",
+      "forecast": "48.2",
       "previous": "47.9"
     },
     {
@@ -658,7 +669,7 @@
       "impact": "low",
       "event": "Italian Services PMI",
       "actual": "",
-      "forecast": "49.3",
+      "forecast": "49.2",
       "previous": "49.8"
     },
     {
@@ -669,7 +680,7 @@
       "impact": "low",
       "event": "French Final Services PMI",
       "actual": "",
-      "forecast": "42.9",
+      "forecast": "43.0",
       "previous": "42.9"
     },
     {
@@ -735,7 +746,7 @@
       "impact": "high",
       "event": "ADP Non-Farm Employment Change",
       "actual": "",
-      "forecast": "118K",
+      "forecast": "116K",
       "previous": "109K"
     },
     {
@@ -746,7 +757,7 @@
       "impact": "low",
       "event": "Labor Productivity q/q",
       "actual": "",
-      "forecast": "0.4%",
+      "forecast": "0.3%",
       "previous": "-0.1%"
     },
     {
@@ -768,7 +779,7 @@
       "impact": "low",
       "event": "Final Services PMI",
       "actual": "",
-      "forecast": "50.9",
+      "forecast": "51.0",
       "previous": "50.9"
     },
     {
@@ -779,7 +790,7 @@
       "impact": "high",
       "event": "ISM Services PMI",
       "actual": "",
-      "forecast": "53.8",
+      "forecast": "53.7",
       "previous": "53.6"
     },
     {
@@ -801,7 +812,7 @@
       "impact": "low",
       "event": "Factory Orders m/m",
       "actual": "",
-      "forecast": "4.5%",
+      "forecast": "4.6%",
       "previous": "1.5%"
     },
     {
@@ -812,7 +823,7 @@
       "impact": "low",
       "event": "Crude Oil Inventories",
       "actual": "",
-      "forecast": "",
+      "forecast": "-2.9M",
       "previous": "-3.3M"
     },
     {
@@ -856,7 +867,7 @@
       "impact": "low",
       "event": "Goods Trade Balance",
       "actual": "",
-      "forecast": "-1.45B",
+      "forecast": "1.23B",
       "previous": "-1.84B"
     },
     {
@@ -977,7 +988,7 @@
       "impact": "low",
       "event": "Revised Nonfarm Productivity q/q",
       "actual": "",
-      "forecast": "0.4%",
+      "forecast": "0.5%",
       "previous": "0.8%"
     },
     {
@@ -1043,7 +1054,7 @@
       "impact": "low",
       "event": "Household Spending y/y",
       "actual": "",
-      "forecast": "-1.4%",
+      "forecast": "-1.5%",
       "previous": "-2.9%"
     },
     {
@@ -1065,7 +1076,7 @@
       "impact": "low",
       "event": "Leading Indicators",
       "actual": "",
-      "forecast": "114.5%",
+      "forecast": "114.4%",
       "previous": "114.0%"
     },
     {
@@ -1076,7 +1087,7 @@
       "impact": "low",
       "event": "Halifax HPI m/m",
       "actual": "",
-      "forecast": "0.2%",
+      "forecast": "0.0%",
       "previous": "-0.1%"
     },
     {
@@ -1098,7 +1109,7 @@
       "impact": "low",
       "event": "French Trade Balance",
       "actual": "",
-      "forecast": "-6.5B",
+      "forecast": "-6.2B",
       "previous": "-6.9B"
     },
     {
@@ -1131,7 +1142,7 @@
       "impact": "low",
       "event": "Italian Retail Sales m/m",
       "actual": "",
-      "forecast": "0.2%",
+      "forecast": "0.4%",
       "previous": "0.8%"
     },
     {
@@ -1153,7 +1164,7 @@
       "impact": "high",
       "event": "Employment Change",
       "actual": "",
-      "forecast": "10.2K",
+      "forecast": "10.0K",
       "previous": "-17.7K"
     },
     {
@@ -1186,7 +1197,7 @@
       "impact": "high",
       "event": "Non-Farm Employment Change",
       "actual": "",
-      "forecast": "87K",
+      "forecast": "85K",
       "previous": "115K"
     },
     {
@@ -1241,7 +1252,7 @@
       "impact": "low",
       "event": "Consumer Credit m/m",
       "actual": "",
-      "forecast": "17.7B",
+      "forecast": "17.8B",
       "previous": "24.9B"
     },
     {
