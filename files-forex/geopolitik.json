@@ -1,178 +1,168 @@
 {
-  "generated": "05 Jun 2026 22:03 WIB",
+  "generated": "06 Jun 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.291,
-      "count": 21
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.333,
-      "count": 19
+      "score": -0.073,
+      "count": 17
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.33,
+      "direction": "Netral →",
+      "score": -0.044,
       "count": 16
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.094,
+      "count": 14
+    },
+    {
+      "pair": "EUR",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.267,
+      "count": 2
+    },
+    {
+      "pair": "GBP",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.267,
+      "count": 2
+    },
+    {
+      "pair": "USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.267,
+      "count": 2
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.321,
-      "count": 6
+      "score": -0.498,
+      "count": 2
     },
     {
-      "pair": "AUD/USD",
+      "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -1.0,
-      "count": 1
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -1.0,
-      "count": 1
-    },
-    {
-      "pair": "CAD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.832,
-      "count": 1
-    },
-    {
-      "pair": "NOK/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.832,
-      "count": 1
+      "score": -0.148,
+      "count": 2
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Indeks saham yang lebih luas berbeda: NASDAQ tergelincir di bawah rata-rata pergerakan sementara S&P mencoba bertahan",
-      "url": "https://investinglive.com/technical-analysis/broader-stock-indices-diverge-nasdaq-slides-below-moving-average-while-sp-tries-to-hold-20260605/",
-      "summary": "I want With the stronger-than-expected U.S. jobs report pushing Treasury yields sharply higher, the major U.S. stock indices are under pressure, with the NASDAQ leading the decline. The employment report showed nonfarm payrolls rising by 172K versus 85K expected, while upward revisions added a net 9",
-      "published": "05 Jun 2026 21:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.103,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "USDJPY berfluktuasi di atas 160,00. EURUSD menguji area lantai.  GBPUSD terendah baru minggu ini",
-      "url": "https://investinglive.com/technical-analysis/usdjpy-volatile-above-the-16000-falls-from-16026-to-15980-and-bouncing-20260605/",
-      "summary": "The USD is sharply higher following a much stronger-than-expected U.S. employment report. Nonfarm payrolls increased by 172K, well above the 85K forecast, while sizeable upward revisions added another 93K jobs to the prior two months. The unemployment rate held steady at 4.3%, average hourly earning",
-      "published": "05 Jun 2026 20:21 WIB",
+      "title": "Meta sedang mempertimbangkan untuk mengumpulkan puluhan miliar dolar dalam penawaran saham",
+      "url": "https://investinglive.com/stocks/meta-is-considering-raising-tens-of-billion-dollars-in-a-stock-offering-20260605/",
+      "summary": "Coming off the back of Google's record $85 billion equity share sale this week, Meta is now considering raising tens of billions of dollars in the equity markets as it looks to expand its move into AI The stock has moved from $610 to a new low of the day of $581.58. The price currently trades at $58",
+      "published": "06 Jun 2026 01:38 WIB",
       "sentiment": "Bullish",
-      "score": 0.077,
+      "score": 0.557,
       "emoji": "🟢"
     },
     {
       "source": "ForexLive",
-      "title": "Investing. Pasar Live Eropa: Suasana beragam menunggu NFP dan perkembangan AS-Iran",
-      "url": "https://investinglive.com/news/investinglive-european-markets-wrap-a-mixed-mood-waiting-on-nfp-us-iran-developments-20260605/",
-      "summary": "Headlines: Another episode of the boy who cried wolf set to air later today? Explosion halts crude loading at Oman's Mina al Fahal in conflict escalation America still refuses Iran's request to unfreeze the frozen funds - Al Arabiya Semiconductors continue to struggle ahead of the Wall Street open W",
-      "published": "05 Jun 2026 18:43 WIB",
+      "title": "Trump: Ingin melihat suku bunga yang lebih rendah",
+      "url": "https://investinglive.com/news/trump-would-like-to-see-lower-interest-rates-20260605/",
+      "summary": "Will leave interest rate decision to Warsh Would like to see lower interest rates Says the country is doing well, market should go up He would not mind if Warsh were to cut interest rates. Will leave rate cut to Warsh during October meeting. What is curious is his response that will leave rate cut t",
+      "published": "06 Jun 2026 00:55 WIB",
+      "sentiment": "Bullish",
+      "score": 0.665,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Putin: Akan efisien bagi AS untuk menggunakan teknologi LNG Rusia di Alaska",
+      "url": "https://investinglive.com/news/putin-it-would-be-efficient-for-us-to-use-russias-lng-technologies-in-alaska-20260605/",
+      "summary": "Putin is back saying: it will be official for United States use Russia's LNG technologies in Alaska On benefits for Russia from war in Iran: market stability is important. Oil supply decline rattles markets, we are there in OPEC plus to balance the market. We are grateful to Saudi Arabia for coopera",
+      "published": "05 Jun 2026 23:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.367,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Menteri Energi Wright: Kami akan mengisi ulang SPR sebanyak 40 juta barel setelah konflik Iran selesai",
+      "url": "https://investinglive.com/news/energy-sec-wright-we-will-refill-the-spr-by-40m-barrels-after-iran-conflict-is-over-20260605/",
+      "summary": "US Energy Secretary Wright is saying that the US will add 40M barrels after the Iran conflict is over. Here's the full picture: Current level: As of the week ending May 29, 2026, the SPR recorded a release of 8 million barrels, bringing the total down to 357.1 million barrels — the lowest level sinc",
+      "published": "05 Jun 2026 22:50 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.539,
       "emoji": "🔴"
     },
     {
-      "source": "FXStreet News",
-      "title": "Minyak: Sinyal permintaan yang bertentangan membentuk prospek – Commerzbank",
-      "url": "https://www.fxstreet.com/news/oil-conflicting-demand-signals-shape-outlook-commerzbank-202606051424",
-      "summary": "Commerzbank’s Norman Liebke and Carsten Fritsch highlight that Brent and European gas have risen on renewed US–Iran tensions, but price reactions are more muted as inventories and rerouted flows ease tightness.",
-      "published": "05 Jun 2026 21:24 WIB",
+      "source": "ForexLive",
+      "title": "Trump menyambut baik laporan Jobs.  Kenaikan imbal hasil obligasi/penurunan saham mengirimkan peringatan",
+      "url": "https://investinglive.com/news/trump-cheers-jobs-report-bonds-stock-slide-send-warnings-20260605/",
+      "summary": "The stronger-than-expected U.S. jobs report has created an interesting tug-of-war between the White House, the market, and the Federal Reserve. President Trump wasted little time weighing in, arguing on Truth Social that a \"great Jobs Report\" should be bullish for stocks, not bearish, emphasizing th",
+      "published": "05 Jun 2026 22:20 WIB",
       "sentiment": "Bullish",
-      "score": 0.09,
+      "score": 0.893,
       "emoji": "🟢"
     },
     {
       "source": "FXStreet News",
-      "title": "Aluminium: Ketegangan pasokan AS berisiko menghancurkan permintaan – Commerzbank",
-      "url": "https://www.fxstreet.com/news/aluminium-us-supply-strain-risks-demand-destruction-commerzbank-202606051309",
-      "summary": "Commerzbank’s Thu Lan Nguyen reports that US Aluminium supply remains tight more than a year after tariffs, with a planned Oklahoma smelter blocked on environmental and ownership grounds. Domestic production has actually fallen, while high prices and import premiums damp demand.",
-      "published": "05 Jun 2026 20:09 WIB",
+      "title": "Dolar Selandia Baru jatuh ke posisi terendah dua bulan setelah laporan NFP AS yang optimis",
+      "url": "https://www.fxstreet.com/news/new-zealand-dollar-plunges-to-two-month-lows-after-upbeat-us-nfp-report-202606052044",
+      "summary": "NZD/USD falls sharply towards the 0.5790 region on Friday as the US Dollar (USD) strengthened following a stronger-than-expected Nonfarm Payrolls (NFP) report, while the New Zealand Dollar (NZD) struggled to attract buyers amid a cautious market mood.",
+      "published": "06 Jun 2026 03:44 WIB",
+      "sentiment": "Bullish",
+      "score": 0.281,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Filipina: BSP terlihat tetap hawkish terhadap inflasi – Standard Chartered",
+      "url": "https://www.fxstreet.com/news/philippines-bsp-seen-staying-hawkish-on-inflation-standard-chartered-202606052002",
+      "summary": "Standard Chartered economists Jonathan Koh and Edward Lee revise their Bangko Sentral ng Pilipinas (BSP) policy rate path, dropping expectations for a 50bps off-cycle hike before the 18 June meeting.",
+      "published": "06 Jun 2026 03:02 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Emas melemah karena ledakan NFP mengirim DXY ke atas 100",
+      "url": "https://www.fxstreet.com/news/gold-melts-down-as-blowout-nfp-sends-dxy-above-100-202606051716",
+      "summary": "Gold (XAU/USD) price collapses during the North American session on Friday as the latest Nonfarm Payrolls report in the US smashed forecasts, with figures for the last three months upwardly revised, increasing the chance of a Federal Reserve (Fed) rate hike.",
+      "published": "06 Jun 2026 00:16 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.132,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "Euro melemah terhadap Pound setelah data PDB Zona Euro memberikan gambaran pertumbuhan yang lebih lemah",
-      "url": "https://www.fxstreet.com/news/euro-falls-against-pound-after-eurozone-gdp-data-paints-weaker-growth-picture-202606051303",
-      "summary": "The Euro (EUR) slips against the British Pound (GBP) on Friday after a downward revision to Eurozone growth figures cast fresh doubt over the region's economic outlook. EUR/GBP trades around 0.8642 at the time of writing, pulling back after two days of gains.",
-      "published": "05 Jun 2026 20:03 WIB",
+      "title": "FX Asia: KRW dan IDR menghadapi tekanan teknis – OCBC",
+      "url": "https://www.fxstreet.com/news/asia-fx-krw-and-idr-face-technical-strain-ocbc-202606051659",
+      "summary": "OCBC’s FX Strategist Sim Moh Siong says softer Oil prices offer only limited relief to Asia FX, with the Korean Won and Indonesian Rupiah still pressured by equity outflows and policy concerns.",
+      "published": "05 Jun 2026 23:59 WIB",
       "sentiment": "Bullish",
-      "score": 0.462,
+      "score": 0.586,
       "emoji": "🟢"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Pengawas Nuklir Mengincar Pertahanan Reaktor yang Lebih Kuat Setelah Serangan UEA",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-05/nuclear-watchdog-eyes-stronger-reactor-defenses-after-uae-attack",
-      "summary": "Iran’s attack last month on a nuclear power plant in the United Arab Emirates has prompted the world’s atomic watchdog to look at whether reactors’ external power supply lines need additional protection against the threat of war.",
-      "published": "05 Jun 2026 21:43 WIB",
+      "source": "FXStreet News",
+      "title": "NFP mengendalikan penurunan Dolar AS, sekarang reli tersebut harus dipertahankan",
+      "url": "https://www.fxstreet.com/news/nfp-steamrolls-us-dollar-bears-now-the-rally-has-to-stick-202606051650",
+      "summary": "The market walked into Friday's payrolls report braced for weakness, and the US Dollar Index (DXY) made it pay. Consensus looked for a soft 85K of new jobs in May, the kind of number that fits a cooling labor market and a Federal Reserve (Fed) edging toward cuts.",
+      "published": "05 Jun 2026 23:50 WIB",
       "sentiment": "Bearish",
-      "score": -0.813,
+      "score": -0.819,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Minyak Jatuh karena Para Pedagang Menimbang Penurunan Permintaan, Pembicaraan Terhenti",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/latest-oil-market-news-and-analysis-for-june-5",
-      "summary": "Oil edged lower as traders assessed the extent of demand destruction against a backdrop of ongoing US-Iran peace talks, which have so far yielded little progress toward reopening the critical Strait of Hormuz.",
-      "published": "05 Jun 2026 05:01 WIB",
+      "title": "Laporan Pekerjaan AS yang Kuat Menurunkan Risiko Resesi Meskipun Pertumbuhan Upah Tertinggal Inflasi",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-05/strong-u-s-jobs-report-lowers-recession-risks-video",
+      "summary": "Gene Sperling, President of Sperling Economic Strategies and former director of the National Economic Council, discussed the recent U.S. jobs report, highlighting that the headline numbers were stronger than expected and suggest a low likelihood of recession despite ongoing geopolitical and economic",
+      "published": "06 Jun 2026 05:22 WIB",
       "sentiment": "Bearish",
-      "score": -0.907,
+      "score": -0.254,
       "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Survei Menunjukkan Output OPEC Semakin Turun seiring AS Menekan Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-05/opec-output-plunges-further-as-us-squeezes-iran-survey-shows",
-      "summary": "OPEC crude output fell last month, hitting its lowest level in decades as the US blockade of Iran and disruption in the Persian Gulf continued to curb production.",
-      "published": "05 Jun 2026 20:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.832,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Rumah Tangga India Memperkirakan Inflasi Akan Melonjak, Kepercayaan Diri Menurun",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-05/indian-households-expect-inflation-to-spike-confidence-wanes",
-      "summary": "Indian households expect inflation to accelerate through the year, Reserve Bank of India surveys showed, highlighting concerns over the US-Iran war and below-normal monsoon predictions.",
-      "published": "05 Jun 2026 20:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.233,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Zelensky mengusulkan pembicaraan tatap muka melalui surat terbuka kepada Putin",
-      "url": "https://www.bbc.com/news/articles/cwy2ypyp4x4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine's president tells the Russian leader that only \"direct engagement\" between the two countries could end the war, with the US focused on Iran.",
-      "published": "05 Jun 2026 15:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.098,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC World",
-      "title": "Hizbullah menolak pembaruan gencatan senjata yang disepakati oleh Israel dan Lebanon",
-      "url": "https://www.bbc.com/news/articles/c052343r812o?at_medium=RSS&at_campaign=rss",
-      "summary": "The United States announced the ceasefire agreement on Wednesday night following a fresh round of talks.",
-      "published": "05 Jun 2026 08:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.895,
-      "emoji": "🟢"
     },
     {
       "source": "BBC Business",
@@ -196,73 +186,83 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Dua minggu setelah pemilihan sela penting di Makerfield, beginilah perkembangan kontes ini",
-      "url": "https://www.bbc.com/news/articles/cg7p7nmj52jo?at_medium=RSS&at_campaign=rss",
-      "summary": "What stood out from the Question Time exchanges between candidates in the Makerfield by-election?",
-      "published": "05 Jun 2026 17:16 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "title": "Hukuman 24 tahun terhadap pemerkosa Paul Quinn merupakan sebuah penghinaan, kata Andrew Malkinson yang dihukum secara salah",
+      "url": "https://www.bbc.com/news/articles/c99l93md0gko?at_medium=RSS&at_campaign=rss",
+      "summary": "Paul Quinn is jailed over the 2003 attack in Salford for which Andrew Malkinson served 17 years.",
+      "published": "06 Jun 2026 00:04 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Penggemar Primavera bereaksi setelah pertunjukan utama Doja Cat dan Massive Attack dibatalkan karena cuaca",
-      "url": "https://www.bbc.com/news/articles/cjepekw4yzwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Fans have expressed their confusion that no back-up plan was put in place at the festival in Barcelona.",
-      "published": "05 Jun 2026 19:29 WIB",
+      "title": "Bayi Palestina tewas akibat tembakan Israel di Tepi Barat, kata Kementerian Kesehatan",
+      "url": "https://www.bbc.com/news/articles/cy828e64vp8o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Israeli military says Friday's \"incident is under review\", expressing \"deep sorrow for any harm caused\".",
+      "published": "06 Jun 2026 06:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.908,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump menyampaikan pendapatnya kepada para petani yang sangat terpukul oleh tarif dan harga tinggi di Wisconsin",
+      "url": "https://www.aljazeera.com/news/2026/6/5/trump-makes-pitch-to-farmers-hard-hit-by-tariffs-high-prices-in-wisconsin?traffic_source=rss",
+      "summary": "Trump seeks to shore up support among rural voters hard-hit by tariffs, economic fallout of war with Iran.",
+      "published": "06 Jun 2026 04:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.456,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Zelenskyy: Putin memilih perang dengan menolak tawaran pembicaraan tatap muka",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/5/zelenskyy-putin-choosing-war-by-rejecting-offer-for-in-person-talks?traffic_source=rss",
+      "summary": "Russian President Vladimir Putin has turned down an offer for in-person talks with the Ukrainian President.",
+      "published": "06 Jun 2026 03:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.864,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Ketakutan yang meluas’ mencengkeram Gaza ketika serangan Israel terus berlanjut meski gencatan senjata",
+      "url": "https://www.aljazeera.com/news/2026/6/5/pervasive-fear-grips-gaza-as-israeli-attacks-persist-despite-ceasefire?traffic_source=rss",
+      "summary": "A drone attack killed a young woman and injured 15 others near Khan Younis, reported the Wafa news agency.",
+      "published": "06 Jun 2026 03:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.922,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Anthropic mendesak laboratorium AI untuk berhenti sejenak, memperingatkan manusia berisiko kehilangan kendali",
+      "url": "https://www.aljazeera.com/economy/2026/6/5/anthropic-urges-ai-labs-to-pause-warns-humans-risk-losing-control?traffic_source=rss",
+      "summary": "It warned that rapid advances in technology could soon allow AI systems to improve themselves faster than human control.",
+      "published": "06 Jun 2026 02:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.5,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Kebakaran besar terjadi di gudang Honda di Barcelona",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/5/huge-fire-erupts-at-honda-warehouse-in-barcelona?traffic_source=rss",
+      "summary": "Around 150 workers were evacuated after a fire broke out at a Honda industrial warehouse in Barcelona.",
+      "published": "06 Jun 2026 01:39 WIB",
       "sentiment": "Bearish",
       "score": -0.729,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Gaza, Iran, Lebanon: Jika gencatan senjata sudah dilakukan, mengapa serangan terus berlanjut?",
-      "url": "https://www.aljazeera.com/news/2026/6/5/gaza-iran-lebanon-if-ceasefires-are-in-place-why-do-strikes-continue?traffic_source=rss",
-      "summary": "International law sets rules for ceasefires, but who enforces them when violations continue? Three experts explain.",
-      "published": "05 Jun 2026 21:12 WIB",
+      "title": "Putin mengatakan ‘tidak ada gunanya’ bertemu Zelenskyy dari Ukraina untuk saat ini",
+      "url": "https://www.aljazeera.com/news/2026/6/5/russias-putin-says-no-point-meeting-ukraines-zelenskyy-for-now?traffic_source=rss",
+      "summary": "The Russian leader insisted military action would only stop after Moscow achieves its 'goals'.",
+      "published": "06 Jun 2026 01:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.692,
+      "score": -0.296,
       "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Bagaimana blokade laut AS telah menyebabkan Iran kehilangan pendapatan minyak sebesar hampir $6 miliar",
-      "url": "https://www.aljazeera.com/news/2026/6/5/how-the-us-naval-blockade-has-bled-iran-of-nearly-6bn-in-oil-revenues?traffic_source=rss",
-      "summary": "Iran is exporting less than one-sixth of the oil it was shipping before the war began.",
-      "published": "05 Jun 2026 20:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ledakan drone di pelabuhan Rumania memicu kekhawatiran akan meluasnya perang di Ukraina",
-      "url": "https://www.aljazeera.com/news/2026/6/5/drone-explosion-in-romanian-port-spurs-ukraine-war-spillover-fears?traffic_source=rss",
-      "summary": "European Commission president warns that the maritime drone attack was a 'direct consequence' of the Russia-Ukraine war.",
-      "published": "05 Jun 2026 20:09 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Salut Nazi, Sikh disalahgunakan: Ketegangan mencengkeram Inggris setelah pembunuhan Henry Nowak",
-      "url": "https://www.aljazeera.com/news/2026/6/5/nowak-murder-tensions?traffic_source=rss",
-      "summary": "Although the victim's father has warned against exploiting his family's tragedy, far-right groups are rallying.",
-      "published": "05 Jun 2026 20:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.964,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "'DOGE' ingin menyatakan 2.7 juta orang 'meninggal' di Jaminan Sosial: pelapor",
-      "url": "https://www.marketwatch.com/story/doge-wanted-to-declare-2-7-million-people-dead-at-social-security-whistleblower-e195065b?mod=mw_rss_topstories",
-      "summary": "This is the third whistleblower to come forward about alleged illegal activity by Trump’s Department of Government Efficiency.",
-      "published": "05 Jun 2026 21:42 WIB",
-      "sentiment": "Netral",
-      "score": -0.003,
-      "emoji": "⚪"
     },
     {
       "source": "CNBC Economy",
@@ -275,33 +275,13 @@
       "emoji": "🟢"
     },
     {
-      "source": "CNBC Economy",
-      "title": "Penjual menarik rumah dari pasar dengan kecepatan tercepat sejak tahun 2020",
-      "url": "https://www.cnbc.com/2026/06/03/sellers-delisting-homes-redfin.html",
-      "summary": "Frustrated sellers are pulling their homes off the market at an increasingly high pace, as demand weakens and bidding wars wane.",
-      "published": "05 Jun 2026 01:50 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
       "source": "CNBC World",
-      "title": "Perekonomian India tumbuh sebesar 7,8% selama bulan Januari hingga Maret – lebih cepat dari perkiraan",
-      "url": "https://www.cnbc.com/2026/06/05/india-gdp-economy-oil-middle-east-disruption.html",
-      "summary": "The world's fastest growing major economy, India, has been facing major headwinds due to the conflict in Middle East that began end of February.",
-      "published": "05 Jun 2026 18:09 WIB",
+      "title": "Ancaman Iran terhadap titik sempit di Laut Merah ini merupakan kerentanan besar bagi pasar minyak",
+      "url": "https://www.cnbc.com/2026/06/05/iran-war-oil-price-strait-hormuz-bab-el-mandeb-chokepoint.html",
+      "summary": "Oil prices would spike if Iran's Houthi allies started attacking ships passing through the Bab el-Mandeb Strait.",
+      "published": "06 Jun 2026 05:05 WIB",
       "sentiment": "Bearish",
-      "score": -0.132,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Pengunduhan Teknologi: IPO Anthropic menyiapkan ujian besar pertama terhadap penilaian booming AI",
-      "url": "https://www.cnbc.com/2026/06/05/tech-download-anthropic-ipo-ai-valuations.html",
-      "summary": "Anthropic took a big step this week towards pipping bitter rival OpenAI to a public market listing.",
-      "published": "05 Jun 2026 18:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.501,
+      "score": -0.881,
       "emoji": "🔴"
     }
   ]
