@@ -1,5 +1,5 @@
 {
-  "generated": "06 Jun 2026 07:02 WIB",
+  "generated": "06 Jun 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,20 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.073,
-      "count": 17
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Netral →",
-      "score": -0.044,
-      "count": 16
+      "score": -0.097,
+      "count": 25
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.094,
-      "count": 14
+      "score": -0.128,
+      "count": 23
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.107,
+      "count": 22
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.68,
+      "count": 6
     },
     {
       "pair": "EUR",
@@ -41,12 +47,6 @@
       "count": 2
     },
     {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.498,
-      "count": 2
-    },
-    {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
       "score": -0.148,
@@ -54,6 +54,16 @@
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Cara membeli saham: Cek pasca-pendapatan 3 poin yang sederhana & efektif",
+      "url": "https://investinglive.com/Education/how-to-buy-stocks-the-simple-effective-3-point-post-earnings-check-20260606/",
+      "summary": "OKLO stock lesson: a simple post-earnings VWAP check before buying the dip Key takeaways for stock investors and swing traders OKLO was already trading below its post-earnings anchored VWAP before Friday’s sharp drop. Thursday’s rally into that VWAP area was rejected, which was a warning sign. Earni",
+      "published": "06 Jun 2026 21:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.572,
+      "emoji": "🔴"
+    },
     {
       "source": "ForexLive",
       "title": "Meta sedang mempertimbangkan untuk mengumpulkan puluhan miliar dolar dalam penawaran saham",
@@ -156,46 +166,86 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Laporan Pekerjaan AS yang Kuat Menurunkan Risiko Resesi Meskipun Pertumbuhan Upah Tertinggal Inflasi",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-05/strong-u-s-jobs-report-lowers-recession-risks-video",
-      "summary": "Gene Sperling, President of Sperling Economic Strategies and former director of the National Economic Council, discussed the recent U.S. jobs report, highlighting that the headline numbers were stronger than expected and suggest a low likelihood of recession despite ongoing geopolitical and economic",
-      "published": "06 Jun 2026 05:22 WIB",
+      "title": "Trump Mengadakan Panggilan Tidak Senonoh dengan Netanyahu",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/trump-holds-profanity-filled-call-with-netanyahu-video",
+      "summary": "President Donald Trump has spent months projecting confidence that a deal to end the Iran conflict is within reach. Israel’s determination to press ahead with its own objectives underscores his tenuous control over the outcome of the crisis. Former US ambassador to Israel under Obama, Tom Nides, joi",
+      "published": "06 Jun 2026 21:05 WIB",
       "sentiment": "Bearish",
-      "score": -0.254,
+      "score": -0.157,
       "emoji": "🔴"
     },
     {
-      "source": "BBC Business",
-      "title": "Apakah ada gelembung pasar saham AI, dan apakah siap untuk meledak?",
-      "url": "https://www.bbc.com/news/videos/c1m2mr7gr27o?at_medium=RSS&at_campaign=rss",
-      "summary": "Despite the Iran war, inflation and debt fears, US markets keep hitting record highs, fueled largely by AI. BBC's Samira Hussain looks into whether that bubble will burst.",
-      "published": "05 Jun 2026 19:46 WIB",
-      "sentiment": "Netral",
-      "score": 0.009,
-      "emoji": "⚪"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Trump mengumumkan investasi batu bara senilai $700 juta dengan menggunakan kekuatan masa perang",
-      "url": "https://www.bbc.com/news/articles/cy0209r62k5o?at_medium=RSS&at_campaign=rss",
-      "summary": "The president is directing money into coal as the Iran war drives up energy costs for Americans.",
-      "published": "05 Jun 2026 07:03 WIB",
+      "source": "Bloomberg Markets",
+      "title": "AS Mengusulkan Tarif Baru Atas Kerja Paksa",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/us-proposes-new-tariffs-over-forced-labor-video",
+      "summary": "The Trump administration has hit on a new way to impose tariffs on 60 nations that supply almost all US imports — accuse them of failing to enforce bans on foreign goods made with forced labor. Bloomberg News Global Trade Editor Brendan Murray joined David Gura and Christina Ruffini on Bloomberg Thi",
+      "published": "06 Jun 2026 20:13 WIB",
       "sentiment": "Bearish",
-      "score": -0.501,
+      "score": -0.906,
       "emoji": "🔴"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Hukuman 24 tahun terhadap pemerkosa Paul Quinn merupakan sebuah penghinaan, kata Andrew Malkinson yang dihukum secara salah",
-      "url": "https://www.bbc.com/news/articles/c99l93md0gko?at_medium=RSS&at_campaign=rss",
-      "summary": "Paul Quinn is jailed over the 2003 attack in Salford for which Andrew Malkinson served 17 years.",
-      "published": "06 Jun 2026 00:04 WIB",
+      "source": "Bloomberg Markets",
+      "title": "AS Memberi Sanksi kepada Díaz-Canel Kuba saat Trump Meningkatkan Tekanan",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/us-sanctions-cuba-s-diaz-canel-trump-ramps-up-pressure-video",
+      "summary": "The US slapped sanctions on Cuban President Miguel Díaz-Canel and members of his family, further ratcheting up pressure on the communist-run Caribbean island. CNN, Havana Bureau Chief Patrick Oppmann joined David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
+      "published": "06 Jun 2026 19:38 WIB",
+      "sentiment": "Bearish",
+      "score": -0.607,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Apakah Dolar Kehilangan Kilaunya?",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/is-the-dollar-losing-its-luster-video",
+      "summary": "Economist Ken Rogoff argues that the dollar’s position as the world’s dominant currency is unlikely to disappear overnight, but faces mounting pressures. On the international stage, the war in Iran, rising military spending, and China’s efforts to expand use of the yuan build on a trend toward a mor",
+      "published": "06 Jun 2026 19:03 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
-      "source": "BBC Top Stories",
+      "source": "Bloomberg Markets",
+      "title": "Paramount Terbuka untuk Menjual Saluran Anak-Anak untuk Menghilangkan Ketakutan UE Atas Kesepakatan Warner senilai $110 Miliar",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-06/paramount-open-to-divest-kids-tv-assets-in-eu-probe-of-110-billion-warner-deal",
+      "summary": "Paramount Skydance Corp. is prepared — if necessary — to divest some children’s TV network assets to help win European Union approval of its $110 billion bid for Warner Bros. Discovery Inc.",
+      "published": "06 Jun 2026 18:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.856,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC World",
+      "title": "Drone Ukraina menargetkan St Petersburg dalam serangan yang disebut Rusia 'belum pernah terjadi sebelumnya'",
+      "url": "https://www.bbc.com/news/articles/cg7498kz808o?at_medium=RSS&at_campaign=rss",
+      "summary": "The city's governor urges residents to remain indoors for the first time since the beginning of the war.",
+      "published": "06 Jun 2026 20:38 WIB",
+      "sentiment": "Bearish",
+      "score": -0.951,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "AS dan Iran saling serang di Teluk sebagai ujian gencatan senjata terbaru",
+      "url": "https://www.bbc.com/news/articles/cvgzgyjk2weo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US military strikes Iranian drones and radar sites and Tehran says it has targeted US bases in Kuwait and Bahrain.",
+      "published": "06 Jun 2026 21:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.532,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Lebanon mengatakan tiga tentara tewas dalam serangan Israel terhadap mobil",
+      "url": "https://www.bbc.com/news/articles/cj0g8jymg92o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Israeli military is investigating the incident in south Lebanon, where it is fighting Hezbollah.",
+      "published": "06 Jun 2026 17:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.958,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
       "title": "Bayi Palestina tewas akibat tembakan Israel di Tepi Barat, kata Kementerian Kesehatan",
       "url": "https://www.bbc.com/news/articles/cy828e64vp8o?at_medium=RSS&at_campaign=rss",
       "summary": "The Israeli military says Friday's \"incident is under review\", expressing \"deep sorrow for any harm caused\".",
@@ -205,73 +255,103 @@
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Trump menyampaikan pendapatnya kepada para petani yang sangat terpukul oleh tarif dan harga tinggi di Wisconsin",
-      "url": "https://www.aljazeera.com/news/2026/6/5/trump-makes-pitch-to-farmers-hard-hit-by-tariffs-high-prices-in-wisconsin?traffic_source=rss",
-      "summary": "Trump seeks to shore up support among rural voters hard-hit by tariffs, economic fallout of war with Iran.",
-      "published": "06 Jun 2026 04:02 WIB",
+      "source": "BBC Top Stories",
+      "title": "Ketua gabungan West Ham David Sullivan mengundurkan diri setelah tuduhan sejarah yang 'serius'",
+      "url": "https://www.bbc.com/sport/football/articles/clypyk2e7vyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sullivan is stepping down from his position as joint chairman and director of the club with immediate effect \"having been made aware of the impending publication of serious historic allegations\".",
+      "published": "06 Jun 2026 21:51 WIB",
       "sentiment": "Bearish",
-      "score": -0.456,
+      "score": -0.233,
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Zelenskyy: Putin memilih perang dengan menolak tawaran pembicaraan tatap muka",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/5/zelenskyy-putin-choosing-war-by-rejecting-offer-for-in-person-talks?traffic_source=rss",
-      "summary": "Russian President Vladimir Putin has turned down an offer for in-person talks with the Ukrainian President.",
-      "published": "06 Jun 2026 03:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.864,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "‘Ketakutan yang meluas’ mencengkeram Gaza ketika serangan Israel terus berlanjut meski gencatan senjata",
-      "url": "https://www.aljazeera.com/news/2026/6/5/pervasive-fear-grips-gaza-as-israeli-attacks-persist-despite-ceasefire?traffic_source=rss",
-      "summary": "A drone attack killed a young woman and injured 15 others near Khan Younis, reported the Wafa news agency.",
-      "published": "06 Jun 2026 03:17 WIB",
-      "sentiment": "Bearish",
-      "score": -0.922,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Anthropic mendesak laboratorium AI untuk berhenti sejenak, memperingatkan manusia berisiko kehilangan kendali",
-      "url": "https://www.aljazeera.com/economy/2026/6/5/anthropic-urges-ai-labs-to-pause-warns-humans-risk-losing-control?traffic_source=rss",
-      "summary": "It warned that rapid advances in technology could soon allow AI systems to improve themselves faster than human control.",
-      "published": "06 Jun 2026 02:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.5,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kebakaran besar terjadi di gudang Honda di Barcelona",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/5/huge-fire-erupts-at-honda-warehouse-in-barcelona?traffic_source=rss",
-      "summary": "Around 150 workers were evacuated after a fire broke out at a Honda industrial warehouse in Barcelona.",
-      "published": "06 Jun 2026 01:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.729,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Putin mengatakan ‘tidak ada gunanya’ bertemu Zelenskyy dari Ukraina untuk saat ini",
-      "url": "https://www.aljazeera.com/news/2026/6/5/russias-putin-says-no-point-meeting-ukraines-zelenskyy-for-now?traffic_source=rss",
-      "summary": "The Russian leader insisted military action would only stop after Moscow achieves its 'goals'.",
-      "published": "06 Jun 2026 01:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC Economy",
-      "title": "Musim pertunjukan Broadway senilai $1,9 miliar adalah tanda terbaru konsumen menghabiskan banyak uang untuk menikmati pengalaman",
-      "url": "https://www.cnbc.com/2026/06/05/broadway-record-ticket-sales.html",
-      "summary": "Sunday's Tony Awards follow a record-breaking season on Broadway. The awards often lead to further ticket sales for winning shows.",
-      "published": "05 Jun 2026 19:00 WIB",
+      "source": "BBC Top Stories",
+      "title": "Sedang memikirkan gelombang panas berikutnya? Bersiaplah untuk lebih banyak hujan terlebih dahulu",
+      "url": "https://www.bbc.com/weather/articles/clypk7j0qqdo?at_medium=RSS&at_campaign=rss",
+      "summary": "A strengthening jet stream has brought rain to the UK but long-range summer forecasts show warmer weather could be ahead",
+      "published": "06 Jun 2026 21:15 WIB",
       "sentiment": "Bullish",
-      "score": 0.776,
+      "score": 0.519,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Saya telah menjodohkan empat pria di aplikasi kencan - mereka semua penipu",
+      "url": "https://www.bbc.com/news/articles/c2e2ek9j1jmo?at_medium=RSS&at_campaign=rss",
+      "summary": "Julie Osgood tried dating after losing her partner of 38 years to Covid and now wants to warn others.",
+      "published": "06 Jun 2026 13:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.539,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Lebanon dan mesin perang abadi Israel",
+      "url": "https://www.aljazeera.com/video/the-listening-post/2026/6/6/lebanon-and-israels-perpetual-war-machine?traffic_source=rss",
+      "summary": "Why Lebanon remains central to Israel's multi-front wars.",
+      "published": "06 Jun 2026 20:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.898,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Pemilu mengkampanyekan siapa yang bisa lebih brutal terhadap warga Palestina’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/6/elections-campaigned-on-who-can-be-more-brutal-to?traffic_source=rss",
+      "summary": "‘Elections campaigned on who can be more brutal to Palestinians’",
+      "published": "06 Jun 2026 20:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.869,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Bisakah SpaceX memenuhi hype Wall Street yang bernilai triliunan dolar?",
+      "url": "https://www.marketwatch.com/story/can-spacex-live-up-to-wall-streets-multitrillion-dollar-hype-3610b2f3?mod=mw_rss_topstories",
+      "summary": "As SpaceX prepares for the biggest public debut in history, some analysts warn that the company’s “moonshot” projections could fall short.",
+      "published": "06 Jun 2026 19:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.263,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Persediaan minyak mentah Amerika semakin menipis. Tapi itu bukan cerita lengkapnya.",
+      "url": "https://www.marketwatch.com/story/americas-crude-inventories-are-getting-perilously-low-but-thats-not-the-full-story-c3104976?mod=mw_rss_topstories",
+      "summary": "U.S. commercial oil inventories may be too low for comfort as the war with Iran enters its fourth month far from a clear resolution — and a lot is riding on how much longer the conflict drags on.",
+      "published": "06 Jun 2026 19:00 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "WWDC Apple akan menjadi momen penentu bagi strategi AI perusahaan yang masih baru",
+      "url": "https://www.marketwatch.com/story/apples-wwdc-will-be-a-make-or-break-moment-for-the-companys-fledgling-ai-strategy-42086cc1?mod=mw_rss_topstories",
+      "summary": "At Monday’s keynote, Apple will get a second chance to show users it can make Siri smarter and more contextually aware.",
+      "published": "06 Jun 2026 18:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.532,
+      "emoji": "🟢"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Kunci pertemuan Fed mendatang? Bagaimana reaksi Warsh terhadap semua sinyal kenaikan suku bunga.",
+      "url": "https://www.marketwatch.com/story/the-key-to-the-upcoming-fed-meeting-how-warsh-reacts-to-all-the-hints-of-a-rate-hike-3cbdce15?mod=mw_rss_topstories",
+      "summary": "The new Fed chair might make swift changes to how the central bank communicates.",
+      "published": "06 Jun 2026 18:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.122,
+      "emoji": "🟢"
+    },
+    {
+      "source": "CNBC Forex",
+      "title": "Abel menempuh jalannya sendiri dengan investasi baru di Berkshire, termasuk miliaran dolar untuk AI",
+      "url": "https://www.cnbc.com/2026/06/06/abel-goes-his-own-way-with-new-berkshire-investments-including-billions-for-ai.html",
+      "summary": "Warren Buffett tells CNBC's Becky Quick new Berkshire Hathaway CEO Greg Abel has \"launched\" with his first major deal.",
+      "published": "06 Jun 2026 19:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.128,
       "emoji": "🟢"
     },
     {
@@ -283,6 +363,16 @@
       "sentiment": "Bearish",
       "score": -0.881,
       "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Di dalam perjanjian nuklir Iran era Obama yang ditarik oleh Trump",
+      "url": "https://www.cnbc.com/2026/06/06/trump-iran-jcpoa-nuclear-deal-obama.html",
+      "summary": "The U.S. and Iran have yet to reach a peace deal or address Iran's nuclear ambitions, despite signals from Trump that talks are progressing.",
+      "published": "06 Jun 2026 19:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.637,
+      "emoji": "🟢"
     }
   ]
 }
