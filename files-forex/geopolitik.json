@@ -1,5 +1,5 @@
 {
-  "generated": "10 Jun 2026 07:01 WIB",
+  "generated": "10 Jun 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,209 +7,181 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.509,
-      "count": 23
+      "score": -0.458,
+      "count": 21
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.515,
-      "count": 22
+      "score": -0.563,
+      "count": 17
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.491,
-      "count": 18
+      "score": -0.421,
+      "count": 16
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.451,
-      "count": 4
+      "direction": "Netral →",
+      "score": -0.038,
+      "count": 5
     },
     {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.395,
-      "count": 1
+      "pair": "EUR",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.067,
+      "count": 3
     },
     {
-      "pair": "USD/CNY",
+      "pair": "USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.067,
+      "count": 3
+    },
+    {
+      "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.395,
-      "count": 1
+      "score": -0.688,
+      "count": 3
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.688,
+      "count": 3
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Gelombang kedua serangan AS terhadap Iran dikatakan sedang berlangsung",
-      "url": "https://investinglive.com/commodities/second-wave-of-us-attacks-on-iran-said-to-be-underway-20260609/",
-      "summary": "Explosions reported again, in the vicinity of Jask, Hormozgan province of Iran. Iranian media cite a 'senior US official' but I have yet to see such a US report. Israel's Channel 12: targeting air defense systems and radars Earlier: US strikes southern Iran after Apache helicopter downed US hits Ira",
-      "published": "10 Jun 2026 06:18 WIB",
+      "title": "Macklem, Dewan Komisaris: Tidak banyak yang berubah sejak keputusan terakhir, tidak ada kejutan besar",
+      "url": "https://investinglive.com/centralbank/bocs-macklem-not-a-lot-has-changed-since-last-decision-there-havent-been-big-surprises-20260610/",
+      "summary": "Any Bank of Canada decision on a possible rate hike is less about a timeline and more about conditions Macklem notes that core inflation has ticked down Bank would also look at inflation expectations when mulling a possible rate hike Weakness of Canadian economy tends to put downward pressure on pri",
+      "published": "10 Jun 2026 21:55 WIB",
       "sentiment": "Bearish",
-      "score": -0.67,
+      "score": -0.9,
       "emoji": "🔴"
     },
     {
       "source": "ForexLive",
-      "title": "Menteri Luar Negeri Iran Araqchi memperingatkan AS untuk meninggalkan wilayah tersebut dan berjanji akan membalas serangan",
-      "url": "https://investinglive.com/commodities/iran-foreign-minister-araqchi-warns-us-to-leave-region-pledges-response-to-strikes-20260609/",
-      "summary": "A direct, named threat from Iran's Foreign Minister raises the geopolitical risk premium a notch above anonymous state media statements. Language referencing battlefield defeats and historical consequences for outside powers suggests Tehran is not inclined to absorb the strikes quietly. Any Iranian ",
-      "published": "10 Jun 2026 05:44 WIB",
+      "title": "Harga minyak mentah lebih tinggi namun tidak berjalan pasca meningkatnya konflik di timur tengah",
+      "url": "https://investinglive.com/technical-analysis/crude-oil-is-higher-but-it-is-not-running-after-the-increased-conflict-in-the-middle-east-20260610/",
+      "summary": "Given the escalating tensions in the Middle East—including reports of an Iranian drone attack on an Apache helicopter and a subsequent U.S. retaliatory strike—one might have expected crude oil prices to surge. Instead, WTI crude is only modestly higher, up about $1.23 at $89.45, suggesting traders r",
+      "published": "10 Jun 2026 20:54 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "ForexLive",
-      "title": "AS menyerang pertahanan udara Iran sebagai tembakan peringatan ketika Trump mengatakan perundingan kesepakatan akan dilanjutkan",
-      "url": "https://investinglive.com/commodities/us-hits-iran-air-defenses-in-warning-shot-as-trump-says-deal-talks-to-continue-20260609/",
-      "summary": "The dual signal from Washington, striking Iranian territory while simultaneously insisting the deal survives, introduces a new layer of uncertainty that markets will struggle to price cleanly. Targeting air defense and radar infrastructure near Hormuz raises the operational stakes considerably, and ",
-      "published": "10 Jun 2026 05:14 WIB",
+      "title": "Pernyataan lengkap dan pernyataan Gubernur dari keputusan suku bunga Bank of Canada",
+      "url": "https://investinglive.com/centralbank/the-full-statement-and-governors-statement-from-the-bank-of-canada-rate-decision-20260610/",
+      "summary": "The full statement from the Bank of Canada. The Bank of Canada today held its target for the overnight rate at 2.25%, with the Bank Rate at 2.5% and the deposit rate at 2.20%. The conflict in the Middle East is now in its fourth month. The resulting increases in energy prices and disruptions in glob",
+      "published": "10 Jun 2026 20:46 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Bank of Canada bertahan seperti yang diharapkan tetapi terus menyoroti risiko dampak buruk pada harga minyak",
+      "url": "https://investinglive.com/centralbank/bank-of-canada-rate-decision-225-vs-225-expected-20260610/",
+      "summary": "Prior was 2.25% Rates have been held steady since a cut in October The war is weighing on global economic growth and pushing up inflation the US administration continues to propose new tariffs US economic growth remains solid supported by consumption and AI‑related investment In the euro area, growt",
+      "published": "10 Jun 2026 20:45 WIB",
+      "sentiment": "Bullish",
+      "score": 0.681,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Inflasi CPI sedikit lebih ringan (tidak lebih tinggi). Pasar membaik. USD miring lebih rendah",
+      "url": "https://investinglive.com/technical-analysis/cpi-inflation-comes-in-a-bit-lighter-markets-improve-20260610/",
+      "summary": "As Adam pointed out, the inflation story was \"overwhelmingly a gasoline story,\" with energy accounting for more than 60% of the monthly increase in CPI. That characterization may help explain why the market's initial reaction has been relatively muted. However, the bigger issue for policymakers is w",
+      "published": "10 Jun 2026 19:51 WIB",
+      "sentiment": "Bullish",
+      "score": 0.121,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Team Transitory 2.0 sedang menunggu laporan CPI",
+      "url": "https://investinglive.com/news/team-transitory-20-is-hanging-by-a-thread-ahead-of-the-cpi-report-20260610/",
+      "summary": "It's finally time for the CPI and the market is nervous. Gold and silver cracked today, breaking the war lows on fear that Trump doesn't have the 'imminent' peace deal that he's promised 37 times (according to CNN's count). Now it looks like the pendulum is swinging towards further escalation with T",
+      "published": "10 Jun 2026 19:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.878,
+      "score": -0.5,
       "emoji": "🔴"
     },
     {
       "source": "ForexLive",
-      "title": "Lebih lanjut tentang berita ini: AS menyerang Iran selatan setelah helikopter Apache jatuh di Hormuz",
-      "url": "https://investinglive.com/commodities/more-on-this-news-us-strikes-southern-iran-after-apache-helicopter-downed-over-hormuz-20260609/",
-      "summary": "The strikes mark a sharp escalation in direct US-Iran military engagement and raise fresh doubts about any near-term peace deal, which markets had been tentatively pricing in. Hormuz closure risk is again front and centre, with the strait already blocking roughly a fifth of global crude and LNG flow",
-      "published": "10 Jun 2026 04:36 WIB",
+      "title": "USD sedikit berubah vs EUR, JPY dan GBP untuk memulai sesi Amerika Utara",
+      "url": "https://investinglive.com/technical-analysis/the-usd-is-little-changed-vs-the-eur-jpy-and-gbp-to-start-the-north-american-session-20260610/",
+      "summary": "The USD is little changed vs the EUR, JPY and GBP to start the North American session. IN the video above, I take a look at the technicals that are defining the bias, the risk and the targets for those pairs ahead of the CPI data at 8:30 AM ET In other developments, geopolitics remain in the forefro",
+      "published": "10 Jun 2026 19:18 WIB",
       "sentiment": "Bearish",
-      "score": -0.876,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Kalender ekonomi Asia 10 Juni 2026. Jepang (PPI) & Tiongkok (CPI, PPI)",
-      "url": "https://investinglive.com/news/economic-calendar-asia-10-june-2026-japan-ppi-china-cpi-ppi-20260609/",
-      "summary": "Japan's m/m 'wholesale inflation' measure, PPI, is expected to pull back. For China, m/m CPI is expected to be subdued, despite rising costs for manufacturers,- both for the inputs they buy and the goods they produce, as a result of the Middle East conflict. Further upward pressure is likely from th",
-      "published": "10 Jun 2026 03:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.42,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Logam mulia berada pada titik rentan",
-      "url": "https://investinglive.com/commodities/the-precious-metals-are-in-a-vulnerable-spot-20260609/",
-      "summary": "It's a rough day in the precious metals market and one of the most-concerning ones of the year. Gold and silver have often traded inversely to oil during the conflict. There is/was a big risk that countries would have to sell gold reserves in order to pay for oil imports or to support currencies if ",
-      "published": "10 Jun 2026 02:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.112,
+      "score": -0.692,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "Minyak Mentah tidak bereaksi ketika Trump mengancam perang atas helikopter",
-      "url": "https://www.fxstreet.com/news/crude-oil-shrugs-as-trump-threatens-war-over-a-helicopter-202606091915",
-      "summary": "Trump announced on Tuesday that his military had concluded Iran shot down one of its Apache helicopters over the Strait of Hormuz during the overnight session, and that the US had no choice but to respond. Crude Oil's reaction was to fall.",
-      "published": "10 Jun 2026 02:15 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Harga emas jatuh di bawah $4.250 karena Trump berjanji akan membalas serangan helikopter",
-      "url": "https://www.fxstreet.com/news/gold-price-tumbles-below-4-250-as-trump-vows-response-to-helicopter-strike-202606091913",
-      "summary": "Gold (XAU/USD) price plunges nearly 2% on Tuesday as tensions in the Middle East escalate afterUS President Donald Trump vowed a response to Iran's downing of a US helicopter near the Strait of Hormuz. At the time of writing, XAU/USD trades below $4,250, down 1.93% on the day.",
-      "published": "10 Jun 2026 02:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga Perak: Penjual XAG/USD menargetkan $60 karena tekanan penjualan meningkat",
-      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-bears-target-60-as-selling-pressure-intensifies-202606091847",
-      "summary": "Silver (XAG/USD) tumbles more than 3.5% on Tuesday as price action remains driven by rapidly changing headlines surrounding the Middle East war. At the time of writing, XAG/USD is trading around $65.50, its lowest level since March 23.",
-      "published": "10 Jun 2026 01:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.838,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Pembicaraan nuklir AS-Iran hampir mencapai titik temu setelah pembekuan 15 tahun – NYT",
-      "url": "https://www.fxstreet.com/news/us-iran-nuclear-talks-near-breakthrough-on-15-year-freeze-nyt-202606091802",
-      "summary": "A New York Times article reports on Tuesday that the US and Iran are close to agreeing on four nuclear themes, according to US officials and diplomats negotiating with Tehran, which could halt Iran’s nuclear program for 15 years or so.",
-      "published": "10 Jun 2026 01:02 WIB",
+      "title": "Krone Norwegia: Hawkish Norges Bank menopang kekuatan – BBH",
+      "url": "https://www.fxstreet.com/news/norwegian-krone-hawkish-norges-bank-underpins-strength-bbh-202606101310",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that the Norwegian Krone is outperforming as underlying inflation overshot expectations in May, bringing forward rate hike bets from November to September.",
+      "published": "10 Jun 2026 20:10 WIB",
       "sentiment": "Bullish",
-      "score": 0.382,
+      "score": 0.574,
       "emoji": "🟢"
     },
     {
       "source": "FXStreet News",
-      "title": "Emas merosot karena komentar Trump mengaburkan harapan akan kesepakatan perdamaian Timur Tengah",
-      "url": "https://www.fxstreet.com/news/gold-holds-steady-as-traders-weigh-middle-east-optimism-against-hawkish-fed-outlook-202606091228",
-      "summary": "Gold (XAU/USD) extends its decline to the lowest level since March on Tuesday as the US Dollar (USD) rebounds amid uncertainty surrounding a possible end to the war in the Middle East, while a hawkish Federal Reserve (Fed) outlook continues to weigh on the non-yielding metal.",
-      "published": "10 Jun 2026 00:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.273,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Presiden AS Trump: AS harus bereaksi terhadap serangan Iran",
-      "url": "https://www.fxstreet.com/news/us-president-trump-us-must-react-to-iran-assault-202606091651",
-      "summary": "United States (US) President Donald Trump claimed that last night, Iranians shot down a US military Apache helicopter while patrolling the Strait of Hormuz.",
-      "published": "09 Jun 2026 23:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.25,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Pound Inggris menguat karena hitungan mundur IHK AS menguji kenaikan USD",
-      "url": "https://www.fxstreet.com/news/british-pound-firms-as-us-cpi-countdown-tests-usd-bulls-202606091621",
-      "summary": "The Pound Sterling (GBP) gains 0.31% on Tuesday as the US Dollar (USD) trims some of its earlier losses amid souring risk appetite, with traders awaiting the release of US inflation figures and tensions in the Middle East, tempered by US President Donald Trump's demand on Israel and Iran.",
-      "published": "09 Jun 2026 23:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.841,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "GM menawarkan pemilik kendaraan listrik kemampuan untuk menjual listrik ke jaringan listrik AS",
-      "url": "https://www.investing.com/news/stock-market-news/gm-to-offer-ev-owners-ability-to-sell-power-to-us-electricity-grid-4734123",
-      "summary": "",
-      "published": "10 Jun 2026 04:54 WIB",
-      "sentiment": "Bullish",
-      "score": 0.318,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "AS Meluncurkan Serangan Iran Setelah Helikopter Jatuh",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-09/us-launches-iran-strikes-after-helicopter-is-downed-video",
-      "summary": "The US military launched fresh airstrikes against Iran hours after President Donald Trump vowed to retaliate for the shooting down of a US Army helicopter. Bloomberg's Romy Varghese breaks down the situation. (Source: Bloomberg)",
-      "published": "10 Jun 2026 06:56 WIB",
-      "sentiment": "Bullish",
-      "score": 0.157,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Emas Terus Turun Seiring Kembalinya Bentrokan AS-Iran Menguji Gencatan Senjata yang Rapuh",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-09/gold-extends-fall-as-renewed-us-iran-clashes-test-fragile-truce",
-      "summary": "Gold extended a decline after the US launched fresh strikes against Iran in retaliation for the downing of a military helicopter, jeopardizing efforts to end the war that’s roiled global markets.",
-      "published": "10 Jun 2026 06:27 WIB",
+      "title": "Brent: Reaksi Terbatas Terhadap Serangan AS-Iran – MUFG",
+      "url": "https://www.fxstreet.com/news/brent-limited-reaction-to-us-iran-strikes-mufg-202606101255",
+      "summary": "MUFG’s Hardman and Lockhart report that Brent Oil prices have shown a muted response to renewed US–Iran military exchanges, trading near recent lows after briefly dipping below USD 90 per barrel.",
+      "published": "10 Jun 2026 19:55 WIB",
       "sentiment": "Bearish",
       "score": -0.637,
       "emoji": "🔴"
     },
     {
+      "source": "FXStreet News",
+      "title": "Aluminium: Ekspor dan aksi beli spekulatif meningkat – ING",
+      "url": "https://www.fxstreet.com/news/aluminium-exports-and-speculative-longs-increase-ing-202606101210",
+      "summary": "ING strategists Warren Patterson and Ewa Manthey highlight that Chinese unwrought Aluminium and product exports rose strongly in May to the highest level since November 2024, helped by overseas demand after Middle East disruptions.",
+      "published": "10 Jun 2026 19:10 WIB",
+      "sentiment": "Bullish",
+      "score": 0.511,
+      "emoji": "🟢"
+    },
+    {
       "source": "Bloomberg Markets",
-      "title": "Saham Akan Menurun Saat AS Menyerang Iran, Minyak Naik: Pasar Selesai",
+      "title": "Inflasi AS Meningkat Tertinggi dalam Tiga Tahun",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-10/us-inflation-picks-up-to-three-year-high-video",
+      "summary": "US inflation accelerated in May to the fastest pace in more than three years as the Iran war pushed up energy prices, outstripping Americans’ pay gains. Tiffany Wilding, Economist: North America at PIMCO, reacts to the May CPI report. (Source: Bloomberg)",
+      "published": "10 Jun 2026 21:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.202,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Dealer Mobil Subprime Car-Mart Amerika Mencari Pembiayaan Penyelamatan",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-10/subprime-auto-dealer-america-s-car-mart-seeks-rescue-financing",
+      "summary": "America’s Car-Mart Inc., a used car seller and subprime lender, is working on an eleventh hour capital raise to stave off a potential bankruptcy filing after a cash crunch put the company on the verge of default, according to people familiar with the matter.",
+      "published": "10 Jun 2026 21:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.527,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Jatuh karena Ketegangan AS-Iran Mengimbangi Bantuan CPI: Pasar Selesai",
       "url": "https://www.bloomberg.com/news/articles/2026-06-09/stock-market-today-dow-s-p-live-updates",
-      "summary": "Asian equities were set to fall as tensions escalated in the Middle East after US forces struck Iran, while technology stocks remained under pressure on Wall Street. Crude oil climbed.",
+      "summary": "A relatively tame inflation report brought a degree of relief to Wall Street, but failed to lift stocks amid heightened geopolitical tensions that are keeping energy costs elevated and threatening further price pressures.",
       "published": "10 Jun 2026 05:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.962,
+      "score": -0.996,
       "emoji": "🔴"
     },
     {
@@ -224,23 +196,23 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Minyak Naik Setelah Serangan Baru AS terhadap Iran Terkait Serangan Helikopter",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-09/latest-oil-market-news-and-analysis-for-june-10",
-      "summary": "Oil rebounded after the US launched fresh strikes against Iran following the downing of an American helicopter, posing a new threat to a fragile truce that’s been tested by recent attacks in the Middle East.",
-      "published": "10 Jun 2026 05:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.852,
-      "emoji": "🔴"
+      "title": "Pedagang Obligasi Tetap Bertaruh pada Kenaikan Suku Bunga Fed pada tahun 2026 Setelah Data CPI",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-10/bond-traders-keep-bets-on-a-fed-hike-this-year-after-cpi-report",
+      "summary": "Bond traders maintained bets that the Federal Reserve will raise interest rates by the end of the year, even after a soft US core inflation reading eased pressure on Chairman Kevin Warsh to act sooner.",
+      "published": "10 Jun 2026 19:51 WIB",
+      "sentiment": "Bullish",
+      "score": 0.379,
+      "emoji": "🟢"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Intervensi bank sentral: Apa itu dan mengapa Anda harus peduli - Metrobank Wealth Insights",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR2dFYlRxb01oTUlETFNqSkJPaUdMUzZzUG9uRTRudlBCYkNrbFpaa3RPbV8tOGdrajBmVnlfa19MUDNpdTVWLTZHTFdSUk9ETlU4bVo5MTJqQUktNEtKVDRsUklhSER2WnF3SC1nV0NyV3BLWnFJeDNfc1FtTnBkbEwtVEtIMWktQjFvYQ?oc=5",
-      "summary": "Central bank intervention: What is it and why you should care Metrobank Wealth Insights",
-      "published": "09 Jun 2026 11:51 WIB",
-      "sentiment": "Bullish",
-      "score": 0.915,
-      "emoji": "🟢"
+      "source": "BBC World",
+      "title": "Trump dan Iran saling bertukar ancaman baru setelah saling menyerang",
+      "url": "https://www.bbc.com/news/articles/ce371kw2ex2o?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president warns Iran \"will have to pay the price\" for taking too long to agree a deal, after Tehran vows retaliation to any attacks.",
+      "published": "10 Jun 2026 21:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.838,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
@@ -254,13 +226,33 @@
     },
     {
       "source": "BBC World",
-      "title": "Produsen chip terbesar di dunia ini tidak mengesampingkan kenaikan harga seiring kenaikan biaya",
-      "url": "https://www.bbc.com/news/articles/ce3ez4zzzlvo?at_medium=RSS&at_campaign=rss",
-      "summary": "In a rare interview, a senior executive at TSMC discusses the AI boom, the geopolitics of chips and what it means for the price of electronics.",
-      "published": "10 Jun 2026 05:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.318,
-      "emoji": "🟢"
+      "title": "Ukraina mengatakan rudal menghantam pabrik militer jauh di dalam wilayah Rusia",
+      "url": "https://www.bbc.com/news/articles/c5yzm2nzgr2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine's military also says it has struck a Russian oil refinery and a \"shadow fleet\" oil tanker in the Black Sea.",
+      "published": "10 Jun 2026 18:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.33,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Zelensky berada di bawah tekanan untuk mengakhiri perselisihan dengan Polandia mengenai nama unit tentara PD II",
+      "url": "https://www.bbc.com/news/articles/c992r4kn5j9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Poland is threatening to strip Ukraine's president of a state honour over the naming Ukrainian military unit after controversial World War Two fighters.",
+      "published": "10 Jun 2026 16:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.858,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Dugaan pria bersenjata di Pantai Bondi didakwa melakukan 19 pelanggaran lagi",
+      "url": "https://www.bbc.com/news/articles/ckg0l7g7n9no?at_medium=RSS&at_campaign=rss",
+      "summary": "Naveed Akram, 24, is already facing 59 charges over an attack on a Jewish festival in December.",
+      "published": "10 Jun 2026 10:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
@@ -284,92 +276,122 @@
     },
     {
       "source": "BBC Business",
-      "title": "AS menambahkan BYD ke daftar perusahaan yang diduga memiliki hubungan militer dengan Tiongkok",
-      "url": "https://www.bbc.com/news/articles/c75y6e5p9reo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Pentagon list warns US firms of risks linked to working with flagged Chinese companies.",
-      "published": "09 Jun 2026 14:20 WIB",
+      "title": "Inflasi AS melonjak ke level tertinggi dalam tiga tahun sebesar 4,2%",
+      "url": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
+      "summary": "Consumers are increasingly feeling the strain of the US Israel war in Iran.",
+      "published": "10 Jun 2026 21:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.521,
+      "score": -0.717,
       "emoji": "🔴"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Bowen: Trump dan Netanyahu ingin membentuk kembali Timur Tengah - sekarang mereka berisiko mengalami permakrisis",
-      "url": "https://www.bbc.com/news/articles/cjdgl548x3eo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US and Israeli leaders have lost control of the consequences after miscalculating the Iran war.",
-      "published": "10 Jun 2026 03:14 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "The Papers: 'Kekerasan di Belfast' dan 'kata-kata perang' Trump",
-      "url": "https://www.bbc.com/news/articles/c982ddx2zkgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Reports of violence on the streets of Belfast following Monday's knife attack in the city dominate Wednesday's papers.",
-      "published": "10 Jun 2026 06:44 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mengapa begitu banyak orang Amerika belum pernah mendengar tentang USS Liberty",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/9/why-so-many-americans-havent-heard-about-the-uss-liberty?traffic_source=rss",
-      "summary": "Al Jazeera’s Ava Warriner explains what happened on the day of the attack, the alleged cover-up that followed.",
-      "published": "10 Jun 2026 02:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.386,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Israel mencegah lebih dari 16.500 warga Palestina mengakses perawatan medis",
-      "url": "https://www.aljazeera.com/news/2026/6/9/israel-preventing-more-than-16500-palestinians-from-accessing-medical-treatment?traffic_source=rss",
-      "summary": "Israel has systematically destroyed Gaza's healthcare system since launching its genocidal war in October 2023.",
-      "published": "10 Jun 2026 01:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.882,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "‘Semuanya kecuali normal’: Ketidakpastian ketika Iran berusaha bertahan di tengah perang AS",
-      "url": "https://www.aljazeera.com/news/2026/6/9/anything-but-normal-uncertainty-as-iranians-try-to-get-by-amid-us-war?traffic_source=rss",
-      "summary": "War damage and blockade have worsened economic conditions for many struggling Iranians.",
-      "published": "10 Jun 2026 00:59 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "AI Apple dapat mengantarkan siklus peningkatan bersejarah yang diabaikan oleh investor",
-      "url": "https://www.marketwatch.com/story/apples-ai-could-usher-in-a-historic-upgrade-cycle-that-investors-are-overlooking-2b47fbb3?mod=mw_rss_topstories",
-      "summary": "Apple’s new AI features are on track to be monetized faster than expected, thanks to increased hardware requirements and new “killer apps.”",
+      "source": "BBC Business",
+      "title": "Produsen chip terbesar di dunia ini tidak mengesampingkan kenaikan harga seiring kenaikan biaya",
+      "url": "https://www.bbc.com/news/articles/ce3ez4zzzlvo?at_medium=RSS&at_campaign=rss",
+      "summary": "In a rare interview, a senior executive at TSMC discusses the AI boom, the geopolitics of chips and what it means for the price of electronics.",
       "published": "10 Jun 2026 05:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.532,
+      "score": 0.318,
       "emoji": "🟢"
     },
     {
-      "source": "MarketWatch",
-      "title": "Portofolio teknologi Anda mungkin berada di pihak yang salah dalam booming AI",
-      "url": "https://www.marketwatch.com/story/your-next-videogame-console-could-cost-1-000-and-it-has-nothing-to-do-with-better-hardware-8cb180dd?mod=mw_rss_topstories",
-      "summary": "Why the coming $1,000 videogame console will squeeze hardware stocks.",
-      "published": "10 Jun 2026 03:16 WIB",
+      "source": "BBC Top Stories",
+      "title": "'Saya tidak akan pernah berhenti melihat rumah saya terbakar': Warga Belfast terguncang setelah malam kerusuhan",
+      "url": "https://www.bbc.com/news/articles/cevl9j9y8dmo?at_medium=RSS&at_campaign=rss",
+      "summary": "A night of disorder in Belfast saw people forced to flee their homes, in protests that followed a knife attack in the north of the city.",
+      "published": "10 Jun 2026 21:14 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.946,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Tiga orang ditangkap karena kerusuhan di Glasgow dan serangan rasis setelah serangan pisau di Belfast",
+      "url": "https://www.bbc.com/news/articles/cr5jme6ld54o?at_medium=RSS&at_campaign=rss",
+      "summary": "Police Scotland said members of the public were attacked \"because of the colour of their skin\" on Tuesday evening.",
+      "published": "10 Jun 2026 20:57 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pembersihan etnis Tepi Barat, pemukim menyerang kebijakan negara Israel: Amnesti",
+      "url": "https://www.aljazeera.com/news/2026/6/10/west-bank-ethnic-cleansing-settler-attacks-israels-state-policy-amnesty?traffic_source=rss",
+      "summary": "Israel uses war crimes to accelerate 'annexation agenda and settlement expansion' in occupied land, rights group says.",
+      "published": "10 Jun 2026 19:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.858,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Rudal 'Flamingo' buatan Ukraina mencapai sasaran 900 km di wilayah Rusia",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/10/ukraine-made-flamingo-missile-hits-target-900-km-inside-russia?traffic_source=rss",
+      "summary": "Video shows a Ukrainian-made ‘FP-5 Flamingo’ cruise missile flying deep inside Russia.",
+      "published": "10 Jun 2026 19:44 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Netanyahu terjebak di antara AS, perang Lebanon, dan gencatan senjata Iran",
+      "url": "https://www.aljazeera.com/news/2026/6/10/netanyahu-caught-between-the-us-lebanon-war-and-iran-ceasefire?traffic_source=rss",
+      "summary": "As elections near, Israel's PM finds himself squeezed between his voters, his allies, and his opponents.",
+      "published": "10 Jun 2026 18:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.599,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apache tumbang, berjuang: Arti serangan terbaru AS-Iran",
+      "url": "https://www.aljazeera.com/news/2026/6/10/apache-down-fighting-up-what-the-latest-us-iran-attacks-mean?traffic_source=rss",
+      "summary": "Analysts say Iran seeks to deter US patrols on the Strait of Hormuz by attacking its assets across the Gulf.",
+      "published": "10 Jun 2026 18:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.852,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Citra satelit menunjukkan penghancuran kota bersejarah Tirus oleh Israel",
+      "url": "https://www.aljazeera.com/news/2026/6/10/satellite-images-show-israels-destruction-of-historical-city-of-tyre?traffic_source=rss",
+      "summary": "Satellite data shows damage to residential areas, UNESCO Heritage buffer zones and Palestinian camps in Israeli attacks.",
+      "published": "10 Jun 2026 18:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.949,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apa yang terjadi di Piala Dunia satu hari sebelum turnamen dimulai?",
+      "url": "https://www.aljazeera.com/sports/2026/6/10/whats-happening-at-the-world-cup-one-day-before-tournament-starts?traffic_source=rss",
+      "summary": "Political issues continue to dominate the build-up, with the US-Israel war on Iran overshadowing the World Cup.",
+      "published": "10 Jun 2026 18:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.74,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Mengapa Belfast meletus dalam kekerasan anti-imigran setelah serangan pisau?",
+      "url": "https://www.aljazeera.com/news/2026/6/10/why-has-belfast-erupted-in-anti-immigrant-violence-after-a-knife-attack?traffic_source=rss",
+      "summary": "Ministers have blamed far-right online agitators for stoking racial tension following a stabbing.",
+      "published": "10 Jun 2026 17:50 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "'SaaSpocalypse' telah berakhir, kata raksasa ekuitas swasta Thoma Bravo. Inilah sebabnya mengapa terjadi ledakan AI pada perangkat lunak",
-      "url": "https://www.cnbc.com/2026/06/09/orlando-bravo-saaspocalypse-over-ai-software.html",
-      "summary": "Thoma Bravo founder Orlando Bravo says AI offers an \"enormous tailwind\" for software companies.",
-      "published": "09 Jun 2026 19:50 WIB",
+      "title": "Harga minyak melonjak setelah Trump mengatakan Iran akan 'membayar akibatnya' karena gagal mencapai kesepakatan damai",
+      "url": "https://www.cnbc.com/2026/06/10/oil-price-us-completes-iran-strikes-after-apache-helicopter-attack.html",
+      "summary": "Oil prices rose after the U.S. launched military strikes against Iran, raising concerns that renewed clashes may threaten shipping through the Strait of Hormuz.",
+      "published": "10 Jun 2026 21:59 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.426,
       "emoji": "🔴"
     }
   ]
