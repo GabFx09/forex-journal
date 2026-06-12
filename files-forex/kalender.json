@@ -1,5 +1,5 @@
 {
-  "generated": "12 Jun 2026 07:02 WIB",
+  "generated": "12 Jun 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-06-07",
@@ -646,7 +646,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "Revised Industrial Production m/m",
-      "actual": "",
+      "actual": "0.5%",
       "forecast": "0.9%",
       "previous": "0.8%"
     },
@@ -657,7 +657,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "German Final CPI m/m",
-      "actual": "",
+      "actual": "-0.2%",
       "forecast": "-0.2%",
       "previous": "-0.2%"
     },
@@ -668,7 +668,7 @@
       "currency": "GBP",
       "impact": "high",
       "event": "GDP m/m",
-      "actual": "",
+      "actual": "-0.1%",
       "forecast": "-0.1%",
       "previous": "0.3%"
     },
@@ -679,7 +679,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Construction Output m/m",
-      "actual": "",
+      "actual": "0.1%",
       "forecast": "-0.7%",
       "previous": "1.5%"
     },
@@ -690,7 +690,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Goods Trade Balance",
-      "actual": "",
+      "actual": "-26.0B",
       "forecast": "-22.5B",
       "previous": "-27.2B"
     },
@@ -701,7 +701,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Index of Services 3m/3m",
-      "actual": "",
+      "actual": "0.8%",
       "forecast": "0.8%",
       "previous": "0.8%"
     },
@@ -712,7 +712,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Industrial Production m/m",
-      "actual": "",
+      "actual": "0.0%",
       "forecast": "0.1%",
       "previous": "-0.2%"
     },
@@ -723,7 +723,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Manufacturing Production m/m",
-      "actual": "",
+      "actual": "0.4%",
       "forecast": "-0.2%",
       "previous": "1.2%"
     },
@@ -734,18 +734,29 @@
       "currency": "EUR",
       "impact": "low",
       "event": "French Final CPI m/m",
-      "actual": "",
+      "actual": "0.1%",
       "forecast": "0.1%",
       "previous": "0.1%"
     },
     {
       "date": "2026-06-12",
       "day": "Jumat",
-      "time_wib": "09:00",
+      "time_wib": "15:30",
+      "currency": "GBP",
+      "impact": "low",
+      "event": "Consumer Inflation Expectations",
+      "actual": "4.0%",
+      "forecast": "",
+      "previous": "3.2%"
+    },
+    {
+      "date": "2026-06-12",
+      "day": "Jumat",
+      "time_wib": "16:00",
       "currency": "CNY",
       "impact": "low",
       "event": "M2 Money Supply y/y",
-      "actual": "",
+      "actual": "8.6%",
       "forecast": "8.6%",
       "previous": "8.6%"
     },
@@ -756,20 +767,9 @@
       "currency": "CNY",
       "impact": "low",
       "event": "New Loans",
-      "actual": "",
+      "actual": "520B",
       "forecast": "450B",
       "previous": "-10B"
-    },
-    {
-      "date": "2026-06-12",
-      "day": "Jumat",
-      "time_wib": "15:30",
-      "currency": "GBP",
-      "impact": "low",
-      "event": "Consumer Inflation Expectations",
-      "actual": "",
-      "forecast": "",
-      "previous": "3.2%"
     },
     {
       "date": "2026-06-12",
@@ -789,9 +789,9 @@
       "currency": "GBP",
       "impact": "low",
       "event": "CB Leading Index m/m",
-      "actual": "",
+      "actual": "-0.4%",
       "forecast": "",
-      "previous": "-0.7%"
+      "previous": "-0.5%"
     },
     {
       "date": "2026-06-12",
@@ -800,7 +800,7 @@
       "currency": "USD",
       "impact": "medium",
       "event": "Prelim UoM Consumer Sentiment",
-      "actual": "",
+      "actual": "48.9",
       "forecast": "46.1",
       "previous": "44.8"
     },
@@ -811,7 +811,7 @@
       "currency": "USD",
       "impact": "medium",
       "event": "Prelim UoM Inflation Expectations",
-      "actual": "",
+      "actual": "4.6%",
       "forecast": "",
       "previous": "4.8%"
     },

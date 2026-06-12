@@ -1,5 +1,5 @@
 {
-  "generated": "12 Jun 2026 07:02 WIB",
+  "generated": "12 Jun 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,261 +7,261 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.437,
-      "count": 11
+      "score": -0.159,
+      "count": 21
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.437,
-      "count": 11
+      "score": -0.07,
+      "count": 21
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.57,
-      "count": 9
+      "score": -0.118,
+      "count": 16
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.105,
-      "count": 4
+      "direction": "Netral →",
+      "score": 0.024,
+      "count": 7
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.527,
-      "count": 2
+      "score": -0.543,
+      "count": 3
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.527,
+      "score": -0.543,
+      "count": 3
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.357,
       "count": 2
     },
     {
-      "pair": "EUR",
-      "direction": "Netral →",
-      "score": 0.0,
-      "count": 1
-    },
-    {
-      "pair": "GBP",
-      "direction": "Netral →",
-      "score": 0.0,
-      "count": 1
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.357,
+      "count": 2
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "AS dan Kanada menunda pembukaan jembatan Gordie Howe setelah Trump keberatan",
-      "url": "https://investinglive.com/news/us-canada-delay-gordie-howe-bridge-opening-after-trump-objects-20260611/",
-      "summary": "The delay is unlikely to move broad markets but adds to a pattern of Trump-era trade friction with Canada, alongside tariff hikes and threats not to renew the trade deal with Mexico and Canada. For cross-border freight and logistics operators, a further postponement of capacity relief on the busiest",
-      "published": "12 Jun 2026 06:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.388,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Lebih lanjut tentang ini - Iran memblokir kapal tanker Hormuz ketika ancaman penutupan mulai berlaku",
-      "url": "https://investinglive.com/commodities/more-on-this-iran-blocks-hormuz-tanker-as-closure-threat-takes-effect-20260611/",
-      "summary": "This incident represents a tangible enforcement of Iran's announced closure of the Strait of Hormuz, a stark contrast to Trump's framing of a deal that would reopen the waterway. With a vessel having been forced to comply with the ban under threat of fire, traders may view the gap between diplomatic",
-      "published": "12 Jun 2026 06:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.869,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Laporan: Pemimpin Tertinggi baru belum menyetujui kesepakatan Trump dengan Iran",
-      "url": "https://investinglive.com/commodities/reports-new-supreme-leader-yet-to-bless-trumps-iran-deal-20260611/",
-      "summary": "Unverified as the report is, it adds to a pattern of Iranian sign-off remaining the key unresolved variable, and arrives against the backdrop of Trump having announced an Iran deal on numerous prior occasions without lasting follow-through. Markets that rallied hard on Thursday's de-escalation news ",
-      "published": "12 Jun 2026 06:06 WIB",
+      "title": "Saham-saham teknologi menguat: Sektor keuangan menunjukkan pertumbuhan yang stabil di tengah sinyal pasar yang beragam",
+      "url": "https://investinglive.com/stock-market-update/tech-stocks-rally-financial-sector-exhibits-steady-growth-amidst-mixed-market-signals-20260612/",
+      "summary": "Sector Overview The US stock market showcased a complex landscape today, with technology stocks primarily leading the way. The semiconductor sector saw significant momentum, thanks to some impressive performances. NVDA rose by 0.54% and AMD skyrocketed by 5.39%, contributing to a bullish sentiment i",
+      "published": "12 Jun 2026 21:46 WIB",
       "sentiment": "Bullish",
       "score": 0.92,
       "emoji": "🟢"
     },
     {
       "source": "ForexLive",
-      "title": "Kapal tanker Hormuz diblokir karena Iran mempermasalahkan cakupan kesepakatan AS",
-      "url": "https://investinglive.com/commodities/hormuz-tanker-blocked-as-iran-disputes-scope-of-us-deal-20260611/",
-      "summary": "Iran's pushback introduces fresh uncertainty into a de-escalation narrative that drove sharp moves across oil, bonds, and equities on Thursday. With a tanker reportedly blocked from the strait and Tehran setting out conditions still some distance from Washington's framing, markets may temper some of",
-      "published": "12 Jun 2026 05:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.62,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Harga minyak turun karena pengumuman 'kesepakatan' Trump yang ke-39. Anjing Pavlov bertemu dengan kucing Shcrodinger.",
-      "url": "https://investinglive.com/Cryptocurrency/oil-price-drop-on-trumps-39th-deal-announcement-pavlovs-dog-meets-shcrodingers-cat-20260611/",
-      "summary": "I posted earlier that US President Donald Trump cancelled planned military strikes on Iran that had been scheduled for Thursday night, saying negotiations had reached the highest levels of Iranian leadership and a final agreement could be signed soon. The White House indicated a framework deal has l",
-      "published": "12 Jun 2026 04:34 WIB",
-      "sentiment": "Bullish",
-      "score": 0.186,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "InvestmentRingkasan berita Live Americas FX: Suatu hari nanti, 'kesepakatan segera' lainnya. Kali ini pastinya?",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-another-day-another-deal-soon-this-time-for-sure-20260611/",
-      "summary": "US-Iran Schrödinger's cat deal: signed and unsigned at once. Where are we at? Markets surge as Trump announces deal with Iran Breaking: Trump cancels scheduled attacks on Iran today, says there is an agreement US sells 30-year bonds at 5.020% vs 5.008% WI US 30 year fixed-rate mortgage averages 6.52",
-      "published": "12 Jun 2026 04:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.647,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Kesepakatan kucing AS-Iran Schrödinger: ditandatangani dan tidak ditandatangani sekaligus. Dimana kita berada?",
-      "url": "https://investinglive.com/commodities/us-iran-schrdingers-cat-deal-signed-and-unsigned-at-once-where-are-we-at-20260611/",
-      "summary": "A potential US-Iran agreement removed a major geopolitical risk premium from markets, sending crude lower, bonds higher, and equities sharply higher. While questions remain about whether Tehran formally signs off on the proposal, investors clearly preferred pricing in diplomacy over missiles. -- Tru",
-      "published": "12 Jun 2026 03:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.698,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pasar melonjak ketika Trump mengumumkan kesepakatan dengan Iran",
-      "url": "https://investinglive.com/news/markets-surge-as-trump-announces-deal-with-iran-20260611/",
-      "summary": "We are seeing huge moves in markets after Trump announced a peace deal with Iran. The news was confirmed by Israel's N12, which suggests it's a broader deal that also includes Lebanon. We are seeing large, immediate moves in markets with the S&P 500 up 1.3%, or just shy of 100 points. The Nasdaq is ",
-      "published": "12 Jun 2026 00:51 WIB",
-      "sentiment": "Bullish",
-      "score": 0.41,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Departemen Keuangan AS akan melelang obligasi 30 tahun senilai $22 miliar secepatnya",
-      "url": "https://investinglive.com/news/us-treasury-to-auction-off-22-billion-of-30-year-bonds-at-the-top-of-the-hour-20260611/",
-      "summary": "The US treasury will auction off $22 billion of 30 year bonds at the top of the hour. The auction is the third of three coupon auctions this week. The three year note auction was met with average demand. The 10 year auction was met with strong international demand which led to a solid (grade A-) dis",
-      "published": "11 Jun 2026 23:37 WIB",
-      "sentiment": "Bullish",
-      "score": 0.759,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga GBP/JPY: Berkonsolidasi Karena Intervensi Kekhawatiran Membatasi Kenaikan",
-      "url": "https://www.fxstreet.com/news/gbp-jpy-price-forecast-consolidates-as-intervention-woes-cap-upside-202606112304",
-      "summary": "The Pound Sterling ended Thursday’s session almost flat at around 214.70 as market sentiment fluctuated but ultimately improved after US President Donald Trump cancelled attacks and hinted at a possible deal in place. The GBP/JPY traded with gains of almost 0.04%.",
-      "published": "12 Jun 2026 06:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.306,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "WTI mundur ke $85 di tengah pembaruan optimisme atas berakhirnya konflik Timur Tengah",
-      "url": "https://www.fxstreet.com/news/wti-retreats-to-85-amid-renewed-optimism-over-the-end-of-the-middle-east-conflict-202606112041",
-      "summary": "West Texas Intermediate (WTI) trades around $85 early in the Asian session on Friday, its lowest since mid-April. The black gold fell alongside the US Dollar (USD) following a proclamation from United States (US) President Donald Trump announcing a settlement of war with Iran.",
-      "published": "12 Jun 2026 03:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.441,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Yen Jepang mendapat penyelamatan yang tidak dibayar oleh Tokyo",
-      "url": "https://www.fxstreet.com/news/japanese-yen-gets-a-rescue-tokyo-did-not-pay-for-202606112039",
-      "summary": "USD/JPY spent the entire session glued to the area around 160.50, and it took the cancellation of a war, rather than anything out of Tokyo, to finally knock it lower.",
-      "published": "12 Jun 2026 03:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.807,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "\"Perjanjian Iran sudah dalam bentuk akhir\": Presiden AS Trump memberi sinyal de-eskalasi",
-      "url": "https://www.fxstreet.com/news/iran-agreement-is-in-final-shape-us-president-trump-signals-de-escalation-202606112032",
-      "summary": "United States (US) President Donald Trump said on Thursday that he has canceled planned military strikes against Iran as negotiators are close to reach an agreement on the final elements of a deal.\" The documents are pretty final shape, so we'll see,\" he said during an event at the Oval Office.",
-      "published": "12 Jun 2026 03:32 WIB",
+      "title": "Indeks saham AS yang lebih luas melemah. Apa yang dikatakan para trader secara teknis?",
+      "url": "https://investinglive.com/stocks/the-broader-us-stocks-indice-are-lower-what-are-the-technicals-telling-traders-20260612/",
+      "summary": "The broader U.S. stock indices rallied yesterday on optimism surrounding a reported ceasefire agreement in the Middle East. Today, however, markets gave back some of those gains after Iran appeared to push back on parts of the deal, creating renewed uncertainty. Despite the early weakness, stocks ha",
+      "published": "12 Jun 2026 21:11 WIB",
       "sentiment": "Bullish",
       "score": 0.92,
       "emoji": "🟢"
     },
     {
-      "source": "FXStreet News",
-      "title": "Baht Thailand: Bank of Thailand menolak tindakan darurat – BNY",
-      "url": "https://www.fxstreet.com/news/thai-baht-bank-of-thailand-resists-emergency-move-bny-202606111951",
-      "summary": "BNY relays that the Bank of Thailand sees no need for a special MPC meeting, as the Baht has weakened only modestly during the U.S.–Iran conflict. The central bank cites strong external buffers and notes limited foreign selling, with signs of inflows returning to long-term bonds and equities.",
-      "published": "12 Jun 2026 02:51 WIB",
+      "source": "ForexLive",
+      "title": "Perdagangan 'perang telah berakhir' bersaing dengan IPO SpaceX hari ini untuk mendapatkan tagihan tertinggi",
+      "url": "https://investinglive.com/stocks/the-war-is-over-trade-is-competing-with-the-spacex-ipo-today-for-top-billing-20260612/",
+      "summary": "Let's dive into the state of play in markets today. It's the aftermath of yesterday's announcement from Donald Trump that there is a tentative peace deal with Iran. What's worrisome is that the 14-point plan isn't a win for Trump in any sense and will kick off 60 days of tough nuclear negotiations. ",
+      "published": "12 Jun 2026 19:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.591,
+      "score": -0.538,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Invesment Pasar Eropa yang aktif: Mempersiapkan diri untuk momen TACO? Debut SpaceX selanjutnya",
+      "url": "https://investinglive.com/news/investinglive-european-markets-wrap-setting-up-for-that-taco-moment-spacex-debut-up-next-20260612/",
+      "summary": "Headlines: Iran will not restore Strait of Hormuz status to pre-war level - IRNA The US-Iran MoU could be signed as soon as Sunday in Geneva - BBG Here is what the US-Iran deal looks set to be like after another TACO moment Iran media says that memorandum of understanding draft still not yet finalis",
+      "published": "12 Jun 2026 18:41 WIB",
+      "sentiment": "Bullish",
+      "score": 0.156,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran tidak akan mengembalikan status Selat Hormuz ke tingkat sebelum perang - IRNA",
+      "url": "https://investinglive.com/news/iran-will-not-restore-strait-of-hormuz-status-to-pre-war-level-irna-20260612/",
+      "summary": "Iran not to restore Hormuz Strait status to pre-war level Framework text nearly finalized Text awaits final decision Under the MoU with the US, Iran makes no commitment regarding the transfer of management of the Strait of Hormuz The future administration of the strait will be resolved as a regional",
+      "published": "12 Jun 2026 17:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.669,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Hitung mundur berlanjut menjelang pembukaan Wall Street, semua perhatian tertuju pada SpaceX",
+      "url": "https://investinglive.com/stocks/the-countdown-continues-ahead-of-the-wall-street-open-all-eyes-on-spacex-20260612/",
+      "summary": "I've had my fair share of dealing with the US-Iran copium today and we now have to just wait and see if the deal signed will be the one portrayed by Iran here . It points to the US offering major concessions in what will be another TACO moment. And if so, you have to wonder what was the point of the",
+      "published": "12 Jun 2026 17:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.103,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "Perkiraan Harga Perak: XAG/USD menguat setelah mencapai level terendah $61,50, namun tetap bearish",
-      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-rallies-from-6150-but-remains-bearish-202606111853",
-      "summary": "Silver (XAG/USD) price advances over 4% on Thursday after bouncing off daily lows of $61.51, its lowest level since March 23, after US President Donald Trump announced he cancelled scheduled attacks against Iran this evening, saying that final points of an agreement have been approved.",
-      "published": "12 Jun 2026 01:53 WIB",
+      "title": "Federal Reserve: Perubahan kebijakan yang besar dan fokus inflasi – NBC",
+      "url": "https://www.fxstreet.com/news/federal-reserve-warsh-policy-shift-and-inflation-focus-nbc-202606121338",
+      "summary": "National Bank of Canada (NBC) strategists assess how Kevin Warsh may reshape Federal Reserve (Fed) policy.",
+      "published": "12 Jun 2026 20:38 WIB",
       "sentiment": "Bearish",
-      "score": -0.238,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Tiongkok sepakat dalam panggilan video yang dipimpin Macron dalam pembicaraan ekonomi yang jarang terjadi menjelang KTT G7 di Prancis",
-      "url": "https://www.investing.com/news/economic-indicators/china-joins-macronled-video-call-in-rare-economic-talks-ahead-of-g7-summit-in-france-4736754",
-      "summary": "",
-      "published": "11 Jun 2026 16:42 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "source": "FXStreet News",
+      "title": "Dolar AS: Pembicaraan kesepakatan damai menjaga dukungan tetap utuh – ING",
+      "url": "https://www.fxstreet.com/news/us-dollar-peace-deal-talk-keeps-support-intact-ing-202606121327",
+      "summary": "ING’s Chris Turner notes that a potential US-Iran peace deal has softened the Dollar, but DXY is still holding firm. He highlights that energy supply losses and inflation risks persist unless Oil flows freely through the Strait of Hormuz.",
+      "published": "12 Jun 2026 20:27 WIB",
+      "sentiment": "Bullish",
+      "score": 0.643,
+      "emoji": "🟢"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Emas Mempertahankan Kenaikan seiring Trump Memberi Sinyal Kesepakatan Damai dengan Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-11/gold-holds-gain-as-trump-signals-imminent-peace-deal-with-iran",
-      "summary": "Gold held its biggest gain since March after President Donald Trump said the US could sign a deal with Iran over the weekend to end the war that’s rattled global markets and stoked inflation.",
-      "published": "12 Jun 2026 06:36 WIB",
+      "source": "FXStreet News",
+      "title": "Rupee India: Guncangan eksternal menekan prospek mata uang – Commerzbank",
+      "url": "https://www.fxstreet.com/news/indian-rupee-external-shocks-pressure-currency-outlook-commerzbank-202606121312",
+      "summary": "Commerzbank analysts Charlie Lay and Moses Lim argue that the Rupee remains vulnerable to external shocks, notably Middle East tensions, higher energy costs and El Nino-related risks.",
+      "published": "12 Jun 2026 20:12 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Dolar Kanada turun karena melemahnya harga minyak dan kuatnya inflasi AS membebani CAD",
+      "url": "https://www.fxstreet.com/news/canadian-dollar-dips-as-softer-oil-robust-us-inflation-weigh-on-cad-202606121246",
+      "summary": "USD/CAD trades higher around 1.3990 on Friday, with the US Dollar (USD) benefiting from stronger-than-expected inflation data in the United States (US), while the Canadian Dollar (CAD) remains weighed down by falling Oil prices and a Bank of Canada (BoC) that is showing little urgency to raise rates",
+      "published": "12 Jun 2026 19:46 WIB",
       "sentiment": "Bullish",
-      "score": 0.831,
+      "score": 0.557,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Tembaga: Risiko tarif membuat selisih tetap tinggi – ING",
+      "url": "https://www.fxstreet.com/news/copper-tariff-risks-keep-spreads-elevated-ing-202606121233",
+      "summary": "ING’s Commodities Strategist Ewa Manthey notes that LME copper is trading near record highs, supported by supply tightness, US tariff-driven stockpiling and AI-related power demand. The market is already pricing US tariff risk, with the COMEX-LME spread around $400/t.",
+      "published": "12 Jun 2026 19:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.42,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Fed: Era Perang Dimulai dengan Sikap Hati-hati dan Penundaan Pemangkasan – Commerzbank",
+      "url": "https://www.fxstreet.com/news/fed-warsh-era-starts-with-cautious-stance-and-delayed-cuts-commerzbank-202606121215",
+      "summary": "Commerzbank’s Bernd Weidensteiner and Christoph Balz argue that Kevin Warsh’s first Federal Reserve meeting is unlikely to deliver an immediate rate cut, given elevated PCE inflation and a still‑solid labor market.",
+      "published": "12 Jun 2026 19:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.951,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Emas bertahan di dekat $4.200 karena para pedagang mempertimbangkan prospek kesepakatan AS-Iran",
+      "url": "https://www.fxstreet.com/news/gold-holds-near-4-200-as-traders-weigh-us-iran-deal-prospects-202606121211",
+      "summary": "Gold (XAU/USD) consolidates on Friday as traders await further developments on a potential US-Iran peace deal. At the time of writing, XAU/USD is trading flat around $4,200 after recovering from a nearly seven-month low of $4,023 touched the previous day.",
+      "published": "12 Jun 2026 19:11 WIB",
+      "sentiment": "Bullish",
+      "score": 0.692,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Asia Menguat seiring Trump Memberi Sinyal Kesepakatan AS-Iran: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-11/asian-stocks-to-gain-as-trump-signals-us-iran-deal-markets-wrap",
-      "summary": "Stocks in Asia were set to advance Friday, tracking a rally on Wall Street after President Donald Trump said the US was nearing an agreement with Iran, raising hopes for a diplomatic end to a conflict that has rattled global markets. Oil dropped.",
-      "published": "12 Jun 2026 05:03 WIB",
+      "title": "Adobe Tergelincir Saat Keberangkatan CFO, Lennar Jatuh | Penggerak Saham",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-12/adobe-slips-on-cfo-exit-lennar-falls-stock-movers-video",
+      "summary": "On this episode of Stock Movers with Alexis Christoforous: - Adobe (ADBE) shares are on the move as the company reports today. It fell in premarket trading on Friday after the software maker said that CFO Dan Durn would be departing the company June 15. The news comes after the CEO announced he woul",
+      "published": "12 Jun 2026 21:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.212,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Setengah dari Penghentian Hormuz Dipulihkan, Kata Kepala Energi AS",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-12/half-of-hormuz-stoppages-restored-us-energy-chief-says-video",
+      "summary": "US Energy Secretary Chris Wright said roughly 7 million barrels of daily oil and fuel shipments are flowing through the Strait of Hormuz, or about half of the volumes stranded at the start of the Iran war. Wright spoke Friday with Annmarie Hordern during the Bloomberg Energy Security Executive Brief",
+      "published": "12 Jun 2026 21:47 WIB",
       "sentiment": "Bullish",
-      "score": 0.92,
+      "score": 0.557,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Minyak Turun ke Level Terendah Dua Bulan karena Trump Mengatakan Kesepakatan dengan Iran Sudah Dekat",
+      "title": "Nomor Tidur Mengajukan Kebangkrutan untuk Menjual Dirinya Sendiri, Menyalahkan Tarif",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-12/sleep-number-files-for-bankruptcy-sale-to-sleep-country-canada",
+      "summary": "Mattress maker Sleep Number Corp. filed bankruptcy with an agreement to sell the firm to one-time retail partner Sleep Country Canada Inc. after years of weak demand, mounting financial pressure and unpredictable tariffs.",
+      "published": "12 Jun 2026 16:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.542,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "S&P 500 Menuju Kenaikan Kecil Dengan Semua Perhatian Tertuju SpaceX, Harapan Iran",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-12/us-futures-rally-with-all-eyes-on-spacex-iran-war-peace-hopes",
+      "summary": "US stocks erased a drop and posted a modest advance as investors awaited pending trading in SpaceX, which made history with the biggest-ever IPO, and assessed the potential for an interim peace deal in the Iran conflict.",
+      "published": "12 Jun 2026 18:37 WIB",
+      "sentiment": "Bullish",
+      "score": 0.815,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Penurunan Minyak dan Gas karena Optimisme AS dan Iran Hampir Mencapai Kesepakatan",
       "url": "https://www.bloomberg.com/news/articles/2026-06-11/latest-oil-market-news-and-analysis-for-june-12",
-      "summary": "Oil slid to a two-month low after President Donald Trump said a peace deal with Iran could be signed as soon as the weekend following US military strikes that cast doubt over progress to end the war.",
+      "summary": "Oil and gas prices edged lower on signs that US and Iran are nearing an interim peace deal that would reopen the Strait of Hormuz, though sticking points remain.",
       "published": "12 Jun 2026 05:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.7,
-      "emoji": "🔴"
+      "sentiment": "Bullish",
+      "score": 0.78,
+      "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Mata Uang Negara Berkembang, Saham ETF Reli seiring Sinyal Kesepakatan Trump Sudah Dekat",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-11/emerging-market-stocks-drop-as-chinese-e-commerce-joins-ai-slide",
-      "summary": "Emerging-market assets got a boost after President Donald Trump canceled planned attacks on Iran, fueling bets that a deal is imminent.",
-      "published": "11 Jun 2026 16:37 WIB",
+      "title": "Uber Mempertimbangkan Penjualan Aset Pahlawan Pengiriman untuk Memperlancar Pengambilalihan Penuh",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-12/uber-weighs-delivery-hero-asset-sales-to-smooth-full-takeover",
+      "summary": "Uber Technologies Inc. is reaching out to parties interested in Delivery Hero SE’s regional businesses as it works toward a takeover of the German food delivery company that would get regulatory approval, people with knowledge of the matter said.",
+      "published": "12 Jun 2026 21:03 WIB",
       "sentiment": "Bullish",
-      "score": 0.208,
+      "score": 0.881,
       "emoji": "🟢"
     },
     {
       "source": "BBC World",
-      "title": "Serangan drone Sudan yang mematikan menargetkan prosesi pemakaman",
-      "url": "https://www.bbc.com/news/articles/c70yeee2jvqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Rights groups accuse the RSF paramilitary group of killing civilians in el-Obeid, a city on the civil war's front line.",
-      "published": "11 Jun 2026 22:57 WIB",
+      "title": "Teheran mengatakan 'belum ada' yang terselesaikan setelah Trump mengklaim kesepakatan untuk mengakhiri perang Iran sudah dekat",
+      "url": "https://www.bbc.com/news/articles/c78y6w78828o?at_medium=RSS&at_campaign=rss",
+      "summary": "Iran says reports of a deal are \"speculative\" after the US president says a \"great settlement\" to end the conflict has been reached.",
+      "published": "12 Jun 2026 15:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.928,
+      "score": -0.157,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Mengapa perekonomian menjadikan ini Piala Dunia paling gila yang pernah ada",
+      "url": "https://www.bbc.com/news/articles/cpv32417nlwo?at_medium=RSS&at_campaign=rss",
+      "summary": "From trade wars to soaring ticket prices, the 2026 World Cup is unlike any before it. Faisal Islam explores what this tournament reveals about our changing global economy.",
+      "published": "12 Jun 2026 06:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.666,
       "emoji": "🔴"
     },
     {
@@ -276,72 +276,82 @@
     },
     {
       "source": "BBC Business",
-      "title": "Mengapa perekonomian menjadikan ini piala dunia paling gila yang pernah ada",
-      "url": "https://www.bbc.com/news/articles/cpv32417nlwo?at_medium=RSS&at_campaign=rss",
-      "summary": "From trade wars to soaring ticket prices, the 2026 World Cup is unlike any before it. Faisal Islam explores what this tournament reveals about our changing global economy.",
-      "published": "12 Jun 2026 06:07 WIB",
+      "title": "Perekonomian Inggris berkontraksi seiring dengan dampak perang Iran",
+      "url": "https://www.bbc.com/news/articles/c77y47248k4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The economy shrank slightly in April as the Iran war began to have an impact on businesses, official data shows.",
+      "published": "12 Jun 2026 17:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.666,
+      "score": -0.912,
       "emoji": "🔴"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Menteri angkatan bersenjata berhenti setelah Healey keluar karena perselisihan pendanaan pertahanan semakin mendalam",
-      "url": "https://www.bbc.com/news/articles/c4gyp8n7g3go?at_medium=RSS&at_campaign=rss",
-      "summary": "Al Carns says the military isn't \"sufficiently funded\", as Dan Jarvis becomes the new defence secretary.",
-      "published": "12 Jun 2026 04:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.202,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Gadis, 14, didakwa melakukan percobaan pembunuhan setelah serangan pisau di sekolah Manchester",
-      "url": "https://www.bbc.com/news/articles/cp3x1qzkj81o?at_medium=RSS&at_campaign=rss",
-      "summary": "Two pupils and a teacher were injured in the attack, which counter-terror police are investigating.",
-      "published": "12 Jun 2026 05:50 WIB",
+      "title": "Dewan London mengambil alih properti yang terkait dengan Ibu Negara Sierra Leone",
+      "url": "https://www.bbc.com/news/articles/clyxkeny8x6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Southwark Council in south London takes possession of a property linked to Sierra Leone's Fatima Bio.",
+      "published": "12 Jun 2026 20:05 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump akan memilih pengacara AS Jay Clayton sebagai direktur intelijen nasional",
-      "url": "https://www.aljazeera.com/news/2026/6/11/trump-to-pick-us-attorney-jay-clayton-for-director-of-national-intelligence?traffic_source=rss",
-      "summary": "Nomination comes amid pushback over Donald Trump's selection of Bill Pulte as acting director of the agency.",
-      "published": "12 Jun 2026 02:56 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢"
+      "title": "Kekerasan meningkat di Israel di tengah protes rancangan militer ultra-Ortodoks",
+      "url": "https://www.aljazeera.com/news/2026/6/12/violence-escalates-in-israel-amid-ultra-orthodox-military-draft-protests?traffic_source=rss",
+      "summary": "The struggle over military service is stoking protests, threatening Israel's coalition and reshaping political debate.",
+      "published": "12 Jun 2026 19:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.912,
+      "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Israel mendeportasi jurnalis Prancis yang dituduh mendukung Hamas",
-      "url": "https://www.aljazeera.com/news/2026/6/11/israel-deports-french-journalist-accused-of-supporting-hamas?traffic_source=rss",
-      "summary": "Isreal suppressed coverage of its war on Gaza, banning international press and killing hundreds of local journalists.",
-      "published": "12 Jun 2026 02:52 WIB",
+      "title": "Seorang terluka ketika Israel menyerang Lebanon selatan dengan serangan udara dan artileri",
+      "url": "https://www.aljazeera.com/news/2026/6/12/one-injured-as-israel-hits-southern-lebanon-with-air-raids-artillery?traffic_source=rss",
+      "summary": "The attacks come as Iranian media reports that a draft peace deal with the US would include ending the war in Lebanon.",
+      "published": "12 Jun 2026 19:02 WIB",
       "sentiment": "Bearish",
-      "score": -0.902,
+      "score": -0.798,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Harga minyak global turun menjadi $88 per barel di tengah harapan tercapainya kesepakatan perdamaian Iran pada awal akhir pekan ini",
+      "url": "https://www.marketwatch.com/story/oil-prices-extend-declines-on-possible-u-s-iran-peace-deal-to-reopen-strait-of-hormuz-6d2822bd?mod=mw_rss_topstories",
+      "summary": "West Texas Intermediate and Brent crude fell on Friday on reports that a potential deal would lift oil sanctions on Iran.",
+      "published": "12 Jun 2026 20:55 WIB",
+      "sentiment": "Bullish",
+      "score": 0.128,
+      "emoji": "🟢"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Ini adalah aset yang harus dibeli investor jika kesepakatan damai dengan Iran terjadi, kata Bank of America",
+      "url": "https://www.marketwatch.com/story/if-an-iran-peace-deal-is-agreed-these-are-the-assets-investors-should-buy-says-bank-of-america-9b3e9099?mod=mw_rss_topstories",
+      "summary": "Low approval ratings and a jump in inflation may be forcing President Donald Trump’s hand in ending the war, with some asset prices already starting to anticipate that.",
+      "published": "12 Jun 2026 20:51 WIB",
+      "sentiment": "Bullish",
+      "score": 0.791,
+      "emoji": "🟢"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Stok barang mewah melonjak karena usulan perjanjian perdamaian AS-Iran; LVMH naik 5%",
+      "url": "https://www.cnbc.com/2026/06/12/luxury-stocks-lvmh-hermes-burberry-iran-war-peace-deal.html",
+      "summary": "Luxury stocks have been hard hit by the Iran war, as the Middle East had been a fast-growing market for the otherwise largely muted sector.",
+      "published": "12 Jun 2026 16:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.202,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "Trump mengklaim perang Iran telah selesai 'tergantung pada finalisasi', dan diperkirakan akan ditandatangani dalam 'beberapa hari ke depan'",
-      "url": "https://www.cnbc.com/2026/06/11/trump-iran-strikes-deal.html",
-      "summary": "Hours earlier, Trump warned that the U.S. would attack Iran \"VERY HARD TONIGHT\" and soon take over Iran's oil infrastructure assets, including Kharg Island.",
-      "published": "12 Jun 2026 03:49 WIB",
+      "title": "Perekonomian Inggris menyusut 0,1% pada bulan April karena konflik Iran membebani pertumbuhan",
+      "url": "https://www.cnbc.com/2026/06/12/uk-gdp-april-iran-war-growth.html",
+      "summary": "U.K. GDP fell 0.1% in April as services activity declined and companies cited pressure from the Middle East conflict.",
+      "published": "12 Jun 2026 14:01 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Iran mengancam perusahaan Elon Musk di Timur Tengah: media pemerintah Iran",
-      "url": "https://www.cnbc.com/2026/06/11/iran-threatens-elon-musks-companies-in-middle-east-iranian-state-media.html",
-      "summary": "Iran will consider all of Elon Musk's companies in the Middle East as military targets as it retaliates against the U.S., Iranian state media reported.",
-      "published": "11 Jun 2026 22:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.302,
+      "score": -0.574,
       "emoji": "🔴"
     }
   ]
