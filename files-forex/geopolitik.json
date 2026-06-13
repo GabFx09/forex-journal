@@ -1,32 +1,32 @@
 {
-  "generated": "13 Jun 2026 07:02 WIB",
+  "generated": "13 Jun 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.271,
-      "count": 20
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.333,
-      "count": 19
+      "score": -0.134,
+      "count": 16
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.134,
+      "count": 16
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.376,
-      "count": 16
+      "score": -0.213,
+      "count": 13
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.098,
-      "count": 6
+      "direction": "Tekanan Naik ▲",
+      "score": 0.111,
+      "count": 4
     },
     {
       "pair": "GBP/USD",
@@ -135,26 +135,6 @@
       "emoji": "🔴"
     },
     {
-      "source": "ForexLive",
-      "title": "Saham-saham teknologi menguat: Sektor keuangan menunjukkan pertumbuhan yang stabil di tengah sinyal pasar yang beragam",
-      "url": "https://investinglive.com/stock-market-update/tech-stocks-rally-financial-sector-exhibits-steady-growth-amidst-mixed-market-signals-20260612/",
-      "summary": "Sector Overview The US stock market showcased a complex landscape today, with technology stocks primarily leading the way. The semiconductor sector saw significant momentum, thanks to some impressive performances. NVDA rose by 0.54% and AMD skyrocketed by 5.39%, contributing to a bullish sentiment i",
-      "published": "12 Jun 2026 21:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.92,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Indeks saham AS yang lebih luas melemah. Apa yang dikatakan para trader secara teknis?",
-      "url": "https://investinglive.com/stocks/the-broader-us-stocks-indice-are-lower-what-are-the-technicals-telling-traders-20260612/",
-      "summary": "The broader U.S. stock indices rallied yesterday on optimism surrounding a reported ceasefire agreement in the Middle East. Today, however, markets gave back some of those gains after Iran appeared to push back on parts of the deal, creating renewed uncertainty. Despite the early weakness, stocks ha",
-      "published": "12 Jun 2026 21:11 WIB",
-      "sentiment": "Bullish",
-      "score": 0.92,
-      "emoji": "🟢"
-    },
-    {
       "source": "FXStreet News",
       "title": "Pejabat Senior AS: Kesepakatan Iran menjamin pembukaan kembali Hormuz dan bahan nuklir",
       "url": "https://www.fxstreet.com/news/us-senior-official-iran-accord-secures-hormuz-reopening-nuclear-material-202606121913",
@@ -215,43 +195,43 @@
       "emoji": "🟢"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Departemen Kehakiman mengatakan kesepakatan Paramount dengan Warner tidak akan merugikan persaingan",
-      "url": "https://www.investing.com/news/stock-market-news/justice-department-says-paramounts-warner-deal-wouldnt-harm-competition-4740686",
-      "summary": "",
-      "published": "13 Jun 2026 05:24 WIB",
-      "sentiment": "Netral",
-      "score": -0.026,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "DOJ menyetujui laporan kesepakatan Warner Bros. Paramount Skydance senilai $110 miliar",
-      "url": "https://www.investing.com/news/stock-market-news/doj-clears-paramount-skydances-110-billion-warner-bros-deal--report-4740642",
-      "summary": "",
-      "published": "13 Jun 2026 04:33 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Ada Bug dalam Perdagangan Emas Saat Penambang Bergerak Seperti Saham Meme",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/there-s-a-bug-in-the-gold-trade-as-miners-move-like-meme-stocks",
+      "summary": "Brian Laks has been investing in gold stocks for over a decade. To the deep-value investor, they serve as a hedge against volatility in the rest of his portfolio, a haven during geopolitical uncertainty and deliver steady returns.",
+      "published": "13 Jun 2026 19:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.077,
+      "score": 0.106,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "CFTC Mempertimbangkan untuk Memblokir Penawaran Kontrak Minyak 24/7 CME",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-12/cftc-considers-blocking-cme-s-24-7-oil-contract-bid",
-      "summary": "The US Commodity Futures Trading Commission is considering whether to block CME Group Inc.’s bid to launch a round-the-clock oil contract, heightening tensions between the market stalwart and its regulator.",
-      "published": "13 Jun 2026 05:51 WIB",
+      "title": "Eksportir Sepeda Motor Ternama Tiongkok Mendesak Industri untuk Membatasi Perang Harga",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/top-motorcycle-exporter-china-urges-industry-to-curb-price-wars",
+      "summary": "China’s motorcycle industry trade body urged companies across the sector to curb price wars and focus on higher-quality growth, warning that imitation and a flood of similar products are squeezing profits and hurting the reputation of Chinese manufacturing.",
+      "published": "13 Jun 2026 17:19 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.718,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pengorbanan dan Kesuksesan Tim Knicks Menginspirasi Optimisme New York",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-12/knicks-team-sacrifices-success-inspire-new-york-video",
-      "summary": "Bill Bradley, former US Senator and two-time NBA champion, discussed the New York Knicks' recent success, highlighting how Jalen Brunson gave up millions in free agency to allow the team more financial flexibility to build a stronger roster. He emphasized that this special group's dedication and sha",
-      "published": "13 Jun 2026 05:21 WIB",
+      "title": "Harga Kemungkinan Akan Tetap Lebih Tinggi Sekalipun Konflik Berakhir, Kata Nagel dari ECB",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/prices-likely-to-stay-higher-even-if-conflict-ends-nagel-says",
+      "summary": "Prices are likely to stay elevated for longer even if the war in Iran were to end soon, Bundesbank President Joachim Nagel said in an interview with Deutschlandfunk.",
+      "published": "13 Jun 2026 15:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.895,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Penjualan Warner Bros senilai $111 miliar ke Paramount disetujui oleh departemen kehakiman AS",
+      "url": "https://www.bbc.com/news/articles/cjwgled9jxwo?at_medium=RSS&at_campaign=rss",
+      "summary": "The approval marks a key development in the merger that will reshape media, allowing the continue of the takeover of the Hollywood studio, which owns CNN and HBO.",
+      "published": "13 Jun 2026 10:28 WIB",
       "sentiment": "Bullish",
-      "score": 1.0,
+      "score": 0.772,
       "emoji": "🟢"
     },
     {
@@ -265,83 +245,63 @@
       "emoji": "🔴"
     },
     {
-      "source": "BBC Business",
-      "title": "Perekonomian Inggris berkontraksi seiring dengan dampak perang Iran",
-      "url": "https://www.bbc.com/news/articles/c77y47248k4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The economy shrank slightly in April as the Iran war began to have an impact on businesses, official data shows.",
-      "published": "12 Jun 2026 17:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.912,
-      "emoji": "🔴"
+      "source": "BBC Top Stories",
+      "title": "Dalam gambar: Trooping the Color menandai hari ulang tahun resmi Raja",
+      "url": "https://www.bbc.com/news/articles/cpv3mmlg872o?at_medium=RSS&at_campaign=rss",
+      "summary": "The King and Queen were cheered on as they rode along The Mall towards Horseguard's Parade.",
+      "published": "13 Jun 2026 21:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.431,
+      "emoji": "🟢"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Aktivis Aksi Palestina dipenjara karena penggerebekan pabrik",
-      "url": "https://www.bbc.com/news/articles/ce950111xk7o?at_medium=RSS&at_campaign=rss",
-      "summary": "The case is believed to be the first time that convictions for criminal damage have been classified as terrorism.",
-      "published": "13 Jun 2026 03:37 WIB",
+      "title": "Trauma dan harapan di balik penampilan langka Haiti di Piala Dunia",
+      "url": "https://www.bbc.com/sport/football/articles/c23yvvv7kr3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Haiti's first appearance at a men's World Cup for 52 years is as much about hope as it is goals for the conflict-torn nation.",
+      "published": "13 Jun 2026 18:29 WIB",
+      "sentiment": "Bullish",
+      "score": 0.379,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Kecelakaan pesawat militer yang mematikan di Assam, India",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/deadly-military-plane-crash-in-indias-assam?traffic_source=rss",
+      "summary": "A military transport aircraft has crashed in India’s northeastern Assam during a routine fligh.",
+      "published": "13 Jun 2026 19:10 WIB",
       "sentiment": "Bearish",
-      "score": -0.937,
+      "score": -0.402,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Ibu menggugat OpenAI di AS setelah kematian putrinya terkait dengan penggunaan ChatGPT",
-      "url": "https://www.aljazeera.com/economy/2026/6/12/mother-sues-openai-in-us-after-daughters-death-linked-to-chatgpt-use?traffic_source=rss",
-      "summary": "The lawsuit accuses OpenAI of failing to intervene despite warning signs in daughter's ChatGPT conversations.",
-      "published": "13 Jun 2026 04:38 WIB",
+      "title": "Israel menyerang Lebanon meski termasuk dalam potensi perjanjian damai",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/israel-attacks-lebanon-despite-being-included-in-potential-peace-deal?traffic_source=rss",
+      "summary": "Israel has continued to attack Lebanon, despite Iran saying it was included in a potential memorandum of understanding.",
+      "published": "13 Jun 2026 17:13 WIB",
       "sentiment": "Bearish",
-      "score": -0.938,
+      "score": -0.361,
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Akankah ada kesepakatan untuk mengakhiri perang Iran kali ini?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/6/12/will-there-be-a-deal-to-end-the-iran-war-this-time?traffic_source=rss",
-      "summary": "After cancelling planned strikes on Iran, Trump has said an agreement to end the war will be finalised soon.",
-      "published": "13 Jun 2026 03:44 WIB",
+      "source": "CNBC Forex",
+      "title": "Parit vs. moonshots: Debat gaya Warren Buffett-Elon Musk",
+      "url": "https://www.cnbc.com/2026/06/13/moats-vs-moonshots-the-warren-buffett-elon-musk-style-debate.html",
+      "summary": "In 2018, Warren Buffett and Elon Musk indirectly debated a key question that persists for modern investors.",
+      "published": "13 Jun 2026 19:57 WIB",
       "sentiment": "Bearish",
-      "score": -0.756,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pengadilan Inggris memenjarakan aktivis Aksi Palestina atas tuduhan ‘terorisme’",
-      "url": "https://www.aljazeera.com/news/2026/6/12/uk-court-jails-palestinian-action-activists-on-terrorism-charges?traffic_source=rss",
-      "summary": "Quartet convicted on criminal damage and GBH charges, but judge insists raid on Israel arms company was 'terrorist act'.",
-      "published": "13 Jun 2026 02:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.918,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "Pemerintahan Trump: Penandatanganan kesepakatan dengan Iran mungkin terjadi dalam beberapa hari mendatang, namun belum 100% pasti",
+      "title": "Kesepakatan damai AS-Iran bisa diselesaikan 'dalam 24 jam ke depan,' kata PM Pakistan",
       "url": "https://www.cnbc.com/2026/06/12/iran-deal-trump-pakistan-sharif.html",
-      "summary": "A deal to end the Iran war could be signed soon, a senior Trump administration official said, following recent conflicting statements from the warring nations.",
-      "published": "13 Jun 2026 03:21 WIB",
+      "summary": "A senior Trump administration official had said earlier that deal to end the Iran war could be signed soon.",
+      "published": "13 Jun 2026 21:13 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Stok barang mewah melonjak karena usulan perjanjian perdamaian AS-Iran; LVMH naik 5%",
-      "url": "https://www.cnbc.com/2026/06/12/luxury-stocks-lvmh-hermes-burberry-iran-war-peace-deal.html",
-      "summary": "Luxury stocks have been hard hit by the Iran war, as the Middle East had been a fast-growing market for the otherwise largely muted sector.",
-      "published": "12 Jun 2026 16:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.202,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Perekonomian Inggris menyusut 0,1% pada bulan April karena konflik Iran membebani pertumbuhan",
-      "url": "https://www.cnbc.com/2026/06/12/uk-gdp-april-iran-war-growth.html",
-      "summary": "U.K. GDP fell 0.1% in April as services activity declined and companies cited pressure from the Middle East conflict.",
-      "published": "12 Jun 2026 14:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
+      "score": -0.103,
       "emoji": "🔴"
     }
   ]

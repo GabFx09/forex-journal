@@ -1,8 +1,8 @@
-// Diperbarui: 13 Jun 2026 07:02 WIB
+// Diperbarui: 13 Jun 2026 22:01 WIB
 window.FK_DATA = {
-  "generated": "13 Jun 2026 07:02 WIB",
+  "generated": "13 Jun 2026 22:01 WIB",
   "kalender": {
-    "generated": "13 Jun 2026 07:02 WIB",
+    "generated": "13 Jun 2026 22:01 WIB",
     "events": [
       {
         "date": "2026-06-07",
@@ -843,43 +843,43 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "13 Jun 2026 07:02 WIB",
+    "generated": "13 Jun 2026 22:01 WIB",
     "summary": {
-      "total": 63,
-      "bullish": 25,
-      "bearish": 28,
-      "netral": 10,
-      "avg_score": -0.0343,
-      "overall": "Netral",
+      "total": 55,
+      "bullish": 24,
+      "bearish": 22,
+      "netral": 9,
+      "avg_score": 0.0536,
+      "overall": "Bullish",
       "currency_impact": [
         {
           "currency": "USD",
           "sentiment": "Bullish",
-          "score": 0.417,
-          "count": 12
-        },
-        {
-          "currency": "GBP",
-          "sentiment": "Netral",
-          "score": -0.044,
-          "count": 6
+          "score": 0.447,
+          "count": 11
         },
         {
           "currency": "EUR",
-          "sentiment": "Bullish",
-          "score": 0.253,
+          "sentiment": "Netral",
+          "score": -0.018,
           "count": 3
         },
         {
-          "currency": "CAD",
+          "currency": "GBP",
           "sentiment": "Bullish",
-          "score": 0.292,
+          "score": 0.095,
           "count": 3
         },
         {
           "currency": "JPY",
           "sentiment": "Bullish",
           "score": 0.185,
+          "count": 2
+        },
+        {
+          "currency": "CAD",
+          "sentiment": "Bullish",
+          "score": 0.512,
           "count": 2
         },
         {
@@ -1006,36 +1006,6 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.322,
         "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Saham-saham teknologi menguat: Sektor keuangan menunjukkan pertumbuhan yang stabil di tengah sinyal pasar yang beragam",
-        "url": "https://investinglive.com/stock-market-update/tech-stocks-rally-financial-sector-exhibits-steady-growth-amidst-mixed-market-signals-20260612/",
-        "summary": "Sector Overview The US stock market showcased a complex landscape today, with technology stocks primarily leading the way. The semiconductor sector saw significant momentum, thanks to some impressive performances. NVDA rose by 0.54% and AMD skyrocketed by 5.39%, contributing to a bullish sentiment i",
-        "published": "12 Jun 2026 21:46 WIB",
-        "sentiment": "Bullish",
-        "score": 0.92,
-        "emoji": "🟢"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Berita utama mengatakan bahwa saham SpaceX dibuka pada $172 vs $135 harga IPO...Tapi menurut saya tidak.",
-        "url": "https://investinglive.com/stocks/headlines-say-that-spacex-shares-open-at-172-vs-135-ipo-pricebut-i-dont-think-so-20260612/",
-        "summary": "There is some confusion. The headline says that SpaceX opened at $172 per share but a subsequent headline now reads that SpaceX is indicated at $170. I don't see price action and CNBC is muddling along with an interview with Gwynne Shotwel SpaceX Pres and COO. I don't think that is how the first tra",
-        "published": "12 Jun 2026 21:41 WIB",
-        "sentiment": "Bearish",
-        "score": -0.55,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Indeks saham AS yang lebih luas melemah. Apa yang dikatakan para trader secara teknis?",
-        "url": "https://investinglive.com/stocks/the-broader-us-stocks-indice-are-lower-what-are-the-technicals-telling-traders-20260612/",
-        "summary": "The broader U.S. stock indices rallied yesterday on optimism surrounding a reported ceasefire agreement in the Middle East. Today, however, markets gave back some of those gains after Iran appeared to push back on parts of the deal, creating renewed uncertainty. Despite the early weakness, stocks ha",
-        "published": "12 Jun 2026 21:11 WIB",
-        "sentiment": "Bullish",
-        "score": 0.92,
-        "emoji": "🟢"
       },
       {
         "source": "FXStreet News",
@@ -1169,203 +1139,183 @@ window.FK_DATA = {
       },
       {
         "source": "Investing.com Forex",
-        "title": "OpenAI sedang diselidiki oleh koalisi jaksa agung negara bagian, WSJ melaporkan",
-        "url": "https://www.investing.com/news/stock-market-news/openai-under-investigation-by-coalition-of-state-attorneys-general-wsj-reports-4740777",
+        "title": "Kekurangan chip memori: Betapa gilanya hal ini?",
+        "url": "https://www.investing.com/news/stock-market-news/memory-chip-shortage-how-crazy-could-it-get-4741035",
         "summary": "",
-        "published": "13 Jun 2026 06:36 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "EPA AS mengirimkan peraturan emisi California ke Kongres untuk kemungkinan pembalikan",
-        "url": "https://www.investing.com/news/stock-market-news/us-epa-sends-california-emissions-rules-to-congress-for-potential-reversal-4740231",
-        "summary": "",
-        "published": "13 Jun 2026 06:36 WIB",
+        "published": "13 Jun 2026 20:04 WIB",
         "sentiment": "Bearish",
-        "score": -0.08,
+        "score": -0.527,
         "emoji": "🔴"
       },
       {
         "source": "Investing.com Forex",
-        "title": "Rolex kembali menaikkan harga jam tangan emas karena pembeli super kaya tidak terpengaruh",
-        "url": "https://www.investing.com/news/stock-market-news/rolex-raises-gold-watch-prices-again-as-superrich-buyers-are-undeterred-4739617",
+        "title": "Siapa pemenang & pecundang di masa depan kuantum",
+        "url": "https://www.investing.com/news/stock-market-news/who-are-the-winners--losers-in-the-quantum-future-4741033",
         "summary": "",
-        "published": "13 Jun 2026 06:30 WIB",
-        "sentiment": "Bullish",
-        "score": 0.08,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Pedagang ritel mengejar paparan SpaceX karena semangat spekulatif menyebar ke seluruh pasar",
-        "url": "https://www.investing.com/news/stock-market-news/retail-traders-chase-spacex-exposure-as-speculative-fervor-spreads-across-markets-4740759",
-        "summary": "",
-        "published": "13 Jun 2026 06:17 WIB",
-        "sentiment": "Bullish",
-        "score": 0.103,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Investor sasaran menolak usulan ketua dewan yang independen, dukungan meningkat namun tetap di bawah mayoritas",
-        "url": "https://www.investing.com/news/stock-market-news/target-investors-reject-proposal-for-independent-board-chair-support-rises-but-stays-below-majority-4740569",
-        "summary": "",
-        "published": "13 Jun 2026 05:36 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "SpaceX melonjak melampaui $2 triliun pada debutnya di Nasdaq, mendekati Amazon",
-        "url": "https://www.investing.com/news/stock-market-news/after-record-ipo-musks-spacex-faces-next-test-in-market-debut-4739027",
-        "summary": "",
-        "published": "13 Jun 2026 05:31 WIB",
-        "sentiment": "Bullish",
-        "score": 0.258,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Zuckerberg mengatakan Meta membuat 'kesalahan' dalam pergantian tenaga kerja AI",
-        "url": "https://www.investing.com/news/stock-market-news/metas-zuckerberg-admits-mistakes-made-on-ai-transformation-4740616",
-        "summary": "",
-        "published": "13 Jun 2026 05:25 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Departemen Kehakiman mengatakan kesepakatan Paramount dengan Warner tidak akan merugikan persaingan",
-        "url": "https://www.investing.com/news/stock-market-news/justice-department-says-paramounts-warner-deal-wouldnt-harm-competition-4740686",
-        "summary": "",
-        "published": "13 Jun 2026 05:24 WIB",
-        "sentiment": "Netral",
-        "score": -0.026,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Dengan debut SpaceX yang mulus, Wall Street menetapkan pola baru untuk IPO besar",
-        "url": "https://www.investing.com/news/stock-market-news/with-smooth-spacex-debut-wall-street-sets-new-template-for-mega-ipos-4740714",
-        "summary": "",
-        "published": "13 Jun 2026 05:24 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "DOJ menyetujui laporan kesepakatan Warner Bros. Paramount Skydance senilai $110 miliar",
-        "url": "https://www.investing.com/news/stock-market-news/doj-clears-paramount-skydances-110-billion-warner-bros-deal--report-4740642",
-        "summary": "",
-        "published": "13 Jun 2026 04:33 WIB",
-        "sentiment": "Bullish",
-        "score": 0.077,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Investing.com Economy",
-        "title": "Inflasi ritel India pada bulan Mei naik menjadi 3,93% per tahun",
-        "url": "https://www.investing.com/news/economic-indicators/indias-may-retail-inflation-rises-to-393-on-year-4739349",
-        "summary": "",
-        "published": "12 Jun 2026 18:01 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Economy",
-        "title": "Ekspektasi inflasi masyarakat Inggris melonjak setelah perang Iran, kata BoE",
-        "url": "https://www.investing.com/news/economic-indicators/uk-public-inflation-expectations-surged-after-iran-war-boe-says-4739048",
-        "summary": "",
-        "published": "12 Jun 2026 15:48 WIB",
+        "published": "13 Jun 2026 19:29 WIB",
         "sentiment": "Bearish",
-        "score": -0.599,
+        "score": -0.077,
         "emoji": "🔴"
       },
       {
-        "source": "Investing.com Economy",
-        "title": "Survei Bank of England menunjukkan ekspektasi inflasi Inggris meningkat",
-        "url": "https://www.investing.com/news/economic-indicators/bank-of-england-survey-shows-uk-inflation-expectations-rise-4739046",
+        "source": "Investing.com Forex",
+        "title": "Demam emas mengirim beberapa jam tangan mewah antik ke tungku peleburan",
+        "url": "https://www.investing.com/news/stock-market-news/gold-fever-sends-some-vintage-luxury-watches-to-the-melting-furnace-4741014",
         "summary": "",
-        "published": "12 Jun 2026 15:42 WIB",
+        "published": "13 Jun 2026 18:42 WIB",
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
       },
       {
-        "source": "Investing.com Economy",
-        "title": "Kocher dari ECB menolak untuk meninjau keputusan suku bunga bulan Juli",
-        "url": "https://www.investing.com/news/economic-indicators/ecbs-kocher-declines-to-preview-july-rate-decision-93CH-4739017",
+        "source": "Investing.com Forex",
+        "title": "Mag 7? MANGOS? SpaceX memaksa pemikiran ulang nama pada moniker saham teknologi Wall Street",
+        "url": "https://www.investing.com/news/stock-market-news/mag-7-mangos-spacex-forces-name-rethink-on-wall-streets-techstock-moniker-4741023",
         "summary": "",
-        "published": "12 Jun 2026 14:50 WIB",
+        "published": "13 Jun 2026 17:07 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Dua ponsel dan sebuah aplikasi: Bagaimana orang Rusia menghindari tirai besi digital Putin",
+        "url": "https://www.investing.com/news/stock-market-news/two-phones-and-an-app-how-russians-skirt-putins-digital-iron-curtain-4741017",
+        "summary": "",
+        "published": "13 Jun 2026 16:06 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Pabrik suku cadang iPhone Exclusive-Tata mencemari air lahan pertanian, demikian tuduhan badan polusi India",
+        "url": "https://www.investing.com/news/stock-market-news/exclusivetatas-iphone-parts-factory-contaminated-farmland-water-india-pollution-body-alleges-4741015",
+        "summary": "",
+        "published": "13 Jun 2026 15:36 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Anthropic menonaktifkan model AI tingkat atas setelah perintah AS membatasi akses asing",
+        "url": "https://www.investing.com/news/stock-market-news/us-blocks-foreign-access-to-anthropics-most-advanced-ai-models-axios-reports-4740798",
+        "summary": "",
+        "published": "13 Jun 2026 14:54 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Tiongkok ‘sangat tidak puas’ dengan tindakan Pentagon terhadap perusahaan-perusahaan teknologi terkemuka Tiongkok",
+        "url": "https://www.investing.com/news/stock-market-news/china-strongly-dissatisfied-with-pentagon-move-against-top-chinese-tech-firms-4740894",
+        "summary": "",
+        "published": "13 Jun 2026 14:48 WIB",
+        "sentiment": "Bullish",
+        "score": 0.362,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Roku menjajaki opsi strategis, termasuk penjualan perusahaan, kata sumber",
+        "url": "https://www.investing.com/news/stock-market-news/roku-said-to-be-in-sale-talks-including-likely-media-tieup-bloomberg-news-reports-4740301",
+        "summary": "",
+        "published": "13 Jun 2026 10:06 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Investor ritel membangun impian besar di bagian kecil SpaceX",
+        "url": "https://www.investing.com/news/stock-market-news/retail-investors-build-big-dreams-on-small-slices-of-spacex-4740857",
+        "summary": "",
+        "published": "13 Jun 2026 08:48 WIB",
+        "sentiment": "Bullish",
+        "score": 0.402,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Saat Piala Dunia Dimulai, Pejabat Kesehatan Mengeluarkan Peringatan Di Tengah Wabah Campak",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-13/health-officials-warn-of-measles-outbreak-at-world-cup-video",
+        "summary": "The FIFA World Cup is expected to create a \"hospitable environment\" for pathogens, with millions of people gathering in packed stadiums, and there are concerns about the spread of diseases such as Ebola, dengue, and measles. Johns Hopkins Center for Health Security Senior Scholar Dr. Amesh Adalja jo",
+        "published": "13 Jun 2026 21:52 WIB",
+        "sentiment": "Bullish",
+        "score": 0.238,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Bisakah Teknologi Membenarkan Penilaian Triliun Dolar?",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-13/can-tech-justify-a-trillion-dollar-valuation-video",
+        "summary": "The long-awaited SpaceX IPO tested the limits of modern capital markets, and is expected to be followed by OpenAI and Anthropic. Investor Steve Rattner says the scale of the valuations and fundraising involved is unprecedented, simultaneously reflecting optimism about artificial intelligence and a b",
+        "published": "13 Jun 2026 19:04 WIB",
+        "sentiment": "Bullish",
+        "score": 0.845,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Ada Bug dalam Perdagangan Emas Saat Penambang Bergerak Seperti Saham Meme",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-13/there-s-a-bug-in-the-gold-trade-as-miners-move-like-meme-stocks",
+        "summary": "Brian Laks has been investing in gold stocks for over a decade. To the deep-value investor, they serve as a hedge against volatility in the rest of his portfolio, a haven during geopolitical uncertainty and deliver steady returns.",
+        "published": "13 Jun 2026 19:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.106,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Eksportir Sepeda Motor Ternama Tiongkok Mendesak Industri untuk Membatasi Perang Harga",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-13/top-motorcycle-exporter-china-urges-industry-to-curb-price-wars",
+        "summary": "China’s motorcycle industry trade body urged companies across the sector to curb price wars and focus on higher-quality growth, warning that imitation and a flood of similar products are squeezing profits and hurting the reputation of Chinese manufacturing.",
+        "published": "13 Jun 2026 17:19 WIB",
         "sentiment": "Bearish",
-        "score": -0.08,
+        "score": -0.718,
         "emoji": "🔴"
       },
       {
-        "source": "Investing.com Economy",
-        "title": "Inflasi bulan Mei di Perancis naik 2,8% dari tahun ke tahun",
-        "url": "https://www.investing.com/news/economic-indicators/frances-may-inflation-rises-28-yearoveryear-93CH-4738997",
-        "summary": "",
-        "published": "12 Jun 2026 14:22 WIB",
+        "source": "Bloomberg Markets",
+        "title": "Mantan Muller Penentu Suku Bunga ECB Melapor untuk Tugas sebagai Polisi Relawan",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-13/former-ecb-rate-setter-muller-reports-for-duty-as-volunteer-cop",
+        "summary": "Just days after finishing a seven-year stint at the helm of Estonia’s central bank, Madis Muller is preparing for a very different role: volunteering in the police’s criminal-investigations unit.",
+        "published": "13 Jun 2026 16:00 WIB",
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "CFTC Mempertimbangkan untuk Memblokir Penawaran Kontrak Minyak 24/7 CME",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-12/cftc-considers-blocking-cme-s-24-7-oil-contract-bid",
-        "summary": "The US Commodity Futures Trading Commission is considering whether to block CME Group Inc.’s bid to launch a round-the-clock oil contract, heightening tensions between the market stalwart and its regulator.",
-        "published": "13 Jun 2026 05:51 WIB",
+        "title": "Harga Kemungkinan Akan Tetap Lebih Tinggi Sekalipun Konflik Berakhir, Kata Nagel dari ECB",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-13/prices-likely-to-stay-higher-even-if-conflict-ends-nagel-says",
+        "summary": "Prices are likely to stay elevated for longer even if the war in Iran were to end soon, Bundesbank President Joachim Nagel said in an interview with Deutschlandfunk.",
+        "published": "13 Jun 2026 15:23 WIB",
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.895,
         "emoji": "🔴"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Pengorbanan dan Kesuksesan Tim Knicks Menginspirasi Optimisme New York",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-12/knicks-team-sacrifices-success-inspire-new-york-video",
-        "summary": "Bill Bradley, former US Senator and two-time NBA champion, discussed the New York Knicks' recent success, highlighting how Jalen Brunson gave up millions in free agency to allow the team more financial flexibility to build a stronger roster. He emphasized that this special group's dedication and sha",
-        "published": "13 Jun 2026 05:21 WIB",
+        "source": "BBC World",
+        "title": "Anthropic menangguhkan alat AI baru karena masalah keamanan pemerintah AS",
+        "url": "https://www.bbc.com/news/articles/c932g3v3e13o?at_medium=RSS&at_campaign=rss",
+        "summary": "Anthropic's Claude Fable 5, released publicly this week, sparked concerns about cybersecurity and hacking.",
+        "published": "13 Jun 2026 21:36 WIB",
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.34,
         "emoji": "🟢"
       },
       {
-        "source": "Google News Forex",
-        "title": "Opini| Menukar mata uang Sudan Selatan untuk menyelesaikan krisis likuiditas: Cetak biru kebijakan praktis dengan pembelajaran global - Radio Tamazuj",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQaW9UQngxWWVUVjJJZWJYc0pUS29hRzcyb1RpQ1B4b0ZpOXE1LWpycWpIa1Z4bGctQ243QXJiMVlBeFdONHZuQ1hnbU9WcUt0NU83eTVKVmdWU2FmbExBYkduSy1sQVZfd21ZTlBwaUNUcGQ5eHdYWC1DQnN5OFJIWDZpQ0NjNjhJc2RoTWpMVGdFdm13MVNrMkZRdVdEY0VyenFBbW5zT196dnVxU1hRYklsV1hISXRrdm9tMEhDOXo0czRsUTN0SElPalNINHk1YXF0QlNQdU03Z01GMWdKeE1rUHBsdEE3NTJ0Zm9TaTBrbUhFOVlR?oc=5",
-        "summary": "Opinion| Swapping South Sudan’s currency to resolve the liquidity crisis: A practical policy blueprint with global lessons Radio Tamazuj",
-        "published": "12 Jun 2026 19:55 WIB",
-        "sentiment": "Bearish",
-        "score": -0.692,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Google News Geopolitik",
-        "title": "Pound Inggris Turun Dari Tertinggi Mingguannya Terhadap USD karena Risiko Iran dan Data Inggris Ditunggu - CryptoRank",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeWhud2hxeHM1SkRGVnZ2aGlMSW1Walkzc3p3Q29xSWlPdUlKcnJyeGtmZ1VKUkVoMjVIdWtFMnU5d3pITjRQMnNJTXotQThISjgzOEF2dTlJbUFqUEFxRWRuc1lqX3B4RE1qMEQ4THFFNzdtWkZKRjYxLTcxdzlRbFI2eEtrUTZVNEpZZDZxb1dqdFBBNjUtc3dTSlQwMjFET0t0S1lQeTA?oc=5",
-        "summary": "British Pound Eases From Weekly High Against USD as Iran Risks and UK Data Awaited CryptoRank",
-        "published": "12 Jun 2026 14:40 WIB",
+        "source": "BBC World",
+        "title": "Penjualan Warner Bros senilai $111 miliar ke Paramount disetujui oleh departemen kehakiman AS",
+        "url": "https://www.bbc.com/news/articles/cjwgled9jxwo?at_medium=RSS&at_campaign=rss",
+        "summary": "The approval marks a key development in the merger that will reshape media, allowing the continue of the takeover of the Hollywood studio, which owns CNN and HBO.",
+        "published": "13 Jun 2026 10:28 WIB",
         "sentiment": "Bullish",
-        "score": 0.052,
+        "score": 0.772,
         "emoji": "🟢"
-      },
-      {
-        "source": "Google News Geopolitik",
-        "title": "Dolar Kanada melemah meskipun penghindaran risiko berkurang - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNl9HYmNJZlhEcmhIVk9MekhISjh2WV8wUXlJQVdoTnBJb0NXUW5WN3hiS0JYd2pXWFByWmEyUjR6LXV1VlkzWjVwSTh5bHZTMVo3Y0xWWUZVN2habGl6d3ZoQkY5aXFQdVJyR0ZOZDZuVm93TTV5eV9vZ2w4bHUwQWQwTjUzSks5ZUl6TkZYV2g5Qk9WS1JRTWlwcw?oc=5",
-        "summary": "Canadian Dollar weakens despite easing risk aversion FXStreet",
-        "published": "12 Jun 2026 08:27 WIB",
-        "sentiment": "Bearish",
-        "score": -0.147,
-        "emoji": "🔴"
       },
       {
         "source": "BBC Business",
@@ -1378,113 +1328,113 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "BBC Business",
-        "title": "'Saya adalah karyawan nomor satu': Reaksi salah satu pendiri SpaceX terhadap debut pasar perusahaan",
-        "url": "https://www.bbc.com/news/videos/cvgjx68nyvmo?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's Michelle Fleury spoke to Tom Mueller, who was one of the company's founders alongside Elon Musk in 2002.",
-        "published": "12 Jun 2026 13:25 WIB",
+        "source": "BBC Top Stories",
+        "title": "Dalam gambar: Trooping the Color menandai hari ulang tahun resmi Raja",
+        "url": "https://www.bbc.com/news/articles/cpv3mmlg872o?at_medium=RSS&at_campaign=rss",
+        "summary": "The King and Queen were cheered on as they rode along The Mall towards Horseguard's Parade.",
+        "published": "13 Jun 2026 21:46 WIB",
         "sentiment": "Bullish",
-        "score": 0.077,
+        "score": 0.431,
         "emoji": "🟢"
-      },
-      {
-        "source": "BBC Business",
-        "title": "Perekonomian Inggris berkontraksi seiring dengan dampak perang Iran",
-        "url": "https://www.bbc.com/news/articles/c77y47248k4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The economy shrank slightly in April as the Iran war began to have an impact on businesses, official data shows.",
-        "published": "12 Jun 2026 17:01 WIB",
-        "sentiment": "Bearish",
-        "score": -0.912,
-        "emoji": "🔴"
       },
       {
         "source": "BBC Top Stories",
-        "title": "Aktivis Aksi Palestina dipenjara karena penggerebekan pabrik",
-        "url": "https://www.bbc.com/news/articles/ce950111xk7o?at_medium=RSS&at_campaign=rss",
-        "summary": "The case is believed to be the first time that convictions for criminal damage have been classified as terrorism.",
-        "published": "13 Jun 2026 03:37 WIB",
-        "sentiment": "Bearish",
-        "score": -0.937,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Ibu menggugat OpenAI di AS setelah kematian putrinya terkait dengan penggunaan ChatGPT",
-        "url": "https://www.aljazeera.com/economy/2026/6/12/mother-sues-openai-in-us-after-daughters-death-linked-to-chatgpt-use?traffic_source=rss",
-        "summary": "The lawsuit accuses OpenAI of failing to intervene despite warning signs in daughter's ChatGPT conversations.",
-        "published": "13 Jun 2026 04:38 WIB",
-        "sentiment": "Bearish",
-        "score": -0.938,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "UEA akan membuka dana beku Iran di tengah desakan gencatan senjata AS: Sumber",
-        "url": "https://www.aljazeera.com/news/2026/6/12/uae-to-unlock-frozen-iranian-funds-amid-us-ceasefire-push?traffic_source=rss",
-        "summary": "Reuters reports UAE agreed to unlock billions for Iran, but Abu Dhabi swiftly issued a categorical denial.",
-        "published": "13 Jun 2026 03:58 WIB",
+        "title": "Trauma dan harapan di balik penampilan langka Haiti di Piala Dunia",
+        "url": "https://www.bbc.com/sport/football/articles/c23yvvv7kr3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Haiti's first appearance at a men's World Cup for 52 years is as much about hope as it is goals for the conflict-torn nation.",
+        "published": "13 Jun 2026 18:29 WIB",
         "sentiment": "Bullish",
-        "score": 0.599,
+        "score": 0.379,
         "emoji": "🟢"
       },
       {
+        "source": "BBC Top Stories",
+        "title": "Harry Styles mengunjungi kembali X Factor saat dia memulai residensi di Wembley",
+        "url": "https://www.bbc.com/news/articles/cwy0381xxd7o?at_medium=RSS&at_campaign=rss",
+        "summary": "The pop star reminisces about his X Factor audition, which took place near Wembley Stadium in 2010.",
+        "published": "13 Jun 2026 09:00 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
         "source": "Al Jazeera",
-        "title": "Akankah ada kesepakatan untuk mengakhiri perang Iran kali ini?",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/6/12/will-there-be-a-deal-to-end-the-iran-war-this-time?traffic_source=rss",
-        "summary": "After cancelling planned strikes on Iran, Trump has said an agreement to end the war will be finalised soon.",
-        "published": "13 Jun 2026 03:44 WIB",
+        "title": "‘Masih banyak hal yang salah’ dengan kesepakatan AS-Iran untuk mengakhiri perang",
+        "url": "https://www.aljazeera.com/video/quotable/2026/6/13/lots-of-things-can-still-go-wrong-with-us-iran-deal-to-end-the-war?traffic_source=rss",
+        "summary": "Henry Ensher says the US–Iran agreement is not a final settlement but only the start of a process that can go wrong.",
+        "published": "13 Jun 2026 19:43 WIB",
         "sentiment": "Bearish",
-        "score": -0.756,
+        "score": -0.591,
         "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
-        "title": "Paus memperingatkan para penyelundup manusia bahwa mereka menghadapi murka Tuhan",
-        "url": "https://www.aljazeera.com/news/2026/6/12/pope-warns-people-smugglers-they-face-gods-wrath?traffic_source=rss",
-        "summary": "Migration has been a central theme throughout Pope Leo's weeklong tour of Spain.",
-        "published": "13 Jun 2026 03:17 WIB",
+        "title": "Kecelakaan pesawat militer yang mematikan di Assam, India",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/deadly-military-plane-crash-in-indias-assam?traffic_source=rss",
+        "summary": "A military transport aircraft has crashed in India’s northeastern Assam during a routine fligh.",
+        "published": "13 Jun 2026 19:10 WIB",
         "sentiment": "Bearish",
-        "score": -0.501,
+        "score": -0.402,
         "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
-        "title": "Putin mengakui serangan Ukraina memukul perekonomian dan masyarakat Rusia",
-        "url": "https://www.aljazeera.com/news/2026/6/12/putin-admits-ukraine-attacks-hitting-russian-economy-society?traffic_source=rss",
-        "summary": "Ukraine has increasingly targeted Russian refineries, depots and pipelines, as well as fuel supplies in Crimea.",
-        "published": "13 Jun 2026 02:30 WIB",
+        "title": "Israel menyerang Lebanon meski termasuk dalam potensi perjanjian damai",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/israel-attacks-lebanon-despite-being-included-in-potential-peace-deal?traffic_source=rss",
+        "summary": "Israel has continued to attack Lebanon, despite Iran saying it was included in a potential memorandum of understanding.",
+        "published": "13 Jun 2026 17:13 WIB",
         "sentiment": "Bearish",
-        "score": -0.057,
+        "score": -0.361,
         "emoji": "🔴"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Pengadilan Inggris memenjarakan aktivis Aksi Palestina atas tuduhan ‘terorisme’",
-        "url": "https://www.aljazeera.com/news/2026/6/12/uk-court-jails-palestinian-action-activists-on-terrorism-charges?traffic_source=rss",
-        "summary": "Quartet convicted on criminal damage and GBH charges, but judge insists raid on Israel arms company was 'terrorist act'.",
-        "published": "13 Jun 2026 02:27 WIB",
+        "source": "MarketWatch",
+        "title": "Orang-orang kaya terus membelanjakan uangnya untuk ‘kemewahan yang tidak patut disesalkan’ – dan hal ini menaikkan harga barang-barang kebutuhan sehari-hari bagi semua orang",
+        "url": "https://www.marketwatch.com/story/the-rich-keep-spending-money-on-unapologetic-luxury-and-its-raising-prices-on-everyday-goods-for-everyone-cdc4546b?mod=mw_rss_topstories",
+        "summary": "The wealthy are unfazed by inflation, and that could complicate the Fed’s ability to fight it.",
+        "published": "13 Jun 2026 19:30 WIB",
+        "sentiment": "Bullish",
+        "score": 0.7,
+        "emoji": "🟢"
+      },
+      {
+        "source": "MarketWatch",
+        "title": "Gagal bayar di pasar utang mulai lagi, Pimco memperingatkan. Inilah rencana permainan raksasa obligasi itu.",
+        "url": "https://www.marketwatch.com/story/defaults-in-debt-markets-are-starting-again-warns-pimco-heres-the-bond-giants-game-plan-16559c6d?mod=mw_rss_topstories",
+        "summary": "Investors should increasingly seek out fixed income to anchor portfolios as equity valuations look stretched, says Pimco.",
+        "published": "13 Jun 2026 19:00 WIB",
         "sentiment": "Bearish",
-        "score": -0.918,
+        "score": -0.6,
         "emoji": "🔴"
       },
       {
         "source": "CNBC Forex",
-        "title": "Dari startup hingga $1,8 triliun: Para investor yang mengambil peluang di SpaceX kini menuai hasilnya",
-        "url": "https://www.cnbc.com/2026/06/11/spacex-investors-reap-rewards-1-8-trillion-valuation.html",
-        "summary": "With SpaceX seeking an IPO valuation of nearly $1.8 trillion, early bets are poised to generate some of the biggest paper gains in venture capital history.",
-        "published": "12 Jun 2026 21:46 WIB",
-        "sentiment": "Bullish",
-        "score": 0.818,
-        "emoji": "🟢"
+        "title": "Parit vs. moonshots: Debat gaya Warren Buffett-Elon Musk",
+        "url": "https://www.cnbc.com/2026/06/13/moats-vs-moonshots-the-warren-buffett-elon-musk-style-debate.html",
+        "summary": "In 2018, Warren Buffett and Elon Musk indirectly debated a key question that persists for modern investors.",
+        "published": "13 Jun 2026 19:57 WIB",
+        "sentiment": "Bearish",
+        "score": -0.08,
+        "emoji": "🔴"
       },
       {
         "source": "CNBC World",
-        "title": "Pemerintahan Trump: Penandatanganan kesepakatan dengan Iran mungkin terjadi dalam beberapa hari mendatang, namun belum 100% pasti",
+        "title": "Kesepakatan damai AS-Iran bisa diselesaikan 'dalam 24 jam ke depan,' kata PM Pakistan",
         "url": "https://www.cnbc.com/2026/06/12/iran-deal-trump-pakistan-sharif.html",
-        "summary": "A deal to end the Iran war could be signed soon, a senior Trump administration official said, following recent conflicting statements from the warring nations.",
-        "published": "13 Jun 2026 03:21 WIB",
+        "summary": "A senior Trump administration official had said earlier that deal to end the Iran war could be signed soon.",
+        "published": "13 Jun 2026 21:13 WIB",
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.103,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "UEA membantah laporan 'palsu' tentang transfer dana ke Iran",
+        "url": "https://www.cnbc.com/2026/06/13/uae-denies-false-reports-of-fund-transfer-to-iran.html",
+        "summary": "The statement follows a Reuters report that the UAE has agreed to unlock billions of dollars of frozen funds for Iran.",
+        "published": "13 Jun 2026 16:30 WIB",
+        "sentiment": "Bearish",
+        "score": -0.178,
         "emoji": "🔴"
       },
       {
@@ -1496,68 +1446,38 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.509,
         "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Unduhan Teknologi: Arthur Mensch dari Mistral tentang AI agen, chip, dan adopsi perusahaan",
-        "url": "https://www.cnbc.com/2026/06/12/tech-download-mistral-mensch-agentic-ai-chips.html",
-        "summary": "CNBC's Arjun Kharpal sat down with the chief of one of Europe's leading AI companies.",
-        "published": "12 Jun 2026 18:00 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Stok barang mewah melonjak karena usulan perjanjian perdamaian AS-Iran; LVMH naik 5%",
-        "url": "https://www.cnbc.com/2026/06/12/luxury-stocks-lvmh-hermes-burberry-iran-war-peace-deal.html",
-        "summary": "Luxury stocks have been hard hit by the Iran war, as the Middle East had been a fast-growing market for the otherwise largely muted sector.",
-        "published": "12 Jun 2026 16:15 WIB",
-        "sentiment": "Bearish",
-        "score": -0.202,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Perekonomian Inggris menyusut 0,1% pada bulan April karena konflik Iran membebani pertumbuhan",
-        "url": "https://www.cnbc.com/2026/06/12/uk-gdp-april-iran-war-growth.html",
-        "summary": "U.K. GDP fell 0.1% in April as services activity declined and companies cited pressure from the Middle East conflict.",
-        "published": "12 Jun 2026 14:01 WIB",
-        "sentiment": "Bearish",
-        "score": -0.574,
-        "emoji": "🔴"
       }
     ]
   },
   "geopolitik": {
-    "generated": "13 Jun 2026 07:02 WIB",
+    "generated": "13 Jun 2026 22:01 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
     "pairs_affected": [
       {
-        "pair": "XAU/USD",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.271,
-        "count": 20
-      },
-      {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.333,
-        "count": 19
+        "score": -0.134,
+        "count": 16
+      },
+      {
+        "pair": "XAU/USD",
+        "direction": "Tekanan Turun ▼",
+        "score": -0.134,
+        "count": 16
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.376,
-        "count": 16
+        "score": -0.213,
+        "count": 13
       },
       {
         "pair": "EUR/USD",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.098,
-        "count": 6
+        "direction": "Tekanan Naik ▲",
+        "score": 0.111,
+        "count": 4
       },
       {
         "pair": "GBP/USD",
@@ -1666,26 +1586,6 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Saham-saham teknologi menguat: Sektor keuangan menunjukkan pertumbuhan yang stabil di tengah sinyal pasar yang beragam",
-        "url": "https://investinglive.com/stock-market-update/tech-stocks-rally-financial-sector-exhibits-steady-growth-amidst-mixed-market-signals-20260612/",
-        "summary": "Sector Overview The US stock market showcased a complex landscape today, with technology stocks primarily leading the way. The semiconductor sector saw significant momentum, thanks to some impressive performances. NVDA rose by 0.54% and AMD skyrocketed by 5.39%, contributing to a bullish sentiment i",
-        "published": "12 Jun 2026 21:46 WIB",
-        "sentiment": "Bullish",
-        "score": 0.92,
-        "emoji": "🟢"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Indeks saham AS yang lebih luas melemah. Apa yang dikatakan para trader secara teknis?",
-        "url": "https://investinglive.com/stocks/the-broader-us-stocks-indice-are-lower-what-are-the-technicals-telling-traders-20260612/",
-        "summary": "The broader U.S. stock indices rallied yesterday on optimism surrounding a reported ceasefire agreement in the Middle East. Today, however, markets gave back some of those gains after Iran appeared to push back on parts of the deal, creating renewed uncertainty. Despite the early weakness, stocks ha",
-        "published": "12 Jun 2026 21:11 WIB",
-        "sentiment": "Bullish",
-        "score": 0.92,
-        "emoji": "🟢"
-      },
-      {
         "source": "FXStreet News",
         "title": "Pejabat Senior AS: Kesepakatan Iran menjamin pembukaan kembali Hormuz dan bahan nuklir",
         "url": "https://www.fxstreet.com/news/us-senior-official-iran-accord-secures-hormuz-reopening-nuclear-material-202606121913",
@@ -1746,43 +1646,43 @@ window.FK_DATA = {
         "emoji": "🟢"
       },
       {
-        "source": "Investing.com Forex",
-        "title": "Departemen Kehakiman mengatakan kesepakatan Paramount dengan Warner tidak akan merugikan persaingan",
-        "url": "https://www.investing.com/news/stock-market-news/justice-department-says-paramounts-warner-deal-wouldnt-harm-competition-4740686",
-        "summary": "",
-        "published": "13 Jun 2026 05:24 WIB",
-        "sentiment": "Netral",
-        "score": -0.026,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "DOJ menyetujui laporan kesepakatan Warner Bros. Paramount Skydance senilai $110 miliar",
-        "url": "https://www.investing.com/news/stock-market-news/doj-clears-paramount-skydances-110-billion-warner-bros-deal--report-4740642",
-        "summary": "",
-        "published": "13 Jun 2026 04:33 WIB",
+        "source": "Bloomberg Markets",
+        "title": "Ada Bug dalam Perdagangan Emas Saat Penambang Bergerak Seperti Saham Meme",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-13/there-s-a-bug-in-the-gold-trade-as-miners-move-like-meme-stocks",
+        "summary": "Brian Laks has been investing in gold stocks for over a decade. To the deep-value investor, they serve as a hedge against volatility in the rest of his portfolio, a haven during geopolitical uncertainty and deliver steady returns.",
+        "published": "13 Jun 2026 19:00 WIB",
         "sentiment": "Bullish",
-        "score": 0.077,
+        "score": 0.106,
         "emoji": "🟢"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "CFTC Mempertimbangkan untuk Memblokir Penawaran Kontrak Minyak 24/7 CME",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-12/cftc-considers-blocking-cme-s-24-7-oil-contract-bid",
-        "summary": "The US Commodity Futures Trading Commission is considering whether to block CME Group Inc.’s bid to launch a round-the-clock oil contract, heightening tensions between the market stalwart and its regulator.",
-        "published": "13 Jun 2026 05:51 WIB",
+        "title": "Eksportir Sepeda Motor Ternama Tiongkok Mendesak Industri untuk Membatasi Perang Harga",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-13/top-motorcycle-exporter-china-urges-industry-to-curb-price-wars",
+        "summary": "China’s motorcycle industry trade body urged companies across the sector to curb price wars and focus on higher-quality growth, warning that imitation and a flood of similar products are squeezing profits and hurting the reputation of Chinese manufacturing.",
+        "published": "13 Jun 2026 17:19 WIB",
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.718,
         "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Pengorbanan dan Kesuksesan Tim Knicks Menginspirasi Optimisme New York",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-12/knicks-team-sacrifices-success-inspire-new-york-video",
-        "summary": "Bill Bradley, former US Senator and two-time NBA champion, discussed the New York Knicks' recent success, highlighting how Jalen Brunson gave up millions in free agency to allow the team more financial flexibility to build a stronger roster. He emphasized that this special group's dedication and sha",
-        "published": "13 Jun 2026 05:21 WIB",
+        "title": "Harga Kemungkinan Akan Tetap Lebih Tinggi Sekalipun Konflik Berakhir, Kata Nagel dari ECB",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-13/prices-likely-to-stay-higher-even-if-conflict-ends-nagel-says",
+        "summary": "Prices are likely to stay elevated for longer even if the war in Iran were to end soon, Bundesbank President Joachim Nagel said in an interview with Deutschlandfunk.",
+        "published": "13 Jun 2026 15:23 WIB",
+        "sentiment": "Bearish",
+        "score": -0.895,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC World",
+        "title": "Penjualan Warner Bros senilai $111 miliar ke Paramount disetujui oleh departemen kehakiman AS",
+        "url": "https://www.bbc.com/news/articles/cjwgled9jxwo?at_medium=RSS&at_campaign=rss",
+        "summary": "The approval marks a key development in the merger that will reshape media, allowing the continue of the takeover of the Hollywood studio, which owns CNN and HBO.",
+        "published": "13 Jun 2026 10:28 WIB",
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.772,
         "emoji": "🟢"
       },
       {
@@ -1796,98 +1696,198 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "BBC Business",
-        "title": "Perekonomian Inggris berkontraksi seiring dengan dampak perang Iran",
-        "url": "https://www.bbc.com/news/articles/c77y47248k4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The economy shrank slightly in April as the Iran war began to have an impact on businesses, official data shows.",
-        "published": "12 Jun 2026 17:01 WIB",
-        "sentiment": "Bearish",
-        "score": -0.912,
-        "emoji": "🔴"
+        "source": "BBC Top Stories",
+        "title": "Dalam gambar: Trooping the Color menandai hari ulang tahun resmi Raja",
+        "url": "https://www.bbc.com/news/articles/cpv3mmlg872o?at_medium=RSS&at_campaign=rss",
+        "summary": "The King and Queen were cheered on as they rode along The Mall towards Horseguard's Parade.",
+        "published": "13 Jun 2026 21:46 WIB",
+        "sentiment": "Bullish",
+        "score": 0.431,
+        "emoji": "🟢"
       },
       {
         "source": "BBC Top Stories",
-        "title": "Aktivis Aksi Palestina dipenjara karena penggerebekan pabrik",
-        "url": "https://www.bbc.com/news/articles/ce950111xk7o?at_medium=RSS&at_campaign=rss",
-        "summary": "The case is believed to be the first time that convictions for criminal damage have been classified as terrorism.",
-        "published": "13 Jun 2026 03:37 WIB",
+        "title": "Trauma dan harapan di balik penampilan langka Haiti di Piala Dunia",
+        "url": "https://www.bbc.com/sport/football/articles/c23yvvv7kr3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Haiti's first appearance at a men's World Cup for 52 years is as much about hope as it is goals for the conflict-torn nation.",
+        "published": "13 Jun 2026 18:29 WIB",
+        "sentiment": "Bullish",
+        "score": 0.379,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Kecelakaan pesawat militer yang mematikan di Assam, India",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/deadly-military-plane-crash-in-indias-assam?traffic_source=rss",
+        "summary": "A military transport aircraft has crashed in India’s northeastern Assam during a routine fligh.",
+        "published": "13 Jun 2026 19:10 WIB",
         "sentiment": "Bearish",
-        "score": -0.937,
+        "score": -0.402,
         "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
-        "title": "Ibu menggugat OpenAI di AS setelah kematian putrinya terkait dengan penggunaan ChatGPT",
-        "url": "https://www.aljazeera.com/economy/2026/6/12/mother-sues-openai-in-us-after-daughters-death-linked-to-chatgpt-use?traffic_source=rss",
-        "summary": "The lawsuit accuses OpenAI of failing to intervene despite warning signs in daughter's ChatGPT conversations.",
-        "published": "13 Jun 2026 04:38 WIB",
+        "title": "Israel menyerang Lebanon meski termasuk dalam potensi perjanjian damai",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/israel-attacks-lebanon-despite-being-included-in-potential-peace-deal?traffic_source=rss",
+        "summary": "Israel has continued to attack Lebanon, despite Iran saying it was included in a potential memorandum of understanding.",
+        "published": "13 Jun 2026 17:13 WIB",
         "sentiment": "Bearish",
-        "score": -0.938,
+        "score": -0.361,
         "emoji": "🔴"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Akankah ada kesepakatan untuk mengakhiri perang Iran kali ini?",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/6/12/will-there-be-a-deal-to-end-the-iran-war-this-time?traffic_source=rss",
-        "summary": "After cancelling planned strikes on Iran, Trump has said an agreement to end the war will be finalised soon.",
-        "published": "13 Jun 2026 03:44 WIB",
+        "source": "CNBC Forex",
+        "title": "Parit vs. moonshots: Debat gaya Warren Buffett-Elon Musk",
+        "url": "https://www.cnbc.com/2026/06/13/moats-vs-moonshots-the-warren-buffett-elon-musk-style-debate.html",
+        "summary": "In 2018, Warren Buffett and Elon Musk indirectly debated a key question that persists for modern investors.",
+        "published": "13 Jun 2026 19:57 WIB",
         "sentiment": "Bearish",
-        "score": -0.756,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Pengadilan Inggris memenjarakan aktivis Aksi Palestina atas tuduhan ‘terorisme’",
-        "url": "https://www.aljazeera.com/news/2026/6/12/uk-court-jails-palestinian-action-activists-on-terrorism-charges?traffic_source=rss",
-        "summary": "Quartet convicted on criminal damage and GBH charges, but judge insists raid on Israel arms company was 'terrorist act'.",
-        "published": "13 Jun 2026 02:27 WIB",
-        "sentiment": "Bearish",
-        "score": -0.918,
+        "score": -0.08,
         "emoji": "🔴"
       },
       {
         "source": "CNBC World",
-        "title": "Pemerintahan Trump: Penandatanganan kesepakatan dengan Iran mungkin terjadi dalam beberapa hari mendatang, namun belum 100% pasti",
+        "title": "Kesepakatan damai AS-Iran bisa diselesaikan 'dalam 24 jam ke depan,' kata PM Pakistan",
         "url": "https://www.cnbc.com/2026/06/12/iran-deal-trump-pakistan-sharif.html",
-        "summary": "A deal to end the Iran war could be signed soon, a senior Trump administration official said, following recent conflicting statements from the warring nations.",
-        "published": "13 Jun 2026 03:21 WIB",
+        "summary": "A senior Trump administration official had said earlier that deal to end the Iran war could be signed soon.",
+        "published": "13 Jun 2026 21:13 WIB",
         "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Stok barang mewah melonjak karena usulan perjanjian perdamaian AS-Iran; LVMH naik 5%",
-        "url": "https://www.cnbc.com/2026/06/12/luxury-stocks-lvmh-hermes-burberry-iran-war-peace-deal.html",
-        "summary": "Luxury stocks have been hard hit by the Iran war, as the Middle East had been a fast-growing market for the otherwise largely muted sector.",
-        "published": "12 Jun 2026 16:15 WIB",
-        "sentiment": "Bearish",
-        "score": -0.202,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Perekonomian Inggris menyusut 0,1% pada bulan April karena konflik Iran membebani pertumbuhan",
-        "url": "https://www.cnbc.com/2026/06/12/uk-gdp-april-iran-war-growth.html",
-        "summary": "U.K. GDP fell 0.1% in April as services activity declined and companies cited pressure from the Middle East conflict.",
-        "published": "12 Jun 2026 14:01 WIB",
-        "sentiment": "Bearish",
-        "score": -0.574,
+        "score": -0.103,
         "emoji": "🔴"
       }
     ]
   },
   "fj_live": {
-    "generated": "13 Jun 2026 07:02 WIB",
+    "generated": "13 Jun 2026 22:01 WIB",
     "summary": {
-      "total": 18,
+      "total": 29,
       "bullish": 4,
       "bearish": 3,
-      "netral": 11,
-      "avg_score": 0.0814,
+      "netral": 22,
+      "avg_score": 0.0506,
       "overall": "Bullish"
     },
     "items": [
+      {
+        "source": "FinancialJuice",
+        "title": "Pejabat senior pemerintah AS: pakta perdagangan AS-India mungkin terjadi tetapi kecil kemungkinannya akan tercapai di G7",
+        "url": "https://www.financialjuice.com/News/9634252/Senior-US-administration-official-a-US-India-trade-pact-is-possible-but-unlikely-to-conclude-at-G7.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:40 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Pejabat senior pemerintah AS: Perwakilan perdagangan AS Greer akan mengunjungi India seminggu setelah KTT G7",
+        "url": "https://www.financialjuice.com/News/9634251/Senior-US-administration-official-US-trade-representative-Greer-to-visit-India-week-after-G7-summit.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:40 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Pejabat senior pemerintah AS: mengantisipasi munculnya perjanjian perdagangan dengan India selama G7",
+        "url": "https://www.financialjuice.com/News/9634250/Senior-US-administration-official-anticipate-trade-agreement-with-India-to-arise-during-G7.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:40 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Pejabat senior AS: Netanyahu dari Israel melewatkan pembicaraan bilateral Trump dengan para pemimpin Timur Tengah di G7",
+        "url": "https://www.financialjuice.com/News/9634249/Senior-US-official-Israels-Netanyahu-skipping-Trumps-bilateral-talks-with-Middle-Eastern-leaders-at-G7.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:38 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Pejabat senior pemerintah AS di G7: terbuka untuk melakukan pembicaraan dengan Kanada tetapi tidak ada kemajuan besar yang diharapkan",
+        "url": "https://www.financialjuice.com/News/9634248/Senior-US-administration-official-on-G7-open-to-talks-with-Canada-but-no-major-progress-expected.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:37 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Pejabat senior pemerintahan AS: bersedia bekerja sama dengan G7 dalam mengatasi kesenjangan perdagangan",
+        "url": "https://www.financialjuice.com/News/9634246/Senior-US-administration-official-willing-to-work-with-G7-on-trade-disparities.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:36 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Pejabat senior pemerintahan AS: Topik NATO mungkin muncul selama pertemuan G7, karena senang dengan upaya pembagian beban tertentu",
+        "url": "https://www.financialjuice.com/News/9634245/Senior-US-administration-official-NATO-topics-may-arise-during-G7-meeting-pleased-with-certain-burden-sharing-efforts.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:34 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Pejabat senior pemerintahan AS: saat selat dibuka kembali, kami akan membantu penghapusan ranjau, negara-negara G7 dapat bergabung",
+        "url": "https://www.financialjuice.com/News/9634237/Senior-US-administration-official-as-strait-reopens-we-will-assist-in-de-mining-G7-nations-could-join.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:29 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Pejabat senior pemerintahan AS: Trump akan bertemu dengan UEA, Qatar, dan para pemimpin Timur Tengah lainnya di G7",
+        "url": "https://www.financialjuice.com/News/9634234/Senior-US-administration-official-Trump-to-meet-UAE-Qatar-and-other-Middle-East-leaders-at-G7.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:26 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Pejabat senior pemerintahan AS: Trump akan mengalihkan pembicaraan G7 ke arah aliansi investasi, rantai pasokan penting, dan imigrasi",
+        "url": "https://www.financialjuice.com/News/9634232/Senior-US-administration-official-Trump-to-shift-G7-talks-toward-investment-alliances-vital-supply-chains-and-immigration.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:24 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Kementerian Luar Negeri Pakistan: Menlu Ishaq Dar berbincang dengan Menlu Saudi Faisal bin Farhan menyambut baik perundingan AS-Iran di tahap akhir",
+        "url": "https://www.financialjuice.com/News/9634231/Ministry-of-Foreign-Affairs-Pakistan-FM-Ishaq-Dar-in-call-with-Saudi-FM-Faisal-bin-Farhan-welcomes-US-Iran-talks-in-final-stage.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 21:18 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "AWS: Anthropic meminta pencabutan akses ke Claude Fable 5 dan Claude Mythos 5 untuk semua pengguna di seluruh wilayah",
+        "url": "https://www.financialjuice.com/News/9633817/AWS-Anthropic-requests-revocation-of-access-to-Claude-Fable-5-and-Claude-Mythos-5-for-all-users-across-regions.aspx?xy=rss",
+        "summary": "",
+        "published": "13 Jun 2026 08:28 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
       {
         "source": "FinancialJuice",
         "title": "Posisi EUR CFTC Pekan yang Berakhir 9 Juni - FJElite",
@@ -1954,26 +1954,6 @@ window.FK_DATA = {
         "url": "https://www.financialjuice.com/News/9633561/Week-Ahead-Deal-or-No-Deal--FOMC---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "13 Jun 2026 03:12 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Menteri Luar Negeri Iran Araghchi: Masalah nuklir dan pencabutan sanksi Iran telah ditunda ke tahap kedua, dan diperkirakan akan ada waktu negosiasi selama 60 hari untuk topik ini.",
-        "url": "https://www.financialjuice.com/News/9633471/Irans-Foreign-Minister-Araghchi-The-nuclear-issue-and-lifting-of-Iran-sanctions-have-been-postponed-to-the-second-stage-and-60-days-of-negotiation-time-is-predicted-for-these-topics.aspx?xy=rss",
-        "summary": "",
-        "published": "13 Jun 2026 02:14 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "UEA akan memberikan miliaran dolar untuk Iran - sumber",
-        "url": "https://www.financialjuice.com/News/9633387/UAE-to-unlock-billions-of-dollars-for-Iran---sources.aspx?xy=rss",
-        "summary": "",
-        "published": "13 Jun 2026 01:08 WIB",
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
@@ -2059,11 +2039,21 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "Investing.com Economy",
-        "title": "Kocher dari ECB menolak untuk meninjau keputusan suku bunga bulan Juli",
-        "url": "https://www.investing.com/news/economic-indicators/ecbs-kocher-declines-to-preview-july-rate-decision-93CH-4739017",
+        "source": "Investing.com Forex",
+        "title": "Pabrik suku cadang iPhone Exclusive-Tata mencemari lahan pertanian, demikian tuduhan badan polusi India",
+        "url": "https://www.investing.com/news/stock-market-news/exclusivetatas-iphone-parts-factory-contaminated-farmland-water-india-pollution-body-alleges-4741015",
         "summary": "",
-        "published": "12 Jun 2026 14:50 WIB",
+        "published": "13 Jun 2026 15:36 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Mantan Muller Penentu Suku Bunga ECB Melapor untuk Tugas sebagai Polisi Relawan",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-13/former-ecb-rate-setter-muller-reports-for-duty-as-volunteer-cop",
+        "summary": "Just days after finishing a seven-year stint at the helm of Estonia’s central bank, Madis Muller is preparing for a very different role: volunteering in the police’s criminal-investigations unit.",
+        "published": "13 Jun 2026 16:00 WIB",
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
@@ -2071,7 +2061,7 @@ window.FK_DATA = {
     ]
   },
   "rekomendasi": {
-    "generated": "13 Jun 2026 07:02 WIB",
+    "generated": "13 Jun 2026 22:01 WIB",
     "pairs": [
       {
         "label": "GBP/CHF",
@@ -2086,15 +2076,15 @@ window.FK_DATA = {
         "bear": 0,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "Netral",
-          "fund_score": -0.044,
+          "signal": "BUY",
+          "fund_score": 0.095,
           "base": "GBP",
           "quote": "CHF",
-          "base_sentiment": "Netral",
+          "base_sentiment": "Bullish",
           "quote_sentiment": "Netral",
-          "base_score": -0.044,
+          "base_score": 0.095,
           "quote_score": 0.0,
-          "base_count": 6,
+          "base_count": 3,
           "quote_count": 0
         }
       },
@@ -2112,15 +2102,15 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.336,
+          "fund_score": -0.417,
           "base": "GBP",
           "quote": "CAD",
-          "base_sentiment": "Netral",
+          "base_sentiment": "Bullish",
           "quote_sentiment": "Bullish",
-          "base_score": -0.044,
-          "quote_score": 0.292,
-          "base_count": 6,
-          "quote_count": 3
+          "base_score": 0.095,
+          "quote_score": 0.512,
+          "base_count": 3,
+          "quote_count": 2
         }
       },
       {
@@ -2161,16 +2151,16 @@ window.FK_DATA = {
         "bear": 0,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "Netral",
-          "fund_score": -0.039,
+          "signal": "SELL",
+          "fund_score": -0.53,
           "base": "EUR",
           "quote": "CAD",
-          "base_sentiment": "Bullish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Bullish",
-          "base_score": 0.253,
-          "quote_score": 0.292,
+          "base_score": -0.018,
+          "quote_score": 0.512,
           "base_count": 3,
-          "quote_count": 3
+          "quote_count": 2
         }
       },
       {
@@ -2187,14 +2177,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 0.107,
+          "fund_score": 0.327,
           "base": "CAD",
           "quote": "JPY",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Bullish",
-          "base_score": 0.292,
+          "base_score": 0.512,
           "quote_score": 0.185,
-          "base_count": 3,
+          "base_count": 2,
           "quote_count": 2
         }
       },
@@ -2211,16 +2201,16 @@ window.FK_DATA = {
         "bear": 0,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.125,
+          "signal": "Netral",
+          "fund_score": -0.065,
           "base": "USD",
           "quote": "CAD",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Bullish",
-          "base_score": 0.417,
-          "quote_score": 0.292,
-          "base_count": 12,
-          "quote_count": 3
+          "base_score": 0.447,
+          "quote_score": 0.512,
+          "base_count": 11,
+          "quote_count": 2
         }
       },
       {
@@ -2261,16 +2251,16 @@ window.FK_DATA = {
         "bear": 5,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.297,
+          "signal": "SELL",
+          "fund_score": -0.113,
           "base": "EUR",
           "quote": "GBP",
-          "base_sentiment": "Bullish",
-          "quote_sentiment": "Netral",
-          "base_score": 0.253,
-          "quote_score": -0.044,
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
+          "base_score": -0.018,
+          "quote_score": 0.095,
           "base_count": 3,
-          "quote_count": 6
+          "quote_count": 3
         }
       },
       {
@@ -2312,14 +2302,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.229,
+          "fund_score": -0.09,
           "base": "GBP",
           "quote": "JPY",
-          "base_sentiment": "Netral",
+          "base_sentiment": "Bullish",
           "quote_sentiment": "Bullish",
-          "base_score": -0.044,
+          "base_score": 0.095,
           "quote_score": 0.185,
-          "base_count": 6,
+          "base_count": 3,
           "quote_count": 2
         }
       },
@@ -2337,15 +2327,15 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.292,
+          "fund_score": -0.512,
           "base": "NZD",
           "quote": "CAD",
           "base_sentiment": "Netral",
           "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": 0.292,
+          "quote_score": 0.512,
           "base_count": 0,
-          "quote_count": 3
+          "quote_count": 2
         }
       },
       {
@@ -2362,14 +2352,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 0.292,
+          "fund_score": 0.512,
           "base": "CAD",
           "quote": "CHF",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Netral",
-          "base_score": 0.292,
+          "base_score": 0.512,
           "quote_score": 0.0,
-          "base_count": 3,
+          "base_count": 2,
           "quote_count": 0
         }
       },
@@ -2386,13 +2376,13 @@ window.FK_DATA = {
         "bear": 1,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.253,
+          "signal": "Netral",
+          "fund_score": -0.018,
           "base": "EUR",
           "quote": "CHF",
-          "base_sentiment": "Bullish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Netral",
-          "base_score": 0.253,
+          "base_score": -0.018,
           "quote_score": 0.0,
           "base_count": 3,
           "quote_count": 0
@@ -2436,13 +2426,13 @@ window.FK_DATA = {
         "bear": 1,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "Netral",
-          "fund_score": 0.068,
+          "signal": "SELL",
+          "fund_score": -0.203,
           "base": "EUR",
           "quote": "JPY",
-          "base_sentiment": "Bullish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Bullish",
-          "base_score": 0.253,
+          "base_score": -0.018,
           "quote_score": 0.185,
           "base_count": 3,
           "quote_count": 2
@@ -2462,15 +2452,15 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.395,
+          "fund_score": -0.615,
           "base": "AUD",
           "quote": "CAD",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Bullish",
           "base_score": -0.103,
-          "quote_score": 0.292,
+          "quote_score": 0.512,
           "base_count": 1,
-          "quote_count": 3
+          "quote_count": 2
         }
       },
       {
@@ -2486,13 +2476,13 @@ window.FK_DATA = {
         "bear": 3,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.253,
+          "signal": "Netral",
+          "fund_score": -0.018,
           "base": "EUR",
           "quote": "NZD",
-          "base_sentiment": "Bullish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Netral",
-          "base_score": 0.253,
+          "base_score": -0.018,
           "quote_score": 0.0,
           "base_count": 3,
           "quote_count": 0
@@ -2512,14 +2502,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 0.232,
+          "fund_score": 0.262,
           "base": "USD",
           "quote": "JPY",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Bullish",
-          "base_score": 0.417,
+          "base_score": 0.447,
           "quote_score": 0.185,
-          "base_count": 12,
+          "base_count": 11,
           "quote_count": 2
         }
       },
@@ -2536,15 +2526,15 @@ window.FK_DATA = {
         "bear": 2,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "Netral",
-          "fund_score": 0.059,
+          "signal": "BUY",
+          "fund_score": 0.198,
           "base": "GBP",
           "quote": "AUD",
-          "base_sentiment": "Netral",
+          "base_sentiment": "Bullish",
           "quote_sentiment": "Bearish",
-          "base_score": -0.044,
+          "base_score": 0.095,
           "quote_score": -0.103,
-          "base_count": 6,
+          "base_count": 3,
           "quote_count": 1
         }
       },
@@ -2562,12 +2552,12 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 0.356,
+          "fund_score": 0.085,
           "base": "EUR",
           "quote": "AUD",
-          "base_sentiment": "Bullish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Bearish",
-          "base_score": 0.253,
+          "base_score": -0.018,
           "quote_score": -0.103,
           "base_count": 3,
           "quote_count": 1
@@ -2587,15 +2577,15 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.52,
+          "fund_score": -0.55,
           "base": "AUD",
           "quote": "USD",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Bullish",
           "base_score": -0.103,
-          "quote_score": 0.417,
+          "quote_score": 0.447,
           "base_count": 1,
-          "quote_count": 12
+          "quote_count": 11
         }
       },
       {
@@ -2637,15 +2627,15 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.417,
+          "fund_score": -0.447,
           "base": "NZD",
           "quote": "USD",
           "base_sentiment": "Netral",
           "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": 0.417,
+          "quote_score": 0.447,
           "base_count": 0,
-          "quote_count": 12
+          "quote_count": 11
         }
       },
       {
@@ -2662,15 +2652,15 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.461,
+          "fund_score": -0.352,
           "base": "GBP",
           "quote": "USD",
-          "base_sentiment": "Netral",
+          "base_sentiment": "Bullish",
           "quote_sentiment": "Bullish",
-          "base_score": -0.044,
-          "quote_score": 0.417,
-          "base_count": 6,
-          "quote_count": 12
+          "base_score": 0.095,
+          "quote_score": 0.447,
+          "base_count": 3,
+          "quote_count": 11
         }
       },
       {
@@ -2687,14 +2677,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 0.417,
+          "fund_score": 0.447,
           "base": "USD",
           "quote": "CHF",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Netral",
-          "base_score": 0.417,
+          "base_score": 0.447,
           "quote_score": 0.0,
-          "base_count": 12,
+          "base_count": 11,
           "quote_count": 0
         }
       },
@@ -2712,15 +2702,15 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.164,
+          "fund_score": -0.465,
           "base": "EUR",
           "quote": "USD",
-          "base_sentiment": "Bullish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Bullish",
-          "base_score": 0.253,
-          "quote_score": 0.417,
+          "base_score": -0.018,
+          "quote_score": 0.447,
           "base_count": 3,
-          "quote_count": 12
+          "quote_count": 11
         }
       }
     ],
