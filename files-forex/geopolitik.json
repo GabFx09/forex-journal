@@ -1,59 +1,99 @@
 {
-  "generated": "14 Jun 2026 07:01 WIB",
+  "generated": "14 Jun 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.085,
-      "count": 9
+      "direction": "Tekanan Turun ▼",
+      "score": -0.565,
+      "count": 8
     },
     {
       "pair": "USD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.145,
-      "count": 9
+      "direction": "Tekanan Turun ▼",
+      "score": -0.532,
+      "count": 8
     },
     {
       "pair": "XAU/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.145,
-      "count": 9
+      "direction": "Tekanan Turun ▼",
+      "score": -0.513,
+      "count": 7
     },
     {
       "pair": "EUR",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.12,
-      "count": 2
-    },
-    {
-      "pair": "USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.12,
-      "count": 2
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.379,
-      "count": 1
+      "direction": "Tekanan Turun ▼",
+      "score": -0.054,
+      "count": 3
     },
     {
       "pair": "GBP",
       "direction": "Tekanan Turun ▼",
-      "score": -0.157,
-      "count": 1
+      "score": -0.054,
+      "count": 3
     },
     {
       "pair": "JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.157,
-      "count": 1
+      "score": -0.054,
+      "count": 3
+    },
+    {
+      "pair": "USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.054,
+      "count": 3
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.803,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Fokus Minggu Newsquawk: Fed, BoJ, RBA, BoE, SNB, Penjualan Ritel AS, dan IHK Jepang",
+      "url": "https://investinglive.com/centralbank/newsquawk-week-in-focus-fed-boj-rba-boe-snb-us-retail-sales-and-japan-cpi-20260614/",
+      "summary": "MON: G7 Summit (15-17 Jun), German Wholesale Prices (May), Indian WPI (May), EZ Industrial Production (Apr), US Industrial Production (May) TUE: BoJ Policy Announcement (Jun), RBA Policy Announcement (Jun), G7 Summit (15-17 Jun), Chinese Industrial Production (May), Retail Sales (May), Unemployment ",
+      "published": "14 Jun 2026 19:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.103,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Swiss Menolak Usulan untuk Membatasi Populasinya Menjadi 10 Juta",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/swiss-population-cap-vote-too-close-to-call-projection-shows",
+      "summary": "Switzerland rejected a proposal to cap its population at 10 million people, as warnings about economic damage if the radical measure was introduced outweighed concerns about immigration.",
+      "published": "14 Jun 2026 17:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.978,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Ketua Fed Warsh Menghadapi Debut yang Menantang",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-14/fed-chair-warsh-faces-challenging-debut-video",
+      "summary": "New Federal Reserve Chair Kevin Warsh will have his first press conference amid inflation and uncertainty over interest rates. Bloomberg Intelligence Chief US Interest Rate Strategist Ira Jersey joins David Gura and Christina Ruffini on Bloomberg This Weekend to examine the current division within t",
+      "published": "14 Jun 2026 20:49 WIB",
+      "sentiment": "Bullish",
+      "score": 0.692,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Lazard Melemahkan Pandangan Tengah Saingan dalam Pertempuran untuk Kesepakatan Venezuela",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/lazard-offers-to-undercut-rival-investment-bank-for-historic-venezuela-deal",
+      "summary": "Investment bank Lazard Inc. is making a late bid to dislodge rival Centerview Partners as Venezuela’s financial adviser, offering to oversee one of the largest-ever sovereign debt restructurings for a sharply lower fee.",
+      "published": "14 Jun 2026 20:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.663,
+      "emoji": "🔴"
+    },
     {
       "source": "Bloomberg Markets",
       "title": "Fed dan BoE Tetap Berhati-hati Setelah 100 Hari Perang Iran",
@@ -66,112 +106,72 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "CLO ETF Meningkat karena Suku Bunga Lebih Tinggi, Kekhawatiran Utang Swasta",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-13/clo-etfs-boom-on-higher-rates-private-debt-woes-credit-weekly",
-      "summary": "Wall Street has an answer for retail investors seeking to profit from elevated interest rates and dodge defaults in private credit: funds that buy collateralized loan obligations.",
-      "published": "14 Jun 2026 02:00 WIB",
+      "title": "KTT G7 Dibayangi Ketidakpastian Kesepakatan AS-Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-14/g7-summit-overshadowed-by-uncertain-us-iran-deal-video",
+      "summary": "The G7 summit, typically focused on global economic and trade cooperation, is heavily influenced this year by ongoing peace talks between the US and Iran. Speculation about a potential deal has raised expectations of a signing ceremony in Geneva, supported by a significant US military presence. Howe",
+      "published": "14 Jun 2026 19:18 WIB",
       "sentiment": "Bullish",
-      "score": 0.397,
+      "score": 0.871,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bloomberg Akhir Pekan Ini 13/6/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-13/bloomberg-this-weekend-6-13-2026-video",
-      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Swarovski CEO Alexis Nasard, Johns Hopkins Center for Health Security Senior Scholar Dr. Amesh Adal",
-      "published": "14 Jun 2026 01:09 WIB",
-      "sentiment": "Bullish",
-      "score": 0.532,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Fokus CEO Swarovski pada \"kemewahan modern\" untuk mengembalikan perusahaan berusia 131 tahun itu meraih keuntungan",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-13/swarovski-focus-on-returning-company-to-profitability-video",
-      "summary": "Swarovski CEO Alexis Nasard joined Bloomberg This Weekend's Christina Ruffini for a tour and discussion about the significant brand transformation the company is undergoing as it aims to modernize its luxury image by partnering with celebrities like Ariana Grande and Venus Williams, as well as incor",
-      "published": "13 Jun 2026 23:08 WIB",
-      "sentiment": "Bullish",
-      "score": 0.822,
-      "emoji": "🟢"
+      "title": "Wall Street Mendapatkan Akses ke Model Bencana Baru untuk Membantu Memprediksi Perang",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/wall-street-gets-access-to-new-catastrophe-models-to-predict-wars",
+      "summary": "As Wall Street races to incorporate war into its risk scenarios, the same people modeling natural catastrophes are now adapting their methodology to help investors, banks and insurers predict military conflicts.",
+      "published": "14 Jun 2026 16:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.944,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Penjualan Warner Bros senilai $111 miliar ke Paramount disetujui oleh departemen kehakiman AS",
-      "url": "https://www.bbc.com/news/articles/cjwgled9jxwo?at_medium=RSS&at_campaign=rss",
-      "summary": "The approval marks a key development in the merger that will reshape media, allowing the continue of the takeover of the Hollywood studio, which owns CNN and HBO.",
-      "published": "13 Jun 2026 10:28 WIB",
-      "sentiment": "Bullish",
-      "score": 0.772,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Ayah Molly Russell mengatakan PM yang memaksakan pembatasan media sosial 'menyedihkan'",
-      "url": "https://www.bbc.com/news/articles/cwykw759v3po?at_medium=RSS&at_campaign=rss",
-      "summary": "Father of a teenager who took her own life after viewing harmful content says plans appear to have been brought forward for a \"political reason\".",
-      "published": "14 Jun 2026 04:27 WIB",
+      "title": "Keluarga Rusia menggunakan AI untuk 'menghidupkan kembali' orang-orang terkasih yang terbunuh di Ukraina",
+      "url": "https://www.bbc.com/news/articles/cwy24v72n19o?at_medium=RSS&at_campaign=rss",
+      "summary": "The highly controversial trend lies at the intersection of Russia's war on Ukraine, new AI technologies and grief.",
+      "published": "14 Jun 2026 06:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Trauma dan harapan di balik penampilan langka Haiti di Piala Dunia",
-      "url": "https://www.bbc.com/sport/football/articles/c23yvvv7kr3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Haiti's first appearance at a men's World Cup for 52 years is as much about hope as it is goals for the conflict-torn nation.",
-      "published": "13 Jun 2026 18:29 WIB",
-      "sentiment": "Bullish",
-      "score": 0.379,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Israel menyerang Lebanon ketika AS mengatakan kesepakatan Iran akan ditandatangani pada hari Minggu",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/israel-attacks-lebanon-as-us-says-iran-deal-to-be-signed-on-sunday?traffic_source=rss",
-      "summary": "Explosions shook southern Lebanon on Saturday as Israel continued its attacks.",
-      "published": "14 Jun 2026 03:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.735,
+      "score": -0.996,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "‘Perpecahan global’: Carney pertemuan pertemuan Kanada-UE sebelum KTT G7",
-      "url": "https://www.aljazeera.com/news/2026/6/13/a-global-rupture-carney-calls-for-canada-eu-unity-before-g7-summit?traffic_source=rss",
-      "summary": "Canada's prime minister has warned that the 'rules-based' global order is 'breaking down' amid superpower dominance.",
-      "published": "14 Jun 2026 02:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.157,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ukraina akan terus menargetkan energi Rusia setelah menghantam terminal laut",
-      "url": "https://www.aljazeera.com/news/2026/6/13/ukraine-to-keep-targeting-russian-energy-after-hitting-sea-terminal?traffic_source=rss",
-      "summary": "Ukraine's SBU security service claimed attack sparking fires in Russia's Tamanneftegaz terminal.",
-      "published": "14 Jun 2026 01:29 WIB",
+      "title": "Antisipasi dan penolakan di Iran ketika mediator berupaya menyelesaikan kesepakatan dengan AS",
+      "url": "https://www.aljazeera.com/news/2026/6/14/anticipation-pushback-in-iran-as-mediators-work-to-finalise-deal-with-us?traffic_source=rss",
+      "summary": "Israel attacked Beirut again in an apparent attempt to test and derail an agreement.",
+      "published": "14 Jun 2026 19:58 WIB",
       "sentiment": "Netral",
-      "score": 0.023,
+      "score": 0.007,
       "emoji": "⚪"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump mengatakan kesepakatan Iran akan ditandatangani besok, hal ini bertentangan dengan pejabat Iran",
-      "url": "https://www.aljazeera.com/news/2026/6/13/trump-says-iran-deal-to-be-signed-tomorrow-contradicting-iranian-official?traffic_source=rss",
-      "summary": "Both sides have indicated a deal to end the war is close, but have diverged on details and timeline for a breakthrough.",
-      "published": "14 Jun 2026 01:17 WIB",
+      "title": "Setidaknya tiga orang tewas ketika Israel menyerang Beirut selatan",
+      "url": "https://www.aljazeera.com/news/2026/6/14/israel-issues-forced-displacement-orders-for-29-towns-in-southern-lebanon?traffic_source=rss",
+      "summary": "Israeli escalation in Lebanon's capital raises concerns that peace negotiations between US and Iran could be derailed.",
+      "published": "14 Jun 2026 17:25 WIB",
       "sentiment": "Bearish",
-      "score": -0.477,
+      "score": -0.903,
       "emoji": "🔴"
     },
     {
-      "source": "CNBC Forex",
-      "title": "Parit vs. moonshots: Debat gaya Warren Buffett-Elon Musk",
-      "url": "https://www.cnbc.com/2026/06/13/moats-vs-moonshots-the-warren-buffett-elon-musk-style-debate.html",
-      "summary": "In 2018, Warren Buffett and Elon Musk indirectly debated a key question that persists for modern investors.",
-      "published": "13 Jun 2026 19:57 WIB",
+      "source": "Al Jazeera",
+      "title": "Akankah kesepakatan AS-Iran ditandatangani pada hari Minggu? Apa yang kita ketahui sejauh ini",
+      "url": "https://www.aljazeera.com/news/2026/6/14/will-the-us-iran-deal-be-signed-on-sunday-what-we-know-so-far?traffic_source=rss",
+      "summary": "US says a deal to stop the war on Iran could be signed as early as Sunday. Tehran, however, disputes the timeline.",
+      "published": "14 Jun 2026 16:18 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.802,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump akan menghadiri KTT G7 di Prancis saat dunia menunggu kesepakatan Iran",
+      "url": "https://www.cnbc.com/2026/06/14/trump-g7-iran-deal-france-ukraine.html",
+      "summary": "The Iran war has drawn the world's focus, but the G7 is also likely to address Russia's war against Ukraine, which continues to rage in eastern Europe.",
+      "published": "14 Jun 2026 19:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.929,
       "emoji": "🔴"
     },
     {
@@ -179,7 +179,7 @@
       "title": "Trump mengatakan perjanjian perdamaian akan ditandatangani pada hari Minggu setelah Iran mengatakan pihaknya tetap berhati-hati dalam menentukan waktu",
       "url": "https://www.cnbc.com/2026/06/13/trump-iran-deal-strait-of-hormuz.html",
       "summary": "President Donald Trump posted on Truth Social that a deal to end the war with Iran will be signed on Sunday.",
-      "published": "14 Jun 2026 02:44 WIB",
+      "published": "14 Jun 2026 16:48 WIB",
       "sentiment": "Bullish",
       "score": 0.128,
       "emoji": "🟢"
