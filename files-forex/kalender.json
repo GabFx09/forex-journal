@@ -1,5 +1,5 @@
 {
-  "generated": "16 Jun 2026 22:02 WIB",
+  "generated": "17 Jun 2026 07:02 WIB",
   "events": [
     {
       "date": "2026-06-14",
@@ -455,11 +455,11 @@
     {
       "date": "2026-06-16",
       "day": "Selasa",
-      "time_wib": "07:45",
+      "time_wib": "22:14",
       "currency": "NZD",
       "impact": "low",
       "event": "GDT Price Index",
-      "actual": "",
+      "actual": "-2.8%",
       "forecast": "",
       "previous": "-0.6%"
     },
@@ -481,7 +481,7 @@
       "currency": "NZD",
       "impact": "low",
       "event": "Westpac Consumer Sentiment",
-      "actual": "",
+      "actual": "80.4",
       "forecast": "",
       "previous": "94.7"
     },
@@ -492,9 +492,9 @@
       "currency": "NZD",
       "impact": "low",
       "event": "Current Account",
-      "actual": "",
-      "forecast": "-1.03B",
-      "previous": "-5.98B"
+      "actual": "-1.01B",
+      "forecast": "-1.01B",
+      "previous": "-5.64B"
     },
     {
       "date": "2026-06-16",
@@ -503,8 +503,8 @@
       "currency": "JPY",
       "impact": "low",
       "event": "Core Machinery Orders m/m",
-      "actual": "",
-      "forecast": "2.1%",
+      "actual": "8.7%",
+      "forecast": "1.2%",
       "previous": "-9.4%"
     },
     {
@@ -514,9 +514,9 @@
       "currency": "JPY",
       "impact": "low",
       "event": "Trade Balance",
-      "actual": "",
+      "actual": "-0.09T",
       "forecast": "-0.21T",
-      "previous": "0.24T"
+      "previous": "0.20T"
     },
     {
       "date": "2026-06-16",
@@ -977,7 +977,7 @@
       "impact": "medium",
       "event": "Unemployment Claims",
       "actual": "",
-      "forecast": "226K",
+      "forecast": "225K",
       "previous": "229K"
     },
     {
@@ -999,7 +999,7 @@
       "impact": "low",
       "event": "Natural Gas Storage",
       "actual": "",
-      "forecast": "95B",
+      "forecast": "82B",
       "previous": "108B"
     },
     {
