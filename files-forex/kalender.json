@@ -1,5 +1,5 @@
 {
-  "generated": "17 Jun 2026 22:02 WIB",
+  "generated": "18 Jun 2026 07:02 WIB",
   "events": [
     {
       "date": "2026-06-14",
@@ -734,7 +734,7 @@
       "currency": "USD",
       "impact": "high",
       "event": "Federal Funds Rate",
-      "actual": "",
+      "actual": "3.75%",
       "forecast": "3.75%",
       "previous": "3.75%"
     },
@@ -778,9 +778,9 @@
       "currency": "NZD",
       "impact": "high",
       "event": "GDP q/q",
-      "actual": "",
+      "actual": "0.8%",
       "forecast": "0.8%",
-      "previous": "0.2%"
+      "previous": "0.5%"
     },
     {
       "date": "2026-06-18",
