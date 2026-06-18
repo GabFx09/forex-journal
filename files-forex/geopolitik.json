@@ -1,5 +1,5 @@
 {
-  "generated": "18 Jun 2026 07:02 WIB",
+  "generated": "18 Jun 2026 22:03 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,302 +7,122 @@
     {
       "pair": "USD/JPY",
       "direction": "Netral →",
-      "score": -0.032,
-      "count": 50
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Netral →",
-      "score": -0.048,
-      "count": 47
+      "score": 0.021,
+      "count": 29
     },
     {
       "pair": "USD/CHF",
       "direction": "Netral →",
-      "score": -0.028,
-      "count": 46
+      "score": -0.011,
+      "count": 28
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Netral →",
+      "score": -0.016,
+      "count": 27
     },
     {
       "pair": "EUR",
       "direction": "Tekanan Naik ▲",
-      "score": 0.15,
-      "count": 5
+      "score": 0.258,
+      "count": 4
     },
     {
       "pair": "GBP",
       "direction": "Tekanan Naik ▲",
-      "score": 0.15,
-      "count": 5
+      "score": 0.258,
+      "count": 4
     },
     {
       "pair": "USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.15,
-      "count": 5
+      "score": 0.258,
+      "count": 4
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.169,
-      "count": 4
+      "score": -0.859,
+      "count": 2
     },
     {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.075,
+      "pair": "JPY",
+      "direction": "Netral →",
+      "score": 0.0,
       "count": 2
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Bank sentral Brasil memangkas suku bunga namun memperingatkan bahwa stimulus fiskal dapat menumpulkan kebijakan moneter",
-      "url": "https://investinglive.com/centralbank/brazil-central-bank-cuts-rates-but-warns-fiscal-stimulus-may-blunt-monetary-policy-20260617/",
-      "summary": "The unanimous cut was fully priced and the BRL reaction will hinge on the tone around future easing rather than the decision itself. The explicit flagging of fiscal stimulus as an inflation upside risk is a hawkish signal that limits how far Copom can ease ahead of October's election without undermi",
-      "published": "18 Jun 2026 06:51 WIB",
+      "title": "Trump: Iran bukan ancaman. Minyak lebih rendah. Saham lebih tinggi. Harga turun.",
+      "url": "https://investinglive.com/news/trump-iran-not-a-threat-oil-lower-stocks-higher-prices-dropping-20260618/",
+      "summary": "Pres.Trump is on TruthSocial touting the latest. He posts in all caps as well that: \"OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS ARE ROARING, JOBS ARE AT RECORDS, AND PRICES ARE DROPPING (AFFORDABILITY!) OUR COUNTRY IS STRONG, SAFE AND RESPECTED ",
+      "published": "18 Jun 2026 21:27 WIB",
       "sentiment": "Bullish",
-      "score": 0.07,
+      "score": 0.927,
       "emoji": "🟢"
     },
     {
       "source": "ForexLive",
-      "title": "Iran menarik garis merah pada kesepakatan itu. Serang Lebanon dan matilah.",
-      "url": "https://investinglive.com/commodities/iran-draws-a-red-line-on-the-deal-attack-lebanon-and-its-off-20260617/",
-      "summary": "Iranian Foreign Ministry spokesman Baghaei says Israel's continued attacks on Lebanon would be regarded as a breach of commitments. Earlier: Iran-US MOU signed but Baghaei fires warning on missiles, uranium and Hormuz fees Adds: 60-day period starts now This article was written by Eamonn Sheridan at",
-      "published": "18 Jun 2026 05:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.865,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "MOU Iran-AS ditandatangani tetapi Baghaei memberikan peringatan mengenai biaya rudal, uranium, dan Hormuz",
-      "url": "https://investinglive.com/commodities/iran-us-mou-signed-but-baghaei-fires-warning-on-missiles-uranium-and-hormuz-fees-20260617/",
-      "summary": "The MOU signing removes the immediate tail risk of conflict escalation but the hawkish caveats from Baghaei will caution on further meaningful risk-off unwind in oil. A formalised Hormuz transit fee regime introduces a structural cost floor for tanker operators and crude importers that will not disa",
-      "published": "18 Jun 2026 05:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.859,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Warsh menulis ulang pedoman Fed karena FOMC mempertahankan suku bunga dan memberi sinyal kenaikan di masa depan",
-      "url": "https://investinglive.com/centralbank/warsh-rewrites-the-fed-playbook-as-fomc-holds-rates-and-signals-hikes-ahead-20260617/",
-      "summary": "The hawkish tilt in the dot plot, with the median 2026 funds rate projection rising to 3.8% from 3.4%, pushed short-term yields higher and weighed on equities as markets repriced the likelihood of a hike as early as October. The stripping of forward guidance removes a key anchor that markets had use",
-      "published": "18 Jun 2026 04:11 WIB",
+      "title": "Dolar AS naik ke level tertinggi sejak Mei 2025 karena meningkatnya taruhan kenaikan suku bunga Fed",
+      "url": "https://investinglive.com/forex/the-us-dollar-rises-to-the-highest-level-since-may-2025-on-increased-fed-rate-hike-bets-20260618/",
+      "summary": "In the Fed preview yesterday, I mentioned that Warsh was going to be the noise, while the Board the signal. In fact, the only takeaway from the decision was the more hawkish dot plot as the statement didn't contain anything and Fed Chair Warsh refrained from giving forward guidance. The median dot p",
+      "published": "18 Jun 2026 17:40 WIB",
       "sentiment": "Bullish",
-      "score": 0.341,
+      "score": 0.622,
       "emoji": "🟢"
     },
     {
       "source": "ForexLive",
-      "title": "Kalender ekonomi dan peristiwa di Asia Kamis, 18 Juni 2026: Pratinjau PDB Selandia Baru Kuartal 1",
-      "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-june-18-2026-new-zealand-q1-gdp-preview-20260617/",
-      "summary": "New Zealand's March quarter GDP data is expected to show the economy gained solid momentum in the early months of 2026, even as the Middle East conflict that erupted in late February looms as a far larger threat to output in the quarters ahead. The median market forecast points to quarterly growth o",
-      "published": "18 Jun 2026 03:40 WIB",
-      "sentiment": "Netral",
-      "score": 0.032,
-      "emoji": "⚪"
+      "title": "Emas menutup rapat mengikuti dot plot Fed yang hawkish; bias pengetatan membatasi kenaikan",
+      "url": "https://investinglive.com/commodities/gold-closes-the-gap-following-the-hawkish-feds-dot-plot-tightening-bias-caps-the-upside-20260618/",
+      "summary": "FUNDAMENTAL OVERVIEW Gold sold off yesterday as the Fed delivered a hawkish surprise by projecting a rate hike this year in the dot plot, effectively adopting a tightening bias in the short-term. Following the first spike lower, the price consolidated a bit as traders waited for Fed Chair Warsh’s fi",
+      "published": "18 Jun 2026 16:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.41,
+      "emoji": "🟢"
     },
     {
       "source": "ForexLive",
-      "title": "Iran memberi sinyal perubahan permanen Hormuz seiring dengan terkonfirmasinya kesepakatan rekonstruksi senilai $300 miliar",
-      "url": "https://investinglive.com/commodities/iran-signals-permanent-hormuz-changes-as-300bn-reconstruction-deal-confirmed-20260617/",
-      "summary": "The confirmation that Hormuz will not revert to pre-war conditions introduces a structural premium into crude pricing that markets will need to reprice on a semi-permanent basis. A tolling regime on the world's most critical oil chokepoint, even one framed within international law, adds a new and un",
+      "title": "Schlegel dari SNB menghindari pertanyaan tentang penambahan \"jika perlu\" tentang intervensi FX",
+      "url": "https://investinglive.com/centralbank/snbs-schlegel-dodges-question-on-the-addition-of-if-necessary-about-fx-intervention-20260618/",
+      "summary": "Energy prices still determined by war situation If necessary our readiness to intervene in forex market is higher, difficult to say if it is more or less than before We look at the whole situation when it comes to interventions, the franc has weakened a bit since the last meeting Many factors affect",
+      "published": "18 Jun 2026 15:23 WIB",
+      "sentiment": "Bullish",
+      "score": 0.28,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Euro bersiap untuk melemah karena BoE, SNB, Norges Bank dan Riksbank membiarkan kenaikan ECB sendirian",
+      "url": "https://www.fxstreet.com/news/euro-set-for-weakness-as-boe-snb-norges-bank-and-riksbank-leave-the-ecb-hiking-alone-202606181405",
+      "summary": "The Euro (EUR) is caught between a hawkish but isolated ECB, weaker regional growth prospects, and a US Dollar that is recoupling with interest-rate differentials. BNY, Rabobank, and Societe Generale all flag headwinds for the single currency, though each emphasizes a different transmission channel.",
+      "published": "18 Jun 2026 21:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.153,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Bisakah Dolar AS melanjutkan reli yang didorong oleh The Fed?",
+      "url": "https://www.fxstreet.com/news/can-the-us-dollar-extend-its-fed-driven-rally-202606181402",
+      "summary": "The US Dollar (USD) has pushed higher, with the Dollar Index (DXY) climbing back above 100.00 in the wake of the Federal Reserve's hawkish policy update under new Chair Kevin Warsh.",
+      "published": "18 Jun 2026 21:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.258,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Reuters Currencies",
+      "title": "Imbal hasil Treasury naik setelah pertemuan perdana Warsh membawa perubahan hawkish - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN19MTWpXaFlPZnlfaEwyMW1WaXJoWDF0M29rM1Nad29hYVJ6bFdEampmMjJDZUNDREpWeU5UVWZoNmJPSlprODdjVmVyMEhHQVlNdWg1aVd6Z1V4T3d2XzJyZHo3N0ItcVhIQTh0UUUtb1JXWGEtQ2R5WFl2TGQxUVFISzd6SEE3TE1zcWFibktLeFRjeTN0Zjh6Unk2b1lqeTlPcENibWdmUXpjMDdneXBOTHZMZXJXcFRIZ2d2dw?oc=5",
+      "summary": "Treasury yields rise after Warsh's debut meeting brings hawkish shift Reuters",
       "published": "18 Jun 2026 03:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.875,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Saham-saham AS melemah karena The Fed memberi sinyal kebijakan yang lebih hawkish",
-      "url": "https://investinglive.com/technical-analysis/us-stocks-fall-as-fed-signals-a-more-hawkish-policy-20260617/",
-      "summary": "All that campaigning for the Fed job with dovish-sounding rhetoric was quickly set aside at the first meeting of the Warsh era. As Fed Chair, Kevin Warsh struck a much more hawkish tone, emphasizing the need to bring inflation under control. The message was reinforced by a dot plot that pointed to a",
-      "published": "18 Jun 2026 03:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.132,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Investing Bungkus berita pasar langsung Amerika: Warsh sangat bergantung pada mandat inflasi",
-      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-warsh-leans-heavily-into-the-inflation-mandate-20260617/",
-      "summary": "Fed Chair Warsh: We recognize that inflation has been running \"well ahead\" of 2% Warsh Q&A: I see no reason to revisit 2% inflation goal until we have delivered FOMC June 2026 dot plot sees end of year target at 3.8% vs 3.4% in March 2026 Trump on the Fed raising rates: It could happen The full FOMC",
-      "published": "18 Jun 2026 03:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.398,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "USDJPY bergerak ke level tertinggi sejak 2024. Fed menjadi lebih hawkish",
-      "url": "https://investinglive.com/technical-analysis/usdjpy-moves-to-highest-level-since-2024-fed-turns-more-hawkish-20260617/",
-      "summary": "The USDJPY is extending above the 2026 high at 160.717. The high price reached 160.79. Warsh came in and the tone of the Fed shifted with officials changed their favorite bird from a dove to a hawk. For the USDJPY the price is moving further away from the 160.00 level - a level that attracted the Ba",
-      "published": "18 Jun 2026 02:57 WIB",
       "sentiment": "Bullish",
-      "score": 0.511,
+      "score": 0.382,
       "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Apa yang dilakukan pasar dari awal hingga akhir konferensi pers The Fed Warsh",
-      "url": "https://investinglive.com/news/what-did-the-markets-do-from-the-start-to-the-end-of-the-fed-warsh-press-conference-20260617/",
-      "summary": "Market Reaction: Start of Press Conference vs. End of Press Conference The overall takeaway is that the market interpreted Warsh and the Fed as more hawkish than expected, with the strongest reaction seen in the U.S. dollar and front-end Treasury yields. Stocks weakened modestly, while precious meta",
-      "published": "18 Jun 2026 02:28 WIB",
-      "sentiment": "Bullish",
-      "score": 0.599,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Presiden AS Donald Trump menandatangani MoU AS-Iran untuk mengakhiri perang",
-      "url": "https://www.fxstreet.com/news/us-president-donald-trump-signs-us-iran-mou-to-end-war-202606172334",
-      "summary": "The White House stated that US President Donald Trump and Iran’s Masoud Pezeshkian signed the memorandum of understanding to end the US-Israel war on Iran, BBC reported late Wednesday.",
-      "published": "18 Jun 2026 06:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.912,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Yen Jepang jatuh karena Fed memberi sinyal jalur suku bunga yang lebih tinggi",
-      "url": "https://www.fxstreet.com/news/japanese-yen-tumbles-as-fed-signals-higher-rate-path-202606172125",
-      "summary": "The Japanese Yen depreciated against the US Dollar on Wednesday after the US Federal Reserve delivered a hawkish hold, with most officials expecting one rate hike towards the end of the year, while the new Fed Chair, Warsh, reiterated the Fed’s commitment to achieving the 2% inflation goal.",
-      "published": "18 Jun 2026 04:27 WIB",
-      "sentiment": "Bullish",
-      "score": 0.542,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Pound Inggris bekerja sama ganda dengan IHK yang lemah dan Fed yang hawkish",
-      "url": "https://www.fxstreet.com/news/british-pound-sterling-double-teamed-by-soft-cpi-and-a-hawkish-fed-202606172039",
-      "summary": "The British Pound (GBP) spent Wednesday absorbing blows from both sides of the Atlantic. Softer than expected UK inflation set a heavy tone in the morning, and Kevin Warsh's hawkish first Federal Reserve (Fed) decision finished the job in the evening.",
-      "published": "18 Jun 2026 03:39 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Australia mengikuti kebijakan Fed yang hawkish tanpa data yang bisa diandalkan",
-      "url": "https://www.fxstreet.com/news/australian-dollar-folds-to-a-hawkish-fed-with-no-data-to-lean-on-202606172038",
-      "summary": "The Australian Dollar went into Kevin Warsh's first Federal Reserve (Fed) decision as a high-beta currency with no domestic shield, and it paid for it.",
-      "published": "18 Jun 2026 03:38 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Forex Hari Ini: Dolar AS melonjak setelah Fed mempertahankan suku bunga yang dipimpin oleh Warsh, menandakan kenaikan yang akan datang",
-      "url": "https://www.fxstreet.com/news/forex-today-us-dollar-jumps-after-warsh-led-fed-holds-rates-hints-upcoming-hike-202606172022",
-      "summary": "The US Dollar Index (DXY) surged toward the 100.40 level on Wednesday after the Federal Reserve’s (Fed) June policy decision, in which the central bank left interest rates unchanged at 3.50%-3.75%, as widely expected, in Kevin Warsh’s first meeting as Fed Chair.",
-      "published": "18 Jun 2026 03:22 WIB",
-      "sentiment": "Bullish",
-      "score": 0.459,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Emas meledak karena The Fed yang dipimpin oleh Warsh memicu memicu Dolar AS",
-      "url": "https://www.fxstreet.com/news/gold-climbs-before-warshs-fed-debut-as-hawkish-tilt-looms-202606171736",
-      "summary": "Gold (XAU/USD) price reverses course and collapses to two-day lows of $4,219 as the US Federal Reserve (Fed) tilts hawkish, expecting tighter policy amid inflation that has remained above the 2% goal on the debut of new Fed Chair Kevin Warsh.",
-      "published": "18 Jun 2026 03:22 WIB",
-      "sentiment": "Bearish",
-      "score": -0.459,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Fed Warsh memulai reformasi dengan pesan hawkish dan janji",
-      "url": "https://www.fxstreet.com/news/warshs-fed-begins-with-a-hawkish-message-and-a-promise-of-reform-202606171952",
-      "summary": "The Federal Reserve (Fed) left interest rates unchanged at 3.50%-3.75% on Wednesday, but the bigger surprise came from the updated economic projections and Kevin Warsh's first press conference as Fed Chair.",
-      "published": "18 Jun 2026 02:52 WIB",
-      "sentiment": "Bullish",
-      "score": 0.565,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Pound Inggris melemah karena batalnya pedoman Warsh memicu reli Dolar AS",
-      "url": "https://www.fxstreet.com/news/british-pound-sinks-as-warshs-hawkish-dots-power-us-dollar-202606171827",
-      "summary": "The Pound Sterling tanked by over 1% on Wednesday after the Federal Reserve decided to maintain rates, but the dot-plot in the Summary of Economic Projections (SEP) showed that most officials expect a rate cut.",
-      "published": "18 Jun 2026 02:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.552,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dow Jones Industrial Average menyerahkan rekornya karena The Fed berubah menjadi hawkish",
-      "url": "https://www.fxstreet.com/news/dow-jones-industrial-average-surrenders-a-record-as-the-fed-turns-hawkish-202606171918",
-      "summary": "The Dow Jones Industrial Average (DJIA) spent Wednesday morning printing another record, its third in a row, before running headlong into Kevin Warsh's first decision as Federal Reserve (Fed) Chair.",
-      "published": "18 Jun 2026 02:18 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Indeks Dolar AS melonjak lebih tinggi karena The Fed Warsh memperkirakan akan memangkas kenaikan suku bunga",
-      "url": "https://www.fxstreet.com/news/us-dollar-index-storms-higher-as-warshs-fed-trades-cuts-for-hikes-202606171917",
-      "summary": "Kevin Warsh's first meeting as Federal Reserve (Fed) Chair held rates steady, exactly as expected, and then handed the Dollar one of its cleaner catalysts of the year.",
-      "published": "18 Jun 2026 02:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.098,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Euro dialihkan karena Fed Warsh titik plot",
-      "url": "https://www.fxstreet.com/news/euro-routed-as-warshs-fed-turns-the-dot-plot-upside-down-202606171915",
-      "summary": "Kevin Warsh's first meeting as Federal Reserve (Fed) Chair was billed as a quiet hold, and on the headline rate it delivered exactly that. Everything wrapped around that hold, however, was a hawkish blow to the Euro.",
-      "published": "18 Jun 2026 02:15 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Warsh dari Fed: Para pengambil kebijakan tidak merasa terikat oleh poin-poin mereka",
-      "url": "https://www.fxstreet.com/news/federal-reserve-set-to-hold-interest-rates-in-warshs-debut-as-chair-202606171000",
-      "summary": "At the post-meeting press conference, Fed Chair Kevin Warsh explains why policymakers decided to keep interest rates unchanged following the June meeting and takes questions from reporters on the decision.",
-      "published": "18 Jun 2026 01:52 WIB",
-      "sentiment": "Bullish",
-      "score": 0.379,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Regulator Tiongkok menyetujui merger Paramount Skydance-Warner Bros Discovery, kata sumber",
-      "url": "https://www.investing.com/news/stock-market-news/chinese-regulators-clear-paramount-skydancewarner-bros-discovery-merger-source-says-4748541",
-      "summary": "",
-      "published": "18 Jun 2026 05:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.302,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "Fed tetap stabil dalam debut Warsh, namun perubahan sikap hawkish memicu kemerosotan pasar obligasi",
-      "url": "https://www.investing.com/news/economic-indicators/fed-holds-steady-in-warshs-debut-analysts-see-hawkish-shift-4748060",
-      "summary": "",
-      "published": "18 Jun 2026 03:24 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "'Sayalah bosnya,' kata Trump di G7, saat ia menyambut tujuan perang Ukraina",
-      "url": "https://www.investing.com/news/economic-indicators/g7-leaders-tackle-reliance-on-china-for-critical-minerals-4746465",
-      "summary": "",
-      "published": "18 Jun 2026 02:30 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
     },
     {
       "source": "Reuters Currencies",
@@ -315,223 +135,233 @@
       "emoji": "⚪"
     },
     {
-      "source": "Reuters Currencies",
-      "title": "Minyak naik 1% di tengah keraguan kesepakatan AS-Iran; IEA memperingatkan kelebihan pasokan - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNenNvdC1DbGktWE0tRE5scUJEblVjSy1HVWROZkNNQ3lqT290eXhQV0R5MXhxYUhHYlBaN1lqdl95QUpEaHRaX0lOY3h2aEJSblJxYldFODhXWGFwN3dlOV9xbFFWTnpJNUlTUkJkaG9nWjRUUEpSemE2N09VWFVtNFRnT2RSQ3lKV094RjN5MkNYZlRIOURlZWJhREdaLWc2bVhiV2hCNUlYaTZrTUdXWkpKRnBTLWo1QVVEcDBIbGFWdGFqczhubmVR?oc=5",
-      "summary": "Oil rises 1% on US-Iran deal doubts; IEA warns of supply glut Reuters",
-      "published": "17 Jun 2026 08:09 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Kapal Jagung Kedua Menuju Iran Melintasi Hormuz Sebelum Kesepakatan Damai",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-17/corn-ships-cross-hormuz-toward-iran-uae-ahead-of-trump-deal",
+      "summary": "A second ship laden with corn bound for Iran transited the Strait of Hormuz just hours before the US-Iran interim deal to end the war and reopen the waterway was announced.",
+      "published": "17 Jun 2026 23:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.637,
+      "score": -0.103,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ahli Strategi Asia Mengincar Intervensi Yen dan Saham Teknologi Pasca Perang Dunia II",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/markets-alert-for-japan-intervention-after-fed-strategists-say",
-      "summary": "Strategists say markets are on watch for yen intervention after the Federal Reserve took a hawkish stance at Kevin Warsh’s debut meeting as governor, triggering a drop in the currency to levels that have previously prompted Japan’s finance ministry to step in.",
-      "published": "18 Jun 2026 06:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.273,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Perekonomian Selandia Baru Meningkat Sebelum Perang Melemahkan Momentum",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/new-zealand-s-economy-grew-0-8-before-iran-war-sapped-momentum",
-      "summary": "New Zealand’s economy sparked into life in the first three months of the year, responding to low interest rates and a lift in spending that largely pre-dated the Iran war.",
-      "published": "18 Jun 2026 05:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.864,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Minyak Mentah Menurun seiring Perjanjian Hormuz Meningkatkan Prospek Pasokan",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/latest-oil-market-news-and-analysis-for-june-18",
-      "summary": "Oil fell as an interim US-Iran peace deal went into effect, putting the focus on whether transits through the Strait of Hormuz will be ramped up as Persian Gulf producers restart shut-in fields.",
-      "published": "18 Jun 2026 05:03 WIB",
+      "title": "Minyak yang Terdampar Mengalir dari Hormuz seiring dengan Berlakunya Kesepakatan",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-18/two-saudi-oil-tankers-have-appeared-outside-strait-of-hormuz",
+      "summary": "A growing stream of stranded oil is making its way out of the Strait of Hormuz and Kuwait said it will start ramping up production, as the US-Iran interim peace deal sparks a flurry of activity that is already pushing Middle East flows toward pre-war levels.",
+      "published": "18 Jun 2026 13:33 WIB",
       "sentiment": "Bullish",
-      "score": 0.619,
+      "score": 0.637,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "CEO OT GROUP di Onitsuka Tiger Berputar dari Asics",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-17/ot-group-ceo-on-onitsuka-tiger-spinning-off-from-asics-video",
-      "summary": "Onitsuka Tiger is looking to bring its mark as an independent brand, separate from Asics. OT GROUP President and CEO Ryoji Shoda sat down for an interview with Bloomberg News' Shery Ahn in Tokyo to explain his vision for the brand going forward. (Source: Bloomberg)",
-      "published": "18 Jun 2026 06:00 WIB",
+      "title": "Reli Dolar Meningkat seiring Pertemuan The Fed yang Hawkish Mendorong Taruhan Kenaikan Suku Bunga",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-18/dollar-rally-builds-as-hawkish-fed-meeting-stokes-rate-hike-bets",
+      "summary": "The dollar extended its rally for a second day, pushing it back toward the late-March peak, as traders piled into bets that the Federal Reserve will start raising interest rates as soon as late next month.",
+      "published": "18 Jun 2026 20:55 WIB",
       "sentiment": "Bullish",
-      "score": 0.17,
+      "score": 0.539,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "BWX Setuju untuk Melisensikan Desain Reaktor Nuklir Setelah Dorongan Aktivis",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/bwx-agrees-to-license-nuclear-reactor-design-after-activist-push",
-      "summary": "BWX Technologies Inc. has struck a deal to license its design for a small modular reactor, after activist investor Ananym Capital Management pushed the nuclear technology company to consider commercializing it.",
-      "published": "18 Jun 2026 05:32 WIB",
-      "sentiment": "Netral",
-      "score": 0.028,
-      "emoji": "⚪"
+      "title": "Saham Bergabung dengan Obligasi Lebih Tinggi seiring Kesepakatan AS-Iran Turunkan Minyak: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-17/asian-stocks-bonds-to-fall-on-hawkish-fed-signals-markets-wrap",
+      "summary": "Wall Street staged a comeback that saw stocks climbing as oil fell after a peace deal between the US and Iran spurred optimism that a revival of the Strait of Hormuz will ease inflation risks.",
+      "published": "18 Jun 2026 05:11 WIB",
+      "sentiment": "Bullish",
+      "score": 0.92,
+      "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Warsh Rocks Pasar Obligasi dalam Debutnya, Memicu Lonjakan Taruhan Kenaikan Suku Bunga",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/warsh-rocks-bond-market-in-debut-sparks-surge-in-rate-hike-bets",
-      "summary": "It didn’t take Kevin Warsh long to get the bond market’s attention.",
-      "published": "18 Jun 2026 05:17 WIB",
+      "title": "Goldman Melihat Lebih Banyak Volatilitas Dua Tahun Di Bawah Kebijakan The Fed yang Warsh",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-18/goldman-sees-more-two-year-volatility-under-warsh-fed-video",
+      "summary": "Kay Haigh at Goldman Sachs Asset Management says two-year Treasury yields may become more volatile as Federal Reserve Chairman Kevin Warsh charts a new course for central bank communications. He speaks with Lisa Abramowicz and Annmarie Hordern on \"Bloomberg Surveillance.\" (Source: Bloomberg)",
+      "published": "18 Jun 2026 20:26 WIB",
+      "sentiment": "Bullish",
+      "score": 0.431,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Supertanker Minyak Saudi Menuju Teluk Oman Setelah Kesepakatan AS-Iran",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-18/saudi-oil-supertankers-head-for-gulf-of-oman-after-us-iran-deal",
+      "summary": "At least four Saudi oil supertankers that had been idling in the Indian Ocean for weeks set sail toward the Gulf of Oman, the latest indication that producers are starting to gear up for a resumption of flows through the Strait of Hormuz.",
+      "published": "18 Jun 2026 20:25 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Sorotan dari Konferensi Pers Pertama Ketua Fed Warsh",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-17/highlights-from-fed-chair-warsh-s-first-news-conference-video",
-      "summary": "Federal Reserve Chair Kevin Warsh spoke at his first news conference since being appointed the central bank's chair. The Fed's policy-setting Federal Open Market Committee decided to leave rates unchanged and vowed to deliver price stability. Here are some of the key moments from Warsh's news confer",
-      "published": "18 Jun 2026 05:09 WIB",
+      "source": "Google News Forex",
+      "title": "Bank Sentral Swiss Mempertahankan Suku Bunga Saat Perang Mendorong Perkiraan Inflasi - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa1p1TzNzMFN6TVpIREdTR0RDWDlwSWRHbi1DQ3p3WnZrbDU0QWJERE9jVU1qOG9VWTFtTlRoR0cxQ1RaV3JYbDlkdDRwczUtXzVUcjVMbHpnSWpGRFpPckM0d1U4M0xLdHYzbkRJc2kzbVE0LXdwV3BYWkV0dmNYMmpmY1FJSVBQN09EeUg2MGlybkNXQ0lsWmdqcVMySWViV1k3ODQyWXY1cHlKcU1Wd1NjVVdrQQ?oc=5",
+      "summary": "Swiss Central Bank Holds Rates as War Pushes Up Inflation Forecast WSJ",
+      "published": "18 Jun 2026 15:48 WIB",
       "sentiment": "Bearish",
-      "score": -0.132,
+      "score": -0.912,
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Chef Kwame Onwuachi di Restoran New Las Vegas, Tatiana",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-17/chef-kwame-onwuachi-on-new-las-vegas-restaurant-tatiana-video",
-      "summary": "James Beard award wining Chef Kwame Onwuachi, chef of hit restaurants Tatiana, Dōgon, and more, talks about the opening of his new restaurant in Las Vegas, Maroon. He discusses how the infusion of his Afro-Caribbean culture into his restaurants has connected to so many people. He speaks with Romaine",
-      "published": "18 Jun 2026 04:54 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pengawasan Bloomberg: Memutuskan The Fed 17/6/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-17/bloomberg-surveillance-the-fed-decides-6-17-2026-video",
-      "summary": "Federal Reserve Chairman Kevin Warsh vowed to restore price stability after officials left interest rates unchanged and signaled growing support for rate hikes this year. Lisa Abramowicz and Scarlet Fu host a special edition of \"Bloomberg Surveillance\" covering the latest news from the Federal Reser",
-      "published": "18 Jun 2026 04:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.681,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "USD/CHF Melemah Seiring Mendinginnya Risiko Geopolitik Mengurangi Penurunan Dolar Safe Haven M menjelang Keputusan Fed - VT Markets",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTDZqVVNNLU1iV3NzV0p2cEhXemlCMmo2cTlGNUZodlJrY0VQVmx4VDNBNGdnblc2b2p2bFk0ZDVpR2dNRUtQUDVudUhrUVRIOTRDY1V0OTdKdDc0bUtjR0RuTHh4ZzFOc251TWo3emhCRjR6ckxHbElNcnpUN1BsZ2NuaTByWjNZODBEc3lld256N3RncXB5dGRLU3cyd0JhRXNqVmpta0RPUVVpaWZDWU4yaXhNc0RmalJhaE5GVnBMZmlWUElwbUVIV0VUaGF0cnZtbVhhd2Z5YU9X?oc=5",
-      "summary": "USD/CHF Edges Lower as Cooling Geopolitical Risks Dent Safe-Haven Dollar Demand Ahead of Fed Decision VT Markets",
-      "published": "17 Jun 2026 08:27 WIB",
+      "source": "Google News Forex",
+      "title": "Bank sentral Swiss mempertahankan suku bunga karena perang meningkatkan perkiraan inflasi - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWnk0azFCeUNBSVVuSTJ3QngxVlJRNjRGSmZXc0JkSmJYanlkdE9GSmQ3RjNiVHhHclNuT1JPTUo2c1h0Z2ZJbTZ6VU1aMTdmQzAwTTFNUWhnTF9EbGJZYW5Ncy0yOWJqdEgtUldVdFUySE9KNXhUSnZ1cmxSSUhvbGRGMm5JMW1zVlRJZGtqcDRLb2hJZGtnNGJBbjdXUnQxVm52UUNlWEEyOHl3aVQ0cmJPZ0xoLTM1eGN3TlhrQ1JhMmI0d21zdzA4WUUwbEsyY2NPbnplT1dacTNr?oc=5",
+      "summary": "Swiss central bank holds rates as war pushes up inflation forecast MSN",
+      "published": "18 Jun 2026 15:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.306,
+      "score": -0.912,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Pencarian pasien Ebola berusia enam tahun setelah orang-orang bersenjata menyerbu rumah sakit DR Kongo",
-      "url": "https://www.bbc.com/news/articles/cvgep4l397eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Health facilities have come under attack during the current outbreak as a result of misinformation and fear.",
-      "published": "17 Jun 2026 23:50 WIB",
+      "title": "Hegseth mengatakan beberapa sekutu NATO akan gagal ketika ia mengumumkan peninjauan kembali pasukan Eropa oleh AS",
+      "url": "https://www.bbc.com/news/articles/c3vy5l62622o?at_medium=RSS&at_campaign=rss",
+      "summary": "The US defence secretary's move follows a US decision to scale back its commitments to a high readiness force within the alliance.",
+      "published": "18 Jun 2026 20:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.902,
+      "score": -0.153,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Mantan Menteri Perminyakan Nigeria dinyatakan bebas dari tuduhan suap di Inggris",
-      "url": "https://www.bbc.com/news/articles/c872pwx4x2vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Diezani Alison-Madueke had been accused of receiving bribes from oil tycoons but was found not guilty by a jury at Southwark Crown Court.",
-      "published": "18 Jun 2026 02:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.301,
-      "emoji": "🟢"
+      "title": "Pengacara dalam kasus pengkhianatan tingkat tinggi di Uganda yang didakwa melakukan pelanggaran terkait",
+      "url": "https://www.bbc.com/news/articles/cj9g3j4pe2no?at_medium=RSS&at_campaign=rss",
+      "summary": "Uganda's military chief had boasted of \"the hurt and pain\" he would inflict on Erias Lukwago, who was arrested earlier this week.",
+      "published": "18 Jun 2026 16:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.94,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Kapal tanker armada bayangan Rusia pertama memasuki Selat sejak Smyrto menaiki kapal",
+      "url": "https://www.bbc.com/news/articles/cgk6d12lz6jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Forwarder, a Russian-flagged ship which left port in Primorsk last week, entered the Channel on Wednesday evening.",
+      "published": "18 Jun 2026 21:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Suara tembakan dan ledakan terdengar di bandara ibu kota Niger",
+      "url": "https://www.bbc.com/news/articles/cdx7krkdqeno?at_medium=RSS&at_campaign=rss",
+      "summary": "Niger has been fighting a militant Islamist insurgency for a decade and in January suspected jihadists attacked the same airport.",
+      "published": "18 Jun 2026 17:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.751,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Jepang meningkatkan pertahanannya 'penting' untuk mencegah perang, kata Menteri Pertahanan Koizumi kepada BBC",
+      "url": "https://www.bbc.com/news/articles/cly8qd4595eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Japan needs to revisit the pacifist posture that has defined it since World War Two, Shinjiro Koizumi says.",
+      "published": "18 Jun 2026 05:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.928,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Lil Nas X mengatakan dia 'merasa lebih baik' setelah rehabilitasi dan diagnosis bipolar",
+      "url": "https://www.bbc.com/news/articles/cn4dqyn94vdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Old Town Road star was arrested last year for attacking police officers and later entered rehab.",
+      "published": "18 Jun 2026 15:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.482,
+      "emoji": "🔴"
     },
     {
       "source": "BBC Business",
-      "title": "The Fed mempertahankan suku bunga AS tetap stabil karena negosiasi mengenai kesepakatan Trump dengan Iran masih ada",
+      "title": "Kementerian Luar Negeri menjatuhkan saran 'jangan bepergian' untuk UEA",
+      "url": "https://www.bbc.com/news/articles/cddl29lg5gro?at_medium=RSS&at_campaign=rss",
+      "summary": "Thousands of Brits were left stranded in the Middle East when the US-Iran war broke out in early 2026.",
+      "published": "18 Jun 2026 21:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.852,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Warsh akan meninjau cara kerja Fed setelah mempertahankan suku bunga AS pada pertemuan pertama",
       "url": "https://www.bbc.com/news/articles/cdjkl78vd7lo?at_medium=RSS&at_campaign=rss",
       "summary": "The Federal Reserve held rates between 3.5% and 3.75% after Kevin Warsh's first meeting in charge of the central bank.",
       "published": "18 Jun 2026 01:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
+      "sentiment": "Bullish",
+      "score": 0.379,
+      "emoji": "🟢"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Apa isi perjanjian AS-Iran yang kini berlaku",
-      "url": "https://www.bbc.com/news/articles/cvgmqzr6p9mo?at_medium=RSS&at_campaign=rss",
-      "summary": "The 14-paragraph memo includes an end to fighting, an agreement that Iran will never have a nuclear weapon, and a $300bn redevelopment package for Iran.",
-      "published": "18 Jun 2026 05:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.482,
-      "emoji": "🟢"
+      "title": "'Adikku bersembunyi di karung beras' - Para pengungsi membintangi Piala Dunia",
+      "url": "https://www.bbc.com/news/articles/c1eygyg2zeno?at_medium=RSS&at_campaign=rss",
+      "summary": "Germany and Real Madrid defender Antonio Rudiger, whose family fled Sierra Leone's civil war, is among those campaigning for a change in global attitudes around refugees.",
+      "published": "18 Jun 2026 20:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "‘Jangan ikut campur’: Lula meminta Trump untuk tidak ikut serta dalam pemilu di Brasil",
-      "url": "https://www.aljazeera.com/news/2026/6/17/dont-meddle-lula-calls-on-trump-to-stay-out-of-brazils-elections?traffic_source=rss",
-      "summary": "Lula is currently in a tight race for re-election against right-wing candidate Flavio Bolsonaro, an ally of Trump.",
-      "published": "18 Jun 2026 03:14 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢"
+      "title": "Ketegangan Trump-Netanyahu: Apakah para pemimpin Israel dan AS pernah bentrok sebelumnya?",
+      "url": "https://www.aljazeera.com/features/2026/6/18/trump-netanyahu-tensions-have-israeli-and-us-leaders-clashed-before?traffic_source=rss",
+      "summary": "Media reports talk about rifts between Israeli and American leaders, but it has not changed US policy towards Israel.",
+      "published": "18 Jun 2026 21:44 WIB",
+      "sentiment": "Bearish",
+      "score": -0.374,
+      "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mengapa Pendiri Partai Kecoa Janta India Diserang?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/why-was-indias-cockroach-janta-party-founder-attacked?traffic_source=rss",
-      "summary": "Why was India’s Cockroach Janta Party founder attacked?",
-      "published": "18 Jun 2026 03:10 WIB",
+      "title": "Inilah warga Palestina yang dibunuh Israel selama ‘gencatan senjata’ di Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/18/these-are-the-palestinians-that-israel-has-killed-during-gazas?traffic_source=rss",
+      "summary": "Israel has killed more than 1,000 Palestinians since agreeing to a US-brokered ‘ceasefire’ in its genocidal war.",
+      "published": "18 Jun 2026 21:33 WIB",
       "sentiment": "Bearish",
-      "score": -0.321,
+      "score": -0.91,
       "emoji": "🔴"
     },
     {
-      "source": "MarketWatch",
-      "title": "Apakah Warsh dan Vance baru saja membuka pintu bagi inflasi yang lebih tinggi?",
-      "url": "https://www.marketwatch.com/story/did-warsh-and-vance-just-open-the-door-to-higher-inflation-d81396fb?mod=mw_rss_topstories",
-      "summary": "The U.S. government’s official 2% annual inflation target has suddenly been thrown into doubt by Kevin Warsh and J.D. Vance.",
-      "published": "18 Jun 2026 06:00 WIB",
+      "source": "Al Jazeera",
+      "title": "Serangan Israel di Lebanon selatan menewaskan tiga orang meskipun ada kesepakatan AS-Iran",
+      "url": "https://www.aljazeera.com/news/2026/6/18/israeli-attacks-on-southern-lebanon-kill-three-despite-us-iran-deal?traffic_source=rss",
+      "summary": "Israeli attacks in southern Lebanon continue in spite of a US-Iran deal that would mean ceasing military operations.",
+      "published": "18 Jun 2026 20:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.441,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
+      "source": "Al Jazeera",
+      "title": "Kepala Pentagon mengumumkan peninjauan kembali pasukan AS di Eropa, mengecam sekutu NATO",
+      "url": "https://www.aljazeera.com/news/2026/6/18/pentagon-chief-announces-review-of-us-forces-in-europe-slams-nato-allies?traffic_source=rss",
+      "summary": "Pete Hegseth says the review would last for up to six months and include consultations with Congress.",
+      "published": "18 Jun 2026 19:52 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
       "source": "MarketWatch",
-      "title": "Mentor Warren Buffett mengatakan kekayaannya disebabkan oleh keberuntungan. Apakah tabungan hidup Anda hanya berupa lemparan koin?",
-      "url": "https://www.marketwatch.com/story/warren-buffetts-mentor-said-his-wealth-came-down-to-luck-is-your-life-savings-riding-on-a-coin-flip-2498c60c?mod=mw_rss_topstories",
-      "summary": "The illusion of investing knowledge is powerful: Why you’re probably paying a financial adviser for pure chance.",
-      "published": "18 Jun 2026 05:48 WIB",
+      "title": "Suami saya meninggal ketika saya berusia 38 tahun, meninggalkan saya dengan empat anak yang masing-masing menerima Jaminan Sosial. Saya sekarang berusia 60 tahun. Kapan saya bisa mengajukan klaim?",
+      "url": "https://www.marketwatch.com/story/my-husband-died-when-i-was-38-leaving-me-with-four-kids-who-each-received-social-security-im-now-60-when-do-i-claim-dc18b96e?mod=mw_rss_topstories",
+      "summary": "“I have called and asked the Social Security Administration multiple times over the past couple of years.”",
+      "published": "18 Jun 2026 21:43 WIB",
       "sentiment": "Bullish",
-      "score": 0.795,
+      "score": 0.052,
       "emoji": "🟢"
     },
     {
       "source": "MarketWatch",
-      "title": "Kevin Warsh meluncurkan dorongannya untuk mengubah cara kerja The Fed",
-      "url": "https://www.marketwatch.com/story/warsh-launches-his-push-to-change-how-the-fed-operates-3ddd9b90?mod=mw_rss_topstories",
-      "summary": "The new Federal Reserve chair rolls out five task forces that will focus on the central bank’s communications, inflation frameworks and more",
-      "published": "18 Jun 2026 05:44 WIB",
+      "title": "Perjanjian Trump dengan Iran mengubah permainan bagi investor. Ini adalah dua sektor yang harus dibeli saat ini.",
+      "url": "https://www.marketwatch.com/story/trumps-iran-agreement-changes-the-game-for-investors-these-are-the-two-sectors-to-buy-right-now-0705bc62?mod=mw_rss_topstories",
+      "summary": "Hyperventilating experts were wrong about the Iran war. The end of the conflict is a massive buy signal for stocks.",
+      "published": "18 Jun 2026 21:39 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "The Fed baru saja memberikan kejutan kepada investor. Mulai reaksi saham, obligasi, emas, dan dolar.",
-      "url": "https://www.marketwatch.com/story/the-fed-threw-investors-a-curve-ball-on-wednesday-heres-how-stocks-bonds-gold-and-the-dollar-reacted-d0e1e3c0?mod=mw_rss_topstories",
-      "summary": "In his first press conference as Fed chair, Kevin Warsh took a surprisingly aggressive stance on interest rates and inflation.",
-      "published": "18 Jun 2026 04:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Inilah kinerja saham-saham di bawah pimpinan The Fed yang berbeda – dan seberapa besar pengaruh Warsh sebenarnya",
-      "url": "https://www.marketwatch.com/story/heres-how-stocks-performed-under-different-fed-chairs-and-how-much-influence-warsh-really-has-e8a10d87?mod=mw_rss_topstories",
-      "summary": "A look at stock-market performance under Fed chairs going back to the 1930s.",
-      "published": "18 Jun 2026 04:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.807,
       "emoji": "🔴"
     },
     {
@@ -540,9 +370,9 @@
       "url": "https://www.cnbc.com/2026/06/17/jeffrey-gundlach-says-feds-warsh-is-not-going-to-be-the-easy-money-chairman-many-hoped-for.html",
       "summary": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
       "published": "18 Jun 2026 03:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.433,
-      "emoji": "🔴"
+      "sentiment": "Bullish",
+      "score": 0.367,
+      "emoji": "🟢"
     },
     {
       "source": "CNBC Economy",
@@ -576,62 +406,62 @@
     },
     {
       "source": "CNBC World",
-      "title": "Analisis: Gugus tugas yang dipimpin Ketua Kevin Warsh adalah kunci untuk memahami The Fed yang baru",
-      "url": "https://www.cnbc.com/2026/06/17/kevin-warsh-fed-interest-rates-risk-analysis.html",
-      "summary": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
-      "published": "18 Jun 2026 04:04 WIB",
+      "title": "Hegseth memperingatkan sekutu NATO bahwa beberapa negara akan 'gagal' dalam tinjauan pertahanan AS",
+      "url": "https://www.cnbc.com/2026/06/18/hegseth-nato-defense-review-fail-europe.html",
+      "summary": "The U.S. defense secretary also said it was \"shameful\" that European allies refused to give U.S. forces access to bases to strike Iran.",
+      "published": "18 Jun 2026 21:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.912,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Pembukaan kembali Selat Hormuz mungkin memerlukan waktu berminggu-minggu untuk mengurangi simpanan pengiriman dan tekanan minyak",
+      "url": "https://www.cnbc.com/2026/06/18/strait-hormuz-reopening-shipping-oil.html",
+      "summary": "The Strait of Hormuz is set to reopen after Iran and the U.S. sign a peace deal, but experts warn backlogs and security checks could delay normal shipping.",
+      "published": "18 Jun 2026 15:10 WIB",
       "sentiment": "Bullish",
-      "score": 0.519,
+      "score": 0.238,
       "emoji": "🟢"
     },
     {
       "source": "CNBC World",
-      "title": "Ketua Warsh tidak memberikan perkiraan suku bunga karena beberapa anggota memberi sinyal kenaikan pada tahun 2026",
-      "url": "https://www.cnbc.com/2026/06/17/fed-projections-call-for-a-rate-hike-in-2026-but-chairman-warsh-likely-abstained.html",
-      "summary": "The median projection called for the federal funds rate to end 2026 at 3.8%, a quarter percentage point above the current target range.",
-      "published": "18 Jun 2026 02:27 WIB",
+      "title": "CEO Anthropic dan Google DeepMind menyerukan koalisi AI yang dipimpin AS dalam pertemuan di G7",
+      "url": "https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html",
+      "summary": "Tech leaders and heads of state, including President Donald Trump, joined a meeting about AI standards at the G7 Summit.",
+      "published": "18 Jun 2026 03:42 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Tawaran Trump untuk memecat Lisa Cook dari Fed menghabiskan biaya hukum dan keamanan lebih dari $1 juta: Pengajuan",
+      "url": "https://www.cnbc.com/2026/06/18/trump-federal-reserve-lisa-cook-security-filing.html",
+      "summary": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
+      "published": "18 Jun 2026 21:58 WIB",
       "sentiment": "Bullish",
-      "score": 0.26,
+      "score": 0.527,
       "emoji": "🟢"
     },
     {
       "source": "CNBC World",
-      "title": "Warsh mengalami kinerja S&P 500 'hari Fed' terburuk untuk ketua baru sejak tahun 1994",
-      "url": "https://www.cnbc.com/2026/06/17/warsh-fed-meeting-stock-market.html",
-      "summary": "The S&P 500 tumbled more than 1% in Wednesday's session, with losses steepening during Warsh' innagural press conference as chair.",
-      "published": "18 Jun 2026 03:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.938,
-      "emoji": "🔴"
+      "title": "Bromance Trump-Modi kembali terlihat dalam pertemuan di sela-sela G7",
+      "url": "https://www.cnbc.com/2026/06/18/trump-modi-bromance-display-g7.html",
+      "summary": "U.S. President Donald Trump pledged to defend India, but only if Narendra Modi is the leader.",
+      "published": "18 Jun 2026 15:58 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
     },
     {
       "source": "CNBC World",
-      "title": "Dari guncangan pasokan hingga kelebihan minyak: IEA menandai kehancuran permintaan yang disebabkan oleh perang Iran",
-      "url": "https://www.cnbc.com/2026/06/17/global-oil-demand-suppy-energy-prices-iea-inventories.html",
-      "summary": "The energy supply shock triggered by the Iran War has prompted the IEA to slash its global oil demand forecast.",
-      "published": "17 Jun 2026 15:39 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Ketua Warsh secara drastis mengubah pernyataan suku bunga Fed. Inilah yang berubah",
-      "url": "https://www.cnbc.com/2026/06/17/june-fed-meeting-redline.html",
-      "summary": "This is a comparison of Wednesday's Federal Open Market Committee statement with the one issued after the Fed's previous policymaking meeting in April.",
-      "published": "18 Jun 2026 02:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump mengatakan dia menyukai gagasan untuk menyalahkan Vance jika kesepakatan Iran tidak berhasil",
-      "url": "https://www.cnbc.com/2026/06/17/trump-vance-iran-deal-nuclear-g7.html",
-      "summary": "President Trump at the G7 summit said the memorandum of understanding reached with Iran \"might not be the kind of document that I should be signing.\"",
-      "published": "18 Jun 2026 02:54 WIB",
+      "title": "Imbal hasil Treasury 2-tahun sedikit berubah setelah melonjak karena awal yang hawkish dari The Fed Warsh",
+      "url": "https://www.cnbc.com/2026/06/18/treasury-yields-investors-warsh-fed-interest-rates.html",
+      "summary": "The yield on the 2-year U.S. Treasury note — most sensitive to changes in fed funds expectations — rose almost another three basis points.",
+      "published": "18 Jun 2026 20:43 WIB",
       "sentiment": "Bullish",
-      "score": 0.08,
+      "score": 0.382,
       "emoji": "🟢"
     }
   ]
