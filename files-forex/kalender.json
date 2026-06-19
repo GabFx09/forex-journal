@@ -1,5 +1,5 @@
 {
-  "generated": "18 Jun 2026 22:03 WIB",
+  "generated": "19 Jun 2026 07:02 WIB",
   "events": [
     {
       "date": "2026-06-14",
@@ -1009,9 +1009,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "TIC Long-Term Purchases",
-      "actual": "",
+      "actual": "103.1B",
       "forecast": "72.5B",
-      "previous": "81.3B"
+      "previous": "79.9B"
     },
     {
       "date": "2026-06-18",
@@ -1020,9 +1020,9 @@
       "currency": "NZD",
       "impact": "low",
       "event": "Trade Balance",
-      "actual": "",
+      "actual": "800M",
       "forecast": "875M",
-      "previous": "1920M"
+      "previous": "1598M"
     },
     {
       "date": "2026-06-18",
@@ -1031,7 +1031,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "GfK Consumer Confidence",
-      "actual": "",
+      "actual": "-23",
       "forecast": "-23",
       "previous": "-23"
     },
@@ -1053,7 +1053,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "National Core CPI y/y",
-      "actual": "",
+      "actual": "1.4%",
       "forecast": "1.4%",
       "previous": "1.4%"
     },
