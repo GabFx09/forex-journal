@@ -1,5 +1,5 @@
 {
-  "generated": "20 Jun 2026 07:02 WIB",
+  "generated": "20 Jun 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,63 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.311,
-      "count": 29
+      "score": -0.34,
+      "count": 18
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.298,
-      "count": 25
+      "score": -0.265,
+      "count": 16
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.332,
-      "count": 24
+      "score": -0.235,
+      "count": 15
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.056,
-      "count": 12
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.444,
-      "count": 4
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.192,
-      "count": 3
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.192,
-      "count": 3
+      "score": -0.5,
+      "count": 8
     },
     {
       "pair": "EUR",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.34,
-      "count": 2
+      "direction": "Netral →",
+      "score": 0.0,
+      "count": 1
+    },
+    {
+      "pair": "GBP",
+      "direction": "Netral →",
+      "score": 0.0,
+      "count": 1
+    },
+    {
+      "pair": "JPY",
+      "direction": "Netral →",
+      "score": 0.0,
+      "count": 1
+    },
+    {
+      "pair": "USD",
+      "direction": "Netral →",
+      "score": 0.0,
+      "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Komando militer Iran mengatakan pihaknya menutup Selat Hormuz karena pelanggaran gencatan senjata",
+      "url": "https://investinglive.com/news/iran-military-command-says-its-closing-the-strait-of-hormuz-due-to-ceasefire-violations-20260620/",
+      "summary": "Iran's Khatam-al Anbiya HQ announced that the Strait of Hormuz will be closed to all maritime traffic. The military headquarters cites US breaches of the war-ending deal and ongoing Israeli ceasefire violations, along with the non-withdrawal in Lebanon. They warned this is only the \"first step.\" The",
+      "published": "20 Jun 2026 20:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.875,
+      "emoji": "🔴"
+    },
     {
       "source": "ForexLive",
       "title": "investRak berita pasar Amerika langsung: Israel dan Hizbullah menyetujui gencatan senjata yang goyah",
@@ -105,54 +115,14 @@
       "emoji": "🔴"
     },
     {
-      "source": "ForexLive",
-      "title": "USD/CAD terus bergerak setelah menembus level tertinggi bulan November",
-      "url": "https://investinglive.com/forex/usdcad-continues-to-run-after-breaking-the-november-high-20260619/",
-      "summary": "The picture for the Canadian dollar is worsening as it continues to carve out fresh 14-month lows. The US dollar is up another 33 pips today against the loonie, touching 1.4177. This will be the third consecutive week of gains for the pair and comes with oil prices falling in a post-war rout. WTI cr",
-      "published": "19 Jun 2026 21:18 WIB",
+      "source": "FXStreet News",
+      "title": "Breaking: Iran menutup Selat Hormuz di tengah pelanggaran perjanjian gencatan senjata",
+      "url": "https://www.fxstreet.com/news/breaking-iran-closes-the-strait-of-hormuz-amid-ceasefire-deal-violation-202606201419",
+      "summary": "Iran says it is closing the Strait of Hormuz after accusing the United States (US) and Israel of violating the ceasefire. According to Iran, the decision came over the continued Israeli strikes in Lebanon.",
+      "published": "20 Jun 2026 21:22 WIB",
       "sentiment": "Bearish",
-      "score": -0.924,
+      "score": -0.636,
       "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Menteri luar negeri Iran mengatakan rencana sedang dilakukan untuk pertemuan di masa depan dengan AS",
-      "url": "https://investinglive.com/news/iran-foreign-min-says-plans-underway-for-future-meeting-with-us-20260619/",
-      "summary": "Today's meeting between the US and Iran was postponed in light of the ongoing fighting in Lebanon but that looks to have been cleared up by today's ceasefire (hopefully). Now Iran's foreign minister says plans are underway for a meeting in the coming days. He said the talks will be about a final agr",
-      "published": "19 Jun 2026 20:58 WIB",
-      "sentiment": "Bullish",
-      "score": 0.967,
-      "emoji": "🟢"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Israel dan Hizbullah telah menyetujui gencatan senjata yang akan segera dimulai",
-      "url": "https://investinglive.com/news/israel-and-hezbollah-have-agreed-to-a-ceasefire-to-start-almost-immediately-20260619/",
-      "summary": "A 'senior US official' cited by Reuters says that Israel and Lebanon have agreed to a ceasefire from 4 pm local time, which is just minutes from now. Oil prices gave up a 50 cent gain and turned negative on the headline. That's now extended to being down 64 cents to $75.96. Earlier today, four Israe",
-      "published": "19 Jun 2026 19:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.612,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Penjualan ritel Kanada bulan April +0,5% vs perkiraan +0,6%.",
-      "url": "https://investinglive.com/news/canada-april-retail-sales-05-vs-06-expected-20260619/",
-      "summary": "Prior was +0.9% The advanced April reading was +0.6% April retail sales ex autos +0.1% vs +0.7% expected Prior ex autos +1.4% (revised to +1.2%) Sales were up in five of nine subsectors Core sales excluding gas stations were down 0.7% Advanced May sales +1.0% This is a poor report and highlights how",
-      "published": "19 Jun 2026 19:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.42,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "UF AWARDS GLOBAL 2026: Temui Para Pemenang",
-      "url": "https://investinglive.com/news/uf-awards-global-2026-meet-the-winners-20260619/",
-      "summary": "The votes are in. The industry's most credible awards, the UF AWARDS GLOBAL 2026 , have announced this year's winners, recognising the best brokers, technology providers and fintech brands operating on the global stage. Following a Voting Round that concluded on 15 June, the results were revealed at",
-      "published": "19 Jun 2026 18:31 WIB",
-      "sentiment": "Bullish",
-      "score": 0.897,
-      "emoji": "🟢"
     },
     {
       "source": "FXStreet News",
@@ -205,254 +175,154 @@
       "emoji": "🔴"
     },
     {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga USD/CHF: RSI mendekati wilayah overbought karena pasangan ini naik mendekati level tertinggi tujuh bulan",
-      "url": "https://www.fxstreet.com/news/usd-chf-price-forecast-rsi-nears-overbought-territory-as-the-pair-climbs-to-near-seven-month-highs-202606191612",
-      "summary": "USD/CHF extends gains on Friday even as the US Dollar (USD) eases slightly after rising to more than one-year highs. Diverging monetary policy expectations between the Federal Reserve (Fed) and the Swiss National Bank (SNB) keep demand tilted toward the US Dollar over the Swiss Franc (CHF).",
-      "published": "19 Jun 2026 23:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.572,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Reuters Currencies",
-      "title": "Rupee mencatat minggu terkuat dalam 11 minggu karena arus masuk obligasi dan melemahnya harga minyak memberikan dukungan - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa0k0RlZ6TXA3YWdQMWRyTXUtaElxVlhHSjF6Q2ZLZmhRWkxBUEwydld0R0hWQ3pkRlJCN1daejE1R2N1TkxUSEtMc292ZXZRZWl5RGE3X1dkNEk5VUc3R2plN0tHcGxURDdxM3RfR3FBbDFfTzdib3RGWFN3UVg1TFpiV09qUGtJS0xzQ0duV0YxMFRBc3FnVFlia2NVRThNNWV1dERxVGFmY01xOEdaU29hdVdDdXZwMDMxX1hB?oc=5",
-      "summary": "Rupee records strongest week in 11 as bond inflows, softer oil prices lend support Reuters",
-      "published": "19 Jun 2026 10:11 WIB",
-      "sentiment": "Bullish",
-      "score": 0.961,
-      "emoji": "🟢"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Saham Global Mengakhiri Minggu yang Kuat dengan Catatan yang Hati-hati",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-19/global-stocks-end-strong-week-on-cautious-note-video",
-      "summary": "Global stocks are ending a strong week on a cautious note as relief over an interim peace deal between the US and Iran gave way to a focus on the challenges of securing a lasting agreement. Anneka Treon, Global Head of Private Banking, Wealth Management, and Investments at ING Investments, discusses",
-      "published": "19 Jun 2026 23:21 WIB",
-      "sentiment": "Bullish",
-      "score": 1.0,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "AS dan Iran Menunda Pembicaraan Nuklir karena Bentrokan Lebanon Memburuk",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-19/us-iran-delay-nuclear-talks-as-lebanon-clashes-worsen-video",
-      "summary": "Iran delayed the start of negotiations over a permanent peace deal with the US after fighting intensified in southern Lebanon, a potential setback to Donald Trump’s efforts to end the war and curb Tehran’s nuclear program. Ambassador Puneet Talwar, Principal at Talwar Global Strategies and former US",
-      "published": "19 Jun 2026 23:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.856,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Israel dan Hizbullah menyetujui gencatan senjata, kata AS, seiring dengan semakin banyaknya serangan di Lebanon yang dilaporkan",
-      "url": "https://www.bbc.com/news/articles/cwyk7kkygj5o?at_medium=RSS&at_campaign=rss",
-      "summary": "The agreement followed concerns that continued clashes would undermine the deal to end the war between the US and Iran.",
-      "published": "20 Jun 2026 02:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.33,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Meloni dari Italia mengatakan Trump 'mengarang' cerita bahwa dia 'meminta' dia untuk berfoto di G7",
-      "url": "https://www.bbc.com/news/articles/c20y1ygn707o?at_medium=RSS&at_campaign=rss",
-      "summary": "The highly public exchange is an indication that their earlier close ties have frayed since Trump's decision to go to war with Iran.",
-      "published": "20 Jun 2026 02:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Pasien Ebola berusia enam tahun yang diambil dari rumah sakit di Kongo ditemukan dan ‘baik-baik saja’",
-      "url": "https://www.bbc.com/news/articles/c0qyg29wpk2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Health facilities have come under attack during the current outbreak as a result of misinformation and fear.",
-      "published": "19 Jun 2026 21:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.838,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Anggota parlemen Zimbabwe mengesahkan RUU untuk memperpanjang masa kekuasaan presiden",
-      "url": "https://www.bbc.com/news/articles/c20y15m0337o?at_medium=RSS&at_campaign=rss",
-      "summary": "The proposal would extend Emmerson Mnangagwa's term by two years and scrap direct presidential elections.",
-      "published": "19 Jun 2026 15:03 WIB",
+      "title": "KTT Reindustrialisasi: 'Bangun, Sayang, Bangun'",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-20/the-reindustrialize-summit-build-baby-build-video",
+      "summary": "At the Reindustrialize Summit in Detroit, industrial leaders, White House officials, and major investors convened to emphasize the critical role of manufacturing in reinforcing national and military strength. Axios Defense reporter Colin Demarest joins David Gura and Christina Ruffini on Bloomberg T",
+      "published": "20 Jun 2026 21:39 WIB",
       "sentiment": "Bullish",
       "score": 0.34,
       "emoji": "🟢"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "'Baik saya maupun Italia tidak pernah memohon': Meloni mengatakan Trump mengarang cerita tentang foto",
-      "url": "https://www.bbc.com/news/articles/c20y1ygn707o?at_medium=RSS&at_campaign=rss",
-      "summary": "The highly public exchange is an indication that their earlier close ties have frayed since Trump's decision to go to war with Iran.",
-      "published": "20 Jun 2026 02:36 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Burnham Mungkin Akan Menulis Ulang Pedoman Fiskal Inggris Jika Dia Menjadi PM",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-20/burnham-may-yet-rewrite-uk-fiscal-rules-if-he-becomes-premier",
+      "summary": "After Andy Burnham took a giant leap toward becoming the UK’s next leader, focus is turning to how the team he’s assembling could shape the country’s economic policies.",
+      "published": "20 Jun 2026 13:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Cooler Saturday memberikan kelegaan singkat sebelum panas kembali",
-      "url": "https://www.bbc.com/weather/articles/cp8lye61jk6o?at_medium=RSS&at_campaign=rss",
-      "summary": "After a slightly cooler Saturday, temperatures will rise again, possibly touching 35C by Tuesday with a Met Office amber extreme heat warning set to come into force.",
-      "published": "20 Jun 2026 06:39 WIB",
-      "sentiment": "Bullish",
-      "score": 0.108,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Henry Zeffman: Apa yang dilakukan Keir Starmer selanjutnya setelah kemenangan Makerfield asuhan Andy Burnham?",
-      "url": "https://www.bbc.com/news/articles/c3ryp0nejdro?at_medium=RSS&at_campaign=rss",
-      "summary": "Discussion about the prime minister's future ramps up after Makerfield by-election.",
-      "published": "19 Jun 2026 21:34 WIB",
-      "sentiment": "Bullish",
-      "score": 0.586,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah Trump harus menyerahkan nota kesepahaman Iran ke Kongres?",
-      "url": "https://www.aljazeera.com/news/2026/6/19/does-trump-have-to-submit-the-iran-memorandum-of-understanding-to-congress?traffic_source=rss",
-      "summary": "A 2015 law requiring congressional approval for any Iran nuclear deal is in the spotlight after this week's memo.",
-      "published": "20 Jun 2026 04:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.557,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "AS mengumumkan babak baru perundingan Israel-Lebanon di Washington minggu depan",
-      "url": "https://www.aljazeera.com/news/2026/6/19/us-announces-new-round-of-israel-lebanon-talks-in-washington-next-week?traffic_source=rss",
-      "summary": "Talks come as Hezbollah, Israel say new ceasefire has been reached in wake of US-Iran memorandum to end war.",
-      "published": "20 Jun 2026 04:02 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Trump Mencari Offramp Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-20/trump-seeks-iran-offramp-video",
+      "summary": "President and Founder of Eurasia Group and GZERO Media Ian Bremmer joins David Gura and Christina Ruffini on Bloomberg This Weekend to discuss how in the face of the United States failing to achieve any of the war goals given at the beginning of the conflict, President Trump is looking to put Iran b",
+      "published": "20 Jun 2026 19:33 WIB",
       "sentiment": "Bearish",
-      "score": -0.542,
+      "score": -0.932,
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Perdana Menteri Italia mengatakan dia tidak 'meminta' Trump untuk foto G7",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/19/italian-prime-minister-says-she-didnt-beg-trump-for-g7-photograph?traffic_source=rss",
-      "summary": "Italian Prime Minister says she didn't ‘beg’ Trump for G7 photograph.",
-      "published": "20 Jun 2026 03:53 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Delegasi AS-Iran Diharapkan di Swiss",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-20/us-iran-delegations-expected-in-switzerland-video",
+      "summary": "Three days after President Trump signed an agreement with Iran, Switzerland is playing host for diplomatic talks with the United States, Iran, Pakistan, and Qatar in attendance. The Associated Press's International Correspondent Philip Crowther joins Bloomberg This Weekend with hosts David Gura and ",
+      "published": "20 Jun 2026 19:20 WIB",
+      "sentiment": "Bullish",
+      "score": 0.729,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Irak Memberitahu Ladang Minyak untuk Mulai Meningkatkan Produksi Setelah Kesepakatan AS-Iran",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-20/iraq-tells-oil-fields-to-start-lifting-output-after-us-iran-deal",
+      "summary": "Iraq asked operators of five major oil fields to boost production to prewar levels, targeting output of over 3 million barrels a day, after US-Iran deal that aims to fully reopen the Strait of Hormuz.",
+      "published": "20 Jun 2026 19:05 WIB",
+      "sentiment": "Bullish",
+      "score": 0.402,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump mengecam Meloni Italia setelah menolak klaim foto G7",
+      "url": "https://www.bbc.com/news/articles/cgqj77909jpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump said the Italian leader asked \"over and over\" for a picture at G7, after she said the US president \"made-up\" a story that she \"begged\" for a photo.",
+      "published": "20 Jun 2026 21:24 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Israel membunuh rata-rata ‘satu anak setiap hari’ di Gaza meskipun ada gencatan senjata, kata PBB",
-      "url": "https://www.aljazeera.com/news/2026/6/19/israel-kills-a-child-a-day-on-average-in-gaza-despite-ceasefire-un-says?traffic_source=rss",
-      "summary": "'No ceasefire can be considered meaningful while children continue to be killed' says UNICEF.",
-      "published": "20 Jun 2026 03:50 WIB",
+      "source": "BBC Top Stories",
+      "title": "Pembicaraan tentang Starmer yang bertahan untuk bertarung memudar - dengan cepat",
+      "url": "https://www.bbc.com/news/articles/cjeg7p5w4y9o?at_medium=RSS&at_campaign=rss",
+      "summary": "After Andy Burnham’s by-election victory, support for the prime minister is evaporating, writes Laura Kuenssberg.",
+      "published": "20 Jun 2026 18:33 WIB",
+      "sentiment": "Netral",
+      "score": 0.026,
+      "emoji": "⚪"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Peringatan panas ekstrem meluas saat gelombang panas 36C mendekati Inggris",
+      "url": "https://www.bbc.com/weather/articles/cp8lye61jk6o?at_medium=RSS&at_campaign=rss",
+      "summary": "After a slightly cooler Saturday, temperatures will rise again, possibly touching 36C by Tuesday with a Met Office amber extreme heat warning set to come into force.",
+      "published": "20 Jun 2026 20:41 WIB",
       "sentiment": "Bearish",
-      "score": -0.692,
+      "score": -0.655,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Meminum koktail suplemen setiap hari mungkin lebih merugikan Anda daripada manfaatnya",
+      "url": "https://www.bbc.com/news/articles/cd6e25lpwxzo?at_medium=RSS&at_campaign=rss",
+      "summary": "While many of us take supplements regularly, there are some risks people may not be aware of.",
+      "published": "20 Jun 2026 07:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.568,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Inggris: Pintu Putar No. 10",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/19/the-uk-no-10-revolving-door?traffic_source=rss",
-      "summary": "UK PM Keir Starmer faces growing pressure after Andy Burnham’s by-election win.",
-      "published": "20 Jun 2026 03:19 WIB",
+      "title": "Inggris mengutuk menteri Israel atas pernyataan Lebanon yang menghasut",
+      "url": "https://www.aljazeera.com/news/2026/6/20/uk-condemns-israeli-minister-over-inflammatory-lebanon-remarks?traffic_source=rss",
+      "summary": "UK foreign secretary slams Israeli minister's inflammatory remarks amid regional tensions and fragile ceasefire.",
+      "published": "20 Jun 2026 20:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.718,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Spanyol vs Arab Saudi: Piala Dunia 2026 – Yamal, prediksi, tonton, kickoff",
+      "url": "https://www.aljazeera.com/sports/2026/6/20/spain-vs-saudi-arabia-world-cup-2026-yamal-prediction-watch-kickoff?traffic_source=rss",
+      "summary": "Spain face Saudi Arabia in need of a win to take control of Group H. Can they rediscover their attacking edge?",
+      "published": "20 Jun 2026 19:17 WIB",
       "sentiment": "Bullish",
-      "score": 0.511,
+      "score": 0.122,
       "emoji": "🟢"
     },
     {
       "source": "Al Jazeera",
-      "title": "Wakil Menlu Iran mengatakan 'siap untuk bergerak maju' dalam kesepakatan dengan AS",
-      "url": "https://www.aljazeera.com/news/2026/6/19/iran-deputy-fm-says-ready-to-move-forward-in-deal-with-us?traffic_source=rss",
-      "summary": "Deputy FM Khatibzadeh tells Al Jazeera diplomacy is way forward, but US must ensure Israel stops attacks on Lebanon.",
-      "published": "20 Jun 2026 03:03 WIB",
+      "title": "Mengapa strategi energi terbarukan Tunisia menghadapi hambatan",
+      "url": "https://www.aljazeera.com/opinions/2026/6/20/why-tunisias-renewable-energy-strategy-is-facing-resistance?traffic_source=rss",
+      "summary": "Giving concessions for renewable projects to foreign corporations will not help solve the country’s energy crisis.",
+      "published": "20 Jun 2026 19:06 WIB",
       "sentiment": "Bearish",
       "score": -0.409,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Perang Iran: Sukses atau Bencana? Mehdi Hasan dan David Des Roches",
-      "url": "https://www.aljazeera.com/video/head-to-head/2026/6/19/iran-war-success-or-disaster-mehdi-hasan-and-david-des-roches?traffic_source=rss",
-      "summary": "Mehdi Hasan goes Head to Head with former Pentagon official David Des Roches on the Iran war.",
-      "published": "20 Jun 2026 02:05 WIB",
+      "title": "MSF mengatakan kondisi di Nabatieh Lebanon menyerupai ‘jebakan maut’",
+      "url": "https://www.aljazeera.com/news/2026/6/20/msf-says-conditions-in-lebanons-nabatieh-resemble-a-death-trap?traffic_source=rss",
+      "summary": "Israel has stepped up attacks on parts of southern Lebanon, including Nabatieh, since midnight on Friday.",
+      "published": "20 Jun 2026 18:40 WIB",
       "sentiment": "Bearish",
-      "score": -0.928,
+      "score": -0.52,
       "emoji": "🔴"
     },
     {
-      "source": "MarketWatch",
-      "title": "Gugus tugas baru Warsh memberikan ruang gerak bagi The Fed untuk menunda perubahan suku bunga hingga bulan Desember",
-      "url": "https://www.marketwatch.com/story/warshs-task-forces-give-the-fed-wiggle-room-to-put-off-changing-rates-until-december-364fc1fc?mod=mw_rss_topstories",
-      "summary": "During his first press conference as Fed chair Wednesday, Kevin Warsh repeated one refrain in his answers to many reporters’ questions: A task force is looking into it.",
-      "published": "20 Jun 2026 00:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Trump memilih Kevin Warsh untuk menurunkan suku bunga. Ketua Fed yang baru baru saja memberi tahu kami bahwa dia punya rencana lain.",
-      "url": "https://www.marketwatch.com/story/trump-picked-kevin-warsh-to-cut-rates-the-new-fed-chief-just-told-us-he-has-other-plans-096bba56?mod=mw_rss_topstories",
-      "summary": "Here’s what the central bank’s hawkish agenda means for your money.",
-      "published": "20 Jun 2026 00:08 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Pengawasan The Fed terlihat sangat berbeda saat ini. Dua grafik dapat membantu Anda di era Warsh.",
-      "url": "https://www.marketwatch.com/story/fed-watching-is-looking-very-different-now-two-charts-can-help-you-in-the-warsh-era-d2372c15?mod=mw_rss_topstories",
-      "summary": "Kevin Warsh is forcing Wall Street to do the heavy lifting. Use these benchmarks to find your footing.",
-      "published": "19 Jun 2026 23:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump mengklaim kesepakatan Iran adalah 'penyerahan tanpa syarat', dan mengatakan bahwa kekuasaannya 'tidak ada batasnya': Axios",
-      "url": "https://www.cnbc.com/2026/06/19/trump-claims-iran-deal-is-unconditional-surrender-axios-.html",
-      "summary": "Trump said in an interview with Axios on Thursday evening stateside that he negotiated the deal to prevent the conflict from triggering a global depression.",
-      "published": "19 Jun 2026 09:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.71,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Imbal hasil emas Inggris melonjak seiring meningkatnya pinjaman dan PM Starmer menghadapi tantangan kepemimpinan",
-      "url": "https://www.cnbc.com/2026/06/19/andy-burnham-makerfield-by-election.html",
-      "summary": "Andy Burnham won the Makerfield by-election, defeating Reform UK by more than 9,000 votes with nearly 55% of the vote.",
-      "published": "19 Jun 2026 17:51 WIB",
+      "source": "Al Jazeera",
+      "title": "Apa arti perjanjian perdamaian AS-Iran bagi kampanye Piala Dunia 'Tim Melli'",
+      "url": "https://www.aljazeera.com/sports/2026/6/20/what-the-us-iran-peace-deal-could-mean-for-irans-world-cup-campaign?traffic_source=rss",
+      "summary": "Experts hope the 'extra animosity' towards Team Melli will subside as the US-Iran agreement comes into being.",
+      "published": "20 Jun 2026 18:08 WIB",
       "sentiment": "Bullish",
-      "score": 0.34,
+      "score": 0.852,
       "emoji": "🟢"
     },
     {
       "source": "CNBC World",
-      "title": "AS membuka penyelidikan tarif yang menargetkan kebijakan penetapan harga obat Jerman",
-      "url": "https://www.cnbc.com/2026/06/19/us-tariff-probe-germany-drug-pricing-policies-mfn.html",
-      "summary": "U.S. Trade Representative Jamieson Greer said Germany's proposal to reduce spending on medicines was \"a serious step backwards.\"",
-      "published": "19 Jun 2026 21:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.157,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Bantuan Hormuz mungkin tidak meringankan dampak ekonomi yang telah terjadi, para analis memperingatkan",
-      "url": "https://www.cnbc.com/2026/06/19/hormuz-relief-may-not-ease-the-economic-toll-thats-already-baked-in-analysts-warn.html",
-      "summary": "Early signs of reopening of the Strait of Hormuz have lifted the most acute threat to global energy supplies but economic damages from the war will take months to unwind.",
-      "published": "19 Jun 2026 15:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.973,
-      "emoji": "🔴"
+      "title": "Bonus besar-besaran bagi pekerja chip di Korea Selatan membuat bank sentral waspada terhadap inflasi",
+      "url": "https://www.cnbc.com/2026/06/20/south-korea-tech-samsung-sk-hynix-bonus-bank-of-korea.html",
+      "summary": "Workers from tech industries receive bonus worth millions of won, prompting the Bank of Korea to warn of the upward pressure to inflation.",
+      "published": "20 Jun 2026 15:59 WIB",
+      "sentiment": "Bullish",
+      "score": 0.826,
+      "emoji": "🟢"
     }
   ]
 }
