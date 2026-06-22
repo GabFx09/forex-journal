@@ -1,5 +1,5 @@
 {
-  "generated": "22 Jun 2026 07:02 WIB",
+  "generated": "22 Jun 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-06-21",
@@ -8,7 +8,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "1-y Loan Prime Rate",
-      "actual": "",
+      "actual": "3.00%",
       "forecast": "3.00%",
       "previous": "3.00%"
     },
@@ -19,7 +19,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "5-y Loan Prime Rate",
-      "actual": "",
+      "actual": "3.50%",
       "forecast": "3.50%",
       "previous": "3.50%"
     },
@@ -30,20 +30,9 @@
       "currency": "NZD",
       "impact": "low",
       "event": "Credit Card Spending y/y",
-      "actual": "",
+      "actual": "5.1%",
       "forecast": "",
-      "previous": "2.9%"
-    },
-    {
-      "date": "2026-06-21",
-      "day": "Minggu",
-      "time_wib": "09:00",
-      "currency": "CNY",
-      "impact": "low",
-      "event": "Foreign Direct Investment ytd/y",
-      "actual": "",
-      "forecast": "",
-      "previous": "-10.3%"
+      "previous": "3.1%"
     },
     {
       "date": "2026-06-22",
@@ -63,7 +52,7 @@
       "currency": "CAD",
       "impact": "high",
       "event": "CPI m/m",
-      "actual": "",
+      "actual": "1.0%",
       "forecast": "0.7%",
       "previous": "0.4%"
     },
@@ -74,7 +63,7 @@
       "currency": "CAD",
       "impact": "high",
       "event": "Median CPI y/y",
-      "actual": "",
+      "actual": "2.1%",
       "forecast": "2.1%",
       "previous": "2.1%"
     },
@@ -85,7 +74,7 @@
       "currency": "CAD",
       "impact": "high",
       "event": "Trimmed CPI y/y",
-      "actual": "",
+      "actual": "2.0%",
       "forecast": "2.0%",
       "previous": "2.0%"
     },
@@ -96,7 +85,7 @@
       "currency": "CAD",
       "impact": "medium",
       "event": "Common CPI y/y",
-      "actual": "",
+      "actual": "2.7%",
       "forecast": "2.5%",
       "previous": "2.5%"
     },
@@ -107,14 +96,14 @@
       "currency": "CAD",
       "impact": "low",
       "event": "Core CPI m/m",
-      "actual": "",
+      "actual": "0.6%",
       "forecast": "",
       "previous": "0.2%"
     },
     {
       "date": "2026-06-22",
       "day": "Senin",
-      "time_wib": "15:00",
+      "time_wib": "17:00",
       "currency": "EUR",
       "impact": "medium",
       "event": "ECB President Lagarde Speaks",
@@ -125,7 +114,7 @@
     {
       "date": "2026-06-22",
       "day": "Senin",
-      "time_wib": "17:00",
+      "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Waller Speaks",
@@ -136,13 +125,24 @@
     {
       "date": "2026-06-22",
       "day": "Senin",
-      "time_wib": "18:00",
+      "time_wib": "18:04",
       "currency": "EUR",
       "impact": "low",
       "event": "Consumer Confidence",
-      "actual": "",
+      "actual": "-18",
       "forecast": "-18",
       "previous": "-19"
+    },
+    {
+      "date": "2026-06-22",
+      "day": "Senin",
+      "time_wib": "19:25",
+      "currency": "EUR",
+      "impact": "medium",
+      "event": "ECB President Lagarde Speaks",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
     },
     {
       "date": "2026-06-22",
@@ -187,6 +187,17 @@
       "actual": "",
       "forecast": "1.5%",
       "previous": "1.4%"
+    },
+    {
+      "date": "2026-06-22",
+      "day": "Senin",
+      "time_wib": "09:00",
+      "currency": "CNY",
+      "impact": "low",
+      "event": "Foreign Direct Investment ytd/y",
+      "actual": "",
+      "forecast": "",
+      "previous": "-10.3%"
     },
     {
       "date": "2026-06-23",
