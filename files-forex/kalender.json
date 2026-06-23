@@ -1,5 +1,5 @@
 {
-  "generated": "23 Jun 2026 07:02 WIB",
+  "generated": "23 Jun 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-06-21",
@@ -195,7 +195,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "54.9",
       "forecast": "54.5",
       "previous": "54.5"
     },
@@ -206,7 +206,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "BOJ Core CPI y/y",
-      "actual": "",
+      "actual": "1.4%",
       "forecast": "1.5%",
       "previous": "1.4%"
     },
@@ -217,7 +217,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "French Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "50.7",
       "forecast": "50.2",
       "previous": "49.7"
     },
@@ -228,7 +228,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "French Flash Services PMI",
-      "actual": "",
+      "actual": "47.4",
       "forecast": "45.9",
       "previous": "44.3"
     },
@@ -239,7 +239,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "German Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "50.0",
       "forecast": "50.3",
       "previous": "50.1"
     },
@@ -250,7 +250,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "German Flash Services PMI",
-      "actual": "",
+      "actual": "46.8",
       "forecast": "49.0",
       "previous": "48.1"
     },
@@ -261,7 +261,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "51.3",
       "forecast": "51.6",
       "previous": "51.6"
     },
@@ -272,7 +272,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Services PMI",
-      "actual": "",
+      "actual": "48.9",
       "forecast": "48.6",
       "previous": "47.7"
     },
@@ -283,7 +283,7 @@
       "currency": "GBP",
       "impact": "medium",
       "event": "Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "53.1",
       "forecast": "53.5",
       "previous": "53.9"
     },
@@ -294,7 +294,7 @@
       "currency": "GBP",
       "impact": "medium",
       "event": "Flash Services PMI",
-      "actual": "",
+      "actual": "48.7",
       "forecast": "50.1",
       "previous": "49.3"
     },
@@ -316,7 +316,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "CBI Industrial Order Expectations",
-      "actual": "",
+      "actual": "-45",
       "forecast": "-33",
       "previous": "-41"
     },
@@ -327,9 +327,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "ADP Weekly Employment Change",
-      "actual": "",
+      "actual": "30.8K",
       "forecast": "",
-      "previous": "25.5K"
+      "previous": "26.5K"
     },
     {
       "date": "2026-06-23",
@@ -360,7 +360,7 @@
       "currency": "USD",
       "impact": "medium",
       "event": "Flash Manufacturing PMI",
-      "actual": "",
+      "actual": "55.7",
       "forecast": "54.6",
       "previous": "55.1"
     },
@@ -371,7 +371,7 @@
       "currency": "USD",
       "impact": "medium",
       "event": "Flash Services PMI",
-      "actual": "",
+      "actual": "51.3",
       "forecast": "51.1",
       "previous": "50.7"
     },
@@ -382,7 +382,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Richmond Manufacturing Index",
-      "actual": "",
+      "actual": "4",
       "forecast": "8",
       "previous": "13"
     },
@@ -603,7 +603,7 @@
       "impact": "low",
       "event": "Crude Oil Inventories",
       "actual": "",
-      "forecast": "-5.1M",
+      "forecast": "-3.3M",
       "previous": "-8.3M"
     },
     {
@@ -642,7 +642,7 @@
     {
       "date": "2026-06-24",
       "day": "Rabu",
-      "time_wib": "03:30",
+      "time_wib": "03:00",
       "currency": "USD",
       "impact": "low",
       "event": "Bank Stress Test Results",

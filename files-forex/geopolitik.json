@@ -1,318 +1,228 @@
 {
-  "generated": "23 Jun 2026 07:02 WIB",
+  "generated": "23 Jun 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.329,
-      "count": 21
+      "pair": "USD/JPY",
+      "direction": "Netral →",
+      "score": 0.043,
+      "count": 13
     },
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.349,
-      "count": 20
+      "pair": "XAU/USD",
+      "direction": "Netral →",
+      "score": 0.043,
+      "count": 13
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.363,
-      "count": 19
+      "direction": "Netral →",
+      "score": -0.026,
+      "count": 9
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.414,
-      "count": 2
+      "direction": "Tekanan Naik ▲",
+      "score": 0.216,
+      "count": 4
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Naik ▲",
-      "score": 1.0,
-      "count": 1
+      "score": 0.128,
+      "count": 2
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Naik ▲",
-      "score": 1.0,
+      "score": 0.128,
+      "count": 2
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.296,
       "count": 1
     },
     {
       "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.907,
-      "count": 1
-    },
-    {
-      "pair": "GBP/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.08,
+      "score": 0.462,
       "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Aktivitas bisnis Australia stabil di bulan Juni tetapi pesanan baru terus menurun, kata S&P Global",
-      "url": "https://investinglive.com/news/australian-business-activity-steadies-in-june-but-new-orders-keep-falling-sp-global-says-20260622/",
-      "summary": "The near-stabilisation of the composite at 49.8 is unlikely to shift RBA expectations materially on its own, but the confidence reading is a red flag: sentiment at its weakest since the pandemic outside of March 2020 suggests the private sector is bracing for deterioration rather than recovery, whic",
-      "published": "23 Jun 2026 06:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.386,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Tekanan likuiditas, bukan kenaikan suku bunga, adalah ancaman jangka pendek terhadap saham, kata Morgan Stanley",
-      "url": "https://investinglive.com/stock-market-update/liquidity-squeeze-not-rate-hikes-is-the-near-term-threat-to-stocks-says-morgan-stanley-20260622/",
-      "summary": "Wilson's liquidity warning is the most actionable element for traders: with the Reserve Management Program down roughly 75% from its peak and Treasury buybacks cut by half, the balance sheet tailwind that supported equities through much of the cycle is fading fast. Accelerating lending growth compou",
-      "published": "23 Jun 2026 05:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.322,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Danske Bank melihat harga Brent pada $80 tahun ini, mengesampingkan kemungkinan kembali ke posisi terendah sebelum perang",
-      "url": "https://investinglive.com/commodities/danske-bank-sees-brent-at-80-this-year-rules-out-return-to-pre-war-lows-20260622/",
-      "summary": "Danske's floor call is the most market-relevant element here: by explicitly ruling out a return to the $60-$70 pre-war range, the bank is signalling that the structural supply backdrop has been permanently repriced even as the immediate crisis abates. That has implications for energy equity valuatio",
-      "published": "23 Jun 2026 05:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.746,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Kesaksian pertama Warsh tentang Humphrey-Hawkins akan menguji tekadnya mengenai inflasi dengan anggota parlemen",
-      "url": "https://investinglive.com/centralbank/warshs-first-humphrey-hawkins-testimony-will-test-his-inflation-resolve-with-lawmakers-20260622/",
-      "summary": "Treasury yields will be sensitive to any signal from Warsh on the rate path, particularly given that nine FOMC members already penciled in higher rates at his first meeting. Traders will be watching closely for any shift in his balance-sheet language, since his stated desire to shrink the Fed's hold",
-      "published": "23 Jun 2026 03:58 WIB",
+      "title": "Trump: Saya setuju untuk membiarkan Selat Hormuz tetap TERBUKA, tanpa Blokade Laut lebih lanjut",
+      "url": "https://investinglive.com/news/trump-i-agreed-to-allow-the-hormuz-strait-to-remain-open-with-no-further-naval-blockade-20260623/",
+      "summary": "Trump on Truth Social: \"Despite their protestations and false statements to the contrary, coupled with the drumbeat of the Fake News, which is doing everything possible to make the U.S. Victory as small and insignificant as possible, Iran has fully and completely agreed to highest level Nuclear insp",
+      "published": "23 Jun 2026 18:40 WIB",
       "sentiment": "Bullish",
-      "score": 0.818,
+      "score": 0.361,
       "emoji": "🟢"
     },
     {
       "source": "FXStreet News",
-      "title": "Dolar Selandia Baru melemah karena gencatan senjata Iran gagal",
-      "url": "https://www.fxstreet.com/news/new-zealand-dollar-grinds-lower-as-the-iran-truce-frays-202606222147",
-      "summary": "The New Zealand Dollar closed lower for a fourth consecutive session on Monday, drifting toward the 0.5700 handle as a firmer US Dollar and souring risk sentiment did the damage.",
-      "published": "23 Jun 2026 04:47 WIB",
+      "title": "Minyak: Pengabaian sanksi menekan harga – ING",
+      "url": "https://www.fxstreet.com/news/oil-sanctions-waiver-pressures-prices-ing-202606231330",
+      "summary": "ING analysts Warren Patterson and Ewa Manthey say Oil prices fell sharply after the US granted a 60-day waiver allowing Iranian exports, adding to pressure from rising flows through the Strait of Hormuz.",
+      "published": "23 Jun 2026 20:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.987,
+      "score": -0.521,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "Trump dan Iran tidak dapat menyetujui apa yang baru saja mereka tandatangani",
-      "url": "https://www.fxstreet.com/news/trump-and-iran-cannot-agree-on-what-they-just-signed-202606222123",
-      "summary": "The 60-day framework that Trump and Iran's president signed at Versailles on June 17 was meant to wind the war down and reopen the Strait of Hormuz. A week on, the two capitals cannot agree on what the document actually says.",
-      "published": "23 Jun 2026 04:23 WIB",
+      "title": "Fed: Era Perang Membuat Pasar Bertebak-tebakan – NBC",
+      "url": "https://www.fxstreet.com/news/fed-warsh-era-keeps-markets-guessing-nbc-202606231258",
+      "summary": "National Bank of Canada (NBC) Economics and Strategy team, led by Taylor Schleich, Ethan Currie and Vy Le, argues that Kevin Warsh’s Federal Reserve (Fed) is deliberately increasing policy ambiguity by stripping out forward guidance.",
+      "published": "23 Jun 2026 19:58 WIB",
       "sentiment": "Bearish",
-      "score": -0.877,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Forex Hari Ini: Dolar AS melonjak mendekati level tertinggi baru-baru ini karena pasar mengamati inflasi PCE dan Timur Tengah",
-      "url": "https://www.fxstreet.com/news/forex-today-us-dollar-surges-near-recent-highs-as-markets-watch-pce-inflation-and-middle-east-202606222103",
-      "summary": "The US Dollar (USD) traded near the 101.00 level on a positive note on Monday, near the 13-month high of 101.13 reached on Friday, as investors balanced softer Oil prices, renewed hopes for peace between the United States (US) and Iran, and expectations that the Federal Reserve (Fed) could remain re",
-      "published": "23 Jun 2026 04:03 WIB",
-      "sentiment": "Bullish",
-      "score": 1.0,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pengabaian Minyak Iran Menawarkan Bantuan bagi Teheran saat Pembicaraan Berlanjut",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/iran-war-vance-hails-good-day-of-talks-as-us-waives-oil-sanctions",
-      "summary": "The US issued a 60-day license allowing Iran to sell oil on the international market, giving Tehran an economic lifeline as the two adversaries continued talks for a permanent peace deal.",
-      "published": "22 Jun 2026 21:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.679,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pedagang Valas Ritel Jepang Bertaruh Pemerintah Mereka Dapat Menopang Yen",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/japan-s-retail-fx-traders-bet-their-government-can-prop-up-yen",
-      "summary": "Japan’s army of retail currency traders have heeded their government’s warning and stopped betting on the yen to decline, putting them at odds with professional investors positioning for further weakness.",
-      "published": "23 Jun 2026 06:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.967,
+      "score": -0.542,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Asia Siap Menguat karena Minyak Tetap Stabil: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/asian-stocks-set-for-gains-as-oil-holds-losses-markets-wrap",
-      "summary": "Asian stocks were set for a positive open as oil largely held Monday’s losses, with investors continuing to watch developments in US-Iran peace talks.",
-      "published": "23 Jun 2026 05:09 WIB",
-      "sentiment": "Bullish",
-      "score": 0.832,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Emas Stabil seiring AS dan Iran Menandai Kemajuan Awal dalam Pembicaraan Damai",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/gold-steadies-as-us-and-iran-flag-early-progress-in-peace-talks",
-      "summary": "Gold steadied after the US and Iran flagged early progress in negotiations to end the war that’s upended global markets and stoked inflation.",
-      "published": "23 Jun 2026 06:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.557,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asap Kebakaran Gudang Los Angeles Mencekik California Selatan untuk Hari Kelima",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/los-angeles-warehouse-fire-casts-gotham-city-shadow-above-city",
-      "summary": "A fire at a cold storage warehouse near downtown Los Angeles continued pumping fumes across Southern California five days after it ignited, prompting emergency declarations as air quality reached unhealthy levels.",
-      "published": "22 Jun 2026 23:43 WIB",
+      "title": "Macklem Memperingatkan Investasi Berlebihan di AS Menimbulkan Risiko Finansial",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-23/macklem-warns-over-investment-in-us-poses-global-financial-risks",
+      "summary": "The Bank of Canada’s top official is warning that over-investment in the US is creating broader correction risks for the global financial system.",
+      "published": "23 Jun 2026 20:25 WIB",
       "sentiment": "Bearish",
-      "score": -0.99,
+      "score": -0.619,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Minyak Naik Tipis seiring Para Pedagang Mempertimbangkan Prospek Pembicaraan AS-Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/latest-oil-market-news-and-analysis-for-july-23",
-      "summary": "Oil edged higher after falling almost 3% in the previous session following early progress in peace talks over the Iran war, which included a US waiver allowing some sales from the Islamic Republic.",
-      "published": "23 Jun 2026 05:02 WIB",
-      "sentiment": "Netral",
-      "score": 0.042,
-      "emoji": "⚪"
+      "title": "Fed baru dari Kevin Warsh",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-23/la-nueva-fed-de-kevin-warsh-video",
+      "summary": "Kevin Warsh superó su primer gran examen al frente de la Reserva Federal. La Fed mantuvo las tasas sin cambios, pero los mercados reforzaron las apuestas a una posible subida en octubre. Mientras tanto, Warsh ya comenzó a introducir cambios dentro del banco central. (Source: Bloomberg)",
+      "published": "23 Jun 2026 21:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pasokan Listrik Musim Dingin Inggris Aman Meskipun Ada Gangguan di Iran, Kata Neso",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/uk-winter-power-supply-secure-despite-iran-disruption-says-neso",
-      "summary": "The UK will have secure power supplies this winter despite the disruption to energy markets from the Iran war, according to the National Energy System Operator.",
-      "published": "23 Jun 2026 06:01 WIB",
+      "title": "Krisis Bensin Rusia Meluas ke Berbagai Negara Setelah Serangan Kilang",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-23/russia-s-gasoline-crunch-spans-country-after-refinery-attacks",
+      "summary": "Russia’s gasoline crunch is worsening, with at least two-thirds of the country’s regions introducing fuel rationing or suffering supply disruptions following relentless Ukrainian drone attacks on refineries.",
+      "published": "23 Jun 2026 21:22 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Keuntungan Bahan Bakar Pemilik Circle K Melonjak Meski Permintaan Lemah di Eropa",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-23/circle-k-owner-couche-tard-s-atd-gasoline-profits-surge-despite-drop-in-demand",
+      "summary": "Gas station and convenience store operator Alimentation Couche-Tard Inc. saw big gains in fuel margins after the war in the Middle East caused prices to spike. The company easily beat analysts’ estimates for sales and earnings, propelling shares to a record high.",
+      "published": "23 Jun 2026 09:41 WIB",
       "sentiment": "Bullish",
-      "score": 0.665,
+      "score": 0.777,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pabrik Penyulingan AS Mendapat Kesempatan Langka untuk Membeli Minyak Mentah Iran Lagi",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/easing-of-us-oil-sanctions-opens-brief-window-for-iran-imports",
-      "summary": "The Trump administration has temporarily eased some sanctions on Iranian oil, pausing hostilities that have defined US-Iran relations since the 1979 hostage crisis.",
-      "published": "23 Jun 2026 00:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.907,
-      "emoji": "🔴"
+      "title": "AS Membiarkan Iran Menjual Minyak Lagi sebagai Bagian dari Kesepakatan untuk Mengakhiri Perang",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-23/us-lets-iran-sell-oil-again-as-part-of-deal-to-end-war-video",
+      "summary": "The US is letting Iran sell oil and fuels again as part of an agreement reached to try and end the war. Amos Hochstein, TWG Global managing partner and former to energy advisor to President Joe Biden, says President Donald Trump has given Iran a political win. He speaks on \"Bloomberg Surveillance.\" ",
+      "published": "23 Jun 2026 20:39 WIB",
+      "sentiment": "Bullish",
+      "score": 0.338,
+      "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Vimeo Parent Bending Spoons, Pendukung Mencari $1,62 Miliar dalam IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/vimeo-parent-bending-spoons-backers-seek-1-62-billion-in-ipo",
-      "summary": "Bending Spoons SpA, which acquires struggling software businesses, and some of its backers are seeking to raise as much as $1.62 billion in an initial public offering.",
-      "published": "23 Jun 2026 04:40 WIB",
+      "title": "Sebelumnya Merencanakan Pendekatan Hands-Off dalam Pemilihan Pimpinan Vale",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-22/previ-plans-hands-off-approach-to-future-vale-chairperson-picks",
+      "summary": "Brazil’s largest pension fund will no longer seek to control selection of Vale SA’s chairperson and wants the iron ore miner to be overseen by an independent board leader.",
+      "published": "23 Jun 2026 06:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.501,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Meksiko Mengumpulkan Obligasi Baru senilai $6,3 Miliar untuk Mendanai Pembelian Kembali",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/mexico-is-tapping-global-debt-markets-to-fund-bond-buyback",
-      "summary": "Mexico raised $6.3 billion in bonds to fund a buyback of its existing debt as credit-rating firms warn over the nation’s widening fiscal deficit, raising concerns over its investment-grade status.",
-      "published": "22 Jun 2026 19:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.761,
+      "score": -0.296,
       "emoji": "🔴"
     },
     {
       "source": "Google News Geopolitik",
       "title": "Kenaikan Sterling Dibatasi Karena Risiko Geopolitik dan Politik Inggris Mendukung Dolar, Membebani GBP/USD - VT Markets",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPa09DbktYek5VMkxlUVM5ZldMV3F0SWZqRGRuQkRTOHBndm1NRkd6ejllSE92Y1NVcktybGx2RklkZGh6SnV3WWZ3dUwtTEdxdmg1c01ld0U0Zjc3clE5VVhxUVBSdTAtMjZMZGFjSkdnUXRiSEpNQW9GYU9pZW5IaEU1UTJpYlBLU1prc1ZDVjRsVFBhMmFIeUZhX082cUpTR1FUNUYzU1VjRHNBSkpkR091SWRGcWVaZmVDRTMyb0VDcnd3QnRkUmFWWmFBTEU1MGFR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZTFSa0sxa1M4elhCeUphUFVQVmRkbk8wd3ZtN1E3bnUwRmVoajhZdUVfSHNLR3Rid0F4OVRGZDFWaEFpSmdvbl9iZzRNbnpGZi1fZzdKM0pDU0NJUTJReU40VF9MTUpxM1lEVVNNLUVJa1Mxc3prUFhuaTNRdkRjMDRyVllpb3o4TldzRWExOHR0aHpfbW55Yndfbng4eGhCNklqajhUTS0xVHNBTFdtSVByUm9MOTljRGhsamx6LVhPa29jckVqN2pBcmNqUFFEZ1JWSFlsaVlXdw?oc=5",
       "summary": "Sterling Upside Capped as Geopolitical Risk and UK Politics Bolster Dollar, Weighing on GBP/USD VT Markets",
-      "published": "22 Jun 2026 22:25 WIB",
+      "published": "23 Jun 2026 09:54 WIB",
       "sentiment": "Bearish",
       "score": -0.353,
       "emoji": "🔴"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Gencatan Senjata, Inflasi, Pemilu: 5 tema yang mendorong pasar global minggu ini - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNU3BVa25kbk5ZWFhTZ0tQSXk1NEt5TmNsMkNpUjdKSWh3bGktOXh3NU5IaEU1TmFKajlFbGxzRUVKcFJJcUdmc0ZueTF5TTBwcm1NMlh2S0NubTBmZ0MxcXBjWkhQU2xWZDdQVTAxWldscmJ4OWpJb3ZHQ0hTa2NOQVJaazNZRUpqTmJfazR6LU9jdUpzVFZteWFDcmNsWFBzVmRzLUNqMDQ5Sk9JMFpKYWViYjNER3JTSVotcGk3WjA5ZlBBVTMzazR5ZE9xMjdzTXJOT1ZVZEVCc1cweWo1aDl3LXdVbk4ydnNQaTRuMGxaeHB0WDZfdHVQbks3eVg3WXBENnRXZGIxbEN6Vm8zMUxqVzBaUVh3Mk9J?oc=5",
-      "summary": "Ceasefire, Inflation, Elections: 5 themes driving global markets this week The Economic Times",
-      "published": "22 Jun 2026 13:28 WIB",
+      "source": "BBC World",
+      "title": "Iran mengatakan tidak ada komitmen baru mengenai situs nuklir setelah Vance mengatakan para pemeriksa akan diundang kembali",
+      "url": "https://www.bbc.co.uk/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Iran's foreign ministry says it made \"no new commitments\" on nuclear inspections after talks in Switzerland.",
+      "published": "23 Jun 2026 19:14 WIB",
+      "sentiment": "Bearish",
+      "score": -0.266,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Tembakan Israel Tewaskan Dua Orang di Lebanon Saat Hizbullah Kecam ‘Pelanggaran’ Gencatan Senjata",
+      "url": "https://www.aljazeera.com/news/2026/6/23/israeli-fire-kills-two-in-lebanon-as-hezbollah-slams-truce-violation?traffic_source=rss",
+      "summary": "Lebanese armed group Hezbollah denounced the 'treacherous attack', saying it was a 'blatant' violation of the truce.",
+      "published": "23 Jun 2026 19:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.984,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Perekonomian mendapat dorongan dari Piala Dunia dan perundingan damai dengan Iran, namun hal ini belum melewati titik bahaya",
+      "url": "https://www.marketwatch.com/story/economy-gets-boost-from-world-cup-and-peace-talks-with-iran-but-its-not-past-the-danger-point-0ad146b8?mod=mw_rss_topstories",
+      "summary": "The U.S. economy got some relief in June from declining oil prices and the start of the 2026 World Cup, but it’s still feeling the strain from the conflict with Iran.",
+      "published": "23 Jun 2026 21:17 WIB",
       "sentiment": "Bullish",
-      "score": 0.08,
+      "score": 0.776,
       "emoji": "🟢"
     },
     {
-      "source": "BBC World",
-      "title": "AS meringankan sanksi minyak karena Iran menyangkal klaim Vance mengenai pengawas nuklir",
-      "url": "https://www.bbc.com/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran's foreign ministry says it made \"no new commitments\" on nuclear inspections after talks in Switzerland.",
-      "published": "23 Jun 2026 06:07 WIB",
+      "source": "MarketWatch",
+      "title": "Asumsi investor mengenai perdagangan AI mulai melampaui kenyataan, kata Goldman Sachs",
+      "url": "https://www.marketwatch.com/story/investor-assumptions-about-the-ai-trade-are-starting-to-stretch-reality-goldman-sachs-says-0f39d408?mod=mw_rss_topstories",
+      "summary": "Investors may be racing ahead of what the AI trade can deliver, warns Goldman Sachs.",
+      "published": "23 Jun 2026 20:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.183,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Permasalahan AS yang mencakup keringanan sanksi minyak terhadap Iran, memberikan pendapatan miliaran dolar bagi Teheran",
+      "url": "https://www.cnbc.com/2026/06/23/us-iran-oil-sanction-relief-strait-of-hormuz-peace-deal-.html",
+      "summary": "The U.S. issued a sweeping rollback of sanctions on Iranian oil, offering Tehran an economic lifeline as negotiations toward a peace deal proceed.",
+      "published": "23 Jun 2026 21:56 WIB",
+      "sentiment": "Bullish",
+      "score": 0.462,
+      "emoji": "🟢"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Harga minyak lebih rendah karena pasar memantau lalu lintas kapal tanker melalui Selat Hormuz",
+      "url": "https://www.cnbc.com/2026/06/23/oil-prices-rise-as-investors-mull-middle-east-developments-.html",
+      "summary": "Oil falls Tuesday as investors continue to assess the latest developments in the Middle East, while showing optimism the conflict may end soon.",
+      "published": "23 Jun 2026 19:53 WIB",
       "sentiment": "Bearish",
       "score": -0.08,
       "emoji": "🔴"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Apa yang Trump inginkan dari perdana menteri baru Inggris?",
-      "url": "https://www.bbc.com/news/videos/c2kyz2eqxwvo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president was once considered to have a close friendship with Keir Starmer, but that quickly fell apart with the war in Iran.",
-      "published": "23 Jun 2026 04:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.723,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Inggris mencatat rekor hari terpanas di bulan Juni karena panas terik terus berlanjut",
-      "url": "https://www.bbc.com/weather/articles/c0myl4d3l0no?at_medium=RSS&at_campaign=rss",
-      "summary": "Heatwave conditions intensify across parts of England and Wales as the Met Office issues a rare red warning for extreme heat.",
-      "published": "23 Jun 2026 06:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.42,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Pria yang didakwa melakukan percobaan pembunuhan terkait terorisme setelah dugaan serangan anti-Muslim di Edinburgh",
-      "url": "https://www.bbc.com/news/articles/cx2x9j1en29o?at_medium=RSS&at_campaign=rss",
-      "summary": "Lewis Hawkes appeared at Edinburgh Sheriff Court following alleged anti-Muslim attacks in the city on Friday evening.",
-      "published": "23 Jun 2026 01:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.971,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Kekhawatiran 1.000 veteran LGBT akan melewatkan batas waktu kompensasi larangan gay",
-      "url": "https://www.bbc.com/news/articles/cvg74x2jv98o?at_medium=RSS&at_campaign=rss",
-      "summary": "Charities are urging any veterans who haven't yet registered for the scheme to come forward.",
-      "published": "23 Jun 2026 06:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.746,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Peselancar Gaza mencari hiburan dari perang di laut",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/22/gaza-surfers-seek-solace-from-war-in-the-sea?traffic_source=rss",
-      "summary": "Gaza’s surf community was nearly wiped out by Israel’s genocidal war. But some surfers continue to chase the waves.",
-      "published": "23 Jun 2026 06:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴"
-    },
-    {
       "source": "CNBC World",
-      "title": "Departemen Keuangan mengizinkan penjualan minyak Iran hingga Agustus",
-      "url": "https://www.cnbc.com/2026/06/22/treasury-iran-oil-sales.html",
-      "summary": "Iranian supertankers have switched on their transponders, after going dark during the war, as they depart the Persian Gulf loaded with oil.",
-      "published": "23 Jun 2026 00:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.557,
-      "emoji": "🔴"
+      "title": "Meta mengumumkan kacamata pintar baru mulai dari $299, seiring Zuckerberg terus mendorong perangkat yang dapat dikenakan",
+      "url": "https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html",
+      "summary": "Meta executives have said they see the lightweight smart glasses as a step towards a more advanced device that includes screens in the lenses.",
+      "published": "23 Jun 2026 20:23 WIB",
+      "sentiment": "Bullish",
+      "score": 0.691,
+      "emoji": "🟢"
     }
   ]
 }
