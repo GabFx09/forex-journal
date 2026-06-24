@@ -1,5 +1,5 @@
 {
-  "generated": "23 Jun 2026 22:02 WIB",
+  "generated": "24 Jun 2026 07:02 WIB",
   "events": [
     {
       "date": "2026-06-21",
@@ -400,6 +400,17 @@
     {
       "date": "2026-06-23",
       "day": "Selasa",
+      "time_wib": "01:05",
+      "currency": "USD",
+      "impact": "medium",
+      "event": "President Trump Speaks",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "2026-06-23",
+      "day": "Selasa",
       "time_wib": "03:30",
       "currency": "USD",
       "impact": "low",
@@ -426,9 +437,9 @@
       "currency": "JPY",
       "impact": "low",
       "event": "SPPI y/y",
-      "actual": "",
+      "actual": "3.3%",
       "forecast": "3.3%",
-      "previous": "3.0%"
+      "previous": "3.3%"
     },
     {
       "date": "2026-06-23",
@@ -559,7 +570,7 @@
       "impact": "low",
       "event": "Current Account",
       "actual": "",
-      "forecast": "-206B",
+      "forecast": "-212B",
       "previous": "-191B"
     },
     {
@@ -603,7 +614,7 @@
       "impact": "low",
       "event": "Crude Oil Inventories",
       "actual": "",
-      "forecast": "-3.3M",
+      "forecast": "-3.9M",
       "previous": "-8.3M"
     },
     {
