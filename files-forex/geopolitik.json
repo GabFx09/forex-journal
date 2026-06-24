@@ -1,5 +1,5 @@
 {
-  "generated": "24 Jun 2026 07:02 WIB",
+  "generated": "24 Jun 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,241 +7,215 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.292,
-      "count": 22
+      "score": -0.249,
+      "count": 18
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.233,
-      "count": 20
+      "score": -0.307,
+      "count": 17
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.208,
-      "count": 17
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.474,
-      "count": 5
+      "score": -0.252,
+      "count": 14
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.421,
-      "count": 2
+      "score": -0.706,
+      "count": 4
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.421,
-      "count": 2
+      "score": -0.706,
+      "count": 4
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.104,
+      "count": 3
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.269,
-      "count": 2
-    },
-    {
-      "pair": "EUR",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.168,
+      "score": -0.08,
       "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Badan pelayaran PBB mulai mengevakuasi ratusan kapal yang terdampar di Teluk melalui Hormuz",
-      "url": "https://investinglive.com/commodities/un-shipping-agency-begins-evacuating-hundreds-of-ships-stranded-in-gulf-via-hormuz-20260623/",
-      "summary": "The start of the Hormuz evacuation is a concrete operational step forward and will be read by oil markets as confirmation that the ceasefire is holding well enough for multilateral maritime coordination to proceed. However, the phased and individually managed nature of the evacuation, combined with ",
-      "published": "24 Jun 2026 05:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.077,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Kongres memberikan teguran kepada kekuatan perang yang bersejarah namun ompong atas konflik Iran",
-      "url": "https://investinglive.com/commodities/congress-delivers-historic-but-toothless-war-powers-rebuke-over-iran-conflict-20260623/",
-      "summary": "For oil markets, the vote is noise rather than signal. The White House has already declared the resolution unconstitutional and non-binding, and with a ceasefire and memorandum of understanding already in place, the immediate operational picture for Hormuz and Iranian supply is unchanged. The more r",
-      "published": "24 Jun 2026 04:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.937,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "investBerita Live Americas FX selesai 23 Juni: Saham-saham anjlok karena USD terus menguat. Minyak lebih rendah.",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-23-jun-stocks-tumble-as-usd-extends-gain-oil-lower-20260623/",
-      "summary": "Gold retests the 38.2% retracement and swing area McDonald's is now worth 160x rival Wendy's Crude oil futures settled below the 200 day moving average US treasury so $69 billion of two-year notes at a high yield of 4.189% U.S. Secretary of State Rubio: We're going to deal directly with the Lebanese",
-      "published": "24 Jun 2026 03:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.17,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Minyak mentah berjangka menetap di bawah rata-rata pergerakan 200 hari",
-      "url": "https://investinglive.com/technical-analysis/crude-oil-futures-settled-below-the-200-day-moving-average-20260623/",
-      "summary": "The price of crude oil futures are settling had $73.21. That's down $0.65 or -0.88%. The settled price is below the 200 day moving average at $73.68. The last time the price closed below its 200 day moving average was back in late January. On increased momentum to the downside, the traders will be l",
-      "published": "24 Jun 2026 01:45 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Kanada jatuh seiring menguatnya USD, melemahnya harga minyak",
-      "url": "https://www.fxstreet.com/news/canadian-dollar-falls-as-usd-strength-oil-weakness-bite-202606232139",
-      "summary": "The Loonie registers losses of 0.40% on Tuesday as the US Dollar refreshes year-to-date (YTD) highs, while falling Oil prices weighed on the CAD, with USD/CAD trading above 1.4200 for the first time since April 2025.",
-      "published": "24 Jun 2026 04:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.671,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Harga emas merosot karena kekalahan AI memicu pelarian Dolar AS",
-      "url": "https://www.fxstreet.com/news/gold-price-slides-as-ai-rout-fuels-us-dollar-flight-202606231803",
-      "summary": "Gold (XAU/USD) price erases Monday’s gains, diving over 1.30% on Tuesday, pressured by broad US Dollar (USD) strength, driven by a hawkish Federal Reserve (Fed), as well as a risk-off mood that is driving flows toward the Greenback's safe-haven appeal.",
-      "published": "24 Jun 2026 01:03 WIB",
+      "title": "Layanan komunikasi melonjak: Sekilas tentang dinamika pasar saat ini",
+      "url": "https://investinglive.com/stock-market-update/communication-services-soar-a-glimpse-into-todays-market-dynamics-20260624/",
+      "summary": "Sector Overview The US stock market today shows a vibrant picture, with significant movements across various sectors. The communication services sector is leading the charge with robust gains, highlighted by Google (GOOGL) climbing up by an impressive 1.35%. This upward swing in communication servic",
+      "published": "24 Jun 2026 21:46 WIB",
       "sentiment": "Bullish",
-      "score": 0.727,
+      "score": 0.92,
       "emoji": "🟢"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dow Jones Industrial Average berwarna hijau secara default karena chip kawah",
-      "url": "https://www.fxstreet.com/news/dow-jones-industrial-average-green-by-default-as-chips-crater-202606231747",
-      "summary": "The Dow Jones Industrial Average (DJIA) held in the green through Tuesday even as the rest of the equity board bled. On the surface that reads as strength; underneath, it is anything but. The index held up for the least flattering reason on offer, namely its composition.",
-      "published": "24 Jun 2026 00:47 WIB",
+      "source": "ForexLive",
+      "title": "Persediaan minyak mentah mingguan EIA AS -6088 ribu vs perkiraan -4461 ribu",
+      "url": "https://investinglive.com/commodities/us-eia-weekly-crude-oil-inventories-6088k-vs-4461k-expected-20260624/",
+      "summary": "Prior was -8263 Gasoline +2064K vs -578K expected Distillates +3064K vs -505K expected The report isn't as bullish as the headline looks as product inventories grew almost as quickly as crude was drawn down. When you zoom out, there have been constant draws in US crude since April but that hasn't ma",
+      "published": "24 Jun 2026 21:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.168,
+      "score": -0.902,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Penjualan rumah baru AS bulan Mei 580 ribu vs perkiraan 639 ribu",
+      "url": "https://investinglive.com/news/us-may-new-home-sales-580k-vs-639k-expected-20260624/",
+      "summary": "SaPrior was 622K New home sales change -7.3% vs -6.2% prior Sales 6.8% below the May 2025 level of 622,000 This is a terrible report and this series has been cratering since October. It looks like the jump in borrowing rates around the war halted new home sales in a big way. That should reverse with",
+      "published": "24 Jun 2026 21:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.462,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Minyak di bawah $70 adalah salah satu pergerakan pasar yang paling membingungkan",
+      "url": "https://investinglive.com/commodities/the-fall-below-70-oil-is-one-of-the-most-confounding-market-moves-ever-20260624/",
+      "summary": "There is an entire class of people who spend their careers counting barrels of oil. Oftentimes they're compelling and they highlight unusual and seemingly meaningful flows. Then came the Iran war and closing of the Strait of Hormuz. By any measure, this was the biggest disruption in oil market histo",
+      "published": "24 Jun 2026 20:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Emas menembus $4000 untuk pertama kalinya sejak November",
+      "url": "https://investinglive.com/commodities/gold-breaks-4000-for-the-first-time-since-november-20260624/",
+      "summary": "Gold briefly fell below $4000 for the first time since November. The peak of the rally came just after the US launched a coup in Venezuela but the real breakdown came after the Iran war and Turkey's decision to sell $120 billion in reserves to shield its currency. The latest back-breaker was the sur",
+      "published": "24 Jun 2026 19:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.431,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Neraca berjalan AS Q1 -$226,8 vs perkiraan -$215 miliar",
+      "url": "https://investinglive.com/news/us-q1-current-account-2268-vs-215-billion-expected-20260624/",
+      "summary": "Prior was -$190.7 billion The US current account deficit widened to $226.8 billion in Q1, a $5.8 billion or 2.6% deterioration from the revised $221.1 billion in Q4. As a share of GDP it ticked up to 2.9% from 2.8%. The widening wasn't about trade. The goods deficit actually narrowed, and exports of",
+      "published": "24 Jun 2026 19:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.718,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "investasi Pasar Eropa yang hidup berakhir: Minyak terus turun, kontrak berjangka AS stabil menunggu Micron",
+      "url": "https://investinglive.com/news/investinglive-european-markets-wrap-oil-extends-fall-us-futures-steady-awaiting-micron-20260624/",
+      "summary": "Headlines: Trump reaffirms that no money has been given to Iran yet and Hormuz will be toll-free Pakistan says US-Iran technical talks to only resume next week Qatar says LNG production to resume within a few weeks, eyes Strait of Hormuz reopening Oil prices are almost back to pre-war levels amid Ho",
+      "published": "24 Jun 2026 19:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.466,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "Minyak WTI melemah karena risiko Timur Tengah yang lebih rendah dan pengembalian pasokan Iran membebani harga",
-      "url": "https://www.fxstreet.com/news/wti-oil-retreats-as-lower-middle-east-risk-iran-supply-return-weigh-on-prices-202606231619",
-      "summary": "West Texas Intermediate (WTI) US Oil declines by more than 1% on Tuesday and trades around $73.00 at the time of writing, pressured as traders continue to assess diplomatic developments between the United States (US) and Iran.",
-      "published": "23 Jun 2026 23:19 WIB",
+      "title": "Pound Inggris menawarkan lebih rendah terhadap Yen Jepang karena sikap BoJ yang hawkish yang mengangkat Yen",
+      "url": "https://www.fxstreet.com/news/british-pound-trades-lower-against-japanese-yen-as-boj-hawkishness-lifts-the-yen-202606241402",
+      "summary": "GBP/JPY trades on the back foot on Wednesday as the Japanese Yen (JPY) outperforms its major peers following hawkish signals from the Bank of Japan (BoJ). At the time of writing, the cross is trading around 212.90, down 0.20%.",
+      "published": "24 Jun 2026 21:02 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Aluminium: Pandangan defisit utuh setelah aksi jual risk-off – ING",
+      "url": "https://www.fxstreet.com/news/aluminium-deficit-view-intact-after-risk-off-selloff-ing-202606241231",
+      "summary": "ING’s Warren Patterson and Ewa Manthey report that Aluminium led a broad metals sell-off triggered by a sharp global equity decline and a more hawkish Federal Reserve outlook.",
+      "published": "24 Jun 2026 19:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.5,
+      "score": -0.386,
       "emoji": "🔴"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "SpaceX meluncurkan penawaran obligasi senilai $25 miliar untuk pembayaran utang dan perluasan AI",
-      "url": "https://www.investing.com/news/stock-market-news/spacex-launches-25-billion-notes-offering-source-says-4756256",
-      "summary": "",
-      "published": "24 Jun 2026 05:30 WIB",
+      "source": "Reuters Currencies",
+      "title": "Regulator Inggris memberikan sanksi kepada auditor Aliansi GFG milik raja logam Sanjeev Gupta - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaDJNREVacjI4NTFwV0ZPaEhqQkp1UTliQ3djZjRKenBKbGRHM0lNdDBmUXFSMkdFaHM5aEM4LWllM0VuMGZWdGRSek44UVVPMlBPV3pSUFhxS01acWFLNXlRdjVzclFaWlFwVlNzRUl3ZVNEajdQVVdiUmtBQ0k0aUdSNWFnQ1ZPeFZTQUprdVJPQVhaSGJUUFliQXdIT2t2dkFJVjRQYUFmOHFzampuSGM5WDBjUzlPUkE?oc=5",
+      "summary": "UK regulator sanctions auditor of metals magnate Sanjeev Gupta's GFG Alliance Reuters",
+      "published": "24 Jun 2026 01:49 WIB",
       "sentiment": "Bearish",
-      "score": -0.281,
+      "score": -0.08,
       "emoji": "🔴"
+    },
+    {
+      "source": "Reuters Currencies",
+      "title": "AS mengumumkan pinjaman $17,5 miliar untuk rantai pasokan tenaga nuklir - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRzJFYVlTSjdwVkxQOVNjSmtIZmp6aDhGREt6NHNvSDh1cUV1NjdzMi0xRm9vUE1IYS05SEgxUFhsM1dYWnVnQjBHN29mcUZJRE9xWjlpWmxBT2lIeTh6YVNCdDJuM3B6OEVjRGRRenVOMjlhMld3WkloTDl3ZjNHRVg5dGJtUVlKOHBUQVBmQ21vWTZPaFpxY3hnVDlvanNaU1kzS1pUMUVCSlY1?oc=5",
+      "summary": "US announces $17.5 billion in loans for nuclear power supply chain Reuters",
+      "published": "24 Jun 2026 02:51 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Inggris Mengeluarkan Peringatan Pasokan Energi karena Gelombang Panas Membebani Jaringan Listrik",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-23/uk-issues-energy-supply-warning-as-heat-wave-strains-power-grid",
-      "summary": "The UK’s grid operator issued a rare summer power supply warning for Wednesday evening as soaring temperatures put stress on the energy system.",
-      "published": "24 Jun 2026 06:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.761,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Xi Menekan Takaichi dengan Membatasi Ekspor Mineral Utama ke Jepang",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-23/xi-pressures-takaichi-by-throttling-key-mineral-exports-to-japan",
-      "summary": "China is choking shipments of some critical minerals to Japan, a slowdown that’s hurting companies and prompting calls for Prime Minister Sanae Takaichi to find a diplomatic off-ramp with Beijing.",
-      "published": "24 Jun 2026 06:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.852,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Minyak Menahan Penurunan karena Semakin Banyak Kapal Tanker Menyeberangi Hormuz Setelah Pembicaraan Damai",
+      "title": "WTI Jatuh Di Bawah $70 karena Semakin Banyak Kapal Melintasi Hormuz Setelah Pembicaraan Damai",
       "url": "https://www.bloomberg.com/news/articles/2026-06-23/latest-oil-market-news-and-analysis-for-june-24",
-      "summary": "Oil held declines as more tankers openly cross the Strait of Hormuz, with the US and Iran making progress toward ending the war.",
+      "summary": "Oil fell as more tankers cross the Strait of Hormuz and signs of progress in US-Iran peace talks eased fears of an immediate supply crunch.",
       "published": "24 Jun 2026 05:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.083,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Ekspor Minyak UEA Melonjak hingga 85% dari Tingkat Sebelum Perang, Kata IEA",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-23/uae-oil-exports-surge-to-85-of-pre-war-levels-iea-says",
-      "summary": "Oil exports from the United Arab Emirates in early June recovered to nearly 85% of the country’s pre-Iran war levels — rebounding even before Washington and Tehran inked an interim peace deal as the Gulf nation drew on pipelines, storage and alternate shipping routes, according to a report from the ",
-      "published": "24 Jun 2026 05:19 WIB",
       "sentiment": "Bullish",
-      "score": 0.622,
+      "score": 0.768,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Couche-Tard Mencapai Rekor karena Tingginya Harga Bahan Bakar Menghasilkan Keuntungan yang Melonjak",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-23/circle-k-owner-couche-tard-s-atd-gasoline-profits-surge-despite-drop-in-demand",
-      "summary": "Gas station and convenience store operator Alimentation Couche-Tard Inc. saw big gains in fuel margins after the war in the Middle East caused prices to spike. The shares hit a record.",
-      "published": "23 Jun 2026 09:41 WIB",
+      "title": "Qualcomm Akan Membeli Modular seharga $3,9 Miliar untuk Membantu Mendorong AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-24/qualcomm-confirms-buying-modular-to-help-ai-market-push",
+      "summary": "Qualcomm Inc. said it is acquiring Modular Inc., for about $3.9 billion in stock, adding artificial intelligence software capabilities that will aid its push into data centers.",
+      "published": "24 Jun 2026 19:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.586,
+      "score": 0.62,
       "emoji": "🟢"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Perusahaan Asuransi Kapal Ditetapkan untuk Klaim Besar Dari Perang Iran, Kata Allianz",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-23/ship-insurers-set-for-major-claims-from-iran-war-allianz-says",
-      "summary": "The insurance industry is set to face significant claims for ships that were damaged during the Iran war, according to Allianz SE.",
-      "published": "24 Jun 2026 05:01 WIB",
+      "source": "BBC World",
+      "title": "Sapu bersih kandidat yang didukung Mamdani dalam pemilihan pendahuluan Partai Demokrat di New York",
+      "url": "https://www.bbc.co.uk/news/articles/clye652m41po?at_medium=RSS&at_campaign=rss",
+      "summary": "Brad Lander unseats Dan Goldman in a race that laid bare the city's divisions over the Israel-Gaza war.",
+      "published": "24 Jun 2026 20:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.952,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Kenaikan Sterling Dibatasi Karena Risiko Geopolitik dan Politik Inggris Mendukung Dolar, Membebani GBP/USD - VT Markets",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZTFSa0sxa1M4elhCeUphUFVQVmRkbk8wd3ZtN1E3bnUwRmVoajhZdUVfSHNLR3Rid0F4OVRGZDFWaEFpSmdvbl9iZzRNbnpGZi1fZzdKM0pDU0NJUTJReU40VF9MTUpxM1lEVVNNLUVJa1Mxc3prUFhuaTNRdkRjMDRyVllpb3o4TldzRWExOHR0aHpfbW55Yndfbng4eGhCNklqajhUTS0xVHNBTFdtSVByUm9MOTljRGhsamx6LVhPa29jckVqN2pBcmNqUFFEZ1JWSFlsaVlXdw?oc=5",
-      "summary": "Sterling Upside Capped as Geopolitical Risk and UK Politics Bolster Dollar, Weighing on GBP/USD VT Markets",
-      "published": "23 Jun 2026 09:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.353,
+      "score": -0.376,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "PBB menyatakan akan mengevakuasi para pelaut yang terdampar di Selat Hormuz, seiring Rubio memperingatkan agar tidak memakan korban jiwa",
-      "url": "https://www.bbc.co.uk/news/articles/c24yr796emzo?at_medium=RSS&at_campaign=rss",
-      "summary": "US Secretary of State Marco Rubio warned Iran that no country can charge fees for ships to travel through the strait.",
-      "published": "24 Jun 2026 04:04 WIB",
+      "title": "Kota terbesar di Krimea tanpa aliran listrik setelah serangan Ukraina",
+      "url": "https://www.bbc.co.uk/news/articles/c3ryv72pjqno?at_medium=RSS&at_campaign=rss",
+      "summary": "Sevastopol's Moscow-installed governor warns there will be no electricity in some areas until the evening.",
+      "published": "24 Jun 2026 16:48 WIB",
       "sentiment": "Bearish",
-      "score": -0.572,
+      "score": -0.705,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Pasukan Israel membunuh dua orang di Lebanon selatan setelah jeda pertempuran, kata pihak berwenang",
-      "url": "https://www.bbc.co.uk/news/articles/c36ykpw0yego?at_medium=RSS&at_campaign=rss",
-      "summary": "Israel's military says the two men were Hezbollah operatives, but the Iran-backed group accuses it of a ceasefire violation.",
-      "published": "23 Jun 2026 23:47 WIB",
+      "title": "Wanita Sydney terbangun dari koma lebih dari seminggu setelah serangan hiu",
+      "url": "https://www.bbc.co.uk/news/articles/cy8drk2dk3no?at_medium=RSS&at_campaign=rss",
+      "summary": "Leah Stewart, 34, had one of her arms amputated after she was bitten while swimming at Coogee Beach.",
+      "published": "24 Jun 2026 08:42 WIB",
       "sentiment": "Bearish",
-      "score": -0.82,
+      "score": -0.637,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Puluhan kapal menuju Selat Hormuz setelah kesepakatan AS-Iran",
-      "url": "https://www.bbc.co.uk/news/articles/cx23rnzdgl8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Traffic in the waterway has risen since the US and Iran signed a deal aimed at ending the war, including 42 ships on Saturday alone.",
-      "published": "23 Jun 2026 21:55 WIB",
+      "title": "Kongres meloloskan undang-undang kekuatan perang untuk pertama kalinya, yang bertentangan dengan Trump terkait Iran",
+      "url": "https://www.bbc.co.uk/news/articles/ce8j6g3v3r4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The resolution passed on Tuesday was largely symbolic, but it adds to pressure on the White House to end the conflict once and for all.",
+      "published": "24 Jun 2026 21:57 WIB",
       "sentiment": "Bearish",
-      "score": -0.71,
+      "score": -0.962,
       "emoji": "🔴"
     },
     {
@@ -255,23 +229,13 @@
       "emoji": "🔴"
     },
     {
-      "source": "BBC World",
-      "title": "Catatan tebusan mengklaim Nancy Guthrie meninggal setelah penculikan",
-      "url": "https://www.bbc.co.uk/news/articles/cvgm0mgzl33o?at_medium=RSS&at_campaign=rss",
-      "summary": "On Tuesday, Today show presenter Savannah Guthrie begged anyone with information to come forward, saying, \"We are in agony.\"",
-      "published": "24 Jun 2026 00:59 WIB",
+      "source": "BBC Business",
+      "title": "Trump menuduh perusahaan minyak mencungkil harga di pompa bensin",
+      "url": "https://www.bbc.co.uk/news/articles/cly790j1j6ro?at_medium=RSS&at_campaign=rss",
+      "summary": "The president's remarks come as global oil prices have fallen but remain higher than before the US-Israel war with Iran.",
+      "published": "24 Jun 2026 21:24 WIB",
       "sentiment": "Bearish",
-      "score": -0.961,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Iran mengatakan tidak ada komitmen baru mengenai situs nuklir setelah Vance mengatakan para pemeriksa akan diundang kembali",
-      "url": "https://www.bbc.co.uk/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran's foreign ministry says it made \"no new commitments\" on nuclear inspections after talks in Switzerland.",
-      "published": "23 Jun 2026 19:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.266,
+      "score": -0.992,
       "emoji": "🔴"
     },
     {
@@ -286,72 +250,42 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Israel sengaja menargetkan anak-anak Palestina",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/23/aje-onl-nf_israels-targeting-of-palestinian-children-230626?traffic_source=rss",
-      "summary": "New UN report documents the toll of Israel's war on Gaza and its occupation of the West Bank on Palestinian children.",
-      "published": "24 Jun 2026 05:50 WIB",
+      "title": "Rubio mengatakan Iran tidak dapat memungut biaya di Hormuz: Apa yang kami ketahui",
+      "url": "https://www.aljazeera.com/news/2026/6/24/rubio-says-iran-cannot-charge-tolls-in-hormuz-what-we-know?traffic_source=rss",
+      "summary": "Tehran says the strait 'will never return' to its prewar conditions and claims it can charge fees for services.",
+      "published": "24 Jun 2026 21:27 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Sekutu Trump meyakinkan Israel di tengah ketegangan dalam kesepakatan AS-Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/23/trump-allies-reassure-israelis-amid-tensions-on-us-iran-deal?traffic_source=rss",
-      "summary": "Trump allies reassure Israelis amid tensions on US-Iran deal",
-      "published": "24 Jun 2026 04:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.153,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "PBB mulai mengevakuasi 11.000 pelaut yang terdampar dari Selat Hormuz",
-      "url": "https://www.aljazeera.com/news/2026/6/23/un-starts-evacuating-11000-stranded-sailors-from-strait-of-hormuz?traffic_source=rss",
-      "summary": "Following the start of the US-Israel war on Iran on February 28, Tehran had effectively closed off the vital waterway.",
-      "published": "24 Jun 2026 04:00 WIB",
-      "sentiment": "Netral",
-      "score": -0.028,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Alibaba menggugat militer AS karena melabelinya sebagai 'perusahaan militer Tiongkok'",
-      "url": "https://www.aljazeera.com/news/2026/6/23/alibaba-sues-us-military-over-labelling-it-a-chinese-military?traffic_source=rss",
-      "summary": "E-commerce giant says that claims of affiliation with Chinese military have 'no basis in fact or law'.",
-      "published": "24 Jun 2026 03:12 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump membantah penolakan Iran terhadap pengawas nuklir",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/23/trump-disputes-irans-rejection-of-nuclear-inspectors?traffic_source=rss",
-      "summary": "President Trump pushed back on Iran’s foreign ministry claim that there are no plans to allow IAEA nuclear inspectors.",
-      "published": "24 Jun 2026 03:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.71,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Permasalahan AS yang mencakup keringanan sanksi minyak terhadap Iran, memberikan pendapatan miliaran dolar bagi Teheran",
-      "url": "https://www.cnbc.com/2026/06/23/us-iran-oil-sanction-relief-strait-of-hormuz-peace-deal-.html",
-      "summary": "The U.S. issued a sweeping rollback of sanctions on Iranian oil, offering Tehran an economic lifeline as negotiations toward a peace deal proceed.",
-      "published": "23 Jun 2026 21:56 WIB",
+      "title": "Jepang mempertimbangkan pengerahan pasukan untuk membersihkan ranjau di Selat Hormuz",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/24/japan-weighs-deploying-forces-to-demine-the-strait-of-hormuz?traffic_source=rss",
+      "summary": "Japan is considering sending its navy to help clear mines in the Strait of Hormuz following the US-Iran ceasefire.",
+      "published": "24 Jun 2026 19:31 WIB",
       "sentiment": "Bullish",
-      "score": 0.462,
+      "score": 0.729,
       "emoji": "🟢"
     },
     {
+      "source": "Al Jazeera",
+      "title": "Korea Utara menugaskan kapal perang saat Kim mengincar angkatan laut nuklir",
+      "url": "https://www.aljazeera.com/gallery/2026/6/24/north-korea-commissions-warship-as-kim-eyes-nuclear-navy?traffic_source=rss",
+      "summary": "Kim Jong Un vows to equip North Korea's navy with nuclear weapons, signaling a strategic shift in military capabilities.",
+      "published": "24 Jun 2026 18:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
+      "emoji": "🔴"
+    },
+    {
       "source": "CNBC World",
-      "title": "Di dalam proses seleksi Kevin Warsh untuk presiden Fed Atlanta berikutnya",
-      "url": "https://www.cnbc.com/2026/06/23/fed-warsh-atlanta-michael-faulkender.html",
-      "summary": "Choosing a new head for the Federal Reserve Bank of Atlanta is an opportunity for new Fed Chairman Kevin Warsh to reshape the central bank.",
-      "published": "24 Jun 2026 01:25 WIB",
+      "title": "Ukraina menaikkan biaya perang bagi Rusia – dan menguji tekad Putin",
+      "url": "https://www.cnbc.com/2026/06/24/ukraine-russia-drone-strikes-moscow-escalation.html",
+      "summary": "A string of political victories and deep-strike successes has bolstered confidence in Ukraine amid its long-running war with Russia.",
+      "published": "24 Jun 2026 16:15 WIB",
       "sentiment": "Bullish",
-      "score": 0.341,
+      "score": 0.098,
       "emoji": "🟢"
     }
   ]
