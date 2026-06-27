@@ -1,24 +1,24 @@
 {
-  "generated": "27 Jun 2026 07:03 WIB",
+  "generated": "27 Jun 2026 22:01 WIB",
   "summary": {
-    "total": 72,
-    "bullish": 26,
+    "total": 68,
+    "bullish": 25,
     "bearish": 37,
-    "netral": 9,
-    "avg_score": -0.104,
+    "netral": 6,
+    "avg_score": -0.0944,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
-        "sentiment": "Bullish",
-        "score": 0.126,
-        "count": 16
+        "sentiment": "Netral",
+        "score": 0.018,
+        "count": 13
       },
       {
         "currency": "EUR",
-        "sentiment": "Netral",
-        "score": 0.047,
-        "count": 5
+        "sentiment": "Bearish",
+        "score": -0.299,
+        "count": 8
       },
       {
         "currency": "GBP",
@@ -30,6 +30,12 @@
         "currency": "JPY",
         "sentiment": "Bearish",
         "score": -0.146,
+        "count": 1
+      },
+      {
+        "currency": "AUD",
+        "sentiment": "Bearish",
+        "score": -0.831,
         "count": 1
       },
       {
@@ -47,6 +53,16 @@
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Dua kutipan makro yang mengungkap laporan pendapatan FedEx",
+      "url": "https://investinglive.com/news/two-revealing-macro-quotes-from-the-fedex-earnings-call-20260627/",
+      "summary": "FedEx reported earnings this week and it's a company worth watching because freight demand is a great proxy for economic activity. Here is Brie Carere, EVP & Chief Customer Officer: “I was concerned a quarter ago that we maybe would see some demand destruction. That has not at all been the case.” Ra",
+      "published": "27 Jun 2026 19:09 WIB",
+      "sentiment": "Bullish",
+      "score": 0.25,
+      "emoji": "🟢"
+    },
     {
       "source": "ForexLive",
       "title": "investBerita Live Americas FX 26 Juni: Greenback berakhir beragam, masih lebih tinggi selama seminggu",
@@ -178,16 +194,6 @@
       "emoji": "🔴"
     },
     {
-      "source": "ForexLive",
-      "title": "Saham teknologi melonjak sementara semikonduktor kesulitan",
-      "url": "https://investinglive.com/stock-market-update/tech-stocks-surge-while-semiconductors-struggle-20260626/",
-      "summary": "Sector overview Today's stock market presents a mixed bag, with significant movements across various sectors. Technology is the standout performer, led by Microsoft (MSFT) surging 4.17%. However, the semiconductor industry is experiencing widespread declines, drawing attention to Nvidia (NVDA) which",
-      "published": "26 Jun 2026 21:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
-      "emoji": "🔴"
-    },
-    {
       "source": "FXStreet News",
       "title": "Vietnam: Pertumbuhan kuat tetapi risiko inflasi meningkat – HSBC",
       "url": "https://www.fxstreet.com/news/vietnam-strong-growth-but-rising-inflation-risks-hsbc-202606262249",
@@ -309,52 +315,92 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Zuckerberg meminta Meta untuk menjajaki kerja sama dengan Polymarket dan Kalshi, lapor NYT",
-      "url": "https://www.investing.com/news/stock-market-news/zuckerberg-asks-meta-to-explore-working-with-polymarket-and-kalshi-nyt-reports-4763701",
+      "title": "Mengapa korelasi obligasi-ekuitas yang terendah dalam 30 tahun penting bagi portofolio Anda",
+      "url": "https://www.investing.com/news/stock-market-news/why-a-30year-low-in-bondequity-correlation-matters-for-your-portfolio-4763993",
       "summary": "",
-      "published": "27 Jun 2026 06:36 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "published": "27 Jun 2026 20:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.25,
+      "emoji": "🔴"
     },
     {
       "source": "Investing.com Forex",
-      "title": "SpaceX, Piagam membahas kemitraan telepon seluler di AS, kata Bloomberg News",
-      "url": "https://www.investing.com/news/stock-market-news/spacex-charter-discussed-mobile-phone-partnership-in-us-bloomberg-news-reports-4763843",
+      "title": "Australia memperketat larangan terhadap anak-anak di media sosial, dan melipatgandakan potensi hukuman bagi perusahaan teknologi",
+      "url": "https://www.investing.com/news/stock-market-news/australia-toughens-kids-social-media-ban-doubles-potential-penalties-for-tech-firms-4763971",
       "summary": "",
-      "published": "27 Jun 2026 06:36 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "published": "27 Jun 2026 19:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.586,
+      "emoji": "🔴"
     },
     {
       "source": "Investing.com Forex",
-      "title": "UBS melihat pasar keamanan dan keselamatan sebesar $1,19 triliun pada tahun 2029, dipimpin oleh keamanan siber",
-      "url": "https://www.investing.com/news/stock-market-news/ubs-sees-security-and-safety-market-at-119tn-by-2029-led-by-cybersecurity-4763854",
+      "title": "Citi mengatakan saham-saham internet Tiongkok yang terpuruk ini layak dibeli saat harga turun",
+      "url": "https://www.investing.com/news/stock-market-news/citi-says-these-beatendown-china-internet-stocks-are-worth-buying-on-the-dip-4763968",
       "summary": "",
-      "published": "27 Jun 2026 06:26 WIB",
+      "published": "27 Jun 2026 18:24 WIB",
       "sentiment": "Bullish",
-      "score": 0.637,
+      "score": 0.306,
       "emoji": "🟢"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Eksportir daging sapi besar yang dekat dengan Tiongkok membatasi kuota, sehingga mengaburkan perdagangan pada paruh kedua, kata laporan",
-      "url": "https://www.investing.com/news/stock-market-news/major-beef-exporters-near-china-quota-caps-clouding-secondhalf-trade-report-says-4763821",
+      "title": "LVMH dan Orient Express dari Accor mengincar kelas miliarder teknologi baru",
+      "url": "https://www.investing.com/news/stock-market-news/lvmh-and-accors-orient-express-sets-its-sights-on-new-tech-billionaire-class-4763962",
       "summary": "",
-      "published": "27 Jun 2026 05:54 WIB",
+      "published": "27 Jun 2026 16:42 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Geely Eksklusif dari Tiongkok akan mengirimkan EV Lotus pertama ke Kanada pada bulan Juli berdasarkan kesepakatan Carney-Xi, kata duta besar",
-      "url": "https://www.investing.com/news/stock-market-news/exclusivechinas-geely-to-ship-first-lotus-evs-to-canada-in-july-under-carneyxi-deal-ambassador-says-4763794",
+      "title": "Mengapa kisah transformasi BMW bergantung pada eksekusi NEUE KLASSE",
+      "url": "https://www.investing.com/news/stock-market-news/why-bmws-transformation-story-hinges-on-neue-klasse-execution-4763960",
       "summary": "",
-      "published": "27 Jun 2026 05:48 WIB",
+      "published": "27 Jun 2026 16:27 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Badan keselamatan AS mengakhiri penyelidikan power steering terhadap 376,000 Tesla EV",
+      "url": "https://www.investing.com/news/stock-market-news/us-safety-agency-ends-power-steering-probe-into-376000-tesla-evs-4763958",
+      "summary": "",
+      "published": "27 Jun 2026 16:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.08,
+      "score": 0.421,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Trustpilot bermitra dengan Shopify untuk mengintegrasikan ulasan pelanggan ke dalam toko",
+      "url": "https://www.investing.com/news/stock-market-news/trustpilot-partners-with-shopify-to-integrate-customer-reviews-into-stores-4763956",
+      "summary": "",
+      "published": "27 Jun 2026 15:05 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Regulator keselamatan otomotif AS menutup evaluasi terhadap 441.002 kendaraan Honda Odyssey setelah penarikan kembali",
+      "url": "https://www.investing.com/news/stock-market-news/us-auto-safety-regulator-closes-evaluation-of-441002-honda-odyssey-vehicles-after-recall-4763945",
+      "summary": "",
+      "published": "27 Jun 2026 14:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.421,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "SpaceX akan bergabung dengan Nasdaq 100 pada 7 Juli, menetapkan arus masuk dana pasif miliaran",
+      "url": "https://www.investing.com/news/stock-market-news/spacex-to-join-nasdaq-100-on-july-7-set-for-billions-in-passive-fund-inflows-4763940",
+      "summary": "",
+      "published": "27 Jun 2026 13:37 WIB",
+      "sentiment": "Bullish",
+      "score": 0.459,
       "emoji": "🟢"
     },
     {
@@ -362,50 +408,10 @@
       "title": "Jumlah korban gempa Venezuela mencapai 900 orang, pencarian semakin intensif untuk menemukan ratusan orang yang terjebak",
       "url": "https://www.investing.com/news/stock-market-news/rescuers-comb-venezuelan-quake-rubble-thousands-reported-missing-4762206",
       "summary": "",
-      "published": "27 Jun 2026 05:42 WIB",
+      "published": "27 Jun 2026 11:12 WIB",
       "sentiment": "Netral",
       "score": -0.026,
       "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "AS memulai upaya vaksin untuk Ebola Bundibugyo saat wabah menyebar",
-      "url": "https://www.investing.com/news/stock-market-news/us-to-ship-experimental-ebola-therapy-to-drc-and-uganda-as-outbreak-worsens-4763156",
-      "summary": "",
-      "published": "27 Jun 2026 05:12 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "GameStop berjanji untuk mengejar pengambilalihan eBay",
-      "url": "https://www.investing.com/news/stock-market-news/gamestop-pledges-to-pursue-ebay-takeover-4763734",
-      "summary": "",
-      "published": "27 Jun 2026 04:54 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Broker asuransi Hub International mengajukan IPO AS secara rahasia",
-      "url": "https://www.investing.com/news/stock-market-news/insurance-broker-hub-international-files-confidentially-for-us-ipo-4763707",
-      "summary": "",
-      "published": "27 Jun 2026 04:42 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saks Global bangkit dari kebangkrutan dengan nama perusahaan baru, utang yang lebih rendah",
-      "url": "https://www.investing.com/news/stock-market-news/saks-global-emerges-from-bankruptcyunder-new-corporate-name-lower-debt-4763699",
-      "summary": "",
-      "published": "27 Jun 2026 04:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.572,
-      "emoji": "🔴"
     },
     {
       "source": "Investing.com Economy",
@@ -418,73 +424,133 @@
       "emoji": "🔴"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Defisit transaksi berjalan Brasil pada bulan Mei menyempit menjadi $3,19 miliar",
-      "url": "https://www.investing.com/news/economic-indicators/brazils-may-current-account-deficit-narrows-to-319-billion-93CH-4762623",
-      "summary": "",
-      "published": "26 Jun 2026 18:58 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Schnabel dari ECB Melihat Risiko Inflasi Naik Meskipun Ada Kesepakatan Damai",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-27/ecb-s-schnabel-sees-upside-inflation-risks-despite-peace-deal",
+      "summary": "European Central Bank Executive Board member Isabel Schnabel warned that price pressures could turn out stronger than anticipated even as a US-Iran peace deal reopens the Strait of Hormuz.",
+      "published": "27 Jun 2026 21:14 WIB",
       "sentiment": "Bearish",
-      "score": -0.402,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "Brasil mencatat defisit transaksi berjalan yang lebih kecil dari perkiraan pada bulan Mei",
-      "url": "https://www.investing.com/news/economic-indicators/brazil-posts-narrowerthanexpected-current-account-deficit-in-may-4762594",
-      "summary": "",
-      "published": "26 Jun 2026 18:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.402,
+      "score": -0.307,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pekan Wall Street | USMCA: Bisakah Kesepakatan Dagang Amerika Utara Bertahan?",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-26/wall-street-week-north-american-trade-showdown-video",
-      "summary": "This week, a special edition of Wall Street Week on the USMCA trade deal. The renegotiations are testing the future of an auto industry built on decades of cross-border integration. And, American farmers increasingly depend on exports to Canada and Mexico as other overseas markets become more diffic",
-      "published": "27 Jun 2026 06:13 WIB",
+      "title": "Senator Armstrong: Pemberian Izin Adalah Kunci untuk Menurunkan Biaya Energi",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-27/sen-armstrong-permitting-is-key-to-lower-energy-costs-video",
+      "summary": "Senator Alan Armstrong (R-Oklahoma) joins David Gura and Christina Ruffini on Bloomberg This Weekend and says permitting reform—not additional federal spending—is the most effective way to lower housing and energy costs, arguing regulatory delays have created infrastructure bottlenecks that drive up",
+      "published": "27 Jun 2026 21:06 WIB",
       "sentiment": "Bullish",
-      "score": 0.46,
+      "score": 0.374,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Kriskey, Invesco: Jatuhnya Harga Minyak 'Berlebihan'",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-26/invesco-s-kriskey-oil-price-freefall-is-overdone-video",
-      "summary": "Kathy Kriskey, Invesco's Alterative ETF Strategy Head, helps make sense of oil's drop as ships continue to cross through the Strait of Hormuz despite attacks. She speaks with Romaine Bostick & Katie Greifeld on \"The Close.\" (Source: Bloomberg)",
-      "published": "27 Jun 2026 05:22 WIB",
-      "sentiment": "Bullish",
-      "score": 0.202,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Merek Soda Alternatif Mengambil Alih Pasar Minuman",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-26/alternative-soda-brands-taking-over-beverage-markets-video",
-      "summary": "Poppi Co-Founder Allison Ellsworth describes struggles of breaking into beverage industry, warns getting product on shelves is \"capital intensive.\" Ellsworth says movement within \"MAHA\" is changing industry standards, including for beverage giants like Pepsi which purchased Poppi in 2025 for nearly ",
-      "published": "27 Jun 2026 04:29 WIB",
+      "title": "Petani Amerika Membutuhkan USMCA Lebih Dari Sebelumnya",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-27/america-s-farmers-need-usmca-more-than-ever-video",
+      "summary": "For many American farmers, Canada and Mexico have become indispensable export markets at a time when trade disputes, weak commodity prices, and rising costs are already straining the agricultural economy. Iowa farmer Stu Swanson says many producers are operating on dwindling hope as financial pressu",
+      "published": "27 Jun 2026 21:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.183,
+      "score": -0.807,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Carl Richards tentang Kekuatan Peracikan",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-26/carl-richards-on-the-power-of-compounding-video",
-      "summary": "Barry sits down with Carl Richards author of \"Your Money: Reimagining Wealth in Simple Sketches .\" They discuss Carl's unlikely start in finance and building his own firm. Carl also breaks down how one sketch helped him translate wealth management and become a New York Times columnist. (Source: Bloo",
-      "published": "27 Jun 2026 04:01 WIB",
+      "title": "Pasar Hewan Peliharaan AS Akan Melampaui $250 Miliar",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-27/us-pet-market-set-to-surpass-250-billion-video",
+      "summary": "Americans are increasing spending on their pets beyond traditional preventative care, with the US pet market projected to grow from approximately $150 billion today to over $250 billion in the next decade. Bloomberg Intelligence consumer staples analyst Diana Rosero-Pena joins Bloomberg This Weekend",
+      "published": "27 Jun 2026 20:38 WIB",
       "sentiment": "Bullish",
-      "score": 0.751,
+      "score": 0.76,
       "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Selat Hormuz Schrödinger: Terbuka atau Tertutup?",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-27/schrodinger-s-strait-of-hormuz-open-or-closed-video",
+      "summary": "Despite a ship being struck in the Strait of Hormuz on Thursday and another incident over the weekend, some vessels continue to travel the strait on both the Iranian and Omani sides. However, overall traffic remains significantly reduced compared to pre-conflict levels, with daily ship movements dow",
+      "published": "27 Jun 2026 19:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.054,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gelombang Panas Brutal Menghanguskan Eropa, Meningkatkan Kekhawatiran Inflasi Iklim",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-27/brutal-heat-wave-scorches-europe-video",
+      "summary": "Europe has been experiencing a record-breaking heat wave, with temperatures soaring to historic highs, particularly in France where temperatures were above 110 degrees Fahrenheit. Bloomberg News Weather & Climate Reporter Joe Wertz and Climate Reporter Emma Court are on Bloomberg This Weekend to war",
+      "published": "27 Jun 2026 19:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.75,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mengapa Krugman Berpikir Kita Membutuhkan Tarif Otomotif Tiongkok",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-27/why-krugman-thinks-we-need-chinese-auto-tariffs-video",
+      "summary": "As the United States, Canada, and Mexico prepare to renegotiate the USMCA trade deal, one industry sits squarely at the center of the debate: automobiles. Companies like Linamar depend on highly integrated supply chains that send components across borders multiple times before a vehicle is completed",
+      "published": "27 Jun 2026 19:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.482,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Brookfield Berebut Perusahaan Tenaga Surya Saat Uang 'Menguap'",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-26/brookfield-is-in-fight-over-solar-firm-where-cash-evaporated",
+      "summary": "Joh. Berenberg, Gossler & Co. KG and Brookfield Asset Management Ltd. are battling over the future of GoldenPeaks, an energy company staring at collapse after borrowing $1.5 billion for European solar-power projects.",
+      "published": "26 Jun 2026 23:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.511,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bangladesh Mendapat Pupuk dan Pinjaman Makanan Bank Dunia senilai $1 Miliar",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-27/bangladesh-gets-1-billion-world-bank-fertilizer-food-loans",
+      "summary": "The World Bank approved two loans totaling over $1 billion to help Bangladesh cope with volatility in the global fertilizer market and improve food security.",
+      "published": "27 Jun 2026 15:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.869,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Google News Geopolitik",
+      "title": "Dolar Australia Turun karena Ketegangan Lebanon Memicu Permintaan Safe-Haven Dolar AS - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeTFZTE9JUTZBWDc4MjBvN1VONDBKM3ByVkRZN1BlOXZiXzhvQ3lhUnZNVFdINGV1UHFKeDlTUzZld05RbTVUMHpPOGk1aDEyVm8wS1FkMjgwMmhiX09MTGhSMkd4VmplLTlKazQ0djVJaHgwNTd3c1B0N2dRZjl5SGROaFo4S3hiU0NfN3VlZy0?oc=5",
+      "summary": "Australian Dollar Dips as Lebanon Tensions Fuel US Dollar Safe-Haven Demand CryptoRank",
+      "published": "27 Jun 2026 15:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.831,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Google News Geopolitik",
+      "title": "EUR/USD Stabil Di Atas Pertengahan 1,1300an Karena Ketegangan Selat Hormuz Mendukung Permintaan Safe-Haven, Pengaturan Bearish Tetap Ada - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZl85cWJUMklxb1lPNmpUZnowdkVleHpLUGgtOUFicHZBZVNlZUxBZGQySG1PaWJic0V4SHh6R0lSSklLNWNsN0NIeFFSMERQQnotWTJBcmYzNDI4dlFEX1NEeVVXdUdDT002QlhRSnR6OWtIZnFybktMRmwzTExOSy1DRDNTS2VsUEhJczRVN0RpS243a2hyNVJSZw?oc=5",
+      "summary": "EUR/USD Steadies Above Mid-1.1300s as Hormuz Strait Tensions Support Safe-Haven Demand, Bearish Setup Remains CryptoRank",
+      "published": "26 Jun 2026 22:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.33,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "AS melakukan serangan terhadap Iran setelah serangan terhadap kapal kargo",
+      "title": "AS menyerang Iran setelah serangan terhadap kapal kargo",
       "url": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
-      "summary": "US Central Command says it has struck missile and drone storage facilities and coastal radar positions.",
-      "published": "27 Jun 2026 05:57 WIB",
+      "summary": "Iran accuses the US of violating their deal and says it struck targets linked to American forces in response.",
+      "published": "27 Jun 2026 17:40 WIB",
       "sentiment": "Bearish",
-      "score": -0.925,
+      "score": -0.91,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Meloni dan Trump: Perselisihan yang sangat umum dan terbukti sangat sulit untuk diperbaiki",
+      "url": "https://www.bbc.co.uk/news/articles/cze962pgk27o?at_medium=RSS&at_campaign=rss",
+      "summary": "Italy's PM was not long ago being called the \"Trump whisperer\", but their relationship has gone from public attacks to personal insults.",
+      "published": "27 Jun 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.996,
       "emoji": "🔴"
     },
     {
@@ -499,12 +565,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Kongo membawa Rwanda ke pengadilan internasional atas konflik yang terjadi selama beberapa dekade",
-      "url": "https://www.bbc.co.uk/news/articles/c8724zn3491o?at_medium=RSS&at_campaign=rss",
-      "summary": "Kinshasa accuses its neighbour of committing various violations since the 1994 Rwanda genocide.",
-      "published": "27 Jun 2026 00:05 WIB",
+      "title": "Burkina Faso memutuskan hubungan diplomatik dengan Perancis",
+      "url": "https://www.bbc.co.uk/news/articles/c7vymlgl5vgo?at_medium=RSS&at_campaign=rss",
+      "summary": "The West African country's junta accused the former colonial power of undermining its national interests.",
+      "published": "27 Jun 2026 21:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.858,
+      "score": -0.402,
       "emoji": "🔴"
     },
     {
@@ -519,30 +585,10 @@
     },
     {
       "source": "BBC World",
-      "title": "Penyerang pasar Natal dipenjara seumur hidup karena membunuh enam orang di Jerman",
-      "url": "https://www.bbc.co.uk/news/articles/cy06y63y6lno?at_medium=RSS&at_campaign=rss",
-      "summary": "A nine-year-old and five women were killed when Taleb Al-Abdulmohsen drove into the market in 2024.",
-      "published": "26 Jun 2026 17:49 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Kanada berhak mengikuti kompetisi Eurovision",
-      "url": "https://www.bbc.co.uk/news/articles/cy06yzp4r0eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Prime Minister Mark Carney raised the idea of Canada joining the song contest in his 2025 budget.",
-      "published": "26 Jun 2026 20:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC World",
-      "title": "AS memberikan sanksi kepada kilang emas Rwanda yang dituduh menyelundupkan mineral DR Kongo",
-      "url": "https://www.bbc.co.uk/news/articles/c9d268xy90xo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US alleges Gasabo Gold Refinery smuggled at least 60kg of gold in early 2026.",
-      "published": "26 Jun 2026 19:54 WIB",
+      "title": "Kongo membawa Rwanda ke pengadilan internasional atas konflik yang terjadi selama beberapa dekade",
+      "url": "https://www.bbc.co.uk/news/articles/c8724zn3491o?at_medium=RSS&at_campaign=rss",
+      "summary": "Kinshasa accuses its neighbour of committing various violations since the 1994 Rwanda genocide.",
+      "published": "27 Jun 2026 00:05 WIB",
       "sentiment": "Bearish",
       "score": -0.858,
       "emoji": "🔴"
@@ -552,220 +598,140 @@
       "title": "Trump mengancam tarif 100% terhadap negara-negara Eropa terkait pajak teknologi",
       "url": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
       "summary": "The US president says \"Numerous European countries\" have been discussing bringing in such a levy.",
-      "published": "27 Jun 2026 04:29 WIB",
+      "published": "27 Jun 2026 08:37 WIB",
       "sentiment": "Bearish",
       "score": -0.382,
       "emoji": "🔴"
     },
     {
-      "source": "BBC Business",
-      "title": "Apa yang terjadi dengan harga bensin saat harga minyak kembali ke tingkat sebelum perang Iran?",
-      "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "summary": "When the conflict began on 28 February, fuel costs jumped as the war disrupted the production and transportation of energy across the Middle East.",
-      "published": "26 Jun 2026 20:51 WIB",
+      "source": "BBC Top Stories",
+      "title": "Apakah kita sedang menghadapi gelombang panas serial di musim panas?",
+      "url": "https://www.bbc.co.uk/weather/articles/cgrk4w57e74o?at_medium=RSS&at_campaign=rss",
+      "summary": "Forecasters have suggested that summer is likely to be warmer than average with an increased chance of more heatwaves, as Simon King explains.",
+      "published": "27 Jun 2026 10:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.569,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Kesepakatan Israel-Lebanon menghubungkan gencatan senjata dengan perlucutan senjata Hizbullah: Akankah berhasil?",
+      "url": "https://www.aljazeera.com/features/2026/6/27/israel-lebanon-deal-ties-ceasefire-to-hezbollah-disarmament-will-it-work?traffic_source=rss",
+      "summary": "Hezbollah chief calls the deal 'null and void', raising questions if the latest agreement can lead to peace in Lebanon.",
+      "published": "27 Jun 2026 20:54 WIB",
+      "sentiment": "Bullish",
+      "score": 1.0,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Angkat telepon’: IRGC tampaknya menolak ‘hotline’ Selat Hormuz AS",
+      "url": "https://www.aljazeera.com/news/2026/6/27/pick-up-the-phone-irgc-appears-to-rebuff-us-strait-of-hormuz-hotline?traffic_source=rss",
+      "summary": "Iran's IRGC appears to have rejected US claims of a military hotline will operate between the two countries.",
+      "published": "27 Jun 2026 20:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.511,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Tiga orang tewas dalam serangan dagang Ukraina dan Rusia semalam",
+      "url": "https://www.aljazeera.com/news/2026/6/27/three-killed-as-ukraine-and-russia-trade-attacks-overnight?traffic_source=rss",
+      "summary": "Moscow's attacks are reported to have killed two, while Kyiv's attacks on Russia killed one.",
+      "published": "27 Jun 2026 18:58 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Meloni dan Trump: Perselisihan yang sangat umum dan terbukti sangat sulit untuk diperbaiki",
-      "url": "https://www.bbc.co.uk/news/articles/cze962pgk27o?at_medium=RSS&at_campaign=rss",
-      "summary": "Italy's PM was not long ago being called the \"Trump whisperer\", but their relationship has gone from public attacks to personal insults.",
-      "published": "27 Jun 2026 06:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.996,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Tim pencari Inggris bergabung dalam upaya penyelamatan gempa Venezuela",
-      "url": "https://www.bbc.co.uk/news/articles/cr7xlr2ndxno?at_medium=RSS&at_campaign=rss",
-      "summary": "The 68-strong team left Brize Norton airbase on Friday onboard an RAF plane carrying aid supplies.",
-      "published": "27 Jun 2026 03:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.591,
-      "emoji": "🟢"
-    },
-    {
       "source": "Al Jazeera",
-      "title": "Burkina Faso memutuskan hubungan diplomatik dengan mantan penguasa kolonial Perancis",
-      "url": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france?traffic_source=rss",
-      "summary": "The military government, in power since 2022 coup, accused France of having 'neo-colonial ambitions'.",
-      "published": "27 Jun 2026 04:10 WIB",
+      "title": "Mungkinkah pemilu Israel yang akan datang mengakhiri karir politik Netanyahu?",
+      "url": "https://www.aljazeera.com/news/2026/6/27/could-israels-coming-election-see-an-end-to-netanyahus-political-career?traffic_source=rss",
+      "summary": "Israel's Prime Minister Benjamin Netanyahu faces mounting political, legal and US pressure ahead of crucial elections.",
+      "published": "27 Jun 2026 17:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.527,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "AS menyerang Iran sebagai tanggapan atas serangan drone terhadap kapal komersial",
-      "url": "https://www.aljazeera.com/news/2026/6/26/us-strikes-iran-in-response-to-drone-strike-on-commercial-ship?traffic_source=rss",
-      "summary": "The new strikes come in response to an Iranian drone attack on the Ever Lovely in the Strait of Hormuz.",
-      "published": "27 Jun 2026 04:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.666,
+      "score": -0.178,
       "emoji": "🔴"
     },
     {
       "source": "MarketWatch",
-      "title": "ServiceNow, Salesforce, dan saham perangkat lunak lainnya melonjak seiring melemahnya ancaman OpenAI",
-      "url": "https://www.marketwatch.com/story/servicenow-salesforce-and-other-software-stocks-surge-as-the-openai-threat-weakens-bb1eacfb?mod=mw_rss_topstories",
-      "summary": "Oracle’s stock missed out on the broader software rally, as the company is tied to OpenAI’s success through its cloud-infrastructure business.",
-      "published": "27 Jun 2026 05:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "AS mengonfirmasi serangan balasan terhadap Iran, sehingga menaikkan harga minyak pada perdagangan setelah jam kerja",
-      "url": "https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories",
-      "summary": "Oil futures settled lower to post a third-straight weekly loss on Friday, but moved up in extended trading after the U.S. military confirmed a retaliatory strike on Iran.",
-      "published": "27 Jun 2026 04:50 WIB",
-      "sentiment": "Bearish",
-      "score": -0.582,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Serangan kapal Iran menguji pasar asuransi pelayaran ketika premi risiko perang telah anjlok",
-      "url": "https://www.marketwatch.com/story/irans-ship-attack-tests-the-shipping-insurance-market-just-as-war-risk-premiums-had-plunged-8c4ef14d?mod=mw_rss_topstories",
-      "summary": "War-risk premiums narrowed considerably in recent days but could increase again.",
-      "published": "27 Jun 2026 04:06 WIB",
+      "title": "AI meningkatkan pasar saham. Sekarang hal ini meningkatkan perekonomian.",
+      "url": "https://www.marketwatch.com/story/ai-turbocharged-the-stock-market-now-its-firing-up-the-economy-193d2eb1?mod=mw_rss_topstories",
+      "summary": "A modern-day gold rush is giving a big boost to U.S. GDP.",
+      "published": "27 Jun 2026 20:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.066,
+      "score": 0.402,
       "emoji": "🟢"
     },
     {
       "source": "MarketWatch",
-      "title": "Obligasi baru SpaceX menunjukkan tanda peringatan, karena investor mengerem kegilaan AI",
-      "url": "https://www.marketwatch.com/story/spacexs-new-bonds-are-flashing-a-warning-sign-as-investors-pump-the-brakes-on-ai-frenzy-752ad44b?mod=mw_rss_topstories",
-      "summary": "Elon Musk’s company made a splash earlier this week with a $25 billion bond deal, less than two weeks after it raised tens of billions of dollars in cash.",
-      "published": "27 Jun 2026 03:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.572,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Imbal hasil obligasi turun seiring meningkatnya inflasi. Pembicaraan keras The Fed di bawah kepemimpinan Warsh cukup membantu.",
-      "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
-      "summary": "Kevin Warsh, the new Federal Reserve chair, is helping coax Treasury yields lower by talking tough on inflation.",
-      "published": "27 Jun 2026 03:38 WIB",
-      "sentiment": "Bearish",
-      "score": -0.057,
-      "emoji": "🔴"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Kashkari dari Fed sekarang memproyeksikan satu kenaikan suku bunga tahun ini. Inilah yang mengubah pikirannya.",
-      "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
-      "summary": "Doubts over the U.S.-Iran peace deal and the AI buildup mean a rate hike is possible, the Minneapolis Fed president says.",
-      "published": "27 Jun 2026 03:27 WIB",
+      "title": "Big Tech terobsesi dengan kacamata pintar. Sekarang mereka harus meyakinkan orang untuk memakainya.",
+      "url": "https://www.marketwatch.com/story/big-tech-is-obsessed-with-smart-glasses-now-it-has-to-convince-people-to-wear-them-0d5ebd43?mod=mw_rss_topstories",
+      "summary": "Smart glasses could become the definitive hardware design of the AI era — if consumers buy in to the idea.",
+      "published": "27 Jun 2026 19:30 WIB",
       "sentiment": "Bullish",
-      "score": 0.478,
+      "score": 0.611,
       "emoji": "🟢"
     },
     {
-      "source": "CNBC Economy",
-      "title": "Kenaikan harga chip memori memberikan tekanan pada pengecer laptop dan ponsel pintar",
-      "url": "https://www.cnbc.com/2026/06/26/ai-memory-chip-shortage-consumer-electronics-prices.html",
-      "summary": "As the global race for AI moves forward, a shortage of memory chips has begun to drive up prices of consumer electronics and may lead to product shortages.",
-      "published": "26 Jun 2026 19:00 WIB",
+      "source": "MarketWatch",
+      "title": "'Anugrah' SpaceX yang baru senilai $11 miliar hadir dengan hasil yang besar",
+      "url": "https://www.marketwatch.com/story/spacexs-new-11-billion-saving-grace-comes-with-a-big-catch-9270c6ae?mod=mw_rss_topstories",
+      "summary": "The company’s pivot toward offering hardware access to rivals could hamstring its own AI goals.",
+      "published": "27 Jun 2026 19:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.666,
+      "score": -0.08,
       "emoji": "🔴"
-    },
-    {
-      "source": "CNBC Economy",
-      "title": "JPMorgan menunjuk Doug Petno dan Troy Rohrbaugh sebagai co-president sebagai eksekutif lama Marianne Lake yang keluar",
-      "url": "https://www.cnbc.com/2026/06/25/jpmorgan-chase-co-presidents-lake-exits.html",
-      "summary": "The moves would appear to make Doug Petno and Troy Rohrbaugh the most obvious possible successors to JPMorgan Chase CEO Jamie Dimon.",
-      "published": "26 Jun 2026 19:32 WIB",
-      "sentiment": "Bullish",
-      "score": 0.332,
-      "emoji": "🟢"
     },
     {
       "source": "CNBC World",
       "title": "AS menyerang Iran setelah Trump menuduh Teheran melanggar gencatan senjata di Selat Hormuz",
       "url": "https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html",
       "summary": "The attack comes as the United States and Iran are supposed to be engaging in a 60-period of no hostilities as they hold talks to end their war.",
-      "published": "27 Jun 2026 05:59 WIB",
+      "published": "27 Jun 2026 21:59 WIB",
       "sentiment": "Bearish",
       "score": -0.89,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "Trump mengancam tarif 100% pada negara-negara yang mengenakan 'Pajak Layanan Digital pada Perusahaan Amerika'",
-      "url": "https://www.cnbc.com/2026/06/26/trump-tariff-trade-tech-tax.html",
-      "summary": "\"This TARIFF will supersede Trade Deals made with the Country, whether implemented, signed, or not,\" President Donald Trump wrote in a Truth Social post.",
-      "published": "27 Jun 2026 01:25 WIB",
-      "sentiment": "Netral",
-      "score": 0.003,
-      "emoji": "⚪"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump mengurangi tekanan pada Ketua Fed Kevin Warsh karena inflasi mencapai 4%",
-      "url": "https://www.cnbc.com/2026/06/26/trump-warsh-fed-rate-cuts-inflation.html",
-      "summary": "President Donald Trump's economic advisors are giving Warsh space, as the new Fed chairman, on interest rates as the president repeats calls to cut.",
-      "published": "27 Jun 2026 00:39 WIB",
-      "sentiment": "Bullish",
-      "score": 0.692,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Rubio mengatakan Israel dan Lebanon mencapai kesepakatan kerangka kerja yang bertujuan untuk 'perdamaian dan keamanan abadi'",
-      "url": "https://www.cnbc.com/2026/06/26/israel-lebanon-hezbollah-ceasefire-rubio.html",
-      "summary": "Israel and Lebanon agreed to implement a ceasefire. But that is contingent on the paramilitary group Hezbollah agreeing to halt hostilities.",
-      "published": "27 Jun 2026 01:09 WIB",
-      "sentiment": "Bullish",
-      "score": 0.717,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Perjanjian perdamaian AS-Iran memberikan akses ke situs nuklir Teheran, kata badan pengawas PBB",
-      "url": "https://www.cnbc.com/2026/06/26/us-iran-peace-deal-nuclear-access.html",
-      "summary": "\"The technical work has started, and we hope to be there soon,\" IAEA chief Rafael Grossi said at a news conference in Japan on Friday.",
-      "published": "26 Jun 2026 13:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.887,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Presiden Fed Minneapolis Neel Kashkari mengatakan dia memperkirakan kenaikan suku bunga tahun ini",
-      "url": "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html",
-      "summary": "Kashkari said he sees a hike likely this year as the economy continues to feel the hit from spiking inflation.",
-      "published": "26 Jun 2026 23:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Pengiriman kembali meningkat di Selat Hormuz satu minggu setelah kesepakatan AS-Iran – namun kepercayaan yang rapuh mengancam pemulihan",
-      "url": "https://www.cnbc.com/2026/06/26/strait-of-hormuz-shipping-oil-us-iran.html",
-      "summary": "Shipping traffic through the strategically vital Strait of Hormuz is recovering one week after the U.S. and Iran signed an interim peace deal.",
-      "published": "26 Jun 2026 16:36 WIB",
-      "sentiment": "Bullish",
-      "score": 1.0,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Badan PBB menghentikan rencana evakuasi kapal Hormuz setelah serangan kapal pertama berdasarkan kesepakatan damai",
-      "url": "https://www.cnbc.com/2026/06/26/strait-of-hormuz-vessel-attack-evacuation-pauses-iran-united-states-peace-deal-negotiation-.html",
-      "summary": "The pause follows a container ship being struck near the coast of Oman on Thursday, with a U.S. official saying that Iran was responsible for the attack.",
-      "published": "26 Jun 2026 09:07 WIB",
+      "title": "Gelombang panas yang menjadi peringatan merah kini menjadi kondisi normal baru di Eropa. Investor menaruh perhatian",
+      "url": "https://www.cnbc.com/2026/06/27/europe-heatwave-uk-temperature-el-nino-invest.html",
+      "summary": "Temperature records were smashed across Europe this week, prompting several countries across the continent to issued high-level warnings about danger to life.",
+      "published": "27 Jun 2026 12:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.34,
+      "score": -0.761,
       "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Mengapa investor mungkin ingin memprioritaskan pasar obligasi di luar AS",
+      "url": "https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html",
+      "summary": "Allspring Global Investments is pushing clients toward countries with central banks that are raising interest rates or have different inflation dynamics.",
+      "published": "27 Jun 2026 22:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.58,
+      "emoji": "🟢"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Dari konser hingga naik kereta, bot memenangkan perang tiket — tapi itu hanya sebagian dari masalah",
+      "url": "https://www.cnbc.com/2026/06/27/ticket-bots-concert-scalpers-ticketmaster-china-korea.html",
+      "summary": "From concerts to train reservations, automated bots have become the latest target in the fight against ticket scalping.",
+      "published": "27 Jun 2026 16:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.793,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Pasangan Amerika meninggalkan New York City dan membeli rumah di Italia seharga $13.000: 'Kami menemukan cara hidup yang berbeda'",
+      "url": "https://www.cnbc.com/2026/06/27/american-couple-left-united-states-bought-italy-house-cassandra-tresl-alex-ninman.html",
+      "summary": "Cassandra Tresl and Alex Ninman moved in with Tresl's grandfather in the Czech Republic in 2020 and closed on a house in Abruzzo, Italy, in 2022.",
+      "published": "27 Jun 2026 21:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
     }
   ]
 }
