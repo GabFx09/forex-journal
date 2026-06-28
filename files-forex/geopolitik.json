@@ -1,5 +1,5 @@
 {
-  "generated": "28 Jun 2026 07:01 WIB",
+  "generated": "28 Jun 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,50 +7,90 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.371,
-      "count": 12
+      "score": -0.431,
+      "count": 10
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.371,
-      "count": 12
+      "score": -0.431,
+      "count": 10
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.356,
-      "count": 10
+      "score": -0.413,
+      "count": 9
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.365,
+      "score": -0.109,
       "count": 3
     },
     {
       "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.807,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.902,
       "count": 1
     },
     {
       "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.807,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.902,
       "count": 1
     }
   ],
   "items": [
     {
-      "source": "Investing.com Forex",
-      "title": "Amazon Prime Day menawarkan gambaran sekilas tentang konsumen AS saat pembeli bernavigasi dengan dompet yang terjepit",
-      "url": "https://www.investing.com/news/stock-market-news/amazon-prime-day-offers-a-glimpse-into-us-consumer-as-shoppers-navigate-with-pinched-wallets-4764044",
-      "summary": "",
-      "published": "28 Jun 2026 03:00 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Bisakah USMCA Bertahan di Masa Kedua Trump?",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-28/can-usmca-survive-trump-s-second-term-video",
+      "summary": "As Canada, Mexico, and the United States begin reviewing the USMCA trade pact, former diplomats and trade negotiators say the stakes extend far beyond tariffs. Former Canadian Ambassador Kirsten Hillman, former Mexican Ambassador Gerónimo Gutiérrez, and former US trade counsel Kelly Ann Shaw argue t",
+      "published": "28 Jun 2026 21:04 WIB",
       "sentiment": "Bullish",
-      "score": 0.178,
+      "score": 0.902,
       "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "The Fed yang Hawkish Menolak Tantangan Reli Obligasi Negara Berkembang",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/hawkish-fed-throws-down-challenge-for-emerging-market-bond-rally",
+      "summary": "Just when it looked like emerging-market bonds would catch a break from falling energy prices, along came Federal Reserve Chairman Kevin Warsh to spoil the party.",
+      "published": "28 Jun 2026 19:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.611,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Fmr. Wakil Penasihat Keamanan Nasional Memperingatkan Retorika Trump Berisiko pada Pembicaraan Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-28/ben-rhodes-warns-trump-rhetoric-risks-iran-talks-video",
+      "summary": "While the Iran ceasefire remains intact despite recent exchanges of fire, Former Deputy National Security Advisor Ben Rhodes warned it could unravel if tit-for-tat strikes escalate or hardliners on either side gain the upper hand. He argued to hosts of Bloomberg This Weekend David Gura and Christina",
+      "published": "28 Jun 2026 19:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mengapa AS Membutuhkan Negara Tetangganya untuk Energi",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-28/why-the-us-needs-its-neighbors-for-energy-video",
+      "summary": "Unlike autos or agriculture, North America’s energy trade does not function as a single, integrated three-country system. Instead, it operates through two powerful bilateral relationships: Canadian oil flowing south into US refineries and American natural gas powering Mexico’s economy. Howard Energy",
+      "published": "28 Jun 2026 19:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.846,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Terusan Panama Melihat Peningkatan Pendapatan Di Tengah Konflik Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-28/panama-canal-sees-revenue-boost-amid-iran-conflict-video",
+      "summary": "The ongoing conflict involving Iran has indirectly benefited Panama as more ships seeking alternative routes to transport commodities globally, following disruptions in the Strait of Hormuz. Former vice foreign minister of Panama and senior adviser at the Center for Strategic Studies Carlos Ruiz-Her",
+      "published": "28 Jun 2026 18:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.591,
+      "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
@@ -64,163 +104,133 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bloomberg Akhir Pekan Ini 27/6/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-27/bloomberg-this-weekend-6-27-2026-video",
-      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Fmr. UN Ambassador and Fmr. USAID Administrator Samantha Power and Oklahoma Senator Alan Armstrong.",
-      "published": "27 Jun 2026 23:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kelompok Bantuan Berbondong-bondong ke Venezuela dalam Kegilaan Pencarian dan Penyelamatan",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-27/aid-groups-flock-to-venezuela-in-search-and-rescue-frenzy",
-      "summary": "Two of the US military ships used in a blockade meant to pressure Nicolás Maduro have headed back toward Venezuela, this time with rescue teams, equipment and medical aid after devastating twin earthquakes struck the country this week.",
-      "published": "27 Jun 2026 08:22 WIB",
+      "title": "AI Menghancurkan Risiko Efek Riak Dari Pertumbuhan hingga Kredit, Kata BIS",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/ai-bust-risks-ripple-effects-from-growth-to-credit-bis-says",
+      "summary": "An artificial-intelligence bust, inflation and fiscal stress are among the most alarming threats to global prosperity at present, the Bank for International Settlements warned.",
+      "published": "28 Jun 2026 16:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.838,
+      "score": -0.768,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Schnabel dari ECB Melihat Risiko Inflasi Naik Meskipun Ada Kesepakatan Damai",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-27/ecb-s-schnabel-sees-upside-inflation-risks-despite-peace-deal",
-      "summary": "European Central Bank Executive Board member Isabel Schnabel warned that price pressures could turn out stronger than anticipated even as a US-Iran peace deal reopens the Strait of Hormuz.",
-      "published": "27 Jun 2026 21:14 WIB",
+      "title": "Kebangkitan Burnham Menghidupkan Kembali Pembicaraan tentang Obligasi Perang untuk Mendanai Militer Inggris",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/burnham-s-rise-revives-talk-of-war-bonds-to-fund-the-uk-military",
+      "summary": "Andy Burnham, Britain’s soon-to-be prime minister, wants an array of bold new policies to attract voters who have grown tired of a Labour government mired in indecision and political backbiting. One idea is the issuing of war bonds.",
+      "published": "28 Jun 2026 12:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.307,
+      "score": -0.78,
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Senator Armstrong: Pemberian Izin Adalah Kunci untuk Menurunkan Biaya Energi",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-27/sen-armstrong-permitting-is-key-to-lower-energy-costs-video",
-      "summary": "Senator Alan Armstrong (R-Oklahoma) joins David Gura and Christina Ruffini on Bloomberg This Weekend and says permitting reform—not additional federal spending—is the most effective way to lower housing and energy costs, arguing regulatory delays have created infrastructure bottlenecks that drive up",
-      "published": "27 Jun 2026 21:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.374,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Petani Amerika Membutuhkan USMCA Lebih Dari Sebelumnya",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-27/america-s-farmers-need-usmca-more-than-ever-video",
-      "summary": "For many American farmers, Canada and Mexico have become indispensable export markets at a time when trade disputes, weak commodity prices, and rising costs are already straining the agricultural economy. Iowa farmer Stu Swanson says many producers are operating on dwindling hope as financial pressu",
-      "published": "27 Jun 2026 21:03 WIB",
+      "source": "BBC World",
+      "title": "AS dan Iran saling serang dan saling menuduh melanggar gencatan senjata",
+      "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Iran says it has launched retaliatory attacks at US infrastructure in Kuwait and Bahrain after the US said it hit multiple targets across Iran.",
+      "published": "28 Jun 2026 11:54 WIB",
       "sentiment": "Bearish",
-      "score": -0.807,
+      "score": -0.848,
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Selat Hormuz Schrödinger: Terbuka atau Tertutup?",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-27/schrodinger-s-strait-of-hormuz-open-or-closed-video",
-      "summary": "Despite a ship being struck in the Strait of Hormuz on Thursday and another incident over the weekend, some vessels continue to travel the strait on both the Iranian and Omani sides. However, overall traffic remains significantly reduced compared to pre-conflict levels, with daily ship movements dow",
-      "published": "27 Jun 2026 19:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.054,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gelombang Panas Brutal Menghanguskan Eropa, Meningkatkan Kekhawatiran Inflasi Iklim",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-27/brutal-heat-wave-scorches-europe-video",
-      "summary": "Europe has been experiencing a record-breaking heat wave, with temperatures soaring to historic highs, particularly in France where temperatures were above 110 degrees Fahrenheit. Bloomberg News Weather & Climate Reporter Joe Wertz and Climate Reporter Emma Court are on Bloomberg This Weekend to war",
-      "published": "27 Jun 2026 19:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.75,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Dolar Australia Turun karena Ketegangan Lebanon Memicu Permintaan Safe-Haven Dolar AS - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeTFZTE9JUTZBWDc4MjBvN1VONDBKM3ByVkRZN1BlOXZiXzhvQ3lhUnZNVFdINGV1UHFKeDlTUzZld05RbTVUMHpPOGk1aDEyVm8wS1FkMjgwMmhiX09MTGhSMkd4VmplLTlKazQ0djVJaHgwNTd3c1B0N2dRZjl5SGROaFo4S3hiU0NfN3VlZy0?oc=5",
-      "summary": "Australian Dollar Dips as Lebanon Tensions Fuel US Dollar Safe-Haven Demand CryptoRank",
-      "published": "27 Jun 2026 15:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.831,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Apakah kita sedang menghadapi gelombang panas serial di musim panas?",
-      "url": "https://www.bbc.co.uk/weather/articles/cgrk4w57e74o?at_medium=RSS&at_campaign=rss",
-      "summary": "Forecasters have suggested that summer is likely to be warmer than average with an increased chance of more heatwaves, as Simon King explains.",
-      "published": "27 Jun 2026 10:16 WIB",
-      "sentiment": "Bullish",
-      "score": 0.569,
-      "emoji": "🟢"
+      "source": "BBC World",
+      "title": "Media terkemuka di Uganda ditutup oleh panglima militer",
+      "url": "https://www.bbc.co.uk/news/articles/cj9gyk1z7ngo?at_medium=RSS&at_campaign=rss",
+      "summary": "NTV and Daily Monitor say their offices in the capital are under \"military siege\".",
+      "published": "28 Jun 2026 17:11 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
     },
     {
       "source": "Al Jazeera",
-      "title": "AS melancarkan serangan malam kedua terhadap Iran setelah kapalnya dihantam drone",
-      "url": "https://www.aljazeera.com/news/2026/6/27/us-launches-second-night-of-strikes-against-iran-after-ship-struck-by-drone?traffic_source=rss",
-      "summary": "The attacks come after an alleged Iranian drone struck another commercial vessel in the Strait of Hormuz on Saturday.",
-      "published": "28 Jun 2026 05:07 WIB",
+      "title": "IRGC semakin meningkat ketika MoU Iran-AS terancam oleh serangan Hormuz",
+      "url": "https://www.aljazeera.com/news/2026/6/28/irgc-doubles-down-as-iran-us-mou-jeopardised-by-hormuz-strikes?traffic_source=rss",
+      "summary": "Markets in Iran react poorly after two nights of military confrontations over transit through the critical strait.",
+      "published": "28 Jun 2026 21:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.831,
+      "score": -0.743,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mengapa Krimea penting dalam perang Rusia-Ukraina?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/6/27/why-is-crimea-critical-to-the-russia-ukraine?traffic_source=rss",
-      "summary": "Ukraine is intensifying attacks on Russian-controlled Crimea as Kyiv tries to pressure Moscow into ending the war.",
-      "published": "28 Jun 2026 02:22 WIB",
+      "title": "Ukraina mengatakan pihaknya menyerang dua kilang minyak Rusia",
+      "url": "https://www.aljazeera.com/news/2026/6/28/ukraine-says-it-attacked-two-russian-oil-refineries?traffic_source=rss",
+      "summary": "At least two killed in drone attacks, Russian authorities say, as Ukraine continues to target energy facilities.",
+      "published": "28 Jun 2026 20:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.932,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Surga yang hilang: Bagaimana Israel berperang terhadap para petani di Tepi Barat",
+      "url": "https://www.aljazeera.com/economy/2026/6/28/paradise-lost-how-israel-is-making-war-on-west-bank-farmers?traffic_source=rss",
+      "summary": "Israel is attacking West Bank agriculture in an attempt to drive Palestinian farmers off their land.",
+      "published": "28 Jun 2026 20:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.772,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apa Pasal 5 MoU Iran-AS, dan Mengapa Dituduhkan Sebagai Penyebab Serangan Hormuz?",
+      "url": "https://www.aljazeera.com/news/2026/6/28/why-is-article-5-of-mou-causing-confrontations-in-the-strait-of-hormuz?traffic_source=rss",
+      "summary": "Iran and the US trade attacks over navigation through the Strait of Hormuz, which has emerged as a major sticking point.",
+      "published": "28 Jun 2026 20:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.898,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Menggali dengan jarum’: Para jenderal menghambat perdamaian ketika el-Obeid di Sudan terbakar",
+      "url": "https://www.aljazeera.com/news/2026/6/28/digging-with-a-needle-generals-stall-peace-as-sudans-el-obeid-burns?traffic_source=rss",
+      "summary": "The battle for el-Obeid exposes the foreign arms and polarised narratives stalling peace in Sudan’s grinding war.",
+      "published": "28 Jun 2026 19:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.462,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "AS menyerang Iran untuk hari kedua: Apakah ini pelanggaran resolusi kekuatan perang?",
+      "url": "https://www.aljazeera.com/news/2026/6/28/us-strikes-iran-for-second-day-is-it-a-violation-of-war-powers-resolution?traffic_source=rss",
+      "summary": "Days after Congress tells Trump he needs to seek its approval or end Iran war, Trump returns to attacks. Is it legal?",
+      "published": "28 Jun 2026 19:13 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Israel memerintahkan pasukannya untuk bersiap untuk 'tinggal lebih lama' di Lebanon",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/israel-orders-troops-to-prepare-for-extended-stay-in-lebanon?traffic_source=rss",
-      "summary": "Israeli Defence Minister Israel Katz says the military has been ordered to prepare for an ‘extended stay’ in Lebanon.",
-      "published": "28 Jun 2026 02:12 WIB",
+      "title": "Panglima militer Uganda memerintahkan penutupan dua media",
+      "url": "https://www.aljazeera.com/news/2026/6/28/ugandas-military-chief-orders-shutdown-of-two-media-outlets?traffic_source=rss",
+      "summary": "The president's son said he did not believe in a free press as military personnel were deployed to the media offices.",
+      "published": "28 Jun 2026 18:08 WIB",
       "sentiment": "Bullish",
-      "score": 0.103,
+      "score": 0.511,
       "emoji": "🟢"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Penantang Senat AS, petahana dengan nama yang sama untuk tampil dalam pemungutan suara Alaska",
-      "url": "https://www.aljazeera.com/news/2026/6/27/us-senate-challenger-incumbent-with-same-name-to-appear-on-alaska-ballot?traffic_source=rss",
-      "summary": "Republican Senator Dan Sullivan has sought to have a namesake primary challenger removed, citing midterm confusion.",
-      "published": "28 Jun 2026 02:05 WIB",
+      "source": "CNBC Economy",
+      "title": "Para lansia di Medicare akan mendapatkan cakupan obat obesitas yang penting – tetapi banyak yang mungkin belum mengetahuinya",
+      "url": "https://www.cnbc.com/2026/06/28/medicare-will-soon-cover-obesity-drugs-but-many-seniors-may-not-know.html",
+      "summary": "Many seniors may be unaware of the landmark coverage shift starting on July 1, with limited advertising seen from the government or Eli Lilly and Novo.",
+      "published": "28 Jun 2026 19:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.052,
+      "score": -0.53,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "Militer AS menyerang sasaran Iran setelah kapal tanker komersial menyerang di Selat Hormuz",
-      "url": "https://www.cnbc.com/2026/06/27/tanker-struck-in-strait-of-hormuz-as-us-iran-tensions-escalate.html",
-      "summary": "The attacks come as the United States and Iran are supposed to be engaging in a 60-day ceasefire as they attempt to work toward a resolution.",
-      "published": "28 Jun 2026 05:54 WIB",
+      "title": "Trump kembali mengancam Iran dengan pemusnahan ketika Kuwait dan Bahrain melaporkan adanya serangan",
+      "url": "https://www.cnbc.com/2026/06/28/trump-threatens-iran-with-annihilation-kuwait-bahrain-report-attacks.html",
+      "summary": "Iran says it targeted U.S. military facilities in Kuwait and Bahrain following U.S. strikes on targets in and around the Strait of Hormuz.",
+      "published": "28 Jun 2026 20:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.233,
+      "score": -0.791,
       "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Gelombang panas yang menjadi peringatan merah kini menjadi kondisi normal baru di Eropa. Investor menaruh perhatian",
-      "url": "https://www.cnbc.com/2026/06/27/europe-heatwave-uk-temperature-el-nino-invest.html",
-      "summary": "Temperature records were smashed across Europe this week, prompting several countries across the continent to issued high-level warnings about danger to life.",
-      "published": "27 Jun 2026 12:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.761,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Mengapa investor mungkin ingin memprioritaskan pasar obligasi di luar AS",
-      "url": "https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html",
-      "summary": "Allspring Global Investments is pushing clients toward countries with central banks that are raising interest rates or have different inflation dynamics.",
-      "published": "27 Jun 2026 22:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.58,
-      "emoji": "🟢"
     }
   ]
 }
