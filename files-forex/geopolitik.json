@@ -1,125 +1,167 @@
 {
-  "generated": "28 Jun 2026 22:01 WIB",
+  "generated": "29 Jun 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.431,
-      "count": 10
-    },
-    {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.431,
-      "count": 10
+      "score": -0.395,
+      "count": 11
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.413,
+      "score": -0.505,
+      "count": 9
+    },
+    {
+      "pair": "USD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.505,
       "count": 9
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.109,
-      "count": 3
+      "score": -0.354,
+      "count": 4
     },
     {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.902,
+      "pair": "EUR",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.571,
       "count": 1
     },
     {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.902,
+      "pair": "USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.571,
+      "count": 1
+    },
+    {
+      "pair": "emerging markets",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.571,
+      "count": 1
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Netral →",
+      "score": 0.003,
       "count": 1
     }
   ],
   "items": [
     {
-      "source": "Bloomberg Markets",
-      "title": "Bisakah USMCA Bertahan di Masa Kedua Trump?",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-28/can-usmca-survive-trump-s-second-term-video",
-      "summary": "As Canada, Mexico, and the United States begin reviewing the USMCA trade pact, former diplomats and trade negotiators say the stakes extend far beyond tariffs. Former Canadian Ambassador Kirsten Hillman, former Mexican Ambassador Gerónimo Gutiérrez, and former US trade counsel Kelly Ann Shaw argue t",
-      "published": "28 Jun 2026 21:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.902,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "The Fed yang Hawkish Menolak Tantangan Reli Obligasi Negara Berkembang",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/hawkish-fed-throws-down-challenge-for-emerging-market-bond-rally",
-      "summary": "Just when it looked like emerging-market bonds would catch a break from falling energy prices, along came Federal Reserve Chairman Kevin Warsh to spoil the party.",
-      "published": "28 Jun 2026 19:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.611,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Fmr. Wakil Penasihat Keamanan Nasional Memperingatkan Retorika Trump Berisiko pada Pembicaraan Iran",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-28/ben-rhodes-warns-trump-rhetoric-risks-iran-talks-video",
-      "summary": "While the Iran ceasefire remains intact despite recent exchanges of fire, Former Deputy National Security Advisor Ben Rhodes warned it could unravel if tit-for-tat strikes escalate or hardliners on either side gain the upper hand. He argued to hosts of Bloomberg This Weekend David Gura and Christina",
-      "published": "28 Jun 2026 19:07 WIB",
+      "source": "ForexLive",
+      "title": "Bolivia meninggalkan patokan dolar selama 15 tahun. Boliviano menetapkan 30% terjun bebas.",
+      "url": "https://investinglive.com/forex/bolivia-abandons-15-year-dollar-peg-boliviano-set-for-30-free-float-plunge-20260628/",
+      "summary": "The immediate read-through for emerging market FX is a reminder that managed pegs under reserve stress are a slow-motion event until they are not. Bolivia's parallel market had already been pricing the boliviano near 20 per dollar at its most distorted, so the formal float to around 9.73 represents ",
+      "published": "29 Jun 2026 05:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.637,
+      "score": -0.571,
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Mengapa AS Membutuhkan Negara Tetangganya untuk Energi",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-28/why-the-us-needs-its-neighbors-for-energy-video",
-      "summary": "Unlike autos or agriculture, North America’s energy trade does not function as a single, integrated three-country system. Instead, it operates through two powerful bilateral relationships: Canadian oil flowing south into US refineries and American natural gas powering Mexico’s economy. Howard Energy",
-      "published": "28 Jun 2026 19:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.846,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Terusan Panama Melihat Peningkatan Pendapatan Di Tengah Konflik Iran",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-28/panama-canal-sees-revenue-boost-amid-iran-conflict-video",
-      "summary": "The ongoing conflict involving Iran has indirectly benefited Panama as more ships seeking alternative routes to transport commodities globally, following disruptions in the Strait of Hormuz. Former vice foreign minister of Panama and senior adviser at the Center for Strategic Studies Carlos Ruiz-Her",
-      "published": "28 Jun 2026 18:37 WIB",
+      "source": "ForexLive",
+      "title": "Perdagangan berjangka telah dimulai untuk minggu baru, minyak naik $1",
+      "url": "https://investinglive.com/commodities/futures-trade-has-begun-for-the-new-week-oil-up-1-20260628/",
+      "summary": "Oil has jumped a little on the weekend news: Iran, US trade strikes. Gulf ceasefire unravels over weekend. Will probably ravel soon. The escalation has since unwound somewhat: US and Iran halt strikes again with Hormuz talks set for Tuesday in Qatar Oil up a little but its not like its surging highe",
+      "published": "29 Jun 2026 05:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.591,
+      "score": -0.553,
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Warsh Debut di Panggung Global Bersama Angkatan 2008",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-27/warsh-makes-debut-on-the-global-stage-with-the-class-of-2008",
-      "summary": "Kevin Warsh and three other veterans of the 2008 global financial crisis will share a stage this week as the danger of renewed turmoil continues to haunt central bankers.",
-      "published": "28 Jun 2026 03:00 WIB",
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Anggota dewan ECB yang secara dramatis meningkatkan kenaikan suku bunga lebih lanjut melalui bantuan dari Hormuz",
+      "url": "https://investinglive.com/centralbank/weekend-hawkish-ecb-board-member-calls-for-further-rate-hikes-despite-hormuz-relief-20260628/",
+      "summary": "Schnabel's remarks confirm the ECB is not treating the Hormuz ceasefire as an inflation off-ramp. Her explicit warning that the strait will reopen only gradually, and that energy costs are already feeding into supply chains and manufacturing pass-through, signals the hiking cycle has further to run ",
+      "published": "29 Jun 2026 04:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.612,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "AS dan Iran kembali menghentikan serangan dengan perundingan Hormuz yang dijadwalkan pada Selasa di Qatar",
+      "url": "https://investinglive.com/commodities/us-and-iran-halt-strikes-again-with-hormuz-talks-set-for-tuesday-in-qatar-20260628/",
+      "summary": "A confirmed mutual stand-down and the announcement of Tuesday's Doha talks will offer short-term relief to oil markets, but the underlying architecture remains precarious: the military hotline agreed in Switzerland still was not operational as of Saturday, and ships transiting the strait were alread",
+      "published": "29 Jun 2026 03:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.53,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran, serangan dagang AS. Gencatan senjata di Teluk berakhir pada akhir pekan. Mungkin akan segera terjadi.",
+      "url": "https://investinglive.com/commodities/iran-us-trade-strikes-gulf-ceasefire-unravels-over-weekend-will-probably-ravel-soon-20260628/",
+      "summary": "The renewed exchange of strikes between the US and Iran resurrects the supply disruption premium that had begun unwinding as vessels moved through Hormuz over the prior fortnight. With both sides now publicly accusing the other of breaking the interim accord and the IRGC warning American bases face ",
+      "published": "29 Jun 2026 03:06 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "AI Menghancurkan Risiko Efek Riak Dari Pertumbuhan hingga Kredit, Kata BIS",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/ai-bust-risks-ripple-effects-from-growth-to-credit-bis-says",
-      "summary": "An artificial-intelligence bust, inflation and fiscal stress are among the most alarming threats to global prosperity at present, the Bank for International Settlements warned.",
-      "published": "28 Jun 2026 16:00 WIB",
+      "source": "FXStreet News",
+      "title": "Kabar terkini mengenai Perang Timur Tengah: AS dan Iran tampaknya kembali melakukan pembicaraan untuk mengakhiri perang",
+      "url": "https://www.fxstreet.com/news/middle-east-war-updates-us-iran-appear-to-be-returning-to-talks-to-end-the-war-202606282237",
+      "summary": "Here’s a brief recap of the key developments in the Middle East war that occurred over the weekend, which are expected to have a significant impact on markets in the upcoming week.",
+      "published": "29 Jun 2026 05:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.768,
+      "score": -0.978,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Kebangkitan Burnham Menghidupkan Kembali Pembicaraan tentang Obligasi Perang untuk Mendanai Militer Inggris",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/burnham-s-rise-revives-talk-of-war-bonds-to-fund-the-uk-military",
-      "summary": "Andy Burnham, Britain’s soon-to-be prime minister, wants an array of bold new policies to attract voters who have grown tired of a Labour government mired in indecision and political backbiting. One idea is the issuing of war bonds.",
-      "published": "28 Jun 2026 12:00 WIB",
+      "title": "Minyak Naik karena AS dan Iran Akan Menghentikan Serangan Pasca Kobaran Api",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/latest-oil-market-news-and-analysis-for-june-29",
+      "summary": "Oil rose after a report that the US and Iran agreed to stop attacking each other, following a flare-up that saw a supertanker carrying Qatari crude hit near the Strait of Hormuz.",
+      "published": "29 Jun 2026 05:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.78,
+      "score": -0.946,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kontrak Berjangka AS Naik karena Laporan Dilanjutkannya Pembicaraan Damai: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/us-futures-climb-on-reports-peace-talks-to-resume-markets-wrap",
+      "summary": "US equity-index futures climbed after reports that the US and Iran backed away from a fresh escalation that had threatened the fragile ceasefire underpinning peace talks.",
+      "published": "29 Jun 2026 05:15 WIB",
+      "sentiment": "Bullish",
+      "score": 0.751,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Dolar Selandia Baru Menghadapi Kuartal Ketiga yang Sulit karena Hambatan Pertumbuhan",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/new-zealand-dollar-faces-tough-third-quarter-on-growth-headwinds",
+      "summary": "New Zealand’s dollar is facing a subdued third quarter as a resurgent greenback and the lingering effects of the Iran war’s energy shock drag on the domestic recovery.",
+      "published": "29 Jun 2026 02:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.083,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Obligasi Kelas Berat Menargetkan Pasar Sweet Spot untuk Era Warsh Baru",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/bond-heavyweights-target-a-market-sweet-spot-for-new-warsh-era",
+      "summary": "Some of the biggest bond managers are zeroing in on one specific area of the market as the best place to ride out the early days of the Kevin Warsh era.",
+      "published": "29 Jun 2026 02:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.722,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC World",
+      "title": "Gelombang panas di Eropa menyebabkan 1.300 kematian, kata WHO, sementara suhu di Jerman mencapai rekor 41,7C",
+      "url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
+      "summary": "WHO chief Tedros Adhanom Ghebreyesus warned that Europe is not prepared for high temperatures.",
+      "published": "29 Jun 2026 02:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.495,
       "emoji": "🔴"
     },
     {
@@ -137,80 +179,40 @@
       "title": "Media terkemuka di Uganda ditutup oleh panglima militer",
       "url": "https://www.bbc.co.uk/news/articles/cj9gyk1z7ngo?at_medium=RSS&at_campaign=rss",
       "summary": "NTV and Daily Monitor say their offices in the capital are under \"military siege\".",
-      "published": "28 Jun 2026 17:11 WIB",
+      "published": "28 Jun 2026 22:19 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
       "source": "Al Jazeera",
-      "title": "IRGC semakin meningkat ketika MoU Iran-AS terancam oleh serangan Hormuz",
-      "url": "https://www.aljazeera.com/news/2026/6/28/irgc-doubles-down-as-iran-us-mou-jeopardised-by-hormuz-strikes?traffic_source=rss",
-      "summary": "Markets in Iran react poorly after two nights of military confrontations over transit through the critical strait.",
-      "published": "28 Jun 2026 21:01 WIB",
+      "title": "Emosi meningkat di Iran setelah Tim Melli tersingkir dari Piala Dunia",
+      "url": "https://www.aljazeera.com/sports/2026/6/28/heightened-emotions-in-iran-after-team-melli-knocked-out-of-world-cup?traffic_source=rss",
+      "summary": "This is the second World Cup that comes after deadly nationwide protests inside Iran, and the first one amid a war",
+      "published": "29 Jun 2026 04:55 WIB",
       "sentiment": "Bearish",
-      "score": -0.743,
+      "score": -0.78,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Ukraina mengatakan pihaknya menyerang dua kilang minyak Rusia",
-      "url": "https://www.aljazeera.com/news/2026/6/28/ukraine-says-it-attacked-two-russian-oil-refineries?traffic_source=rss",
-      "summary": "At least two killed in drone attacks, Russian authorities say, as Ukraine continues to target energy facilities.",
-      "published": "28 Jun 2026 20:36 WIB",
+      "title": "Israel membunuh empat warga Palestina di Gaza saat serangan terhadap tenda terus berlanjut",
+      "url": "https://www.aljazeera.com/news/2026/6/28/israel-kills-three-palestinians-in-gaza-as-attacks-on-tents-continue?traffic_source=rss",
+      "summary": "Israeli forces restrict Palestinian worshippers at Al-Aqsa Mosque and block the call to prayer at the Ibrahimi Mosque.",
+      "published": "29 Jun 2026 02:54 WIB",
       "sentiment": "Bearish",
-      "score": -0.932,
+      "score": -0.958,
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Surga yang hilang: Bagaimana Israel berperang terhadap para petani di Tepi Barat",
-      "url": "https://www.aljazeera.com/economy/2026/6/28/paradise-lost-how-israel-is-making-war-on-west-bank-farmers?traffic_source=rss",
-      "summary": "Israel is attacking West Bank agriculture in an attempt to drive Palestinian farmers off their land.",
-      "published": "28 Jun 2026 20:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.772,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apa Pasal 5 MoU Iran-AS, dan Mengapa Dituduhkan Sebagai Penyebab Serangan Hormuz?",
-      "url": "https://www.aljazeera.com/news/2026/6/28/why-is-article-5-of-mou-causing-confrontations-in-the-strait-of-hormuz?traffic_source=rss",
-      "summary": "Iran and the US trade attacks over navigation through the Strait of Hormuz, which has emerged as a major sticking point.",
-      "published": "28 Jun 2026 20:17 WIB",
-      "sentiment": "Bearish",
-      "score": -0.898,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "‘Menggali dengan jarum’: Para jenderal menghambat perdamaian ketika el-Obeid di Sudan terbakar",
-      "url": "https://www.aljazeera.com/news/2026/6/28/digging-with-a-needle-generals-stall-peace-as-sudans-el-obeid-burns?traffic_source=rss",
-      "summary": "The battle for el-Obeid exposes the foreign arms and polarised narratives stalling peace in Sudan’s grinding war.",
-      "published": "28 Jun 2026 19:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.462,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "AS menyerang Iran untuk hari kedua: Apakah ini pelanggaran resolusi kekuatan perang?",
-      "url": "https://www.aljazeera.com/news/2026/6/28/us-strikes-iran-for-second-day-is-it-a-violation-of-war-powers-resolution?traffic_source=rss",
-      "summary": "Days after Congress tells Trump he needs to seek its approval or end Iran war, Trump returns to attacks. Is it legal?",
-      "published": "28 Jun 2026 19:13 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Panglima militer Uganda memerintahkan penutupan dua media",
-      "url": "https://www.aljazeera.com/news/2026/6/28/ugandas-military-chief-orders-shutdown-of-two-media-outlets?traffic_source=rss",
-      "summary": "The president's son said he did not believe in a free press as military personnel were deployed to the media offices.",
-      "published": "28 Jun 2026 18:08 WIB",
-      "sentiment": "Bullish",
-      "score": 0.511,
-      "emoji": "🟢"
+      "source": "MarketWatch",
+      "title": "Harga minyak naik, saham berjangka naik seiring AS dan Iran saling melancarkan serangan udara",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-stock-futures-inch-higher-as-u-s-and-iran-trade-more-airstrikes-3fc66beb?mod=mw_rss_topstories",
+      "summary": "Oil prices rose Sunday while U.S. stock-index futures advanced, after the U.S. and Iran continued to trade fire in the Persian Gulf, renewing fears that the Strait of Hormuz may effectively be shut again.",
+      "published": "29 Jun 2026 05:18 WIB",
+      "sentiment": "Netral",
+      "score": 0.003,
+      "emoji": "⚪"
     },
     {
       "source": "CNBC Economy",
@@ -224,12 +226,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Trump kembali mengancam Iran dengan pemusnahan ketika Kuwait dan Bahrain melaporkan adanya serangan",
+      "title": "Pembicaraan Iran terhenti setelah pecahnya pertempuran dan Trump sekali lagi mengancam akan melakukan pemusnahan",
       "url": "https://www.cnbc.com/2026/06/28/trump-threatens-iran-with-annihilation-kuwait-bahrain-report-attacks.html",
       "summary": "Iran says it targeted U.S. military facilities in Kuwait and Bahrain following U.S. strikes on targets in and around the Strait of Hormuz.",
-      "published": "28 Jun 2026 20:08 WIB",
+      "published": "29 Jun 2026 06:39 WIB",
       "sentiment": "Bearish",
-      "score": -0.791,
+      "score": -0.685,
       "emoji": "🔴"
     }
   ]
