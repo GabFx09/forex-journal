@@ -1,218 +1,146 @@
 {
-  "generated": "30 Jun 2026 07:02 WIB",
+  "generated": "30 Jun 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.293,
-      "count": 12
-    },
-    {
       "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.279,
+      "direction": "Netral →",
+      "score": 0.024,
       "count": 11
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.369,
-      "count": 9
+      "direction": "Tekanan Naik ▲",
+      "score": 0.064,
+      "count": 10
     },
     {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.054,
-      "count": 4
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.054,
+      "count": 10
     },
     {
       "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.468,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.051,
       "count": 4
     },
     {
       "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.468,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.051,
       "count": 4
     },
     {
-      "pair": "AUD/USD",
+      "pair": "EUR/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.517,
-      "count": 1
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.517,
+      "score": 0.799,
       "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Mineral tanah jarang, pengendalian ekspor, dan reformasi WTO menjadi tajuk utama kerangka perdagangan UE-Tiongkok yang baru",
-      "url": "https://investinglive.com/news/rare-earths-export-controls-and-wto-reform-headline-new-eu-china-trade-framework-20260629/",
-      "summary": "The launch of a formal EU-China trade consultation mechanism reduces the near-term risk of an escalatory tariff exchange between Brussels and Beijing, offering some relief to European industries most exposed to Chinese import competition. Rare earth and critical mineral supply chains are the most im",
-      "published": "30 Jun 2026 05:43 WIB",
+      "title": "Mahkamah Agung AS menjunjung tinggi hak kewarganegaraan, namun membatalkan perintah Trump",
+      "url": "https://investinglive.com/news/us-supreme-court-upholds-birthright-citizenship-striking-down-trump-order-20260630/",
+      "summary": "The US Supreme Court affirmed the lower court and struck down an Executive Order, which Trump signed on his first day back in office. The order had declared that children born in the US to parents who are here illegally or only temporarily are not \"subject to the jurisdiction\" of the United States, ",
+      "published": "30 Jun 2026 21:43 WIB",
       "sentiment": "Bullish",
-      "score": 0.517,
+      "score": 0.778,
       "emoji": "🟢"
     },
     {
       "source": "ForexLive",
-      "title": "Morgan Stanley melihat ekuitas Eropa melebar karena volatilitas AI mendorong diversifikasi",
-      "url": "https://investinglive.com/stock-market-update/morgan-stanley-sees-european-equities-broadening-as-ai-volatility-drives-diversification-20260629/",
-      "summary": "Falling oil prices are providing a constructive tailwind for European equities, reducing the energy cost burden that has weighed on the region through the first half of the year. The US-Iran memorandum of understanding has acted as a near-term catalyst for renewed inflows, though the more durable dr",
-      "published": "30 Jun 2026 04:26 WIB",
+      "title": "Kepercayaan konsumen AS bulan Juni 91,2 vs perkiraan 94,8",
+      "url": "https://investinglive.com/news/us-june-consumer-confidence-912-vs-948-expected-20260630/",
+      "summary": "Prior was 93.1 (revised to 90.6) The Conference Board's consumer confidence index nudged up 0.6 points to 91.2 in June, but only because of a big downward revision to the May reading. Expectations did the heavy lifting, jumping 3.0 points to 74.4 on better readings for business conditions and income",
+      "published": "30 Jun 2026 21:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.799,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Indeks harga rumah 20 kota CaseShiller AS bulan April +1,1% tahun/tahun vs perkiraan +0,9%",
+      "url": "https://investinglive.com/news/us-april-caseshiller-20-city-house-price-index-11-yy-vs-09-expected-20260630/",
+      "summary": "Prior was +0.8% y/y Monthly prices vs -0.1% Prior monthly -0.2% From the FHFA: Yearly vs +1.7% prior Monthly vs +0.1% prior There are some signs that housing is starting to tick up in the US and you can see it in housing-related stocks lately. Much of that is a function of oil prices coming down and",
+      "published": "30 Jun 2026 20:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.79,
       "emoji": "🔴"
     },
     {
       "source": "ForexLive",
-      "title": "Sikap hawkish The Fed dan kemerosotan energi mendorong dolar lebih tinggi, namun MUFG melihat kenaikan tersebut memudar",
-      "url": "https://investinglive.com/centralbank/fed-hawkishness-and-energy-slump-drive-dollar-higher-but-mufg-sees-gains-fading-20260629/",
-      "summary": "The dollar's breakout above its year-long trading range has reactivated positioning momentum, with IMM long-USD exposure still well below early-year peaks, leaving room for further near-term accumulation. Options flow is signalling stronger conviction for USD gains against the euro than the yen. The",
-      "published": "30 Jun 2026 04:02 WIB",
+      "title": "PDB Kanada bulan April +0,5% vs perkiraan +0,4%.",
+      "url": "https://investinglive.com/news/canada-april-gdp-05-vs-04-expected-20260630/",
+      "summary": "Prior was -0.1% Preliminary May reading +0.1% April details: Goods-producing industries rose 1.2% in April Services-producing industries grew 0.3% The manufacturing sector rose 0.6% in April The construction sector grew 0.7% 14 of the 20 industrial sectors grew in April There has been some angst abo",
+      "published": "30 Jun 2026 19:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.662,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Dolar AS: Ruang lingkup kenaikan moderat karena risiko dikalibrasi ulang – OCBC",
+      "url": "https://www.fxstreet.com/news/us-dollar-modest-upside-scope-as-risks-recalibrate-ocbc-202606301322",
+      "summary": "OCBC’s Sim Moh Siong notes that the US Dollar (USD) softened slightly as global risk appetite improved on easing geopolitical tensions and a tech rebound.",
+      "published": "30 Jun 2026 20:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.377,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Bank of England: Diperkirakan Tidak Ada Perubahan Pada Tahun 2026 – Rabobank",
+      "url": "https://www.fxstreet.com/news/bank-of-england-no-change-expected-in-2024-rabobank-202606301307",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley outlines her baseline view on Bank of England (BoE) policy, citing softer United Kingdom (UK) Consumer Price Index (CPI), lower Oil prices and a slack labour market.",
+      "published": "30 Jun 2026 20:07 WIB",
       "sentiment": "Bullish",
-      "score": 0.92,
+      "score": 0.153,
       "emoji": "🟢"
     },
     {
       "source": "FXStreet News",
-      "title": "Yuan Tiongkok: Kisaran perdagangan tetap ada, risiko penurunan terhadap Dolar AS tetap ada – UOB",
-      "url": "https://www.fxstreet.com/news/chinese-yuan-range-trade-persists-downside-risk-intact-against-us-dollar-uob-202606292020",
-      "summary": "UOB’s Senior Technical Strategist Quek Ser Leang expects USD/CNH to remain confined in a tight near-term range, with the Dollar likely to trade between 6.7950 and 6.8100. Despite easing upward momentum, UOB still sees scope for a move toward 6.8300 while 6.7900 holds as strong support.",
-      "published": "30 Jun 2026 03:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.564,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Euro: Risiko politik dan pertumbuhan mengarah lebih rendah terhadap Dolar AS – HSBC",
-      "url": "https://www.fxstreet.com/news/euro-political-and-growth-risks-point-lower-against-us-dollar-hsbc-202606291929",
-      "summary": "HSBC notes that dovish comments from European Central Bank (ECB) President Christine Lagarde and lower Oil prices now lead its economists to expect the ECB to hold rates in 2026.",
-      "published": "30 Jun 2026 02:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.376,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Lagarde, ECB: ECB dapat menaikkan suku bunga untuk mengatasi inflasi tanpa rasa takut",
-      "url": "https://www.fxstreet.com/news/ecbs-lagarde-ecb-can-raise-rates-to-address-inflation-without-fear-202606291920",
-      "summary": "European Central Bank (ECB) President Christine Lagarde delivered an introductory speech at the ECB Forum on Central Banking 2026 on Monday, warning that the Eurozone is likely to face more frequent shocks in the coming years that could move inflation away from the ECB’s target.",
-      "published": "30 Jun 2026 02:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.472,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Imbal hasil Treasury AS stabil karena taruhan kenaikan suku bunga The Fed menyeimbangkan keseimbangan minyak",
-      "url": "https://www.fxstreet.com/news/us-treasury-yields-steady-as-fed-bets-offset-oil-calm-202606291903",
-      "summary": "US Treasury yields steadied on Monday during the North American session as tensions in the Middle East halted the decline in crude Oil prices, while money markets are still pricing in at least 34 basis points of Federal Reserve (Fed) tightening in 2026.",
-      "published": "30 Jun 2026 02:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.666,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Senator AS meminta regulator untuk menolak pengajuan kesepakatan listrik raksasa NextEra-Dominion",
-      "url": "https://www.investing.com/news/stock-market-news/us-senator-asks-regulator-to-reject-giant-nexteradominion-power-deal-filing-4766559",
-      "summary": "",
-      "published": "30 Jun 2026 05:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.322,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Reuters Currencies",
-      "title": "Saham dan harga minyak naik seiring perhatian pada Iran; yen menyentuh level terendah dalam 40 tahun vs dolar - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYUFwVXVYYUk3ZXZGYUhac1BmQjhYN1JiSHM5SlhvWW9taHVTRkFZeVlrNFVfTl8wQVY0VTc3ekNEd1EyX2NMYjdNZXFwWi1WMFJWTHVIaE8yNTNNVWR4NkFHelBmSFlwYWdjRTZQREo4elhtYnNhZ3RMMjg2ckttSw?oc=5",
-      "summary": "Stocks and oil prices rise with eyes on Iran; yen touches 40-year low vs dollar Reuters",
-      "published": "29 Jun 2026 08:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.273,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Minyak Mempertahankan Kenaikan seiring Iran Mengupayakan Kendali Hormuz Sebelum Pembicaraan dengan AS",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/latest-oil-market-news-and-analysis-for-june-30",
-      "summary": "Oil held an advance before expected US-Iran talks in Doha, as conflicting signals from Washington and Tehran cast doubt over the next phase of negotiations to end the four-month war.",
-      "published": "30 Jun 2026 05:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.771,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Mesir Mendekati Pembayaran IMF $1,6 Miliar Dengan Kesepakatan Awal",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/egypt-edges-closer-to-1-6-billion-imf-payout-with-initial-deal",
-      "summary": "The International Monetary Fund and Egypt reached a preliminary deal on the country’s latest program review, putting Cairo on track to unlock more than $1.6 billion in financing.",
-      "published": "30 Jun 2026 05:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.183,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pakistan Mengatakan Serangan Membunuh 29 Warga Afghanistan di Perbatasan Baru yang Berkobar",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/pakistan-says-strikes-along-afghan-border-kill-29-militants",
-      "summary": "Pakistan said it carried out a ground operation and air strikes along its border with Afghanistan on Sunday and Monday, killing 29 militants in response to earlier attacks and marking the biggest flare-up in cross-border violence in weeks.",
-      "published": "29 Jun 2026 08:44 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Takaichi Ingin Membentuk Warisan Dengan Rencana Ekonomi yang Belum Pernah Ada Sebelumnya",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/takaichi-aims-to-shape-legacy-with-unprecedented-economic-plan",
-      "summary": "Prime Minister Sanae Takaichi is staking her legacy as Japan’s first female premier on an unprecedented plan to reshape the country’s industrial base for decades to come.",
-      "published": "30 Jun 2026 04:00 WIB",
+      "title": "Para Ekonom Setuju: Perkiraan harga minyak tahun 2026 diturunkan seiring membaiknya pelayaran Selat Hormuz – jajak pendapat Reuters",
+      "url": "https://www.fxstreet.com/news/economists-agree-2026-oil-price-forecasts-lowered-as-strait-of-hormuz-shipping-improves-reuters-poll-202606301301",
+      "summary": "According to a Reuters poll published on Tuesday, analysts have lowered their 2026 Oil price forecasts for the first time since the Iran war began as shipping through the Strait of Hormuz gradually improves, easing concerns over prolonged supply disruptions.",
+      "published": "30 Jun 2026 20:01 WIB",
       "sentiment": "Netral",
-      "score": 0.0,
+      "score": 0.042,
       "emoji": "⚪"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Pasar mata uang tetap berhati-hati karena risiko geopolitik mendominasi sentimen - Invezz",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdGlWSnFWeWN0R043a1JGcWFiLVQtV0hxVzFiaGE4dUdLNkw4WGIwYkJYMVcxQTdsQWVyS2xCR3VyLU1iSWV3V3IzLXlEd2lJTElPYTFlcHBFTmMxYURsaEM2ZVk4OGpHd1c4QnJXZmZBUG1kbVBFVFI4UjFBZkZMT1Q3eU9uaGRmOWJhbFNkcHNKRWx1cnNnNkVoTWgxOFdmUnY3eV9UYWNJamtSTVBr?oc=5",
-      "summary": "Currency markets stay cautious as geopolitical risks dominate sentiment Invezz",
-      "published": "29 Jun 2026 15:22 WIB",
+      "source": "FXStreet News",
+      "title": "Pound Inggris menawarkan sideways terhadap Yen Jepang karena para pedagang mempertimbangkan risiko intervensi",
+      "url": "https://www.fxstreet.com/news/british-pound-trades-sideways-against-the-japanese-yen-as-traders-weigh-intervention-risks-202606301229",
+      "summary": "GBP/JPY trades in a narrow range on Tuesday, struggling to build on the previous day's gains as traders remain wary of a possible intervention by Japanese authorities after the Japanese Yen (JPY) weakened to a fresh 40-year low against the US Dollar (USD).",
+      "published": "30 Jun 2026 19:29 WIB",
       "sentiment": "Bearish",
-      "score": -0.539,
+      "score": -0.441,
       "emoji": "🔴"
     },
     {
-      "source": "BBC World",
-      "title": "Banding terakhir Trump atas kasus pelecehan seksual E Jean Carroll ditolak",
-      "url": "https://www.bbc.co.uk/news/articles/cn8q2z5wpn2o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Supreme Court decision means the US president will now have to pay Carroll the $5m (£3.6m) in damages she had been awarded.",
-      "published": "29 Jun 2026 22:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.75,
-      "emoji": "🔴"
+      "source": "Bloomberg Markets",
+      "title": "Saham Naik karena Tanda-tanda Perekonomian AS Dalam Kondisi Baik: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/japan-stocks-set-to-climb-as-yen-hits-40-year-low-markets-wrap",
+      "summary": "Wall Street traders sent stocks higher at the end of their best quarter in six years on signs of economic resilience and as chipmakers extended their surge from war-driven lows.",
+      "published": "30 Jun 2026 05:06 WIB",
+      "sentiment": "Bullish",
+      "score": 0.743,
+      "emoji": "🟢"
     },
     {
-      "source": "BBC World",
-      "title": "AS mengatakan pihaknya setuju untuk 'mundur' setelah saling menyerang dengan Iran",
-      "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
-      "summary": "A series of strikes over the weekend saw the US and Iran accuse each other of violating the ceasefire agreement.",
-      "published": "29 Jun 2026 21:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.452,
-      "emoji": "🔴"
+      "source": "Bloomberg Markets",
+      "title": "Spinoff NBC Comcast Mempersiapkan Panggung untuk Lebih Banyak Media dan Penawaran Broadband",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-30/comcast-s-nbc-spinoff-sets-stage-for-more-media-deals-video",
+      "summary": "Comcast announced on Monday that it will spin off NBCUniversal and its European media unit, Sky, into a separate, independently traded company. Comcast will hang onto its cable-TV, broadband and wireless businesses. Chris Marangi, Co-CIO: Value at Gabelli Funds, and Bloomberg 'Wall Street Week' host",
+      "published": "30 Jun 2026 21:39 WIB",
+      "sentiment": "Bullish",
+      "score": 0.42,
+      "emoji": "🟢"
     },
     {
       "source": "BBC World",
@@ -225,44 +153,44 @@
       "emoji": "🔴"
     },
     {
-      "source": "BBC World",
-      "title": "Air mata Teyana Taylor dan penghormatan Lauryn Hill mencuri perhatian di BET Awards",
-      "url": "https://www.bbc.co.uk/news/articles/cpd3y6lv819o?at_medium=RSS&at_campaign=rss",
-      "summary": "Taylor had an emotional reaction to being presented with the Icon of the Year award by Janet Jackson.",
-      "published": "29 Jun 2026 19:00 WIB",
+      "source": "Al Jazeera",
+      "title": "Apakah negosiator AS dan Iran bertemu di Doha? Apa yang kita ketahui tentang pembicaraan",
+      "url": "https://www.aljazeera.com/news/2026/6/30/are-us-and-iranian-negotiators-meeting-in-doha-what-we-know-about-talks?traffic_source=rss",
+      "summary": "Trump says Iran wants to meet in Qatar after attacks, but Tehran says it is sending a delegation only over frozen funds.",
+      "published": "30 Jun 2026 18:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.318,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Warsh mengatakan dia bertekad untuk mematikan inflasi. Investor ingin tahu apakah dia benar-benar bersungguh-sungguh.",
+      "url": "https://www.marketwatch.com/story/warsh-says-hes-determined-to-slay-inflation-investors-want-to-know-if-he-really-means-it-2ada8360?mod=mw_rss_topstories",
+      "summary": "New Federal Reserve Chairman Kevin Warsh isn’t a stranger on Wall Street, but the mystery to investors is whether he’s committed as he sounds to stamp out U.S. inflation.",
+      "published": "30 Jun 2026 21:25 WIB",
       "sentiment": "Bullish",
-      "score": 0.379,
+      "score": 0.462,
       "emoji": "🟢"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Tiga orang terluka setelah ledakan di Monaco, lapor media Prancis",
-      "url": "https://www.bbc.co.uk/news/articles/cpv37wx03v7o?at_medium=RSS&at_campaign=rss",
-      "summary": "The blast at a residential building was \"very likely an attack\", Monaco's head of government tells AFP.",
-      "published": "30 Jun 2026 04:59 WIB",
+      "source": "MarketWatch",
+      "title": "Kekhawatiran terhadap inflasi terlalu berlebihan. Apa yang salah dari kelompok kenaikan suku bunga tentang pasar saham.",
+      "url": "https://www.marketwatch.com/story/wall-street-is-bracing-for-a-wave-of-fed-rate-hikes-that-may-never-come-these-sectors-stand-to-gain-63229922?mod=mw_rss_topstories",
+      "summary": "Inflation isn’t as high as you think — and Fed Chair Kevin Warsh looks less hawkish than advertised.",
+      "published": "30 Jun 2026 20:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.804,
+      "score": -0.71,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "Harga minyak mendekati level harga sebelum perang – namun risiko pasokan yang terus-menerus dapat memicu kenaikan kembali, para analis memperingatkan",
-      "url": "https://www.cnbc.com/2026/06/29/strait-of-hormuz-shipping-iran-oil-war-us.html",
-      "summary": "Commodity strategists warn that Iranian leverage in the Strait of Hormuz will continue to weigh on oil markets and shipping costs.",
-      "published": "29 Jun 2026 21:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.521,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Penjualan obligasi SpaceX senilai $25 miliar mendorong permintaan yang besar dan berpotensi memusingkan investor",
-      "url": "https://www.cnbc.com/2026/06/29/spacex-debt-diversification-equity-bond-investors-analysts.html",
-      "summary": "SpaceX’s $25 billion debt sale drew heavy demand, but analysts warn of capital spending, refinancing and investor concentration risks.",
-      "published": "29 Jun 2026 17:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.753,
-      "emoji": "🔴"
+      "title": "AeroVironment meroket 21% karena pembuat drone memanfaatkan lonjakan belanja pertahanan",
+      "url": "https://www.cnbc.com/2026/06/30/aerovironment-avav-stock-earnings-defense.html",
+      "summary": "AeroVironment is benefiting from U.S. plans to modernize the U.S. military and secure space.",
+      "published": "30 Jun 2026 20:41 WIB",
+      "sentiment": "Bullish",
+      "score": 0.52,
+      "emoji": "🟢"
     }
   ]
 }

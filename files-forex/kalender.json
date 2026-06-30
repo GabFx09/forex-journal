@@ -1,5 +1,5 @@
 {
-  "generated": "30 Jun 2026 07:02 WIB",
+  "generated": "30 Jun 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-06-28",
@@ -184,7 +184,7 @@
       "currency": "NZD",
       "impact": "low",
       "event": "ANZ Business Confidence",
-      "actual": "",
+      "actual": "36.6",
       "forecast": "",
       "previous": "10.0"
     },
@@ -206,7 +206,7 @@
       "currency": "AUD",
       "impact": "low",
       "event": "Private Sector Credit m/m",
-      "actual": "",
+      "actual": "0.7%",
       "forecast": "0.6%",
       "previous": "0.7%"
     },
@@ -217,7 +217,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "Manufacturing PMI",
-      "actual": "",
+      "actual": "50.3",
       "forecast": "50.1",
       "previous": "50.0"
     },
@@ -228,7 +228,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "Non-Manufacturing PMI",
-      "actual": "",
+      "actual": "50.2",
       "forecast": "49.9",
       "previous": "50.1"
     },
@@ -239,7 +239,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "Housing Starts y/y",
-      "actual": "",
+      "actual": "33.9%",
       "forecast": "31.8%",
       "previous": "11.4%"
     },
@@ -250,7 +250,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "German Import Prices m/m",
-      "actual": "",
+      "actual": "0.7%",
       "forecast": "0.4%",
       "previous": "1.2%"
     },
@@ -261,9 +261,9 @@
       "currency": "EUR",
       "impact": "low",
       "event": "German Retail Sales m/m",
-      "actual": "",
+      "actual": "1.1%",
       "forecast": "0.0%",
-      "previous": "-0.3%"
+      "previous": "-0.4%"
     },
     {
       "date": "2026-06-29",
@@ -272,9 +272,9 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Current Account",
-      "actual": "",
+      "actual": "-22.1B",
       "forecast": "-22.2B",
-      "previous": "-18.4B"
+      "previous": "-27.2B"
     },
     {
       "date": "2026-06-29",
@@ -283,7 +283,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Final GDP q/q",
-      "actual": "",
+      "actual": "0.6%",
       "forecast": "0.6%",
       "previous": "0.6%"
     },
@@ -294,7 +294,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Revised Business Investment q/q",
-      "actual": "",
+      "actual": "0.9%",
       "forecast": "0.7%",
       "previous": "0.7%"
     },
@@ -305,7 +305,7 @@
       "currency": "EUR",
       "impact": "medium",
       "event": "German Prelim CPI m/m",
-      "actual": "",
+      "actual": "-0.3%",
       "forecast": "0.0%",
       "previous": "-0.2%"
     },
@@ -316,7 +316,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "French Consumer Spending m/m",
-      "actual": "",
+      "actual": "0.5%",
       "forecast": "0.2%",
       "previous": "-0.5%"
     },
@@ -327,7 +327,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "French Prelim CPI m/m",
-      "actual": "",
+      "actual": "-0.2%",
       "forecast": "0.0%",
       "previous": "0.1%"
     },
@@ -338,9 +338,9 @@
       "currency": "CHF",
       "impact": "low",
       "event": "KOF Economic Barometer",
-      "actual": "",
+      "actual": "101.2",
       "forecast": "99.0",
-      "previous": "98.0"
+      "previous": "98.6"
     },
     {
       "date": "2026-06-30",
@@ -349,7 +349,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "German Unemployment Change",
-      "actual": "",
+      "actual": "-1K",
       "forecast": "7K",
       "previous": "-12K"
     },
@@ -360,7 +360,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Italian Prelim CPI m/m",
-      "actual": "",
+      "actual": "0.0%",
       "forecast": "0.2%",
       "previous": "0.4%"
     },
@@ -382,7 +382,7 @@
       "currency": "CAD",
       "impact": "high",
       "event": "GDP m/m",
-      "actual": "",
+      "actual": "0.5%",
       "forecast": "0.4%",
       "previous": "-0.1%"
     },
@@ -393,9 +393,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "HPI m/m",
-      "actual": "",
+      "actual": "-0.1%",
       "forecast": "0.2%",
-      "previous": "0.1%"
+      "previous": "0.2%"
     },
     {
       "date": "2026-06-30",
@@ -404,9 +404,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "S&P/CS Composite-20 HPI y/y",
-      "actual": "",
+      "actual": "1.1%",
       "forecast": "0.9%",
-      "previous": "0.8%"
+      "previous": "0.9%"
     },
     {
       "date": "2026-06-30",
@@ -415,7 +415,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Chicago PMI",
-      "actual": "",
+      "actual": "56.7",
       "forecast": "55.7",
       "previous": "62.7"
     },
@@ -426,9 +426,9 @@
       "currency": "USD",
       "impact": "medium",
       "event": "CB Consumer Confidence",
-      "actual": "",
+      "actual": "91.2",
       "forecast": "94.4",
-      "previous": "93.1"
+      "previous": "90.6"
     },
     {
       "date": "2026-06-30",
@@ -437,9 +437,9 @@
       "currency": "USD",
       "impact": "medium",
       "event": "JOLTS Job Openings",
-      "actual": "",
+      "actual": "7.59M",
       "forecast": "7.28M",
-      "previous": "7.62M"
+      "previous": "7.59M"
     },
     {
       "date": "2026-06-30",
@@ -801,7 +801,7 @@
       "impact": "low",
       "event": "Crude Oil Inventories",
       "actual": "",
-      "forecast": "-4.8M",
+      "forecast": "-3.4M",
       "previous": "-6.1M"
     },
     {
