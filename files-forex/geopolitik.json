@@ -1,5 +1,5 @@
 {
-  "generated": "02 Jul 2026 07:02 WIB",
+  "generated": "02 Jul 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,181 +7,171 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.414,
-      "count": 18
+      "score": -0.11,
+      "count": 15
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.38,
-      "count": 17
+      "score": -0.165,
+      "count": 14
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.372,
-      "count": 15
+      "direction": "Netral →",
+      "score": -0.002,
+      "count": 13
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.531,
-      "count": 6
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.89,
-      "count": 2
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.89,
-      "count": 2
+      "direction": "Tekanan Naik ▲",
+      "score": 0.151,
+      "count": 4
     },
     {
       "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.155,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.33,
       "count": 2
     },
     {
       "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.155,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.33,
       "count": 2
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Naik ▲",
+      "score": 1.0,
+      "count": 1
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Naik ▲",
+      "score": 1.0,
+      "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Rekap: AS dan Iran mengakhiri perundingan Doha tanpa terobosan karena status Hormuz masih belum jelas",
-      "url": "https://investinglive.com/commodities/recap-us-iran-end-doha-talks-with-no-breakthrough-as-hormuz-status-stays-unclear-20260701/",
-      "summary": "Oil prices dropped to a four month low following Trump's comments downplaying the risk of renewed conflict, with analysts cutting price forecasts for the first time since the war began. The unresolved status of the Strait of Hormuz remains the key swing factor for freight and energy markets, given t",
-      "published": "02 Jul 2026 05:25 WIB",
+      "title": "Mann, BOE: Pada bulan Juni ada lebih banyak risiko kenaikan terhadap inflasi",
+      "url": "https://investinglive.com/centralbank/boes-mann-in-june-there-were-more-upside-risks-to-inflation-20260702/",
+      "summary": "In June there were more upside risks to inflation compared to downside risks for activity The trade-off between inflation risk and activity has led me to place more weight on inflation persistence, shifting my view toward a longer hold, and potentially a need to lean against that risk Data in H2 wil",
+      "published": "02 Jul 2026 21:07 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.962,
       "emoji": "🔴"
     },
     {
       "source": "ForexLive",
-      "title": "Tawar-menawar di pasar ekuitas semakin langka karena booming AI mengangkat saham ke level tertinggi baru",
-      "url": "https://investinglive.com/stock-market-update/equity-market-bargains-grow-scarce-as-ai-boom-lifts-stocks-to-fresh-highs-20260701/",
-      "summary": "Equity markets have already run hard on the back of the US profit cycle and AI driven demand, leaving strategists warning that valuations offer fewer bargains than earlier in the cycle. Bond markets are reflecting the inflation side of the story, with long end yields climbing across developed market",
-      "published": "02 Jul 2026 05:02 WIB",
+      "title": "USD bergerak lebih rendah setelah laporan pekerjaan AS. Apa yang ditunjukkan oleh grafik kepada para trader saat ini?",
+      "url": "https://investinglive.com/technical-analysis/usd-moves-lower-after-the-us-jobs-report-what-are-the-charts-telling-traders-now-20260702/",
+      "summary": "The initial reaction was to the downside after the we can expected US jobs report. However we are seeing some clawback of the declines in the greenback. In the video above I take a look at the technical levels in play for the USDCHF, USDCAD, USDJPY and EURUSD after jobs report. What levels are in pl",
+      "published": "02 Jul 2026 20:14 WIB",
       "sentiment": "Bullish",
-      "score": 0.226,
+      "score": 0.332,
       "emoji": "🟢"
     },
     {
       "source": "ForexLive",
-      "title": "MUFG melihat euro menguat menjadi 1,20 terhadap dolar pada tahun 2027 seiring ECB mendekati puncak suku bunga",
-      "url": "https://investinglive.com/centralbank/mufg-sees-euro-rallying-to-120-against-dollar-by-2027-as-ecb-nears-rate-peak-20260701/",
-      "summary": "Rate spread dynamics are reasserting themselves as the dominant EUR/USD driver now that Middle East risk premium has largely unwound from oil prices. A narrowing gap between US and European yield expectations, as Fed hike pricing fades faster than ECB pricing, points to scope for the pair to grind h",
-      "published": "02 Jul 2026 04:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Warsh, Lagarde dan Bailey memberi sinyal kemunduran bersama dari panduan maju di Sintra",
-      "url": "https://investinglive.com/centralbank/warsh-lagarde-and-bailey-signal-joint-retreat-from-forward-guidance-at-sintra-20260701/",
-      "summary": "A coordinated retreat from forward guidance across the Fed, ECB, BOE and BOC raises the odds of choppier price action around future policy meetings, since markets will have fewer explicit signals to anchor rate expectations. Traders who have relied on dot plots and guidance language to pre-position ",
-      "published": "02 Jul 2026 04:20 WIB",
+      "title": "Daly, Fed: Di AS, terdapat pertumbuhan investasi yang sangat kuat",
+      "url": "https://investinglive.com/centralbank/feds-daly-in-the-us-theres-exceedingly-strong-investment-growth-20260702/",
+      "summary": "Don’t see any signs of lack of economic resiliency, despite above-target inflation That’s also a good sign for U.S. economy Labor market is stabilized Inflation has risen on tariffs, oil price shock Oil prices have come down, hope for relief U.S. monetary policy is slightly restrictive That should h",
+      "published": "02 Jul 2026 19:23 WIB",
       "sentiment": "Bullish",
-      "score": 0.302,
+      "score": 1.0,
       "emoji": "🟢"
     },
     {
-      "source": "ForexLive",
-      "title": "Pratinjau: RBNZ diperkirakan akan menaikkan suku bunga sebesar 25bp pada bulan Juli karena penurunan harga minyak mengaburkan prospek pengetatan",
-      "url": "https://investinglive.com/centralbank/preview-rbnz-tipped-to-hike-25bp-in-july-as-oil-slide-clouds-tightening-outlook-20260701/",
-      "summary": "Rate markets have already pared back conviction on a July move, with hike odds slipping from above 80% a week ago to a range now clustering around the high 60s to 70%. The retreat in crude toward the high USD60s a barrel, down sharply from the roughly USD101 assumed in the RBNZ's May projections, is",
-      "published": "02 Jul 2026 03:48 WIB",
+      "source": "FXStreet News",
+      "title": "Bank Sentral: Pergeseran pedoman kerangka kerja membentuk kembali analisis – Rabobank",
+      "url": "https://www.fxstreet.com/news/central-banks-framework-guidance-shift-reshapes-analysis-rabobank-202607021408",
+      "summary": "Rabobank strategist Michael Every highlights how Fed Chair Warsh and other major central bankers at Sintra are signalling a structural shift away from traditional forward guidance towards data-driven “framework guidance.” Every stresses that evolving AI, new inflation measures and reduced public tou",
+      "published": "02 Jul 2026 21:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.797,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "investBerita Live Americas FX 1 Juli: Para bankir sentral khawatir terhadap inflasi",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-1-jul-central-bankers-worry-about-inflation-20260701/",
-      "summary": "US stocks close lower. Midday rise in the Nasdaq fizzles Crude oil futures settle at $68.58.Lowest settle going back to the start of the Iran War. USDMCA: US did not agree to renew USMCA in current form. U.S.-Iran talks focus on Hormuz as toll dispute threatens nuclear deal Atlanta Fed GDPNow tumble",
-      "published": "02 Jul 2026 03:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.959,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Minyak mentah berjangka menetap di $68,58. Penetapan terendah sejak awal Perang Iran.",
-      "url": "https://investinglive.com/news/crude-oil-futures-settled-at-6858-20260701/",
-      "summary": "Crude oil futures are settling at $68.58, down $0.92 (-1.32%) on the day. The session low reached $68.03, while the high topped out at $70.19. Today's decline established a new cycle low, taking prices to their weakest level since February 27, the day before the Iran conflict began. For reference, c",
-      "published": "02 Jul 2026 02:04 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.539,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "Emas rebound mendekati $4.050 karena sikap Fed yang lebih lemah, data NFP AS menjadi fokus",
-      "url": "https://www.fxstreet.com/news/gold-rebounds-to-near-4-050-on-softer-fed-stance-us-nfp-data-in-focus-202607012316",
-      "summary": "Gold price (XAU/USD) gains momentum to around $4,045 during the early Asian session on Thursday. The precious metal recovers from near seven-month low as traders assess fresh remarks from Federal Reserve (Fed) Chairman Kevin Warsh.",
-      "published": "02 Jul 2026 06:16 WIB",
+      "title": "Meksiko: Siklus tinjauan USMCA memperpanjang ketidakpastian – Societe Generale",
+      "url": "https://www.fxstreet.com/news/mexico-usmca-review-cycle-extends-uncertainty-societe-generale-202607021353",
+      "summary": "Societe Generale’s Dev Ashish argues that the US decision to opt for annual USMCA reviews instead of a 16-year extension prolongs policy uncertainty for Mexico while leaving near-term trade flows intact.",
+      "published": "02 Jul 2026 20:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.705,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Dolar Selandia Baru: Sinyal Tata Kelola dan Perumahan RBNZ – BNY",
+      "url": "https://www.fxstreet.com/news/new-zealand-dollar-rbnz-governance-and-housing-signals-bny-202607021339",
+      "summary": "Geoff Yu reports that the RBNZ will keep its Monetary Policy Committee at six members ahead of the November election, after a split 3-3 vote in May where external members backed a hike.",
+      "published": "02 Jul 2026 20:39 WIB",
+      "sentiment": "Netral",
+      "score": 0.026,
+      "emoji": "⚪"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Dolar AS: Support jangka pendek dengan volatilitas suku bunga yang lebih tinggi – MUFG",
+      "url": "https://www.fxstreet.com/news/us-dollar-near-term-support-with-higher-rate-volatility-mufg-202607021222",
+      "summary": "MUFG’s Michael Wan notes the US Dollar strengthened as lower Eurozone CPI, comments from Kevin Warsh, and anticipation of US Non-Farm Payrolls supported the currency.",
+      "published": "02 Jul 2026 19:22 WIB",
       "sentiment": "Bullish",
-      "score": 0.743,
+      "score": 0.638,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Saham Elicio Therapeutics jatuh karena penawaran $15 juta",
+      "url": "https://www.investing.com/news/stock-market-news/elicio-therapeutics-stock-tumbles-on-15m-offering-93CH-4773442",
+      "summary": "",
+      "published": "02 Jul 2026 21:44 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Minyak Semakin Menurun karena Ekspor Saudi mencapai 90% dari Tingkat Sebelum Perang",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-01/latest-oil-market-news-and-analysis-for-july-2",
+      "summary": "Oil deepened its slide below pre-war levels as Saudi Arabia ramped up crude exports toward normal rates, extending the recovery in flows from the Persian Gulf and heightening the prospect of a supply surplus.",
+      "published": "02 Jul 2026 05:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.361,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Rick Rieder dari BlackRock tentang Laporan Pekerjaan, Pemotongan Suku Bunga Fed, Imbal Hasil",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-02/rick-rieder-on-jobs-report-fed-rate-cuts-yields-video",
+      "summary": "Rick Rieder, global fixed income CIO at BlackRock, says “hiring is stable, but I would say, broadly unimpressive,” as he examines the June US jobs report. He also discuses a timeframe for an interest rate hike from the Federal Reserve, the lack of forward guidance from the Fed, and where he sees yie",
+      "published": "02 Jul 2026 21:35 WIB",
+      "sentiment": "Bullish",
+      "score": 0.665,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Asia Turun Setelah Penjualan Chip, Minyak Turun: Pasar Membungkus",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-01/asian-stocks-to-decline-as-traders-weigh-ai-warsh-markets-wrap",
-      "summary": "Stocks in Asia were set to fall on Thursday after a selloff in US chipmakers weighed on sentiment and investors assessed fresh remarks from Federal Reserve Chairman Kevin Warsh on inflation.",
-      "published": "02 Jul 2026 05:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.108,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pemberi Pinjaman kepada Clearlake dan Tungsten yang Didukung TA Menandatangani Pakta Utang",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-01/lenders-to-clearlake-backed-tungsten-sign-pact-after-debt-slides",
-      "summary": "Lenders to Tungsten Automation have signed a pact agreeing to work together on a potential debt restructuring following a steep slide in the software company’s debt prices, according to people familiar with the matter.",
-      "published": "02 Jul 2026 04:43 WIB",
-      "sentiment": "Bearish",
-      "score": -0.692,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Google News Forex",
-      "title": "Forex Hari Ini: Dolar AS Tetap Netral karena Pasar Mempertimbangkan Sinyal Fed yang Bertentangan - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX05pYmQ1YzBybldrX0tKc3JEYTZlOUNtZjRySl9VYVczRXVVdjFUTDJzNndTRWN4MV9OUDlsV3ozTWxPX1VQNi1xcnV3cnhjczhkZ25HRGl4dnRvcnczTV9rM295OVZNaE05NHJXdjBvT2hqTXZXWEIwWDdmeGluX2VFRU53STI1YkdvRHNYaw?oc=5",
-      "summary": "Forex Today: US Dollar Holds Neutral as Markets Weigh Conflicting Fed Signals CryptoRank",
-      "published": "01 Jul 2026 07:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.74,
-      "emoji": "🔴"
+      "title": "Hassett Mengatakan Data Ketenagakerjaan Kuat, Mengkritik Powell dari Fed",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-02/hassett-says-jobs-data-strong-criticizes-fed-s-powell-video",
+      "summary": "White House National Economic Council Director Kevin Hassett reacts to the June US employment report, saying the US jobs market is on an \"upward trajectory.\" Speaking on \"Bloomberg Open Interest,\" Hassett also criticizes former Federal Reserve Chairman Jerome Powell for staying on at the central ban",
+      "published": "02 Jul 2026 21:29 WIB",
+      "sentiment": "Bullish",
+      "score": 0.361,
+      "emoji": "🟢"
     },
     {
       "source": "BBC World",
-      "title": "Dari dana pensiun Truman hingga miliaran dolar Trump – rejeki nomplok di Gedung Putih yang tak tertandingi oleh presiden mana pun",
-      "url": "https://www.bbc.co.uk/news/articles/c70yk07vq0po?at_medium=RSS&at_campaign=rss",
-      "summary": "Historians say Trump's $2.2bn income last year is unprecedented and blurs the line on conflicts of interest.",
-      "published": "02 Jul 2026 05:36 WIB",
+      "title": "Serangan 'paling besar' Rusia di Kyiv menewaskan sedikitnya 20 orang",
+      "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
+      "summary": "Kyiv's mayor declares a day of mourning after the major drone and missile attack on the Ukrainian capital.",
+      "published": "02 Jul 2026 21:43 WIB",
       "sentiment": "Bearish",
-      "score": -0.134,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Polisi Turki memukuli kami dengan tongkat besi sebelum kami kehilangan anggota tubuh karena radang dingin, kata warga Afghanistan",
-      "url": "https://www.bbc.co.uk/news/articles/ce8k4pz91n5o?at_medium=RSS&at_campaign=rss",
-      "summary": "The young migrants heading to Europe say they were stripped and had their hands tied in freezing temperatures.",
-      "published": "02 Jul 2026 05:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.322,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
@@ -196,113 +186,83 @@
     },
     {
       "source": "BBC World",
-      "title": "'Saatnya dia membayar' - Carroll meminta Trump membayar $5 juta setelah banding presiden gagal",
-      "url": "https://www.bbc.co.uk/news/articles/cn4r8n3ek80o?at_medium=RSS&at_campaign=rss",
-      "summary": "The writer's lawyers say Trump wants to delay paying the damages awarded by a jury that found the president liable for sexually abusing and defaming her.",
-      "published": "01 Jul 2026 22:48 WIB",
+      "title": "Polisi Turki memukuli kami dengan tongkat besi sebelum kami kehilangan anggota tubuh karena radang dingin, kata warga Afghanistan",
+      "url": "https://www.bbc.co.uk/news/articles/ce8k4pz91n5o?at_medium=RSS&at_campaign=rss",
+      "summary": "The young migrants heading to Europe say they were stripped and had their hands tied in freezing temperatures.",
+      "published": "02 Jul 2026 05:13 WIB",
       "sentiment": "Bearish",
-      "score": -0.924,
+      "score": -0.322,
       "emoji": "🔴"
     },
     {
-      "source": "BBC World",
-      "title": "Ibu politisi Yunani meninggal karena luka setelah serangan pembakaran",
-      "url": "https://www.bbc.co.uk/news/articles/c3eywl0eq29o?at_medium=RSS&at_campaign=rss",
-      "summary": "Three separate attacks involving petrol bombs and other improvised devices took place in Thessaloniki in the early hours of Wednesday.",
-      "published": "02 Jul 2026 01:52 WIB",
+      "source": "BBC Business",
+      "title": "Diesel mengalami penurunan bulanan terbesar dalam 26 tahun. Apa yang terjadi dengan harga bahan bakar?",
+      "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "summary": "When the US-Israel war with Iran began, fuel costs jumped, but they are now plummeting as hope of lasting peace grows.",
+      "published": "02 Jul 2026 06:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.639,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Siapakah taipan minyak Iran Shamkhani yang kapalnya terdampar di Hormuz?",
+      "url": "https://www.aljazeera.com/news/2026/7/2/who-is-iranian-oil-tycoon-shamkhani-whose-ship-is-stranded-in-hormuz?traffic_source=rss",
+      "summary": "Iranian oil shipping magnate Mohammad Hossein Shamkhani has been sanctioned by the West over his shadow fleet.",
+      "published": "02 Jul 2026 21:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.798,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Meskipun mengalami banyak kerugian, masa jabatan Mahkamah Agung meningkatkan kekuasaan Trump sebagai presiden",
-      "url": "https://www.aljazeera.com/news/2026/7/1/despite-marquee-losses-supreme-court-term-grows-trumps-presidential-power?traffic_source=rss",
-      "summary": "Set backs on tariffs, birthright citizenship overlay broad interpretation of presidential power supported by Trump.",
-      "published": "02 Jul 2026 03:26 WIB",
-      "sentiment": "Netral",
-      "score": 0.031,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Israel membunuh tiga warga Palestina di Gaza meskipun ada ‘gencatan senjata’",
-      "url": "https://www.aljazeera.com/news/2026/7/1/israel-kills-three-palestinians-in-gaza-despite-ceasefire?traffic_source=rss",
-      "summary": "An Israeli drone strike near a Gaza hospital and fuel station kills at least three people, reports Wafa news agency.",
-      "published": "02 Jul 2026 02:29 WIB",
+      "title": "Tim sepak bola wanita pertama di Gaza yang diamputasi kembali menguasai lapangan setelah perang",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/gazas-first-womens-amputee-football-team-reclaims-the-pitch-after-war?traffic_source=rss",
+      "summary": "Gaza’s first women’s amputee football team is reclaiming a space that war tried to take from them.",
+      "published": "02 Jul 2026 20:41 WIB",
       "sentiment": "Bearish",
-      "score": -0.738,
+      "score": -0.912,
       "emoji": "🔴"
     },
     {
       "source": "MarketWatch",
-      "title": "Saham ServiceNow dan Salesforce sekarang terlihat seperti dibeli, karena ketakutan 'Armageddon' terlalu ekstrem, kata analis",
-      "url": "https://www.marketwatch.com/story/servicenow-and-salesforce-shares-now-look-like-buys-as-armageddon-fears-are-too-extreme-analyst-says-3c3d8887?mod=mw_rss_topstories",
-      "summary": "A Guggenheim analyst says that valuations for the two software stocks are too depressed, even though the AI threat is real.",
-      "published": "02 Jul 2026 04:54 WIB",
+      "title": "Manajer dana ini membeli Nvidia dan SK Hynix dan menjual perangkat lunak sebelum yang lain. Pesan sederhananya tentang AI: 'Ikuti uangnya.'",
+      "url": "https://www.marketwatch.com/story/this-fund-manager-bought-nvidia-and-sk-hynix-and-sold-software-before-others-his-simple-message-on-ai-follow-the-money-c3d67bea?mod=mw_rss_topstories",
+      "summary": "Blue Whale Growth Fund manager exited software stocks before many others did.",
+      "published": "02 Jul 2026 20:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.382,
+      "emoji": "🟢"
+    },
+    {
+      "source": "CNBC Economy",
+      "title": "Perkemahan kelas atas dan peningkatan modal: AutoCamp mengandalkan perjalanan musim panas untuk mendorong pertumbuhan",
+      "url": "https://www.cnbc.com/2026/07/02/autocamp-high-end-camping-summer-travel-capital-raise.html",
+      "summary": "AutoCamp offers Airstream suites, polished cabins, fire pits, design-forward amenities and access to iconic outdoor destinations.",
+      "published": "02 Jul 2026 19:45 WIB",
+      "sentiment": "Bullish",
+      "score": 0.052,
+      "emoji": "🟢"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Rusia melancarkan serangan besar-besaran ke Ukraina sementara Polandia mengerahkan jet, Finlandia membatasi wilayah udara",
+      "url": "https://www.cnbc.com/2026/07/02/russia-launches-missile-drone-strikes-ukraine-kyiv.html",
+      "summary": "The Russian Defense Ministry said that it launched a \"massive strike using long-range precision air, land, and sea-based weapons and attack drones.\"",
+      "published": "02 Jul 2026 21:25 WIB",
       "sentiment": "Bearish",
-      "score": -0.78,
+      "score": -0.887,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "Pemerintah Korea Selatan mendiskriminasi Coupang, perusahaan-perusahaan AS, demikian temuan laporan DPR",
-      "url": "https://www.cnbc.com/2026/07/01/coupang-south-korea-coupang-house-judiciary.html",
-      "summary": "The House Judiciary Committee said the South Korean government discriminated against Coupang and other U.S. companies, in a new report.",
-      "published": "01 Jul 2026 20:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC World",
-      "title": "AS tidak akan memperbarui USMCA, sehingga membuka pintu untuk negosiasi dengan Kanada dan Meksiko",
-      "url": "https://www.cnbc.com/2026/07/01/trump-usmca-canada-mexico-trade-treaty.html",
-      "summary": "President Donald Trump's \"primary\" issue with USMCA centers on America's trade deficits with Canada and Mexico, a senior administration official said.",
-      "published": "02 Jul 2026 01:55 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Warsh menghadapi berbagai tanda inflasi alternatif ketika Fed merencanakan arah baru",
-      "url": "https://www.cnbc.com/2026/07/01/warsh-faces-multiple-alternative-inflation-signs-as-fed-charts-new-course.html",
-      "summary": "Warsh has said that inflation is a \"choice.\" The same could also be true of how inflation is measured.",
-      "published": "02 Jul 2026 00:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.341,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Kasus korupsi, peringatan investasi, permasalahan fiskal: Indonesia terus menguji investor",
-      "url": "https://www.cnbc.com/2026/07/01/corruption-cases-investibility-warnings-indonesia-tests-investors.html",
-      "summary": "This comes amid a high-profile corruption sentencing and an MSCI warning Indonesia could be downgraded to frontier-market status.",
-      "published": "01 Jul 2026 13:33 WIB",
+      "title": "Tetangga Rusia akan mencabut larangan senjata nuklir, mengatakan ‘situasinya semakin buruk’",
+      "url": "https://www.cnbc.com/2026/07/02/russia-ukraine-nato-lithuania-nuclear-weapons.html",
+      "summary": "The decision comes shortly after lawmakers in Finland voted to lift its longstanding ban on nuclear weapons.",
+      "published": "02 Jul 2026 20:07 WIB",
       "sentiment": "Bearish",
-      "score": -0.876,
+      "score": -0.919,
       "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Penggajian (payrolls) swasta naik sebesar 98.000 pada bulan Juni, lebih rendah dari perkiraan, ADP melaporkan",
-      "url": "https://www.cnbc.com/2026/07/01/private-payrolls-rose-by-98000-in-june-less-than-expected-adp-reports.html",
-      "summary": "Companies added slightly fewer workers than forecast, with hiring targeted heavily toward healthcare-related sectors.",
-      "published": "01 Jul 2026 20:41 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Beli DIP Inggris? Saham-saham pertahanan terangkat sebesar $20 miliar karena peningkatan belanja emas mendapat kecaman",
-      "url": "https://www.cnbc.com/2026/07/01/defense-stocks-uk-investment-plan-gilts-bae-systems.html",
-      "summary": "British defense stocks are marching higher once again after the U.K. confirmed a near-$20 billion military spending boost on Tuesday.",
-      "published": "01 Jul 2026 21:58 WIB",
-      "sentiment": "Bullish",
-      "score": 0.692,
-      "emoji": "🟢"
     }
   ]
 }
