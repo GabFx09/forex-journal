@@ -1,242 +1,242 @@
 {
-  "generated": "03 Jul 2026 07:02 WIB",
+  "generated": "03 Jul 2026 22:03 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.192,
-      "count": 17
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.187,
+      "score": -0.345,
+      "count": 15
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.339,
       "count": 15
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.147,
-      "count": 14
+      "score": -0.348,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.332,
-      "count": 4
+      "score": -0.493,
+      "count": 3
     },
     {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.34,
-      "count": 1
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.34,
-      "count": 1
-    },
-    {
-      "pair": "USD/RUB",
+      "pair": "EUR",
       "direction": "Tekanan Turun ▼",
-      "score": -0.871,
+      "score": -0.841,
       "count": 1
     },
     {
-      "pair": "AUD/USD",
-      "direction": "Netral →",
-      "score": 0.0,
+      "pair": "GBP",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.841,
+      "count": 1
+    },
+    {
+      "pair": "USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.841,
+      "count": 1
+    },
+    {
+      "pair": "CAD/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.376,
       "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Lagarde membela kenaikan suku bunga di bulan Juni karena inflasi inti dan guncangan pasokan masih berlanjut",
-      "url": "https://investinglive.com/centralbank/lagarde-defends-june-rate-hike-as-core-inflation-and-supply-shock-persist-20260702/",
-      "summary": "Lagarde's insistence that the June hike remains appropriate even under a more favourable Middle East scenario signals the ECB is prioritising underlying inflation persistence over a peace dividend from the Iran ceasefire, limiting scope for near-term dovish repricing. The modest 0.1 percentage point",
-      "published": "03 Jul 2026 04:33 WIB",
+      "title": "Emas bersinar pada hari libur AS",
+      "url": "https://investinglive.com/commodities/gold-shines-on-the-us-holiday-20260703/",
+      "summary": "Gold rallied in Asia and has held its gains since in quiet holiday trading. It's up $53 to $4147 and looking to climb for the first week in five. The gain today came in a burst in Asia and topped out at $4194 before chopping sideways. Gold has struggled since topping at $5418 just before the outset ",
+      "published": "03 Jul 2026 19:55 WIB",
       "sentiment": "Bullish",
-      "score": 0.393,
+      "score": 0.527,
       "emoji": "🟢"
     },
     {
       "source": "ForexLive",
-      "title": "UBS memangkas perkiraan harga minyak dengan tajam, Kuartal 3 turun $25. Rekap Minyak - Dorongan Doha.",
-      "url": "https://investinglive.com/commodities/ubs-slash-oil-price-forecasts-sharply-q3-down-25-oil-recap-doha-encouragement-20260702/",
-      "summary": "Thin, holiday-thinned trade left both benchmarks confined to tight ranges, with the market's attention pivoting from supply loss to how much crude will return to circulation now that Strait of Hormuz flows are resuming. Short covering provided the modest lift into the long US weekend, with traders w",
-      "published": "03 Jul 2026 03:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.699,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Para pejabat AS yakin Israel mungkin berencana membunuh para perunding Iran",
-      "url": "https://investinglive.com/news/us-officials-believed-israel-might-have-been-plotting-to-assassinate-irans-negotiators-20260702/",
-      "summary": "American officials were worried that Israel was plotting to kill Abbas Araghchi, Iran’s foreign minister, and Mohammad Bagher Ghalibaf, the speaker of the parliament, during ceasefire negotiations in April. The NYT reports . Fearful that an Israeli assassination effort would doom the negotiations, t",
-      "published": "03 Jul 2026 02:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.851,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pembeli AUDUSD sempat bermain-main tetapi beberapa positifnya sedang ditelusuri kembali. Apa selanjutnya?",
-      "url": "https://investinglive.com/technical-analysis/audusd-buyers-made-a-play-but-some-of-the-upside-is-being-retraced-what-next-20260702/",
-      "summary": "The AUDUSD moved higher today, extending above both its 100-hour and 200-hour moving averages. This marks the first time the pair has traded above both key averages simultaneously since breaking below them on June 17 following the more hawkish FOMC decision. Since then, the backdrop has shifted. Oil",
-      "published": "03 Jul 2026 00:01 WIB",
+      "title": "Opsi FX kedaluwarsa pada 3 Juli 10 pagi pemotongan New York",
+      "url": "https://investinglive.com/Orders/fx-option-expiries-for-3-july-10am-new-york-cut-20260703/",
+      "summary": "There are a few large expiries to take note of on the day, as highlighted in bold below. However, they do sit quite a distance away from the current spot price. As such, the expiries highlighted may not feature much into play but is worth noting just in case. The first one is for EUR/USD at the 1.15",
+      "published": "03 Jul 2026 12:49 WIB",
       "sentiment": "Bullish",
-      "score": 0.34,
+      "score": 0.739,
       "emoji": "🟢"
     },
     {
-      "source": "ForexLive",
-      "title": "BOE Mann: Melonggarkannya kondisi keuangan sejak bulan Juni akan menjadi penting untuk penilaian suku bunganya",
-      "url": "https://investinglive.com/news/boe-mann-loosening-of-financial-conditions-since-june-will-be-important-for-her-rate-vote-20260702/",
-      "summary": "Earlier today, BoE policymaker Catherine Mann reiterated a hawkish stance, saying that at the June policy meeting she saw greater upside risks to inflation than downside risks to economic activity. As a result, the balance of risks has shifted her toward favoring a longer period of restrictive polic",
-      "published": "02 Jul 2026 23:43 WIB",
+      "source": "FXStreet News",
+      "title": "Emas: Rebound harga dipandang sebagai korektif – Commerzbank",
+      "url": "https://www.fxstreet.com/news/gold-price-rebound-seen-as-corrective-commerzbank-202607031322",
+      "summary": "Commerzbank’s Carsten Fritsch notes that the Gold price has rebounded toward USD 4,200 per ounce after steep second-quarter losses, helped by weaker US labour data and reduced rate hike expectations.",
+      "published": "03 Jul 2026 20:22 WIB",
       "sentiment": "Bearish",
-      "score": -0.17,
+      "score": -0.841,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "Iran berjanji akan memberikan “tanggapan yang tegas” terhadap “kesalahan perhitungan” AS",
-      "url": "https://www.fxstreet.com/news/iran-vows-decisive-response-to-any-us-miscalculation-202607022333",
-      "summary": "Iran’s joint military command warned any US interference in the Strait of Hormuz will be met with a “decisive and swift response” as tensions continue to roil negotiations, Aljazeera news agency reported on Thursday.",
-      "published": "03 Jul 2026 06:33 WIB",
+      "title": "Euro: Risiko energi mendukung bias ECB – MUFG",
+      "url": "https://www.fxstreet.com/news/euro-energy-risks-support-ecb-bias-mufg-202607031246",
+      "summary": "MUFG’s Derek Halpenny notes that EUR/USD could benefit from US Dollar weakness and a still-hawkish European Central Bank. Derek Halpenny highlights that LNG prices remain elevated versus pre-conflict levels, keeping Eurozone inflation risks higher.",
+      "published": "03 Jul 2026 19:46 WIB",
       "sentiment": "Bearish",
-      "score": -0.619,
+      "score": -0.478,
       "emoji": "🔴"
     },
     {
       "source": "FXStreet News",
-      "title": "Dolar Australia kembali ke atas garis pertumbuhan, masih hanya penumpang",
-      "url": "https://www.fxstreet.com/news/australian-dollar-back-above-the-growth-line-still-just-a-passenger-202607022331",
-      "summary": "Thursday belonged to the US Dollar, not the Aussie. A soft American payrolls print sent AUD/USD spiking toward 0.6950 on release, before it gave most of that back to close well off its high.",
-      "published": "03 Jul 2026 06:31 WIB",
-      "sentiment": "Bullish",
-      "score": 0.572,
-      "emoji": "🟢"
+      "title": "Aluminium: Gangguan pasokan di Teluk terlihat bersifat sementara – ING",
+      "url": "https://www.fxstreet.com/news/aluminium-gulf-supply-disruptions-seen-temporary-ing-202607031212",
+      "summary": "ING analysts Warren Patterson and Ewa Manthey say LME Aluminium fell towards $3,000/t as markets unwound the geopolitical risk premium from earlier Middle East tensions.",
+      "published": "03 Jul 2026 19:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.975,
+      "emoji": "🔴"
     },
     {
-      "source": "FXStreet News",
-      "title": "Won Korea Selatan: Kekuatan ekspor gagal menghentikan kenaikan – Societe Generale",
-      "url": "https://www.fxstreet.com/news/south-korean-won-export-strength-fails-to-stop-gains-societe-generale-202607022246",
-      "summary": "Societe Generale reports that the Korean Won remains under selling pressure despite strong export growth and a wider trade surplus. USD/KRW has broken above the 1,550 psychological level, with interim resistance identified higher.",
-      "published": "03 Jul 2026 05:46 WIB",
+      "source": "Investing.com Forex",
+      "title": "Saham Eropa melaju ke rekor tertinggi karena data AS yang baik dan kemajuan geopolitik",
+      "url": "https://www.investing.com/news/stock-market-news/europe-shares-extend-record-rally-on-cool-us-data-geopolitical-progress-4775001",
+      "summary": "",
+      "published": "03 Jul 2026 20:11 WIB",
       "sentiment": "Bullish",
-      "score": 0.192,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Selandia Baru menguat karena data pekerjaan AS yang lebih lemah membebani Dolar AS",
-      "url": "https://www.fxstreet.com/news/new-zealand-dollar-rises-as-softer-us-jobs-data-weighs-on-the-us-dollar-202607022119",
-      "summary": "The NZD/USD pair advanced toward the 0.5700 level on Thursday as the US Dollar (USD) weakened following softer-than-expected United States (US) employment data.",
-      "published": "03 Jul 2026 04:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.201,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Pound Sterling memegang kendali, dengan pinjaman dari Dolar yang sedang direbut",
-      "url": "https://www.fxstreet.com/news/pound-sterling-holds-the-line-on-loan-from-a-cracking-dollar-202607022057",
-      "summary": "The Pound bounced off the long-term support line that has repeatedly held near its seven-month lows, clawing back toward the cluster of moving averages overhead.",
-      "published": "03 Jul 2026 03:57 WIB",
-      "sentiment": "Bullish",
-      "score": 0.146,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Won Korea Selatan: Risiko semikonduktor dan dinamika inflasi – BNY",
-      "url": "https://www.fxstreet.com/news/south-korean-won-semiconductor-risk-and-inflation-dynamics-bny-202607022053",
-      "summary": "BNY’s report underscores heavy selling in South Korean semiconductor stocks and warns, via the OECD’s 2026 survey, that Korea’s reliance on chip exports heightens exposure to global tech-cycle swings.",
-      "published": "03 Jul 2026 03:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.351,
+      "score": 0.743,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Warsh Menggunakan Ambiguitas Strategis: Diczok",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-02/warsh-using-strategic-ambiguity-diczok-video",
-      "summary": "Matthew Diczok, head of cross-asset market strategy for the Chief Investment Office within Bank of America, Kelsey Berro, fixed income portfolio manager at JPMorgan Asset Management. joins Scarlet Fu on \"Bloomberg Real Yield.\" (Source: Bloomberg)",
-      "published": "03 Jul 2026 04:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
-      "emoji": "🔴"
+      "title": "Hasil Survei Menunjukkan Produksi OPEC Melonjak di Bulan Juni seiring Melonjaknya Aliran Hormuz",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-03/opec-output-surged-in-june-as-hormuz-flows-jumped-survey-shows",
+      "summary": "OPEC’s crude oil production surged last month as Persian Gulf members restored exports through the Strait of Hormuz amid a peace accord between the US and Iran, according to a Bloomberg survey.",
+      "published": "03 Jul 2026 21:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.376,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Minyak Berfluktuasi Saat Arus Teluk Persia Melonjak Menuju Tingkat Sebelum Perang",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-02/latest-oil-market-news-and-analysis-for-july-1",
+      "summary": "Oil prices wavered in thin trading as the recovery of Persian Gulf flows fomented a new surplus in key parts of the global market.",
+      "published": "03 Jul 2026 05:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Marinir AS mengerahkan sistem Iron Dome ke Jepang di tengah ketegangan Tiongkok - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQODF5eHdWX0xRNURMMTMwbThrdnBocmpLMDJ3R0FWUWF2NldIZVVtMXZrSEFqRHlVbGIzTGlOeTJBY3cxTUpLYm1YMVBLdXE2cUNYMUprQWgxcUx4X2JJeno5Y3pqckRLNjZCX3BYWTN0c3FxMzdsNG4xbVo4MVkzNnBtY3pmOFZmb0w0UVhmaEw3a1EydWc?oc=5",
-      "summary": "US Marines deploy Iron Dome system to Japan amid China tensions Crypto Briefing",
-      "published": "02 Jul 2026 23:43 WIB",
+      "title": "Dolar turun tajam karena lapangan kerja melambat dan ketegangan geopolitik mereda - arabictrader.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQVV4VWdaekRkVFlfOUN6bnR2TENDNldFeGo0TDliMGY5TF95ZTZidmdQbDBETXJSNUVGNzhKS0xhMVVGeVpLcWpMejBBT0NHcmZCSy1GSHpWdjlwbHIyMTRkUWNZeEdPaXhYNTNubDFJaFRVTVlnZUpabjRnMFBMaXp0bXFtU2czSGpickJyUkM1VUJtb2JLZVYtUkhMVzloZUE4bGZQajctWlU4ZGx6cnZ2YXhHc2JqbXlKLWpyb3hxUVNMX2Rr?oc=5",
+      "summary": "The dollar declines sharply as employment slows and geopolitical tensions ease arabictrader.com",
+      "published": "02 Jul 2026 22:06 WIB",
       "sentiment": "Bearish",
-      "score": -0.74,
+      "score": -0.263,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Prancis mencatat 2.025 kematian berlebih pada puncak gelombang panas ketika Eropa bersiap menghadapi cuaca yang lebih ekstrem",
+      "url": "https://www.bbc.co.uk/news/articles/c3ry307rxqro?at_medium=RSS&at_campaign=rss",
+      "summary": "Forecasters are warning of further extreme temperatures on the continent in the next few days.",
+      "published": "03 Jul 2026 17:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.42,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Tersangka Ukraina yang diburu polisi setelah serangan bom Monaco 'menyamar sebagai laki-laki'",
+      "url": "https://www.bbc.co.uk/news/articles/c4gy603z2qlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Officials believe the suspect may not have acted alone and spent days casing out scene of the attack.",
+      "published": "03 Jul 2026 21:59 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Sedikitnya 32 orang tewas setelah bus yang penuh sesak jatuh ke jurang di Pakistan",
+      "url": "https://www.bbc.co.uk/news/articles/czrxezg60x1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The bus was travelling from Quetta to Peshawar, when it crashed in the Dana Sar mountain range.",
+      "published": "03 Jul 2026 16:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.729,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Staf keamanan akan melakukan pemogokan di Bandara Aberdeen",
+      "url": "https://www.bbc.co.uk/news/articles/c39y3expgk3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The strikes, involving baggage screening staff, are set to begin on Monday with the Unite union warning of \"significant delays\".",
+      "published": "03 Jul 2026 20:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.376,
       "emoji": "🔴"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Di Selat Hormuz, BBC menemukan kapal-kapal yang disita dan nelayan hiu kembali tenang",
-      "url": "https://www.bbc.co.uk/news/articles/cvg53ngvvpxo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC visits Bandar Abbas to see how the US-Israeli war with Iran has affected everyday life in the port city.",
-      "published": "03 Jul 2026 06:15 WIB",
+      "title": "Prancis mencatat 2.025 kematian berlebih pada puncak gelombang panas bulan Juni",
+      "url": "https://www.bbc.co.uk/news/articles/c3ry307rxqro?at_medium=RSS&at_campaign=rss",
+      "summary": "Forecasters are warning of further extreme temperatures on the continent in the next few days.",
+      "published": "03 Jul 2026 17:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Saya mengambil tanggung jawab untuk mendanai rencana pertahanan dengan sangat serius, kata Burnham",
-      "url": "https://www.bbc.co.uk/news/articles/c5yz9j7v0z6o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Makerfield MP also rejects attacks on his economic stance, insisting he would not be \"indisciplined\" on finances.",
-      "published": "03 Jul 2026 03:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.851,
+      "score": -0.42,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mungkinkah air menjadi titik konflik antara Islamabad dan New Delhi?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/7/2/could-water-become-a-flashpoint-between-islamabad-and-new-delhi?traffic_source=rss",
-      "summary": "Pakistan has warned India over the Indus Water Treaty.",
-      "published": "03 Jul 2026 04:01 WIB",
+      "title": "Para pelayat menguburkan korban pemboman kafe di Damaskus, termasuk enam pengacara yang tewas",
+      "url": "https://www.aljazeera.com/news/2026/7/3/mourners-bury-victims-of-damascus-cafe-bombing-with-six-lawyers-among-dead?traffic_source=rss",
+      "summary": "Syrian Bar Association mourns six lawyers amid international condemnation of Thursday's attack in Damascus.",
+      "published": "03 Jul 2026 21:28 WIB",
       "sentiment": "Bearish",
-      "score": -0.353,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pemerintahan Trump kembali menekan Pengadilan Kriminal Internasional",
-      "url": "https://www.aljazeera.com/news/2026/7/2/trump-administration-renews-pressure-on-international-criminal-court?traffic_source=rss",
-      "summary": "The US says it will reject any effort by court to assert authority over citizens, days after judges sue over sanctions.",
-      "published": "03 Jul 2026 02:39 WIB",
+      "title": "PBB menyuarakan ‘peringatan merah’ atas bencana hak asasi manusia di el-Obeid, Sudan",
+      "url": "https://www.aljazeera.com/news/2026/7/3/un-sounds-red-alert-over-human-rights-catastrophe-in-sudans-el-obeid?traffic_source=rss",
+      "summary": "UN human rights chief Volker Turk issued the warning over growing fears of an imminent RSF assault.",
+      "published": "03 Jul 2026 19:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.871,
+      "score": -0.994,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Para pelayat memberikan penghormatan saat pemimpin Iran yang terbunuh, Ali Khamenei, disemayamkan",
+      "url": "https://www.aljazeera.com/news/2026/7/3/mourners-pay-respects-as-irans-slain-leader-ali-khamenei-laid-in-state?traffic_source=rss",
+      "summary": "Iran begins seven-day state funeral for late ayatollah as some 100 foreign delegations arrive under a tense ceasefire",
+      "published": "03 Jul 2026 19:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.743,
       "emoji": "🔴"
     },
     {
       "source": "MarketWatch",
-      "title": "Trump mengecam Fed yang 'bermusuhan' dan mengatakan Warsh 'harus melakukan apa yang harus dia lakukan' terhadap suku bunga",
-      "url": "https://www.marketwatch.com/story/trump-blasts-hostile-fed-and-says-warsh-has-to-do-what-he-has-to-do-on-interest-rates-60b5d16b?mod=mw_rss_topstories",
-      "summary": "Trump, in the interview, also said he continues to plan to remove Fed governor Lisa Cook from the central bank’s board.",
-      "published": "03 Jul 2026 05:30 WIB",
+      "title": "Kekecewaan AI dan peningkatan hasil panen. Mengapa sebuah perusahaan riset mengerem saham-saham AS.",
+      "url": "https://www.marketwatch.com/story/a-looming-ai-disappointment-and-rising-yields-why-one-research-firm-is-hitting-the-brakes-on-u-s-stocks-4bfaa67b?mod=mw_rss_topstories",
+      "summary": "In a market dominated by tech stocks, a big test is facing investors in the next 12 months, warns MacroResearchBoard",
+      "published": "03 Jul 2026 21:17 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.717,
       "emoji": "🔴"
     },
     {
       "source": "CNBC Forex",
-      "title": "Para investor teknologi kehilangan keyakinannya karena metrik perdagangan utama mencapai level terlebar sejak tahun 2008",
+      "title": "Para investor yang bergerak di bidang teknologi kehilangan keyakinannya karena metrik perdagangan utama mencapai level terlebar sejak tahun 2008",
       "url": "https://www.cnbc.com/2026/07/02/tech-bulls-lose-conviction-as-key-trading-metric-blows-out-to-the-widest-since-2008.html",
       "summary": "The pick-up in demand for puts aligns with slowing momentum in AI stocks that had been consistently rewarding speculators to the upside.",
       "published": "03 Jul 2026 01:28 WIB",
@@ -256,32 +256,22 @@
     },
     {
       "source": "CNBC World",
-      "title": "Trump membeli Apple, Nvidia dan raksasa teknologi lainnya sebelum pembalikan tarif memicu rebound",
-      "url": "https://www.cnbc.com/2026/07/02/trump-aapl-nvda-tariffs-disclosures.html",
-      "summary": "The day before President Donald Trump walked back his tariff policy turned out to be one of his busiest days of 2025 for stock buying.",
-      "published": "03 Jul 2026 04:03 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "title": "Oman mengalami kesulitan diplomatik terkait tarif Selat Hormuz, sehingga menciptakan ‘titik buta’ bagi pasar",
+      "url": "https://www.cnbc.com/2026/07/03/oman-strait-hormuz-fees-iran-trump.html",
+      "summary": "Oman is using strategic ambiguity as talks over possible Strait of Hormuz fees raise legal, diplomatic and oil market concerns.",
+      "published": "03 Jul 2026 14:59 WIB",
+      "sentiment": "Bullish",
+      "score": 0.402,
+      "emoji": "🟢"
     },
     {
       "source": "CNBC World",
-      "title": "Rusia melancarkan serangan besar-besaran ke Ukraina sementara Polandia mengerahkan jet, Finlandia membatasi wilayah udara",
-      "url": "https://www.cnbc.com/2026/07/02/russia-launches-missile-drone-strikes-ukraine-kyiv.html",
-      "summary": "The Russian Defense Ministry said that it launched a \"massive strike using long-range precision air, land, and sea-based weapons and attack drones.\"",
-      "published": "02 Jul 2026 21:25 WIB",
+      "title": "5 kesimpulan dari wawancara Presiden Donald Trump dengan CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/5-takeaways-from-president-donald-trumps-interview-with-cnbc.html",
+      "summary": "The president defended his family's business and said he feels bad that the presidency creates a conflict of interest in any of his children's investments.",
+      "published": "03 Jul 2026 06:20 WIB",
       "sentiment": "Bearish",
-      "score": -0.887,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Jack Smith mengatakan dia 'sangat khawatir dengan apa yang akan terjadi pada pemilu berikutnya' di bawah kepemimpinan Trump",
-      "url": "https://www.cnbc.com/2026/07/02/jack-smith-trump-interview-doj.html",
-      "summary": "Smith said that he could be indicted by the Department of Justice given Trump's animus toward him for prosecuting the president in two criminal cases.",
-      "published": "03 Jul 2026 04:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.258,
       "emoji": "🔴"
     }
   ]
