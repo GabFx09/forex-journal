@@ -1,28 +1,110 @@
 {
-  "generated": "05 Jul 2026 07:01 WIB",
+  "generated": "05 Jul 2026 22:01 WIB",
   "summary": {
     "total": 29,
-    "bullish": 11,
-    "bearish": 12,
-    "netral": 6,
-    "avg_score": 0.0369,
-    "overall": "Netral",
+    "bullish": 9,
+    "bearish": 15,
+    "netral": 5,
+    "avg_score": -0.0912,
+    "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "EUR",
         "sentiment": "Bearish",
-        "score": -0.077,
-        "count": 1
+        "score": -0.272,
+        "count": 4
       },
       {
-        "currency": "GBP",
-        "sentiment": "Netral",
-        "score": 0.0,
+        "currency": "USD",
+        "sentiment": "Bearish",
+        "score": -0.088,
+        "count": 3
+      },
+      {
+        "currency": "AUD",
+        "sentiment": "Bearish",
+        "score": -0.08,
+        "count": 2
+      },
+      {
+        "currency": "CAD",
+        "sentiment": "Bearish",
+        "score": -0.103,
         "count": 1
       }
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Fokus Minggu Newsquawk: Risalah FOMC, IMP Jasa ISM AS, RBNZ, OPEC+ dan Risalah ECB",
+      "url": "https://investinglive.com/centralbank/newsquawk-week-in-focus-fomc-minutes-us-ism-services-pmi-rbnz-opec-and-ecb-minutes-20260705/",
+      "summary": "Mon: BoC Business Outlook Survey (Jul), German FactoryOrders (May), Swiss Unemployment Rate (Jun), EZ Construction PMI (Jun), RetailSales (May), PPI (May), US Composite/Services PMI Finals (Jun), ISM ServicesPMI (Jun) Tue: EIA STEO (Jul), Japanese Household Spending(May), German Industrial Productio",
+      "published": "05 Jul 2026 20:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.103,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Apakah saham Nike dibeli atau dijual setelah laporan pendapatan rumitnya baru-baru ini pada tanggal 30 Juni '26?",
+      "url": "https://investinglive.com/stocks/is-nike-stock-a-buy-or-sell-after-its-recent-tricky-earnings-report-on-30-june-26-20260705/",
+      "summary": "Nike stock analysis: Is NKE quietly building a long-term bottom after earnings? Nike stock is showing signs of a constructive long-term repair after its recent post-earnings volatility. The setup is not strong enough to justify chasing rallies, but the chart has improved enough that patient investor",
+      "published": "05 Jul 2026 18:21 WIB",
+      "sentiment": "Bullish",
+      "score": 0.89,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Saham Arab Saudi melemah pada penutupan perdagangan; Tadawul Seluruh Saham turun 0,26%",
+      "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-026-4775427",
+      "summary": "",
+      "published": "05 Jul 2026 19:45 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Mahkamah Agung AS akan menyidangkan kasus senjata api, LGBT, dan hak suara pada masa jabatan mendatang",
+      "url": "https://www.investing.com/news/stock-market-news/us-supreme-court-to-hear-gun-lgbt-voting-rights-cases-in-next-term-4775416",
+      "summary": "",
+      "published": "05 Jul 2026 17:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.296,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Pendapatan Foxconn pada kuartal kedua melonjak, perusahaan memperingatkan mengenai geopolitik",
+      "url": "https://www.investing.com/news/stock-market-news/foxconn-secondquarter-revenue-jumps-40-yy-4775408",
+      "summary": "",
+      "published": "05 Jul 2026 16:36 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Uber menghentikan ekspansi pengiriman makanan di Eropa untuk mengejar kesepakatan Delivery Hero, lapor FT",
+      "url": "https://www.investing.com/news/stock-market-news/uber-pauses-europe-food-delivery-expansion-as-it-pursues-delivery-hero-deal-ft-reports-4775399",
+      "summary": "",
+      "published": "05 Jul 2026 12:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.717,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "India kembali mendapatkan dukungan karena para investor mencari perlindungan dari perubahan pasar yang disebabkan oleh AI",
+      "url": "https://www.investing.com/news/stock-market-news/india-regains-favor-as-investors-seek-shelter-from-aidriven-market-swings-4775395",
+      "summary": "",
+      "published": "05 Jul 2026 09:43 WIB",
+      "sentiment": "Bullish",
+      "score": 0.482,
+      "emoji": "🟢"
+    },
     {
       "source": "Investing.com Forex",
       "title": "Saham Rusia melemah pada penutupan perdagangan; Indeks MOEX Rusia tidak berubah",
@@ -54,134 +136,104 @@
       "emoji": "⚪"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Apakah inflasi AI bersifat sementara?",
-      "url": "https://www.investing.com/news/stock-market-news/is-ai-inflation-transitory-4775369",
-      "summary": "",
-      "published": "04 Jul 2026 21:23 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Konflik Iran memperkuat argumen mengenai kekuasaan, logam dibandingkan minyak: ahli strategi",
-      "url": "https://www.investing.com/news/stock-market-news/iran-conflict-strengthens-case-for-power-metals-over-oil-strategist-4775367",
-      "summary": "",
-      "published": "04 Jul 2026 19:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.098,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Next dari Inggris merencanakan tawaran pengambilalihan Harvey Nichols, Sky News melaporkan",
-      "url": "https://www.investing.com/news/stock-market-news/uks-next-plans-takeover-bid-for-harvey-nichols-sky-news-reports-4775353",
-      "summary": "",
-      "published": "04 Jul 2026 18:42 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Valuasi P/E KOSPI Korea turun ke level terendah sejak krisis keuangan global",
-      "url": "https://www.investing.com/news/stock-market-news/koreas-kospi-pe-valuation-falls-to-lowest-since-global-financial-crisis-4775362",
-      "summary": "",
-      "published": "04 Jul 2026 17:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.932,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Continental menjual ContiTech ke Lone Star Funds seharga €4 miliar",
-      "url": "https://www.investing.com/news/stock-market-news/continental-sells-contitech-to-lone-star-funds-for-4-bln-4775356",
-      "summary": "",
-      "published": "04 Jul 2026 17:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.273,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Morgan Stanley beralih ke saham energi Eropa yang defensif, meningkatkan peringkat Galp",
-      "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-shifts-to-defensive-european-energy-stocks-upgrades-galp-4775214",
-      "summary": "",
-      "published": "04 Jul 2026 16:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Continental akan menjual unit ContiTech ke Lone Star Funds seharga $4,6 miliar",
-      "url": "https://www.investing.com/news/stock-market-news/continental-to-sell-contitech-unit-to-lone-star-funds-for-46-billion-4775355",
-      "summary": "",
-      "published": "04 Jul 2026 16:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.273,
-      "emoji": "🔴"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Bloomberg Akhir Pekan Ini 07/04/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-04/bloomberg-this-weekend-07-04-2026-video",
-      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Rutgers University Professor Emeritus of American Studies Robert Snyder, Retired Navy Vice Admiral ",
-      "published": "05 Jul 2026 01:50 WIB",
+      "title": "Masa Pengadilan Mencerminkan Prioritas Reagan, Bukan Trump",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-05/court-term-reflects-reagan-not-trump-priorities-video",
+      "summary": "Bloomberg Supreme Court reporter Greg Stohr says the court's latest term largely advanced long-standing conservative legal priorities rooted in the Reagan era, while rejecting several Trump-specific initiatives, including broad tariff powers. Joining David Gura and Christina Ruffini on Bloomberg Thi",
+      "published": "05 Jul 2026 21:24 WIB",
       "sentiment": "Bullish",
-      "score": 0.519,
+      "score": 0.527,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Peluang Kedua Jerman untuk Pemulihan Pertumbuhan Dimulai Sekarang",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-04/germany-s-second-chance-for-growth-rebound-starts-now",
-      "summary": "German data in the coming week showing the cumulative impact of the Iran war will set the stage for the government’s latest bid to awaken animal spirits in Europe’s biggest economy.",
-      "published": "05 Jul 2026 03:00 WIB",
+      "title": "Apa yang Terjadi di Negara Berkembang: Carry Trader Beralih Dari Dolar",
+      "url": "https://www.bloomberg.com/news/audio/2026-07-05/what-s-happening-in-em-carry-traders-shift-away-from-dollar",
+      "summary": "This week, Vinicius Andrade joins Kelsey Butler to discuss how emerging-market traders are increasingly turning to currencies from the euro to the Australian dollar to fund bets in the developing world as the US dollar roars back.",
+      "published": "05 Jul 2026 19:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.077,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Jalan Layang AS Menampilkan Kekuatan Udara Generasi Berikutnya",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-04/us-flyover-showcases-next-generation-airpower-video",
-      "summary": "Retired US Army Colonel Wayne Sanders joins Bloomberg This Weekend during the 4th of July Naval Review and tall ships parade, 'Sail4th 250' taking place in the Hudson River. Col. Sanders explains to David Gura and Christina Ruffini how this show on the Hudson underscores US military capabilities in ",
-      "published": "05 Jul 2026 01:10 WIB",
+      "title": "Carry Trader Beralih Dari Dolar untuk Taruhan Pasar Berkembang",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/carry-traders-shift-away-from-dollar-for-emerging-market-bets",
+      "summary": "Emerging-market traders are increasingly turning to currencies from the euro to the Australian dollar to fund bets in the developing world as the US dollar roars back.",
+      "published": "05 Jul 2026 19:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.077,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Durigan dari Brasil Mengatakan Batas Kredit Tidak Akan Mempengaruhi Kebijakan Moneter",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-04/brazil-s-durigan-says-credit-lines-won-t-affect-monetary-policy",
-      "summary": "Credit measures introduced by President Luiz Inácio Lula da Silva’s government do not undermine monetary policy, Finance Minister Dario Durigan said in an interview with local news website G1 published on Saturday.",
-      "published": "05 Jul 2026 00:56 WIB",
+      "title": "Perang Iran Membayangi KTT NATO",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-05/iran-war-looms-over-nato-summit-video",
+      "summary": "President Trump heads to Turkey this week, where NATO leaders will hold a crucial meeting. Bloomberg News Middle Easter Reporter Dan Williams joins David Gura and Christina Ruffini on Bloomberg This Weekend and explains that the NATO summit will focus on defense spending and support for Ukraine, but",
+      "published": "05 Jul 2026 19:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "OPEC+ Meratifikasi Rencana Kenaikan Kuota Minyak seiring Pemulihan Aliran Teluk",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/opec-agrees-another-modest-oil-output-quota-hike-for-august",
+      "summary": "Major OPEC+ members agreed to another modest increase to their collective oil-production quotas for next month, adding to the prospect of more supply eventually hitting the market if a US-Iran peace pact can stick.",
+      "published": "05 Jul 2026 17:17 WIB",
       "sentiment": "Bullish",
-      "score": 0.817,
+      "score": 0.854,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "USO Menandai 85 Tahun Mendukung Pasukan AS",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-04/uso-marks-85-years-supporting-us-troops-video",
-      "summary": "USO CEO Michael Linnington says the organization has expanded far beyond its World War II roots, operating at 260 locations worldwide to provide deployed service members with connectivity, comfort and entertainment while strengthening ties to home. Linnington also explained to Bloomberg This Weekend",
-      "published": "04 Jul 2026 23:35 WIB",
+      "title": "OPEC+ Akan Meratifikasi Rencana Kenaikan Kuota Minyak Saat Aliran Teluk Berlanjut",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/opec-agrees-in-principle-on-188k-b-d-quota-hike-delegates-say",
+      "summary": "OPEC+ has a preliminary agreement for another modest oil quota increase in August, delegates said, raising the prospect of more supply eventually hitting the market again if a US-Iran peace pact can stick.",
+      "published": "05 Jul 2026 14:47 WIB",
       "sentiment": "Bullish",
-      "score": 0.678,
+      "score": 1.0,
       "emoji": "🟢"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "BofA menyoroti dampak intervensi valuta asing terhadap cadangan devisa dan neraca bank sentral - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlNKTVN1UmdjZDlqSWxiUXZnbFBTX3dzbGtUX3Vwc0VuaEoxV3dQRFRYUUE0aHV4VWVRc21GMVE4S3JsenZSRnVqU0tMUVhTWjRNUFB2U0hndVZfZHJLSFJLdnN3NzRkMW1PdmwyRHZNNTkyMnlSdlN2cWJpQ01xZnJHZ2NZYjhBMlJOMEJHckt6Z1UySFZjQUNzT1FMMjRScDBMb0hDa282NWM?oc=5",
-      "summary": "BofA highlights FX intervention impact on reserves and central bank balance sheets Yahoo Finance",
-      "published": "04 Jul 2026 15:47 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "source": "Bloomberg Markets",
+      "title": "BOK Memperingatkan Risiko Dari ETF dengan Leverage Saham Tunggal: Yonhap",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/bok-warns-of-risks-from-single-stock-leveraged-etfs-yonhap",
+      "summary": "The Bank of Korea warned that single-stock leveraged exchange-traded funds tied to Samsung Electronics Co. and SK Hynix Inc. could deepen market concentration, amplify volatility and intensify one-way trading flows, according to a local report.",
+      "published": "05 Jul 2026 13:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Pemimpin tertinggi Iran tidak hadir saat pejabat senior menghadiri pemakaman Ayatollah",
+      "url": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the onset of the US-Israel war with Iran.",
+      "published": "05 Jul 2026 19:29 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "AS memperingati ulang tahunnya yang ke 250 dengan kembang api, jalan layang, dan cuaca ekstrem",
+      "url": "https://www.bbc.co.uk/news/articles/cp9lppvkmz5o?at_medium=RSS&at_campaign=rss",
+      "summary": "US President Donald Trump's speech included some of his political agenda but also honoured war veterans and American history.",
+      "published": "05 Jul 2026 15:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.342,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Nigeria mengatakan dua warganya tewas di Afrika Selatan di tengah meningkatnya serangan anti-migran",
+      "url": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Nigeria's government said one of its nationals was reportedly killed by police officers \"using gruesome interrogation techniques\".",
+      "published": "05 Jul 2026 20:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.997,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
@@ -194,93 +246,53 @@
       "emoji": "🔴"
     },
     {
-      "source": "BBC World",
-      "title": "Paus mendesak Eropa untuk berbuat lebih banyak bagi para migran saat ia mengunjungi pulau gerbang",
-      "url": "https://www.bbc.co.uk/news/articles/c5yz83n7q5no?at_medium=RSS&at_campaign=rss",
-      "summary": "The pontiff pays tribute to migrants who lost their lives at sea at a cemetery on the Italian island of Lampedusa.",
-      "published": "04 Jul 2026 18:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.318,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Keiko Fujimori dinyatakan sebagai pemenang pemilihan presiden Peru beberapa minggu setelah pemungutan suara",
-      "url": "https://www.bbc.co.uk/news/articles/cr5jpvv06e1o?at_medium=RSS&at_campaign=rss",
-      "summary": "The daughter of disgraced president Alberto Fujimori is declared winner of tight race nearly a month after voting took place.",
-      "published": "04 Jul 2026 14:52 WIB",
-      "sentiment": "Bullish",
-      "score": 0.681,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC World",
-      "title": "Gaun Dior, Adam Sandler dan pria terhormat: Apa yang kita ketahui tentang pernikahan Taylor dan Travis",
-      "url": "https://www.bbc.co.uk/news/articles/cvg5zn58nj2o?at_medium=RSS&at_campaign=rss",
-      "summary": "The couple tied the knot in New York on Friday, after months of speculation about when, where and how it would happen.",
-      "published": "05 Jul 2026 00:51 WIB",
-      "sentiment": "Bullish",
-      "score": 0.572,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC World",
-      "title": "Dalam gambar: Para bintang dan penggemar merayakan pernikahan Taylor Swift dan Travis Kelce",
-      "url": "https://www.bbc.co.uk/news/articles/c7vyqgy4r5lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Celebrities and sports stars were spotted as the A-list couple tied the knot in New York on Friday.",
-      "published": "04 Jul 2026 15:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.67,
-      "emoji": "🟢"
-    },
-    {
       "source": "BBC Top Stories",
-      "title": "Gaun Dior dan pria terhormat: Apa yang kita ketahui tentang pernikahan Taylor Swift dan Travis Kelce",
-      "url": "https://www.bbc.co.uk/news/articles/cvg5zn58nj2o?at_medium=RSS&at_campaign=rss",
-      "summary": "The couple tied the knot in New York on Friday, after months of speculation about when, where and how it would happen.",
-      "published": "05 Jul 2026 00:51 WIB",
+      "title": "Reformasi menyangkal aturan yang dilanggar oleh Farage setelah keuntungan dari sekutu tidak diumumkan",
+      "url": "https://www.bbc.co.uk/news/articles/cy0424end7vo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Sunday Times says the Reform UK leader failed to register the support supplied by a cryptocurrency entrepreneur who had been convicted of fraud.",
+      "published": "05 Jul 2026 19:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.827,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Setidaknya 15 tentara pemerintah Yaman tewas dalam pertempuran Hodeidah",
+      "url": "https://www.aljazeera.com/news/2026/7/5/at-least-15-yemeni-government-troops-killed-in-hodeidah-fighting?traffic_source=rss",
+      "summary": "Yemeni minister says more than 50 Houthi fighters were killed in the Hodeidah clashes.",
+      "published": "05 Jul 2026 20:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.914,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apa yang perlu diketahui tentang pembaruan serangan terkoordinasi di Mali",
+      "url": "https://www.aljazeera.com/news/2026/7/5/what-to-know-about-the-renewed-coordinated-attacks-across-mali?traffic_source=rss",
+      "summary": "Separatist Tuareg-led group and regional al-Qaeda affiliate have claimed responsibility for attacks on army positions.",
+      "published": "05 Jul 2026 19:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.78,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Tentara Indonesia menemukan jenazah pilot AS dari Papua",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/indonesian-army-recovers-us-pilots-body-from-papua?traffic_source=rss",
+      "summary": "Indonesian troops have recovered the body of American pilot Nicholas Goselin from the restive Papua region.",
+      "published": "05 Jul 2026 19:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump memuji militer AS yang memperingati 250 tahun kemerdekaannya",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/trump-praises-us-military-as-it-marks-250-years-of-independence?traffic_source=rss",
+      "summary": "Trump praises US military as it marks 250 years of independence",
+      "published": "05 Jul 2026 18:06 WIB",
       "sentiment": "Bullish",
-      "score": 0.67,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Pub dan polisi bersiap untuk kick-off Inggris-Meksiko pukul 01.00 setelah putaran balik FIFA",
-      "url": "https://www.bbc.co.uk/news/articles/cy9r2x4pz1wo?at_medium=RSS&at_campaign=rss",
-      "summary": "England's last-16 World Cup tie will kick off at 01:00 BST on Monday, after Fifa reconsidered bringing it forward.",
-      "published": "04 Jul 2026 19:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah Amerika sudah memperhitungkan sejarahnya sendiri?",
-      "url": "https://www.aljazeera.com/video/upfront/2026/7/4/has-the-us-reckoned-with-its-own-history?traffic_source=rss",
-      "summary": "Marc Lamont Hill speaks to scholar Kimberle Crenshaw on whether the US is sliding backwards on civil rights.",
-      "published": "05 Jul 2026 02:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Akankah tekanan ekonomi menggerakkan Kremlin untuk melakukan pembicaraan dengan Kyiv?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/7/4/will-economic-pressure-move-the-kremlin-towards-talks-with-kyiv?traffic_source=rss",
-      "summary": "Relentless Ukrainian strikes on refineries have caused a fuel crisis in Russia.",
-      "published": "05 Jul 2026 02:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.982,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Medvedev dari Rusia mengatakan Selat Hormuz adalah 'senjata nuklir' Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/russias-medvedev-says-strait-of-hormuz-is-irans-nuclear?traffic_source=rss",
-      "summary": "Dmitry Medvedev says Iran’s ability to disrupt traffic in the Strait of Hormuz is equivalent to possession of a nuclear.",
-      "published": "05 Jul 2026 01:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.318,
+      "score": 0.778,
       "emoji": "🟢"
     },
     {
@@ -304,14 +316,14 @@
       "emoji": "🔴"
     },
     {
-      "source": "MarketWatch",
-      "title": "Mantan istri Jelly Roll, Bunnie Xo, mengatakan dia memberinya harta warisan Tennessee senilai $6 juta sebagai bentuk perceraian",
-      "url": "https://www.marketwatch.com/story/jelly-rolls-ex-wife-bunnie-xo-says-he-gave-her-their-6-million-tennessee-estate-in-divorce-97a6c910?mod=mw_rss_topstories",
-      "summary": "Country singer Jelly Roll’s ex-wife, Bunnie Xo, has revealed that she will take full ownership of the former couple’s Tennessee compound as part of their divorce settlement.",
-      "published": "05 Jul 2026 00:57 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "source": "CNBC World",
+      "title": "Kapal kargo di Laut Merah dilaporkan diserang, kata badan maritim Inggris",
+      "url": "https://www.cnbc.com/2026/07/05/cargo-vessel-in-red-sea-reports-attack-uk-maritime-body-says.html",
+      "summary": "The incident was reported in one of the world's most crucial trade transit routes amid a fragile ceasefire between Iran and the U.S.",
+      "published": "05 Jul 2026 19:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.477,
+      "emoji": "🔴"
     }
   ]
 }
