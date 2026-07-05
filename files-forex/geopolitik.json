@@ -1,109 +1,29 @@
 {
-  "generated": "04 Jul 2026 22:02 WIB",
+  "generated": "05 Jul 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
       "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.303,
-      "count": 14
+      "direction": "Tekanan Naik ▲",
+      "score": 0.067,
+      "count": 9
     },
     {
       "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.303,
-      "count": 14
+      "direction": "Tekanan Naik ▲",
+      "score": 0.067,
+      "count": 9
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.22,
-      "count": 12
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.457,
-      "count": 3
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.124,
-      "count": 2
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.124,
-      "count": 2
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.71,
-      "count": 1
-    },
-    {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.281,
-      "count": 1
+      "direction": "Netral →",
+      "score": 0.035,
+      "count": 8
     }
   ],
   "items": [
-    {
-      "source": "ForexLive",
-      "title": "Bailey dari Bank of England mengatakan inflasi akan mencapai target jika bukan karena perang",
-      "url": "https://investinglive.com/centralbank/bank-of-englands-bailey-says-inflation-would-be-at-target-if-not-for-the-war-20260703/",
-      "summary": "BOE seeks to hit inflation target without damaging output Market pricing puts the odds of a hike in November at roughly 50%. If oil stays down here the effects of the war should be unwound quickly so we will see where inflation lands by Q4. The pound is up 6 pips to 1.3352 today and these comments w",
-      "published": "04 Jul 2026 00:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.158,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Yuan Tiongkok: Kisaran bias perdagangan tetap netral terhadap Dolar AS – UOB",
-      "url": "https://www.fxstreet.com/news/chinese-yuan-range-trade-bias-stays-neutral-against-us-dollar-uob-202607032028",
-      "summary": "UOB’s Quek Ser Leang notes that USD/CNH has seen a slight pickup in downward momentum, but still expects the pair to remain range-bound. The bank now looks for a lower intraday band around 6.7820–6.7940, while its 1–3 week view stays neutral, with USD/CNH likely to trade between 6.7750 and 6.8080.",
-      "published": "04 Jul 2026 03:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.539,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Euro: Sisi Atasnya Sedikit Berkurang Karena Jalur Kebijakan Berbeda – ABN AMRO",
-      "url": "https://www.fxstreet.com/news/euro-slightly-reduced-upside-as-policy-paths-diverge-abn-amro-202607031814",
-      "summary": "ABN AMRO’s Bill Diviney expects the US Dollar to weaken broadly but notes slightly less upside for EUR/USD after revising the bank’s ECB outlook and incorporating French and US election risks.",
-      "published": "04 Jul 2026 01:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.71,
-      "emoji": "🔴"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Tembaga: Risiko Tarif dan Ketegangan Pasokan Chile – Commerzbank",
-      "url": "https://www.fxstreet.com/news/copper-tariff-risks-and-chile-supply-strain-commerzbank-202607031747",
-      "summary": "Commerzbank analyst Norman Liebke reports that the Copper market is focused on a potential 15% US import tariff on refined Copper, which could temporarily boost US demand and prices if implemented in 2027.",
-      "published": "04 Jul 2026 00:47 WIB",
-      "sentiment": "Bullish",
-      "score": 0.281,
-      "emoji": "🟢"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Singapura: Bias Kisaran dengan Level Penting Terhadap Dolar AS – UOB",
-      "url": "https://www.fxstreet.com/news/singapore-dollar-range-bias-with-key-levels-against-us-dollar-uob-202607031716",
-      "summary": "UOB’s Quek Ser Leang notes that USD/SGD’s sharp drop toward 1.2900 looks overdone, but the pair may still test support near 1.2890 in the near term before stabilising.",
-      "published": "04 Jul 2026 00:16 WIB",
-      "sentiment": "Bullish",
-      "score": 0.421,
-      "emoji": "🟢"
-    },
     {
       "source": "Investing.com Forex",
       "title": "Next dari Inggris merencanakan tawaran pengambilalihan Harvey Nichols, Sky News melaporkan",
@@ -115,83 +35,53 @@
       "emoji": "⚪"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "SK Hynix mempertimbangkan pembayaran biaya 0,5% dalam penawaran ADR, Bloomberg News melaporkan",
-      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-considering-05-fee-payout-in-adr-offering-bloomberg-news-reports-4775339",
-      "summary": "",
-      "published": "04 Jul 2026 12:00 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Sejarah USS Intrepid Mencakup Perang, Luar Angkasa, dan 9/11",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-04/uss-intrepid-s-history-spans-war-space-and-9-11-video",
-      "summary": "President of the Intrepid Sea, Air, and Space Museum Susan Marenoff-Zausner joins Bloomberg This Weekend to share the vessel's history in World War II, the Cold War, Vietnam War, and 9/11. Marenoff-Zausner emphasized the museum's appeal, attracting over a million visitors annually, and highlighted t",
-      "published": "04 Jul 2026 21:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.961,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Perayaan Pelabuhan NY Menggaungkan Masa Lalu yang Revolusioner",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-04/ny-harbor-celebration-echoes-revolutionary-past-video",
-      "summary": "For the 4th of July, the Hudson River will have both the Naval Review and 'Sail4th 250' to celebrate the day. Retired Naval Vice Admiral Kevin Donegan and Rutgers University-Newark Professor of American Studies Robert Snyder join Bloomberg This Weekend to discuss the historical significance of the H",
-      "published": "04 Jul 2026 19:32 WIB",
+      "title": "Bloomberg Akhir Pekan Ini 07/04/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-04/bloomberg-this-weekend-07-04-2026-video",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Rutgers University Professor Emeritus of American Studies Robert Snyder, Retired Navy Vice Admiral ",
+      "published": "05 Jul 2026 01:50 WIB",
       "sentiment": "Bullish",
-      "score": 0.772,
+      "score": 0.519,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gelombang Pasokan Minyak dan Anjloknya Harga Menghidupkan Kembali Kekhawatiran Akan Kelimpahan Global",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-04/oil-s-stunning-reversal-rekindles-fears-of-a-global-glut",
-      "summary": "Oil prices are falling everywhere as a peace deal between the US and Iran unleashes a wave of supply, overwhelming demand from buyers and prompting talk of a glut of crude.",
-      "published": "04 Jul 2026 19:31 WIB",
+      "title": "Peluang Kedua Jerman untuk Pemulihan Pertumbuhan Dimulai Sekarang",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-04/germany-s-second-chance-for-growth-rebound-starts-now",
+      "summary": "German data in the coming week showing the cumulative impact of the Iran war will set the stage for the government’s latest bid to awaken animal spirits in Europe’s biggest economy.",
+      "published": "05 Jul 2026 03:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.625,
+      "score": -0.077,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "ECB Berada di 'Posisi Baik' Mengingat Data Inflasi, Kata Moulin",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-04/ecb-is-in-good-position-given-inflation-data-moulin-says",
-      "summary": "The European Central Bank is in a “good position” following an interest-rate hike last month and data showing inflation has eased with the slump in oil prices, Governing Council member Emmanuel Moulin said on Saturday.",
-      "published": "04 Jul 2026 17:05 WIB",
+      "title": "Jalan Layang AS Menampilkan Kekuatan Udara Generasi Berikutnya",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-04/us-flyover-showcases-next-generation-airpower-video",
+      "summary": "Retired US Army Colonel Wayne Sanders joins Bloomberg This Weekend during the 4th of July Naval Review and tall ships parade, 'Sail4th 250' taking place in the Hudson River. Col. Sanders explains to David Gura and Christina Ruffini how this show on the Hudson underscores US military capabilities in ",
+      "published": "05 Jul 2026 01:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.077,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "USO Menandai 85 Tahun Mendukung Pasukan AS",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-04/uso-marks-85-years-supporting-us-troops-video",
+      "summary": "USO CEO Michael Linnington says the organization has expanded far beyond its World War II roots, operating at 260 locations worldwide to provide deployed service members with connectivity, comfort and entertainment while strengthening ties to home. Linnington also explained to Bloomberg This Weekend",
+      "published": "04 Jul 2026 23:35 WIB",
       "sentiment": "Bullish",
-      "score": 0.376,
+      "score": 0.678,
       "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "CEO Total Melihat Produsen Timur Tengah Putus asa Menjual Stok Minyak",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-04/total-ceo-sees-mideast-producers-desperate-to-sell-oil-stocks",
-      "summary": "Middle East oil producers are desperate to sell crude stockpiled during the recent Persian Gulf conflict, but gasoline and diesel inventories remain constrained due to shipping worries, TotalEnergies SE Chief Executive Patrick Pouyanné said.",
-      "published": "04 Jul 2026 16:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.943,
-      "emoji": "🔴"
     },
     {
       "source": "BBC World",
       "title": "Ukraina menyerang terminal minyak utama di St Petersburg, Rusia",
       "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
       "summary": "Ukrainian President Volodymyr Zelensky says the target is key infrastructure \"that generates revenue for Russia's war\".",
-      "published": "04 Jul 2026 21:07 WIB",
+      "published": "05 Jul 2026 01:41 WIB",
       "sentiment": "Bearish",
       "score": -0.679,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Tersangka Ukraina yang diburu polisi setelah serangan bom Monaco 'menyamar sebagai laki-laki'",
-      "url": "https://www.bbc.co.uk/news/articles/c4gy603z2qlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Officials believe the suspect may not have acted alone and spent days casing out the scene of the attack.",
-      "published": "03 Jul 2026 22:20 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
       "emoji": "🔴"
     },
     {
@@ -199,7 +89,7 @@
       "title": "Gaun Dior, Adam Sandler dan pria terhormat: Apa yang kita ketahui tentang pernikahan Taylor dan Travis",
       "url": "https://www.bbc.co.uk/news/articles/cvg5zn58nj2o?at_medium=RSS&at_campaign=rss",
       "summary": "The couple tied the knot in New York on Friday, after months of speculation about when, where and how it would happen.",
-      "published": "04 Jul 2026 19:05 WIB",
+      "published": "05 Jul 2026 00:51 WIB",
       "sentiment": "Bullish",
       "score": 0.572,
       "emoji": "🟢"
@@ -215,74 +105,54 @@
       "emoji": "🟢"
     },
     {
-      "source": "BBC Business",
-      "title": "Pemogokan staf keamanan dapat dihindari di Bandara Aberdeen",
-      "url": "https://www.bbc.co.uk/news/articles/c39y3expgk3o?at_medium=RSS&at_campaign=rss",
-      "summary": "The strikes, involving baggage screening staff, were due begin on Monday with the Unite union warning of \"significant delays\".",
-      "published": "04 Jul 2026 03:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.622,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Pub dan polisi bersiap untuk kick-off Inggris-Meksiko pukul 01.00 setelah putaran balik FIFA",
-      "url": "https://www.bbc.co.uk/news/articles/cy9r2x4pz1wo?at_medium=RSS&at_campaign=rss",
-      "summary": "England's last-16 World Cup tie will kick off at 01:00BST on Monday, after Fifa reconsidered bringing it forward.",
-      "published": "04 Jul 2026 19:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
       "source": "BBC Top Stories",
       "title": "Gaun Dior dan pria terhormat: Apa yang kita ketahui tentang pernikahan Taylor Swift dan Travis Kelce",
       "url": "https://www.bbc.co.uk/news/articles/cvg5zn58nj2o?at_medium=RSS&at_campaign=rss",
       "summary": "The couple tied the knot in New York on Friday, after months of speculation about when, where and how it would happen.",
-      "published": "04 Jul 2026 19:05 WIB",
+      "published": "05 Jul 2026 00:51 WIB",
       "sentiment": "Bullish",
       "score": 0.67,
       "emoji": "🟢"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Apa arti hak baru bagi pasangan yang belum menikah bagi uang Anda?",
-      "url": "https://www.bbc.co.uk/news/articles/cx2vx4dvgzno?at_medium=RSS&at_campaign=rss",
-      "summary": "Co-habiting couples in England and Wales could be given more protections if they break up under new government proposals.",
-      "published": "04 Jul 2026 08:10 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Rusia mengharapkan pelajar untuk menutupi kerugian yang semakin besar di Ukraina",
-      "url": "https://www.bbc.co.uk/news/articles/cp8lnnr080go?at_medium=RSS&at_campaign=rss",
-      "summary": "Moscow's campaign for students to sign army contracts comes as the Kremlin seeks to sustain its war effort for a fifth year.",
-      "published": "04 Jul 2026 06:24 WIB",
+      "title": "Pub dan polisi bersiap untuk kick-off Inggris-Meksiko pukul 01.00 setelah putaran balik FIFA",
+      "url": "https://www.bbc.co.uk/news/articles/cy9r2x4pz1wo?at_medium=RSS&at_campaign=rss",
+      "summary": "England's last-16 World Cup tie will kick off at 01:00 BST on Monday, after Fifa reconsidered bringing it forward.",
+      "published": "04 Jul 2026 19:13 WIB",
       "sentiment": "Bearish",
-      "score": -0.925,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "'Lebih panas dan lebih panas dan lebih panas' - iklim baru Eropa dalam tujuh tangga lagu",
-      "url": "https://www.bbc.co.uk/news/articles/c8e2j0j87reo?at_medium=RSS&at_campaign=rss",
-      "summary": "Temperature records were smashed in June - and scientists warn this is a sign of things to come.",
-      "published": "04 Jul 2026 07:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.183,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pemulihan Nabatieh dimulai di tengah ketegangan yang sedang berlangsung di Lebanon selatan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/nabatieh-recovery-begins-amid-ongoing-southern-lebanon-tensions?traffic_source=rss",
-      "summary": "Nabatieh recovery begins amid ongoing southern Lebanon tensions",
-      "published": "04 Jul 2026 19:31 WIB",
+      "title": "Apakah Amerika sudah memperhitungkan sejarahnya sendiri?",
+      "url": "https://www.aljazeera.com/video/upfront/2026/7/4/has-the-us-reckoned-with-its-own-history?traffic_source=rss",
+      "summary": "Marc Lamont Hill speaks to scholar Kimberle Crenshaw on whether the US is sliding backwards on civil rights.",
+      "published": "05 Jul 2026 02:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.66,
+      "score": -0.08,
       "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Medvedev dari Rusia mengatakan Selat Hormuz adalah 'senjata nuklir' Iran",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/russias-medvedev-says-strait-of-hormuz-is-irans-nuclear?traffic_source=rss",
+      "summary": "Dmitry Medvedev says Iran’s ability to disrupt traffic in the Strait of Hormuz is equivalent to possession of a nuclear.",
+      "published": "05 Jul 2026 01:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.318,
+      "emoji": "🟢"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Mantan istri Jelly Roll, Bunnie Xo, mengatakan dia memberinya harta warisan Tennessee senilai $6 juta sebagai bentuk perceraian",
+      "url": "https://www.marketwatch.com/story/jelly-rolls-ex-wife-bunnie-xo-says-he-gave-her-their-6-million-tennessee-estate-in-divorce-97a6c910?mod=mw_rss_topstories",
+      "summary": "Country singer Jelly Roll’s ex-wife, Bunnie Xo, has revealed that she will take full ownership of the former couple’s Tennessee compound as part of their divorce settlement.",
+      "published": "05 Jul 2026 00:57 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
     }
   ]
 }
