@@ -1,5 +1,5 @@
 {
-  "generated": "05 Jul 2026 22:01 WIB",
+  "generated": "06 Jul 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,191 +7,291 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.704,
-      "count": 7
+      "score": -0.25,
+      "count": 18
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.742,
-      "count": 6
+      "score": -0.237,
+      "count": 17
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.747,
-      "count": 5
+      "score": -0.335,
+      "count": 15
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Netral →",
+      "score": 0.05,
+      "count": 6
     },
     {
       "pair": "CAD/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.584,
+      "score": 0.616,
       "count": 3
     },
     {
       "pair": "NOK/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.584,
+      "score": 0.616,
       "count": 3
     },
     {
-      "pair": "EUR/USD",
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.393,
+      "count": 2
+    },
+    {
+      "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.222,
-      "count": 3
-    },
-    {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.527,
-      "count": 1
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.527,
+      "score": -0.562,
       "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Fokus Minggu Newsquawk: Risalah FOMC, IMP Jasa ISM AS, RBNZ, OPEC+ dan Risalah ECB",
-      "url": "https://investinglive.com/centralbank/newsquawk-week-in-focus-fomc-minutes-us-ism-services-pmi-rbnz-opec-and-ecb-minutes-20260705/",
-      "summary": "Mon: BoC Business Outlook Survey (Jul), German FactoryOrders (May), Swiss Unemployment Rate (Jun), EZ Construction PMI (Jun), RetailSales (May), PPI (May), US Composite/Services PMI Finals (Jun), ISM ServicesPMI (Jun) Tue: EIA STEO (Jul), Japanese Household Spending(May), German Industrial Productio",
-      "published": "05 Jul 2026 20:42 WIB",
+      "title": "Modi mengatakan India akan terus memperluas penyulingan ketika negara-negara Barat menutup kapasitasnya",
+      "url": "https://investinglive.com/commodities/modi-says-india-to-keep-expanding-refining-as-west-shuts-capacity-20260705/",
+      "summary": "The Barmer commissioning underscores a widening divergence in global refining capacity, with India adding processing capability just as Western economies continue to retire ageing plants, a trend likely to shift the geography of refined product exports further toward Asia over the rest of the decade",
+      "published": "06 Jul 2026 04:55 WIB",
       "sentiment": "Bearish",
-      "score": -0.103,
+      "score": -0.16,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Kapal memutar balik di Selat Hormuz saat Iran menegaskan kendali atas rute tersebut",
+      "url": "https://investinglive.com/commodities/weekend-ships-u-turn-in-strait-of-hormuz-as-iran-asserts-control-over-route-20260705/",
+      "summary": "The episode highlights how fragile the strait's reopening remains even after the mid-June US-Iran deal, with shipping volumes still running well below pre-war levels and vulnerable to sudden disruption whenever Iran presses its claim over the authorized transit route. The rise in ships going dark, s",
+      "published": "06 Jul 2026 04:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Bank of Korea memperingatkan Samsung, SK Hynix memanfaatkan volatilitas risiko ETF",
+      "url": "https://investinglive.com/centralbank/bank-of-korea-warns-samsung-sk-hynix-leveraged-etfs-risk-volatility-20260705/",
+      "summary": "The warning signals a potential regulatory tightening around single-stock leveraged products just as they have grown into a meaningful share of trading in Korea's two largest listed companies, raising the prospect of new investment barriers or eligibility restrictions. Given Samsung and SK Hynix's o",
+      "published": "06 Jul 2026 04:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.122,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Moulin dari ECB mengatakan bank berada dalam 'posisi yang baik' seiring dengan meredanya inflasi yang didorong oleh minyak",
+      "url": "https://investinglive.com/centralbank/weekend-ecbs-moulin-says-bank-in-good-position-as-oil-driven-inflation-eases-20260705/",
+      "summary": "Moulin's comments reinforce a growing sense among some Governing Council members that the tightening cycle has peaked, a message likely to support the case for investors who have already pared bets on further hikes this year. His explicit framing of the Hormuz reopening as good news links the ECB's ",
+      "published": "06 Jul 2026 04:09 WIB",
+      "sentiment": "Bullish",
+      "score": 0.776,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI - Nagel dari ECB mengatakan bank harus tetap waspada tetapi terlalu dini untuk mengancam kenaikan suku bunga",
+      "url": "https://investinglive.com/centralbank/icymi-ecbs-nagel-says-bank-must-stay-vigilant-but-too-early-to-call-rate-hikes-20260705/",
+      "summary": "Nagel's insistence on keeping every option open, rather than signalling either an imminent hike or a pause, is likely to keep euro rate markets guarded ahead of the next meeting, with pricing probably continuing to hinge on incoming wage and services inflation data rather than forward guidance. His ",
+      "published": "06 Jul 2026 04:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.562,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Iran akan menawarkan persyaratan biaya Hormuz khusus kepada Tiongkok, kata utusan tersebut di tengah perundingan yang sulit",
+      "url": "https://investinglive.com/commodities/weekend-iran-to-offer-china-special-hormuz-fee-terms-envoy-says-amid-strait-talks-20260705/",
+      "summary": "The prospect of nationality-based fee arrangements adds a new layer of uncertainty to an already fragile reopening of the strait, with the free-transit window under the initial US-Iran deal due to expire and no clarity yet on what replaces it. Any perception that Iran and Oman intend to discriminate",
+      "published": "06 Jul 2026 03:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.551,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Kapal kargo diserang di Laut Merah di lepas pantai Yaman ketika gencatan senjata Houthi goyah",
+      "url": "https://investinglive.com/commodities/weekend-cargo-ship-attacked-in-red-sea-off-yemen-as-houthi-ceasefire-holds-shakily-20260705/",
+      "summary": "The attack lands on a route that has quietly absorbed much of the diverted flow from the Strait of Hormuz during the recent conflict, so any sign of renewed instability here carries outsized weight for freight and insurance markets even though the strait itself remains the larger price driver. Shipo",
+      "published": "06 Jul 2026 03:43 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Pendapatan Foxconn pada kuartal kedua melonjak, perusahaan merasa takut mengenai geopolitik",
-      "url": "https://www.investing.com/news/stock-market-news/foxconn-secondquarter-revenue-jumps-40-yy-4775408",
+      "title": "Genesis Minerals Australia mengajukan tawaran $3,9 miliar untuk Vault, melampaui tawaran Regis",
+      "url": "https://www.investing.com/news/stock-market-news/australias-genesis-minerals-makes-39-bln-bid-for-vault--surpasses-regis-offer-4775501",
       "summary": "",
-      "published": "05 Jul 2026 16:36 WIB",
+      "published": "06 Jul 2026 06:42 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Masa Pengadilan Mencerminkan Prioritas Reagan, Bukan Trump",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-05/court-term-reflects-reagan-not-trump-priorities-video",
-      "summary": "Bloomberg Supreme Court reporter Greg Stohr says the court's latest term largely advanced long-standing conservative legal priorities rooted in the Reagan era, while rejecting several Trump-specific initiatives, including broad tariff powers. Joining David Gura and Christina Ruffini on Bloomberg Thi",
-      "published": "05 Jul 2026 21:24 WIB",
+      "source": "Investing.com Forex",
+      "title": "EasyJet menyetujui tawaran pengambilalihan Castlelake senilai £5,2 miliar",
+      "url": "https://www.investing.com/news/stock-market-news/easyjet-agrees-to-castlelakes-52b-takeover-offer-4775483",
+      "summary": "",
+      "published": "06 Jul 2026 00:23 WIB",
       "sentiment": "Bullish",
-      "score": 0.527,
+      "score": 0.202,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "easyJet pada prinsipnya menyetujui tawaran manis Castlelake sebesar £6,90 per saham",
+      "url": "https://www.investing.com/news/stock-market-news/easyjet-agrees-in-principle-on-castlelakes-sweetened-690-per-share-bid-4775480",
+      "summary": "",
+      "published": "05 Jul 2026 23:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.459,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Perang Iran Membayangi KTT NATO",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-05/iran-war-looms-over-nato-summit-video",
-      "summary": "President Trump heads to Turkey this week, where NATO leaders will hold a crucial meeting. Bloomberg News Middle Easter Reporter Dan Williams joins David Gura and Christina Ruffini on Bloomberg This Weekend and explains that the NATO summit will focus on defense spending and support for Ukraine, but",
-      "published": "05 Jul 2026 19:04 WIB",
+      "title": "Minyak Tergelincir di Hormuz, Saham Berjangka AS Mempertahankan Kenaikan: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/stock-market-today-dow-s-p-live-updates",
+      "summary": "Oil edged lower as energy flows through the Strait of Hormuz persisted and OPEC+ signaled higher supplies. Traders were also focused on the Korean won’s first day of 24-hour trading.",
+      "published": "06 Jul 2026 05:19 WIB",
+      "sentiment": "Bullish",
+      "score": 0.679,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Perang Trump Berarti Suku Bunga Global Lebih Tinggi di Tahun-Tahun Mendatang",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/trump-s-war-means-higher-global-interest-rates-for-years-to-come",
+      "summary": "Donald Trump’s war against Iran may be over, but the repercussions for global monetary policy are here to stay.",
+      "published": "06 Jul 2026 06:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.717,
+      "score": -0.44,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "OPEC+ Meratifikasi Rencana Kenaikan Kuota Minyak seiring Pemulihan Aliran Teluk",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-05/opec-agrees-another-modest-oil-output-quota-hike-for-august",
-      "summary": "Major OPEC+ members agreed to another modest increase to their collective oil-production quotas for next month, adding to the prospect of more supply eventually hitting the market if a US-Iran peace pact can stick.",
-      "published": "05 Jul 2026 17:17 WIB",
+      "title": "Minyak Turun karena Aliran ke Hormuz Berlanjut dan OPEC+ Menandai Lebih Banyak Pasokan",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/latest-oil-market-news-and-analysis-for-july-6",
+      "summary": "Oil fell as energy flows through the Strait of Hormuz persisted and OPEC+ signaled higher supplies, fanning concerns about a potential glut.",
+      "published": "06 Jul 2026 05:02 WIB",
       "sentiment": "Bullish",
-      "score": 0.854,
+      "score": 0.273,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "OPEC+ Akan Meratifikasi Rencana Kenaikan Kuota Minyak Saat Aliran Teluk Berlanjut",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-05/opec-agrees-in-principle-on-188k-b-d-quota-hike-delegates-say",
-      "summary": "OPEC+ has a preliminary agreement for another modest oil quota increase in August, delegates said, raising the prospect of more supply eventually hitting the market again if a US-Iran peace pact can stick.",
-      "published": "05 Jul 2026 14:47 WIB",
+      "title": "Australia Membangun Kerajaan Ekspor Gas. Sekarang Serangan Baliknya Ada Di Sini",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/australia-built-a-gas-export-empire-now-the-backlash-is-here",
+      "summary": "Australia’s liquefied natural gas exporters should be riding high on a A$20 billion ($14 billion) sales windfall from the conflict in the Middle East. Instead, their good fortune has triggered a wave of public backlash.",
+      "published": "06 Jul 2026 04:00 WIB",
       "sentiment": "Bullish",
-      "score": 1.0,
+      "score": 0.317,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "BOK Memperingatkan Risiko Dari ETF dengan Leverage Saham Tunggal: Yonhap",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-05/bok-warns-of-risks-from-single-stock-leveraged-etfs-yonhap",
-      "summary": "The Bank of Korea warned that single-stock leveraged exchange-traded funds tied to Samsung Electronics Co. and SK Hynix Inc. could deepen market concentration, amplify volatility and intensify one-way trading flows, according to a local report.",
-      "published": "05 Jul 2026 13:33 WIB",
+      "title": "DanCarlin dari Hardcore History Menjelaskan: Ke Mana Kita Pergi Dari Sini?",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-05/hardcore-history-s-dan-carlin-explains-where-do-we-go-from-here",
+      "summary": "This Independence Day marks the 250th anniversary of America. But with an increasing amount of polarization and conflict, is this holiday able to bring the country together? Dan Carlin, host of Hardcore History, joins Max Chafkin on this bonus episode of the Everybody's Business podcast to answer th",
+      "published": "06 Jul 2026 03:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.673,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Taipan Supertanker Menghasilkan Jutaan dari Perjalanan Pesawat Ulang-alik Hormuz",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/the-supertanker-tycoon-making-millions-on-hormuz-shuttle-runs",
+      "summary": "Just a few weeks into the war, one of the Persian Gulf’s top oil producers quietly began sneaking its crude out of the Strait of Hormuz. Before long, the covert project became so successful that the United Arab Emirates was already approaching its pre-war rate of flows through the waterway by the ti",
+      "published": "06 Jul 2026 02:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.656,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "EasyJet Menyetujui Tawaran Terbaru Castlelake yang Mencapai £5 Miliar",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/easyjet-agrees-to-castlelake-s-5-2-billion-takeover-offer",
+      "summary": "EasyJet Plc agreed in principle to a takeover offer of more than £5 billion from Castlelake LP, which swooped in as the UK budget carrier was reeling from soaring jet fuel prices and suppressed demand after the Iran war.",
+      "published": "05 Jul 2026 23:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.717,
+      "score": -0.441,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Badai Petir di New York Meningkatkan Risiko Banjir seiring Hilangnya Panas",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/new-york-thunderstorms-raise-flood-risk-as-heat-dissipates-in-us",
+      "summary": "New York City will have a cooler, soggier Sunday now that the massive heat dome across the US East that taxed power grids and snarled transit has started to crack, while lingering high temperatures in Washington and across the Mid-Atlantic triggered air quality warnings.",
+      "published": "05 Jul 2026 20:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
       "title": "Pemimpin tertinggi Iran tidak hadir saat pejabat senior menghadiri pemakaman Ayatollah",
       "url": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the onset of the US-Israel war with Iran.",
-      "published": "05 Jul 2026 19:29 WIB",
+      "summary": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the outset of the US-Israel war with Iran.",
+      "published": "06 Jul 2026 00:58 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "AS memperingati ulang tahunnya yang ke 250 dengan kembang api, jalan layang, dan cuaca ekstrem",
-      "url": "https://www.bbc.co.uk/news/articles/cp9lppvkmz5o?at_medium=RSS&at_campaign=rss",
-      "summary": "US President Donald Trump's speech included some of his political agenda but also honoured war veterans and American history.",
-      "published": "05 Jul 2026 15:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.342,
-      "emoji": "🔴"
+      "title": "Putusan banding Marine Le Pen: Mengapa momen ini penting bagi Prancis",
+      "url": "https://www.bbc.co.uk/news/articles/clyeele4leeo?at_medium=RSS&at_campaign=rss",
+      "summary": "The leader of France's National Rally leads the opinion polls ahead of the 2027 presidential election and will now find out if she can stand.",
+      "published": "06 Jul 2026 06:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.258,
+      "emoji": "🟢"
     },
     {
       "source": "BBC World",
       "title": "Nigeria mengatakan dua warganya tewas di Afrika Selatan di tengah meningkatnya serangan anti-migran",
       "url": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss",
       "summary": "Nigeria's government said one of its nationals was reportedly killed by police officers \"using gruesome interrogation techniques\".",
-      "published": "05 Jul 2026 20:09 WIB",
+      "published": "06 Jul 2026 00:30 WIB",
       "sentiment": "Bearish",
       "score": -0.997,
       "emoji": "🔴"
     },
     {
-      "source": "BBC World",
-      "title": "Ukraina menyerang terminal minyak utama di St Petersburg, Rusia",
-      "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukrainian President Volodymyr Zelensky says the target is key infrastructure \"that generates revenue for Russia's war\".",
-      "published": "05 Jul 2026 01:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴"
-    },
-    {
       "source": "Al Jazeera",
-      "title": "Apa yang perlu diketahui tentang pembaruan serangan terkoordinasi di Mali",
-      "url": "https://www.aljazeera.com/news/2026/7/5/what-to-know-about-the-renewed-coordinated-attacks-across-mali?traffic_source=rss",
-      "summary": "Separatist Tuareg-led group and regional al-Qaeda affiliate have claimed responsibility for attacks on army positions.",
-      "published": "05 Jul 2026 19:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tentara Indonesia menemukan jenazah pilot AS dari Papua",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/indonesian-army-recovers-us-pilots-body-from-papua?traffic_source=rss",
-      "summary": "Indonesian troops have recovered the body of American pilot Nicholas Goselin from the restive Papua region.",
-      "published": "05 Jul 2026 19:00 WIB",
+      "title": "Turki bersiap untuk KTT NATO pertamanya dalam 22 tahun",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/turkiye-gears-up-for-its-first-nato-summit-in-22-years?traffic_source=rss",
+      "summary": "Leaders of the NATO member states are expected in Turkiye by July 7 for a summit - the first it will host in 22 years.",
+      "published": "06 Jul 2026 04:42 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump memuji militer AS yang memperingati 250 tahun kemerdekaannya",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/trump-praises-us-military-as-it-marks-250-years-of-independence?traffic_source=rss",
-      "summary": "Trump praises US military as it marks 250 years of independence",
-      "published": "05 Jul 2026 18:06 WIB",
+      "title": "Bagaimana kebangkitan populisme sayap kanan akan berdampak pada Amerika Latin?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/5/how-will-the-rise-of-right-wing-populism-affect-latin-america?traffic_source=rss",
+      "summary": "Conservatives are winning elections across the region.",
+      "published": "06 Jul 2026 03:34 WIB",
       "sentiment": "Bullish",
-      "score": 0.778,
+      "score": 0.527,
+      "emoji": "🟢"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "OPEC+ kembali menaikkan tingkat produksi meskipun harga minyak mentah turun",
+      "url": "https://www.marketwatch.com/story/opec-raises-output-levels-again-despite-tumbling-crude-prices-534791c8?mod=mw_rss_topstories",
+      "summary": "Major oil producers on Sunday agreed once again to modestly increase their crude production, although, as in previous months, the hike is largely symbolic until a peace deal between the U.S. and Iran sticks and the Strait of Hormuz is fully reopened to shipping traffic.",
+      "published": "06 Jul 2026 05:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.895,
       "emoji": "🟢"
     },
     {

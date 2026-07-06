@@ -1,35 +1,29 @@
 {
-  "generated": "05 Jul 2026 22:01 WIB",
+  "generated": "06 Jul 2026 07:02 WIB",
   "summary": {
-    "total": 29,
-    "bullish": 9,
-    "bearish": 15,
-    "netral": 5,
-    "avg_score": -0.0912,
-    "overall": "Bearish",
+    "total": 45,
+    "bullish": 25,
+    "bearish": 16,
+    "netral": 4,
+    "avg_score": 0.0847,
+    "overall": "Bullish",
     "currency_impact": [
       {
         "currency": "EUR",
-        "sentiment": "Bearish",
-        "score": -0.272,
-        "count": 4
+        "sentiment": "Netral",
+        "score": -0.032,
+        "count": 5
       },
       {
         "currency": "USD",
-        "sentiment": "Bearish",
-        "score": -0.088,
-        "count": 3
-      },
-      {
-        "currency": "AUD",
-        "sentiment": "Bearish",
-        "score": -0.08,
+        "sentiment": "Bullish",
+        "score": 0.947,
         "count": 2
       },
       {
-        "currency": "CAD",
-        "sentiment": "Bearish",
-        "score": -0.103,
+        "currency": "JPY",
+        "sentiment": "Bullish",
+        "score": 0.102,
         "count": 1
       }
     ]
@@ -37,22 +31,242 @@
   "items": [
     {
       "source": "ForexLive",
-      "title": "Fokus Minggu Newsquawk: Risalah FOMC, IMP Jasa ISM AS, RBNZ, OPEC+ dan Risalah ECB",
-      "url": "https://investinglive.com/centralbank/newsquawk-week-in-focus-fomc-minutes-us-ism-services-pmi-rbnz-opec-and-ecb-minutes-20260705/",
-      "summary": "Mon: BoC Business Outlook Survey (Jul), German FactoryOrders (May), Swiss Unemployment Rate (Jun), EZ Construction PMI (Jun), RetailSales (May), PPI (May), US Composite/Services PMI Finals (Jun), ISM ServicesPMI (Jun) Tue: EIA STEO (Jul), Japanese Household Spending(May), German Industrial Productio",
-      "published": "05 Jul 2026 20:42 WIB",
+      "title": "Samsung bersiap meraih lonjakan laba 18 kali lipat seiring melonjaknya permintaan memori AI",
+      "url": "https://investinglive.com/stocks/samsung-set-for-18-fold-profit-jump-as-ai-memory-demand-surges-20260705/",
+      "summary": "An 18-fold profit jump would confirm the memory sector's rally is being driven by genuine earnings momentum rather than speculation, reinforcing the trillion-dollar valuations now attached to Samsung, SK Hynix and Micron after triple-digit share gains this year. Rising DRAM and NAND prices point to ",
+      "published": "06 Jul 2026 06:35 WIB",
+      "sentiment": "Bullish",
+      "score": 1.0,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Ekuitas India muncul sebagai surga lindung nilai AI ketika reli teknologi global goyah",
+      "url": "https://investinglive.com/stock-market-update/indian-equities-emerge-as-ai-hedge-haven-as-global-tech-rally-wobbles-20260705/",
+      "summary": "The rotation into India reflects a broader search for diversification as concerns build over the durability of the AI-driven rally in markets like South Korea and Taiwan, positioning the Nifty 50 as a relative safe haven precisely because of its limited AI exposure. Falling volatility, a stabilizing",
+      "published": "06 Jul 2026 06:22 WIB",
+      "sentiment": "Bullish",
+      "score": 0.743,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Anthropic berencana membeli 1,4GW kapasitas pusat data Australia, senilai $US15 miliar",
+      "url": "https://investinglive.com/news/weekend-anthropics-plans-to-buy-14gw-of-aussie-data-centre-capacity-worth-us15-bn-20260705/",
+      "summary": "Anthropic’s plans to buy 1.4GW of Aussie data centre capacity will cost as much as $US15 billion ($21.6 billion) to build, Australian Financial Review cite a tender issued confidentially by Anthropic Anthropic is about six weeks away from making a final investment decision This article was written b",
+      "published": "06 Jul 2026 06:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.226,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Risiko intervensi Yen tetap ada karena Jepang menghadapi ketenangan yang rapuh di hari Senin",
+      "url": "https://investinglive.com/forex/yen-intervention-risk-lingers-as-japan-eyes-fragile-calm-into-monday-20260705/",
+      "summary": "Japanese markets open the week with the yen having pulled back modestly from Tuesday's 40-year low, but the underlying pressures that drove it there remain firmly in place, keeping intervention risk on the table for the session(s) ahead. The combination of a still-weak currency, rising import costs ",
+      "published": "06 Jul 2026 05:43 WIB",
+      "sentiment": "Bullish",
+      "score": 0.102,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran menjajaki penjualan minyak ke Jepang karena pembelinya menginginkan keringanan sanksi yang lebih lama",
+      "url": "https://investinglive.com/commodities/iran-explores-oil-sales-to-japan-as-buyers-seek-longer-sanctions-waiver-20260705/",
+      "summary": "Any resumption of Japanese purchases would mark a symbolic shift in Iran's export base, which has leaned heavily on Chinese buyers since 2019, though the near-term impact on flows looks limited given the temporary waiver's narrow window and unresolved shipping risk. Well-stocked Asian refiners are u",
+      "published": "06 Jul 2026 05:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.103,
+      "score": -0.619,
       "emoji": "🔴"
     },
     {
       "source": "ForexLive",
-      "title": "Apakah saham Nike dibeli atau dijual setelah laporan pendapatan rumitnya baru-baru ini pada tanggal 30 Juni '26?",
-      "url": "https://investinglive.com/stocks/is-nike-stock-a-buy-or-sell-after-its-recent-tricky-earnings-report-on-30-june-26-20260705/",
-      "summary": "Nike stock analysis: Is NKE quietly building a long-term bottom after earnings? Nike stock is showing signs of a constructive long-term repair after its recent post-earnings volatility. The setup is not strong enough to justify chasing rallies, but the chart has improved enough that patient investor",
-      "published": "05 Jul 2026 18:21 WIB",
+      "title": "Akhir Pekan - Wang Yi dari Tiongkok mengupayakan hubungan bisnis UE yang lebih erat menjelang pertemuan puncak",
+      "url": "https://investinglive.com/news/weekend-chinas-wang-yi-seeks-closer-eu-business-ties-ahead-of-summit-20260705/",
+      "summary": "The Stockholm meeting fits a broader pattern of Beijing signalling openness to foreign capital at a time of slowing domestic growth and soft consumer demand, aiming to shore up sentiment among multinationals weighing exposure to China. Coming just ahead of a China-EU leaders' summit, the outreach to",
+      "published": "06 Jul 2026 05:05 WIB",
       "sentiment": "Bullish",
-      "score": 0.89,
+      "score": 0.876,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Kontrak berjangka AS terbuka untuk perdagangan minggu baru ini. Ekuitas lebih tinggi.",
+      "url": "https://investinglive.com/stock-market-update/us-futures-are-open-for-the-new-weeks-trade-equities-higher-20260705/",
+      "summary": "S&P 500 ES futures are +0.4% to open the new week's trade. NQ +1.2% This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "06 Jul 2026 05:03 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Modi mengatakan India akan terus memperluas penyulingan ketika negara-negara Barat menutup kapasitasnya",
+      "url": "https://investinglive.com/commodities/modi-says-india-to-keep-expanding-refining-as-west-shuts-capacity-20260705/",
+      "summary": "The Barmer commissioning underscores a widening divergence in global refining capacity, with India adding processing capability just as Western economies continue to retire ageing plants, a trend likely to shift the geography of refined product exports further toward Asia over the rest of the decade",
+      "published": "06 Jul 2026 04:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.16,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Kapal memutar balik di Selat Hormuz saat Iran menegaskan kendali atas rute tersebut",
+      "url": "https://investinglive.com/commodities/weekend-ships-u-turn-in-strait-of-hormuz-as-iran-asserts-control-over-route-20260705/",
+      "summary": "The episode highlights how fragile the strait's reopening remains even after the mid-June US-Iran deal, with shipping volumes still running well below pre-war levels and vulnerable to sudden disruption whenever Iran presses its claim over the authorized transit route. The rise in ships going dark, s",
+      "published": "06 Jul 2026 04:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - CEO TotalEnergies mengatakan produsen-produsen Teluk mengabaikan minyak mentah untuk mengosongkan stok",
+      "url": "https://investinglive.com/commodities/weekend-totalenergies-ceo-says-gulf-producers-discounting-crude-to-clear-stockpiles-20260705/",
+      "summary": "Pouyanné's comments point to an unusual bifurcation in the oil complex, with crude prices collapsing on a stockpile overhang even as refined product markets stay tight and priced well above what current Brent levels would imply. That gap creates an opportunity in refining margins for companies with ",
+      "published": "06 Jul 2026 04:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.25,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Bank of Korea memperingatkan Samsung, SK Hynix memanfaatkan volatilitas risiko ETF",
+      "url": "https://investinglive.com/centralbank/bank-of-korea-warns-samsung-sk-hynix-leveraged-etfs-risk-volatility-20260705/",
+      "summary": "The warning signals a potential regulatory tightening around single-stock leveraged products just as they have grown into a meaningful share of trading in Korea's two largest listed companies, raising the prospect of new investment barriers or eligibility restrictions. Given Samsung and SK Hynix's o",
+      "published": "06 Jul 2026 04:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.122,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Moulin dari ECB mengatakan bank berada dalam 'posisi yang baik' seiring dengan meredanya inflasi yang didorong oleh minyak",
+      "url": "https://investinglive.com/centralbank/weekend-ecbs-moulin-says-bank-in-good-position-as-oil-driven-inflation-eases-20260705/",
+      "summary": "Moulin's comments reinforce a growing sense among some Governing Council members that the tightening cycle has peaked, a message likely to support the case for investors who have already pared bets on further hikes this year. His explicit framing of the Hormuz reopening as good news links the ECB's ",
+      "published": "06 Jul 2026 04:09 WIB",
+      "sentiment": "Bullish",
+      "score": 0.776,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI - Nagel dari ECB mengatakan bank harus tetap waspada tetapi terlalu dini untuk menyerukan kenaikan suku bunga",
+      "url": "https://investinglive.com/centralbank/icymi-ecbs-nagel-says-bank-must-stay-vigilant-but-too-early-to-call-rate-hikes-20260705/",
+      "summary": "Nagel's insistence on keeping every option open, rather than signalling either an imminent hike or a pause, is likely to keep euro rate markets guarded ahead of the next meeting, with pricing probably continuing to hinge on incoming wage and services inflation data rather than forward guidance. His ",
+      "published": "06 Jul 2026 04:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.574,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Iran akan menawarkan persyaratan biaya Hormuz khusus kepada Tiongkok, kata utusan tersebut di tengah perundingan yang sulit",
+      "url": "https://investinglive.com/commodities/weekend-iran-to-offer-china-special-hormuz-fee-terms-envoy-says-amid-strait-talks-20260705/",
+      "summary": "The prospect of nationality-based fee arrangements adds a new layer of uncertainty to an already fragile reopening of the strait, with the free-transit window under the initial US-Iran deal due to expire and no clarity yet on what replaces it. Any perception that Iran and Oman intend to discriminate",
+      "published": "06 Jul 2026 03:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.551,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Kapal kargo diserang di Laut Merah di lepas pantai Yaman ketika gencatan senjata Houthi goyah",
+      "url": "https://investinglive.com/commodities/weekend-cargo-ship-attacked-in-red-sea-off-yemen-as-houthi-ceasefire-holds-shakily-20260705/",
+      "summary": "The attack lands on a route that has quietly absorbed much of the diverted flow from the Strait of Hormuz during the recent conflict, so any sign of renewed instability here carries outsized weight for freight and insurance markets even though the strait itself remains the larger price driver. Shipo",
+      "published": "06 Jul 2026 03:43 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Genesis Minerals Australia mengajukan tawaran $3,9 miliar untuk Vault, melampaui tawaran Regis",
+      "url": "https://www.investing.com/news/stock-market-news/australias-genesis-minerals-makes-39-bln-bid-for-vault--surpasses-regis-offer-4775501",
+      "summary": "",
+      "published": "06 Jul 2026 06:42 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Samsung kemungkinan akan membukukan lonjakan keuntungan 18 kali lipat karena melonjaknya permintaan AI untuk memori",
+      "url": "https://www.investing.com/news/stock-market-news/samsung-likely-to-post-18fold-jump-in-profit-on-surging-ai-demand-for-memory-4775498",
+      "summary": "",
+      "published": "06 Jul 2026 06:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.34,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Saham Rusia melemah pada penutupan perdagangan; Indeks MOEX Rusia tidak berubah",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4775496",
+      "summary": "",
+      "published": "06 Jul 2026 04:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Jalur penerbangan EasyJet dari permulaan hingga kesepakatan pengambilalihan",
+      "url": "https://www.investing.com/news/stock-market-news/easyjets-flight-path-from-startup-to-takeover-deal-4775493",
+      "summary": "",
+      "published": "06 Jul 2026 03:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Analis berbagi 5 mengambil peluang Neocloud vs Hyperscaler untuk Meta",
+      "url": "https://www.investing.com/news/stock-market-news/analyst-shares-5-takes-on-the-neocloud-vs-hyperscaler-opportunities-for-meta-4775490",
+      "summary": "",
+      "published": "06 Jul 2026 02:20 WIB",
+      "sentiment": "Bullish",
+      "score": 0.586,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "EasyJet menyetujui tawaran pengambilalihan Castlelake senilai £5,2 miliar",
+      "url": "https://www.investing.com/news/stock-market-news/easyjet-agrees-to-castlelakes-52b-takeover-offer-4775483",
+      "summary": "",
+      "published": "06 Jul 2026 00:23 WIB",
+      "sentiment": "Bullish",
+      "score": 0.202,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Apa faktor utama di balik perlambatan perekrutan tenaga teknologi?",
+      "url": "https://www.investing.com/news/stock-market-news/what-are-the-key-factors-behind-the-slowdown-in-tech-hiring-4775481",
+      "summary": "",
+      "published": "05 Jul 2026 23:44 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "easyJet pada prinsipnya menyetujui tawaran manis Castlelake sebesar £6,90 per saham",
+      "url": "https://www.investing.com/news/stock-market-news/easyjet-agrees-in-principle-on-castlelakes-sweetened-690-per-share-bid-4775480",
+      "summary": "",
+      "published": "05 Jul 2026 23:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.459,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Uber menghentikan ekspansi pengiriman makanan di Eropa untuk mengejar kesepakatan Delivery Hero, lapor FT",
+      "url": "https://www.investing.com/news/stock-market-news/uber-pauses-europe-food-delivery-expansion-as-it-pursues-delivery-hero-deal-ft-reports-4775399",
+      "summary": "",
+      "published": "05 Jul 2026 22:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.717,
       "emoji": "🟢"
     },
     {
@@ -66,183 +280,143 @@
       "emoji": "⚪"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Mahkamah Agung AS akan menyidangkan kasus senjata api, LGBT, dan hak suara pada masa jabatan mendatang",
-      "url": "https://www.investing.com/news/stock-market-news/us-supreme-court-to-hear-gun-lgbt-voting-rights-cases-in-next-term-4775416",
-      "summary": "",
-      "published": "05 Jul 2026 17:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Pendapatan Foxconn pada kuartal kedua melonjak, perusahaan memperingatkan mengenai geopolitik",
-      "url": "https://www.investing.com/news/stock-market-news/foxconn-secondquarter-revenue-jumps-40-yy-4775408",
-      "summary": "",
-      "published": "05 Jul 2026 16:36 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Uber menghentikan ekspansi pengiriman makanan di Eropa untuk mengejar kesepakatan Delivery Hero, lapor FT",
-      "url": "https://www.investing.com/news/stock-market-news/uber-pauses-europe-food-delivery-expansion-as-it-pursues-delivery-hero-deal-ft-reports-4775399",
-      "summary": "",
-      "published": "05 Jul 2026 12:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.717,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "India kembali mendapatkan dukungan karena para investor mencari perlindungan dari perubahan pasar yang disebabkan oleh AI",
-      "url": "https://www.investing.com/news/stock-market-news/india-regains-favor-as-investors-seek-shelter-from-aidriven-market-swings-4775395",
-      "summary": "",
-      "published": "05 Jul 2026 09:43 WIB",
-      "sentiment": "Bullish",
-      "score": 0.482,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham Rusia melemah pada penutupan perdagangan; Indeks MOEX Rusia tidak berubah",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4775384",
-      "summary": "",
-      "published": "05 Jul 2026 04:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Pratinjau musim pendapatan Eropa: Perhatikan 3 hal ini, kata analis",
-      "url": "https://www.investing.com/news/stock-market-news/european-earnings-season-preview-watch-these-3-things-analyst-says-4775381",
-      "summary": "",
-      "published": "05 Jul 2026 03:29 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Trump Accounts akan debut saat AS memulai perayaan Hari Kemerdekaan ke-250",
-      "url": "https://www.investing.com/news/stock-market-news/trump-accounts-to-debut-as-us-kicks-off-250th-independence-day-celebrations-4775357",
-      "summary": "",
-      "published": "04 Jul 2026 23:06 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Masa Pengadilan Mencerminkan Prioritas Reagan, Bukan Trump",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-05/court-term-reflects-reagan-not-trump-priorities-video",
-      "summary": "Bloomberg Supreme Court reporter Greg Stohr says the court's latest term largely advanced long-standing conservative legal priorities rooted in the Reagan era, while rejecting several Trump-specific initiatives, including broad tariff powers. Joining David Gura and Christina Ruffini on Bloomberg Thi",
-      "published": "05 Jul 2026 21:24 WIB",
+      "title": "Minyak Tergelincir di Hormuz, Saham Berjangka AS Mempertahankan Kenaikan: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/stock-market-today-dow-s-p-live-updates",
+      "summary": "Oil edged lower as energy flows through the Strait of Hormuz persisted and OPEC+ signaled higher supplies. Traders were also focused on the Korean won’s first day of 24-hour trading.",
+      "published": "06 Jul 2026 05:19 WIB",
       "sentiment": "Bullish",
-      "score": 0.527,
+      "score": 0.679,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Apa yang Terjadi di Negara Berkembang: Carry Trader Beralih Dari Dolar",
-      "url": "https://www.bloomberg.com/news/audio/2026-07-05/what-s-happening-in-em-carry-traders-shift-away-from-dollar",
-      "summary": "This week, Vinicius Andrade joins Kelsey Butler to discuss how emerging-market traders are increasingly turning to currencies from the euro to the Australian dollar to fund bets in the developing world as the US dollar roars back.",
-      "published": "05 Jul 2026 19:30 WIB",
+      "title": "Perang Trump Berarti Suku Bunga Global Lebih Tinggi di Tahun-Tahun Mendatang",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/trump-s-war-means-higher-global-interest-rates-for-years-to-come",
+      "summary": "Donald Trump’s war against Iran may be over, but the repercussions for global monetary policy are here to stay.",
+      "published": "06 Jul 2026 06:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.44,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Carry Trader Beralih Dari Dolar untuk Taruhan Pasar Berkembang",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-05/carry-traders-shift-away-from-dollar-for-emerging-market-bets",
-      "summary": "Emerging-market traders are increasingly turning to currencies from the euro to the Australian dollar to fund bets in the developing world as the US dollar roars back.",
-      "published": "05 Jul 2026 19:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Perang Iran Membayangi KTT NATO",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-05/iran-war-looms-over-nato-summit-video",
-      "summary": "President Trump heads to Turkey this week, where NATO leaders will hold a crucial meeting. Bloomberg News Middle Easter Reporter Dan Williams joins David Gura and Christina Ruffini on Bloomberg This Weekend and explains that the NATO summit will focus on defense spending and support for Ukraine, but",
-      "published": "05 Jul 2026 19:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.717,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "OPEC+ Meratifikasi Rencana Kenaikan Kuota Minyak seiring Pemulihan Aliran Teluk",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-05/opec-agrees-another-modest-oil-output-quota-hike-for-august",
-      "summary": "Major OPEC+ members agreed to another modest increase to their collective oil-production quotas for next month, adding to the prospect of more supply eventually hitting the market if a US-Iran peace pact can stick.",
-      "published": "05 Jul 2026 17:17 WIB",
+      "title": "Minyak Turun karena Aliran ke Hormuz Berlanjut dan OPEC+ Menandai Lebih Banyak Pasokan",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/latest-oil-market-news-and-analysis-for-july-6",
+      "summary": "Oil fell as energy flows through the Strait of Hormuz persisted and OPEC+ signaled higher supplies, fanning concerns about a potential glut.",
+      "published": "06 Jul 2026 05:02 WIB",
       "sentiment": "Bullish",
-      "score": 0.854,
+      "score": 0.273,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "OPEC+ Akan Meratifikasi Rencana Kenaikan Kuota Minyak Saat Aliran Teluk Berlanjut",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-05/opec-agrees-in-principle-on-188k-b-d-quota-hike-delegates-say",
-      "summary": "OPEC+ has a preliminary agreement for another modest oil quota increase in August, delegates said, raising the prospect of more supply eventually hitting the market again if a US-Iran peace pact can stick.",
-      "published": "05 Jul 2026 14:47 WIB",
+      "title": "Won Korea Naik Lebih Tinggi pada Hari Pertama Perdagangan 24 Jam",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/korean-won-edges-higher-on-first-day-of-24-hour-trading",
+      "summary": "The South Korean won inched higher against the dollar as the currency began its first day of 24-hour trading.",
+      "published": "06 Jul 2026 04:05 WIB",
       "sentiment": "Bullish",
-      "score": 1.0,
+      "score": 0.893,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "BOK Memperingatkan Risiko Dari ETF dengan Leverage Saham Tunggal: Yonhap",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-05/bok-warns-of-risks-from-single-stock-leveraged-etfs-yonhap",
-      "summary": "The Bank of Korea warned that single-stock leveraged exchange-traded funds tied to Samsung Electronics Co. and SK Hynix Inc. could deepen market concentration, amplify volatility and intensify one-way trading flows, according to a local report.",
-      "published": "05 Jul 2026 13:33 WIB",
+      "title": "Australia Membangun Kerajaan Ekspor Gas. Sekarang Serangan Baliknya Ada Di Sini",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/australia-built-a-gas-export-empire-now-the-backlash-is-here",
+      "summary": "Australia’s liquefied natural gas exporters should be riding high on a A$20 billion ($14 billion) sales windfall from the conflict in the Middle East. Instead, their good fortune has triggered a wave of public backlash.",
+      "published": "06 Jul 2026 04:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.317,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bagaimana Jaringan Toko Kelontong Besar Ini Menjadi Favorit Kultus",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-05/how-this-major-grocery-store-chain-became-a-cult-favorite",
+      "summary": "Aldi has long been known for its low prices even on items like wagyu ground beef. But the European grocery giant also has a loyal fanbase that follows its famed aisle of limited-time, unexpected finds. US Chief Commercial Officer Scott Patton joins Joe Weisenthal and Tracy Alloway on the Odd Lots po",
+      "published": "06 Jul 2026 03:56 WIB",
       "sentiment": "Bearish",
-      "score": -0.717,
+      "score": -0.412,
       "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "DanCarlin dari Hardcore History Menjelaskan: Ke Mana Kita Pergi Dari Sini?",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-05/hardcore-history-s-dan-carlin-explains-where-do-we-go-from-here",
+      "summary": "This Independence Day marks the 250th anniversary of America. But with an increasing amount of polarization and conflict, is this holiday able to bring the country together? Dan Carlin, host of Hardcore History, joins Max Chafkin on this bonus episode of the Everybody's Business podcast to answer th",
+      "published": "06 Jul 2026 03:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.673,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Taipan Supertanker Menghasilkan Jutaan dari Perjalanan Pesawat Ulang-alik Hormuz",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/the-supertanker-tycoon-making-millions-on-hormuz-shuttle-runs",
+      "summary": "Just a few weeks into the war, one of the Persian Gulf’s top oil producers quietly began sneaking its crude out of the Strait of Hormuz. Before long, the covert project became so successful that the United Arab Emirates was already approaching its pre-war rate of flows through the waterway by the ti",
+      "published": "06 Jul 2026 02:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.656,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "EasyJet Menyetujui Tawaran Terbaru Castlelake yang Mencapai £5 Miliar",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/easyjet-agrees-to-castlelake-s-5-2-billion-takeover-offer",
+      "summary": "EasyJet Plc agreed in principle to a takeover offer of more than £5 billion from Castlelake LP, which swooped in as the UK budget carrier was reeling from soaring jet fuel prices and suppressed demand after the Iran war.",
+      "published": "05 Jul 2026 23:21 WIB",
+      "sentiment": "Bearish",
+      "score": -0.441,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Badai Petir di New York Meningkatkan Risiko Banjir seiring Hilangnya Panas",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/new-york-thunderstorms-raise-flood-risk-as-heat-dissipates-in-us",
+      "summary": "New York City will have a cooler, soggier Sunday now that the massive heat dome across the US East that taxed power grids and snarled transit has started to crack, while lingering high temperatures in Washington and across the Mid-Atlantic triggered air quality warnings.",
+      "published": "05 Jul 2026 20:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Google News Forex",
+      "title": "Somaliland Tetapkan Nilai Tukar Baru, Permudah Aturan Uang Seluler dalam Upaya Memperkuat Perekonomian - FTL Somalia",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbE5aY0tjLVVxcWd3eDV1dFNwSUg4TDQwVGk5THdoMmlmYzRXdkVrQm5mS2FpaDF3VDFoMkFXeVJueENJd2ZZNXU2SmlBbnNITFdtOWJTdmRmX1R1UWZCWFp2bTBOMTlCV0txaERwMTA4azZ4M1UzMzJaZzBmd0ltTXNfcjZWYUJkam40alNoNjdOcGx3NC1UbDk2V0wtZi1DaWljZmtjSUZqRUlPd19kQXp6ZHZWZw?oc=5",
+      "summary": "Somaliland Sets New Exchange Rate, Eases Mobile Money Rules in Bid to Strengthen Economy FTL Somalia",
+      "published": "05 Jul 2026 20:41 WIB",
+      "sentiment": "Bullish",
+      "score": 0.802,
+      "emoji": "🟢"
     },
     {
       "source": "BBC World",
       "title": "Pemimpin tertinggi Iran tidak hadir saat pejabat senior menghadiri pemakaman Ayatollah",
       "url": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the onset of the US-Israel war with Iran.",
-      "published": "05 Jul 2026 19:29 WIB",
+      "summary": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the outset of the US-Israel war with Iran.",
+      "published": "06 Jul 2026 00:58 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "AS memperingati ulang tahunnya yang ke 250 dengan kembang api, jalan layang, dan cuaca ekstrem",
-      "url": "https://www.bbc.co.uk/news/articles/cp9lppvkmz5o?at_medium=RSS&at_campaign=rss",
-      "summary": "US President Donald Trump's speech included some of his political agenda but also honoured war veterans and American history.",
-      "published": "05 Jul 2026 15:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.342,
-      "emoji": "🔴"
+      "title": "Putusan banding Marine Le Pen: Mengapa momen ini penting bagi Prancis",
+      "url": "https://www.bbc.co.uk/news/articles/clyeele4leeo?at_medium=RSS&at_campaign=rss",
+      "summary": "The leader of France's National Rally leads the opinion polls ahead of the 2027 presidential election and will now find out if she can stand.",
+      "published": "06 Jul 2026 06:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.258,
+      "emoji": "🟢"
     },
     {
       "source": "BBC World",
       "title": "Nigeria mengatakan dua warganya tewas di Afrika Selatan di tengah meningkatnya serangan anti-migran",
       "url": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss",
       "summary": "Nigeria's government said one of its nationals was reportedly killed by police officers \"using gruesome interrogation techniques\".",
-      "published": "05 Jul 2026 20:09 WIB",
+      "published": "06 Jul 2026 00:30 WIB",
       "sentiment": "Bearish",
       "score": -0.997,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Ukraina menyerang terminal minyak utama di St Petersburg, Rusia",
-      "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukrainian President Volodymyr Zelensky says the target is key infrastructure \"that generates revenue for Russia's war\".",
-      "published": "05 Jul 2026 01:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
       "emoji": "🔴"
     },
     {
@@ -250,70 +424,50 @@
       "title": "Reformasi menyangkal aturan yang dilanggar oleh Farage setelah keuntungan dari sekutu tidak diumumkan",
       "url": "https://www.bbc.co.uk/news/articles/cy0424end7vo?at_medium=RSS&at_campaign=rss",
       "summary": "The Sunday Times says the Reform UK leader failed to register the support supplied by a cryptocurrency entrepreneur who had been convicted of fraud.",
-      "published": "05 Jul 2026 19:31 WIB",
+      "published": "06 Jul 2026 04:43 WIB",
       "sentiment": "Bearish",
       "score": -0.827,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Setidaknya 15 tentara pemerintah Yaman tewas dalam pertempuran Hodeidah",
-      "url": "https://www.aljazeera.com/news/2026/7/5/at-least-15-yemeni-government-troops-killed-in-hodeidah-fighting?traffic_source=rss",
-      "summary": "Yemeni minister says more than 50 Houthi fighters were killed in the Hodeidah clashes.",
-      "published": "05 Jul 2026 20:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.914,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apa yang perlu diketahui tentang pembaruan serangan terkoordinasi di Mali",
-      "url": "https://www.aljazeera.com/news/2026/7/5/what-to-know-about-the-renewed-coordinated-attacks-across-mali?traffic_source=rss",
-      "summary": "Separatist Tuareg-led group and regional al-Qaeda affiliate have claimed responsibility for attacks on army positions.",
-      "published": "05 Jul 2026 19:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tentara Indonesia menemukan jenazah pilot AS dari Papua",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/indonesian-army-recovers-us-pilots-body-from-papua?traffic_source=rss",
-      "summary": "Indonesian troops have recovered the body of American pilot Nicholas Goselin from the restive Papua region.",
-      "published": "05 Jul 2026 19:00 WIB",
+      "title": "Turki bersiap untuk KTT NATO pertamanya dalam 22 tahun",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/turkiye-gears-up-for-its-first-nato-summit-in-22-years?traffic_source=rss",
+      "summary": "Leaders of the NATO member states are expected in Turkiye by July 7 for a summit - the first it will host in 22 years.",
+      "published": "06 Jul 2026 04:42 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump memuji militer AS yang memperingati 250 tahun kemerdekaannya",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/trump-praises-us-military-as-it-marks-250-years-of-independence?traffic_source=rss",
-      "summary": "Trump praises US military as it marks 250 years of independence",
-      "published": "05 Jul 2026 18:06 WIB",
+      "title": "Bagaimana kebangkitan populisme sayap kanan akan berdampak pada Amerika Latin?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/5/how-will-the-rise-of-right-wing-populism-affect-latin-america?traffic_source=rss",
+      "summary": "Conservatives are winning elections across the region.",
+      "published": "06 Jul 2026 03:34 WIB",
       "sentiment": "Bullish",
-      "score": 0.778,
+      "score": 0.527,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Australia mengalahkan Inggris untuk memenangkan rekor Piala Dunia T20 Wanita ketujuh",
+      "url": "https://www.aljazeera.com/sports/2026/7/5/australia-thrash-england-to-win-record-seventh-womens-t20-world-cup?traffic_source=rss",
+      "summary": "Beth Mooney (64) and Phoebe Litchfield (48) lead Australia’s stunning seven-wicket win over the hosts at Lord’s.",
+      "published": "06 Jul 2026 02:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.881,
       "emoji": "🟢"
     },
     {
       "source": "MarketWatch",
-      "title": "Mengapa seorang pendiri di usia 50 tahun memiliki kemungkinan dua kali lebih besar untuk meraih kesuksesan dibandingkan pendiri di usia 30 tahun",
-      "url": "https://www.marketwatch.com/story/older-workers-are-fighting-ageism-by-starting-their-own-businesses-and-theyre-outperforming-younger-entrepreneurs-5fc701fc?mod=mw_rss_topstories",
-      "summary": "Older workers are fighting ageism by starting their own businesses — and they’re outperforming younger entrepreneurs",
-      "published": "05 Jul 2026 01:56 WIB",
+      "title": "OPEC+ kembali menaikkan tingkat produksi meskipun harga minyak mentah turun",
+      "url": "https://www.marketwatch.com/story/opec-raises-output-levels-again-despite-tumbling-crude-prices-534791c8?mod=mw_rss_topstories",
+      "summary": "Major oil producers on Sunday agreed once again to modestly increase their crude production, although, as in previous months, the hike is largely symbolic until a peace deal between the U.S. and Iran sticks and the Strait of Hormuz is fully reopened to shipping traffic.",
+      "published": "06 Jul 2026 05:30 WIB",
       "sentiment": "Bullish",
-      "score": 0.296,
+      "score": 0.895,
       "emoji": "🟢"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Mengapa data pekerjaan dan inflasi bulan Juni bersifat bullish untuk obligasi",
-      "url": "https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories",
-      "summary": "The new jobs report is worse than many people realize.",
-      "published": "05 Jul 2026 01:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.477,
-      "emoji": "🔴"
     },
     {
       "source": "CNBC World",
