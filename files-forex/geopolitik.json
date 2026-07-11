@@ -1,5 +1,5 @@
 {
-  "generated": "11 Jul 2026 07:02 WIB",
+  "generated": "11 Jul 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,25 +7,25 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.208,
-      "count": 18
+      "score": -0.14,
+      "count": 21
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.218,
-      "count": 12
+      "score": -0.188,
+      "count": 15
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.13,
-      "count": 8
+      "direction": "Netral →",
+      "score": 0.011,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.22,
+      "score": -0.259,
       "count": 8
     },
     {
@@ -43,8 +43,8 @@
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.317,
-      "count": 2
+      "score": -1.0,
+      "count": 1
     }
   ],
   "items": [
@@ -80,7 +80,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "USD bergerak lebih tinggi karena para pedagang bereaksi terhadap komentar Trump",
+      "title": "USD bergerak lebih tinggi karena pedagang bereaksi terhadap komentar Trump",
       "url": "https://investinglive.com/technical-analysis/usd-moves-higher-as-traders-react-to-trump-comments/",
       "summary": "The latest geopolitical headlines once again reminded traders just how headline-driven markets can be. Following President Trump's declaration that the \"Ceasefire is OVER!\", the initial reaction was textbook risk-off: the U.S. dollar moved higher, stocks turned lower, oil prices rallied, and Treasur",
       "published": "10 Jul 2026 22:15 WIB",
@@ -110,7 +110,7 @@
     },
     {
       "source": "FXStreet News",
-      "title": "Perkiraan minggu depan: CPI AS dan kesaksian Warsh akan menguji pemulihan Dolar",
+      "title": "Perkiraan minggu depan: CPI AS dan bukti Warsh akan menguji pemulihan Dolar",
       "url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-cpi-and-warsh-testimony-to-test-the-dollars-recovery-202607102046",
       "summary": "The upcoming week will bring a major test for the US Dollar (USD), with investors focusing on the United States Consumer Price Index (CPI), Federal Reserve (Fed) Chair Kevin Warsh’s congressional testimony and a broad set of activity indicators.",
       "published": "11 Jul 2026 03:46 WIB",
@@ -170,43 +170,73 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Holtec Nuclear Corporation mengajukan IPO AS",
-      "url": "https://www.investing.com/news/stock-market-news/holtec-nuclear-corporation-files-for-us-ipo-4787063",
+      "title": "Perusahaan Amerika menawarkan bukti kuat bahwa AI meningkatkan keuntungan dan produktivitas: MS",
+      "url": "https://www.investing.com/news/stock-market-news/corporate-america-offers-stronger-proof-ai-is-boosting-profits-productivity-ms-4787269",
       "summary": "",
-      "published": "11 Jul 2026 04:48 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Perusahaan Jasa Energi Nuklir Holtec Bergabung dengan IPO Sektor yang Terburu-buru",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-10/nuclear-energy-services-firm-holtec-joins-sector-s-ipo-rush",
-      "summary": "Holtec Nuclear Corp. filed for a US initial public offering, becoming the latest in the sector to try to capitalize on data centers’ growing power demands.",
-      "published": "11 Jul 2026 04:40 WIB",
+      "published": "11 Jul 2026 19:25 WIB",
       "sentiment": "Bullish",
-      "score": 0.421,
+      "score": 0.864,
       "emoji": "🟢"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Gandum Melonjak seiring Serangan Ukraina terhadap Rusia Dianggap sebagai Risiko Ekspor",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-10/corn-steadies-ahead-of-key-us-supply-report-as-heat-threats-ease",
-      "summary": "Wheat prices jumped Friday as traders weighed potential shipping disruptions following Ukraine’s attacks on top exporter Russia.",
-      "published": "10 Jul 2026 11:07 WIB",
+      "source": "Investing.com Forex",
+      "title": "Oregon membatalkan mosi untuk menunda kesepakatan Paramount-Warner Bros",
+      "url": "https://www.investing.com/news/stock-market-news/oregon-drops-motion-to-delay-paramountwarner-bros-deal-4787212",
+      "summary": "",
+      "published": "11 Jul 2026 11:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.978,
+      "score": -0.318,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Mengasuransikan Mobil dan Kapal Langka dan Koleksi: Magister Bisnis bersama McKeel Hagerty",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-10/masters-in-business-with-mckeel-hagerty-video",
-      "summary": "Barry sits down with with CEO and Chairman of Hagerty, McKeel Hagerty. They discuss how he transformed the the family boat insurance business into a \"sexy\" driver forward business. Barry and McKeel also discuss their love of collectable cars and his love of his first car, a Porsche, that he bought a",
-      "published": "11 Jul 2026 04:15 WIB",
+      "title": "Bisakah Sistem Perpajakan Menyamai Triliuner?",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-11/can-the-tax-system-keep-up-with-trillionaires-video",
+      "summary": "Elon Musk has become the world’s first trillionaire following SpaceX’s record-breaking IPO, creating a fortune unlike anything seen in modern history. Nobel Laureate Paul Krugman and Yale economist Natasha Sarin argue the milestone is about far more than one entrepreneur’s wealth—it reflects how tod",
+      "published": "11 Jul 2026 21:03 WIB",
       "sentiment": "Bullish",
-      "score": 0.835,
+      "score": 0.397,
       "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pembukaan kembali Hormuz menghadapi rintangan yang mahal",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-11/hormuz-reopening-faces-costly-hurdles-video",
+      "summary": "Senior Fellow at the Council on Foreign Relations Clara Gillespie says Gulf energy flows face an uncertain recovery as producers work to clear ships, bring in tankers, restart halted output and repair damage to refineries, LNG facilities and ports. She says the Strait of Hormuz remains unstable, wit",
+      "published": "11 Jul 2026 20:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.178,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Perselisihan Hormuz Membayangi Diplomasi Iran AS",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-11/hormuz-dispute-clouds-us-iran-diplomacy-video",
+      "summary": "Bloomberg News Middle East reporter Dan Williams says negotiations between the US and Iran remain focused on securing freedom of navigation through the Strait of Hormuz, even as President Donald Trump's escalating rhetoric underscores the fragile state of the ceasefire. Williams says Iran's leadersh",
+      "published": "11 Jul 2026 20:57 WIB",
+      "sentiment": "Bullish",
+      "score": 0.477,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Harga Bahan Bakar Membebani Konsumen Bahkan Saat Krisis Minyak Mentah Mereda",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-11/fuel-prices-are-slamming-consumers-even-as-crude-crisis-fades",
+      "summary": "Prices for gasoline, diesel and jet fuel are rebounding even as crude oil eases, a rare divergence that’s swelling costs for peak-season travelers and threatening to undermine President Donald Trump’s pledge to quash inflation ahead of midterm elections.",
+      "published": "11 Jul 2026 20:30 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "AS ingin Iran berjanji berhenti menembaki kapal di Selat Hormuz",
+      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
+      "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
+      "published": "11 Jul 2026 21:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.852,
+      "emoji": "🔴"
     },
     {
       "source": "BBC World",
@@ -220,23 +250,63 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Di bawah kepemimpinan Lula, deforestasi Amazon turun ke tingkat terendah dalam satu dekade",
-      "url": "https://www.aljazeera.com/news/2026/7/10/under-lula-amazon-deforestation-falls-to-lowest-level-in-a-decade?traffic_source=rss",
-      "summary": "The figures come months before Brazil’s presidential election, with Lula promising to end illegal deforestation by 2030.",
-      "published": "11 Jul 2026 05:36 WIB",
+      "title": "Polisi Inggris membebaskan tersangka dalam penyelidikan pembunuhan mantan anggota parlemen Ann Widdecombe",
+      "url": "https://www.aljazeera.com/news/2026/7/11/uk-police-free-suspect-in-ex-mp-ann-widdecombe-murder-investigation?traffic_source=rss",
+      "summary": "The former government minister is believed to have been attacked a full day before her body was discovered.",
+      "published": "11 Jul 2026 21:25 WIB",
       "sentiment": "Bearish",
-      "score": -0.501,
+      "score": -0.845,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Donald Trump mencopot anggota terakhir komisi pemilu independen AS",
-      "url": "https://www.aljazeera.com/news/2026/7/10/donald-trump-removes-final-members-of-independent-us-election-commission?traffic_source=rss",
-      "summary": "The dismissals leave the federal election body vacant as Trump presses for broader changes to US voting rules.",
-      "published": "11 Jul 2026 03:12 WIB",
+      "title": "Pemadaman listrik membuat rumah sakit di Gaza berada dalam kegelapan karena serangan Israel terus berlanjut",
+      "url": "https://www.aljazeera.com/features/2026/7/11/power-cuts-plunge-gaza-hospitals-into-darkness-as-israels-attacks-persist?traffic_source=rss",
+      "summary": "Gaza is suffering from an energy crisis, affecting hospitals struggling to treat patients amid Israeli bombing.",
+      "published": "11 Jul 2026 20:18 WIB",
       "sentiment": "Bearish",
-      "score": -0.132,
+      "score": -1.0,
       "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apa yang terjadi di Yaman?",
+      "url": "https://www.aljazeera.com/features/2026/7/11/what-is-going-on-in-yemen?traffic_source=rss",
+      "summary": "Tensions are rising in the battlefield and political sphere. Will the conflict reignite?",
+      "published": "11 Jul 2026 19:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.948,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Sheinbaum menghadapi kartel, Trump, dan warisan tahun 1968",
+      "url": "https://www.aljazeera.com/features/longform/2026/7/11/sheinbaum-takes-on-cartels-trump-and-the-legacy-of-1968?traffic_source=rss",
+      "summary": "Claudia Sheinbaum is trying to govern on her own terms — while dealing with Trump, cartels and AMLO's shadow.",
+      "published": "11 Jul 2026 18:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan rudal dan drone Rusia menewaskan dua orang dan melukai 19 orang di Ukraina",
+      "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
+      "summary": "In the latest salvo in one of the war's deadliest months, Russia hits Kyiv with ballistic missiles and 121 drones.",
+      "published": "11 Jul 2026 15:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.702,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Ketua Fed Warsh akan menjadi kandidat utama ketika anggota parlemen mendesak agar dia membacakan perekonomian",
+      "url": "https://www.marketwatch.com/story/fed-chair-warsh-will-be-in-the-hot-seat-as-lawmakers-press-for-his-read-on-the-economy-959ac784?mod=mw_rss_topstories",
+      "summary": "Kevin Warsh will testify before Congress for the first time as Fed chair this week. Lawmakers will want answers.",
+      "published": "11 Jul 2026 18:00 WIB",
+      "sentiment": "Netral",
+      "score": -0.003,
+      "emoji": "⚪"
     },
     {
       "source": "CNBC Forex",
@@ -250,32 +320,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Trump mengatakan AS akan melanjutkan pembicaraan dengan Iran meskipun gencatan senjata telah dibatalkan",
-      "url": "https://www.cnbc.com/2026/07/10/us-iran-war-strikes-strait-of-hormuz-technical-talks-progress-.html",
-      "summary": "The ceasefire signed last month came under serious strain in recent days as U.S. and Iranian forces exchanged attacks for consecutive days this week.",
-      "published": "10 Jul 2026 23:24 WIB",
+      "title": "Trump mengancam akan 'memusnahkan' Iran jika Iran mencoba membunuhnya, seperti yang dikenakan sanksi oleh Departemen Keuangan terhadap pemodal Iran",
+      "url": "https://www.cnbc.com/2026/07/11/trump-threat.html",
+      "summary": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president.",
+      "published": "11 Jul 2026 19:51 WIB",
       "sentiment": "Bearish",
-      "score": -0.527,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "EasyJet naik 13% karena maskapai penerbangan mempertimbangkan tawaran pengambilalihan saingan dari Apollo senilai $7,7 miliar",
-      "url": "https://www.cnbc.com/2026/07/10/easyjet-apollo-takeover-bid-castlelake-share-price.html",
-      "summary": "A bidding war has broken out for budget carrier easyJet after Apollo and Castlelake have both submitted takeover offers.",
-      "published": "10 Jul 2026 15:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.871,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Permintaan minyak dunia diperkirakan mengalami penurunan tahunan pertama sejak tahun 2020, kata IEA",
-      "url": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html",
-      "summary": "Renewed escalation in the U.S.-Iran war could complicate matters and further cloud the outlook, the IEA warned Friday.",
-      "published": "10 Jul 2026 16:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.991,
+      "score": -1.0,
       "emoji": "🔴"
     }
   ]
