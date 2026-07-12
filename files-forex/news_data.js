@@ -1,8 +1,8 @@
-// Diperbarui: 11 Jul 2026 22:02 WIB
+// Diperbarui: 12 Jul 2026 07:02 WIB
 window.FK_DATA = {
-  "generated": "11 Jul 2026 22:02 WIB",
+  "generated": "12 Jul 2026 07:02 WIB",
   "kalender": {
-    "generated": "11 Jul 2026 22:02 WIB",
+    "generated": "12 Jul 2026 07:02 WIB",
     "events": [
       {
         "date": "2026-07-05",
@@ -843,287 +843,71 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "11 Jul 2026 22:02 WIB",
+    "generated": "12 Jul 2026 07:02 WIB",
     "summary": {
-      "total": 57,
-      "bullish": 21,
-      "bearish": 28,
-      "netral": 8,
-      "avg_score": -0.1502,
+      "total": 30,
+      "bullish": 11,
+      "bearish": 16,
+      "netral": 3,
+      "avg_score": -0.1341,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
-          "sentiment": "Netral",
-          "score": -0.007,
-          "count": 13
+          "sentiment": "Bearish",
+          "score": -0.181,
+          "count": 2
         },
         {
           "currency": "EUR",
           "sentiment": "Bearish",
-          "score": -0.324,
-          "count": 4
+          "score": -0.05,
+          "count": 1
         },
         {
           "currency": "GBP",
-          "sentiment": "Bearish",
-          "score": -0.572,
+          "sentiment": "Bullish",
+          "score": 0.69,
           "count": 1
         },
         {
           "currency": "JPY",
-          "sentiment": "Bearish",
-          "score": -0.36,
-          "count": 1
-        },
-        {
-          "currency": "CNY",
           "sentiment": "Bullish",
-          "score": 0.42,
+          "score": 0.318,
           "count": 1
         }
       ]
     },
     "items": [
       {
-        "source": "ForexLive",
-        "title": "investasiBerita Live Americas FX dibungkus 10 Juli",
-        "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-canadian-jobs-beat-estimates/",
-        "summary": "Canada June employment report shows +18.2K jobs vs +10K expected Baker Hughes total rig count +1 at 580 Fed report to Congress sees 'stepped up' inflation in the spring Canada building permits for May -1.7% versus 2.4% estimate Only one thing has driven FX markets this year - Deutche Bank Markets: G",
-        "published": "11 Jul 2026 03:34 WIB",
+        "source": "Investing.com Forex",
+        "title": "Saham Rusia melemah pada penutupan perdagangan; Indeks MOEX Rusia tidak berubah",
+        "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4787306",
+        "summary": "",
+        "published": "12 Jul 2026 04:20 WIB",
         "sentiment": "Bearish",
-        "score": -0.36,
+        "score": -0.296,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Mengapa harga minyak yang lebih rendah belum akan menurunkan inflasi",
-        "url": "https://investinglive.com/commodities/why-lower-oil-prices-won-t-lead-to-lower-inflation-just-yet/",
-        "summary": "Lower oil prices generally lead to lower consumer fuel prices ... but not always. There is a risk that models are overly tied to oil prices and that's leading to expectations of lower consumer and business prices but if you've seen the fuel pumps lately, you'd know that's not the case. The large gap",
-        "published": "11 Jul 2026 02:42 WIB",
+        "source": "Investing.com Forex",
+        "title": "Permintaan AI yang lebih luas adalah kunci bagi investor Nvidia, kata Morgan Stanley",
+        "url": "https://www.investing.com/news/stock-market-news/broader-ai-demand-is-key-for-nvidia-investors-morgan-stanley-says-4787293",
+        "summary": "",
+        "published": "12 Jul 2026 00:08 WIB",
         "sentiment": "Bearish",
-        "score": -0.943,
+        "score": -0.128,
         "emoji": "🔴"
       },
       {
-        "source": "ForexLive",
-        "title": "Batasan pendapatan masih tinggi dan Wall Street berpendapat bahwa hal tersebut akan selesai – melihat minggu depan",
-        "url": "https://investinglive.com/stocks/the-earnings-bar-is-high-and-wall-street-thinks-it-gets-cleared-anyway-a-look-at-the-week-ahead/",
-        "summary": "Earnings season starts in earnest next week and the stakes couldn't be higher. The S&P 500 is coming off a Q2 where the index averaged 7,499 — up nearly 15% from the Q1 average — while WTI averaged $92.99 on the Strait of Hormuz closure. That's a combination that shouldn't work, and yet here we are.",
-        "published": "11 Jul 2026 01:48 WIB",
-        "sentiment": "Bullish",
-        "score": 0.612,
-        "emoji": "🟢"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Hanya satu hal yang mendorong pasar Valas tahun ini – Deutche Bank",
-        "url": "https://investinglive.com/forex/-1/",
-        "summary": "Deutsche Bank has a simple message for anyone trying to trade currencies on headlines this year: stop. A war in the Middle East, a leadership change at the Fed, wild swings in tech valuations — and none of it has mattered as much as one thing. The bank's analysis shows yield has been the dominant dr",
-        "published": "11 Jul 2026 01:19 WIB",
+        "source": "Investing.com Forex",
+        "title": "Tiongkok menghentikan ekspor helium karena ketegangan baru di Timur Tengah mengancam pasokan chip",
+        "url": "https://www.investing.com/news/stock-market-news/china-halts-helium-exports-as-renewed-middle-east-tensions-threaten-chip-supplies-4787283",
+        "summary": "",
+        "published": "11 Jul 2026 21:58 WIB",
         "sentiment": "Bearish",
-        "score": -0.542,
+        "score": -0.729,
         "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Jumlah rig Baker Hughes +1 pada 580",
-        "url": "https://investinglive.com/commodities/baker-hughes-total-rig-count-1-at-580/",
-        "summary": "The Baker Hughes Rig count for the current week showed: Total U.S. rigs:580 up +1 Oil rigs:445 Unchanged Gas rigs:126 up +1 The price of crude oil is currently trading at $71.20 down $0.88 or -1.21% on the day. The low price for the day reach $70.77. The high price was at $73.16. The 100 hour moving",
-        "published": "11 Jul 2026 00:26 WIB",
-        "sentiment": "Bearish",
-        "score": -0.84,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Saham Nvidia naik tajam terbantu oleh bahan bakar dari SK Hynix",
-        "url": "https://investinglive.com/stocks/nvidia-shares-up-sharply-helped-by-the-fuel-from-the-sk-hynix/",
-        "summary": "SK Hynix made an impressive NASDAQ debut following its successful American Depositary Receipt (ADR) offering at $150. The shares opened at $170 and are currently trading near $174, up roughly $24 on the session. The enthusiasm is easy to understand. SK Hynix is a critical supplier of the high-bandwi",
-        "published": "11 Jul 2026 00:03 WIB",
-        "sentiment": "Bullish",
-        "score": 0.932,
-        "emoji": "🟢"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Minyak mentah diperdagangkan lebih rendah dan kembali di bawah rata-rata pergerakan 100 jam di $71,65",
-        "url": "https://investinglive.com/technical-analysis/crude-oil-is-trading-lower-and-back-below-is-100-hour-moving-average-at-71-65/",
-        "summary": "Crude oil has fallen to new session lows despite escalating tensions in the Middle East. Earlier today, President Trump posted on Truth Social that the cease-fire was \"over,\" briefly sending prices to the session high of $73.16. However, that geopolitical premium quickly faded as sellers regained co",
-        "published": "10 Jul 2026 23:09 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Laporan Fed kepada Kongres menunjukkan inflasi 'meningkat' di musim semi",
-        "url": "https://investinglive.com/central-banks/fed-report-to-congress-sees-stepped-up-inflation-in-the-spring/",
-        "summary": "The most important line in the Federal Reserve’s July Monetary Policy Report is unusually direct: Measures of consumer price changes “began trending up last year and then stepped up further this spring.” That is a firmer characterization than simply saying inflation remains elevated. The Fed is ackn",
-        "published": "10 Jul 2026 22:06 WIB",
-        "sentiment": "Bullish",
-        "score": 0.272,
-        "emoji": "🟢"
-      },
-      {
-        "source": "ForexLive",
-        "title": "USD bergerak lebih tinggi karena para pedagang bereaksi terhadap komentar Trump",
-        "url": "https://investinglive.com/technical-analysis/usd-moves-higher-as-traders-react-to-trump-comments/",
-        "summary": "The latest geopolitical headlines once again reminded traders just how headline-driven markets can be. Following President Trump's declaration that the \"Ceasefire is OVER!\", the initial reaction was textbook risk-off: the U.S. dollar moved higher, stocks turned lower, oil prices rallied, and Treasur",
-        "published": "10 Jul 2026 22:15 WIB",
-        "sentiment": "Bullish",
-        "score": 0.48,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Singapura: PDB yang Tangguh dan NODX yang Kuat – DBS",
-        "url": "https://www.fxstreet.com/news/singapore-resilient-gdp-and-strong-nodx-dbs-202607102131",
-        "summary": "DBS economists Radhika Rao and Mo Ji forecast Singapore’s advance 2Q26 Gross Domestic Product (GDP) growth at 5.8% year-on-year and 1.5% quarter-on-quarter seasonally adjusted, slightly below 1Q26 but still resilient.",
-        "published": "11 Jul 2026 04:31 WIB",
-        "sentiment": "Bullish",
-        "score": 0.386,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Perkiraan Harga Perak: Struktur Lower High Bertahan, Sasar $55,00",
-        "url": "https://www.fxstreet.com/news/silver-price-forecast-lower-high-structure-holds-bears-eye-5500-202607102055",
-        "summary": "Silver price retreats on Friday during the North American session, edging down by 0.54%, weighed by high US Treasury yields and a sudden shift in market sentiment, after US President Trump revealed that the ceasefire is “over.” At the time of writing, the XAG/USD trades at $59.66.",
-        "published": "11 Jul 2026 03:55 WIB",
-        "sentiment": "Netral",
-        "score": -0.023,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dolar Taiwan: Inflasi CBC berisiko memberikan dukungan terhadap Dolar AS – Commerzbank",
-        "url": "https://www.fxstreet.com/news/taiwan-dollar-cbc-inflation-risks-support-against-us-dollar-commerzbank-202607102051",
-        "summary": "Commerzbank’s report on Taiwan notes that stronger inflation, with core CPI at 2.5%, is likely to push the CBC towards a more hawkish stance, including a possible 12.5 bp hike in H2.",
-        "published": "11 Jul 2026 03:51 WIB",
-        "sentiment": "Bullish",
-        "score": 0.574,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Perkiraan minggu depan: CPI AS dan kesaksian Warsh akan menguji pemulihan Dolar",
-        "url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-cpi-and-warsh-testimony-to-test-the-dollars-recovery-202607102046",
-        "summary": "The upcoming week will bring a major test for the US Dollar (USD), with investors focusing on the United States Consumer Price Index (CPI), Federal Reserve (Fed) Chair Kevin Warsh’s congressional testimony and a broad set of activity indicators.",
-        "published": "11 Jul 2026 03:46 WIB",
-        "sentiment": "Bullish",
-        "score": 0.421,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Won Korea Selatan: Dukungan Kenaikan Suku Bunga dari Ekspor dan Inflasi – DBS",
-        "url": "https://www.fxstreet.com/news/south-korean-won-rate-hike-support-from-exports-and-inflation-dbs-202607102007",
-        "summary": "DBS economists Radhika Rao and Mo Ji expect the Bank of Korea (BoK) to raise its base rate to 2.75% from 2.50% in July, citing persistent CPI inflation above 3% and resilient growth.",
-        "published": "11 Jul 2026 03:07 WIB",
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Rupiah Indonesia: Risiko Pelemahan Tetap Ada – MUFG",
-        "url": "https://www.fxstreet.com/news/indonesian-rupiah-weakness-risks-persist-mufg-202607102002",
-        "summary": "MUFG’s Lloyd Chan highlights the Indonesian rupiah’s continued vulnerability as USD/IDR moved back above 18,000 amid renewed Middle East tensions and elevated US yields.",
-        "published": "11 Jul 2026 03:02 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Harga emas tergelincir karena Trump mengatakan gencatan senjata dengan Iran telah berakhir",
-        "url": "https://www.fxstreet.com/news/gold-price-slips-as-trump-says-iran-ceasefire-is-over-202607101936",
-        "summary": "Gold (XAU/USD) price retreats on Friday during the North American session, pressured by US President Donald Trump's comments allowing the resumption of US-Iran talks, but reiterating that the ceasefire is “over.” The XAU/USD pair trades at around $4,103, down 0.48%.",
-        "published": "11 Jul 2026 02:36 WIB",
-        "sentiment": "Netral",
-        "score": -0.035,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Ringgit Malaysia: Prospek Range-bound bertahan terhadap Dolar AS – MUFG",
-        "url": "https://www.fxstreet.com/news/malaysian-ringgit-range-bound-outlook-holds-against-us-dollar-mufg-202607101922",
-        "summary": "MUFG’s Lloyd Chan notes Bank Negara Malaysia (BNM) kept the Overnight Policy Rate (OPR) at 2.75% and expects it to stay on hold through 2026, with domestic fundamentals described as broadly supportive.",
-        "published": "11 Jul 2026 02:22 WIB",
-        "sentiment": "Bullish",
-        "score": 0.376,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Yuan Tiongkok: Kesenjangan reflasi membebani Dolar AS – Commerzbank",
-        "url": "https://www.fxstreet.com/news/chinese-yuan-reflation-gap-weighs-against-us-dollar-commerzbank-202607101848",
-        "summary": "Commerzbank analysts highlight that China’s June Consumer Price Index (CPI) slowed to 1.0% year-on-year while Producer Price Index (PPI) rose 4.1%, widening the PPI-CPI gap and squeezing downstream margins.",
-        "published": "11 Jul 2026 01:48 WIB",
-        "sentiment": "Bullish",
-        "score": 0.42,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Indeks Dolar Amerika Serikat stabil karena para pedagang mempertimbangkan geopolitik dan prospek Fed",
-        "url": "https://www.fxstreet.com/news/united-states-dollar-index-little-changed-as-traders-weigh-geopolitics-and-fed-outlook-202607101829",
-        "summary": "The US Dollar Index (DXY) trades within a volatile range on Friday as a sparse US economic calendar leaves traders watching developments in the Middle East after renewed hostilities between the United States (US) and Iran this week.",
-        "published": "11 Jul 2026 01:29 WIB",
-        "sentiment": "Bullish",
-        "score": 0.361,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Euro diperdagangkan datar meskipun inflasi Eropa lemah",
-        "url": "https://www.fxstreet.com/news/euro-trades-flat-despite-soft-european-inflation-202607101720",
-        "summary": "EUR/USD trades in a muted fashion near the 1.1430 area on Friday, as a weaker US Dollar (USD) helps the pair hold onto modest Thursday gains. That was true even after inflation data from Germany and France showed limited price pressure.",
-        "published": "11 Jul 2026 00:20 WIB",
-        "sentiment": "Bullish",
-        "score": 0.202,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dow Jones Industrial Average menganggap kematian kedua akibat gencatan senjata sebagai tayangan ulang",
-        "url": "https://www.fxstreet.com/news/dow-jones-industrial-average-treats-the-ceasefires-second-death-as-a-rerun-202607101707",
-        "summary": "The Dow Jones Industrial Average trades at 52,609 on Friday, up 0.26%, two sessions after printing a record 53,333 and one news cycle into the second official death of the US-Iran ceasefire.",
-        "published": "11 Jul 2026 00:07 WIB",
-        "sentiment": "Bearish",
-        "score": -0.752,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Minyak Mentah memudarkan lonjakan perang lainnya seiring dengan berakhirnya gencatan senjata",
-        "url": "https://www.fxstreet.com/news/crude-oil-fades-another-war-spike-as-the-ceasefire-dies-its-daily-death-202607101703",
-        "summary": "West Texas Intermediate (WTI) Crude Oil trades at $70.98 on Friday, down 1%, after a European-morning climb to $72.83 met a wall of New York selling that drove the barrel to a $70.70 session low inside two hours.",
-        "published": "11 Jul 2026 00:04 WIB",
-        "sentiment": "Bearish",
-        "score": -0.954,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Pound Inggris tetap kokoh saat kejutan gencatan senjata Trump menguji USD",
-        "url": "https://www.fxstreet.com/news/british-pound-holds-firm-as-trump-ceasefire-shock-tests-usd-202607101625",
-        "summary": "The Pound Sterling (GBP) holds firm on Friday during the North American session as risk appetite deteriorated after US President Donald Trump posted on social media that the ceasefire with Iran is over, even though negotiations continue.",
-        "published": "10 Jul 2026 23:25 WIB",
-        "sentiment": "Bearish",
-        "score": -0.572,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Federal Reserve: Laporan kebijakan moneter menyebutkan “inflasi tinggi” karena tarif",
-        "url": "https://www.fxstreet.com/news/federal-reserve-monetary-policy-report-cites-high-inflation-due-to-tariffs-202607101623",
-        "summary": "The Federal Reserve (Fed) released its monetary policy report on Friday , in which the US central bank acknowledged that inflation remains elevated and that the labor market is broadly stable, a signal that the price stability goal hasn’t been achieved.",
-        "published": "10 Jul 2026 23:23 WIB",
-        "sentiment": "Bullish",
-        "score": 0.296,
-        "emoji": "🟢"
       },
       {
         "source": "Investing.com Forex",
@@ -1196,34 +980,74 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "Investing.com Forex",
-        "title": "Mengapa investor teknologi mengevaluasi kembali investasi AI",
-        "url": "https://www.investing.com/news/stock-market-news/why-tech-investors-are-reevaluating-ai-investments-4787169",
-        "summary": "",
-        "published": "11 Jul 2026 06:43 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
+        "source": "Bloomberg Markets",
+        "title": "Modi Mendekati Mitra Pasifik saat Tiongkok dan AS Membentuk Kembali Kawasan",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-11/modi-courts-indo-pacific-partners-as-china-us-reshape-region",
+        "summary": "From missiles and uranium to critical minerals and sports diplomacy, Prime Minister Narendra Modi used a three-nation tour to deepen India’s Indo-Pacific partnerships as regional powers strengthen ties amid China’s growing influence and uncertainty over US engagement.",
+        "published": "12 Jul 2026 04:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.238,
+        "emoji": "🟢"
       },
       {
-        "source": "Investing.com Forex",
-        "title": "Detektor gambar Meta AI gagal mengidentifikasi beberapa gambar AI yang dipotong, demikian temuan analisis Reuters",
-        "url": "https://www.investing.com/news/stock-market-news/meta-ai-image-detector-fails-to-identify-some-of-its-own-cropped-ai-images-reuters-analysis-finds-4786551",
-        "summary": "",
-        "published": "11 Jul 2026 06:06 WIB",
+        "source": "Bloomberg Markets",
+        "title": "Warsh dan Inflasi AS Akan Menentukan Nada Keputusan Fed bulan Juli",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-11/warsh-and-us-inflation-will-set-tone-for-july-fed-decision",
+        "summary": "Kevin Warsh is about to make his first appearance before Congress as Federal Reserve chairman, and during two days of testimony he’ll have new US inflation data to parse with lawmakers.",
+        "published": "12 Jul 2026 03:00 WIB",
         "sentiment": "Bearish",
-        "score": -0.421,
+        "score": -0.08,
         "emoji": "🔴"
       },
       {
-        "source": "Investing.com Forex",
-        "title": "Wall Street berakhir lebih tinggi karena investor beralih ke musim pendapatan",
-        "url": "https://www.investing.com/news/stock-market-news/sp-500-nasdaq-futures-slip-as-investors-eye-sk-hynix-listing-middle-east-risks-4785654",
-        "summary": "",
-        "published": "11 Jul 2026 06:00 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
+        "source": "Bloomberg Markets",
+        "title": "Rekor Obligasi Bank yang Pendek Memicu Pencarian Jawaban",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-11/banks-record-bond-short-sparks-quest-for-answers-credit-weekly",
+        "summary": "For the first time in recent history, primary dealers have gone net short on debt they used to hold billions of dollars of.",
+        "published": "12 Jul 2026 02:00 WIB",
+        "sentiment": "Bearish",
+        "score": -0.281,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Hannah Elliott Menyoroti Risiko Tinnitus",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-11/hannah-elliott-highlights-tinnitus-risks-video",
+        "summary": "Bloomberg Pursuit staff writer Hannah Elliott says Tinnitus affects more than 50 million Americans, remains underdiagnosed and underfunded, and can have profound effects on mental health and quality of life. She says growing awareness of hearing health and new treatments, including the FDA-cleared L",
+        "published": "11 Jul 2026 23:48 WIB",
+        "sentiment": "Bullish",
+        "score": 0.636,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "McCaul Mendukung Hubungan Pertahanan AS dan Ukraina yang Lebih Dalam",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-11/mccaul-backs-deeper-us-ukraine-defense-ties-video",
+        "summary": "Rep. Michael McCaul says Ukraine is gaining momentum on the battlefield but urgently needs more Patriot interceptors and stronger air defenses to counter Russia's escalating missile attacks. He urges deeper US-Ukraine defense cooperation, including licensed Patriot production and joint drone develop",
+        "published": "11 Jul 2026 22:45 WIB",
+        "sentiment": "Bullish",
+        "score": 0.382,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Panglima Angkatan Laut Mengatakan AS Membutuhkan Lebih Banyak Kapal Perang",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-11/navy-chief-says-us-needs-more-warships-video",
+        "summary": "Chief of Naval Operations Adm. Daryl Caudle says the US Navy needs a larger fleet, faster shipbuilding and expanded munitions production to meet growing global demands while sustaining readiness across multiple theaters. He says the service remains prepared despite heavy operational commitments, poi",
+        "published": "11 Jul 2026 22:21 WIB",
+        "sentiment": "Bearish",
+        "score": -0.433,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Perundingan AS dengan Iran menghadapi kebuntuan yang terus-menerus",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-11/us-iran-talks-face-persistent-impasse-video",
+        "summary": "Bloomberg Economics analysts Becca Wasser and Dina Esfandiary say the US and Iran remain far apart on key issues, with intermittent strikes and negotiations likely to define the conflict for the foreseeable future. They say technical talks on Iran's nuclear program are a constructive step, but dispu",
+        "published": "11 Jul 2026 22:09 WIB",
+        "sentiment": "Bearish",
+        "score": -0.779,
+        "emoji": "🔴"
       },
       {
         "source": "Bloomberg Markets",
@@ -1266,43 +1090,23 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "CEO VW Di Bawah Tekanan Seiring Rencana Kebangkitan Torpedo Serikat Buruh",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-11/vw-ceo-under-pressure-as-labor-unions-torpedo-turnaround-plan",
-        "summary": "Volkswagen AG Chief Executive Officer Oliver Blume is facing an uphill battle to push through a fundamental overhaul of Europe’s biggest carmaker after failing to win initial backing from the supervisory board.",
-        "published": "11 Jul 2026 12:00 WIB",
+        "source": "BBC World",
+        "title": "Iran mengatakan Selat Hormuz ditutup 'sampai pemberitahuan lebih lanjut'",
+        "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+        "summary": "The IRGC says it fired a warning shot at a vessel in the strait and is warning the US not to respond with \"aggression\".",
+        "published": "12 Jul 2026 06:14 WIB",
         "sentiment": "Bearish",
-        "score": -0.494,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Tiongkok Memberitahu Para Pengilangan untuk Mempertahankan Produksi Bahan Bakar Tetap Tinggi Saat Perang Iran Berlarut-larut",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-11/china-tells-refiners-to-keep-fuel-output-high-as-iran-war-drags",
-        "summary": "China instructed some major refiners to keep fuel production high, according to people familiar with the matter, in an effort to protect domestic consumers as strikes in the Persian Gulf once again threaten oil shipments.",
-        "published": "11 Jul 2026 16:00 WIB",
-        "sentiment": "Bearish",
-        "score": -0.791,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Descalzi dari Eni Mengatakan Krisis Energi Mungkin Memburuk dalam Jangka Pendek: Satu-satunya",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-11/eni-s-descalzi-says-energy-crisis-may-worsen-in-short-term-sole",
-        "summary": "The global energy situation could deteriorate further as oil inventories decline and competition for supplies intensifies, Eni SpA’s Chief Executive Officer Claudio Descalzi told Italian daily Il Sole 24 Ore.",
-        "published": "11 Jul 2026 15:45 WIB",
-        "sentiment": "Bearish",
-        "score": -0.797,
+        "score": -0.943,
         "emoji": "🔴"
       },
       {
         "source": "BBC World",
-        "title": "AS ingin Iran berjanji berhenti menembaki kapal di Selat Hormuz",
-        "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-        "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
-        "published": "11 Jul 2026 21:08 WIB",
+        "title": "PM Polandia janjikan peringatan untuk korban 'genosida yang dilakukan oleh kaum nasionalis Ukraina' pada Perang Dunia II",
+        "url": "https://www.bbc.co.uk/news/articles/cze94x4361po?at_medium=RSS&at_campaign=rss",
+        "summary": "Warsaw and Kyiv have for decades been at loggerheads over the killings of many thousands of civilians during World War Two.",
+        "published": "12 Jul 2026 04:56 WIB",
         "sentiment": "Bearish",
-        "score": -0.852,
+        "score": -0.976,
         "emoji": "🔴"
       },
       {
@@ -1316,111 +1120,41 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "BBC World",
-        "title": "Apple menggugat OpenAI, karyawannya mengklaim pencurian rahasia dagang",
-        "url": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
-        "summary": "Apple said in a Friday lawsuit that OpenAI’s nascent hardware business is “rotten to its core.”",
-        "published": "11 Jul 2026 05:54 WIB",
-        "sentiment": "Bearish",
-        "score": -0.306,
-        "emoji": "🔴"
-      },
-      {
         "source": "Al Jazeera",
-        "title": "Polisi Inggris membebaskan tersangka dalam penyelidikan pembunuhan mantan anggota parlemen Ann Widdecombe",
-        "url": "https://www.aljazeera.com/news/2026/7/11/uk-police-free-suspect-in-ex-mp-ann-widdecombe-murder-investigation?traffic_source=rss",
-        "summary": "The former government minister is believed to have been attacked a full day before her body was discovered.",
-        "published": "11 Jul 2026 21:25 WIB",
-        "sentiment": "Bearish",
-        "score": -0.845,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Pemadaman listrik membuat rumah sakit di Gaza berada dalam kegelapan karena serangan Israel terus berlanjut",
-        "url": "https://www.aljazeera.com/features/2026/7/11/power-cuts-plunge-gaza-hospitals-into-darkness-as-israels-attacks-persist?traffic_source=rss",
-        "summary": "Gaza is suffering from an energy crisis, affecting hospitals struggling to treat patients amid Israeli bombing.",
-        "published": "11 Jul 2026 20:18 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Apa yang terjadi di Yaman?",
-        "url": "https://www.aljazeera.com/features/2026/7/11/what-is-going-on-in-yemen?traffic_source=rss",
-        "summary": "Tensions are rising in the battlefield and political sphere. Will the conflict reignite?",
-        "published": "11 Jul 2026 19:53 WIB",
-        "sentiment": "Bearish",
-        "score": -0.948,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Sheinbaum menghadapi kartel, Trump, dan warisan tahun 1968",
-        "url": "https://www.aljazeera.com/features/longform/2026/7/11/sheinbaum-takes-on-cartels-trump-and-the-legacy-of-1968?traffic_source=rss",
-        "summary": "Claudia Sheinbaum is trying to govern on her own terms — while dealing with Trump, cartels and AMLO's shadow.",
-        "published": "11 Jul 2026 18:38 WIB",
+        "title": "Pengungkap fakta mengklaim Kennedy Center ‘memburu’ renovasi untuk menyenangkan Trump",
+        "url": "https://www.aljazeera.com/news/2026/7/11/whistleblower-claims-kennedy-center-rushed-renovations-to-please-trump?traffic_source=rss",
+        "summary": "Democratic Senator Sheldon Whitehouse details rusting columns, uneven paint and unnecessary demolition under Trump.",
+        "published": "12 Jul 2026 06:31 WIB",
         "sentiment": "Bullish",
-        "score": 0.08,
+        "score": 0.318,
         "emoji": "🟢"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Ratusan ribu orang dievakuasi saat Topan Bavi meluncur menuju Tiongkok",
-        "url": "https://www.aljazeera.com/news/2026/7/11/hundreds-of-thousands-evacuated-as-typhoon-bavi-barrels-towards-china?traffic_source=rss",
-        "summary": "Super Typhoon Bavi has been downgraded but is still dangerous, meteorologists say.",
-        "published": "11 Jul 2026 16:32 WIB",
-        "sentiment": "Bearish",
-        "score": -0.482,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Serangan rudal dan drone Rusia menewaskan dua orang dan melukai 19 orang di Ukraina",
-        "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-        "summary": "In the latest salvo in one of the war's deadliest months, Russia hits Kyiv with ballistic missiles and 121 drones.",
-        "published": "11 Jul 2026 15:53 WIB",
-        "sentiment": "Bearish",
-        "score": -0.702,
-        "emoji": "🔴"
       },
       {
         "source": "MarketWatch",
-        "title": "Ketua Fed Warsh akan menjadi kandidat utama ketika anggota parlemen mendesak agar dia membacakan perekonomian",
-        "url": "https://www.marketwatch.com/story/fed-chair-warsh-will-be-in-the-hot-seat-as-lawmakers-press-for-his-read-on-the-economy-959ac784?mod=mw_rss_topstories",
-        "summary": "Kevin Warsh will testify before Congress for the first time as Fed chair this week. Lawmakers will want answers.",
-        "published": "11 Jul 2026 18:00 WIB",
-        "sentiment": "Netral",
-        "score": -0.003,
-        "emoji": "⚪"
-      },
-      {
-        "source": "CNBC Forex",
-        "title": "Ketika pendapatan bank semakin dekat, anomali pasar muncul",
-        "url": "https://www.cnbc.com/2026/07/10/as-bank-earnings-approach-a-market-anomaly-emerges.html",
-        "summary": "The Financial Select Sector Index trades at roughly 15.5 times forward earnings — about a turn and a quarter cheaper than where it stood in 2024.",
-        "published": "11 Jul 2026 00:18 WIB",
-        "sentiment": "Bearish",
-        "score": -0.08,
-        "emoji": "🔴"
-      },
-      {
-        "source": "CNBC Economy",
-        "title": "Gaji koki swasta mencapai $300.000 karena orang kaya mencari bintang Michelin mereka sendiri",
-        "url": "https://www.cnbc.com/2026/07/10/private-chef-salaries.html",
-        "summary": "Demand for chefs, personal assistants, butlers, nannies, housekeepers, chauffeurs and estate managers have reached records, according to Morgan & Mallet.",
-        "published": "10 Jul 2026 22:05 WIB",
+        "title": "Apakah lebih baik tabungan saya dibelanjakan sekarang agar saya bisa menunda mengambil Jamsostek? Bagaimana cara memilih?",
+        "url": "https://www.marketwatch.com/story/my-retirement-savings-will-suffer-if-i-delay-social-security-how-do-i-choose-between-the-two-a85273e3?mod=mw_rss_topstories",
+        "summary": "“By claiming earlier, I could preserve more of my portfolio and allow those assets to continue compounding.”",
+        "published": "11 Jul 2026 23:44 WIB",
         "sentiment": "Bullish",
-        "score": 0.557,
+        "score": 0.69,
         "emoji": "🟢"
+      },
+      {
+        "source": "MarketWatch",
+        "title": "Kehancuran dot-com merupakan kerugian sebesar $5 triliun. Mengapa krisis keuangan berikutnya bisa mencapai 4 kali lebih parah.",
+        "url": "https://www.marketwatch.com/story/the-dot-com-crash-was-a-5-trillion-blip-why-the-next-financial-crisis-could-hit-4-times-harder-29f4aa57?mod=mw_rss_topstories",
+        "summary": "The next global financial crisis is already under way. Here is how it will unfold.",
+        "published": "11 Jul 2026 23:00 WIB",
+        "sentiment": "Bearish",
+        "score": -0.978,
+        "emoji": "🔴"
       },
       {
         "source": "CNBC World",
         "title": "Trump mengancam akan 'memusnahkan' Iran jika Iran mencoba membunuhnya, seperti yang dikenakan sanksi oleh Departemen Keuangan terhadap pemodal Iran",
         "url": "https://www.cnbc.com/2026/07/11/trump-threat.html",
         "summary": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president.",
-        "published": "11 Jul 2026 19:51 WIB",
+        "published": "12 Jul 2026 05:58 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
         "emoji": "🔴"
@@ -1444,21 +1178,11 @@ window.FK_DATA = {
         "sentiment": "Netral",
         "score": -0.05,
         "emoji": "⚪"
-      },
-      {
-        "source": "CNBC World",
-        "title": "SK Hynix naik 13% dalam debut Nasdaq. Ketua mengatakan kepada CNBC 'permintaan sangat besar'",
-        "url": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html",
-        "summary": "SK Hynix has soared to a trillion-dollar market cap by serving some of the biggest names in technology, including Nvidia and Apple.",
-        "published": "11 Jul 2026 03:34 WIB",
-        "sentiment": "Bearish",
-        "score": -0.128,
-        "emoji": "🔴"
       }
     ]
   },
   "geopolitik": {
-    "generated": "11 Jul 2026 22:02 WIB",
+    "generated": "12 Jul 2026 07:02 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1466,38 +1190,32 @@ window.FK_DATA = {
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.14,
-        "count": 21
+        "score": -0.09,
+        "count": 10
       },
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.188,
-        "count": 15
+        "score": -0.153,
+        "count": 9
       },
       {
         "pair": "USD/CHF",
-        "direction": "Netral →",
-        "score": 0.011,
-        "count": 12
+        "direction": "Tekanan Turun ▼",
+        "score": -0.075,
+        "count": 8
       },
       {
         "pair": "EUR/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.259,
-        "count": 8
+        "score": -0.434,
+        "count": 3
       },
       {
-        "pair": "CAD/JPY",
+        "pair": "USD/RUB",
         "direction": "Tekanan Turun ▼",
-        "score": -0.231,
-        "count": 2
-      },
-      {
-        "pair": "NOK/SEK",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.231,
-        "count": 2
+        "score": -0.779,
+        "count": 1
       },
       {
         "pair": "GBP/USD",
@@ -1507,126 +1225,6 @@ window.FK_DATA = {
       }
     ],
     "items": [
-      {
-        "source": "ForexLive",
-        "title": "Mengapa harga minyak yang lebih rendah belum akan menurunkan inflasi",
-        "url": "https://investinglive.com/commodities/why-lower-oil-prices-won-t-lead-to-lower-inflation-just-yet/",
-        "summary": "Lower oil prices generally lead to lower consumer fuel prices ... but not always. There is a risk that models are overly tied to oil prices and that's leading to expectations of lower consumer and business prices but if you've seen the fuel pumps lately, you'd know that's not the case. The large gap",
-        "published": "11 Jul 2026 02:42 WIB",
-        "sentiment": "Bearish",
-        "score": -0.943,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Hanya satu hal yang mendorong pasar Valas tahun ini – Deutche Bank",
-        "url": "https://investinglive.com/forex/-1/",
-        "summary": "Deutsche Bank has a simple message for anyone trying to trade currencies on headlines this year: stop. A war in the Middle East, a leadership change at the Fed, wild swings in tech valuations — and none of it has mattered as much as one thing. The bank's analysis shows yield has been the dominant dr",
-        "published": "11 Jul 2026 01:19 WIB",
-        "sentiment": "Bearish",
-        "score": -0.542,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Minyak mentah diperdagangkan lebih rendah dan kembali di bawah rata-rata pergerakan 100 jam di $71,65",
-        "url": "https://investinglive.com/technical-analysis/crude-oil-is-trading-lower-and-back-below-is-100-hour-moving-average-at-71-65/",
-        "summary": "Crude oil has fallen to new session lows despite escalating tensions in the Middle East. Earlier today, President Trump posted on Truth Social that the cease-fire was \"over,\" briefly sending prices to the session high of $73.16. However, that geopolitical premium quickly faded as sellers regained co",
-        "published": "10 Jul 2026 23:09 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "USD bergerak lebih tinggi karena pedagang bereaksi terhadap komentar Trump",
-        "url": "https://investinglive.com/technical-analysis/usd-moves-higher-as-traders-react-to-trump-comments/",
-        "summary": "The latest geopolitical headlines once again reminded traders just how headline-driven markets can be. Following President Trump's declaration that the \"Ceasefire is OVER!\", the initial reaction was textbook risk-off: the U.S. dollar moved higher, stocks turned lower, oil prices rallied, and Treasur",
-        "published": "10 Jul 2026 22:15 WIB",
-        "sentiment": "Bullish",
-        "score": 0.48,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Perkiraan Harga Perak: Struktur Lower High Bertahan, Sasar $55,00",
-        "url": "https://www.fxstreet.com/news/silver-price-forecast-lower-high-structure-holds-bears-eye-5500-202607102055",
-        "summary": "Silver price retreats on Friday during the North American session, edging down by 0.54%, weighed by high US Treasury yields and a sudden shift in market sentiment, after US President Trump revealed that the ceasefire is “over.” At the time of writing, the XAG/USD trades at $59.66.",
-        "published": "11 Jul 2026 03:55 WIB",
-        "sentiment": "Netral",
-        "score": -0.023,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dolar Taiwan: Inflasi CBC berisiko memberikan dukungan terhadap Dolar AS – Commerzbank",
-        "url": "https://www.fxstreet.com/news/taiwan-dollar-cbc-inflation-risks-support-against-us-dollar-commerzbank-202607102051",
-        "summary": "Commerzbank’s report on Taiwan notes that stronger inflation, with core CPI at 2.5%, is likely to push the CBC towards a more hawkish stance, including a possible 12.5 bp hike in H2.",
-        "published": "11 Jul 2026 03:51 WIB",
-        "sentiment": "Bullish",
-        "score": 0.574,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Perkiraan minggu depan: CPI AS dan bukti Warsh akan menguji pemulihan Dolar",
-        "url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-cpi-and-warsh-testimony-to-test-the-dollars-recovery-202607102046",
-        "summary": "The upcoming week will bring a major test for the US Dollar (USD), with investors focusing on the United States Consumer Price Index (CPI), Federal Reserve (Fed) Chair Kevin Warsh’s congressional testimony and a broad set of activity indicators.",
-        "published": "11 Jul 2026 03:46 WIB",
-        "sentiment": "Bullish",
-        "score": 0.341,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Rupiah Indonesia: Risiko Pelemahan Tetap Ada – MUFG",
-        "url": "https://www.fxstreet.com/news/indonesian-rupiah-weakness-risks-persist-mufg-202607102002",
-        "summary": "MUFG’s Lloyd Chan highlights the Indonesian rupiah’s continued vulnerability as USD/IDR moved back above 18,000 amid renewed Middle East tensions and elevated US yields.",
-        "published": "11 Jul 2026 03:02 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Harga emas tergelincir karena Trump mengatakan gencatan senjata dengan Iran telah berakhir",
-        "url": "https://www.fxstreet.com/news/gold-price-slips-as-trump-says-iran-ceasefire-is-over-202607101936",
-        "summary": "Gold (XAU/USD) price retreats on Friday during the North American session, pressured by US President Donald Trump's comments allowing the resumption of US-Iran talks, but reiterating that the ceasefire is “over.” The XAU/USD pair trades at around $4,103, down 0.48%.",
-        "published": "11 Jul 2026 02:36 WIB",
-        "sentiment": "Netral",
-        "score": -0.035,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Indeks Dolar Amerika Serikat stabil karena para pedagang mempertimbangkan geopolitik dan prospek Fed",
-        "url": "https://www.fxstreet.com/news/united-states-dollar-index-little-changed-as-traders-weigh-geopolitics-and-fed-outlook-202607101829",
-        "summary": "The US Dollar Index (DXY) trades within a volatile range on Friday as a sparse US economic calendar leaves traders watching developments in the Middle East after renewed hostilities between the United States (US) and Iran this week.",
-        "published": "11 Jul 2026 01:29 WIB",
-        "sentiment": "Bearish",
-        "score": -0.077,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Dow Jones Industrial Average menganggap kematian kedua akibat gencatan senjata sebagai tayangan ulang",
-        "url": "https://www.fxstreet.com/news/dow-jones-industrial-average-treats-the-ceasefires-second-death-as-a-rerun-202607101707",
-        "summary": "The Dow Jones Industrial Average trades at 52,609 on Friday, up 0.26%, two sessions after printing a record 53,333 and one news cycle into the second official death of the US-Iran ceasefire.",
-        "published": "11 Jul 2026 00:07 WIB",
-        "sentiment": "Bearish",
-        "score": -0.752,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Pound Inggris tetap kokoh saat kejutan gencatan senjata Trump menguji USD",
-        "url": "https://www.fxstreet.com/news/british-pound-holds-firm-as-trump-ceasefire-shock-tests-usd-202607101625",
-        "summary": "The Pound Sterling (GBP) holds firm on Friday during the North American session as risk appetite deteriorated after US President Donald Trump posted on social media that the ceasefire with Iran is over, even though negotiations continue.",
-        "published": "10 Jul 2026 23:25 WIB",
-        "sentiment": "Bearish",
-        "score": -0.273,
-        "emoji": "🔴"
-      },
       {
         "source": "Investing.com Forex",
         "title": "Perusahaan Amerika menawarkan bukti kuat bahwa AI meningkatkan keuntungan dan produktivitas: MS",
@@ -1645,6 +1243,56 @@ window.FK_DATA = {
         "published": "11 Jul 2026 11:00 WIB",
         "sentiment": "Bearish",
         "score": -0.318,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Modi Mendekati Mitra Pasifik saat Tiongkok dan AS Membentuk Kembali Kawasan",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-11/modi-courts-indo-pacific-partners-as-china-us-reshape-region",
+        "summary": "From missiles and uranium to critical minerals and sports diplomacy, Prime Minister Narendra Modi used a three-nation tour to deepen India’s Indo-Pacific partnerships as regional powers strengthen ties amid China’s growing influence and uncertainty over US engagement.",
+        "published": "12 Jul 2026 04:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.238,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Warsh dan Inflasi AS Akan Menentukan Nada Keputusan Fed bulan Juli",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-11/warsh-and-us-inflation-will-set-tone-for-july-fed-decision",
+        "summary": "Kevin Warsh is about to make his first appearance before Congress as Federal Reserve chairman, and during two days of testimony he’ll have new US inflation data to parse with lawmakers.",
+        "published": "12 Jul 2026 03:00 WIB",
+        "sentiment": "Bearish",
+        "score": -0.08,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Hannah Elliott Menyoroti Risiko Tinnitus",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-11/hannah-elliott-highlights-tinnitus-risks-video",
+        "summary": "Bloomberg Pursuit staff writer Hannah Elliott says Tinnitus affects more than 50 million Americans, remains underdiagnosed and underfunded, and can have profound effects on mental health and quality of life. She says growing awareness of hearing health and new treatments, including the FDA-cleared L",
+        "published": "11 Jul 2026 23:48 WIB",
+        "sentiment": "Bullish",
+        "score": 0.636,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "McCaul Mendukung Hubungan Pertahanan AS dan Ukraina yang Lebih Dalam",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-11/mccaul-backs-deeper-us-ukraine-defense-ties-video",
+        "summary": "Rep. Michael McCaul says Ukraine is gaining momentum on the battlefield but urgently needs more Patriot interceptors and stronger air defenses to counter Russia's escalating missile attacks. He urges deeper US-Ukraine defense cooperation, including licensed Patriot production and joint drone develop",
+        "published": "11 Jul 2026 22:45 WIB",
+        "sentiment": "Bullish",
+        "score": 0.382,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Perundingan AS dengan Iran menghadapi kebuntuan yang terus-menerus",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-11/us-iran-talks-face-persistent-impasse-video",
+        "summary": "Bloomberg Economics analysts Becca Wasser and Dina Esfandiary say the US and Iran remain far apart on key issues, with intermittent strikes and negotiations likely to define the conflict for the foreseeable future. They say technical talks on Iran's nuclear program are a constructive step, but dispu",
+        "published": "11 Jul 2026 22:09 WIB",
+        "sentiment": "Bearish",
+        "score": -0.779,
         "emoji": "🔴"
       },
       {
@@ -1689,92 +1337,42 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "AS ingin Iran berjanji berhenti menembaki kapal di Selat Hormuz",
-        "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-        "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
-        "published": "11 Jul 2026 21:08 WIB",
+        "title": "Iran mengatakan Selat Hormuz ditutup 'sampai pemberitahuan lebih lanjut'",
+        "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+        "summary": "The IRGC says it fired a warning shot at a vessel in the strait and is warning the US not to respond with \"aggression\".",
+        "published": "12 Jul 2026 06:14 WIB",
         "sentiment": "Bearish",
-        "score": -0.852,
+        "score": -0.943,
         "emoji": "🔴"
       },
       {
         "source": "BBC World",
-        "title": "Apple menggugat OpenAI, karyawannya mengklaim pencurian rahasia dagang",
-        "url": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
-        "summary": "Apple said in a Friday lawsuit that OpenAI’s nascent hardware business is “rotten to its core.”",
-        "published": "11 Jul 2026 05:54 WIB",
+        "title": "PM Polandia janjikan peringatan untuk korban 'genosida yang dilakukan oleh kaum nasionalis Ukraina' pada Perang Dunia II",
+        "url": "https://www.bbc.co.uk/news/articles/cze94x4361po?at_medium=RSS&at_campaign=rss",
+        "summary": "Warsaw and Kyiv have for decades been at loggerheads over the killings of many thousands of civilians during World War Two.",
+        "published": "12 Jul 2026 04:56 WIB",
         "sentiment": "Bearish",
-        "score": -0.306,
+        "score": -0.976,
         "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
-        "title": "Polisi Inggris membebaskan tersangka dalam penyelidikan pembunuhan mantan anggota parlemen Ann Widdecombe",
-        "url": "https://www.aljazeera.com/news/2026/7/11/uk-police-free-suspect-in-ex-mp-ann-widdecombe-murder-investigation?traffic_source=rss",
-        "summary": "The former government minister is believed to have been attacked a full day before her body was discovered.",
-        "published": "11 Jul 2026 21:25 WIB",
-        "sentiment": "Bearish",
-        "score": -0.845,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Pemadaman listrik membuat rumah sakit di Gaza berada dalam kegelapan karena serangan Israel terus berlanjut",
-        "url": "https://www.aljazeera.com/features/2026/7/11/power-cuts-plunge-gaza-hospitals-into-darkness-as-israels-attacks-persist?traffic_source=rss",
-        "summary": "Gaza is suffering from an energy crisis, affecting hospitals struggling to treat patients amid Israeli bombing.",
-        "published": "11 Jul 2026 20:18 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Apa yang terjadi di Yaman?",
-        "url": "https://www.aljazeera.com/features/2026/7/11/what-is-going-on-in-yemen?traffic_source=rss",
-        "summary": "Tensions are rising in the battlefield and political sphere. Will the conflict reignite?",
-        "published": "11 Jul 2026 19:53 WIB",
-        "sentiment": "Bearish",
-        "score": -0.948,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Sheinbaum menghadapi kartel, Trump, dan warisan tahun 1968",
-        "url": "https://www.aljazeera.com/features/longform/2026/7/11/sheinbaum-takes-on-cartels-trump-and-the-legacy-of-1968?traffic_source=rss",
-        "summary": "Claudia Sheinbaum is trying to govern on her own terms — while dealing with Trump, cartels and AMLO's shadow.",
-        "published": "11 Jul 2026 18:38 WIB",
-        "sentiment": "Bullish",
-        "score": 0.08,
-        "emoji": "🟢"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Serangan rudal dan drone Rusia menewaskan dua orang dan melukai 19 orang di Ukraina",
-        "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-        "summary": "In the latest salvo in one of the war's deadliest months, Russia hits Kyiv with ballistic missiles and 121 drones.",
-        "published": "11 Jul 2026 15:53 WIB",
-        "sentiment": "Bearish",
-        "score": -0.702,
-        "emoji": "🔴"
-      },
-      {
-        "source": "MarketWatch",
-        "title": "Ketua Fed Warsh akan menjadi kandidat utama ketika anggota parlemen mendesak agar dia membacakan perekonomian",
-        "url": "https://www.marketwatch.com/story/fed-chair-warsh-will-be-in-the-hot-seat-as-lawmakers-press-for-his-read-on-the-economy-959ac784?mod=mw_rss_topstories",
-        "summary": "Kevin Warsh will testify before Congress for the first time as Fed chair this week. Lawmakers will want answers.",
-        "published": "11 Jul 2026 18:00 WIB",
+        "title": "Pengungkapan fakta mengklaim Kennedy Center ‘memburu’ rekomendasi untuk menyenangkan Trump",
+        "url": "https://www.aljazeera.com/news/2026/7/11/whistleblower-claims-kennedy-center-rushed-renovations-to-please-trump?traffic_source=rss",
+        "summary": "Democratic Senator Sheldon Whitehouse details rusting columns, uneven paint and unnecessary demolition under Trump.",
+        "published": "12 Jul 2026 06:31 WIB",
         "sentiment": "Netral",
-        "score": -0.003,
+        "score": 0.0,
         "emoji": "⚪"
       },
       {
-        "source": "CNBC Forex",
-        "title": "Ketika pendapatan bank semakin dekat, anomali pasar muncul",
-        "url": "https://www.cnbc.com/2026/07/10/as-bank-earnings-approach-a-market-anomaly-emerges.html",
-        "summary": "The Financial Select Sector Index trades at roughly 15.5 times forward earnings — about a turn and a quarter cheaper than where it stood in 2024.",
-        "published": "11 Jul 2026 00:18 WIB",
+        "source": "MarketWatch",
+        "title": "Kehancuran dot-com merupakan kerugian sebesar $5 triliun. Mengapa krisis keuangan berikutnya bisa mencapai 4 kali lebih parah.",
+        "url": "https://www.marketwatch.com/story/the-dot-com-crash-was-a-5-trillion-blip-why-the-next-financial-crisis-could-hit-4-times-harder-29f4aa57?mod=mw_rss_topstories",
+        "summary": "The next global financial crisis is already under way. Here is how it will unfold.",
+        "published": "11 Jul 2026 23:00 WIB",
         "sentiment": "Bearish",
-        "score": -0.08,
+        "score": -0.978,
         "emoji": "🔴"
       },
       {
@@ -1782,7 +1380,7 @@ window.FK_DATA = {
         "title": "Trump mengancam akan 'memusnahkan' Iran jika Iran mencoba membunuhnya, seperti yang dikenakan sanksi oleh Departemen Keuangan terhadap pemodal Iran",
         "url": "https://www.cnbc.com/2026/07/11/trump-threat.html",
         "summary": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president.",
-        "published": "11 Jul 2026 19:51 WIB",
+        "published": "12 Jul 2026 05:58 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
         "emoji": "🔴"
@@ -1790,16 +1388,36 @@ window.FK_DATA = {
     ]
   },
   "fj_live": {
-    "generated": "11 Jul 2026 22:02 WIB",
+    "generated": "12 Jul 2026 07:02 WIB",
     "summary": {
-      "total": 28,
-      "bullish": 5,
-      "bearish": 2,
-      "netral": 21,
-      "avg_score": 0.0648,
-      "overall": "Bullish"
+      "total": 18,
+      "bullish": 1,
+      "bearish": 0,
+      "netral": 17,
+      "avg_score": 0.0473,
+      "overall": "Netral"
     },
     "items": [
+      {
+        "source": "FinancialJuice",
+        "title": "Oman mengusulkan perjanjian jalur pelayaran Selat Hormuz: CNN, mengutip sumber",
+        "url": "https://www.financialjuice.com/News/9674007/Oman-proposes-agreement-for-Strait-of-Hormuz-shipping-lanes-CNN-citing-source.aspx?xy=rss",
+        "summary": "",
+        "published": "12 Jul 2026 01:53 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Iran dan para menteri luar negeri Oman membahas mekanisme yang sesuai untuk pelayaran yang aman melalui Selat Hormuz berdasarkan pasal 5 MOU Islamabad: Menlu Iran",
+        "url": "https://www.financialjuice.com/News/9673984/Iran-Oman-foreign-ministers-discuss-suitable-mechanisms-for-safe-shipping-through-Strait-of-Hormuz-under-article-5-of-Islamabad-MOU-Irans-FM.aspx?xy=rss",
+        "summary": "",
+        "published": "11 Jul 2026 23:16 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
       {
         "source": "FinancialJuice",
         "title": "Mantan Kepala Virgin Money Gadhia Akan Menjadi Ketua Pengawas Audit Inggris: Sky News",
@@ -1941,133 +1559,13 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "FinancialJuice",
-        "title": "Laporan Fed: pertumbuhan pasokan tenaga kerja menurun di tengah lambatnya imigrasi dan perubahan demografi",
-        "url": "https://www.financialjuice.com/News/9673064/Fed-report-labor-supply-growth-declines-amid-slower-immigration-demographic-changes.aspx?xy=rss",
-        "summary": "",
-        "published": "10 Jul 2026 22:01 WIB",
+        "source": "Al Jazeera",
+        "title": "Pengungkapan fakta mengklaim Kennedy Center ‘memburu’ rekomendasi untuk menyenangkan Trump",
+        "url": "https://www.aljazeera.com/news/2026/7/11/whistleblower-claims-kennedy-center-rushed-renovations-to-please-trump?traffic_source=rss",
+        "summary": "Democratic Senator Sheldon Whitehouse details rusting columns, uneven paint and unnecessary demolition under Trump.",
+        "published": "12 Jul 2026 06:31 WIB",
         "sentiment": "Netral",
         "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Laporan Fed: usaha kecil dan rumah tangga terus-menerus menghadapi kondisi kredit yang ketat",
-        "url": "https://www.financialjuice.com/News/9673063/Fed-report-small-businesses-and-households-persistently-encounter-restrictive-credit-conditions.aspx?xy=rss",
-        "summary": "",
-        "published": "10 Jul 2026 22:01 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Laporan Fed: Ekspansi Q1 2026 didorong oleh investasi teknologi dan pengeluaran pemerintah",
-        "url": "https://www.financialjuice.com/News/9673062/Fed-report-Q1-2026-expansion-boosted-by-tech-investment-government-outlays.aspx?xy=rss",
-        "summary": "",
-        "published": "10 Jul 2026 22:01 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Laporan Fed: dana sering kali menetapkan batas penebusan, pasar kredit swasta tetap beroperasi normal",
-        "url": "https://www.financialjuice.com/News/9673060/Fed-report-funds-often-set-redemption-limits-private-credit-markets-keep-operating-normally.aspx?xy=rss",
-        "summary": "",
-        "published": "10 Jul 2026 22:01 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Laporan Fed: dana kredit swasta tertentu mengalami peningkatan signifikan dalam permintaan penebusan di kuartal pertama, yang mengindikasikan terjadinya gagal bayar dan kekhawatiran terhadap kualitas aset",
-        "url": "https://www.financialjuice.com/News/9673059/Fed-report-certain-private-credit-funds-saw-significant-rises-in-redemption-demands-in-Q1-indicating-defaults-and-worries-over-asset-quality.aspx?xy=rss",
-        "summary": "",
-        "published": "10 Jul 2026 22:01 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Laporan Fed: aktivitas pasar perumahan masih stagnan",
-        "url": "https://www.financialjuice.com/News/9673058/Fed-report-housing-market-activity-remains-stagnant.aspx?xy=rss",
-        "summary": "",
-        "published": "10 Jul 2026 22:01 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Laporan Fed: kuatnya output pabrik yang didorong oleh investasi pusat data yang terkait dengan al; Kapasitas produktif AS tumbuh dengan kecepatan yang solid",
-        "url": "https://www.financialjuice.com/News/9673057/Fed-report-robust-factory-output-fueled-by-data-center-investment-linked-to-al-US-productive-capacity-growing-at-solid-pace.aspx?xy=rss",
-        "summary": "",
-        "published": "10 Jul 2026 22:01 WIB",
-        "sentiment": "Bullish",
-        "score": 0.153,
-        "emoji": "🟢"
-      },
-      {
-        "source": "ForexLive",
-        "title": "USD bergerak lebih tinggi karena pedagang bereaksi terhadap komentar Trump",
-        "url": "https://investinglive.com/technical-analysis/usd-moves-higher-as-traders-react-to-trump-comments/",
-        "summary": "The latest geopolitical headlines once again reminded traders just how headline-driven markets can be. Following President Trump's declaration that the \"Ceasefire is OVER!\", the initial reaction was textbook risk-off: the U.S. dollar moved higher, stocks turned lower, oil prices rallied, and Treasur",
-        "published": "10 Jul 2026 22:15 WIB",
-        "sentiment": "Bullish",
-        "score": 0.48,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Perkiraan minggu depan: CPI AS dan bukti Warsh akan menguji pemulihan Dolar",
-        "url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-cpi-and-warsh-testimony-to-test-the-dollars-recovery-202607102046",
-        "summary": "The upcoming week will bring a major test for the US Dollar (USD), with investors focusing on the United States Consumer Price Index (CPI), Federal Reserve (Fed) Chair Kevin Warsh’s congressional testimony and a broad set of activity indicators.",
-        "published": "11 Jul 2026 03:46 WIB",
-        "sentiment": "Bullish",
-        "score": 0.341,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Yuan Tiongkok: Kesenjangan reflasi menempatkan Dolar AS – Commerzbank",
-        "url": "https://www.fxstreet.com/news/chinese-yuan-reflation-gap-weighs-against-us-dollar-commerzbank-202607101848",
-        "summary": "Commerzbank analysts highlight that China’s June Consumer Price Index (CPI) slowed to 1.0% year-on-year while Producer Price Index (PPI) rose 4.1%, widening the PPI-CPI gap and squeezing downstream margins.",
-        "published": "11 Jul 2026 01:48 WIB",
-        "sentiment": "Bullish",
-        "score": 0.34,
-        "emoji": "🟢"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Indeks Dolar Amerika Serikat stabil karena para pedagang mempertimbangkan geopolitik dan prospek Fed",
-        "url": "https://www.fxstreet.com/news/united-states-dollar-index-little-changed-as-traders-weigh-geopolitics-and-fed-outlook-202607101829",
-        "summary": "The US Dollar Index (DXY) trades within a volatile range on Friday as a sparse US economic calendar leaves traders watching developments in the Middle East after renewed hostilities between the United States (US) and Iran this week.",
-        "published": "11 Jul 2026 01:29 WIB",
-        "sentiment": "Bearish",
-        "score": -0.077,
-        "emoji": "🔴"
-      },
-      {
-        "source": "FXStreet News",
-        "title": "Pound Inggris tetap kokoh saat kejutan gencatan senjata Trump menguji USD",
-        "url": "https://www.fxstreet.com/news/british-pound-holds-firm-as-trump-ceasefire-shock-tests-usd-202607101625",
-        "summary": "The Pound Sterling (GBP) holds firm on Friday during the North American session as risk appetite deteriorated after US President Donald Trump posted on social media that the ceasefire with Iran is over, even though negotiations continue.",
-        "published": "10 Jul 2026 23:25 WIB",
-        "sentiment": "Bearish",
-        "score": -0.273,
-        "emoji": "🔴"
-      },
-      {
-        "source": "MarketWatch",
-        "title": "Ketua Fed Warsh akan menjadi kandidat utama ketika anggota parlemen mendesak agar dia membacakan perekonomian",
-        "url": "https://www.marketwatch.com/story/fed-chair-warsh-will-be-in-the-hot-seat-as-lawmakers-press-for-his-read-on-the-economy-959ac784?mod=mw_rss_topstories",
-        "summary": "Kevin Warsh will testify before Congress for the first time as Fed chair this week. Lawmakers will want answers.",
-        "published": "11 Jul 2026 18:00 WIB",
-        "sentiment": "Netral",
-        "score": -0.003,
         "emoji": "⚪"
       },
       {
@@ -2083,7 +1581,7 @@ window.FK_DATA = {
     ]
   },
   "rekomendasi": {
-    "generated": "11 Jul 2026 22:02 WIB",
+    "generated": "12 Jul 2026 07:02 WIB",
     "pairs": [
       {
         "label": "CHF/JPY",
@@ -2098,14 +1596,14 @@ window.FK_DATA = {
         "bear": 5,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.36,
+          "signal": "SELL",
+          "fund_score": -0.318,
           "base": "CHF",
           "quote": "JPY",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Bearish",
+          "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": -0.36,
+          "quote_score": 0.318,
           "base_count": 0,
           "quote_count": 1
         }
@@ -2123,15 +1621,15 @@ window.FK_DATA = {
         "bear": 4,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.324,
+          "signal": "Netral",
+          "fund_score": -0.05,
           "base": "EUR",
           "quote": "CAD",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Netral",
-          "base_score": -0.324,
+          "base_score": -0.05,
           "quote_score": 0.0,
-          "base_count": 4,
+          "base_count": 1,
           "quote_count": 0
         }
       },
@@ -2148,15 +1646,15 @@ window.FK_DATA = {
         "bear": 0,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "Netral",
-          "fund_score": -0.007,
+          "signal": "SELL",
+          "fund_score": -0.181,
           "base": "USD",
           "quote": "CHF",
-          "base_sentiment": "Netral",
+          "base_sentiment": "Bearish",
           "quote_sentiment": "Netral",
-          "base_score": -0.007,
+          "base_score": -0.181,
           "quote_score": 0.0,
-          "base_count": 13,
+          "base_count": 2,
           "quote_count": 0
         }
       },
@@ -2173,40 +1671,15 @@ window.FK_DATA = {
         "bear": 0,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.324,
+          "signal": "Netral",
+          "fund_score": -0.05,
           "base": "EUR",
           "quote": "CHF",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Netral",
-          "base_score": -0.324,
+          "base_score": -0.05,
           "quote_score": 0.0,
-          "base_count": 4,
-          "quote_count": 0
-        }
-      },
-      {
-        "label": "NZD/CHF",
-        "score": 61,
-        "direction": "BUY",
-        "rsi": 76.8,
-        "last_close": "0.46562",
-        "sma20": "0.46257",
-        "sma50": "0.46017",
-        "sma200": "0.46184",
-        "bull": 4,
-        "bear": 1,
-        "total_sigs": 5,
-        "fundamental": {
-          "signal": "Netral",
-          "fund_score": 0.0,
-          "base": "NZD",
-          "quote": "CHF",
-          "base_sentiment": "Netral",
-          "quote_sentiment": "Netral",
-          "base_score": 0.0,
-          "quote_score": 0.0,
-          "base_count": 0,
+          "base_count": 1,
           "quote_count": 0
         }
       },
@@ -2223,13 +1696,13 @@ window.FK_DATA = {
         "bear": 1,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.572,
+          "signal": "BUY",
+          "fund_score": 0.69,
           "base": "GBP",
           "quote": "CHF",
-          "base_sentiment": "Bearish",
+          "base_sentiment": "Bullish",
           "quote_sentiment": "Netral",
-          "base_score": -0.572,
+          "base_score": 0.69,
           "quote_score": 0.0,
           "base_count": 1,
           "quote_count": 0
@@ -2248,15 +1721,15 @@ window.FK_DATA = {
         "bear": 4,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "Netral",
-          "fund_score": 0.036,
+          "signal": "SELL",
+          "fund_score": -0.368,
           "base": "EUR",
           "quote": "JPY",
           "base_sentiment": "Bearish",
-          "quote_sentiment": "Bearish",
-          "base_score": -0.324,
-          "quote_score": -0.36,
-          "base_count": 4,
+          "quote_sentiment": "Bullish",
+          "base_score": -0.05,
+          "quote_score": 0.318,
+          "base_count": 1,
           "quote_count": 1
         }
       },
@@ -2273,15 +1746,15 @@ window.FK_DATA = {
         "bear": 4,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.324,
+          "signal": "Netral",
+          "fund_score": -0.05,
           "base": "EUR",
           "quote": "AUD",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Netral",
-          "base_score": -0.324,
+          "base_score": -0.05,
           "quote_score": 0.0,
-          "base_count": 4,
+          "base_count": 1,
           "quote_count": 0
         }
       },
@@ -2298,16 +1771,16 @@ window.FK_DATA = {
         "bear": 4,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.317,
+          "signal": "BUY",
+          "fund_score": 0.131,
           "base": "EUR",
           "quote": "USD",
           "base_sentiment": "Bearish",
-          "quote_sentiment": "Netral",
-          "base_score": -0.324,
-          "quote_score": -0.007,
-          "base_count": 4,
-          "quote_count": 13
+          "quote_sentiment": "Bearish",
+          "base_score": -0.05,
+          "quote_score": -0.181,
+          "base_count": 1,
+          "quote_count": 2
         }
       },
       {
@@ -2323,16 +1796,41 @@ window.FK_DATA = {
         "bear": 4,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.248,
+          "signal": "SELL",
+          "fund_score": -0.74,
           "base": "EUR",
           "quote": "GBP",
           "base_sentiment": "Bearish",
-          "quote_sentiment": "Bearish",
-          "base_score": -0.324,
-          "quote_score": -0.572,
-          "base_count": 4,
+          "quote_sentiment": "Bullish",
+          "base_score": -0.05,
+          "quote_score": 0.69,
+          "base_count": 1,
           "quote_count": 1
+        }
+      },
+      {
+        "label": "AUD/NZD",
+        "score": 56,
+        "direction": "SELL",
+        "rsi": 32.8,
+        "last_close": "1.20622",
+        "sma20": "1.20972",
+        "sma50": "1.21391",
+        "sma200": "1.21408",
+        "bull": 1,
+        "bear": 4,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": 0.0,
+          "base": "AUD",
+          "quote": "NZD",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Netral",
+          "base_score": 0.0,
+          "quote_score": 0.0,
+          "base_count": 0,
+          "quote_count": 0
         }
       },
       {
@@ -2361,22 +1859,22 @@ window.FK_DATA = {
         }
       },
       {
-        "label": "AUD/NZD",
-        "score": 50,
-        "direction": "SELL",
-        "rsi": 32.8,
-        "last_close": "1.20622",
-        "sma20": "1.21041",
-        "sma50": "1.21415",
-        "sma200": "1.21419",
-        "bull": 1,
-        "bear": 4,
+        "label": "NZD/CHF",
+        "score": 53,
+        "direction": "BUY",
+        "rsi": 63.1,
+        "last_close": "0.46430",
+        "sma20": "0.46285",
+        "sma50": "0.46027",
+        "sma200": "0.46186",
+        "bull": 4,
+        "bear": 1,
         "total_sigs": 5,
         "fundamental": {
           "signal": "Netral",
           "fund_score": 0.0,
-          "base": "AUD",
-          "quote": "NZD",
+          "base": "NZD",
+          "quote": "CHF",
           "base_sentiment": "Netral",
           "quote_sentiment": "Netral",
           "base_score": 0.0,
@@ -2391,23 +1889,23 @@ window.FK_DATA = {
         "direction": "BUY",
         "rsi": 56.2,
         "last_close": "0.69551",
-        "sma20": "0.69419",
-        "sma50": "0.69328",
-        "sma200": "0.70175",
+        "sma20": "0.69428",
+        "sma50": "0.69334",
+        "sma200": "0.70164",
         "bull": 4,
         "bear": 1,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "Netral",
-          "fund_score": 0.007,
+          "signal": "BUY",
+          "fund_score": 0.181,
           "base": "AUD",
           "quote": "USD",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Netral",
+          "quote_sentiment": "Bearish",
           "base_score": 0.0,
-          "quote_score": -0.007,
+          "quote_score": -0.181,
           "base_count": 0,
-          "quote_count": 13
+          "quote_count": 2
         }
       },
       {
@@ -2423,16 +1921,16 @@ window.FK_DATA = {
         "bear": 1,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.565,
+          "signal": "BUY",
+          "fund_score": 0.871,
           "base": "GBP",
           "quote": "USD",
-          "base_sentiment": "Bearish",
-          "quote_sentiment": "Netral",
-          "base_score": -0.572,
-          "quote_score": -0.007,
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Bearish",
+          "base_score": 0.69,
+          "quote_score": -0.181,
           "base_count": 1,
-          "quote_count": 13
+          "quote_count": 2
         }
       },
       {
@@ -2448,14 +1946,14 @@ window.FK_DATA = {
         "bear": 4,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.36,
+          "signal": "SELL",
+          "fund_score": -0.318,
           "base": "CAD",
           "quote": "JPY",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Bearish",
+          "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": -0.36,
+          "quote_score": 0.318,
           "base_count": 0,
           "quote_count": 1
         }
@@ -2464,11 +1962,11 @@ window.FK_DATA = {
         "label": "AUD/CAD",
         "score": 46,
         "direction": "SELL",
-        "rsi": 48.5,
-        "last_close": "0.98309",
-        "sma20": "0.98303",
-        "sma50": "0.98320",
-        "sma200": "0.98542",
+        "rsi": 49.1,
+        "last_close": "0.98323",
+        "sma20": "0.98299",
+        "sma50": "0.98321",
+        "sma200": "0.98539",
         "bull": 1,
         "bear": 4,
         "total_sigs": 5,
@@ -2491,23 +1989,23 @@ window.FK_DATA = {
         "direction": "WAIT",
         "rsi": 62.3,
         "last_close": "0.57630",
-        "sma20": "0.57339",
-        "sma50": "0.57090",
-        "sma200": "0.57789",
+        "sma20": "0.57377",
+        "sma50": "0.57107",
+        "sma200": "0.57786",
         "bull": 3,
         "bear": 2,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "Netral",
-          "fund_score": 0.007,
+          "signal": "BUY",
+          "fund_score": 0.181,
           "base": "NZD",
           "quote": "USD",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Netral",
+          "quote_sentiment": "Bearish",
           "base_score": 0.0,
-          "quote_score": -0.007,
+          "quote_score": -0.181,
           "base_count": 0,
-          "quote_count": 13
+          "quote_count": 2
         }
       },
       {
@@ -2523,14 +2021,14 @@ window.FK_DATA = {
         "bear": 2,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.36,
+          "signal": "SELL",
+          "fund_score": -0.318,
           "base": "NZD",
           "quote": "JPY",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Bearish",
+          "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": -0.36,
+          "quote_score": 0.318,
           "base_count": 0,
           "quote_count": 1
         }
@@ -2548,27 +2046,27 @@ window.FK_DATA = {
         "bear": 3,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.324,
+          "signal": "Netral",
+          "fund_score": -0.05,
           "base": "EUR",
           "quote": "NZD",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Netral",
-          "base_score": -0.324,
+          "base_score": -0.05,
           "quote_score": 0.0,
-          "base_count": 4,
+          "base_count": 1,
           "quote_count": 0
         }
       },
       {
         "label": "NZD/CAD",
-        "score": 24,
+        "score": 25,
         "direction": "WAIT",
-        "rsi": 60.6,
-        "last_close": "0.81526",
-        "sma20": "0.81199",
-        "sma50": "0.80966",
-        "sma200": "0.81150",
+        "rsi": 60.9,
+        "last_close": "0.81538",
+        "sma20": "0.81243",
+        "sma50": "0.80983",
+        "sma200": "0.81155",
         "bull": 3,
         "bear": 2,
         "total_sigs": 5,
@@ -2598,14 +2096,14 @@ window.FK_DATA = {
         "bear": 3,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.212,
+          "signal": "BUY",
+          "fund_score": 0.372,
           "base": "GBP",
           "quote": "JPY",
-          "base_sentiment": "Bearish",
-          "quote_sentiment": "Bearish",
-          "base_score": -0.572,
-          "quote_score": -0.36,
+          "base_sentiment": "Bullish",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.69,
+          "quote_score": 0.318,
           "base_count": 1,
           "quote_count": 1
         }
@@ -2623,13 +2121,13 @@ window.FK_DATA = {
         "bear": 3,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.572,
+          "signal": "BUY",
+          "fund_score": 0.69,
           "base": "GBP",
           "quote": "CAD",
-          "base_sentiment": "Bearish",
+          "base_sentiment": "Bullish",
           "quote_sentiment": "Netral",
-          "base_score": -0.572,
+          "base_score": 0.69,
           "quote_score": 0.0,
           "base_count": 1,
           "quote_count": 0
@@ -2648,16 +2146,41 @@ window.FK_DATA = {
         "bear": 2,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.353,
+          "signal": "SELL",
+          "fund_score": -0.499,
           "base": "USD",
           "quote": "JPY",
-          "base_sentiment": "Netral",
-          "quote_sentiment": "Bearish",
-          "base_score": -0.007,
-          "quote_score": -0.36,
-          "base_count": 13,
+          "base_sentiment": "Bearish",
+          "quote_sentiment": "Bullish",
+          "base_score": -0.181,
+          "quote_score": 0.318,
+          "base_count": 2,
           "quote_count": 1
+        }
+      },
+      {
+        "label": "USD/CAD",
+        "score": 17,
+        "direction": "WAIT",
+        "rsi": 41.4,
+        "last_close": "1.41530",
+        "sma20": "1.41658",
+        "sma50": "1.41876",
+        "sma200": "1.40526",
+        "bull": 2,
+        "bear": 3,
+        "total_sigs": 5,
+        "fundamental": {
+          "signal": "SELL",
+          "fund_score": -0.181,
+          "base": "USD",
+          "quote": "CAD",
+          "base_sentiment": "Bearish",
+          "quote_sentiment": "Netral",
+          "base_score": -0.181,
+          "quote_score": 0.0,
+          "base_count": 2,
+          "quote_count": 0
         }
       },
       {
@@ -2673,40 +2196,15 @@ window.FK_DATA = {
         "bear": 2,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.572,
+          "signal": "BUY",
+          "fund_score": 0.69,
           "base": "GBP",
           "quote": "AUD",
-          "base_sentiment": "Bearish",
+          "base_sentiment": "Bullish",
           "quote_sentiment": "Netral",
-          "base_score": -0.572,
+          "base_score": 0.69,
           "quote_score": 0.0,
           "base_count": 1,
-          "quote_count": 0
-        }
-      },
-      {
-        "label": "USD/CAD",
-        "score": 12,
-        "direction": "WAIT",
-        "rsi": 40.8,
-        "last_close": "1.41520",
-        "sma20": "1.41679",
-        "sma50": "1.41886",
-        "sma200": "1.40509",
-        "bull": 2,
-        "bear": 3,
-        "total_sigs": 5,
-        "fundamental": {
-          "signal": "Netral",
-          "fund_score": -0.007,
-          "base": "USD",
-          "quote": "CAD",
-          "base_sentiment": "Netral",
-          "quote_sentiment": "Netral",
-          "base_score": -0.007,
-          "quote_score": 0.0,
-          "base_count": 13,
           "quote_count": 0
         }
       },
@@ -2723,14 +2221,14 @@ window.FK_DATA = {
         "bear": 3,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.36,
+          "signal": "SELL",
+          "fund_score": -0.318,
           "base": "AUD",
           "quote": "JPY",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Bearish",
+          "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": -0.36,
+          "quote_score": 0.318,
           "base_count": 0,
           "quote_count": 1
         }
