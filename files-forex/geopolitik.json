@@ -1,41 +1,29 @@
 {
-  "generated": "12 Jul 2026 07:02 WIB",
+  "generated": "12 Jul 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.09,
-      "count": 10
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.153,
-      "count": 9
+      "score": -0.189,
+      "count": 6
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.189,
+      "count": 6
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.075,
-      "count": 8
+      "direction": "Netral →",
+      "score": -0.027,
+      "count": 5
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.434,
-      "count": 3
-    },
-    {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.779,
-      "count": 1
-    },
-    {
-      "pair": "GBP/USD",
       "direction": "Tekanan Turun ▼",
       "score": -1.0,
       "count": 1
@@ -43,23 +31,63 @@
   ],
   "items": [
     {
-      "source": "Investing.com Forex",
-      "title": "Perusahaan Amerika menawarkan bukti kuat bahwa AI meningkatkan keuntungan dan produktivitas: MS",
-      "url": "https://www.investing.com/news/stock-market-news/corporate-america-offers-stronger-proof-ai-is-boosting-profits-productivity-ms-4787269",
-      "summary": "",
-      "published": "11 Jul 2026 19:25 WIB",
+      "source": "ForexLive",
+      "title": "Senator Carolina Selatan Lindsey Graham Meninggal pada usia 71 tahun",
+      "url": "https://investinglive.com/news/south-carolina-senator-lindsey-graham-dies-at-71/",
+      "summary": "According to statements released by his office, Senator Graham died on July 11, 2026, at age 71, following what was described as a \"brief and sudden illness.\" There are reports he died of a sudden heart attack. Graham built a reputation as one of the Senate's leading voices on national security, for",
+      "published": "12 Jul 2026 21:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.477,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gelombang Pemogokan AS dan Iran Sambil Memperdebatkan Status Hormuz",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-12/us-iran-trade-wave-of-attacks-as-tehran-says-hormuz-closed",
+      "summary": "The US struck Iran for a third time in a week, prompting retaliatory attacks on at least five Arab nations as Washington and Tehran issued conflicting declarations over whether the Strait of Hormuz remains open to shipping.",
+      "published": "12 Jul 2026 15:06 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Serangan Baru Mengancam Perundingan AS dengan Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-12/fresh-strikes-threaten-us-iran-talks-video",
+      "summary": "Bloomberg's Abeer Abu Omar and ABC News' Shannon Kingston say renewed attacks in and around the Strait of Hormuz have undermined fragile diplomatic efforts, with Gulf allies pressing to revive negotiations as shipping and regional security remain under threat. They say technical talks continue to fa",
+      "published": "12 Jul 2026 20:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.952,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bagaimana Kontrol Pendiri Membentuk Kembali Pasar Umum",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-12/how-founder-control-is-reshaping-public-markets-video",
+      "summary": "SpaceX’s record-setting IPO gave public investors access to one of the world’s most valuable companies, but not equal voting rights. CEO Elon Musk holds just over 40% of the company’s equity while controlling more than 80% of the vote. IPO adviser Lise Buyer says dual-class shares can protect founde",
+      "published": "12 Jul 2026 19:03 WIB",
       "sentiment": "Bullish",
-      "score": 0.864,
+      "score": 0.532,
       "emoji": "🟢"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Oregon membatalkan mosi untuk menunda kesepakatan Paramount-Warner Bros",
-      "url": "https://www.investing.com/news/stock-market-news/oregon-drops-motion-to-delay-paramountwarner-bros-deal-4787212",
-      "summary": "",
-      "published": "11 Jul 2026 11:00 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Pembukaan kembali Hormuz menghadapi rintangan yang mahal",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-12/hormuz-reopening-faces-costly-hurdles-video",
+      "summary": "Senior Fellow at the Council on Foreign Relations Clara Gillispie says Gulf energy flows face an uncertain recovery as producers work to clear ships, bring in tankers, restart halted output and repair damage to refineries, LNG facilities and ports. She says the Strait of Hormuz remains unstable, wit",
+      "published": "12 Jul 2026 18:55 WIB",
       "sentiment": "Bearish",
-      "score": -0.318,
+      "score": -0.178,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Rute Hormuz Dibuka Meskipun Ada Deklarasi Iran, Kata Kelompok Maritim",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-12/hormuz-route-open-despite-iran-declaration-maritime-group-says",
+      "summary": "The Strait of Hormuz’s southern route remained open to shipping on Sunday despite Iran declaring the waterway closed as tit-for-tat attacks between the US and Tehran escalated, a maritime advisory group said.",
+      "published": "12 Jul 2026 17:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
       "emoji": "🔴"
     },
     {
@@ -83,83 +111,23 @@
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Hannah Elliott Menyoroti Risiko Tinnitus",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-11/hannah-elliott-highlights-tinnitus-risks-video",
-      "summary": "Bloomberg Pursuit staff writer Hannah Elliott says Tinnitus affects more than 50 million Americans, remains underdiagnosed and underfunded, and can have profound effects on mental health and quality of life. She says growing awareness of hearing health and new treatments, including the FDA-cleared L",
-      "published": "11 Jul 2026 23:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.636,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "McCaul Mendukung Hubungan Pertahanan AS dan Ukraina yang Lebih Dalam",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-11/mccaul-backs-deeper-us-ukraine-defense-ties-video",
-      "summary": "Rep. Michael McCaul says Ukraine is gaining momentum on the battlefield but urgently needs more Patriot interceptors and stronger air defenses to counter Russia's escalating missile attacks. He urges deeper US-Ukraine defense cooperation, including licensed Patriot production and joint drone develop",
-      "published": "11 Jul 2026 22:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.382,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Perundingan AS dengan Iran menghadapi kebuntuan yang terus-menerus",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-11/us-iran-talks-face-persistent-impasse-video",
-      "summary": "Bloomberg Economics analysts Becca Wasser and Dina Esfandiary say the US and Iran remain far apart on key issues, with intermittent strikes and negotiations likely to define the conflict for the foreseeable future. They say technical talks on Iran's nuclear program are a constructive step, but dispu",
-      "published": "11 Jul 2026 22:09 WIB",
+      "source": "BBC World",
+      "title": "AS melancarkan serangan baru saat Iran menutup Selat Hormuz",
+      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+      "summary": "The strikes follow an attack on a Cyprus -flagged vessel travelling through the critical waterway.",
+      "published": "12 Jul 2026 13:49 WIB",
       "sentiment": "Bearish",
-      "score": -0.779,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Bisakah Sistem Perpajakan Menyamai Triliuner?",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-11/can-the-tax-system-keep-up-with-trillionaires-video",
-      "summary": "Elon Musk has become the world’s first trillionaire following SpaceX’s record-breaking IPO, creating a fortune unlike anything seen in modern history. Nobel Laureate Paul Krugman and Yale economist Natasha Sarin argue the milestone is about far more than one entrepreneur’s wealth—it reflects how tod",
-      "published": "11 Jul 2026 21:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.397,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pembukaan kembali Hormuz menghadapi rintangan yang mahal",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-11/hormuz-reopening-faces-costly-hurdles-video",
-      "summary": "Senior Fellow at the Council on Foreign Relations Clara Gillespie says Gulf energy flows face an uncertain recovery as producers work to clear ships, bring in tankers, restart halted output and repair damage to refineries, LNG facilities and ports. She says the Strait of Hormuz remains unstable, wit",
-      "published": "11 Jul 2026 20:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.178,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Perselisihan Hormuz Membayangi Diplomasi Iran AS",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-11/hormuz-dispute-clouds-us-iran-diplomacy-video",
-      "summary": "Bloomberg News Middle East reporter Dan Williams says negotiations between the US and Iran remain focused on securing freedom of navigation through the Strait of Hormuz, even as President Donald Trump's escalating rhetoric underscores the fragile state of the ceasefire. Williams says Iran's leadersh",
-      "published": "11 Jul 2026 20:57 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Harga Bahan Bakar Membebani Konsumen Bahkan Saat Krisis Minyak Mentah Mereda",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-11/fuel-prices-are-slamming-consumers-even-as-crude-crisis-fades",
-      "summary": "Prices for gasoline, diesel and jet fuel are rebounding even as crude oil eases, a rare divergence that’s swelling costs for peak-season travelers and threatening to undermine President Donald Trump’s pledge to quash inflation ahead of midterm elections.",
-      "published": "11 Jul 2026 20:30 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.876,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "Iran mengatakan Selat Hormuz ditutup 'sampai pemberitahuan lebih lanjut'",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "summary": "The IRGC says it fired a warning shot at a vessel in the strait and is warning the US not to respond with \"aggression\".",
-      "published": "12 Jul 2026 06:14 WIB",
+      "title": "Senator AS dan sekutu dekat Trump Lindsey Graham meninggal setelah 'sakit singkat dan tiba-tiba'",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Donald Trump paid tribute to the 71-year-old South Carolina senator, calling him a \"true American patriot\" who will be \"greatly missed\".",
+      "published": "12 Jul 2026 21:18 WIB",
       "sentiment": "Bearish",
-      "score": -0.943,
+      "score": -0.418,
       "emoji": "🔴"
     },
     {
@@ -174,33 +142,53 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Pengungkapan fakta mengklaim Kennedy Center ‘memburu’ rekomendasi untuk menyenangkan Trump",
-      "url": "https://www.aljazeera.com/news/2026/7/11/whistleblower-claims-kennedy-center-rushed-renovations-to-please-trump?traffic_source=rss",
-      "summary": "Democratic Senator Sheldon Whitehouse details rusting columns, uneven paint and unnecessary demolition under Trump.",
-      "published": "12 Jul 2026 06:31 WIB",
+      "title": "Lindsey Graham dari Partai Republik meninggal pada usia 71: Para pemimpin dunia, politisi AS bereaksi",
+      "url": "https://www.aljazeera.com/news/2026/7/12/republican-lindsey-graham-dies-at-71-world-leaders-us-politicians-react?traffic_source=rss",
+      "summary": "The longtime US senator, an ally of President Trump, was an advocate for using US military force overseas.",
+      "published": "12 Jul 2026 20:08 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
-      "source": "MarketWatch",
-      "title": "Kehancuran dot-com merupakan kerugian sebesar $5 triliun. Mengapa krisis keuangan berikutnya bisa mencapai 4 kali lebih parah.",
-      "url": "https://www.marketwatch.com/story/the-dot-com-crash-was-a-5-trillion-blip-why-the-next-financial-crisis-could-hit-4-times-harder-29f4aa57?mod=mw_rss_topstories",
-      "summary": "The next global financial crisis is already under way. Here is how it will unfold.",
-      "published": "11 Jul 2026 23:00 WIB",
+      "source": "Al Jazeera",
+      "title": "IRGC merilis video serangan rudal balasan",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/irgc-releases-video-of-retaliatory-missile-strikes?traffic_source=rss",
+      "summary": "IRGC releases video of retaliatory missile strikes",
+      "published": "12 Jul 2026 18:07 WIB",
       "sentiment": "Bearish",
-      "score": -0.978,
+      "score": -0.692,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "Trump mengancam akan 'memusnahkan' Iran jika Iran mencoba membunuhnya, seperti yang dikenakan sanksi oleh Departemen Keuangan terhadap pemodal Iran",
-      "url": "https://www.cnbc.com/2026/07/11/trump-threat.html",
-      "summary": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president.",
-      "published": "12 Jul 2026 05:58 WIB",
+      "title": "Senator Lindsey Graham, anggota parlemen berpengaruh dan sekutu Trump, meninggal pada usia 71 tahun setelah sakit sebentar",
+      "url": "https://www.cnbc.com/2026/07/12/senator-lindsey-graham-has-died-after-a-brief-illness-his-office-says.html",
+      "summary": "Graham, a prominent Republican senator from South Carolina, had just returned from a trip to Ukraine.",
+      "published": "12 Jul 2026 21:09 WIB",
+      "sentiment": "Bullish",
+      "score": 0.361,
+      "emoji": "🟢"
+    },
+    {
+      "source": "CNBC World",
+      "title": "AS dan Iran kembali melakukan serangan udara di tengah konflik klaim atas Selat Hormuz",
+      "url": "https://www.cnbc.com/2026/07/11/us-airstrikes-iran-strait-hormuz.html",
+      "summary": "The U.S. and Iran exchanged a barrage of missile and drone airstrikes amid a dispute over the status of the Strait of Hormuz.",
+      "published": "12 Jul 2026 21:48 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.74,
       "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "AI sedang memasuki fase baru – dan inilah saham-saham yang harus diwaspadai investor",
+      "url": "https://www.cnbc.com/2026/07/11/ai-is-entering-a-new-phase-and-these-are-the-stocks-investors-should-be-watching.html",
+      "summary": "CNBC's Paulina Likos and Zev Fima discuss Wall Street's shift from AI euphoria toward rationalization and what it means for investors.",
+      "published": "12 Jul 2026 03:11 WIB",
+      "sentiment": "Bullish",
+      "score": 0.569,
+      "emoji": "🟢"
     }
   ]
 }
