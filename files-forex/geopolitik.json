@@ -1,35 +1,113 @@
 {
-  "generated": "12 Jul 2026 22:01 WIB",
+  "generated": "13 Jul 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.189,
-      "count": 6
-    },
-    {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.189,
-      "count": 6
+      "score": -0.43,
+      "count": 12
     },
     {
-      "pair": "USD/CHF",
-      "direction": "Netral →",
-      "score": -0.027,
-      "count": 5
+      "pair": "USD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.412,
+      "count": 11
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -1.0,
+      "score": -0.406,
+      "count": 7
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.288,
+      "count": 6
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.554,
+      "count": 2
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.554,
+      "count": 2
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.441,
       "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Para analis berbeda pendapat mengenai apakah gejolak Hormuz mengancam gencatan senjata",
+      "url": "https://investinglive.com/commodities/analysts-split-on-whether-hormuz-flare-up-threatens-the-truce/",
+      "summary": "Brent and WTI both jumped more than 3% on Monday as the weekend's escalation revived the market's Hormuz risk premium, though the relatively contained size of the move suggests traders are not yet pricing a full collapse of the interim truce. Analyst views are split, with one flagging doubt that a s",
+      "published": "13 Jul 2026 06:38 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "BOJ mungkin menaikkan perkiraan pertumbuhan tahun 2026, dan akan mempertahankan suku bunga tetap stabil karena risiko inflasi tetap menjadi fokus",
+      "url": "https://investinglive.com/central-banks/boj-may-raise-2026-growth-forecast-set-to-hold-rates-steady-as-inflation-risks-stay-in-focus/",
+      "summary": "A modest upward revision to Japan's growth outlook alongside a lower near-term inflation forecast would be a nuanced signal for yen and JGB markets, since the BOJ is expected to frame any inflation downgrade as a reflection of falling oil prices rather than a softer policy stance. With the central b",
+      "published": "13 Jul 2026 06:14 WIB",
+      "sentiment": "Bearish",
+      "score": -0.368,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Sektor jasa Selandia Baru kembali tumbuh karena PSI mencapai 50,6 pada bulan Juni",
+      "url": "https://investinglive.com/news/nz-services-sector-returns-to-growth-as-psi-hits-50-6-in-june/",
+      "summary": "June's move back above the 50.0 breakeven line offers the first tangible sign that New Zealand's services sector, which makes up the bulk of the economy, is stabilising after a prolonged soft patch, and combined with the reported surge in the manufacturing index it strengthens the case for a pickup ",
+      "published": "13 Jul 2026 05:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.92,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "AS melancarkan serangan baru terhadap Iran - Centcom memerintahkan gelombang serangan baru untuk melindungi pelayaran Teluk",
+      "url": "https://investinglive.com/commodities/us-launches-fresh-strikes-on-iran-centcom-orders-new-wave-of-strikes-to-protect-gulf-shipping/",
+      "summary": "The fresh 5 p.m. ET wave of US strikes confirms Washington is sustaining, not winding down, its campaign against Iranian military assets around the strait, reinforcing the higher supply-risk premium already built into crude following the weekend's escalation. Explosions reported near Sirik, west of ",
+      "published": "13 Jul 2026 04:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.591,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI Akhir Pekan: Iran menutup Selat Hormuz, memperluas serangan Teluk setelah AS menyerang sasaran Iran",
+      "url": "https://investinglive.com/news/weeknd-icymi-iran-closes-strait-of-hormuz-expands-gulf-strikes-after-us-hits-iranian-targets/",
+      "summary": "The widening of Iranian strikes to Qatar and the UAE, states that had avoided attack for months, signals a material escalation that traders will read as a fresh supply-risk premium event rather than a contained flare-up. With Tehran again declaring the Strait of Hormuz closed and warning vessels aga",
+      "published": "13 Jul 2026 03:32 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "IHK AS dan Ketua Fed Warsh menjadi pusat perhatian minggu ini.",
+      "url": "https://investinglive.com/news/us-cpi-and-fed-chair-warsh-take-center-stage-this-week/",
+      "summary": "The coming week is headlined by two events that have the potential to reshape expectations for Federal Reserve policy and drive volatility across the U.S. dollar, Treasury yields, equities, and precious metals. The first—and arguably most important—will be Tuesday's June CPI report, released at 8:30",
+      "published": "12 Jul 2026 22:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.462,
+      "emoji": "🟢"
+    },
     {
       "source": "ForexLive",
       "title": "Senator Carolina Selatan Lindsey Graham Meninggal pada usia 71 tahun",
@@ -41,10 +119,40 @@
       "emoji": "🔴"
     },
     {
+      "source": "FXStreet News",
+      "title": "Dolar Australia turun di bawah 0,6950 karena AS dan Iran melancarkan serangan baru",
+      "url": "https://www.fxstreet.com/news/australian-dollar-declines-below-06950-as-us-iran-launch-new-round-of-strikes-202607122319",
+      "summary": "The AUD/USD pair loses ground to near 0.6940 during the early Asian session on Monday. Renewed tensions in the Middle East weigh on the riskier assets such as the Australian Dollar (AUD) against the US Dollar (USD).",
+      "published": "13 Jul 2026 06:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.962,
+      "emoji": "🔴"
+    },
+    {
       "source": "Bloomberg Markets",
-      "title": "Gelombang Pemogokan AS dan Iran Sambil Memperdebatkan Status Hormuz",
+      "title": "Minyak Melonjak Saat Perang Dagang AS dan Iran, Sengketa Status Hormuz",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-12/latest-oil-market-news-and-analysis-for-july-13",
+      "summary": "Oil jumped as the US and Iran exchanged fresh strikes, with the sides offering conflicting statements on whether the Strait of Hormuz remains open to shipping.",
+      "published": "13 Jul 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.876,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Minyak Naik, Saham Berjangka AS Turun Akibat Serangan Iran: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-12/oil-climbs-us-futures-dip-on-fresh-iran-strikes-markets-wrap",
+      "summary": "Oil rose and US equity-index futures fell after the US launched another round of strikes against Iran, while conflicting claims over the status of the Strait of Hormuz heightened uncertainty.",
+      "published": "13 Jul 2026 05:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.823,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "AS Memperbarui Serangan Iran karena Kedua Pihak Mempermasalahkan Status Hormuz",
       "url": "https://www.bloomberg.com/news/articles/2026-07-12/us-iran-trade-wave-of-attacks-as-tehran-says-hormuz-closed",
-      "summary": "The US struck Iran for a third time in a week, prompting retaliatory attacks on at least five Arab nations as Washington and Tehran issued conflicting declarations over whether the Strait of Hormuz remains open to shipping.",
+      "summary": "The US launched fresh missile attacks against Iran on Sunday in what has become a pattern of strikes and counterstrikes by Washington and Tehran as the two sides issued conflicting declarations over whether the Strait of Hormuz is open to shipping.",
       "published": "12 Jul 2026 15:06 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
@@ -52,112 +160,172 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Serangan Baru Mengancam Perundingan AS dengan Iran",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-12/fresh-strikes-threaten-us-iran-talks-video",
-      "summary": "Bloomberg's Abeer Abu Omar and ABC News' Shannon Kingston say renewed attacks in and around the Strait of Hormuz have undermined fragile diplomatic efforts, with Gulf allies pressing to revive negotiations as shipping and regional security remain under threat. They say technical talks continue to fa",
-      "published": "12 Jul 2026 20:40 WIB",
+      "title": "AS Mengatakan Mulai Meluncurkan Lebih Banyak Serangan Terhadap Iran pada pukul 17.00 ET",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-12/us-says-it-began-launching-more-strikes-against-iran-at-5pm-et",
+      "summary": "US Central Command forces began launching more strikes against Iran at 5 p.m. ET today, to continue degrading their ability to attack civilian mariners and commercial ships freely transiting the Strait of Hormuz, according to a post on X.",
+      "published": "13 Jul 2026 04:22 WIB",
       "sentiment": "Bearish",
-      "score": -0.952,
+      "score": -0.807,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bagaimana Kontrol Pendiri Membentuk Kembali Pasar Umum",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-12/how-founder-control-is-reshaping-public-markets-video",
-      "summary": "SpaceX’s record-setting IPO gave public investors access to one of the world’s most valuable companies, but not equal voting rights. CEO Elon Musk holds just over 40% of the company’s equity while controlling more than 80% of the vote. IPO adviser Lise Buyer says dual-class shares can protect founde",
-      "published": "12 Jul 2026 19:03 WIB",
+      "title": "Selandia Baru Ingin Menandatangani Kesepakatan Impor Pabrik LNG Sebelum Pemilu November",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-12/nz-aims-to-sign-lng-import-plant-deal-before-november-election",
+      "summary": "New Zealand plans to sign a contract for its first liquefied natural gas import facility before the November election, with the government betting cheaper global LNG prices in coming years will make the fuel an affordable and reliable backup for renewable electricity.",
+      "published": "13 Jul 2026 02:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.532,
+      "score": 0.441,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pembukaan kembali Hormuz menghadapi rintangan yang mahal",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-12/hormuz-reopening-faces-costly-hurdles-video",
-      "summary": "Senior Fellow at the Council on Foreign Relations Clara Gillispie says Gulf energy flows face an uncertain recovery as producers work to clear ships, bring in tankers, restart halted output and repair damage to refineries, LNG facilities and ports. She says the Strait of Hormuz remains unstable, wit",
-      "published": "12 Jul 2026 18:55 WIB",
+      "title": "Bloomberg Akhir Pekan Ini | Senator Lindsey Graham Meninggal, CENTCOM Melancarkan Serangan ke Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-12/bloomberg-this-weekend-7-12-2026-video",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Adm. Daryl Caudle, US Dept of War Chief of Naval Operations, Kurt Volker, fmr. US Ambassador to NAT",
+      "published": "13 Jul 2026 00:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.178,
+      "score": -0.924,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Rute Hormuz Dibuka Meskipun Ada Deklarasi Iran, Kata Kelompok Maritim",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-12/hormuz-route-open-despite-iran-declaration-maritime-group-says",
-      "summary": "The Strait of Hormuz’s southern route remained open to shipping on Sunday despite Iran declaring the waterway closed as tit-for-tat attacks between the US and Tehran escalated, a maritime advisory group said.",
-      "published": "12 Jul 2026 17:02 WIB",
+      "title": "Stanton Memperingatkan Penutupan Hormuz Merugikan Perekonomian",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-12/stanton-warns-hormuz-closure-hurts-economy-video",
+      "summary": "Rep. Greg Stanton says the Trump administration needs a stronger diplomatic strategy to reopen the Strait of Hormuz and negotiate a more accountable agreement with Iran, warning the conflict has increased economic and geopolitical risks. He also defends closer ties with Canada, Mexico and other US a",
+      "published": "13 Jul 2026 00:27 WIB",
       "sentiment": "Bearish",
-      "score": -0.52,
+      "score": -0.817,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Modi Mendekati Mitra Pasifik saat Tiongkok dan AS Membentuk Kembali Kawasan",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-11/modi-courts-indo-pacific-partners-as-china-us-reshape-region",
-      "summary": "From missiles and uranium to critical minerals and sports diplomacy, Prime Minister Narendra Modi used a three-nation tour to deepen India’s Indo-Pacific partnerships as regional powers strengthen ties amid China’s growing influence and uncertainty over US engagement.",
-      "published": "12 Jul 2026 04:00 WIB",
+      "title": "Volker Melihat KTT NATO Memperkuat Aliansi",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-12/volker-sees-nato-summit-strengthening-alliance-video",
+      "summary": "Former US ambassador to NATO Kurt Volker says the NATO summit reinforces alliance unity, strengthens support for Ukraine and sends a tougher message to Russian President Vladimir Putin, while praising President Donald Trump's more constructive engagement with President Volodymyr Zelensky. Volker say",
+      "published": "12 Jul 2026 23:34 WIB",
       "sentiment": "Bullish",
-      "score": 0.238,
+      "score": 0.855,
       "emoji": "🟢"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Warsh dan Inflasi AS Akan Menentukan Nada Keputusan Fed bulan Juli",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-11/warsh-and-us-inflation-will-set-tone-for-july-fed-decision",
-      "summary": "Kevin Warsh is about to make his first appearance before Congress as Federal Reserve chairman, and during two days of testimony he’ll have new US inflation data to parse with lawmakers.",
-      "published": "12 Jul 2026 03:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
+      "title": "Panglima Angkatan Laut Mendukung Peran NATO yang Lebih Besar",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-12/navy-chief-backs-bigger-nato-role-video",
+      "summary": "Chief of Naval Operations Adm. Daryl Caudle says NATO's naval alliances remain strong as the US shifts more responsibility to allies while focusing on capabilities only the US Navy can provide. He says the Navy is accelerating autonomous systems, preparing for growing competition in the Arctic and p",
+      "published": "12 Jul 2026 22:55 WIB",
+      "sentiment": "Bullish",
+      "score": 0.679,
+      "emoji": "🟢"
     },
     {
       "source": "BBC World",
-      "title": "AS melancarkan serangan baru saat Iran menutup Selat Hormuz",
+      "title": "AS menegaskan Selat Hormuz terbuka karena saling bertukar serangan dengan Iran",
       "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "summary": "The strikes follow an attack on a Cyprus -flagged vessel travelling through the critical waterway.",
-      "published": "12 Jul 2026 13:49 WIB",
+      "summary": "Iranian forces earlier said the Strait was closed and launched wide-ranging attacks at US allies and bases in the region.",
+      "published": "13 Jul 2026 05:17 WIB",
       "sentiment": "Bearish",
-      "score": -0.876,
+      "score": -0.679,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
       "title": "Senator AS dan sekutu dekat Trump Lindsey Graham meninggal setelah 'sakit singkat dan tiba-tiba'",
       "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Donald Trump paid tribute to the 71-year-old South Carolina senator, calling him a \"true American patriot\" who will be \"greatly missed\".",
-      "published": "12 Jul 2026 21:18 WIB",
+      "summary": "A spokesman for the 71-year-old South Carolina senator says initial findings suggest Graham's cause of death was related to his heart.",
+      "published": "13 Jul 2026 05:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.418,
+      "score": -0.34,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "PM Polandia janjikan peringatan untuk korban 'genosida yang dilakukan oleh kaum nasionalis Ukraina' pada Perang Dunia II",
-      "url": "https://www.bbc.co.uk/news/articles/cze94x4361po?at_medium=RSS&at_campaign=rss",
-      "summary": "Warsaw and Kyiv have for decades been at loggerheads over the killings of many thousands of civilians during World War Two.",
-      "published": "12 Jul 2026 04:56 WIB",
+      "title": "Anthony Zurcher: Dari kritikus Trump hingga sekutunya, Lindsey Graham adalah orang yang selamat secara politik di era Maga",
+      "url": "https://www.bbc.co.uk/news/articles/clyrdn216k2o?at_medium=RSS&at_campaign=rss",
+      "summary": "The senator's career was marked by a willingness to adapt to America's dramatically changing political climate, writes the BBC's North America correspondent.",
+      "published": "13 Jul 2026 02:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.361,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC World",
+      "title": "Mantan Emir Qatar Sheikh Hamad bin Khalifa Al Thani meninggal pada usia 74 tahun",
+      "url": "https://www.bbc.co.uk/news/articles/cql1qdq14xro?at_medium=RSS&at_campaign=rss",
+      "summary": "He took power in 1996 after staging a bloodless coup against his father, and went on to transform Qatar into the gas-rich power it is today.",
+      "published": "12 Jul 2026 23:35 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Mitch McConnell merilis pembaruan kesehatan, mengatakan dia ‘mendapatkan kembali’ kekuatan",
+      "url": "https://www.aljazeera.com/news/2026/7/12/mitch-mcconnell-releases-health-update-says-he-is-regaining-strength?traffic_source=rss",
+      "summary": "The Republican senator has been absent from Congress during a weeks-long hospitalisation, spurring party concern.",
+      "published": "13 Jul 2026 06:29 WIB",
+      "sentiment": "Bullish",
+      "score": 0.79,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "AS melancarkan gelombang serangan baru terhadap Iran, yang bertujuan untuk ‘merendahkan’ militer",
+      "url": "https://www.aljazeera.com/news/2026/7/12/us-launches-new-wave-of-strikes-against-iran-aimed-at-degrading-military?traffic_source=rss",
+      "summary": "Sunday's attacks follow three previous days of tit-for-tat strikes between Iran and US as a June ceasefire deal frays.",
+      "published": "13 Jul 2026 06:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.976,
+      "score": -0.625,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Lindsey Graham dari Partai Republik meninggal pada usia 71: Para pemimpin dunia, politisi AS bereaksi",
-      "url": "https://www.aljazeera.com/news/2026/7/12/republican-lindsey-graham-dies-at-71-world-leaders-us-politicians-react?traffic_source=rss",
-      "summary": "The longtime US senator, an ally of President Trump, was an advocate for using US military force overseas.",
-      "published": "12 Jul 2026 20:08 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪"
+      "title": "Ditahan oleh pemukim, Ro Khanna dari Partai Demokrat AS kini menghadapi serangan pro-Israel",
+      "url": "https://www.aljazeera.com/news/2026/7/12/detained-by-settlers-us-democrat-ro-khanna-now-faces-pro-israel-attacks?traffic_source=rss",
+      "summary": "Progressive congressman accuses Israeli military of 'lying' after settlers held up his van in the occupied West Bank.",
+      "published": "13 Jul 2026 04:59 WIB",
+      "sentiment": "Bearish",
+      "score": -0.966,
+      "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "IRGC merilis video serangan rudal balasan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/irgc-releases-video-of-retaliatory-missile-strikes?traffic_source=rss",
-      "summary": "IRGC releases video of retaliatory missile strikes",
-      "published": "12 Jul 2026 18:07 WIB",
+      "title": "Israel merilis video ledakan besar di Lebanon",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/israel-releases-video-of-huge-detonations-in-lebanon?traffic_source=rss",
+      "summary": "The Israeli military has released video showing huge explosions and detonations in villages in southern Lebanon.",
+      "published": "13 Jul 2026 04:50 WIB",
+      "sentiment": "Bullish",
+      "score": 0.557,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan mematikan Israel menghantam Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/deadly-israeli-strikes-pound-gaza?traffic_source=rss",
+      "summary": "Israel’s military has attacked several places across Gaza.",
+      "published": "13 Jul 2026 04:33 WIB",
       "sentiment": "Bearish",
-      "score": -0.692,
+      "score": -0.75,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Lindsey Graham, pendukung garis keras perang AS-Israel, meninggal pada usia 71 tahun",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/lindsey-graham-hardline-backer-of-us-israeli-wars-dies-aged-71?traffic_source=rss",
+      "summary": "US senator Lindsey Graham, a key ally of Israel and one of Washington’s most prominent foreign policy hawks, has died.",
+      "published": "13 Jul 2026 04:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.761,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Harga minyak naik, saham berjangka turun setelah peningkatan serangan terbaru antara AS dan Iran",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-stock-futures-dip-after-latest-flare-up-of-strikes-between-u-s-and-iran-fef7f856?mod=mw_rss_topstories",
+      "summary": "Oil prices rose and U.S. stock-index futures slipped on Sunday, after the U.S. and Iran continued their tit-for-tat attacks around the Strait of Hormuz over the weekend.",
+      "published": "13 Jul 2026 06:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.74,
       "emoji": "🔴"
     },
     {
@@ -165,29 +333,9 @@
       "title": "Senator Lindsey Graham, anggota parlemen berpengaruh dan sekutu Trump, meninggal pada usia 71 tahun setelah sakit sebentar",
       "url": "https://www.cnbc.com/2026/07/12/senator-lindsey-graham-has-died-after-a-brief-illness-his-office-says.html",
       "summary": "Graham, a prominent Republican senator from South Carolina, had just returned from a trip to Ukraine.",
-      "published": "12 Jul 2026 21:09 WIB",
+      "published": "13 Jul 2026 04:23 WIB",
       "sentiment": "Bullish",
       "score": 0.361,
-      "emoji": "🟢"
-    },
-    {
-      "source": "CNBC World",
-      "title": "AS dan Iran kembali melakukan serangan udara di tengah konflik klaim atas Selat Hormuz",
-      "url": "https://www.cnbc.com/2026/07/11/us-airstrikes-iran-strait-hormuz.html",
-      "summary": "The U.S. and Iran exchanged a barrage of missile and drone airstrikes amid a dispute over the status of the Strait of Hormuz.",
-      "published": "12 Jul 2026 21:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.74,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "AI sedang memasuki fase baru – dan inilah saham-saham yang harus diwaspadai investor",
-      "url": "https://www.cnbc.com/2026/07/11/ai-is-entering-a-new-phase-and-these-are-the-stocks-investors-should-be-watching.html",
-      "summary": "CNBC's Paulina Likos and Zev Fima discuss Wall Street's shift from AI euphoria toward rationalization and what it means for investors.",
-      "published": "12 Jul 2026 03:11 WIB",
-      "sentiment": "Bullish",
-      "score": 0.569,
       "emoji": "🟢"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated": "12 Jul 2026 22:01 WIB",
+  "generated": "13 Jul 2026 07:01 WIB",
   "events": [
     {
       "date": "2026-07-12",
@@ -8,9 +8,9 @@
       "currency": "NZD",
       "impact": "low",
       "event": "BusinessNZ Services Index",
-      "actual": "",
+      "actual": "50.6",
       "forecast": "",
-      "previous": "47.5"
+      "previous": "48.0"
     },
     {
       "date": "2026-07-13",
