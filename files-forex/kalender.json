@@ -1,5 +1,5 @@
 {
-  "generated": "13 Jul 2026 22:02 WIB",
+  "generated": "14 Jul 2026 07:02 WIB",
   "events": [
     {
       "date": "2026-07-12",
@@ -37,6 +37,17 @@
     {
       "date": "2026-07-13",
       "day": "Senin",
+      "time_wib": "23:59",
+      "currency": "USD",
+      "impact": "low",
+      "event": "Federal Budget Balance",
+      "actual": "-120.3B",
+      "forecast": "-135.8B",
+      "previous": "-292.6B"
+    },
+    {
+      "date": "2026-07-13",
+      "day": "Senin",
       "time_wib": "00:00",
       "currency": "GBP",
       "impact": "low",
@@ -48,22 +59,11 @@
     {
       "date": "2026-07-13",
       "day": "Senin",
-      "time_wib": "19:30",
-      "currency": "USD",
-      "impact": "low",
-      "event": "Federal Budget Balance",
-      "actual": "",
-      "forecast": "-132.8B",
-      "previous": "-292.6B"
-    },
-    {
-      "date": "2026-07-13",
-      "day": "Senin",
       "time_wib": "04:00",
       "currency": "NZD",
       "impact": "low",
       "event": "NZIER Business Confidence",
-      "actual": "",
+      "actual": "8",
       "forecast": "",
       "previous": "-4"
     },
@@ -74,9 +74,9 @@
       "currency": "NZD",
       "impact": "low",
       "event": "Visitor Arrivals m/m",
-      "actual": "",
+      "actual": "-2.4%",
       "forecast": "",
-      "previous": "2.3%"
+      "previous": "1.8%"
     },
     {
       "date": "2026-07-13",
@@ -85,8 +85,8 @@
       "currency": "GBP",
       "impact": "low",
       "event": "BRC Retail Sales Monitor y/y",
-      "actual": "",
-      "forecast": "2.9%",
+      "actual": "1.7%",
+      "forecast": "2.6%",
       "previous": "3.4%"
     },
     {
@@ -119,7 +119,7 @@
       "impact": "low",
       "event": "Trade Balance",
       "actual": "",
-      "forecast": "820B",
+      "forecast": "810B",
       "previous": "724B"
     },
     {
@@ -130,7 +130,7 @@
       "impact": "low",
       "event": "USD-Denominated Trade Balance",
       "actual": "",
-      "forecast": "121.4B",
+      "forecast": "119.5B",
       "previous": "105.4B"
     },
     {
@@ -152,7 +152,7 @@
       "impact": "low",
       "event": "German WPI m/m",
       "actual": "",
-      "forecast": "0.2%",
+      "forecast": "0.5%",
       "previous": "-0.6%"
     },
     {
@@ -218,7 +218,7 @@
       "impact": "low",
       "event": "NFIB Small Business Index",
       "actual": "",
-      "forecast": "95.6",
+      "forecast": "95.8",
       "previous": "95.3"
     },
     {
@@ -427,7 +427,7 @@
       "impact": "low",
       "event": "Industrial Production y/y",
       "actual": "",
-      "forecast": "4.6%",
+      "forecast": "4.7%",
       "previous": "4.5%"
     },
     {
@@ -537,7 +537,7 @@
       "impact": "high",
       "event": "Core PPI m/m",
       "actual": "",
-      "forecast": "0.3%",
+      "forecast": "0.4%",
       "previous": "0.4%"
     },
     {
@@ -559,7 +559,7 @@
       "impact": "low",
       "event": "Empire State Manufacturing Index",
       "actual": "",
-      "forecast": "8.7",
+      "forecast": "9.4",
       "previous": "5.7"
     },
     {
@@ -621,23 +621,23 @@
       "date": "2026-07-15",
       "day": "Rabu",
       "time_wib": "20:30",
-      "currency": "CAD",
-      "impact": "high",
-      "event": "BOC Press Conference",
-      "actual": "",
-      "forecast": "",
-      "previous": ""
-    },
-    {
-      "date": "2026-07-15",
-      "day": "Rabu",
-      "time_wib": "19:30",
       "currency": "USD",
       "impact": "low",
       "event": "Crude Oil Inventories",
       "actual": "",
       "forecast": "",
       "previous": "3.0M"
+    },
+    {
+      "date": "2026-07-15",
+      "day": "Rabu",
+      "time_wib": "20:45",
+      "currency": "CAD",
+      "impact": "high",
+      "event": "BOC Press Conference",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
     },
     {
       "date": "2026-07-15",
@@ -702,7 +702,7 @@
       "impact": "high",
       "event": "GDP m/m",
       "actual": "",
-      "forecast": "0.1%",
+      "forecast": "0.0%",
       "previous": "-0.1%"
     },
     {
@@ -724,7 +724,7 @@
       "impact": "low",
       "event": "Goods Trade Balance",
       "actual": "",
-      "forecast": "-22.8B",
+      "forecast": "-23.1B",
       "previous": "-26.0B"
     },
     {
@@ -779,7 +779,7 @@
       "impact": "low",
       "event": "Italian Trade Balance",
       "actual": "",
-      "forecast": "4.50B",
+      "forecast": "4.83B",
       "previous": "4.29B"
     },
     {
@@ -790,7 +790,7 @@
       "impact": "low",
       "event": "Trade Balance",
       "actual": "",
-      "forecast": "2.5B",
+      "forecast": "2.8B",
       "previous": "1.3B"
     },
     {
@@ -812,7 +812,7 @@
       "impact": "low",
       "event": "Housing Starts",
       "actual": "",
-      "forecast": "257K",
+      "forecast": "256K",
       "previous": "261K"
     },
     {
@@ -823,7 +823,7 @@
       "impact": "medium",
       "event": "Core Retail Sales m/m",
       "actual": "",
-      "forecast": "-0.1%",
+      "forecast": "0.0%",
       "previous": "0.8%"
     },
     {
@@ -834,7 +834,7 @@
       "impact": "medium",
       "event": "Philly Fed Manufacturing Index",
       "actual": "",
-      "forecast": "12.1",
+      "forecast": "12.7",
       "previous": "10.3"
     },
     {
@@ -845,7 +845,7 @@
       "impact": "medium",
       "event": "Retail Sales m/m",
       "actual": "",
-      "forecast": "0.3%",
+      "forecast": "0.2%",
       "previous": "0.9%"
     },
     {
@@ -856,7 +856,7 @@
       "impact": "medium",
       "event": "Unemployment Claims",
       "actual": "",
-      "forecast": "215K",
+      "forecast": "216K",
       "previous": "215K"
     },
     {
@@ -889,7 +889,7 @@
       "impact": "low",
       "event": "Pending Home Sales m/m",
       "actual": "",
-      "forecast": "-0.3%",
+      "forecast": "-0.4%",
       "previous": "3.8%"
     },
     {
@@ -966,7 +966,7 @@
       "impact": "low",
       "event": "Current Account",
       "actual": "",
-      "forecast": "17.1B",
+      "forecast": "18.1B",
       "previous": "15.7B"
     },
     {
@@ -1021,7 +1021,7 @@
       "impact": "low",
       "event": "Housing Starts",
       "actual": "",
-      "forecast": "1.32M",
+      "forecast": "1.31M",
       "previous": "1.18M"
     },
     {
@@ -1032,7 +1032,7 @@
       "impact": "low",
       "event": "Import Prices m/m",
       "actual": "",
-      "forecast": "-0.4%",
+      "forecast": "-0.7%",
       "previous": "1.9%"
     },
     {
@@ -1065,7 +1065,7 @@
       "impact": "medium",
       "event": "Prelim UoM Consumer Sentiment",
       "actual": "",
-      "forecast": "51.4",
+      "forecast": "51.0",
       "previous": "49.5"
     },
     {
