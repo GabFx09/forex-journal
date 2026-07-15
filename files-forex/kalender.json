@@ -1,5 +1,5 @@
 {
-  "generated": "15 Jul 2026 07:02 WIB",
+  "generated": "15 Jul 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-07-12",
@@ -371,7 +371,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "New Home Prices m/m",
-      "actual": "",
+      "actual": "-0.15%",
       "forecast": "",
       "previous": "-0.20%"
     },
@@ -382,7 +382,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "Fixed Asset Investment ytd/y",
-      "actual": "",
+      "actual": "-5.7%",
       "forecast": "-5.0%",
       "previous": "-4.1%"
     },
@@ -393,7 +393,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "GDP q/y",
-      "actual": "",
+      "actual": "4.3%",
       "forecast": "4.5%",
       "previous": "5.0%"
     },
@@ -404,7 +404,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "Industrial Production y/y",
-      "actual": "",
+      "actual": "5.3%",
       "forecast": "4.7%",
       "previous": "4.5%"
     },
@@ -426,7 +426,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "Retail Sales y/y",
-      "actual": "",
+      "actual": "1.0%",
       "forecast": "-0.1%",
       "previous": "-0.6%"
     },
@@ -437,7 +437,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "Unemployment Rate",
-      "actual": "",
+      "actual": "5.0%",
       "forecast": "5.1%",
       "previous": "5.1%"
     },
@@ -448,9 +448,31 @@
       "currency": "JPY",
       "impact": "low",
       "event": "Tertiary Industry Activity m/m",
-      "actual": "",
+      "actual": "1.1%",
       "forecast": "0.4%",
-      "previous": "1.3%"
+      "previous": "0.8%"
+    },
+    {
+      "date": "2026-07-15",
+      "day": "Rabu",
+      "time_wib": "14:00",
+      "currency": "CNY",
+      "impact": "low",
+      "event": "M2 Money Supply y/y",
+      "actual": "8.0%",
+      "forecast": "8.5%",
+      "previous": "8.6%"
+    },
+    {
+      "date": "2026-07-15",
+      "day": "Rabu",
+      "time_wib": "14:01",
+      "currency": "CNY",
+      "impact": "low",
+      "event": "New Loans",
+      "actual": "1610B",
+      "forecast": "1950B",
+      "previous": "520B"
     },
     {
       "date": "2026-07-15",
@@ -459,40 +481,18 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Industrial Production m/m",
-      "actual": "",
+      "actual": "-0.2%",
       "forecast": "0.3%",
-      "previous": "0.1%"
+      "previous": "0.3%"
     },
     {
       "date": "2026-07-15",
       "day": "Rabu",
-      "time_wib": "09:00",
-      "currency": "CNY",
-      "impact": "low",
-      "event": "M2 Money Supply y/y",
-      "actual": "",
-      "forecast": "8.5%",
-      "previous": "8.6%"
-    },
-    {
-      "date": "2026-07-15",
-      "day": "Rabu",
-      "time_wib": "09:00",
-      "currency": "CNY",
-      "impact": "low",
-      "event": "New Loans",
-      "actual": "",
-      "forecast": "1950B",
-      "previous": "520B"
-    },
-    {
-      "date": "2026-07-15",
-      "day": "Rabu",
-      "time_wib": "15:00",
+      "time_wib": "16:34",
       "currency": "EUR",
       "impact": "low",
       "event": "German 30-y Bond Auction",
-      "actual": "",
+      "actual": "3.64|2.9",
       "forecast": "",
       "previous": "3.50|1.8"
     },
@@ -514,9 +514,9 @@
       "currency": "CAD",
       "impact": "low",
       "event": "Manufacturing Sales m/m",
-      "actual": "",
+      "actual": "1.3%",
       "forecast": "1.1%",
-      "previous": "4.2%"
+      "previous": "3.9%"
     },
     {
       "date": "2026-07-15",
@@ -525,9 +525,9 @@
       "currency": "CAD",
       "impact": "low",
       "event": "Wholesale Sales m/m",
-      "actual": "",
+      "actual": "0.0%",
       "forecast": "-0.7%",
-      "previous": "0.6%"
+      "previous": "1.4%"
     },
     {
       "date": "2026-07-15",
@@ -536,9 +536,9 @@
       "currency": "USD",
       "impact": "high",
       "event": "Core PPI m/m",
-      "actual": "",
+      "actual": "0.2%",
       "forecast": "0.3%",
-      "previous": "0.4%"
+      "previous": "0.1%"
     },
     {
       "date": "2026-07-15",
@@ -547,9 +547,9 @@
       "currency": "USD",
       "impact": "high",
       "event": "PPI m/m",
-      "actual": "",
+      "actual": "-0.3%",
       "forecast": "0.0%",
-      "previous": "1.1%"
+      "previous": "0.6%"
     },
     {
       "date": "2026-07-15",
@@ -558,7 +558,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Empire State Manufacturing Index",
-      "actual": "",
+      "actual": "15.6",
       "forecast": "9.3",
       "previous": "5.7"
     },
@@ -602,7 +602,7 @@
       "currency": "CAD",
       "impact": "high",
       "event": "Overnight Rate",
-      "actual": "",
+      "actual": "2.25%",
       "forecast": "2.25%",
       "previous": "2.25%"
     },
@@ -624,7 +624,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Crude Oil Inventories",
-      "actual": "",
+      "actual": "-1.7M",
       "forecast": "-1.8M",
       "previous": "3.0M"
     },
