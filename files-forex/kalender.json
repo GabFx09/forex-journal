@@ -1,5 +1,5 @@
 {
-  "generated": "17 Jul 2026 07:01 WIB",
+  "generated": "17 Jul 2026 22:01 WIB",
   "events": [
     {
       "date": "2026-07-12",
@@ -965,9 +965,9 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Current Account",
-      "actual": "",
+      "actual": "25.1B",
       "forecast": "18.1B",
-      "previous": "15.7B"
+      "previous": "17.5B"
     },
     {
       "date": "2026-07-17",
@@ -976,7 +976,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Final Core CPI y/y",
-      "actual": "",
+      "actual": "2.4%",
       "forecast": "2.4%",
       "previous": "2.4%"
     },
@@ -987,7 +987,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Final CPI y/y",
-      "actual": "",
+      "actual": "2.8%",
       "forecast": "2.8%",
       "previous": "2.8%"
     },
@@ -998,9 +998,9 @@
       "currency": "CAD",
       "impact": "low",
       "event": "Foreign Securities Purchases",
-      "actual": "",
+      "actual": "7.90B",
       "forecast": "15.21B",
-      "previous": "46.91B"
+      "previous": "46.92B"
     },
     {
       "date": "2026-07-17",
@@ -1009,7 +1009,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Building Permits",
-      "actual": "",
+      "actual": "1.37M",
       "forecast": "1.40M",
       "previous": "1.41M"
     },
@@ -1020,9 +1020,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "Housing Starts",
-      "actual": "",
+      "actual": "1.43M",
       "forecast": "1.31M",
-      "previous": "1.18M"
+      "previous": "1.20M"
     },
     {
       "date": "2026-07-17",
@@ -1031,9 +1031,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "Import Prices m/m",
-      "actual": "",
+      "actual": "0.3%",
       "forecast": "-0.7%",
-      "previous": "1.9%"
+      "previous": "1.7%"
     },
     {
       "date": "2026-07-17",
@@ -1042,9 +1042,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "Capacity Utilization Rate",
-      "actual": "",
+      "actual": "76.1%",
       "forecast": "76.2%",
-      "previous": "76.2%"
+      "previous": "76.1%"
     },
     {
       "date": "2026-07-17",
@@ -1053,7 +1053,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Industrial Production m/m",
-      "actual": "",
+      "actual": "0.1%",
       "forecast": "0.2%",
       "previous": "0.1%"
     },
@@ -1064,7 +1064,7 @@
       "currency": "USD",
       "impact": "medium",
       "event": "Prelim UoM Consumer Sentiment",
-      "actual": "",
+      "actual": "54.4",
       "forecast": "51.0",
       "previous": "49.5"
     },
@@ -1075,7 +1075,7 @@
       "currency": "USD",
       "impact": "medium",
       "event": "Prelim UoM Inflation Expectations",
-      "actual": "",
+      "actual": "4.2%",
       "forecast": "",
       "previous": "4.6%"
     },
