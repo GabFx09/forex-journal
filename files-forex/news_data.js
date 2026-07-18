@@ -1,13 +1,13 @@
-// Diperbarui: 18 Jul 2026 07:02 WIB
+// Diperbarui: 18 Jul 2026 22:01 WIB
 window.FK_DATA = {
-  "generated": "18 Jul 2026 07:02 WIB",
+  "generated": "18 Jul 2026 22:01 WIB",
   "kalender": {
-    "generated": "18 Jul 2026 07:02 WIB",
+    "generated": "18 Jul 2026 22:01 WIB",
     "events": [
       {
         "date": "2026-07-12",
         "day": "Minggu",
-        "time_wib": "02:30",
+        "time_wib": "10:30",
         "currency": "NZD",
         "impact": "low",
         "event": "BusinessNZ Services Index",
@@ -18,7 +18,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-13",
         "day": "Senin",
-        "time_wib": "13:25",
+        "time_wib": "21:25",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Bowman Speaks",
@@ -29,7 +29,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-13",
         "day": "Senin",
-        "time_wib": "20:30",
+        "time_wib": "04:30",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Waller Speaks",
@@ -40,7 +40,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-13",
         "day": "Senin",
-        "time_wib": "21:59",
+        "time_wib": "05:59",
         "currency": "USD",
         "impact": "low",
         "event": "Federal Budget Balance",
@@ -51,7 +51,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-13",
         "day": "Senin",
-        "time_wib": "22:00",
+        "time_wib": "06:00",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Pill Speaks",
@@ -62,7 +62,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-13",
         "day": "Senin",
-        "time_wib": "02:00",
+        "time_wib": "10:00",
         "currency": "NZD",
         "impact": "low",
         "event": "NZIER Business Confidence",
@@ -73,7 +73,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-13",
         "day": "Senin",
-        "time_wib": "02:45",
+        "time_wib": "10:45",
         "currency": "NZD",
         "impact": "low",
         "event": "Visitor Arrivals m/m",
@@ -82,9 +82,9 @@ window.FK_DATA = {
         "previous": "1.8%"
       },
       {
-        "date": "2026-07-13",
-        "day": "Senin",
-        "time_wib": "03:01",
+        "date": "2026-07-14",
+        "day": "Selasa",
+        "time_wib": "11:01",
         "currency": "GBP",
         "impact": "low",
         "event": "BRC Retail Sales Monitor y/y",
@@ -93,9 +93,9 @@ window.FK_DATA = {
         "previous": "3.4%"
       },
       {
-        "date": "2026-07-13",
-        "day": "Senin",
-        "time_wib": "04:30",
+        "date": "2026-07-14",
+        "day": "Selasa",
+        "time_wib": "12:30",
         "currency": "AUD",
         "impact": "low",
         "event": "Westpac Consumer Sentiment",
@@ -104,9 +104,9 @@ window.FK_DATA = {
         "previous": "-2.9%"
       },
       {
-        "date": "2026-07-13",
-        "day": "Senin",
-        "time_wib": "05:30",
+        "date": "2026-07-14",
+        "day": "Selasa",
+        "time_wib": "13:30",
         "currency": "AUD",
         "impact": "low",
         "event": "NAB Business Confidence",
@@ -115,9 +115,9 @@ window.FK_DATA = {
         "previous": "-14"
       },
       {
-        "date": "2026-07-13",
-        "day": "Senin",
-        "time_wib": "06:31",
+        "date": "2026-07-14",
+        "day": "Selasa",
+        "time_wib": "14:31",
         "currency": "CNY",
         "impact": "low",
         "event": "Trade Balance",
@@ -126,8 +126,8 @@ window.FK_DATA = {
         "previous": "724B"
       },
       {
-        "date": "2026-07-13",
-        "day": "Senin",
+        "date": "2026-07-14",
+        "day": "Selasa",
         "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
@@ -137,9 +137,9 @@ window.FK_DATA = {
         "previous": "105.4B"
       },
       {
-        "date": "2026-07-13",
-        "day": "Senin",
-        "time_wib": "08:30",
+        "date": "2026-07-14",
+        "day": "Selasa",
+        "time_wib": "16:30",
         "currency": "JPY",
         "impact": "low",
         "event": "Revised Industrial Production m/m",
@@ -148,9 +148,9 @@ window.FK_DATA = {
         "previous": "0.5%"
       },
       {
-        "date": "2026-07-13",
-        "day": "Senin",
-        "time_wib": "10:00",
+        "date": "2026-07-14",
+        "day": "Selasa",
+        "time_wib": "18:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German WPI m/m",
@@ -159,8 +159,8 @@ window.FK_DATA = {
         "previous": "-0.6%"
       },
       {
-        "date": "2026-07-13",
-        "day": "Senin",
+        "date": "2026-07-14",
+        "day": "Selasa",
         "time_wib": "Sepanjang Hari",
         "currency": "EUR",
         "impact": "holiday",
@@ -170,9 +170,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-07-13",
-        "day": "Senin",
-        "time_wib": "10:30",
+        "date": "2026-07-14",
+        "day": "Selasa",
+        "time_wib": "18:30",
         "currency": "CHF",
         "impact": "low",
         "event": "PPI m/m",
@@ -183,7 +183,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "12:45",
+        "time_wib": "20:45",
         "currency": "GBP",
         "impact": "medium",
         "event": "BOE Gov Bailey Speaks",
@@ -194,7 +194,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "14:00",
+        "time_wib": "22:00",
         "currency": "USD",
         "impact": "low",
         "event": "NFIB Small Business Index",
@@ -205,7 +205,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "16:15",
+        "time_wib": "00:15",
         "currency": "USD",
         "impact": "low",
         "event": "ADP Weekly Employment Change",
@@ -216,7 +216,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "16:30",
+        "time_wib": "00:30",
         "currency": "USD",
         "impact": "high",
         "event": "Core CPI m/m",
@@ -260,7 +260,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "17:30",
+        "time_wib": "01:30",
         "currency": "GBP",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -271,7 +271,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "18:00",
+        "time_wib": "02:00",
         "currency": "USD",
         "impact": "high",
         "event": "Fed Chairman Warsh Testifies",
@@ -282,7 +282,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "18:30",
+        "time_wib": "02:30",
         "currency": "AUD",
         "impact": "low",
         "event": "CB Leading Index m/m",
@@ -293,7 +293,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "20:40",
+        "time_wib": "04:40",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Barr Speaks",
@@ -304,7 +304,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "21:00",
+        "time_wib": "05:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Goolsbee Speaks",
@@ -315,7 +315,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "22:55",
+        "time_wib": "06:55",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Bowman Speaks",
@@ -326,7 +326,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "00:00",
+        "time_wib": "08:00",
         "currency": "GBP",
         "impact": "high",
         "event": "BOE Gov Bailey Speaks",
@@ -348,7 +348,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-14",
         "day": "Selasa",
-        "time_wib": "00:30",
+        "time_wib": "08:30",
         "currency": "USD",
         "impact": "low",
         "event": "API Weekly Statistical Bulletin",
@@ -357,9 +357,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-07-14",
-        "day": "Selasa",
-        "time_wib": "03:50",
+        "date": "2026-07-15",
+        "day": "Rabu",
+        "time_wib": "11:50",
         "currency": "JPY",
         "impact": "low",
         "event": "Core Machinery Orders m/m",
@@ -368,9 +368,9 @@ window.FK_DATA = {
         "previous": "8.7%"
       },
       {
-        "date": "2026-07-14",
-        "day": "Selasa",
-        "time_wib": "05:30",
+        "date": "2026-07-15",
+        "day": "Rabu",
+        "time_wib": "13:30",
         "currency": "CNY",
         "impact": "low",
         "event": "New Home Prices m/m",
@@ -379,9 +379,9 @@ window.FK_DATA = {
         "previous": "-0.20%"
       },
       {
-        "date": "2026-07-14",
-        "day": "Selasa",
-        "time_wib": "06:00",
+        "date": "2026-07-15",
+        "day": "Rabu",
+        "time_wib": "14:00",
         "currency": "CNY",
         "impact": "low",
         "event": "Fixed Asset Investment ytd/y",
@@ -390,8 +390,8 @@ window.FK_DATA = {
         "previous": "-4.1%"
       },
       {
-        "date": "2026-07-14",
-        "day": "Selasa",
+        "date": "2026-07-15",
+        "day": "Rabu",
         "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
@@ -401,8 +401,8 @@ window.FK_DATA = {
         "previous": "5.0%"
       },
       {
-        "date": "2026-07-14",
-        "day": "Selasa",
+        "date": "2026-07-15",
+        "day": "Rabu",
         "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
@@ -412,8 +412,8 @@ window.FK_DATA = {
         "previous": "4.5%"
       },
       {
-        "date": "2026-07-14",
-        "day": "Selasa",
+        "date": "2026-07-15",
+        "day": "Rabu",
         "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
@@ -423,8 +423,8 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-07-14",
-        "day": "Selasa",
+        "date": "2026-07-15",
+        "day": "Rabu",
         "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
@@ -434,8 +434,8 @@ window.FK_DATA = {
         "previous": "-0.6%"
       },
       {
-        "date": "2026-07-14",
-        "day": "Selasa",
+        "date": "2026-07-15",
+        "day": "Rabu",
         "time_wib": "09:00",
         "currency": "CNY",
         "impact": "low",
@@ -445,9 +445,9 @@ window.FK_DATA = {
         "previous": "5.1%"
       },
       {
-        "date": "2026-07-14",
-        "day": "Selasa",
-        "time_wib": "08:30",
+        "date": "2026-07-15",
+        "day": "Rabu",
+        "time_wib": "16:30",
         "currency": "JPY",
         "impact": "low",
         "event": "Tertiary Industry Activity m/m",
@@ -458,7 +458,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "11:00",
+        "time_wib": "19:00",
         "currency": "CNY",
         "impact": "low",
         "event": "M2 Money Supply y/y",
@@ -469,7 +469,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "11:01",
+        "time_wib": "19:01",
         "currency": "CNY",
         "impact": "low",
         "event": "New Loans",
@@ -480,7 +480,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "13:00",
+        "time_wib": "21:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Industrial Production m/m",
@@ -491,7 +491,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "13:34",
+        "time_wib": "21:34",
         "currency": "EUR",
         "impact": "low",
         "event": "German 30-y Bond Auction",
@@ -502,7 +502,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "14:30",
+        "time_wib": "22:30",
         "currency": "GBP",
         "impact": "low",
         "event": "MPC Member Pill Speaks",
@@ -513,7 +513,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "16:30",
+        "time_wib": "00:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Manufacturing Sales m/m",
@@ -568,7 +568,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "16:45",
+        "time_wib": "00:45",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Williams Speaks",
@@ -579,7 +579,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "17:45",
+        "time_wib": "01:45",
         "currency": "CAD",
         "impact": "high",
         "event": "BOC Monetary Policy Report",
@@ -612,7 +612,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "18:00",
+        "time_wib": "02:00",
         "currency": "USD",
         "impact": "high",
         "event": "Fed Chairman Warsh Testifies",
@@ -623,7 +623,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "18:30",
+        "time_wib": "02:30",
         "currency": "USD",
         "impact": "low",
         "event": "Crude Oil Inventories",
@@ -634,7 +634,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "18:45",
+        "time_wib": "02:45",
         "currency": "CAD",
         "impact": "high",
         "event": "BOC Press Conference",
@@ -645,7 +645,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "20:00",
+        "time_wib": "04:00",
         "currency": "EUR",
         "impact": "low",
         "event": "German Buba President Nagel Speaks",
@@ -656,7 +656,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "21:00",
+        "time_wib": "05:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Cook Speaks",
@@ -667,7 +667,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "22:00",
+        "time_wib": "06:00",
         "currency": "USD",
         "impact": "low",
         "event": "Beige Book",
@@ -678,7 +678,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-15",
         "day": "Rabu",
-        "time_wib": "02:30",
+        "time_wib": "10:30",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Musalem Speaks",
@@ -687,9 +687,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-07-15",
-        "day": "Rabu",
-        "time_wib": "05:00",
+        "date": "2026-07-16",
+        "day": "Kamis",
+        "time_wib": "13:00",
         "currency": "AUD",
         "impact": "low",
         "event": "MI Inflation Expectations",
@@ -698,9 +698,9 @@ window.FK_DATA = {
         "previous": "5.5%"
       },
       {
-        "date": "2026-07-15",
-        "day": "Rabu",
-        "time_wib": "10:00",
+        "date": "2026-07-16",
+        "day": "Kamis",
+        "time_wib": "18:00",
         "currency": "GBP",
         "impact": "high",
         "event": "GDP m/m",
@@ -709,8 +709,8 @@ window.FK_DATA = {
         "previous": "-0.1%"
       },
       {
-        "date": "2026-07-15",
-        "day": "Rabu",
+        "date": "2026-07-16",
+        "day": "Kamis",
         "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
@@ -720,8 +720,8 @@ window.FK_DATA = {
         "previous": "-0.1%"
       },
       {
-        "date": "2026-07-15",
-        "day": "Rabu",
+        "date": "2026-07-16",
+        "day": "Kamis",
         "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
@@ -731,8 +731,8 @@ window.FK_DATA = {
         "previous": "-24.6B"
       },
       {
-        "date": "2026-07-15",
-        "day": "Rabu",
+        "date": "2026-07-16",
+        "day": "Kamis",
         "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
@@ -742,8 +742,8 @@ window.FK_DATA = {
         "previous": "0.9%"
       },
       {
-        "date": "2026-07-15",
-        "day": "Rabu",
+        "date": "2026-07-16",
+        "day": "Kamis",
         "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
@@ -753,8 +753,8 @@ window.FK_DATA = {
         "previous": "0.2%"
       },
       {
-        "date": "2026-07-15",
-        "day": "Rabu",
+        "date": "2026-07-16",
+        "day": "Kamis",
         "time_wib": "13:00",
         "currency": "GBP",
         "impact": "low",
@@ -766,7 +766,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-16",
         "day": "Kamis",
-        "time_wib": "11:30",
+        "time_wib": "19:30",
         "currency": "CHF",
         "impact": "low",
         "event": "Summary of Monetary Policy Discussions",
@@ -777,7 +777,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-16",
         "day": "Kamis",
-        "time_wib": "13:00",
+        "time_wib": "21:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Italian Trade Balance",
@@ -799,7 +799,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-16",
         "day": "Kamis",
-        "time_wib": "13:02",
+        "time_wib": "21:02",
         "currency": "GBP",
         "impact": "low",
         "event": "10-y Bond Auction",
@@ -810,7 +810,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-16",
         "day": "Kamis",
-        "time_wib": "16:15",
+        "time_wib": "00:15",
         "currency": "CAD",
         "impact": "low",
         "event": "Housing Starts",
@@ -821,7 +821,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-16",
         "day": "Kamis",
-        "time_wib": "16:30",
+        "time_wib": "00:30",
         "currency": "USD",
         "impact": "medium",
         "event": "Core Retail Sales m/m",
@@ -865,7 +865,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-16",
         "day": "Kamis",
-        "time_wib": "18:00",
+        "time_wib": "02:00",
         "currency": "USD",
         "impact": "low",
         "event": "Business Inventories m/m",
@@ -898,7 +898,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-16",
         "day": "Kamis",
-        "time_wib": "18:30",
+        "time_wib": "02:30",
         "currency": "USD",
         "impact": "low",
         "event": "Natural Gas Storage",
@@ -909,7 +909,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-16",
         "day": "Kamis",
-        "time_wib": "20:30",
+        "time_wib": "04:30",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Logan Speaks",
@@ -920,7 +920,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-16",
         "day": "Kamis",
-        "time_wib": "21:25",
+        "time_wib": "05:25",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Schmid Speaks",
@@ -931,7 +931,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-16",
         "day": "Kamis",
-        "time_wib": "02:45",
+        "time_wib": "10:45",
         "currency": "NZD",
         "impact": "low",
         "event": "FPI m/m",
@@ -940,9 +940,9 @@ window.FK_DATA = {
         "previous": "1.0%"
       },
       {
-        "date": "2026-07-16",
-        "day": "Kamis",
-        "time_wib": "03:00",
+        "date": "2026-07-17",
+        "day": "Jumat",
+        "time_wib": "11:00",
         "currency": "USD",
         "impact": "low",
         "event": "FOMC Member Jefferson Speaks",
@@ -951,9 +951,9 @@ window.FK_DATA = {
         "previous": ""
       },
       {
-        "date": "2026-07-16",
-        "day": "Kamis",
-        "time_wib": "05:00",
+        "date": "2026-07-17",
+        "day": "Jumat",
+        "time_wib": "13:00",
         "currency": "USD",
         "impact": "medium",
         "event": "President Trump Speaks",
@@ -964,7 +964,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-17",
         "day": "Jumat",
-        "time_wib": "12:00",
+        "time_wib": "20:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Current Account",
@@ -975,7 +975,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-17",
         "day": "Jumat",
-        "time_wib": "13:00",
+        "time_wib": "21:00",
         "currency": "EUR",
         "impact": "low",
         "event": "Final Core CPI y/y",
@@ -997,7 +997,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-17",
         "day": "Jumat",
-        "time_wib": "16:30",
+        "time_wib": "00:30",
         "currency": "CAD",
         "impact": "low",
         "event": "Foreign Securities Purchases",
@@ -1041,7 +1041,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-17",
         "day": "Jumat",
-        "time_wib": "17:15",
+        "time_wib": "01:15",
         "currency": "USD",
         "impact": "low",
         "event": "Capacity Utilization Rate",
@@ -1063,7 +1063,7 @@ window.FK_DATA = {
       {
         "date": "2026-07-17",
         "day": "Jumat",
-        "time_wib": "18:00",
+        "time_wib": "02:00",
         "currency": "USD",
         "impact": "medium",
         "event": "Prelim UoM Consumer Sentiment",
@@ -1085,26 +1085,26 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "18 Jul 2026 07:02 WIB",
+    "generated": "18 Jul 2026 22:01 WIB",
     "summary": {
-      "total": 60,
-      "bullish": 16,
-      "bearish": 37,
+      "total": 58,
+      "bullish": 18,
+      "bearish": 33,
       "netral": 7,
-      "avg_score": -0.2312,
+      "avg_score": -0.1749,
       "overall": "Bearish",
       "currency_impact": [
         {
           "currency": "USD",
-          "sentiment": "Bearish",
-          "score": -0.113,
-          "count": 14
+          "sentiment": "Netral",
+          "score": -0.031,
+          "count": 13
         },
         {
           "currency": "EUR",
           "sentiment": "Bullish",
-          "score": 0.45,
-          "count": 5
+          "score": 0.49,
+          "count": 3
         },
         {
           "currency": "CHF",
@@ -1122,12 +1122,6 @@ window.FK_DATA = {
           "currency": "JPY",
           "sentiment": "Bearish",
           "score": -0.749,
-          "count": 1
-        },
-        {
-          "currency": "AUD",
-          "sentiment": "Bearish",
-          "score": -0.941,
           "count": 1
         },
         {
@@ -1248,46 +1242,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.902,
         "emoji": "🟢"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Sentimen konsumen UMich awal Juli AS 54,4 vs perkiraan 51,0",
-        "url": "https://investinglive.com/news/us-july-prelim-umich-consumer-sentiment-54-4-vs-51-0-expected/",
-        "summary": "Prior was 48.9 Conditions 54.9 vs 48.7 expected Prior was 48.4 Expectations 54.20 vs 51.7 expected Prior expectations 49.3 One-year inflation 4.2% vs 4.6% prior Five-year inflation 3.3% vs 3.3% prior ﻿ This indicator has been completely taken over by politics and has little value in predicting spend",
-        "published": "17 Jul 2026 21:00 WIB",
-        "sentiment": "Bullish",
-        "score": 0.275,
-        "emoji": "🟢"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Mengapa Kimi K3 menambah kekhawatiran pasar",
-        "url": "https://investinglive.com/stock-market-update/why-kimi-k3-is-adding-to-the-market-worries/",
-        "summary": "A couple things are roiling markets at the moment: 1) The release of Kimi K3, a Chinese open source model from Moonshot 2) Rumors that a hedge fund or two are in trouble The two are partly connected. There is talk about Situational Awareness but it could be someone else as Jim Cramer writes: ﻿\"[By] ",
-        "published": "17 Jul 2026 20:53 WIB",
-        "sentiment": "Bearish",
-        "score": -0.492,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "AUDUSD dan NZDUSD bergerak lebih rendah karena risk-off/pembelian/teknis USD.",
-        "url": "https://investinglive.com/technical-analysis/the-audusd-and-nzdusd-are-moving-lower-as-risk-off-usd-buying-technicals-all-help/",
-        "summary": "Generally speaking, the AUDUSD and NZDUSD are considered risk-sensitive currency pairs. When investor sentiment deteriorates—such as during stock market selloffs—both currencies tend to come under pressure against the U.S. dollar. That risk-off theme is evident today. S&P 500 futures are down nearly",
-        "published": "17 Jul 2026 20:28 WIB",
-        "sentiment": "Bearish",
-        "score": -0.601,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Produksi industri AS bulan Juni +0,1% vs perkiraan +0,2%.",
-        "url": "https://investinglive.com/news/us-june-industrial-production-0-1-vs-0-2-expected/",
-        "summary": "Prior was +0.1% Capacity utilization 76.1% vs 76.2% expected Manufacturing output 0.0% vs +0.1% expected Prior output 0.0% (revised to +0.1%) This article was written by Adam Button at investinglive.com.",
-        "published": "17 Jul 2026 20:24 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
       },
       {
         "source": "FXStreet News",
@@ -1411,6 +1365,96 @@ window.FK_DATA = {
       },
       {
         "source": "Investing.com Forex",
+        "title": "Apakah Eropa diam-diam telah memimpin persaingan pendapatan? Barclays mempertimbangkannya",
+        "url": "https://www.investing.com/news/stock-market-news/has-europe-quietly-taken-the-lead-in-the-earnings-race-barclays-weighs-in-4799634",
+        "summary": "",
+        "published": "18 Jul 2026 21:49 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Trump Media menawarkan biaya bulanan sebesar $100.000 untuk feed tercepat postingan presiden AS, kata sumber",
+        "url": "https://www.investing.com/news/stock-market-news/trump-media-pitched-100000-monthly-fee-for-fast-feed-of-us-presidents-posts-ft-reports-4798840",
+        "summary": "",
+        "published": "18 Jul 2026 20:06 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Kemunduran tajam Micron: Apakah penderitaan jangka pendek merupakan peluang pembelian?",
+        "url": "https://www.investing.com/news/stock-market-news/microns-sharp-pullback-is-shortterm-pain-a-buying-opportunity-93CH-4799622",
+        "summary": "",
+        "published": "18 Jul 2026 19:48 WIB",
+        "sentiment": "Bearish",
+        "score": -0.128,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Tiongkok adalah ancaman persaingan jangka panjang terbesar bagi SpaceX, kata Bernstein",
+        "url": "https://www.investing.com/news/stock-market-news/china-is-spacexs-biggest-longterm-competitive-threat-bernstein-says-4799616",
+        "summary": "",
+        "published": "18 Jul 2026 19:16 WIB",
+        "sentiment": "Bearish",
+        "score": -0.402,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Protes pusat data AS meluas ke tingkat nasional seiring dengan meningkatnya reaksi balik",
+        "url": "https://www.investing.com/news/stock-market-news/us-data-center-protests-go-national-as-backlash-grows-4799582",
+        "summary": "",
+        "published": "18 Jul 2026 17:12 WIB",
+        "sentiment": "Bearish",
+        "score": -0.226,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "DeepSeek Tiongkok akan meningkatkan modal baru senilai $74 miliar menjelang IPO dalam negeri, kata sumber",
+        "url": "https://www.investing.com/news/stock-market-news/chinas-deepseek-to-raise-fresh-capital-at-74-billion-valuation-ahead-of-onshore-ipo-sources-say-4799575",
+        "summary": "",
+        "published": "18 Jul 2026 15:36 WIB",
+        "sentiment": "Bullish",
+        "score": 0.318,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "UBS memproyeksikan TAM ekonomi luar angkasa sebesar $1,3TN pada tahun 2040",
+        "url": "https://www.investing.com/news/stock-market-news/ubs-projects-the-space-economys-tam-at-13tn-by-2040-4799570",
+        "summary": "",
+        "published": "18 Jul 2026 13:53 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Taylor Farms, Sysco menarik selada gunung es dari Meksiko tengah yang terkait dengan wabah parasit di AS",
+        "url": "https://www.investing.com/news/stock-market-news/wendys-chipotle-say-they-are-not-affected-by-cyclosporiasisoutbreak-4798704",
+        "summary": "",
+        "published": "18 Jul 2026 07:18 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Jaksa tinggi AS tidak akan membantah keputusan DOJ untuk membatalkan kasus pidana taipan India Gautam Adani",
+        "url": "https://www.investing.com/news/stock-market-news/top-us-prosecutor-will-not-dispute-doj-decision-to-drop-indian-tycoon-gautam-adanis-criminal-case-4799444",
+        "summary": "",
+        "published": "18 Jul 2026 07:06 WIB",
+        "sentiment": "Bearish",
+        "score": -0.349,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Investing.com Forex",
         "title": "GameStop memiliki hampir 10% eBay, menurut pengajuan SEC",
         "url": "https://www.investing.com/news/stock-market-news/gamestop-owns-nearly-10-of-ebay-sec-filing-shows-4799464",
         "summary": "",
@@ -1420,143 +1464,83 @@ window.FK_DATA = {
         "emoji": "⚪"
       },
       {
-        "source": "Investing.com Forex",
-        "title": "Abbott menyelidiki dua insiden dunia maya yang berbeda, dan mengatakan tidak ada operasi yang terpengaruh",
-        "url": "https://www.investing.com/news/stock-market-news/abbott-investigates-two-separatecyber-incidents-says-no-operations-affected-4799461",
-        "summary": "",
-        "published": "18 Jul 2026 06:07 WIB",
+        "source": "Bloomberg Markets",
+        "title": "Infrastruktur Energi Kuwait Terkena Serangan Iran yang Intens",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-18/kuwait-faces-intense-night-of-iranian-attacks-as-power-plant-hit",
+        "summary": "Kuwait suffered one of its worst nights of Iranian retaliatory attacks since the Middle East conflict began, with strikes on an oil facility and a second power plant hit in as many days.",
+        "published": "18 Jul 2026 15:01 WIB",
         "sentiment": "Bearish",
-        "score": -0.192,
+        "score": -1.0,
         "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Boeing mempertahankan perkiraan permintaan jet dalam 20 tahun ke depan tetap stabil, mengabaikan dampak perang Iran",
-        "url": "https://www.investing.com/news/stock-market-news/boeing-keeps-20year-forecast-for-jet-demand-steady-shrugs-off-iran-war-impact-4799459",
-        "summary": "",
-        "published": "18 Jul 2026 06:06 WIB",
-        "sentiment": "Bearish",
-        "score": -0.74,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Jaksa tinggi AS tidak akan membantah keputusan DOJ untuk membatalkan kasus pidana taipan India Gautam Adani",
-        "url": "https://www.investing.com/news/stock-market-news/top-us-prosecutor-will-not-dispute-doj-decision-to-drop-indian-tycoon-gautam-adanis-criminal-case-4799444",
-        "summary": "",
-        "published": "18 Jul 2026 05:54 WIB",
-        "sentiment": "Bearish",
-        "score": -0.349,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Kotak Fakta-Perusahaan-perusahaan AS menghadapi peningkatan serangan siber",
-        "url": "https://www.investing.com/news/stock-market-news/factboxus-companies-face-rise-in-cyber-attacks-4797809",
-        "summary": "",
-        "published": "18 Jul 2026 05:43 WIB",
-        "sentiment": "Bearish",
-        "score": -0.52,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Taylor Farms, Sysco menarik selada gunung es dari Meksiko tengah yang terkait dengan wabah parasit di AS",
-        "url": "https://www.investing.com/news/stock-market-news/wendys-chipotle-say-they-are-not-affected-by-cyclosporiasisoutbreak-4798704",
-        "summary": "",
-        "published": "18 Jul 2026 05:00 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Saham Dunia Jatuh Karena Kekalahan Semikonduktor; minyak naik karena eskalasi Timur Tengah",
-        "url": "https://www.investing.com/news/stock-market-news/stocks-stumble-oil-set-for-weekly-gain-on-renewed-gulf-hostilities-4797335",
-        "summary": "",
-        "published": "18 Jul 2026 04:48 WIB",
-        "sentiment": "Bearish",
-        "score": -0.16,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Trump Media menawarkan biaya bulanan sebesar $100.000 untuk feed tercepat postingan presiden AS, kata sumber",
-        "url": "https://www.investing.com/news/stock-market-news/trump-media-pitched-100000-monthly-fee-for-fast-feed-of-us-presidents-posts-ft-reports-4798840",
-        "summary": "",
-        "published": "18 Jul 2026 04:43 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Alphabet, Intel menghasilkan fokus pada perdagangan AI seiring meningkatnya pendapatan AS",
-        "url": "https://www.investing.com/news/stock-market-news/alphabet-intel-results-in-focus-for-ai-trade-as-us-earnings-rev-up-4797849",
-        "summary": "",
-        "published": "18 Jul 2026 04:43 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Saham Meksiko menguat pada penutupan perdagangan; S&P/BMV IPC naik 0,42%",
-        "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-higher-at-close-of-trade-spbmv-ipc-up-042-4799315",
-        "summary": "",
-        "published": "18 Jul 2026 04:30 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "Investing.com Economy",
-        "title": "Inflasi zona euro turun menjadi 2,8% per tahun di bulan Juni",
-        "url": "https://www.investing.com/news/economic-indicators/eurozone-inflation-eases-to-28-annually-in-june-4797773",
-        "summary": "",
-        "published": "17 Jul 2026 16:18 WIB",
-        "sentiment": "Bullish",
-        "score": 0.318,
-        "emoji": "🟢"
       },
       {
         "source": "Bloomberg Markets",
-        "title": "Hedge Funds Menambahkan Taruhan Minyak Bullish dengan Kecepatan Tercepat dalam Satu Dekade",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-17/hedge-funds-add-bullish-oil-bets-at-fastest-pace-in-a-decade",
-        "summary": "Hedge funds piled into bullish bets on Brent oil at the fastest pace in almost a decade as fighting between Iran and the US ramped up, dampening investors’ expectations of a sustained recovery in shipping through the Strait of Hormuz.",
-        "published": "18 Jul 2026 03:12 WIB",
-        "sentiment": "Bearish",
-        "score": -0.281,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Google News Geopolitik",
-        "title": "Pasar NY Jatuh karena Risiko Timur Tengah Memicu \"Pembelian Dolar Safe-Haven\"; Kemerosotan Semikonduktor Membebani - finance.biggo.com",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzNTI5VHlqN01TU19KNFNWVy1vbUdtd293QW10MDdTV3BsbGtmOTM5dUQ2aHMwTlpZUW5SZmhPLUV0REZtaFlzZVRrT3ctc093Mk5iWERPa3ZZTjdQRzkwSDI2S0M2eHAzcTZ5TjFfdmZ0SDNLNmc?oc=5",
-        "summary": "NY Markets Fall as Middle East Risks Fuel \"Safe-Haven Dollar Buying\"; Semiconductor Slump Weighs finance.biggo.com",
-        "published": "17 Jul 2026 08:33 WIB",
-        "sentiment": "Bearish",
-        "score": -0.654,
-        "emoji": "🔴"
-      },
-      {
-        "source": "BBC World",
-        "title": "Trump mengancam tarif baru Kanada atas kebakaran yang mengirimkan udara 'kotor' ke kota-kota AS",
-        "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.",
-        "published": "18 Jul 2026 06:15 WIB",
+        "title": "Zelenskyy Mungkin Memecat Komandan Syrskyi Setelah Protes, Laporan FT",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-18/zelenskyy-may-fire-commander-syrskyi-after-protests-ft-reports",
+        "summary": "Ukraine President Volodymyr Zelenskyy is considering firing Armed Forces commander-in-chief Oleksandr Syrskyi, the Financial Times reported, following days of turmoil engulfing the country’s military leadership.",
+        "published": "18 Jul 2026 19:19 WIB",
         "sentiment": "Bearish",
         "score": -0.802,
         "emoji": "🔴"
       },
       {
+        "source": "Bloomberg Markets",
+        "title": "Belum Selesai Mengembalikan Tarif atau Mewujudkan Janji AI",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-07-18/not-done-yet-refunding-tariffs-or-realizing-ai-s-promise",
+        "summary": "The markets continue to be dominated by news of artificial intelligence",
+        "published": "18 Jul 2026 19:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.66,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Tindakan Keras Hongaria terhadap Sektor Kendaraan Listrik senilai $20 Miliar Membuat Tiongkok Waspada",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-18/hungary-crackdown-on-20-billion-ev-sector-puts-china-on-notice",
+        "summary": "Hungary’s $20 billion electric-vehicle industry, which has long enjoyed the protection of former premier Viktor Orban, is facing a reckoning as the country’s new leadership cracks down on environmental violations and looks to raise taxes.",
+        "published": "18 Jul 2026 14:00 WIB",
+        "sentiment": "Netral",
+        "score": -0.026,
+        "emoji": "⚪"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Pencetak Mata Uang RBI Mencari Tawaran untuk Bahan Uang Kertas Polimer",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-18/rbi-currency-printer-seeks-bids-for-polymer-banknote-material",
+        "summary": "India has invited bids from manufacturers to supply polymer substrate sheets with security features suitable for printing of Indian banknotes.",
+        "published": "18 Jul 2026 13:35 WIB",
+        "sentiment": "Bullish",
+        "score": 0.34,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Pesaing Siemens dari Tiongkok Ingin Membeli Jalan ke Eropa",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-18/china-s-siemens-competitor-eyes-buying-its-way-into-europe",
+        "summary": "Shenzhen Inovance Technology Co. Ltd. is considering acquisitions in Europe, signaling the Chinese company is readying a push to compete in Europe with industrial incumbents like Siemens AG and top auto supplier Robert Bosch GmbH.",
+        "published": "18 Jul 2026 12:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.511,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Sheinbaum, Carney Akan Menyaksikan Final Piala Dunia Bersama Trump",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-18/sheinbaum-carney-to-watch-world-cup-final-with-trump",
+        "summary": "Mexican President Claudia Sheinbaum and Canadian Prime Minister Mark Carney will travel to the US to attend Sunday’s World Cup final on President Donald Trump’s invitation, creating the opportunity for a reset after a month filled with regional tensions.",
+        "published": "18 Jul 2026 09:28 WIB",
+        "sentiment": "Bullish",
+        "score": 0.238,
+        "emoji": "🟢"
+      },
+      {
         "source": "BBC World",
-        "title": "AS membantah klaim Iran bahwa mereka menyerang infrastruktur sipil dalam serangan terbarunya",
-        "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US military says its attacks were intended to \"further degrade Iranian military capabilities\".",
-        "published": "18 Jul 2026 01:33 WIB",
+        "title": "Gudang ritel online Rusia terkena serangan mematikan Ukraina",
+        "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
+        "summary": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
+        "published": "18 Jul 2026 20:06 WIB",
         "sentiment": "Bearish",
-        "score": -0.958,
+        "score": -0.521,
         "emoji": "🔴"
       },
       {
@@ -1571,7 +1555,17 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Seorang kritikus anti-perang didenda, yang lain ditahan karena Rusia menekan lawan-lawannya",
+        "title": "Trump mengancam tarif baru Kanada atas kebakaran yang mengirimkan udara 'kotor' ke kota-kota AS",
+        "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
+        "summary": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.",
+        "published": "18 Jul 2026 08:29 WIB",
+        "sentiment": "Bearish",
+        "score": -0.802,
+        "emoji": "🔴"
+      },
+      {
+        "source": "BBC World",
+        "title": "Seorang pengkritik anti-perang didenda, sementara yang lainnya ditahan karena Rusia menekan perbedaan pendapat",
         "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss",
         "summary": "While Boris Nadezhdin is barred from running for parliament, blogger Ilya Remeslo is remanded in custody.",
         "published": "18 Jul 2026 03:00 WIB",
@@ -1600,103 +1594,93 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "BBC World",
-        "title": "Trump menuduh Tiongkok ikut campur dalam pemilu tahun 2020 dan mempertanyakan keamanan pemilu menjelang pemilu paruh waktu",
-        "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
-        "summary": "China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections.",
-        "published": "17 Jul 2026 18:37 WIB",
-        "sentiment": "Bullish",
-        "score": 0.052,
-        "emoji": "🟢"
-      },
-      {
-        "source": "BBC Business",
-        "title": "Mengapa harga bahan bakar di Inggris naik lagi?",
-        "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-        "summary": "UK fuel prices are going up again after the collapse of peace talks to end the US-Israel war with Iran.",
-        "published": "17 Jul 2026 21:09 WIB",
-        "sentiment": "Bearish",
-        "score": -0.557,
-        "emoji": "🔴"
-      },
-      {
         "source": "BBC Top Stories",
-        "title": "Pemilihan sela Clacton menarik 34 kandidat",
-        "url": "https://www.bbc.co.uk/news/articles/ckge923jk3vo?at_medium=RSS&at_campaign=rss",
-        "summary": "The list of people taking on Nigel Farage contains 20 independents and a number of joke candidates.",
-        "published": "18 Jul 2026 04:06 WIB",
+        "title": "False nine atau tembakan ke depan - potensi kehidupan Inggris setelah Kane",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cp87llz7539o?at_medium=RSS&at_campaign=rss",
+        "summary": "Are England facing the prospect of using a false nine up front once record scorer Harry Kane calls time on his international career?",
+        "published": "18 Jul 2026 17:42 WIB",
+        "sentiment": "Bearish",
+        "score": -0.132,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Tiongkok memperingatkan Inggris atas nasionalisasi Baja Inggris, dan menuntut penyelesaian yang adil",
+        "url": "https://www.aljazeera.com/news/2026/7/18/china-warns-uk-over-british-steel-nationalisation-demands-fair-resolution?traffic_source=rss",
+        "summary": "Jingye seeks compensation after UK's move to fully nationalise loss-making British Steel, citing security risks.",
+        "published": "18 Jul 2026 21:04 WIB",
         "sentiment": "Bullish",
-        "score": 0.637,
+        "score": 0.056,
         "emoji": "🟢"
       },
       {
         "source": "Al Jazeera",
-        "title": "UE mendesak Israel untuk menghentikan perluasan pemukiman karena pemukim menyerang anak-anak",
-        "url": "https://www.aljazeera.com/news/2026/7/17/eu-urges-israel-to-halt-settlement-expansion-as-settlers-attack-children?traffic_source=rss",
-        "summary": "Pressure is growing within the EU to sanction Israel for its illegal settlements and violence against Palestinians.",
-        "published": "18 Jul 2026 05:54 WIB",
-        "sentiment": "Bearish",
-        "score": -0.906,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Trump mengancam Kanada dengan tarif tarif yang lebih tinggi karena asap kebakaran hutan",
-        "url": "https://www.aljazeera.com/news/2026/7/17/trump-threatens-canada-with-steeper-tariff-costs-over-wildfire-smoke?traffic_source=rss",
-        "summary": "US president has frequently pushed false claims blaming the mismanagement of rival politicians for large wildfires.",
-        "published": "18 Jul 2026 05:47 WIB",
-        "sentiment": "Bearish",
-        "score": -0.7,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "AS melancarkan serangan malam ketujuh berturut-turut terhadap Iran",
-        "url": "https://www.aljazeera.com/news/2026/7/17/us-launches-seventh-straight-night-of-strikes-on-iran?traffic_source=rss",
-        "summary": "The US military says it's degrading Iran's military but has been accused by Tehran of targeting civilian infrastructure.",
-        "published": "18 Jul 2026 05:11 WIB",
-        "sentiment": "Bearish",
-        "score": -0.67,
-        "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Speedcuber bintang bertanding di kejuaraan Eropa",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/star-speedcubers-square-off-at-european-championship?traffic_source=rss",
-        "summary": "More than 1,200 speedcubers from 53 countries are descending are attending the European Speedcubing Championship.",
-        "published": "18 Jul 2026 04:33 WIB",
+        "title": "Konservatif terkemuka di Jerman mundur setelah ibu pengganti memicu reaksi buruk di dalam partai",
+        "url": "https://www.aljazeera.com/news/2026/7/18/top-german-conservative-quits-after-surrogacy-sparks-backlash-within-party?traffic_source=rss",
+        "summary": "Jens Spahn steps down after party criticism over surrogacy, highlighting tensions in Germany's conservative coalition.",
+        "published": "18 Jul 2026 20:54 WIB",
         "sentiment": "Bullish",
-        "score": 0.7,
+        "score": 0.073,
         "emoji": "🟢"
       },
       {
         "source": "Al Jazeera",
-        "title": "Pendukung Houthi berunjuk rasa di Sanaa menentang ‘blokade yang dipimpin Saudi’",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/houthi-supporters-rally-in-sanaa-against-saudi-led?traffic_source=rss",
-        "summary": "Thousands of Houthi supporters rallied in Sanaa against what they described as the Saudi-led blockade against Yemen.",
-        "published": "18 Jul 2026 03:59 WIB",
+        "title": "Iran menuduh AS menyerang infrastruktur penting ketika perang semakin intensif",
+        "url": "https://www.aljazeera.com/news/2026/7/18/iran-accuses-us-of-striking-critical-infrastructure-as-war-intensifies?traffic_source=rss",
+        "summary": "The conflict has been escalating since US President Donald Trump declared 10 days ago the peace deal with Iran is over.",
+        "published": "18 Jul 2026 19:59 WIB",
+        "sentiment": "Bearish",
+        "score": -0.831,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Eropa harus beralih ke Afrika untuk mendapatkan solusi gelombang panas",
+        "url": "https://www.aljazeera.com/opinions/2026/7/18/europe-should-look-to-africa-for-heatwave-solutions?traffic_source=rss",
+        "summary": "African communities have spent decades developing practical, tested ways to live with extreme heat.",
+        "published": "18 Jul 2026 19:19 WIB",
         "sentiment": "Bullish",
-        "score": 0.86,
+        "score": 0.178,
         "emoji": "🟢"
       },
       {
         "source": "Al Jazeera",
-        "title": "Pengacara terkemuka IRS akan mengundurkan diri dari jabatannya di tengah perselisihan dengan pemerintahan Trump",
-        "url": "https://www.aljazeera.com/news/2026/7/17/top-irs-lawyer-to-resign-post-amid-disagreements-with-trump-administration?traffic_source=rss",
-        "summary": "Reports indicate a controversial settlement deal and disputes over tax audits may have prompted Ken Kies to step down.",
-        "published": "18 Jul 2026 03:50 WIB",
+        "title": "Serangan pesawat tak berawak Ukraina terhadap Rusia menewaskan sedikitnya 8 orang dan melukai puluhan lainnya",
+        "url": "https://www.aljazeera.com/news/2026/7/18/ukrainian-drone-attacks-on-russia-kill-at-least-8-wound-dozens?traffic_source=rss",
+        "summary": "Russian officials say strikes on retailer's warehouses caused civilian casualties; Kyiv says sites used to make drones.",
+        "published": "18 Jul 2026 18:10 WIB",
         "sentiment": "Bearish",
-        "score": -0.583,
+        "score": -1.0,
         "emoji": "🔴"
       },
       {
-        "source": "CNBC Economy",
-        "title": "Di dalam jaringan penipuan Tiongkok yang mencuri miliaran dolar dari bank dan pengecer",
-        "url": "https://www.cnbc.com/2026/07/17/tap-pay-fraud-retail-crime.html",
-        "summary": "Chinese organized crime groups are making as much as $1 billion annually in tap-to-pay fraud schemes targeting retailers and banks.",
-        "published": "17 Jul 2026 20:12 WIB",
+        "source": "MarketWatch",
+        "title": "Cek Jaminan Sosial Anda bisa naik $74 per bulan tahun depan",
+        "url": "https://www.marketwatch.com/story/your-social-security-check-could-go-up-by-74-a-month-next-year-58877142?mod=mw_rss_topstories",
+        "summary": "Social Security’s cost-of-living-adjustment could be 3.8% in 2027, as inflation shows signs of cooling.",
+        "published": "18 Jul 2026 19:42 WIB",
+        "sentiment": "Bullish",
+        "score": 0.34,
+        "emoji": "🟢"
+      },
+      {
+        "source": "CNBC Forex",
+        "title": "Dua pengungkapan tak terduga dalam wawancara Warren Buffett di CNBC",
+        "url": "https://www.cnbc.com/2026/07/18/two-unexpected-revelations-in-warren-buffetts-cnbc-interview.html",
+        "summary": "Warren Buffett tells CNBC that Bill Gates' ties to Jeffrey Epstein didn't drive his termination of donations.",
+        "published": "18 Jul 2026 21:53 WIB",
         "sentiment": "Bearish",
-        "score": -0.941,
+        "score": -0.08,
+        "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "Militer AS mengatakan pihaknya telah menyelesaikan putaran terakhir serangan terhadap Iran, di tengah semakin banyaknya gangguan terhadap pengiriman barang",
+        "url": "https://www.cnbc.com/2026/07/18/us-military-says-it-completed-latest-round-of-strikes-against-iran.html",
+        "summary": "U.S. Central Command says it continues to enforce a naval blockade against Iran, while Kuwait and Bahrain say they have intercepted more Iranian projectiles.",
+        "published": "18 Jul 2026 21:01 WIB",
+        "sentiment": "Bearish",
+        "score": -0.556,
         "emoji": "🔴"
       },
       {
@@ -1711,38 +1695,28 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Pembuat jet tempur Saab menghancurkan ekspektasi ketika CEO mendesak pemikiran ulang pengadaan",
-        "url": "https://www.cnbc.com/2026/07/17/saab-stock-earnings-q2-report-defense-sales-orders.html",
-        "summary": "European governments ramp up defense spending and book orders with the region's companies.",
-        "published": "17 Jul 2026 21:41 WIB",
-        "sentiment": "Bullish",
-        "score": 0.273,
-        "emoji": "🟢"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Zoox Amazon mengeluarkan penarikan perangkat lunak setelah robotaxi mengalami asap tebal",
-        "url": "https://www.cnbc.com/2026/07/17/amazon-zoox-recalls-robotaxi-smoke.html",
-        "summary": "Last month, an unoccupied Zoox robotaxi drove into an active emergency fire scene that was clouded with smoke, the company said.",
-        "published": "17 Jul 2026 21:42 WIB",
+        "title": "'WarshGPT': Bagaimana Wall Street beradaptasi dengan era baru komunikasi The Fed",
+        "url": "https://www.cnbc.com/2026/07/18/warshgpt-federal-reserve-communications-task-force-warsh.html",
+        "summary": "Investment firms are readying for an era with less public commentary from the U.S. central bank. Some are relying on AI for an edge.",
+        "published": "18 Jul 2026 18:31 WIB",
         "sentiment": "Bearish",
-        "score": -0.441,
+        "score": -0.08,
         "emoji": "🔴"
       },
       {
         "source": "CNBC World",
-        "title": "Iran mengatakan infrastruktur sipil yang terkena serangan terbaru AS, memperluas serangan ke Suriah dan Bahrain",
-        "url": "https://www.cnbc.com/2026/07/17/iran-war-us-trump-syria-bahrain.html",
-        "summary": "The escalating standoff comes as the fragile truce signed by the U.S. and Iran last month showed further signs of unravelling",
-        "published": "18 Jul 2026 00:43 WIB",
+        "title": "Trump menyerang Kanada ketika asap kebakaran hutan menyebar, dan mengatakan AS akan menambah biaya polusi pada tarif",
+        "url": "https://www.cnbc.com/2026/07/17/trump-canada-wildfire-tariffs.html",
+        "summary": "The smoke coming from active wildfires in Canada has led to unhealthy air quality in swaths of the U.S., which could affect the World Cup final in New Jersey.",
+        "published": "18 Jul 2026 06:08 WIB",
         "sentiment": "Bearish",
-        "score": -0.692,
+        "score": -0.178,
         "emoji": "🔴"
       }
     ]
   },
   "geopolitik": {
-    "generated": "18 Jul 2026 07:02 WIB",
+    "generated": "18 Jul 2026 22:01 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
@@ -1750,26 +1724,26 @@ window.FK_DATA = {
       {
         "pair": "USD/JPY",
         "direction": "Tekanan Turun ▼",
-        "score": -0.482,
-        "count": 14
+        "score": -0.402,
+        "count": 20
       },
       {
         "pair": "XAU/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.482,
-        "count": 14
+        "score": -0.402,
+        "count": 20
       },
       {
         "pair": "USD/CHF",
         "direction": "Tekanan Turun ▼",
-        "score": -0.528,
-        "count": 10
+        "score": -0.421,
+        "count": 12
       },
       {
         "pair": "EUR/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.474,
-        "count": 4
+        "score": -0.679,
+        "count": 5
       },
       {
         "pair": "CAD/JPY",
@@ -1784,15 +1758,9 @@ window.FK_DATA = {
         "count": 2
       },
       {
-        "pair": "GBP/USD",
-        "direction": "Tekanan Naik ▲",
-        "score": 0.052,
-        "count": 1
-      },
-      {
         "pair": "USD/RUB",
         "direction": "Tekanan Turun ▼",
-        "score": -0.906,
+        "score": -0.521,
         "count": 1
       }
     ],
@@ -1835,16 +1803,6 @@ window.FK_DATA = {
         "published": "17 Jul 2026 23:06 WIB",
         "sentiment": "Bearish",
         "score": -0.571,
-        "emoji": "🔴"
-      },
-      {
-        "source": "ForexLive",
-        "title": "Mengapa Kimi K3 menambah kekhawatiran pasar",
-        "url": "https://investinglive.com/stock-market-update/why-kimi-k3-is-adding-to-the-market-worries/",
-        "summary": "A couple things are roiling markets at the moment: 1) The release of Kimi K3, a Chinese open source model from Moonshot 2) Rumors that a hedge fund or two are in trouble The two are partly connected. There is talk about Situational Awareness but it could be someone else as Jim Cramer writes: ﻿\"[By] ",
-        "published": "17 Jul 2026 20:53 WIB",
-        "sentiment": "Bearish",
-        "score": -0.492,
         "emoji": "🔴"
       },
       {
@@ -1922,19 +1880,59 @@ window.FK_DATA = {
         "title": "Trump Media menawarkan biaya bulanan sebesar $100.000 untuk feed tercepat postingan presiden AS, kata sumber",
         "url": "https://www.investing.com/news/stock-market-news/trump-media-pitched-100000-monthly-fee-for-fast-feed-of-us-presidents-posts-ft-reports-4798840",
         "summary": "",
-        "published": "18 Jul 2026 04:43 WIB",
+        "published": "18 Jul 2026 20:06 WIB",
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
       },
       {
-        "source": "BBC World",
-        "title": "AS membantah klaim Iran bahwa mereka menyerang infrastruktur sipil dalam serangan terbarunya",
-        "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US military says its attacks were intended to \"further degrade Iranian military capabilities\".",
-        "published": "18 Jul 2026 01:33 WIB",
+        "source": "Bloomberg Markets",
+        "title": "Infrastruktur Energi Kuwait Terkena Serangan Iran yang Intens",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-18/kuwait-faces-intense-night-of-iranian-attacks-as-power-plant-hit",
+        "summary": "Kuwait suffered one of its worst nights of Iranian retaliatory attacks since the Middle East conflict began, with strikes on an oil facility and a second power plant hit in as many days.",
+        "published": "18 Jul 2026 15:01 WIB",
         "sentiment": "Bearish",
-        "score": -0.958,
+        "score": -1.0,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Zelenskyy Mungkin Memecat Komandan Syrskyi Setelah Protes, Laporan FT",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-18/zelenskyy-may-fire-commander-syrskyi-after-protests-ft-reports",
+        "summary": "Ukraine President Volodymyr Zelenskyy is considering firing Armed Forces commander-in-chief Oleksandr Syrskyi, the Financial Times reported, following days of turmoil engulfing the country’s military leadership.",
+        "published": "18 Jul 2026 19:19 WIB",
+        "sentiment": "Bearish",
+        "score": -0.802,
+        "emoji": "🔴"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Pencetak Mata Uang RBI Mencari Tawaran untuk Bahan Uang Kertas Polimer",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-18/rbi-currency-printer-seeks-bids-for-polymer-banknote-material",
+        "summary": "India has invited bids from manufacturers to supply polymer substrate sheets with security features suitable for printing of Indian banknotes.",
+        "published": "18 Jul 2026 13:35 WIB",
+        "sentiment": "Bullish",
+        "score": 0.34,
+        "emoji": "🟢"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Sheinbaum, Carney Akan Menyaksikan Final Piala Dunia Bersama Trump",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-18/sheinbaum-carney-to-watch-world-cup-final-with-trump",
+        "summary": "Mexican President Claudia Sheinbaum and Canadian Prime Minister Mark Carney will travel to the US to attend Sunday’s World Cup final on President Donald Trump’s invitation, creating the opportunity for a reset after a month filled with regional tensions.",
+        "published": "18 Jul 2026 09:28 WIB",
+        "sentiment": "Bullish",
+        "score": 0.238,
+        "emoji": "🟢"
+      },
+      {
+        "source": "BBC World",
+        "title": "Gudang ritel online Rusia terkena serangan mematikan Ukraina",
+        "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
+        "summary": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
+        "published": "18 Jul 2026 20:06 WIB",
+        "sentiment": "Bearish",
+        "score": -0.521,
         "emoji": "🔴"
       },
       {
@@ -1958,43 +1956,43 @@ window.FK_DATA = {
         "emoji": "🔴"
       },
       {
-        "source": "BBC World",
-        "title": "Trump menuduh Tiongkok ikut campur dalam pemilu tahun 2020 dan mempertanyakan keamanan pemilu menjelang pemilu paruh waktu",
-        "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
-        "summary": "China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections.",
-        "published": "17 Jul 2026 18:37 WIB",
+        "source": "Al Jazeera",
+        "title": "Konservatif terkemuka di Jerman mundur setelah ibu pengganti memicu reaksi buruk di dalam partai",
+        "url": "https://www.aljazeera.com/news/2026/7/18/top-german-conservative-quits-after-surrogacy-sparks-backlash-within-party?traffic_source=rss",
+        "summary": "Jens Spahn steps down after party criticism over surrogacy, highlighting tensions in Germany's conservative coalition.",
+        "published": "18 Jul 2026 20:54 WIB",
         "sentiment": "Bullish",
-        "score": 0.052,
+        "score": 0.073,
         "emoji": "🟢"
       },
       {
-        "source": "BBC Business",
-        "title": "Mengapa harga bahan bakar di Inggris naik lagi?",
-        "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-        "summary": "UK fuel prices are going up again after the collapse of peace talks to end the US-Israel war with Iran.",
-        "published": "17 Jul 2026 21:09 WIB",
+        "source": "Al Jazeera",
+        "title": "Iran menuduh AS menyerang infrastruktur penting ketika perang semakin intensif",
+        "url": "https://www.aljazeera.com/news/2026/7/18/iran-accuses-us-of-striking-critical-infrastructure-as-war-intensifies?traffic_source=rss",
+        "summary": "The conflict has been escalating since US President Donald Trump declared 10 days ago the peace deal with Iran is over.",
+        "published": "18 Jul 2026 19:59 WIB",
         "sentiment": "Bearish",
-        "score": -0.557,
+        "score": -0.831,
         "emoji": "🔴"
       },
       {
         "source": "Al Jazeera",
-        "title": "UE mendesak Israel untuk menghentikan perluasan pemukiman karena pemukim menyerang anak-anak",
-        "url": "https://www.aljazeera.com/news/2026/7/17/eu-urges-israel-to-halt-settlement-expansion-as-settlers-attack-children?traffic_source=rss",
-        "summary": "Pressure is growing within the EU to sanction Israel for its illegal settlements and violence against Palestinians.",
-        "published": "18 Jul 2026 05:54 WIB",
+        "title": "Serangan pesawat tak berawak Ukraina terhadap Rusia menewaskan sedikitnya 8 orang dan melukai puluhan lainnya",
+        "url": "https://www.aljazeera.com/news/2026/7/18/ukrainian-drone-attacks-on-russia-kill-at-least-8-wound-dozens?traffic_source=rss",
+        "summary": "Russian officials say strikes on retailer's warehouses caused civilian casualties; Kyiv says sites used to make drones.",
+        "published": "18 Jul 2026 18:10 WIB",
         "sentiment": "Bearish",
-        "score": -0.906,
+        "score": -1.0,
         "emoji": "🔴"
       },
       {
-        "source": "Al Jazeera",
-        "title": "AS melancarkan serangan malam ketujuh berturut-turut terhadap Iran",
-        "url": "https://www.aljazeera.com/news/2026/7/17/us-launches-seventh-straight-night-of-strikes-on-iran?traffic_source=rss",
-        "summary": "The US military says it's degrading Iran's military but has been accused by Tehran of targeting civilian infrastructure.",
-        "published": "18 Jul 2026 05:11 WIB",
+        "source": "CNBC Forex",
+        "title": "Dua pengungkapan tak terduga dalam wawancara Warren Buffett di CNBC",
+        "url": "https://www.cnbc.com/2026/07/18/two-unexpected-revelations-in-warren-buffetts-cnbc-interview.html",
+        "summary": "Warren Buffett tells CNBC that Bill Gates' ties to Jeffrey Epstein didn't drive his termination of donations.",
+        "published": "18 Jul 2026 21:53 WIB",
         "sentiment": "Bearish",
-        "score": -0.67,
+        "score": -0.08,
         "emoji": "🔴"
       },
       {
@@ -2006,24 +2004,34 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -1.0,
         "emoji": "🔴"
+      },
+      {
+        "source": "CNBC World",
+        "title": "'WarshGPT': Bagaimana Wall Street beradaptasi dengan era baru komunikasi The Fed",
+        "url": "https://www.cnbc.com/2026/07/18/warshgpt-federal-reserve-communications-task-force-warsh.html",
+        "summary": "Investment firms are readying for an era with less public commentary from the U.S. central bank. Some are relying on AI for an edge.",
+        "published": "18 Jul 2026 18:31 WIB",
+        "sentiment": "Bearish",
+        "score": -0.08,
+        "emoji": "🔴"
       }
     ]
   },
   "fj_live": {
-    "generated": "18 Jul 2026 07:02 WIB",
+    "generated": "18 Jul 2026 22:01 WIB",
     "summary": {
-      "total": 22,
-      "bullish": 4,
-      "bearish": 4,
-      "netral": 14,
-      "avg_score": 0.0372,
+      "total": 18,
+      "bullish": 3,
+      "bearish": 3,
+      "netral": 12,
+      "avg_score": 0.0414,
       "overall": "Netral"
     },
     "items": [
       {
         "source": "FinancialJuice",
         "title": "Pertahanan sipil Saudi: peringatan dini dikeluarkan di Yanbu untuk memberi sinyal potensi bahaya",
-        "url": "https://www.financialjuice.com/News/9683683/Saudi-civil-defence-early-warning-issued-in-Yanbu-to-signal-potential-danger.aspx",
+        "url": "https://www.financialjuice.com/News/9683683/Saudi-civil-defence-early-warning-issued-in-Yanbu-to-signal-potential-danger.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 06:31 WIB",
         "sentiment": "Netral",
@@ -2033,7 +2041,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Pertahanan sipil Saudi: bahaya telah berlalu dari Al Kharj",
-        "url": "https://www.financialjuice.com/News/9683664/Saudi-civil-defence-danger-has-passed-from-Al-Kharj.aspx",
+        "url": "https://www.financialjuice.com/News/9683664/Saudi-civil-defence-danger-has-passed-from-Al-Kharj.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 06:01 WIB",
         "sentiment": "Netral",
@@ -2043,7 +2051,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Pertahanan sipil Saudi: ancaman mereda di Yanbu",
-        "url": "https://www.financialjuice.com/News/9683661/Saudi-civil-defence-threat-subsided-in-Yanbu.aspx",
+        "url": "https://www.financialjuice.com/News/9683661/Saudi-civil-defence-threat-subsided-in-Yanbu.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 05:56 WIB",
         "sentiment": "Netral",
@@ -2053,7 +2061,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Pertahanan sipil Saudi: peringatan dini dikeluarkan di Al-Kharj untuk memberi sinyal kemungkinan risiko",
-        "url": "https://www.financialjuice.com/News/9683660/Saudi-civil-defence-early-alert-issued-in-Al-Kharj-to-signal-possible-risk.aspx",
+        "url": "https://www.financialjuice.com/News/9683660/Saudi-civil-defence-early-alert-issued-in-Al-Kharj-to-signal-possible-risk.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 05:52 WIB",
         "sentiment": "Netral",
@@ -2063,7 +2071,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi CFTC USD Pekan yang Berakhir 14 Juli - FJElite",
-        "url": "https://www.financialjuice.com/News/9683554/USD-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9683554/USD-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 03:18 WIB",
         "sentiment": "Netral",
@@ -2073,7 +2081,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi EUR CFTC Minggu yang Berakhir 14 Juli - FJElite",
-        "url": "https://www.financialjuice.com/News/9683553/EUR-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9683553/EUR-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 03:18 WIB",
         "sentiment": "Netral",
@@ -2083,7 +2091,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi AUD CFTC Pekan yang Berakhir 14 Juli - FJElite",
-        "url": "https://www.financialjuice.com/News/9683552/AUD-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9683552/AUD-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 03:18 WIB",
         "sentiment": "Netral",
@@ -2093,7 +2101,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi CFTC JPY Pekan yang Berakhir 14 Juli - FJElite",
-        "url": "https://www.financialjuice.com/News/9683551/JPY-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9683551/JPY-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 03:18 WIB",
         "sentiment": "Netral",
@@ -2103,7 +2111,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Minggu Posisi CFTC CHF yang Berakhir 14 Juli - FJElite",
-        "url": "https://www.financialjuice.com/News/9683549/CHF-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9683549/CHF-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 03:18 WIB",
         "sentiment": "Netral",
@@ -2113,7 +2121,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi CFTC NZD Pekan yang Berakhir 14 Juli - FJElite",
-        "url": "https://www.financialjuice.com/News/9683548/NZD-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9683548/NZD-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 03:18 WIB",
         "sentiment": "Netral",
@@ -2123,7 +2131,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Posisi CAD CFTC Minggu yang Berakhir 14 Juli - FJElite",
-        "url": "https://www.financialjuice.com/News/9683547/CAD-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx",
+        "url": "https://www.financialjuice.com/News/9683547/CAD-CFTC-Positions-Week-Ended-July-14th---FJElite.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 03:18 WIB",
         "sentiment": "Netral",
@@ -2133,7 +2141,7 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "Trump mengenai Kanada: Biaya polusi dari hutan harus ditambahkan ke dalam tarif – Truth Social.",
-        "url": "https://www.financialjuice.com/News/9683454/Trump-on-Canada-The-cost-of-pollution-from-forests-must-be-added-to-tariffs---Truth-Social.aspx",
+        "url": "https://www.financialjuice.com/News/9683454/Trump-on-Canada-The-cost-of-pollution-from-forests-must-be-added-to-tariffs---Truth-Social.aspx?xy=rss",
         "summary": "Trump calls Canada wildfires 'willful negligence\".",
         "published": "18 Jul 2026 02:26 WIB",
         "sentiment": "Bullish",
@@ -2143,29 +2151,9 @@ window.FK_DATA = {
       {
         "source": "FinancialJuice",
         "title": "SpaceX sedang dalam pembicaraan untuk menyediakan kapasitas komputasi awan AI senilai miliaran dolar kepada Pentagon, kata sumber - WSJ $SPCX",
-        "url": "https://www.financialjuice.com/News/9683442/SpaceX-in-talks-to-provide-the-Pentagon-billions-of-dollars-of-AI-cloud-computing-capacity-sources-say---WSJ-SPCX.aspx",
+        "url": "https://www.financialjuice.com/News/9683442/SpaceX-in-talks-to-provide-the-Pentagon-billions-of-dollars-of-AI-cloud-computing-capacity-sources-say---WSJ-SPCX.aspx?xy=rss",
         "summary": "",
         "published": "18 Jul 2026 02:03 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Menteri Pertahanan Yaman memperingatkan Arab Saudi tentang memberlakukan blokade di Yaman, bahwa semua opsi tersedia untuk angkatan bersenjata Yaman - Tasnim News",
-        "url": "https://www.financialjuice.com/News/9683275/Yemen-Defense-Minister-warns-Saudi-Arabia-about-imposing-a-blockade-on-Yemen-that-all-options-are-available-to-the-Yemeni-armed-forces---Tasnim-News.aspx",
-        "summary": "",
-        "published": "17 Jul 2026 23:22 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪"
-      },
-      {
-        "source": "FinancialJuice",
-        "title": "Hammack dari Fed: Saya mempertimbangkan data serta percakapan yang saya lakukan dengan para pemimpin bisnis dan komunitas di Distrik Fed ke-4.",
-        "url": "https://www.financialjuice.com/News/9683108/Feds-Hammack-I-consider-the-data-as-well-as-conversations-Ive-had-with-business-and-community-leaders-in-the-4th-Fed-District.aspx",
-        "summary": "",
-        "published": "17 Jul 2026 21:06 WIB",
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪"
@@ -2179,16 +2167,6 @@ window.FK_DATA = {
         "sentiment": "Bullish",
         "score": 0.902,
         "emoji": "🟢"
-      },
-      {
-        "source": "ForexLive",
-        "title": "AUDUSD dan NZDUSD bergerak lebih rendah karena risk-off/pembelian/teknis USD.",
-        "url": "https://investinglive.com/technical-analysis/the-audusd-and-nzdusd-are-moving-lower-as-risk-off-usd-buying-technicals-all-help/",
-        "summary": "Generally speaking, the AUDUSD and NZDUSD are considered risk-sensitive currency pairs. When investor sentiment deteriorates—such as during stock market selloffs—both currencies tend to come under pressure against the U.S. dollar. That risk-off theme is evident today. S&P 500 futures are down nearly",
-        "published": "17 Jul 2026 20:28 WIB",
-        "sentiment": "Bearish",
-        "score": -0.447,
-        "emoji": "🔴"
       },
       {
         "source": "FXStreet News",
@@ -2229,21 +2207,11 @@ window.FK_DATA = {
         "sentiment": "Bearish",
         "score": -0.233,
         "emoji": "🔴"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Pendukung Houthi menunjukkan rasa di Sanaa menentang ‘blokade yang dipimpin Saudi’",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/houthi-supporters-rally-in-sanaa-against-saudi-led?traffic_source=rss",
-        "summary": "Thousands of Houthi supporters rallied in Sanaa against what they described as the Saudi-led blockade against Yemen.",
-        "published": "18 Jul 2026 03:59 WIB",
-        "sentiment": "Bullish",
-        "score": 0.52,
-        "emoji": "🟢"
       }
     ]
   },
   "rekomendasi": {
-    "generated": "18 Jul 2026 07:02 WIB",
+    "generated": "18 Jul 2026 22:01 WIB",
     "pairs": [
       {
         "label": "CAD/JPY",
@@ -2283,16 +2251,16 @@ window.FK_DATA = {
         "bear": 0,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.113,
+          "signal": "Netral",
+          "fund_score": 0.031,
           "base": "NZD",
           "quote": "USD",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Bearish",
+          "quote_sentiment": "Netral",
           "base_score": 0.0,
-          "quote_score": -0.113,
+          "quote_score": -0.031,
           "base_count": 0,
-          "quote_count": 14
+          "quote_count": 13
         }
       },
       {
@@ -2309,14 +2277,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 0.45,
+          "fund_score": 0.49,
           "base": "EUR",
           "quote": "NZD",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Netral",
-          "base_score": 0.45,
+          "base_score": 0.49,
           "quote_score": 0.0,
-          "base_count": 5,
+          "base_count": 3,
           "quote_count": 0
         }
       },
@@ -2358,15 +2326,15 @@ window.FK_DATA = {
         "bear": 5,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.941,
+          "signal": "Netral",
+          "fund_score": 0.0,
           "base": "AUD",
           "quote": "NZD",
-          "base_sentiment": "Bearish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Netral",
-          "base_score": -0.941,
+          "base_score": 0.0,
           "quote_score": 0.0,
-          "base_count": 1,
+          "base_count": 0,
           "quote_count": 0
         }
       },
@@ -2383,15 +2351,15 @@ window.FK_DATA = {
         "bear": 5,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.941,
+          "signal": "Netral",
+          "fund_score": 0.0,
           "base": "AUD",
           "quote": "CAD",
-          "base_sentiment": "Bearish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Netral",
-          "base_score": -0.941,
+          "base_score": 0.0,
           "quote_score": 0.0,
-          "base_count": 1,
+          "base_count": 0,
           "quote_count": 0
         }
       },
@@ -2409,14 +2377,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 0.45,
+          "fund_score": 0.49,
           "base": "EUR",
           "quote": "CAD",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Netral",
-          "base_score": 0.45,
+          "base_score": 0.49,
           "quote_score": 0.0,
-          "base_count": 5,
+          "base_count": 3,
           "quote_count": 0
         }
       },
@@ -2459,14 +2427,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 0.636,
+          "fund_score": 0.718,
           "base": "USD",
           "quote": "JPY",
-          "base_sentiment": "Bearish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Bearish",
-          "base_score": -0.113,
+          "base_score": -0.031,
           "quote_score": -0.749,
-          "base_count": 14,
+          "base_count": 13,
           "quote_count": 1
         }
       },
@@ -2509,14 +2477,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 1.199,
+          "fund_score": 1.239,
           "base": "EUR",
           "quote": "JPY",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Bearish",
-          "base_score": 0.45,
+          "base_score": 0.49,
           "quote_score": -0.749,
-          "base_count": 5,
+          "base_count": 3,
           "quote_count": 1
         }
       },
@@ -2533,15 +2501,15 @@ window.FK_DATA = {
         "bear": 4,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.113,
+          "signal": "Netral",
+          "fund_score": -0.031,
           "base": "USD",
           "quote": "CAD",
-          "base_sentiment": "Bearish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Netral",
-          "base_score": -0.113,
+          "base_score": -0.031,
           "quote_score": 0.0,
-          "base_count": 14,
+          "base_count": 13,
           "quote_count": 0
         }
       },
@@ -2583,15 +2551,15 @@ window.FK_DATA = {
         "bear": 1,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.192,
+          "signal": "BUY",
+          "fund_score": 0.749,
           "base": "AUD",
           "quote": "JPY",
-          "base_sentiment": "Bearish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Bearish",
-          "base_score": -0.941,
+          "base_score": 0.0,
           "quote_score": -0.749,
-          "base_count": 1,
+          "base_count": 0,
           "quote_count": 1
         }
       },
@@ -2609,14 +2577,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.487,
+          "fund_score": -0.405,
           "base": "USD",
           "quote": "CHF",
-          "base_sentiment": "Bearish",
+          "base_sentiment": "Netral",
           "quote_sentiment": "Bullish",
-          "base_score": -0.113,
+          "base_score": -0.031,
           "quote_score": 0.374,
-          "base_count": 14,
+          "base_count": 13,
           "quote_count": 2
         }
       },
@@ -2659,15 +2627,15 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.473,
+          "fund_score": -0.555,
           "base": "GBP",
           "quote": "USD",
           "base_sentiment": "Bearish",
-          "quote_sentiment": "Bearish",
+          "quote_sentiment": "Netral",
           "base_score": -0.586,
-          "quote_score": -0.113,
+          "quote_score": -0.031,
           "base_count": 1,
-          "quote_count": 14
+          "quote_count": 13
         }
       },
       {
@@ -2683,15 +2651,15 @@ window.FK_DATA = {
         "bear": 3,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "Netral",
-          "fund_score": 0.076,
+          "signal": "BUY",
+          "fund_score": 0.116,
           "base": "EUR",
           "quote": "CHF",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Bullish",
-          "base_score": 0.45,
+          "base_score": 0.49,
           "quote_score": 0.374,
-          "base_count": 5,
+          "base_count": 3,
           "quote_count": 2
         }
       },
@@ -2733,16 +2701,16 @@ window.FK_DATA = {
         "bear": 3,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "BUY",
-          "fund_score": 0.355,
+          "signal": "SELL",
+          "fund_score": -0.586,
           "base": "GBP",
           "quote": "AUD",
           "base_sentiment": "Bearish",
-          "quote_sentiment": "Bearish",
+          "quote_sentiment": "Netral",
           "base_score": -0.586,
-          "quote_score": -0.941,
+          "quote_score": 0.0,
           "base_count": 1,
-          "quote_count": 1
+          "quote_count": 0
         }
       },
       {
@@ -2809,15 +2777,15 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 1.391,
+          "fund_score": 0.49,
           "base": "EUR",
           "quote": "AUD",
           "base_sentiment": "Bullish",
-          "quote_sentiment": "Bearish",
-          "base_score": 0.45,
-          "quote_score": -0.941,
-          "base_count": 5,
-          "quote_count": 1
+          "quote_sentiment": "Netral",
+          "base_score": 0.49,
+          "quote_score": 0.0,
+          "base_count": 3,
+          "quote_count": 0
         }
       },
       {
@@ -2834,15 +2802,15 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 0.563,
+          "fund_score": 0.521,
           "base": "EUR",
           "quote": "USD",
           "base_sentiment": "Bullish",
-          "quote_sentiment": "Bearish",
-          "base_score": 0.45,
-          "quote_score": -0.113,
-          "base_count": 5,
-          "quote_count": 14
+          "quote_sentiment": "Netral",
+          "base_score": 0.49,
+          "quote_score": -0.031,
+          "base_count": 3,
+          "quote_count": 13
         }
       },
       {
@@ -2859,14 +2827,14 @@ window.FK_DATA = {
         "total_sigs": 5,
         "fundamental": {
           "signal": "BUY",
-          "fund_score": 1.036,
+          "fund_score": 1.076,
           "base": "EUR",
           "quote": "GBP",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Bearish",
-          "base_score": 0.45,
+          "base_score": 0.49,
           "quote_score": -0.586,
-          "base_count": 5,
+          "base_count": 3,
           "quote_count": 1
         }
       },
@@ -2883,16 +2851,16 @@ window.FK_DATA = {
         "bear": 2,
         "total_sigs": 5,
         "fundamental": {
-          "signal": "SELL",
-          "fund_score": -0.828,
+          "signal": "Netral",
+          "fund_score": 0.031,
           "base": "AUD",
           "quote": "USD",
-          "base_sentiment": "Bearish",
-          "quote_sentiment": "Bearish",
-          "base_score": -0.941,
-          "quote_score": -0.113,
-          "base_count": 1,
-          "quote_count": 14
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Netral",
+          "base_score": 0.0,
+          "quote_score": -0.031,
+          "base_count": 0,
+          "quote_count": 13
         }
       }
     ],

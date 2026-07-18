@@ -1,5 +1,5 @@
 {
-  "generated": "18 Jul 2026 07:02 WIB",
+  "generated": "18 Jul 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.482,
-      "count": 14
+      "score": -0.402,
+      "count": 20
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.482,
-      "count": 14
+      "score": -0.402,
+      "count": 20
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.528,
-      "count": 10
+      "score": -0.421,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.474,
-      "count": 4
+      "score": -0.679,
+      "count": 5
     },
     {
       "pair": "CAD/JPY",
@@ -41,15 +41,9 @@
       "count": 2
     },
     {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.052,
-      "count": 1
-    },
-    {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.906,
+      "score": -0.521,
       "count": 1
     }
   ],
@@ -92,16 +86,6 @@
       "published": "17 Jul 2026 23:06 WIB",
       "sentiment": "Bearish",
       "score": -0.571,
-      "emoji": "🔴"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Mengapa Kimi K3 menambah kekhawatiran pasar",
-      "url": "https://investinglive.com/stock-market-update/why-kimi-k3-is-adding-to-the-market-worries/",
-      "summary": "A couple things are roiling markets at the moment: 1) The release of Kimi K3, a Chinese open source model from Moonshot 2) Rumors that a hedge fund or two are in trouble The two are partly connected. There is talk about Situational Awareness but it could be someone else as Jim Cramer writes: ﻿\"[By] ",
-      "published": "17 Jul 2026 20:53 WIB",
-      "sentiment": "Bearish",
-      "score": -0.492,
       "emoji": "🔴"
     },
     {
@@ -179,19 +163,59 @@
       "title": "Trump Media menawarkan biaya bulanan sebesar $100.000 untuk feed tercepat postingan presiden AS, kata sumber",
       "url": "https://www.investing.com/news/stock-market-news/trump-media-pitched-100000-monthly-fee-for-fast-feed-of-us-presidents-posts-ft-reports-4798840",
       "summary": "",
-      "published": "18 Jul 2026 04:43 WIB",
+      "published": "18 Jul 2026 20:06 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪"
     },
     {
-      "source": "BBC World",
-      "title": "AS membantah klaim Iran bahwa mereka menyerang infrastruktur sipil dalam serangan terbarunya",
-      "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-      "summary": "The US military says its attacks were intended to \"further degrade Iranian military capabilities\".",
-      "published": "18 Jul 2026 01:33 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Infrastruktur Energi Kuwait Terkena Serangan Iran yang Intens",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-18/kuwait-faces-intense-night-of-iranian-attacks-as-power-plant-hit",
+      "summary": "Kuwait suffered one of its worst nights of Iranian retaliatory attacks since the Middle East conflict began, with strikes on an oil facility and a second power plant hit in as many days.",
+      "published": "18 Jul 2026 15:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.958,
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Zelenskyy Mungkin Memecat Komandan Syrskyi Setelah Protes, Laporan FT",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-18/zelenskyy-may-fire-commander-syrskyi-after-protests-ft-reports",
+      "summary": "Ukraine President Volodymyr Zelenskyy is considering firing Armed Forces commander-in-chief Oleksandr Syrskyi, the Financial Times reported, following days of turmoil engulfing the country’s military leadership.",
+      "published": "18 Jul 2026 19:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.802,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pencetak Mata Uang RBI Mencari Tawaran untuk Bahan Uang Kertas Polimer",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-18/rbi-currency-printer-seeks-bids-for-polymer-banknote-material",
+      "summary": "India has invited bids from manufacturers to supply polymer substrate sheets with security features suitable for printing of Indian banknotes.",
+      "published": "18 Jul 2026 13:35 WIB",
+      "sentiment": "Bullish",
+      "score": 0.34,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Sheinbaum, Carney Akan Menyaksikan Final Piala Dunia Bersama Trump",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-18/sheinbaum-carney-to-watch-world-cup-final-with-trump",
+      "summary": "Mexican President Claudia Sheinbaum and Canadian Prime Minister Mark Carney will travel to the US to attend Sunday’s World Cup final on President Donald Trump’s invitation, creating the opportunity for a reset after a month filled with regional tensions.",
+      "published": "18 Jul 2026 09:28 WIB",
+      "sentiment": "Bullish",
+      "score": 0.238,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC World",
+      "title": "Gudang ritel online Rusia terkena serangan mematikan Ukraina",
+      "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
+      "published": "18 Jul 2026 20:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.521,
       "emoji": "🔴"
     },
     {
@@ -215,43 +239,43 @@
       "emoji": "🔴"
     },
     {
-      "source": "BBC World",
-      "title": "Trump menuduh Tiongkok ikut campur dalam pemilu tahun 2020 dan mempertanyakan keamanan pemilu menjelang pemilu paruh waktu",
-      "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
-      "summary": "China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections.",
-      "published": "17 Jul 2026 18:37 WIB",
+      "source": "Al Jazeera",
+      "title": "Konservatif terkemuka di Jerman mundur setelah ibu pengganti memicu reaksi buruk di dalam partai",
+      "url": "https://www.aljazeera.com/news/2026/7/18/top-german-conservative-quits-after-surrogacy-sparks-backlash-within-party?traffic_source=rss",
+      "summary": "Jens Spahn steps down after party criticism over surrogacy, highlighting tensions in Germany's conservative coalition.",
+      "published": "18 Jul 2026 20:54 WIB",
       "sentiment": "Bullish",
-      "score": 0.052,
+      "score": 0.073,
       "emoji": "🟢"
     },
     {
-      "source": "BBC Business",
-      "title": "Mengapa harga bahan bakar di Inggris naik lagi?",
-      "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "summary": "UK fuel prices are going up again after the collapse of peace talks to end the US-Israel war with Iran.",
-      "published": "17 Jul 2026 21:09 WIB",
+      "source": "Al Jazeera",
+      "title": "Iran menuduh AS menyerang infrastruktur penting ketika perang semakin intensif",
+      "url": "https://www.aljazeera.com/news/2026/7/18/iran-accuses-us-of-striking-critical-infrastructure-as-war-intensifies?traffic_source=rss",
+      "summary": "The conflict has been escalating since US President Donald Trump declared 10 days ago the peace deal with Iran is over.",
+      "published": "18 Jul 2026 19:59 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.831,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "UE mendesak Israel untuk menghentikan perluasan pemukiman karena pemukim menyerang anak-anak",
-      "url": "https://www.aljazeera.com/news/2026/7/17/eu-urges-israel-to-halt-settlement-expansion-as-settlers-attack-children?traffic_source=rss",
-      "summary": "Pressure is growing within the EU to sanction Israel for its illegal settlements and violence against Palestinians.",
-      "published": "18 Jul 2026 05:54 WIB",
+      "title": "Serangan pesawat tak berawak Ukraina terhadap Rusia menewaskan sedikitnya 8 orang dan melukai puluhan lainnya",
+      "url": "https://www.aljazeera.com/news/2026/7/18/ukrainian-drone-attacks-on-russia-kill-at-least-8-wound-dozens?traffic_source=rss",
+      "summary": "Russian officials say strikes on retailer's warehouses caused civilian casualties; Kyiv says sites used to make drones.",
+      "published": "18 Jul 2026 18:10 WIB",
       "sentiment": "Bearish",
-      "score": -0.906,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
-      "source": "Al Jazeera",
-      "title": "AS melancarkan serangan malam ketujuh berturut-turut terhadap Iran",
-      "url": "https://www.aljazeera.com/news/2026/7/17/us-launches-seventh-straight-night-of-strikes-on-iran?traffic_source=rss",
-      "summary": "The US military says it's degrading Iran's military but has been accused by Tehran of targeting civilian infrastructure.",
-      "published": "18 Jul 2026 05:11 WIB",
+      "source": "CNBC Forex",
+      "title": "Dua pengungkapan tak terduga dalam wawancara Warren Buffett di CNBC",
+      "url": "https://www.cnbc.com/2026/07/18/two-unexpected-revelations-in-warren-buffetts-cnbc-interview.html",
+      "summary": "Warren Buffett tells CNBC that Bill Gates' ties to Jeffrey Epstein didn't drive his termination of donations.",
+      "published": "18 Jul 2026 21:53 WIB",
       "sentiment": "Bearish",
-      "score": -0.67,
+      "score": -0.08,
       "emoji": "🔴"
     },
     {
@@ -262,6 +286,16 @@
       "published": "18 Jul 2026 01:20 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "'WarshGPT': Bagaimana Wall Street beradaptasi dengan era baru komunikasi The Fed",
+      "url": "https://www.cnbc.com/2026/07/18/warshgpt-federal-reserve-communications-task-force-warsh.html",
+      "summary": "Investment firms are readying for an era with less public commentary from the U.S. central bank. Some are relying on AI for an edge.",
+      "published": "18 Jul 2026 18:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
       "emoji": "🔴"
     }
   ]
