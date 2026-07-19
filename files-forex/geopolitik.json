@@ -1,149 +1,117 @@
 {
-  "generated": "19 Jul 2026 07:01 WIB",
+  "generated": "19 Jul 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.451,
-      "count": 9
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.396,
+      "score": -0.253,
+      "count": 8
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.253,
       "count": 8
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.402,
-      "count": 6
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.803,
-      "count": 3
-    },
-    {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.521,
-      "count": 1
+      "score": -0.146,
+      "count": 7
     }
   ],
   "items": [
     {
       "source": "Investing.com Forex",
-      "title": "Samsung Electronics America akan mengurangi tenaga kerja sebanyak 739 orang di New Jersey, kata pemberitahuan WARN",
+      "title": "Eksklusif-Samsung memangkas lapangan kerja di AS, menawarkan relokasi menjelang pemindahan kantor pusat",
       "url": "https://www.investing.com/news/stock-market-news/samsung-electronics-america-to-reduce-workforce-by-739-in-new-jersey-us-warn-notice-says-4799679",
       "summary": "",
-      "published": "19 Jul 2026 05:42 WIB",
+      "published": "19 Jul 2026 17:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Serangan AS-Iran Meningkat saat Serangan Membunuh Dua Tentara Amerika",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/us-iran-trade-more-attacks-after-two-troops-killed-in-jordan",
+      "summary": "The US and Iran engaged in a quickening series of tit-for-tat attacks, causing fresh chaos in the Middle East over the weekend after strikes by the Islamic Republic killed two American service members in Jordan.",
+      "published": "19 Jul 2026 13:58 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "AS dan Iran saling tembak setelah dua tentara AS tewas di Yordania",
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "summary": "Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.",
+      "published": "19 Jul 2026 20:10 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Sistem perbatasan UE yang baru meningkatkan waktu pemeriksaan paspor menjadi tiga kali lipat, kata bos bandara",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.",
+      "published": "19 Jul 2026 08:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.353,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Catat jumlah penghargaan yang diberikan kepada pahlawan kelas pekerja",
+      "url": "https://www.bbc.co.uk/news/articles/cpd3dd3vv65o?at_medium=RSS&at_campaign=rss",
+      "summary": "Record numbers of people from poorer backgrounds are now receiving awards.",
+      "published": "19 Jul 2026 08:56 WIB",
+      "sentiment": "Bullish",
+      "score": 0.711,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Bisakah gaya kasual Burnham bertahan dari kontak dengan No 10?",
+      "url": "https://www.bbc.co.uk/news/articles/cvgq2qr9gxdo?at_medium=RSS&at_campaign=rss",
+      "summary": "When Burnham becomes PM, he'll find it harder to wear the wardrobe that's central to his political brand.",
+      "published": "19 Jul 2026 07:08 WIB",
       "sentiment": "Bearish",
       "score": -0.183,
       "emoji": "🔴"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Infrastruktur Energi Kuwait Terkena Serangan Iran yang Intens",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-18/kuwait-faces-intense-night-of-iranian-attacks-as-power-plant-hit",
-      "summary": "Kuwait suffered one of its worst nights of Iranian retaliatory attacks since the Middle East conflict began, with strikes on an oil facility and a second power plant hit in as many days.",
-      "published": "18 Jul 2026 15:01 WIB",
+      "source": "BBC Top Stories",
+      "title": "Masyarakat Rusia beralih ke uang tunai, sehingga memberikan tekanan lebih besar pada perlambatan ekonomi di masa perang",
+      "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
+      "summary": "Russians have been hit by mobile internet shutdowns and more businesses are seeking to dodge tax after more than four years of war with Ukraine.",
+      "published": "19 Jul 2026 06:59 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Zelenskyy Mungkin Memecat Komandan Syrskyi Setelah Protes, Laporan FT",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-18/zelenskyy-may-fire-commander-syrskyi-after-protests-ft-reports",
-      "summary": "Ukraine President Volodymyr Zelenskyy is considering firing Armed Forces commander-in-chief Oleksandr Syrskyi, the Financial Times reported, following days of turmoil engulfing the country’s military leadership.",
-      "published": "18 Jul 2026 19:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.802,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Sheinbaum, Carney Akan Menyaksikan Final Piala Dunia Bersama Trump",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-18/sheinbaum-carney-to-watch-world-cup-final-with-trump",
-      "summary": "Mexican President Claudia Sheinbaum and Canadian Prime Minister Mark Carney will travel to the US to attend Sunday’s World Cup final on President Donald Trump’s invitation, creating the opportunity for a reset after a month filled with regional tensions.",
-      "published": "18 Jul 2026 09:28 WIB",
-      "sentiment": "Bullish",
-      "score": 0.238,
-      "emoji": "🟢"
-    },
-    {
-      "source": "BBC World",
-      "title": "Dua tentara AS tewas dan satu hilang setelah serangan Iran di Yordania",
-      "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran and the US have traded strikes as hostilities re-escalated this week, with Tehran targeting US military facilities across the Gulf region.",
-      "published": "19 Jul 2026 04:12 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC World",
-      "title": "Gudang ritel online Rusia terkena serangan mematikan Ukraina",
-      "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
-      "published": "18 Jul 2026 20:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.521,
+      "score": -0.739,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mengapa ‘gencatan senjata’ di Gaza gagal menghentikan serangan Israel?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/7/18/why-has-the-ceasefire-in-gaza-failed-to-stop-israels-attacks?traffic_source=rss",
-      "summary": "Palestinians who have endured Israel's genocidal war are still being targeted.",
-      "published": "19 Jul 2026 02:55 WIB",
+      "title": "Pembangkit listrik Kuwait terbakar saat Iran menyerang sekutu AS di Teluk",
+      "url": "https://www.aljazeera.com/news/2026/7/19/kuwaiti-power-plant-ablaze-as-iran-hits-us-gulf-allies?traffic_source=rss",
+      "summary": "Kuwait and Bahrain report several rounds of Iranian missile, drone attacks; sirens reportedly sound in Jordan.",
+      "published": "19 Jul 2026 21:27 WIB",
       "sentiment": "Bearish",
-      "score": -0.986,
+      "score": -0.6,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Ribuan orang berunjuk rasa di London untuk mendukung Gaza, menuntut PM baru mengambil tindakan",
-      "url": "https://www.aljazeera.com/news/2026/7/18/thousands-rally-in-london-in-support-of-gaza-demand-new-pm-take-action?traffic_source=rss",
-      "summary": "Demonstrators call on Andy Burnham to impose arms embargo on Israel and pressure its government to end genocide.",
-      "published": "19 Jul 2026 02:30 WIB",
+      "title": "Rakyat Iran menderita pemadaman listrik selama perang dan gelombang panas",
+      "url": "https://www.aljazeera.com/news/2026/7/19/iranians-suffer-from-power-blackouts-during-war-and-heatwave?traffic_source=rss",
+      "summary": "Collapsing grid, battered by military strikes and chronic underinvestment, leaves Iranians sweltering in the dark.",
+      "published": "19 Jul 2026 18:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.216,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Serangan Israel terhadap daerah pemukiman di Gaza menewaskan delapan orang",
-      "url": "https://www.aljazeera.com/news/2026/7/18/israeli-attacks-on-residential-areas-in-gaza-kill-eight?traffic_source=rss",
-      "summary": "Attacks hit neighbourhoods in Gaza City far beyond the line Israeli forces are meant to hold under the ceasefire.",
-      "published": "19 Jul 2026 01:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.888,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kerusakan terlihat di jembatan Iran dan pabrik air setelah serangan AS",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/damage-visible-at-iran-bridges-and-water-plant-after-us-attacks?traffic_source=rss",
-      "summary": "US strikes damaged bridges and a water desalination plant in Iran after a seventh straight night of attacks.",
-      "published": "19 Jul 2026 01:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.99,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Militer AS mengatakan dua anggota militer tewas dalam serangan Iran di Yordania",
-      "url": "https://www.aljazeera.com/news/2026/7/18/us-military-says-two-service-members-killed-in-iranian-strike-in-jordan?traffic_source=rss",
-      "summary": "US and Iran have stepped up attacks in the last week, prompting alarm about return to full-scale war across the region.",
-      "published": "19 Jul 2026 01:04 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.982,
       "emoji": "🔴"
     },
     {
@@ -157,33 +125,13 @@
       "emoji": "🔴"
     },
     {
-      "source": "MarketWatch",
-      "title": "Saya berusia 67 tahun, memiliki dua rumah senilai $2,8 juta, tetapi saya memiliki hutang kartu kredit sebesar $19,000. Haruskah saya mendapatkan HELOC?",
-      "url": "https://www.marketwatch.com/story/im-67-own-two-mortgage-free-homes-worth-2-8-million-but-i-have-19-000-in-credit-card-debt-should-i-get-a-heloc-7b6c5192?mod=mw_rss_topstories",
-      "summary": "“My son was recently diagnosed with lymphoma, which may be related to burn-pit exposure during his military service in Afghanistan.”",
-      "published": "19 Jul 2026 01:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.421,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC Forex",
-      "title": "Dua pengungkapan tak terduga dalam wawancara Warren Buffett di CNBC",
-      "url": "https://www.cnbc.com/2026/07/18/two-unexpected-revelations-in-warren-buffetts-cnbc-interview.html",
-      "summary": "Warren Buffett tells CNBC that Bill Gates' ties to Jeffrey Epstein didn't drive his termination of donations.",
-      "published": "18 Jul 2026 21:53 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
       "source": "CNBC World",
-      "title": "Kapal tanker minyak menghadapi 'skenario terburuk' di Hormuz ketika Iran meningkatkan serangan terhadap kapal, kata CEO risiko maritim",
-      "url": "https://www.cnbc.com/2026/07/17/iran-war-oil-tanker-strait-hormuz-traffic-attacks-trump.html",
-      "summary": "One seafarer was killed and three were injured in attack on the crude oil tanker Al Bahyah off Oman's coast on Tuesday.",
-      "published": "19 Jul 2026 04:16 WIB",
+      "title": "AS mengatakan pihaknya menargetkan pasukan Iran setelah serangan yang menewaskan dua anggota militer Amerika",
+      "url": "https://www.cnbc.com/2026/07/19/us-says-it-targeted-iran-forces-after-deaths-of-two-american-troops.html",
+      "summary": "Centcom says it hit Iran's coastal surveillance and air defense facilities a day after two U.S. troops were killed in an Iranian strike on Jordan.",
+      "published": "19 Jul 2026 21:52 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.997,
       "emoji": "🔴"
     },
     {
@@ -194,6 +142,26 @@
       "published": "19 Jul 2026 01:16 WIB",
       "sentiment": "Bearish",
       "score": -0.08,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Risiko keamanan siber yang ditimbulkan oleh teknologi over-the-air di bidang otomotif membuat para analis khawatir",
+      "url": "https://www.cnbc.com/2026/07/18/over-the-air-tech-in-vehicles-poses-cybersecurity-risks.html",
+      "summary": "The automotive industry's increasing use of over-the-air technology makes it more susceptible to cyberattacks, analysts say.",
+      "published": "19 Jul 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.513,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Kapal tanker minyak menghadapi 'skenario terburuk' di Hormuz ketika Iran meningkatkan serangan terhadap kapal, kata CEO risiko maritim",
+      "url": "https://www.cnbc.com/2026/07/17/iran-war-oil-tanker-strait-hormuz-traffic-attacks-trump.html",
+      "summary": "One seafarer was killed and three were injured in attack on the crude oil tanker Al Bahyah off Oman's coast on Tuesday.",
+      "published": "19 Jul 2026 04:16 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
       "emoji": "🔴"
     }
   ]
