@@ -1,5 +1,5 @@
 {
-  "generated": "19 Jul 2026 22:01 WIB",
+  "generated": "20 Jul 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,49 +7,217 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.253,
-      "count": 8
+      "score": -0.408,
+      "count": 13
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.253,
-      "count": 8
+      "score": -0.408,
+      "count": 13
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.146,
-      "count": 7
+      "score": -0.438,
+      "count": 10
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.585,
+      "count": 5
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.063,
+      "count": 2
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.063,
+      "count": 2
     }
   ],
   "items": [
     {
-      "source": "Investing.com Forex",
-      "title": "Eksklusif-Samsung memangkas lapangan kerja di AS, menawarkan relokasi menjelang pemindahan kantor pusat",
-      "url": "https://www.investing.com/news/stock-market-news/samsung-electronics-america-to-reduce-workforce-by-739-in-new-jersey-us-warn-notice-says-4799679",
-      "summary": "",
-      "published": "19 Jul 2026 17:48 WIB",
+      "source": "ForexLive",
+      "title": "UKMTO telah mendapat informasi dari sumber terverifikasi bahwa ada kapal yang terbakar, Selat Hormuz",
+      "url": "https://investinglive.com/commodities/ukmto-have-received-information-from-a-verified-source-that-a-vessel-is-on-fire-strait-of-hormuz/",
+      "summary": "Oil will remain underpinned by US-Iran war escalation. This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "20 Jul 2026 06:57 WIB",
       "sentiment": "Bearish",
-      "score": -0.296,
+      "score": -0.903,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "AS melancarkan serangan malam kesembilan terhadap Iran saat rudal terbang dari Kuwait",
+      "url": "https://investinglive.com/commodities/us-launches-ninth-night-of-iran-strikes-as-missiles-fly-from-kuwait/",
+      "summary": "The sharp drop in Strait of Hormuz transits, to just four vessels on Sunday from eight the day before, is a tangible sign that the conflict is already disrupting flows through a chokepoint that normally handles about a fifth of global oil trade. With no visible LNG tankers passing since Thursday and",
+      "published": "20 Jul 2026 06:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.956,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "NZD meskipun terjadi surplus perdagangan di bulan Juni karena penguatan dolar AS",
+      "url": "https://investinglive.com/forex/nzd-slips-despite-june-trade-surplus-as-us-dollar-strength-bites/",
+      "summary": "The trade data itself is broadly neutral for the New Zealand dollar, with a modest monthly surplus doing little to offset the currency's softer tone this morning. The larger driver is external: broad US dollar strength tied to the escalating US Iran conflict is weighing on the kiwi alongside other m",
+      "published": "20 Jul 2026 05:58 WIB",
+      "sentiment": "Bullish",
+      "score": 0.431,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran menembakkan gelombang rudal baru ke Teluk karena minyak dan dolar melonjak - eskalasi memicu kenaikan",
+      "url": "https://investinglive.com/forex/iran-fires-new-missile-wave-at-gulf-as-oil-and-dollar-both-jump-escalation-fueling-gains/",
+      "summary": "Monday's early rally in both oil and the US dollar reflects a classic risk-off reaction to a conflict that is now spreading across multiple Gulf states rather than staying contained to Iraq and Jordan. Crude, already up around 2% on the wider war speculation from an unnamed US official, is drawing f",
+      "published": "20 Jul 2026 05:38 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Para pedagang memperhitungkan eskalasi, Minyak melonjak 2 persen karena pejabat AS memperingatkan perang yang lebih luas dengan Iran",
+      "url": "https://investinglive.com/commodities/traders-price-in-escalation-oil-jumps-2pct-as-us-official-warns-of-wider-war-with-iran/",
+      "summary": "Oil futures opened the new trading week up roughly 2%, with the move tracking closely to weekend developments in the US-Iran conflict rather than any shift in physical supply or demand. The catalyst is an unnamed US official's acknowledgment that Washington is planning for a wider war, paired with r",
+      "published": "20 Jul 2026 05:12 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Harga minyak melonjak 2%, ekuitas berjangka sedikit berubah",
+      "url": "https://investinglive.com/commodities/oil-prices-have-jumped-2-equity-futures-little-changed/",
+      "summary": "More to come ... here: Trade﻿﻿rs price in escalation, Oil jumps 2pct as US official warns of wider war with Iran This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "20 Jul 2026 06:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.809,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Pejabat AS memperingatkan Trump berencana melancarkan perang yang lebih luas dengan Iran seiring dengan percepatan pembangunan militer",
+      "url": "https://investinglive.com/commodities/us-official-warns-trump-is-planning-for-a-wider-war-with-iran-as-military-build-up-accelerates/",
+      "summary": "Reports that the Pentagon is increasing the number of military aircraft in the region signal Washington is positioning for a longer and potentially wider campaign, reinforcing the geopolitical risk premium already embedded in oil and shipping markets. That build-up, paired with warnings that air def",
+      "published": "20 Jul 2026 04:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.839,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Korea Selatan untuk memudahkan akses memenangkan, bertujuan untuk mata uang yang dapat dikonversi secara bebas",
+      "url": "https://investinglive.com/forex/south-korea-to-ease-won-access-aims-for-freely-convertible-currency/",
+      "summary": "A more freely convertible won would deepen offshore liquidity and give foreign investors and corporates cheaper, easier access to Korean assets and hedging tools, a modest positive for capital inflows over time. The shift toward TWAP based benchmark rates and round the clock electronic trading shoul",
+      "published": "20 Jul 2026 03:44 WIB",
+      "sentiment": "Bullish",
+      "score": 0.809,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Jumlah korban tewas meningkat ketika perang dagang AS dan Iran memanas dalam perang Timur Tengah yang semakin meluas",
+      "url": "https://investinglive.com/commodities/death-toll-climbs-as-us-and-iran-trade-blows-in-widening-middle-east-war/",
+      "summary": "Another American fatality so soon after the Jordan base attack raises the odds that Washington extends rather than winds down its campaign against Iranian targets, keeping a geopolitical risk premium embedded in crude pricing. Traders will watch for any sign the retaliatory strikes move closer to Ir",
+      "published": "20 Jul 2026 03:10 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "AS melancarkan serangan udara untuk ‘segera menghukum’ Iran atas kematian tentara AS",
+      "url": "https://www.fxstreet.com/news/us-launches-airstrikes-to-swiftly-punish-iran-for-deaths-of-us-troops-202607192234",
+      "summary": "The United States (US) said airstrikes on Sunday aimed to \"punish\" Iran over the first US military deaths since renewed hostilities with the Islamic republic, Bloomberg reported.",
+      "published": "20 Jul 2026 05:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.572,
       "emoji": "🔴"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Serangan AS-Iran Meningkat saat Serangan Membunuh Dua Tentara Amerika",
+      "title": "Emas Jatuh karena Permusuhan AS-Iran Mempertahankan Taruhan Kenaikan Suku Bunga",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/gold-falls-as-us-iran-hostilities-keep-rate-hike-bets-on-table",
+      "summary": "Gold declined after the US and Iran ramped up attacks over the weekend, stoking bets the Federal Reserve may need to raise interest rates to contain inflation.",
+      "published": "20 Jul 2026 06:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.619,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "AS Meluncurkan Gelombang Kesembilan Serangan Iran saat Konflik Meningkat",
       "url": "https://www.bloomberg.com/news/articles/2026-07-19/us-iran-trade-more-attacks-after-two-troops-killed-in-jordan",
-      "summary": "The US and Iran engaged in a quickening series of tit-for-tat attacks, causing fresh chaos in the Middle East over the weekend after strikes by the Islamic Republic killed two American service members in Jordan.",
+      "summary": "The US and Iran engaged in a quickening series of tit-for-tat attacks, with the US military carrying out its ninth consecutive night of strikes.",
       "published": "19 Jul 2026 13:58 WIB",
+      "sentiment": "Bearish",
+      "score": -0.918,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Minyak Naik Karena Ketegangan di Timur Tengah, Dolar Menguat: Pasar Membungkus",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/oil-climbs-as-middle-east-conflict-escalates-markets-wrap",
+      "summary": "Oil climbed to the highest level in over a month and the dollar strengthened after US and Iranian attacks escalated over the weekend, adding to pressure on Asian markets already rattled by a slump in chip stocks.",
+      "published": "20 Jul 2026 05:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.462,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 20 Juli",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/latest-oil-market-news-and-analysis-for-july-20",
+      "summary": "Brent crude jumped after the US and Iran escalated hostilities over the weekend, including the targeting of vessels attempting to transit the Strait of Hormuz and an attack on a key oil facility in Kuwait.",
+      "published": "20 Jul 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.952,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pedagang Obligasi Menanggapi Perkataan, Lihat Pertarungan Inflasi Berlanjut",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/bond-traders-take-warsh-at-word-see-inflation-fight-continuing",
+      "summary": "Bond traders and Federal Reserve Chairman Kevin Warsh are in agreement on a crucial point: The central bank’s fight against inflation still seems far from over.",
+      "published": "20 Jul 2026 00:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.17,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Konsorsium Saluran Pipa Kaspia Menghentikan Pemuatan pada Serangan Drone",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/caspian-pipeline-consortium-halts-loadings-after-drone-strike",
+      "summary": "Oil loading at the Caspian Pipeline Consortium’s terminal on Russia’s Black Sea coast was suspended after a drone strike, prompting the Kazakh government to call for an immediate end to such attacks.",
+      "published": "19 Jul 2026 15:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.871,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Tentara AS tewas dan satu terluka setelah serangan Iran di Irak",
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "summary": "The US military reports another death a day after two of its soldiers were killed in Jordan.",
+      "published": "20 Jul 2026 02:45 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "BBC World",
-      "title": "AS dan Iran saling tembak setelah dua tentara AS tewas di Yordania",
-      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-      "summary": "Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.",
-      "published": "19 Jul 2026 20:10 WIB",
+      "title": "Rusia melancarkan serangan rudal balistik besar-besaran ke kota-kota Ukraina",
+      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Eight people die and dozens are injured as several cities are hit by missile and drone attacks, while Kyiv continues its own assault on Russian infrastructure.",
+      "published": "20 Jul 2026 01:25 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴"
@@ -66,102 +234,52 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Catat jumlah penghargaan yang diberikan kepada pahlawan kelas pekerja",
-      "url": "https://www.bbc.co.uk/news/articles/cpd3dd3vv65o?at_medium=RSS&at_campaign=rss",
-      "summary": "Record numbers of people from poorer backgrounds are now receiving awards.",
-      "published": "19 Jul 2026 08:56 WIB",
+      "title": "Mbappe pertama yang memenangkan Sepatu Emas dua kali saat Rodri dinobatkan sebagai pemain terbaik",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cre4z58pzj9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Kylian Mbappe has become the first player to win the World Cup Golden Boot twice after earning the award for top scorer at the 2026 tournament, while Spain's Rodri lands the Golden Ball as the best player.",
+      "published": "20 Jul 2026 06:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.711,
+      "score": 0.889,
       "emoji": "🟢"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Bisakah gaya kasual Burnham bertahan dari kontak dengan No 10?",
-      "url": "https://www.bbc.co.uk/news/articles/cvgq2qr9gxdo?at_medium=RSS&at_campaign=rss",
-      "summary": "When Burnham becomes PM, he'll find it harder to wear the wardrobe that's central to his political brand.",
-      "published": "19 Jul 2026 07:08 WIB",
+      "source": "Al Jazeera",
+      "title": "Tentara AS tewas di Irak selama 'ledakan terkendali' pesawat tak berawak Iran",
+      "url": "https://www.aljazeera.com/news/2026/7/19/us-soldier-killed-in-iraq-during-controlled-detonation-of-iranian-drone?traffic_source=rss",
+      "summary": "The death brings the number of US soldiers killed since the start of the US-Israel war on Iran to 17.",
+      "published": "20 Jul 2026 06:49 WIB",
       "sentiment": "Bearish",
-      "score": -0.183,
-      "emoji": "🔴"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Masyarakat Rusia beralih ke uang tunai, sehingga memberikan tekanan lebih besar pada perlambatan ekonomi di masa perang",
-      "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Russians have been hit by mobile internet shutdowns and more businesses are seeking to dodge tax after more than four years of war with Ukraine.",
-      "published": "19 Jul 2026 06:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.739,
+      "score": -1.0,
       "emoji": "🔴"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pembangkit listrik Kuwait terbakar saat Iran menyerang sekutu AS di Teluk",
-      "url": "https://www.aljazeera.com/news/2026/7/19/kuwaiti-power-plant-ablaze-as-iran-hits-us-gulf-allies?traffic_source=rss",
-      "summary": "Kuwait and Bahrain report several rounds of Iranian missile, drone attacks; sirens reportedly sound in Jordan.",
-      "published": "19 Jul 2026 21:27 WIB",
+      "title": "Inggris mendapatkan perdana menteri ketujuh dalam 10 tahun",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/19/the-uk-gets-its-seventh-prime-minister-in-10-years?traffic_source=rss",
+      "summary": "Incoming PM Andy Burnham will immediately face foreign policy challenges, including the conflicts in Ukraine and Iran.",
+      "published": "20 Jul 2026 03:05 WIB",
       "sentiment": "Bearish",
-      "score": -0.6,
-      "emoji": "🔴"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Rakyat Iran menderita pemadaman listrik selama perang dan gelombang panas",
-      "url": "https://www.aljazeera.com/news/2026/7/19/iranians-suffer-from-power-blackouts-during-war-and-heatwave?traffic_source=rss",
-      "summary": "Collapsing grid, battered by military strikes and chronic underinvestment, leaves Iranians sweltering in the dark.",
-      "published": "19 Jul 2026 18:16 WIB",
-      "sentiment": "Bearish",
-      "score": -0.982,
+      "score": -0.398,
       "emoji": "🔴"
     },
     {
       "source": "MarketWatch",
-      "title": "‘Rasa hormat itu penting’: Jika penasihat keuangan saya berkata, ‘Hei,’ saya dan istri saya akan keluar. Di mana Anda menarik garisnya?",
-      "url": "https://www.marketwatch.com/story/respect-is-important-if-my-financial-adviser-said-hey-my-wife-and-i-would-walk-out-where-do-you-draw-the-line-5fbf5879?mod=mw_rss_topstories",
-      "summary": "“I met with a financial representative who was not aware that AT&T was the shortened form of American Telephone and Telegraph.”",
-      "published": "19 Jul 2026 02:16 WIB",
+      "title": "Harga minyak melonjak, saham berjangka datar karena meningkatnya pertempuran antara AS dan Iran",
+      "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
+      "summary": "Oil prices rose while U.S stock-index futures were little changed on Sunday, amid an escalation of fighting in the Middle East and as investors await key tech earnings this week.",
+      "published": "20 Jul 2026 06:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.557,
       "emoji": "🔴"
     },
     {
       "source": "CNBC World",
-      "title": "AS mengatakan pihaknya menargetkan pasukan Iran setelah serangan yang menewaskan dua anggota militer Amerika",
+      "title": "Jumlah korban tewas di AS meningkat lagi seiring meningkatnya perang Iran pada akhir pekan",
       "url": "https://www.cnbc.com/2026/07/19/us-says-it-targeted-iran-forces-after-deaths-of-two-american-troops.html",
       "summary": "Centcom says it hit Iran's coastal surveillance and air defense facilities a day after two U.S. troops were killed in an Iranian strike on Jordan.",
-      "published": "19 Jul 2026 21:52 WIB",
+      "published": "20 Jul 2026 06:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.997,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "'WarshGPT': Bagaimana Wall Street beradaptasi dengan era baru komunikasi The Fed",
-      "url": "https://www.cnbc.com/2026/07/18/warshgpt-federal-reserve-communications-task-force-warsh.html",
-      "summary": "Investment firms are readying for an era with less public commentary from the U.S. central bank. Some are relying on AI for an edge.",
-      "published": "19 Jul 2026 01:16 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Risiko keamanan siber yang ditimbulkan oleh teknologi over-the-air di bidang otomotif membuat para analis khawatir",
-      "url": "https://www.cnbc.com/2026/07/18/over-the-air-tech-in-vehicles-poses-cybersecurity-risks.html",
-      "summary": "The automotive industry's increasing use of over-the-air technology makes it more susceptible to cyberattacks, analysts say.",
-      "published": "19 Jul 2026 06:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.513,
-      "emoji": "🔴"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Kapal tanker minyak menghadapi 'skenario terburuk' di Hormuz ketika Iran meningkatkan serangan terhadap kapal, kata CEO risiko maritim",
-      "url": "https://www.cnbc.com/2026/07/17/iran-war-oil-tanker-strait-hormuz-traffic-attacks-trump.html",
-      "summary": "One seafarer was killed and three were injured in attack on the crude oil tanker Al Bahyah off Oman's coast on Tuesday.",
-      "published": "19 Jul 2026 04:16 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.923,
       "emoji": "🔴"
     }
   ]
