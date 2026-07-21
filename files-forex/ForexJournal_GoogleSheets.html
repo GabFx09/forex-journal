@@ -49,17 +49,17 @@
   /* Cyan accent (terminal/pro feel) */
   --cyan:#06b6d4;--cyan-d:rgba(6,182,212,.1);
 
-  /* Gradients */
-  --g-gold:linear-gradient(135deg,#F0B429 0%,#f97316 100%);
+  /* Gradients (used sparingly — primary CTA / brand mark only) */
+  --g-gold:linear-gradient(135deg,#F0B429 0%,#d99a1f 100%);
   --g-grn:linear-gradient(135deg,#22c55e,#10b981);
   --g-blu:linear-gradient(135deg,#60a5fa,#818cf8);
   --g-cyan:linear-gradient(135deg,#06b6d4,#3b82f6);
-  --g-card:linear-gradient(145deg,#101f35,#0e1c30);
+  --g-card:var(--card);
 
-  /* Shadows */
-  --sh-sm:0 2px 10px rgba(0,0,0,.45);
-  --sh-md:0 6px 24px rgba(0,0,0,.55);
-  --sh-gold:0 4px 22px rgba(240,180,41,.22);
+  /* Shadows — flat & restrained, no colored bloom */
+  --sh-sm:0 1px 3px rgba(0,0,0,.35);
+  --sh-md:0 4px 14px rgba(0,0,0,.4);
+  --sh-gold:0 2px 8px rgba(0,0,0,.35);
 
   --mono:'JetBrains Mono','Courier New',monospace;
   --sans:'Inter',Arial,sans-serif;
@@ -70,27 +70,15 @@ html,body{
   background:var(--bg);
   color:var(--txt);font-family:var(--sans);
 }
-body::before{
-  content:'';position:fixed;inset:0;
-  background-image:
-    radial-gradient(ellipse 80% 50% at 20% 0%,rgba(240,180,41,.04) 0%,transparent 60%),
-    radial-gradient(ellipse 60% 40% at 80% 100%,rgba(96,165,250,.03) 0%,transparent 60%);
-  pointer-events:none;z-index:0;
-}
 #app{display:flex;flex-direction:column;height:100vh;position:relative;z-index:1}
 
 /* ── TOPBAR ─────────────────────────────────── */
 #tb{
-  background:linear-gradient(135deg,#0c1828 0%,#101f35 60%,#091420 100%);
-  border-bottom:1px solid rgba(240,180,41,.14);
+  background:var(--surf);
+  border-bottom:1px solid rgba(240,180,41,.16);
   padding:0 20px;height:54px;
   display:flex;align-items:center;justify-content:space-between;flex-shrink:0;
-  box-shadow:0 2px 24px rgba(0,0,0,.55);
   position:relative;z-index:10;
-}
-#tb::after{
-  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent 0%,rgba(240,180,41,.35) 40%,rgba(240,180,41,.35) 60%,transparent 100%);
 }
 .li{display:flex;align-items:center;gap:12px}
 .lic{
@@ -171,24 +159,18 @@ body::before{
   backdrop-filter:blur(6px);
 }
 .mb{
-  background:linear-gradient(145deg,#101f35,#0c1828);
+  background:var(--card);
   border:1px solid rgba(240,180,41,.15);
-  border-radius:18px;
+  border-radius:14px;
   max-width:500px;width:100%;max-height:90vh;overflow-y:auto;
-  box-shadow:0 20px 60px rgba(0,0,0,.8),0 0 40px rgba(240,180,41,.06);
+  box-shadow:0 12px 34px rgba(0,0,0,.55);
 }
 .mh{
-  background:linear-gradient(145deg,#091420,#0d1a2c);
-  border-radius:18px 18px 0 0;
+  background:var(--surf);
+  border-radius:14px 14px 0 0;
   padding:30px 28px 24px;
   border-bottom:1px solid rgba(240,180,41,.1);
-  text-align:center;position:relative;overflow:hidden;
-}
-.mh::before{
-  content:'';position:absolute;top:-50px;left:50%;transform:translateX(-50%);
-  width:240px;height:240px;
-  background:radial-gradient(circle,rgba(240,180,41,.08) 0%,transparent 70%);
-  pointer-events:none;
+  text-align:center;position:relative;
 }
 .mc{padding:20px 24px}
 .sc{
@@ -204,7 +186,6 @@ body::before{
   background:var(--g-gold);
   color:#060e1a;font-size:11px;font-weight:700;
   display:flex;align-items:center;justify-content:center;flex-shrink:0;
-  box-shadow:0 2px 10px rgba(240,180,41,.35);
 }
 .st{font-size:12px;font-weight:600;color:var(--txt2)}
 .sd{font-size:11px;color:var(--sub);line-height:1.75;padding-left:36px}
@@ -227,17 +208,13 @@ body::before{
 
 /* ── CARDS ──────────────────────────────────── */
 .card{
-  background:var(--g-card);
+  background:var(--card);
   border:1px solid var(--bdr);
-  border-radius:14px;padding:16px;margin-bottom:14px;
-  position:relative;overflow:hidden;
-  transition:border-color .22s,box-shadow .22s;
+  border-radius:12px;padding:16px;margin-bottom:14px;
+  position:relative;
+  transition:border-color .18s;
 }
-.card::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent,rgba(255,255,255,.05),transparent);
-}
-.card:hover{border-color:rgba(240,180,41,.14);box-shadow:0 4px 20px rgba(0,0,0,.3)}
+.card:hover{border-color:rgba(240,180,41,.18)}
 
 /* ── SECTION TITLE ──────────────────────────── */
 .ct{
@@ -255,20 +232,13 @@ body::before{
 
 /* ── METRIC CARDS ───────────────────────────── */
 .met{
-  background:linear-gradient(145deg,#101f35,#0d1a2c);
+  background:var(--card);
   border:1px solid var(--bdr);
-  border-radius:14px;padding:16px;
-  position:relative;overflow:hidden;
-  transition:all .22s;
+  border-radius:12px;padding:16px;
+  position:relative;
+  transition:border-color .18s;
 }
-.met::after{
-  content:'';position:absolute;
-  top:-16px;right:-16px;
-  width:70px;height:70px;
-  background:radial-gradient(circle,rgba(240,180,41,.07) 0%,transparent 70%);
-  pointer-events:none;
-}
-.met:hover{border-color:rgba(240,180,41,.22);transform:translateY(-2px);box-shadow:var(--sh-md)}
+.met:hover{border-color:rgba(240,180,41,.22)}
 .ml{font-size:9.5px;color:var(--sub);margin-bottom:8px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
 .mv{font-size:22px;font-weight:700;font-family:var(--mono);letter-spacing:-.02em}
 .up{color:var(--grn)}.dn{color:var(--red)}.go{color:var(--gold)}.nt{color:var(--txt2)}
@@ -311,10 +281,9 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 }
 .bg{
   background:var(--g-gold);color:#060e1a;
-  box-shadow:0 2px 14px rgba(240,180,41,.3);
 }
-.bg:hover{transform:translateY(-1px);box-shadow:0 5px 22px rgba(240,180,41,.42)}
-.bg:active{transform:translateY(0);box-shadow:0 2px 10px rgba(240,180,41,.25)}
+.bg:hover{filter:brightness(1.06)}
+.bg:active{filter:brightness(.96)}
 .bh{
   background:rgba(255,255,255,.05);color:var(--sub);
   border:1px solid rgba(255,255,255,.08);
@@ -374,9 +343,9 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 
 /* ── PROGRESS BARS ──────────────────────────── */
 .pb{background:rgba(255,255,255,.06);border-radius:6px;height:5px;overflow:hidden;margin-top:6px}
-.pf{height:100%;border-radius:6px;background:var(--g-gold);box-shadow:0 0 8px rgba(240,180,41,.35)}
-.pfg{background:var(--g-grn);box-shadow:0 0 8px rgba(34,197,94,.25)}
-.pfr{background:linear-gradient(90deg,#ef4444,#dc2626);box-shadow:0 0 8px rgba(239,68,68,.25)}
+.pf{height:100%;border-radius:6px;background:var(--gold)}
+.pfg{background:var(--grn)}
+.pfr{background:var(--red)}
 
 /* ── ALERT BOXES ────────────────────────────── */
 .al{border-radius:10px;padding:12px 15px;margin-bottom:10px;font-size:12px;line-height:1.55;border:1px solid transparent}
@@ -415,8 +384,6 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 .mb2:hover,.mb2.sel{
   border-color:rgba(240,180,41,.4);
   background:rgba(240,180,41,.08);
-  transform:translateY(-2px);
-  box-shadow:0 5px 14px rgba(240,180,41,.15);
 }
 .ml2{font-size:9px;color:var(--mut);margin-top:3px}
 
@@ -428,7 +395,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 
 /* ── RISK RESULT BOX ────────────────────────── */
 .rr2{
-  background:linear-gradient(135deg,rgba(240,180,41,.07),rgba(240,180,41,.03));
+  background:rgba(240,180,41,.05);
   border:1px solid rgba(240,180,41,.18);
   border-radius:10px;padding:14px;margin-top:14px;
 }
@@ -452,7 +419,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
   display:flex;align-items:center;justify-content:center;
   transition:.15s;
 }
-.cb.ck2{background:var(--grn);border-color:var(--grn);box-shadow:0 0 8px rgba(34,197,94,.3)}
+.cb.ck2{background:var(--grn);border-color:var(--grn)}
 .ct2{font-size:12px;color:var(--sub);line-height:1.5}
 .ct2.dk{text-decoration:line-through;opacity:.33}
 .cw{position:relative;width:100%}
@@ -461,12 +428,12 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 #toast{
   position:fixed;bottom:24px;left:50%;
   transform:translateX(-50%) translateY(100px);
-  background:linear-gradient(135deg,#182a42,#101f35);
+  background:var(--card2);
   color:var(--txt2);
   padding:11px 24px;border-radius:10px;font-size:12px;
   border:1px solid rgba(240,180,41,.2);
-  box-shadow:0 10px 34px rgba(0,0,0,.65),0 0 24px rgba(240,180,41,.1);
-  transition:transform .38s cubic-bezier(.34,1.56,.64,1);
+  box-shadow:0 8px 26px rgba(0,0,0,.5);
+  transition:transform .3s cubic-bezier(.34,1.2,.64,1);
   z-index:9999;white-space:nowrap;
   font-weight:500;letter-spacing:.01em;font-family:var(--sans);
 }
@@ -521,24 +488,18 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 /* Top stats bar (like reference header) */
 .dash-top-bar{
   display:grid;grid-template-columns:repeat(4,1fr);
-  background:linear-gradient(135deg,#0a1828 0%,#0d1f35 50%,#091520 100%);
+  background:var(--surf);
   border:1px solid rgba(240,180,41,.18);
-  border-radius:14px;overflow:hidden;
+  border-radius:12px;overflow:hidden;
   margin-bottom:16px;
-  box-shadow:0 6px 30px rgba(0,0,0,.55),0 0 0 1px rgba(240,180,41,.06),inset 0 1px 0 rgba(255,255,255,.04);
 }
 .dtb-item{
   padding:18px 22px;
   border-right:1px solid rgba(255,255,255,.05);
-  position:relative;overflow:hidden;
+  position:relative;
   transition:background .2s;
 }
 .dtb-item:last-child{border-right:none}
-.dtb-item::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:2px;
-  background:var(--g-gold);opacity:0;transition:opacity .2s;
-}
-.dtb-item:hover::before{opacity:1}
 .dtb-item:hover{background:rgba(240,180,41,.04)}
 .dtb-label{
   font-size:9px;font-weight:700;
@@ -759,7 +720,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 
         <!-- LEFT: Overall Performance + Sesi -->
         <div style="display:flex;flex-direction:column;gap:12px">
-          <div class="card" style="padding:14px;box-shadow:0 4px 20px rgba(0,0,0,.4)">
+          <div class="card" style="padding:14px">
             <div style="display:flex;align-items:center;gap:7px;margin-bottom:12px">
               <span class="col-accent" style="background:var(--g-gold)"></span>
               <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">OVERALL PERFORMANCE</span>
@@ -774,7 +735,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
             </div>
           </div>
 
-          <div class="card" style="padding:14px;box-shadow:0 4px 20px rgba(0,0,0,.4)">
+          <div class="card" style="padding:14px">
             <div style="display:flex;align-items:center;gap:7px;margin-bottom:10px">
               <span class="col-accent" style="background:var(--g-blu)"></span>
               <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">PERFORMA SESI</span>
@@ -784,14 +745,14 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
         </div>
 
         <!-- CENTER: Equity Curve (main chart — paling prominent) -->
-        <div class="card" style="padding:16px;box-shadow:0 10px 40px rgba(0,0,0,.6),0 0 0 1px rgba(240,180,41,.1),inset 0 1px 0 rgba(255,255,255,.04)">
+        <div class="card" style="padding:16px">
           <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
             <div style="display:flex;align-items:center;gap:7px">
               <span class="col-accent" style="background:var(--g-gold)"></span>
               <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">EQUITY CURVE</span>
             </div>
             <div style="display:flex;align-items:center;gap:6px">
-              <span style="width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 6px var(--gold);display:inline-block"></span>
+              <span style="width:8px;height:8px;border-radius:50%;background:var(--gold);display:inline-block"></span>
               <span style="font-size:10px;color:var(--mut)">P&L Kumulatif</span>
             </div>
           </div>
@@ -800,7 +761,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 
         <!-- RIGHT: Trade Stats boxes + Streak -->
         <div style="display:flex;flex-direction:column;gap:12px">
-          <div class="card" style="padding:14px;box-shadow:0 4px 20px rgba(0,0,0,.4)">
+          <div class="card" style="padding:14px">
             <div style="display:flex;align-items:center;gap:7px;margin-bottom:14px">
               <span class="col-accent" style="background:var(--g-grn)"></span>
               <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">TRADE STATISTICS</span>
@@ -818,7 +779,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
             </div>
           </div>
 
-          <div class="card" style="padding:14px;box-shadow:0 4px 20px rgba(240,180,41,.08),0 0 0 1px rgba(240,180,41,.1)">
+          <div class="card" style="padding:14px">
             <div style="display:flex;align-items:center;gap:7px;margin-bottom:10px">
               <span class="col-accent" style="background:var(--gold)"></span>
               <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">STREAK & STATS</span>
@@ -833,7 +794,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 
       <div class="g2" style="margin-bottom:4px">
         <!-- P&L per Pair chart -->
-        <div class="card" style="box-shadow:0 8px 32px rgba(0,0,0,.5),0 0 0 1px rgba(96,165,250,.07)">
+        <div class="card">
           <div style="display:flex;align-items:center;gap:7px;margin-bottom:14px">
             <span class="col-accent" style="background:var(--g-blu)"></span>
             <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">P&L PER PAIR</span>
@@ -842,7 +803,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
         </div>
 
         <!-- Target Bulanan -->
-        <div class="card" style="box-shadow:0 8px 32px rgba(240,180,41,.12),0 0 0 1px rgba(240,180,41,.14)">
+        <div class="card">
           <div style="display:flex;align-items:center;gap:7px;margin-bottom:14px">
             <span class="col-accent" style="background:var(--g-gold)"></span>
             <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">TARGET BULANAN</span>
