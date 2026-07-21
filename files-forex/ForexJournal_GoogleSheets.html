@@ -682,18 +682,18 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
   </div>
 
   <div id="nav">
-    <button class="nb on" onclick="showTab('dash',this)">F1 DASH</button>
-    <button class="nb" onclick="showTab('tlog',this)">F2 LOG</button>
-    <button class="nb" onclick="showTab('plan-harian',this)">F3 HARIAN</button>
-    <button class="nb" onclick="showTab('plan-mingguan',this)">F4 MINGGU</button>
-    <button class="nb" onclick="showTab('risk',this)">F5 RISK</button>
-    <button class="nb" onclick="showTab('psy',this)">F6 PSY</button>
-    <button class="nb" onclick="showTab('rules',this)">F7 RULES</button>
-    <button class="nb" onclick="showTab('kalender',this)">F8 KAL</button>
-    <button class="nb" onclick="showTab('sentimen',this)">F9 SENT</button>
-    <button class="nb" onclick="showTab('geopolitik',this)">F10 GEO</button>
-    <button class="nb" onclick="showTab('rekomend',this)">F11 REKOM</button>
-    <button class="nb" onclick="showTab('transaksi',this)">F12 TXN</button>
+    <button class="nb on" data-tab="dash" onclick="showTab('dash',this)">F1 DASH</button>
+    <button class="nb" data-tab="tlog" onclick="showTab('tlog',this)">F2 LOG</button>
+    <button class="nb" data-tab="plan-harian" onclick="showTab('plan-harian',this)">F3 HARIAN</button>
+    <button class="nb" data-tab="plan-mingguan" onclick="showTab('plan-mingguan',this)">F4 MINGGU</button>
+    <button class="nb" data-tab="risk" onclick="showTab('risk',this)">F5 RISK</button>
+    <button class="nb" data-tab="psy" onclick="showTab('psy',this)">F6 PSY</button>
+    <button class="nb" data-tab="rules" onclick="showTab('rules',this)">F7 RULES</button>
+    <button class="nb" data-tab="kalender" onclick="showTab('kalender',this)">F8 KAL</button>
+    <button class="nb" data-tab="sentimen" onclick="showTab('sentimen',this)">F9 SENT</button>
+    <button class="nb" data-tab="geopolitik" onclick="showTab('geopolitik',this)">F10 GEO</button>
+    <button class="nb" data-tab="rekomend" onclick="showTab('rekomend',this)">F11 REKOM</button>
+    <button class="nb" data-tab="transaksi" onclick="showTab('transaksi',this)">F12 TXN</button>
   </div>
 
   <!-- LIVE TICKER -->
@@ -1318,6 +1318,18 @@ function showTab(name, btn) {
   if(name==='rekomend')   renderRekomend();
   if(name==='transaksi')  renderTxn();
 }
+
+// Shortcut keyboard: 1-9,0,-,= → pindah tab (nonaktif saat fokus di form input)
+const _TABKEYS = {'1':'dash','2':'tlog','3':'plan-harian','4':'plan-mingguan','5':'risk','6':'psy','7':'rules','8':'kalender','9':'sentimen','0':'geopolitik','-':'rekomend','=':'transaksi'};
+document.addEventListener('keydown', function(e) {
+  const tag = (e.target.tagName||'').toLowerCase();
+  if(tag==='input'||tag==='textarea'||tag==='select'||e.target.isContentEditable) return;
+  if(e.ctrlKey||e.altKey||e.metaKey) return;
+  const name = _TABKEYS[e.key];
+  if(!name) return;
+  const btn = document.querySelector('.nb[data-tab="'+name+'"]');
+  if(btn) { e.preventDefault(); showTab(name, btn); }
+});
 
 // ═══════════════════════════════════════════════════════════════
 //  KALENDER · SENTIMEN · GEOPOLITIK — baca dari news_data.js
