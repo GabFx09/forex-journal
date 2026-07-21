@@ -620,6 +620,13 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
           <div id="s-test" style="display:none;margin-top:8px;padding:9px 12px;border-radius:0;font-size:12px"></div>
         </div>
       </div>
+      <div class="sc"><div class="sh"><div class="sn">5</div><div class="st">Live Stock Ticker (opsional)</div></div>
+        <div class="sd">Daftar gratis di <a href="https://finnhub.io/register" target="_blank">finnhub.io/register</a> (tanpa kartu kredit) → salin API key → tempel di bawah untuk menampilkan harga saham AAPL, MSFT, GOOGL, AMZN, NVDA, META, TSLA di ticker berjalan.</div>
+        <div style="padding-left:34px">
+          <input type="text" class="ui" id="s-finnhub" placeholder="Finnhub API key" oninput="onFinnhubKey()">
+          <div style="font-size:10px;color:var(--mut);margin-top:5px">Tanpa key, ticker tetap jalan normal (cuma data jurnal, tanpa harga saham)</div>
+        </div>
+      </div>
     </div>
     <div class="mf">
       <button class="btn bh" onclick="skipSetup()">Pakai Tanpa Sync</button>
@@ -2240,6 +2247,12 @@ function onUrl() {
   $('s-test').style.display='none';
 }
 
+function onFinnhubKey() {
+  const key = $('s-finnhub').value.trim();
+  lsSet('fj_finnhub_key', key);
+  fetchStockTicker();
+}
+
 async function testUrl() {
   const u = $('s-url').value.trim();
   const tr = $('s-test');
@@ -2311,6 +2324,7 @@ function skipSetup() {
 
 function openSetup() {
   if(GS_URL) { $('s-url').value=GS_URL; onUrl(); }
+  const fk = lsGet('fj_finnhub_key',''); if(fk) $('s-finnhub').value = fk;
   $('s-test').style.display='none';
   $('mo').style.display='flex';
 }
@@ -2545,39 +2559,62 @@ function updateDash() {
   drawCharts();
 }
 
+const _STOCK_SYMS = ['AAPL','MSFT','GOOGL','AMZN','NVDA','META','TSLA'];
+let _tickerStockSegs = [];
+
 function renderTicker() {
   const track = $('ticker-track');
   if(!track) return;
 
+  const journalSegs = [];
   if(!trades.length) {
-    track.innerHTML = '<span class="tk-seg">BELUM ADA DATA — TAMBAH TRADE UNTUK MULAI</span>';
-    return;
+    journalSegs.push('<span class="tk-seg">BELUM ADA DATA JURNAL — TAMBAH TRADE UNTUK MULAI</span>');
+  } else {
+    const total = trades.reduce((s,t)=>s+(parseFloat(t.pnl)||0),0);
+    const wins  = trades.filter(t=>String(t.result||'').toLowerCase().trim()==='win').length;
+    const losses = trades.filter(t=>String(t.result||'').toLowerCase().trim()==='loss').length;
+    const closed  = wins + losses;
+    const wr = closed ? Math.round(wins/closed*100) : 0;
+
+    const totalDepo = transactions.filter(t=>t.type==='depo').reduce((s,t)=>s+parseFloat(t.amount||0),0);
+    const totalWD   = transactions.filter(t=>t.type==='wd').reduce((s,t)=>s+parseFloat(t.amount||0),0);
+    const modal  = totalDepo - totalWD;
+    const equity = modal + total;
+    const retPct = modal > 0 ? (total / modal * 100) : null;
+
+    const pm = {};
+    trades.forEach(t=>{ if(!pm[t.pair]) pm[t.pair]=0; pm[t.pair]+=(parseFloat(t.pnl)||0); });
+
+    journalSegs.push(`<span class="tk-seg"><b>EKUITAS</b> $${equity.toLocaleString('en-US',{maximumFractionDigits:0})}${retPct!==null?` <span style="color:${retPct>=0?'var(--grn)':'var(--red)'}">${retPct>=0?'+':''}${retPct.toFixed(2)}%</span>`:''}</span>`);
+    journalSegs.push(`<span class="tk-seg"><b>WIN RATE</b> ${wr}%</span>`);
+    Object.entries(pm).forEach(([pair,pnl])=>{
+      journalSegs.push(`<span class="tk-seg"><b>${pair}</b> <span style="color:${pnl>=0?'var(--grn)':'var(--red)'}">${pnl>=0?'+':''}$${Math.abs(pnl).toFixed(0)}</span></span>`);
+    });
   }
 
-  const total = trades.reduce((s,t)=>s+(parseFloat(t.pnl)||0),0);
-  const wins  = trades.filter(t=>String(t.result||'').toLowerCase().trim()==='win').length;
-  const losses = trades.filter(t=>String(t.result||'').toLowerCase().trim()==='loss').length;
-  const closed  = wins + losses;
-  const wr = closed ? Math.round(wins/closed*100) : 0;
-
-  const totalDepo = transactions.filter(t=>t.type==='depo').reduce((s,t)=>s+parseFloat(t.amount||0),0);
-  const totalWD   = transactions.filter(t=>t.type==='wd').reduce((s,t)=>s+parseFloat(t.amount||0),0);
-  const modal  = totalDepo - totalWD;
-  const equity = modal + total;
-  const retPct = modal > 0 ? (total / modal * 100) : null;
-
-  const pm = {};
-  trades.forEach(t=>{ if(!pm[t.pair]) pm[t.pair]=0; pm[t.pair]+=(parseFloat(t.pnl)||0); });
-
-  const segs = [];
-  segs.push(`<span class="tk-seg"><b>EKUITAS</b> $${equity.toLocaleString('en-US',{maximumFractionDigits:0})}${retPct!==null?` <span style="color:${retPct>=0?'var(--grn)':'var(--red)'}">${retPct>=0?'+':''}${retPct.toFixed(2)}%</span>`:''}</span>`);
-  segs.push(`<span class="tk-seg"><b>WIN RATE</b> ${wr}%</span>`);
-  Object.entries(pm).forEach(([pair,pnl])=>{
-    segs.push(`<span class="tk-seg"><b>${pair}</b> <span style="color:${pnl>=0?'var(--grn)':'var(--red)'}">${pnl>=0?'+':''}$${Math.abs(pnl).toFixed(0)}</span></span>`);
-  });
-
-  const row = segs.join('<span class="tk-sep">·</span>');
+  const allSegs = journalSegs.concat(_tickerStockSegs);
+  if(!allSegs.length) { track.innerHTML=''; return; }
+  const row = allSegs.join('<span class="tk-sep">·</span>');
   track.innerHTML = row + '<span class="tk-sep">·</span>' + row + '<span class="tk-sep">·</span>';
+}
+
+async function fetchStockTicker() {
+  const key = lsGet('fj_finnhub_key','');
+  if(!key) { _tickerStockSegs = []; renderTicker(); return; }
+  try {
+    const results = await Promise.all(_STOCK_SYMS.map(async sym=>{
+      const res = await fetch(`https://finnhub.io/api/v1/quote?symbol=${sym}&token=${key}`);
+      const d = await res.json();
+      return {sym, c:d.c, pc:d.pc};
+    }));
+    _tickerStockSegs = results.filter(r=>r.c).map(r=>{
+      const chg = r.pc ? (r.c-r.pc)/r.pc*100 : 0, pos = chg>=0;
+      return `<span class="tk-seg"><b>${r.sym}</b> $${r.c.toFixed(2)} <span style="color:${pos?'var(--grn)':'var(--red)'}">${pos?'+':''}${chg.toFixed(2)}%</span></span>`;
+    });
+  } catch(e) {
+    _tickerStockSegs = [];
+  }
+  renderTicker();
 }
 
 function drawCharts() {
@@ -3112,6 +3149,9 @@ function renderAll(){
   } else {
     $('mo').style.display = 'flex';
   }
+
+  fetchStockTicker();
+  setInterval(fetchStockTicker, 15000);
 })();
 
 // ═══════════════════════════════════════════════════════════════
