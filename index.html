@@ -2580,8 +2580,6 @@ const _FX_PAIRS = ['USDJPY','USDCHF','USDCAD','NZDUSD','NZDJPY','NZDCHF','NZDCAD
 let _tickerStockSegs = [];
 let _tickerFxSegs = [];
 
-function fxRateOf(rates, code) { return code==='USD' ? 1 : rates[code]; }
-
 function paintTicker(track, segs) {
   if(!track) return;
   if(!segs.length) { track.innerHTML=''; return; }
@@ -2591,9 +2589,10 @@ function paintTicker(track, segs) {
 
 function renderTicker() {
   const hasKey = !!lsGet('fj_finnhub_key','');
-  const emptyMsg = `<span class="tk-seg">${hasKey?'Memuat data live…':'Tempel API key Finnhub di Settings (langkah 5) untuk aktifkan'}</span>`;
-  paintTicker($('ticker-fx-track'),    _tickerFxSegs.length    ? _tickerFxSegs    : [emptyMsg]);
-  paintTicker($('ticker-stock-track'), _tickerStockSegs.length ? _tickerStockSegs : [emptyMsg]);
+  const fxEmpty = '<span class="tk-seg">Memuat data forex…</span>';
+  const stockEmpty = `<span class="tk-seg">${hasKey?'Memuat data live…':'Tempel API key Finnhub di Settings (langkah 5) untuk aktifkan'}</span>`;
+  paintTicker($('ticker-fx-track'),    _tickerFxSegs.length    ? _tickerFxSegs    : [fxEmpty]);
+  paintTicker($('ticker-stock-track'), _tickerStockSegs.length ? _tickerStockSegs : [stockEmpty]);
 }
 
 function fetchLiveTickers() {
@@ -2601,27 +2600,34 @@ function fetchLiveTickers() {
   fetchStockTicker();
 }
 
+// Kurs forex dari currency-api (fawazahmed0), di-host statis di jsDelivr CDN —
+// gratis, tanpa API key/daftar, CORS penuh (beda dari Frankfurter/Finnhub yang
+// ternyata memblokir CORS browser). Update 1x/hari, arsip historis tersedia
+// sehingga %perubahan bisa dihitung vs hari sebelumnya yang sebenarnya.
+const _FX_BASE = 'https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api';
 async function fetchFxTicker() {
-  const key = lsGet('fj_finnhub_key','');
-  if(!key) { _tickerFxSegs = []; renderTicker(); return; }
   try {
-    const res = await fetch(`https://finnhub.io/api/v1/forex/rates?base=USD&token=${key}`);
-    const d = await res.json();
-    const rates = (d && d.quote) || {};
+    const latestRes = await fetch(`${_FX_BASE}@latest/v1/currencies/usd.json`);
+    const latest = await latestRes.json();
+    const rates = (latest && latest.usd) || {};
     if(!Object.keys(rates).length) { _tickerFxSegs = []; renderTicker(); return; }
 
-    // Baseline harga pertama kali dimuat hari ini — dipakai sebagai acuan %perubahan
-    // (bukan resmi vs penutupan kemarin, karena endpoint gratis ini cuma snapshot kurs saat ini)
-    const dayKey = 'fj_fx_base_' + today();
-    let baseline = lsGet(dayKey, null);
-    if(!baseline) { baseline = rates; lsSet(dayKey, rates); }
+    let baseline = {};
+    try {
+      const d = new Date(latest.date+'T12:00:00Z');
+      d.setUTCDate(d.getUTCDate()-1);
+      const prevStr = d.toISOString().split('T')[0];
+      const prevRes = await fetch(`${_FX_BASE}@${prevStr}/v1/currencies/usd.json`);
+      const prev = await prevRes.json();
+      baseline = (prev && prev.usd) || {};
+    } catch(e) { baseline = {}; }
 
     _tickerFxSegs = _FX_PAIRS.map(pair=>{
-      const b = pair.slice(0,3), q = pair.slice(3,6);
-      const rb = fxRateOf(rates,b), rq = fxRateOf(rates,q);
+      const b = pair.slice(0,3).toLowerCase(), q = pair.slice(3,6).toLowerCase();
+      const rb = rates[b], rq = rates[q];
       if(!rb || !rq) return null;
       const price = rq/rb;
-      const bb = fxRateOf(baseline,b), bq = fxRateOf(baseline,q);
+      const bb = baseline[b], bq = baseline[q];
       const basePrice = (bb && bq) ? bq/bb : null;
       const chg = basePrice ? (price-basePrice)/basePrice*100 : 0;
       const pos = chg>=0;
