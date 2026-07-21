@@ -1719,10 +1719,9 @@ function renderSentimen() {
       byCcy[code].push(item);
     });
   });
-  const ccyOrder = Object.keys(byCcy)
-    .filter(c => c !== 'LAINNYA')
-    .sort((a,b) => byCcy[b].length - byCcy[a].length);
-  if(byCcy['LAINNYA']) ccyOrder.push('LAINNYA');
+  // Selalu tampilkan ke-8 mata uang mayor + LAINNYA, walau tidak ada berita
+  // hari ini (supaya kelihatan jelas "CHF sepi berita" bukan hilang begitu saja)
+  const ccyOrder = ['USD','EUR','JPY','GBP','AUD','NZD','CAD','CHF','XAU','LAINNYA'];
 
   const stats = `<div class="g4" style="margin-bottom:12px">
     <div class="met"><div class="ml">Total Berita</div><div class="mv nt">${summary.total}</div></div>
@@ -1750,9 +1749,12 @@ function renderSentimen() {
   </div>`;
 
   const ccyCols = ccyOrder.map(code => {
-    const list = byCcy[code];
+    const list = byCcy[code] || [];
     const bullN = list.filter(i=>i.sentiment==='Bullish').length;
     const bearN = list.filter(i=>i.sentiment==='Bearish').length;
+    const body = list.length
+      ? list.map(_fjCard).join('')
+      : `<div class="em" style="padding:20px 8px;font-size:11px">Belum ada berita hari ini</div>`;
     return `<div class="card" style="margin-bottom:0">
       <div style="display:flex;align-items:center;gap:7px;margin-bottom:8px">
         <span style="font-size:13px;font-weight:700;color:var(--txt2)">${_CCY_FLAG[code]||'🌐'} ${code}</span>
@@ -1760,7 +1762,7 @@ function renderSentimen() {
         ${bullN?`<span style="font-size:9px;color:#22c55e;margin-left:auto">🟢${bullN}</span>`:''}
         ${bearN?`<span style="font-size:9px;color:#ef4444${bullN?';margin-left:6px':';margin-left:auto'}">🔴${bearN}</span>`:''}
       </div>
-      ${list.map(_fjCard).join('')}
+      ${body}
     </div>`;
   }).join('');
 
