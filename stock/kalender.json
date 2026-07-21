@@ -1,0 +1,63 @@
+{
+  "tanggal": "2026-07-21",
+  "hari_ini_label": "Selasa, 21 Juli 2026",
+  "jam_update": "2026-07-21 11:24 WIB",
+  "total_event": 4,
+  "event_tinggi": 0,
+  "weekend_mode": true,
+  "catatan": "Hari ini adalah akhir pekan — pasar tutup. Menampilkan ringkasan kalender ekonomi minggu lalu. Data minggu depan akan tersedia Senin pagi.",
+  "hari_ini": [
+    {
+      "waktu": "— ET",
+      "event": "ADP Weekly Employment Change",
+      "event_id": "ADP Weekly Employment Change",
+      "dampak": "Rendah",
+      "dampak_en": "Low",
+      "mata_uang": "USD",
+      "aktual": "—",
+      "perkiraan": "—",
+      "sebelumnya": "19.8K",
+      "dampak_saham": "Prekursor NFP — ADP kuat → ekspektasi NFP tinggi → pasar naik",
+      "tanggal_label": "Hari Ini"
+    },
+    {
+      "waktu": "— ET",
+      "event": "API Weekly Statistical Bulletin",
+      "event_id": "API Weekly Statistical Bulletin",
+      "dampak": "Rendah",
+      "dampak_en": "Low",
+      "mata_uang": "USD",
+      "aktual": "—",
+      "perkiraan": "—",
+      "sebelumnya": "—",
+      "dampak_saham": "Pantau reaksi pasar — volatilitas mungkin terjadi",
+      "tanggal_label": "Hari Ini"
+    },
+    {
+      "waktu": "— ET",
+      "event": "Crude Oil Inventories",
+      "event_id": "Stok Minyak Mentah AS (EIA)",
+      "dampak": "Rendah",
+      "dampak_en": "Low",
+      "mata_uang": "USD",
+      "aktual": "—",
+      "perkiraan": "—",
+      "sebelumnya": "-1.7M",
+      "dampak_saham": "Stok naik → harga energi turun → positif sektor konsumer",
+      "tanggal_label": "Besok (2026-07-22)"
+    },
+    {
+      "waktu": "— ET",
+      "event": "CB Leading Index m/m",
+      "event_id": "CB Leading Index m/m",
+      "dampak": "Rendah",
+      "dampak_en": "Low",
+      "mata_uang": "USD",
+      "aktual": "—",
+      "perkiraan": "-0.1%",
+      "sebelumnya": "0.1%",
+      "dampak_saham": "Pantau reaksi pasar — volatilitas mungkin terjadi",
+      "tanggal_label": "Ringkasan (2026-07-20)"
+    }
+  ]
+}

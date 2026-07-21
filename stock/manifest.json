@@ -1,0 +1,41 @@
+{
+  "name": "StockJournal Pro",
+  "short_name": "StockJournal",
+  "description": "Aplikasi jurnal investasi saham — catat portofolio, pantau dividen, analisis kinerja, dan sinkronisasi Google Sheets.",
+  "id": "/forex-journal/stock/",
+  "start_url": "/forex-journal/stock/",
+  "scope": "/forex-journal/stock/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a1628",
+  "theme_color": "#10b981",
+  "lang": "id",
+  "categories": ["finance", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
