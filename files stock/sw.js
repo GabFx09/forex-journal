@@ -1,4 +1,4 @@
-const CACHE = 'sj-stock-v3';
+const CACHE = 'sj-stock-v4';
 
 const CORE = [
   './',

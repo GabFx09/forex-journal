@@ -6,9 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A self-contained financial journaling suite with three standalone HTML applications (no build step, no server required). Each app uses **localStorage** as primary storage with optional **Google Sheets** sync via Apps Script.
 
-- `forex_extracted/ForexJournal_GoogleSheets.html` — Forex trading journal
-- `finance_extracted/FinanceJournal_Pro.html` — Personal finance & budgeting
-- `files stock/StockJournal_Pro_1.html` — Stock portfolio & dividend tracking
+- `files-forex/ForexJournal_GoogleSheets.html` — Forex trading journal
+- `files-finance/FinanceJournal_Pro.html` — Personal finance & budgeting
+- `files stock/StockJournal_Pro.html` — Stock portfolio & dividend tracking
 - Companion `.gs` files — Google Apps Script backend (deploy as Web App)
 
 ## Running / Testing
@@ -44,3 +44,15 @@ For Google Sheets sync: paste the matching `.gs` script into Apps Script, deploy
 - `normResult(t)` normalises trade result to `'win' | 'loss' | 'be' | 'open'`.
 - Indonesian UI language throughout.
 - `toast(msg, dur?)` for transient feedback (bottom-center).
+
+## Deployment
+
+GitHub Actions **only discovers workflow files under the repo-root `.github/workflows/`** — a workflow nested in a subdirectory (e.g. `files stock/.github/workflows/`) is invisible to Actions and will never run. All active workflows must live in `1-repo-main/.github/workflows/`.
+
+All three apps deploy to the same `gh-pages` branch (GitHub Pages project-page root is `/forex-journal/`, not domain root), using `destination_dir` + `keep_files: true` (not `force_orphan`) so they don't wipe each other out:
+
+- Forex: `.github/workflows/forex_digest.yml` (data digest + deploy) and `deploy_only.yml` (redeploy without digest) — deploys to branch root → `https://gabfx09.github.io/forex-journal/`
+- Stock: `.github/workflows/stock_digest.yml` — deploys with `destination_dir: stock` → `https://gabfx09.github.io/forex-journal/stock/`
+- Finance: `.github/workflows/finance_deploy.yml` (no digest — Finance has no external data) — deploys with `destination_dir: finance` → `https://gabfx09.github.io/forex-journal/finance/`
+
+Each app's HTML has a small cross-nav strip (`#xnav`, right under the topbar) linking to the other two live apps.

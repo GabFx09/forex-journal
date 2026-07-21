@@ -1,9 +1,3 @@
-# DEPRECATED — GitHub Actions only discovers workflow files under the repo-root
-# .github/workflows/ directory. A workflow nested here (files stock/.github/workflows/)
-# is never scanned or listed by GitHub Actions and cannot run on any trigger.
-# Superseded by: 1-repo-main/.github/workflows/stock_digest.yml
-# Kept here for historical reference only — do not edit or rely on this copy.
-
 name: Stock Digest Harian
 
 on:
@@ -32,7 +26,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r "files stock/requirements.txt"
 
       # ── 3. Buat config_email.ini dari secrets ──────────────────────────────────
       - name: Write config_email.ini
@@ -41,7 +35,7 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           SEND_TO:            ${{ secrets.SEND_TO }}
         run: |
-          cat > config_email.ini << EOF
+          cat > "files stock/config_email.ini" << EOF
           [email]
           sender     = $GMAIL_USER
           password   = $GMAIL_APP_PASSWORD
@@ -52,15 +46,15 @@ jobs:
 
       # ── 4. Jalankan digest ─────────────────────────────────────────────────────
       - name: Run stock digest
-        run: python stock_news_digest.py --run-now
+        run: python "files stock/stock_news_digest.py" --run-now
 
       # ── 5. Push hasil JSON + JS ke GitHub ─────────────────────────────────────
       - name: Commit & push data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f kalender.json sentimen.json geopolitik.json
-          git add stock_analysis_data.js
+          git add -f "files stock/kalender.json" "files stock/sentimen.json" "files stock/geopolitik.json"
+          git add "files stock/stock_analysis_data.js"
           if git diff --staged --quiet; then
             echo "Tidak ada perubahan data, skip commit."
           else
@@ -73,22 +67,28 @@ jobs:
       - name: Siapkan folder deploy
         run: |
           mkdir -p _deploy
-          cp StockJournal_Pro_1.html _deploy/index.html
-          cp stock_analysis_data.js  _deploy/
+          cp "files stock/StockJournal_Pro.html" _deploy/index.html
+          cp "files stock/stock_analysis_data.js" _deploy/
+          cp "files stock/manifest.json"          _deploy/
+          cp "files stock/sw.js"                  _deploy/
+          cp "files stock/icon-192.png"           _deploy/
+          cp "files stock/icon-512.png"           _deploy/
+          cp "files stock/_headers"               _deploy/
           for f in kalender.json sentimen.json geopolitik.json; do
-            [ -f "$f" ] && cp "$f" _deploy/ || true
+            [ -f "files stock/$f" ] && cp "files stock/$f" _deploy/ || true
           done
           echo "Isi folder deploy:"
           ls -lh _deploy/
 
-      # ── 7. Deploy ke GitHub Pages (branch gh-pages) ───────────────────────────
+      # ── 7. Deploy ke GitHub Pages (branch gh-pages, subfolder /stock/) ────────
       - name: Deploy ke GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_deploy
           publish_branch: gh-pages
-          force_orphan: true
+          destination_dir: stock
+          keep_files: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'deploy: stock update $(date -u +%Y-%m-%d)'

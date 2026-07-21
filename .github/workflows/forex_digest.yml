@@ -55,6 +55,7 @@ jobs:
             echo "Tidak ada perubahan data, skip commit."
           else
             git commit -m "chore: update data forex $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash
             git push
           fi
 
@@ -71,6 +72,7 @@ jobs:
           cp files-forex/sw.js           _deploy/
           cp files-forex/icon-192.png    _deploy/
           cp files-forex/icon-512.png    _deploy/
+          cp files-forex/_headers        _deploy/
           echo "Isi folder deploy:"
           ls -lh _deploy/
 
@@ -81,7 +83,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_deploy
           publish_branch: gh-pages
-          force_orphan: true
+          keep_files: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'deploy: forex update $(date -u +%Y-%m-%d)'

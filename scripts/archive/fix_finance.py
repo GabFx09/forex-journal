@@ -1,3 +1,16 @@
+# ARCHIVED — historical one-time patch script.
+#
+# This already ran successfully against FinanceJournal_Pro.html: the "rekening"
+# (bank/e-wallet balance) feature it injects is already present in
+# files-finance/FinanceJournal_Pro.html. Do not re-run as-is — the hardcoded
+# `path` below (C:\PROJECT-FINANCE\...) no longer matches this repo's layout
+# (files-finance/FinanceJournal_Pro.html), and re-running would just report
+# "GAGAL" for every replacement since the original (pre-patch) strings it
+# searches for no longer exist in the file.
+#
+# Kept for reference only, in case a similar string-replace patch pattern is
+# needed again in the future.
+
 import re
 
 path = r'C:\PROJECT-FINANCE\files-finance\FinanceJournal_Pro.html'
@@ -35,8 +48,8 @@ rep(
 
 # ── 4. Fix addDebt ───────────────────────────────────────────────
 rep(
-    "  toast('\u2705 Hutang ditambahkan!');\n}",
-    "  toast('\u2705 Hutang ditambahkan!');\n  if(GS_ON)gasPost({action:'saveDebt',debt:d}).then(()=>setSync('ok','\u2705 Tersimpan di Sheets')).catch(()=>{});\n}",
+    "  toast('✅ Hutang ditambahkan!');\n}",
+    "  toast('✅ Hutang ditambahkan!');\n  if(GS_ON)gasPost({action:'saveDebt',debt:d}).then(()=>setSync('ok','✅ Tersimpan di Sheets')).catch(()=>{});\n}",
     "Fix addDebt sync"
 )
 
@@ -49,8 +62,8 @@ rep(
 
 # ── 6. Fix addGoal ───────────────────────────────────────────────
 rep(
-    "  toast('\u2705 Tujuan ditambahkan!');\n}",
-    "  toast('\u2705 Tujuan ditambahkan!');\n  if(GS_ON)gasPost({action:'saveGoal',goal:g}).then(()=>setSync('ok','\u2705 Tersimpan di Sheets')).catch(()=>{});\n}",
+    "  toast('✅ Tujuan ditambahkan!');\n}",
+    "  toast('✅ Tujuan ditambahkan!');\n  if(GS_ON)gasPost({action:'saveGoal',goal:g}).then(()=>setSync('ok','✅ Tersimpan di Sheets')).catch(()=>{});\n}",
     "Fix addGoal sync"
 )
 
@@ -63,8 +76,8 @@ rep(
 
 # ── 8. Fix addAsset ──────────────────────────────────────────────
 rep(
-    "  toast('\u2705 Aset ditambahkan!');\n}",
-    "  toast('\u2705 Aset ditambahkan!');\n  if(GS_ON)gasPost({action:'saveAsset',asset:a}).then(()=>setSync('ok','\u2705 Tersimpan di Sheets')).catch(()=>{});\n}",
+    "  toast('✅ Aset ditambahkan!');\n}",
+    "  toast('✅ Aset ditambahkan!');\n  if(GS_ON)gasPost({action:'saveAsset',asset:a}).then(()=>setSync('ok','✅ Tersimpan di Sheets')).catch(()=>{});\n}",
     "Fix addAsset sync"
 )
 
@@ -77,8 +90,8 @@ rep(
 
 # ── 10. Fix saveBudget ───────────────────────────────────────────
 rep(
-    "  toast('\u2705 Anggaran '+month+' disimpan!');\n",
-    "  toast('\u2705 Anggaran '+month+' disimpan!');\n  if(GS_ON)gasPost({action:'saveBudget',month,data}).then(()=>setSync('ok','\u2705 Tersimpan di Sheets')).catch(()=>{});\n",
+    "  toast('✅ Anggaran '+month+' disimpan!');\n",
+    "  toast('✅ Anggaran '+month+' disimpan!');\n  if(GS_ON)gasPost({action:'saveBudget',month,data}).then(()=>setSync('ok','✅ Tersimpan di Sheets')).catch(()=>{});\n",
     "Fix saveBudget sync"
 )
 
@@ -88,7 +101,7 @@ rek_dash = """
     <div class="card" style="margin-bottom:18px">
       <div class="fb" style="margin-bottom:12px">
         <div class="ct" style="margin-bottom:0">\U0001f4b3 Saldo Rekening & E-Wallet</div>
-        <button class="btn bh" onclick="openRekeningModal()" style="font-size:11px;padding:5px 12px">\u270f\ufe0f Edit Saldo</button>
+        <button class="btn bh" onclick="openRekeningModal()" style="font-size:11px;padding:5px 12px">✏️ Edit Saldo</button>
       </div>
       <div id="rek-dashboard"></div>
     </div>
@@ -103,7 +116,7 @@ rep(
 rek_trx = """      <div class="card" style="margin-bottom:12px;padding:12px 16px">
         <div class="fb" style="margin-bottom:8px">
           <div style="font-size:11px;font-weight:700;color:var(--sub);text-transform:uppercase;letter-spacing:.08em">\U0001f4b3 Saldo Rekening</div>
-          <button class="btn bh" onclick="openRekeningModal()" style="font-size:10px;padding:3px 10px">\u270f\ufe0f Edit</button>
+          <button class="btn bh" onclick="openRekeningModal()" style="font-size:10px;padding:3px 10px">✏️ Edit</button>
         </div>
         <div id="rek-trx"></div>
       </div>
@@ -120,7 +133,7 @@ rek_modal = """
   <div style="background:var(--surf);border:1px solid var(--bdr);border-radius:16px;padding:24px;width:100%;max-width:480px;max-height:90vh;overflow-y:auto">
     <div class="fb" style="margin-bottom:18px">
       <div style="font-size:16px;font-weight:700">\U0001f4b3 Edit Saldo Rekening & E-Wallet</div>
-      <button class="bsm" onclick="closeRekeningModal()">\u2715</button>
+      <button class="bsm" onclick="closeRekeningModal()">✕</button>
     </div>
     <div style="font-size:10px;color:var(--sub);font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px">\U0001f3e6 Bank</div>
     <div class="fr fr2" style="margin-bottom:10px">
@@ -155,7 +168,7 @@ rep('</body>', rek_modal + '</body>', "Rekening modal HTML")
 
 # ── 14. Rekening JS functions ────────────────────────────────────
 rek_js = """
-// \u2550\u2550 REKENING & E-WALLET \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+// ══ REKENING & E-WALLET ═════════════════════════════════════════════
 const REK_BANKS   = ['BNI','JAGO','BRI','MANDIRI','BCA'];
 const REK_WALLETS = ['DANA','GOPAY','OVO','LINKAJA'];
 const REK_ICON    = {BNI:'\U0001f7e0',JAGO:'\U0001f4d8',BRI:'\U0001f535',MANDIRI:'\U0001f7e1',BCA:'\U0001f537',DANA:'\U0001f4d8',GOPAY:'\U0001f7e2',OVO:'\U0001f7e3',LINKAJA:'\U0001f534'};
@@ -209,7 +222,7 @@ function saveRekening() {
   lsSet('fj_rekening',rekening);
   closeRekeningModal();
   renderRekening();
-  toast('\u2705 Saldo rekening disimpan!');
+  toast('✅ Saldo rekening disimpan!');
 }
 """
 rep('</script>\n</body>', rek_js + '\n</script>\n</body>', "Rekening JS functions")
