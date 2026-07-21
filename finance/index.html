@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>FinanceJournal Pro — Keuangan Pribadi</title>
+<meta name="description" content="Jurnal keuangan pribadi — kelola anggaran, hutang, aset, dan tujuan finansial dalam satu aplikasi, tersimpan lokal di browser Anda.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="FinanceJournal Pro">
+<meta property="og:description" content="Jurnal keuangan pribadi — kelola anggaran, hutang, aset, dan tujuan finansial dalam satu aplikasi, tersimpan lokal di browser Anda.">
+<meta property="og:url" content="https://gabfx09.github.io/forex-journal/finance/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <style>
@@ -672,10 +679,11 @@ textarea{resize:vertical;min-height:64px;line-height:1.65}
   </div>
 
   <!-- CROSS-NAV -->
-  <div id="xnav" style="display:flex;align-items:center;gap:10px;padding:7px 16px;font-size:11px;background:var(--surf);border-bottom:1px solid var(--bdr)">
-    <span style="color:var(--sub);font-weight:700;letter-spacing:.06em;text-transform:uppercase">Jurnal Lain</span>
-    <a href="../" style="color:var(--sub);text-decoration:none;font-weight:600">💱 Forex</a>
-    <a href="../stock/" style="color:var(--sub);text-decoration:none;font-weight:600">📈 Stock</a>
+  <div id="xnav" style="display:flex;align-items:center;gap:8px;padding:8px 16px;font-size:11px;background:var(--surf);border-bottom:1px solid var(--bdr)">
+    <span style="color:var(--mut);font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-right:2px">Jurnal</span>
+    <a href="../" style="display:inline-flex;align-items:center;gap:5px;padding:4px 12px;border-radius:99px;border:1px solid var(--bdr2);color:var(--sub);text-decoration:none;font-weight:600">💱 Forex</a>
+    <span style="display:inline-flex;align-items:center;gap:5px;padding:4px 12px;border-radius:99px;background:var(--gdim);border:1px solid var(--gbrd);color:var(--grn);font-weight:700">💰 Finance</span>
+    <a href="../stock/" style="display:inline-flex;align-items:center;gap:5px;padding:4px 12px;border-radius:99px;border:1px solid var(--bdr2);color:var(--sub);text-decoration:none;font-weight:600">📈 Stock</a>
   </div>
 
   <!-- SYNC BAR -->
