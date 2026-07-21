@@ -154,7 +154,7 @@ html,body{
 .tk-track{
   display:flex;align-items:center;white-space:nowrap;
   font-family:var(--mono);font-size:10.5px;
-  animation:marquee 40s linear infinite;
+  animation:marquee 90s linear infinite;
 }
 .tk-strip:hover .tk-track{animation-play-state:paused}
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
@@ -2576,9 +2576,11 @@ function updateDash() {
 }
 
 const _STOCK_SYMS = ['AAPL','MSFT','GOOGL','AMZN','NVDA','META','TSLA'];
-const _FX_SYMS = ['XAUUSD','EURUSD','GBPUSD','USDJPY'];
+const _FX_PAIRS = ['USDJPY','USDCHF','USDCAD','NZDUSD','NZDJPY','NZDCHF','NZDCAD','GBPUSD','GBPJPY','GBPCHF','GBPCAD','GBPAUD','EURUSD','EURGBP','EURJPY','EURCHF','EURCAD','EURAUD','EURNZD','AUDUSD','AUDJPY','AUDNZD','AUDCAD','CADJPY','CADCHF','CHFJPY'];
 let _tickerStockSegs = [];
 let _tickerFxSegs = [];
+
+function fxRateOf(rates, code) { return code==='USD' ? 1 : rates[code]; }
 
 function paintTicker(track, segs) {
   if(!track) return;
@@ -2603,17 +2605,28 @@ async function fetchFxTicker() {
   const key = lsGet('fj_finnhub_key','');
   if(!key) { _tickerFxSegs = []; renderTicker(); return; }
   try {
-    const results = await Promise.all(_FX_SYMS.map(async pair=>{
-      const sym = 'OANDA:'+pair.slice(0,3)+'_'+pair.slice(3,6);
-      const res = await fetch(`https://finnhub.io/api/v1/quote?symbol=${sym}&token=${key}`);
-      const d = await res.json();
-      const dp = d.dp!==undefined && d.dp!==null ? d.dp : (d.pc ? (d.c-d.pc)/d.pc*100 : null);
-      return {pair, c:d.c, dp};
-    }));
-    _tickerFxSegs = results.filter(r=>r.c).map(r=>{
-      const pos = (r.dp||0)>=0;
-      return `<span class="tk-seg"><b>${r.pair}</b> ${r.c.toFixed(r.c<10?4:2)} <span style="color:${pos?'var(--grn)':'var(--red)'}">${pos?'+':''}${(r.dp||0).toFixed(2)}%</span></span>`;
-    });
+    const res = await fetch(`https://finnhub.io/api/v1/forex/rates?base=USD&token=${key}`);
+    const d = await res.json();
+    const rates = (d && d.quote) || {};
+    if(!Object.keys(rates).length) { _tickerFxSegs = []; renderTicker(); return; }
+
+    // Baseline harga pertama kali dimuat hari ini — dipakai sebagai acuan %perubahan
+    // (bukan resmi vs penutupan kemarin, karena endpoint gratis ini cuma snapshot kurs saat ini)
+    const dayKey = 'fj_fx_base_' + today();
+    let baseline = lsGet(dayKey, null);
+    if(!baseline) { baseline = rates; lsSet(dayKey, rates); }
+
+    _tickerFxSegs = _FX_PAIRS.map(pair=>{
+      const b = pair.slice(0,3), q = pair.slice(3,6);
+      const rb = fxRateOf(rates,b), rq = fxRateOf(rates,q);
+      if(!rb || !rq) return null;
+      const price = rq/rb;
+      const bb = fxRateOf(baseline,b), bq = fxRateOf(baseline,q);
+      const basePrice = (bb && bq) ? bq/bb : null;
+      const chg = basePrice ? (price-basePrice)/basePrice*100 : 0;
+      const pos = chg>=0;
+      return `<span class="tk-seg"><b>${pair}</b> ${price.toFixed(price<10?4:2)} <span style="color:${pos?'var(--grn)':'var(--red)'}">${pos?'+':''}${chg.toFixed(2)}%</span></span>`;
+    }).filter(Boolean);
   } catch(e) {
     _tickerFxSegs = [];
   }
