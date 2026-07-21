@@ -117,28 +117,41 @@ html,body{
   background:var(--surf);
   border-bottom:1px solid var(--bdr);
   display:flex;overflow-x:auto;scrollbar-width:none;flex-shrink:0;
-  padding:0 6px;
+  padding:0;
 }
 #nav::-webkit-scrollbar{display:none}
 .nb{
-  padding:12px 15px;
-  font-size:11.5px;font-weight:500;
+  padding:9px 13px;
+  font-size:11px;font-weight:600;
   color:var(--sub);
   border:none;background:none;cursor:pointer;
   white-space:nowrap;
-  border-bottom:2px solid transparent;
-  transition:all .2s;
-  letter-spacing:.01em;
-  font-family:var(--sans);
+  border-right:1px solid var(--bdr);
+  transition:all .15s;
+  letter-spacing:.02em;
+  font-family:var(--mono);
   position:relative;
 }
-.nb.on{color:var(--gold);border-bottom-color:var(--gold);font-weight:600}
-.nb.on::after{
-  content:'';position:absolute;bottom:-1px;left:12%;right:12%;height:2px;
-  background:var(--g-gold);border-radius:0;
-  filter:blur(4px);opacity:.5;
+.nb.on{background:var(--gold);color:#060606;font-weight:700}
+.nb:hover:not(.on){color:var(--txt2);background:rgba(255,255,255,.05)}
+
+/* ── LIVE TICKER ────────────────────────────── */
+#ticker{
+  background:var(--bg);
+  border-bottom:1px solid var(--bdr);
+  height:26px;overflow:hidden;
+  display:flex;align-items:center;flex-shrink:0;
 }
-.nb:hover:not(.on){color:var(--txt);background:rgba(255,255,255,.03)}
+#ticker-track{
+  display:flex;align-items:center;white-space:nowrap;
+  font-family:var(--mono);font-size:10.5px;
+  animation:marquee 40s linear infinite;
+}
+#ticker:hover #ticker-track{animation-play-state:paused}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tk-seg{display:inline-flex;align-items:center;padding:0 16px;color:var(--sub);letter-spacing:.02em}
+.tk-seg b{color:var(--txt2);font-weight:700;margin-right:6px}
+.tk-sep{color:var(--mut)}
 
 /* ── MAIN SCROLL AREA ───────────────────────── */
 #main{
@@ -202,15 +215,15 @@ html,body{
 .mf{padding:16px 24px;border-top:1px solid var(--bdr);display:flex;gap:8px;justify-content:flex-end}
 
 /* ── GRID LAYOUTS ───────────────────────────── */
-.g2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}
 
 /* ── CARDS ──────────────────────────────────── */
 .card{
   background:var(--card);
   border:1px solid var(--bdr);
-  border-radius:0;padding:16px;margin-bottom:14px;
+  border-radius:0;padding:12px;margin-bottom:10px;
   position:relative;
   transition:border-color .18s;
 }
@@ -234,7 +247,7 @@ html,body{
 .met{
   background:var(--card);
   border:1px solid var(--bdr);
-  border-radius:0;padding:16px;
+  border-radius:0;padding:12px;
   position:relative;
   transition:border-color .18s;
 }
@@ -491,10 +504,10 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
   background:var(--surf);
   border:1px solid rgba(240,180,41,.18);
   border-radius:0;overflow:hidden;
-  margin-bottom:16px;
+  margin-bottom:10px;
 }
 .dtb-item{
-  padding:18px 22px;
+  padding:10px 14px;
   border-right:1px solid rgba(255,255,255,.05);
   position:relative;
   transition:background .2s;
@@ -505,15 +518,15 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
   font-size:9px;font-weight:700;
   color:var(--mut);
   text-transform:uppercase;letter-spacing:.12em;
-  margin-bottom:10px;
+  margin-bottom:6px;
 }
 .dtb-value{
-  font-size:24px;font-weight:800;
+  font-size:19px;font-weight:800;
   font-family:var(--mono);
   letter-spacing:-.02em;
   color:var(--txt2);line-height:1;
 }
-.dtb-sub{font-size:10px;color:var(--mut);margin-top:7px}
+.dtb-sub{font-size:10px;color:var(--mut);margin-top:4px}
 
 /* Section divider header */
 .dash-section-hdr{
@@ -521,7 +534,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
   font-size:9.5px;font-weight:800;
   color:var(--sub);
   text-transform:uppercase;letter-spacing:.28em;
-  margin:16px 0 14px;
+  margin:10px 0 8px;
 }
 .dash-section-hdr::before,.dash-section-hdr::after{
   content:'';flex:1;height:1px;
@@ -534,7 +547,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 /* Performance data rows (like reference left panel) */
 .perf-row{
   display:flex;justify-content:space-between;align-items:center;
-  padding:7px 0;
+  padding:5px 0;
   border-bottom:1px solid rgba(255,255,255,.04);
   font-size:11px;
 }
@@ -545,11 +558,11 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 /* Stat box inside right panel */
 .stat-box{
   text-align:center;
-  border-radius:0;padding:12px 8px;
+  border-radius:0;padding:9px 6px;
   border:1px solid rgba(255,255,255,.06);
 }
 .stat-box-val{
-  font-size:24px;font-weight:800;
+  font-size:19px;font-weight:800;
   font-family:var(--mono);letter-spacing:-.02em;
   line-height:1;margin-bottom:4px;
 }
@@ -669,19 +682,22 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
   </div>
 
   <div id="nav">
-    <button class="nb on" onclick="showTab('dash',this)">📊 Dashboard</button>
-    <button class="nb" onclick="showTab('tlog',this)">📋 Trade Log</button>
-    <button class="nb" onclick="showTab('plan-harian',this)">📅 Planning Harian</button>
-    <button class="nb" onclick="showTab('plan-mingguan',this)">📆 Planning Mingguan</button>
-    <button class="nb" onclick="showTab('risk',this)">⚡ Risk Manager</button>
-    <button class="nb" onclick="showTab('psy',this)">🧠 Psikologi</button>
-    <button class="nb" onclick="showTab('rules',this)">📜 Rules</button>
-    <button class="nb" onclick="showTab('kalender',this)">📅 Kalender</button>
-    <button class="nb" onclick="showTab('sentimen',this)">📊 Sentimen</button>
-    <button class="nb" onclick="showTab('geopolitik',this)">🌍 Geopolitik</button>
-    <button class="nb" onclick="showTab('rekomend',this)">🎯 Rekomendasi</button>
-    <button class="nb" onclick="showTab('transaksi',this)">💳 Transaksi</button>
+    <button class="nb on" onclick="showTab('dash',this)">F1 DASH</button>
+    <button class="nb" onclick="showTab('tlog',this)">F2 LOG</button>
+    <button class="nb" onclick="showTab('plan-harian',this)">F3 HARIAN</button>
+    <button class="nb" onclick="showTab('plan-mingguan',this)">F4 MINGGU</button>
+    <button class="nb" onclick="showTab('risk',this)">F5 RISK</button>
+    <button class="nb" onclick="showTab('psy',this)">F6 PSY</button>
+    <button class="nb" onclick="showTab('rules',this)">F7 RULES</button>
+    <button class="nb" onclick="showTab('kalender',this)">F8 KAL</button>
+    <button class="nb" onclick="showTab('sentimen',this)">F9 SENT</button>
+    <button class="nb" onclick="showTab('geopolitik',this)">F10 GEO</button>
+    <button class="nb" onclick="showTab('rekomend',this)">F11 REKOM</button>
+    <button class="nb" onclick="showTab('transaksi',this)">F12 TXN</button>
   </div>
+
+  <!-- LIVE TICKER -->
+  <div id="ticker"><div id="ticker-track"></div></div>
 
   <div id="main">
 
@@ -716,11 +732,11 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
       <div class="dash-section-hdr">OVERALL SUMMARY</div>
 
       <!-- 3-column main section -->
-      <div class="dash-3col" style="display:grid;grid-template-columns:1fr 2.4fr 1fr;gap:13px;margin-bottom:16px;align-items:start">
+      <div class="dash-3col" style="display:grid;grid-template-columns:1fr 2.4fr 1fr;gap:9px;margin-bottom:10px;align-items:start">
 
         <!-- LEFT: Overall Performance + Sesi -->
-        <div style="display:flex;flex-direction:column;gap:12px">
-          <div class="card" style="padding:14px">
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div class="card" style="padding:10px">
             <div style="display:flex;align-items:center;gap:7px;margin-bottom:12px">
               <span class="col-accent" style="background:var(--g-gold)"></span>
               <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">OVERALL PERFORMANCE</span>
@@ -735,7 +751,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
             </div>
           </div>
 
-          <div class="card" style="padding:14px">
+          <div class="card" style="padding:10px">
             <div style="display:flex;align-items:center;gap:7px;margin-bottom:10px">
               <span class="col-accent" style="background:var(--g-blu)"></span>
               <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">PERFORMA SESI</span>
@@ -745,8 +761,8 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
         </div>
 
         <!-- CENTER: Equity Curve (main chart — paling prominent) -->
-        <div class="card" style="padding:16px">
-          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
+        <div class="card" style="padding:12px">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
             <div style="display:flex;align-items:center;gap:7px">
               <span class="col-accent" style="background:var(--g-gold)"></span>
               <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">EQUITY CURVE</span>
@@ -760,8 +776,8 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
         </div>
 
         <!-- RIGHT: Trade Stats boxes + Streak -->
-        <div style="display:flex;flex-direction:column;gap:12px">
-          <div class="card" style="padding:14px">
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div class="card" style="padding:10px">
             <div style="display:flex;align-items:center;gap:7px;margin-bottom:14px">
               <span class="col-accent" style="background:var(--g-grn)"></span>
               <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">TRADE STATISTICS</span>
@@ -779,7 +795,7 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
             </div>
           </div>
 
-          <div class="card" style="padding:14px">
+          <div class="card" style="padding:10px">
             <div style="display:flex;align-items:center;gap:7px;margin-bottom:10px">
               <span class="col-accent" style="background:var(--gold)"></span>
               <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">STREAK & STATS</span>
@@ -2517,6 +2533,41 @@ function updateDash() {
   drawCharts();
 }
 
+function renderTicker() {
+  const track = $('ticker-track');
+  if(!track) return;
+
+  if(!trades.length) {
+    track.innerHTML = '<span class="tk-seg">BELUM ADA DATA — TAMBAH TRADE UNTUK MULAI</span>';
+    return;
+  }
+
+  const total = trades.reduce((s,t)=>s+(parseFloat(t.pnl)||0),0);
+  const wins  = trades.filter(t=>String(t.result||'').toLowerCase().trim()==='win').length;
+  const losses = trades.filter(t=>String(t.result||'').toLowerCase().trim()==='loss').length;
+  const closed  = wins + losses;
+  const wr = closed ? Math.round(wins/closed*100) : 0;
+
+  const totalDepo = transactions.filter(t=>t.type==='depo').reduce((s,t)=>s+parseFloat(t.amount||0),0);
+  const totalWD   = transactions.filter(t=>t.type==='wd').reduce((s,t)=>s+parseFloat(t.amount||0),0);
+  const modal  = totalDepo - totalWD;
+  const equity = modal + total;
+  const retPct = modal > 0 ? (total / modal * 100) : null;
+
+  const pm = {};
+  trades.forEach(t=>{ if(!pm[t.pair]) pm[t.pair]=0; pm[t.pair]+=(parseFloat(t.pnl)||0); });
+
+  const segs = [];
+  segs.push(`<span class="tk-seg"><b>EKUITAS</b> $${equity.toLocaleString('en-US',{maximumFractionDigits:0})}${retPct!==null?` <span style="color:${retPct>=0?'var(--grn)':'var(--red)'}">${retPct>=0?'+':''}${retPct.toFixed(2)}%</span>`:''}</span>`);
+  segs.push(`<span class="tk-seg"><b>WIN RATE</b> ${wr}%</span>`);
+  Object.entries(pm).forEach(([pair,pnl])=>{
+    segs.push(`<span class="tk-seg"><b>${pair}</b> <span style="color:${pnl>=0?'var(--grn)':'var(--red)'}">${pnl>=0?'+':''}$${Math.abs(pnl).toFixed(0)}</span></span>`);
+  });
+
+  const row = segs.join('<span class="tk-sep">·</span>');
+  track.innerHTML = row + '<span class="tk-sep">·</span>' + row + '<span class="tk-sep">·</span>';
+}
+
 function drawCharts() {
   const ec=$('eqC'),pc=$('prC');if(!ec||!pc)return;
 
@@ -3027,6 +3078,7 @@ function renderAll(){
   safe(calcPsy,            'psy-score');
   safe(updateDash,         'dashboard');
   safe(renderTxn,          'txn');
+  safe(renderTicker,       'ticker');
 }
 
 // ═══════════════════════════════════════════════════════════════
