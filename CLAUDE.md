@@ -56,3 +56,5 @@ All three apps deploy to the same `gh-pages` branch (GitHub Pages project-page r
 - Finance: `.github/workflows/finance_deploy.yml` (no digest — Finance has no external data) — deploys with `destination_dir: finance` → `https://gabfx09.github.io/forex-journal/finance/`
 
 Each app's HTML has a small cross-nav strip (`#xnav`, right under the topbar) linking to the other two live apps.
+
+All four deploy workflows share `concurrency: {group: gh-pages-deploy, cancel-in-progress: false}` — without it, two workflows triggered by the same push (e.g. Forex + Finance both changed in one commit) race to push to `gh-pages` at once and the second one's push gets rejected (ref moved). The shared group makes GitHub Actions queue them instead of running in parallel.

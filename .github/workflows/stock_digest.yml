@@ -3,6 +3,10 @@ name: Stock Digest Harian
 on:
   workflow_dispatch:  # triggered by cron-job.org (07:00 WIB = 00:00 UTC) setiap hari
 
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
 jobs:
   digest:
     runs-on: ubuntu-latest
