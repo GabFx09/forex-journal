@@ -1,0 +1,837 @@
+{
+  "generated": "21 Jul 2026 07:02 WIB",
+  "summary": {
+    "total": 78,
+    "bullish": 22,
+    "bearish": 44,
+    "netral": 12,
+    "avg_score": -0.2398,
+    "overall": "Bearish",
+    "currency_impact": [
+      {
+        "currency": "USD",
+        "sentiment": "Bullish",
+        "score": 0.195,
+        "count": 12
+      },
+      {
+        "currency": "EUR",
+        "sentiment": "Bearish",
+        "score": -0.673,
+        "count": 3
+      },
+      {
+        "currency": "NZD",
+        "sentiment": "Bullish",
+        "score": 0.635,
+        "count": 2
+      },
+      {
+        "currency": "GBP",
+        "sentiment": "Bearish",
+        "score": -0.226,
+        "count": 1
+      },
+      {
+        "currency": "JPY",
+        "sentiment": "Bearish",
+        "score": -0.226,
+        "count": 1
+      },
+      {
+        "currency": "CHF",
+        "sentiment": "Bearish",
+        "score": -0.607,
+        "count": 1
+      },
+      {
+        "currency": "CNY",
+        "sentiment": "Bullish",
+        "score": 0.574,
+        "count": 1
+      }
+    ]
+  },
+  "items": [
+    {
+      "source": "ForexLive",
+      "title": "Pratinjau - ECB terlihat bertahan di 2,25% karena konflik Timur Tengah mengaburkan prospek, kenaikan suku bunga di bulan September masih berpengaruh",
+      "url": "https://investinglive.com/central-banks/preview-ecb-seen-holding-at-2-25-as-middle-east-conflict-clouds-outlook-september-hike-still-in-play/",
+      "summary": "A hold this week would leave the door open for one more move in September, keeping the deposit rate on a gradual path toward the upper end of what TD views as neutral. Markets are likely to parse Lagarde's press conference closely for any shift in how policymakers characterise the economic scenario,",
+      "published": "21 Jul 2026 06:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.5,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Inflasi Selandia Baru melonjak menjadi 4,1% di Kuartal 2, mengalahkan perkiraan dan estimasi RBNZ sendiri, dan masih banyak lagi inflasi yang akan datang!",
+      "url": "https://investinglive.com/central-banks/nz-inflation-jumps-to-4-1-in-q2-beating-forecasts-and-rbnz-s-own-estimate-with-more-to-come/",
+      "summary": "A hotter than expected print raises the odds the RBNZ needs to extend its recently restarted tightening cycle beyond what markets currently price. With the cash rate only just lifted to 2.50% after three years on hold, today's data strengthens the case for follow through hikes and is likely to suppo",
+      "published": "21 Jul 2026 06:25 WIB",
+      "sentiment": "Bullish",
+      "score": 0.731,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Partai yang berkuasa di Korea Selatan menekan regulator untuk melakukan pengawasan leverage ETF yang lebih ketat",
+      "url": "https://investinglive.com/stock-market-update/south-korea-s-ruling-party-presses-regulator-on-stricter-leveraged-etf-oversight/",
+      "summary": "The renewed political pressure comes just days after the FSC tripled the minimum deposit requirement for single stock leveraged ETFs, a move aimed at cooling speculative trading in a corner of the market that has drawn regulatory scrutiny for months. Continued lawmaker attention suggests further tig",
+      "published": "21 Jul 2026 06:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.649,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Dolar Selandia Baru telah naik setelah data inflasi yang lebih tinggi dari perkiraan",
+      "url": "https://investinglive.com/forex/the-new-zealand-dollar-has-been-marked-up-after-higher-than-expected-inflation-data/",
+      "summary": "The data is here, higher than expected: New Zealand Q2 CPI 4.1% y/y (expected 4.0%) and 1.5% q/q (expected 1.4%) We'll get more inflation data later in the session, this time direct from the Reserve Bank of New Zealand: Economic and event calendar in Asia Tuesday, July 21, 2026 - New Zealand inflati",
+      "published": "21 Jul 2026 05:50 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "ForexLive",
+      "title": "IHK Q2 Selandia Baru 4,1% y/y (diperkirakan 4,0%) dan 1,5% q/q (diperkirakan 1,4%)",
+      "url": "https://investinglive.com/news/new-zealand-q2-cpi-y-y-expected-4-0-and-q-q-expected-1-4/",
+      "summary": "I'll have more to come on this separately. For now, just the numebrs! New Zealand Q2 CPI 4.1% y/y expected 4.0%, prior 3.1% 1.5% q/q expected 1.4%, prior 0.9% Non-tradeables +3.4% y/y and +0.6% q/q Tradeables +2.7% q/q ﻿ Earlier: BNZ tips New Zealand inflation to blow past RBNZ's own forecast This a",
+      "published": "21 Jul 2026 05:55 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI - Gubernur Fed Hammack menyampaikan alasan untuk menaikkan suku bunga sebelum pemadaman listrik dimulai",
+      "url": "https://investinglive.com/central-banks/icymi-fed-s-hammack-makes-closing-case-for-higher-rates-before-blackout-begins/",
+      "summary": "Hammack's remarks, delivered on the final day policymakers could speak before the blackout period, raise the odds of a more contentious tone at the July 28-29 meeting and increase the chance of a repeat dissent similar to her April vote. Markets are likely to price in a slightly higher probability o",
+      "published": "21 Jul 2026 05:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.284,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Pratinjau - Deutsche Bank melihat ECB berhenti sejenak minggu ini sebelum kenaikan suku bunga di bulan September",
+      "url": "https://investinglive.com/central-banks/preview-deutsche-bank-sees-ecb-pausing-this-week-before-a-september-rate-rise/",
+      "summary": "A widely expected pause this week would leave the deposit rate at 2.25%, with attention shifting quickly to how the Governing Council frames the balance of risks around energy and inflation. Market pricing for the endpoint of this tightening cycle has swung meaningfully in recent weeks, dropping to ",
+      "published": "21 Jul 2026 04:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Trump menyerang Kanada dengan tarif baru untuk alkohol, produk susu, dan otomotif",
+      "url": "https://investinglive.com/news/trump-hits-canada-with-new-tariffs-on-alcohol-dairy-and-autos/",
+      "summary": "The fresh round of duties lands in the middle of an already fraught USMCA review process and risks reopening a trade fight that had partially cooled earlier this year. Targeting alcohol, dairy and autos hits politically sensitive sectors on both sides of the border, raising the likelihood of a swift",
+      "published": "21 Jul 2026 04:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.233,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "bungkus berita InvestmentLive Americas FX 20 Juli:",
+      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-20-jul/",
+      "summary": "US stocks reverse sharply as Middle East tensions erase early rally CBS News: Nearly 100 U.S. Troops injured in Iranian attacks. Most return to duty Axios: Trump is focusing on making Iran pay for violations of MOU and recent US deaths Crude oil future settle at $82.48 UK names John Healey Chancello",
+      "published": "21 Jul 2026 04:08 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Minyak: AS kembali melancarkan serangan baru terhadap Iran pada hari Senin ketika koalisi Saudi memperingatkan Houthi dengan kekerasan",
+      "url": "https://investinglive.com/commodities/oil-us-launches-new-iran-strikes-again-monday-as-saudi-coalition-warns-houthis-with-force/",
+      "summary": "The intensifying US Iran conflict keeps a geopolitical risk premium firmly embedded in crude prices, with traders weighing the credibility of ceasefire signals against the reality of an expanding air campaign. Brent and WTI both touched fresh one month highs before paring gains on reports of a propo",
+      "published": "21 Jul 2026 03:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.946,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Saham-saham AS berbalik tajam karena ketegangan di Timur Tengah menghapus reli awal",
+      "url": "https://investinglive.com/stocks/us-stocks-reverse-sharply-as-middle-east-tensions-erase-early-rally/",
+      "summary": "U.S. stocks finished lower after a strong start to the session unraveled as geopolitical tensions in the Middle East intensified throughout the trading day. All three major indices opened firmly in positive territory and extended those gains during the morning, but persistent selling pressure emerge",
+      "published": "21 Jul 2026 03:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.631,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "BNZ memperkirakan inflasi Selandia Baru akan melampaui perkiraan RBNZ sendiri",
+      "url": "https://investinglive.com/central-banks/bnz-tips-new-zealand-inflation-to-blow-past-rbnz-s-own-forecast/",
+      "summary": "An inflation print above the RBNZ's 3.9% projection would strengthen the case for further tightening, reinforcing the higher-for-longer rates narrative already building in NZ swap and bond markets. Traders will watch the core measures as closely as the headline figure, given their weight in the Bank",
+      "published": "21 Jul 2026 03:19 WIB",
+      "sentiment": "Bullish",
+      "score": 0.539,
+      "emoji": "🟢"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Kalender ekonomi dan peristiwa di Asia Selasa, 21 Juli 2026 - Data inflasi Selandia Baru",
+      "url": "https://investinglive.com/central-banks/economic-and-event-calendar-in-asia-tuesday-july-21-2026-new-zealand-inflation-data/",
+      "summary": "Q2 held the peak of the global oil price shock and as such the NZ data is expected to sh﻿ow elevated CPI. Given the renewed conflict its not going to be possible to shrug it off and look though it. I'll get a preview of this data posted separately. In brief, any further upside to these numbers beyon",
+      "published": "21 Jul 2026 03:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "CBS News: Hampir 100 Tentara AS terluka dalam serangan Iran. Sebagian besar kembali bertugas",
+      "url": "https://investinglive.com/news/cbs-news-nearly-100-u-s-troops-injured-in-iranian-attacks-most-return-to-duty/",
+      "summary": "CBS News is reporting that nearly 100 U.S. service members have been injured in Iranian attacks on multiple military bases across the Middle East since July 7. According to U.S. officials, most of the injuries were minor concussions or traumatic brain injuries, and 96% of those affected have already",
+      "published": "21 Jul 2026 02:52 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Aksio: Trump berfokus untuk membuat Iran membayar pelanggaran MOU dan kematian yang terjadi di AS baru-baru ini",
+      "url": "https://investinglive.com/news/axios-trump-is-focusing-on-making-iran-pay-for-violations-of-mou-and-recent-us-deaths/",
+      "summary": "Fresh comments from a U.S. official suggest that any potential ceasefire with Iran remains secondary to the Trump administration's broader objective of holding Tehran accountable. According to the official, President Trump is focused on making Iran \"pay\" for alleged violations of the memorandum of u",
+      "published": "21 Jul 2026 02:44 WIB",
+      "sentiment": "Bearish",
+      "score": -0.492,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Ringgit Malaysia: Risiko eksternal membebani MYR terhadap Dolar AS – OCBC",
+      "url": "https://www.fxstreet.com/news/malaysian-ringgit-external-risks-weigh-on-myr-against-us-dollar-ocbc-202607202302",
+      "summary": "OCBC notes USD/MYR has risen on renewed US–Iran tensions and broader risk‑off sentiment, despite stronger Malaysian Gross Domestic Product (GDP) and better foreign equity flows.",
+      "published": "21 Jul 2026 06:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.136,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Berita Sela: Inflasi CPI Selandia Baru naik ke 4,1% YoY di Q2, vs perkiraan 4,0%",
+      "url": "https://www.fxstreet.com/news/breaking-new-zealands-cpi-inflation-climbs-to-41-yoy-in-q2-vs-40-expected-202607202246",
+      "summary": "New Zealand’s Consumer Price Index (CPI) climbed 4.1% YoY in the second quarter (Q2) of 2026, compared with the 3.1% increase seen in the first quarter, according to the latest data published by Statistics New Zealand on Tuesday. The market consensus was for a growth of 4.0% in the reported period.",
+      "published": "21 Jul 2026 05:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.679,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga GBP/JPY: Tren naik terhenti, pembeli mengincar penembusan 219",
+      "url": "https://www.fxstreet.com/news/gbp-jpy-price-forecast-uptrend-pauses-bulls-eye-219-breakout-202607202240",
+      "summary": "The Pound Sterling registers losses against the Japanese Yen for the third consecutive trading day, doon 0.15% as traders digest the first speech of new Prime Minister Andy Burnham, who is naming the first members of his cabinet. The GBP/JPY trades at 218.13 after reaching a daily high of 218.84.",
+      "published": "21 Jul 2026 05:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.226,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Yuan Tiongkok: Perdagangan dalam kisaran yang terbatas dipandu oleh fix terhadap Dolar AS – OCBC",
+      "url": "https://www.fxstreet.com/news/chinese-yuan-rangebound-trade-guided-by-fix-against-us-dollar-ocbc-202607202219",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong see USD/CNH staying broadly rangebound as the People's Bank of China (PBoC) fixing continues to anchor moves. Softer US inflation has recently weighed on the Dollar while firmer fixings allowed some gradual Renminbi (CNH) strength.",
+      "published": "21 Jul 2026 05:19 WIB",
+      "sentiment": "Bullish",
+      "score": 0.574,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga USD/CHF: Rebut kembali 0,8100 karena struktur pasar bullish",
+      "url": "https://www.fxstreet.com/news/usd-chf-price-forecast-reclaims-08100-as-market-structure-is-bullish-202607202146",
+      "summary": "The Swiss Franc loses ground against the Greenback in a trading session marked by CHF weakness amid improving risk appetite. At the time of writing, the USD/CHF trades at 0.8101, up 0.32%.",
+      "published": "21 Jul 2026 04:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.607,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Ringgit Malaysia: Pertumbuhan mendukung kisaran terhadap Dolar AS – Commerzbank",
+      "url": "https://www.fxstreet.com/news/malaysian-ringgit-growth-supports-range-against-us-dollar-commerzbank-202607202137",
+      "summary": "Commerzbank’s Dr. Henry Hao and Moses Lim report that Malaysia’s stronger-than-expected Q2 Gross Domestic Product (GDP) growth and subdued inflation support an unchanged policy rate of 2.75%. USD/MYR has remained within a 4.05–4.10 range, recently edging higher alongside crude oil prices.",
+      "published": "21 Jul 2026 04:37 WIB",
+      "sentiment": "Bullish",
+      "score": 0.622,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Dolar Singapura: Kisaran perdagangan terhadap Dolar AS tetap ada – UOB",
+      "url": "https://www.fxstreet.com/news/singapore-dollar-range-trade-persists-against-us-dollar-uob-202607202056",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD is stuck in a tight range after recent sideways trading, with intraday action expected between 1.2900 and 1.2930. On a 1–3 week horizon, the bank still sees downside risks if 1.2860 breaks, while 1.2930 remains strong resistance.",
+      "published": "21 Jul 2026 03:56 WIB",
+      "sentiment": "Bullish",
+      "score": 0.33,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Peso Meksiko menguat karena selera risiko meningkatkan Peso, membebani USD",
+      "url": "https://www.fxstreet.com/news/mexican-peso-gains-as-risk-appetite-boosts-the-peso-weighs-on-the-usd-202607202052",
+      "summary": "The Mexican Peso gains some ground versus the Greenback on Monday, up by 0.66% as risk appetite improves despite escalating tensions in the Middle East. At the time of writing, the USD/MXN trades at 17.43 after hitting a daily high of 17.55",
+      "published": "21 Jul 2026 03:52 WIB",
+      "sentiment": "Bullish",
+      "score": 0.708,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Forex Hari Ini: Dolar AS menguat seiring meningkatnya ketegangan di Teluk, Minyak dan inflasi Kanada mereda",
+      "url": "https://www.fxstreet.com/news/forex-today-us-dollar-rises-as-gulf-tensions-lift-oil-and-canadian-inflation-cool-202607202043",
+      "summary": "The US Dollar Index (DXY) rises around 0.2% toward 101.00 as higher United States (US) Treasury yields and escalating tensions in the Middle East support the Greenback.",
+      "published": "21 Jul 2026 03:43 WIB",
+      "sentiment": "Bullish",
+      "score": 0.334,
+      "emoji": "🟢"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Minyak Mentah menghabiskan hari Seninnya dengan menjual perang, lalu membeli pos balas dendam",
+      "url": "https://www.fxstreet.com/news/crude-oil-spends-monday-selling-the-war-then-buys-the-revenge-post-202607202028",
+      "summary": "Crude Oil compressed its entire 2026 personality into a single Monday tape.",
+      "published": "21 Jul 2026 03:28 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "FX Asia: Rebound minyak menekan INR dan THB – MUFG",
+      "url": "https://www.fxstreet.com/news/asia-fx-oil-rebound-pressures-inr-and-thb-mufg-202607202012",
+      "summary": "MUFG’s Lloyd Chan highlights that higher Oil prices and persistent inflation risks are weighing on Asian currencies, with the Indian Rupee (INR) and Thai Baht (THB) underperforming against the US Dollar.",
+      "published": "21 Jul 2026 03:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.527,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Brent: Geopolitik mendukung minyak mentah dan retakan – Societe Generale",
+      "url": "https://www.fxstreet.com/news/brent-geopolitics-support-crude-and-cracks-societe-generale-202607201950",
+      "summary": "Societe Generale’s Michael Haigh and Jeremy Sellem highlight that Brent has surged as US-Iran tensions, Trump’s rhetoric and Houthi blockade threats lift risk premia. Crack spreads in Asia and US have outperformed as refined products stay tighter than crude.",
+      "published": "21 Jul 2026 02:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.952,
+      "emoji": "🔴"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Emas melemah karena konflik Timur Tengah meningkatkan Dolar AS",
+      "url": "https://www.fxstreet.com/news/gold-edges-lower-as-middle-east-conflict-boosts-the-us-dollar-202607201913",
+      "summary": "Gold price edges down some 0.19% on Monday as hostilities between the US and Iran extended, following a short-lived truce that began after both countries agreed to a ceasefire, which was broken nine days ago. At the time of writing, XAU/USD trades at $4,011.",
+      "published": "21 Jul 2026 02:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.743,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "AS mengutuk tindakan Tiongkok terhadap angkatan laut Filipina di Laut Cina Selatan",
+      "url": "https://www.investing.com/news/stock-market-news/us-condemns-china-actions-against-philippine-navy-in-south-china-sea-93CH-4801793",
+      "summary": "",
+      "published": "21 Jul 2026 06:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.431,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Pengiriman Airbus H1 naik 15%, berada di jalur yang tepat untuk memenuhi tujuan TA- CEO kepada CNBC",
+      "url": "https://www.investing.com/news/stock-market-news/airbus-h1-deliveries-up-15-on-track-to-meet-fy-goal-ceo-to-cnbc-93CH-4801792",
+      "summary": "",
+      "published": "21 Jul 2026 06:36 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Hakim AS menyetujui penyelesaian gugatan hak cipta Anthropic senilai $1,5 miliar",
+      "url": "https://www.investing.com/news/stock-market-news/us-judge-approves-anthropics-15-billion-settlement-of-copyright-lawsuit-4801706",
+      "summary": "",
+      "published": "21 Jul 2026 06:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.202,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Inflasi Q2 Selandia Baru meningkat lebih dari perkiraan sebesar 4,1%",
+      "url": "https://www.investing.com/news/stock-market-news/new-zealand-q2-inflation-rises-more-than-expected-at-41-93CH-4801789",
+      "summary": "",
+      "published": "21 Jul 2026 06:30 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Trump mengatakan dia melakukan 'percakapan yang sangat baik' dengan Perdana Menteri Inggris yang baru",
+      "url": "https://www.investing.com/news/stock-market-news/trump-says-he-had-very-good-conversation-with-new-uk-prime-minister-93CH-4801786",
+      "summary": "",
+      "published": "21 Jul 2026 06:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.44,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Paramount Skydance memerintahkan untuk menghentikan akuisisi Warner Bros hingga 3 Agustus",
+      "url": "https://www.investing.com/news/stock-market-news/judge-orders-paramount-to-temporarily-pause-warner-bros-acquisition-4801471",
+      "summary": "",
+      "published": "21 Jul 2026 06:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "CEO Airbus mengatakan pengiriman H1 konsisten dengan target tahunan",
+      "url": "https://www.investing.com/news/stock-market-news/airbus-ceo-says-h1-deliveries-consistent-with-annual-goal-4801783",
+      "summary": "",
+      "published": "21 Jul 2026 06:01 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Indeks Wall Street melemah, dengan fokus pada Iran dan musim laporan keuangan",
+      "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-edge-higher-ahead-of-this-weeks-megacap-earnings-4800229",
+      "summary": "",
+      "published": "21 Jul 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Farnborough dibuka dengan pesanan Boeing, Airbus, dan fokus pertahanan udara",
+      "url": "https://www.investing.com/news/stock-market-news/conflicts-aircraft-orders-in-focus-as-farnborough-airshow-kicks-off-4799790",
+      "summary": "",
+      "published": "21 Jul 2026 06:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.103,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "B&R Technology Merger Corp. menetapkan harga IPO $325 juta di Nasdaq",
+      "url": "https://www.investing.com/news/stock-market-news/br-technology-merger-corp-prices-325m-ipo-on-nasdaq-432SI-4801781",
+      "summary": "",
+      "published": "21 Jul 2026 05:58 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Investing.com Economy",
+      "title": "Penjualan mobil Tiongkok di Meksiko melonjak meskipun ada tarif baru",
+      "url": "https://www.investing.com/news/economic-indicators/chinese-car-sales-in-mexico-surge-despite-new-tariffs-4800312",
+      "summary": "",
+      "published": "20 Jul 2026 17:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Investing.com Economy",
+      "title": "PDB Ukraina tumbuh 0,8% pada bulan Mei, laporan kementerian perekonomian",
+      "url": "https://www.investing.com/news/economic-indicators/ukraines-gdp-grows-08-in-may-economy-ministry-reports-93CH-4800276",
+      "summary": "",
+      "published": "20 Jul 2026 17:06 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Emas Stabil seiring Pedagang Mencermati Perang Timur Tengah Terkait Petunjuk Inflasi",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/gold-steady-as-traders-watch-middle-east-war-for-inflation-clues",
+      "summary": "Gold was steady as traders monitored a raft of developments in the Middle East conflict for clues on the energy price impact on inflation.",
+      "published": "21 Jul 2026 06:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.785,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Inflasi Selandia Baru yang Lebih Cepat Mendukung Kenaikan Suku Bunga Lebih Banyak",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/new-zealand-inflation-accelerates-to-4-1-on-soaring-fuel-costs",
+      "summary": "New Zealand’s annual inflation accelerated to the fastest pace in more than two years, fanned by soaring fuel prices and bolstering the case for the Reserve Bank to execute back-to-back interest-rate increases.",
+      "published": "21 Jul 2026 05:49 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Minyak Mempertahankan Kenaikan, Obligasi Turun karena Kekhawatiran Inflasi: Pembungkus Pasar",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/stock-market-today-dow-s-p-live-updates",
+      "summary": "Oil held near its highest close since mid-June, weighing on stocks and Treasuries, as an escalation in Middle East hostilities rekindled worries about inflation.",
+      "published": "21 Jul 2026 05:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.572,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 20 Juli",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/latest-oil-market-news-and-analysis-for-july-20",
+      "summary": "Oil held a two-day gain as the US and Iran continued hostilities in the Middle East, while Yemen’s Houthi militants threatened to blockade Saudi Arabia’s maritime traffic in the Red Sea.",
+      "published": "21 Jul 2026 05:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.322,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kioxia Bulls Mengatasi Volatilitas Dengan Target 130% Di Atas Pasar",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/kioxia-bulls-ride-out-volatility-with-targets-130-above-market",
+      "summary": "Analysts are maintaining bullish views on Kioxia Holdings Inc. despite a deepening share price correction, saying the stock is likely to resume its upward trajectory once supply-demand conditions improve.",
+      "published": "21 Jul 2026 05:37 WIB",
+      "sentiment": "Bullish",
+      "score": 0.173,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Goldman Menjual Preferred senilai $2,5 Miliar Setelah Spread Rendah",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/goldman-offers-preferred-stock-days-after-post-crisis-spread-low",
+      "summary": "Goldman Sachs Group Inc. priced new preferred shares Monday, just days after a metric determining risk and value in these securities hit its lowest level since the global financial crisis.",
+      "published": "20 Jul 2026 19:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.785,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "DoubleLine Mengatakan Imbal Hasil Obligasi Lebih Tinggi untuk Membantu Fed Mempertahankan Suku Bunga Tetap Stabil",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/doubleline-says-higher-bond-yields-to-help-fed-keep-rates-steady",
+      "summary": "DoubleLine is positioning in shorter-dated government bonds on the view that Kevin Warsh’s credibility with investors will help allow Federal Reserve officials to keep interest rates steady this year.",
+      "published": "20 Jul 2026 23:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.772,
+      "emoji": "🟢"
+    },
+    {
+      "source": "Google News Forex",
+      "title": "Tekanan anggaran di Indonesia melipatgandakan dilema kebijakan moneter - East Asia Forum",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWkJzY1AwWEJrV0g0eW4xaENjekJwNk9IR2l4eU45NXZMQ1lmVlBDSjNvdnUxclVOYWV5MmR0LWVMSDQ5UzJCLVdvelNsRi1Ga3dPcHFSS2ExMjZVbjdxd0h6MndjX0RkM29vdXNWT3BwalBJRnJYM1oxMDUtLW03UUtqLWpvRXdTZm1LblpjeGhsS1pEbTBzVFp3YmlHSm5K?oc=5",
+      "summary": "Indonesia’s budget squeeze multiplies monetary policy dilemmas East Asia Forum",
+      "published": "20 Jul 2026 19:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump mengenakan tarif 50% pada impor Kanada",
+      "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The duties mark a major escalation in trade tensions between the North American neighbours.",
+      "published": "21 Jul 2026 05:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "AS melancarkan serangan baru terhadap Iran, ketika Trump memperingatkan akan adanya pembalasan atas kematian tentara",
+      "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+      "summary": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
+      "published": "21 Jul 2026 04:09 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Houthi Yaman mengumumkan 'embargo maritim' terhadap Arab Saudi",
+      "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
+      "published": "21 Jul 2026 04:30 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "BBC World",
+      "title": "Sepuluh orang tewas ketika serangan Rusia terhadap kapal dagang di Laut Hitam semakin intensif",
+      "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say.",
+      "published": "20 Jul 2026 23:10 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "Kesepakatan merger antara Paramount dan Warner Bros dihentikan oleh hakim",
+      "url": "https://www.bbc.co.uk/news/articles/c5ywxy41vg6o?at_medium=RSS&at_campaign=rss",
+      "summary": "US court temporarily stops Paramount and Warner Bros merging after 12 states launched legal action.",
+      "published": "21 Jul 2026 02:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.103,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC World",
+      "title": "Hamas menunjuk Khalil al-Hayya sebagai pemimpin baru secara keseluruhan",
+      "url": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Palestinian armed group's Qatar-based chief negotiator replaces Yahya Sinwar, who was killed by Israeli forces in Gaza in 2024.",
+      "published": "20 Jul 2026 21:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.75,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC World",
+      "title": "JD Vance mengatakan istri Usha dan putranya 'bahagia dan sehat' setelah kelahiran anak keempat",
+      "url": "https://www.bbc.co.uk/news/articles/cj63kngxpxpo?at_medium=RSS&at_campaign=rss",
+      "summary": "The couple welcomed their fourth child, Alec Neel Vance, on Sunday morning.",
+      "published": "20 Jul 2026 18:28 WIB",
+      "sentiment": "Bullish",
+      "score": 0.832,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Generasi 20-an bertaruh besar pada saham teknologi",
+      "url": "https://www.bbc.co.uk/news/articles/c20yz9v1llro?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC hears from people about the risks and rewards of investing in technology shares.",
+      "published": "21 Jul 2026 05:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.334,
+      "emoji": "🟢"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Keuntungan Ryanair turun karena perang Iran menurunkan jumlah penumpang dan menaikkan biaya bahan bakar",
+      "url": "https://www.bbc.co.uk/news/articles/cn8nldwj12jo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Irish airline said oil prices had increased costs meanwhile Brent crude surpassed $90.",
+      "published": "20 Jul 2026 17:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.771,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Kapal perang Rusia melakukan latihan penembakan di lepas pantai Plymouth",
+      "url": "https://www.bbc.co.uk/news/articles/ce970jryrk3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Neustrashimy's live-fire exercise took place in international waters and lasted for 30 minutes.",
+      "published": "21 Jul 2026 04:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Kebakaran hutan di Kanada berkobar ketika Trump kembali memperingatkan Carney atas 'meracuni' udara AS",
+      "url": "https://www.bbc.co.uk/news/articles/crl7n6j7gr3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president raised the issue with the the Canadian prime minister while the pair attended the World Cup Final in New Jersey.",
+      "published": "21 Jul 2026 01:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.832,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Tersangka didakwa melakukan serangan fatal terhadap politisi Inggris Ann Widdecombe",
+      "url": "https://www.aljazeera.com/news/2026/7/20/suspect-charged-in-fatal-attack-on-uk-politician-ann-widdecombe?traffic_source=rss",
+      "summary": "Police say a possible political motive is under investigation in the killing of the Reform UK figure.",
+      "published": "21 Jul 2026 06:21 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Perang terhadap Iran: Perang berlanjut 30 hari setelah MoU",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/aje-onl-nf_war-on-iran-back-to-square-one-200726?traffic_source=rss",
+      "summary": "30 days into the US-Iran MoU the worst fighting in months has erupted threatening to unravel the ceasefire.",
+      "published": "21 Jul 2026 05:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.957,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump menolak ancaman Mamdani untuk menangkap Netanyahu dari Israel karena kejahatan perang",
+      "url": "https://www.aljazeera.com/news/2026/7/20/trump-rejects-mamdani-threat-to-arrest-israels-netanyahu-for-war-crimes?traffic_source=rss",
+      "summary": "US president insists Netanyahu will not be arrested, despite ICC warrant.",
+      "published": "21 Jul 2026 04:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.965,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Warga Gaza mempertimbangkan pemilihan pemimpin baru Hamas",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/gaza-residents-weigh-in-on-election-of-new-hamas-leader?traffic_source=rss",
+      "summary": "Gaza residents weigh in on election of new Hamas leader",
+      "published": "21 Jul 2026 03:53 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Bagaimana Zelensky akan menangani krisis politik yang berkembang di dalam negeri?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/20/how-will-zelenskyy-handle-the-growing-political-crisis-at-home?traffic_source=rss",
+      "summary": "Ukraine strikes Russian oil sites after major missile attack, as President Zelenskyy faces crisis over sacked minister.",
+      "published": "21 Jul 2026 03:50 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Ortega menegaskan tidak ada lagi pemilu di Nikaragua",
+      "url": "https://www.aljazeera.com/news/2026/7/20/ortega-insists-no-more-elections-for-nicaragua?traffic_source=rss",
+      "summary": "The Central American state's longtime leader intends to block the opposition from challenging his rule.",
+      "published": "21 Jul 2026 03:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.542,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Mengapa harga bensin naik lebih cepat dibandingkan harga minyak? Salahkan 'retaknya'.",
+      "url": "https://www.marketwatch.com/story/why-are-gasoline-prices-rising-faster-than-oil-prices-blame-it-on-the-crack-22b454e7?mod=mw_rss_topstories",
+      "summary": "The spread between the cost of barrels of gasoline and crude oil — known as the “crack spread” — has widened sharply.",
+      "published": "21 Jul 2026 05:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.727,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "AS menyerang Kanada dengan tarif baru yang ketat, sehingga meningkatkan ketegangan perdagangan",
+      "url": "https://www.marketwatch.com/story/u-s-hits-canada-with-stiff-new-tariffs-escalating-trade-tensions-4a97065f?mod=mw_rss_topstories",
+      "summary": "The Trump administration on Monday said it would slap 50% tariffs on some goods imported from Canada, in an effort to end what it sees as discriminatory trade practices by Ottawa against the U.S. automobile, dairy and alcohol industries.",
+      "published": "21 Jul 2026 04:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.273,
+      "emoji": "🔴"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Harga minyak global berada pada level tertinggi dalam satu bulan meskipun ada usulan gencatan senjata baru dari Iran, karena blokade terhadap Arab Saudi oleh kelompok Houthi di Yaman membuat pasar gelisah.",
+      "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
+      "summary": "Oil prices settled at one-month highs in volatile trading on Monday as traders weighed escalating geopolitical tensions following a fresh barrage of strikes across the Middle East over the weekend against reports of a new ceasefire proposal between the U.S. and Iran.",
+      "published": "21 Jul 2026 04:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.36,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC Economy",
+      "title": "Jamie Dimon mengatakan pasar meremehkan risiko dan dia tidak akan membeli saham atau Treasury dengan harga saat ini",
+      "url": "https://www.cnbc.com/2026/07/20/jpmorgan-chase-ceo-jamie-dimon-market-risk.html",
+      "summary": "Comments from JPMorgan Chase CEO Jamie Dimon contrast with investors' recent willingness to look past wars, tariffs and other shocks.",
+      "published": "21 Jul 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC Economy",
+      "title": "Penggabungan Paramount dan Warner Bros. dilakukan dengan perintah penahanan sementara",
+      "url": "https://www.cnbc.com/2026/07/20/paramount-wbd-merger-delay.html",
+      "summary": "A California judge granted a temporary restraining order as part of the lawsuit brought by state attorneys general due to antitrust concerns.",
+      "published": "21 Jul 2026 02:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.054,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC Economy",
+      "title": "Apa yang perlu diketahui tentang terapi penggantian testosteron karena militer AS berencana menguji pasukannya",
+      "url": "https://www.cnbc.com/2026/07/20/what-to-know-about-testosterone-replacement-therapy.html",
+      "summary": "While some research has shown benefits for patients who qualify, questions remain about the therapy's long-term risks and use among men without a medical need.",
+      "published": "20 Jul 2026 22:40 WIB",
+      "sentiment": "Netral",
+      "score": 0.048,
+      "emoji": "⚪"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump mengenakan tarif 50% pada barang-barang tertentu Kanada atas dugaan diskriminasi perdagangan",
+      "url": "https://www.cnbc.com/2026/07/20/trump-tariffs-canada-trade.html",
+      "summary": "Canada's relationship with the U.S. has frayed amid Trump's tariff-heavy agenda and vocal displeasure with the nations' trilateral trade pact with Mexico.",
+      "published": "21 Jul 2026 05:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.178,
+      "emoji": "🟢"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Harga minyak naik setelah Trump mengatakan Iran akan membayar pembunuhan anggota militer AS",
+      "url": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html",
+      "summary": "Oil prices have surged around 20% this month as fighting between the U.S. and Iran has sharply escalated.",
+      "published": "21 Jul 2026 02:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.727,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump mengatakan Netanyahu tidak akan ditangkap di New York, dan menolak Mamdani",
+      "url": "https://www.cnbc.com/2026/07/20/trump-netanyahu-arrest-mamdani-new-york-israel.html",
+      "summary": "Israel's prime minister, Benjamin Netanyahu, is the target of an arrest warrant issued by the International Criminal Court related to the war on Gaza.",
+      "published": "21 Jul 2026 04:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.879,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Para pemilih mewaspadai kepemilikan pemerintah di perusahaan-perusahaan karena pemerintahan Trump mengambil alih kepemilikan saham",
+      "url": "https://www.cnbc.com/2026/07/20/trump-government-company-ownership-americans-wary-cnbc-poll.html",
+      "summary": "About half of voters believe it isn't appropriate for the U.S. government to own stakes in companies, a new CNBC poll found.",
+      "published": "20 Jul 2026 20:14 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Saham Archer naik 20% lebih tinggi karena perusahaan meluncurkan pesawat militer dengan Anduril",
+      "url": "https://www.cnbc.com/2026/07/20/archer-thunder-military-craft-anduril.html",
+      "summary": "Archer and its eVTOL peers are racing for FAA certification to start flying their air taxis commercially.",
+      "published": "21 Jul 2026 03:02 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪"
+    },
+    {
+      "source": "CNBC World",
+      "title": "CEO Boeing mengatakan perusahaan masih memerlukan 'beberapa tahun lagi' untuk memperbaiki keuangan sebelum jet baru",
+      "url": "https://www.cnbc.com/2026/07/20/boeing-ceo-ortberg-airbus-farnborough-737max.html",
+      "summary": "CEO Kelly Ortberg signalled Boeing is focused more on stabilizing its existing business than rushing to develop a successor to its bestselling 737 MAX.",
+      "published": "20 Jul 2026 21:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.542,
+      "emoji": "🟢"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Dari 'Super El Niño' hingga gelombang panas ekstrem di Eropa: Bagaimana guncangan cuaca tahun ini mengguncang pasar komoditas",
+      "url": "https://www.cnbc.com/2026/07/20/from-super-el-nio-to-europes-heatwave-how-to-trade-extreme-weather.html",
+      "summary": "Markets are underestimating the impact of climate volatility on a range of asset classes, commodity strategists say.",
+      "published": "20 Jul 2026 12:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.586,
+      "emoji": "🟢"
+    }
+  ]
+}

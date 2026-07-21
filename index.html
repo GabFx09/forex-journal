@@ -1,0 +1,3188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ForexJournal Pro — Google Sheets Sync</title>
+<meta name="theme-color" content="#F0B429">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ForexJournal">
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════════
+   FOREX JOURNAL PRO — PREMIUM DARK THEME
+   ═══════════════════════════════════════════════ */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  /* Backgrounds */
+  --bg:#07101e;
+  --surf:#0c1626;
+  --card:#101f35;
+  --card2:#122038;
+  --bdr:rgba(255,255,255,.07);
+  --bdr2:rgba(255,255,255,.13);
+
+  /* Brand */
+  --gold:#F0B429;--gold2:#ffd166;
+  --gdim:rgba(240,180,41,.10);--gdim2:rgba(240,180,41,.05);
+
+  /* Status */
+  --grn:#22c55e;--red:#ef4444;--blu:#60a5fa;--pur:#a78bfa;
+  --grn-d:rgba(34,197,94,.11);--red-d:rgba(239,68,68,.11);
+  --blu-d:rgba(96,165,250,.11);
+
+  /* Text */
+  --mut:#3d4f63;--sub:#64748b;--txt:#d1dce9;--txt2:#f0f6ff;
+
+  /* Cyan accent (terminal/pro feel) */
+  --cyan:#06b6d4;--cyan-d:rgba(6,182,212,.1);
+
+  /* Gradients */
+  --g-gold:linear-gradient(135deg,#F0B429 0%,#f97316 100%);
+  --g-grn:linear-gradient(135deg,#22c55e,#10b981);
+  --g-blu:linear-gradient(135deg,#60a5fa,#818cf8);
+  --g-cyan:linear-gradient(135deg,#06b6d4,#3b82f6);
+  --g-card:linear-gradient(145deg,#101f35,#0e1c30);
+
+  /* Shadows */
+  --sh-sm:0 2px 10px rgba(0,0,0,.45);
+  --sh-md:0 6px 24px rgba(0,0,0,.55);
+  --sh-gold:0 4px 22px rgba(240,180,41,.22);
+
+  --mono:'JetBrains Mono','Courier New',monospace;
+  --sans:'Inter',Arial,sans-serif;
+}
+
+html,body{
+  height:100%;overflow:hidden;
+  background:var(--bg);
+  color:var(--txt);font-family:var(--sans);
+}
+body::before{
+  content:'';position:fixed;inset:0;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% 0%,rgba(240,180,41,.04) 0%,transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 100%,rgba(96,165,250,.03) 0%,transparent 60%);
+  pointer-events:none;z-index:0;
+}
+#app{display:flex;flex-direction:column;height:100vh;position:relative;z-index:1}
+
+/* ── TOPBAR ─────────────────────────────────── */
+#tb{
+  background:linear-gradient(135deg,#0c1828 0%,#101f35 60%,#091420 100%);
+  border-bottom:1px solid rgba(240,180,41,.14);
+  padding:0 20px;height:54px;
+  display:flex;align-items:center;justify-content:space-between;flex-shrink:0;
+  box-shadow:0 2px 24px rgba(0,0,0,.55);
+  position:relative;z-index:10;
+}
+#tb::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 0%,rgba(240,180,41,.35) 40%,rgba(240,180,41,.35) 60%,transparent 100%);
+}
+.li{display:flex;align-items:center;gap:12px}
+.lic{
+  width:36px;height:36px;
+  background:var(--g-gold);
+  border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:var(--sh-gold);
+  flex-shrink:0;
+}
+.lt{font-size:14px;font-weight:700;color:var(--txt2);letter-spacing:-.01em}
+.ls{font-size:10px;color:var(--sub);letter-spacing:.04em;margin-top:1px}
+
+/* ── SYNC BAR ───────────────────────────────── */
+#sb{
+  background:rgba(5,11,22,.95);
+  border-bottom:1px solid rgba(240,180,41,.08);
+  padding:6px 20px;
+  display:flex;align-items:center;justify-content:space-between;flex-shrink:0;
+  font-size:11px;
+}
+.sbl{display:flex;align-items:center;gap:10px}
+#sdot{width:7px;height:7px;border-radius:50%;background:var(--mut);flex-shrink:0;transition:.3s}
+.sdot-ok{background:var(--grn)!important;box-shadow:0 0 8px var(--grn)}
+.sdot-busy{background:var(--gold)!important;animation:pulse 1s infinite}
+.sdot-err{background:var(--red)!important;box-shadow:0 0 6px var(--red)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.sp-sm{width:12px;height:12px;border:2px solid rgba(240,180,41,.2);border-top-color:var(--gold);border-radius:50%;animation:spin .7s linear infinite;flex-shrink:0;display:none}
+#sb.syncing .sp-sm{display:inline-block}
+#sb.syncing #sdot{display:none}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.28}}
+.sbr{display:flex;gap:6px}
+
+/* ── NAV ────────────────────────────────────── */
+#nav{
+  background:var(--surf);
+  border-bottom:1px solid var(--bdr);
+  display:flex;overflow-x:auto;scrollbar-width:none;flex-shrink:0;
+  padding:0 6px;
+}
+#nav::-webkit-scrollbar{display:none}
+.nb{
+  padding:12px 15px;
+  font-size:11.5px;font-weight:500;
+  color:var(--sub);
+  border:none;background:none;cursor:pointer;
+  white-space:nowrap;
+  border-bottom:2px solid transparent;
+  transition:all .2s;
+  letter-spacing:.01em;
+  font-family:var(--sans);
+  position:relative;
+}
+.nb.on{color:var(--gold);border-bottom-color:var(--gold);font-weight:600}
+.nb.on::after{
+  content:'';position:absolute;bottom:-1px;left:12%;right:12%;height:2px;
+  background:var(--g-gold);border-radius:2px 2px 0 0;
+  filter:blur(4px);opacity:.5;
+}
+.nb:hover:not(.on){color:var(--txt);background:rgba(255,255,255,.03)}
+
+/* ── MAIN SCROLL AREA ───────────────────────── */
+#main{
+  flex:1;overflow-y:auto;
+  scrollbar-width:thin;
+  scrollbar-color:rgba(240,180,41,.18) transparent;
+}
+#main::-webkit-scrollbar{width:4px}
+#main::-webkit-scrollbar-track{background:transparent}
+#main::-webkit-scrollbar-thumb{background:rgba(240,180,41,.18);border-radius:2px}
+.tab{display:none;padding:20px}.tab.on{display:block}
+
+/* ── SETUP MODAL ────────────────────────────── */
+#mo{
+  position:fixed;inset:0;
+  background:rgba(0,0,0,.88);
+  z-index:9000;display:none;align-items:center;justify-content:center;padding:16px;
+  backdrop-filter:blur(6px);
+}
+.mb{
+  background:linear-gradient(145deg,#101f35,#0c1828);
+  border:1px solid rgba(240,180,41,.15);
+  border-radius:18px;
+  max-width:500px;width:100%;max-height:90vh;overflow-y:auto;
+  box-shadow:0 20px 60px rgba(0,0,0,.8),0 0 40px rgba(240,180,41,.06);
+}
+.mh{
+  background:linear-gradient(145deg,#091420,#0d1a2c);
+  border-radius:18px 18px 0 0;
+  padding:30px 28px 24px;
+  border-bottom:1px solid rgba(240,180,41,.1);
+  text-align:center;position:relative;overflow:hidden;
+}
+.mh::before{
+  content:'';position:absolute;top:-50px;left:50%;transform:translateX(-50%);
+  width:240px;height:240px;
+  background:radial-gradient(circle,rgba(240,180,41,.08) 0%,transparent 70%);
+  pointer-events:none;
+}
+.mc{padding:20px 24px}
+.sc{
+  background:rgba(255,255,255,.025);
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:10px;padding:14px;margin-bottom:9px;
+  transition:border-color .2s;
+}
+.sc:hover{border-color:rgba(240,180,41,.2)}
+.sh{display:flex;align-items:center;gap:10px;margin-bottom:7px}
+.sn{
+  width:26px;height:26px;border-radius:50%;
+  background:var(--g-gold);
+  color:#060e1a;font-size:11px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  box-shadow:0 2px 10px rgba(240,180,41,.35);
+}
+.st{font-size:12px;font-weight:600;color:var(--txt2)}
+.sd{font-size:11px;color:var(--sub);line-height:1.75;padding-left:36px}
+.sd b{color:var(--txt)}.sd a{color:var(--blu)}
+.ui{
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:8px;padding:9px 12px;
+  color:var(--txt);font-size:12px;width:100%;margin-top:8px;
+  font-family:var(--mono);
+  transition:border-color .2s,box-shadow .2s;
+}
+.ui:focus{outline:none;border-color:rgba(240,180,41,.5);box-shadow:0 0 0 3px rgba(240,180,41,.09)}
+.mf{padding:16px 24px;border-top:1px solid var(--bdr);display:flex;gap:8px;justify-content:flex-end}
+
+/* ── GRID LAYOUTS ───────────────────────────── */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+
+/* ── CARDS ──────────────────────────────────── */
+.card{
+  background:var(--g-card);
+  border:1px solid var(--bdr);
+  border-radius:14px;padding:16px;margin-bottom:14px;
+  position:relative;overflow:hidden;
+  transition:border-color .22s,box-shadow .22s;
+}
+.card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.05),transparent);
+}
+.card:hover{border-color:rgba(240,180,41,.14);box-shadow:0 4px 20px rgba(0,0,0,.3)}
+
+/* ── SECTION TITLE ──────────────────────────── */
+.ct{
+  font-size:10px;font-weight:700;
+  color:var(--sub);
+  text-transform:uppercase;letter-spacing:.1em;
+  margin-bottom:14px;
+  display:flex;align-items:center;gap:7px;
+}
+.ct::before{
+  content:'';width:3px;height:13px;
+  background:var(--g-gold);
+  border-radius:2px;flex-shrink:0;
+}
+
+/* ── METRIC CARDS ───────────────────────────── */
+.met{
+  background:linear-gradient(145deg,#101f35,#0d1a2c);
+  border:1px solid var(--bdr);
+  border-radius:14px;padding:16px;
+  position:relative;overflow:hidden;
+  transition:all .22s;
+}
+.met::after{
+  content:'';position:absolute;
+  top:-16px;right:-16px;
+  width:70px;height:70px;
+  background:radial-gradient(circle,rgba(240,180,41,.07) 0%,transparent 70%);
+  pointer-events:none;
+}
+.met:hover{border-color:rgba(240,180,41,.22);transform:translateY(-2px);box-shadow:var(--sh-md)}
+.ml{font-size:9.5px;color:var(--sub);margin-bottom:8px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.mv{font-size:22px;font-weight:700;font-family:var(--mono);letter-spacing:-.02em}
+.up{color:var(--grn)}.dn{color:var(--red)}.go{color:var(--gold)}.nt{color:var(--txt2)}
+.ms{font-size:10px;color:var(--mut);margin-top:5px}
+
+/* ── FORM ELEMENTS ──────────────────────────── */
+label.lb{
+  font-size:9.5px;color:var(--sub);
+  display:block;margin-bottom:5px;
+  font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+}
+input,select,textarea{
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:8px;padding:8px 11px;
+  color:var(--txt);font-size:12px;width:100%;
+  font-family:var(--sans);
+  transition:border-color .2s,box-shadow .2s,background .2s;
+}
+input:focus,select:focus,textarea:focus{
+  outline:none;
+  border-color:rgba(240,180,41,.5);
+  background:rgba(240,180,41,.04);
+  box-shadow:0 0 0 3px rgba(240,180,41,.09);
+}
+input:hover:not(:focus),select:hover:not(:focus),textarea:hover:not(:focus){
+  border-color:rgba(255,255,255,.14);
+}
+select option{background:#0c1626;color:var(--txt)}
+textarea{resize:vertical;min-height:60px;line-height:1.6}
+.fg{display:flex;flex-direction:column;gap:5px;margin-bottom:10px}
+.fr{display:grid;gap:10px;margin-bottom:10px}
+.fr2{grid-template-columns:1fr 1fr}.fr3{grid-template-columns:repeat(3,1fr)}
+
+/* ── BUTTONS ────────────────────────────────── */
+.btn{
+  padding:8px 18px;border-radius:8px;border:none;
+  font-size:12px;font-weight:600;cursor:pointer;
+  transition:all .18s;font-family:var(--sans);letter-spacing:.01em;
+}
+.bg{
+  background:var(--g-gold);color:#060e1a;
+  box-shadow:0 2px 14px rgba(240,180,41,.3);
+}
+.bg:hover{transform:translateY(-1px);box-shadow:0 5px 22px rgba(240,180,41,.42)}
+.bg:active{transform:translateY(0);box-shadow:0 2px 10px rgba(240,180,41,.25)}
+.bh{
+  background:rgba(255,255,255,.05);color:var(--sub);
+  border:1px solid rgba(255,255,255,.08);
+}
+.bh:hover{color:var(--txt);background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.15)}
+.bb{
+  background:rgba(96,165,250,.09);color:var(--blu);
+  border:1px solid rgba(96,165,250,.22);
+}
+.bb:hover{background:rgba(96,165,250,.16);border-color:rgba(96,165,250,.38)}
+.br{
+  background:rgba(239,68,68,.08);color:var(--red);
+  border:1px solid rgba(239,68,68,.2);
+}
+.br:hover{background:rgba(239,68,68,.15);border-color:rgba(239,68,68,.35)}
+.bsm{
+  padding:3px 9px;font-size:10px;border-radius:5px;border:none;cursor:pointer;
+  background:rgba(239,68,68,.09);color:var(--red);transition:.15s;font-family:var(--sans);
+}
+.bsm:hover{background:rgba(239,68,68,.2)}
+.fe{display:flex;justify-content:flex-end;gap:8px;margin-top:14px}
+.fb{display:flex;justify-content:space-between;align-items:center}
+
+/* ── DIVIDER ────────────────────────────────── */
+.dv{
+  height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.07),transparent);
+  margin:14px 0;
+}
+
+/* ── BADGES ─────────────────────────────────── */
+.bdg{display:inline-block;padding:3px 9px;border-radius:20px;font-size:10px;font-weight:600;letter-spacing:.03em}
+.bw{background:rgba(34,197,94,.1);color:var(--grn);border:1px solid rgba(34,197,94,.2)}
+.bl{background:rgba(239,68,68,.1);color:var(--red);border:1px solid rgba(239,68,68,.2)}
+.bo{background:rgba(96,165,250,.1);color:var(--blu);border:1px solid rgba(96,165,250,.2)}
+.bg2{background:rgba(240,180,41,.1);color:var(--gold);border:1px solid rgba(240,180,41,.2)}
+
+/* ── TABLE ──────────────────────────────────── */
+.tbl{width:100%;border-collapse:collapse;font-size:11px}
+.tbl th{
+  font-size:9px;color:var(--mut);font-weight:700;
+  text-align:left;padding:9px 10px;
+  border-bottom:1px solid var(--bdr);
+  text-transform:uppercase;letter-spacing:.09em;white-space:nowrap;
+  background:rgba(255,255,255,.018);
+}
+.tbl td{
+  padding:9px 10px;
+  border-bottom:1px solid rgba(255,255,255,.03);
+  color:var(--sub);font-size:11px;vertical-align:middle;
+}
+.tbl tr:hover td{background:rgba(255,255,255,.022);color:var(--txt)}
+.tbl tr:last-child td{border-bottom:none}
+.tw{color:var(--grn)!important;font-weight:600}
+.tl{color:var(--red)!important;font-weight:600}
+.ts{color:var(--txt2)!important;font-weight:700}
+
+/* ── PROGRESS BARS ──────────────────────────── */
+.pb{background:rgba(255,255,255,.06);border-radius:6px;height:5px;overflow:hidden;margin-top:6px}
+.pf{height:100%;border-radius:6px;background:var(--g-gold);box-shadow:0 0 8px rgba(240,180,41,.35)}
+.pfg{background:var(--g-grn);box-shadow:0 0 8px rgba(34,197,94,.25)}
+.pfr{background:linear-gradient(90deg,#ef4444,#dc2626);box-shadow:0 0 8px rgba(239,68,68,.25)}
+
+/* ── ALERT BOXES ────────────────────────────── */
+.al{border-radius:10px;padding:12px 15px;margin-bottom:10px;font-size:12px;line-height:1.55;border:1px solid transparent}
+.aw{background:rgba(240,180,41,.07);border-color:rgba(240,180,41,.2);color:var(--gold)}
+.as{background:rgba(34,197,94,.07);border-color:rgba(34,197,94,.2);color:var(--grn)}
+.ad{background:rgba(239,68,68,.07);border-color:rgba(239,68,68,.2);color:var(--red)}
+
+/* ── EMPTY STATE ────────────────────────────── */
+.em{
+  text-align:center;padding:38px 16px;color:var(--mut);
+  font-size:12px;line-height:2;
+}
+
+/* ── INFO BLOCKS ────────────────────────────── */
+.pb2{
+  background:rgba(240,180,41,.05);
+  border:1px solid rgba(240,180,41,.12);
+  border-left:3px solid var(--gold);
+  border-radius:10px;padding:14px 16px;margin-top:10px;
+}
+.pb2.blue{border-left-color:var(--blu);border-color:rgba(96,165,250,.12);background:rgba(96,165,250,.05)}
+.pb2t{font-size:10px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.07em;margin-bottom:10px}
+.pb2.blue .pb2t{color:var(--blu)}
+.pr{display:flex;gap:8px;margin-bottom:7px;font-size:12px}
+.pk{color:var(--mut);flex-shrink:0;width:110px}.pv{color:var(--txt);line-height:1.5}
+
+/* ── MOOD GRID ──────────────────────────────── */
+.mg{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:8px 0}
+.mb2{
+  padding:10px 4px;
+  background:rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.07);
+  border-radius:10px;cursor:pointer;text-align:center;font-size:18px;
+  transition:all .2s;
+}
+.mb2:hover,.mb2.sel{
+  border-color:rgba(240,180,41,.4);
+  background:rgba(240,180,41,.08);
+  transform:translateY(-2px);
+  box-shadow:0 5px 14px rgba(240,180,41,.15);
+}
+.ml2{font-size:9px;color:var(--mut);margin-top:3px}
+
+/* ── SLIDERS ────────────────────────────────── */
+.sr{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.sl{font-size:11px;color:var(--sub);width:128px;flex-shrink:0}
+.si{flex:1;accent-color:var(--gold)}
+.sv{font-size:11px;color:var(--gold);font-family:var(--mono);width:24px;text-align:right;font-weight:600}
+
+/* ── RISK RESULT BOX ────────────────────────── */
+.rr2{
+  background:linear-gradient(135deg,rgba(240,180,41,.07),rgba(240,180,41,.03));
+  border:1px solid rgba(240,180,41,.18);
+  border-radius:10px;padding:14px;margin-top:14px;
+}
+.rrow{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-size:12px}
+.rrow:last-child{margin-bottom:0;border-top:1px solid rgba(240,180,41,.14);padding-top:8px;margin-top:4px}
+.rk{color:var(--sub)}.rv{color:var(--gold);font-family:var(--mono);font-weight:700}
+
+/* ── CHECKLIST ──────────────────────────────── */
+.ck{
+  background:rgba(255,255,255,.025);
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:9px;padding:10px 12px;margin-bottom:6px;
+  display:flex;align-items:flex-start;gap:9px;cursor:pointer;
+  transition:all .15s;
+}
+.ck:hover{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.11)}
+.cb{
+  width:16px;height:16px;border-radius:5px;
+  border:1px solid rgba(255,255,255,.2);
+  flex-shrink:0;margin-top:1px;
+  display:flex;align-items:center;justify-content:center;
+  transition:.15s;
+}
+.cb.ck2{background:var(--grn);border-color:var(--grn);box-shadow:0 0 8px rgba(34,197,94,.3)}
+.ct2{font-size:12px;color:var(--sub);line-height:1.5}
+.ct2.dk{text-decoration:line-through;opacity:.33}
+.cw{position:relative;width:100%}
+
+/* ── TOAST ──────────────────────────────────── */
+#toast{
+  position:fixed;bottom:24px;left:50%;
+  transform:translateX(-50%) translateY(100px);
+  background:linear-gradient(135deg,#182a42,#101f35);
+  color:var(--txt2);
+  padding:11px 24px;border-radius:10px;font-size:12px;
+  border:1px solid rgba(240,180,41,.2);
+  box-shadow:0 10px 34px rgba(0,0,0,.65),0 0 24px rgba(240,180,41,.1);
+  transition:transform .38s cubic-bezier(.34,1.56,.64,1);
+  z-index:9999;white-space:nowrap;
+  font-weight:500;letter-spacing:.01em;font-family:var(--sans);
+}
+#toast.show{transform:translateX(-50%) translateY(0)}
+
+/* ── RESPONSIVE ─────────────────────────────── */
+@media(max-width:600px){
+  .g3,.g4{grid-template-columns:1fr 1fr}
+  .g2{grid-template-columns:1fr}
+  .fr3{grid-template-columns:1fr}
+  .tab{padding:12px}
+}
+
+/* ── SCREENSHOT ─────────────────────────────── */
+.ss-upload{
+  border:2px dashed rgba(255,255,255,.09);border-radius:10px;
+  padding:18px;text-align:center;cursor:pointer;
+  transition:all .2s;background:rgba(255,255,255,.02);position:relative;
+}
+.ss-upload:hover,.ss-upload.drag{border-color:rgba(240,180,41,.38);background:rgba(240,180,41,.05)}
+.ss-upload input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.ss-upload-icon{font-size:26px;margin-bottom:7px}
+.ss-upload-txt{font-size:12px;color:var(--sub)}
+.ss-upload-hint{font-size:10px;color:var(--mut);margin-top:3px}
+.ss-preview{position:relative;border-radius:9px;overflow:hidden;border:1px solid var(--bdr);margin-top:8px}
+.ss-preview img{width:100%;max-height:200px;object-fit:contain;background:#000;display:block;cursor:pointer}
+.ss-preview-del{position:absolute;top:6px;right:6px;background:rgba(239,68,68,.85);color:#fff;border:none;border-radius:50%;width:24px;height:24px;font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;line-height:1}
+.ss-label{position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,.65);color:#fff;font-size:10px;padding:4px 8px;text-align:center}
+/* LIGHTBOX */
+#ss-lightbox{
+  position:fixed;inset:0;background:rgba(0,0,0,.94);
+  z-index:9800;display:none;align-items:center;justify-content:center;
+  padding:20px;cursor:zoom-out;backdrop-filter:blur(12px);
+}
+#ss-lightbox img{max-width:100%;max-height:90vh;border-radius:10px;border:1px solid rgba(255,255,255,.1);cursor:default;box-shadow:0 20px 60px rgba(0,0,0,.8)}
+#ss-lightbox-close{
+  position:absolute;top:16px;right:20px;color:#fff;font-size:18px;cursor:pointer;
+  background:rgba(255,255,255,.1);width:36px;height:36px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;transition:.18s;
+}
+#ss-lightbox-close:hover{background:rgba(239,68,68,.6);transform:scale(1.1)}
+#ss-lightbox-label{
+  position:absolute;bottom:20px;left:50%;transform:translateX(-50%);
+  background:rgba(0,0,0,.72);color:var(--sub);font-size:11px;
+  padding:6px 16px;border-radius:20px;white-space:nowrap;backdrop-filter:blur(4px);
+}
+.ss-thumb{width:48px;height:36px;object-fit:cover;border-radius:4px;border:1px solid var(--bdr);cursor:pointer;vertical-align:middle;transition:.15s}
+.ss-thumb:hover{border-color:var(--gold);transform:scale(1.06)}
+
+/* ── DASHBOARD PREMIUM COMPONENTS ───────────── */
+
+/* Top stats bar (like reference header) */
+.dash-top-bar{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  background:linear-gradient(135deg,#0a1828 0%,#0d1f35 50%,#091520 100%);
+  border:1px solid rgba(240,180,41,.18);
+  border-radius:14px;overflow:hidden;
+  margin-bottom:16px;
+  box-shadow:0 6px 30px rgba(0,0,0,.55),0 0 0 1px rgba(240,180,41,.06),inset 0 1px 0 rgba(255,255,255,.04);
+}
+.dtb-item{
+  padding:18px 22px;
+  border-right:1px solid rgba(255,255,255,.05);
+  position:relative;overflow:hidden;
+  transition:background .2s;
+}
+.dtb-item:last-child{border-right:none}
+.dtb-item::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:var(--g-gold);opacity:0;transition:opacity .2s;
+}
+.dtb-item:hover::before{opacity:1}
+.dtb-item:hover{background:rgba(240,180,41,.04)}
+.dtb-label{
+  font-size:9px;font-weight:700;
+  color:var(--mut);
+  text-transform:uppercase;letter-spacing:.12em;
+  margin-bottom:10px;
+}
+.dtb-value{
+  font-size:24px;font-weight:800;
+  font-family:var(--mono);
+  letter-spacing:-.02em;
+  color:var(--txt2);line-height:1;
+}
+.dtb-sub{font-size:10px;color:var(--mut);margin-top:7px}
+
+/* Section divider header */
+.dash-section-hdr{
+  display:flex;align-items:center;gap:14px;
+  font-size:9.5px;font-weight:800;
+  color:var(--sub);
+  text-transform:uppercase;letter-spacing:.28em;
+  margin:16px 0 14px;
+}
+.dash-section-hdr::before,.dash-section-hdr::after{
+  content:'';flex:1;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.07));
+}
+.dash-section-hdr::after{
+  background:linear-gradient(270deg,transparent,rgba(255,255,255,.07));
+}
+
+/* Performance data rows (like reference left panel) */
+.perf-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:7px 0;
+  border-bottom:1px solid rgba(255,255,255,.04);
+  font-size:11px;
+}
+.perf-row:last-child{border-bottom:none}
+.perf-key{color:var(--sub)}
+.perf-val{color:var(--txt2);font-family:var(--mono);font-weight:600}
+
+/* Stat box inside right panel */
+.stat-box{
+  text-align:center;
+  border-radius:10px;padding:12px 8px;
+  border:1px solid rgba(255,255,255,.06);
+}
+.stat-box-val{
+  font-size:24px;font-weight:800;
+  font-family:var(--mono);letter-spacing:-.02em;
+  line-height:1;margin-bottom:4px;
+}
+.stat-box-lbl{
+  font-size:8.5px;font-weight:700;
+  text-transform:uppercase;letter-spacing:.08em;
+  color:var(--mut);
+}
+
+/* Column accent bar for section titles */
+.col-accent{
+  display:inline-block;width:3px;height:12px;
+  border-radius:2px;flex-shrink:0;
+}
+
+/* Dashboard responsive */
+@media(max-width:900px){
+  .dash-3col{grid-template-columns:1fr!important}
+  .dash-top-bar{grid-template-columns:1fr 1fr}
+}
+@media(max-width:500px){
+  .dash-top-bar{grid-template-columns:1fr}
+  .dtb-item{border-right:none;border-bottom:1px solid rgba(255,255,255,.05)}
+}
+</style>
+</head>
+<body>
+
+<!-- loading overlay removed -->
+
+<!-- SETUP MODAL -->
+<div id="mo">
+  <div class="mb">
+    <div class="mh">
+      <div style="width:56px;height:56px;background:var(--g-gold);border-radius:16px;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;box-shadow:var(--sh-gold)">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><polyline points="2,18 7,10 11.5,13.5 16,6 22,9" stroke="#060e1a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="6" r="2" fill="#060e1a"/></svg>
+      </div>
+      <div style="font-size:18px;font-weight:800;color:var(--txt2);letter-spacing:-.02em">ForexJournal <span style="color:var(--gold)">Pro</span></div>
+      <div style="font-size:11px;color:var(--sub);margin-top:6px;letter-spacing:.02em">Sync ke Google Sheets — Tanpa OAuth, Tanpa Server</div>
+    </div>
+    <div class="mc">
+      <div class="sc"><div class="sh"><div class="sn">1</div><div class="st">Buat Spreadsheet Baru</div></div>
+        <div class="sd">Buka <a href="https://sheets.new" target="_blank">sheets.new</a> → spreadsheet kosong otomatis terbuat.</div>
+      </div>
+      <div class="sc"><div class="sh"><div class="sn">2</div><div class="st">Paste Apps Script</div></div>
+        <div class="sd">Di spreadsheet → <b>Extensions → Apps Script</b><br>Hapus semua kode → paste isi file <b style="color:var(--txt)">ForexJournal_GS_Script.gs</b> → Ctrl+S</div>
+      </div>
+      <div class="sc"><div class="sh"><div class="sn">3</div><div class="st">Deploy Web App</div></div>
+        <div class="sd"><b>Deploy → New Deployment → Web app</b><br>• Execute as: <b style="color:var(--txt)">Me</b>&nbsp; • Who has access: <b style="color:var(--txt)">Anyone</b><br>→ Deploy → klik <b style="color:var(--txt)">Advanced → Go to [project] (unsafe) → Allow</b><br>→ Salin <b style="color:var(--gold)">Web App URL</b></div>
+      </div>
+      <div class="sc"><div class="sh"><div class="sn">4</div><div class="st">Paste URL di bawah</div></div>
+        <div style="padding-left:34px">
+          <input type="text" class="ui" id="s-url" placeholder="https://script.google.com/macros/s/.../exec" oninput="onUrl()">
+          <div id="s-hint" style="font-size:10px;color:var(--mut);margin-top:5px">Paste URL Web App dari langkah 3</div>
+          <div id="s-test" style="display:none;margin-top:8px;padding:9px 12px;border-radius:6px;font-size:12px"></div>
+        </div>
+      </div>
+    </div>
+    <div class="mf">
+      <button class="btn bh" onclick="skipSetup()">Pakai Tanpa Sync</button>
+      <button class="btn bb" id="btn-test" onclick="testUrl()" disabled>🔌 Test Koneksi</button>
+      <button class="btn bg" id="btn-conn" onclick="connectGS()" disabled>Sambungkan ▶</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- SCREENSHOT LIGHTBOX -->
+<div id="ss-lightbox" onclick="closeLightbox()">
+  <div id="ss-lightbox-close" onclick="closeLightbox()">✕</div>
+  <img id="ss-lightbox-img" src="" alt="screenshot" onclick="event.stopPropagation()">
+  <div id="ss-lightbox-label"></div>
+</div>
+<div id="toast"></div>
+<div id="app">
+  <div id="tb">
+    <div class="li">
+      <div class="lic">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <polyline points="1,15 5,8 9,11 13,4 18,7" stroke="#060e1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="13" cy="4" r="1.8" fill="#060e1a"/>
+        </svg>
+      </div>
+      <div>
+        <div class="lt">ForexJournal <span style="color:var(--gold)">Pro</span></div>
+        <div class="ls">Google Sheets Sync</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <button class="btn bh" onclick="openSetup()" style="font-size:11px;padding:6px 13px;display:flex;align-items:center;gap:5px">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        Settings
+      </button>
+    </div>
+  </div>
+
+  <!-- SYNC BAR -->
+  <div id="sb">
+    <div class="sbl">
+      <div id="sdot"></div><div class="sp-sm"></div>
+      <span style="color:var(--mut);font-size:10px;letter-spacing:.04em;text-transform:uppercase;font-weight:600">Sheets</span>
+      <span style="color:var(--mut)">·</span>
+      <span id="stxt" style="color:var(--sub);font-weight:500">Tidak terhubung</span>
+    </div>
+    <div class="sbr">
+      <button id="btn-pull" class="btn bb" onclick="pullAll()" style="display:none;font-size:11px;padding:4px 12px">⬇ Ambil Data dari Sheets</button>
+      <button id="btn-push" class="btn" onclick="pushAll()" style="display:none;font-size:11px;padding:4px 12px;background:rgba(240,180,41,.12);color:var(--gold);border:1px solid rgba(240,180,41,.25);border-radius:6px">⬆ Kirim ke Sheets</button>
+    </div>
+  </div>
+
+  <div id="nav">
+    <button class="nb on" onclick="showTab('dash',this)">📊 Dashboard</button>
+    <button class="nb" onclick="showTab('tlog',this)">📋 Trade Log</button>
+    <button class="nb" onclick="showTab('plan-harian',this)">📅 Planning Harian</button>
+    <button class="nb" onclick="showTab('plan-mingguan',this)">📆 Planning Mingguan</button>
+    <button class="nb" onclick="showTab('risk',this)">⚡ Risk Manager</button>
+    <button class="nb" onclick="showTab('psy',this)">🧠 Psikologi</button>
+    <button class="nb" onclick="showTab('rules',this)">📜 Rules</button>
+    <button class="nb" onclick="showTab('kalender',this)">📅 Kalender</button>
+    <button class="nb" onclick="showTab('sentimen',this)">📊 Sentimen</button>
+    <button class="nb" onclick="showTab('geopolitik',this)">🌍 Geopolitik</button>
+    <button class="nb" onclick="showTab('rekomend',this)">🎯 Rekomendasi</button>
+    <button class="nb" onclick="showTab('transaksi',this)">💳 Transaksi</button>
+  </div>
+
+  <div id="main">
+
+    <!-- DASHBOARD -->
+    <div id="tab-dash" class="tab on">
+
+      <!-- ═══ TOP METRICS BAR ═══ -->
+      <div class="dash-top-bar">
+        <div class="dtb-item">
+          <div class="dtb-label">Modal Aktif</div>
+          <div class="dtb-value" id="d-modal">$0</div>
+          <div class="dtb-sub" id="d-modal-sub">0 depo · 0 wd</div>
+        </div>
+        <div class="dtb-item">
+          <div class="dtb-label">Total P&L</div>
+          <div class="dtb-value" id="d-pnl">$0</div>
+          <div class="dtb-sub" id="d-tc">0 trade</div>
+        </div>
+        <div class="dtb-item">
+          <div class="dtb-label">Ekuitas</div>
+          <div class="dtb-value go" id="d-equity">$0</div>
+          <div class="dtb-sub" id="d-equity-sub">Modal + P&L</div>
+        </div>
+        <div class="dtb-item">
+          <div class="dtb-label">Return</div>
+          <div class="dtb-value" id="d-return">—</div>
+          <div class="dtb-sub">P&L ÷ Modal</div>
+        </div>
+      </div>
+
+      <!-- ═══ OVERALL SUMMARY ═══ -->
+      <div class="dash-section-hdr">OVERALL SUMMARY</div>
+
+      <!-- 3-column main section -->
+      <div class="dash-3col" style="display:grid;grid-template-columns:1fr 2.4fr 1fr;gap:13px;margin-bottom:16px;align-items:start">
+
+        <!-- LEFT: Overall Performance + Sesi -->
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div class="card" style="padding:14px;box-shadow:0 4px 20px rgba(0,0,0,.4)">
+            <div style="display:flex;align-items:center;gap:7px;margin-bottom:12px">
+              <span class="col-accent" style="background:var(--g-gold)"></span>
+              <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">OVERALL PERFORMANCE</span>
+            </div>
+            <div class="perf-row">
+              <span class="perf-key">Win / Loss</span>
+              <span class="perf-val" id="d-wl">0 / 0</span>
+            </div>
+            <div class="perf-row">
+              <span class="perf-key">Max Drawdown</span>
+              <span class="perf-val dn" id="d-dd">—</span>
+            </div>
+          </div>
+
+          <div class="card" style="padding:14px;box-shadow:0 4px 20px rgba(0,0,0,.4)">
+            <div style="display:flex;align-items:center;gap:7px;margin-bottom:10px">
+              <span class="col-accent" style="background:var(--g-blu)"></span>
+              <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">PERFORMA SESI</span>
+            </div>
+            <div id="d-sess"><div class="em" style="padding:18px 8px">Tambah trade untuk melihat data</div></div>
+          </div>
+        </div>
+
+        <!-- CENTER: Equity Curve (main chart — paling prominent) -->
+        <div class="card" style="padding:16px;box-shadow:0 10px 40px rgba(0,0,0,.6),0 0 0 1px rgba(240,180,41,.1),inset 0 1px 0 rgba(255,255,255,.04)">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
+            <div style="display:flex;align-items:center;gap:7px">
+              <span class="col-accent" style="background:var(--g-gold)"></span>
+              <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">EQUITY CURVE</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px">
+              <span style="width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 6px var(--gold);display:inline-block"></span>
+              <span style="font-size:10px;color:var(--mut)">P&L Kumulatif</span>
+            </div>
+          </div>
+          <div class="cw" style="height:250px"><canvas id="eqC" role="img" aria-label="equity"></canvas></div>
+        </div>
+
+        <!-- RIGHT: Trade Stats boxes + Streak -->
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div class="card" style="padding:14px;box-shadow:0 4px 20px rgba(0,0,0,.4)">
+            <div style="display:flex;align-items:center;gap:7px;margin-bottom:14px">
+              <span class="col-accent" style="background:var(--g-grn)"></span>
+              <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">TRADE STATISTICS</span>
+            </div>
+            <!-- Big stat boxes — pakai ID asli agar ter-update JS -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px">
+              <div class="stat-box" style="background:rgba(34,197,94,.07);border-color:rgba(34,197,94,.18)">
+                <div class="stat-box-val up" id="d-wr">0%</div>
+                <div class="stat-box-lbl">Win Rate</div>
+              </div>
+              <div class="stat-box" style="background:rgba(96,165,250,.07);border-color:rgba(96,165,250,.18)">
+                <div class="stat-box-val" style="color:var(--blu)" id="d-pf">—</div>
+                <div class="stat-box-lbl">Prof. Factor</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="padding:14px;box-shadow:0 4px 20px rgba(240,180,41,.08),0 0 0 1px rgba(240,180,41,.1)">
+            <div style="display:flex;align-items:center;gap:7px;margin-bottom:10px">
+              <span class="col-accent" style="background:var(--gold)"></span>
+              <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">STREAK & STATS</span>
+            </div>
+            <div id="d-streak"><div class="em" style="padding:18px 8px">Tambah trade untuk melihat stats</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ═══ PERFORMANCE ═══ -->
+      <div class="dash-section-hdr">PERFORMANCE</div>
+
+      <div class="g2" style="margin-bottom:4px">
+        <!-- P&L per Pair chart -->
+        <div class="card" style="box-shadow:0 8px 32px rgba(0,0,0,.5),0 0 0 1px rgba(96,165,250,.07)">
+          <div style="display:flex;align-items:center;gap:7px;margin-bottom:14px">
+            <span class="col-accent" style="background:var(--g-blu)"></span>
+            <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">P&L PER PAIR</span>
+          </div>
+          <div class="cw" style="height:170px"><canvas id="prC" role="img" aria-label="pnl"></canvas></div>
+        </div>
+
+        <!-- Target Bulanan -->
+        <div class="card" style="box-shadow:0 8px 32px rgba(240,180,41,.12),0 0 0 1px rgba(240,180,41,.14)">
+          <div style="display:flex;align-items:center;gap:7px;margin-bottom:14px">
+            <span class="col-accent" style="background:var(--g-gold)"></span>
+            <span style="font-size:9px;font-weight:800;color:var(--sub);text-transform:uppercase;letter-spacing:.12em">TARGET BULANAN</span>
+          </div>
+          <div style="text-align:center;padding:6px 0 10px">
+            <div style="font-size:48px;font-weight:800;background:var(--g-gold);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-family:var(--mono);letter-spacing:-.03em;line-height:1" id="d-tpct">0%</div>
+            <div style="font-size:11px;color:var(--sub);margin-top:6px;font-family:var(--mono)" id="d-tlbl">$0 / $2,000</div>
+          </div>
+          <div style="background:rgba(255,255,255,.05);border-radius:8px;height:10px;overflow:hidden;margin-bottom:16px;box-shadow:inset 0 1px 3px rgba(0,0,0,.4)">
+            <div class="pf" id="d-tbar" style="width:0%;height:100%;transition:width .5s ease"></div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1px 1fr;gap:12px;align-items:center">
+            <div style="text-align:center">
+              <div style="font-size:9px;color:var(--mut);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px">Sisa Hari</div>
+              <div style="font-size:18px;font-weight:700;color:var(--sub);font-family:var(--mono)" id="d-days">—</div>
+            </div>
+            <div style="height:36px;background:rgba(255,255,255,.06)"></div>
+            <div style="text-align:center">
+              <div style="font-size:9px;color:var(--mut);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px">Perlu/Hari</div>
+              <div style="font-size:18px;font-weight:700;color:var(--gold);font-family:var(--mono)" id="d-ppd">—</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRADE LOG -->
+    <div id="tab-tlog" class="tab">
+      <div class="card">
+        <div class="ct">Tambah Trade Baru</div>
+        <div class="fr fr3">
+          <div class="fg"><label class="lb">Tanggal</label><input type="date" id="t-date"></div>
+          <div class="fg"><label class="lb">Pair</label>
+            <select id="t-pair">
+              <optgroup label="── USD Pairs ──">
+                <option>USD/JPY</option>
+                <option>USD/CHF</option>
+                <option>USD/CAD</option>
+              </optgroup>
+              <optgroup label="── NZD Pairs ──">
+                <option>NZD/USD</option>
+                <option>NZD/JPY</option>
+                <option>NZD/CHF</option>
+                <option>NZD/CAD</option>
+              </optgroup>
+              <optgroup label="── GBP Pairs ──">
+                <option>GBP/USD</option>
+                <option>GBP/NZD</option>
+                <option>GBP/JPY</option>
+                <option>GBP/CHF</option>
+                <option>GBP/CAD</option>
+                <option>GBP/AUD</option>
+              </optgroup>
+              <optgroup label="── EUR Pairs ──">
+                <option>EUR/USD</option>
+                <option>EUR/JPY</option>
+                <option>EUR/GBP</option>
+                <option>EUR/CHF</option>
+                <option>EUR/CAD</option>
+                <option>EUR/AUD</option>
+                <option>EUR/NZD</option>
+              </optgroup>
+              <optgroup label="── AUD Pairs ──">
+                <option>AUD/USD</option>
+                <option>AUD/JPY</option>
+                <option>AUD/NZD</option>
+                <option>AUD/CHF</option>
+                <option>AUD/CAD</option>
+              </optgroup>
+              <optgroup label="── CAD Pairs ──">
+                <option>CAD/JPY</option>
+                <option>CAD/CHF</option>
+              </optgroup>
+              <optgroup label="── CHF Pairs ──">
+                <option>CHF/JPY</option>
+              </optgroup>
+              <optgroup label="── Metals ──">
+                <option>XAU/USD</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="fg"><label class="lb">Arah</label>
+            <select id="t-dir"><option value="BUY">BUY (Long)</option><option value="SELL">SELL (Short)</option></select>
+          </div>
+        </div>
+        <div class="fr fr3">
+          <div class="fg"><label class="lb">Entry Price</label><input type="number" step="any" placeholder="1.08450" id="t-entry"></div>
+          <div class="fg"><label class="lb">Stop Loss</label><input type="number" step="any" placeholder="1.08200" id="t-sl"></div>
+          <div class="fg"><label class="lb">Take Profit</label><input type="number" step="any" placeholder="1.09000" id="t-tp"></div>
+        </div>
+        <div class="fr fr3">
+          <div class="fg"><label class="lb">Lot Size</label><input type="number" step="any" placeholder="0.10" id="t-lot"></div>
+          <div class="fg"><label class="lb">Hasil</label>
+            <select id="t-res"><option value="">— Masih Open —</option><option value="win">WIN</option><option value="loss">LOSS</option><option value="be">Break Even</option></select>
+          </div>
+          <div class="fg"><label class="lb">P&L ($)</label><input type="number" step="any" placeholder="+120" id="t-pnl"></div>
+        </div>
+        <div class="fr fr2">
+          <div class="fg"><label class="lb">Setup / Strategi</label>
+            <select id="t-setup">
+              <option>Supply & Demand</option><option>Breakout</option><option>ICT / Smart Money</option>
+              <option>Price Action</option><option>Trend Following</option><option>Reversal</option>
+              <option>Scalping</option><option>News Trade</option>
+            </select>
+          </div>
+          <div class="fg"><label class="lb">Sesi Trading</label>
+            <select id="t-sess"><option>Asia</option><option>London</option><option>New York</option><option>London–NY Overlap</option></select>
+          </div>
+        </div>
+        <div class="fg"><label class="lb">Catatan / Alasan Entry</label><textarea placeholder="Analisis, alasan entry, pelajaran hari ini..." id="t-note"></textarea></div>
+        <div class="fg">
+          <label class="lb">Link Screenshot (Imgur, Google Drive, dll)</label>
+          <input type="text" id="t-sslink" placeholder="https://imgur.com/xxx atau link gambar lainnya...">
+          <div style="font-size:10px;color:var(--mut);margin-top:3px">Upload gambar dulu ke <a href="https://imgur.com" target="_blank" style="color:var(--blu)">Imgur</a>, <a href="https://drive.google.com" target="_blank" style="color:var(--blu)">Google Drive</a>, atau layanan lain → paste link di sini</div>
+        </div>
+        <div class="fe">
+          <button class="btn bh" onclick="clearTL()">Reset</button>
+          <button class="btn bg" id="save-btn" onclick="addTrade()">💾 Simpan Trade</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="fb" style="margin-bottom:12px">
+          <div class="ct" style="margin-bottom:0">Riwayat Trade</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <select style="font-size:11px;padding:4px 8px;width:auto" id="t-flt" onchange="renderTrades()">
+              <option value="all">Semua</option><option value="win">WIN</option><option value="loss">LOSS</option><option value="">Open</option>
+            </select>
+            <button class="btn br" style="font-size:11px;padding:4px 10px" onclick="clearAllTrades()">Hapus Semua</button>
+          </div>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="tbl">
+            <thead><tr><th>Tgl</th><th>Pair</th><th>Arah</th><th>Entry</th><th>SL</th><th>TP</th><th>Lot</th><th>Setup</th><th>P&L</th><th>Status</th><th title="☁️=Drive(permanen) | lokal=hanya komputer ini">📸</th><th>📝</th><th>Del</th></tr></thead>
+            <tbody id="t-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- PLANNING HARIAN -->
+    <div id="tab-plan-harian" class="tab">
+      <div class="g2" style="margin-bottom:12px">
+        <!-- FORM -->
+        <div class="card">
+          <div class="fb" style="margin-bottom:12px">
+            <div class="ct" style="margin-bottom:0">📅 Planning Harian Baru</div>
+            <span style="font-size:10px;color:var(--mut)">Setiap simpan = entri baru</span>
+          </div>
+          <div class="fg"><label class="lb">Tanggal</label><input type="date" id="dp-date"></div>
+          <div class="fg"><label class="lb">Pair yang di-watch</label><input type="text" placeholder="EUR/USD, XAU/USD" id="dp-pairs"></div>
+          <div class="fg"><label class="lb">Bias Market</label>
+            <select id="dp-bias"><option>Bullish</option><option>Bearish</option><option>Sideways / Ranging</option><option>Wait & See</option></select>
+          </div>
+          <div class="fg"><label class="lb">Level S/R</label><input type="text" placeholder="S: 1.0820 | R: 1.0910" id="dp-lvl"></div>
+          <div class="fg"><label class="lb">Max Loss ($)</label><input type="number" placeholder="50" id="dp-ml"></div>
+          <div class="fg"><label class="lb">Rencana & Catatan</label><textarea placeholder="Tuliskan rencana trading hari ini..." id="dp-note"></textarea></div>
+          <div class="fe">
+            <button class="btn bh" onclick="clearDPForm()">Reset Form</button>
+            <button class="btn bg" onclick="saveDP()">💾 Simpan Planning Harian</button>
+          </div>
+        </div>
+
+        <!-- CHECKLIST -->
+        <div class="card">
+          <div class="fb" style="margin-bottom:10px">
+            <div class="ct" style="margin-bottom:0">✅ Checklist Pre-Trading</div>
+            <button class="btn bh" style="font-size:11px;padding:4px 10px" onclick="resetCK()">Reset</button>
+          </div>
+          <div id="ck-wrap"></div>
+        </div>
+      </div>
+
+      <!-- RIWAYAT -->
+      <div class="card">
+        <div class="fb" style="margin-bottom:12px">
+          <div class="ct" style="margin-bottom:0">📋 Riwayat Planning Harian</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <span id="dp-count" style="font-size:11px;color:var(--mut)"></span>
+            <button class="btn br" style="font-size:11px;padding:4px 10px" onclick="clearAllDP()">Hapus Semua</button>
+          </div>
+        </div>
+        <div id="dp-list"><div class="em">Belum ada planning harian tersimpan.</div></div>
+      </div>
+    </div>
+
+    <!-- PLANNING MINGGUAN -->
+    <div id="tab-plan-mingguan" class="tab">
+      <div class="g2" style="margin-bottom:12px">
+        <!-- FORM -->
+        <div class="card">
+          <div class="fb" style="margin-bottom:12px">
+            <div class="ct" style="margin-bottom:0">📆 Planning Mingguan Baru</div>
+            <span style="font-size:10px;color:var(--mut)">Setiap simpan = entri baru</span>
+          </div>
+          <div class="fg"><label class="lb">Periode</label><input type="text" placeholder="Minggu 1 — Mei 2026" id="wp-wk"></div>
+          <div class="fg"><label class="lb">Target Profit ($)</label><input type="number" placeholder="500" id="wp-tgt"></div>
+          <div class="fg"><label class="lb">Max Drawdown ($)</label><input type="number" placeholder="150" id="wp-dd"></div>
+          <div class="fg"><label class="lb">Fokus Pair</label><input type="text" placeholder="EUR/USD, GBP/USD" id="wp-pairs"></div>
+          <div class="fg"><label class="lb">News Penting</label><textarea style="min-height:70px" placeholder="Senin: FOMC&#10;Rabu: CPI&#10;Jumat: NFP" id="wp-news"></textarea></div>
+          <div class="fe">
+            <button class="btn bh" onclick="clearWPForm()">Reset Form</button>
+            <button class="btn bg" onclick="saveWP()">💾 Simpan Planning Mingguan</button>
+          </div>
+        </div>
+
+        <!-- PANDUAN MINGGU -->
+        <div class="card">
+          <div class="ct">📌 Panduan Planning Mingguan</div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div style="background:var(--surf);border-left:3px solid var(--gold);border-radius:6px;padding:9px 12px;font-size:11px;color:var(--sub)">
+              <b style="color:var(--gold)">Target Profit</b><br>Realistis 3–5% dari modal per minggu. Jangan serakah.
+            </div>
+            <div style="background:var(--surf);border-left:3px solid var(--red);border-radius:6px;padding:9px 12px;font-size:11px;color:var(--sub)">
+              <b style="color:var(--red)">Max Drawdown</b><br>Set maksimal 3% dari modal. Stop trading jika tercapai.
+            </div>
+            <div style="background:var(--surf);border-left:3px solid var(--blu);border-radius:6px;padding:9px 12px;font-size:11px;color:var(--sub)">
+              <b style="color:var(--blu)">Fokus Pair</b><br>Pilih 2–3 pair saja. Lebih fokus = lebih baik hasilnya.
+            </div>
+            <div style="background:var(--surf);border-left:3px solid var(--grn);border-radius:6px;padding:9px 12px;font-size:11px;color:var(--sub)">
+              <b style="color:var(--grn)">News Penting</b><br>Tandai event high-impact. Hindari entry 30 menit sebelum news.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIWAYAT -->
+      <div class="card">
+        <div class="fb" style="margin-bottom:12px">
+          <div class="ct" style="margin-bottom:0">📋 Riwayat Planning Mingguan</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <span id="wp-count" style="font-size:11px;color:var(--mut)"></span>
+            <button class="btn br" style="font-size:11px;padding:4px 10px" onclick="clearAllWP()">Hapus Semua</button>
+          </div>
+        </div>
+        <div id="wp-list"><div class="em">Belum ada planning mingguan tersimpan.</div></div>
+      </div>
+    </div>
+    <!-- RULES -->
+    <div id="tab-rules" class="tab">
+      <div class="al aw" style="margin-bottom:14px">Baca dan taati aturan ini setiap hari sebelum trading.</div>
+      <div id="rules-w"></div>
+      <div class="card" style="margin-top:12px">
+        <div class="ct">Tambah Aturan Sendiri</div>
+        <div class="fr fr2">
+          <div class="fg"><label class="lb">Kategori</label>
+            <select id="rc"><option>Entry</option><option>Exit</option><option>Risk</option><option>Psikologi</option><option>Umum</option></select>
+          </div>
+          <div class="fg"><label class="lb">Aturan</label><input type="text" placeholder="Tulis aturan trading kamu..." id="rt"></div>
+        </div>
+        <div class="fe"><button class="btn bg" onclick="addRule()">Tambah Aturan</button></div>
+      </div>
+    </div>
+
+    <!-- RISK MANAGER -->
+    <div id="tab-risk" class="tab">
+      <div class="g2">
+        <div class="card">
+          <div class="ct">Kalkulator Lot Size & Risk</div>
+          <div class="fg"><label class="lb">Modal ($)</label><input type="number" placeholder="10000" id="r-bal" oninput="calcRisk()"></div>
+          <div class="fg"><label class="lb">Risk per Trade (%)
+            <div style="display:flex;align-items:center;gap:10px;margin-top:4px">
+              <input type="range" class="si" min="0.1" max="5" step="0.1" value="1" id="r-rp" oninput="document.getElementById('r-rpv').textContent=parseFloat(this.value).toFixed(1)+'%';calcRisk()">
+              <span style="font-size:12px;color:var(--gold);font-family:var(--mono);width:36px" id="r-rpv">1.0%</span>
+            </div>
+          </label></div>
+          <div class="fg"><label class="lb">Pair</label>
+            <select id="r-pair" onchange="calcRisk()">
+              <option value="major">Major (EUR/USD dll)</option>
+              <option value="jpy">JPY Pair</option>
+              <option value="gold">XAU/USD</option>
+            </select>
+          </div>
+          <div class="fg"><label class="lb">Stop Loss (pips)</label><input type="number" placeholder="20" id="r-sl" oninput="calcRisk()"></div>
+          <div class="fg"><label class="lb">Take Profit (pips)</label><input type="number" placeholder="40" id="r-tp" oninput="calcRisk()"></div>
+          <div class="rr2">
+            <div class="rrow"><span class="rk">Nominal Risk</span><span class="rv" id="ro-risk">$100.00</span></div>
+            <div class="rrow"><span class="rk">Lot Size Ideal</span><span class="rv" id="ro-lot">0.50 lot</span></div>
+            <div class="rrow"><span class="rk">Risk:Reward</span><span class="rv" id="ro-rrr">1 : 2.0</span></div>
+            <div class="rrow"><span class="rk">Potensi Profit</span><span class="rv" id="ro-profit">$200.00</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="ct">Monitor Drawdown</div>
+          <div class="fg"><label class="lb">Drawdown saat ini (%)</label><input type="number" placeholder="0" id="r-dd" oninput="calcDD()"></div>
+          <div id="dd-msg"></div>
+          <div class="dv"></div>
+          <div style="display:flex;flex-direction:column;gap:7px">
+            <div style="font-size:11px;color:var(--sub);padding:7px 10px;background:var(--surf);border-radius:6px;border-left:3px solid var(--gold)">Max risk/trade: <b style="color:var(--txt)">1–2%</b></div>
+            <div style="font-size:11px;color:var(--sub);padding:7px 10px;background:var(--surf);border-radius:6px;border-left:3px solid var(--blu)">Max daily loss: <b style="color:var(--txt)">3%</b></div>
+            <div style="font-size:11px;color:var(--sub);padding:7px 10px;background:var(--surf);border-radius:6px;border-left:3px solid var(--grn)">RRR minimum: <b style="color:var(--txt)">1:1.5</b></div>
+            <div style="font-size:11px;color:var(--sub);padding:7px 10px;background:var(--surf);border-radius:6px;border-left:3px solid var(--red)">Stop jika DD: <b style="color:var(--txt)">≥ 10%</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PSIKOLOGI -->
+    <div id="tab-psy" class="tab">
+      <div class="g2" style="margin-bottom:12px">
+        <div class="card">
+          <div class="ct">Check-In Psikologi Harian</div>
+          <div class="fg"><label class="lb">Tanggal</label><input type="date" id="psy-date"></div>
+          <label class="lb" style="margin-bottom:6px">Kondisi Emosi Saat Ini</label>
+          <div class="mg">
+            <div class="mb2" onclick="selM(this,'😤 Frustrasi')"><div>😤</div><div class="ml2">Frustrasi</div></div>
+            <div class="mb2" onclick="selM(this,'😰 Cemas')"><div>😰</div><div class="ml2">Cemas</div></div>
+            <div class="mb2" onclick="selM(this,'😐 Netral')"><div>😐</div><div class="ml2">Netral</div></div>
+            <div class="mb2" onclick="selM(this,'😊 Fokus')"><div>😊</div><div class="ml2">Fokus</div></div>
+            <div class="mb2" onclick="selM(this,'🔥 PD Tinggi')"><div>🔥</div><div class="ml2">PD Tinggi</div></div>
+          </div>
+          <div class="dv"></div>
+          <div class="sr"><span class="sl">Fokus & Konsentrasi</span><input type="range" class="si" min="1" max="10" value="7" id="ps-f" oninput="document.getElementById('pv-f').textContent=this.value;calcPsy()"><span class="sv" id="pv-f">7</span></div>
+          <div class="sr"><span class="sl">Kontrol Emosi</span><input type="range" class="si" min="1" max="10" value="6" id="ps-e" oninput="document.getElementById('pv-e').textContent=this.value;calcPsy()"><span class="sv" id="pv-e">6</span></div>
+          <div class="sr"><span class="sl">Disiplin Aturan</span><input type="range" class="si" min="1" max="10" value="8" id="ps-d" oninput="document.getElementById('pv-d').textContent=this.value;calcPsy()"><span class="sv" id="pv-d">8</span></div>
+          <div class="sr"><span class="sl">Kepercayaan Diri</span><input type="range" class="si" min="1" max="10" value="7" id="ps-c" oninput="document.getElementById('pv-c').textContent=this.value;calcPsy()"><span class="sv" id="pv-c">7</span></div>
+          <div class="sr"><span class="sl">Tidak FOMO</span><input type="range" class="si" min="1" max="10" value="5" id="ps-fo" oninput="document.getElementById('pv-fo').textContent=this.value;calcPsy()"><span class="sv" id="pv-fo">5</span></div>
+          <div class="sr"><span class="sl">Kualitas Istirahat</span><input type="range" class="si" min="1" max="10" value="7" id="ps-r" oninput="document.getElementById('pv-r').textContent=this.value;calcPsy()"><span class="sv" id="pv-r">7</span></div>
+        </div>
+        <div>
+          <div class="card" style="margin-bottom:12px">
+            <div class="ct">Skor Psikologi Hari Ini</div>
+            <div style="text-align:center;padding:8px 0 4px">
+              <div style="font-size:44px;font-weight:600;font-family:var(--mono);color:var(--gold)" id="psy-s">67</div>
+              <div style="font-size:11px;color:var(--mut);margin-top:5px" id="psy-l">Kondisi Cukup Baik</div>
+            </div>
+            <div style="font-size:12px;color:var(--sub);text-align:center;padding:0 8px;line-height:1.6;margin-bottom:10px" id="psy-a"></div>
+          </div>
+          <div class="card">
+            <div class="ct">Jurnal Refleksi</div>
+            <div class="fg"><label class="lb">Perasaan sebelum trading</label><textarea style="min-height:50px" placeholder="Tulis kondisi mental hari ini..." id="psy-feel"></textarea></div>
+            <div class="fg"><label class="lb">Pelajaran dari kemarin</label><textarea style="min-height:50px" placeholder="Apa yang harus diperbaiki?" id="psy-lesson"></textarea></div>
+            <div class="fe"><button class="btn bg" onclick="savePsy()">💾 Simpan Psikologi Hari Ini</button></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="fb" style="margin-bottom:12px">
+          <div class="ct" style="margin-bottom:0">Riwayat Psikologi Harian</div>
+          <button class="btn br" style="font-size:11px;padding:4px 10px" onclick="clearPsyLogs()">Hapus Semua</button>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="tbl">
+            <thead><tr><th>Tanggal</th><th>Emosi</th><th>Fokus</th><th>Emosi</th><th>Disiplin</th><th>PD</th><th>FOMO</th><th>Istirahat</th><th>Skor</th><th>Status</th><th>📝</th><th>Del</th></tr></thead>
+            <tbody id="psy-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ KALENDER EKONOMI ═══ -->
+    <div id="tab-kalender" class="tab">
+      <div id="kal-content"></div>
+    </div>
+
+    <!-- ═══ SENTIMEN PASAR ═══ -->
+    <div id="tab-sentimen" class="tab">
+      <div id="sent-content"></div>
+    </div>
+
+    <!-- ═══ GEOPOLITIK ═══ -->
+    <div id="tab-geopolitik" class="tab">
+      <div id="geo-content"></div>
+    </div>
+
+    <!-- ═══ REKOMENDASI TEKNIKAL ═══ -->
+    <div id="tab-rekomend" class="tab">
+      <div id="rekomend-content"></div>
+    </div>
+
+    <!-- TRANSAKSI (DEPO / WD) -->
+    <div id="tab-transaksi" class="tab">
+      <div class="card">
+        <div class="ct">Tambah Transaksi</div>
+        <div class="fr fr2">
+          <div class="fg"><label class="lb">Tanggal</label><input type="date" id="txn-date"></div>
+          <div class="fg"><label class="lb">Jenis</label>
+            <select id="txn-type">
+              <option value="depo">💰 Deposit (Depo)</option>
+              <option value="wd">💸 Withdrawal (WD)</option>
+            </select>
+          </div>
+        </div>
+        <div class="fr fr2">
+          <div class="fg"><label class="lb">Jumlah ($)</label><input type="number" step="any" min="0" placeholder="100.00" id="txn-amount"></div>
+          <div class="fg"><label class="lb">Metode / Sumber</label><input type="text" placeholder="Bank BCA, Broker, dll" id="txn-method"></div>
+        </div>
+        <div class="fg"><label class="lb">Catatan</label><textarea placeholder="Keterangan tambahan..." id="txn-note" style="min-height:48px"></textarea></div>
+        <div class="fe">
+          <button class="btn bh" onclick="clearTxnForm()">Reset</button>
+          <button class="btn bg" onclick="addTxn()">💾 Simpan Transaksi</button>
+        </div>
+      </div>
+      <div class="g3" style="margin-bottom:12px">
+        <div class="met"><div class="ml">Total Deposit</div><div class="mv up" id="txn-s-depo">$0.00</div><div class="ms" id="txn-s-depo-n">0 transaksi</div></div>
+        <div class="met"><div class="ml">Total Withdrawal</div><div class="mv dn" id="txn-s-wd">$0.00</div><div class="ms" id="txn-s-wd-n">0 transaksi</div></div>
+        <div class="met"><div class="ml">Net (Depo − WD)</div><div class="mv nt" id="txn-s-net">$0.00</div><div class="ms" id="txn-s-net-lbl">seimbang</div></div>
+      </div>
+      <div class="card">
+        <div class="fb" style="margin-bottom:12px">
+          <div class="ct" style="margin-bottom:0">Riwayat Transaksi</div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <select style="font-size:11px;padding:4px 8px;width:auto" id="txn-flt" onchange="renderTxn()">
+              <option value="all">Semua</option>
+              <option value="depo">Deposit</option>
+              <option value="wd">Withdrawal</option>
+            </select>
+            <button class="btn br" style="font-size:11px;padding:4px 10px" onclick="clearAllTxn()">Hapus Semua</button>
+          </div>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="tbl">
+            <thead><tr>
+              <th>Tanggal</th><th>Jenis</th><th style="text-align:right">Jumlah</th>
+              <th>Metode</th><th>Catatan</th><th>Del</th>
+            </tr></thead>
+            <tbody id="txn-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end main -->
+</div><!-- end app -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="./news_data.js" onerror="console.warn('news_data.js belum ada — jalankan forex_news_digest.py terlebih dahulu.')"></script>
+<script>
+'use strict';
+// ═══════════════════════════════════════════════════════════════
+//  HELPERS
+// ═══════════════════════════════════════════════════════════════
+const $ = id => document.getElementById(id);
+const today = () => new Date().toISOString().split('T')[0];
+
+function lsGet(k, def) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : def; } catch(e) { return def; } }
+function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch(e) {} }
+
+function toast(msg, dur=2600) {
+  const t=$('toast'); t.textContent=msg; t.classList.add('show');
+  clearTimeout(t._tid); t._tid=setTimeout(()=>t.classList.remove('show'),dur);
+}
+function showLoad(txt) { /* no blocking overlay */ }
+function hideLoad() { /* no-op */ }
+
+// ═══════════════════════════════════════════════════════════════
+//  STATE — all localStorage, no IndexedDB
+// ═══════════════════════════════════════════════════════════════
+let trades      = (lsGet('fj_trades', [])||[]).map(t=>({...t,note:String(t.note||''),result:String(t.result||'').toLowerCase().trim(),pair:String(t.pair||''),sslink:String(t.sslink||'')})); // jika sudah ada driveUrl, hapus base64 lokal
+let customRules = lsGet('fj_rules',  []);
+let dailyPlans  = lsGet('fj_dplans', []);  // ARRAY - riwayat, tidak tertimpa
+let weeklyPlans = lsGet('fj_wplans', []); // ARRAY - riwayat, tidak tertimpa
+let psyLogs     = lsGet('fj_psy',    []);
+let transactions= lsGet('fj_txn',    []);
+let GS_URL      = lsGet('fj_gs_url', '');
+let GS_ON       = false;
+
+// Sanitize trade before use — prevent type errors from Sheets data
+function sanitizeTrade(t) {
+  return {
+    id:      Number(t.id)||Date.now(),
+    date:    String(t.date||''),
+    pair:    String(t.pair||''),
+    dir:     String(t.dir||'BUY'),
+    entry:   String(t.entry||''),
+    sl:      String(t.sl||''),
+    tp:      String(t.tp||''),
+    lot:     String(t.lot||''),
+    result:  String(t.result||'').toLowerCase().trim(),
+    pnl:     String(t.pnl||''),
+    setup:   String(t.setup||''),
+    session: String(t.session||''),
+    note:    String(t.note||'')
+  };
+}
+
+function saveState() {
+  lsSet('fj_trades', trades);
+  lsSet('fj_rules',  customRules);
+  lsSet('fj_dplans', dailyPlans);
+  lsSet('fj_wplans', weeklyPlans);
+  lsSet('fj_psy',    psyLogs);
+  lsSet('fj_txn',    transactions);
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  TABS
+// ═══════════════════════════════════════════════════════════════
+function showTab(name, btn) {
+  document.querySelectorAll('.tab').forEach(e=>e.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(e=>e.classList.remove('on'));
+  $('tab-'+name).classList.add('on'); btn.classList.add('on');
+  if(name==='dash')       setTimeout(drawCharts,60);
+  if(name==='kalender')   renderKalender();
+  if(name==='sentimen')   renderSentimen();
+  if(name==='geopolitik') renderGeopolitik();
+  if(name==='rekomend')   renderRekomend();
+  if(name==='transaksi')  renderTxn();
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  KALENDER · SENTIMEN · GEOPOLITIK — baca dari news_data.js
+// ═══════════════════════════════════════════════════════════════
+const _IMP = {
+  high:    {dot:'#ef4444', label:'Tinggi'},
+  medium:  {dot:'#f97316', label:'Sedang'},
+  low:     {dot:'#eab308', label:'Rendah'},
+  holiday: {dot:'#6b7280', label:'Libur'},
+  none:    {dot:'#374151', label:'—'},
+};
+const _SCFG = {
+  Bullish: {bg:'#0d3320', bdr:'#22c55e', bbg:'#16a34a', bfg:'#fff'},
+  Bearish: {bg:'#3b0d0d', bdr:'#ef4444', bbg:'#dc2626', bfg:'#fff'},
+  Netral:  {bg:'#1a1f2e', bdr:'#6b7280', bbg:'#374151', bfg:'#d1d5db'},
+};
+
+function _noData(msg) {
+  return `<div class="em" style="padding:56px 16px">
+    <div style="font-size:44px;margin-bottom:14px">📭</div>
+    <div style="font-size:13px;color:var(--sub);margin-bottom:8px;font-weight:600">Data belum tersedia</div>
+    <div style="font-size:11px;color:var(--mut);line-height:1.7">${msg||'Jalankan <b>forex_news_digest.py</b> untuk mengambil data terbaru.'}</div>
+  </div>`;
+}
+
+function _badge(ts) {
+  return `<div style="background:var(--surf);border:1px solid var(--bdr);border-radius:6px;padding:5px 12px;font-size:10px;color:var(--mut)">
+    🕐 Diperbarui: <b style="color:var(--sub)">${ts||'—'}</b></div>`;
+}
+
+function _newsCard(item, showPairs) {
+  const c = _SCFG[item.sentiment]||_SCFG.Netral;
+  const lbl = {Bullish:'BULLISH',Bearish:'BEARISH',Netral:'NETRAL'}[item.sentiment] || item.sentiment.toUpperCase();
+  const sum = item.summary ? `<div data-en="${_esc(item.summary)}" data-type="summary" style="font-size:11px;color:var(--mut);margin-top:5px;line-height:1.6">${item.summary}…</div>` : '';
+  const pub = item.published ? `<span style="color:var(--mut);font-size:10px">· ${item.published}</span>` : '';
+  const sc  = `<span style="color:var(--mut);font-size:10px;margin-left:auto">skor: ${item.score>=0?'+':''}${item.score.toFixed(3)}</span>`;
+  return `<div style="background:${c.bg};border-left:4px solid ${c.bdr};border-radius:8px;padding:12px 14px;margin:8px 0">
+    <div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:6px">
+      <span style="background:${c.bbg};color:${c.bfg};font-size:10px;font-weight:700;padding:2px 7px;border-radius:10px">${item.emoji} ${lbl}</span>
+      <span style="color:var(--mut);font-size:11px">${item.source}</span>${pub}${sc}
+    </div>
+    <a href="${_esc(item.url)}" target="_blank" rel="noopener" data-en="${_esc(item.title)}"
+       style="color:var(--txt);font-size:13px;font-weight:600;text-decoration:none;line-height:1.4;display:block">${item.title}</a>
+    ${sum}
+    ${showPairs&&item._pairs?`<div style="margin-top:7px">${item._pairs.map(p=>`<span style="background:var(--surf);border:1px solid var(--bdr);color:var(--sub);font-size:10px;padding:1px 6px;border-radius:10px;margin-right:4px">${p}</span>`).join('')}</div>`:''}
+  </div>`;
+}
+
+function _section(title, list, limit, cardFn) {
+  if (!list.length) return '';
+  return `<div style="font-size:13px;font-weight:600;color:var(--sub);margin:20px 0 6px;border-bottom:1px solid var(--bdr);padding-bottom:6px">${title}</div>
+  ${list.slice(0,limit||15).map(cardFn).join('')}`;
+}
+
+// ── TERJEMAHAN OTOMATIS EN → ID ───────────────────────────────
+// Menggunakan Google Translate public endpoint — gratis, tanpa API key
+// Cache disimpan ke sessionStorage agar tidak re-translate saat ganti tab
+function _esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+const _TC = JSON.parse(sessionStorage.getItem('_fk_tc')||'{}');
+let _tcTimer = null;
+function _saveTC() {
+  clearTimeout(_tcTimer);
+  _tcTimer = setTimeout(()=>sessionStorage.setItem('_fk_tc', JSON.stringify(_TC)), 400);
+}
+async function _tr(txt) {
+  if (!txt || txt.length < 4) return txt;
+  if (_TC[txt]) return _TC[txt];
+  try {
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=id&dt=t&q=${encodeURIComponent(txt.slice(0,500))}`;
+    const r = await fetch(url, {signal: AbortSignal.timeout(7000)});
+    const d = await r.json();
+    const result = Array.isArray(d[0]) ? d[0].map(x=>x[0]).filter(Boolean).join('') : txt;
+    if (result && result.trim() && result !== txt) { _TC[txt] = result; _saveTC(); }
+    return result || txt;
+  } catch { return txt; }
+}
+// Terjemahkan semua elemen [data-en] dalam container secara async background
+async function _translateAll(containerId) {
+  const wrap = document.getElementById(containerId);
+  if (!wrap) return;
+  for (const el of wrap.querySelectorAll('[data-en]')) {
+    if (!el.dataset.en) continue;
+    const t = await _tr(el.dataset.en);
+    if (el.dataset.type === 'summary') el.textContent = t + '…';
+    else el.textContent = t;
+    await new Promise(r => setTimeout(r, 75)); // batasi laju agar tidak throttle
+  }
+}
+
+// ── KALENDER ──────────────────────────────────────────────────
+function renderKalender() {
+  const el = $('kal-content');
+  if (!window.FK_DATA) { el.innerHTML = _noData(); return; }
+  const { generated, kalender } = window.FK_DATA;
+  const events = kalender?.events || [];
+  if (!events.length) { el.innerHTML = _noData('Tidak ada event. Jalankan forex_news_digest.py.'); return; }
+
+  const hi=events.filter(e=>e.impact==='high').length,
+        me=events.filter(e=>e.impact==='medium').length,
+        lo=events.filter(e=>e.impact==='low').length;
+
+  const stats = `<div class="g4" style="margin-bottom:12px">
+    <div class="met"><div class="ml">Dampak Tinggi</div><div class="mv" style="color:#ef4444">${hi}</div></div>
+    <div class="met"><div class="ml">Dampak Sedang</div><div class="mv" style="color:#f97316">${me}</div></div>
+    <div class="met"><div class="ml">Dampak Rendah</div><div class="mv" style="color:#eab308">${lo}</div></div>
+    <div class="met"><div class="ml">Total Event</div><div class="mv go">${events.length}</div></div>
+  </div>`;
+
+  const legend = `<div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;
+      background:var(--surf);border:1px solid var(--bdr);border-radius:8px;
+      padding:9px 14px;margin-bottom:14px;font-size:11px">
+    <span style="color:var(--mut);font-weight:600">Dampak:</span>
+    <span style="color:#ef4444">● Tinggi</span>
+    <span style="color:#f97316">● Sedang</span>
+    <span style="color:#eab308">● Rendah</span>
+    <span style="color:#6b7280">● Libur / —</span>
+  </div>`;
+
+  const isReleased = ev => !!(ev.actual && ev.actual !== '' && ev.actual !== '—');
+
+  const upcoming = events.filter(ev => !isReleased(ev));
+  const released = events.filter(ev => isReleased(ev));
+
+  const _BULAN = ['','Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agt','Sep','Okt','Nov','Des'];
+  const _fmtTgl = d => { const [y,m,dd]=d.split('-'); return `${+dd} ${_BULAN[+m]} ${y}`; };
+
+  function buildDayTables(evList, borderColor) {
+    const _HARI = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
+
+    const toMin = t => {
+      if (!t || !(/^\d/).test(t)) return -1;
+      const [h, mm] = t.split(':');
+      return +h * 60 + (+mm || 0);
+    };
+    const addDays = (dateStr, n) => {
+      const dt = new Date(dateStr + 'T12:00:00');
+      dt.setDate(dt.getDate() + n);
+      return dt.toISOString().split('T')[0];
+    };
+
+    const days = {};
+    const uniqueDates = new Set(evList.map(e => e.date).filter(Boolean));
+
+    if (uniqueDates.size > 1) {
+      // Python menyimpan tanggal ET yang benar per event — group langsung by date
+      evList.forEach(e => {
+        const bucket = e.date;
+        if (!days[bucket]) days[bucket] = [];
+        days[bucket].push(e);
+      });
+    } else {
+      // Fallback: Python gagal deteksi hari (semua date sama) — deteksi dari drop time_wib
+      const baseDate = addDays(
+        evList.length ? evList[0].date : new Date().toISOString().split('T')[0],
+        -1
+      );
+      let dayOffset = 0, prevMin = -1;
+      evList.forEach(e => {
+        const min = toMin(e.time_wib);
+        if (min >= 0) {
+          if (prevMin >= 0 && min < prevMin - 420) dayOffset++;
+          prevMin = min;
+        }
+        const bucket = addDays(baseDate, dayOffset);
+        if (!days[bucket]) days[bucket] = [];
+        days[bucket].push(e);
+      });
+    }
+
+    const sorted = Object.entries(days).sort(([a],[b]) => a.localeCompare(b));
+    if (!sorted.length) return '';
+
+    let bodyRows = '';
+    sorted.forEach(([date, dayEvs], dayIdx) => {
+      const dayName = _HARI[new Date(date + 'T12:00:00').getDay()];
+
+      dayEvs.sort((a, b) => {
+        const ma = toMin(a.time_wib), mb = toMin(b.time_wib);
+        if (ma < 0 && mb < 0) return 0;
+        if (ma < 0) return -1;
+        if (mb < 0) return 1;
+        return ma - mb;
+      });
+
+      // Garis pemisah tipis antar hari (bukan sebelum hari pertama)
+      if (dayIdx > 0) {
+        bodyRows += `<tr><td colspan="8" style="padding:0;height:3px;background:linear-gradient(90deg,${borderColor}88,transparent)"></td></tr>`;
+      }
+
+      dayEvs.forEach((ev, evIdx) => {
+        const cfg = _IMP[ev.impact]||_IMP.none;
+        const dot = `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${cfg.dot}" title="${cfg.label}"></span>`;
+        let actSt = 'color:var(--sub)';
+        if (ev.actual && ev.forecast) {
+          try {
+            const n=s=>parseFloat(String(s).replace(/[^\d.\-]/g,''));
+            const a=n(ev.actual), f=n(ev.forecast);
+            if(!isNaN(a)&&!isNaN(f)) actSt = a>=f?'color:#22c55e;font-weight:700':'color:#ef4444;font-weight:700';
+          } catch(e){}
+        }
+        const cell = v => v||'<span style="color:#374151">—</span>';
+
+        // Kolom tanggal: hanya muncul di baris pertama tiap hari, rowspan = jumlah event hari itu
+        const dateCell = evIdx === 0 ? `
+          <td rowspan="${dayEvs.length}" style="
+            padding:10px 14px;
+            text-align:center;
+            vertical-align:middle;
+            border-right:3px solid ${borderColor};
+            background:linear-gradient(180deg,${borderColor}22,${borderColor}08);
+            white-space:nowrap;
+            min-width:76px;
+          ">
+            <div style="font-weight:800;font-size:13px;color:var(--txt);line-height:1.4">${dayName}</div>
+            <div style="font-weight:600;font-size:11px;color:var(--gold);margin-top:4px">${_fmtTgl(date)}</div>
+          </td>` : '';
+
+        bodyRows += `<tr style="border-top:1px solid var(--bdr)">
+          ${dateCell}
+          <td style="padding:7px 8px;color:var(--mut);font-size:11px;white-space:nowrap;font-family:var(--mono)">${ev.time_wib||'—'}</td>
+          <td style="padding:7px 8px;text-align:center">
+            <span style="background:var(--surf);border:1px solid var(--bdr);color:var(--txt);font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px">${ev.currency||'—'}</span>
+          </td>
+          <td style="padding:7px 8px;text-align:center">${dot}</td>
+          <td style="padding:7px 8px;color:var(--txt);font-size:12px">${ev.event}</td>
+          <td style="padding:7px 8px;text-align:center;${actSt};font-size:12px">${cell(ev.actual)}</td>
+          <td style="padding:7px 8px;text-align:center;color:var(--sub);font-size:12px">${cell(ev.forecast)}</td>
+          <td style="padding:7px 8px;text-align:center;color:var(--mut);font-size:12px">${cell(ev.previous)}</td>
+        </tr>`;
+      });
+    });
+
+    return `<div class="card" style="padding:0;overflow:hidden;margin-bottom:14px">
+      <div style="overflow-x:auto">
+        <table class="tbl">
+          <thead><tr>
+            <th style="text-align:center;min-width:76px">TANGGAL</th>
+            <th>WAKTU (WIB)</th>
+            <th style="text-align:center">MATA UANG</th>
+            <th style="text-align:center">DAMPAK</th>
+            <th>NAMA EVENT</th>
+            <th style="text-align:center">AKTUAL</th>
+            <th style="text-align:center">PERKIRAAN</th>
+            <th style="text-align:center">SEBELUMNYA</th>
+          </tr></thead>
+          <tbody>${bodyRows}</tbody>
+        </table>
+      </div>
+    </div>`;
+  }
+
+  const sectionUpcoming = upcoming.length
+    ? `<div style="margin-bottom:20px">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;
+            padding:10px 14px;border-radius:8px;
+            background:linear-gradient(90deg,rgba(59,130,246,0.12),rgba(234,179,8,0.08));
+            border:1px solid rgba(59,130,246,0.35)">
+          <span style="font-size:18px">⏰</span>
+          <div>
+            <div style="color:#60a5fa;font-weight:700;font-size:14px">Akan Keluar</div>
+            <div style="color:var(--mut);font-size:11px">${upcoming.length} event belum memiliki data aktual</div>
+          </div>
+        </div>
+        ${buildDayTables(upcoming, '#3b82f6')}
+      </div>`
+    : `<div style="text-align:center;padding:18px;color:var(--mut);font-size:13px;
+          border:1px dashed rgba(59,130,246,0.35);border-radius:8px;margin-bottom:20px">
+        ⏰ Tidak ada event yang akan keluar
+      </div>`;
+
+  const sectionReleased = released.length
+    ? `<div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;
+            padding:10px 14px;border-radius:8px;
+            background:linear-gradient(90deg,rgba(34,197,94,0.12),rgba(34,197,94,0.05));
+            border:1px solid rgba(34,197,94,0.35)">
+          <span style="font-size:18px">✅</span>
+          <div>
+            <div style="color:#4ade80;font-weight:700;font-size:14px">Sudah Keluar</div>
+            <div style="color:var(--mut);font-size:11px">${released.length} event sudah memiliki data aktual</div>
+          </div>
+        </div>
+        ${buildDayTables(released, '#22c55e')}
+      </div>`
+    : `<div style="text-align:center;padding:18px;color:var(--mut);font-size:13px;
+          border:1px dashed rgba(34,197,94,0.35);border-radius:8px">
+        ✅ Belum ada event yang sudah keluar
+      </div>`;
+
+  el.innerHTML = `<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+    <div class="ct" style="margin-bottom:0">📅 Kalender Ekonomi Forex Minggu Ini</div>${_badge(generated)}</div>
+  ${stats}${legend}${sectionUpcoming}${sectionReleased}`;
+}
+
+// ── SENTIMEN — FinancialJuice (via news_data.js) ──────────────
+function _fjCard(item) {
+  const c   = _SCFG[item.sentiment] || _SCFG.Netral;
+  const icon = {Bullish:'🟢',Bearish:'🔴',Netral:'⚪'}[item.sentiment];
+  const lbl  = (item.sentiment||'Netral').toUpperCase();
+  const src  = item.url
+    ? `<a href="${item.url}" target="_blank" rel="noopener"
+         style="color:var(--blu);font-size:10px;text-decoration:none;white-space:nowrap">🔗 Sumber</a>` : '';
+  const pub  = item.published
+    ? `<span style="font-size:10px;color:var(--mut)">${item.published}</span>` : '';
+  const sc   = typeof item.score === 'number'
+    ? `<span style="font-size:10px;color:var(--mut);margin-left:auto">skor: ${item.score>=0?'+':''}${item.score.toFixed(3)}</span>` : '';
+  return `<div style="background:${c.bg};border-left:4px solid ${c.bdr};border-radius:8px;padding:11px 14px;margin:6px 0">
+    <div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:5px">
+      <span style="background:${c.bbg};color:${c.bfg};font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px">${icon} ${lbl}</span>
+      ${pub}${sc}
+      <span style="margin-left:auto">${src}</span>
+    </div>
+    <div style="font-size:12px;color:var(--txt);line-height:1.55">${item.title}</div>
+  </div>`;
+}
+
+function renderSentimen() {
+  const el = $('sent-content');
+  if(!window.FK_DATA) { el.innerHTML = _noData(); return; }
+  const { fj_live } = window.FK_DATA;
+  if(!fj_live || !fj_live.items) { el.innerHTML = _noData('Jalankan <b>forex_news_digest.py</b> untuk mengambil data FinancialJuice terbaru.'); return; }
+
+  const { generated, summary, items } = fj_live;
+  const total = summary.total || 1;
+  const pB  = (summary.bullish / total * 100).toFixed(0);
+  const pBe = (summary.bearish / total * 100).toFixed(0);
+  const pN  = (100 - pB - pBe).toFixed(0);
+  const oc  = summary.overall==='Bullish'?'#22c55e':summary.overall==='Bearish'?'#ef4444':'#6b7280';
+  const oe  = summary.overall==='Bullish'?'🟢':summary.overall==='Bearish'?'🔴':'⚪';
+  const sc  = summary.avg_score;
+
+  const bull = items.filter(i => i.sentiment === 'Bullish').sort((a,b) => b.score - a.score);
+  const bear = items.filter(i => i.sentiment === 'Bearish').sort((a,b) => a.score - b.score);
+  const net  = items.filter(i => i.sentiment === 'Netral');
+
+  const stats = `<div class="g4" style="margin-bottom:12px">
+    <div class="met"><div class="ml">Total Berita</div><div class="mv nt">${summary.total}</div></div>
+    <div class="met"><div class="ml">Bullish</div><div class="mv up">${summary.bullish}</div></div>
+    <div class="met"><div class="ml">Bearish</div><div class="mv dn">${summary.bearish}</div></div>
+    <div class="met"><div class="ml">Netral</div><div class="mv nt">${summary.netral}</div></div>
+  </div>`;
+
+  const overallBox = `<div class="card" style="margin-bottom:12px">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+      <div>
+        <div style="font-size:10px;color:var(--mut);margin-bottom:4px">Sentimen Keseluruhan · Sumber: FinancialJuice</div>
+        <div style="font-size:22px;font-weight:700;color:${oc}">${oe} ${summary.overall}</div>
+        <div style="font-size:11px;color:var(--mut);margin-top:2px">Skor rata-rata: <b style="color:${oc}">${sc>=0?'+':''}${sc}</b></div>
+      </div>
+      <div style="text-align:right;font-size:11px;color:var(--mut)">
+        ${pB}% Bullish &nbsp;·&nbsp; ${pBe}% Bearish &nbsp;·&nbsp; ${pN}% Netral
+      </div>
+    </div>
+    <div style="background:var(--bg);border-radius:4px;height:8px;overflow:hidden;display:flex">
+      <div style="background:#22c55e;width:${pB}%"></div>
+      <div style="background:#6b7280;width:${pN}%"></div>
+      <div style="background:#ef4444;width:${pBe}%"></div>
+    </div>
+  </div>`;
+
+  const bullSec = bull.length ? `<div class="card" style="margin-bottom:12px">
+    <div style="font-size:12px;font-weight:700;color:#22c55e;margin-bottom:8px">🟢 Berita Bullish (${bull.length})</div>
+    ${bull.map(_fjCard).join('')}
+  </div>` : '';
+
+  const bearSec = bear.length ? `<div class="card" style="margin-bottom:12px">
+    <div style="font-size:12px;font-weight:700;color:#ef4444;margin-bottom:8px">🔴 Berita Bearish (${bear.length})</div>
+    ${bear.map(_fjCard).join('')}
+  </div>` : '';
+
+  const netSec = net.length ? `<div class="card" style="margin-bottom:12px">
+    <div style="font-size:12px;font-weight:700;color:var(--mut);margin-bottom:8px">⚪ Berita Netral (${net.length})</div>
+    ${net.map(_fjCard).join('')}
+  </div>` : '';
+
+  const credit = `<div style="text-align:center;font-size:10px;color:var(--mut);margin-top:4px;padding-bottom:8px">
+    Sumber data: <a href="https://www.financialjuice.com" target="_blank" rel="noopener"
+      style="color:var(--blu)">FinancialJuice.com</a> · Analisis: VADER Sentiment
+  </div>`;
+
+  el.innerHTML = `<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+    <div class="ct" style="margin-bottom:0">📊 Sentimen Pasar Forex — FinancialJuice</div>
+    ${_badge(generated)}
+  </div>
+  ${stats}${overallBox}${bullSec}${bearSec}${netSec}${credit}`;
+}
+
+// ── GEOPOLITIK ────────────────────────────────────────────────
+function renderGeopolitik() {
+  const el = $('geo-content');
+  if (!window.FK_DATA) { el.innerHTML = _noData(); return; }
+  const { generated, geopolitik } = window.FK_DATA;
+  if (!geopolitik) { el.innerHTML = _noData(); return; }
+  const { risk_level, risk_color, risk_emoji, pairs_affected, items } = geopolitik;
+
+  const bull = items.filter(i=>i.sentiment==='Bullish');
+  const bear = items.filter(i=>i.sentiment==='Bearish');
+  const net  = items.filter(i=>i.sentiment==='Netral');
+  const avg  = items.length ? items.reduce((s,i)=>s+i.score,0)/items.length : 0;
+
+  const riskBox = `<div class="card" style="border:2px solid ${risk_color};margin-bottom:12px">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+      <div>
+        <div style="font-size:10px;color:var(--mut);margin-bottom:4px">Tingkat Risiko Geopolitik</div>
+        <div style="font-size:24px;font-weight:700;color:${risk_color}">${risk_emoji} ${risk_level}</div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:18px;font-weight:700;color:var(--txt)">${items.length} Peristiwa</div>
+        <div style="font-size:11px;color:var(--mut);margin-top:2px">
+          ${bull.length} positif · ${bear.length} negatif · ${net.length} netral</div>
+        <div style="font-size:11px;color:${risk_color};margin-top:2px">
+          Skor rata-rata: <b>${avg>=0?'+':''}${avg.toFixed(3)}</b></div>
+      </div>
+    </div>
+  </div>`;
+
+  const pairRows = (pairs_affected||[]).map(p => {
+    const pc=p.direction.includes('▲')?'#22c55e':p.direction.includes('▼')?'#ef4444':'#6b7280';
+    return `<tr style="border-top:1px solid var(--bdr)">
+      <td style="padding:7px 12px;color:var(--txt);font-weight:700">${p.pair}</td>
+      <td style="padding:7px 12px;color:${pc};font-weight:600">${p.direction}</td>
+      <td style="padding:7px 12px;color:var(--mut);font-size:11px">${p.count} kejadian</td>
+      <td style="padding:7px 12px;color:${pc}">${p.score>=0?'+':''}${p.score}</td>
+    </tr>`;
+  }).join('');
+
+  const pairTable = pairRows ? `<div class="card" style="margin-bottom:12px;padding:0;overflow:hidden">
+    <div style="padding:9px 14px;border-bottom:1px solid var(--bdr)">
+      <span style="font-size:11px;font-weight:600;color:var(--sub)">📌 Pasangan Forex yang Terpengaruh</span></div>
+    <table class="tbl"><thead><tr>
+      <th>PASANGAN</th><th>ARAH</th><th>FREKUENSI</th><th>SKOR</th>
+    </tr></thead><tbody>${pairRows}</tbody></table>
+  </div>` : '';
+
+  const bearS = [...bear].sort((a,b)=>a.score-b.score);
+  const bullS = [...bull].sort((a,b)=>b.score-a.score);
+
+  el.innerHTML = `<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+    <div class="ct" style="margin-bottom:0">🌍 Geopolitik Penting — Pasar Forex</div>${_badge(generated)}</div>
+  ${riskBox}${pairTable}
+  ${_section(`🔴 Peristiwa Negatif/Bearish (${bear.length})`,bearS,15,i=>_newsCard(i,true))}
+  ${_section(`🟢 Peristiwa Positif/Bullish (${bull.length})`,bullS,15,i=>_newsCard(i,true))}
+  ${_section(`⚪ Peristiwa Netral (${net.length})`,net,10,i=>_newsCard(i,true))}`;
+  _translateAll('geo-content');
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  REKOMENDASI TEKNIKAL (4H) — Yahoo Finance live
+// ═══════════════════════════════════════════════════════════════
+const _RK_PAIRS = [
+  {sym:'EURUSD=X', label:'EUR/USD'},
+  {sym:'GBPUSD=X', label:'GBP/USD'},
+  {sym:'USDJPY=X', label:'USD/JPY'},
+  {sym:'USDCHF=X', label:'USD/CHF'},
+  {sym:'USDCAD=X', label:'USD/CAD'},
+  {sym:'AUDUSD=X', label:'AUD/USD'},
+  {sym:'NZDUSD=X', label:'NZD/USD'},
+];
+let _rkCache = null;
+
+function _rkRSI(c, p=14) {
+  if (c.length < p+1) return 50;
+  let ag=0, al=0;
+  for (let i=1; i<=p; i++) { const d=c[i]-c[i-1]; if(d>0) ag+=d; else al-=d; }
+  ag/=p; al/=p;
+  for (let i=p+1; i<c.length; i++) {
+    const d=c[i]-c[i-1];
+    ag=(ag*(p-1)+Math.max(d,0))/p;
+    al=(al*(p-1)+Math.max(-d,0))/p;
+  }
+  if (al===0) return 100;
+  return 100-(100/(1+ag/al));
+}
+
+function _rkSMA(c, p) {
+  if (c.length < p) return null;
+  return c.slice(-p).reduce((a,b)=>a+b,0)/p;
+}
+
+function _rkCompute(opens, closes, pair) {
+  const n = closes.length;
+  if (n < 20) throw new Error('Data tidak cukup');
+  const last = closes[n-1];
+  const rsi   = _rkRSI(closes, 14);
+  const sma20  = _rkSMA(closes, 20);
+  const sma50  = _rkSMA(closes, 50);
+  const sma200 = _rkSMA(closes, 200);
+  const sigs = [
+    last>sma20?1:-1,
+    sma20>sma50?1:-1,
+    sma50&&sma200?(sma50>sma200?1:-1):0,
+    rsi>50?1:-1,
+    closes.slice(-5).map((c,i)=>c>opens[n-5+i]?1:-1).reduce((a,b)=>a+b,0)>0?1:-1,
+  ].filter(s=>s!==0);
+  const bull=sigs.filter(s=>s>0).length, bear=sigs.filter(s=>s<0).length;
+  const direction=bull>=4?'BUY':bear>=4?'SELL':'WAIT';
+  const dirColor=direction==='BUY'?'var(--grn)':direction==='SELL'?'var(--red)':'var(--sub)';
+  const rsiScore=Math.round(Math.abs(rsi-50)/50*30);
+  let maAligned=0;
+  if(direction!=='WAIT'){
+    const up=direction==='BUY';
+    if(up?last>sma20:last<sma20) maAligned++;
+    if(up?sma20>sma50:sma20<sma50) maAligned++;
+    if(sma50&&sma200&&(up?sma50>sma200:sma50<sma200)) maAligned++;
+  }
+  const maScore=[0,13,27,40][maAligned];
+  const l5bull=closes.slice(-5).map((c,i)=>c>opens[n-5+i]).filter(Boolean).length;
+  const momScore=Math.round((direction==='BUY'?l5bull:5-l5bull)/5*30);
+  const score=Math.min(100,rsiScore+maScore+momScore);
+  const dp=pair.sym.includes('JPY')?3:5;
+  const fmt=v=>v?v.toFixed(dp):'—';
+  return {label:pair.label, score, direction, dirColor,
+          rsi:Math.round(rsi*10)/10, lastClose:fmt(last),
+          sma20:fmt(sma20), sma50:fmt(sma50), sma200:fmt(sma200),
+          bull, bear, total:sigs.length};
+}
+
+async function _rkFetch(pair) {
+  const sym = pair.sym;
+  const yhUrl  = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=4h&range=90d`;
+  const yh2Url = `https://query2.finance.yahoo.com/v8/finance/chart/${sym}?interval=4h&range=90d`;
+
+  // Twelve Data (reliable CORS) — pakai jika API key tersedia
+  const tdKey = localStorage.getItem('rk_td_key');
+  if (tdKey) {
+    const tdSym = sym.replace('=X','').replace(/^(.{3})(.{3})$/, '$1/$2');
+    try {
+      const r = await fetch(
+        `https://api.twelvedata.com/time_series?symbol=${encodeURIComponent(tdSym)}&interval=4h&outputsize=200&apikey=${tdKey}`,
+        {signal:AbortSignal.timeout(12000)}
+      );
+      if (r.ok) {
+        const j = await r.json();
+        if (j.values?.length) {
+          const vals = [...j.values].reverse();
+          return _rkCompute(vals.map(v=>+v.open), vals.map(v=>+v.close), pair);
+        }
+        if (j.status==='error') throw new Error('TD: '+j.message);
+      }
+    } catch(e) { if(e.message?.startsWith('TD:')) throw e; }
+  }
+
+  // Yahoo Finance — coba langsung lalu via beberapa proxy
+  const proxies = [
+    yhUrl,
+    yh2Url,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(yhUrl)}`,
+    `https://corsproxy.io/?${encodeURIComponent(yhUrl)}`,
+    `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(yhUrl)}`,
+  ];
+  for (const url of proxies) {
+    try {
+      const r = await fetch(url, {signal:AbortSignal.timeout(12000)});
+      if (!r.ok) continue;
+      const j = await r.json();
+      if (!j.chart?.result?.[0]) continue;
+      const q = j.chart.result[0].indicators.quote[0];
+      const valid = q.close.map((c,i)=>[q.open[i],c]).filter(([o,c])=>o!=null&&c!=null);
+      if (valid.length < 20) continue;
+      return _rkCompute(valid.map(v=>v[0]), valid.map(v=>v[1]), pair);
+    } catch(_) {}
+  }
+  throw new Error('no_data');
+}
+
+function _rkSaveKey() {
+  const inp = document.getElementById('rk-apikey-input');
+  const key = inp?.value?.trim();
+  if (!key) { toast('Masukkan API Key terlebih dahulu.'); return; }
+  localStorage.setItem('rk_td_key', key);
+  _rkCache = null;
+  toast('✅ API Key disimpan — memuat data...');
+  renderRekomend();
+}
+
+function _rkClearKey() {
+  localStorage.removeItem('rk_td_key');
+  _rkCache = null;
+  toast('🗑 API Key dihapus.');
+  renderRekomend();
+}
+
+function _rkRsiBar(rsi) {
+  const pos = Math.max(2, Math.min(98, rsi));
+  const col = rsi<30?'var(--grn)':rsi>70?'var(--red)':'var(--gold)';
+  const zone = rsi<30?'Oversold':rsi>70?'Overbought':rsi<45?'Bearish':rsi>55?'Bullish':'Netral';
+  return `<div style="margin:7px 0 10px">
+    <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+      <span style="font-size:10px;color:var(--sub)">RSI(14)</span>
+      <span style="font-family:var(--mono);font-size:11px;font-weight:600;color:${col}">${rsi} <span style="opacity:.65;font-weight:400">— ${zone}</span></span>
+    </div>
+    <div style="height:6px;background:linear-gradient(90deg,#22c55e 0%,#64748b 30%,#64748b 70%,#ef4444 100%);border-radius:3px;position:relative">
+      <div style="position:absolute;left:30%;top:-2px;width:1px;height:10px;background:rgba(255,255,255,.3)"></div>
+      <div style="position:absolute;left:70%;top:-2px;width:1px;height:10px;background:rgba(255,255,255,.3)"></div>
+      <div style="position:absolute;left:calc(${pos}% - 5px);top:-3px;width:10px;height:12px;background:${col};border-radius:3px;border:2px solid rgba(0,0,0,.5)"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-top:3px">
+      <span style="font-size:9px;color:var(--grn)">0 ← Oversold 30</span>
+      <span style="font-size:9px;color:var(--red)">70 Overbought → 100</span>
+    </div>
+  </div>`;
+}
+
+function _rkMaRow(label, val, price) {
+  const pF=parseFloat(price), vF=parseFloat(val);
+  const ok=val!=='—'&&!isNaN(pF)&&!isNaN(vF);
+  const up=ok&&pF>vF;
+  const col=ok?(up?'var(--grn)':'var(--red)'):'var(--mut)';
+  const tag=ok?`<span style="font-size:9px;opacity:.6">${up?'↑ di atas':'↓ di bawah'}</span>`:'';
+  return `<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid var(--bdr)">
+    <span style="font-size:11px;color:var(--sub)">${label}</span>
+    <span style="font-family:var(--mono);font-size:11px;color:${col}">${val} ${tag}</span>
+  </div>`;
+}
+
+function _rkSignalText(r) {
+  if (r.direction==='WAIT') return `Sinyal tidak konsisten (${r.bull} bullish vs ${r.bear} bearish dari ${r.total} indikator). Tunggu konfirmasi lebih lanjut sebelum entry.`;
+  const maj = r.direction==='BUY'?r.bull:r.bear;
+  let t = `${maj}/${r.total} indikator ${r.direction==='BUY'?'bullish':'bearish'}.`;
+  if (r.rsi<30)      t+=' RSI oversold — potensi reversal naik.';
+  else if (r.rsi>70) t+=' RSI overbought — potensi koreksi turun.';
+  else if (r.rsi<40&&r.direction==='BUY')   t+=' RSI mendekati zona bullish.';
+  else if (r.rsi>60&&r.direction==='SELL')  t+=' RSI mendekati zona bearish.';
+  return t;
+}
+
+function _rkDetailCard(r) {
+  const bdr = r.direction==='BUY'?'rgba(34,197,94,.22)':r.direction==='SELL'?'rgba(239,68,68,.22)':'rgba(100,116,139,.15)';
+  const bg  = r.direction==='BUY'?'rgba(34,197,94,.04)':r.direction==='SELL'?'rgba(239,68,68,.04)':'transparent';
+  const dirBg = r.direction==='BUY'?'var(--grn-d)':r.direction==='SELL'?'var(--red-d)':'rgba(100,116,139,.12)';
+  const sCol  = r.score>=70?'var(--grn)':r.score>=45?'var(--gold)':'var(--sub)';
+  return `<div class="card" style="border:1px solid ${bdr};background:${bg};margin-bottom:10px;padding:14px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+      <div style="display:flex;align-items:center;gap:9px">
+        <span style="font-family:var(--mono);font-size:15px;font-weight:700;color:var(--txt2)">${r.label}</span>
+        <span style="background:${dirBg};color:${r.dirColor};padding:3px 10px;border-radius:5px;font-size:11px;font-weight:700;letter-spacing:.03em">${r.direction}</span>
+      </div>
+      <div style="text-align:right">
+        <span style="font-size:24px;font-weight:800;font-family:var(--mono);color:${sCol}">${r.score}</span><span style="font-size:10px;color:var(--sub)">/100</span>
+      </div>
+    </div>
+    <div style="font-family:var(--mono);font-size:12px;color:var(--sub);margin-bottom:8px">
+      Harga Terakhir: <strong style="color:var(--txt2)">${r.lastClose}</strong>
+    </div>
+    ${_rkRsiBar(r.rsi)}
+    <div style="margin-bottom:10px">
+      ${_rkMaRow('SMA 20', r.sma20, r.lastClose)}
+      ${_rkMaRow('SMA 50', r.sma50, r.lastClose)}
+      ${_rkMaRow('SMA 200', r.sma200, r.lastClose)}
+    </div>
+    <div style="background:rgba(255,255,255,.03);border:1px solid var(--bdr);border-radius:7px;padding:9px 11px">
+      <div style="font-size:9px;font-weight:600;color:var(--sub);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">Analisis Teknikal</div>
+      <div style="font-size:11px;color:var(--txt);line-height:1.6;margin-bottom:${r.fundamental?'8px':'0'}">${_rkSignalText(r)}</div>
+      ${(()=>{
+        const f=r.fundamental; if(!f) return '';
+        const sCol=s=>s==='Bullish'?'var(--grn)':s==='Bearish'?'var(--red)':'var(--sub)';
+        const sBg =s=>s==='Bullish'?'var(--grn-d)':s==='Bearish'?'var(--red-d)':'rgba(100,116,139,.1)';
+        const sIco=s=>s==='Bullish'?'↑':s==='Bearish'?'↓':'→';
+        const fCol=f.signal==='BUY'?'var(--grn)':f.signal==='SELL'?'var(--red)':'var(--sub)';
+        const fBg =f.signal==='BUY'?'var(--grn-d)':f.signal==='SELL'?'var(--red-d)':'rgba(100,116,139,.1)';
+        const sc  =v=>(v>=0?'+':'')+v;
+        let txt='';
+        if(f.signal==='BUY')
+          txt=`${f.base} ${f.base_sentiment.toLowerCase()} (${sc(f.base_score)}), ${f.quote} ${f.quote_sentiment.toLowerCase()} (${sc(f.quote_score)}). Sentimen berita mendukung kenaikan ${r.label}.`;
+        else if(f.signal==='SELL')
+          txt=`${f.base} ${f.base_sentiment.toLowerCase()} (${sc(f.base_score)}), ${f.quote} ${f.quote_sentiment.toLowerCase()} (${sc(f.quote_score)}). Sentimen berita mendukung penurunan ${r.label}.`;
+        else
+          txt=`${f.base} ${f.base_sentiment.toLowerCase()} (${sc(f.base_score)}), ${f.quote} ${f.quote_sentiment.toLowerCase()} (${sc(f.quote_score)}). Tidak ada sinyal fundamental yang dominan.`;
+        const align=f.signal!=='Netral'&&f.signal===r.direction?` <span style="color:var(--grn);font-size:10px">✅ Selaras dengan teknikal.</span>`
+                   :f.signal!=='Netral'&&r.direction!=='WAIT'&&f.signal!==r.direction?` <span style="color:var(--gold);font-size:10px">⚠️ Berlawanan dengan teknikal.</span>`:'';
+        return `<div style="border-top:1px solid var(--bdr);padding-top:8px">
+          <div style="font-size:9px;font-weight:600;color:var(--sub);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px">Analisis Fundamental</div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px">
+            <span style="background:${sBg(f.base_sentiment)};color:${sCol(f.base_sentiment)};padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600">${f.base} ${sIco(f.base_sentiment)} ${f.base_sentiment}</span>
+            <span style="background:${sBg(f.quote_sentiment)};color:${sCol(f.quote_sentiment)};padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600">${f.quote} ${sIco(f.quote_sentiment)} ${f.quote_sentiment}</span>
+            <span style="background:${fBg};color:${fCol};padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600">→ ${f.signal}</span>
+          </div>
+          <div style="font-size:11px;color:var(--txt);line-height:1.6">${txt}${align}</div>
+        </div>`;
+      })()}
+    </div>
+  </div>`;
+}
+
+function renderRekomend() {
+  const el = $('rekomend-content');
+  if (!window.FK_DATA) { el.innerHTML = _noData(); return; }
+  const { rekomendasi } = window.FK_DATA;
+  if (!rekomendasi || !rekomendasi.pairs?.length) {
+    el.innerHTML = _noData('Jalankan <b>forex_news_digest.py</b> untuk menghasilkan data rekomendasi teknikal.');
+    return;
+  }
+
+  // Normalisasi field Python (snake_case) → field yang dipakai helper render
+  const results = rekomendasi.pairs.map(p => ({
+    ...p,
+    lastClose: p.last_close,
+    total:     p.total_sigs,
+    dirColor:  p.direction==='BUY'?'var(--grn)':p.direction==='SELL'?'var(--red)':'var(--sub)',
+  }));
+
+  const header = `<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+    <div class="ct" style="margin-bottom:0">🎯 Rekomendasi Teknikal — 4H</div>
+    ${_badge(rekomendasi.generated)}
+  </div>`;
+
+  const rows = results.map((r,i)=>{
+    const rank=i+1;
+    const rC  = rank===1?'var(--gold)':rank===2?'#94a3b8':rank===3?'#cd7c2e':'var(--sub)';
+    const dBg = r.direction==='BUY'?'var(--grn-d)':r.direction==='SELL'?'var(--red-d)':'rgba(100,116,139,.12)';
+    const sC  = r.score>=70?'var(--grn)':r.score>=45?'var(--gold)':'var(--sub)';
+    const rC2 = r.rsi<30?'var(--grn)':r.rsi>70?'var(--red)':r.rsi<40?'#86efac':r.rsi>60?'#fca5a5':'var(--sub)';
+    return `<tr style="border-top:1px solid var(--bdr)">
+      <td style="padding:9px 10px;text-align:center;font-weight:800;color:${rC};font-size:13px">${rank}</td>
+      <td style="padding:9px 12px;font-family:var(--mono);font-weight:700;color:var(--txt2)">${r.label}</td>
+      <td style="padding:9px 12px">
+        <span style="font-family:var(--mono);font-weight:700;color:${sC};font-size:14px">${r.score}</span>
+        <div style="margin-top:3px;height:4px;width:56px;background:var(--mut);border-radius:2px;overflow:hidden">
+          <div style="width:${r.score}%;height:100%;background:${r.score>=70?'var(--grn)':r.score>=45?'var(--gold)':'var(--red)'};border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="padding:9px 12px"><span style="background:${dBg};color:${r.dirColor};padding:2px 9px;border-radius:4px;font-size:11px;font-weight:700">${r.direction}</span></td>
+      <td style="padding:9px 12px;font-family:var(--mono);font-size:12px;color:${rC2}">${r.rsi}</td>
+      <td style="padding:9px 12px;font-family:var(--mono);font-size:12px;color:var(--sub)">${r.lastClose}</td>
+    </tr>`;
+  }).join('');
+
+  const ranking = `<div class="card" style="padding:0;overflow:hidden;margin-bottom:14px">
+    <div style="padding:10px 14px;border-bottom:1px solid var(--bdr);display:flex;justify-content:space-between;align-items:center">
+      <span style="font-size:11px;font-weight:600;color:var(--sub)">🏆 RANKING HARI INI</span>
+      <span style="font-size:10px;color:var(--mut)">Skor 0–100 · Timeframe 4H</span>
+    </div>
+    <table class="tbl" style="margin:0">
+      <thead><tr><th style="width:36px">#</th><th>PASANGAN</th><th>SKOR</th><th>SINYAL</th><th>RSI(14)</th><th>HARGA</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+
+  const legend = `<div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px;font-size:10px;color:var(--sub);padding:0 2px">
+    <span>📊 Komponen skor:</span>
+    <span style="color:var(--gold)">RSI extremity (0–30)</span>
+    <span style="color:var(--blu)">Keselarasan MA (0–40)</span>
+    <span style="color:var(--pur)">Momentum 5 candle (0–30)</span>
+  </div>`;
+
+  const partial = results.length < 7
+    ? `<div style="color:var(--sub);font-size:11px;text-align:center;padding:6px 0 10px">⚠️ ${7-results.length} pair tidak tersedia saat script dijalankan.</div>` : '';
+
+  el.innerHTML = header + ranking + legend + partial + results.map(r=>_rkDetailCard(r)).join('');
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  GOOGLE APPS SCRIPT API
+// ═══════════════════════════════════════════════════════════════
+function setSync(state, txt) {
+  const d=$('sdot'), l=$('stxt'), sb=$('sb');
+  d.className='';
+  if(state==='ok')  d.classList.add('sdot-ok');
+  if(state==='busy')d.classList.add('sdot-busy');
+  if(state==='err') d.classList.add('sdot-err');
+  if(l) l.textContent=txt;
+  if(sb) { sb.classList.remove('syncing'); if(state==='busy') sb.classList.add('syncing'); }
+  const show=state==='ok';
+  $('btn-pull').style.display=show?'block':'none';
+  $('btn-push').style.display=show?'block':'none';
+}
+
+async function gasGet(params) {
+  const r = await fetch(GS_URL+'?'+new URLSearchParams(params), {redirect:'follow'});
+  const d = await r.json();
+  if(!d.ok) throw new Error(d.error||'Script error');
+  return d;
+}
+async function gasPost(body) {
+  const r = await fetch(GS_URL, {method:'POST', redirect:'follow', headers:{'Content-Type':'text/plain;charset=utf-8'}, body:JSON.stringify(body)});
+  const d = await r.json();
+  if(!d.ok) throw new Error(d.error||'Script error');
+  return d;
+}
+
+// Cek koneksi saja — tidak download data
+async function pingGS() {
+  setSync('busy','Memeriksa koneksi...');
+  try {
+    const r = await fetch(GS_URL + '?action=ping', {redirect:'follow'});
+    const d = await r.json();
+    if(d.ok) {
+      setSync('ok','✅ Tersambung — klik "Ambil dari Sheets" untuk perbarui data');
+    } else throw new Error('ping failed');
+  } catch(e) {
+    setSync('err','🔴 Tidak terhubung — cek URL di Settings');
+  }
+}
+
+async function pullAll(silent=false) {
+  if(!GS_ON) return;
+  setSync('busy','⏳ Mengambil data dari Sheets...');
+  try {
+    // PENTING: selalu timpa data lokal dengan data dari Sheets
+    // termasuk ketika Sheets kosong (setelah semua data dihapus)
+    const r1 = await gasGet({action:'getTrades'});
+    trades = (r1.trades||[]).map(t=>({
+      id:      Number(t.id)||Date.now(),
+      date:    String(t.date||''),
+      pair:    String(t.pair||''),
+      dir:     String(t.dir||'BUY'),
+      entry:   String(t.entry||''),
+      sl:      String(t.sl||''),
+      tp:      String(t.tp||''),
+      lot:     String(t.lot||''),
+      result:  String(t.result||'').toLowerCase().trim(),
+      pnl:     String(t.pnl||''),
+      setup:   String(t.setup||''),
+      session: String(t.session||''),
+      note:       String(t.note||''),
+      sslink:       String(t.sslink||'')
+    })).sort((a,b)=>b.id-a.id);
+
+    const r2 = await gasGet({action:'getPlanning'});
+    // Pull semua riwayat planning dari Sheets (tidak replace, merge by id)
+    if(r2.items && r2.items.length) {
+      const sheetDP = r2.items.filter(x=>x.type==='daily').map(x=>x.data).filter(Boolean);
+      const sheetWP = r2.items.filter(x=>x.type==='weekly').map(x=>x.data).filter(Boolean);
+      // Merge: tambahkan dari Sheets yang belum ada di lokal
+      const localDPIds = new Set(dailyPlans.map(p=>p.id));
+      const localWPIds = new Set(weeklyPlans.map(p=>p.id));
+      sheetDP.forEach(p=>{ if(p.id && !localDPIds.has(p.id)) dailyPlans.unshift(p); });
+      sheetWP.forEach(p=>{ if(p.id && !localWPIds.has(p.id)) weeklyPlans.unshift(p); });
+      dailyPlans.sort((a,b)=>b.id-a.id);
+      weeklyPlans.sort((a,b)=>b.id-a.id);
+    }
+    // Pull psy logs
+    try {
+      const r3 = await gasGet({action:'getPsyLogs'});
+      if(r3.logs) psyLogs = r3.logs.map(p=>({
+        id:       Number(p.id)||Date.now(),
+        date:     String(p.date||''),
+        mood:     String(p.mood||''),
+        fokus:    Number(p.fokus)||0,
+        emosi:    Number(p.emosi)||0,
+        disiplin: Number(p.disiplin)||0,
+        pd:       Number(p.pd)||0,
+        fomo:     Number(p.fomo)||0,
+        istirahat:Number(p.istirahat)||0,
+        score:    Number(p.score)||0,
+        feel:     String(p.feel||''),
+        lesson:   String(p.lesson||''),
+        savedAt:  String(p.savedAt||'')
+      })).sort((a,b)=>b.id-a.id);
+    } catch(e){}
+
+    // Pull transactions
+    try {
+      const r4 = await gasGet({action:'getTransactions'});
+      if(r4.transactions) transactions = r4.transactions.map(t=>({
+        id:     Number(t.id)||Date.now(),
+        date:   String(t.date||''),
+        type:   String(t.type||'depo'),
+        amount: String(t.amount||'0'),
+        method: String(t.method||''),
+        note:   String(t.note||'')
+      })).sort((a,b)=>b.id-a.id);
+    } catch(e){}
+
+    saveState(); renderAll();
+    const ts = new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'});
+    setSync('ok','✅ Tersambung — Terakhir diperbarui '+ts);
+    lsSet('fj_last_pull', ts);
+    if(!silent) toast('✅ Data berhasil diambil dari Google Sheets!');
+    else toast('✅ Sheets terhubung — data diperbarui');
+  } catch(e) {
+    setSync('err','🔴 Gagal terhubung: '+e.message);
+    if(!silent) toast('❌ Gagal pull data. Cek koneksi & URL.',3500);
+    renderAll();
+  }
+}
+
+async function pushAll() {
+  if(!GS_ON) return;
+  setSync('busy','⏳ Mengirim data ke Sheets...');
+  try {
+    await gasPost({action:'syncAll',trades});
+    // Push semua riwayat planning ke Sheets
+    for(const p of dailyPlans)  await gasPost({action:'savePlan',planType:'daily',data:p});
+    for(const p of weeklyPlans) await gasPost({action:'savePlan',planType:'weekly',data:p});
+    if(psyLogs.length) await gasPost({action:'syncPsyLogs',logs:psyLogs});
+    if(transactions.length) await gasPost({action:'syncTxns',transactions});
+    setSync('ok','✅ Semua data terkirim — '+new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}));
+    toast('✅ Semua data berhasil dikirim ke Google Sheets!');
+  } catch(e) {
+    setSync('err','🔴 Push gagal'); toast('❌ Gagal kirim. Coba lagi.',3500);
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  SETUP MODAL
+// ═══════════════════════════════════════════════════════════════
+function onUrl() {
+  const u = $('s-url').value.trim();
+  const ok = u.startsWith('https://script.google.com/macros/s/') && u.endsWith('/exec');
+  $('s-url').style.borderColor = !u?'rgba(255,255,255,.08)':ok?'#22c55e':'#ef4444';
+  const h=$('s-hint');
+  h.textContent=!u?'Paste URL Web App dari langkah 3':ok?'✅ Format URL benar!':'❌ Harus berakhir dengan /exec';
+  h.style.color=!u?'#6b7280':ok?'#22c55e':'#ef4444';
+  $('btn-test').disabled=!ok; $('btn-conn').disabled=!ok;
+  $('s-test').style.display='none';
+}
+
+async function testUrl() {
+  const u = $('s-url').value.trim();
+  const tr = $('s-test');
+  tr.style.display = 'block';
+  tr.style.cssText = 'display:block;padding:9px 12px;border-radius:6px;font-size:12px;background:rgba(240,180,41,.09);border:1px solid rgba(240,180,41,.22);color:#F0B429;margin-top:8px;line-height:1.7';
+  tr.innerHTML = '🔄 Menguji koneksi ke Apps Script...';
+  $('btn-test').disabled = true;
+
+  try {
+    const r = await fetch(u + '?action=ping', {
+      method: 'GET',
+      redirect: 'follow',
+      cache: 'no-cache'
+    });
+
+    // Apps Script kadang return 200 dengan body JSON
+    const txt = await r.text();
+
+    let d = null;
+    try { d = JSON.parse(txt); } catch(pe) { /* bukan JSON */ }
+
+    if (d && d.ok) {
+      tr.style.cssText = 'display:block;padding:9px 12px;border-radius:6px;font-size:12px;background:rgba(34,197,94,.09);border:1px solid rgba(34,197,94,.22);color:#22c55e;margin-top:8px;line-height:1.7';
+      tr.innerHTML = '✅ <b>Koneksi berhasil!</b><br>Klik <b>"Sambungkan ▶"</b> untuk lanjut.';
+      $('btn-conn').disabled = false;
+    } else if (r.ok && txt.length > 0) {
+      // Response ada tapi bukan { ok: true } — mungkin script lama atau salah action
+      tr.style.cssText = 'display:block;padding:9px 12px;border-radius:6px;font-size:12px;background:rgba(245,158,11,.09);border:1px solid rgba(245,158,11,.22);color:#f59e0b;margin-top:8px;line-height:1.7';
+      tr.innerHTML = '⚠️ URL menjawab tapi format tidak sesuai.<br>Pastikan kamu paste script <b>ForexJournal_GS_Script.gs</b> yang terbaru dan sudah <b>Deploy ulang</b> (New Deployment).';
+    } else {
+      throw new Error('Response tidak valid: status ' + r.status);
+    }
+  } catch(e) {
+    const isCORS = e.name === 'TypeError' && (e.message.includes('fetch') || e.message.includes('Failed'));
+    tr.style.cssText = 'display:block;padding:9px 12px;border-radius:6px;font-size:12px;background:rgba(239,68,68,.09);border:1px solid rgba(239,68,68,.22);color:#ef4444;margin-top:8px;line-height:1.8';
+    if (isCORS) {
+      tr.innerHTML = `❌ <b>Koneksi diblokir browser (CORS/Network error)</b><br><br>
+<b>Coba cara alternatif:</b><br>
+1. Buka URL ini di tab baru browser → harus tampil JSON <code>{"ok":true}</code><br>
+<span style="font-size:10px;word-break:break-all;color:#f97316">${u}?action=ping</span><br><br>
+Jika JSON muncul, berarti script OK — langsung klik <b>"Sambungkan ▶"</b> tanpa test.<br>
+Jika tidak muncul: pastikan <b>Who has access = Anyone</b> dan sudah <b>Deploy ulang</b>.`;
+      $('btn-conn').disabled = false; // izinkan connect meski test CORS gagal
+    } else {
+      tr.innerHTML = `❌ <b>Gagal:</b> ${e.message}<br><br>
+Pastikan:<br>
+• URL benar (berakhir dengan <code>/exec</code>)<br>
+• Who has access = <b>Anyone</b><br>
+• Sudah klik <b>Deploy → New Deployment</b> (bukan hanya Save)<br>
+• Sudah klik <b>Allow</b> saat izin akun Google muncul`;
+    }
+  }
+  $('btn-test').disabled = false;
+}
+
+async function connectGS() {
+  GS_URL = $('s-url').value.trim();
+  lsSet('fj_gs_url', GS_URL);
+  GS_ON = true;
+  $('mo').style.display='none';
+  await pullAll();
+}
+
+function skipSetup() {
+  $('mo').style.display='none';
+  setSync('off','Tidak terhubung — data tersimpan lokal');
+  renderAll();
+}
+
+function openSetup() {
+  if(GS_URL) { $('s-url').value=GS_URL; onUrl(); }
+  $('s-test').style.display='none';
+  $('mo').style.display='flex';
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  TRADE LOG
+// ═══════════════════════════════════════════════════════════════
+
+
+
+// Upload screenshot lokal ke Google Drive (untuk trade lama yang masih lokal)
+async function uploadSsToDrive(id) {
+  const trade = trades.find(t=>t.id===id);
+  if(!trade || !trade.screenshot || !trade.screenshot.startsWith('data:')) {
+    toast('❌ Tidak ada screenshot lokal untuk trade ini.'); return;
+  }
+  if(!GS_ON) { toast('❌ Hubungkan ke Google Sheets dulu.'); return; }
+  toast('📸 Mengupload ke Google Drive...');
+  try {
+    const res = await gasPost({
+      action:  'saveScreenshot',
+      base64:  trade.screenshot,
+      tradeId: String(trade.id),
+      pair:    trade.pair
+    });
+    if(res.driveUrl) {
+      const idx = trades.findIndex(t=>t.id===id);
+      if(idx>=0) {
+        trades[idx].driveUrl     = res.driveUrl;
+        trades[idx].screenshotId = res.fileId||'';
+        trades[idx].screenshot   = ''; // hapus base64 lokal
+        saveState();
+        renderTrades();
+        // Update di Sheets juga
+        const tradeForSheets = {...trades[idx], screenshot:''};
+        await gasPost({action:'saveTrade', trade:tradeForSheets});
+      }
+      toast('✅ Screenshot berhasil ke Google Drive! Sekarang bisa dilihat dari komputer manapun.');
+    } else throw new Error('No driveUrl returned');
+  } catch(e) {
+    toast('❌ Upload gagal: '+e.message, 3500);
+  }
+}
+
+function deleteTrade(id) {
+  const trade = trades.find(t=>t.id===id);
+  const ssId  = trade ? (trade.screenshotId||'') : '';
+  trades = trades.filter(t=>t.id!==id);
+  saveState(); renderTrades(); updateDash();
+  if(GS_ON) {
+    gasPost({action:'deleteTrade', id}).catch(()=>{});
+    if(ssId) gasPost({action:'deleteScreenshot', fileId:ssId}).catch(()=>{});
+  }
+}
+
+function clearAllTrades() {
+  if(!trades.length) return;
+  if(!confirm('Hapus SEMUA riwayat trade?\n\nData di Google Sheets juga akan dihapus.')) return;
+  trades=[]; saveState(); renderTrades(); updateDash();
+  if(GS_ON) gasPost({action:'clearTrades'}).then(()=>toast('Semua trade dihapus.')).catch(()=>{});
+}
+
+function clearTL() {
+  ['t-entry','t-sl','t-tp','t-lot','t-pnl','t-note','t-sslink'].forEach(id=>{const e=$(id);if(e)e.value='';});
+  $('t-res').value=''; $('t-date').value=today();
+}
+
+function renderTrades() {
+  const flt  = $('t-flt') ? $('t-flt').value : 'all';
+  const list = flt === 'all' ? trades : trades.filter(t => t.result === flt);
+  const tb   = $('t-body');
+  if (!tb) return;
+  if (!list.length) {
+    tb.innerHTML = '<tr><td colspan="13" style="text-align:center;padding:24px;color:var(--mut)">Belum ada trade. Tambahkan trade pertama kamu di form atas.</td></tr>';
+    return;
+  }
+  const rows = [];
+  for (const t of list) {
+    const r_    = String(t.result||'').toLowerCase().trim();
+    const badge = r_==='win'  ? '<span class="bdg bw">WIN</span>'
+                : r_==='loss' ? '<span class="bdg bl">LOSS</span>'
+                : r_==='be'   ? '<span class="bdg bg2">BE</span>'
+                :               '<span class="bdg bo">OPEN</span>';
+    const pv    = parseFloat(t.pnl) || 0;
+    const ps    = t.pnl ? ((pv>=0?'+':'') + ' $' + Math.abs(pv).toFixed(2)) : '\u2014';
+    const pc    = pv > 0 ? 'tw' : pv < 0 ? 'tl' : '';
+    const note  = String(t.note || '').trim();
+    const sslink = String(t.sslink||'').trim();
+    const ssCell = sslink
+      ? '<a href="'+sslink+'" target="_blank" onclick="event.stopPropagation()" title="Buka screenshot" style="color:var(--blu);font-size:16px;text-decoration:none">🔗</a>'
+      : '<span style="color:var(--mut)">—</span>';
+    const uploadBtn = '';
+    const noteRow = note
+      ? '<tr id="nr-'+t.id+'" style="display:none"><td colspan="13" style="padding:0 10px 10px"><div style="background:#06101c;border:1px solid var(--bdr);border-radius:6px;padding:10px 12px;font-size:11px;color:var(--sub);line-height:1.7;white-space:pre-wrap">'+note.replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</div></td></tr>'
+      : '';
+
+    const cells = [
+      '<td>'+(t.date||'\u2014')+'</td>',
+      '<td class="ts">'+(t.pair||'\u2014')+'</td>',
+      '<td style="color:'+(t.dir==='BUY'?'var(--grn)':'var(--red)')+';font-weight:700">'+(t.dir||'\u2014')+'</td>',
+      '<td>'+(t.entry||'\u2014')+'</td>',
+      '<td>'+(t.sl||'\u2014')+'</td>',
+      '<td>'+(t.tp||'\u2014')+'</td>',
+      '<td>'+(t.lot||'\u2014')+'</td>',
+      '<td style="color:var(--blu);font-size:10px">'+(t.setup||'\u2014')+'</td>',
+      '<td class="'+pc+'">'+ps+'</td>',
+      '<td>'+badge+'</td>',
+      '<td style="text-align:center;padding:4px 6px;vertical-align:middle">'+ssCell+uploadBtn+'</td>',
+      '<td style="text-align:center;font-size:13px;color:var(--gold)">'+(note?'📝':'')+'</td>',
+      '<td><button class="bsm" onclick="event.stopPropagation();deleteTrade('+t.id+')">✕</button></td>'
+    ];
+    const tr = '<tr style="cursor:'+(note?'pointer':'default')+'" onclick="'+(note?'toggleNote('+t.id+')':'')+'">' + cells.join('') + '</tr>';
+    rows.push(tr + noteRow);
+  }
+  tb.innerHTML = rows.join('');
+}
+
+function toggleNote(id) {
+  const el=document.getElementById('nr-'+id);
+  if(el) el.style.display = el.style.display==='none' ? 'table-row' : 'none';
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  DASHBOARD
+// ═══════════════════════════════════════════════════════════════
+let eqCh, prCh;
+function updateDash() {
+  // Normalize result — handles all variations
+  const normR = t => {
+    const r = String(t.result||'').toLowerCase().trim();
+    if(r==='win'||r==='w'||r==='profit') return 'win';
+    if(r==='loss'||r==='lose'||r==='l') return 'loss';
+    return r;
+  };
+  const wins   = trades.filter(t=>normR(t)==='win');
+  const losses = trades.filter(t=>normR(t)==='loss');
+  const closed = wins.length + losses.length;
+  const total  = trades.reduce((s,t)=>s+(parseFloat(t.pnl)||0),0);
+  const wr     = closed ? Math.round(wins.length/closed*100) : 0;
+  const avgW   = wins.length   ? wins.reduce((s,t)=>s+(parseFloat(t.pnl)||0),0)/wins.length   : 0;
+  const avgL   = losses.length ? Math.abs(losses.reduce((s,t)=>s+(parseFloat(t.pnl)||0),0)/losses.length) : 0;
+  const pf     = avgL>0 ? (avgW/avgL).toFixed(2) : '—';
+
+  const pe=$('d-pnl'); if(pe){pe.textContent=(total>=0?'+':'')+'$'+Math.abs(total).toFixed(0);pe.className='mv '+(trades.length?total>0?'up':'dn':'nt');}
+  const we=$('d-wr');  if(we){we.textContent=wr+'%';we.className='mv '+(closed?'go':'nt');}
+  const pfe=$('d-pf'); if(pfe){pfe.textContent=pf;pfe.className='mv '+(pf==='—'?'nt':'');}
+  $('d-wl').textContent=`${wins.length}W / ${losses.length}L`;
+  $('d-tc').textContent=`${trades.length} trade`;
+
+  let peak=0,dd=0,run=0;
+  [...trades].reverse().forEach(t=>{run+=(parseFloat(t.pnl)||0);if(run>peak)peak=run;if(peak-run>dd)dd=peak-run;});
+  const dde=$('d-dd');if(dde){dde.textContent=trades.length?'-$'+dd.toFixed(0):'—';dde.className='mv '+(trades.length?'dn':'nt');}
+
+  // Sessions
+  const sm={};trades.forEach(t=>{const s=t.session||'Lainnya';if(!sm[s])sm[s]=0;sm[s]+=(parseFloat(t.pnl)||0);});
+  const se=$('d-sess');if(se){
+    if(!Object.keys(sm).length){se.innerHTML='<div class="em">Tambah trade untuk melihat data</div>';}
+    else{const mx=Math.max(...Object.values(sm).map(v=>Math.abs(v)),1);
+      se.innerHTML=Object.entries(sm).map(([s,v])=>{const p=Math.round(Math.abs(v)/mx*100),pos=v>=0;return`<div style="margin-bottom:9px"><div class="fb" style="font-size:11px;margin-bottom:4px"><span style="color:var(--sub)">${s}</span><span style="color:${pos?'var(--grn)':'var(--red)'};font-family:var(--mono)">${pos?'+':''}$${v.toFixed(0)}</span></div><div class="pb"><div class="pf ${pos?'pfg':'pfr'}" style="width:${p}%"></div></div></div>`;}).join('');}}
+
+  // Streak & Stats
+  const ste=$('d-streak');if(ste){
+    if(!trades.length){ste.innerHTML='<div class="em">Tambah trade untuk melihat stats</div>';}
+    else{
+      // Normalize result — support uppercase, lowercase, variations
+      const nr = t => {
+        const r = String(t.result||'').toLowerCase().trim();
+        if(r==='win'||r==='w'||r==='profit'||r==='yes') return 'win';
+        if(r==='loss'||r==='lose'||r==='l'||r==='no') return 'loss';
+        return r; // 'be', '', etc
+      };
+      const wTrades = trades.filter(t=>nr(t)===('win'));
+      const lTrades = trades.filter(t=>nr(t)===('loss'));
+      // Trades with any P&L value (for best/worst)
+      const pnlTrades = trades.filter(t=>t.pnl!==''&&t.pnl!==null&&t.pnl!==undefined&&!isNaN(parseFloat(t.pnl)));
+      // Streak calc — oldest to newest
+      let bS=0,wS=0,curW=0,curL=0;
+      [...trades].reverse().forEach(t=>{
+        const r=nr(t);
+        if(r==='win')  {curW++;curL=0;bS=Math.max(bS,curW);}
+        else if(r==='loss'){curL++;curW=0;wS=Math.max(wS,curL);}
+        else{curW=0;curL=0;}
+      });
+      // Avg
+      const avgW = wTrades.length ? wTrades.reduce((s,t)=>s+(parseFloat(t.pnl)||0),0)/wTrades.length : null;
+      const avgL = lTrades.length ? Math.abs(lTrades.reduce((s,t)=>s+(parseFloat(t.pnl)||0),0)/lTrades.length) : null;
+      // Best/worst from ALL trades that have P&L
+      const allP = pnlTrades.map(t=>parseFloat(t.pnl));
+      const bestT  = allP.length ? Math.max(...allP) : null;
+      const worstT = allP.length ? Math.min(...allP) : null;
+      // Closed count info
+      const closedCount = wTrades.length + lTrades.length;
+      const openCount   = trades.filter(t=>nr(t)===''||nr(t)==='be').length;
+      const fmt = (v,pre='') => v!==null ? pre+'$'+Math.abs(v).toFixed(2) : '—';
+      ste.innerHTML=`
+        <div class="fb" style="margin-bottom:8px"><span style="font-size:10px;color:var(--mut)">CLOSED: ${closedCount} trade &nbsp;|&nbsp; OPEN/BE: ${openCount} trade</span></div>
+        <div class="fb"><span style="font-size:11px;color:var(--sub)">Win streak terbaik</span><span class="bdg bw">${bS} trade</span></div>
+        <div class="fb" style="margin-top:8px"><span style="font-size:11px;color:var(--sub)">Loss streak maks</span><span class="bdg bl">${wS} trade</span></div>
+        <div class="fb" style="margin-top:8px"><span style="font-size:11px;color:var(--sub)">Avg win</span><span style="font-size:11px;color:${avgW!==null?'var(--grn)':'var(--mut)'};font-family:var(--mono)">${avgW!==null?'+$'+avgW.toFixed(2):'— (belum ada WIN)'}</span></div>
+        <div class="fb" style="margin-top:8px"><span style="font-size:11px;color:var(--sub)">Avg loss</span><span style="font-size:11px;color:${avgL!==null?'var(--red)':'var(--mut)'};font-family:var(--mono)">${avgL!==null?'-$'+avgL.toFixed(2):'— (belum ada LOSS)'}</span></div>
+        <div class="fb" style="margin-top:8px"><span style="font-size:11px;color:var(--sub)">Best trade</span><span style="font-size:11px;color:${bestT!==null?(bestT>=0?'var(--gold)':'var(--mut)'):'var(--mut)'};font-family:var(--mono)">${bestT!==null?(bestT>=0?'+':'')+fmt(bestT):'—'}</span></div>
+        <div class="fb" style="margin-top:8px"><span style="font-size:11px;color:var(--sub)">Worst trade</span><span style="font-size:11px;color:${worstT!==null?'var(--red)':'var(--mut)'};font-family:var(--mono)">${worstT!==null?fmt(worstT):'—'}</span></div>
+        ${closedCount===0?'<div style="margin-top:8px;font-size:10px;color:var(--mut);font-style:italic">Streak muncul setelah ada trade dengan hasil WIN/LOSS</div>':''}`;}}
+
+  // Transaksi — modal & ekuitas
+  const totalDepo = transactions.filter(t=>t.type==='depo').reduce((s,t)=>s+parseFloat(t.amount||0),0);
+  const totalWD   = transactions.filter(t=>t.type==='wd').reduce((s,t)=>s+parseFloat(t.amount||0),0);
+  const modal     = totalDepo - totalWD;
+  const equity    = modal + total;
+  const retPct    = modal > 0 ? (total / modal * 100) : null;
+  const fmtD = n => '$'+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0});
+  const dm=$('d-modal');
+  if(dm){ dm.textContent=(modal>=0?'':'-')+fmtD(modal); dm.className='mv '+(transactions.length?(modal>=0?'up':'dn'):'nt'); }
+  const dms=$('d-modal-sub');
+  if(dms) dms.textContent=transactions.filter(t=>t.type==='depo').length+' depo · '+transactions.filter(t=>t.type==='wd').length+' wd';
+  const eq=$('d-equity');
+  if(eq){ eq.textContent=(equity>=0?'':'-')+fmtD(equity); eq.className='mv '+(transactions.length?(equity>=0?'up':'dn'):'nt'); }
+  const eqs=$('d-equity-sub');
+  if(eqs) eqs.textContent=transactions.length?(modal>=0?'modal + P&L':'belum ada modal'):'isi data transaksi';
+  const rp=$('d-return');
+  if(rp){ rp.textContent=retPct!==null?(retPct>=0?'+':'')+retPct.toFixed(2)+'%':'—'; rp.className='mv '+(retPct!==null?(retPct>=0?'up':'dn'):'nt'); }
+
+  // Target
+  const TGT=2000,pct=Math.min(Math.round(Math.max(total,0)/TGT*100),100);
+  const now=new Date(),dL=new Date(now.getFullYear(),now.getMonth()+1,0).getDate()-now.getDate();
+  const rem=Math.max(TGT-Math.max(total,0),0);
+  $('d-tpct').textContent=pct+'%';$('d-tpct').style.color=pct>=100?'var(--grn)':'var(--gold)';
+  $('d-tlbl').textContent='$'+Math.max(total,0).toFixed(0)+' / $'+TGT;
+  $('d-tbar').style.width=pct+'%';
+  $('d-days').textContent=dL+' hari';
+  $('d-ppd').textContent=rem>0?'$'+(rem/Math.max(dL,1)).toFixed(1):'✓ Tercapai!';
+  drawCharts();
+}
+
+function drawCharts() {
+  const ec=$('eqC'),pc=$('prC');if(!ec||!pc)return;
+
+  // Robust date formatter — handles both YYYY-MM-DD and full Date strings
+  const fmtDate = d => {
+    if (!d) return '?';
+    const s = String(d);
+    // Already YYYY-MM-DD → take MM-DD
+    if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(5);
+    // Full Date string (e.g. from Sheets) → parse and format
+    const dt = new Date(s);
+    if (!isNaN(dt)) {
+      return String(dt.getMonth()+1).padStart(2,'0')+'-'+String(dt.getDate()).padStart(2,'0');
+    }
+    return s.slice(0,5);
+  };
+
+  // Equity Curve
+  const cp=[...trades].reverse();let run=0;const eL=[],eD=[];
+  cp.forEach((t,i)=>{
+    run+=(parseFloat(t.pnl)||0);
+    eL.push(fmtDate(t.date) || String(i+1));
+    eD.push(+run.toFixed(2));
+  });
+  if(!eD.length){eL.push('Start');eD.push(0);}
+
+  // Canvas gradient fill
+  const ctxEq=ec.getContext('2d');
+  const gradEq=ctxEq.createLinearGradient(0,0,0,ec.offsetHeight||200);
+  gradEq.addColorStop(0,'rgba(240,180,41,.28)');
+  gradEq.addColorStop(0.6,'rgba(240,180,41,.08)');
+  gradEq.addColorStop(1,'rgba(240,180,41,.0)');
+
+  const tooltipDefaults={
+    backgroundColor:'#101f35',
+    borderColor:'rgba(240,180,41,.25)',
+    borderWidth:1,
+    titleColor:'#F0B429',
+    bodyColor:'#94a3b8',
+    padding:10,
+    cornerRadius:8,
+    displayColors:false
+  };
+
+  if(eqCh)eqCh.destroy();
+  eqCh=new Chart(ec,{
+    type:'line',
+    data:{
+      labels:eL,
+      datasets:[{
+        data:eD,
+        borderColor:'#F0B429',
+        backgroundColor:gradEq,
+        tension:.4,fill:true,
+        pointRadius:4,
+        pointBackgroundColor:'#F0B429',
+        pointBorderColor:'#0d1a2c',
+        pointBorderWidth:2,
+        pointHoverRadius:6,
+        pointHoverBackgroundColor:'#ffd166',
+        borderWidth:2.5,
+      }]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{...tooltipDefaults,callbacks:{label:ctx=>' $'+ctx.parsed.y.toFixed(2)}}
+      },
+      scales:{
+        x:{
+          type:'category',
+          ticks:{color:'#3d4f63',font:{size:9,family:"'JetBrains Mono'"},maxTicksLimit:6},
+          grid:{color:'rgba(255,255,255,.03)'},
+          border:{color:'rgba(255,255,255,.04)'}
+        },
+        y:{
+          ticks:{color:'#3d4f63',font:{size:9,family:"'JetBrains Mono'"},callback:v=>'$'+v},
+          grid:{color:'rgba(255,255,255,.03)'},
+          border:{color:'rgba(255,255,255,.04)'}
+        }
+      }
+    }
+  });
+
+  // P&L per Pair
+  const pm={};trades.forEach(t=>{if(!pm[t.pair])pm[t.pair]=0;pm[t.pair]+=(parseFloat(t.pnl)||0);});
+  const pL=Object.keys(pm),pD=pL.map(p=>+pm[p].toFixed(2));
+  if(prCh)prCh.destroy();
+  prCh=new Chart(pc,{
+    type:'bar',
+    data:{
+      labels:pL.length?pL:['—'],
+      datasets:[{
+        data:pL.length?pD:[0],
+        backgroundColor:pD.map(v=>v>=0?'rgba(34,197,94,.65)':'rgba(239,68,68,.65)'),
+        borderColor:pD.map(v=>v>=0?'rgba(34,197,94,.9)':'rgba(239,68,68,.9)'),
+        borderWidth:1,
+        borderRadius:5,
+        borderSkipped:false,
+      }]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{...tooltipDefaults,callbacks:{label:ctx=>' $'+ctx.parsed.y.toFixed(2)}}
+      },
+      scales:{
+        x:{
+          ticks:{color:'#3d4f63',font:{size:9}},
+          grid:{color:'rgba(255,255,255,.03)'},
+          border:{color:'rgba(255,255,255,.04)'}
+        },
+        y:{
+          ticks:{color:'#3d4f63',font:{size:9},callback:v=>(v>=0?'+':'')+' $'+Math.abs(v)},
+          grid:{color:'rgba(255,255,255,.03)'},
+          border:{color:'rgba(255,255,255,.04)'}
+        }
+      }
+    }
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  PLANNING
+// ═══════════════════════════════════════════════════════════════
+// ── DAILY PLANNING — HISTORY (tidak tertimpa) ──────────────────
+async function saveDP() {
+  const d = {
+    id:       Date.now(),
+    date:     $('dp-date').value,
+    pairs:    $('dp-pairs').value,
+    bias:     $('dp-bias').value,
+    levels:   $('dp-lvl').value,
+    maxloss:  $('dp-ml').value,
+    note:     $('dp-note').value,
+    savedAt:  new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}),
+    savedDate:new Date().toLocaleDateString('id-ID',{day:'numeric',month:'short',year:'numeric'})
+  };
+  if(!d.date&&!d.pairs&&!d.note){alert('Isi minimal tanggal, pair, atau rencana.');return;}
+  dailyPlans.unshift(d);
+  saveState(); renderDPList(); clearDPForm();
+  if(GS_ON){try{await gasPost({action:'savePlan',planType:'daily',data:d});toast('✅ Planning harian ditambahkan & sync!');}catch(e){toast('✅ Planning harian ditambahkan!');}}
+  else toast('✅ Planning harian ditambahkan!');
+}
+function clearDPForm() {
+  ['dp-pairs','dp-lvl','dp-ml','dp-note'].forEach(id=>{const el=$(id);if(el)el.value='';});
+  if($('dp-date')) $('dp-date').value=today();
+}
+async function deleteDPEntry(id) {
+  dailyPlans=dailyPlans.filter(p=>p.id!==id);
+  saveState();renderDPList();
+  if(GS_ON){try{await gasPost({action:'deletePlanEntry',planType:'daily',id});}catch(e){}}
+  toast('Planning dihapus.');
+}
+async function clearAllDP() {
+  if(!dailyPlans.length)return;
+  if(!confirm('Hapus SEMUA riwayat planning harian?'))return;
+  dailyPlans=[];saveState();renderDPList();
+  if(GS_ON){try{await gasPost({action:'clearAllPlans',planType:'daily'});}catch(e){}}
+  toast('Semua planning harian dihapus.');
+}
+function renderDPList() {
+  const el=$('dp-list');if(!el)return;
+  const cnt=$('dp-count');if(cnt)cnt.textContent=dailyPlans.length+' entri';
+  if(!dailyPlans.length){el.innerHTML='<div class="em">Belum ada planning harian tersimpan.</div>';return;}
+  const bc={Bullish:'var(--grn)',Bearish:'var(--red)','Sideways / Ranging':'var(--gold)','Wait & See':'var(--mut)'};
+  el.innerHTML=dailyPlans.map(d=>`
+    <div class="pb2" style="margin-bottom:10px;position:relative">
+      <div style="position:absolute;top:10px;right:10px;display:flex;gap:6px">
+        <button class="bsm" onclick="editDPEntry(${d.id})" style="background:rgba(96,165,250,.12);color:var(--blu);padding:3px 8px">✏️ Edit</button>
+        <button class="bsm" onclick="deleteDPEntry(${d.id})">✕ Hapus</button>
+      </div>
+      <div class="pb2t" style="padding-right:110px">🕐 ${d.savedDate||''} — ${d.savedAt||''}</div>
+      <div class="pr"><span class="pk">Tanggal</span><span class="pv">${d.date||'—'}</span></div>
+      <div class="pr"><span class="pk">Pair di-watch</span><span class="pv" style="color:var(--blu)">${d.pairs||'—'}</span></div>
+      <div class="pr"><span class="pk">Bias Market</span><span class="pv" style="color:${bc[d.bias]||'var(--txt)'}">● ${d.bias||'—'}</span></div>
+      <div class="pr"><span class="pk">S/R Level</span><span class="pv">${d.levels||'—'}</span></div>
+      <div class="pr"><span class="pk">Max Loss</span><span class="pv" style="color:var(--red)">${d.maxloss?'$'+d.maxloss:'—'}</span></div>
+      ${d.note?`<div style="margin-top:8px;font-size:12px;color:var(--sub);line-height:1.6;white-space:pre-wrap">${d.note}</div>`:''}
+    </div>`).join('');
+}
+function editDPEntry(id) {
+  const d=dailyPlans.find(p=>p.id===id);if(!d)return;
+  $('dp-date').value=d.date||'';$('dp-pairs').value=d.pairs||'';
+  $('dp-bias').value=d.bias||'Bullish';$('dp-lvl').value=d.levels||'';
+  $('dp-ml').value=d.maxloss||'';$('dp-note').value=d.note||'';
+  dailyPlans=dailyPlans.filter(p=>p.id!==id);
+  saveState();renderDPList();
+  $('tab-plan-harian').scrollIntoView({behavior:'smooth'});
+  toast('Data diisi ke form — edit lalu simpan kembali.');
+}
+function renderDP(){renderDPList();}
+
+// ── WEEKLY PLANNING — HISTORY (tidak tertimpa) ─────────────────
+async function saveWP() {
+  const d = {
+    id:       Date.now(),
+    week:     $('wp-wk').value,
+    target:   $('wp-tgt').value,
+    maxdd:    $('wp-dd').value,
+    pairs:    $('wp-pairs').value,
+    news:     $('wp-news').value,
+    savedAt:  new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}),
+    savedDate:new Date().toLocaleDateString('id-ID',{day:'numeric',month:'short',year:'numeric'})
+  };
+  if(!d.week){alert('Isi periode minggu terlebih dahulu.');return;}
+  weeklyPlans.unshift(d); // tambahkan ke depan, tidak timpa
+  saveState(); renderWPList(); clearWPForm();
+  if(GS_ON){try{await gasPost({action:'savePlan',planType:'weekly',data:d});toast('✅ Planning mingguan ditambahkan & sync ke Sheets!');}catch(e){toast('Planning ditambahkan lokal!');}}
+  else toast('✅ Planning mingguan ditambahkan!');
+}
+
+function clearWPForm() {
+  ['wp-wk','wp-pairs','wp-news'].forEach(id=>{const el=$(id);if(el)el.value='';});
+  ['wp-tgt','wp-dd'].forEach(id=>{const el=$(id);if(el)el.value='';});
+}
+
+async function deleteWPEntry(id) {
+  weeklyPlans = weeklyPlans.filter(p=>p.id!==id);
+  saveState(); renderWPList();
+  if(GS_ON){try{await gasPost({action:'deletePlanEntry',planType:'weekly',id});}catch(e){}}
+  toast('Planning mingguan dihapus.');
+}
+
+async function clearAllWP() {
+  if(!weeklyPlans.length) return;
+  if(!confirm('Hapus SEMUA riwayat planning mingguan?')) return;
+  weeklyPlans=[]; saveState(); renderWPList();
+  if(GS_ON){try{await gasPost({action:'clearAllPlans',planType:'weekly'});}catch(e){}}
+  toast('Semua planning mingguan dihapus.');
+}
+
+function renderWPList() {
+  const el=$('wp-list'); if(!el) return;
+  const cnt=$('wp-count'); if(cnt) cnt.textContent=weeklyPlans.length+' entri';
+  if(!weeklyPlans.length){el.innerHTML='<div class="em">Belum ada planning mingguan tersimpan.</div>';return;}
+  el.innerHTML = weeklyPlans.map(d=>`
+    <div class="pb2 blue" style="margin-bottom:10px;position:relative">
+      <div style="position:absolute;top:10px;right:10px;display:flex;gap:6px">
+        <button class="bsm" onclick="editWPEntry(${d.id})" style="background:rgba(96,165,250,.12);color:var(--blu);padding:3px 8px">✏️ Edit</button>
+        <button class="bsm" onclick="deleteWPEntry(${d.id})">✕ Hapus</button>
+      </div>
+      <div class="pb2t" style="padding-right:100px">📆 ${d.savedDate||''} &nbsp;—&nbsp; ${d.savedAt||''}</div>
+      <div class="pr"><span class="pk">Periode</span><span class="pv">${d.week||'—'}</span></div>
+      <div class="pr"><span class="pk">Target Profit</span><span class="pv" style="color:var(--grn)">${d.target?'+$'+d.target:'—'}</span></div>
+      <div class="pr"><span class="pk">Max Drawdown</span><span class="pv" style="color:var(--red)">${d.maxdd?'-$'+d.maxdd:'—'}</span></div>
+      <div class="pr"><span class="pk">Fokus Pair</span><span class="pv" style="color:var(--blu)">${d.pairs||'—'}</span></div>
+      ${d.news?`<div class="pr"><span class="pk">News</span><span class="pv" style="color:var(--sub);white-space:pre-wrap">${d.news}</span></div>`:''}
+    </div>`).join('');
+}
+
+function editWPEntry(id) {
+  const d = weeklyPlans.find(p=>p.id===id); if(!d) return;
+  $('wp-wk').value    = d.week||'';
+  $('wp-tgt').value   = d.target||'';
+  $('wp-dd').value    = d.maxdd||'';
+  $('wp-pairs').value = d.pairs||'';
+  $('wp-news').value  = d.news||'';
+  weeklyPlans = weeklyPlans.filter(p=>p.id!==id);
+  saveState(); renderWPList();
+  document.querySelector('#tab-plan-mingguan').scrollIntoView({behavior:'smooth'});
+  toast('Data diisi ke form — edit dan simpan kembali.');
+}
+
+// Backward compat
+function renderWP() { renderWPList(); }
+
+const ckItems=['Cek kalender ekonomi (high-impact news)','Analisis chart H4 & H1 untuk pair pilihan','Identifikasi level support & resistance','Tentukan bias market hari ini','Set alert di level harga yang di-watch','Cek kondisi psikologi sebelum trading','Review rencana dan aturan trading','Pastikan koneksi & platform berjalan baik','Set batas max loss harian'];
+let ckState=ckItems.map(()=>false);
+function renderCK(){const el=$('ck-wrap');if(!el)return;el.innerHTML=ckItems.map((item,i)=>`<div class="ck" onclick="toggleCK(${i})"><div class="cb ${ckState[i]?'ck2':''}">${ckState[i]?'<svg width="9" height="9" viewBox="0 0 9 9"><polyline points="1.5,4.5 3.5,6.5 7.5,2.5" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>':''}</div><div class="ct2 ${ckState[i]?'dk':''}">${item}</div></div>`).join('');}
+function toggleCK(i){ckState[i]=!ckState[i];renderCK();}
+function resetCK(){ckState=ckItems.map(()=>false);renderCK();}
+
+// ═══════════════════════════════════════════════════════════════
+//  RISK
+// ═══════════════════════════════════════════════════════════════
+function calcRisk(){
+  if(!$('r-bal')) return; // elemen belum ada di DOM, skip
+  const b=parseFloat($('r-bal').value)||10000;
+  const rp=parseFloat($('r-rp').value)||1;
+  const sl=parseFloat($('r-sl').value)||20;
+  const tp=parseFloat($('r-tp').value)||40;
+  const pair=($('r-pair')?$('r-pair').value:'major');
+  const ra=b*rp/100;
+  const pv=pair==='jpy'?.9:pair==='gold'?1:10;
+  const lot=sl>0?ra/(sl*pv):0;
+  const profit=lot*tp*pv;
+  const rrr=sl>0?(tp/sl).toFixed(1):0;
+  if($('ro-risk')) $('ro-risk').textContent='$'+ra.toFixed(2);
+  if($('ro-lot')) $('ro-lot').textContent=lot.toFixed(2)+' lot';
+  if($('ro-rrr')) $('ro-rrr').textContent='1 : '+rrr;
+  if($('ro-profit')) $('ro-profit').textContent='$'+profit.toFixed(2);
+}
+function calcDD(){const d=parseFloat($('r-dd').value)||0,el=$('dd-msg');if(!el)return;if(d<=0){el.innerHTML='';return;}if(d>=10)el.innerHTML='<div class="al ad">🚨 STOP TRADING. Drawdown kritis!</div>';else if(d>=5)el.innerHTML='<div class="al aw">⚠️ Warning! Kurangi lot size.</div>';else el.innerHTML='<div class="al as">✅ Drawdown masih aman.</div>';}
+
+// ═══════════════════════════════════════════════════════════════
+//  PSYCHOLOGY
+// ═══════════════════════════════════════════════════════════════
+function selM(el){document.querySelectorAll('.mb2').forEach(b=>b.classList.remove('sel'));el.classList.add('sel');}
+function calcPsy(){
+  if(!$('ps-f')) return 0; // elemen slider belum ada di DOM, skip
+  const vals=['ps-f','ps-e','ps-d','ps-c','ps-fo','ps-r'].map(id=>{
+    const el=$(id); return el?parseInt(el.value)||5:5;
+  });
+  const sc=Math.round(vals.reduce((s,v)=>s+v,0)/vals.length*10);
+  if($('psy-s')) $('psy-s').textContent=sc;
+  let l,a,col;
+  if(sc>=80){l='Kondisi Sangat Baik';a='Kamu prima. Jalankan rencana dengan disiplin.';col='var(--grn)';}
+  else if(sc>=60){l='Kondisi Cukup Baik';a='Cukup untuk trading. Patuhi aturan dan batasi trade.';col='var(--gold)';}
+  else if(sc>=40){l='Perlu Waspada';a='Kurang ideal. Pertimbangkan kurangi lot atau skip trading.';col='#f97316';}
+  else{l='Sebaiknya Istirahat';a='Tidak fit untuk trading. Istirahat dulu.';col='var(--red)';}
+  if($('psy-s')) $('psy-s').style.color=col;
+  if($('psy-l')) $('psy-l').textContent=l;
+  if($('psy-a')) $('psy-a').textContent=a;
+  return sc;
+}
+
+let currentMood = '';
+function selM(el, mood) {
+  document.querySelectorAll('.mb2').forEach(b=>b.classList.remove('sel'));
+  el.classList.add('sel');
+  currentMood = mood || '';
+}
+
+async function savePsy() {
+  const date = ($('psy-date')?$('psy-date').value:null) || today();
+  const vals = ['ps-f','ps-e','ps-d','ps-c','ps-fo','ps-r'].map(id=>{const el=$(id);return el?parseInt(el.value)||5:5;});
+  const score = calcPsy();
+  const entry = {
+    id: Date.now(),
+    date,
+    mood: currentMood || '😐 Netral',
+    fokus: vals[0], emosi: vals[1], disiplin: vals[2],
+    pd: vals[3], fomo: vals[4], istirahat: vals[5],
+    score,
+    feel:   ($('psy-feel')?$('psy-feel').value:''),
+    lesson: ($('psy-lesson')?$('psy-lesson').value:''),
+    savedAt: new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'})
+  };
+  // Replace entry on same date if exists
+  psyLogs = psyLogs.filter(p => p.date !== date);
+  psyLogs.unshift(entry);
+  saveState();
+  renderPsyHistory();
+  // Clear form
+  $('psy-feel').value=''; $('psy-lesson').value=''; currentMood='';
+  document.querySelectorAll('.mb2').forEach(b=>b.classList.remove('sel'));
+  if(GS_ON) {
+    try { await gasPost({action:'savePsyLog',entry}); toast('✅ Psikologi tersimpan & sync ke Sheets!'); }
+    catch(e) { toast('Psikologi tersimpan lokal!'); }
+  } else { toast('✅ Psikologi berhasil disimpan!'); }
+}
+
+async function deletePsyLog(id) {
+  psyLogs = psyLogs.filter(p => p.id !== id);
+  saveState(); renderPsyHistory();
+  if(GS_ON) { try { await gasPost({action:'deletePsyLog',id}); } catch(e){} }
+}
+
+async function clearPsyLogs() {
+  if(!psyLogs.length) return;
+  if(!confirm('Hapus SEMUA riwayat psikologi?')) return;
+  psyLogs = []; saveState(); renderPsyHistory();
+  if(GS_ON) { try { await gasPost({action:'clearPsyLogs'}); toast('Riwayat psikologi dihapus.'); } catch(e){} }
+}
+
+function renderPsyHistory() {
+  const tb = $('psy-body'); if(!tb) return;
+  if(!psyLogs.length) {
+    tb.innerHTML='<tr><td colspan="12" style="text-align:center;padding:20px;color:var(--mut)">Belum ada catatan psikologi. Simpan check-in pertama kamu.</td></tr>';
+    return;
+  }
+  tb.innerHTML = psyLogs.map(p => {
+    const sc = p.score||0;
+    const scCol = sc>=80?'var(--grn)':sc>=60?'var(--gold)':sc>=40?'#f97316':'var(--red)';
+    const statusBdg = sc>=80?'<span class="bdg bw">Prima</span>':sc>=60?'<span class="bdg bg2">Baik</span>':sc>=40?'<span style="display:inline-block;padding:2px 7px;border-radius:20px;font-size:10px;font-weight:500;background:rgba(249,115,22,.14);color:#f97316">Waspada</span>':'<span class="bdg bl">Istirahat</span>';
+    const hasNote = (p.feel||'').trim() || (p.lesson||'').trim();
+    const noteRow = hasNote ? `<tr id="pnr-${p.id}" style="display:none"><td colspan="13" style="padding:0 10px 10px"><div style="background:#06101c;border:1px solid var(--bdr);border-radius:6px;padding:10px 12px;font-size:11px;color:var(--sub);line-height:1.7;font-family:Arial,sans-serif">${p.feel?'<b style="color:var(--mut);font-size:10px">PERASAAN:</b><br>'+p.feel+'<br><br>':''} ${p.lesson?'<b style="color:var(--mut);font-size:10px">PELAJARAN:</b><br>'+p.lesson:''}</div></td></tr>` : '';
+    return `<tr style="cursor:${hasNote?'pointer':'default'}" onclick="${hasNote?`togglePsyNote(${p.id})`:''}">
+      <td>${p.date||'—'}</td>
+      <td style="font-size:14px">${p.mood||'—'}</td>
+      <td style="text-align:center">${p.fokus||'—'}</td>
+      <td style="text-align:center">${p.emosi||'—'}</td>
+      <td style="text-align:center">${p.disiplin||'—'}</td>
+      <td style="text-align:center">${p.pd||'—'}</td>
+      <td style="text-align:center">${p.fomo||'—'}</td>
+      <td style="text-align:center">${p.istirahat||'—'}</td>
+      <td style="text-align:center;font-weight:700;color:${scCol};font-family:var(--mono)">${sc}</td>
+      <td>${statusBdg}</td>
+      <td style="text-align:center;font-size:13px;color:var(--gold)">${hasNote?'📝':''}</td>
+      <td><button class="bsm" onclick="event.stopPropagation();deletePsyLog(${p.id})">✕</button></td>
+    </tr>${noteRow}`;
+  }).join('');
+}
+function togglePsyNote(id) {
+  const el=document.getElementById('pnr-'+id);
+  if(el) el.style.display = el.style.display==='none'?'table-row':'none';
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  RULES
+// ═══════════════════════════════════════════════════════════════
+const defRules=[{cat:'Entry',text:'Hanya masuk jika ada setup yang jelas dan sudah direncanakan'},{cat:'Risk',text:'Maksimal risk 1-2% per trade dari total modal'},{cat:'Psikologi',text:'Jika sudah hit max daily loss, STOP trading hari ini'},{cat:'Exit',text:'Jangan pindah Stop Loss lebih jauh dari posisi awal'},{cat:'Umum',text:'Tidak trading saat high-impact news kecuali sudah direncanakan'}];
+const catC={Entry:'var(--blu)',Risk:'var(--red)',Psikologi:'var(--gold)',Exit:'var(--grn)',Umum:'var(--sub)'};
+function renderRules(){const el=$('rules-w');if(!el)return;const all=[...defRules,...customRules];const cats=[...new Set(all.map(r=>r.cat))];el.innerHTML=cats.map(cat=>{const cr=all.filter(r=>r.cat===cat);return`<div class="card" style="margin-bottom:9px"><div style="display:flex;align-items:center;gap:7px;margin-bottom:9px"><div style="width:7px;height:7px;border-radius:2px;background:${catC[cat]||'var(--sub)'}"></div><div style="font-size:11px;font-weight:600;color:${catC[cat]||'var(--sub)'}">${cat}</div></div>${cr.map((r,i)=>`<div style="font-size:11px;color:var(--sub);padding:7px 0;border-bottom:1px solid var(--bdr);display:flex;gap:8px"><span style="color:var(--mut);font-family:var(--mono);font-size:10px;flex-shrink:0">${String(i+1).padStart(2,'0')}</span>${r.text}</div>`).join('')}</div>`;}).join('');}
+function addRule(){const c=$('rc').value,t=$('rt').value.trim();if(!t)return;customRules.push({cat:c,text:t});saveState();$('rt').value='';renderRules();toast('Aturan ditambahkan!');}
+
+// ═══════════════════════════════════════════════════════════════
+//  RENDER ALL
+// ═══════════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════════
+//  TRANSAKSI (DEPO / WD)
+// ═══════════════════════════════════════════════════════════════
+function clearTxnForm() {
+  const d=$('txn-date'); if(d) d.value=today();
+  const tp=$('txn-type'); if(tp) tp.value='depo';
+  const a=$('txn-amount'); if(a) a.value='';
+  const m=$('txn-method'); if(m) m.value='';
+  const n=$('txn-note'); if(n) n.value='';
+}
+
+function addTxn() {
+  const date   = $('txn-date').value;
+  const type   = $('txn-type').value;
+  const amount = parseFloat($('txn-amount').value);
+  const method = $('txn-method').value.trim();
+  const note   = $('txn-note').value.trim();
+  if (!date)              { toast('❌ Isi tanggal terlebih dahulu'); return; }
+  if (!amount || amount<=0){ toast('❌ Isi jumlah yang valid'); return; }
+  const txn = { id:Date.now(), date, type, amount:amount.toFixed(2), method, note };
+  transactions.unshift(txn);
+  saveState();
+  renderTxn();
+  clearTxnForm();
+  toast('✅ Transaksi disimpan!');
+  if(GS_ON) gasPost({action:'saveTxn', txn}).catch(()=>{});
+}
+
+function deleteTxn(id) {
+  transactions = transactions.filter(t=>t.id!==id);
+  saveState();
+  renderTxn();
+  if(GS_ON) gasPost({action:'deleteTxn', id}).catch(()=>{});
+}
+
+function clearAllTxn() {
+  if(!confirm('Hapus semua riwayat transaksi?')) return;
+  transactions = [];
+  saveState();
+  renderTxn();
+  if(GS_ON) gasPost({action:'clearTxns'}).catch(()=>{});
+}
+
+function renderTxn() {
+  const flt  = ($('txn-flt')||{value:'all'}).value;
+  const list = flt==='all' ? transactions : transactions.filter(t=>t.type===flt);
+  const fmt  = n => '$'+parseFloat(n||0).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+
+  const depoArr = transactions.filter(t=>t.type==='depo');
+  const wdArr   = transactions.filter(t=>t.type==='wd');
+  const totalD  = depoArr.reduce((s,t)=>s+parseFloat(t.amount||0),0);
+  const totalW  = wdArr.reduce((s,t)=>s+parseFloat(t.amount||0),0);
+  const net     = totalD - totalW;
+
+  const sd=$('txn-s-depo');   if(sd) sd.textContent=fmt(totalD);
+  const sdn=$('txn-s-depo-n');if(sdn) sdn.textContent=depoArr.length+' transaksi';
+  const sw=$('txn-s-wd');     if(sw) sw.textContent=fmt(totalW);
+  const swn=$('txn-s-wd-n'); if(swn) swn.textContent=wdArr.length+' transaksi';
+  const sn=$('txn-s-net');    if(sn){sn.textContent=fmt(Math.abs(net));sn.className='mv '+(net>0?'up':net<0?'dn':'nt');}
+  const snl=$('txn-s-net-lbl');if(snl) snl.textContent=net>0?'surplus':net<0?'defisit':'seimbang';
+
+  const body=$('txn-body');
+  if(!body) return;
+  if(!list.length){
+    body.innerHTML=`<tr><td colspan="6" style="text-align:center;padding:22px;color:var(--mut)">Belum ada transaksi</td></tr>`;
+    return;
+  }
+  body.innerHTML=list.map(t=>{
+    const isD=t.type==='depo';
+    const badge=isD?`<span class="bdg bw">💰 Depo</span>`:`<span class="bdg bl">💸 WD</span>`;
+    const amt=parseFloat(t.amount||0).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    return `<tr>
+      <td>${t.date}</td>
+      <td>${badge}</td>
+      <td style="text-align:right" class="${isD?'tw':'tl'}">${isD?'+':'-'}$${amt}</td>
+      <td>${t.method||'<span style="color:var(--mut)">—</span>'}</td>
+      <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${t.note||'<span style="color:var(--mut)">—</span>'}</td>
+      <td><button class="bsm" onclick="deleteTxn(${t.id})">✕</button></td>
+    </tr>`;
+  }).join('');
+}
+
+function renderAll(){
+  // Set form defaults safely
+  const td=$('t-date'); if(td) td.value=today();
+  const dd=$('dp-date'); if(dd) dd.value=today();
+  // Render each section safely — error satu tidak menghentikan yang lain
+  const safe = (fn, name) => { try { fn(); } catch(e) { console.warn('renderAll:',name,e.message); }};
+  safe(renderTrades,       'trades');
+  safe(renderDPList,       'dpList');
+  safe(renderWPList,       'wpList');
+  safe(renderCK,           'checklist');
+  safe(renderRules,        'rules');
+  safe(renderPsyHistory,   'psy');
+  safe(calcRisk,           'risk');
+  safe(calcPsy,            'psy-score');
+  safe(updateDash,         'dashboard');
+  safe(renderTxn,          'txn');
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════════════════════════
+(function init() {
+  if($('t-date'))   $('t-date').value   = today();
+  if($('dp-date'))  $('dp-date').value  = today();
+  if($('psy-date')) $('psy-date').value = today();
+  if($('txn-date')) $('txn-date').value = today();
+
+  if(GS_URL) {
+    // URL tersimpan — tampilkan data lokal DULU, lalu cek koneksi saja (TIDAK auto-pull)
+    GS_ON = true;
+    $('mo').style.display = 'none';
+    renderAll(); // UI langsung bisa dipakai dari data lokal
+    // Cek koneksi di background — hanya ping, tidak download data
+    pingGS();
+  } else {
+    $('mo').style.display = 'flex';
+  }
+})();
+
+// ═══════════════════════════════════════════════════════════════
+//  SCREENSHOT HANDLING
+// ═══════════════════════════════════════════════════════════════
+let currentScreenshot = '';
+
+function handleSsFile(file) {
+  if (!file) return;
+  if (!file.type.startsWith('image/')) { toast('❌ File harus berupa gambar'); return; }
+  if (file.size > 5 * 1024 * 1024) { toast('❌ Ukuran maksimal 5MB'); return; }
+  const reader = new FileReader();
+  reader.onload = e => {
+    currentScreenshot = e.target.result;
+    showSsPreview(currentScreenshot, file.name);
+  };
+  reader.readAsDataURL(file);
+}
+
+function handleSsDrop(event) {
+  event.preventDefault();
+  $('ss-dropzone').classList.remove('drag');
+  const file = event.dataTransfer.files[0];
+  if (file) handleSsFile(file);
+}
+
+function showSsPreview(dataUrl, name) {
+  $('ss-preview-wrap').style.display = 'block';
+  $('ss-preview-img').src = dataUrl;
+  $('ss-preview-label').textContent = name || 'Screenshot';
+  $('ss-dropzone').style.display = 'none';
+}
+
+function clearSs() {
+  currentScreenshot = '';
+  $('ss-preview-wrap').style.display = 'none';
+  $('ss-dropzone').style.display = 'block';
+  $('ss-file-inp').value = '';
+  const img = $('ss-preview-img');
+  if (img) img.src = '';
+}
+
+function openLightbox(srcOrId, label) {
+  let src = srcOrId;
+  // If it's a trade ID (number), find screenshot from trades array
+  if (typeof srcOrId === 'number' || (typeof srcOrId === 'string' && /^\d+$/.test(srcOrId))) {
+    const t = trades.find(x => String(x.id) === String(srcOrId));
+    if (t) { src = t.driveUrl || t.screenshot; label = label || (t.pair + ' ' + t.date); }
+  }
+  if (!src) return;
+  // For Drive URLs, open in new tab
+  if (src.includes('drive.google.com')) { window.open(src, '_blank'); return; }
+  $('ss-lightbox-img').src = src;
+  $('ss-lightbox-label').textContent = label || '';
+  $('ss-lightbox').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  $('ss-lightbox').style.display = 'none';
+  $('ss-lightbox-img').src = '';
+  document.body.style.overflow = '';
+}
+// Close lightbox with ESC key
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+// ═══════════════════════════════════════════════════════════════
+//  AI DATA FEATURES — Data, Sentimen, Geopolitik
+// ═══════════════════════════════════════════════════════════════
+
+// ─── FREE PUBLIC DATA — Tanpa API Key ──────────────────────────
+
+
+async function addTrade() {
+  const pair = $('t-pair').value;
+  if(!pair) { toast('❌ Pilih pair terlebih dahulu!'); return; }
+
+  const t = {
+    id:           Date.now(),
+    date:         $('t-date').value,
+    pair:         pair,
+    dir:          $('t-dir').value,
+    entry:        $('t-entry').value,
+    sl:           $('t-sl').value,
+    tp:           $('t-tp').value,
+    lot:          $('t-lot').value,
+    result:       $('t-res').value,
+    pnl:          $('t-pnl').value,
+    setup:        $('t-setup').value,
+    session:      $('t-sess').value,
+    note:         String($('t-note').value||''),
+    sslink:       String($('t-sslink')?$('t-sslink').value||'':'')
+  };
+
+  trades.unshift(t);
+  saveState();
+  renderTrades();
+  updateDash();
+  clearTL();
+  toast('💾 Trade tersimpan!');
+
+  if(GS_ON) {
+    setSync('busy','🔄 Menyimpan ke Sheets...');
+    gasPost({action:'saveTrade', trade:t})
+      .then(()=>setSync('ok','✅ Tersimpan di Sheets — '+new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'})))
+      .catch(()=>{setSync('err','⚠️ Tersimpan lokal');toast('⚠️ Klik "Kirim ke Sheets" untuk sync.',3000);});
+  }
+}
+</script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').catch(() => {});
+}
+</script>
+</body>
+</html>
