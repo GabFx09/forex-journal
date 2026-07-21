@@ -1370,6 +1370,30 @@ const _SCFG = {
   Netral:  {bg:'#1a1f2e', bdr:'#6b7280', bbg:'#374151', bfg:'#d1d5db'},
 };
 
+// Deteksi mata uang dari judul berita — data FinancialJuice tidak dilabeli
+// per mata uang, jadi dicocokkan lewat kata kunci (kode mata uang, bank
+// sentral, nama negara/mata uang umum).
+const _CCY_FLAG = {USD:'🇺🇸',EUR:'🇪🇺',JPY:'🇯🇵',GBP:'🇬🇧',AUD:'🇦🇺',NZD:'🇳🇿',CAD:'🇨🇦',CHF:'🇨🇭',XAU:'🥇',LAINNYA:'🌐'};
+const _CCY_KEYWORDS = {
+  USD: ['USD','Dolar AS','The Fed','Federal Reserve','\\bFed\\b','Amerika Serikat','\\bAS\\b','Powell','Trump','Gedung Putih','Wall Street'],
+  EUR: ['EUR','\\bEuro\\b','\\bECB\\b','Uni Eropa','Eurozone','Zona Euro','Lagarde'],
+  JPY: ['JPY','\\bYen\\b','\\bBOJ\\b','Bank of Japan','Jepang'],
+  GBP: ['GBP','\\bPound\\b','Sterling','\\bBOE\\b','Bank of England','Inggris','Britania'],
+  AUD: ['AUD','\\bRBA\\b','Australia','Aussie'],
+  NZD: ['NZD','\\bRBNZ\\b','Selandia Baru','\\bKiwi\\b'],
+  CAD: ['CAD','\\bBOC\\b','Bank of Canada','Kanada','Loonie'],
+  CHF: ['CHF','\\bSNB\\b','\\bSwiss\\b','\\bFranc\\b'],
+  XAU: ['\\bemas\\b','\\bgold\\b','\\bXAU\\b'],
+};
+const _CCY_RX = {};
+Object.entries(_CCY_KEYWORDS).forEach(([code, kws]) => {
+  _CCY_RX[code] = new RegExp(kws.join('|'), 'i');
+});
+function _detectCurrencies(title) {
+  const found = Object.keys(_CCY_RX).filter(code => _CCY_RX[code].test(title));
+  return found.length ? found : ['LAINNYA'];
+}
+
 function _noData(msg) {
   return `<div class="em" style="padding:56px 16px">
     <div style="font-size:44px;margin-bottom:14px">📭</div>
@@ -1686,9 +1710,19 @@ function renderSentimen() {
   const oe  = summary.overall==='Bullish'?'🟢':summary.overall==='Bearish'?'🔴':'⚪';
   const sc  = summary.avg_score;
 
-  const bull = items.filter(i => i.sentiment === 'Bullish').sort((a,b) => b.score - a.score);
-  const bear = items.filter(i => i.sentiment === 'Bearish').sort((a,b) => a.score - b.score);
-  const net  = items.filter(i => i.sentiment === 'Netral');
+  // Kelompokkan per mata uang (satu berita bisa muncul di lebih dari satu
+  // kolom kalau judulnya menyebut beberapa mata uang sekaligus, mis. USD/JPY)
+  const byCcy = {};
+  items.forEach(item => {
+    _detectCurrencies(item.title).forEach(code => {
+      if(!byCcy[code]) byCcy[code] = [];
+      byCcy[code].push(item);
+    });
+  });
+  const ccyOrder = Object.keys(byCcy)
+    .filter(c => c !== 'LAINNYA')
+    .sort((a,b) => byCcy[b].length - byCcy[a].length);
+  if(byCcy['LAINNYA']) ccyOrder.push('LAINNYA');
 
   const stats = `<div class="g4" style="margin-bottom:12px">
     <div class="met"><div class="ml">Total Berita</div><div class="mv nt">${summary.total}</div></div>
@@ -1715,20 +1749,24 @@ function renderSentimen() {
     </div>
   </div>`;
 
-  const bullSec = bull.length ? `<div class="card" style="margin-bottom:12px">
-    <div style="font-size:12px;font-weight:700;color:#22c55e;margin-bottom:8px">🟢 Berita Bullish (${bull.length})</div>
-    ${bull.map(_fjCard).join('')}
-  </div>` : '';
+  const ccyCols = ccyOrder.map(code => {
+    const list = byCcy[code];
+    const bullN = list.filter(i=>i.sentiment==='Bullish').length;
+    const bearN = list.filter(i=>i.sentiment==='Bearish').length;
+    return `<div class="card" style="margin-bottom:0">
+      <div style="display:flex;align-items:center;gap:7px;margin-bottom:8px">
+        <span style="font-size:13px;font-weight:700;color:var(--txt2)">${_CCY_FLAG[code]||'🌐'} ${code}</span>
+        <span style="font-size:10px;color:var(--mut)">(${list.length})</span>
+        ${bullN?`<span style="font-size:9px;color:#22c55e;margin-left:auto">🟢${bullN}</span>`:''}
+        ${bearN?`<span style="font-size:9px;color:#ef4444${bullN?';margin-left:6px':';margin-left:auto'}">🔴${bearN}</span>`:''}
+      </div>
+      ${list.map(_fjCard).join('')}
+    </div>`;
+  }).join('');
 
-  const bearSec = bear.length ? `<div class="card" style="margin-bottom:12px">
-    <div style="font-size:12px;font-weight:700;color:#ef4444;margin-bottom:8px">🔴 Berita Bearish (${bear.length})</div>
-    ${bear.map(_fjCard).join('')}
-  </div>` : '';
-
-  const netSec = net.length ? `<div class="card" style="margin-bottom:12px">
-    <div style="font-size:12px;font-weight:700;color:var(--mut);margin-bottom:8px">⚪ Berita Netral (${net.length})</div>
-    ${net.map(_fjCard).join('')}
-  </div>` : '';
+  const ccyGrid = ccyOrder.length
+    ? `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:12px">${ccyCols}</div>`
+    : '';
 
   const credit = `<div style="text-align:center;font-size:10px;color:var(--mut);margin-top:4px;padding-bottom:8px">
     Sumber data: <a href="https://www.financialjuice.com" target="_blank" rel="noopener"
@@ -1739,7 +1777,7 @@ function renderSentimen() {
     <div class="ct" style="margin-bottom:0">📊 Sentimen Pasar Forex — FinancialJuice</div>
     ${_badge(generated)}
   </div>
-  ${stats}${overallBox}${bullSec}${bearSec}${netSec}${credit}`;
+  ${stats}${overallBox}${ccyGrid}${credit}`;
 }
 
 // ── GEOPOLITIK ────────────────────────────────────────────────
