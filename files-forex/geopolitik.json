@@ -1,5 +1,5 @@
 {
-  "generated": "23 Jul 2026 02:53 WIB",
+  "generated": "23 Jul 2026 03:03 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,25 +7,25 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.412,
+      "score": -0.429,
       "count": 36
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.455,
+      "score": -0.461,
       "count": 35
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.488,
+      "score": -0.496,
       "count": 26
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.272,
+      "score": -0.226,
       "count": 12
     },
     {
@@ -43,13 +43,13 @@
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.341,
+      "score": -0.25,
       "count": 6
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.341,
+      "score": -0.25,
       "count": 6
     }
   ],
@@ -138,13 +138,13 @@
       "summary": "Pres. Trump is posting on TruthSocial: \"From this point forward, any time the Islamic Republic of Iran shoots at a ship in the Strait of Hormuz, whether it be by Missile, Rocket, Drone, or any other device or weapon, the United States will bomb and destroy ONE BRIDGE OR POWER PLANT, including those ",
       "published": "22 Jul 2026 20:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.741,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "investasiPasar Eropa yang aktif berakhir: Harga minyak meningkat seiring meluasnya konflik Timur Tengah hingga ke Laut Merah",
+      "title": "investasi Pasar Eropa yang aktif berakhir: Harga minyak meningkat seiring meluasnya konflik Timur Tengah hingga ke Laut Merah",
       "url": "https://investinglive.com/news/investinglive-european-markets-wrap-oil-prices-ramp-higher-as-middle-east-conflict-expands-to-the-red-sea/",
       "summary": "Headlines: Red Sea shipping disruption now in focus as vessels are forced to change course Iran says it struck US military facilities in Jordan and Bahrain Oil prices extend gains as disruptions in the Strait of Hormuz and the Red Sea worsen the supply outlook US futures nudge lower on the day, eyes",
       "published": "22 Jul 2026 19:04 WIB",
@@ -243,6 +243,17 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 22 Juli",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-21/latest-oil-market-news-and-analysis-for-july-22",
+      "summary": "Oil climbed, extending this month’s price jump to nearly 30%, as the US and Iran played down the prospect of peace talks and disruptions to global supplies continued to mount.",
+      "published": "22 Jul 2026 05:11 WIB",
+      "sentiment": "Bullish",
+      "score": 0.691,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Imbal Hasil 30 Tahun AS Menimbulkan Alarm dalam Jangka Panjang Terpanjang Di Atas 5% Sejak 2007",
       "url": "https://www.bloomberg.com/news/articles/2026-07-22/us-30-year-yield-raises-alarm-in-longest-run-above-5-since-2007",
       "summary": "The US 30-year bond yield has held above 5% for the longest stretch since the dawn of the financial crisis, echoing investor concerns about a growing debt pile and sticky inflation.",
@@ -254,7 +265,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Bergejolak Sebelum Perusahaan Teknologi Besar Menghasilkan Pendapatan karena Minyak Melonjak: Pasar Membungkus",
+      "title": "Saham Bergerak Sebelum Pendapatan Perusahaan Teknologi Besar Seiring Melonjaknya Minyak: Pasar Membungkus",
       "url": "https://www.bloomberg.com/news/articles/2026-07-21/stock-market-today-dow-s-p-live-updates",
       "summary": "Wall Street investors bracing for the start of the big-tech earnings season sent stocks wavering while worries about an escalation of the Iran war boosted oil prices.",
       "published": "22 Jul 2026 05:07 WIB",
@@ -276,17 +287,6 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru 22 Juli",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-21/latest-oil-market-news-and-analysis-for-july-22",
-      "summary": "Oil briefly spiked above $95, extending this month’s price jump to around 30%, as the US and Iran played down the prospect of peace talks and disruptions to global supplies continued to mount.",
-      "published": "22 Jul 2026 05:11 WIB",
-      "sentiment": "Bullish",
-      "score": 0.691,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "Minyak Venezuela: Fluxus Batistas Raih Saham di Usaha Patungan PDVSA",
       "url": "https://www.bloomberg.com/news/articles/2026-07-22/venezuela-oil-batistas-fluxus-clinches-stake-in-pdvsa-joint-venture",
       "summary": "Brazil’s billionaire Batista brothers have acquired a stake in an oil production project in Venezuela, the latest deal to emerge in a country that the Trump administration is vowing to reinvigorate after years of sanctions.",
@@ -303,7 +303,7 @@
       "summary": "US refiners are ramping up diesel production to near-record levels, bucking seasonal trends as the Russia and Iran wars trigger a global supply crunch.",
       "published": "23 Jul 2026 00:44 WIB",
       "sentiment": "Bearish",
-      "score": -0.637,
+      "score": -0.679,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -353,7 +353,7 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Dolar Stabil Mendekati Level Tertinggi Satu Minggu karena Ketegangan di Timur Tengah Memicu Permintaan Safe-Haven - CryptoRank",
+      "title": "Dolar Stabil Mendekati Level Tertingginya dalam Satu Minggu karena Ketegangan di Timur Tengah Memicu Permintaan Safe Haven - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSXVKa2Z0V3ZDQjIwNVc1eFJDU2JLVV9mRGFsOWRJV2RCdUtSN2lPZzBtVUFFX1JPeXd0LTBXVHBmaFJERnYtVmdoWGdkX2dPZ01rcFNwekVGVWZmUWpTaUNaemRjMk1aLXdsS1drdk9vTTg3QmI5clR0ZDRhQ3BTcl9DNHllVDg?oc=5",
       "summary": "Dollar Steadies Near One-Week High as Middle East Tensions Fuel Safe-Haven Demand CryptoRank",
       "published": "21 Jul 2026 16:23 WIB",
@@ -364,7 +364,7 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Permintaan Safe-Haven Tumbuh seiring Risiko Geopolitik Membentuk Pasar Global - Pabrik Valas",
+      "title": "Permintaan Safe-Haven Meningkat seiring Risiko Geopolitik Membentuk Pasar Global - Pabrik Valas",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQTNfNTA0a0xlQ1FoZmpvS2xfc1p4S3FsV19jVXdTUFcxVmJwaWp2cm81TzhtUnNRSEsydTNXWEM4VS1fMFlPWG5GcnIzWjFzUXBSRUx4bEQxQVFsblRsSzNJZHZRaHVUb3d3QS1vODE0Zkd4anRvWnM0azhzN3RPUUV5ZnlzWFJFN0ZfNkJtUXRjNkZ0SWc0N1hIck9veHNwUkHSAacBQVVfeXFMUEhOZHhXVXpCeW9FSmJtQ3czclhZX0hlaUIzSEhld254Q0dyb0I1a0NYVDdJbmlZQ0lJU05lamx3ejRiWXVsVVBnZjIxWkRPVXhzWFBRQmRpODZlRjEtdkZnN01rdTdVZTJiRzdOMWJoX1NiYUtHbG1IdzB2cmtEM2VvZkpHallvd3hQTmxjMGJ0UUUwcnpsVTQ2bjBwemZjUW1vb2FEVjQ?oc=5",
       "summary": "Safe-Haven Demand Grows as Geopolitical Risks Shape Global Markets Forex Factory",
       "published": "21 Jul 2026 16:54 WIB",
@@ -402,7 +402,7 @@
       "summary": "The New York City mayor instead called on US authorities to act on International Criminal Court's arrest warrant against the Israeli prime minister.",
       "published": "23 Jul 2026 00:54 WIB",
       "sentiment": "Bearish",
-      "score": -0.7,
+      "score": -0.856,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -435,7 +435,7 @@
       "summary": "The hearing was disrupted by protests and a shouting match as Hegseth testified at a pivotal time in the war.",
       "published": "22 Jul 2026 09:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.78,
+      "score": -0.946,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -478,9 +478,9 @@
       "url": "https://www.bbc.co.uk/news/articles/c3ek3gvdnj3o?at_medium=RSS&at_campaign=rss",
       "summary": "It is one of the first publicly disclosed cyber-attacks carried out by AI without direct human involvement.",
       "published": "22 Jul 2026 18:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
+      "sentiment": "Netral",
+      "score": 0.048,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -523,7 +523,7 @@
       "summary": "Many cases related to security offences are prosecuted using a law announced after last year's 12-day war with Israel.",
       "published": "22 Jul 2026 23:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.838,
+      "score": -0.784,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -534,7 +534,7 @@
       "summary": "Iranian official says Tehran would respond to US attacks by sparking power outages in countries hosting US troops.",
       "published": "22 Jul 2026 22:24 WIB",
       "sentiment": "Bearish",
-      "score": -0.52,
+      "score": -0.971,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -556,7 +556,7 @@
       "summary": "Several Ukrainian and Russian generals have been sacked from their militaries over the course of the war in Ukraine.",
       "published": "22 Jul 2026 21:10 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.898,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -578,7 +578,7 @@
       "summary": "Relatively high volatility readings for chips warn there could be further downside — and that it’s not yet worth the risk to buy the dip.",
       "published": "23 Jul 2026 01:57 WIB",
       "sentiment": "Bearish",
-      "score": -0.793,
+      "score": -0.594,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -611,7 +611,7 @@
       "summary": "Comments from JPMorgan Chase CEO Jamie Dimon contrast with investors' recent willingness to look past wars, tariffs and other shocks.",
       "published": "21 Jul 2026 17:24 WIB",
       "sentiment": "Bearish",
-      "score": -0.973,
+      "score": -0.591,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -650,7 +650,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "India meningkatkan peralihan energi ketika tekanan biaya dan tarif meningkat – dorongan pencampuran minyak memicu reaksi negatif",
+      "title": "India meningkatkan peralihan energi ketika tekanan biaya dan tarif meningkat – dorongan pencampuran minyak memicu reaksi balik",
       "url": "https://www.cnbc.com/2026/07/22/india-oil-prices-tariff-ethanol-backlash-iran-war-russia-.html",
       "summary": "India is banking on alternative fuels as it prioritizes energy security amid high oil prices and supply constraints.",
       "published": "22 Jul 2026 11:56 WIB",
@@ -676,9 +676,9 @@
       "url": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
       "summary": "The latest tariff salvo underscored Trump's goal of reshoring low-cost drug production, but displacing established suppliers like India won't be easy.",
       "published": "22 Jul 2026 13:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.13,
-      "emoji": "🔴",
+      "sentiment": "Netral",
+      "score": 0.036,
+      "emoji": "⚪",
       "impact": "medium"
     }
   ]
