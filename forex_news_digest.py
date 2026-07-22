@@ -53,9 +53,9 @@ GMAIL_USER      = os.getenv("GMAIL_USER", "")
 GMAIL_PASSWORD  = os.getenv("GMAIL_APP_PASSWORD", "")
 SEND_TO         = os.getenv("SEND_TO", GMAIL_USER)
 SEND_HOUR       = int(os.getenv("SEND_HOUR", "7"))
-NEWS_HOURS_BACK     = 24
-MAX_PER_SOURCE      = 15   # jumlah item per sumber (dinaikkan)
-MIN_NEWS_SENTIMEN   = 30   # target minimum berita sentimen
+NEWS_HOURS_BACK     = 36
+MAX_PER_SOURCE      = 20   # jumlah item per sumber (dinaikkan agar tab Sentimen bisa capai 80-100 berita)
+MIN_NEWS_SENTIMEN   = 80   # target minimum berita sentimen (tab F10 SENT — day trader butuh cakupan lebih dalam)
 MIN_NEWS_GEOPOLITIK = 30   # target minimum berita geopolitik
 JSON_DIR            = os.getenv("JSON_DIR", os.path.join(_SCRIPT_DIR, "files-forex"))
 
@@ -184,6 +184,7 @@ class NewsItem:
     sentiment_label: str = "Netral"
     sentiment_score: float = 0.0
     sentiment_emoji: str = "⚪"
+    impact: str = "low"
 
 
 def _sort_key(item: NewsItem) -> datetime:
@@ -509,8 +510,8 @@ def _fj_is_forex_critical(title: str) -> bool:
 
 
 def fetch_fj_rss() -> list[NewsItem]:
-    """FinancialJuice RSS — 50 item forex penting, tanpa saham, judul Bahasa Indonesia."""
-    TARGET = 50
+    """FinancialJuice RSS — 80-100 item forex penting, tanpa saham, judul Bahasa Indonesia."""
+    TARGET = 90
     seen: set[str] = set()
     candidates: list[NewsItem] = []
 
@@ -547,6 +548,8 @@ def fetch_fj_rss() -> list[NewsItem]:
         except Exception as e:
             log.debug(f"[FJ-RSS] {url} gagal: {e}")
 
+    # Urutkan berita terbaru dulu — day trader butuh info paling mutakhir di atas
+    candidates.sort(key=_sort_key, reverse=True)
     items = candidates[:TARGET]
     log.info(f"[FJ-RSS] {len(candidates)} lolos filter → ambil {len(items)} item")
 
@@ -976,6 +979,35 @@ _BEARISH_KEYWORDS = {
     "attack", "escalation", "invasion",
 }
 
+# Klasifikasi dampak berita untuk trader harian — dipakai sbg badge di tab
+# Sentimen supaya berita market-moving (rilis data/keputusan bank sentral)
+# langsung kelihatan beda dari berita latar belakang biasa.
+_IMPACT_HIGH_KEYWORDS: set[str] = {
+    "nfp", "non-farm payroll", "nonfarm payroll", "payrolls report",
+    "cpi", "ppi", "fomc", "rate decision", "interest rate decision",
+    "gdp", "unemployment rate", "jobs report", "inflation report",
+    "rate hike", "rate cut", "central bank decision",
+    "federal reserve decision", "ecb decision", "boe decision", "boj decision",
+    "war", "invasion", "sanction", "financial crisis", "debt crisis",
+    "default", "recession", "currency intervention", "currency crisis",
+}
+_IMPACT_MEDIUM_KEYWORDS: set[str] = {
+    "pmi", "retail sales", "trade balance", "consumer confidence",
+    "housing starts", "durable goods", "speech", "testimony", "minutes",
+    "current account", "manufacturing index", "services index",
+    "tariff", "trade war", "trade deal", "election", "geopolit",
+    "employment change", "wage growth", "producer price",
+}
+
+
+def _impact_level(text_lower: str) -> str:
+    """Tentukan tingkat dampak berita (high/medium/low) dari kata kunci judul+ringkasan."""
+    if any(kw in text_lower for kw in _IMPACT_HIGH_KEYWORDS):
+        return "high"
+    if any(kw in text_lower for kw in _IMPACT_MEDIUM_KEYWORDS):
+        return "medium"
+    return "low"
+
 
 def _analyze(item: NewsItem) -> NewsItem:
     text = f"{item.title} {item.summary}".lower()
@@ -994,6 +1026,7 @@ def _analyze(item: NewsItem) -> NewsItem:
         item.sentiment_label, item.sentiment_emoji = "Bearish", "🔴"
     else:
         item.sentiment_label, item.sentiment_emoji = "Netral", "⚪"
+    item.impact = _impact_level(text)
     return item
 
 
@@ -2011,6 +2044,7 @@ def save_news_data(items: list[NewsItem], events: list[EconomicEvent],
             "sentiment": item.sentiment_label,
             "score":     item.sentiment_score,
             "emoji":     item.sentiment_emoji,
+            "impact":    item.impact,
         }
 
     # ── Kalender ──
@@ -2051,8 +2085,8 @@ def save_news_data(items: list[NewsItem], events: list[EconomicEvent],
         "items": [item_to_dict(i) for i in items],
     }
 
-    # ── FJ Live (FinancialJuice RSS + suplemen hingga 50, forex-only, Bahasa Indonesia) ──
-    TARGET_FJ = 50
+    # ── FJ Live (FinancialJuice RSS + suplemen hingga 80-100, forex-only, Bahasa Indonesia) ──
+    TARGET_FJ = 90
     fj_analyzed = [_analyze(i) for i in (fj_items or [])]
 
     # Tambal kekurangan dari koleksi sentimen umum jika FJ RSS < TARGET
@@ -2070,6 +2104,10 @@ def save_news_data(items: list[NewsItem], events: list[EconomicEvent],
                 ex.title = ext_titles[i]
             fj_analyzed.extend([_analyze(ex) for ex in extras])
             log.info(f"[FJ-RSS] Suplemen {len(extras)} item forex → total {len(fj_analyzed)}")
+
+    # Urutkan gabungan (FJ + suplemen) berdasarkan waktu publish terbaru —
+    # day trader melihat berita paling mutakhir lebih dulu di tab Sentimen.
+    fj_analyzed.sort(key=_sort_key, reverse=True)
 
     fj_bull = [i for i in fj_analyzed if i.sentiment_label == "Bullish"]
     fj_bear = [i for i in fj_analyzed if i.sentiment_label == "Bearish"]
