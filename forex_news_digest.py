@@ -504,14 +504,26 @@ _FJ_BLOCK_STOCK: list[str] = [
 ]
 
 
+def _kw_hit(text: str, keywords: list[str]) -> bool:
+    """Cocokkan kata kunci dengan batas kata (\\b), bukan substring polos —
+    kode mata uang 3-huruf ("cad","aud","eur",dst) gampang nyangkut sbg
+    substring kata lain sama sekali tak terkait (mis. "cad" di "decade",
+    "aud" di "fraud", "eur" di "neuron"). \\b menghindari itu tanpa perlu
+    daftar spasi manual per keyword."""
+    for kw in keywords:
+        if re.search(r"\b" + re.escape(kw.strip()) + r"\b", text):
+            return True
+    return False
+
+
 def _fj_is_forex_critical(title: str) -> bool:
     """True jika berita benar-benar penting untuk forex, tanpa unsur saham."""
     t = title.lower()
     # Blokir keras jika ada kata kunci non-forex
-    if any(kw in t for kw in _FJ_BLOCK_STOCK):
+    if _kw_hit(t, _FJ_BLOCK_STOCK):
         return False
     # Wajib ada minimal satu kata kunci forex penting
-    return any(kw in t for kw in _FJ_MUST_FOREX)
+    return _kw_hit(t, _FJ_MUST_FOREX)
 
 
 def _fj_supplement_ok(item: "NewsItem") -> bool:
@@ -521,9 +533,9 @@ def _fj_supplement_ok(item: "NewsItem") -> bool:
     kunci forex di ringkasan, bukan di judul — kalau cuma cek judul,
     mayoritas kandidat yang sebenarnya relevan malah terbuang."""
     t = f"{item.title} {item.summary}".lower()
-    if any(kw in t for kw in _FJ_BLOCK_STOCK):
+    if _kw_hit(t, _FJ_BLOCK_STOCK):
         return False
-    return any(kw in t for kw in _FJ_MUST_FOREX)
+    return _kw_hit(t, _FJ_MUST_FOREX)
 
 
 def fetch_fj_rss() -> list[NewsItem]:
