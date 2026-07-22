@@ -363,6 +363,33 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
 .tl{color:var(--red)!important;font-weight:600}
 .ts{color:var(--txt2)!important;font-weight:700}
 
+/* ── TRADE CALENDAR ─────────────────────────── */
+.tcal-hdr{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:10px}
+.tcal-hdr .btn{padding:4px 10px;font-size:11px}
+.tcal-hdr-lbl{font-size:12px;font-weight:700;color:var(--txt2);font-family:var(--mono);min-width:130px;text-align:center}
+.tcal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.tcal-dow{font-size:9px;font-weight:700;color:var(--mut);text-align:center;text-transform:uppercase;letter-spacing:.06em;padding-bottom:4px}
+.tcal-day{
+  aspect-ratio:1;border:1px solid var(--bdr);padding:5px 6px;
+  display:flex;flex-direction:column;justify-content:flex-start;
+  font-family:var(--mono);overflow:hidden;
+}
+.tcal-day.tcal-empty{border-color:transparent}
+.tcal-day.tcal-has{cursor:pointer;transition:border-color .15s}
+.tcal-day.tcal-has:hover{border-color:rgba(240,180,41,.4)}
+.tcal-day.tcal-sel{border-color:var(--gold);border-width:2px;padding:4px 5px}
+.tcal-num{font-size:9.5px;color:var(--mut)}
+.tcal-pnl{font-size:10px;font-weight:700;margin-top:auto;line-height:1.3;word-break:break-word}
+.tcal-up{background:var(--grn-d)}
+.tcal-up .tcal-pnl{color:var(--grn)}
+.tcal-dn{background:var(--red-d)}
+.tcal-dn .tcal-pnl{color:var(--red)}
+.tcal-chip{
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(240,180,41,.1);border:1px solid rgba(240,180,41,.3);
+  color:var(--gold);font-size:10px;padding:3px 9px;cursor:pointer;
+}
+
 /* ── PROGRESS BARS ──────────────────────────── */
 .pb{background:rgba(255,255,255,.06);border-radius:0;height:5px;overflow:hidden;margin-top:6px}
 .pf{height:100%;border-radius:0;background:var(--gold)}
@@ -964,9 +991,14 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
         </div>
       </div>
       <div class="card">
+        <div class="ct">Kalender P&L</div>
+        <div id="tlog-cal"></div>
+      </div>
+      <div class="card">
         <div class="fb" style="margin-bottom:12px">
           <div class="ct" style="margin-bottom:0">Riwayat Trade</div>
           <div style="display:flex;gap:8px;align-items:center">
+            <div id="tlog-filter-chip"></div>
             <select style="font-size:11px;padding:4px 8px;width:auto" id="t-flt" onchange="renderTrades()">
               <option value="all">Semua</option><option value="win">WIN</option><option value="loss">LOSS</option><option value="">Open</option>
             </select>
@@ -2448,9 +2480,77 @@ function clearTL() {
   $('t-res').value=''; $('t-date').value=today();
 }
 
+// ── KALENDER P&L (Trade Log) ───────────────────────────────────
+const _DOW = ['S','M','T','W','T','F','S'];
+const _BLN = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
+let _tlogCalMonth = new Date();
+let _tlogDateFilter = null;
+
+function changeTlogCalMonth(delta) {
+  _tlogCalMonth.setMonth(_tlogCalMonth.getMonth()+delta);
+  renderTradeCalendar();
+}
+
+function filterTlogByDate(dateStr) {
+  _tlogDateFilter = (_tlogDateFilter === dateStr) ? null : dateStr;
+  renderTrades();
+}
+
+function renderTradeCalendar() {
+  const el = $('tlog-cal');
+  if(!el) return;
+
+  const y = _tlogCalMonth.getFullYear(), m = _tlogCalMonth.getMonth();
+  const pm = {};
+  trades.forEach(t=>{
+    if(!t.date) return;
+    const d = new Date(t.date+'T12:00:00');
+    if(d.getFullYear()===y && d.getMonth()===m) {
+      pm[t.date] = (pm[t.date]||0) + (parseFloat(t.pnl)||0);
+    }
+  });
+
+  const firstDow = new Date(y, m, 1).getDay();
+  const daysInMonth = new Date(y, m+1, 0).getDate();
+
+  let cells = '';
+  for(let i=0; i<firstDow; i++) cells += '<div class="tcal-day tcal-empty"></div>';
+  for(let d=1; d<=daysInMonth; d++) {
+    const dateStr = y+'-'+String(m+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
+    const pnl = pm[dateStr];
+    const has = pnl !== undefined;
+    const cls = ['tcal-day'];
+    if(has) { cls.push('tcal-has'); cls.push(pnl>=0?'tcal-up':'tcal-dn'); }
+    if(dateStr === _tlogDateFilter) cls.push('tcal-sel');
+    const pnlHtml = has ? `<div class="tcal-pnl">${pnl>=0?'+':''}$${Math.abs(pnl).toFixed(2)}</div>` : '';
+    cells += `<div class="${cls.join(' ')}"${has?` onclick="filterTlogByDate('${dateStr}')"`:''}>
+      <div class="tcal-num">${d}</div>${pnlHtml}
+    </div>`;
+  }
+
+  const dowHtml = _DOW.map(d=>`<div class="tcal-dow">${d}</div>`).join('');
+
+  el.innerHTML = `
+    <div class="tcal-hdr">
+      <button class="btn bh" onclick="changeTlogCalMonth(-1)">‹</button>
+      <div class="tcal-hdr-lbl">${_BLN[m]} ${y}</div>
+      <button class="btn bh" onclick="changeTlogCalMonth(1)">›</button>
+    </div>
+    <div class="tcal-grid">${dowHtml}${cells}</div>`;
+}
+
 function renderTrades() {
+  renderTradeCalendar();
+  const chipEl = $('tlog-filter-chip');
+  if(chipEl) {
+    chipEl.innerHTML = _tlogDateFilter
+      ? `<span class="tcal-chip" onclick="filterTlogByDate('${_tlogDateFilter}')">📅 ${_tlogDateFilter} ✕</span>`
+      : '';
+  }
+
   const flt  = $('t-flt') ? $('t-flt').value : 'all';
-  const list = flt === 'all' ? trades : trades.filter(t => t.result === flt);
+  let list = flt === 'all' ? trades : trades.filter(t => t.result === flt);
+  if(_tlogDateFilter) list = list.filter(t => t.date === _tlogDateFilter);
   const tb   = $('t-body');
   if (!tb) return;
   if (!list.length) {
