@@ -1,5 +1,5 @@
 {
-  "generated": "23 Jul 2026 02:44 WIB",
+  "generated": "23 Jul 2026 02:53 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,25 +7,25 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.453,
-      "count": 37
+      "score": -0.412,
+      "count": 36
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.485,
-      "count": 36
+      "score": -0.455,
+      "count": 35
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.526,
-      "count": 27
+      "score": -0.488,
+      "count": 26
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.247,
+      "score": -0.272,
       "count": 12
     },
     {
@@ -43,13 +43,13 @@
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.29,
+      "score": -0.341,
       "count": 6
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.29,
+      "score": -0.341,
       "count": 6
     }
   ],
@@ -83,7 +83,7 @@
       "summary": "Treasury Secretary Scott Bessent said the Treasury Department and the IRS are reviewing a number of Wall Street tax products and strategies that may exploit the federal tax code. While emphasizing that the administration welcomes innovation in financial markets, Bessent said tax policy should reward",
       "published": "22 Jul 2026 23:52 WIB",
       "sentiment": "Bullish",
-      "score": 0.638,
+      "score": 0.557,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -115,14 +115,14 @@
       "url": "https://investinglive.com/news/trump-news-iran-will-pay-a-big-price/",
       "summary": "Trump will apparently be available to reporters today. He is saying: Iran will pay a big price. They will not have a nuclear weapon. Americans are not against the war. Soldiers tests are under investigation. Iran will be held accountable Americans do not want higher gas prices. Looking around the ma",
       "published": "22 Jul 2026 21:03 WIB",
-      "sentiment": "Netral",
-      "score": -0.02,
-      "emoji": "⚪",
+      "sentiment": "Bullish",
+      "score": 0.083,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "USDCAD mencatat beberapa kenaikan, tetapi menemukan dukungan pembeli mendekati MA 200 jam",
+      "title": "USDCAD mengoreksi beberapa kenaikan, tetapi menemukan dukungan pembeli di dekat MA 200 jam",
       "url": "https://investinglive.com/technical-analysis/usdcad-corrects-some-of-the-gains-but-finds-support-buyers-near-the-200-hour-ma/",
       "summary": "The USDCAD moved sharply higher earlier this week, supported by renewed trade tensions after the U.S. announced 50% tariffs on selected Canadian goods. The tariff headlines gave the U.S. dollar a boost against the Canadian dollar, helping the pair recover from the week's lows and shifting the short-",
       "published": "22 Jul 2026 20:52 WIB",
@@ -138,7 +138,7 @@
       "summary": "Pres. Trump is posting on TruthSocial: \"From this point forward, any time the Islamic Republic of Iran shoots at a ship in the Strait of Hormuz, whether it be by Missile, Rocket, Drone, or any other device or weapon, the United States will bomb and destroy ONE BRIDGE OR POWER PLANT, including those ",
       "published": "22 Jul 2026 20:21 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.741,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -182,9 +182,9 @@
       "summary": "The Pound Sterling holds firm during the North American session as UK inflation data dipped, easing pressure on the Bank of England to tackle higher prices, while attacks between the US and Iran don’t seem to be ending in the Middle East. The GBP/USD trades at 1.3377.",
       "published": "22 Jul 2026 23:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.637,
+      "score": -0.851,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "FXStreet News",
@@ -210,7 +210,7 @@
     },
     {
       "source": "FXStreet News",
-      "title": "Yen Jepang kesulitan mendekati posisi terendah empat dekade terakhir ada sinyal hawkish dari BoJ",
+      "title": "Yen Jepang kesulitan mendekati posisi terendah empat dekade meskipun ada sinyal hawkish dari BoJ",
       "url": "https://www.fxstreet.com/news/japanese-yen-struggles-near-four-decade-lows-despite-hawkish-boj-signals-202607221440",
       "summary": "The Japanese Yen (JPY) gives up earlier gains on Wednesday, failing to capitalize on hawkish signals from the Bank of Japan (BoJ) and a softer US Dollar (USD) as Middle East tensions keep markets on edge.",
       "published": "22 Jul 2026 21:40 WIB",
@@ -226,7 +226,7 @@
       "summary": "ING analysts discuss changes to US Section 232 aluminium tariffs aimed at incentivizing domestic smelting investment. Qualifying projects can import at 25% instead of 50%, but ING stresses this is a long-term industrial policy with limited near-term impact.",
       "published": "22 Jul 2026 21:36 WIB",
       "sentiment": "Bearish",
-      "score": -0.827,
+      "score": -0.747,
       "emoji": "🔴",
       "impact": "medium"
     },
@@ -242,13 +242,13 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Trump: 'AS akan mengebom dan menghancurkan' jembatan atau pembangkit listrik Iran",
-      "url": "https://www.fxstreet.com/news/trump-us-will-bomb-and-destroy-iranian-bridges-or-power-plants-202607221318",
-      "summary": "US President Donald Trump issued a fresh warning to Iran on Wednesday, threatening strikes on the country’s infrastructure if Tehran targets vessels in the Strait of Hormuz.",
-      "published": "22 Jul 2026 20:18 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Imbal Hasil 30 Tahun AS Menimbulkan Alarm dalam Jangka Panjang Terpanjang Di Atas 5% Sejak 2007",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-22/us-30-year-yield-raises-alarm-in-longest-run-above-5-since-2007",
+      "summary": "The US 30-year bond yield has held above 5% for the longest stretch since the dawn of the financial crisis, echoing investor concerns about a growing debt pile and sticky inflation.",
+      "published": "22 Jul 2026 20:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.994,
+      "score": -0.887,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -270,7 +270,7 @@
       "summary": "Kuwait raised $6 billion from a three-part dollar bond sale on Wednesday, highlighting resilient demand for the OPEC member’s debt even as it comes under daily missile and drone attacks from Iran.",
       "published": "22 Jul 2026 16:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.744,
+      "score": -0.87,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -303,7 +303,7 @@
       "summary": "US refiners are ramping up diesel production to near-record levels, bucking seasonal trends as the Russia and Iran wars trigger a global supply crunch.",
       "published": "23 Jul 2026 00:44 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.637,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -314,7 +314,7 @@
       "summary": "The Kevin Warsh Fed is already putting its stamp on financial markets: Just days before the central bank’s next meeting, traders are still split on whether it’s going to raise interest rates or not.",
       "published": "23 Jul 2026 00:27 WIB",
       "sentiment": "Bullish",
-      "score": 0.098,
+      "score": 0.379,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -402,7 +402,7 @@
       "summary": "The New York City mayor instead called on US authorities to act on International Criminal Court's arrest warrant against the Israeli prime minister.",
       "published": "23 Jul 2026 00:54 WIB",
       "sentiment": "Bearish",
-      "score": -0.856,
+      "score": -0.7,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -413,9 +413,9 @@
       "summary": "Karen Carter was found with stab wounds in the Dordogne village she had lived in for over a decade.",
       "published": "23 Jul 2026 02:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.891,
+      "score": -0.666,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -435,7 +435,7 @@
       "summary": "The hearing was disrupted by protests and a shouting match as Hegseth testified at a pivotal time in the war.",
       "published": "22 Jul 2026 09:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.946,
+      "score": -0.78,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -478,9 +478,9 @@
       "url": "https://www.bbc.co.uk/news/articles/c3ek3gvdnj3o?at_medium=RSS&at_campaign=rss",
       "summary": "It is one of the first publicly disclosed cyber-attacks carried out by AI without direct human involvement.",
       "published": "22 Jul 2026 18:40 WIB",
-      "sentiment": "Netral",
-      "score": 0.048,
-      "emoji": "⚪",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -490,9 +490,9 @@
       "summary": "Karen Carter was found with stab wounds in the Dordogne village she had lived in for over a decade.",
       "published": "23 Jul 2026 02:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.891,
+      "score": -0.666,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -523,7 +523,7 @@
       "summary": "Many cases related to security offences are prosecuted using a law announced after last year's 12-day war with Israel.",
       "published": "22 Jul 2026 23:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.784,
+      "score": -0.838,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -534,7 +534,7 @@
       "summary": "Iranian official says Tehran would respond to US attacks by sparking power outages in countries hosting US troops.",
       "published": "22 Jul 2026 22:24 WIB",
       "sentiment": "Bearish",
-      "score": -0.971,
+      "score": -0.52,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -556,13 +556,13 @@
       "summary": "Several Ukrainian and Russian generals have been sacked from their militaries over the course of the war in Ukraine.",
       "published": "22 Jul 2026 21:10 WIB",
       "sentiment": "Bearish",
-      "score": -0.898,
+      "score": -0.679,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "Pasar bullish menghadapi kemungkinan kenaikan suku bunga The Fed yang semakin tinggi seiring dengan semakin intensifnya krisis Iran",
+      "title": "Pasar bullish menghadapi kemungkinan kenaikan suku bunga The Fed yang lebih tinggi seiring dengan semakin intensifnya krisis Iran",
       "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
       "summary": "Treasury yields are approaching the highest levels seen since the Iran war started in February as oil price rises and odds of a Fed rate hike narrow.",
       "published": "23 Jul 2026 02:30 WIB",
@@ -578,7 +578,7 @@
       "summary": "Relatively high volatility readings for chips warn there could be further downside — and that it’s not yet worth the risk to buy the dip.",
       "published": "23 Jul 2026 01:57 WIB",
       "sentiment": "Bearish",
-      "score": -0.594,
+      "score": -0.793,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -599,9 +599,9 @@
       "url": "https://www.cnbc.com/2026/07/22/european-commission-paramount-wbd-approval.html",
       "summary": "European regulators signed off on Paramount's proposed acquisition of Warner Bros. Discovery.",
       "published": "23 Jul 2026 02:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.36,
-      "emoji": "🟢",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -611,7 +611,7 @@
       "summary": "Comments from JPMorgan Chase CEO Jamie Dimon contrast with investors' recent willingness to look past wars, tariffs and other shocks.",
       "published": "21 Jul 2026 17:24 WIB",
       "sentiment": "Bearish",
-      "score": -0.591,
+      "score": -0.973,
       "emoji": "🔴",
       "impact": "high"
     },

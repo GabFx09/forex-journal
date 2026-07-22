@@ -1,24 +1,24 @@
 {
-  "generated": "23 Jul 2026 02:44 WIB",
+  "generated": "23 Jul 2026 02:53 WIB",
   "summary": {
-    "total": 113,
-    "bullish": 38,
-    "bearish": 61,
-    "netral": 14,
-    "avg_score": -0.1908,
+    "total": 114,
+    "bullish": 41,
+    "bearish": 58,
+    "netral": 15,
+    "avg_score": -0.1591,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bearish",
-        "score": -0.097,
-        "count": 28
+        "score": -0.07,
+        "count": 27
       },
       {
         "currency": "JPY",
         "sentiment": "Bearish",
-        "score": -0.182,
-        "count": 8
+        "score": -0.092,
+        "count": 9
       },
       {
         "currency": "EUR",
@@ -28,9 +28,9 @@
       },
       {
         "currency": "GBP",
-        "sentiment": "Netral",
-        "score": -0.032,
-        "count": 4
+        "sentiment": "Bullish",
+        "score": 0.1,
+        "count": 5
       },
       {
         "currency": "CAD",
@@ -65,6 +65,17 @@
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Tesla, Alphabet, ServiceNow, IBM, Texas Instruments semuanya melaporkan setelah penutupan",
+      "url": "https://investinglive.com/technical-analysis/tesla-alphabet-servicenow-ibm-texas-instruments-all-report-after-the-close/",
+      "summary": "After the close, Tesla, Alphabet, ServiceNow, IBM, and Texas Instruments will all report their earnings. Consensus estimates for the stocks after today’s close: Alphabet/Google (GOOGL): EPS $2.88; revenue $117.1 billion. Tesla (TSLA): Adjusted EPS $0.53; revenue $26.4 billion. ServiceNow (NOW): Adju",
+      "published": "23 Jul 2026 02:45 WIB",
+      "sentiment": "Bullish",
+      "score": 0.34,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Iran memperluas ancamannya ketika retorikanya menjadi semakin berbahaya",
@@ -264,14 +275,14 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Nasdaq tetap cenderung turun di tengah krisis AS-Iran",
-      "url": "https://investinglive.com/stocks/the-nasdaq-remains-skewed-to-the-downside-amid-the-us-iran-crisis/",
-      "summary": "FUNDAMENTAL OVERVIEW The Nasdaq has been mostly rangebound this month as the US-Iran crisis brought back inflation and growth risks. This has also happened amid overcrowded tech positioning which has led to deleveraging across the board. Last week’s soft US inflation data helped limiting the downsid",
-      "published": "22 Jul 2026 17:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.807,
-      "emoji": "🔴",
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga GBP/JPY: Menembus garis tren support, fokus pada 217,50",
+      "url": "https://www.fxstreet.com/news/gbp-jpy-price-forecast-breaks-support-trendline-eyes-on-21750-202607221951",
+      "summary": "GBP/JPY holds firm on Wednesday, with the cross-pair trading above the 218.00 figure, as sellers seem to have the upper hand, after a break of a key support trendline, which could open the door for further losses. At the time of writing, the cross trades at 218.16, down 0.05%.",
+      "published": "23 Jul 2026 02:51 WIB",
+      "sentiment": "Bullish",
+      "score": 0.63,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -473,15 +484,37 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Trump: 'AS akan mengebom dan menghancurkan' jembatan atau pembangkit listrik Iran",
-      "url": "https://www.fxstreet.com/news/trump-us-will-bomb-and-destroy-iranian-bridges-or-power-plants-202607221318",
-      "summary": "US President Donald Trump issued a fresh warning to Iran on Wednesday, threatening strikes on the country’s infrastructure if Tehran targets vessels in the Strait of Hormuz.",
-      "published": "22 Jul 2026 20:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.994,
-      "emoji": "🔴",
-      "impact": "high"
+      "source": "Investing.com Forex",
+      "title": "FDA menyelidiki wabah cyclospora baru dengan 72 kasus",
+      "url": "https://www.investing.com/news/stock-market-news/fda-investigates-new-cyclospora-outbreak-with-72-cases-93CH-4806806",
+      "summary": "",
+      "published": "23 Jul 2026 02:44 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Deutsche Bank memberi peringkat pada saham Layanan TI di atas pendapatannya",
+      "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-ranks-it-services-stocks-ahead-of-earnings-93CH-4806804",
+      "summary": "",
+      "published": "23 Jul 2026 02:43 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Wellington, Vanguard, Blackstone meluncurkan dana yang menargetkan investor kaya",
+      "url": "https://www.investing.com/news/stock-market-news/wellington-vanguard-blackstone-launch-funds-targeting-wealthy-investors-4805943",
+      "summary": "",
+      "published": "23 Jul 2026 02:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.361,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "Investing.com Forex",
@@ -561,39 +594,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Penggugat remaja yang menggugat Meta atas gangguan kesehatan mental membatalkan tuntutannya terhadap perusahaan beberapa hari sebelum persidangan",
-      "url": "https://www.investing.com/news/stock-market-news/teen-plaintiff-suing-meta-over-mental-health-harms-drops-his-claims-against-company-days-before-trial-4806768",
-      "summary": "",
-      "published": "23 Jul 2026 01:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.569,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "CEO Palo Alto Networks menyebut peretasan OpenAI-Hugging Face adalah ‘tingkat berikutnya’",
-      "url": "https://www.investing.com/news/stock-market-news/palo-alto-networks-ceo-calls-openaihugging-face-hack-next-level-4806766",
-      "summary": "",
-      "published": "23 Jul 2026 01:46 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Prospek pendapatan ServiceNow: 5 pertanyaan penting setelah aksi jual brutal sebelum laporan",
-      "url": "https://www.investing.com/news/stock-market-news/servicenow-earnings-outlook-5-questions-that-matter-after-a-brutal-prereport-selloff-93CH-4806764",
-      "summary": "",
-      "published": "23 Jul 2026 01:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.612,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Tarif baru AS sebesar 25% mencapai miliaran dolar pada ekspor Brasil",
       "url": "https://www.investing.com/news/economic-indicators/new-us-25-tariff-hits-billions-of-dollars-in-brazilian-exports-4805104",
@@ -669,6 +669,17 @@
       "score": 0.557,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Imbal Hasil 30 Tahun AS Menimbulkan Alarm dalam Jangka Panjang Terpanjang Di Atas 5% Sejak 2007",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-22/us-30-year-yield-raises-alarm-in-longest-run-above-5-since-2007",
+      "summary": "The US 30-year bond yield has held above 5% for the longest stretch since the dawn of the financial crisis, echoing investor concerns about a growing debt pile and sticky inflation.",
+      "published": "22 Jul 2026 20:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.887,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
