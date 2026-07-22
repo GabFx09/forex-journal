@@ -2089,19 +2089,20 @@ def save_news_data(items: list[NewsItem], events: list[EconomicEvent],
     TARGET_FJ = 90
     fj_analyzed = [_analyze(i) for i in (fj_items or [])]
 
-    # Tambal kekurangan dari koleksi sentimen umum jika FJ RSS < TARGET
-    # Filter ketat: hanya item yang lolos _fj_is_forex_critical dan bukan saham
+    # Tambal kekurangan dari koleksi sentimen umum (items) jika FJ RSS < TARGET.
+    # items sudah lolos _is_forex_relevant() di collect_all_news() dan judulnya
+    # sudah diterjemahkan ke Indonesia di run_job() — jadi suplemen di sini cukup
+    # blokir stok/kripto (bukan mensyaratkan lagi kata kunci forex eksplisit di
+    # judul, yang dulu membuang mayoritas kandidat padahal sudah relevan forex).
     if len(fj_analyzed) < TARGET_FJ:
         fj_urls = {i.url for i in fj_analyzed}
         need    = TARGET_FJ - len(fj_analyzed)
         extras  = [
             i for i in items
-            if i.url not in fj_urls and _fj_is_forex_critical(i.title)
+            if i.url not in fj_urls
+            and not any(kw in f"{i.title} {i.summary}".lower() for kw in _FJ_BLOCK_STOCK)
         ][:need]
         if extras:
-            ext_titles = _translate_id([i.title for i in extras])
-            for i, ex in enumerate(extras):
-                ex.title = ext_titles[i]
             fj_analyzed.extend([_analyze(ex) for ex in extras])
             log.info(f"[FJ-RSS] Suplemen {len(extras)} item forex → total {len(fj_analyzed)}")
 
