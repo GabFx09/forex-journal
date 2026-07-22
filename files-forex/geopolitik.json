@@ -1,5 +1,5 @@
 {
-  "generated": "23 Jul 2026 03:08 WIB",
+  "generated": "23 Jul 2026 03:16 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,49 +7,49 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.429,
-      "count": 36
+      "score": -0.392,
+      "count": 37
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.461,
-      "count": 35
+      "score": -0.423,
+      "count": 36
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.496,
-      "count": 26
+      "score": -0.473,
+      "count": 27
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.168,
+      "score": -0.157,
       "count": 13
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.383,
+      "count": 8
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.383,
+      "count": 8
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.139,
+      "score": -0.117,
       "count": 7
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.139,
-      "count": 7
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.424,
-      "count": 7
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.424,
+      "score": -0.117,
       "count": 7
     }
   ],
@@ -115,9 +115,9 @@
       "url": "https://investinglive.com/news/trump-news-iran-will-pay-a-big-price/",
       "summary": "Trump will apparently be available to reporters today. He is saying: Iran will pay a big price. They will not have a nuclear weapon. Americans are not against the war. Soldiers tests are under investigation. Iran will be held accountable Americans do not want higher gas prices. Looking around the ma",
       "published": "22 Jul 2026 21:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.083,
-      "emoji": "🟢",
+      "sentiment": "Netral",
+      "score": -0.02,
+      "emoji": "⚪",
       "impact": "high"
     },
     {
@@ -144,12 +144,12 @@
     },
     {
       "source": "ForexLive",
-      "title": "investasiPasar Eropa yang aktif berakhir: Harga minyak meningkat seiring meluasnya konflik Timur Tengah hingga ke Laut Merah",
+      "title": "investasi Pasar Eropa yang aktif berakhir: Harga minyak meningkat seiring meluasnya konflik Timur Tengah hingga ke Laut Merah",
       "url": "https://investinglive.com/news/investinglive-european-markets-wrap-oil-prices-ramp-higher-as-middle-east-conflict-expands-to-the-red-sea/",
       "summary": "Headlines: Red Sea shipping disruption now in focus as vessels are forced to change course Iran says it struck US military facilities in Jordan and Bahrain Oil prices extend gains as disruptions in the Strait of Hormuz and the Red Sea worsen the supply outlook US futures nudge lower on the day, eyes",
       "published": "22 Jul 2026 19:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.872,
+      "score": -0.76,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -171,7 +171,7 @@
       "summary": "Gold price (XAU/USD) surges over 1.50% on Wednesday, cracks a key resistance trendline and hits a new two-week high as the Greenback weakens. This Bullion price action comes despite rising tensions and hostilities between the US and Iran.",
       "published": "23 Jul 2026 01:25 WIB",
       "sentiment": "Bearish",
-      "score": -0.713,
+      "score": -0.564,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -182,9 +182,9 @@
       "summary": "The Pound Sterling holds firm during the North American session as UK inflation data dipped, easing pressure on the Bank of England to tackle higher prices, while attacks between the US and Iran don’t seem to be ending in the Middle East. The GBP/USD trades at 1.3377.",
       "published": "22 Jul 2026 23:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.851,
+      "score": -0.637,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -192,9 +192,9 @@
       "url": "https://www.fxstreet.com/news/canadian-dollar-finds-support-from-rising-oil-prices-softer-greenback-202607221540",
       "summary": "USD/CAD edges lower on Wednesday as a mildly softer US Dollar (USD) and rising Oil prices help the Canadian Dollar (CAD) snap a two-day losing streak. At the time of writing, the pair trades around 1.4085, down 0.16% on the day.",
       "published": "22 Jul 2026 22:40 WIB",
-      "sentiment": "Bullish",
-      "score": 0.153,
-      "emoji": "🟢",
+      "sentiment": "Bearish",
+      "score": -0.273,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -226,7 +226,7 @@
       "summary": "ING analysts discuss changes to US Section 232 aluminium tariffs aimed at incentivizing domestic smelting investment. Qualifying projects can import at 25% instead of 50%, but ING stresses this is a long-term industrial policy with limited near-term impact.",
       "published": "22 Jul 2026 21:36 WIB",
       "sentiment": "Bearish",
-      "score": -0.747,
+      "score": -0.827,
       "emoji": "🔴",
       "impact": "medium"
     },
@@ -243,12 +243,23 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pergerakan Saham seiring Fokus pada Pendapatan Teknologi; Minyak Melonjak: Penutupan Pasar",
+      "title": "S&P 500 Merosot untuk Keempat Kalinya dalam Lima Hari seiring Melonjaknya Harga Minyak",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-22/s-p-futures-fall-as-traders-brace-for-alphabet-tesla-earnings",
+      "summary": "The S&P 500 Index slumped on Wednesday following its best day in weeks, as declines in some corners of Big Tech offset gains elsewhere, including energy as oil prices jumped on the escalation of the US-Iran war.",
+      "published": "22 Jul 2026 18:58 WIB",
+      "sentiment": "Bullish",
+      "score": 0.426,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Berfluktuasi seiring Melonjaknya Minyak; Tesla Menolak Terlambat: Pembungkusan Pasar",
       "url": "https://www.bloomberg.com/news/articles/2026-07-21/stock-market-today-dow-s-p-live-updates",
       "summary": "Wall Street investors bracing for the start of the big-tech earnings season sent stocks wavering while worries about an escalation of the Iran war boosted oil prices.",
       "published": "22 Jul 2026 05:07 WIB",
       "sentiment": "Bearish",
-      "score": -0.86,
+      "score": -0.94,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -270,7 +281,7 @@
       "summary": "Brazil’s government unveiled a relief package worth 18.5 billion reais ($3.7 billion) in credit for exporters hit by new US tariffs, as President Luiz Inácio Lula da Silva seeks to shield key sectors from damage ahead of October elections.",
       "published": "23 Jul 2026 02:58 WIB",
       "sentiment": "Bullish",
-      "score": 0.527,
+      "score": 0.758,
       "emoji": "🟢",
       "impact": "medium"
     },
@@ -331,23 +342,12 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "S&P 500 Berfluktuasi Saat Pedagang Bersiap untuk Alfabet, Hasil Tesla",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-22/s-p-futures-fall-as-traders-brace-for-alphabet-tesla-earnings",
-      "summary": "US stocks swung between small gains and losses after chipmakers came off session lows and oil prices jumped on the escalation of the US-Iran war. Traders are also bracing for key earnings from Alphabet Inc., Tesla Inc. and International Business Machines Corp. due later in the afternoon.",
-      "published": "22 Jul 2026 18:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.878,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "QatarEnergy Bersiap untuk Memperpanjang Force Majeure LNG Hingga Oktober",
       "url": "https://www.bloomberg.com/news/articles/2026-07-22/qatarenergy-prepares-to-extend-lng-force-majeure-into-october",
       "summary": "QatarEnergy is preparing to further extend force majeure on liquefied natural gas shipments through mid-October, according to people with knowledge of the matter, in a move that would prolong the supply shock that has disrupted the global gas market amid war in the Middle East.",
       "published": "23 Jul 2026 00:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.574,
+      "score": -0.441,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -364,18 +364,18 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Dolar Stabil Mendekati Level Tertinggi Satu Minggu karena Ketegangan di Timur Tengah Memicu Permintaan Safe-Haven - CryptoRank",
+      "title": "Dolar Stabil Mendekati Level Tertingginya dalam Satu Minggu karena Ketegangan di Timur Tengah Memicu Permintaan Safe Haven - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSXVKa2Z0V3ZDQjIwNVc1eFJDU2JLVV9mRGFsOWRJV2RCdUtSN2lPZzBtVUFFX1JPeXd0LTBXVHBmaFJERnYtVmdoWGdkX2dPZ01rcFNwekVGVWZmUWpTaUNaemRjMk1aLXdsS1drdk9vTTg3QmI5clR0ZDRhQ3BTcl9DNHllVDg?oc=5",
       "summary": "Dollar Steadies Near One-Week High as Middle East Tensions Fuel Safe-Haven Demand CryptoRank",
       "published": "21 Jul 2026 16:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.831,
+      "score": -0.157,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Permintaan Safe-Haven Tumbuh seiring Risiko Geopolitik Membentuk Pasar Global - Pabrik Valas",
+      "title": "Permintaan Safe-Haven Meningkat seiring Risiko Geopolitik Membentuk Pasar Global - Pabrik Valas",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQTNfNTA0a0xlQ1FoZmpvS2xfc1p4S3FsV19jVXdTUFcxVmJwaWp2cm81TzhtUnNRSEsydTNXWEM4VS1fMFlPWG5GcnIzWjFzUXBSRUx4bEQxQVFsblRsSzNJZHZRaHVUb3d3QS1vODE0Zkd4anRvWnM0azhzN3RPUUV5ZnlzWFJFN0ZfNkJtUXRjNkZ0SWc0N1hIck9veHNwUkHSAacBQVVfeXFMUEhOZHhXVXpCeW9FSmJtQ3czclhZX0hlaUIzSEhld254Q0dyb0I1a0NYVDdJbmlZQ0lJU05lamx3ejRiWXVsVVBnZjIxWkRPVXhzWFBRQmRpODZlRjEtdkZnN01rdTdVZTJiRzdOMWJoX1NiYUtHbG1IdzB2cmtEM2VvZkpHallvd3hQTmxjMGJ0UUUwcnpsVTQ2bjBwemZjUW1vb2FEVjQ?oc=5",
       "summary": "Safe-Haven Demand Grows as Geopolitical Risks Shape Global Markets Forex Factory",
       "published": "21 Jul 2026 16:54 WIB",
@@ -424,9 +424,9 @@
       "summary": "Karen Carter was found with stab wounds in the Dordogne village she had lived in for over a decade.",
       "published": "23 Jul 2026 02:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.666,
+      "score": -0.891,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -478,9 +478,9 @@
       "url": "https://www.bbc.co.uk/news/articles/ckg4xj8j5vjo?at_medium=RSS&at_campaign=rss",
       "summary": "June's fall in inflation will be welcomed by the new prime minister but analysts warn the fall is temporary.",
       "published": "22 Jul 2026 17:10 WIB",
-      "sentiment": "Netral",
-      "score": 0.03,
-      "emoji": "⚪",
+      "sentiment": "Bearish",
+      "score": -0.134,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -501,9 +501,9 @@
       "summary": "Karen Carter was found with stab wounds in the Dordogne village she had lived in for over a decade.",
       "published": "23 Jul 2026 02:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.666,
+      "score": -0.891,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
@@ -573,6 +573,17 @@
     },
     {
       "source": "MarketWatch",
+      "title": "Harga minyak global menetap di level tertinggi dalam 6 minggu setelah melampaui $95 per barel, seiring meredupnya harapan untuk meredakan perang Iran",
+      "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
+      "summary": "Oil prices settled at six-week highs on Wednesday after the U.S. struck Iran for the 11th night in a row and President Donald Trump warned that the U.S. will bomb Iranian bridges and power plants if Tehran fires on ships in the Strait of Hormuz.",
+      "published": "23 Jul 2026 03:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "MarketWatch",
       "title": "Pasar bullish menghadapi kemungkinan kenaikan suku bunga The Fed yang lebih tinggi seiring dengan semakin intensifnya krisis Iran",
       "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
       "summary": "Treasury yields are approaching the highest levels seen since the Iran war started in February as oil price rises and odds of a Fed rate hike narrow.",
@@ -610,9 +621,9 @@
       "url": "https://www.cnbc.com/2026/07/22/european-commission-paramount-wbd-approval.html",
       "summary": "European regulators signed off on Paramount's proposed acquisition of Warner Bros. Discovery.",
       "published": "23 Jul 2026 02:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
+      "sentiment": "Bullish",
+      "score": 0.36,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -666,9 +677,9 @@
       "summary": "India is banking on alternative fuels as it prioritizes energy security amid high oil prices and supply constraints.",
       "published": "22 Jul 2026 11:56 WIB",
       "sentiment": "Bullish",
-      "score": 0.542,
+      "score": 0.511,
       "emoji": "🟢",
-      "impact": "low"
+      "impact": "medium"
     },
     {
       "source": "CNBC Markets",

@@ -1,24 +1,24 @@
 {
-  "generated": "23 Jul 2026 03:08 WIB",
+  "generated": "23 Jul 2026 03:16 WIB",
   "summary": {
-    "total": 115,
-    "bullish": 42,
+    "total": 116,
+    "bullish": 43,
     "bearish": 58,
     "netral": 15,
-    "avg_score": -0.1481,
+    "avg_score": -0.1388,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bearish",
         "score": -0.07,
-        "count": 27
+        "count": 28
       },
       {
         "currency": "JPY",
-        "sentiment": "Bearish",
-        "score": -0.092,
-        "count": 9
+        "sentiment": "Netral",
+        "score": -0.009,
+        "count": 8
       },
       {
         "currency": "EUR",
@@ -232,7 +232,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "investasiPasar Eropa yang aktif berakhir: Harga minyak meningkat seiring meluasnya konflik Timur Tengah hingga ke Laut Merah",
+      "title": "investasi Pasar Eropa yang aktif berakhir: Harga minyak meningkat seiring meluasnya konflik Timur Tengah hingga ke Laut Merah",
       "url": "https://investinglive.com/news/investinglive-european-markets-wrap-oil-prices-ramp-higher-as-middle-east-conflict-expands-to-the-red-sea/",
       "summary": "Headlines: Red Sea shipping disruption now in focus as vessels are forced to change course Iran says it struck US military facilities in Jordan and Bahrain Oil prices extend gains as disruptions in the Strait of Hormuz and the Red Sea worsen the supply outlook US futures nudge lower on the day, eyes",
       "published": "22 Jul 2026 19:04 WIB",
@@ -273,6 +273,17 @@
       "score": -0.962,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Dolar Singapura: Risiko Sisi Bawah Masih Ada Terhadap Dolar AS – UOB",
+      "url": "https://www.fxstreet.com/news/singapore-dollar-downside-risk-persists-against-us-dollar-uob-202607222014",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD is trading just above 1.29 after a quiet session, with momentum only tentatively firmer.",
+      "published": "23 Jul 2026 03:14 WIB",
+      "sentiment": "Bearish",
+      "score": -0.077,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -473,17 +484,6 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Yen Jepang: BoJ mengisyaratkan kenaikan suku bunga yang lebih cepat – BNY",
-      "url": "https://www.fxstreet.com/news/japanese-yen-boj-hints-at-faster-hikes-bny-202607221318",
-      "summary": "BNY’s Geoff Yu notes that Bank of Japan (BoJ) officials are reported open to raising rates faster than economists expected as Japanese Yen (JPY) weakness lifts inflation risks.",
-      "published": "22 Jul 2026 20:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.759,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Forex",
       "title": "Pertumbuhan pendapatan cloud kuartalan Google melampaui ekspektasi",
       "url": "https://www.investing.com/news/stock-market-news/google-quarterly-cloud-revenue-growth-beats-expectations-4806844",
@@ -672,12 +672,23 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pergerakan Saham seiring Fokus pada Pendapatan Teknologi; Minyak Melonjak: Penutupan Pasar",
+      "title": "S&P 500 Merosot untuk Keempat Kalinya dalam Lima Hari seiring Melonjaknya Harga Minyak",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-22/s-p-futures-fall-as-traders-brace-for-alphabet-tesla-earnings",
+      "summary": "The S&P 500 Index slumped on Wednesday following its best day in weeks, as declines in some corners of Big Tech offset gains elsewhere, including energy as oil prices jumped on the escalation of the US-Iran war.",
+      "published": "22 Jul 2026 18:58 WIB",
+      "sentiment": "Bullish",
+      "score": 0.426,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Berfluktuasi seiring Melonjaknya Minyak; Tesla Menolak Terlambat: Pembungkusan Pasar",
       "url": "https://www.bloomberg.com/news/articles/2026-07-21/stock-market-today-dow-s-p-live-updates",
       "summary": "Wall Street investors bracing for the start of the big-tech earnings season sent stocks wavering while worries about an escalation of the Iran war boosted oil prices.",
       "published": "22 Jul 2026 05:07 WIB",
       "sentiment": "Bearish",
-      "score": -0.86,
+      "score": -0.94,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -760,17 +771,6 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "S&P 500 Berfluktuasi Saat Pedagang Bersiap untuk Alfabet, Hasil Tesla",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-22/s-p-futures-fall-as-traders-brace-for-alphabet-tesla-earnings",
-      "summary": "US stocks swung between small gains and losses after chipmakers came off session lows and oil prices jumped on the escalation of the US-Iran war. Traders are also bracing for key earnings from Alphabet Inc., Tesla Inc. and International Business Machines Corp. due later in the afternoon.",
-      "published": "22 Jul 2026 18:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.878,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "QatarEnergy Bersiap untuk Memperpanjang Force Majeure LNG Hingga Oktober",
       "url": "https://www.bloomberg.com/news/articles/2026-07-22/qatarenergy-prepares-to-extend-lng-force-majeure-into-october",
       "summary": "QatarEnergy is preparing to further extend force majeure on liquefied natural gas shipments through mid-October, according to people with knowledge of the matter, in a move that would prolong the supply shock that has disrupted the global gas market amid war in the Middle East.",
@@ -815,7 +815,7 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Dolar Stabil Mendekati Level Tertinggi Satu Minggu karena Ketegangan di Timur Tengah Memicu Permintaan Safe-Haven - CryptoRank",
+      "title": "Dolar Stabil Mendekati Level Tertingginya dalam Satu Minggu karena Ketegangan di Timur Tengah Memicu Permintaan Safe Haven - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSXVKa2Z0V3ZDQjIwNVc1eFJDU2JLVV9mRGFsOWRJV2RCdUtSN2lPZzBtVUFFX1JPeXd0LTBXVHBmaFJERnYtVmdoWGdkX2dPZ01rcFNwekVGVWZmUWpTaUNaemRjMk1aLXdsS1drdk9vTTg3QmI5clR0ZDRhQ3BTcl9DNHllVDg?oc=5",
       "summary": "Dollar Steadies Near One-Week High as Middle East Tensions Fuel Safe-Haven Demand CryptoRank",
       "published": "21 Jul 2026 16:23 WIB",
@@ -826,7 +826,7 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Permintaan Safe-Haven Tumbuh seiring Risiko Geopolitik Membentuk Pasar Global - Pabrik Valas",
+      "title": "Permintaan Safe-Haven Meningkat seiring Risiko Geopolitik Membentuk Pasar Global - Pabrik Valas",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQTNfNTA0a0xlQ1FoZmpvS2xfc1p4S3FsV19jVXdTUFcxVmJwaWp2cm81TzhtUnNRSEsydTNXWEM4VS1fMFlPWG5GcnIzWjFzUXBSRUx4bEQxQVFsblRsSzNJZHZRaHVUb3d3QS1vODE0Zkd4anRvWnM0azhzN3RPUUV5ZnlzWFJFN0ZfNkJtUXRjNkZ0SWc0N1hIck9veHNwUkHSAacBQVVfeXFMUEhOZHhXVXpCeW9FSmJtQ3czclhZX0hlaUIzSEhld254Q0dyb0I1a0NYVDdJbmlZQ0lJU05lamx3ejRiWXVsVVBnZjIxWkRPVXhzWFBRQmRpODZlRjEtdkZnN01rdTdVZTJiRzdOMWJoX1NiYUtHbG1IdzB2cmtEM2VvZkpHallvd3hQTmxjMGJ0UUUwcnpsVTQ2bjBwemZjUW1vb2FEVjQ?oc=5",
       "summary": "Safe-Haven Demand Grows as Geopolitical Risks Shape Global Markets Forex Factory",
       "published": "21 Jul 2026 16:54 WIB",
@@ -1129,6 +1129,17 @@
       "published": "22 Jul 2026 21:10 WIB",
       "sentiment": "Bearish",
       "score": -0.898,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Harga minyak global menetap di level tertinggi dalam 6 minggu setelah melampaui $95 per barel, seiring meredupnya harapan untuk meredakan perang Iran",
+      "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
+      "summary": "Oil prices settled at six-week highs on Wednesday after the U.S. struck Iran for the 11th night in a row and President Donald Trump warned that the U.S. will bomb Iranian bridges and power plants if Tehran fires on ships in the Strait of Hormuz.",
+      "published": "23 Jul 2026 03:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
       "emoji": "🔴",
       "impact": "high"
     },
