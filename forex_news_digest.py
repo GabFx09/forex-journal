@@ -509,6 +509,18 @@ def _fj_is_forex_critical(title: str) -> bool:
     return any(kw in t for kw in _FJ_MUST_FOREX)
 
 
+def _fj_supplement_ok(item: "NewsItem") -> bool:
+    """Filter suplemen tab Sentimen dari koleksi umum (items). Beda dari
+    _fj_is_forex_critical(title) di atas: cek judul+ringkasan sekaligus,
+    karena banyak berita (Reuters/Bloomberg/BBC dll) baru menyebut kata
+    kunci forex di ringkasan, bukan di judul — kalau cuma cek judul,
+    mayoritas kandidat yang sebenarnya relevan malah terbuang."""
+    t = f"{item.title} {item.summary}".lower()
+    if any(kw in t for kw in _FJ_BLOCK_STOCK):
+        return False
+    return any(kw in t for kw in _FJ_MUST_FOREX)
+
+
 def fetch_fj_rss() -> list[NewsItem]:
     """FinancialJuice RSS — 80-100 item forex penting, tanpa saham, judul Bahasa Indonesia."""
     TARGET = 90
@@ -2090,17 +2102,17 @@ def save_news_data(items: list[NewsItem], events: list[EconomicEvent],
     fj_analyzed = [_analyze(i) for i in (fj_items or [])]
 
     # Tambal kekurangan dari koleksi sentimen umum (items) jika FJ RSS < TARGET.
-    # items sudah lolos _is_forex_relevant() di collect_all_news() dan judulnya
-    # sudah diterjemahkan ke Indonesia di run_job() — jadi suplemen di sini cukup
-    # blokir stok/kripto (bukan mensyaratkan lagi kata kunci forex eksplisit di
-    # judul, yang dulu membuang mayoritas kandidat padahal sudah relevan forex).
+    # items sudah lolos _is_forex_relevant() di collect_all_news() (yang mempercayai
+    # sumber forex dedicated apa adanya, sehingga kadang meloloskan berita non-forex
+    # dari sumber tsb) dan judulnya sudah diterjemahkan ke Indonesia di run_job().
+    # _fj_supplement_ok() menyaring ulang lebih ketat (judul+ringkasan) supaya isi
+    # tab Sentimen tetap benar-benar tentang forex, bukan cuma bertambah jumlahnya.
     if len(fj_analyzed) < TARGET_FJ:
         fj_urls = {i.url for i in fj_analyzed}
         need    = TARGET_FJ - len(fj_analyzed)
         extras  = [
             i for i in items
-            if i.url not in fj_urls
-            and not any(kw in f"{i.title} {i.summary}".lower() for kw in _FJ_BLOCK_STOCK)
+            if i.url not in fj_urls and _fj_supplement_ok(i)
         ][:need]
         if extras:
             fj_analyzed.extend([_analyze(ex) for ex in extras])
