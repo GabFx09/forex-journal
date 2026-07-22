@@ -455,9 +455,10 @@ def fetch_financialjuice() -> list[NewsItem]:
 
 
 _FJ_MUST_FOREX: list[str] = [
-    # Mata uang utama
+    # Mata uang utama — "franc" sengaja ditulis "swiss franc" (bukan "franc"
+    # saja) karena "franc" adalah substring dari "france"/"french"
     "usd", "eur", "gbp", "jpy", "aud", "nzd", "cad", "chf", "cny", "yuan",
-    "rmb", "dollar", "euro", "pound", "yen", "franc", "kiwi", "loonie",
+    "rmb", "dollar", "euro", "pound", "yen", "swiss franc", "kiwi", "loonie",
     # Bank sentral
     "fed ", "fomc", "ecb ", "boe ", "boj ", "rba ", "rbnz", "boc ", "snb ",
     "pboc", "federal reserve", "bank of england", "bank of japan",
@@ -471,6 +472,10 @@ _FJ_MUST_FOREX: list[str] = [
     # Geopolitik / Makro global berdampak FX
     "tariff", "trade war", "trade deal", "sanction", "geopolit",
     "recession", "stagflation", "g7", "g20", "imf", "world bank",
+    # Sentimen risiko & komoditas yang menggerakkan safe-haven/commodity currencies
+    "safe haven", "safe-haven", "risk sentiment", "risk appetite",
+    "risk aversion", "risk-off", "risk-on", "dollar index", "oil price",
+    "crude oil", "gold price", "opec",
 ]
 
 _FJ_BLOCK_STOCK: list[str] = [
