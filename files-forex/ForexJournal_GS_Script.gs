@@ -36,7 +36,7 @@ function doGet(e) {
       const hdrs   = rows[0];
       const trades = rows.slice(1)
         .filter(r => r[0] !== '' && r[0] !== null && r[0] !== undefined)
-        .map(r => Object.fromEntries(hdrs.map((h, i) => [h, String(r[i] ?? '')])));
+        .map(r => Object.fromEntries(hdrs.map((h, i) => [h, fmtCell(ss, h, r[i])])));
       return ok({ trades });
     }
 
@@ -71,7 +71,7 @@ function doGet(e) {
       const hdrs = rows[0];
       const transactions = rows.slice(1)
         .filter(r => r[0] !== '')
-        .map(r => Object.fromEntries(hdrs.map((h, i) => [h, String(r[i] ?? '')])));
+        .map(r => Object.fromEntries(hdrs.map((h, i) => [h, fmtCell(ss, h, r[i])])));
       return ok({ transactions });
     }
 
@@ -442,6 +442,19 @@ function psyRow(p) {
 // ══════════════════════════════════════════════════════════════
 //  HELPERS
 // ══════════════════════════════════════════════════════════════
+// Sheets otomatis mengubah cell "yyyy-MM-dd" jadi tipe Date — kalau dibaca
+// lewat getValues() lalu di-String()-kan apa adanya, hasilnya jadi string
+// GMT panjang yang merusak parsing tanggal di sisi klien (kalender P&L).
+// Helper ini mengubahnya balik ke "yyyy-MM-dd" khusus utk kolom 'date'.
+function fmtCell(ss, header, v) {
+  if (v instanceof Date) {
+    return header === 'date'
+      ? Utilities.formatDate(v, ss.getSpreadsheetTimeZone(), 'yyyy-MM-dd')
+      : v.toISOString();
+  }
+  return String(v ?? '');
+}
+
 function getOrCreate(ss, name, headers) {
   let sheet = ss.getSheetByName(name);
   if (!sheet) {
