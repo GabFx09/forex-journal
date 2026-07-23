@@ -2126,8 +2126,11 @@ def _enrich_fundamental(rekomendasi_data: dict, weighted_impact: dict[str, dict]
     def currency_view(cur: str) -> dict:
         d = weighted_impact.get(cur)
         if not d or d["count"] < MIN_COUNT or d["weight"] < MIN_WEIGHT:
-            score = d["score"] if d else 0.0
-            return {"sentiment": "Netral", "score": score,
+            # Skor mentah TIDAK dipakai (dipaksa 0.0) supaya berita berisik dari
+            # 1-2 artikel tidak ikut menggerakkan fund_score/signal di bawah —
+            # cuma label "sentiment" yang jadi Netral saja tidak cukup, karena
+            # angkanya masih bisa bocor ke perhitungan kalau tidak dinolkan di sini.
+            return {"sentiment": "Netral", "score": 0.0,
                     "count": d["count"] if d else 0, "insufficient": True,
                     "high_count": d["high_impact_count"] if d else 0}
         sentiment = "Bullish" if d["score"] >= 0.05 else "Bearish" if d["score"] <= -0.05 else "Netral"
@@ -2141,15 +2144,21 @@ def _enrich_fundamental(rekomendasi_data: dict, weighted_impact: dict[str, dict]
         base, quote = parts
         bv, qv = currency_view(base), currency_view(quote)
         fund_score = round(bv["score"] - qv["score"], 3)
-        signal = "BUY" if fund_score > 0.10 else "SELL" if fund_score < -0.10 else "Netral"
+        lacks_evidence = bv["insufficient"] or qv["insufficient"]
 
-        has_high = bv["high_count"] > 0 or qv["high_count"] > 0
-        if abs(fund_score) > 0.20 and has_high:
-            confidence = "Kuat"
-        elif abs(fund_score) > 0.10:
-            confidence = "Sedang"
+        if lacks_evidence:
+            # Bukti tidak cukup di salah satu sisi → jangan berani klaim arah
+            # sama sekali, walau fund_score kebetulan besar dari sisi yg valid.
+            signal, confidence = "Netral", "Lemah"
         else:
-            confidence = "Lemah"
+            signal = "BUY" if fund_score > 0.10 else "SELL" if fund_score < -0.10 else "Netral"
+            has_high = bv["high_count"] > 0 or qv["high_count"] > 0
+            if abs(fund_score) > 0.20 and has_high:
+                confidence = "Kuat"
+            elif abs(fund_score) > 0.10:
+                confidence = "Sedang"
+            else:
+                confidence = "Lemah"
 
         calendar_warning = [
             {"currency": cur, **ev}
