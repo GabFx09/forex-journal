@@ -1077,6 +1077,38 @@ def detect_currency_impact(items: list[NewsItem]) -> list[tuple[str, float, int]
     return result
 
 
+# Bobot kontribusi tiap berita ke skor fundamental berdasar level dampaknya —
+# berita Tinggi (rilis data/keputusan bank sentral) jauh lebih berarti utk
+# arah pasar drpd berita Rendah (latar belakang), jadi tidak boleh ditimbang
+# sama rata seperti detect_currency_impact() di atas.
+_IMPACT_WEIGHT = {"high": 3.0, "medium": 1.5, "low": 1.0}
+
+
+def detect_currency_impact_weighted(items: list[NewsItem]) -> dict[str, dict]:
+    """Skor sentimen per mata uang, ditimbang bobot dampak berita (dipakai
+    khusus utk fundamental di tab Rekomendasi — bukan tab Sentimen)."""
+    buckets: dict[str, list[tuple[float, float, str]]] = {c: [] for c in CURRENCY_KEYWORDS}
+    for item in items:
+        text = f"{item.title} {item.summary}".lower()
+        w = _IMPACT_WEIGHT.get(item.impact, 1.0)
+        for currency, keywords in CURRENCY_KEYWORDS.items():
+            if any(kw in text for kw in keywords):
+                buckets[currency].append((item.sentiment_score, w, item.impact))
+    out: dict[str, dict] = {}
+    for currency, rows in buckets.items():
+        if not rows:
+            continue
+        total_w = sum(w for _, w, _ in rows)
+        weighted_avg = sum(s * w for s, w, _ in rows) / total_w
+        out[currency] = {
+            "score":            round(weighted_avg, 3),
+            "count":            len(rows),
+            "weight":           round(total_w, 2),
+            "high_impact_count": sum(1 for _, _, imp in rows if imp == "high"),
+        }
+    return out
+
+
 def _is_geopolitical(item: NewsItem) -> bool:
     text = f"{item.title} {item.summary}".lower()
     return any(kw in text for kw in GEOPOLITIK_KEYWORDS)
@@ -1914,7 +1946,7 @@ def send_all_emails(items: list[NewsItem], calendar_events: list[EconomicEvent])
 # ─── TECHNICAL ANALYSIS ──────────────────────────────────────────────────────
 
 def fetch_forex_technicals() -> dict:
-    """Ambil OHLC 4H dari Yahoo Finance dan hitung RSI/SMA untuk 26 pair."""
+    """Ambil OHLC 1H dari Yahoo Finance dan hitung cross SMMA7/EMA9 untuk 26 pair."""
     PAIRS = [
         ("USDJPY=X","USD/JPY"), ("USDCHF=X","USD/CHF"), ("USDCAD=X","USD/CAD"),
         ("NZDUSD=X","NZD/USD"), ("NZDJPY=X","NZD/JPY"), ("NZDCHF=X","NZD/CHF"),
@@ -1942,59 +1974,110 @@ def fetch_forex_technicals() -> dict:
             al = (al * (period - 1) + max(-d, 0)) / period
         return round(100 - (100 / (1 + ag / al)), 1) if al else 100.0
 
-    def calc_sma(closes: list[float], period: int):
-        return sum(closes[-period:]) / period if len(closes) >= period else None
+    def calc_smma(closes: list[float], period: int) -> list[float | None]:
+        """Smoothed MA (Wilder-style) — sama pola smoothing dgn calc_rsi di atas."""
+        if len(closes) < period:
+            return [None] * len(closes)
+        out: list[float | None] = [None] * (period - 1)
+        prev = sum(closes[:period]) / period
+        out.append(prev)
+        for i in range(period, len(closes)):
+            prev = (prev * (period - 1) + closes[i]) / period
+            out.append(prev)
+        return out
+
+    def calc_ema(closes: list[float], period: int) -> list[float | None]:
+        if len(closes) < period:
+            return [None] * len(closes)
+        out: list[float | None] = [None] * (period - 1)
+        prev = sum(closes[:period]) / period
+        out.append(prev)
+        k = 2 / (period + 1)
+        for i in range(period, len(closes)):
+            prev = closes[i] * k + prev * (1 - k)
+            out.append(prev)
+        return out
+
+    def calc_atr(highs: list[float], lows: list[float], closes: list[float], period: int = 14):
+        n = len(closes)
+        if n < period + 1:
+            return None
+        trs = [
+            max(highs[i] - lows[i], abs(highs[i] - closes[i - 1]), abs(lows[i] - closes[i - 1]))
+            for i in range(1, n)
+        ]
+        atr = sum(trs[:period]) / period
+        for i in range(period, len(trs)):
+            atr = (atr * (period - 1) + trs[i]) / period
+        return atr
 
     def fetch_pair(sym: str, label: str) -> dict | None:
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?interval=4h&range=90d"
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?interval=1h&range=30d"
         try:
             r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
             r.raise_for_status()
             q = r.json()["chart"]["result"][0]["indicators"]["quote"][0]
-            valid = [(o, c) for o, c in zip(q["open"], q["close"]) if o is not None and c is not None]
-            if len(valid) < 20:
+            valid = [
+                (o, h, l, c) for o, h, l, c in zip(q["open"], q["high"], q["low"], q["close"])
+                if None not in (o, h, l, c)
+            ]
+            if len(valid) < 30:
                 return None
-            opens  = [v[0] for v in valid]
-            closes = [v[1] for v in valid]
+            highs  = [v[1] for v in valid]
+            lows   = [v[2] for v in valid]
+            closes = [v[3] for v in valid]
             n      = len(closes)
             last   = closes[-1]
-            rsi    = calc_rsi(closes, 14)
-            sma20  = calc_sma(closes, 20)
-            sma50  = calc_sma(closes, 50)
-            sma200 = calc_sma(closes, 200)
 
-            sigs = [
-                1 if last  > sma20  else -1,
-                1 if sma20 > sma50  else -1,
-                (1 if sma50 > sma200 else -1) if sma50 and sma200 else 0,
-                1 if rsi > 50 else -1,
-                1 if sum(1 if c > o else -1 for c, o in zip(closes[-5:], opens[n-5:])) > 0 else -1,
-            ]
-            sigs = [s for s in sigs if s != 0]
-            bull = sum(1 for s in sigs if s > 0)
-            bear = sum(1 for s in sigs if s < 0)
-            direction = "BUY" if bull >= 4 else "SELL" if bear >= 4 else "WAIT"
+            smma7 = calc_smma(closes, 7)
+            ema9  = calc_ema(closes, 9)
+            start = max(6, 8)  # index awal di mana smma7 & ema9 sudah valid
+            diffs = [ema9[i] - smma7[i] for i in range(start, n)]
 
-            rsi_score = round(abs(rsi - 50) / 50 * 30)
-            ma_aligned = 0
-            if direction != "WAIT":
-                up = direction == "BUY"
-                if (up and last > sma20)   or (not up and last < sma20):   ma_aligned += 1
-                if (up and sma20 > sma50)  or (not up and sma20 < sma50):  ma_aligned += 1
-                if sma50 and sma200 and ((up and sma50 > sma200) or (not up and sma50 < sma200)):
-                    ma_aligned += 1
-            ma_score  = [0, 13, 27, 40][ma_aligned]
-            l5_bull   = sum(1 for c, o in zip(closes[-5:], opens[n-5:]) if c > o)
-            mom_score = round((l5_bull if direction == "BUY" else 5 - l5_bull) / 5 * 30)
-            score     = min(100, rsi_score + ma_score + mom_score)
+            # Cari cross (pergantian tanda) paling baru di antara diffs
+            cross_k = None
+            for k in range(len(diffs) - 1, 0, -1):
+                a, b = diffs[k], diffs[k - 1]
+                if a == 0 or b == 0:
+                    continue
+                if (a > 0) != (b > 0):
+                    cross_k = k
+                    break
+            bars_since_cross = (len(diffs) - 1 - cross_k) if cross_k is not None else 999
+
+            last_diff = diffs[-1]
+            direction = "BUY" if last_diff > 0 else "SELL" if last_diff < 0 else "WAIT"
+
+            atr14 = calc_atr(highs, lows, closes, 14)
+            rsi   = calc_rsi(closes, 14)
+
+            freshness_score = max(0, round(50 - bars_since_cross * 5))
+            separation_score = min(25, round(abs(last_diff) / atr14 * 25)) if atr14 else 0
+            if direction == "BUY":
+                rsi_score = round(max(0.0, rsi - 50) / 50 * 25)
+            elif direction == "SELL":
+                rsi_score = round(max(0.0, 50 - rsi) / 50 * 25)
+            else:
+                rsi_score = 0
+            score = min(100, freshness_score + separation_score + rsi_score)
+
+            if bars_since_cross == 0:
+                cross_label = "Baru saja"
+            elif bars_since_cross >= 999:
+                cross_label = "Belum ada cross baru"
+            else:
+                cross_label = f"{bars_since_cross} candle lalu"
 
             dp  = 3 if "JPY" in sym else 5
             fmt = lambda v: f"{v:.{dp}f}" if v is not None else "—"
             return {
                 "label": label, "score": score, "direction": direction,
                 "rsi": rsi, "last_close": fmt(last),
-                "sma20": fmt(sma20), "sma50": fmt(sma50), "sma200": fmt(sma200),
-                "bull": bull, "bear": bear, "total_sigs": len(sigs),
+                "smma7": fmt(smma7[-1]), "ema9": fmt(ema9[-1]),
+                "atr14": fmt(atr14) if atr14 else "—",
+                "bars_since_cross": bars_since_cross, "cross_label": cross_label,
+                "freshness_score": freshness_score, "separation_score": separation_score,
+                "rsi_score": rsi_score,
             }
         except Exception as e:
             log.warning(f"[TEKNIKAL] {label} gagal: {e}")
@@ -2009,7 +2092,7 @@ def fetch_forex_technicals() -> dict:
     results.sort(key=lambda x: x["score"], reverse=True)
 
     now_wib = datetime.now(tz=timezone.utc) + timedelta(hours=7)
-    log.info(f"[TEKNIKAL] {len(results)}/7 pair berhasil diambil.")
+    log.info(f"[TEKNIKAL] {len(results)}/{len(PAIRS)} pair berhasil diambil.")
     return {
         "generated": now_wib.strftime("%d %b %Y %H:%M WIB"),
         "pairs": results,
@@ -2019,33 +2102,75 @@ def fetch_forex_technicals() -> dict:
 
 # ─── FUNDAMENTAL ENRICHMENT ──────────────────────────────────────────────────
 
-def _enrich_fundamental(rekomendasi_data: dict, currency_impact: list[dict]) -> None:
-    """Tambahkan analisis fundamental ke setiap pair berdasarkan sentimen berita."""
+def _enrich_fundamental(rekomendasi_data: dict, weighted_impact: dict[str, dict],
+                         events: list[EconomicEvent]) -> None:
+    """Tambahkan analisis fundamental ke setiap pair — versi "disaring lebih
+    dalam": sentimen ditimbang bobot dampak berita (bukan rata-rata mentah),
+    mensyaratkan bukti minimum sebelum berani klaim Bullish/Bearish, dan
+    memberi peringatan kalau ada rilis data dampak Tinggi utk mata uang itu
+    HARI INI (kalender ekonomi yang sudah difetch, tidak perlu request baru).
+    """
     if not rekomendasi_data or not rekomendasi_data.get("pairs"):
         return
-    ci_map = {c["currency"]: c for c in currency_impact}
+
+    today_str = (datetime.now(tz=timezone.utc) + timedelta(hours=7)).strftime("%Y-%m-%d")
+    high_today: dict[str, list[dict]] = {}
+    for e in events:
+        if e.impact == "high" and e.date_str == today_str:
+            high_today.setdefault(e.currency, []).append(
+                {"event_name": e.event_name, "time_wib": e.time_wib}
+            )
+
+    MIN_COUNT, MIN_WEIGHT = 2, 3.0
+
+    def currency_view(cur: str) -> dict:
+        d = weighted_impact.get(cur)
+        if not d or d["count"] < MIN_COUNT or d["weight"] < MIN_WEIGHT:
+            score = d["score"] if d else 0.0
+            return {"sentiment": "Netral", "score": score,
+                    "count": d["count"] if d else 0, "insufficient": True,
+                    "high_count": d["high_impact_count"] if d else 0}
+        sentiment = "Bullish" if d["score"] >= 0.05 else "Bearish" if d["score"] <= -0.05 else "Netral"
+        return {"sentiment": sentiment, "score": d["score"], "count": d["count"],
+                "insufficient": False, "high_count": d["high_impact_count"]}
+
     for pair in rekomendasi_data["pairs"]:
         parts = pair["label"].split("/")
         if len(parts) != 2:
             continue
         base, quote = parts
-        bd = ci_map.get(base, {})
-        qd = ci_map.get(quote, {})
-        bs = bd.get("score", 0.0)
-        qs = qd.get("score", 0.0)
-        fund_score = round(bs - qs, 3)
-        signal = "BUY" if fund_score > 0.08 else "SELL" if fund_score < -0.08 else "Netral"
+        bv, qv = currency_view(base), currency_view(quote)
+        fund_score = round(bv["score"] - qv["score"], 3)
+        signal = "BUY" if fund_score > 0.10 else "SELL" if fund_score < -0.10 else "Netral"
+
+        has_high = bv["high_count"] > 0 or qv["high_count"] > 0
+        if abs(fund_score) > 0.20 and has_high:
+            confidence = "Kuat"
+        elif abs(fund_score) > 0.10:
+            confidence = "Sedang"
+        else:
+            confidence = "Lemah"
+
+        calendar_warning = [
+            {"currency": cur, **ev}
+            for cur in (base, quote) for ev in high_today.get(cur, [])
+        ]
+
         pair["fundamental"] = {
-            "signal":          signal,
-            "fund_score":      fund_score,
-            "base":            base,
-            "quote":           quote,
-            "base_sentiment":  bd.get("sentiment", "Netral"),
-            "quote_sentiment": qd.get("sentiment", "Netral"),
-            "base_score":      round(bs, 3),
-            "quote_score":     round(qs, 3),
-            "base_count":      bd.get("count", 0),
-            "quote_count":     qd.get("count", 0),
+            "signal":            signal,
+            "fund_score":        fund_score,
+            "confidence":        confidence,
+            "base":              base,
+            "quote":             quote,
+            "base_sentiment":    bv["sentiment"],
+            "quote_sentiment":   qv["sentiment"],
+            "base_score":        round(bv["score"], 3),
+            "quote_score":       round(qv["score"], 3),
+            "base_count":        bv["count"],
+            "quote_count":       qv["count"],
+            "base_insufficient": bv["insufficient"],
+            "quote_insufficient": qv["insufficient"],
+            "calendar_warning":  calendar_warning,
         }
 
 
@@ -2172,8 +2297,11 @@ def save_news_data(items: list[NewsItem], events: list[EconomicEvent],
             "score": round(avg_p, 3), "count": len(scores),
         })
     # Enrichment fundamental — tambah analisis sentimen per mata uang ke rekomendasi
+    # (versi tertimbang-dampak, terpisah dari currency_impact mentah di atas
+    # yang tetap dipakai ringkasan tab Sentimen)
     if rekomendasi_data:
-        _enrich_fundamental(rekomendasi_data, sentimen_data["summary"]["currency_impact"])
+        weighted_impact = detect_currency_impact_weighted(items)
+        _enrich_fundamental(rekomendasi_data, weighted_impact, events)
 
     geopolitik_data = {
         "generated": generated,
