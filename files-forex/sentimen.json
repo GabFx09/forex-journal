@@ -1,11 +1,11 @@
 {
-  "generated": "24 Jul 2026 03:45 WIB",
+  "generated": "24 Jul 2026 03:50 WIB",
   "summary": {
-    "total": 108,
+    "total": 109,
     "bullish": 43,
     "bearish": 57,
-    "netral": 8,
-    "avg_score": -0.1437,
+    "netral": 9,
+    "avg_score": -0.1424,
     "overall": "Bearish",
     "currency_impact": [
       {
@@ -253,7 +253,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Penjualan Ritel Kanada untuk bulan Mei 1,0% versus perkiraan 1,0%.",
+      "title": "Penjualan Ritel Kanada untuk bulan Mei sebesar 1,0% versus perkiraan 1,0%.",
       "url": "https://investinglive.com/news/canada-retail-sales-for-may-1-0-versus-1-0-expected/",
       "summary": "Prior month 0.5% revised to 0.4% Retail sales for May versus .0% expected Prior month Ex Autos +0.1% revised to 0.0% Retail Sales 1.2% ex Auto vs 1.4% expected sales were up in all nine subsectors, led by increases in gasoline stations and fuel vendors Core retail sales excluding gasoline and fuel v",
       "published": "23 Jul 2026 19:42 WIB",
@@ -638,7 +638,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Dolar Naik seiring Intensifikasinya Perang Iran Menaikkan Taruhan Kenaikan Suku Bunga",
+      "title": "Dolar Naik seiring Intensifnya Perang Iran Menaikkan Taruhan Kenaikan Suku Bunga",
       "url": "https://www.bloomberg.com/news/articles/2026-07-23/dollar-jumps-on-haven-flows-as-middle-east-war-intensifies",
       "summary": "The dollar jumped Thursday as intensifying conflict in the Middle East sparked concerns over energy supply disruptions, fueling expectations that interest rates will stay higher for longer.",
       "published": "23 Jul 2026 21:28 WIB",
@@ -792,7 +792,7 @@
     },
     {
       "source": "BBC World",
-      "title": "Bisnis Rusia berada di bawah tekanan akibat serangan Ukraina terhadap Wildberry",
+      "title": "Bisnis Rusia tertekan akibat serangan Ukraina terhadap Wildberry",
       "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
       "summary": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.",
       "published": "23 Jul 2026 13:15 WIB",
@@ -1012,6 +1012,17 @@
     },
     {
       "source": "MarketWatch",
+      "title": "Saham Lockheed Martin meroket karena dorongan untuk membangun lebih banyak rudal dengan lebih cepat membuahkan hasil",
+      "url": "https://www.marketwatch.com/story/lockheed-martins-stock-leaps-as-push-to-build-more-missiles-faster-pays-off-9d7e2091?mod=mw_rss_topstories",
+      "summary": "Lockheed Martin’s stock jumps as a ramp up in missile production helped lead to an earnings beat and raise.",
+      "published": "24 Jul 2026 03:41 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
       "title": "Raksasa dana pensiun Jepang senilai $1,8 triliun mungkin akan membawa pulang uang. Hal ini dapat mengguncang saham-saham AS dan The Fed.",
       "url": "https://www.marketwatch.com/story/japans-1-8-trillion-pension-giant-might-bring-money-home-that-could-jolt-u-s-stocks-and-the-fed-908c66d5?mod=mw_rss_topstories",
       "summary": "Japan’s pension titan selling foreign assets could push U.S. yields up and sap demand for the dollar.",
@@ -1067,7 +1078,7 @@
     },
     {
       "source": "CNBC Forex",
-      "title": "Minyak mentah Brent mencapai $100 per barel. Bagaimana pemberhentian berikutnya bisa menjadi $120",
+      "title": "Minyak mentah Brent mencapai $100 per barel. Bagaimana perhentian berikutnya bisa menjadi $120",
       "url": "https://www.cnbc.com/2026/07/23/brent-crude-tops-100-a-barrel-how-the-next-stop-could-be-120.html",
       "summary": "Goldman Sachs warns on oil prices and so-called tank bottoms ( and loves a new natural gas-related name).",
       "published": "24 Jul 2026 00:43 WIB",

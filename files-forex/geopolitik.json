@@ -1,5 +1,5 @@
 {
-  "generated": "24 Jul 2026 03:45 WIB",
+  "generated": "24 Jul 2026 03:50 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -298,7 +298,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Dolar Naik seiring Intensifikasinya Perang Iran Menaikkan Taruhan Kenaikan Suku Bunga",
+      "title": "Dolar Naik seiring Intensifnya Perang Iran Menaikkan Taruhan Kenaikan Suku Bunga",
       "url": "https://www.bloomberg.com/news/articles/2026-07-23/dollar-jumps-on-haven-flows-as-middle-east-war-intensifies",
       "summary": "The dollar jumped Thursday as intensifying conflict in the Middle East sparked concerns over energy supply disruptions, fueling expectations that interest rates will stay higher for longer.",
       "published": "23 Jul 2026 21:28 WIB",
@@ -408,7 +408,7 @@
     },
     {
       "source": "BBC World",
-      "title": "Bisnis Rusia berada di bawah tekanan akibat serangan Ukraina terhadap Wildberry",
+      "title": "Bisnis Rusia tertekan akibat serangan Ukraina terhadap Wildberry",
       "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
       "summary": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.",
       "published": "23 Jul 2026 13:15 WIB",
@@ -595,6 +595,17 @@
     },
     {
       "source": "MarketWatch",
+      "title": "Saham Lockheed Martin meroket karena dorongan untuk membangun lebih banyak rudal dengan lebih cepat membuahkan hasil",
+      "url": "https://www.marketwatch.com/story/lockheed-martins-stock-leaps-as-push-to-build-more-missiles-faster-pays-off-9d7e2091?mod=mw_rss_topstories",
+      "summary": "Lockheed Martin’s stock jumps as a ramp up in missile production helped lead to an earnings beat and raise.",
+      "published": "24 Jul 2026 03:41 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
       "title": "Meningkatnya biaya modal bagi perusahaan-perusahaan saat ini mulai membuat takut pasar saham: ‘Kekhawatirannya adalah pengeluaran yang dikeluarkan mungkin tidak membuahkan hasil’",
       "url": "https://www.marketwatch.com/story/the-rising-cost-of-capital-for-companies-today-is-starting-to-spook-the-stock-market-the-worry-is-the-spending-might-not-pay-off-de4c69e4?mod=mw_rss_topstories",
       "summary": "Alphabet says it plans to throw even more money at the AI buildout. The Iran war, oil back at $100 a barrel and rising bond yields make it all the more difficult for the market to stomach.",
@@ -617,7 +628,7 @@
     },
     {
       "source": "CNBC Forex",
-      "title": "Minyak mentah Brent mencapai $100 per barel. Bagaimana pemberhentian berikutnya bisa menjadi $120",
+      "title": "Minyak mentah Brent mencapai $100 per barel. Bagaimana perhentian berikutnya bisa menjadi $120",
       "url": "https://www.cnbc.com/2026/07/23/brent-crude-tops-100-a-barrel-how-the-next-stop-could-be-120.html",
       "summary": "Goldman Sachs warns on oil prices and so-called tank bottoms ( and loves a new natural gas-related name).",
       "published": "24 Jul 2026 00:43 WIB",
