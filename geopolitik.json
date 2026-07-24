@@ -1,5 +1,5 @@
 {
-  "generated": "24 Jul 2026 11:01 WIB",
+  "generated": "24 Jul 2026 11:11 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -42,14 +42,14 @@
     },
     {
       "pair": "CAD/JPY",
-      "direction": "Netral →",
-      "score": 0.007,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.064,
       "count": 7
     },
     {
       "pair": "NOK/SEK",
-      "direction": "Netral →",
-      "score": 0.007,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.064,
       "count": 7
     }
   ],
@@ -155,7 +155,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Trump mengumumkan tarif baru yang dirancang untuk bertahan dari tantangan hukum, WSJ melaporkan",
+      "title": "Trump memperkenalkan tarif baru yang dirancang untuk bertahan dari tantangan hukum, WSJ melaporkan",
       "url": "https://investinglive.com/news/trump-unveils-new-tariffs-designed-to-survive-legal-challenge-wsj-reports/",
       "summary": "The new duties are close in size to the expiring 10 percent global tariff, so the immediate price and trade flow impact should be limited. The more significant signal is durability: basing the levies on Section 301 rather than the emergency powers struck down by the Supreme Court gives the administr",
       "published": "24 Jul 2026 04:11 WIB",
@@ -243,6 +243,17 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Penurunan Saham Berlanjut karena Kegelisahan AI, Minyak Di Atas $100: Pembungkus Pasar",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates",
+      "summary": "A global selloff in technology stocks gained momentum as doubts over returns from billions of dollars spent on artificial intelligence were compounded by a surge in oil prices that rekindled inflation concerns.",
+      "published": "24 Jul 2026 05:06 WIB",
+      "sentiment": "Bullish",
+      "score": 0.702,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Emas Memperpanjang Penurunannya karena Kenaikan Biaya Energi Menaikkan Taruhan Kenaikan Suku Bunga",
       "url": "https://www.bloomberg.com/news/articles/2026-07-23/gold-holds-decline-as-surging-energy-costs-raise-rate-hike-bets",
       "summary": "Gold extended a retreat as the widening conflict in the Middle East lifted energy prices and increased expectations the US Federal Reserve will tighten monetary policy to contain inflation.",
@@ -276,18 +287,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Jatuh seiring Aksi Jual Teknologi yang Meluas, Minyak Mendekati $100: Pembungkus Pasar",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates",
-      "summary": "Stocks and bonds fell as doubts over returns from billions of dollars spent on artificial intelligence coincided with a surge in oil prices that rekindled inflation concerns.",
-      "published": "24 Jul 2026 05:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.306,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gandum Memperpanjang Reli di Bulan Juli karena Risiko Perang Menimbulkan Kekhawatiran Terhadap Pasokan",
+      "title": "Gandum Memperpanjang Reli Bulan Juli karena Risiko Perang Menimbulkan Kekhawatiran Terhadap Pasokan",
       "url": "https://www.bloomberg.com/news/articles/2026-07-24/wheat-extends-july-rally-as-war-risks-stoke-fears-over-supply",
       "summary": "Wheat resumed its rally after a brief bout of profit-taking, as escalating geopolitical tensions and worsening weather in key producing regions continued to stoke supply concerns.",
       "published": "24 Jul 2026 10:00 WIB",
@@ -353,7 +353,7 @@
     },
     {
       "source": "BBC World",
-      "title": "AS mengenakan tarif pada puluhan mitra dagang atas impor 'kerja paksa'",
+      "title": "AS mengenakan tarif pada puluhan mitra dagangnya, dengan alasan kekhawatiran akan adanya kerja paksa",
       "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
       "summary": "The tariffs target 60 trading partners over claims they failed to properly stop forced labour.",
       "published": "24 Jul 2026 09:10 WIB",
@@ -386,7 +386,7 @@
     },
     {
       "source": "BBC World",
-      "title": "Bisnis Rusia berada di bawah tekanan akibat serangan Ukraina terhadap Wildberry",
+      "title": "Bisnis Rusia tertekan akibat serangan Ukraina terhadap Wildberry",
       "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
       "summary": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.",
       "published": "23 Jul 2026 13:15 WIB",
@@ -628,7 +628,7 @@
     },
     {
       "source": "CNBC Forex",
-      "title": "Minyak mentah Brent mencapai $100 per barel. Bagaimana pemberhentian berikutnya bisa menjadi $120",
+      "title": "Minyak mentah Brent mencapai $100 per barel. Bagaimana perhentian berikutnya bisa menjadi $120",
       "url": "https://www.cnbc.com/2026/07/23/brent-crude-tops-100-a-barrel-how-the-next-stop-could-be-120.html",
       "summary": "Goldman Sachs warns on oil prices and so-called tank bottoms ( and loves a new natural gas-related name).",
       "published": "24 Jul 2026 00:43 WIB",
