@@ -1,36 +1,36 @@
 {
-  "generated": "24 Jul 2026 11:01 WIB",
+  "generated": "24 Jul 2026 11:11 WIB",
   "summary": {
-    "total": 118,
+    "total": 119,
     "bullish": 37,
-    "bearish": 62,
+    "bearish": 63,
     "netral": 19,
-    "avg_score": -0.2183,
+    "avg_score": -0.2119,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Netral",
-        "score": -0.042,
-        "count": 23
+        "score": -0.025,
+        "count": 24
       },
       {
         "currency": "JPY",
         "sentiment": "Bearish",
-        "score": -0.156,
+        "score": -0.163,
         "count": 12
-      },
-      {
-        "currency": "EUR",
-        "sentiment": "Bearish",
-        "score": -0.073,
-        "count": 6
       },
       {
         "currency": "CAD",
         "sentiment": "Bullish",
         "score": 0.221,
         "count": 6
+      },
+      {
+        "currency": "EUR",
+        "sentiment": "Bearish",
+        "score": -0.22,
+        "count": 5
       },
       {
         "currency": "CNY",
@@ -41,8 +41,8 @@
       {
         "currency": "GBP",
         "sentiment": "Bearish",
-        "score": -0.327,
-        "count": 3
+        "score": -0.052,
+        "count": 4
       },
       {
         "currency": "AUD",
@@ -264,7 +264,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Trump mengumumkan tarif baru yang dirancang untuk bertahan dari tantangan hukum, WSJ melaporkan",
+      "title": "Trump memperkenalkan tarif baru yang dirancang untuk bertahan dari tantangan hukum, WSJ melaporkan",
       "url": "https://investinglive.com/news/trump-unveils-new-tariffs-designed-to-survive-legal-challenge-wsj-reports/",
       "summary": "The new duties are close in size to the expiring 10 percent global tariff, so the immediate price and trade flow impact should be limited. The more significant signal is durability: basing the levies on Section 301 rather than the emergency powers struck down by the Supreme Court gives the administr",
       "published": "24 Jul 2026 04:11 WIB",
@@ -272,6 +272,28 @@
       "score": 0.418,
       "emoji": "🟢",
       "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Emas melanjutkan penurunannya karena kekhawatiran inflasi mengangkat taruhan kenaikan Fed dan USD di tengah tarif Trump",
+      "url": "https://www.fxstreet.com/news/gold-extends-slide-as-inflation-fears-lift-fed-hike-bets-and-usd-amid-trumps-tariffs-202607240405",
+      "summary": "Gold (XAU/USD) attracts sellers for the second straight day on Friday and weakens further below the $4,050 level during the Asian session.",
+      "published": "24 Jul 2026 11:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga EUR/JPY: Incar Puncak Rising Wedge Dekat 187,00",
+      "url": "https://www.fxstreet.com/news/eur-jpy-price-forecast-eyes-rising-wedge-top-near-18700-202607240402",
+      "summary": "EUR/JPY extends its gains for the fourth consecutive day, trading around 186.50 during the Asian hours on Friday. The currency cross is maintaining a bullish near-term bias as price holds above both the nine-period and 50-period Exponential Moving Averages (EMAs).",
+      "published": "24 Jul 2026 11:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.591,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -472,17 +494,6 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "EUR/JPY melanjutkan reli karena desas-desus kenaikan ECB menguji risiko Yen",
-      "url": "https://www.fxstreet.com/news/eur-jpy-extends-rally-as-ecb-hike-buzz-tests-yen-risks-202607232226",
-      "summary": "The EUR/JPY extends its advance for the third straight day, set to end the week with solid gains as traders brace for the end of the week.",
-      "published": "24 Jul 2026 05:26 WIB",
-      "sentiment": "Bullish",
-      "score": 0.666,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Forex",
       "title": "Mengapa saham Oshidori International melonjak hari ini?",
       "url": "https://www.investing.com/news/stock-market-news/why-is-oshidori-international-stock-surging-today-93CH-4810442",
@@ -594,6 +605,17 @@
     },
     {
       "source": "Investing.com Economy",
+      "title": "Trump memberlakukan tarif kerja paksa pada 60 mitra dagangnya setelah 10% tarif AS berakhir",
+      "url": "https://www.investing.com/news/economic-indicators/trump-imposes-forced-labor-duties-on-60-trading-partners-as-10-us-tariffs-expire-4810447",
+      "summary": "",
+      "published": "24 Jul 2026 11:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.527,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Investing.com Economy",
       "title": "Aktivitas pabrik di Jepang tetap kuat seiring lonjakan produksi di bulan Juli, menurut data PMI",
       "url": "https://www.investing.com/news/economic-indicators/japans-factory-activity-stays-firm-as-output-surges-in-july-pmi-shows-4810360",
       "summary": "",
@@ -648,17 +670,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Analisis-Dorongan pendanaan Pakistan dari AS setelah perang Iran menimbulkan skeptisisme dari para ekonom",
-      "url": "https://www.investing.com/news/economic-indicators/analysispakistans-us-funding-push-after-iran-war-role-draws-skepticism-from-economists-4808045",
-      "summary": "",
-      "published": "23 Jul 2026 17:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.79,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Reuters Currencies",
       "title": "Menteri Keuangan Jepang mengulangi kesiapannya untuk mengambil tindakan tegas terhadap valuta asing - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQclhxdVJ3Zk9VSWpoVzdOdU84M1NwaTJnMVQyLTY1bUw1UERFTGNsWTdoTzhDRm1ZQXI5TngybDhGMHotMHl2WFVRSmJwcGpWbEQ3Y1ZGVHpiWmRPX2ZDcEZ2WEdCNk56TU92RTREb1lLbkVWT0F5dXh4LUFaVEN4NHBtbnZKWHJYQUV5ZTFYR1pZVkoxNHpYS0hnZHNJaG1MN2lXRTk4U0JIeGJfM1I2cmhYZGctTWJo?oc=5",
@@ -679,6 +690,28 @@
       "score": 0.0,
       "emoji": "⚪",
       "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Penurunan Saham Berlanjut karena Kegelisahan AI, Minyak Di Atas $100: Pembungkus Pasar",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates",
+      "summary": "A global selloff in technology stocks gained momentum as doubts over returns from billions of dollars spent on artificial intelligence were compounded by a surge in oil prices that rekindled inflation concerns.",
+      "published": "24 Jul 2026 05:06 WIB",
+      "sentiment": "Bullish",
+      "score": 0.772,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Katayama dari Jepang Mengatakan untuk Mengambil Langkah FX yang Berani dengan Tegas sesuai Kebutuhan",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-24/japan-s-katayama-says-to-take-bold-fx-steps-decisively-as-needed",
+      "summary": "Japanese authorities will take bold steps to counter moves in the currency market decisively as needed, and a US Treasury report issued overnight underscores a shared view that excessive currency moves are undesirable, Finance Minister Satsuki Katayama said.",
+      "published": "24 Jul 2026 08:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.67,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -726,18 +759,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Jatuh seiring Aksi Jual Teknologi yang Meluas, Minyak Mendekati $100: Pembungkus Pasar",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates",
-      "summary": "Stocks and bonds fell as doubts over returns from billions of dollars spent on artificial intelligence coincided with a surge in oil prices that rekindled inflation concerns.",
-      "published": "24 Jul 2026 05:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.34,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gandum Memperpanjang Reli di Bulan Juli karena Risiko Perang Menimbulkan Kekhawatiran Terhadap Pasokan",
+      "title": "Gandum Memperpanjang Reli Bulan Juli karena Risiko Perang Menimbulkan Kekhawatiran Terhadap Pasokan",
       "url": "https://www.bloomberg.com/news/articles/2026-07-24/wheat-extends-july-rally-as-war-risks-stoke-fears-over-supply",
       "summary": "Wheat resumed its rally after a brief bout of profit-taking, as escalating geopolitical tensions and worsening weather in key producing regions continued to stoke supply concerns.",
       "published": "24 Jul 2026 10:00 WIB",
@@ -788,17 +810,6 @@
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Katayama dari Jepang Mengatakan untuk Mengambil Langkah FX yang Berani dengan Tegas sesuai Kebutuhan",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-24/japan-s-katayama-says-to-take-bold-fx-steps-decisively-as-needed",
-      "summary": "Japanese authorities will take bold steps to counter moves in the currency market decisively as needed, and a US Treasury report issued overnight underscores a shared view that excessive currency moves are undesirable, Finance Minister Satsuki Katayama said.",
-      "published": "24 Jul 2026 08:31 WIB",
-      "sentiment": "Bullish",
-      "score": 0.67,
-      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -858,7 +869,7 @@
     },
     {
       "source": "BBC World",
-      "title": "AS mengenakan tarif pada puluhan mitra dagang atas impor 'kerja paksa'",
+      "title": "AS mengenakan tarif pada puluhan mitra dagangnya, dengan alasan kekhawatiran akan adanya kerja paksa",
       "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
       "summary": "The tariffs target 60 trading partners over claims they failed to properly stop forced labour.",
       "published": "24 Jul 2026 09:10 WIB",
@@ -913,7 +924,7 @@
     },
     {
       "source": "BBC World",
-      "title": "Bisnis Rusia berada di bawah tekanan akibat serangan Ukraina terhadap Wildberry",
+      "title": "Bisnis Rusia tertekan akibat serangan Ukraina terhadap Wildberry",
       "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
       "summary": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.",
       "published": "23 Jul 2026 13:15 WIB",
@@ -1188,7 +1199,7 @@
     },
     {
       "source": "CNBC Forex",
-      "title": "Minyak mentah Brent mencapai $100 per barel. Bagaimana pemberhentian berikutnya bisa menjadi $120",
+      "title": "Minyak mentah Brent mencapai $100 per barel. Bagaimana perhentian berikutnya bisa menjadi $120",
       "url": "https://www.cnbc.com/2026/07/23/brent-crude-tops-100-a-barrel-how-the-next-stop-could-be-120.html",
       "summary": "Goldman Sachs warns on oil prices and so-called tank bottoms ( and loves a new natural gas-related name).",
       "published": "24 Jul 2026 00:43 WIB",
