@@ -666,6 +666,18 @@ textarea{resize:vertical;min-height:60px;line-height:1.6}
           <div style="font-size:10px;color:var(--mut);margin-top:5px">Tanpa key, ticker tetap jalan normal (cuma data jurnal, tanpa harga saham)</div>
         </div>
       </div>
+      <div class="sc"><div class="sh"><div class="sn">6</div><div class="st">Update Sekarang dari App (opsional)</div></div>
+        <div class="sd">Biar tombol "🔄 Update Sekarang" di tab Sentimen/Geopolitik/Rekomendasi bisa memicu pengambilan data baru langsung dari app (bukan cuma nunggu jadwal otomatis jam 07:00/22:00 WIB), buat token khusus di
+          <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com/settings/personal-access-tokens/new</a>:<br>
+          <b style="color:var(--txt)">Repository access → Only select repositories → forex-journal</b>, lalu
+          <b style="color:var(--txt)">Permissions → Actions → Read and write</b>, atur masa berlaku (mis. 90 hari), Generate, lalu tempel di bawah.<br>
+          <span style="color:var(--gold)">⚠️ Pakai token "fine-grained" yang di-scope ke repo ini SAJA — jangan pakai token classic yang aksesnya ke semua repo.</span>
+        </div>
+        <div style="padding-left:34px">
+          <input type="text" class="ui" id="s-gh-token" placeholder="github_pat_..." oninput="onGhToken()">
+          <div style="font-size:10px;color:var(--mut);margin-top:5px">Tanpa token, tab tetap jalan normal — cuma tombol Update Sekarang tidak aktif, data tetap ter-update via jadwal otomatis.</div>
+        </div>
+      </div>
     </div>
     <div class="mf">
       <button class="btn bh" onclick="skipSetup()">Pakai Tanpa Sync</button>
@@ -1448,6 +1460,15 @@ function _badge(ts) {
     🕐 Diperbarui: <b style="color:var(--sub)">${ts||'—'}</b></div>`;
 }
 
+// Tombol "Update Sekarang" — dipasang di header tab Sentimen/Geopolitik/Rekomendasi.
+// idSuffix membedakan elemen tiap tab ('sent'/'geo'/'rek') supaya bisa disinkronkan
+// bertiga sekaligus oleh renderGhUpdateStatus() walau yang diklik cuma salah satu.
+function _ghUpdateBtnHtml(idSuffix) {
+  return `<button id="gh-upd-btn-${idSuffix}" class="btn bh" onclick="ghTriggerUpdate()" style="font-size:10px;padding:5px 10px;display:flex;align-items:center;gap:5px">
+    <span id="gh-upd-ico-${idSuffix}">🔄</span><span id="gh-upd-txt-${idSuffix}">Update Sekarang</span>
+  </button>`;
+}
+
 function _newsCard(item, showPairs) {
   const c = _SCFG[item.sentiment]||_SCFG.Netral;
   const lbl = {Bullish:'BULLISH',Bearish:'BEARISH',Netral:'NETRAL'}[item.sentiment] || item.sentiment.toUpperCase();
@@ -1826,7 +1847,7 @@ function renderSentimen() {
 
   el.innerHTML = `<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
     <div class="ct" style="margin-bottom:0">📊 Sentimen Pasar Forex — Multi-Sumber</div>
-    ${_badge(generated)}
+    <div style="display:flex;align-items:center;gap:8px">${_badge(generated)}${_ghUpdateBtnHtml('sent')}</div>
   </div>
   ${stats}${overallBox}${ccyGrid}${credit}`;
   _translateAll('sent-content');
@@ -1883,7 +1904,9 @@ function renderGeopolitik() {
   const bullS = [...bull].sort((a,b)=>b.score-a.score);
 
   el.innerHTML = `<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
-    <div class="ct" style="margin-bottom:0">🌍 Geopolitik Penting — Pasar Forex</div>${_badge(generated)}</div>
+    <div class="ct" style="margin-bottom:0">🌍 Geopolitik Penting — Pasar Forex</div>
+    <div style="display:flex;align-items:center;gap:8px">${_badge(generated)}${_ghUpdateBtnHtml('geo')}</div>
+  </div>
   ${riskBox}${pairTable}
   ${_section(`🔴 Peristiwa Negatif/Bearish (${bear.length})`,bearS,15,i=>_newsCard(i,true))}
   ${_section(`🟢 Peristiwa Positif/Bullish (${bull.length})`,bullS,15,i=>_newsCard(i,true))}
@@ -2037,7 +2060,7 @@ function renderRekomend() {
 
   const header = `<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
     <div class="ct" style="margin-bottom:0">🎯 Rekomendasi Teknikal — 1H</div>
-    ${_badge(rekomendasi.generated)}
+    <div style="display:flex;align-items:center;gap:8px">${_badge(rekomendasi.generated)}${_ghUpdateBtnHtml('rek')}</div>
   </div>`;
 
   const rows = results.map((r,i)=>{
@@ -2083,6 +2106,174 @@ function renderRekomend() {
     ? `<div style="color:var(--sub);font-size:11px;text-align:center;padding:6px 0 10px">⚠️ ${TOTAL_PAIRS-results.length} pair tidak tersedia saat script dijalankan.</div>` : '';
 
   el.innerHTML = header + ranking + legend + partial + results.map(r=>_rkDetailCard(r)).join('');
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  GITHUB ACTIONS — tombol "Update Sekarang" (workflow_dispatch)
+//  Dipanggil dari header tab Sentimen/Geopolitik/Rekomendasi. Token
+//  fine-grained (scope: Actions r/w di repo ini saja) disimpan di
+//  localStorage lewat Settings, sama pola dgn Finnhub key / GS URL.
+// ═══════════════════════════════════════════════════════════════
+const GH_OWNER          = 'GabFx09';
+const GH_REPO           = 'forex-journal';
+const GH_WORKFLOW_FILE  = 'forex_digest.yml';
+const GH_REPO_API       = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}`;
+const GH_WORKFLOW_API   = `${GH_REPO_API}/actions/workflows/${GH_WORKFLOW_FILE}`;
+const GH_POLL_MS        = 7000;
+const GH_MAX_POLL_MS    = 10*60*1000;   // 10 menit, lalu fallback ke link manual
+const GH_COOLDOWN_MS    = 60*1000;      // jangan biarkan dispatch baru dlm 60 detik
+
+// phase: 'idle' | 'dispatching' | 'finding' | 'running' | 'done-ok' | 'done-fail' | 'error'
+let _ghState     = { phase:'idle', runId:null, htmlUrl:null };
+let _ghPollTimer = null;
+let _ghPollStart = 0;
+
+function _ghToken()   { return lsGet('fj_gh_token',''); }
+function _ghHeaders() { return { 'Authorization':'Bearer '+_ghToken(), 'Accept':'application/vnd.github+json' }; }
+
+function _ghSetState(phase, extra={}) {
+  _ghState = { ..._ghState, phase, ...extra };
+  renderGhUpdateStatus();
+}
+
+function renderGhUpdateStatus() {
+  ['sent','geo','rek'].forEach(suf => {
+    const btn = $('gh-upd-btn-'+suf), ico = $('gh-upd-ico-'+suf), txt = $('gh-upd-txt-'+suf);
+    if (!btn) return;
+    const busy = ['dispatching','finding','running'].includes(_ghState.phase);
+    btn.disabled = busy;
+    btn.style.opacity = busy ? '.6' : '1';
+    btn.style.cursor  = busy ? 'default' : 'pointer';
+    if (ico) ico.textContent = busy ? '⏳' : (_ghState.phase==='done-fail'||_ghState.phase==='error' ? '⚠️' : '🔄');
+    if (txt) txt.textContent =
+      _ghState.phase==='dispatching' ? 'Memicu...' :
+      _ghState.phase==='finding'     ? 'Menunggu run...' :
+      _ghState.phase==='running'     ? 'Update berjalan...' :
+      _ghState.phase==='done-ok'     ? 'Selesai! Reload...' :
+      'Update Sekarang';
+  });
+}
+
+async function ghTriggerUpdate() {
+  if (['dispatching','finding','running'].includes(_ghState.phase)) {
+    toast('⏳ Update masih berjalan, tunggu sebentar.'); return;
+  }
+  if (!_ghToken()) {
+    toast('⚠️ Isi GitHub token di Settings dulu (langkah 6).', 3500);
+    openSetup();
+    return;
+  }
+  const lastTrigger = Number(lsGet('fj_gh_last_trigger', 0)) || 0;
+  const remain = GH_COOLDOWN_MS - (Date.now()-lastTrigger);
+  if (remain > 0) {
+    toast('⏳ Baru saja memicu update, tunggu '+Math.ceil(remain/1000)+' detik lagi.'); return;
+  }
+
+  // Kalau sudah ada run yg in_progress/queued (mis. dari jadwal cron), ikut
+  // pantau itu saja drpd memicu run baru yg mubazir.
+  try {
+    const runs = await _ghGetRuns();
+    const active = runs.find(r => r.status==='in_progress' || r.status==='queued');
+    if (active) {
+      toast('ℹ️ Ada update yang sedang berjalan, ikut dipantau...');
+      _ghStartPolling(active.id);
+      return;
+    }
+  } catch(e) { /* lanjut coba dispatch; error konkret ditangani di _ghDispatch */ }
+
+  _ghSetState('dispatching');
+  const dispatchTime = new Date();
+  lsSet('fj_gh_last_trigger', Date.now());
+  try {
+    await _ghDispatch();
+  } catch(e) {
+    toast('❌ '+e.message, 4500);
+    _ghSetState('error');
+    setTimeout(()=>_ghSetState('idle'), 3000);
+    return;
+  }
+  toast('🔄 Update dipicu — mencari run baru...');
+  _ghSetState('finding');
+  _ghFindAndPoll(dispatchTime);
+}
+
+async function _ghDispatch() {
+  const r = await fetch(GH_WORKFLOW_API+'/dispatches', {
+    method: 'POST',
+    headers: { ..._ghHeaders(), 'Content-Type':'application/json' },
+    body: JSON.stringify({ ref:'main' }),
+  });
+  if (r.status === 204) return;
+  let body = {};
+  try { body = await r.json(); } catch(e) {}
+  if (r.status === 401) throw new Error('Token tidak valid/sudah dicabut — cek Settings.');
+  if (r.status === 403) throw new Error('Ditolak GitHub: '+(body.message||'kemungkinan rate-limit atau izin token kurang.'));
+  if (r.status === 404) throw new Error('Repo/workflow tidak ditemukan — cek scope token di Settings.');
+  throw new Error('Gagal memicu update ('+r.status+'): '+(body.message||'error tidak diketahui.'));
+}
+
+async function _ghGetRuns() {
+  const r = await fetch(GH_WORKFLOW_API+'/runs?event=workflow_dispatch&per_page=5', { headers:_ghHeaders() });
+  if (!r.ok) throw new Error('Gagal mengambil status run GitHub.');
+  const j = await r.json();
+  return j.workflow_runs || [];
+}
+
+async function _ghFindAndPoll(dispatchTime, attempt=0) {
+  try {
+    const runs = await _ghGetRuns();
+    const found = runs.find(r => new Date(r.created_at) >= new Date(dispatchTime.getTime()-5000));
+    if (found) { _ghStartPolling(found.id); return; }
+  } catch(e) { /* coba lagi di attempt berikutnya */ }
+  if (attempt >= 8) {
+    toast('⚠️ Update dipicu tapi run belum ketemu — cek manual di tab Actions GitHub.', 5000);
+    _ghSetState('idle');
+    return;
+  }
+  setTimeout(()=>_ghFindAndPoll(dispatchTime, attempt+1), 4000);
+}
+
+function _ghStartPolling(runId) {
+  _ghPollStart = Date.now();
+  _ghSetState('running', {runId});
+  clearInterval(_ghPollTimer);
+  _ghPollTimer = setInterval(()=>_ghCheckRun(runId), GH_POLL_MS);
+  _ghCheckRun(runId);
+}
+
+async function _ghCheckRun(runId) {
+  if (Date.now()-_ghPollStart > GH_MAX_POLL_MS) {
+    clearInterval(_ghPollTimer);
+    toast('⚠️ Update terlalu lama — cek manual di tab Actions GitHub.', 5000);
+    _ghSetState('idle');
+    return;
+  }
+  try {
+    const r = await fetch(GH_REPO_API+'/actions/runs/'+runId, { headers:_ghHeaders() });
+    if (!r.ok) return; // transient — coba lagi di poll berikutnya
+    const run = await r.json();
+    if (run.status !== 'completed') return;
+    clearInterval(_ghPollTimer);
+    if (run.conclusion === 'success') {
+      _ghSetState('done-ok');
+      toast('✅ Data terbaru sudah siap — memuat ulang halaman...', 4500);
+      sessionStorage.setItem('fj_active_tab', document.querySelector('.tab.on')?.id?.replace('tab-','')||'');
+      setTimeout(()=>location.reload(), 5000);
+    } else {
+      _ghSetState('done-fail', {htmlUrl:run.html_url});
+      toast('❌ Update gagal — cek log: '+run.html_url, 6000);
+      setTimeout(()=>_ghSetState('idle'), 5000);
+    }
+  } catch(e) { /* network sesaat, coba lagi di poll berikutnya */ }
+}
+
+// Kalau halaman di-refresh/dibuka lagi saat run masih berjalan (baru dipicu
+// < 6 menit lalu), lanjutkan pantau drpd tombol balik ke idle padahal masih jalan.
+function _ghResumeIfNeeded() {
+  const lastTrigger = Number(lsGet('fj_gh_last_trigger', 0)) || 0;
+  if (!lastTrigger || Date.now()-lastTrigger > 6*60*1000 || !_ghToken()) return;
+  _ghSetState('finding');
+  _ghFindAndPoll(new Date(lastTrigger));
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -2248,6 +2439,12 @@ function onFinnhubKey() {
   fetchLiveTickers();
 }
 
+function onGhToken() {
+  const key = $('s-gh-token').value.trim();
+  lsSet('fj_gh_token', key);
+  renderGhUpdateStatus();
+}
+
 async function testUrl() {
   const u = $('s-url').value.trim();
   const tr = $('s-test');
@@ -2320,6 +2517,7 @@ function skipSetup() {
 function openSetup() {
   if(GS_URL) { $('s-url').value=GS_URL; onUrl(); }
   const fk = lsGet('fj_finnhub_key',''); if(fk) $('s-finnhub').value = fk;
+  const gt = lsGet('fj_gh_token',''); if(gt) $('s-gh-token').value = gt;
   $('s-test').style.display='none';
   $('mo').style.display='flex';
 }
@@ -3242,6 +3440,15 @@ function renderAll(){
 
   fetchLiveTickers();
   setInterval(fetchLiveTickers, 15000);
+
+  // Balik ke tab aktif sebelum reload otomatis (dipicu tombol "Update Sekarang")
+  const savedTab = sessionStorage.getItem('fj_active_tab');
+  if (savedTab) {
+    sessionStorage.removeItem('fj_active_tab');
+    const btn = document.querySelector('.nb[data-tab="'+savedTab+'"]');
+    if (btn) showTab(savedTab, btn);
+  }
+  _ghResumeIfNeeded();
 })();
 
 // ═══════════════════════════════════════════════════════════════
