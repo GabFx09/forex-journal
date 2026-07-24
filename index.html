@@ -2220,12 +2220,22 @@ async function _ghGetRuns() {
 }
 
 async function _ghFindAndPoll(dispatchTime, attempt=0) {
+  const MAX_ATTEMPTS = 15;
+  // Buffer besar (90 detik) supaya toleran thd selisih jam lokal browser vs
+  // server GitHub — kalau cuma 5 detik, run yg sungguh baru bisa gagal
+  // "ketemu" hanya krn jam komputer sedikit maju/mundur.
+  const LOOKBACK_MS = 90000;
   try {
     const runs = await _ghGetRuns();
-    const found = runs.find(r => new Date(r.created_at) >= new Date(dispatchTime.getTime()-5000));
+    const found = runs.find(r => new Date(r.created_at) >= new Date(dispatchTime.getTime()-LOOKBACK_MS));
     if (found) { _ghStartPolling(found.id); return; }
+    // Percobaan terakhir: kalau tetap tidak ketemu via timestamp (mis. jam
+    // lokal meleset jauh), ambil saja run workflow_dispatch terbaru sbg
+    // fallback — aman krn ghTriggerUpdate() sudah memastikan tidak ada run
+    // in_progress/queued lain sblm dispatch ini.
+    if (attempt >= MAX_ATTEMPTS - 1 && runs.length) { _ghStartPolling(runs[0].id); return; }
   } catch(e) { /* coba lagi di attempt berikutnya */ }
-  if (attempt >= 8) {
+  if (attempt >= MAX_ATTEMPTS) {
     toast('⚠️ Update dipicu tapi run belum ketemu — cek manual di tab Actions GitHub.', 5000);
     _ghSetState('idle');
     return;
