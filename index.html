@@ -2286,6 +2286,16 @@ function _ghResumeIfNeeded() {
   _ghFindAndPoll(new Date(lastTrigger));
 }
 
+// Browser men-throttle setInterval di tab yang di-background (mis. user pindah
+// tab/app sambil nunggu ~2-4 menit proses digest selesai) — polling normal jadi
+// telat/berhenti, run sudah selesai di GitHub tapi tombol/reload di sini belum
+// nyadar sampai di-refresh manual. Begitu tab aktif lagi, cek ulang langsung.
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && _ghState.phase === 'running' && _ghState.runId) {
+    _ghCheckRun(_ghState.runId);
+  }
+});
+
 // ═══════════════════════════════════════════════════════════════
 //  GOOGLE APPS SCRIPT API
 // ═══════════════════════════════════════════════════════════════
