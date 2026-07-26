@@ -2264,6 +2264,11 @@ async function _ghCheckRun(runId) {
     const run = await r.json();
     if (run.status !== 'completed') return;
     clearInterval(_ghPollTimer);
+    // Bersihkan timestamp trigger SEBELUM reload — kalau tidak, _ghResumeIfNeeded()
+    // di halaman yang baru akan mengira run ini masih perlu dipantau, lalu
+    // reload lagi begitu ketemu run yg sama (sudah selesai) → loop reload tanpa
+    // henti sampai 6 menit sejak trigger pertama berlalu.
+    lsSet('fj_gh_last_trigger', 0);
     if (run.conclusion === 'success') {
       _ghSetState('done-ok');
       toast('✅ Data terbaru sudah siap — memuat ulang halaman...', 4500);
