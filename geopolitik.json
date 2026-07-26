@@ -1,5 +1,5 @@
 {
-  "generated": "25 Jul 2026 22:02 WIB",
+  "generated": "26 Jul 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,38 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.248,
-      "count": 25
+      "score": -0.213,
+      "count": 21
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.275,
-      "count": 24
+      "score": -0.213,
+      "count": 21
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.259,
-      "count": 18
+      "score": -0.228,
+      "count": 17
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.088,
-      "count": 13
+      "score": -0.078,
+      "count": 12
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.108,
-      "count": 8
+      "score": -0.123,
+      "count": 7
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.108,
-      "count": 8
+      "score": -0.123,
+      "count": 7
     },
     {
       "pair": "CAD/JPY",
@@ -308,37 +308,15 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Dolar Mengakhiri Pekan Terbaiknya dalam Sebulan Seiring Meningkatnya Permintaan Haven",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-24/dollar-set-for-best-week-in-a-month-as-haven-flows-offer-support",
-      "summary": "The dollar finished its best week in a month as investors returned to the traditional haven amid heightened geopolitical tensions.",
-      "published": "24 Jul 2026 17:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.281,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Harga Minyak Berfluktuasi karena Gangguan Pasokan Melanda Empat Sektor Global",
-      "url": "https://www.bloomberg.com/news/features/2026-07-24/oil-prices-volatile-as-supply-disruptions-hit-four-global-fronts",
-      "summary": "Brent futures surged past $100 a barrel as the conflict in the Middle East widens and Ukraine strikes Russian infrastructure.",
-      "published": "25 Jul 2026 03:15 WIB",
+      "source": "BBC World",
+      "title": "Lebih dari 250.000 orang mengungsi dari kebakaran hutan di Perancis dan Spanyol",
+      "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Spain's PM warns of \"complex hours\" ahead as authorities in France say they are far from bringing blazes burning near Bordeaux under control.",
+      "published": "26 Jul 2026 00:13 WIB",
       "sentiment": "Bearish",
-      "score": -0.735,
+      "score": -0.183,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "AUD/USD Pulih Karena Risiko Perdagangan dan Geopolitik Membayangi - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOWh1b2lENm9IcDhFdmJCZENtM0N2TjcyX19KNU51QTFwclp6LVRHRnpLeWFfaEpCbDVIWkUzbFFhSHJtenJjWnMzbWpSdXZjX0FUVHppQ3k0eDAxd2FfcEJTaThWYnZlZmlUSGhzeDZXMDlJaGRhUGJJQlZ4elp1dWV2U3BsMXQw?oc=5",
-      "summary": "AUD/USD Recovers Ground as Trade and Geopolitical Risks Loom CryptoRank",
-      "published": "24 Jul 2026 15:53 WIB",
-      "sentiment": "Bearish",
-      "score": -0.539,
-      "emoji": "🔴",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -418,26 +396,15 @@
       "impact": "medium"
     },
     {
-      "source": "BBC Business",
-      "title": "Saksikan: Suatu hari nanti, tarif Trump akan lebih banyak – namun apakah berhasil?",
-      "url": "https://www.bbc.co.uk/news/videos/c5yw2xgnv2jo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC's Samira Hussain explains how President Trump's tariffs affect US economy, who pays the price, and whether they're working.",
-      "published": "24 Jul 2026 17:21 WIB",
+      "source": "BBC Top Stories",
+      "title": "Polisi menyelidiki sumbangan dari perusahaan Tice untuk Reformasi Inggris",
+      "url": "https://www.bbc.co.uk/news/articles/c5yv4r5g55do?at_medium=RSS&at_campaign=rss",
+      "summary": "Britain Means Business, owned by the party’s deputy leader Richard Tice, made two donations of £250,000 in the run-up to the 2024 general election.",
+      "published": "26 Jul 2026 01:04 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "medium"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Suku bunga hipotek Inggris naik ke level tertinggi selama sebulan",
-      "url": "https://www.bbc.co.uk/news/articles/c70gknr7z1eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Renewed tensions in the Middle East feed through to the costs faced by lenders, pushing up borrowing costs.",
-      "published": "24 Jul 2026 16:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.482,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "BBC Top Stories",
@@ -451,102 +418,58 @@
       "impact": "low"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Bagaimana misteri bangkai hewan yang dibuang di desa-desa memunculkan dunia perburuan ilegal yang tersembunyi",
-      "url": "https://www.bbc.co.uk/news/articles/cd7ldjrl2reo?at_medium=RSS&at_campaign=rss",
-      "summary": "Farmers describe attacks and police receive nearly 9,000 reports of banned hare coursing.",
-      "published": "25 Jul 2026 12:00 WIB",
+      "source": "Al Jazeera",
+      "title": "Ada apa di balik tindakan keras Israel di Tepi Barat yang diduduki?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/25/whats-behind-the-israeli-crackdown-in-the-occupied-west-bank?traffic_source=rss",
+      "summary": "Israeli forces intensify West Bank raids as settlers escalate attacks and settlement expansion accelerates.",
+      "published": "26 Jul 2026 06:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.44,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran menuduh Ukraina melakukan serangan mematikan terhadap kapal komersial Kaspia",
+      "url": "https://www.aljazeera.com/news/2026/7/25/iran-accuses-ukraine-of-deadly-attack-on-caspian-commercial-vessel?traffic_source=rss",
+      "summary": "Iran accuses Ukraine of attacking a Caspian vessel, killing one sailor and injuring another, calling it a criminal act.",
+      "published": "26 Jul 2026 06:16 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Enam pria ditangkap karena penikaman fatal di London selatan",
-      "url": "https://www.bbc.co.uk/news/articles/cly5j8dwwpeo?at_medium=RSS&at_campaign=rss",
-      "summary": "The attack is believed to have taken place near Tremadoc Road in the early hours of Saturday.",
-      "published": "25 Jul 2026 19:40 WIB",
+      "source": "Al Jazeera",
+      "title": "Pasukan Israel menembakkan gas air mata kepada jurnalis yang melaporkan baku tembak di Nablus",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/israeli-forces-tear-gas-journalists-reporting-nablus-shootout?traffic_source=rss",
+      "summary": "Israeli troops fired tear gas at Palestinians and journalists in Tal a day after a deadly shootout",
+      "published": "26 Jul 2026 04:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.946,
+      "score": -0.557,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Perang terhadap Iran: Fase II: Hari ke-14",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/war-on-iran-phase-ii-day-14?traffic_source=rss",
-      "summary": "War on Iran: Phase II: Day 14",
-      "published": "25 Jul 2026 20:49 WIB",
+      "title": "Bagaimana reformasi media yang dilakukan pemerintahan Netanyahu berisiko memperdalam bias pers Israel",
+      "url": "https://www.aljazeera.com/news/2026/7/25/how-netanyahu-govt-media-reforms-risk-deepening-israeli-press-bias?traffic_source=rss",
+      "summary": "Critics decry Israel's sweeping media reforms, warning of further risks to press freedom and election integrity.",
+      "published": "26 Jul 2026 01:14 WIB",
       "sentiment": "Bearish",
-      "score": -0.912,
+      "score": -0.263,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Setidaknya 11 orang tewas dalam serangan di Ukraina dan Rusia saat kamp liburan diserang",
-      "url": "https://www.aljazeera.com/news/2026/7/25/at-least-11-killed-in-ukrainian-and-russian-strikes-as-holiday-camp-hit?traffic_source=rss",
-      "summary": "Separately, at least eight people killed in Ukrainian attacks on a Russian-controlled area.",
-      "published": "25 Jul 2026 19:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.994,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump menghadapi reaksi keras karena menggunakan kata ‘Palestina’ sebagai penghinaan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/trump-faces-backlash-for-using-palestinian-as-an-insult?traffic_source=rss",
-      "summary": "US President Donald Trump is facing backlash after using ‘Palestinian’ as an insult while mocking a Democratic Senator.",
-      "published": "25 Jul 2026 19:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.852,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Israel menangkap puluhan warga Palestina di Tepi Barat di tengah serangan pemukim",
-      "url": "https://www.aljazeera.com/news/2026/7/25/israel-arrests-dozens-of-palestinians-in-west-bank-amid-settler-attacks?traffic_source=rss",
-      "summary": "Military crackdown follows a shooting that killed four Palestinians and two Israeli soldiers.",
-      "published": "25 Jul 2026 16:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.963,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Lahir terlalu cepat: Bayi prematur berjuang untuk bertahan hidup di Gaza",
-      "url": "https://www.aljazeera.com/features/2026/7/25/born-too-soon-premature-babies-fighting-for-survival-in-gaza?traffic_source=rss",
-      "summary": "Israel's genocidal war on Gaza is causing a surge in premature births and endangering mothers' health.",
-      "published": "25 Jul 2026 14:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.758,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Guterres tiba di Suriah dalam kunjungan resmi pertama Sekjen PBB dalam 17 tahun",
-      "url": "https://www.aljazeera.com/news/2026/7/25/guterres-arrives-in-syria-in-first-official-visit-by-a-un-chief-in-17-years?traffic_source=rss",
-      "summary": "The UN chief will meet Syrian President Ahmed al-Sharaa, who was under UN Security Council sanctions until last year.",
-      "published": "25 Jul 2026 14:22 WIB",
-      "sentiment": "Bullish",
-      "score": 0.26,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "Investor tidak mengetahui keputusan The Fed minggu ini – dan itulah yang diinginkan Warsh",
-      "url": "https://www.marketwatch.com/story/investors-are-in-the-dark-about-the-feds-decision-this-week-and-thats-just-how-warsh-wants-it-c9cbfd3f?mod=mw_rss_topstories",
-      "summary": "Will Kevin Warsh support a rate hike? Fasten your seat belts for the decision on Wednesday.",
-      "published": "25 Jul 2026 18:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
+      "title": "Harga minyak mungkin turun, tapi harga bensin tidak. Lihatlah jebakan yang kita hadapi.",
+      "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+      "summary": "The Iran war isn’t causing your energy bill to soar. Blame Wall Street for that.",
+      "published": "26 Jul 2026 01:34 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -565,7 +488,7 @@
       "title": "Militer Saudi menyerang sasaran Houthi di Yaman setelah milisi yang didukung Iran menyerang kapal-kapal Laut Merah",
       "url": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html",
       "summary": "Saudi Arabia intercepted two ballistic missiles from Yemen, Greek security sources told Reuters, as fighting in a second front in the Iran war escalates.",
-      "published": "25 Jul 2026 17:22 WIB",
+      "published": "26 Jul 2026 03:29 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -598,7 +521,7 @@
       "title": "Serangan Rusia memutus aliran listrik ke sekitar 150.000 listrik di utara Ukraina ketika Kyiv menyerang fasilitas minyak dan rudal",
       "url": "https://www.cnbc.com/2026/07/24/russia-ukraine-war-zelenskyy-putin-oil.html",
       "summary": "The update comes as Ukrainian President Volodymyr Zelenskyy welcomed strikes on a key missile components facility in the Russian city of Kirov.",
-      "published": "24 Jul 2026 20:09 WIB",
+      "published": "25 Jul 2026 23:10 WIB",
       "sentiment": "Bearish",
       "score": -0.82,
       "emoji": "🔴",
