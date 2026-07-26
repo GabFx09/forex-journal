@@ -1,5 +1,5 @@
 {
-  "generated": "26 Jul 2026 22:01 WIB",
+  "generated": "27 Jul 2026 04:39 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.188,
-      "count": 14
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
       "score": -0.167,
       "count": 13
     },
     {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.143,
+      "count": 12
+    },
+    {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.129,
-      "count": 12
+      "score": -0.153,
+      "count": 11
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.164,
-      "count": 5
+      "score": -0.434,
+      "count": 8
     },
     {
       "pair": "AUD/USD",
@@ -41,19 +41,41 @@
       "count": 3
     },
     {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.637,
-      "count": 1
-    },
-    {
       "pair": "CAD/JPY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.572,
-      "count": 1
+      "score": 0.539,
+      "count": 2
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.539,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Iran mengatakan akan menghentikan serangan selama jeda AS masih berlanjut",
+      "url": "https://investinglive.com/news/iran-says-it-will-halt-strikes-so-long-as-us-pause-continues/",
+      "summary": "The Iran war took a turn for the better on the weekend as the US halted strikes after 13 days and Iran said it will maintain a ceasefire so long as the US remains on pause. The developments have raised hopes for peace and that should lead to a negative start in the oil market. The US didn't advertis",
+      "published": "27 Jul 2026 03:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.696,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pedagang Obligasi Gelisah karena Risiko Kenaikan Suku Bunga Fed Minggu Ini Meningkat",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/bond-traders-on-edge-as-risks-of-fed-rate-hike-this-week-mount",
+      "summary": "Bond traders enter the week seeing a better than one-in-three chance that the Federal Reserve hikes interest rates on Wednesday after flaring Middle East tensions lifted oil prices, boosting inflation worries and yields.",
+      "published": "27 Jul 2026 02:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.506,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "Bloomberg Markets",
       "title": "Pendapatan Perusahaan Teknologi Besar Menghantam Pasar Karena Pemberontakan Terhadap Pengeluaran AI",
@@ -78,23 +100,23 @@
     },
     {
       "source": "BBC World",
-      "title": "Pemukim Israel membakar masjid, mobil, dan lahan pertanian di Tepi Barat, kata warga Palestina",
-      "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
-      "summary": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tell, which left four Palestinians and two Israelis dead.",
-      "published": "26 Jul 2026 17:26 WIB",
+      "title": "Apa yang kita ketahui sejauh ini tentang serangan serudukan Berlin Pride",
+      "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
+      "summary": "German Chancellor Friedrich Merz condemns the attack as \"heinous\" after a suspect drove a car into a crowd near the Tiergarten park.",
+      "published": "27 Jul 2026 03:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.943,
+      "score": -0.932,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "BBC World",
-      "title": "Houthi yang didukung Iran mengklaim serangan rudal ke Arab Saudi",
-      "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
-      "summary": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
-      "published": "25 Jul 2026 13:34 WIB",
+      "title": "Pemukim Israel membakar masjid, mobil, dan lahan pertanian di Tepi Barat, kata warga Palestina",
+      "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
+      "summary": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tal, which left four Palestinians and two Israelis dead.",
+      "published": "27 Jul 2026 04:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.637,
+      "score": -0.943,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -111,78 +133,133 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Bagaimana saudara perempuan rapper Aitch menginspirasinya untuk mendaki salah satu puncak terberat di dunia",
-      "url": "https://www.bbc.co.uk/news/articles/cx2dgl98lxko?at_medium=RSS&at_campaign=rss",
-      "summary": "The rapper has been taking on challenges to raise awareness and money for the Down's Syndrome Association.",
-      "published": "26 Jul 2026 14:40 WIB",
+      "title": "Trump menghentikan serangan terhadap Iran untuk memberi ruang bagi perundingan, kata duta besar AS",
+      "url": "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Neither the US nor Iran have launched attacks in the last two nights, after almost two weeks of tit-for-tat strikes risked derailing talks to permanently end the war.",
+      "published": "27 Jul 2026 04:10 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pemerintah Israel menyetujui kekuatan stabilisasi internasional di Gaza",
+      "url": "https://www.aljazeera.com/news/2026/7/26/israeli-government-nods-to-international-stabilisation-force-in-gaza?traffic_source=rss",
+      "summary": "The ISF, to be staffed by 'friendly countries', will operate in areas outside of Israel's military control.",
+      "published": "27 Jul 2026 04:10 WIB",
       "sentiment": "Bullish",
-      "score": 0.414,
+      "score": 0.494,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "AS dan Iran menghentikan serangan untuk hari kedua",
+      "url": "https://www.aljazeera.com/news/2026/7/26/us-and-iran-hit-pause-on-strikes-for-second-day?traffic_source=rss",
+      "summary": "The relative calm comes amid reports of renewed efforts to restore diplomatic talks.",
+      "published": "27 Jul 2026 03:55 WIB",
+      "sentiment": "Bullish",
+      "score": 0.25,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Al-Sharaa menguraikan pendekatan Suriah terhadap keamanan dengan Israel dan Lebanon",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/al-sharaa-outlines-syrias-approach-to-security-with-israel-and-lebanon?traffic_source=rss",
+      "summary": "Syrian President Ahmed al-Sharaa said Damascus is working towards a security agreement with Israel.",
+      "published": "27 Jul 2026 02:27 WIB",
+      "sentiment": "Bullish",
+      "score": 0.791,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Faye dari Senegal meluncurkan partai baru, meresmikan perpisahannya dengan Sonko",
-      "url": "https://www.aljazeera.com/news/2026/7/26/senegals-faye-launches-a-new-party-formalising-his-split-with-sonko?traffic_source=rss",
-      "summary": "Months of tensions between president and ex-ally culminate in split that will reshape Senegal's political landscape.",
-      "published": "26 Jul 2026 21:22 WIB",
+      "title": "Presiden Kuba menuduh AS melakukan genosida dan mengupayakan pengambilalihan",
+      "url": "https://www.aljazeera.com/news/2026/7/26/cuban-president-accuses-us-of-genocide-seeking-takeover?traffic_source=rss",
+      "summary": "Island has weathered a US oil embargo since January and is enduring one of its worst economic crises.",
+      "published": "27 Jul 2026 02:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.758,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Israel dan paradoks biaya perang Iran",
-      "url": "https://www.aljazeera.com/opinions/2026/7/26/israel-and-the-cost-paradox-of-the-iran-war?traffic_source=rss",
-      "summary": "Israel instigated the war on Iran and yet it has borne few of its costs.",
-      "published": "26 Jul 2026 21:04 WIB",
+      "title": "Pemukim Israel membakar dua masjid di Tepi Barat yang diduduki",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/israeli-settlers-burn-two-mosques-in-occupied-west-bank?traffic_source=rss",
+      "summary": "Israeli settlers set fire to two mosques in separate attacks across the occupied West Bank, causing significant damage.",
+      "published": "27 Jul 2026 01:51 WIB",
       "sentiment": "Bearish",
-      "score": -0.928,
+      "score": -0.852,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Rumania memanggil utusan Rusia saat mereka menembak jatuh drone ketiga yang mengganggu",
+      "url": "https://www.aljazeera.com/news/2026/7/26/romania-summons-russian-envoy-as-it-shoots-down-third-intruding-drone?traffic_source=rss",
+      "summary": "The ongoing violations of Romanian airspace raise concerns over impact on NATO states of Russia-Ukraine war.",
+      "published": "27 Jul 2026 01:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.887,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Presiden Ahmed al-Sharaa: Suriah mencari kesepakatan keamanan dengan Israel",
-      "url": "https://www.aljazeera.com/news/2026/7/26/president-ahmed-al-sharaa-syria-seeking-security-deal-with-israel?traffic_source=rss",
-      "summary": "Syrian President al-Sharaa tells Al Jazeera Damascus seeks a security deal with Israel, and warns of chaos in Lebanon.",
-      "published": "26 Jul 2026 19:34 WIB",
+      "title": "Al-Sharaa memuji keputusan Trump untuk menghapus Suriah dari daftar terorisme",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/al-sharaa-praises-trumps-decision-to-remove-syria-from-terrorism-list?traffic_source=rss",
+      "summary": "Al-Sharaa praises Trump's decision to remove Syria from terrorism list.",
+      "published": "27 Jul 2026 01:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.077,
+      "score": -0.527,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Polisi menembak mati tersangka serangan menabrak mobil Berlin Pride",
+      "url": "https://www.aljazeera.com/news/2026/7/26/berlin-police-shoot-dead-suspect-in-car-ramming-attack-on-pride-event?traffic_source=rss",
+      "summary": "Abdul Ballout sought for 'Islamist terror attack' after a van was driven into crowds at LGBTQ event in German capital.",
+      "published": "27 Jul 2026 00:51 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Israel melancarkan serangan militer ke Suriah di tengah kecaman PBB",
+      "url": "https://www.aljazeera.com/news/2026/7/26/israel-launches-military-incursion-into-syria-amid-un-condemnation?traffic_source=rss",
+      "summary": "The UN's Guterres condemned violations of Syria's sovereignty as he visited and called for sanctions to be lifted.",
+      "published": "27 Jul 2026 00:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.958,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Tentara Iran mengeluarkan peringatan menjelang kunjungan Netanyahu ke AS",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/irans-army-issues-warning-ahead-of-netanyahus-us-visit?traffic_source=rss",
-      "summary": "Iran says it has stopped retaliatory operations in the Gulf, but warns the war could expand if US strikes continue.",
-      "published": "26 Jul 2026 18:56 WIB",
+      "title": "‘Membekukan konflik’: Drone memperlambat aliran minyak Kazakh di tengah perang Rusia-Ukraina",
+      "url": "https://www.aljazeera.com/news/2026/7/26/freeze-the-conflict-drones-slow-kazakh-oil-flow-amid-russia-ukraine-war?traffic_source=rss",
+      "summary": "Kazakh oil exports halted after drone attacks disrupt supplies, posing risks to the economy and energy markets.",
+      "published": "27 Jul 2026 00:13 WIB",
       "sentiment": "Bearish",
-      "score": -0.935,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "‘Tidak ada pertanggungjawaban atas kejahatan perang pemukim terhadap warga Palestina’",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/no-accountability-for-settler-war-crimes-against?traffic_source=rss",
-      "summary": "‘No accountability for settler war crimes against Palestinians’",
-      "published": "26 Jul 2026 18:31 WIB",
+      "title": "Darfur: Identitas Senjata",
+      "url": "https://www.aljazeera.com/video/aljazeerauntangles/2026/7/26/darfur-weaponising-identity?traffic_source=rss",
+      "summary": "How land conflict, state neglect and racist ideology have driven Darfur towards alleged genocide.",
+      "published": "26 Jul 2026 23:20 WIB",
       "sentiment": "Bearish",
-      "score": -0.832,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Malaysia akan menjadi tuan rumah balapan F1 Grand Prix Bahrain yang dijadwalkan ulang pada bulan Oktober",
-      "url": "https://www.aljazeera.com/sports/2026/7/26/malaysia-to-host-rescheduled-bahrain-grand-prix-f1-race-in-october?traffic_source=rss",
-      "summary": "The race in Bahrain was rescheduled in April amid the US-Israel war on Iran and will now be held in Malaysia.",
-      "published": "26 Jul 2026 18:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.306,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -191,7 +268,7 @@
       "title": "Ada 'ancaman rangkap tiga' teknis pada saham, namun ada juga tempat yang bisa disembunyikan oleh investor",
       "url": "https://www.marketwatch.com/story/theres-a-technical-triple-threat-for-stocks-but-also-places-investors-can-hide-59108c6b?mod=mw_rss_topstories",
       "summary": "Treasury yields and oil prices surged, and the dollar confirmed the breakout toward a longer-term uptrend, to push the S&P 500 below key chart support.",
-      "published": "26 Jul 2026 20:00 WIB",
+      "published": "27 Jul 2026 02:15 WIB",
       "sentiment": "Bullish",
       "score": 0.572,
       "emoji": "🟢",
@@ -224,7 +301,7 @@
       "title": "Ukraina menyerang kapal Iran di Laut Kaspia, Teheran menuduh Kyiv melakukan 'tindakan bermusuhan dan kriminal'",
       "url": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
       "summary": "The latest attacks by Ukraine, combined with Saudi military strikes on Iran-backed Houthi targets in Yemen, represent a widening of the Middle East conflict.",
-      "published": "26 Jul 2026 21:50 WIB",
+      "published": "27 Jul 2026 00:11 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -232,7 +309,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Harga kakao melemah. Lalu mengapa coklat masih begitu mahal?",
+      "title": "Harga kakao melemah. Lalu mengapa coklat masih mahal?",
       "url": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
       "summary": "Chocolate firms look to win shoppers back with premium products and social media trends after poor weather conditions, tariffs, and the Iran war hit sales.",
       "published": "26 Jul 2026 12:00 WIB",
