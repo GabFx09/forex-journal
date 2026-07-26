@@ -1,5 +1,5 @@
 {
-  "generated": "26 Jul 2026 07:01 WIB",
+  "generated": "26 Jul 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,316 +7,85 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.213,
-      "count": 21
+      "score": -0.188,
+      "count": 14
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.213,
-      "count": 21
+      "score": -0.167,
+      "count": 13
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.228,
-      "count": 17
+      "score": -0.129,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.078,
-      "count": 12
+      "score": -0.164,
+      "count": 5
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.123,
-      "count": 7
+      "score": -0.152,
+      "count": 3
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.123,
-      "count": 7
+      "score": -0.152,
+      "count": 3
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.637,
+      "count": 1
     },
     {
       "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.596,
-      "count": 5
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.596,
-      "count": 5
+      "direction": "Tekanan Naik ▲",
+      "score": 0.572,
+      "count": 1
     }
   ],
   "items": [
     {
-      "source": "ForexLive",
-      "title": "investBerita Live Americas FX 24 Juli: Geopolitik tetap menjadi fokus bagi para pedagang.",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-jul-geopolitics-remain-the-focus-for-traders/",
-      "summary": "US indices close mixed. Dow up. S&P unchanged. Nasdaq down Next week's earnings calendar heats up Trump: Iran not ready to make a deal. Crude oil futures settled at $89.31 NY Times: Trump meets with top advisors to decide whether to increase military pressure on Iran EU fines today, Trump 301 tariff",
-      "published": "25 Jul 2026 04:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.521,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Kalender pendapatan minggu depan memanas",
-      "url": "https://investinglive.com/news/next-week-s-earnings-calendar-heats-up/",
-      "summary": "Earnings season hits full stride next week, with several of the market's biggest companies set to report. Investors will be watching not only the headline numbers, but also management commentary on AI spending, consumer demand, tariffs, and the outlook for the second half of the year. Monday Before ",
-      "published": "25 Jul 2026 02:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.19,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Trump: Iran belum siap membuat kesepakatan.",
-      "url": "https://investinglive.com/news/trump-iran-not-ready-to-make-a-deal/",
-      "summary": "Iran not yet ready to make a deal. We can negotiate and we are speaking to them. Nuclear is a wave of the future On Saudi Arabia nuclear deal: Saudi Arabia should be a member of Abraham accords. On Canada: going to put a big tariff on Canada because of the smoke. Will see what comes of Iran talks. T",
-      "published": "25 Jul 2026 02:44 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Pendapatan Perusahaan Teknologi Besar Menghantam Pasar Karena Pemberontakan Terhadap Pengeluaran AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/big-tech-earnings-slam-into-a-market-in-revolt-over-ai-spending",
+      "summary": "For years, US technology giants had a tacit agreement with investors: The companies could spend lavishly on artificial intelligence, and the stock market would reward them long as their revenues were rising. That deal is suddenly breaking down.",
+      "published": "26 Jul 2026 20:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.206,
+      "score": 0.893,
       "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "NY Times: Trump bertemu dengan para penasihat utama untuk memutuskan apakah akan meningkatkan tekanan militer terhadap Iran",
-      "url": "https://investinglive.com/news/ny-times-trump-meets-with-top-advisors-to-decide-whether-to-increase-military-pressure-on-iran/",
-      "summary": "President Trump met Friday with top advisers and senior Cabinet officials to discuss whether to intensify the U.S. military campaign against Iran, according to a report from The New York Times. The meeting comes after the collapse of the ceasefire and the breakdown of a MOU that had been intended to",
-      "published": "25 Jul 2026 01:34 WIB",
-      "sentiment": "Bullish",
-      "score": 0.642,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "AS dan Inggris berencana mengadakan pertemuan mengenai perlindungan pelayaran di Selat Hormuz",
-      "url": "https://investinglive.com/news/us-and-the-uk-planning-on-having-a-meeting-on-protecting-shipping-in-the-strait-of-hormuz/",
-      "summary": "The United States and the United Kingdom are planning a high-level conference in London next week to discuss forming an international coalition to protect commercial shipping through the Strait of Hormuz, according to Axios. The meeting could bring together defense ministers and senior military lead",
-      "published": "24 Jul 2026 23:33 WIB",
-      "sentiment": "Bullish",
-      "score": 0.848,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pakistan sedang menjajaki jalan menuju dimulainya kembali perundingan AS-Iran.  Minyak bergerak lebih rendah",
-      "url": "https://investinglive.com/news/pakistan-is-exploring-a-path-toward-a-resumption-of-us-iran-talks-helps-stocks/",
-      "summary": "Reuters, citing sources, reports that Pakistan is attempting to revive a path toward renewed U.S.-Iran talks aimed at ending the conflict. Markets have seen similar headlines before, but the report has nevertheless helped improve risk sentiment. U.S. stocks have moved higher on the news. The Dow Jon",
-      "published": "24 Jul 2026 22:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.459,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Trump: Saya percaya pada Xi dan Putin dalam hal penjualan amunisi ke Iran",
-      "url": "https://investinglive.com/news/trump-i-trust-xi-and-putin-when-it-comes-to-selling-missiles-to-iran/",
-      "summary": "Trump is posting on TruthSocial: There has been some speculation that the success of the Iranian missiles at targeting bases and such, as well aa the supply given the annihilation of there defense, suggests some nafarious help from the likes of China and Russia. I do not know but Trump gives both le",
-      "published": "24 Jul 2026 22:29 WIB",
-      "sentiment": "Bullish",
-      "score": 0.752,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Emas rebound lebih tinggi dan kembali ke wilayah netral menjelang penutupan minggu ini",
-      "url": "https://investinglive.com/technical-analysis/gold-is-rebounding-higher-and-back-into-neutral-territory-as-the-week-heads-toward-the-close/",
-      "summary": "The price of gold traded at its low for the week on Monday, but sellers could not sustain the downside momentum. The bearish bias began to deteriorate as the price moved back above its 100-hour moving average, a downward-sloping trendline, and its 200-hour moving average. Holding those levels as sup",
-      "published": "24 Jul 2026 22:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.824,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pres. Trump akan bertemu dengan Perdana Menteri Israel Netanyahu pada hari Selasa di Gedung Putih",
-      "url": "https://investinglive.com/news/pres-trump-to-meet-with-israel-prime-minister-netanyahu-on-tuesday-at-the-white-house/",
-      "summary": "Israel PMs office is reporting that Israeli Prime Minister Netanyahu will be traveling to Washington to meet with Pres. Trump on Tuesday. Israel has recently been saying that they would not be an aggressor in the US Iranian war. President Trump has continued to strongly back Israel and Prime Ministe",
-      "published": "24 Jul 2026 21:27 WIB",
-      "sentiment": "Bullish",
-      "score": 0.151,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Ledakan Dilaporkan di Arab Saudi",
-      "url": "https://investinglive.com/news/explosions-reported-in-saudi-arabia/",
-      "summary": "Reports from Iranian state-affiliated news agencies Fars and Tasnim said explosions were heard in Saudi Arabia early Friday. Fars claimed a drone struck logistics warehouses used by the U.S. Army, while Tasnim separately reported explosions in the kingdom without providing additional details. As of ",
-      "published": "24 Jul 2026 20:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga EUR/JPY: Pasangan ini berkonsolidasi di bawah 187,00, pembeli menargetkan 188,00",
-      "url": "https://www.fxstreet.com/news/eur-jpy-price-forecast-consolidates-near-18700-bulls-target-18800-202607242054",
-      "summary": "The EUR/JPY consolidates around 186.00, edges down by 0.06% amid a souring of risk appetite amid the escalation of the US-Iran war, and strengthens safe-haven assets like the Japanese Yen.",
-      "published": "25 Jul 2026 03:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.188,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Malaysia: Fundamental yang kuat mendukung Ringgit dan obligasi – DBS",
-      "url": "https://www.fxstreet.com/news/malaysia-solid-fundamentals-support-ringgit-and-bonds-dbs-202607242022",
-      "summary": "DBS Group Research economist Chua Han Teng argues that Malaysia’s financial markets reflect confidence in the country’s solid domestic fundamentals despite lingering Middle East geopolitical risks.",
-      "published": "25 Jul 2026 03:22 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Baht Thailand: Kejutan minyak dan BoT yang dovish membuat THB tertekan terhadap Dolar AS – OCBC",
-      "url": "https://www.fxstreet.com/news/thai-baht-oil-shock-and-dovish-bot-keep-thb-pressured-against-us-dollar-ocbc-202607241858",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that the Thai Baht (THB) is trading near its weakest level in more than a year against the US Dollar (USD), as volatile oil prices, a firmer USD and higher US yields weigh on the currency.",
-      "published": "25 Jul 2026 01:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.591,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Emas menguat meskipun Dolar AS menguat",
-      "url": "https://www.fxstreet.com/news/gold-gains-despite-firm-us-dollar-202607241830",
-      "summary": "Gold price (XAU/USD) drifts higher on Friday as the Greenback stands firm, even as growing speculation that the US-Iran war may last longer than expected could, in the end, hurt the prospects of the yellow metal. The XAU/USD trades at $4,065, up 0.38%.",
-      "published": "25 Jul 2026 01:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.74,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga Perak: XAG/USD berkonsolidasi karena pembeli kesulitan untuk menembus SMA 21-hari",
-      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-consolidates-as-bulls-struggle-to-clear-the-21-day-sma-202607241758",
-      "summary": "Silver (XAG/USD) edges higher on Friday as a pullback in Oil prices pushes US Treasury yields lower, while the US Dollar (USD) fluctuates near recent highs. At the time of writing, XAG/USD trades around $58.60, up 2.40% on the day.",
-      "published": "25 Jul 2026 00:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.103,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dow Jones Industrial Average membeli rumor dan tertidur melalui rezim tarif",
-      "url": "https://www.fxstreet.com/news/the-dow-jones-industrial-average-buys-a-rumour-and-sleeps-through-a-tariff-regime-202607241748",
-      "summary": "The index that spent this week absorbing a war premium trades near 52,000 on Friday, around 325 points to the good side, on the strength of a wire report that its own three sources undercut in the same breath.",
-      "published": "25 Jul 2026 00:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.216,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Euro: Pandangan Kisaran Berombak Bertahan Terhadap Dolar AS – Rabobank",
-      "url": "https://www.fxstreet.com/news/euro-choppy-range-view-holds-against-us-dollar-rabobank-202607241617",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley describes EUR/USD as wary after the July European Central Bank (ECB) meeting. Foley notes that the Euro (EUR) failed to gain support despite a hawkish ECB tone, while the Dollar benefits from safe haven demand and Federal Reserve (Fed) expectations.",
-      "published": "24 Jul 2026 23:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.858,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Pound Inggris naik karena penurunan harga minyak melemahkan USD, dan taruhan kenaikan suku bunga The Fed meningkat",
-      "url": "https://www.fxstreet.com/news/british-pound-rises-as-oil-slide-softens-usd-fed-hike-bets-increase-202607241608",
-      "summary": "The Pound Sterling advances by some 0.20% on Friday as Oil prices tumble, weighing on the US Dollar, while the US-Iran conflict signals a further escalation, which market participants ignored. Despite registering daily gains, the GBP/USD is poised to finish the week with losses of nearly 0.70%.",
-      "published": "24 Jul 2026 23:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.906,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Minyak: Risiko pasokan membuat harga tetap tinggi – BNY",
-      "url": "https://www.fxstreet.com/news/oil-supply-risks-keep-prices-elevated-bny-202607241603",
-      "summary": "BNY’s Geoff Yu notes that Brent has retreated slightly below $100 but remains supported by renewed Middle East tensions, Red Sea and Strait of Hormuz disruptions, and Kazakhstan’s export halt. Institutional flows show high-conviction re-accumulation of energy exposure from a still-depleted base.",
-      "published": "24 Jul 2026 23:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.542,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Franc Swiss sedikit menguat terhadap Dolar AS seiring turunnya harga minyak",
-      "url": "https://www.fxstreet.com/news/swiss-franc-gains-slightly-against-us-dollar-as-oil-prices-ease-202607241557",
-      "summary": "USD/CHF trades flat on Friday as a pullback in Oil prices weighs modestly on the US Dollar (USD) and US Treasury yields. However, the Middle East war and hawkish Federal Reserve (Fed) expectations keep an underlying floor under the Greenback.",
-      "published": "24 Jul 2026 22:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.477,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Supertanker yang Menuju Arab Saudi Berbalik Sebelum Houthi Chokepoint",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-25/chinese-supertanker-u-turns-to-shun-red-sea-amid-houthi-blockade",
-      "summary": "A Hong Kong-flagged supertanker bound for Saudi Arabia’s Red Sea port of Yanbu has U-turned just before reaching the Bab el-Mandeb chokepoint, where recent attacks were launched by the Houthis as part of a blockade on ships linked to the kingdom.",
-      "published": "25 Jul 2026 15:53 WIB",
-      "sentiment": "Bearish",
-      "score": -0.233,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "India Menandai Serangan terhadap Tanker LPG di Perairan Iran, Kata Kru Aman",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-25/india-flags-attack-on-lpg-tanker-in-iran-waters-says-crew-safe",
-      "summary": "India’s embassy in Tehran said it is in close contact with authorities after a liquefied petroleum gas tanker, with 28 Indian crew members onboard, came under attack in Iranian territorial waters on Friday.",
-      "published": "25 Jul 2026 10:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.591,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "El Niño Memperburuk Nasib Kawasan Beras Asia Pasca Perang Guncangan Harga",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-25/el-nino-worsens-plight-of-asia-s-rice-belt-after-war-price-shock",
-      "summary": "A dry spell is sweeping across Asia’s rice fields, dealing another blow to farmers grappling with steep fuel and fertilizer prices triggered by the war in Iran.",
-      "published": "25 Jul 2026 08:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.926,
-      "emoji": "🔴",
-      "impact": "high"
+      "title": "Perdana Menteri Australia Albanese Akan Menekan Trump tentang Tarif Baru",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/australian-prime-minister-albanese-to-press-trump-on-new-tariffs",
+      "summary": "Australian Prime Minister Anthony Albanese said he will appeal directly to President Donald Trump over new tariffs announced by Washington, describing the levies as unjustified.",
+      "published": "26 Jul 2026 07:34 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
-      "title": "Lebih dari 250.000 orang mengungsi dari kebakaran hutan di Perancis dan Spanyol",
-      "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Spain's PM warns of \"complex hours\" ahead as authorities in France say they are far from bringing blazes burning near Bordeaux under control.",
-      "published": "26 Jul 2026 00:13 WIB",
+      "title": "Pemukim Israel membakar masjid, mobil, dan lahan pertanian di Tepi Barat, kata warga Palestina",
+      "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
+      "summary": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tell, which left four Palestinians and two Israelis dead.",
+      "published": "26 Jul 2026 17:26 WIB",
       "sentiment": "Bearish",
-      "score": -0.183,
+      "score": -0.943,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -330,146 +99,113 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Sepuluh orang tewas dalam serangan Rusia terhadap pameran drone di dekat Kyiv",
-      "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss",
-      "summary": "The event, attended by prominent members of the Ukrainian defence industry, was hit by ballistic missiles in the middle of the day.",
-      "published": "25 Jul 2026 07:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.87,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Empat warga Palestina dan dua warga Israel tewas dalam penembakan di Tepi Barat",
-      "url": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Palestinians say villagers came under attack by settlers, while the Israeli military says a Palestinian stole a weapon and opened fire on hikers.",
-      "published": "25 Jul 2026 05:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.984,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "AS menyerang puluhan negara dengan gelombang tarif baru",
-      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
-      "summary": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.",
-      "published": "24 Jul 2026 19:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.178,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC World",
-      "title": "Presiden Nigeria menyetujui ekspansi militer terbesar dalam beberapa waktu terakhir",
-      "url": "https://www.bbc.co.uk/news/articles/cwymjx3nrxvo?at_medium=RSS&at_campaign=rss",
-      "summary": "The government is under intense pressure to tackle a slew of armed groups, many of whom attack civilians.",
-      "published": "24 Jul 2026 22:22 WIB",
-      "sentiment": "Bearish",
-      "score": -0.318,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Sudah lama tertunda, mengubah hidup, atau sembrono? Pemikiran Anda tentang aturan pernikahan berubah",
-      "url": "https://www.bbc.co.uk/news/articles/cvg8wlwzjx9o?at_medium=RSS&at_campaign=rss",
-      "summary": "The government wants to relax wedding laws so couples can get married almost anywhere.",
-      "published": "25 Jul 2026 06:31 WIB",
+      "source": "BBC Top Stories",
+      "title": "Andy Burnham mengesampingkan pemilihan awal dalam wawancara eksklusif BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c935kzyq6r4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The new prime minister told Laura Kuenssberg that people \"voted for a manifesto\" that he would honour, when pressed on whether there will be an early general election.",
+      "published": "26 Jul 2026 12:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.44,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Faisal Islam: Kesepakatan perdagangan Trump di Inggris tidak lagi terlihat mengalahkan dunia",
-      "url": "https://www.bbc.co.uk/news/articles/c9v4ymwddwgo?at_medium=RSS&at_campaign=rss",
-      "summary": "While the US tariffs imposed on the UK are effectively unchanged, other countries now have a better deal.",
-      "published": "24 Jul 2026 21:02 WIB",
-      "sentiment": "Bullish",
-      "score": 0.671,
+      "score": 0.637,
       "emoji": "🟢",
       "impact": "medium"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Polisi menyelidiki sumbangan dari perusahaan Tice untuk Reformasi Inggris",
-      "url": "https://www.bbc.co.uk/news/articles/c5yv4r5g55do?at_medium=RSS&at_campaign=rss",
-      "summary": "Britain Means Business, owned by the party’s deputy leader Richard Tice, made two donations of £250,000 in the run-up to the 2024 general election.",
-      "published": "26 Jul 2026 01:04 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Sudah lama tertunda, mengubah hidup, atau sembrono: Apa yang Anda katakan tentang perubahan aturan pernikahan",
-      "url": "https://www.bbc.co.uk/news/articles/cvg8wlwzjx9o?at_medium=RSS&at_campaign=rss",
-      "summary": "The government wants to relax wedding laws so couples can get married almost anywhere.",
-      "published": "25 Jul 2026 06:31 WIB",
+      "title": "Bagaimana saudara perempuan rapper Aitch menginspirasinya untuk mendaki salah satu puncak terberat di dunia",
+      "url": "https://www.bbc.co.uk/news/articles/cx2dgl98lxko?at_medium=RSS&at_campaign=rss",
+      "summary": "The rapper has been taking on challenges to raise awareness and money for the Down's Syndrome Association.",
+      "published": "26 Jul 2026 14:40 WIB",
       "sentiment": "Bullish",
-      "score": 0.44,
+      "score": 0.414,
       "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Ada apa di balik tindakan keras Israel di Tepi Barat yang diduduki?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/7/25/whats-behind-the-israeli-crackdown-in-the-occupied-west-bank?traffic_source=rss",
-      "summary": "Israeli forces intensify West Bank raids as settlers escalate attacks and settlement expansion accelerates.",
-      "published": "26 Jul 2026 06:30 WIB",
+      "title": "Faye dari Senegal meluncurkan partai baru, meresmikan perpisahannya dengan Sonko",
+      "url": "https://www.aljazeera.com/news/2026/7/26/senegals-faye-launches-a-new-party-formalising-his-split-with-sonko?traffic_source=rss",
+      "summary": "Months of tensions between president and ex-ally culminate in split that will reshape Senegal's political landscape.",
+      "published": "26 Jul 2026 21:22 WIB",
       "sentiment": "Bearish",
-      "score": -0.44,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran menuduh Ukraina melakukan serangan mematikan terhadap kapal komersial Kaspia",
-      "url": "https://www.aljazeera.com/news/2026/7/25/iran-accuses-ukraine-of-deadly-attack-on-caspian-commercial-vessel?traffic_source=rss",
-      "summary": "Iran accuses Ukraine of attacking a Caspian vessel, killing one sailor and injuring another, calling it a criminal act.",
-      "published": "26 Jul 2026 06:16 WIB",
+      "title": "Israel dan paradoks biaya perang Iran",
+      "url": "https://www.aljazeera.com/opinions/2026/7/26/israel-and-the-cost-paradox-of-the-iran-war?traffic_source=rss",
+      "summary": "Israel instigated the war on Iran and yet it has borne few of its costs.",
+      "published": "26 Jul 2026 21:04 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.928,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pasukan Israel menembakkan gas air mata kepada jurnalis yang melaporkan baku tembak di Nablus",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/israeli-forces-tear-gas-journalists-reporting-nablus-shootout?traffic_source=rss",
-      "summary": "Israeli troops fired tear gas at Palestinians and journalists in Tal a day after a deadly shootout",
-      "published": "26 Jul 2026 04:08 WIB",
+      "title": "Presiden Ahmed al-Sharaa: Suriah mencari kesepakatan keamanan dengan Israel",
+      "url": "https://www.aljazeera.com/news/2026/7/26/president-ahmed-al-sharaa-syria-seeking-security-deal-with-israel?traffic_source=rss",
+      "summary": "Syrian President al-Sharaa tells Al Jazeera Damascus seeks a security deal with Israel, and warns of chaos in Lebanon.",
+      "published": "26 Jul 2026 19:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.077,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Bagaimana reformasi media yang dilakukan pemerintahan Netanyahu berisiko memperdalam bias pers Israel",
-      "url": "https://www.aljazeera.com/news/2026/7/25/how-netanyahu-govt-media-reforms-risk-deepening-israeli-press-bias?traffic_source=rss",
-      "summary": "Critics decry Israel's sweeping media reforms, warning of further risks to press freedom and election integrity.",
-      "published": "26 Jul 2026 01:14 WIB",
+      "title": "Tentara Iran mengeluarkan peringatan menjelang kunjungan Netanyahu ke AS",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/irans-army-issues-warning-ahead-of-netanyahus-us-visit?traffic_source=rss",
+      "summary": "Iran says it has stopped retaliatory operations in the Gulf, but warns the war could expand if US strikes continue.",
+      "published": "26 Jul 2026 18:56 WIB",
       "sentiment": "Bearish",
-      "score": -0.263,
+      "score": -0.935,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Tidak ada pertanggungjawaban atas kejahatan perang pemukim terhadap warga Palestina’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/no-accountability-for-settler-war-crimes-against?traffic_source=rss",
+      "summary": "‘No accountability for settler war crimes against Palestinians’",
+      "published": "26 Jul 2026 18:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.832,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Malaysia akan menjadi tuan rumah balapan F1 Grand Prix Bahrain yang dijadwalkan ulang pada bulan Oktober",
+      "url": "https://www.aljazeera.com/sports/2026/7/26/malaysia-to-host-rescheduled-bahrain-grand-prix-f1-race-in-october?traffic_source=rss",
+      "summary": "The race in Bahrain was rescheduled in April amid the US-Israel war on Iran and will now be held in Malaysia.",
+      "published": "26 Jul 2026 18:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.306,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "Harga minyak mungkin turun, tapi harga bensin tidak. Lihatlah jebakan yang kita hadapi.",
-      "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
-      "summary": "The Iran war isn’t causing your energy bill to soar. Blame Wall Street for that.",
-      "published": "26 Jul 2026 01:34 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
+      "title": "Ada 'ancaman rangkap tiga' teknis pada saham, namun ada juga tempat yang bisa disembunyikan oleh investor",
+      "url": "https://www.marketwatch.com/story/theres-a-technical-triple-threat-for-stocks-but-also-places-investors-can-hide-59108c6b?mod=mw_rss_topstories",
+      "summary": "Treasury yields and oil prices surged, and the dollar confirmed the breakout toward a longer-term uptrend, to push the S&P 500 below key chart support.",
+      "published": "26 Jul 2026 20:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.572,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Pasar Treasury mengirimkan peringatan yang jelas kepada Ketua Fed Kevin Warsh tentang suku bunga",
+      "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
+      "summary": "Rising Treasury yields show how “enormously worried” the market is about inflation — and whether the Fed will back up its tough talk with action",
+      "published": "26 Jul 2026 19:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.193,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -485,12 +221,23 @@
     },
     {
       "source": "CNBC World",
-      "title": "Militer Saudi menyerang sasaran Houthi di Yaman setelah milisi yang didukung Iran menyerang kapal-kapal Laut Merah",
-      "url": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html",
-      "summary": "Saudi Arabia intercepted two ballistic missiles from Yemen, Greek security sources told Reuters, as fighting in a second front in the Iran war escalates.",
-      "published": "26 Jul 2026 03:29 WIB",
+      "title": "Ukraina menyerang kapal Iran di Laut Kaspia, Teheran menuduh Kyiv melakukan 'tindakan bermusuhan dan kriminal'",
+      "url": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
+      "summary": "The latest attacks by Ukraine, combined with Saudi military strikes on Iran-backed Houthi targets in Yemen, represent a widening of the Middle East conflict.",
+      "published": "26 Jul 2026 21:50 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Harga kakao melemah. Lalu mengapa coklat masih begitu mahal?",
+      "url": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
+      "summary": "Chocolate firms look to win shoppers back with premium products and social media trends after poor weather conditions, tariffs, and the Iran war hit sales.",
+      "published": "26 Jul 2026 12:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.456,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -504,50 +251,6 @@
       "score": 0.0,
       "emoji": "⚪",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Pengiriman minyak mendapat serangan dari berbagai pihak seiring meningkatnya pertempuran di Laut Merah, Hormuz, dan Laut Hitam",
-      "url": "https://www.cnbc.com/2026/07/24/oil-tanker-red-sea-hormuz-black-sea-iran-ukraine.html",
-      "summary": "More than 60 commercial ships have been attacked in the Persian Gulf, Strait of Hormuz and Gulf of Oman since March 1.",
-      "published": "25 Jul 2026 01:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.902,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Serangan Rusia memutus aliran listrik ke sekitar 150.000 listrik di utara Ukraina ketika Kyiv menyerang fasilitas minyak dan rudal",
-      "url": "https://www.cnbc.com/2026/07/24/russia-ukraine-war-zelenskyy-putin-oil.html",
-      "summary": "The update comes as Ukrainian President Volodymyr Zelenskyy welcomed strikes on a key missile components facility in the Russian city of Kirov.",
-      "published": "25 Jul 2026 23:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.82,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Harga minyak turun karena laporan bahwa Pakistan mendorong perundingan baru antara AS-Iran dengan dukungan Tiongkok",
-      "url": "https://www.cnbc.com/2026/07/24/oil-price-trump-hormuz-red-sea-iran-war.html",
-      "summary": "Oil prices dropped by around 3% on Friday, but remained on track for a weekly jump of 10% as the U.S.-Iran war continued to escalate.",
-      "published": "25 Jul 2026 02:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.903,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Tarif global baru Trump mendapat kecaman dari mitra dagangnya atas pembenaran kerja paksa",
-      "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
-      "summary": "U.S. trading partners have rejected the forced labor rationale behind Trump's new global tariffs, while most signaled plans to keep negotiating.",
-      "published": "24 Jul 2026 19:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.852,
-      "emoji": "🔴",
-      "impact": "medium"
     }
   ]
 }
