@@ -1,5 +1,5 @@
 {
-  "generated": "27 Jul 2026 09:28 WIB",
+  "generated": "27 Jul 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-07-26",
@@ -19,9 +19,9 @@
       "currency": "EUR",
       "impact": "low",
       "event": "German ifo Business Climate",
-      "actual": "",
+      "actual": "86.6",
       "forecast": "86.1",
-      "previous": "85.6"
+      "previous": "85.7"
     },
     {
       "date": "2026-07-27",
@@ -30,9 +30,9 @@
       "currency": "EUR",
       "impact": "low",
       "event": "M3 Money Supply y/y",
-      "actual": "",
+      "actual": "3.3%",
       "forecast": "3.2%",
-      "previous": "3.2%"
+      "previous": "3.0%"
     },
     {
       "date": "2026-07-27",
@@ -41,9 +41,9 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Private Loans y/y",
-      "actual": "",
+      "actual": "3.0%",
       "forecast": "3.1%",
-      "previous": "3.1%"
+      "previous": "3.0%"
     },
     {
       "date": "2026-07-27",
@@ -63,7 +63,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "CBI Realized Sales",
-      "actual": "",
+      "actual": "-26",
       "forecast": "-45",
       "previous": "-54"
     },
@@ -74,7 +74,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Core Durable Goods Orders m/m",
-      "actual": "",
+      "actual": "0.6%",
       "forecast": "0.9%",
       "previous": "1.4%"
     },
@@ -85,9 +85,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "Durable Goods Orders m/m",
-      "actual": "",
+      "actual": "0.3%",
       "forecast": "1.6%",
-      "previous": "-4.5%"
+      "previous": "-4.0%"
     },
     {
       "date": "2026-07-27",
