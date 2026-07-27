@@ -1,5 +1,5 @@
 {
-  "generated": "27 Jul 2026 04:39 WIB",
+  "generated": "27 Jul 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,38 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.167,
-      "count": 13
+      "score": -0.144,
+      "count": 15
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.143,
-      "count": 12
+      "score": -0.121,
+      "count": 14
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.153,
+      "direction": "Netral →",
+      "score": 0.005,
       "count": 11
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.434,
-      "count": 8
+      "score": -0.563,
+      "count": 7
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.061,
+      "count": 4
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.061,
+      "count": 4
     },
     {
       "pair": "AUD/USD",
@@ -39,21 +51,20 @@
       "direction": "Tekanan Turun ▼",
       "score": -0.152,
       "count": 3
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.539,
-      "count": 2
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.539,
-      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Empat perusahaan besar dan beberapa perusahaan minyak dan papan atas menyoroti kalender pendapatan mingguan AS",
+      "url": "https://investinglive.com/stocks/four-megacaps-and-some-high-flyers-and-oil-companies-highlight-the-weekly-us-earning-calendar/",
+      "summary": "The market just posted a down week because Alphabet delivered perfectly solid results and got shelled anyway — capex guidance marched toward $200 billion and free cash flow went negative for the first time in its life as a public company. Tesla slid alongside it. The message from the tape was unmist",
+      "published": "27 Jul 2026 06:34 WIB",
+      "sentiment": "Bullish",
+      "score": 0.734,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Iran mengatakan akan menghentikan serangan selama jeda AS masih berlanjut",
@@ -64,6 +75,28 @@
       "score": -0.696,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 27 Juli",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/latest-oil-market-news-and-analysis-for-july-27",
+      "summary": "⁠⁠Oil sank after the US paused strikes against Iran, easing Middle East tensions even as the Houthis claimed attacks against Saudi targets.",
+      "published": "27 Jul 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.887,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Minyak Turun, Saham Berjangka Naik seiring Meredanya Ketegangan di Iran: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/oil-tumbles-as-us-and-iran-pause-military-strikes-markets-wrap",
+      "summary": "Oil dropped and US equity-index futures rallied as the US and Iran refrained from retaliatory strikes, easing concerns over potential disruptions to Middle East energy supplies after a recent escalation in the conflict.",
+      "published": "27 Jul 2026 05:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.831,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -119,17 +152,6 @@
       "score": -0.943,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Andy Burnham mengesampingkan pemilihan awal dalam wawancara eksklusif BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c935kzyq6r4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The new prime minister told Laura Kuenssberg that people \"voted for a manifesto\" that he would honour, when pressed on whether there will be an early general election.",
-      "published": "26 Jul 2026 12:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.637,
-      "emoji": "🟢",
-      "impact": "medium"
     },
     {
       "source": "BBC Top Stories",
@@ -253,15 +275,15 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Darfur: Identitas Senjata",
-      "url": "https://www.aljazeera.com/video/aljazeerauntangles/2026/7/26/darfur-weaponising-identity?traffic_source=rss",
-      "summary": "How land conflict, state neglect and racist ideology have driven Darfur towards alleged genocide.",
-      "published": "26 Jul 2026 23:20 WIB",
+      "source": "MarketWatch",
+      "title": "Harga minyak merosot, saham berjangka menguat karena AS dan Iran menghentikan serangan, Wall Street menunggu minggu yang sibuk",
+      "url": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
+      "summary": "U.S. stock-index futures rallied and oil prices tumbled on Sunday as the U.S. and Iran took a pause from fighting, and as Wall Street gears up for the Fed’s meeting and key earnings reports from Big Tech companies.",
+      "published": "27 Jul 2026 06:45 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.361,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "MarketWatch",
@@ -298,6 +320,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "Minyak turun 5% karena Iran dilaporkan memberi sinyal penghentian serangan jika jeda AS bertahan",
+      "url": "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
+      "summary": "Oil prices fell after Iran reportedly said it would suspend attacks as long as a U.S. pause in hostilities remains in place.",
+      "published": "27 Jul 2026 06:58 WIB",
+      "sentiment": "Bearish",
+      "score": -0.961,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Ukraina menyerang kapal Iran di Laut Kaspia, Teheran menuduh Kyiv melakukan 'tindakan bermusuhan dan kriminal'",
       "url": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
       "summary": "The latest attacks by Ukraine, combined with Saudi military strikes on Iran-backed Houthi targets in Yemen, represent a widening of the Middle East conflict.",
@@ -309,7 +342,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Harga kakao melemah. Lalu mengapa coklat masih mahal?",
+      "title": "Harga kakao melemah. Lalu mengapa coklat masih begitu mahal?",
       "url": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
       "summary": "Chocolate firms look to win shoppers back with premium products and social media trends after poor weather conditions, tariffs, and the Iran war hit sales.",
       "published": "26 Jul 2026 12:00 WIB",
