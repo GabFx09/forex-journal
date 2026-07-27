@@ -1,23 +1,23 @@
 {
-  "generated": "27 Jul 2026 04:39 WIB",
+  "generated": "27 Jul 2026 07:01 WIB",
   "summary": {
-    "total": 51,
-    "bullish": 16,
-    "bearish": 25,
-    "netral": 10,
-    "avg_score": -0.1786,
+    "total": 57,
+    "bullish": 20,
+    "bearish": 29,
+    "netral": 8,
+    "avg_score": -0.1798,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.388,
-        "count": 8
+        "score": 0.372,
+        "count": 10
       },
       {
         "currency": "EUR",
         "sentiment": "Bullish",
-        "score": 0.26,
+        "score": 0.607,
         "count": 4
       },
       {
@@ -47,6 +47,39 @@
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Jepang bulan Juni jasa IHP sebesar 3,2% vs 3,3% sebelumnya",
+      "url": "https://investinglive.com/forex/japan-june-services-ppi-3-2-vs-3-3-prior/",
+      "summary": "Prior was +3.3% (revised to 3.4%) This is a sequential improvement after two months at 3.3% y/y. It's tough to imagine Japan facing inflation but we're close to that point and last week's oil rally certainly didn't help. This article was written by Adam Button at investinglive.com.",
+      "published": "27 Jul 2026 06:55 WIB",
+      "sentiment": "Bullish",
+      "score": 0.321,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Empat perusahaan besar dan beberapa perusahaan minyak dan papan atas menyoroti kalender pendapatan mingguan AS",
+      "url": "https://investinglive.com/stocks/four-megacaps-and-some-high-flyers-and-oil-companies-highlight-the-weekly-us-earning-calendar/",
+      "summary": "The market just posted a down week because Alphabet delivered perfectly solid results and got shelled anyway — capex guidance marched toward $200 billion and free cash flow went negative for the first time in its life as a public company. Tesla slid alongside it. The message from the tape was unmist",
+      "published": "27 Jul 2026 06:34 WIB",
+      "sentiment": "Bullish",
+      "score": 0.734,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Minyak turun, saham berjangka melonjak pada pembukaan mingguan",
+      "url": "https://investinglive.com/stocks/oil-drops-stock-futures-surge-at-the-weekly-open/",
+      "summary": "Happy Monday to all the bulls out there, and to the oil bears. There was an inkling of what was coming on Friday's price action and we got confirmation over the weekend as the US halted strikes. It doesn't sound like a deal is imminent but the shooting has stopped and that's leading to some early op",
+      "published": "27 Jul 2026 05:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.774,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Indikasi awal untuk pasar FX minggu ini",
@@ -100,6 +133,50 @@
       "sentiment": "Bullish",
       "score": 0.813,
       "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Nvidia sedang dalam pembicaraan dengan OpenAI untuk menjamin pembiayaan $250 miliar untuk pusat data, WSJ melaporkan",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-wsj-reports-4812926",
+      "summary": "",
+      "published": "27 Jul 2026 06:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.25,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Nvidia akan mengakuisisi $1 miliar saham baru Naver Korea Selatan",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-to-acquire-1-billion-of-new-shares-of-south-koreas-naver-4812925",
+      "summary": "",
+      "published": "27 Jul 2026 06:06 WIB",
+      "sentiment": "Bullish",
+      "score": 0.296,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Dewan Brown-Forman mengatakan proposal Sazerac yang tidak diminta tidak dapat ditindaklanjuti",
+      "url": "https://www.investing.com/news/stock-market-news/brownforman-board-says-sazerac-unsolicited-proposal-not-actionable-4812924",
+      "summary": "",
+      "published": "27 Jul 2026 06:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Saham Rusia melemah pada penutupan perdagangan; Indeks MOEX Rusia tidak berubah",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4812915",
+      "summary": "",
+      "published": "27 Jul 2026 04:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -169,50 +246,6 @@
       "impact": "high"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Shein mengajukan IPO di Hong Kong karena perubahan tarif membebani pertumbuhan dan keuntungan",
-      "url": "https://www.investing.com/news/stock-market-news/shein-files-for-hong-kong-ipo-after-profit-drops-despite-revenue-growth-4812897",
-      "summary": "",
-      "published": "26 Jul 2026 21:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.75,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Mengapa ahli strategi ini mengatakan erosi institusional AS terlalu dibesar-besarkan?",
-      "url": "https://www.investing.com/news/stock-market-news/why-this-strategist-says-us-institutional-erosion-is-overstated-4812863",
-      "summary": "",
-      "published": "26 Jul 2026 20:08 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham Arab Saudi melemah pada penutupan perdagangan; Tadawul Semua Saham turun 0,34%",
-      "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-034-4812860",
-      "summary": "",
-      "published": "26 Jul 2026 19:45 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Perusahaan yang melakukan pembelian kembali secara agresif telah tertinggal dari S&P 500 di era AI",
-      "url": "https://www.investing.com/news/stock-market-news/companies-with-aggressive-buybacks-have-lagged-the-sp-500-in-the-ai-era-4812859",
-      "summary": "",
-      "published": "26 Jul 2026 19:43 WIB",
-      "sentiment": "Bearish",
-      "score": -0.421,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Lula menyebut tarif baru AS sebagai sebuah kesalahan dalam opini Washington Post",
       "url": "https://www.investing.com/news/economic-indicators/lula-calls-new-us-tariffs-a-mistake-in-washington-post-oped-4812899",
@@ -224,15 +257,59 @@
       "impact": "medium"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Gelombang tarif Trump ini kemungkinan akan terus berlanjut; lebih banyak lagi yang akan datang",
-      "url": "https://www.investing.com/news/economic-indicators/this-wave-of-trump-tariffs-is-likely-here-to-stay-more-are-coming-4812764",
-      "summary": "",
-      "published": "25 Jul 2026 17:12 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
+      "source": "Bloomberg Markets",
+      "title": "Emas Naik seiring Berhentinya Perjuangan Timur Tengah Membatasi Risiko Inflasi",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/gold-climbs-after-pause-in-mideast-fighting-cuts-inflation-fears",
+      "summary": "Gold rose, after a pause in fighting between the US and Iran over the weekend eased oil supply risks and inflationary concerns.",
+      "published": "27 Jul 2026 05:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.798,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 27 Juli",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/latest-oil-market-news-and-analysis-for-july-27",
+      "summary": "⁠⁠Oil sank after the US paused strikes against Iran, easing Middle East tensions even as the Houthis claimed attacks against Saudi targets.",
+      "published": "27 Jul 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.887,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Minyak Turun, Saham Berjangka Naik seiring Meredanya Ketegangan di Iran: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/oil-tumbles-as-us-and-iran-pause-military-strikes-markets-wrap",
+      "summary": "Oil dropped and US equity-index futures rallied as the US and Iran refrained from retaliatory strikes, easing concerns over potential disruptions to Middle East energy supplies after a recent escalation in the conflict.",
+      "published": "27 Jul 2026 05:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.831,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Marcos Membutuhkan Negara untuk Menghidupkan Kembali Perekonomian dan Kepresidenan Filipina",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/marcos-needs-state-of-the-nation-to-revive-philippine-economy-presidency",
+      "summary": "A year ago, Philippines President Ferdinand Marcos Jr.’s annual address to Congress shocked the nation with revelations of billions of dollars of graft involving flood-control schemes. The disclosure triggered an economic slump as projects slowed and consumers and businesses cut spending.",
+      "published": "27 Jul 2026 06:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.25,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kiwi Akan Melampaui Euro karena Melebarnya Kesenjangan Suku Bunga, Kata Para Ahli Strategi",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/kiwi-will-outpace-euro-on-widening-rate-gap-strategists-say",
+      "summary": "New Zealand’s dollar is set to rise to the strongest in more than a year against the euro due to expectations the local central bank will outpace its European peer in raising interest rates, according to strategists.",
+      "published": "27 Jul 2026 04:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.87,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -312,17 +389,6 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Pizza, pasta, kentang, protein - bagaimana anak-anak Italia menjadi kelebihan berat badan",
-      "url": "https://www.bbc.co.uk/news/articles/c33y3151vydo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Mediterranean diet was a blueprint for healthy living, yet Italian children are among the most overweight in Europe according to WHO.",
-      "published": "26 Jul 2026 06:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.516,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC Business",
       "title": "'Taktik supermarket' baru Primark untuk merayu pelanggan dalam perang harga online",
       "url": "https://www.bbc.co.uk/news/articles/c4g3x4j8pgro?at_medium=RSS&at_campaign=rss",
@@ -332,28 +398,6 @@
       "score": -0.87,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Tembakan peringatan atau aksi publisitas - seberapa khawatirkah kita terhadap peretasan OpenAI?",
-      "url": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss",
-      "summary": "Hugging Face said the hack was done at superhuman speed by an AI with little or no human guidance.",
-      "published": "25 Jul 2026 17:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.486,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Andy Burnham mengesampingkan pemilihan awal dalam wawancara eksklusif BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c935kzyq6r4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The new prime minister told Laura Kuenssberg that people \"voted for a manifesto\" that he would honour, when pressed on whether there will be an early general election.",
-      "published": "26 Jul 2026 12:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.637,
-      "emoji": "🟢",
-      "impact": "medium"
     },
     {
       "source": "BBC Top Stories",
@@ -368,12 +412,23 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Saya pikir pengeboman Lockerbie adalah kasus tertutup sampai saya mulai mengajukan pertanyaan",
-      "url": "https://www.bbc.co.uk/news/articles/c2dkx01n0y1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Almost four decades on I delved into this complex case with fresh eyes - who really was behind the bombing?",
-      "published": "26 Jul 2026 15:48 WIB",
+      "title": "'Antisemitisme terasa tiada henti' - Mahasiswa Yahudi tentang kehidupan di universitas-universitas Inggris",
+      "url": "https://www.bbc.co.uk/news/articles/cp8l050d18yo?at_medium=RSS&at_campaign=rss",
+      "summary": "Some students said they are having to hide their Jewish identity, fearing physical and verbal abuse.",
+      "published": "27 Jul 2026 03:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.856,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apa penyebab kebakaran hutan yang belum pernah terjadi sebelumnya di Eropa?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/26/whats-causing-the-unprecedented-wildfires-in-europe?traffic_source=rss",
+      "summary": "France and Spain have deployed thousands of firefighters, and neighbouring countries have sent help.",
+      "published": "27 Jul 2026 04:17 WIB",
       "sentiment": "Bullish",
-      "score": 0.318,
+      "score": 0.402,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -532,15 +587,15 @@
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Darfur: Identitas Senjata",
-      "url": "https://www.aljazeera.com/video/aljazeerauntangles/2026/7/26/darfur-weaponising-identity?traffic_source=rss",
-      "summary": "How land conflict, state neglect and racist ideology have driven Darfur towards alleged genocide.",
-      "published": "26 Jul 2026 23:20 WIB",
+      "source": "MarketWatch",
+      "title": "Harga minyak merosot, saham berjangka menguat karena AS dan Iran menghentikan serangan, Wall Street menunggu minggu yang sibuk",
+      "url": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
+      "summary": "U.S. stock-index futures rallied and oil prices tumbled on Sunday as the U.S. and Iran took a pause from fighting, and as Wall Street gears up for the Fed’s meeting and key earnings reports from Big Tech companies.",
+      "published": "27 Jul 2026 06:45 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.625,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "MarketWatch",
@@ -577,6 +632,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "Minyak turun 5% karena Iran dilaporkan memberi sinyal penghentian serangan jika jeda AS bertahan",
+      "url": "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html",
+      "summary": "Oil prices fell after Iran reportedly said it would suspend attacks as long as a U.S. pause in hostilities remains in place.",
+      "published": "27 Jul 2026 06:58 WIB",
+      "sentiment": "Bearish",
+      "score": -0.961,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Ukraina menyerang kapal Iran di Laut Kaspia, Teheran menuduh Kyiv melakukan 'tindakan bermusuhan dan kriminal'",
       "url": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
       "summary": "The latest attacks by Ukraine, combined with Saudi military strikes on Iran-backed Houthi targets in Yemen, represent a widening of the Middle East conflict.",
@@ -588,7 +654,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Harga kakao melemah. Lalu mengapa coklat masih mahal?",
+      "title": "Harga kakao melemah. Lalu mengapa coklat masih begitu mahal?",
       "url": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
       "summary": "Chocolate firms look to win shoppers back with premium products and social media trends after poor weather conditions, tariffs, and the Iran war hit sales.",
       "published": "26 Jul 2026 12:00 WIB",
