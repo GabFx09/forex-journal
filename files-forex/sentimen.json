@@ -1,18 +1,18 @@
 {
-  "generated": "28 Jul 2026 11:04 WIB",
+  "generated": "28 Jul 2026 12:28 WIB",
   "summary": {
-    "total": 101,
-    "bullish": 31,
-    "bearish": 56,
-    "netral": 14,
-    "avg_score": -0.1828,
+    "total": 99,
+    "bullish": 30,
+    "bearish": 57,
+    "netral": 12,
+    "avg_score": -0.186,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bearish",
-        "score": -0.133,
-        "count": 29
+        "score": -0.115,
+        "count": 27
       },
       {
         "currency": "EUR",
@@ -23,36 +23,47 @@
       {
         "currency": "AUD",
         "sentiment": "Netral",
-        "score": 0.041,
+        "score": -0.026,
         "count": 6
       },
       {
         "currency": "JPY",
         "sentiment": "Bearish",
-        "score": -0.15,
+        "score": -0.207,
         "count": 5
-      },
-      {
-        "currency": "GBP",
-        "sentiment": "Bullish",
-        "score": 0.145,
-        "count": 4
       },
       {
         "currency": "CAD",
         "sentiment": "Bearish",
-        "score": -0.119,
-        "count": 4
+        "score": -0.186,
+        "count": 3
+      },
+      {
+        "currency": "GBP",
+        "sentiment": "Bearish",
+        "score": -0.135,
+        "count": 2
       },
       {
         "currency": "CNY",
         "sentiment": "Netral",
-        "score": 0.04,
-        "count": 2
+        "score": 0.0,
+        "count": 1
       }
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Pertumpahan darah di Asia memicu perdagangan pagi Eropa hari ini",
+      "url": "https://investinglive.com/stocks/a-bloodbath-in-asia-sets-the-stage-for-european-morning-trade-today/",
+      "summary": "It's an ugly day for Asian equities to say the least as tech shares, chipmakers and semiconductors especially, are being taken to the cleaners. South Korea's benchmark KOSPI index is the standout, being down roughly 10% on the day. What a beating. The drop there continues the fall from mid-June with",
+      "published": "28 Jul 2026 12:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.807,
+      "emoji": "🔴",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Bullock, RBA: Saya tidak tahu apa yang akan diputuskan dewan pada pertemuan berikutnya",
@@ -263,15 +274,59 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Intelijen Pakistan: AS Mungkin Mempertimbangkan Operasi Darat Terbatas di Iran",
-      "url": "https://investinglive.com/news/pakistani-intelligence-u-s-may-be-considering-limited-ground-operation-in-iran/",
-      "summary": "Pakistani intelligence officials in a news report is saying that they believe the U.S. could be preparing a limited ground offensive in Iran. The reported objective would be to cut off Iran's coastal region before any broader peace agreement is finalized. Officials pointed to U.S. troop deployments,",
-      "published": "27 Jul 2026 23:13 WIB",
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga AUD/USD: Meluncur ke 0,6970 setelah gagal menembus level Fibo. rintangan",
+      "url": "https://www.fxstreet.com/news/aud-usd-price-forecast-slides-to-06970-after-failing-to-clear-382-fibo-hurdle-202607280526",
+      "summary": "The AUD/USD pair attracts some follow-through selling following the previous day's failure to find acceptance above the 0.7000 psychological mark and weakens to the 0.6970 area during the Asian session on Tuesday.",
+      "published": "28 Jul 2026 12:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.233,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga EUR/JPY: Mempertahankan posisi di atas EMA sembilan hari dekat 186,00",
+      "url": "https://www.fxstreet.com/news/eur-jpy-price-forecast-holds-position-above-nine-day-ema-near-18600-202607280514",
+      "summary": "EUR/JPY holds ground after two days of losses, trading around 186.20 during the Asian hours on Tuesday. The currency cross is holding a bullish near-term bias as it trades above both the nine-period and 50-period Exponential Moving Averages (EMAs), keeping the broader uptrend supported.",
+      "published": "28 Jul 2026 12:14 WIB",
+      "sentiment": "Bearish",
+      "score": -0.282,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Dolar Selandia Baru kesulitan di atas pertengahan 0,57 karena USD tetap menguat menjelang pertemuan FOMC",
+      "url": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-above-mid-05700s-as-usd-stays-firm-ahead-of-fomc-meeting-202607280445",
+      "summary": "The NZD/USD pair turns lower for the second consecutive day following a modest Asian session uptick to the 0.5785 region on Tuesday.",
+      "published": "28 Jul 2026 11:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.572,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Indeks Dolar Amerika Serikat masih lemah di dekat 101,50 di tengah ketidakpastian kebijakan Fed",
+      "url": "https://www.fxstreet.com/news/united-states-dollar-index-remains-subdued-near-10150-amid-fed-policy-uncertainty-202607280435",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is losing ground after three days of gains and trading around 101.50 during the Asian session on Tuesday.",
+      "published": "28 Jul 2026 11:35 WIB",
       "sentiment": "Bullish",
-      "score": 0.836,
+      "score": 0.406,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Emas melemah karena geopolitik mendukung USD menjelang pertemuan FOMC",
+      "url": "https://www.fxstreet.com/news/gold-weakens-as-geopolitics-support-usd-ahead-of-fomc-meeting-202607280419",
+      "summary": "Gold (XAU/USD) attracts some follow-through selling after the previous day's failure to find acceptance above $4,100, weakening below the $4,050 level during the Asian session on Tuesday.",
+      "published": "28 Jul 2026 11:19 WIB",
+      "sentiment": "Netral",
+      "score": 0.048,
+      "emoji": "⚪",
+      "impact": "high"
     },
     {
       "source": "FXStreet News",
@@ -406,69 +461,58 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dolar Australia berhenti memperdagangkan komoditas dan mulai memperdagangkan satu angka",
-      "url": "https://www.fxstreet.com/news/the-australian-dollar-stops-trading-commodities-and-starts-trading-one-number-202607272314",
-      "summary": "The Australian Dollar trades just beneath 0.7000 on Monday, up around 0.1%, having covered less than 30 pips between its session high and its session low. For the better part of a fortnight the market has tried to make something of the 0.7000 area and given up each time.",
-      "published": "28 Jul 2026 06:14 WIB",
-      "sentiment": "Bullish",
-      "score": 0.128,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Pekan data terbaik Inggris pada musim panas mengirim Pound Sterling Inggris ke level terendah dalam empat minggu",
-      "url": "https://www.fxstreet.com/news/britains-best-data-week-of-the-summer-sends-british-pound-sterling-to-a-four-week-low-202607272313",
-      "summary": "British Pound Sterling trades beneath 1.3300 against the Dollar on Monday, roughly 0.3% lower on the day and back at ground it last held in the opening days of July. It gets there at the end of the strongest run of British data since the spring, which is the part worth sitting with.",
-      "published": "28 Jul 2026 06:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.851,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Singapura: Pengetatan MAS menopang Dolar Singapura – BBH",
-      "url": "https://www.fxstreet.com/news/singapore-dollar-mas-tightening-underpins-singapore-dollar-bbh-202607272243",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes that USD/SGD is consolidating around 1.2900 after pulling back from near 1.3000, as the Monetary Authority of Singapore (MAS) unexpectedly tightened policy for a second consecutive meeting.",
-      "published": "28 Jul 2026 05:43 WIB",
-      "sentiment": "Bullish",
-      "score": 0.157,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Trump mendesak penurunan suku bunga The Fed seiring berakhirnya Perang Teluk, yang terlihat akan menurunkan harga",
-      "url": "https://www.fxstreet.com/news/trump-urges-fed-rate-cuts-as-gulf-war-ends-seen-lowering-prices-202607272234",
-      "summary": "On Monday, late in the North American session, US President Donald Trump stated that there was a good inflation report recently, adding that costs were falling rapidly and that prices should drop significantly once the Gulf War ends.",
-      "published": "28 Jul 2026 05:34 WIB",
+      "source": "Investing.com Forex",
+      "title": "Saingan Google berbaris menuntut ganti rugi setelah rekor denda $1 miliar",
+      "url": "https://www.investing.com/news/stock-market-news/google-rivals-line-up-seeking-damages-after-record-1-billion-fine-4815459",
+      "summary": "",
+      "published": "28 Jul 2026 12:12 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.273,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Presiden AS Trump menjaga diplomasi Iran tetap hidup setelah menghentikan serangan",
-      "url": "https://www.fxstreet.com/news/us-president-trump-keeps-iran-diplomacy-alive-after-halting-strikes-202607272211",
-      "summary": "On Monday, US President Donald Trump grabbed the headlines as investors awaited monetary policy meetings by three of the eight major central banks, led by the Federal Reserve, the Bank of England, and the Bank of Japan.",
-      "published": "28 Jul 2026 05:11 WIB",
+      "source": "Investing.com Forex",
+      "title": "Morgan Stanley Menyebutkan Pilihan Teratas di Sektor Luar Angkasa Jepang",
+      "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-names-top-picks-in-japans-space-sector-93CH-4815461",
+      "summary": "",
+      "published": "28 Jul 2026 12:11 WIB",
+      "sentiment": "Bullish",
+      "score": 0.202,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Pemasok AI Zhongji Innolight mengumpulkan $6,8 miliar dalam IPO terbesar di Hong Kong sejak saat itu",
+      "url": "https://www.investing.com/news/stock-market-news/ai-supplier-zhongji-innolight-raises-68-billion-in-hong-kongs-biggest-ipo-since-4815460",
+      "summary": "",
+      "published": "28 Jul 2026 12:08 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Yuan Tiongkok: Perdagangan dalam kisaran yang terbatas terhadap Dolar AS dipandu oleh penetapan PBoC – OCBC",
-      "url": "https://www.fxstreet.com/news/chinese-yuan-rangebound-trade-against-us-dollar-guided-by-pboc-fix-ocbc-202607272157",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong expect USD/CNH to stay broadly rangebound near term, with the daily People's Bank of China (PBoC) fix clustered around 6.79 and acting as an anchor rather than a directional signal.",
-      "published": "28 Jul 2026 04:57 WIB",
+      "source": "Investing.com Forex",
+      "title": "LEM melaporkan pertumbuhan penjualan sebesar 12% di Q1 karena permintaan pusat data",
+      "url": "https://www.investing.com/news/stock-market-news/lem-reports-12-sales-growth-in-q1-on-data-center-demand-93CH-4815449",
+      "summary": "",
+      "published": "28 Jul 2026 11:43 WIB",
       "sentiment": "Bullish",
-      "score": 0.08,
+      "score": 0.353,
       "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Saham-saham chip Asia merosot karena kekhawatiran persaingan di Tiongkok akan mengganggu perdagangan AI",
+      "url": "https://www.investing.com/news/stock-market-news/samsung-sk-hynix-slide-amid-nvidia-financing-worries-china-competition-4815353",
+      "summary": "",
+      "published": "28 Jul 2026 11:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.421,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -527,59 +571,15 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Market Technology Acquisition Corp menutup IPO senilai $205 juta di Nasdaq",
-      "url": "https://www.investing.com/news/stock-market-news/market-technology-acquisition-corp-closes-205m-ipo-on-nasdaq-432SI-4815404",
+      "source": "Investing.com Economy",
+      "title": "Bullock dari RBA tetap membuka kemungkinan kenaikan suku bunga lebih lanjut karena risiko inflasi masih ada",
+      "url": "https://www.investing.com/news/economic-indicators/rbas-bullock-says-board-stands-ready-to-raise-rates-further-if-needed-4815444",
       "summary": "",
-      "published": "28 Jul 2026 09:34 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham Asia anjlok karena AI memukul KOSPI dan Nikkei jelang laporan pendapatan Big Tech",
-      "url": "https://www.investing.com/news/stock-market-news/asia-stocks-tumble-as-ai-rout-hammers-kospi-nikkei-ahead-of-big-tech-earnings-4815398",
-      "summary": "",
-      "published": "28 Jul 2026 09:29 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham chip Korea anjlok dengan SK Hynix di bawah harga pencatatan AS di tengah kekhawatiran persaingan di Tiongkok",
-      "url": "https://www.investing.com/news/stock-market-news/samsung-sk-hynix-slide-amid-nvidia-financing-worries-china-competition-4815353",
-      "summary": "",
-      "published": "28 Jul 2026 09:18 WIB",
+      "published": "28 Jul 2026 11:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.421,
+      "score": -0.273,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Zhongji Innolight mengumpulkan $6,81 miliar dalam listing terbesar kedua di Asia pada tahun 2026",
-      "url": "https://www.investing.com/news/stock-market-news/zhongji-innolight-raises-681-billion-in-asias-secondlargest-listing-of-2026-4815335",
-      "summary": "",
-      "published": "28 Jul 2026 09:18 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham Korea Selatan merosot lebih dari 9% karena kekhawatiran belanja AI akan memukul saham-saham chip",
-      "url": "https://www.investing.com/news/stock-market-news/s-korea-stocks-slump-over-9-as-ai-spending-fears-hammer-chip-stocks-4815389",
-      "summary": "",
-      "published": "28 Jul 2026 09:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.421,
-      "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Investing.com Economy",
@@ -605,34 +605,12 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bullock dari RBA Mengatakan Perekonomian Mendingin, Tidak Yakin Apakah Suku Bunga Cukup Tinggi",
+      "title": "Bullock dari RBA Mengatakan Perekonomian Mendingin, Ketidakpastian Suku Bunga Cukup Tinggi",
       "url": "https://www.bloomberg.com/news/articles/2026-07-28/rba-s-bullock-says-economy-cooling-unsure-if-rates-high-enough",
-      "summary": "Australia’s central bank chief said there are signs the economy is adjusting as anticipated, though it’s still unclear if this year’s interest-rate hikes are enough to return inflation to target or whether additional tightening will be needed.",
+      "summary": "Australia’s central bank chief said there are signs the economy is cooling as anticipated, though it’s still unclear if this year’s interest-rate hikes are enough to return inflation to target or whether additional tightening will be needed.",
       "published": "28 Jul 2026 10:05 WIB",
       "sentiment": "Bearish",
       "score": -0.299,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "USD/PHP: Filipina Melakukan Intervensi Kecil untuk Mempertahankan Peso, Kata Gubernur BSP",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/usd-php-philippines-intervened-in-small-way-to-defend-peso-bsp-governor-says",
-      "summary": "The Philippine central bank intervened in a small way to defend the peso last week, Governor Eli Remolona said, as the currency weakened to a record low.",
-      "published": "28 Jul 2026 10:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.607,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Emas Turun karena Pedagang Mempertimbangkan Prospek Kenaikan Suku Bunga",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/gold-holds-gain-as-trump-sounds-optimism-over-us-iran-talks",
-      "summary": "Gold declined ahead of a potentially divisive decision on US interest rates later this week, while a fragile pause in Middle East hostilities soothed inflation fears.",
-      "published": "28 Jul 2026 06:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.052,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -646,6 +624,17 @@
       "score": -0.601,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Emas Turun karena Pedagang Mempertimbangkan Prospek Kenaikan Suku Bunga",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/gold-holds-gain-as-trump-sounds-optimism-over-us-iran-talks",
+      "summary": "Gold declined ahead of a potentially divisive decision on US interest rates later this week, while a fragile pause in Middle East hostilities soothed inflation fears.",
+      "published": "28 Jul 2026 06:21 WIB",
+      "sentiment": "Bearish",
+      "score": -0.052,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -671,13 +660,13 @@
     },
     {
       "source": "Google News Forex",
-      "title": "Singapura terkejut dengan pengetatan kebijakan moneter di tengah kekhawatiran inflasi - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQnlCMG4tUXEycmNhLXUwZXFrZE5BeFRwVC1UN1VjazdfcHE5LTE2N1pfMTg3NndNYm1iRFNaRllxZEJKZTJ5RnllaFRwR1FFbXRDcnQ2SGlrcmd4V2F2NXBKbWYycFBFY3Fyd2Z6TERxcS1SQTg3NkNiTHdrckJVOGJDLUNiNzJHV1FKTG9xa3lUNkg1QU4ydkk4bmx5YmhwSHNIQjF0TFozZzk0RnJ6a1hIX3hDelZuc1dsWWViNk9xelNPZW14UkMzcldDTERZ?oc=5",
-      "summary": "Singapore surprises with monetary policy tightening on inflation worries Reuters",
-      "published": "27 Jul 2026 07:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.341,
-      "emoji": "🔴",
+      "title": "Bagaimana kebijakan moneter unik Singapura bekerja - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPXzhuZ2JpME5XWFhoeHNoSlVzTzVMQ0tyQmRsYTRzdmpHdXd2UGZtaHpVZHdTRDVidU1lLVNVbEZfUGkzOGpmbkRQMUJRZ2N0endjdmgyV1dTS2xvYTlTTV9mVUdWVDRJdktjYUtMTUVTSWhtc3FhcUNEZS0xYXRNWm9hX0VWcnFLdFk4NjFBSDRqUHhTX0JUcXE1bDc2S2M?oc=5",
+      "summary": "How Singapore's unique monetary policy works Reuters",
+      "published": "28 Jul 2026 10:06 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -693,13 +682,24 @@
     },
     {
       "source": "Google News Forex",
-      "title": "Bank Sentral Libya Akan Menyuntikkan $2 Miliar untuk Menstabilkan Mata Uang - Libya Herald",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZGM5aG5fX2JjdHdaUHNpWkI4RGF0bW5RZGhMelNzZ2x5ZlUxQTl5aXo0akpHYXY4Y1RJU0VZUjRuNTF6ZDktMUlodHE3YTB0TXU1OVJvOEpob1ZoUUlsMnFnYmdXWWVMQUtQNURaUzhOZG5CeGk2RGwwTGh4b2JpM2NqZTZ5aHY3YzEtSzBxNnNBNUIwYXJrSnhWRmV5ZTc2ZW1CNU5JaWNxWThQTlJScWJKLW5MTGZydk9KYm5sOUt5ZnM?oc=5",
-      "summary": "Central Bank of Libya to Inject $2 Billion to Stabilize Currency Libya Herald",
-      "published": "27 Jul 2026 00:25 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "title": "Singapura terkejut dengan pengetatan kebijakan moneter di tengah kekhawatiran inflasi - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQnlCMG4tUXEycmNhLXUwZXFrZE5BeFRwVC1UN1VjazdfcHE5LTE2N1pfMTg3NndNYm1iRFNaRllxZEJKZTJ5RnllaFRwR1FFbXRDcnQ2SGlrcmd4V2F2NXBKbWYycFBFY3Fyd2Z6TERxcS1SQTg3NkNiTHdrckJVOGJDLUNiNzJHV1FKTG9xa3lUNkg1QU4ydkk4bmx5YmhwSHNIQjF0TFozZzk0RnJ6a1hIX3hDelZuc1dsWWViNk9xelNPZW14UkMzcldDTERZ?oc=5",
+      "summary": "Singapore surprises with monetary policy tightening on inflation worries Reuters",
+      "published": "27 Jul 2026 07:21 WIB",
+      "sentiment": "Bearish",
+      "score": -0.341,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Google News Forex",
+      "title": "Nilai tukar sentral Vietnam mencapai rekor tertinggi seiring penguatan dolar - VnExpress International",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUGVEdnBIck5kT0ZjeFhrUHlTd20zSFR4REhGZ3ZIQTNvOV84NXVaRjRjeEIxZkI0a2lZVzlPNExDVGxJS003UnNIaFRsR2NqeWhtS2hyLWg2YldDNUpiV2x0WUlVRkw3M3hvQ1NBSm9XWG1sSEZ5OWJuTkhoY19yaWIyZU5EdjdJaWI0WHVPWTd5OVhRb3ZuamhWM1pUMHNGcHJ6ekVSOWpsR2JPMUg1emRQMDRJZXV2TEdSbmZBbElUSlNmZWctbg?oc=5",
+      "summary": "Vietnam’s central exchange rate hits record high as dollar strengthens VnExpress International",
+      "published": "28 Jul 2026 11:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.718,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -770,17 +770,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Kebakaran hutan kini terjadi sembilan mil dari kota Bordeaux di Prancis, wali kota memperingatkan",
-      "url": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Thomas Cazenave says they are preparing if further evacuations are issued, as the mayor of a nearby town called the situation \"catastrophic\".",
-      "published": "28 Jul 2026 03:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
       "title": "Trump mengatakan perundingan perang Iran berlangsung di tengah jeda serangan",
       "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss",
       "summary": "The US president says \"there is a good chance that something could happen\", as Iran denies direct talks are taking place.",
@@ -803,17 +792,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Kemarahan sebagai penyerang Berlin Pride terungkap telah terbebas beberapa minggu sebelumnya",
-      "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
-      "summary": "As details emerge about the suspected Berlin Pride attacker's past, many are asking why he was not in prison.",
-      "published": "27 Jul 2026 19:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.105,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
       "title": "Tembakan terjadi di konsulat AS di Toronto untuk kedua kalinya tahun ini",
       "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
       "summary": "Police said they engaged in a high-speed car chase but failed to arrest the suspect, who remains at large. Three people were arrested in June after a similar attack.",
@@ -831,6 +809,17 @@
       "published": "27 Jul 2026 22:49 WIB",
       "sentiment": "Bearish",
       "score": -0.886,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Kemarahan sebagai penyerang Berlin Pride terungkap telah terbebas beberapa minggu sebelumnya",
+      "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
+      "summary": "As details emerge about the suspected Berlin Pride attacker's past, many are asking why he was not in prison.",
+      "published": "27 Jul 2026 19:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.105,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -879,17 +868,6 @@
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "Kebakaran hutan yang menghancurkan di Eropa dalam peta - dan cara mengatasinya",
-      "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
-      "summary": "A blaze near Bordeaux has torn through more than 162 sq miles (420 sq km) in less than four days, while the Madrid region is seeing its worst fires ever.",
-      "published": "27 Jul 2026 22:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.886,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC Business",
       "title": "Obrolan beberapa orang dengan Claude AI ditemukan tersedia untuk umum secara online",
       "url": "https://www.bbc.co.uk/news/articles/cly5qgjk5ywo?at_medium=RSS&at_campaign=rss",
@@ -910,6 +888,28 @@
       "score": -0.398,
       "emoji": "🔴",
       "impact": "medium"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Kebakaran hutan yang menghancurkan di Eropa dalam peta - dan cara mengatasinya",
+      "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
+      "summary": "A blaze near Bordeaux has torn through more than 162 sq miles (420 sq km) in less than four days, while the Madrid region is seeing its worst fires ever.",
+      "published": "27 Jul 2026 22:59 WIB",
+      "sentiment": "Bearish",
+      "score": -0.886,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Di garis depan perang narkoba di Ekuador, polisi memerangi geng, senjata, dan korupsi",
+      "url": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC goes on patrol with Ecuador's police, who are grappling with a huge surge in drug crime.",
+      "published": "28 Jul 2026 12:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.827,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC Top Stories",
@@ -1001,7 +1001,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Perang Iran sedang berlangsung: Trump mengatakan pembicaraan ‘persahabatan’ sedang berlangsung; Netanyahu tiba di AS",
+      "title": "Perang Iran sedang berlangsung: Trump mengatakan AS berbicara dengan Teheran, akan bertemu Netanyahu",
       "url": "https://www.aljazeera.com/news/liveblog/2026/7/28/iran-war-live-trump-touts-friendly-talks-netanyahu-arrives-in-us?traffic_source=rss",
       "summary": "Iran says US 'struggling' to end five-month-old war, as Netanyahu arrives in Washington, DC, for talks with Trump.",
       "published": "28 Jul 2026 07:00 WIB",
@@ -1044,28 +1044,6 @@
       "impact": "medium"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Harapan untuk kembali melakukan diplomasi saat AS-Iran terus membara di hari ketiga",
-      "url": "https://www.aljazeera.com/news/2026/7/27/hopes-of-return-to-diplomacy-as-us-iran-hold-fire-for-third-day?traffic_source=rss",
-      "summary": "Mediators from Qatar and Pakistan work to restart ceasefire talks amid fragile pause in hostilities.",
-      "published": "28 Jul 2026 04:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.322,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pengadilan Inggris menolak upaya Bahrain untuk memblokir tuntutan aktivis spyware",
-      "url": "https://www.aljazeera.com/news/2026/7/27/british-court-dismisses-bahrains-bid-to-block-activists-spyware-lawsuit?traffic_source=rss",
-      "summary": "Ruling establishes that countries using spyware on people in the UK can be sued.",
-      "published": "28 Jul 2026 03:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.746,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
       "title": "Potensi kesepakatan baru Nvidia dengan OpenAI akan menghidupkan kembali kebiasaan gelembung teknologi yang menyeramkan, analis memperingatkan",
       "url": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
@@ -1089,12 +1067,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Harga minyak turun lebih dari 2% karena terhentinya permusuhan AS-Iran meningkatkan harapan de-eskalasi",
+      "title": "Minyak terus mengalami penurunan karena terhentinya permusuhan AS-Iran meningkatkan harapan de-eskalasi",
       "url": "https://www.cnbc.com/2026/07/28/oil-price-today-wti-brent-us-iran-hormuz.html",
       "summary": "Speaking to reporters aboard Air Force One on Monday en route to Michigan, Trump dismissed suggestions that the U.S. was running short on weapons.",
-      "published": "28 Jul 2026 10:38 WIB",
+      "published": "28 Jul 2026 12:06 WIB",
       "sentiment": "Bearish",
-      "score": -0.797,
+      "score": -0.889,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -1111,17 +1089,6 @@
     },
     {
       "source": "CNBC World",
-      "title": "Kebakaran hutan Eropa dalam gambar: Awan api raksasa melanda wilayah Prancis dan Spanyol",
-      "url": "https://www.cnbc.com/2026/07/27/wildfire-pictures-spain-france-bordeaux-heatwave.html",
-      "summary": "A rare wildfire spreading across France's Bordeaux region and has spread to Western Madrid is fire cloud that can generate its own thunderstorms.",
-      "published": "27 Jul 2026 21:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.586,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
       "title": "Netanyahu, Zelenskyy datang ke DC untuk menghadiri pemakaman Graham, bertemu dengan Trump di tengah perang",
       "url": "https://www.cnbc.com/2026/07/27/trump-netanyahu-zelenskyy-iran-war-lindsey-graham-funeral.html",
       "summary": "The funeral for Sen. Lindsey Graham is bringing world leaders to Washington at a time when many are eager to meet with President Donald Trump amid wars.",
@@ -1130,6 +1097,17 @@
       "score": -0.946,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Kebakaran hutan Eropa dalam gambar: Awan api raksasa melanda wilayah Prancis dan Spanyol",
+      "url": "https://www.cnbc.com/2026/07/27/wildfire-pictures-spain-france-bordeaux-heatwave.html",
+      "summary": "A rare wildfire spreading across France's Bordeaux region and has spread to Western Madrid is fire cloud that can generate its own thunderstorms.",
+      "published": "27 Jul 2026 21:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.586,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
