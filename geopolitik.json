@@ -1,5 +1,5 @@
 {
-  "generated": "28 Jul 2026 11:04 WIB",
+  "generated": "28 Jul 2026 12:28 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.518,
-      "count": 19
+      "score": -0.492,
+      "count": 17
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.511,
-      "count": 19
+      "score": -0.494,
+      "count": 16
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.501,
-      "count": 14
+      "score": -0.461,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.344,
-      "count": 7
+      "score": -0.347,
+      "count": 6
     },
     {
       "pair": "CAD/JPY",
@@ -99,15 +99,15 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Intelijen Pakistan: AS Mungkin Mempertimbangkan Operasi Darat Terbatas di Iran",
-      "url": "https://investinglive.com/news/pakistani-intelligence-u-s-may-be-considering-limited-ground-operation-in-iran/",
-      "summary": "Pakistani intelligence officials in a news report is saying that they believe the U.S. could be preparing a limited ground offensive in Iran. The reported objective would be to cut off Iran's coastal region before any broader peace agreement is finalized. Officials pointed to U.S. troop deployments,",
-      "published": "27 Jul 2026 23:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.836,
-      "emoji": "🟢",
-      "impact": "low"
+      "source": "FXStreet News",
+      "title": "Emas melemah karena geopolitik mendukung USD menjelang pertemuan FOMC",
+      "url": "https://www.fxstreet.com/news/gold-weakens-as-geopolitics-support-usd-ahead-of-fomc-meeting-202607280419",
+      "summary": "Gold (XAU/USD) attracts some follow-through selling after the previous day's failure to find acceptance above $4,100, weakening below the $4,050 level during the Asian session on Tuesday.",
+      "published": "28 Jul 2026 11:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.054,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "FXStreet News",
@@ -130,17 +130,6 @@
       "score": -0.831,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Trump mendesak penurunan suku bunga The Fed seiring berakhirnya Perang Teluk, yang terlihat akan menurunkan harga",
-      "url": "https://www.fxstreet.com/news/trump-urges-fed-rate-cuts-as-gulf-war-ends-seen-lowering-prices-202607272234",
-      "summary": "On Monday, late in the North American session, US President Donald Trump stated that there was a good inflation report recently, adding that costs were falling rapidly and that prices should drop significantly once the Gulf War ends.",
-      "published": "28 Jul 2026 05:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.732,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -232,17 +221,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Kemarahan sebagai penyerang Berlin Pride terungkap telah terbebas beberapa minggu sebelumnya",
-      "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
-      "summary": "As details emerge about the suspected Berlin Pride attacker's past, many are asking why he was not in prison.",
-      "published": "27 Jul 2026 19:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.105,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
       "title": "Tembakan terjadi di konsulat AS di Toronto untuk kedua kalinya tahun ini",
       "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
       "summary": "Police said they engaged in a high-speed car chase but failed to arrest the suspect, who remains at large. Three people were arrested in June after a similar attack.",
@@ -260,6 +238,17 @@
       "published": "27 Jul 2026 22:49 WIB",
       "sentiment": "Bearish",
       "score": -0.886,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Kemarahan sebagai penyerang Berlin Pride terungkap telah terbebas beberapa minggu sebelumnya",
+      "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
+      "summary": "As details emerge about the suspected Berlin Pride attacker's past, many are asking why he was not in prison.",
+      "published": "27 Jul 2026 19:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.105,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -375,7 +364,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Perang Iran sedang berlangsung: Trump mengatakan pembicaraan ‘persahabatan’ sedang berlangsung; Netanyahu tiba di AS",
+      "title": "Perang Iran sedang berlangsung: Trump mengatakan AS berbicara dengan Teheran, akan bertemu Netanyahu",
       "url": "https://www.aljazeera.com/news/liveblog/2026/7/28/iran-war-live-trump-touts-friendly-talks-netanyahu-arrives-in-us?traffic_source=rss",
       "summary": "Iran says US 'struggling' to end five-month-old war, as Netanyahu arrives in Washington, DC, for talks with Trump.",
       "published": "28 Jul 2026 07:00 WIB",
@@ -416,28 +405,6 @@
       "score": 0.361,
       "emoji": "🟢",
       "impact": "medium"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Harapan untuk kembali melakukan diplomasi saat AS-Iran terus membara di hari ketiga",
-      "url": "https://www.aljazeera.com/news/2026/7/27/hopes-of-return-to-diplomacy-as-us-iran-hold-fire-for-third-day?traffic_source=rss",
-      "summary": "Mediators from Qatar and Pakistan work to restart ceasefire talks amid fragile pause in hostilities.",
-      "published": "28 Jul 2026 04:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.322,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pengadilan Inggris menolak upaya Bahrain untuk memblokir tuntutan aktivis spyware",
-      "url": "https://www.aljazeera.com/news/2026/7/27/british-court-dismisses-bahrains-bid-to-block-activists-spyware-lawsuit?traffic_source=rss",
-      "summary": "Ruling establishes that countries using spyware on people in the UK can be sued.",
-      "published": "28 Jul 2026 03:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.746,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "CNBC World",
