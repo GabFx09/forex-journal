@@ -1,5 +1,5 @@
 {
-  "generated": "28 Jul 2026 07:01 WIB",
+  "generated": "28 Jul 2026 09:43 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,47 +7,47 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.417,
-      "count": 24
+      "score": -0.472,
+      "count": 21
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.411,
-      "count": 24
+      "score": -0.466,
+      "count": 21
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.515,
-      "count": 15
+      "score": -0.573,
+      "count": 14
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.187,
-      "count": 9
+      "score": -0.188,
+      "count": 7
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.251,
-      "count": 5
+      "score": 0.071,
+      "count": 6
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Naik ▲",
-      "score": 0.251,
-      "count": 5
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.2,
-      "count": 2
+      "score": 0.071,
+      "count": 6
     },
     {
       "pair": "AUD/USD",
+      "direction": "Netral →",
+      "score": -0.018,
+      "count": 2
+    },
+    {
+      "pair": "USD/CNY",
       "direction": "Netral →",
       "score": -0.018,
       "count": 2
@@ -144,6 +144,17 @@
     },
     {
       "source": "FXStreet News",
+      "title": "WTI berkonsolidasi mendekati level terendah satu minggu, di sekitar $81,00 karena para pedagang menantikan pembicaraan AS-Iran",
+      "url": "https://www.fxstreet.com/news/wti-consolidates-near-one-week-low-around-8100-as-traders-eye-us-iran-talks-202607280150",
+      "summary": "West Texas Intermediate (WTI) – the benchmark US Crude Oil price – is seen consolidating the previous day's heavy losses and trading around the $81.00 mark, just above a one-week high set during the Asian session on Tuesday.",
+      "published": "28 Jul 2026 08:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.831,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Trump mendesak penurunan suku bunga The Fed seiring berakhirnya Perang Teluk, yang terlihat akan menurunkan harga",
       "url": "https://www.fxstreet.com/news/trump-urges-fed-rate-cuts-as-gulf-war-ends-seen-lowering-prices-202607272234",
       "summary": "On Monday, late in the North American session, US President Donald Trump stated that there was a good inflation report recently, adding that costs were falling rapidly and that prices should drop significantly once the Gulf War ends.",
@@ -165,46 +176,13 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Emas naik menuju $4.070 karena penurunan imbal hasil AS mendukung Bullion",
-      "url": "https://www.fxstreet.com/news/gold-rises-toward-4-070-as-falling-us-yields-support-bullion-202607271849",
-      "summary": "Gold price registers gains of 0.58% as Washington pauses attacks on Tehran, while US President Donald Trump opened the door for a resumption in negotiations. This, along with falling US Treasury yields, is a tailwind for Bullion prices with XAU/USD approaching $4,070.",
-      "published": "28 Jul 2026 01:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.157,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga Perak: Bisakah Keputusan Fed Memicu Penembusan Kisaran $55-$62?",
-      "url": "https://www.fxstreet.com/news/silver-price-forecast-could-fed-decision-trigger-a-break-from-55-62-range-202607271838",
-      "summary": "Silver (XAG/USD) reverses part of its earlier gains on Monday as the US Dollar (USD) rebounds after opening the week with a bearish gap following a temporary pause in attacks between the United States (US) and Iran.",
-      "published": "28 Jul 2026 01:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.318,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Emas Mempertahankan Kenaikan seiring Trump Optimis Terhadap Pembicaraan AS-Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/gold-holds-gain-as-trump-sounds-optimism-over-us-iran-talks",
-      "summary": "Gold held a gain after President Donald Trump said the US and Iran were in talks to end the war that’s stoked inflationary concerns and raised the likelihood of higher interest rates.",
-      "published": "28 Jul 2026 06:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.92,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "Bloomberg Markets",
       "title": "Berita dan Analisis Pasar Minyak Terbaru 28 Juli",
       "url": "https://www.bloomberg.com/news/articles/2026-07-27/latest-oil-market-news-and-analysis-for-july-28",
-      "summary": "Oil extended a steep drop after President Donald Trump said the US and Iran were engaged in talks to end the Middle East conflict.",
+      "summary": "Oil extended a steep decline after President Donald Trump said that the US and Iran were engaged in talks to try to end the Middle East conflict, with the two sides continuing to hold off on attacks.",
       "published": "28 Jul 2026 05:02 WIB",
       "sentiment": "Bearish",
-      "score": -0.258,
+      "score": -0.601,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -229,28 +207,6 @@
       "score": 0.511,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Macquarie Melihat Risiko Kelebihan Minyak pada Kesepakatan AS-Iran Sebelum Paruh Waktu",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/macquarie-sees-oil-surplus-risk-on-us-iran-deal-before-midterms",
-      "summary": "Oil markets could tilt back into oversupply before the end of the year as Washington faces mounting pressure to end the Iran conflict with fewer than 100 days until the midterm elections, analysts from Macquarie Ltd said.",
-      "published": "28 Jul 2026 01:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.761,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kembalinya Pertumbuhan Unit Mode LVMH Terhambat oleh Perang Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/lvmh-fashion-unit-s-return-to-growth-held-back-by-iran-war",
-      "summary": "LVMH’s key fashion and leather goods unit, home to Louis Vuitton and Dior, barely eked out sales growth last quarter as the conflict in the Middle East deterred wealthy shoppers.",
-      "published": "27 Jul 2026 22:45 WIB",
-      "sentiment": "Netral",
-      "score": 0.048,
-      "emoji": "⚪",
-      "impact": "high"
     },
     {
       "source": "Google News Forex",
@@ -334,7 +290,7 @@
       "title": "Tembakan terjadi di konsulat AS di Toronto untuk kedua kalinya tahun ini",
       "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
       "summary": "Police said they engaged in a high-speed car chase but failed to arrest the suspect, who remains at large. Three people were arrested in June after a similar attack.",
-      "published": "27 Jul 2026 23:56 WIB",
+      "published": "28 Jul 2026 07:36 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -419,6 +375,28 @@
     },
     {
       "source": "Al Jazeera",
+      "title": "Houthi ingin meniru kendali Hormuz Iran di Laut Merah: Menlu Yaman",
+      "url": "https://www.aljazeera.com/news/2026/7/28/houthis-want-to-copy-irans-hormuz-control-in-the-red-sea-yemeni-fm?traffic_source=rss",
+      "summary": "Speaking in Riyadh, Yemen's internationally recognised government warns global complacency has emboldened the Houthis.",
+      "published": "28 Jul 2026 07:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.106,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Perang Iran sedang berlangsung: Trump mengatakan pembicaraan ‘persahabatan’ sedang berlangsung; Netanyahu tiba di AS",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/28/iran-war-live-trump-touts-friendly-talks-netanyahu-arrives-in-us?traffic_source=rss",
+      "summary": "Iran says US 'struggling' to end five-month-old war, as Netanyahu arrives in Washington, DC, for talks with Trump.",
+      "published": "28 Jul 2026 07:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.971,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Diplomat AS keluar saat Prancis berpidato di Dewan Keamanan PBB",
       "url": "https://www.aljazeera.com/news/2026/7/27/us-diplomats-walk-out-as-france-addresses-un-security-council?traffic_source=rss",
       "summary": "US diplomats walk out of UN meeting during France's speech amid tensions over human rights chief's reappointment.",
@@ -495,39 +473,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Rekaman yang belum dirilis mengungkapkan dorongan Lindsey Graham untuk berperang melawan Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/unreleased-footage-reveals-lindsey-grahams-push-for-war-on-iran?traffic_source=rss",
-      "summary": "Unreleased documentary footage shows late US Senator Lindsey Graham celebrating the war on Iran.",
-      "published": "28 Jul 2026 03:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.705,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah AS dan Iran sedang menuju perang abadi?",
-      "url": "https://www.aljazeera.com/video/upfront/2026/7/27/are-the-us-and-iran-heading-towards-a-forever-war?traffic_source=rss",
-      "summary": "Marc Lamont Hill speaks with sociologist Ali Kadivar on what history shows about the risk of a US forever war in Iran.",
-      "published": "28 Jul 2026 01:40 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "AS dan Iran menghentikan pertikaian, Trump menepis kekhawatiran berkurangnya stok",
-      "url": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
-      "summary": "A temporary pause to the U.S.-Iran conflict appeared to hold on Monday, after negotiations over a lasting peace faced fresh hurdles over the weekend.",
-      "published": "28 Jul 2026 00:43 WIB",
-      "sentiment": "Bullish",
-      "score": 0.09,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "CNBC World",
       "title": "Netanyahu, Zelenskyy datang ke DC untuk menghadiri pemakaman Graham, bertemu dengan Trump di tengah perang",
       "url": "https://www.cnbc.com/2026/07/27/trump-netanyahu-zelenskyy-iran-war-lindsey-graham-funeral.html",
@@ -551,6 +496,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "AS dan Iran menghentikan pertikaian, Trump menepis kekhawatiran berkurangnya stok",
+      "url": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
+      "summary": "A temporary pause to the U.S.-Iran conflict appeared to hold on Monday, after negotiations over a lasting peace faced fresh hurdles over the weekend.",
+      "published": "28 Jul 2026 00:43 WIB",
+      "sentiment": "Bullish",
+      "score": 0.09,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Mengapa kilatan tarif baru Trump kali ini sangat berbeda",
       "url": "https://www.cnbc.com/2026/07/27/donald-trump-tariffs-trade-war-iran.html",
       "summary": "President Trump on Friday launched a fresh round of tariffs targeting 60 trading partners, including the European Union, China and the U.K.",
@@ -559,17 +515,6 @@
       "score": 0.421,
       "emoji": "🟢",
       "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "CNBC Daily Open: Serangan Iran terhenti dan kebakaran hutan berkobar di seluruh Eropa",
-      "url": "https://www.cnbc.com/2026/07/27/cnbc-daily-open-iran-attacks-halt-and-wildfires-rage-across-europe.html",
-      "summary": "Crude prices are sinking as negotiations between Iran and the U.S. replace the tit-for-tat attacks that have dominated the last few weeks.",
-      "published": "27 Jul 2026 13:27 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
     }
   ]
 }
