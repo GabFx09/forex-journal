@@ -1,18 +1,18 @@
 {
-  "generated": "28 Jul 2026 09:43 WIB",
+  "generated": "28 Jul 2026 11:04 WIB",
   "summary": {
-    "total": 100,
-    "bullish": 37,
-    "bearish": 50,
-    "netral": 13,
-    "avg_score": -0.1445,
+    "total": 101,
+    "bullish": 31,
+    "bearish": 56,
+    "netral": 14,
+    "avg_score": -0.1828,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bearish",
-        "score": -0.065,
-        "count": 31
+        "score": -0.133,
+        "count": 29
       },
       {
         "currency": "EUR",
@@ -21,9 +21,15 @@
         "count": 8
       },
       {
-        "currency": "CAD",
+        "currency": "AUD",
+        "sentiment": "Netral",
+        "score": 0.041,
+        "count": 6
+      },
+      {
+        "currency": "JPY",
         "sentiment": "Bearish",
-        "score": -0.263,
+        "score": -0.15,
         "count": 5
       },
       {
@@ -33,32 +39,97 @@
         "count": 4
       },
       {
-        "currency": "JPY",
+        "currency": "CAD",
         "sentiment": "Bearish",
-        "score": -0.175,
+        "score": -0.119,
         "count": 4
-      },
-      {
-        "currency": "AUD",
-        "sentiment": "Bullish",
-        "score": 0.059,
-        "count": 3
       },
       {
         "currency": "CNY",
         "sentiment": "Netral",
         "score": 0.04,
         "count": 2
-      },
-      {
-        "currency": "CHF",
-        "sentiment": "Netral",
-        "score": 0.003,
-        "count": 1
       }
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Bullock, RBA: Saya tidak tahu apa yang akan diputuskan dewan pada pertemuan berikutnya",
+      "url": "https://investinglive.com/central-banks/rba-s-bullock-i-don-t-know-what-board-will-decide-at-the-next-meeting/",
+      "summary": "Not even the Governor knows what's coming next. That points to a healthy debate. More comments: If board thinks inflation is not coming down, will have some difficult decisions to make Decision will depend on whether the board thinks policy is restricitve AUD was last at 0.6983 and doesn't seem both",
+      "published": "28 Jul 2026 10:51 WIB",
+      "sentiment": "Bullish",
+      "score": 0.287,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Analisis Nasdaq menunjukkan penurunan 1.000 poin lagi (lihat video)",
+      "url": "https://investinglive.com/stocks/nasdaq-analysis-shows-another-1-000-points-down-see-video/",
+      "summary": "Global markets are confronting sharp cross-asset turbulence as Asia leads a steep risk-off move, with South Korea's Kospi extending its decline to 10% after breaking key technical support . As Adam Button at investingLive.com noted, this sudden double-digit slump is spilling into broader global risk",
+      "published": "28 Jul 2026 10:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.478,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "InvestmentRingkasan berita FX Asia-Pasifik langsung: Pasar saham Korea Selatan hancur",
+      "url": "https://investinglive.com/news/investinglive-asia-pacific-fx-news-wrap-south-korea-stock-markets-crushed/",
+      "summary": "RBA's Bullock: Key question is whether tightening already delivered enough Kospi extends decline to 10% Japan finance minister: Mon pol has moved to world of interest rates South Korea June consumer sentiment 106.8 vs 106.6 prior Nucor beats estimates, but shares shrug it off FOMC preview: Realized ",
+      "published": "28 Jul 2026 10:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.36,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Jika kita memiliki AI rekursif, salah satu hal pertama yang akan dilakukan AI adalah meningkatkan efisiensi",
+      "url": "https://investinglive.com/stocks/if-we-had-recursive-ai-one-of-the-first-things-it-would-do-is-improve-efficiency/",
+      "summary": "If the trillion dollars in capex spent on AI this year ends up being worth it, a big breakthrough needs to happen. Most likely, that will come from AI learning how to make AI better. That would be models that build better models. In most people's thinking about this, that means AI will build smarter",
+      "published": "28 Jul 2026 10:29 WIB",
+      "sentiment": "Bullish",
+      "score": 0.972,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Bullock, RBA: Pertanyaan kuncinya adalah apakah pengetatan sudah cukup dilakukan",
+      "url": "https://investinglive.com/central-banks/rba-s-bullock-key-question-is-whether-tightening-already-delivered-enough/",
+      "summary": "Key question is whether tightening already delivered is enough to slow inflation Board ready to raise cash rate further if needed Policy operates with a lag, so full effects of this year's rate increases yet to be felt Best contribution policy can make is to maintain low, stable inflation Some furth",
+      "published": "28 Jul 2026 10:08 WIB",
+      "sentiment": "Bullish",
+      "score": 0.92,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Kospi perpanjang penurunan hingga 10%",
+      "url": "https://investinglive.com/stocks/kospi-extends-decline-to-10/",
+      "summary": "I wrote about how ugly the Kospi chart was earlier but it's certainly unfolding faster than anticipated. It broke the support of the July lows and the February interim high at the open today and it's been straight down since. It's extended the decline to 10% now. A double-digit decline is the kind o",
+      "published": "28 Jul 2026 09:55 WIB",
+      "sentiment": "Netral",
+      "score": -0.003,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Menteri Keuangan Jepang: Mon pol telah beralih ke dunia suku bunga",
+      "url": "https://investinglive.com/central-banks/japan-finance-minister-mon-pol-has-moved-to-world-of-interest-rates/",
+      "summary": "Don't think public-private investment target of 370 trillion yen is excessive Prices have been rising in a healthy manner Can't comment on source of funding food tax cut beyond what the PM said yesterday Between the yen and rising Japanese yields/inflation, something has to give in Japan. There are ",
+      "published": "28 Jul 2026 09:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.731,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "KOSPI Korea Selatan turun 5%. Apa selanjutnya",
@@ -203,81 +274,48 @@
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "AUDUSD dan NZDUSD mencoba untuk naik, namun berbalik lebih rendah",
-      "url": "https://investinglive.com/technical-analysis/audusd-and-nzdusd-tried-to-rally-but-have-reversed-lower/",
-      "summary": "The AUDUSD and NZDUSD both pushed higher during the Asian session but have since reversed lower as U.S. Treasury yields trimmed earlier declines and U.S. equities slipped into negative territory. The S&P 500 is down 0.22% while the NASDAQ is lower by 0.48%. Meanwhile, the 2-year Treasury yield is do",
-      "published": "27 Jul 2026 22:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.916,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Departemen Keuangan AS menjual obligasi 2 tahun senilai $69 miliar dengan imbal hasil tinggi sebesar",
-      "url": "https://investinglive.com/news/us-treasury-sells-69-billion-of-2-year-note-that-a-high-yield-of/",
-      "summary": "US treasury sells $16 billion of two-year notes at a high yield of 4.315% High yield 4.315% WI level at the time of the auction 4.320% Tail -0.5 basis points vs average of 0.1 bps Bid to cover 2.66X vs average of 2.63X Directs 34.05% versus average of 29.2% Indirects 56.59% versus average of 58.2% D",
-      "published": "27 Jul 2026 23:05 WIB",
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga Perak: XAG/USD jatuh mendekati $57,50 meskipun taruhan kenaikan suku bunga Fed berkurang",
+      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-5750-despite-easing-fed-hike-bets-202607280359",
+      "summary": "Silver price (XAG/USD) declines after registering nearly 0.5% gains in the previous day, trading around $57.50 per troy ounce during the Asian hours on Tuesday.",
+      "published": "28 Jul 2026 10:59 WIB",
       "sentiment": "Netral",
-      "score": -0.048,
+      "score": 0.008,
       "emoji": "⚪",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Trump: Saya tidak akan memberikan banyak waktu untuk negosiasi – apakah negosiasi akan berjalan cepat atau tidak akan terjadi sama sekali.",
-      "url": "https://investinglive.com/news/trump-i-am-not-giving-much-time-to-negotiations-either-it-will-move-quickly-or-won-t-happen-at-all/",
-      "summary": "N12 News is reporting on comments from Pres. Trump: We are having deep talks with Iran. I am not going to take much time to negotiate, either it will move quickly or won't happen at all. we will go back to very powerful military action if talks are not successful. Everyone involved in negotiations w",
-      "published": "27 Jul 2026 22:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.432,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "USDCAD lebih tinggi hari ini tetapi tetap bertahan pada level tertinggi minggu lalu (sejauh ini)",
-      "url": "https://investinglive.com/technical-analysis/usdcad-is-higher-on-the-day-but-respecting-last-week-s-highs-so-far/",
-      "summary": "The USDCAD is modestly higher on the day after sellers failed to extend the downside following an early break lower. The pair opened on the defensive and slipped below its rising 100-hour moving average (currently at 1.40874), but bearish momentum quickly stalled ahead of the 200-hour moving average",
-      "published": "27 Jul 2026 21:35 WIB",
+      "source": "FXStreet News",
+      "title": "Yen Jepang melemah terhadap Dolar AS sementara kebijakan Fed menjadi pusat perhatian",
+      "url": "https://www.fxstreet.com/news/japanese-yen-flattens-against-us-dollar-while-feds-policy-takes-centre-stage-202607280346",
+      "summary": "The Japanese Yen (JPY) trades flat against the US Dollar (USD) at around 163.75 during the Asian trading session on Tuesday. The USD/JPY pair struggles for direction as investors have sidelined ahead of the Federal Reserve’s (Fed) monetary policy announcement on Wednesday.",
+      "published": "28 Jul 2026 10:46 WIB",
       "sentiment": "Bearish",
-      "score": -0.838,
+      "score": -0.281,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Perhatian. Akan ada 2 lelang kupon hari ini menjelang Keputusan Fed pada hari Rabu",
-      "url": "https://investinglive.com/technical-analysis/heads-up-there-will-be-2-coupon-auctions-today-ahead-of-the-fed-decision-on-wednesday/",
-      "summary": "The US economic calendar of releases is done for the day after the weaker than expected durable goods orders. However, there will be not one but 2 coupon auctions today. Normally the US treasury auctions off its coupon issues on to say Wednesday and Thursday. However, because of the Federal Reserve ",
-      "published": "27 Jul 2026 20:55 WIB",
+      "source": "FXStreet News",
+      "title": "Bullock, RBA: Pertanyaan kuncinya adalah apakah pengetatan yang sudah dilakukan cukup untuk memperlambat inflasi",
+      "url": "https://www.fxstreet.com/news/rbas-bullock-key-question-is-whether-tightening-already-delivered-is-enough-to-slow-inflation-202607280309",
+      "summary": "Speaking at the Anika Foundation Fundraising Lunch in Sydney on Tuesday, Reserve Bank of Australia (RBA) Governor Michele Bullock said that the “key question is whether tightening already delivered is enough to slow inflation.”",
+      "published": "28 Jul 2026 10:09 WIB",
       "sentiment": "Bullish",
-      "score": 0.563,
+      "score": 0.08,
       "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Katayama Jepang: Perlu mengkomunikasikan pasar JGB sebelum kompilasi anggaran",
+      "url": "https://www.fxstreet.com/news/japans-katayama-need-to-communicate-jgb-market-before-budget-compilation-202607280309",
+      "summary": "In the Asian trading session on Tuesday, Japan Finance Minister (FM) Satsuki Katayama highlighted the need to communicate to financial and Japanese Government Bonds (JGBs) markets regarding the administration’s intentions towards the fiscal policy stance.",
+      "published": "28 Jul 2026 10:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pembukaan yang lebih kuat untuk indeks saham utama AS",
-      "url": "https://investinglive.com/technical-analysis/stronger-open-for-the-major-us-stock-indices/",
-      "summary": "The major U.S. stock indices are trading higher, with investors encouraged by a combination of easing geopolitical tensions, sharply lower oil prices, and hopes that the recent flare-up in the Middle East may be giving way to renewed diplomacy. The Dow Jones Industrial Average leads the gains, up 1.",
-      "published": "27 Jul 2026 20:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.832,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "USDCHF sekarang naik setelah target support yang ditargetkan bertahan",
-      "url": "https://investinglive.com/technical-analysis/usdchf-now-up-on-the-day-after-a-targeted-support-target-holds/",
-      "summary": "The USDCHF moved higher last week, testing a topside trendline connecting the series of lower highs dating back to July 1 on the hourly chart (see red numbered circles on the chart below). The pair stalled against that trendline on both Thursday and Friday, leaving traders with a key question headin",
-      "published": "27 Jul 2026 20:46 WIB",
-      "sentiment": "Netral",
-      "score": 0.003,
-      "emoji": "⚪",
-      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -434,58 +472,36 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dolar Selandia Baru bertahan setelah data barang tahan lama AS lemah",
-      "url": "https://www.fxstreet.com/news/new-zealand-dollar-holds-after-weak-us-durable-goods-data-202607272142",
-      "summary": "NZD/USD trades near the 0.5790 area on Monday, struggling to extend its recovery despite modest weakness in the US Dollar (USD).",
-      "published": "28 Jul 2026 04:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.396,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Singapura: Hawkish MAS mendukung SGD terhadap Dolar AS – MUFG",
-      "url": "https://www.fxstreet.com/news/singapore-dollar-hawkish-mas-supports-sgd-against-us-dollar-mufg-202607272119",
-      "summary": "MUFG’s Lloyd Chan notes that the Monetary Authority of Singapore (MAS) delivered a second consecutive tightening by slightly increasing the Singapore Dollar (SGD) Nominal Effective Exchange Rate (NEER) slope, reinforcing SGD resilience.",
-      "published": "28 Jul 2026 04:19 WIB",
+      "source": "Investing.com Forex",
+      "title": "CEO Apple yang akan datang bertujuan untuk melanjutkan kemajuan film dan TV",
+      "url": "https://www.investing.com/news/stock-market-news/incoming-apple-ceo-aims-to-build-on-movie-and-tv-progress-4815425",
+      "summary": "",
+      "published": "28 Jul 2026 10:42 WIB",
       "sentiment": "Bullish",
-      "score": 0.87,
+      "score": 0.421,
       "emoji": "🟢",
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Rupiah Indonesia: Risiko Politik Mempengaruhi Kasus Penilaian – BBH",
-      "url": "https://www.fxstreet.com/news/indonesian-rupiah-political-risks-temper-valuation-case-bbh-202607272037",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that the Indonesian Rupiah (IDR) and Jakarta equities underperformed after Bank Indonesia Governor Perry Warjiyo unexpectedly resigned two years before his term ends, raising concerns about political interference.",
-      "published": "28 Jul 2026 03:37 WIB",
+      "source": "Investing.com Forex",
+      "title": "Pejabat bea cukai AS memeriksa pabrik-pabrik yang terkait dengan Tiongkok di Vietnam, Bloomberg News melaporkan",
+      "url": "https://www.investing.com/news/stock-market-news/us-customs-officials-inspect-chinalinked-factories-in-vietnam-bloomberg-news-reports-4815414",
+      "summary": "",
+      "published": "28 Jul 2026 10:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Perusahaan pusat wabah cyclospora AS mengadu ke Gedung Putih, kata sumber",
+      "url": "https://www.investing.com/news/stock-market-news/company-at-center-of-us-cyclospora-outbreak-complained-to-white-house-source-says-4815321",
+      "summary": "",
+      "published": "28 Jul 2026 09:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.87,
+      "score": -0.402,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Yen Jepang: BoJ melakukan pengetatan namun JPY lebih lemah terhadap Dolar AS – BNP Paribas",
-      "url": "https://www.fxstreet.com/news/japanese-yen-boj-tightening-yet-weaker-jpy-against-us-dollar-bnp-paribas-202607272017",
-      "summary": "BNP Paribas strategists see Japan’s Gross Domestic Product (GDP) growth slowing to 0.8% in 2026 from 1.1% in 2025 as higher inflation and energy-related costs weigh on activity, partly offset by fiscal support and AI (Artificial intelligence) investment.",
-      "published": "28 Jul 2026 03:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.5,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Singapura: MAS menandakan kekhawatiran inflasi – Commerzbank",
-      "url": "https://www.fxstreet.com/news/singapore-dollar-mas-signals-inflation-concern-commerzbank-202607271951",
-      "summary": "Commerzbank’s Charlie Lay notes Monetary Authority of Singapore (MAS) unexpectedly tightened policy for a second meeting, slightly increasing the Singapore Dollar (SGD) Nominal Effective Exchange Rate (NEER) slope and stressing the move was smaller than April’s.",
-      "published": "28 Jul 2026 02:51 WIB",
-      "sentiment": "Bullish",
-      "score": 0.146,
-      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -508,6 +524,17 @@
       "sentiment": "Bearish",
       "score": -0.178,
       "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Market Technology Acquisition Corp menutup IPO senilai $205 juta di Nasdaq",
+      "url": "https://www.investing.com/news/stock-market-news/market-technology-acquisition-corp-closes-205m-ipo-on-nasdaq-432SI-4815404",
+      "summary": "",
+      "published": "28 Jul 2026 09:34 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -555,50 +582,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Korea Selatan mungkin membatasi investasi ETF dengan leverage untuk investor ritel, menurut laporan media",
-      "url": "https://www.investing.com/news/stock-market-news/south-korea-may-cap-leveraged-etf-investments-for-retail-investors-media-reports-say-4815380",
-      "summary": "",
-      "published": "28 Jul 2026 08:54 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Kontrak berjangka Wall St tergelincir karena kekhawatiran terhadap AI; investor menunggu Fed, pendapatan megacap",
-      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-as-investors-await-fed-megacap-earnings-4815345",
-      "summary": "",
-      "published": "28 Jul 2026 08:32 WIB",
-      "sentiment": "Bullish",
-      "score": 0.103,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Harga minyak terus merosot seiring perundingan AS-Iran meningkatkan harapan akan terjadinya deeskalasi jangka panjang",
-      "url": "https://www.investing.com/news/stock-market-news/oil-extends-slide-as-usiran-talks-raise-hopes-of-lasting-deescalation-4815359",
-      "summary": "",
-      "published": "28 Jul 2026 08:11 WIB",
-      "sentiment": "Bullish",
-      "score": 0.431,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "FAA mengusulkan pemeriksaan pada jet Boeing 737 MAX atas pemasangan kursi yang tidak tepat",
-      "url": "https://www.investing.com/news/stock-market-news/faa-proposes-checks-on-boeing-737-max-jets-over-improperly-installed-seats-4815356",
-      "summary": "",
-      "published": "28 Jul 2026 08:02 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Data ECB menunjukkan pertumbuhan pinjaman yang stabil di bulan Juni",
       "url": "https://www.investing.com/news/economic-indicators/ecb-data-shows-steady-lending-growth-in-june-93CH-4813138",
@@ -608,6 +591,39 @@
       "score": 0.462,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Merosot karena Penjualan Chip Memburuk, Minyak Turun: Pasar Membungkus",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/stock-market-today-dow-s-p-live-updates",
+      "summary": "Stocks tumbled as mounting doubts over returns from billions of dollars of artificial-intelligence spending triggered another selloff in chipmakers from Wall Street to Asia. Bonds gained as oil retreated.",
+      "published": "28 Jul 2026 05:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.322,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bullock dari RBA Mengatakan Perekonomian Mendingin, Tidak Yakin Apakah Suku Bunga Cukup Tinggi",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/rba-s-bullock-says-economy-cooling-unsure-if-rates-high-enough",
+      "summary": "Australia’s central bank chief said there are signs the economy is adjusting as anticipated, though it’s still unclear if this year’s interest-rate hikes are enough to return inflation to target or whether additional tightening will be needed.",
+      "published": "28 Jul 2026 10:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.299,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "USD/PHP: Filipina Melakukan Intervensi Kecil untuk Mempertahankan Peso, Kata Gubernur BSP",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/usd-php-philippines-intervened-in-small-way-to-defend-peso-bsp-governor-says",
+      "summary": "The Philippine central bank intervened in a small way to defend the peso last week, Governor Eli Remolona said, as the currency weakened to a record low.",
+      "published": "28 Jul 2026 10:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.607,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -644,17 +660,6 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Merosot seiring Akselerasi Penjualan AI, Penguatan Obligasi: Pembungkusan Pasar",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/stock-market-today-dow-s-p-live-updates",
-      "summary": "A selloff in chipmakers deepened as mounting doubts over returns from billions of dollars of artificial-intelligence spending rippled through semiconductor stocks from Wall Street to Asia. Bonds extended gains as oil retreated.",
-      "published": "28 Jul 2026 05:08 WIB",
-      "sentiment": "Bullish",
-      "score": 0.637,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "S&P 500 Bergoyang karena Kecemasan AI Mengimbangi Penurunan Minyak: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-07-26/oil-tumbles-as-us-and-iran-pause-military-strikes-markets-wrap",
       "summary": "A selloff in chipmakers sent stocks wavering, offsetting a decline in oil prices, as pressure keeps building for the biggest spenders on artificial intelligence to justify their investments.",
@@ -662,17 +667,6 @@
       "sentiment": "Netral",
       "score": -0.003,
       "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Treasury Naik karena Peningkatan Imbal Hasil Menarik Pembeli Sebelum Fed",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/treasury-yields-follow-oil-lower-with-fed-and-supply-in-focus",
-      "summary": "US Treasuries rose as the US paused strikes on Iran and oil prices fell, with an auction of the shortest-dated notes attracting buyers ahead of this week’s Federal Reserve meeting.",
-      "published": "27 Jul 2026 19:56 WIB",
-      "sentiment": "Bullish",
-      "score": 0.71,
-      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -703,6 +697,17 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZGM5aG5fX2JjdHdaUHNpWkI4RGF0bW5RZGhMelNzZ2x5ZlUxQTl5aXo0akpHYXY4Y1RJU0VZUjRuNTF6ZDktMUlodHE3YTB0TXU1OVJvOEpob1ZoUUlsMnFnYmdXWWVMQUtQNURaUzhOZG5CeGk2RGwwTGh4b2JpM2NqZTZ5aHY3YzEtSzBxNnNBNUIwYXJrSnhWRmV5ZTc2ZW1CNU5JaWNxWThQTlJScWJKLW5MTGZydk9KYm5sOUt5ZnM?oc=5",
       "summary": "Central Bank of Libya to Inject $2 Billion to Stabilize Currency Libya Herald",
       "published": "27 Jul 2026 00:25 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Google News Forex",
+      "title": "MAS memperketat kebijakan moneter untuk kedua kalinya berturut-turut - CNA",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTmxZVjlBVGFwOEZsZGlOZ2QwcGtiV3A0ZU15ZmNRWGJxUWplOG9FVG1rMHFveEUtNVR0aFVPMUpwYjg2ak5SYWhEV3pNSk81MTBwYlNpRExIR1l2aDRkWkxpSjhtWkkwRVBEbXRKM1dMV05HeXNIQ0tVT0N0RGFJRElBVnFYbUFxeU1ObFRYcDd5YmxSNnFqMWhhNA?oc=5",
+      "summary": "MAS tightens monetary policy for the second time in a row CNA",
+      "published": "27 Jul 2026 07:12 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -919,17 +924,6 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Teleskop Jodrell Bank yang ikonik di Inggris menghadapi kemunduran dalam bidang sains",
-      "url": "https://www.bbc.co.uk/news/articles/c5y6r9rdxygo?at_medium=RSS&at_campaign=rss",
-      "summary": "Astronomers warn it would tear the heart out of UK science, and leave a generation untrained.",
-      "published": "27 Jul 2026 18:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.17,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
       "title": "Kebakaran hutan merupakan 'pengingat nyata' akan tantangan iklim ekstrem, kata William",
       "url": "https://www.bbc.co.uk/news/articles/cvg97dj5n16o?at_medium=RSS&at_campaign=rss",
       "summary": "The prince's warning comes as wildfires rage in parts of Europe and the UK during a spell of extreme heat.",
@@ -948,6 +942,50 @@
       "sentiment": "Bullish",
       "score": 0.402,
       "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Apa yang diharapkan dari kunjungan Zelensky dan Netanyahu ke Washington",
+      "url": "https://www.bbc.co.uk/news/videos/cd0xlnz2yk1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Republican Senator Lindsay Graham's funeral is bringing the two world leaders to town, where they'll separately visit the White House to discuss their region's wars.",
+      "published": "28 Jul 2026 07:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.807,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Zelenskyy dari Ukraina akan bertemu Trump saat perang Iran dan Ukraina bertemu",
+      "url": "https://www.aljazeera.com/news/2026/7/28/ukraines-zelenskyy-set-to-meet-trump-as-iran-and-ukraine-wars-converge?traffic_source=rss",
+      "summary": "The US Senate will vote Tuesday on Russian sanctions, days after Ukraine attacked an Iranian vessel in the Caspian Sea.",
+      "published": "28 Jul 2026 10:16 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "AS memperingatkan ratusan jet Boeing mungkin memerlukan inspeksi keselamatan kursi",
+      "url": "https://www.aljazeera.com/news/2026/7/28/us-warns-hundreds-of-boeing-jets-may-require-seat-safety-inspections?traffic_source=rss",
+      "summary": "US regulator warns of Boeing 737 MAX seat safety concerns, calls for inspection of 453 US-registered jets.",
+      "published": "28 Jul 2026 09:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.506,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump mengatakan pembicaraan dengan Iran terjadi saat jeda serangan militer AS",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/trump-says-iran-talks-taking-place-during-pause-in-us-military-strikes?traffic_source=rss",
+      "summary": "US President Donald Trump says talks with Iran are continuing during a pause in US military strikes",
+      "published": "28 Jul 2026 09:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.612,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -985,17 +1023,6 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Tembakan terjadi di luar konsulat AS di Kanada untuk kedua kalinya tahun ini",
-      "url": "https://www.aljazeera.com/news/2026/7/27/shot-fired-outside-us-consulate-in-canada-for-second-time-this-year?traffic_source=rss",
-      "summary": "Police have previously suggested a link between anti-Jewish attacks in the city and shootings at the US consulate.",
-      "published": "28 Jul 2026 05:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.838,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
       "title": "Video menunjukkan seorang pria ditundukkan setelah menikam tiga wanita di Paris",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/video-shows-man-subdued-after-stabbing-three-women-in-paris?traffic_source=rss",
       "summary": "Three women were wounded, two of them seriously, in a knife attack near Porte de Clichy in Paris.",
@@ -1018,7 +1045,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Harapan untuk kembali ke jalur diplomasi saat AS-Iran terus membara di hari ketiga",
+      "title": "Harapan untuk kembali melakukan diplomasi saat AS-Iran terus membara di hari ketiga",
       "url": "https://www.aljazeera.com/news/2026/7/27/hopes-of-return-to-diplomacy-as-us-iran-hold-fire-for-third-day?traffic_source=rss",
       "summary": "Mediators from Qatar and Pakistan work to restart ceasefire talks amid fragile pause in hostilities.",
       "published": "28 Jul 2026 04:04 WIB",
@@ -1029,23 +1056,12 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Pengadilan Inggris menolak upaya Bahrain untuk memblokir gugatan spyware para aktivis",
+      "title": "Pengadilan Inggris menolak upaya Bahrain untuk memblokir tuntutan aktivis spyware",
       "url": "https://www.aljazeera.com/news/2026/7/27/british-court-dismisses-bahrains-bid-to-block-activists-spyware-lawsuit?traffic_source=rss",
       "summary": "Ruling establishes that countries using spyware on people in the UK can be sued.",
       "published": "28 Jul 2026 03:32 WIB",
       "sentiment": "Bearish",
       "score": -0.746,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah Burnham telah menepati janjinya untuk berbuat lebih baik dalam perang Israel di Gaza?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/has-burnham-kept-his-promise-to-do-better-on-israels-war-on-gaza?traffic_source=rss",
-      "summary": "Will Britain's new cabinet change the country’s role in Israel’s war on Gaza?",
-      "published": "28 Jul 2026 03:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.687,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -1073,6 +1089,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "Harga minyak turun lebih dari 2% karena terhentinya permusuhan AS-Iran meningkatkan harapan de-eskalasi",
+      "url": "https://www.cnbc.com/2026/07/28/oil-price-today-wti-brent-us-iran-hormuz.html",
+      "summary": "Speaking to reporters aboard Air Force One on Monday en route to Michigan, Trump dismissed suggestions that the U.S. was running short on weapons.",
+      "published": "28 Jul 2026 10:38 WIB",
+      "sentiment": "Bearish",
+      "score": -0.797,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Buletin The China Connection dari CNBC: Perdebatan AS-Tiongkok yang lebih besar dari sekedar tarif",
       "url": "https://www.cnbc.com/2026/07/27/cnbcs-the-china-connection-newsletter-a-us-china-debate-thats-becoming-bigger-than-tariffs.html",
       "summary": "The AI race is heating up so fast this summer that it's reshaping national priorities in the U.S. and China.",
@@ -1081,17 +1108,6 @@
       "score": 0.0,
       "emoji": "⚪",
       "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Netanyahu, Zelenskyy datang ke DC untuk menghadiri pemakaman Graham, bertemu dengan Trump di tengah perang",
-      "url": "https://www.cnbc.com/2026/07/27/trump-netanyahu-zelenskyy-iran-war-lindsey-graham-funeral.html",
-      "summary": "The funeral for Sen. Lindsey Graham is bringing world leaders to Washington at a time when many are eager to meet with President Donald Trump amid wars.",
-      "published": "28 Jul 2026 02:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.946,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -1106,36 +1122,14 @@
     },
     {
       "source": "CNBC World",
-      "title": "Harga kakao melemah. Lalu mengapa coklat masih begitu mahal?",
-      "url": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
-      "summary": "Chocolate firms look to win shoppers back with premium products and social media trends after poor weather conditions, tariffs, and the Iran war hit sales.",
-      "published": "27 Jul 2026 16:39 WIB",
+      "title": "Netanyahu, Zelenskyy datang ke DC untuk menghadiri pemakaman Graham, bertemu dengan Trump di tengah perang",
+      "url": "https://www.cnbc.com/2026/07/27/trump-netanyahu-zelenskyy-iran-war-lindsey-graham-funeral.html",
+      "summary": "The funeral for Sen. Lindsey Graham is bringing world leaders to Washington at a time when many are eager to meet with President Donald Trump amid wars.",
+      "published": "28 Jul 2026 02:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.456,
+      "score": -0.946,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "AS dan Iran menghentikan pertikaian, Trump menepis kekhawatiran berkurangnya stok",
-      "url": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
-      "summary": "A temporary pause to the U.S.-Iran conflict appeared to hold on Monday, after negotiations over a lasting peace faced fresh hurdles over the weekend.",
-      "published": "28 Jul 2026 00:43 WIB",
-      "sentiment": "Bullish",
-      "score": 0.09,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Nvidia, SpaceX, dan Microsoft meluncurkan inisiatif keamanan AI seiring dampak serangan siber OpenAI yang terus berlanjut",
-      "url": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
-      "summary": "Microsoft, SpaceX, Palantir, alongside dozens of other tech companies from the U.S. and Europe, have joined the Open Secure AI Alliance.",
-      "published": "27 Jul 2026 18:32 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "CNBC World",
@@ -1150,12 +1144,23 @@
     },
     {
       "source": "CNBC World",
-      "title": "Pertumbuhan keuntungan industri Tiongkok kembali melambat pada bulan Juni karena penurunan harga minyak melemahkan peningkatan pendapatan",
-      "url": "https://www.cnbc.com/2026/07/27/china-industrial-profit-growth-exports-oil-drops.html",
-      "summary": "Corporate earnings have staged one of the strongest turnarounds in the economy this year, swinging from barely positive growth in 2025 to double-digit gains.",
-      "published": "27 Jul 2026 09:02 WIB",
+      "title": "Harga kakao melemah. Lalu mengapa coklat masih begitu mahal?",
+      "url": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
+      "summary": "Chocolate firms look to win shoppers back with premium products and social media trends after poor weather conditions, tariffs, and the Iran war hit sales.",
+      "published": "27 Jul 2026 16:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.456,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Nvidia, SpaceX, dan Microsoft meluncurkan inisiatif keamanan AI seiring dampak serangan siber OpenAI yang terus berlanjut",
+      "url": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
+      "summary": "Microsoft, SpaceX, Palantir, alongside dozens of other tech companies from the U.S. and Europe, have joined the Open Secure AI Alliance.",
+      "published": "27 Jul 2026 18:32 WIB",
       "sentiment": "Bullish",
-      "score": 1.0,
+      "score": 0.477,
       "emoji": "🟢",
       "impact": "low"
     }
