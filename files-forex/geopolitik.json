@@ -1,5 +1,5 @@
 {
-  "generated": "28 Jul 2026 09:43 WIB",
+  "generated": "28 Jul 2026 11:04 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,38 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.472,
-      "count": 21
+      "score": -0.518,
+      "count": 19
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.466,
-      "count": 21
+      "score": -0.511,
+      "count": 19
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.573,
+      "score": -0.501,
       "count": 14
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.188,
+      "score": -0.344,
       "count": 7
     },
     {
       "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.071,
-      "count": 6
+      "direction": "Tekanan Turun ▼",
+      "score": -0.229,
+      "count": 4
     },
     {
       "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.071,
-      "count": 6
+      "direction": "Tekanan Turun ▼",
+      "score": -0.229,
+      "count": 4
     },
     {
       "pair": "AUD/USD",
@@ -110,37 +110,15 @@
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Trump: Saya tidak akan memberikan banyak waktu untuk negosiasi – apakah negosiasi akan berjalan cepat atau tidak akan terjadi sama sekali.",
-      "url": "https://investinglive.com/news/trump-i-am-not-giving-much-time-to-negotiations-either-it-will-move-quickly-or-won-t-happen-at-all/",
-      "summary": "N12 News is reporting on comments from Pres. Trump: We are having deep talks with Iran. I am not going to take much time to negotiate, either it will move quickly or won't happen at all. we will go back to very powerful military action if talks are not successful. Everyone involved in negotiations w",
-      "published": "27 Jul 2026 22:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.432,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Perhatian. Akan ada 2 lelang kupon hari ini menjelang Keputusan Fed pada hari Rabu",
-      "url": "https://investinglive.com/technical-analysis/heads-up-there-will-be-2-coupon-auctions-today-ahead-of-the-fed-decision-on-wednesday/",
-      "summary": "The US economic calendar of releases is done for the day after the weaker than expected durable goods orders. However, there will be not one but 2 coupon auctions today. Normally the US treasury auctions off its coupon issues on to say Wednesday and Thursday. However, because of the Federal Reserve ",
-      "published": "27 Jul 2026 20:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.563,
-      "emoji": "🟢",
+      "source": "FXStreet News",
+      "title": "Katayama Jepang: Perlu mengkomunikasikan pasar JGB sebelum kompilasi anggaran",
+      "url": "https://www.fxstreet.com/news/japans-katayama-need-to-communicate-jgb-market-before-budget-compilation-202607280309",
+      "summary": "In the Asian trading session on Tuesday, Japan Finance Minister (FM) Satsuki Katayama highlighted the need to communicate to financial and Japanese Government Bonds (JGBs) markets regarding the administration’s intentions towards the fiscal policy stance.",
+      "published": "28 Jul 2026 10:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pembukaan yang lebih kuat untuk indeks saham utama AS",
-      "url": "https://investinglive.com/technical-analysis/stronger-open-for-the-major-us-stock-indices/",
-      "summary": "The major U.S. stock indices are trading higher, with investors encouraged by a combination of easing geopolitical tensions, sharply lower oil prices, and hopes that the recent flare-up in the Middle East may be giving way to renewed diplomacy. The Dow Jones Industrial Average leads the gains, up 1.",
-      "published": "27 Jul 2026 20:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.832,
-      "emoji": "🟢",
-      "impact": "medium"
     },
     {
       "source": "FXStreet News",
@@ -165,17 +143,6 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Rupiah Indonesia: Risiko Politik Mempengaruhi Kasus Penilaian – BBH",
-      "url": "https://www.fxstreet.com/news/indonesian-rupiah-political-risks-temper-valuation-case-bbh-202607272037",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that the Indonesian Rupiah (IDR) and Jakarta equities underperformed after Bank Indonesia Governor Perry Warjiyo unexpectedly resigned two years before his term ends, raising concerns about political interference.",
-      "published": "28 Jul 2026 03:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.87,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Bloomberg Markets",
       "title": "Berita dan Analisis Pasar Minyak Terbaru 28 Juli",
       "url": "https://www.bloomberg.com/news/articles/2026-07-27/latest-oil-market-news-and-analysis-for-july-28",
@@ -195,17 +162,6 @@
       "sentiment": "Netral",
       "score": -0.003,
       "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Treasury Naik karena Peningkatan Imbal Hasil Menarik Pembeli Sebelum Fed",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/treasury-yields-follow-oil-lower-with-fed-and-supply-in-focus",
-      "summary": "US Treasuries rose as the US paused strikes on Iran and oil prices fell, with an auction of the shortest-dated notes attracting buyers ahead of this week’s Federal Reserve meeting.",
-      "published": "27 Jul 2026 19:56 WIB",
-      "sentiment": "Bullish",
-      "score": 0.511,
-      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -353,17 +309,6 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Teleskop Jodrell Bank yang ikonik di Inggris menghadapi kemunduran dalam bidang sains",
-      "url": "https://www.bbc.co.uk/news/articles/c5y6r9rdxygo?at_medium=RSS&at_campaign=rss",
-      "summary": "Astronomers warn it would tear the heart out of UK science, and leave a generation untrained.",
-      "published": "27 Jul 2026 18:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.17,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
       "title": "Kebakaran hutan merupakan 'pengingat nyata' akan tantangan iklim ekstrem, kata William",
       "url": "https://www.bbc.co.uk/news/articles/cvg97dj5n16o?at_medium=RSS&at_campaign=rss",
       "summary": "The prince's warning comes as wildfires rage in parts of Europe and the UK during a spell of extreme heat.",
@@ -372,6 +317,50 @@
       "score": -0.742,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Apa yang diharapkan dari kunjungan Zelensky dan Netanyahu ke Washington",
+      "url": "https://www.bbc.co.uk/news/videos/cd0xlnz2yk1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Republican Senator Lindsay Graham's funeral is bringing the two world leaders to town, where they'll separately visit the White House to discuss their region's wars.",
+      "published": "28 Jul 2026 07:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.807,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Zelenskyy dari Ukraina akan bertemu Trump saat perang Iran dan Ukraina bertemu",
+      "url": "https://www.aljazeera.com/news/2026/7/28/ukraines-zelenskyy-set-to-meet-trump-as-iran-and-ukraine-wars-converge?traffic_source=rss",
+      "summary": "The US Senate will vote Tuesday on Russian sanctions, days after Ukraine attacked an Iranian vessel in the Caspian Sea.",
+      "published": "28 Jul 2026 10:16 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "AS memperingatkan ratusan jet Boeing mungkin memerlukan inspeksi keselamatan kursi",
+      "url": "https://www.aljazeera.com/news/2026/7/28/us-warns-hundreds-of-boeing-jets-may-require-seat-safety-inspections?traffic_source=rss",
+      "summary": "US regulator warns of Boeing 737 MAX seat safety concerns, calls for inspection of 453 US-registered jets.",
+      "published": "28 Jul 2026 09:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.506,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump mengatakan pembicaraan dengan Iran terjadi saat jeda serangan militer AS",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/trump-says-iran-talks-taking-place-during-pause-in-us-military-strikes?traffic_source=rss",
+      "summary": "US President Donald Trump says talks with Iran are continuing during a pause in US military strikes",
+      "published": "28 Jul 2026 09:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.612,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
@@ -408,17 +397,6 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Tembakan terjadi di luar konsulat AS di Kanada untuk kedua kalinya tahun ini",
-      "url": "https://www.aljazeera.com/news/2026/7/27/shot-fired-outside-us-consulate-in-canada-for-second-time-this-year?traffic_source=rss",
-      "summary": "Police have previously suggested a link between anti-Jewish attacks in the city and shootings at the US consulate.",
-      "published": "28 Jul 2026 05:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.838,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
       "title": "Video menunjukkan seorang pria ditundukkan setelah menikam tiga wanita di Paris",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/video-shows-man-subdued-after-stabbing-three-women-in-paris?traffic_source=rss",
       "summary": "Three women were wounded, two of them seriously, in a knife attack near Porte de Clichy in Paris.",
@@ -441,7 +419,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Harapan untuk kembali ke jalur diplomasi saat AS-Iran terus membara di hari ketiga",
+      "title": "Harapan untuk kembali melakukan diplomasi saat AS-Iran terus membara di hari ketiga",
       "url": "https://www.aljazeera.com/news/2026/7/27/hopes-of-return-to-diplomacy-as-us-iran-hold-fire-for-third-day?traffic_source=rss",
       "summary": "Mediators from Qatar and Pakistan work to restart ceasefire talks amid fragile pause in hostilities.",
       "published": "28 Jul 2026 04:04 WIB",
@@ -452,23 +430,12 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Pengadilan Inggris menolak upaya Bahrain untuk memblokir gugatan spyware para aktivis",
+      "title": "Pengadilan Inggris menolak upaya Bahrain untuk memblokir tuntutan aktivis spyware",
       "url": "https://www.aljazeera.com/news/2026/7/27/british-court-dismisses-bahrains-bid-to-block-activists-spyware-lawsuit?traffic_source=rss",
       "summary": "Ruling establishes that countries using spyware on people in the UK can be sued.",
       "published": "28 Jul 2026 03:32 WIB",
       "sentiment": "Bearish",
       "score": -0.746,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah Burnham telah menepati janjinya untuk berbuat lebih baik dalam perang Israel di Gaza?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/has-burnham-kept-his-promise-to-do-better-on-israels-war-on-gaza?traffic_source=rss",
-      "summary": "Will Britain's new cabinet change the country’s role in Israel’s war on Gaza?",
-      "published": "28 Jul 2026 03:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.687,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -485,28 +452,6 @@
     },
     {
       "source": "CNBC World",
-      "title": "Harga kakao melemah. Lalu mengapa coklat masih begitu mahal?",
-      "url": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
-      "summary": "Chocolate firms look to win shoppers back with premium products and social media trends after poor weather conditions, tariffs, and the Iran war hit sales.",
-      "published": "27 Jul 2026 16:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.456,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "AS dan Iran menghentikan pertikaian, Trump menepis kekhawatiran berkurangnya stok",
-      "url": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
-      "summary": "A temporary pause to the U.S.-Iran conflict appeared to hold on Monday, after negotiations over a lasting peace faced fresh hurdles over the weekend.",
-      "published": "28 Jul 2026 00:43 WIB",
-      "sentiment": "Bullish",
-      "score": 0.09,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
       "title": "Mengapa kilatan tarif baru Trump kali ini sangat berbeda",
       "url": "https://www.cnbc.com/2026/07/27/donald-trump-tariffs-trade-war-iran.html",
       "summary": "President Trump on Friday launched a fresh round of tariffs targeting 60 trading partners, including the European Union, China and the U.K.",
@@ -515,6 +460,17 @@
       "score": 0.421,
       "emoji": "🟢",
       "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Harga kakao melemah. Lalu mengapa coklat masih begitu mahal?",
+      "url": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
+      "summary": "Chocolate firms look to win shoppers back with premium products and social media trends after poor weather conditions, tariffs, and the Iran war hit sales.",
+      "published": "27 Jul 2026 16:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.456,
+      "emoji": "🔴",
+      "impact": "high"
     }
   ]
 }
