@@ -1,5 +1,5 @@
 {
-  "generated": "28 Jul 2026 22:02 WIB",
+  "generated": "29 Jul 2026 04:42 WIB",
   "events": [
     {
       "date": "2026-07-26",
@@ -658,7 +658,7 @@
       "impact": "high",
       "event": "Advance GDP q/q",
       "actual": "",
-      "forecast": "2.0%",
+      "forecast": "2.1%",
       "previous": "2.1%"
     },
     {
@@ -724,7 +724,7 @@
       "impact": "low",
       "event": "Natural Gas Storage",
       "actual": "",
-      "forecast": "",
+      "forecast": "37B",
       "previous": "32B"
     },
     {
