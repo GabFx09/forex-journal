@@ -1,5 +1,5 @@
 {
-  "generated": "29 Jul 2026 22:03 WIB",
+  "generated": "30 Jul 2026 00:55 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,108 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.384,
-      "count": 34
+      "score": -0.362,
+      "count": 36
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.397,
-      "count": 33
+      "score": -0.362,
+      "count": 36
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.333,
-      "count": 28
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.349,
-      "count": 8
+      "score": -0.309,
+      "count": 32
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.106,
-      "count": 8
+      "score": -0.172,
+      "count": 5
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.106,
-      "count": 8
+      "score": -0.172,
+      "count": 5
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.63,
+      "count": 5
     },
     {
       "pair": "EUR",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.215,
-      "count": 3
+      "direction": "Tekanan Turun ▼",
+      "score": -0.128,
+      "count": 1
     },
     {
       "pair": "GBP",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.215,
-      "count": 3
+      "direction": "Tekanan Turun ▼",
+      "score": -0.128,
+      "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Sekilas tentang pasangan mata uang utama menjelang keputusan suku bunga FOMC.",
+      "url": "https://investinglive.com/technical-analysis/a-quick-look-around-the-major-currency-pairs-ahead-of-the-fomc-rate-decision/",
+      "summary": "The FOMC rate decision is at the top of the hour. In the video above I take a look at some of the major currency pairs and outline the key technical levels in play. Be aware be prepared. This article was written by Greg Michalowski at investinglive.com.",
+      "published": "30 Jul 2026 00:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.545,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Poin-poin penting dari risalah pertemuan Bank of Canada bulan Juli 2026",
+      "url": "https://investinglive.com/central-banks/key-takeaways-from-the-bank-of-canada-meeting-minutes-for-july-2026/",
+      "summary": "The Bank of Canada meeting minutes for the July 15 rate decision commented: Ahead of the Bank of Canada's July 15 rate announcement, Governing Council members were split over whether the recent rebound in the economy would prove sustainable. Brazil's Labor Ministry reported that formal employment in",
+      "published": "30 Jul 2026 00:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Laporan: AS mempersiapkan respons yang lebih besar terhadap Iran",
+      "url": "https://investinglive.com/news/report-u-s-preparing-for-a-larger-response-to-iran/",
+      "summary": "A senior Israeli security official told i24 that the U.S. is preparing for \"something bigger than anything we've seen so far.\" Sources say Washington is weighing a more significant military operation rather than another limited retaliatory strike. The assessment is based on a series of developments ",
+      "published": "30 Jul 2026 00:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.412,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Penasihat Ekonomi WH Hassett: Presiden Trump sangat menghormati Kevin Warsh.",
+      "url": "https://investinglive.com/news/wh-economic-advisor-hassett-pres-trump-has-hard-regard-for-kevin-warsh/",
+      "summary": "Our policy is helping to bring prices lower. The WH trusts Warsh's judgement Confidence in him could never be higher. When there is a productivity boom and real wages go up that is a good thing for the economy There was a massive stimulus from Biden administration that led to inflation. This article",
+      "published": "30 Jul 2026 00:14 WIB",
+      "sentiment": "Bullish",
+      "score": 0.772,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Saat pedagang London/Eropa menuju pintu keluar, pasar takut terhadap The Fed (dan perang)",
+      "url": "https://investinglive.com/stocks/as-london-euorpean-traders-head-for-the-exit-the-markets-are-scared-of-the-fed-and-war/",
+      "summary": "As the European and London traders head toward the close, stocks have moved lower, yield are higher and so is are oil prices. The markets are anxious about the Fed with the chance of a hike up to about 35% as Fed Chair Warsh (and the Fed voters) ponder the \"for\" and \"against\" choices. Recall at the ",
+      "published": "29 Jul 2026 23:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.216,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Harga Emas Hari Ini: Bisakah $4.000 Ditahan Saat Pedagang Menunggu The Fed?",
@@ -110,68 +165,68 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Emas masih berada di bawah tekanan menjelang keputusan FOMC karena para pedagang melakukan lindung nilai dan risiko Timur Tengah meningkat",
-      "url": "https://investinglive.com/commodities/gold-stays-under-pressure-ahead-of-the-fomc-decision-as-traders-hedge-and-middle-east-risks-rise/",
-      "summary": "FUNDAMENTAL OVERVIEW Gold is trading near weekly lows as the hedging activity into the FOMC decision and renewed escalation on the US-Iran front weighed on the precious metal. Iran launched a “surprise attack” against US forces in the region tonight. All the missiles and drones were intercepted, but",
-      "published": "29 Jul 2026 15:48 WIB",
+      "source": "FXStreet News",
+      "title": "Peso Meksiko jatuh karena eskalasi Perang Teluk membebani suasana hati, fokus pada Fed",
+      "url": "https://www.fxstreet.com/news/mexican-peso-tumbles-as-gulf-war-escalation-weighs-on-mood-fed-eyed-202607291747",
+      "summary": "The Mexican Peso loses ground against the US Dollar on Wednesday as risk appetite turns sour amid the escalation of the Gulf War, while traders await the Federal Reserve’s monetary policy decision. The USD/MXN trades at 17.51, up 0.47%.",
+      "published": "30 Jul 2026 00:47 WIB",
       "sentiment": "Bearish",
-      "score": -0.51,
+      "score": -0.944,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Apakah kenaikan harga AS sudah kehabisan tenaga?",
-      "url": "https://investinglive.com/education/is-the-u-s-bull-rally-running-out-of-steam/",
-      "summary": "Over the past five days, the Nasdaq has fallen more than 3%, and while the case for a further decline may look strong at first glance, there are still a few “buts.” Starting with geopolitics, although tensions in the Middle East have flared up again, pushing oil prices higher and raising concerns ab",
-      "published": "29 Jul 2026 14:51 WIB",
-      "sentiment": "Netral",
-      "score": -0.022,
-      "emoji": "⚪",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pratinjau Fed: Ini semua tentang mereka yang berbeda pendapat",
-      "url": "https://investinglive.com/central-banks/fed-preview-it-s-all-about-the-dissenters/",
-      "summary": "The FOMC is expected to keep the target range for the federal funds rate unchanged at 3.50%–3.75%. The consensus expects up to two dissenters to vote in favor of a rate hike at this meeting, likely Fed's Logan and/or Fed's Hammack. We won't get the Summary of Economic Projections (SEP) at this meeti",
-      "published": "29 Jul 2026 15:14 WIB",
+      "source": "FXStreet News",
+      "title": "Federal Reserve akan mempertahankan suku bunga seiring meningkatnya tekanan untuk menaikkan suku bunga",
+      "url": "https://www.fxstreet.com/news/federal-reserve-set-to-hold-interest-rates-steady-yet-a-hike-cant-be-ruled-out-202607291400",
+      "summary": "The United States (US) Federal Reserve (Fed) announces its interest rate decision on Wednesday, another pivotal meeting for markets to gauge the stance of policymakers as they assess how rising crude Oil prices could impact the inflation outlook.",
+      "published": "29 Jul 2026 21:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.202,
+      "score": 0.273,
       "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Harga impor Jerman turun pada bulan Juni karena penurunan harga energi",
-      "url": "https://investinglive.com/news/german-import-prices-fell-in-june-due-to-drop-in-energy-prices/",
-      "summary": "June import prices -0.7% vs -0.7% m/m expected Prior +0.7% This is in contrast to the May estimate but it matches with the decline in energy prices in the run up to the ceasefire deal between the US and Iran at the end of June. Since then, a lot has changed of course and energy prices have shot back",
-      "published": "29 Jul 2026 13:26 WIB",
+      "source": "FXStreet News",
+      "title": "Pound Inggris: Risiko kebijakan dengan perdagangan terikat dalam kisaran terhadap Dolar AS – Scotiabank",
+      "url": "https://www.fxstreet.com/news/british-pound-policy-risk-with-range-bound-trade-against-us-dollar-scotiabank-202607291613",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight that GBP/USD is flat around 1.33, supported by stronger United Kingdom (UK) lending data and stabilizing Bank of England (BoE) expectations. They stress that UK fiscal narratives remain important for sentiment toward government debt.",
+      "published": "29 Jul 2026 23:13 WIB",
       "sentiment": "Bullish",
-      "score": 0.729,
+      "score": 0.681,
       "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Apa acara utama hari ini?",
-      "url": "https://investinglive.com/news/what-are-the-main-events-for-today-13/",
-      "summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low tier releases like the Italian Industrial Sales and Swiss Economic Sentiment Index that won't change anything for the respective central banks. The price action is being driven by renewed escalation",
-      "published": "29 Jul 2026 13:11 WIB",
+      "source": "FXStreet News",
+      "title": "Pound Inggris bertahan di bawah 1,33 karena Trump memperingatkan Iran, Minyak melonjak",
+      "url": "https://www.fxstreet.com/news/british-pound-holds-below-133-as-trump-warns-iran-oil-jumps-202607291530",
+      "summary": "The Pound Sterling holds firm on Wednesday as the US-Iran conflict escalates, with US President Donald Trump warning of further attacks on Iran in retaliation for Tehran's strikes on US forces in Jordan. The GBP/USD trades below 1.3300, barely unchanged.",
+      "published": "29 Jul 2026 22:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.66,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Opsi FX kedaluwarsa pada 29 Juli 10 pagi pemotongan New York",
-      "url": "https://investinglive.com/orders/fx-option-expiries-for-29-july-10am-new-york-cut/",
-      "summary": "There isn't all too much on the expiries board for the day ahead, with the full list seen below. The only notable one perhaps is for EUR/USD at the 1.1415 level. Even then, the expiries don't tie to any technical significance so I would not attach too much impact from it on price action. The dollar ",
-      "published": "29 Jul 2026 13:03 WIB",
+      "source": "FXStreet News",
+      "title": "Minyak WTI melonjak 7% karena perang di Timur Tengah dan risiko pasokan memicu reli",
+      "url": "https://www.fxstreet.com/news/wti-oil-surges-7-as-middle-east-war-and-supply-risks-fuel-rally-202607291530",
+      "summary": "West Texas Intermediate (WTI) Oil jumps nearly 7% on Wednesday as the war in the Middle East keeps geopolitical risks firmly priced into the market. At the time of writing, WTI trades around $84 per barrel, snapping a three-day losing streak.",
+      "published": "29 Jul 2026 22:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.927,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Federal Reserve: Sikap Hawkish mungkin menawarkan dukungan terbatas pada Dolar AS – BNY",
+      "url": "https://www.fxstreet.com/news/federal-reserve-hawkish-hold-may-offer-us-dollar-limited-support-bny-202607291517",
+      "summary": "BNY’s Geoff Yu highlights that markets face a genuinely live Federal Reserve (Fed) decision, with futures implying about a 35% chance of a hike and a hold still the base case.",
+      "published": "29 Jul 2026 22:17 WIB",
       "sentiment": "Bullish",
-      "score": 0.414,
+      "score": 0.25,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -198,125 +253,70 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Euro bertahan di bawah 1,1400 terhadap Dolar AS seiring dengan semakin dekatnya keputusan suku bunga Fed",
-      "url": "https://www.fxstreet.com/news/euro-holds-below-11400-against-us-dollar-as-fed-interest-rate-decision-looms-202607291431",
-      "summary": "EUR/USD struggles below 1.1400 on Wednesday as traders brace for the Federal Reserve’s (Fed) interest-rate decision at 18:00 GMT, while the war in the Middle East fuels volatility across financial markets. At the time of writing, the pair trades around 1.1393, little changed on the day.",
-      "published": "29 Jul 2026 21:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.831,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Gas alam: Eropa menghadapi keseimbangan musim dingin yang lebih ketat – ING",
-      "url": "https://www.fxstreet.com/news/natural-gas-europe-faces-tighter-winter-balance-ing-202607291401",
-      "summary": "ING’s Warren Patterson and Ewa Manthey report European natural gas prices have bounced higher as Middle East tensions disrupt Qatari LNG exports. They flag QatarEnergy’s extended force majeure, reduced EU LNG imports and below-average storage levels.",
-      "published": "29 Jul 2026 21:01 WIB",
+      "source": "Investing.com Forex",
+      "title": "OpenAI menawarkan akses AI gratis kepada 100.000 peneliti akademis",
+      "url": "https://www.investing.com/news/stock-market-news/openai-offers-free-ai-access-to-100000-academic-researchers-93CH-4821371",
+      "summary": "",
+      "published": "30 Jul 2026 00:13 WIB",
       "sentiment": "Bullish",
-      "score": 0.158,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Federal Reserve akan mempertahankan suku bunga tetap stabil, namun kenaikan suku bunga tidak dapat dikesampingkan",
-      "url": "https://www.fxstreet.com/news/federal-reserve-set-to-hold-interest-rates-steady-yet-a-hike-cant-be-ruled-out-202607291400",
-      "summary": "The United States (US) Federal Reserve (Fed) announces its interest rate decision on Wednesday, another pivotal meeting for markets to gauge the stance of policymakers as they assess how rising crude Oil prices could impact the inflation outlook.",
-      "published": "29 Jul 2026 21:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.273,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Trump berjanji akan melakukan serangan baru terhadap Iran setelah rudal yang menargetkan pasukan AS berhasil dicegat",
-      "url": "https://www.fxstreet.com/news/trump-vows-fresh-strikes-on-iran-after-missiles-targeting-us-forces-are-intercepted-202607291310",
-      "summary": "According to Reuters, United States (US) President Donald Trump said in a phone interview with Fox News on Wednesday that the US would carry out further strikes against Iran in response to attacks targeting US positions in Jordan.",
-      "published": "29 Jul 2026 20:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.501,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Kanada sedikit menguat terhadap Dolar AS menjelang keputusan Fed",
-      "url": "https://www.fxstreet.com/news/canadian-dollar-strengthens-modestly-against-us-dollar-ahead-of-fed-decision-202607291306",
-      "summary": "The Canadian Dollar (CAD) modestly outperforms the US Dollar (USD) on Wednesday, drawing support from a rebound in Oil prices as the war in the Middle East intensifies again following a brief calm. At the time of writing, USD/CAD trades around 1.4093, trapped within a week-old range.",
-      "published": "29 Jul 2026 20:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.511,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Tembaga: Aksi beli spekulatif meningkat karena terbatasnya pasokan – ING",
-      "url": "https://www.fxstreet.com/news/copper-speculative-longs-rise-on-tight-supply-ing-202607291233",
-      "summary": "ING’s Warren Patterson and Ewa Manthey highlight that speculative net long positions in LME Copper increased notably in the latest COTR data, supported by tight supply and low inventories.",
-      "published": "29 Jul 2026 19:33 WIB",
-      "sentiment": "Bullish",
-      "score": 0.591,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "ING Mengatakan Dolar Akan Mengambil Isyarat dari Harga Minyak Jika Fed Mempertahankan Suku Bunganya",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/ing-says-dollar-to-take-cue-from-oil-prices-if-fed-holds-rate",
-      "summary": "The dollar will come under pressure and follow oil prices down if the Federal Reserve keeps interest rates unchanged on Wednesday, according to ING.",
-      "published": "29 Jul 2026 21:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.202,
+      "score": 0.511,
       "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Wall Street Memilih Pemenang dan Pecundang AI seiring Lonjakan Pertukaran Kredit",
+      "title": "Berita Bloomberg Sekarang",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-29/bloomberg-news-now-video-ms6d38m2",
+      "summary": "Fed Faces Tough Rate Decision as Inflation Pressures Persist Trump Warns Iran of More US Strikes After Jordan Attack Stocks Slide as Oil Jumps and Chip Shares Sink Wall Street Rolls Out Protected SpaceX Investment Products Fauci Invokes Fifth Amendment at Senate Hearing (Source: Bloomberg)",
+      "published": "30 Jul 2026 00:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.77,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "CoreWeave Meningkatkan Hasil Pinjaman $2,6 Miliar yang Terkait dengan Anthropic",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/coreweave-boosts-yield-on-2-6-billion-loan-tied-to-anthropic",
+      "summary": "CoreWeave Inc. has sweetened terms on a $2.6 billion loan to fund additional computing capacity for firms including Anthropic PBC in an effort to win over investors growing wary of AI-related debt as bubble concerns mount.",
+      "published": "30 Jul 2026 00:08 WIB",
+      "sentiment": "Bullish",
+      "score": 0.569,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Era Baru Rudal, Drone Membentuk Kembali Medan Perang di Seluruh Dunia",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-29/new-age-of-drones-reshapes-battlefields-across-the-globe-video",
+      "summary": "The world is on the cusp of a third missile age, with conventional ballistic weapons proliferating at unprecedented speed in the wake of widespread, battlefield-warping deployment in Iran and Ukraine. Paul Scharre, Executive Director at the Center for a New American Security, discusses this new age ",
+      "published": "29 Jul 2026 23:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.996,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pasar CDS Melonjak seiring Wall Street Memilih Pemenang dan Pecundang AI",
       "url": "https://www.bloomberg.com/news/articles/2026-07-29/wall-street-picks-ai-winners-and-losers-as-credit-swaps-surge",
       "summary": "As Big Tech barrels toward trillions of dollars of planned spending on AI, a key cog in credit markets is showing signs of pressure. That, in turn, is lifting the cost of financing artificial intelligence while offering an early look at potential winners and losers.",
       "published": "29 Jul 2026 21:07 WIB",
       "sentiment": "Bullish",
-      "score": 0.67,
+      "score": 0.44,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "JPMorgan Melihat Departemen Keuangan Menghindari Perubahan Penjualan Obligasi Karena Paruh Waktu",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/jpmorgan-sees-treasury-avoiding-bond-sales-tweak-due-to-midterms",
-      "summary": "The US Treasury will avoid rattling bond markets ahead of crucial midterm elections, holding off on changes that would introduce the possibility of bigger bond sales in its quarterly refunding statement next week, according to JPMorgan Chase and Co. strategists.",
-      "published": "29 Jul 2026 19:53 WIB",
+      "title": "Saham Eropa Mundur karena Pendapatan Hermes yang Suram, Kegelisahan Iran",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/european-stocks-advance-as-bank-results-buybacks-lift-sentiment",
+      "summary": "European stocks dropped after underwhelming results from Hermes International SCA and ASM International NV added to investor caution as tensions in the Middle East intensified.",
+      "published": "29 Jul 2026 14:26 WIB",
       "sentiment": "Bearish",
-      "score": -0.103,
+      "score": -0.692,
       "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Emas Goyah Menjelang Keputusan Suku Bunga Fed yang Tidak Pasti",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-29/gold-wavers-ahead-of-uncertain-fed-rate-decision-video",
-      "summary": "Amy Gower, lead metals and mining strategist at Morgan Stanley, says she would “expect gold to be under some pressure” in the case of an interest-rate hike from the Federal Reserve as she examines the path forward for the precious metal. (Source: Bloomberg)",
-      "published": "29 Jul 2026 19:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.572,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Ketua Fed Warsh Berkontribusi pada Volatilitas, Kata Ekonom Claudia Sahm",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-29/fed-chairman-warsh-adding-to-volatility-economist-sahm-video",
-      "summary": "Claudia Sahm, chief economist at New Century Advisors, says uncertainty about the Federal Reserve’s interest rate decision comes from “a Fed Chair who was gone really low information on how he’s thinking about policy.” (Source: Bloomberg)",
-      "published": "29 Jul 2026 19:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.281,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Google News Geopolitik",
@@ -328,17 +328,6 @@
       "score": -0.666,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Emas Melemah karena Ketegangan Geopolitik Mendorong Dolar AS Menjelang Pertemuan Fed - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMmJfRzZDN2NHQVk1dWFETWNpUi05Sm9VdGVvVzBKRUc5SlhlVWFlRjJwekF6UFlkbng5eko1dlhpd2VnSlNnaFljTTc5UXNBYkRSdEE4N0tBZVY4dWZTcER6QTRTYngzM09MRFl4RE5vWEFrZ2pfNjRWYmFmRW41NzRpZ2x3c3diQlNVU0d3?oc=5",
-      "summary": "Gold Weakens as Geopolitical Tensions Bolster US Dollar Ahead of Fed Meeting CryptoRank",
-      "published": "28 Jul 2026 13:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.772,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -383,6 +372,17 @@
       "score": -0.306,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump mengatakan AS akan melancarkan 'pemukulan' ke Iran setelah pangkalan-pangkalannya kembali menjadi target",
+      "url": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted?traffic_source=rss",
+      "summary": "US president promises major escalation a day after new Iran attacks and his White House meeting with Netanyahu.",
+      "published": "29 Jul 2026 22:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.077,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
@@ -443,71 +443,38 @@
       "source": "Al Jazeera",
       "title": "Infantino, investor FIFA berencana menjual sahamnya di Piala Dunia: Apa yang kami ketahui",
       "url": "https://www.aljazeera.com/sports/2026/7/29/infantinos-fifa-world-cup-stakes-plan-would-uefa-boycott-would-it-work?traffic_source=rss",
-      "summary": "How the proposed FIFA Forward Enterprise has drawn criticism, including from UEFA and new United Kingdom Prime Minister.",
+      "summary": "How the proposed FIFA Forward Enterprise has provoked criticism, including from UEFA and Britain's new Prime Minister.",
       "published": "29 Jul 2026 18:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.106,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "‘Iran menyerang sekarang untuk mengirim pesan ketika aset AS menumpuk di Israel’",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/iran-attacks-now-to-send-message-as-us-assets-build-up-in?traffic_source=rss",
-      "summary": "‘Iran attacks now to send message as US assets build up in Israel’",
-      "published": "29 Jul 2026 18:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.607,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Rusia menuduh pendiri Telegram Pavel Durov ‘membantu terorisme’",
-      "url": "https://www.aljazeera.com/news/2026/7/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism?traffic_source=rss",
-      "summary": "Russia's FSB says Telegram has not pulled content used by Ukrainian intelligence and 'terrorist' groups to plan attacks.",
-      "published": "29 Jul 2026 17:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.845,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Perekonomian siap untuk menunjukkan pertumbuhan yang kuat pada kuartal kedua – tetapi hal ini hanya bisa dilihat setelah melihat sekilas",
-      "url": "https://www.marketwatch.com/story/economy-is-poised-to-show-strong-second-quarter-growth-but-only-after-a-look-under-the-hood-8fd3615d?mod=mw_rss_topstories",
-      "summary": "The U.S. economy churned out another robust rate of growth in the second quarter even as the Iran war boosted inflation, but that might not be so readily apparent in the latest report on gross domestic product.",
-      "published": "29 Jul 2026 21:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.519,
+      "score": -0.692,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "Harga minyak global naik di atas $87 per barel setelah Trump bersumpah akan melakukan pembalasan atas serangan mendadak Iran terhadap pasukan AS",
+      "title": "Reli dolar memang penting – tetapi hal itu tetap tidak akan membantu Warsh dari Fed memenangkan pertarungan inflasi",
+      "url": "https://www.marketwatch.com/story/the-dollars-rally-matters-but-it-still-wont-help-feds-warsh-win-the-inflation-fight-ce278d40?mod=mw_rss_topstories",
+      "summary": "A strong dollar is doing far less for the fight against inflation than might be expected.",
+      "published": "30 Jul 2026 00:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.322,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Harga minyak global mencapai $88 per barel setelah Trump bersumpah akan melakukan pembalasan atas serangan mendadak Iran terhadap pasukan AS",
       "url": "https://www.marketwatch.com/story/oil-prices-rise-after-u-s-and-saudi-arabia-attack-iran-backed-militias-in-iraq-f0f409ea?mod=mw_rss_topstories",
       "summary": "Oil prices rose on Wednesday after President Donald Trump said the U.S. would order heavy strikes after Iran targeted American forces in the Middle East with ballistic missiles overnight.",
-      "published": "29 Jul 2026 20:56 WIB",
+      "published": "29 Jul 2026 23:36 WIB",
       "sentiment": "Bearish",
-      "score": -0.702,
+      "score": -0.562,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "The Fed bukanlah kekhawatiran terbesar Anda. Keputusan bank sentral yang benar-benar berdampak pada tanah 401(k) Anda di Tokyo.",
-      "url": "https://www.marketwatch.com/story/the-fed-isnt-your-biggest-worry-the-central-bank-decision-that-actually-impacts-your-401-k-lands-in-tokyo-fc9d22c8?mod=mw_rss_topstories",
-      "summary": "Japan is edging toward the exit on buying America’s debt. Here is why this matters to your retirement plans.",
-      "published": "29 Jul 2026 20:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.415,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "CNBC Forex",
-      "title": "Keputusan tingkat suku bunga Warsh sangat mengejutkan. Perdagangan ini mungkin memberikan petunjuk",
+      "title": "Keputusan tingkat suku bunga Warsh sangat mengejutkan. Perdagangan ini mungkin bisa memberikan petunjuk",
       "url": "https://www.cnbc.com/2026/07/29/warshs-rate-decision-is-a-cliffhanger-these-trades-might-offer-a-clue.html",
       "summary": "It's arguably the most up-for-grabs Federal Reserve decision in recent memory.",
       "published": "29 Jul 2026 19:19 WIB",
@@ -529,14 +496,36 @@
     },
     {
       "source": "CNBC World",
-      "title": "Harga minyak melonjak lebih dari 7% setelah Trump mengatakan AS akan memberikan pukulan keras terhadap Iran",
+      "title": "Harga minyak melonjak 7% setelah Trump mengatakan AS akan memukul Iran dengan keras",
       "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
       "summary": "Oil rose sharply amid renewed tensions in the Middle East after Iran launched an attack on U.S. forces using ballistic missiles.",
-      "published": "29 Jul 2026 21:44 WIB",
+      "published": "29 Jul 2026 23:51 WIB",
       "sentiment": "Bearish",
       "score": -0.931,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump mengatakan AS akan memberikan 'pukulan' kepada Iran setelah serangan mendadak",
+      "url": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
+      "summary": "Centcom in a post on X said that the attack originated from Iran, but all missiles were intercepted.",
+      "published": "29 Jul 2026 21:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.63,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Inggris pernah mencoba obligasi perang sebelumnya – dan penabung harus membayar akibatnya",
+      "url": "https://www.cnbc.com/2026/07/29/britains-ww1-war-bonds-a-warning-for-todays-investors.html",
+      "summary": "Proposals for the U.K. to finance extra spending on defense by issuing \"war bonds\" may bring back some unhappy memories.",
+      "published": "29 Jul 2026 12:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.958,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -547,6 +536,17 @@
       "sentiment": "Bearish",
       "score": -0.903,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Warren, Schiff mendesak SEC untuk menyelidiki layanan berbayar Trump Media yang memberikan akses lebih cepat ke postingan Trump",
+      "url": "https://www.cnbc.com/2026/07/29/trump-media-djt-warren-schiff-wall-street-api.html",
+      "summary": "Trump has frequently posted policy announcements or other newsworthy information on Truth Social that have sent global markets hurtling up or down.",
+      "published": "29 Jul 2026 23:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.238,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -562,45 +562,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Inggris pernah mencoba obligasi perang sebelumnya – dan penabung harus membayar akibatnya",
-      "url": "https://www.cnbc.com/2026/07/29/britains-ww1-war-bonds-a-warning-for-todays-investors.html",
-      "summary": "Proposals for the U.K. to finance extra spending on defense by issuing \"war bonds\" may bring back some unhappy memories.",
-      "published": "29 Jul 2026 12:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.958,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
       "title": "Warren menyelidiki program Pentagon untuk mempekerjakan pekerja sektor swasta bergaji tinggi",
       "url": "https://www.cnbc.com/2026/07/29/warren-probes-pentagon-program-to-hire-highly-paid-private-sector-workers.html",
       "summary": "Sen. Elizabeth Warren, D-Mass., said she is concerned about a Pentagon program to pay high salaries to Wall Street recruits.",
-      "published": "29 Jul 2026 17:30 WIB",
+      "published": "29 Jul 2026 22:19 WIB",
       "sentiment": "Bearish",
       "score": -0.183,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "CNBC Daily Open: Perbankan terpukul, SK Hynix tenggelam dan serangan mendadak mengguncang minyak",
-      "url": "https://www.cnbc.com/2026/07/29/daily-open-bank-earnings-ubs-sk-hynix.html",
-      "summary": "Big banks in Europe beat expectations, but tech stays in the doldrums and oil prices surge after a surprise strike against U.S. forces.",
-      "published": "29 Jul 2026 13:36 WIB",
-      "sentiment": "Bullish",
-      "score": 0.263,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Senat menetapkan pemungutan suara untuk memberikan sanksi kepada Rusia atas perang terhadap Ukraina",
-      "url": "https://www.cnbc.com/2026/07/28/russia-sanctions-congress-key-vote-lindsey-graham-ukraine.html",
-      "summary": "The sanctions target Russian officials, oligarchs, their family members, foreign persons, Russian banks and financial institutions and the Russian shadow fleet.",
-      "published": "29 Jul 2026 07:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.759,
       "emoji": "🔴",
       "impact": "high"
     }
