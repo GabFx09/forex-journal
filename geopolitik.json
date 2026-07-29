@@ -1,5 +1,5 @@
 {
-  "generated": "29 Jul 2026 04:42 WIB",
+  "generated": "29 Jul 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,37 +7,37 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.3,
-      "count": 25
+      "score": -0.317,
+      "count": 21
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.3,
-      "count": 25
+      "score": -0.317,
+      "count": 21
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.275,
-      "count": 17
+      "score": -0.358,
+      "count": 14
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.615,
-      "count": 6
+      "score": -0.44,
+      "count": 4
     },
     {
       "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.171,
+      "direction": "Netral →",
+      "score": 0.016,
       "count": 3
     },
     {
       "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.171,
+      "direction": "Netral →",
+      "score": 0.016,
       "count": 3
     },
     {
@@ -48,6 +48,17 @@
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Minyak melonjak karena laporan bahwa Iran meluncurkan rudal balistik ke pangkalan AS di Yordania",
+      "url": "https://investinglive.com/commodities/oil-jumps-on-a-report-that-iran-launched-ballistic-missiles-towards-a-us-base-in-jordan/",
+      "summary": "Oil prices are quickly higher after a report from Axios that says Iran launched ballistic missiles towards a US base in Jordan. One report says At at 3 ballistic missiles were launched and the Axios report cites a \"US official\". It also notes that the missiles were intercepted however there is an im",
+      "published": "29 Jul 2026 05:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.201,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Persediaan minyak swasta mingguan AS +3,3 juta vs perkiraan -1,4 juta",
@@ -149,6 +160,28 @@
     },
     {
       "source": "FXStreet News",
+      "title": "Poundsterling Inggris menunggu perkiraan bahwa rekaman tersebut sudah lebih cepat habis",
+      "url": "https://www.fxstreet.com/news/british-pound-sterling-waits-on-a-forecast-the-tape-has-already-outrun-202607282308",
+      "summary": "The Pound spends Tuesday almost perfectly still, trading just under 1.3300 with a session range under 40 pips between a floor above 1.3250 and a ceiling fractionally above 1.3300.",
+      "published": "29 Jul 2026 06:08 WIB",
+      "sentiment": "Bullish",
+      "score": 0.6,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Indonesia: Fokus kebijakan setelah keluarnya Gubernur BI – DBS",
+      "url": "https://www.fxstreet.com/news/indonesia-policy-focus-after-bi-governor-exit-dbs-202607282239",
+      "summary": "DBS Group Research economist Radhika Rao analyzes Indonesia markets after Bank Indonesia Governor Perry Warjiyo’s unexpected resignation. She notes initial weakness in onshore assets as investors reassess implications for Rupiah stability and bonds.",
+      "published": "29 Jul 2026 05:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Real Brasil: BRL terlihat melemah hingga akhir tahun – Rabobank",
       "url": "https://www.fxstreet.com/news/brazilian-real-brl-seen-weaker-into-year-end-rabobank-202607282121",
       "summary": "Rabobank’s strategists Mauricio Une and Renan Alves note that tensions between the United States (US) and Iran have eased slightly with a pause in hostilities, but the outlook for global energy and markets remains highly uncertain.",
@@ -192,35 +225,24 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Euro meroket di tengah melemahnya kepercayaan AS",
-      "url": "https://www.fxstreet.com/news/euro-skyrockets-amid-softer-us-confidence-202607281544",
-      "summary": "EUR/USD trades higher near the 1.1400 area on Tuesday, gaining around 0.3% as the US Dollar (USD) weakens following softer United States (US) consumer-confidence data. The US Dollar Index falls toward 101.30, helping the Euro extend its recovery.",
-      "published": "28 Jul 2026 22:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.655,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Minyak: Melemah karena harapan kesepakatan dan rapuhnya aliran dana – ING",
-      "url": "https://www.fxstreet.com/news/oil-weakens-on-deal-hopes-and-fragile-flows-ing-202607281508",
-      "summary": "ING’s Warren Patterson and Ewa Manthey note that Brent has sold off sharply as US–Iran strikes pause and President Trump signals a “good chance” of a deal. They stress that flows through the Strait of Hormuz and Bab el-Mandeb, as well as Black Sea exports, remain critical.",
-      "published": "28 Jul 2026 22:08 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Minyak Melonjak Setelah Serangan Iran, Saham Berjangka AS Turun: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/stock-market-today-dow-s-p-live-updates",
+      "summary": "Crude oil jumped and US equity-index futures fell after fighting erupted in the Middle East, reigniting tensions after several days of calm and reviving concerns over energy supplies.",
+      "published": "29 Jul 2026 05:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.692,
+      "score": -0.75,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Pound Inggris: Pembalikan bearish berlanjut sebelum BoE – Scotiabank",
-      "url": "https://www.fxstreet.com/news/british-pound-bearish-reversal-extends-before-boe-scotiabank-202607281452",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report GBP/USD is extending its bearish reversal toward early-July levels as markets scale back Bank of England (BoE) tightening expectations. September pricing has been cut and cumulative hikes by December reduced.",
-      "published": "28 Jul 2026 21:52 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Saham S&P Global Turun karena Perusahaan Meleset dari Estimasi Laba",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/s-p-global-s-shares-drop-as-company-misses-profit-estimates",
+      "summary": "S&P Global Inc. posted quarterly results that fell short of analysts’ average estimate, hurt by factors including the US-Iran War making it harder to boost pricing on contracts for its energy data, news and analysis unit.",
+      "published": "28 Jul 2026 22:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.273,
+      "score": -0.5,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -247,72 +269,6 @@
       "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Rekor Hit S&P 500 dengan Berat yang Sama; Keuntungan Luas Lebih Besar Daripada Kekalahan Chip",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/s-p-500-futures-muted-as-semiconductors-drop-earnings-roll-in",
-      "summary": "The S&P 500 Index climbed on Tuesday as oil prices continued to slide. Broad gains pushed an equal-weight version of the index to an all-time high even as chipmakers sold off.",
-      "published": "28 Jul 2026 18:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.666,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Seruan Kenaikan Suku Bunga Fed dari Citadel Securities Menambah Kecemasan Pasar",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/citadel-securities-fed-rate-hike-call-adds-to-market-angst",
-      "summary": "On the eve of the Federal Reserve’s policy decision, bond traders are on edge. While most expect policymakers to leave interest rates unchanged, prominent voices across Wall Street are putting their weight behind a hike in just the second meeting run by new Chairman Kevin Warsh.",
-      "published": "29 Jul 2026 02:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.663,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru 28 Juli",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/latest-oil-market-news-and-analysis-for-july-28",
-      "summary": "Oil notched its worst three-day stretch in more than six years as traders glommed onto growing signs of deescalation in the Middle East conflict, with both the US and Iran continuing to hold off on attacks.",
-      "published": "28 Jul 2026 05:02 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Whitney Memperingatkan Perhitungan Ekonomi Tahun Ini, Melihat Fed Tertahan",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/whitney-warns-of-economic-reckoning-this-year-sees-fed-on-hold",
-      "summary": "Meredith Whitney, the former bank analyst who rose to fame for a 2007 report ahead of the global financial crisis, warned that a US “reckoning” is coming in the fourth quarter as one-time economic boosts from the World Cup and residual fiscal spending fade.",
-      "published": "29 Jul 2026 02:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.41,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Runtuhnya Kesepakatan Warner Bros. Akan Membebani Ellisons $9,8 Miliar",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/warner-bros-deal-collapse-would-cost-the-ellisons-9-8-billion",
-      "summary": "Larry Ellison and his family would be on the hook for $9.8 billion if Paramount Skydance Corp.’s deal to buy Warner Bros. Discovery Inc. falls apart.",
-      "published": "29 Jul 2026 01:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Royal Caribbean Optimis dalam Pelayaran Eropa di Tengah Perang Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/royal-caribbean-rcl-lowers-yield-forecast-as-middle-east-turmoil-hits-bookings",
-      "summary": "Royal Caribbean Cruises Ltd. said demand for European itineraries is holding up well, brushing off concerns that ongoing conflict in the Middle East is harming its high-yielding Mediterranean sailings.",
-      "published": "28 Jul 2026 18:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.928,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Google News Geopolitik",
       "title": "Euro Memangkas Keuntungan karena Risiko Geopolitik dan Outlook Fed Mendukung Dolar AS - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYjJQcVgzZVUtaWVheGN6WDNCdC0wWi1HRjdYcHVMNFRUMk1NTG5DN0ZFSzVtb2hfcXVJM3NaaWRnOTF5dXJvVUNtVGRldldHdnBtQXFtcmR2bTYxdnJBRjN4czZ0bFVRakFJOVhjX2doeE1ta2VqLWxCYlhhSTFlTENvdVVSMTVDUjNxbUpjbDBZRE9ibWdpN3BsaVM5VkQxcnRKM193?oc=5",
@@ -336,6 +292,17 @@
     },
     {
       "source": "BBC Business",
+      "title": "'Jangan menunggu sampai Anda ingin balas dendam' - mengapa perjanjian pranikah meningkat",
+      "url": "https://www.bbc.co.uk/news/articles/cgmkgvy3lv4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Around one in three young couples are now signing prenups to set out who gets what in the event of divorce.",
+      "published": "29 Jul 2026 06:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.477,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Business",
       "title": "Maestro horor Mike Flanagan bergabung dengan Henry Cavill dalam adaptasi Warhammer",
       "url": "https://www.bbc.co.uk/news/articles/c62v8exggjeo?at_medium=RSS&at_campaign=rss",
       "summary": "The director is due to work on scripts based on the popular tabletop hobby, Games Workshop says.",
@@ -353,6 +320,17 @@
       "published": "27 Jul 2026 22:08 WIB",
       "sentiment": "Bearish",
       "score": -0.809,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Iran melancarkan 'percobaan serangan mendadak' terhadap pasukan AS di Timur Tengah",
+      "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
+      "summary": "US Central Command says it intercepted \"multiple\" ballistic missiles fired by Iran.",
+      "published": "29 Jul 2026 06:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.841,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -412,17 +390,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Penghormatan diberikan kepada Lindsey Graham pada upacara US Capitol",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/tributes-paid-to-lindsey-graham-at-us-capitol-ceremony?traffic_source=rss",
-      "summary": "Hundreds of officials gathered in the Capitol Rotunda to honour late Republican Senator Lindsey Graham.",
-      "published": "29 Jul 2026 00:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.572,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "MarketWatch",
       "title": "The Fed bukanlah kekhawatiran terbesar Anda. Keputusan bank sentral yang benar-benar berdampak pada tanah 401(k) Anda di Tokyo.",
       "url": "https://www.marketwatch.com/story/the-fed-isnt-your-biggest-worry-the-central-bank-decision-that-actually-impacts-your-401-k-lands-in-tokyo-fc9d22c8?mod=mw_rss_topstories",
@@ -432,6 +399,17 @@
       "score": -0.415,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Iran melancarkan serangan rudal balistik mendadak terhadap pasukan AS di Timur Tengah",
+      "url": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
+      "summary": "Centcom in a post on X said that attack originated from Iran, but all missiles were intercepted.",
+      "published": "29 Jul 2026 06:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.532,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
