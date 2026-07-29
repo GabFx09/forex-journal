@@ -1,5 +1,5 @@
 {
-  "generated": "29 Jul 2026 09:43 WIB",
+  "generated": "29 Jul 2026 11:08 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,64 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.438,
-      "count": 19
+      "score": -0.356,
+      "count": 21
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.438,
-      "count": 19
+      "score": -0.356,
+      "count": 21
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.557,
-      "count": 12
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.085,
-      "count": 4
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.085,
-      "count": 4
+      "score": -0.495,
+      "count": 14
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.388,
-      "count": 4
+      "score": -0.282,
+      "count": 7
     },
     {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.867,
-      "count": 2
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.062,
+      "count": 5
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.062,
+      "count": 5
     },
     {
       "pair": "AUD/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.077,
-      "count": 1
+      "direction": "Tekanan Turun ▼",
+      "score": -0.132,
+      "count": 2
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.132,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Korea Selatan baru saja mengalami sesuatu yang lebih buruk dari kehancuran dot-com",
+      "url": "https://investinglive.com/stocks/south-korea-has-just-experienced-something-worse-than-the-dot-com-bust/",
+      "summary": "It's tough to find any historical analogues for what's happened in the Kospi in the past 15 weeks. Starting from April, the South Korean index rose 80% in just 10 weeks. That's been followed by a 40% decline, mostly wiping out the gain. To put into perspective how insane a 40% decline over 35 days i",
+      "published": "29 Jul 2026 10:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.34,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
     {
       "source": "ForexLive",
       "title": "Minyak melonjak karena laporan bahwa Iran meluncurkan rudal balistik ke pangkalan AS di Yordania",
@@ -133,7 +144,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Para mediator di Timur Tengah melihat kesepakatan AS-Iran bisa dicapai",
+      "title": "Para mediator di Timur Tengah melihat kesepakatan AS-Iran bisa tercapai",
       "url": "https://investinglive.com/news/middle-east-mediators-see-u-s-iran-deal-within-reach/",
       "summary": "Key Points: Mediators involved in the Middle East conflict reportedly believe the U.S. and Iran are nearing an agreement that would revive a previously failed memorandum of understanding. According to The Times of Israel, cited by Fox News, negotiators from Pakistan, Egypt, and Qatar have been worki",
       "published": "28 Jul 2026 22:47 WIB",
@@ -151,6 +162,17 @@
       "sentiment": "Netral",
       "score": -0.013,
       "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga Perak: XAG/USD naik bahkan ketika harga minyak rebound, kebijakan Fed ditunggu",
+      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-gains-even-as-oil-prices-rebound-fed-policy-awaited-202607290312",
+      "summary": "Silver price (XAG/USD) trades 1.14% higher to near $57.80 during the Asian trading session on Wednesday. The white metal gains even as oil prices rebound strongly due to renewed conflicts between the United States (US) and Iran.",
+      "published": "29 Jul 2026 10:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.652,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -209,37 +231,37 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Real Brasil: BRL terlihat melemah hingga akhir tahun – Rabobank",
-      "url": "https://www.fxstreet.com/news/brazilian-real-brl-seen-weaker-into-year-end-rabobank-202607282121",
-      "summary": "Rabobank’s strategists Mauricio Une and Renan Alves note that tensions between the United States (US) and Iran have eased slightly with a pause in hostilities, but the outlook for global energy and markets remains highly uncertain.",
-      "published": "29 Jul 2026 04:21 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Pengikut Warren Buffett dari Spanyol Mencetak Kemenangan Langka untuk Investasi Nilai",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/spain-s-warren-buffett-followers-score-a-rare-win-for-value-investing",
+      "summary": "Madrid has turned into a value hub thanks to years of market-beating returns by Francisco García Paramés and his peers.",
+      "published": "29 Jul 2026 11:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.888,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "AS Cegat Serangan Iran di Pangkalan, Menusuk Ketenangan",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-29/us-intercepts-iran-attack-on-bases-puncturing-calm-video",
+      "summary": "The US said it intercepted an Iranian attack on military bases, ending a dayslong pause in fighting and increasing the risk of a return to full-blown war in the Middle East. Bloomberg's Abeer Abu Omar has the latest. (Source: Bloomberg)",
+      "published": "29 Jul 2026 10:55 WIB",
       "sentiment": "Bearish",
-      "score": -0.608,
+      "score": -1.0,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
       "title": "Berita dan Analisis Pasar Minyak Terbaru 29 Juli",
       "url": "https://www.bloomberg.com/news/articles/2026-07-28/latest-oil-market-news-and-analysis-for-july-29",
-      "summary": "Oil surged as fresh fighting erupted in the Middle East, casting a pall over diplomatic efforts to end the war and threatening further disruptions to energy flows.",
+      "summary": "Oil surged as a fresh round of fighting erupted across the Middle East, casting a pall over on-off diplomatic efforts to end the months-long conflict and threatening further disruptions to energy flows.",
       "published": "29 Jul 2026 05:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.832,
+      "score": -0.735,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Emas Mempertahankan Penurunan seiring Para Pedagang Menilai Prospek Kenaikan Suku Bunga Fed",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/gold-edges-lower-as-traders-assess-prospects-for-fed-rate-hike",
-      "summary": "Gold held a decline ahead of a finely balanced interest-rate decision by the US Federal Reserve due later Wednesday, while tensions persisted in the Middle East.",
-      "published": "29 Jul 2026 06:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.562,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Google News Geopolitik",
@@ -257,7 +279,7 @@
       "title": "Serangan dagang Iran dan AS, menghancurkan jeda singkat dalam pertempuran",
       "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
       "summary": "US Central Command says it intercepted \"multiple\" ballistic missiles fired by Iran.",
-      "published": "29 Jul 2026 07:51 WIB",
+      "published": "29 Jul 2026 09:47 WIB",
       "sentiment": "Bearish",
       "score": -0.902,
       "emoji": "🔴",
@@ -284,6 +306,28 @@
       "score": -0.306,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Rudal Iran menargetkan pasukan AS di Yordania setelah jeda perang selama lima hari",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/iran-missiles-target-us-forces-in-jordan-after-a-five-day-pause-in-war?traffic_source=rss",
+      "summary": "The US military says it has successfully intercepted a barrage of missiles fired by Iran at its troops in Jordan.",
+      "published": "29 Jul 2026 09:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.809,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Israel membunuh warga Palestina, menghancurkan masjid di Gaza",
+      "url": "https://www.aljazeera.com/news/2026/7/29/israel-kills-palestinian-destroys-mosque-in-gaza?traffic_source=rss",
+      "summary": "Israeli settlers also attack a Palestinian family in Bethlehem in the occupied West Bank.",
+      "published": "29 Jul 2026 09:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.961,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
@@ -375,7 +419,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Minyak melonjak seiring AS-Iran melanjutkan serangan setelah jeda singkat",
+      "title": "Minyak melonjak karena AS-Iran melanjutkan serangan setelah jeda singkat",
       "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
       "summary": "Oil rose sharply amid renewed tensions in the Middle East after Iran launched an attack on U.S. forces using ballistic missiles.",
       "published": "29 Jul 2026 07:52 WIB",
