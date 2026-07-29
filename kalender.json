@@ -1,5 +1,5 @@
 {
-  "generated": "30 Jul 2026 00:55 WIB",
+  "generated": "30 Jul 2026 04:16 WIB",
   "events": [
     {
       "date": "2026-07-26",
@@ -371,7 +371,7 @@
       "currency": "USD",
       "impact": "high",
       "event": "Federal Funds Rate",
-      "actual": "",
+      "actual": "3.75%",
       "forecast": "3.75%",
       "previous": "3.75%"
     },
