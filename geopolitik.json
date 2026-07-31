@@ -1,167 +1,156 @@
 {
-  "generated": "31 Jul 2026 10:05 WIB",
+  "generated": "31 Jul 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.296,
-      "count": 18
-    },
-    {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.367,
+      "score": -0.277,
       "count": 17
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.212,
-      "count": 15
+      "score": -0.355,
+      "count": 16
+    },
+    {
+      "pair": "USD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.355,
+      "count": 16
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.233,
+      "direction": "Netral →",
+      "score": -0.03,
       "count": 5
     },
     {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.113,
-      "count": 3
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.113,
-      "count": 3
-    },
-    {
       "pair": "AUD/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.201,
-      "count": 3
+      "direction": "Netral →",
+      "score": 0.049,
+      "count": 2
     },
     {
       "pair": "USD/CNY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.201,
-      "count": 3
+      "direction": "Netral →",
+      "score": 0.049,
+      "count": 2
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.679,
+      "count": 1
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.679,
+      "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Kepercayaan konsumen Selandia Baru meningkat menjadi 99,3 dari 91,3",
-      "url": "https://investinglive.com/news/nz-consumer-confidence-bounces-to-99-3-from-91-3/",
-      "summary": "New Zealand consumers found their nerve in July but rising oil prices are probably going to weigh in the next report. The ANZ-Roy Morgan index jumped 8 points to 99.3, a third straight monthly gain that leaves it 19 points off the April trough of 80.3. It's still 8 points shy of the January peak, an",
-      "published": "31 Jul 2026 05:33 WIB",
+      "title": "Kocher, ECB: Keputusan harus didasarkan pada data yang masuk untuk membawa inflasi kembali ke target 2%.",
+      "url": "https://investinglive.com/central-banks/ecb-s-kocher-decisions-to-be-based-on-incoming-data-to-bring-inflation-back-to-the-2-target/",
+      "summary": "ECB policymaker Martin Kocher reiterated the importance of maintaining a data-dependent approach to monetary policy, warning that geopolitical developments continue to pose risks to the inflation outlook. Kocher noted that recent weeks have demonstrated how quickly geopolitical events can affect ene",
+      "published": "31 Jul 2026 16:58 WIB",
       "sentiment": "Bullish",
-      "score": 0.765,
+      "score": 0.397,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Apakah kita baru saja menyaksikan kekalahan dana lindung nilai (hedge fund) terbesar sepanjang masa?",
-      "url": "https://investinglive.com/stocks/did-we-just-witness-the-largest-single-hedge-fund-rout-of-all-time/",
-      "summary": "If you look at a list of the biggest winners in today's huge stock market rally, they all have the same thing in common: They were the biggest holdings of Situational Awareness, a hedge fund started by Leopold Aschenbrenner. Aschenbrenner became something of a household name in market circles by pub",
-      "published": "31 Jul 2026 03:43 WIB",
+      "title": "Dia memperkirakan ledakan infrastruktur AI, kemudian leverage menyebabkan dia kehilangan kendali atas portofolio senilai $16 miliar",
+      "url": "https://investinglive.com/education/he-predicted-the-ai-infrastructure-boom-then-leverage-cost-him-control-of-a-16-billion-portfolio/",
+      "summary": "What is Situational Awareness, and who is Leopold Aschenbrenner? Before it became the name of a multibillion-dollar investment fund, Situational Awareness was a widely discussed essay about the future of artificial intelligence. Leopold Aschenbrenner, a former OpenAI researcher, published Situationa",
+      "published": "31 Jul 2026 13:33 WIB",
       "sentiment": "Bullish",
-      "score": 0.778,
+      "score": 0.073,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "FXStreet News",
-      "title": "Euro melemah mendekati 1,1500 seiring meluasnya perang AS-Iran",
-      "url": "https://www.fxstreet.com/news/euro-softens-to-near-11500-as-us-iran-war-widens-202607310112",
-      "summary": "The EUR/ USD pair loses ground to near 1.1515 during the early Asian trading hours on Friday. The Euro (EUR) softens against the US Dollar (USD) amid risk-off sentiment and fears of wider war in the Middle East.",
-      "published": "31 Jul 2026 08:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.92,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "WTI mempertahankan penurunan di sekitar $82,50 karena harapan diplomatik AS-Iran yang baru",
-      "url": "https://www.fxstreet.com/news/wti-holds-losses-around-8250-on-renewed-us-iran-diplomatic-hopes-202607310054",
-      "summary": "West Texas Intermediate (WTI) oil price remains in the negative territory for the second successive day, trading around $82.60 per barrel during the Asian hours on Friday. Crude oil prices have lost ground following renewed hopes for a diplomatic solution to the US-Iran conflict.",
-      "published": "31 Jul 2026 07:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Emas naik lebih tinggi di atas $4.100 karena para pedagang memangkas taruhan kenaikan suku bunga Fed",
-      "url": "https://www.fxstreet.com/news/gold-edges-higher-above-4-100-as-traders-trim-fed-hike-bets-202607302323",
-      "summary": "Gold price (XAU/USD) gains momentum to around $4,110 during the early Asian session on Friday. The precious metal edges higher as traders reduce their bets on interest rate hikes a day after Federal Reserve (Fed) Chair Kevin Warsh offered little clarity on policy.",
-      "published": "31 Jul 2026 06:23 WIB",
+      "title": "Euro: Kisaran terlihat di sekitar pertengahan 1,15 terhadap Dolar AS – Scotiabank",
+      "url": "https://www.fxstreet.com/news/euro-range-seen-around-mid-115s-against-us-dollar-scotiabank-202607311435",
+      "summary": "Scotiabank’s FX team notes EUR/USD is drifting toward 1.15 after a Fed‑driven rally, with euro area CPI broadly in line with expectations and French data briefly lifting the Euro. Rate expectations are stabilizing, with about 42 bps of tightening priced by December.",
+      "published": "31 Jul 2026 21:35 WIB",
       "sentiment": "Bullish",
-      "score": 0.92,
+      "score": 0.08,
       "emoji": "🟢",
       "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Boeing mengirimkan tawaran kontrak ke serikat insinyur; kesepakatan yang didukung oleh negosiator",
-      "url": "https://www.investing.com/news/stock-market-news/boeing-sends-contract-offer-to-engineers-union-deal-endorsed-by-negotiators-4826669",
-      "summary": "",
-      "published": "31 Jul 2026 08:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.33,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Reuters Currencies",
-      "title": "Kenaikan tarif emas India meningkatkan pasar abu-abu, merugikan perdagangan yang terorganisir, kata WGC - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSXNxOHRsbHBKTmhvZEpNUGZNYkhNMElKRFVHcE9pMWRQakFyTE5MdFFNNUhRdHUtRjBMZWYtNWJrT09aUGRycmZXb0NvOTFKbm1lSFl4NGFQTl9URGhCRlhsUXRoVmZuWjFTWmg3NkxJdVBNa3RldWtkVnVDTU13NnF5bVdBclh1aklKYmZZbUphOXFYRmZhanBMczB0cHA5Y1kxdEVHaXotOFg2V21wUU9zV1NMMFdtdlhyajVn?oc=5",
-      "summary": "India's gold tariff hike boosts grey market, hurts organised trade, says WGC Reuters",
-      "published": "30 Jul 2026 13:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.153,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Reuters Currencies",
-      "title": "Ketinggian sungai Danube yang rendah memaksa Rumania menutup kedua reaktor tenaga nuklirnya - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYUVONDlNUDRTa2dzQnYwc2NhWG1lNllwOFYyZlJmMEZ1Z3pURzBheHdWSmVxcmxmN2VnMkpMNkJlWEg5ZHlHWFlac0hjR1IxdlMwUmZMZDZnMlVIdU5YeHNHZkhfRWJna1RwZWxyNG9kbnpSeG1mWkIwbWVmMS1CNDVXWnVPdnQxZUFVVThuZlJ2NWZpYXRLVlc1LWItbUFwVll1SlVIZ1RQNnJna0R1eER4Q0RXLVpjZVNTNHFMOXQ2QzNaNVNUckx1Yw?oc=5",
-      "summary": "Low Danube river levels force Romania to shut down both of its nuclear power reactors Reuters",
-      "published": "30 Jul 2026 00:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.494,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru 31 Juli",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-30/latest-oil-market-news-and-analysis-for-july-31",
-      "summary": "Oil ticked lower at the end of a volatile week, but remained on track for the biggest monthly gain since March as the US-Iran war escalated.",
-      "published": "31 Jul 2026 05:04 WIB",
+      "title": "Exxon, Chevron Mengarahkan Keuntungan Tak Terduga untuk Membayar Utang",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/exxon-chevron-steer-windfall-profits-into-debt-reduction-ms917v1o",
+      "summary": "ExxonMobil Holdings Corp. and Chevron Corp. plowed blowout profits into debt reduction rather than huge buyback increases in a sign of Big Oil’s caution about how long war-driven price rallies will last.",
+      "published": "31 Jul 2026 20:39 WIB",
+      "sentiment": "Bullish",
+      "score": 0.317,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Citadel Menyerang Krisis Hedge Fund",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/citadel-swoops-into-hedge-fund-crisis-video",
+      "summary": "A heavily leveraged AI hedge fund unraveled after volatile stocks triggered margin calls and a frantic asset sale. Bloomberg’s Hema Parmar joined Bloomberg Open Interest to explain how Situational Awareness scrambled for buyers before Ken Griffin’s Citadel stepped in. (Source: Bloomberg)",
+      "published": "31 Jul 2026 21:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.502,
+      "score": -0.521,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Mesir Membuka Pembayaran Sekitar $1,8 Miliar kepada IMF Setelah Lulus Tinjauan",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/egypt-unlocks-about-1-8-billion-imf-payout-after-passing-review",
-      "summary": "Egypt unlocked about $1.8 billion in financing after clearing the penultimate review of its expanded International Monetary Fund program.",
-      "published": "31 Jul 2026 08:12 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "title": "Hilangnya Kesadaran Situasional Menimbulkan Ketakutan AI",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/situational-awareness-losses-raise-ai-fears-video",
+      "summary": "Assets at Leopold Aschenbrenner’s hedge fund Situational Awareness have slumped to about $10 billion after Ken Griffin’s Citadel stepped in to buy the bulk of its public stock bets. Hema Parmar has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "published": "31 Jul 2026 20:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.362,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mengapa Bill Dudley Menganggap Pendekatan Warsh terhadap Kebijakan Fed Cacat",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/why-bill-dudley-thinks-warsh-s-policy-approach-is-flawed-video",
+      "summary": "Bill Dudley, a Bloomberg Opinion columnist and former president of the Federal Reserve Bank of New York, reacts to Fed Chairman Kevin Warsh's news conference following the central bank's decision to leave interest rates unchanged. Speaking on \"Bloomberg Surveillance,\" Dudley says Warsh's silence was",
+      "published": "31 Jul 2026 20:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.784,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pejabat FOMC Merilis Pernyataan tentang Perbedaan Pendapat",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/fomc-officials-release-statements-on-dissents-video",
+      "summary": "Two Federal Reserve officials who dissented against this week’s decision to hold interest rates steady warned that waiting too long to act against inflation could risk the need for even more aggressive policy later. Cleveland Fed President Beth Hammack and Minneapolis Fed President Neel Kashkari poi",
+      "published": "31 Jul 2026 19:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.44,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Sekitar 60.000 migran tiba di Ceuta dalam 24 jam, kata pemimpin wilayah Spanyol",
+      "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Spain's prime minister described the situation as an \"attack\" on its North African territory and said all illegal migrants would be returned to Morocco.",
+      "published": "31 Jul 2026 21:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.852,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -177,7 +166,7 @@
     },
     {
       "source": "BBC World",
-      "title": "Rudal yang meninggalkan kawah jauh di dalam Polandia kemungkinan besar adalah milik PM Rusia-Polandia",
+      "title": "Rudal yang meninggalkan kawah jauh di dalam Polandia kemungkinan besar milik PM Rusia-Polandia",
       "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
       "summary": "The missile left a 10m-wide (33ft) crater a short distance from the village of Tarnawa Kolonia, about 100km from the border with Ukraine.",
       "published": "30 Jul 2026 22:35 WIB",
@@ -198,26 +187,26 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Senilai $5 juta? Reaksi pengunjung terhadap patung kuda Washington yang telah direnovasi",
-      "url": "https://www.bbc.co.uk/news/videos/cly8xzmwpvmo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Trump Administration has regilded the Arts of War statues near the Lincoln Memorial with 23.75-karat gold.",
-      "published": "30 Jul 2026 05:23 WIB",
+      "source": "BBC Business",
+      "title": "Penumpang penerbangan mayday British Airways menggambarkan ketakutan dan teriakan 'Saya tidak ingin mati'",
+      "url": "https://www.bbc.co.uk/news/articles/cn9n2v3lwr0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Edward Killiwick was on the flight that issued a distress call, before it landed safely at Heathrow earlier this month.",
+      "published": "31 Jul 2026 19:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.539,
+      "score": -0.202,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "Penyerang Salman Rushdie dihukum karena pelanggaran teror",
-      "url": "https://www.bbc.co.uk/news/articles/c86ng1g5wy4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Hadi Matar, 28, was convicted of attempting to help Hezbollah by attacking the British-Indian author.",
-      "published": "30 Jul 2026 05:15 WIB",
+      "source": "BBC Business",
+      "title": "Harga bensin Inggris mencapai level tertinggi sejak perang Iran dimulai",
+      "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The price of unleaded hits 160p a litre, according to motoring group the RAC, as oil prices remain elevated.",
+      "published": "31 Jul 2026 18:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.949,
+      "score": -0.679,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "BBC Business",
@@ -254,91 +243,36 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Anggota parlemen Diane Abbott diterima kembali ke Partai Buruh setelah skorsing",
-      "url": "https://www.bbc.co.uk/news/articles/cy5dwd1p374o?at_medium=RSS&at_campaign=rss",
-      "summary": "The long-serving MP apologises for past comments and says she has been issued with a \"formal warning\".",
-      "published": "31 Jul 2026 03:54 WIB",
-      "sentiment": "Bullish",
-      "score": 0.193,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "The Papers: 'Musim panas yang kejam' dan 'Sepak bola tetap di rumah'",
-      "url": "https://www.bbc.co.uk/news/articles/cwyjgq583j7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Fires rage near nuclear plant in Suffolk and Uefa mulls World Cup boycott - Friday's papers.",
-      "published": "31 Jul 2026 08:38 WIB",
+      "title": "Pembunuh Southport didakwa melakukan penyerangan penjara dan kepemilikan senjata",
+      "url": "https://www.bbc.co.uk/news/articles/ckg3dr3lgjko?at_medium=RSS&at_campaign=rss",
+      "summary": "Axel Rudakubana, 19, is accused of attacking staff at HMP Belmarsh between May and October 2025.",
+      "published": "31 Jul 2026 18:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.866,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Larangan Aksi Palestina akan ditinjau oleh Mahkamah Agung",
-      "url": "https://www.bbc.co.uk/news/articles/c87n321w9qlo?at_medium=RSS&at_campaign=rss",
-      "summary": "The UK's highest court gives Palestine Action's co-founder permission to appeal the government's proscription of the group under anti-terrorism legislation.",
-      "published": "31 Jul 2026 02:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Tentara Israel memberontak di pangkalan Sde Teiman yang terkenal kejam",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/israeli-soldiers-mutiny-at-notorious-sde-teiman-base?traffic_source=rss",
-      "summary": "Dozens of Israeli soldiers have abandoned their weapons and walked out of the Sde Teiman military base.",
-      "published": "31 Jul 2026 08:43 WIB",
+      "title": "Warga Palestina di Gaza bereaksi terhadap perjanjian gencatan senjata terbaru",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/31-07-sv-gazans-react-to-latest-deal-ps?traffic_source=rss",
+      "summary": "‘Enough is enough’, Palestinians in Gaza express little hope that the latest ceasefire deal will end the war.",
+      "published": "31 Jul 2026 19:59 WIB",
       "sentiment": "Bearish",
-      "score": -0.832,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Spanyol mengerahkan militer ke Ceuta setelah lonjakan migran yang mematikan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/spain-deploys-military-to-ceuta-after-deadly-migrant-surge?traffic_source=rss",
-      "summary": "Spain has deployed its military to Ceuta after thousands of migrants overwhelmed police barricades.",
-      "published": "31 Jul 2026 08:29 WIB",
-      "sentiment": "Bullish",
-      "score": 0.132,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pengunjuk rasa London berbaris di jalan-jalan sebagai bentuk solidaritas dengan Azad Kashmir",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/london-protesters-march-through-streets-in-solidarity-with-azad-kashmir?traffic_source=rss",
-      "summary": "Protesters in London marched from Hyde Park towards the Pakistan High Commission on Thursday.",
-      "published": "31 Jul 2026 08:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.313,
+      "score": -0.237,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Eskalasi AS dengan Iran ‘tidak ada gunanya’, mantan diplomat AS memperingatkan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/us-escalation-with-iran-is-pointless-warns-former-us-diplomat?traffic_source=rss",
-      "summary": "As US-Iran clashes escalate, former US Ambassador to UAE Barbara Leaf warns escalation is ‘fairly pointless’.",
-      "published": "31 Jul 2026 07:08 WIB",
+      "source": "CNBC Economy",
+      "title": "Bagaimana Leopold Aschenbrenner membangun dana lindung nilai AI senilai $45 miliar — dan kehilangan sebagian besar dana tersebut dalam hitungan hari",
+      "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+      "summary": "Leopold Aschenbrenner, a former OpenAI researcher-turned-hedge fund manager, saw a dramatic decline this week in his AI-focused fund, Situational Awareness.",
+      "published": "31 Jul 2026 21:44 WIB",
       "sentiment": "Bearish",
-      "score": -0.362,
+      "score": -0.478,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mengapa pertumbuhan PDB AS melambat, dan bagaimana cara membalikkannya?",
-      "url": "https://www.aljazeera.com/economy/2026/7/30/why-is-us-gdp-growth-slowing-and-how-can-it-be-reversed?traffic_source=rss",
-      "summary": "Tariffs and oil price hikes create a supply shock, dragging down US economic growth in the second quarter of 2026.",
-      "published": "31 Jul 2026 04:39 WIB",
-      "sentiment": "Bullish",
-      "score": 0.353,
-      "emoji": "🟢",
-      "impact": "medium"
     },
     {
       "source": "CNBC Economy",
@@ -353,14 +287,25 @@
     },
     {
       "source": "CNBC World",
-      "title": "CNBC Daily Open: Potensi tarif Iran, pusat data, dan komentar teknologi",
-      "url": "https://www.cnbc.com/2026/07/31/cnbc-daily-open-potential-iran-tariffs-data-centers-and-tech-talk.html",
-      "summary": "U.S. President Donald Trump wants Congress to add tariffs on Iran to a sanctions bill against Russia and Tehran that has bipartisan support.",
-      "published": "31 Jul 2026 08:02 WIB",
+      "title": "Iran menargetkan aset strategis AS di Kuwait, Bahrain setelah serangan pesawat tak berawak Mesir",
+      "url": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html",
+      "summary": "Iran's army said it launched attacks on strategic U.S. assets and military bases in Kuwait and Bahrain.",
+      "published": "31 Jul 2026 17:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Hamas mengatakan klaim 'pelucutan senjata' Trump di Gaza bergantung pada kepatuhan Israel terhadap komitmennya",
+      "url": "https://www.cnbc.com/2026/07/31/trump-hamas-disarmament-conditions.html",
+      "summary": "Hamas says it will only disarm after Israel meets previous ceasefire commitments, despite President Donald Trump's announcement of a breakthrough U.S.-brokered agreement.",
+      "published": "31 Jul 2026 17:46 WIB",
       "sentiment": "Bullish",
-      "score": 0.402,
+      "score": 0.978,
       "emoji": "🟢",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "CNBC World",
@@ -375,14 +320,25 @@
     },
     {
       "source": "CNBC World",
-      "title": "Iran mengatakan akan 'menghukum agresor hari ini' setelah 'gelombang besar' serangan AS",
-      "url": "https://www.cnbc.com/2026/07/30/us-iran-war-hormuz-centcom-trump-.html",
-      "summary": "Iran's Revolutionary Guard threatened further escalation on Thursday after a wave of retaliatory U.S. strikes on the country overnight.",
-      "published": "30 Jul 2026 18:47 WIB",
+      "title": "Amazon mendapat pengembalian tarif Trump sebesar $600 juta dan akan memberikan pengembaliannya kepada beberapa pelanggan",
+      "url": "https://www.cnbc.com/2026/07/30/amazon-trump-tariff-refunds.html",
+      "summary": "The company previously hadn't disclosed whether it would recoup tariff costs after the Supreme Court ruled many of President Donald Trump's levies were illegal.",
+      "published": "31 Jul 2026 05:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.178,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "CNBC Daily Open: Iran-AS. ketegangan, data pabrik Tiongkok dan Bank of Japan yang stabil",
+      "url": "https://www.cnbc.com/2026/07/31/-cnbc-daily-open-iran-us-tensions-chinas-factory-data-and-a-steady-bank-of-japan.html",
+      "summary": "U.S. President Donald Trump called on Congress to add tariffs on Iran to a sanctions bill against Russia and Tehran that has bipartisan support. However duties would have little effect, as the U.S. imports nearly nothing from Iran.",
+      "published": "31 Jul 2026 13:56 WIB",
       "sentiment": "Bearish",
-      "score": -0.984,
+      "score": -0.08,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     }
   ]
 }
