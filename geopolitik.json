@@ -1,55 +1,55 @@
 {
-  "generated": "31 Jul 2026 07:02 WIB",
+  "generated": "31 Jul 2026 08:47 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/CHF",
+      "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.266,
+      "score": -0.299,
       "count": 16
     },
     {
-      "pair": "USD/JPY",
+      "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.266,
-      "count": 16
+      "score": -0.274,
+      "count": 15
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.345,
+      "score": -0.38,
       "count": 15
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Netral →",
-      "score": 0.015,
-      "count": 4
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Netral →",
-      "score": 0.015,
-      "count": 4
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.537,
-      "count": 3
+      "score": -0.235,
+      "count": 6
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.144,
+      "count": 5
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.144,
+      "count": 5
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.312,
-      "count": 2
+      "score": -0.074,
+      "count": 3
     },
     {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.312,
+      "pair": "EUR",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.46,
       "count": 2
     }
   ],
@@ -67,7 +67,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Apakah kita baru saja menyaksikan kekalahan dana lindung nilai (hedge fund) terbesar sepanjang masa?",
+      "title": "Apakah kita baru saja menyaksikan kehancuran dana lindung nilai terbesar sepanjang masa?",
       "url": "https://investinglive.com/stocks/did-we-just-witness-the-largest-single-hedge-fund-rout-of-all-time/",
       "summary": "If you look at a list of the biggest winners in today's huge stock market rally, they all have the same thing in common: They were the biggest holdings of Situational Awareness, a hedge fund started by Leopold Aschenbrenner. Aschenbrenner became something of a household name in market circles by pub",
       "published": "31 Jul 2026 03:43 WIB",
@@ -77,15 +77,26 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "USDJPY bergerak turun tajam",
-      "url": "https://investinglive.com/technical-analysis/usdjpy-moves-sharply-lower/",
-      "summary": "The USDJPY is running to the downside with mumblings about intervention. The price is trading toward the July low at 160.446. The low price has just reached 160.87. Looking at the hourly chart, the move up from the early May low to the high price seen just last week comes in at 160.56. That's just a",
-      "published": "30 Jul 2026 20:52 WIB",
+      "source": "FXStreet News",
+      "title": "Euro melemah mendekati 1,1500 seiring meluasnya perang AS-Iran",
+      "url": "https://www.fxstreet.com/news/euro-softens-to-near-11500-as-us-iran-war-widens-202607310112",
+      "summary": "The EUR/ USD pair loses ground to near 1.1515 during the early Asian trading hours on Friday. The Euro (EUR) softens against the US Dollar (USD) amid risk-off sentiment and fears of wider war in the Middle East.",
+      "published": "31 Jul 2026 08:12 WIB",
       "sentiment": "Bearish",
-      "score": -0.928,
+      "score": -0.92,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "WTI mempertahankan penurunan di sekitar $82,50 karena harapan diplomatik AS-Iran yang baru",
+      "url": "https://www.fxstreet.com/news/wti-holds-losses-around-8250-on-renewed-us-iran-diplomatic-hopes-202607310054",
+      "summary": "West Texas Intermediate (WTI) oil price remains in the negative territory for the second successive day, trading around $82.60 per barrel during the Asian hours on Friday. Crude oil prices have lost ground following renewed hopes for a diplomatic solution to the US-Iran conflict.",
+      "published": "31 Jul 2026 07:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.78,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -110,26 +121,37 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Yuan Tiongkok: Kenaikan Bertahap Terhadap Dolar AS – Commerzbank",
-      "url": "https://www.fxstreet.com/news/chinese-yuan-gradual-gains-versus-us-dollar-commerzbank-202607302011",
-      "summary": "Commerzbank FX & Commodity Analyst Volkmar Baur argues that China’s large trade surplus, driven increasingly by green technology exports, is supporting a stronger Chinese Yuan.",
-      "published": "31 Jul 2026 03:11 WIB",
-      "sentiment": "Bullish",
-      "score": 0.44,
-      "emoji": "🟢",
+      "source": "Reuters Currencies",
+      "title": "Trump berjanji akan membalas serangan mendadak Iran, menurut wawancara Fox News - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZzhaOE5EZkZWdTRDZlhoaTUwempUc3g2QnpqSDAxM0hCeVNCZ190UDZTcmJTU2pWSHBXWTAzaFdtclJqR0VyZUN6NTVLakxmTHdSdk5PRXRhalZwNEhQSDlRSXQ3LUoxa003SWVvVEJpMjFGV2IxSGJjVWg0VHROY0pqVUROT0RxNmJRYTdrN1F4bndKa19vd051VzhwTHM?oc=5",
+      "summary": "Trump vows response to surprise Iran attack, according to Fox News interview Reuters",
+      "published": "29 Jul 2026 23:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.539,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Minyak Mentah menghargai kesepakatan Hormuz, bukan kesepakatan damai",
-      "url": "https://www.fxstreet.com/news/crude-oil-is-pricing-a-hormuz-deal-not-a-peace-deal-202607301848",
-      "summary": "Crude Oil is lower on Thursday even as the war that sets its price reached a country it had spared for five months. WTI trades just above the $82.00 handle, down more than 1.5%, and Brent holds just above $86.50 with a near-identical loss after both gave back a chunk of Wednesday's rally.",
-      "published": "31 Jul 2026 01:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.973,
-      "emoji": "🔴",
+      "source": "Reuters Currencies",
+      "title": "AS mengeluarkan sanksi yang menargetkan jaringan dukungan untuk Mahan Air Iran - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWwwbkpQREZyMHd4cWZMcVdqOXZJZEpWMGpJeFRWcE1CVG53TElTMWdOa1pPSmVvelZXVUVJdkVvSWl2YU5vb1poSVFtR29vdmxtQnE5WW4zZ2Jvck5lSnM0Ykg5Z0dqU2xKa3l3ZVM0QjA2X0w2djluS1o4WUsxZU53bkp5YzY2MFRld3EtajFPS0NUemVuMTJfRGh2bU1VZk5HcjZ5NERoSjhab1RVRDZPZkIyRGs?oc=5",
+      "summary": "US issues sanctions targeting support networks for Iran's Mahan Air Reuters",
+      "published": "31 Jul 2026 00:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.58,
+      "emoji": "🟢",
       "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mesir Membuka Pembayaran Sekitar $1,8 Miliar kepada IMF Setelah Lulus Peninjauan",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/egypt-unlocks-about-1-8-billion-imf-payout-after-passing-review",
+      "summary": "Egypt unlocked about $1.8 billion in financing after clearing the penultimate review of its expanded International Monetary Fund program.",
+      "published": "31 Jul 2026 08:12 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -144,7 +166,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Lemahnya Yen Memberi Toyota Kelonggaran Pendapatan Dari Tarif dan Perang",
+      "title": "Lemahnya Yen Tawarkan Toyota Kelonggaran Pendapatan dari Tarif dan Perang",
       "url": "https://www.bloomberg.com/news/articles/2026-07-30/weak-yen-offers-toyota-an-earnings-respite-from-tariffs-war",
       "summary": "The yen’s slide to a 40-year low may be causing headaches for Japanese policymakers, but exporters such as Toyota Motor Corp. are set to reap an earnings boon, offering a much-needed respite from US tariffs, surging oil prices and strained supply chains.",
       "published": "31 Jul 2026 03:00 WIB",
@@ -152,39 +174,6 @@
       "score": -0.978,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Aon Mempertahankan Keunggulan Margin seiring Penurunan Industri",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-30/aon-keeps-margin-edge-as-industry-tailwinds-fade-video",
-      "summary": "Aon CEO Edmund Reese said that despite rising geopolitical risk, customers want to understand how to protect their assets as they continue to grow and invest. Reese said that his company has been investing in tools and data to help the client base better understand their exposure as risk factors int",
-      "published": "31 Jul 2026 03:37 WIB",
-      "sentiment": "Bullish",
-      "score": 0.757,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Swarthmore Kehilangan Peringkat AAA Dari S&P Karena Beban Hutang",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-30/swarthmore-loses-aaa-rating-from-s-p-over-debtload-video",
-      "summary": "Swarthmore College, an elite liberal arts school in Pennsylvania, lost its AAA grade from S&P Global Ratings after running up its debts to finance renovations to dormitories, classrooms and other projects across its campus. Bloomberg's Amanda Albright reports on \"Bloomberg Real Yield.\" (Source: Bloo",
-      "published": "31 Jul 2026 03:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.398,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "AS melancarkan serangan 'berat' terhadap Iran setelah percobaan serangan terhadap pasukan Amerika",
-      "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
-      "summary": "After a short period of relative calm when hostilities were paused, both sides have now restarted missile attacks.",
-      "published": "30 Jul 2026 17:49 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -199,7 +188,7 @@
     },
     {
       "source": "BBC World",
-      "title": "Rudal yang meninggalkan kawah jauh di dalam Polandia kemungkinan besar adalah milik PM Rusia-Polandia",
+      "title": "Rudal yang meninggalkan kawah jauh di dalam Polandia kemungkinan besar milik PM Rusia-Polandia",
       "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
       "summary": "The missile left a 10m-wide (33ft) crater a short distance from the village of Tarnawa Kolonia, about 100km from the border with Ukraine.",
       "published": "30 Jul 2026 22:35 WIB",
@@ -287,18 +276,51 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Larangan Aksi Palestina akan ditinjau oleh Mahkamah Agung",
-      "url": "https://www.bbc.co.uk/news/articles/c87n321w9qlo?at_medium=RSS&at_campaign=rss",
-      "summary": "The UK's highest court gives Palestine Action's co-founder permission to appeal the government's proscription of the group under anti-terrorism legislation.",
-      "published": "31 Jul 2026 02:45 WIB",
+      "title": "The Papers: 'Musim panas yang kejam' dan 'Sepak bola tetap di rumah'",
+      "url": "https://www.bbc.co.uk/news/articles/cwyjgq583j7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Fires rage near nuclear plant in Suffolk and Uefa mulls World Cup boycott - Friday's papers.",
+      "published": "31 Jul 2026 08:38 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.866,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mengapa pertumbuhan PDB AS melambat, dan bagaimana cara membalikkannya?",
+      "title": "Spanyol mengerahkan militer ke Ceuta setelah lonjakan migran yang mematikan",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/spain-deploys-military-to-ceuta-after-deadly-migrant-surge?traffic_source=rss",
+      "summary": "Spain has deployed its military to Ceuta after thousands of migrants overwhelmed police barricades.",
+      "published": "31 Jul 2026 08:29 WIB",
+      "sentiment": "Bullish",
+      "score": 0.132,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pengunjuk rasa di London berbaris di jalan-jalan sebagai bentuk solidaritas terhadap Azad Kashmir",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/london-protesters-march-through-streets-in-solidarity-with-azad-kashmir?traffic_source=rss",
+      "summary": "Protesters in London marched from Hyde Park towards the Pakistan High Commission on Thursday.",
+      "published": "31 Jul 2026 08:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.313,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Eskalasi AS dengan Iran ‘tidak ada gunanya’, mantan diplomat AS memperingatkan",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/us-escalation-with-iran-is-pointless-warns-former-us-diplomat?traffic_source=rss",
+      "summary": "As US-Iran clashes escalate, former US Ambassador to UAE Barbara Leaf warns escalation is ‘fairly pointless’.",
+      "published": "31 Jul 2026 07:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.362,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Mengapa pertumbuhan PDB AS melambat dan bagaimana cara membalikkannya?",
       "url": "https://www.aljazeera.com/economy/2026/7/30/why-is-us-gdp-growth-slowing-and-how-can-it-be-reversed?traffic_source=rss",
       "summary": "Tariffs and oil price hikes create a supply shock, dragging down US economic growth in the second quarter of 2026.",
       "published": "31 Jul 2026 04:39 WIB",
@@ -330,39 +352,6 @@
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Pihak berwenang AS menyelidiki serangan siber terhadap sistem air di Minnesota",
-      "url": "https://www.aljazeera.com/news/2026/7/30/us-authorities-probe-cyberattack-on-water-systems-in-minnesota?traffic_source=rss",
-      "summary": "A cyberattack targeted more than 30 water facilities in the Midwestern US state earlier this week.",
-      "published": "31 Jul 2026 03:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Kredibilitas Warsh di Wall Street terpukul karena investor meragukan tekad ketua The Fed dalam memerangi inflasi",
-      "url": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
-      "summary": "Kevin Warsh insists the Federal Reserve will do whatever it takes to reduce U.S. inflation to its 2% target, but investors aren’t buying it.",
-      "published": "31 Jul 2026 02:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Forex",
-      "title": "Keputusan tingkat suku bunga Warsh sangat mengejutkan. Perdagangan ini mungkin memberikan petunjuk",
-      "url": "https://www.cnbc.com/2026/07/29/warshs-rate-decision-is-a-cliffhanger-these-trades-might-offer-a-clue.html",
-      "summary": "It's arguably the most up-for-grabs Federal Reserve decision in recent memory.",
-      "published": "29 Jul 2026 19:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.33,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "CNBC Economy",
       "title": "Bagaimana kesepakatan NBCUniversal dengan YouTube dapat mengawali babak baru perang streaming",
       "url": "https://www.cnbc.com/2026/07/30/nbcuniversal-youtube-deal-streaming-wars.html",
@@ -371,6 +360,17 @@
       "sentiment": "Bearish",
       "score": -0.802,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "CNBC Daily Open: Potensi tarif Iran, pusat data, dan komentar teknologi",
+      "url": "https://www.cnbc.com/2026/07/31/cnbc-daily-open-potential-iran-tariffs-data-centers-and-tech-talk.html",
+      "summary": "U.S. President Donald Trump wants Congress to add tariffs on Iran to a sanctions bill against Russia and Tehran that has bipartisan support.",
+      "published": "31 Jul 2026 08:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.402,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
