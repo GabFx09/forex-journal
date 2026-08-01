@@ -1,56 +1,56 @@
 {
-  "generated": "01 Aug 2026 07:02 WIB",
+  "generated": "01 Aug 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.318,
-      "count": 28
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.366,
-      "count": 27
+      "score": -0.449,
+      "count": 22
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.384,
-      "count": 25
+      "score": -0.426,
+      "count": 21
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.402,
+      "count": 21
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.072,
-      "count": 4
+      "score": -0.439,
+      "count": 6
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.569,
+      "score": -0.833,
       "count": 2
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.569,
+      "score": -0.833,
       "count": 2
     },
     {
-      "pair": "CAD/USD",
+      "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.273,
-      "count": 1
+      "score": -0.76,
+      "count": 2
     },
     {
-      "pair": "NOK/USD",
+      "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.273,
-      "count": 1
+      "score": -0.76,
+      "count": 2
     }
   ],
   "items": [
@@ -100,21 +100,21 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Warner Music Group merombak kepemimpinan setelah CFO keluar",
-      "url": "https://www.investing.com/news/stock-market-news/warner-music-group-reshuffles-leadership-as-cfo-exits-4829329",
+      "title": "AS melarang impor dari 43 perusahaan lagi karena dugaan kerja paksa yang melibatkan warga Uighur di Tiongkok",
+      "url": "https://www.investing.com/news/stock-market-news/us-bars-imports-from-43-more-companies-over-chinas-alleged-forced-labor-involving-uyghurs-4829635",
       "summary": "",
-      "published": "01 Aug 2026 04:43 WIB",
+      "published": "01 Aug 2026 21:24 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.459,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
-      "source": "Reuters Currencies",
-      "title": "Korea Selatan jarang melakukan intervensi valas bersama Jepang, kata sumber - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeXRHZjVlUG5JYUFGeDFLQWxxaW5LQUY0TnNqbzFSenlTTFZNVnZxbzV2b0t0SlhaUlFjbE12X1QwbFlBWG5UZmhDWGRyWExBTkt4ZW5MVmhiQ21CQzVzTEdPbG00LXcwZ2RCeFAtS2dKczB4ZDRzMDdQMExLVTZ1OXhxeTVIRXU3NUJoTnJWVkJRM0E3UlVsX3dfU04xVV91cG5sajhLOW11RDExQzY5UEtLVDg0VHVlVHgtaA?oc=5",
-      "summary": "South Korea conducts rare forex intervention alongside Japan, source says Reuters",
-      "published": "31 Jul 2026 06:43 WIB",
+      "source": "Investing.com Forex",
+      "title": "Akankah SpaceX mengecat roketnya dengan warna merah muda? Pertanyaan investor melampaui Bulan dan Mars menjelang hasil pertama",
+      "url": "https://www.investing.com/news/stock-market-news/will-spacex-paint-its-rocket-pink-investor-questions-go-beyond-moon-and-mars-ahead-of-first-results-4829589",
+      "summary": "",
+      "published": "01 Aug 2026 17:06 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -122,87 +122,43 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Yen Menguat Seiring Laporan Pembelian Pasar Langsung oleh AS dan Jepang",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/yen-s-intervention-rally-stalls-as-traders-alert-for-more-action",
-      "summary": "US and Japanese authorities conducted direct purchases of the yen Friday in an effort to boost the currency, according to media reports, sending the yen upward.",
-      "published": "31 Jul 2026 21:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.322,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pekan Wall Street | Permainan Menunggu Warsh, Aturan Penggabungan UE, Ahli Bedah Robot",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/wall-street-week-warsh-s-waiting-game-eu-merger-rules-video",
-      "summary": "This week, Harvard professor and former Obama economic adviser Jason Furman discusses the Fed rate decision and the challenges facing Chairman Kevin Warsh. Plus, the European Union is rewriting its merger rules in a bid to create tech giants that can compete with America. Later, Johnson & Johnson en",
-      "published": "01 Aug 2026 06:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.178,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Perusahaan India Merencanakan Kenaikan Harga Baru, Menguji Prospek Inflasi",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/indian-firms-plan-fresh-price-hikes-testing-inflation-outlook",
-      "summary": "India’s largest consumer companies are gearing to raise prices on products from toothpaste to tires and paint ahead of the festival season and for the second straight quarter, as the prolonged Middle East conflict drives up commodity costs and threatens to keep inflation elevated.",
-      "published": "01 Aug 2026 06:00 WIB",
-      "sentiment": "Netral",
-      "score": -0.028,
-      "emoji": "⚪",
+      "title": "Ukraina Semakin Kuat Saat Putin Menghadapi Tekanan",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-01/ukraine-gains-ground-as-putin-faces-pressure-video",
+      "summary": "Former US Ambassador Bill Taylor joins Bloomberg This Weekend and says Ukraine maintains momentum on the battlefield despite intensified Russian missile attacks, while urging the US and its allies to accelerate deliveries of Patriot interceptors. Taylor explains to hosts David Gura and Christina Ruf",
+      "published": "01 Aug 2026 21:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.956,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Chip War, Universitas Stanford: Buku Scarlet & Tom yang Wajib Dibaca",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/chip-war-stanford-university-scarlet-tom-s-must-read-video",
-      "summary": "Scarlet Fu and Tom Keene discuss their must-read book on this weeks edition of \"Bloomberg Money.\" (Source: Bloomberg)",
-      "published": "01 Aug 2026 05:23 WIB",
+      "title": "Exxon dan Chevron Peringatkan Harga Bahan Bakar Tetap Bertahan Saat Perang Menghantam Pengilangan",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-01/exxon-chevron-warn-fuel-prices-to-endure-as-war-knocks-refining",
+      "summary": "High fuel prices are likely to stick around even if oil prices drop in the coming months as the wars in Russia and Middle East leave global refining capacity critically short, ExxonMobil Holdings Corp. and Chevron Corp. warned.",
+      "published": "01 Aug 2026 20:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.943,
+      "score": -0.986,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Zitron: \"Semua Orang Telah Menjual Kebohongan\" di AI",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/zitron-everyone-has-been-sold-a-lie-on-ai-video",
-      "summary": "Following earnings this week that saw tech giants like Microsoft and Amazon report aggressive AI spending plans, EZ Primary Research CEO Ed Zitron gives his more skeptical take on the industry. In speaking about OpenAI and Anthropic Zitron argues \"everyone is buying into these stocks because they be",
-      "published": "01 Aug 2026 04:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.231,
-      "emoji": "🔴",
+      "title": "Gubernur Bipartisan Meluncurkan Satuan Tugas untuk Mengatasi Reformasi Imigrasi",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-01/bipartisan-governors-to-tackle-immigration-reform-video",
+      "summary": "From Oklahoma City, the site of the annual meeting of the National Governor’s Association, Oklahoma Governor Kevin Stitt, Marylands Governor Wes Moore, Utah Governor Spencer Coz, and Delaware Governor Matt Meyer joined Bloomberg This Weekend host Christina Ruffini to announce the launching of a bi-p",
+      "published": "01 Aug 2026 20:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.098,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "'Agenda Ambisius' Warsh Membutuhkan Pemahaman Pasar Luas: Clarida",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/warsh-s-agenda-needs-broad-market-understanding-clarida-video",
-      "summary": "Former Federal Reserve Vice Chairman Richard Clarida, and now a global economic adviser for Pimco, says said the central bank risks creating uncertainty if it alters its preferred inflation measure without clearly communicating what policymakers are targeting. Clarida offered that caution on Friday ",
-      "published": "01 Aug 2026 04:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.711,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Warsh Dilaporkan Mempertimbangkan Mengurangi Jumlah Pertemuan Fed",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/warsh-reported-to-weigh-reducing-number-of-fed-meetings-video",
-      "summary": "Federal Reserve Chairman Kevin Warsh is considering reducing the frequency of the central bank’s scheduled policy meetings, the New York Times reported Friday. Warsh raised the proposal to change the frequency of meetings at this week’s gathering of the Federal Open Market Committee, the paper added",
-      "published": "01 Aug 2026 04:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kota New York Terhindar dari Penurunan Peringkat oleh Fitch dan Moody’s, untuk Saat Ini",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/new-york-city-spared-downgrade-by-fitch-and-moody-s-for-now",
-      "summary": "New York City avoided a debt downgrade Friday by two major credit-rating companies, though both warned the city must take steps to narrow projected deficits or risk a cut — despite the current boom on Wall Street.",
-      "published": "01 Aug 2026 04:10 WIB",
+      "title": "Perlakuan Diam Warsh Membuat Pedagang S&P Bersiap Menghadapi Pergerakan Liar",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-01/warsh-s-silent-treatment-has-s-p-traders-bracing-for-wild-swings",
+      "summary": "A relentless run of uncertainty, from war to tariff fights to inflation that refuses to die, has challenged investors this year. Now they have to balance another risk: A Federal Reserve that won’t tell them what it’s thinking.",
+      "published": "01 Aug 2026 20:00 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -210,12 +166,67 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru 31 Juli",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-30/latest-oil-market-news-and-analysis-for-july-31",
-      "summary": "Oil posted its biggest monthly gain since March as traders grappled with simmering global conflicts and threats to supply from the Persian Gulf to the Black Sea.",
-      "published": "31 Jul 2026 05:04 WIB",
+      "title": "Rencana Perlucutan Senjata Hamas Menguji Langkah Israel Selanjutnya",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-01/hamas-disarmament-plan-tests-israel-s-next-move-video",
+      "summary": "Israel weighs a Hamas-backed disarmament proposal as Prime Minister Benjamin Netanyahu prepares to bring the Trump-backed Gaza road map before his cabinet, with questions remaining over sequencing, Israeli withdrawal and Palestinian governance. Bloomberg News Middle East Reporter Dan Williams is on ",
+      "published": "01 Aug 2026 19:11 WIB",
       "sentiment": "Bearish",
       "score": -0.25,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Furman: Warsh Harus Lebih Sedikit Bicara, Lebih Banyak Bertindak",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-01/furman-warsh-should-talk-less-act-more-video",
+      "summary": "Harvard professor and former Obama economic adviser Jason Furman explains why tariffs, geopolitics, and Federal Reserve credibility are shaping the next chapter of the inflation fight, and why the toughest decisions may still lie ahead. (Source: Bloomberg)",
+      "published": "01 Aug 2026 19:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Lebih sedikit pertemuan The Fed dapat memicu volatilitas pasar",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-01/fewer-fed-meetings-could-fuel-market-volatility-video",
+      "summary": "Federal Reserve Chairman Kevin Warsh is considering reducing the number of Federal Reserve policy meetings, which drew concern from economists and market strategists, who say fewer scheduled decisions could increase uncertainty and make policy moves more disruptive. Bloomberg News International Econ",
+      "published": "01 Aug 2026 18:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.418,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pembelian Minyak India Mentah Rekor Pembelian Minyak Mentah di Pasar Spot karena Pasokan Timur Tengah Terhantam",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-01/indian-oil-buys-record-spot-market-crude-on-mideast-supply-hit",
+      "summary": "Indian Oil Corp. bought a record share of its crude oil from the spot market in the April-June quarter after the US-Iran conflict upended supplies from the Middle East. The shift shows how geopolitical turmoil is forcing even the region’s biggest buyers to abandon long-established procurement strate",
+      "published": "01 Aug 2026 16:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.928,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "Pemukim Israel di Tepi Barat mengatakan kepada BBC bahwa serangan terhadap warga Palestina dibenarkan sebagai balas dendam",
+      "url": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Settler violence against Palestinians is on the rise in the West Bank, as settlements and outposts expand.",
+      "published": "01 Aug 2026 12:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.751,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Sembilan orang tewas dalam serangan di Kyiv, saat Ukraina menenggelamkan kapal kontainer Rusia",
+      "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
+      "summary": "The attack comes as Moscow escalates deadly ballistic missile attacks on the Ukrainian capital.",
+      "published": "01 Aug 2026 20:35 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -229,39 +240,6 @@
       "score": -0.202,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Mengapa perang terbatas dengan AS mungkin lebih cocok untuk Iran daripada perdamaian",
-      "url": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran may believe it can control its conflict carefully enough to keep pressure on the US while avoiding an all-out war.",
-      "published": "31 Jul 2026 00:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.987,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Rudal yang meninggalkan kawah jauh di dalam Polandia kemungkinan besar adalah milik PM Rusia-Polandia",
-      "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
-      "summary": "The missile left a 10m-wide (33ft) crater a short distance from the village of Tarnawa Kolonia, about 100km from the border with Ukraine.",
-      "published": "30 Jul 2026 22:35 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Ayah remaja penembak sekolah divonis 15 tahun penjara",
-      "url": "https://www.bbc.co.uk/news/articles/c78g4y18rxgo?at_medium=RSS&at_campaign=rss",
-      "summary": "\"It is clear you failed as a parent,\" the judge told Colin Gray, who was found guilty earlier this year on charges stemming from the deadly 2024 school attack.",
-      "published": "31 Jul 2026 00:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.982,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "BBC Business",
@@ -297,33 +275,33 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Apple memperingatkan 'kendala pasokan' di masa depan untuk Mac, iPhone, iPad",
-      "url": "https://www.bbc.co.uk/news/articles/c204nw64xwno?at_medium=RSS&at_campaign=rss",
-      "summary": "Shares of Apple plunged on a warning of slower sales in the coming months.",
-      "published": "31 Jul 2026 06:25 WIB",
+      "source": "BBC Top Stories",
+      "title": "Walikota Greater Manchester mengatakan kekuatan baru Burnham akan mengubah kehidupan",
+      "url": "https://www.bbc.co.uk/news/articles/cddj3j50rmpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Bev Craig succeeds Andy Burnham as Greater Manchester's mayor after winning Thursday's by-election.",
+      "published": "01 Aug 2026 20:15 WIB",
+      "sentiment": "Bullish",
+      "score": 0.891,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan Israel menghancurkan gudang rumah sakit Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/01-08-israel-strike-gaza-hospital-sv-mp4?traffic_source=rss",
+      "summary": "Israeli strike destroys medical supplies warehouse at Gaza's Al-Aqsa Martyrs Hospital, staff say.",
+      "published": "01 Aug 2026 21:07 WIB",
       "sentiment": "Bearish",
-      "score": -0.233,
+      "score": -0.928,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Bank sentral menahan suku bunga namun menyatakan siap menaikkannya jika perang Iran meningkat",
-      "url": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Bank also expects the economy to grow more than previously forecast this year, although uncertainties remain because of the Iran war.",
-      "published": "30 Jul 2026 23:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.97,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Penerbangan British Airways mengadakan mayday saat mendekati Heathrow",
-      "url": "https://www.bbc.co.uk/news/articles/cn8n1knkkz9o?at_medium=RSS&at_campaign=rss",
-      "summary": "The call was made on an Airbus A320 flying from Dusseldorf airport in Germany on 6 July following two stall warnings.",
-      "published": "31 Jul 2026 00:34 WIB",
+      "source": "Al Jazeera",
+      "title": "Iran memperingatkan terhadap 'api perang' di tengah ancaman serangan AS terhadap lokasi energi",
+      "url": "https://www.aljazeera.com/news/2026/8/1/iran-warns-against-fire-of-war-amid-us-strike-threats-on-energy-sites?traffic_source=rss",
+      "summary": "Iranian media says retaliation plan ready after US media suggest potential imminent attacks against civilian sites.",
+      "published": "01 Aug 2026 19:44 WIB",
       "sentiment": "Bearish",
       "score": -0.539,
       "emoji": "🔴",
@@ -331,47 +309,69 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Anak-anak menghadapi ancaman deportasi AS yang lebih besar seiring dengan berakhirnya perjanjian dukungan hukum",
-      "url": "https://www.aljazeera.com/news/2026/7/31/children-face-higher-threat-of-us-deportation-as-legal-support-deal-expires?traffic_source=rss",
-      "summary": "Advocates warn expiring contract could leave 24,000 children without legal representation, increasing risk of expulsion.",
-      "published": "01 Aug 2026 04:11 WIB",
+      "title": "Pemogokan Sde Teiman menunjukkan militer Israel kehilangan kepercayaan",
+      "url": "https://www.aljazeera.com/opinions/2026/8/1/sde-teiman-walkout-lays-bare-an-israeli-military-running-out-of-trust?traffic_source=rss",
+      "summary": "Nearly three years of open-ended war have made obedience inside the Israeli military increasingly conditional.",
+      "published": "01 Aug 2026 19:40 WIB",
       "sentiment": "Bearish",
-      "score": -0.666,
+      "score": -0.6,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Polandia memprotes duta besar Rusia atas serangan rudal",
-      "url": "https://www.aljazeera.com/news/2026/7/31/poland-protests-to-russian-ambassador-over-missile-incursion?traffic_source=rss",
-      "summary": "Warsaw asserts missile recently made, illustrating Russia's nightly barrage against Ukraine is draining arsenal.",
-      "published": "01 Aug 2026 02:48 WIB",
+      "title": "Trump meniru suara intersepsi rudal Patriot",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/aje-onl-nf_01-08-trump-jordan-missiles-clip-010826?traffic_source=rss",
+      "summary": "US President Donald Trump mimicked missile interceptions as he described the US military shooting down Iranian missiles.",
+      "published": "01 Aug 2026 18:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.33,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mengapa Israel mempersenjatai pemukim ilegal?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/why-is-israel-arming-illegal-settlers?traffic_source=rss",
-      "summary": "As settler attacks reach record levels, the government has distributed more than 100,000 assault rifles to Israelis.",
-      "published": "01 Aug 2026 01:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.968,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran: Terjadinya Perang",
+      "url": "https://www.aljazeera.com/video/featured-documentaries/2026/8/1/iran-the-making-of-a-war?traffic_source=rss",
+      "summary": "From coup to conflict - how decades of rivalries and miscalculations have shaped one of today’s most dangerous wars.",
+      "published": "01 Aug 2026 17:30 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Partai-partai Kurdi Iran di Irak menghadapi keseimbangan yang sulit di tengah serangan Iran",
+      "url": "https://www.aljazeera.com/news/2026/8/1/iranian-kurdish-parties-in-iraq-face-a-delicate-balance-amid-iran-attacks?traffic_source=rss",
+      "summary": "Iranian Kurdish groups based in Iraq have been heavily attacked in the war, but most deny US assistance.",
+      "published": "01 Aug 2026 16:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.95,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "Kami berusia 60an dengan $1,5 juta. Akankah amanah lebih efektif dibandingkan wasiat untuk mencegah konflik di antara ahli waris kita?",
-      "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
-      "summary": "“I realize that probate can be lengthy, public and expensive.”",
-      "published": "01 Aug 2026 02:16 WIB",
+      "title": "Berapa biaya agen AI? Tidak ada yang setuju – dan ini menciptakan kekacauan.",
+      "url": "https://www.marketwatch.com/story/how-much-should-an-ai-agent-cost-no-one-can-agree-and-its-creating-chaos-288d741e?mod=mw_rss_topstories",
+      "summary": "Enterprise software providers are navigating uncharted waters as they experiment with different monetization methods.",
+      "published": "01 Aug 2026 19:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.376,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC Forex",
+      "title": "Saham Berkshire Hathaway mencapai level tertinggi dalam delapan bulan",
+      "url": "https://www.cnbc.com/2026/08/01/-berkshire-hathaway-shares-hit-eight-month-high.html",
+      "summary": "The conglomerate that Warren Buffett built rallied to an eight-month high this week. There could be more gains ahead if they play catch up with the S&P 500.",
+      "published": "01 Aug 2026 21:41 WIB",
       "sentiment": "Bullish",
-      "score": 0.59,
+      "score": 0.743,
       "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "CNBC Economy",
@@ -385,24 +385,35 @@
       "impact": "high"
     },
     {
-      "source": "CNBC Economy",
-      "title": "Bagaimana kesepakatan NBCUniversal dengan YouTube dapat mengawali babak baru perang streaming",
-      "url": "https://www.cnbc.com/2026/07/30/nbcuniversal-youtube-deal-streaming-wars.html",
-      "summary": "The next iteration of the streaming wars is likely to be about aggregating content on the biggest existing platforms.",
-      "published": "31 Jul 2026 00:05 WIB",
+      "source": "CNBC World",
+      "title": "Kapal tanker di dekat Oman mendapat kecaman ketika Iran mengancam akan menutup rute pelayaran",
+      "url": "https://www.cnbc.com/2026/08/01/tankers-near-oman-come-under-fire.html",
+      "summary": "The latest attacks come amid U.S. media reports that U.S. President Donald Trump is preparing a fresh round of strikes against Iran.",
+      "published": "01 Aug 2026 17:56 WIB",
       "sentiment": "Bearish",
-      "score": -0.802,
+      "score": -0.891,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "CNBC World",
-      "title": "Keuntungan Exxon dan Chevron melonjak karena kenaikan harga minyak akibat perang Iran",
-      "url": "https://www.cnbc.com/2026/07/31/exxon-xom-chevron-cvx-q2-earnings.html",
-      "summary": "ExxonMobil and Chevron on Friday reported second-quarter profits that surged on rising oil prices due to the Iran war.",
-      "published": "31 Jul 2026 22:52 WIB",
+      "title": "Tumpang tindihnya pusat kekuasaan di Iran membuat upaya mengakhiri perang menjadi lebih rumit",
+      "url": "https://www.cnbc.com/2026/08/01/iran-ceasefire-power-structure.html",
+      "summary": "Iran’s power structure complicates efforts to enforce any ceasefire with the U.S., from the Supreme Leader to the Revolutionary Guards.",
+      "published": "01 Aug 2026 13:52 WIB",
       "sentiment": "Bearish",
-      "score": -0.459,
+      "score": -0.077,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Ketika Bank Sentral AS di bawah pimpinan Warsh menghadapi tekanan untuk mengambil tindakan terhadap inflasi, indikator-indikator ini menunjukkan bahwa inflasi berada pada titik terendah dalam beberapa tahun terakhir",
+      "url": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
+      "summary": "Trimmed mean measures are painting a different picture than the headline numbers.",
+      "published": "31 Jul 2026 23:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.666,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -438,39 +449,6 @@
       "score": -0.557,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Hamas mengatakan klaim 'pelucutan senjata' Trump di Gaza bergantung pada kepatuhan Israel terhadap komitmennya",
-      "url": "https://www.cnbc.com/2026/07/31/trump-hamas-disarmament-conditions.html",
-      "summary": "Hamas says it will only disarm after Israel meets previous ceasefire commitments, despite President Trump's announcement of a breakthrough U.S.-brokered agreement.",
-      "published": "01 Aug 2026 03:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.978,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Harga minyak naik setelah Iran menyatakan menyerang dua kapal tanker yang transit di Selat Hormuz",
-      "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
-      "summary": "The Iran war is spreading across the Middle East and hitting energy infrastructure on multiple fronts.",
-      "published": "01 Aug 2026 01:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.86,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Ketika Bank Sentral AS yang dipimpin oleh Warsh menghadapi tekanan untuk mengambil tindakan terhadap inflasi, indikator-indikator ini menunjukkan bahwa inflasi berada pada titik terendah dalam beberapa tahun terakhir",
-      "url": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
-      "summary": "Trimmed mean measures are painting a different picture than the headline numbers.",
-      "published": "31 Jul 2026 23:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.666,
-      "emoji": "🔴",
-      "impact": "high"
     }
   ]
 }
