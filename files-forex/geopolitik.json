@@ -1,5 +1,5 @@
 {
-  "generated": "31 Jul 2026 22:02 WIB",
+  "generated": "01 Aug 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,74 +7,85 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.277,
-      "count": 17
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.355,
-      "count": 16
+      "score": -0.318,
+      "count": 28
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.355,
-      "count": 16
+      "score": -0.366,
+      "count": 27
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.384,
+      "count": 25
     },
     {
       "pair": "EUR/USD",
-      "direction": "Netral →",
-      "score": -0.03,
-      "count": 5
-    },
-    {
-      "pair": "AUD/USD",
-      "direction": "Netral →",
-      "score": 0.049,
-      "count": 2
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Netral →",
-      "score": 0.049,
-      "count": 2
+      "direction": "Tekanan Turun ▼",
+      "score": -0.072,
+      "count": 4
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.679,
-      "count": 1
+      "score": -0.569,
+      "count": 2
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.679,
+      "score": -0.569,
+      "count": 2
+    },
+    {
+      "pair": "CAD/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.273,
+      "count": 1
+    },
+    {
+      "pair": "NOK/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.273,
       "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Kocher, ECB: Keputusan harus didasarkan pada data yang masuk untuk membawa inflasi kembali ke target 2%.",
-      "url": "https://investinglive.com/central-banks/ecb-s-kocher-decisions-to-be-based-on-incoming-data-to-bring-inflation-back-to-the-2-target/",
-      "summary": "ECB policymaker Martin Kocher reiterated the importance of maintaining a data-dependent approach to monetary policy, warning that geopolitical developments continue to pose risks to the inflation outlook. Kocher noted that recent weeks have demonstrated how quickly geopolitical events can affect ene",
-      "published": "31 Jul 2026 16:58 WIB",
-      "sentiment": "Bullish",
-      "score": 0.397,
-      "emoji": "🟢",
+      "title": "Pembeli GBPUSD mendorong harga di atas target area swing.",
+      "url": "https://investinglive.com/technical-analysis/gbpusd-buyers-push-the-price-above-a-swing-area-target/",
+      "summary": "The GBPUSD surged higher yesterday, extending its rally toward a key swing level at 1.34797. However, during the Asia-Pacific and early European sessions, the pair corrected lower, retracing back to its converged 100-day and 200-day moving averages near 1.3398. The day's low reached 1.3400, just a c",
+      "published": "01 Aug 2026 02:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.281,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Dia memperkirakan ledakan infrastruktur AI, kemudian leverage menyebabkan dia kehilangan kendali atas portofolio senilai $16 miliar",
-      "url": "https://investinglive.com/education/he-predicted-the-ai-infrastructure-boom-then-leverage-cost-him-control-of-a-16-billion-portfolio/",
-      "summary": "What is Situational Awareness, and who is Leopold Aschenbrenner? Before it became the name of a multibillion-dollar investment fund, Situational Awareness was a widely discussed essay about the future of artificial intelligence. Leopold Aschenbrenner, a former OpenAI researcher, published Situationa",
-      "published": "31 Jul 2026 13:33 WIB",
-      "sentiment": "Bullish",
-      "score": 0.073,
-      "emoji": "🟢",
+      "title": "AUDUSD menelusuri kembali beberapa kenaikan yang terlihat kemarin. Apa selanjutnya bagi para pedagang?",
+      "url": "https://investinglive.com/technical-analysis/audusd-retraces-some-of-the-gains-seen-yesterday-what-next-for-traders/",
+      "summary": "The AUDUSD has been on a rollercoaster ride this week, with sharp swings in both directions. The week began with the pair trading below its 100- and 200-hour moving averages. Sellers then pushed the price below a trendline and a key swing area, sending it toward the 200-day moving average, but the d",
+      "published": "31 Jul 2026 22:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.054,
+      "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Minyak WTI pulih di atas $83 menjelang pertemuan OPEC",
+      "url": "https://www.fxstreet.com/news/wti-oil-recovers-above-83-ahead-of-opec-meeting-202607311611",
+      "summary": "West Texas Intermediate (WTI) US Oil trades higher on Friday, rising 0.76% to around $83.30 after staging a sharp rebound from an intraday low below $80.00.",
+      "published": "31 Jul 2026 23:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.273,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -88,70 +99,136 @@
       "impact": "high"
     },
     {
+      "source": "Investing.com Forex",
+      "title": "Warner Music Group merombak kepemimpinan setelah CFO keluar",
+      "url": "https://www.investing.com/news/stock-market-news/warner-music-group-reshuffles-leadership-as-cfo-exits-4829329",
+      "summary": "",
+      "published": "01 Aug 2026 04:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Reuters Currencies",
+      "title": "Korea Selatan jarang melakukan intervensi valas bersama Jepang, kata sumber - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeXRHZjVlUG5JYUFGeDFLQWxxaW5LQUY0TnNqbzFSenlTTFZNVnZxbzV2b0t0SlhaUlFjbE12X1QwbFlBWG5UZmhDWGRyWExBTkt4ZW5MVmhiQ21CQzVzTEdPbG00LXcwZ2RCeFAtS2dKczB4ZDRzMDdQMExLVTZ1OXhxeTVIRXU3NUJoTnJWVkJRM0E3UlVsX3dfU04xVV91cG5sajhLOW11RDExQzY5UEtLVDg0VHVlVHgtaA?oc=5",
+      "summary": "South Korea conducts rare forex intervention alongside Japan, source says Reuters",
+      "published": "31 Jul 2026 06:43 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
       "source": "Bloomberg Markets",
-      "title": "Exxon, Chevron Mengarahkan Keuntungan Tak Terduga untuk Membayar Utang",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/exxon-chevron-steer-windfall-profits-into-debt-reduction-ms917v1o",
-      "summary": "ExxonMobil Holdings Corp. and Chevron Corp. plowed blowout profits into debt reduction rather than huge buyback increases in a sign of Big Oil’s caution about how long war-driven price rallies will last.",
-      "published": "31 Jul 2026 20:39 WIB",
+      "title": "Yen Menguat Seiring Laporan Pembelian Pasar Langsung oleh AS dan Jepang",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/yen-s-intervention-rally-stalls-as-traders-alert-for-more-action",
+      "summary": "US and Japanese authorities conducted direct purchases of the yen Friday in an effort to boost the currency, according to media reports, sending the yen upward.",
+      "published": "31 Jul 2026 21:07 WIB",
       "sentiment": "Bullish",
-      "score": 0.317,
+      "score": 0.322,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Citadel Menyerang Krisis Hedge Fund",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/citadel-swoops-into-hedge-fund-crisis-video",
-      "summary": "A heavily leveraged AI hedge fund unraveled after volatile stocks triggered margin calls and a frantic asset sale. Bloomberg’s Hema Parmar joined Bloomberg Open Interest to explain how Situational Awareness scrambled for buyers before Ken Griffin’s Citadel stepped in. (Source: Bloomberg)",
-      "published": "31 Jul 2026 21:01 WIB",
+      "title": "Pekan Wall Street | Permainan Menunggu Warsh, Aturan Penggabungan UE, Ahli Bedah Robot",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/wall-street-week-warsh-s-waiting-game-eu-merger-rules-video",
+      "summary": "This week, Harvard professor and former Obama economic adviser Jason Furman discusses the Fed rate decision and the challenges facing Chairman Kevin Warsh. Plus, the European Union is rewriting its merger rules in a bid to create tech giants that can compete with America. Later, Johnson & Johnson en",
+      "published": "01 Aug 2026 06:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.178,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Perusahaan India Merencanakan Kenaikan Harga Baru, Menguji Prospek Inflasi",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/indian-firms-plan-fresh-price-hikes-testing-inflation-outlook",
+      "summary": "India’s largest consumer companies are gearing to raise prices on products from toothpaste to tires and paint ahead of the festival season and for the second straight quarter, as the prolonged Middle East conflict drives up commodity costs and threatens to keep inflation elevated.",
+      "published": "01 Aug 2026 06:00 WIB",
+      "sentiment": "Netral",
+      "score": -0.028,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Chip War, Universitas Stanford: Buku Scarlet & Tom yang Wajib Dibaca",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/chip-war-stanford-university-scarlet-tom-s-must-read-video",
+      "summary": "Scarlet Fu and Tom Keene discuss their must-read book on this weeks edition of \"Bloomberg Money.\" (Source: Bloomberg)",
+      "published": "01 Aug 2026 05:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.521,
+      "score": -0.943,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Hilangnya Kesadaran Situasional Menimbulkan Ketakutan AI",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/situational-awareness-losses-raise-ai-fears-video",
-      "summary": "Assets at Leopold Aschenbrenner’s hedge fund Situational Awareness have slumped to about $10 billion after Ken Griffin’s Citadel stepped in to buy the bulk of its public stock bets. Hema Parmar has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "published": "31 Jul 2026 20:49 WIB",
+      "title": "Zitron: \"Semua Orang Telah Menjual Kebohongan\" di AI",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/zitron-everyone-has-been-sold-a-lie-on-ai-video",
+      "summary": "Following earnings this week that saw tech giants like Microsoft and Amazon report aggressive AI spending plans, EZ Primary Research CEO Ed Zitron gives his more skeptical take on the industry. In speaking about OpenAI and Anthropic Zitron argues \"everyone is buying into these stocks because they be",
+      "published": "01 Aug 2026 04:42 WIB",
       "sentiment": "Bearish",
-      "score": -0.362,
+      "score": -0.231,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Mengapa Bill Dudley Menganggap Pendekatan Warsh terhadap Kebijakan Fed Cacat",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/why-bill-dudley-thinks-warsh-s-policy-approach-is-flawed-video",
-      "summary": "Bill Dudley, a Bloomberg Opinion columnist and former president of the Federal Reserve Bank of New York, reacts to Fed Chairman Kevin Warsh's news conference following the central bank's decision to leave interest rates unchanged. Speaking on \"Bloomberg Surveillance,\" Dudley says Warsh's silence was",
-      "published": "31 Jul 2026 20:05 WIB",
+      "title": "'Agenda Ambisius' Warsh Membutuhkan Pemahaman Pasar Luas: Clarida",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/warsh-s-agenda-needs-broad-market-understanding-clarida-video",
+      "summary": "Former Federal Reserve Vice Chairman Richard Clarida, and now a global economic adviser for Pimco, says said the central bank risks creating uncertainty if it alters its preferred inflation measure without clearly communicating what policymakers are targeting. Clarida offered that caution on Friday ",
+      "published": "01 Aug 2026 04:29 WIB",
       "sentiment": "Bearish",
-      "score": -0.784,
+      "score": -0.711,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pejabat FOMC Merilis Pernyataan tentang Perbedaan Pendapat",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/fomc-officials-release-statements-on-dissents-video",
-      "summary": "Two Federal Reserve officials who dissented against this week’s decision to hold interest rates steady warned that waiting too long to act against inflation could risk the need for even more aggressive policy later. Cleveland Fed President Beth Hammack and Minneapolis Fed President Neel Kashkari poi",
-      "published": "31 Jul 2026 19:33 WIB",
+      "title": "Warsh Dilaporkan Mempertimbangkan Mengurangi Jumlah Pertemuan Fed",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/warsh-reported-to-weigh-reducing-number-of-fed-meetings-video",
+      "summary": "Federal Reserve Chairman Kevin Warsh is considering reducing the frequency of the central bank’s scheduled policy meetings, the New York Times reported Friday. Warsh raised the proposal to change the frequency of meetings at this week’s gathering of the Federal Open Market Committee, the paper added",
+      "published": "01 Aug 2026 04:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.44,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kota New York Terhindar dari Penurunan Peringkat oleh Fitch dan Moody’s, untuk Saat Ini",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/new-york-city-spared-downgrade-by-fitch-and-moody-s-for-now",
+      "summary": "New York City avoided a debt downgrade Friday by two major credit-rating companies, though both warned the city must take steps to narrow projected deficits or risk a cut — despite the current boom on Wall Street.",
+      "published": "01 Aug 2026 04:10 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 31 Juli",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/latest-oil-market-news-and-analysis-for-july-31",
+      "summary": "Oil posted its biggest monthly gain since March as traders grappled with simmering global conflicts and threats to supply from the Persian Gulf to the Black Sea.",
+      "published": "31 Jul 2026 05:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.25,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "BBC World",
-      "title": "Sekitar 60.000 migran tiba di Ceuta dalam 24 jam, kata pemimpin wilayah Spanyol",
-      "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Spain's prime minister described the situation as an \"attack\" on its North African territory and said all illegal migrants would be returned to Morocco.",
-      "published": "31 Jul 2026 21:20 WIB",
+      "title": "Bowen: Rencana pelucutan senjata Hamas menghadapi hambatan besar, namun hal ini menawarkan harapan yang langka bagi Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&at_campaign=rss",
+      "summary": "The realities of politics, war, zero trust, the deaths of thousands and the destruction of Gaza will make any agreement very complicated.",
+      "published": "31 Jul 2026 22:18 WIB",
       "sentiment": "Bearish",
-      "score": -0.852,
+      "score": -0.202,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -166,7 +243,7 @@
     },
     {
       "source": "BBC World",
-      "title": "Rudal yang meninggalkan kawah jauh di dalam Polandia kemungkinan besar milik PM Rusia-Polandia",
+      "title": "Rudal yang meninggalkan kawah jauh di dalam Polandia kemungkinan besar adalah milik PM Rusia-Polandia",
       "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
       "summary": "The missile left a 10m-wide (33ft) crater a short distance from the village of Tarnawa Kolonia, about 100km from the border with Ukraine.",
       "published": "30 Jul 2026 22:35 WIB",
@@ -196,6 +273,17 @@
       "score": -0.202,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Perusahaan AI harus bertanggung jawab atas bot jahat, kata bos perusahaan yang diretas",
+      "url": "https://www.bbc.co.uk/news/articles/cr7k49xjzzeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Clement Delangue said he didn't want cyber attacks on other companies to become \"normalised\".",
+      "published": "01 Aug 2026 01:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.212,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "BBC Business",
@@ -242,33 +330,55 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Pembunuh Southport didakwa melakukan penyerangan penjara dan kepemilikan senjata",
-      "url": "https://www.bbc.co.uk/news/articles/ckg3dr3lgjko?at_medium=RSS&at_campaign=rss",
-      "summary": "Axel Rudakubana, 19, is accused of attacking staff at HMP Belmarsh between May and October 2025.",
-      "published": "31 Jul 2026 18:03 WIB",
+      "source": "Al Jazeera",
+      "title": "Anak-anak menghadapi ancaman deportasi AS yang lebih besar seiring dengan berakhirnya perjanjian dukungan hukum",
+      "url": "https://www.aljazeera.com/news/2026/7/31/children-face-higher-threat-of-us-deportation-as-legal-support-deal-expires?traffic_source=rss",
+      "summary": "Advocates warn expiring contract could leave 24,000 children without legal representation, increasing risk of expulsion.",
+      "published": "01 Aug 2026 04:11 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.666,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Polandia memprotes duta besar Rusia atas serangan rudal",
+      "url": "https://www.aljazeera.com/news/2026/7/31/poland-protests-to-russian-ambassador-over-missile-incursion?traffic_source=rss",
+      "summary": "Warsaw asserts missile recently made, illustrating Russia's nightly barrage against Ukraine is draining arsenal.",
+      "published": "01 Aug 2026 02:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.33,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Mengapa Israel mempersenjatai pemukim ilegal?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/why-is-israel-arming-illegal-settlers?traffic_source=rss",
+      "summary": "As settler attacks reach record levels, the government has distributed more than 100,000 assault rifles to Israelis.",
+      "published": "01 Aug 2026 01:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.968,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Warga Palestina di Gaza bereaksi terhadap perjanjian gencatan senjata terbaru",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/31-07-sv-gazans-react-to-latest-deal-ps?traffic_source=rss",
-      "summary": "‘Enough is enough’, Palestinians in Gaza express little hope that the latest ceasefire deal will end the war.",
-      "published": "31 Jul 2026 19:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.237,
-      "emoji": "🔴",
-      "impact": "high"
+      "source": "MarketWatch",
+      "title": "Kami berusia 60an dengan $1,5 juta. Akankah amanah lebih efektif dibandingkan wasiat untuk mencegah konflik di antara ahli waris kita?",
+      "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
+      "summary": "“I realize that probate can be lengthy, public and expensive.”",
+      "published": "01 Aug 2026 02:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.59,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "CNBC Economy",
       "title": "Bagaimana Leopold Aschenbrenner membangun dana lindung nilai AI senilai $45 miliar — dan kehilangan sebagian besar dana tersebut dalam hitungan hari",
       "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
       "summary": "Leopold Aschenbrenner, a former OpenAI researcher-turned-hedge fund manager, saw a dramatic decline this week in his AI-focused fund, Situational Awareness.",
-      "published": "31 Jul 2026 21:44 WIB",
+      "published": "01 Aug 2026 03:19 WIB",
       "sentiment": "Bearish",
       "score": -0.478,
       "emoji": "🔴",
@@ -287,6 +397,39 @@
     },
     {
       "source": "CNBC World",
+      "title": "Keuntungan Exxon dan Chevron melonjak karena kenaikan harga minyak akibat perang Iran",
+      "url": "https://www.cnbc.com/2026/07/31/exxon-xom-chevron-cvx-q2-earnings.html",
+      "summary": "ExxonMobil and Chevron on Friday reported second-quarter profits that surged on rising oil prices due to the Iran war.",
+      "published": "31 Jul 2026 22:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.459,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump mengatakan AS 'tidak setuju' memberikan lisensi rudal Patriot kepada Ukraina",
+      "url": "https://www.cnbc.com/2026/07/31/trump-ukraine-patriot-missile-license-russia.html",
+      "summary": "President Donald Trump said the U.S. hasn't agreed to grant Ukraine licenses to produce Patriot missile systems.",
+      "published": "01 Aug 2026 01:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.785,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Partai Demokrat menuntut informasi mengenai hubungan keluarga Trump dan Lutnick dengan kesepakatan mineral penting",
+      "url": "https://www.cnbc.com/2026/07/31/senate-democrats-trump-lutnick-critical-mineral-deals.html",
+      "summary": "The senators asked the Departments of Commerce, Defense, Energy, Interior and the Export-Import Bank to preserve all records related to those deals.",
+      "published": "31 Jul 2026 22:41 WIB",
+      "sentiment": "Netral",
+      "score": 0.028,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Iran menargetkan aset strategis AS di Kuwait, Bahrain setelah serangan pesawat tak berawak Mesir",
       "url": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html",
       "summary": "Iran's army said it launched attacks on strategic U.S. assets and military bases in Kuwait and Bahrain.",
@@ -300,8 +443,8 @@
       "source": "CNBC World",
       "title": "Hamas mengatakan klaim 'pelucutan senjata' Trump di Gaza bergantung pada kepatuhan Israel terhadap komitmennya",
       "url": "https://www.cnbc.com/2026/07/31/trump-hamas-disarmament-conditions.html",
-      "summary": "Hamas says it will only disarm after Israel meets previous ceasefire commitments, despite President Donald Trump's announcement of a breakthrough U.S.-brokered agreement.",
-      "published": "31 Jul 2026 17:46 WIB",
+      "summary": "Hamas says it will only disarm after Israel meets previous ceasefire commitments, despite President Trump's announcement of a breakthrough U.S.-brokered agreement.",
+      "published": "01 Aug 2026 03:24 WIB",
       "sentiment": "Bullish",
       "score": 0.978,
       "emoji": "🟢",
@@ -309,34 +452,23 @@
     },
     {
       "source": "CNBC World",
-      "title": "Dari Hormuz hingga Laut Hitam: Medan perang maritim membentuk ‘tatanan dunia baru’",
-      "url": "https://www.cnbc.com/2026/07/30/strait-hormuz-drone-shipping-risks.html",
-      "summary": "Attacks near the Strait of Hormuz, Red Sea and Black Sea are pushing shipowners to reroute cargo and rethink global trade risks.",
-      "published": "30 Jul 2026 15:52 WIB",
+      "title": "Harga minyak naik setelah Iran menyatakan menyerang dua kapal tanker yang transit di Selat Hormuz",
+      "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
+      "summary": "The Iran war is spreading across the Middle East and hitting energy infrastructure on multiple fronts.",
+      "published": "01 Aug 2026 01:59 WIB",
       "sentiment": "Bearish",
-      "score": -0.87,
+      "score": -0.86,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
-      "source": "CNBC World",
-      "title": "Amazon mendapat pengembalian tarif Trump sebesar $600 juta dan akan memberikan pengembaliannya kepada beberapa pelanggan",
-      "url": "https://www.cnbc.com/2026/07/30/amazon-trump-tariff-refunds.html",
-      "summary": "The company previously hadn't disclosed whether it would recoup tariff costs after the Supreme Court ruled many of President Donald Trump's levies were illegal.",
-      "published": "31 Jul 2026 05:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.178,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "CNBC Daily Open: Iran-AS. ketegangan, data pabrik Tiongkok dan Bank of Japan yang stabil",
-      "url": "https://www.cnbc.com/2026/07/31/-cnbc-daily-open-iran-us-tensions-chinas-factory-data-and-a-steady-bank-of-japan.html",
-      "summary": "U.S. President Donald Trump called on Congress to add tariffs on Iran to a sanctions bill against Russia and Tehran that has bipartisan support. However duties would have little effect, as the U.S. imports nearly nothing from Iran.",
-      "published": "31 Jul 2026 13:56 WIB",
+      "source": "CNBC Markets",
+      "title": "Ketika Bank Sentral AS yang dipimpin oleh Warsh menghadapi tekanan untuk mengambil tindakan terhadap inflasi, indikator-indikator ini menunjukkan bahwa inflasi berada pada titik terendah dalam beberapa tahun terakhir",
+      "url": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
+      "summary": "Trimmed mean measures are painting a different picture than the headline numbers.",
+      "published": "31 Jul 2026 23:51 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.666,
       "emoji": "🔴",
       "impact": "high"
     }
