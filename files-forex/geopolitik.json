@@ -1,44 +1,32 @@
 {
-  "generated": "01 Aug 2026 22:02 WIB",
+  "generated": "02 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
+      "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.449,
+      "score": -0.393,
       "count": 22
     },
     {
-      "pair": "USD/CHF",
+      "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.426,
-      "count": 21
+      "score": -0.393,
+      "count": 22
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.402,
-      "count": 21
+      "score": -0.282,
+      "count": 22
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.439,
-      "count": 6
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.833,
-      "count": 2
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.833,
-      "count": 2
+      "score": -0.155,
+      "count": 4
     },
     {
       "pair": "AUD/USD",
@@ -51,6 +39,18 @@
       "direction": "Tekanan Turun ▼",
       "score": -0.76,
       "count": 2
+    },
+    {
+      "pair": "CAD/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.273,
+      "count": 1
+    },
+    {
+      "pair": "NOK/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.273,
+      "count": 1
     }
   ],
   "items": [
@@ -110,15 +110,26 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Akankah SpaceX mengecat roketnya dengan warna merah muda? Pertanyaan investor melampaui Bulan dan Mars menjelang hasil pertama",
-      "url": "https://www.investing.com/news/stock-market-news/will-spacex-paint-its-rocket-pink-investor-questions-go-beyond-moon-and-mars-ahead-of-first-results-4829589",
-      "summary": "",
-      "published": "01 Aug 2026 17:06 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
+      "source": "Bloomberg Markets",
+      "title": "Bloomberg Akhir Pekan Ini 01/08/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-01/bloomberg-this-weekend-08-01-2026-video",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Tim Stenovec bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Seaport Research Partners Chief Equity Strategist Jonathan Golub, Utah Governor Spencer Cox, Mary",
+      "published": "01 Aug 2026 23:17 WIB",
+      "sentiment": "Bullish",
+      "score": 0.302,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gubernur Bipartisan Meluncurkan Satuan Tugas untuk Mengatasi Reformasi Imigrasi",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-01/bipartisan-governors-to-tackle-immigration-reform-video",
+      "summary": "From Oklahoma City, the site of the annual meeting of the National Governor’s Association, Oklahoma Governor Kevin Stitt, Maryland Governor Wes Moore, Utah Governor Spencer Cox, and Delaware Governor Matt Meyer joined Bloomberg This Weekend host Christina Ruffini to announce the launching of a bi-pa",
+      "published": "01 Aug 2026 20:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.098,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -140,17 +151,6 @@
       "sentiment": "Bearish",
       "score": -0.986,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gubernur Bipartisan Meluncurkan Satuan Tugas untuk Mengatasi Reformasi Imigrasi",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-01/bipartisan-governors-to-tackle-immigration-reform-video",
-      "summary": "From Oklahoma City, the site of the annual meeting of the National Governor’s Association, Oklahoma Governor Kevin Stitt, Marylands Governor Wes Moore, Utah Governor Spencer Coz, and Delaware Governor Matt Meyer joined Bloomberg This Weekend host Christina Ruffini to announce the launching of a bi-p",
-      "published": "01 Aug 2026 20:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.098,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -196,17 +196,6 @@
       "score": -0.418,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pembelian Minyak India Mentah Rekor Pembelian Minyak Mentah di Pasar Spot karena Pasokan Timur Tengah Terhantam",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-01/indian-oil-buys-record-spot-market-crude-on-mideast-supply-hit",
-      "summary": "Indian Oil Corp. bought a record share of its crude oil from the spot market in the April-June quarter after the US-Iran conflict upended supplies from the Middle East. The shift shows how geopolitical turmoil is forcing even the region’s biggest buyers to abandon long-established procurement strate",
-      "published": "01 Aug 2026 16:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.928,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -264,77 +253,66 @@
       "impact": "low"
     },
     {
-      "source": "BBC Business",
-      "title": "Harga bensin Inggris mencapai level tertinggi sejak perang Iran dimulai",
-      "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The price of unleaded hits 160p a litre, according to motoring group the RAC, as oil prices remain elevated.",
-      "published": "31 Jul 2026 18:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC Top Stories",
-      "title": "Walikota Greater Manchester mengatakan kekuatan baru Burnham akan mengubah kehidupan",
-      "url": "https://www.bbc.co.uk/news/articles/cddj3j50rmpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Bev Craig succeeds Andy Burnham as Greater Manchester's mayor after winning Thursday's by-election.",
-      "published": "01 Aug 2026 20:15 WIB",
-      "sentiment": "Bullish",
-      "score": 0.891,
-      "emoji": "🟢",
-      "impact": "medium"
+      "title": "AS mendesak warganya di Timur Tengah untuk bersiap meninggalkan negaranya jika terjadi eskalasi",
+      "url": "https://www.bbc.co.uk/news/articles/cgk4nyr0j73o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes as US media report that America and Israel are planning an intense round of strikes against Iran.",
+      "published": "02 Aug 2026 04:20 WIB",
+      "sentiment": "Netral",
+      "score": 0.026,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Serangan Israel menghancurkan gudang rumah sakit Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/01-08-israel-strike-gaza-hospital-sv-mp4?traffic_source=rss",
-      "summary": "Israeli strike destroys medical supplies warehouse at Gaza's Al-Aqsa Martyrs Hospital, staff say.",
-      "published": "01 Aug 2026 21:07 WIB",
+      "title": "Tumbuh seperti ‘gangbuster’: Bisakah Taiwan mempertahankan momentum ekonominya?",
+      "url": "https://www.aljazeera.com/economy/2026/8/1/growing-like-gangbusters-can-taiwan-maintain-its-economic-momentum?traffic_source=rss",
+      "summary": "Taiwan's GDP is soaring on back of US imports of AI chips, but experts warn that problems could arise with Trump, China.",
+      "published": "02 Aug 2026 06:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.928,
+      "score": -0.711,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran memperingatkan terhadap 'api perang' di tengah ancaman serangan AS terhadap lokasi energi",
-      "url": "https://www.aljazeera.com/news/2026/8/1/iran-warns-against-fire-of-war-amid-us-strike-threats-on-energy-sites?traffic_source=rss",
-      "summary": "Iranian media says retaliation plan ready after US media suggest potential imminent attacks against civilian sites.",
-      "published": "01 Aug 2026 19:44 WIB",
+      "title": "Michigan bergabung dengan Minnesota dalam melaporkan serangan siber, dengan penyelidikan FBI",
+      "url": "https://www.aljazeera.com/news/2026/8/1/michigan-joins-minnesota-in-reporting-cyber-attacks-with-fbi-investigating?traffic_source=rss",
+      "summary": "No culprit has been identified in any of the attacks, which comes after authorities warned of possible Iranian plot.",
+      "published": "02 Aug 2026 05:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.539,
+      "score": -0.895,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pemogokan Sde Teiman menunjukkan militer Israel kehilangan kepercayaan",
-      "url": "https://www.aljazeera.com/opinions/2026/8/1/sde-teiman-walkout-lays-bare-an-israeli-military-running-out-of-trust?traffic_source=rss",
-      "summary": "Nearly three years of open-ended war have made obedience inside the Israeli military increasingly conditional.",
-      "published": "01 Aug 2026 19:40 WIB",
+      "title": "Pertempuran pecah di Tigray barat karena perdagangan Ethiopia dan TPLF saling menyalahkan",
+      "url": "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame?traffic_source=rss",
+      "summary": "Clashes near Sheraro mark one of the most serious threats yet to the fragile 2022 Pretoria peace deal.",
+      "published": "02 Aug 2026 03:38 WIB",
       "sentiment": "Bearish",
-      "score": -0.6,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump meniru suara intersepsi rudal Patriot",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/aje-onl-nf_01-08-trump-jordan-missiles-clip-010826?traffic_source=rss",
-      "summary": "US President Donald Trump mimicked missile interceptions as he described the US military shooting down Iranian missiles.",
-      "published": "01 Aug 2026 18:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.541,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran: Terjadinya Perang",
-      "url": "https://www.aljazeera.com/video/featured-documentaries/2026/8/1/iran-the-making-of-a-war?traffic_source=rss",
-      "summary": "From coup to conflict - how decades of rivalries and miscalculations have shaped one of today’s most dangerous wars.",
-      "published": "01 Aug 2026 17:30 WIB",
+      "title": "Anak-anak Palestina termasuk di antara mereka yang ditahan oleh Israel dalam penggerebekan di Tepi Barat",
+      "url": "https://www.aljazeera.com/news/2026/8/1/palestinian-children-among-those-detained-in-israeli-west-bank-raids?traffic_source=rss",
+      "summary": "Settler violence escalates, with illegal outposts and frequent attacks reported across Ramallah, Hebron and Nablus.",
+      "published": "02 Aug 2026 01:51 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Marathon’ menyoroti anak-anak yatim piatu dan krisis kemanusiaan di Gaza",
+      "url": "https://www.aljazeera.com/news/2026/8/1/marathon-shines-light-on-gazas-orphaned-children-and-humanitarian-crisis?traffic_source=rss",
+      "summary": "More than 58,000 children have lost one or both parents by Israel's war, highlighting urgent humanitarian challenges.",
+      "published": "02 Aug 2026 00:57 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -342,25 +320,25 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Partai-partai Kurdi Iran di Irak menghadapi keseimbangan yang sulit di tengah serangan Iran",
-      "url": "https://www.aljazeera.com/news/2026/8/1/iranian-kurdish-parties-in-iraq-face-a-delicate-balance-amid-iran-attacks?traffic_source=rss",
-      "summary": "Iranian Kurdish groups based in Iraq have been heavily attacked in the war, but most deny US assistance.",
-      "published": "01 Aug 2026 16:47 WIB",
+      "title": "Sedikitnya 9 orang tewas dalam serangan rudal Rusia di Kyiv",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/at-least-9-people-killed-in-russian-missile-attacks-on-kyiv?traffic_source=rss",
+      "summary": "At least 9 people have been killed and dozens injured in Russian missile strikes on Kyiv.",
+      "published": "02 Aug 2026 00:45 WIB",
       "sentiment": "Bearish",
-      "score": -0.95,
+      "score": -1.0,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
-      "source": "MarketWatch",
-      "title": "Berapa biaya agen AI? Tidak ada yang setuju – dan ini menciptakan kekacauan.",
-      "url": "https://www.marketwatch.com/story/how-much-should-an-ai-agent-cost-no-one-can-agree-and-its-creating-chaos-288d741e?mod=mw_rss_topstories",
-      "summary": "Enterprise software providers are navigating uncharted waters as they experiment with different monetization methods.",
-      "published": "01 Aug 2026 19:30 WIB",
+      "source": "Al Jazeera",
+      "title": "Pasukan Israel menahan warga dan menghancurkan rumah-rumah di Suriah selatan",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/israeli-forces-detain-residents-and-demolish-homes-in-southern-syria?traffic_source=rss",
+      "summary": "Since Assad’s ouster, Israel has sent troops beyond the 1974 disengagement line into Syria's southern provinces.",
+      "published": "02 Aug 2026 00:28 WIB",
       "sentiment": "Bearish",
-      "score": -0.376,
+      "score": -0.421,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "CNBC Forex",
@@ -386,23 +364,23 @@
     },
     {
       "source": "CNBC World",
-      "title": "Kapal tanker di dekat Oman mendapat kecaman ketika Iran mengancam akan menutup rute pelayaran",
-      "url": "https://www.cnbc.com/2026/08/01/tankers-near-oman-come-under-fire.html",
-      "summary": "The latest attacks come amid U.S. media reports that U.S. President Donald Trump is preparing a fresh round of strikes against Iran.",
-      "published": "01 Aug 2026 17:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.891,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
       "title": "Tumpang tindihnya pusat kekuasaan di Iran membuat upaya mengakhiri perang menjadi lebih rumit",
       "url": "https://www.cnbc.com/2026/08/01/iran-ceasefire-power-structure.html",
       "summary": "Iran’s power structure complicates efforts to enforce any ceasefire with the U.S., from the Supreme Leader to the Revolutionary Guards.",
       "published": "01 Aug 2026 13:52 WIB",
       "sentiment": "Bearish",
       "score": -0.077,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Kedutaan memperingatkan warga AS akan risiko perjalanan di tengah tanda-tanda kemungkinan aksi militer AS-Iran dalam beberapa hari mendatang",
+      "url": "https://www.cnbc.com/2026/08/01/tankers-near-oman-come-under-fire.html",
+      "summary": "The latest attacks come amid U.S. media reports that U.S. President Donald Trump is preparing a fresh round of strikes against Iran.",
+      "published": "02 Aug 2026 06:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.841,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -441,13 +419,13 @@
     },
     {
       "source": "CNBC World",
-      "title": "Iran menargetkan aset strategis AS di Kuwait, Bahrain setelah serangan pesawat tak berawak Mesir",
-      "url": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html",
-      "summary": "Iran's army said it launched attacks on strategic U.S. assets and military bases in Kuwait and Bahrain.",
-      "published": "31 Jul 2026 17:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.557,
-      "emoji": "🔴",
+      "title": "Hamas mengatakan klaim 'pelucutan senjata' Trump di Gaza bergantung pada kepatuhan Israel terhadap komitmennya",
+      "url": "https://www.cnbc.com/2026/07/31/trump-hamas-disarmament-conditions.html",
+      "summary": "Hamas says it will only disarm after Israel meets previous ceasefire commitments, despite President Trump's announcement of a breakthrough U.S.-brokered agreement.",
+      "published": "01 Aug 2026 03:24 WIB",
+      "sentiment": "Bullish",
+      "score": 0.978,
+      "emoji": "🟢",
       "impact": "low"
     }
   ]
