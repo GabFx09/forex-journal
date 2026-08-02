@@ -1,8 +1,8 @@
-// Diperbarui: 02 Aug 2026 22:01 WIB
+// Diperbarui: 03 Aug 2026 04:54 WIB
 window.FK_DATA = {
-  "generated": "02 Aug 2026 22:01 WIB",
+  "generated": "03 Aug 2026 04:54 WIB",
   "kalender": {
-    "generated": "02 Aug 2026 22:01 WIB",
+    "generated": "03 Aug 2026 04:54 WIB",
     "events": [
       {
         "date": "2026-08-02",
@@ -1063,36 +1063,131 @@ window.FK_DATA = {
     ]
   },
   "sentimen": {
-    "generated": "02 Aug 2026 22:01 WIB",
+    "generated": "03 Aug 2026 04:54 WIB",
     "summary": {
-      "total": 49,
-      "bullish": 12,
+      "total": 56,
+      "bullish": 19,
       "bearish": 29,
       "netral": 8,
-      "avg_score": -0.3009,
+      "avg_score": -0.1816,
       "overall": "Bearish",
       "currency_impact": [
         {
-          "currency": "EUR",
-          "sentiment": "Bearish",
-          "score": -0.6,
-          "count": 7
-        },
-        {
           "currency": "USD",
           "sentiment": "Bullish",
-          "score": 0.224,
-          "count": 4
+          "score": 0.166,
+          "count": 6
+        },
+        {
+          "currency": "EUR",
+          "sentiment": "Bearish",
+          "score": -0.624,
+          "count": 5
         },
         {
           "currency": "JPY",
           "sentiment": "Bullish",
-          "score": 0.478,
-          "count": 2
+          "score": 0.131,
+          "count": 3
+        },
+        {
+          "currency": "GBP",
+          "sentiment": "Netral",
+          "score": 0.0,
+          "count": 1
+        },
+        {
+          "currency": "CAD",
+          "sentiment": "Netral",
+          "score": 0.0,
+          "count": 1
+        },
+        {
+          "currency": "CHF",
+          "sentiment": "Netral",
+          "score": 0.0,
+          "count": 1
         }
       ]
     },
     "items": [
+      {
+        "source": "ForexLive",
+        "title": "Akhir Pekan - Beijing akan mempercepat belanja infrastruktur yang ada, bukan stimulus baru",
+        "url": "https://investinglive.com/stock-market-update/weekend-beijing-to-accelerate-existing-infrastructure-spending-not-new-stimulus/",
+        "summary": "The absence of large-scale stimulus signals limited near-term upside for commodities and industrial demand tied directly to Chinese fiscal expansion, with the market instead left to price in a steadier, more incremental spending path through the third quarter. Accelerated deployment of already-budge",
+        "published": "03 Aug 2026 04:34 WIB",
+        "sentiment": "Bearish",
+        "score": -0.26,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Pembantaian pemegang tas ritel - Saham SpaceX turun lebih dari 50% dari puncaknya. Musk benar.",
+        "url": "https://investinglive.com/stocks/retail-bagholder-slaughter-spacex-shares-fall-over-50-from-peak-musk-was-right/",
+        "summary": "SpaceX's post-IPO collapse reflects a convergence of structural and operational pressures rather than a single catalyst, making near-term stabilisation unlikely before the August 6 lock-up passes. The looming release of roughly 911.5 million shares into a public float currently representing only 4 t",
+        "published": "03 Aug 2026 04:16 WIB",
+        "sentiment": "Bullish",
+        "score": 0.409,
+        "emoji": "🟢",
+        "impact": "low"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Menteri Keuangan Jepang akan mengkonfirmasi intervensi yen bersama (dengan AS) pada hari Senin",
+        "url": "https://investinglive.com/forex/japan-s-finance-minister-will-confirm-joint-with-us-conducted-yen-intervention-on-monday/",
+        "summary": "Confirmation of joint intervention marks a significant shift from Japan acting alone, and the scale reported, with the Bank of Japan data suggesting up to $58.97 billion sold to support the yen, signals a determined effort to defend the currency from its weakest levels against the dollar since 1986.",
+        "published": "03 Aug 2026 03:45 WIB",
+        "sentiment": "Bullish",
+        "score": 0.098,
+        "emoji": "🟢",
+        "impact": "high"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Akhir Pekan - OPEC+ menyetujui kenaikan 188.000 barel per hari pada bulan September, menyelesaikan pengurangan produksi pada tahun 2023",
+        "url": "https://investinglive.com/commodities/weekend-opec-agrees-188-000-bpd-september-hike-completing-rollback-of-2023-output-cuts/",
+        "summary": "The September increase is largely symbolic given that export flows from the Gulf remain constrained by the Iran conflict, meaning the barrels are unlikely to show up in physical markets in the near term. The more consequential signal is the option value it creates: should Trump's weekend claim of a ",
+        "published": "03 Aug 2026 03:26 WIB",
+        "sentiment": "Bullish",
+        "score": 0.242,
+        "emoji": "🟢",
+        "impact": "low"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Mengapa eksploitasi Coldcard senilai $70 juta yang dilaporkan mengubah cara berpikir investor kripto tentang hak asuh mandiri",
+        "url": "https://investinglive.com/education/why-the-reported-70-million-coldcard-exploit-changes-how-crypto-investors-should-think-about-self-custody/",
+        "summary": "Coldcard hardware wallet exploit exposes a harsh lesson: Self-custody is only as strong as key generation A firmware flaw affecting some Coldcard hardware wallets has highlighted that secure self-custody depends not only on offline storage, but also on strong key generation. Here are the practical l",
+        "published": "03 Aug 2026 03:24 WIB",
+        "sentiment": "Bullish",
+        "score": 0.647,
+        "emoji": "🟢",
+        "impact": "high"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Akhir Pekan - Trump membatalkan serangan terhadap Iran karena 'batas' kesepakatan disetujui, Teheran menolak permintaan tersebut",
+        "url": "https://investinglive.com/commodities/weekend-trump-cancels-iran-strikes-as-deal-perimeters-agreed-tehran-denies-request/",
+        "summary": "A confirmed stand-down from strikes on Iranian energy infrastructure would remove, for now, one of the more acute supply-side risks weighing on oil markets, particularly given the scale of the reported bombing campaign under discussion. Any de-escalation touching the Hormuz Strait carries outsized s",
+        "published": "03 Aug 2026 03:06 WIB",
+        "sentiment": "Bearish",
+        "score": -0.868,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Senin buka harga indikatif forex, 03 Agustus 2026",
+        "url": "https://investinglive.com/forex/monday-open-indicative-forex-prices-03-august-2026/",
+        "summary": "In main Asian centre markets its just before: 5am in Tokyo 4am in Singapore and Hong Kong 6am in Australia and 8am in New Zealand Early indications, not much change from late Friday: EUR/USD 1.1554 USD/JPY 157.27 GBP/USD 1.3484 USD/CHF 0.8073 USD/CAD 1.4009 AUD/USD 0.7049 NZD/USD 0.5893 I'mm be back",
+        "published": "03 Aug 2026 02:47 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪",
+        "impact": "low"
+      },
       {
         "source": "ForexLive",
         "title": "Analisis Nasdaq: Mengapa doji pada hari Jumat dapat menimbulkan masalah bagi pembeli awal",
@@ -1106,10 +1201,76 @@ window.FK_DATA = {
       },
       {
         "source": "Investing.com Forex",
+        "title": "Saham Rusia menguat pada penutupan perdagangan; Indeks MOEX Rusia naik 0,75%",
+        "url": "https://www.investing.com/news/stock-market-news/russia-stocks-higher-at-close-of-trade-moex-russia-index-up-075-4829716",
+        "summary": "",
+        "published": "03 Aug 2026 04:20 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪",
+        "impact": "low"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "AstraZeneca dan Bristol-Myers Squibb dalam pembicaraan mengenai potensi merger - Laporan",
+        "url": "https://www.investing.com/news/stock-market-news/astrazeneca-and-bristolmyers-squibb-in-talks-over-potential-merger--report-4829710",
+        "summary": "",
+        "published": "03 Aug 2026 03:44 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪",
+        "impact": "low"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Pramugari WestJet melakukan pemogokan setelah pembicaraan gagal, sehingga menghentikan penerbangan",
+        "url": "https://www.investing.com/news/stock-market-news/westjet-flight-attendants-go-on-strike-after-talks-fall-through-4829677",
+        "summary": "",
+        "published": "03 Aug 2026 03:36 WIB",
+        "sentiment": "Bearish",
+        "score": -0.208,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Keempat topik ini penting bagi keberhasilan penilaian SpaceX: Bernstein",
+        "url": "https://www.investing.com/news/stock-market-news/these-4-topics-are-central-to-the-success-of-spacex-valuation-bernstein-4829709",
+        "summary": "",
+        "published": "03 Aug 2026 02:56 WIB",
+        "sentiment": "Bullish",
+        "score": 0.572,
+        "emoji": "🟢",
+        "impact": "low"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "AstraZeneca mengadakan pembicaraan dengan Bristol Myers Squibb mengenai megadeal $400 miliar, FT melaporkan",
+        "url": "https://www.investing.com/news/stock-market-news/astrazeneca-holds-talks-with-bristol-myers-squibb-on-400-billion-megadeal-ft-reports-4829708",
+        "summary": "",
+        "published": "03 Aug 2026 02:54 WIB",
+        "sentiment": "Bullish",
+        "score": 0.08,
+        "emoji": "🟢",
+        "impact": "low"
+      },
+      {
+        "source": "Investing.com Forex",
+        "title": "Pasar saham di negara ini mungkin akan lebih baik dibandingkan negara-negara lain jika gelembung AI muncul: Analis",
+        "url": "https://www.investing.com/news/stock-market-news/this-countrys-stock-market-may-do-better-than-most-if-ai-bubble-pops-analyst-4829705",
+        "summary": "",
+        "published": "03 Aug 2026 01:13 WIB",
+        "sentiment": "Bullish",
+        "score": 0.44,
+        "emoji": "🟢",
+        "impact": "low"
+      },
+      {
+        "source": "Investing.com Forex",
         "title": "Drone Ukraina membunuh delapan orang di Rusia dan menyerang gudang Wildberry, kata gubernur",
         "url": "https://www.investing.com/news/stock-market-news/ukrainian-drones-kill-two-in-russia-strike-wildberries-warehouse-governors-say-4829675",
         "summary": "",
-        "published": "02 Aug 2026 21:18 WIB",
+        "published": "03 Aug 2026 01:06 WIB",
         "sentiment": "Bearish",
         "score": -0.815,
         "emoji": "🔴",
@@ -1149,72 +1310,6 @@ window.FK_DATA = {
         "impact": "high"
       },
       {
-        "source": "Investing.com Forex",
-        "title": "Pramugari WestJet melakukan pemogokan setelah pembicaraan gagal, sehingga menghentikan penerbangan",
-        "url": "https://www.investing.com/news/stock-market-news/westjet-flight-attendants-go-on-strike-after-talks-fall-through-4829677",
-        "summary": "",
-        "published": "02 Aug 2026 17:24 WIB",
-        "sentiment": "Bearish",
-        "score": -0.208,
-        "emoji": "🔴",
-        "impact": "low"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Panggilan Jalan Minggu Ini",
-        "url": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-4827261",
-        "summary": "",
-        "published": "02 Aug 2026 17:00 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪",
-        "impact": "low"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "5 langkah AI analis besar: AI akan melanjutkan reli tetapi S&P 500 menghadapi kemunduran pada akhir tahun 2027",
-        "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-ai-rally-to-resume-but-sp-500-faces-pullback-by-end2027-4829636",
-        "summary": "",
-        "published": "02 Aug 2026 16:00 WIB",
-        "sentiment": "Bullish",
-        "score": 0.08,
-        "emoji": "🟢",
-        "impact": "low"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Mengapa gelembung saham AS terus meledak tanpa mengganggu pasar secara luas",
-        "url": "https://www.investing.com/news/stock-market-news/why-us-stock-bubbles-keep-bursting-without-derailing-the-wider-market-4829669",
-        "summary": "",
-        "published": "02 Aug 2026 11:39 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪",
-        "impact": "low"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Investor ritel Korea Selatan mundur setelah rekor volatilitas Kospi",
-        "url": "https://www.investing.com/news/stock-market-news/south-korean-retail-investors-retreat-after-kospis-record-volatility-4829667",
-        "summary": "",
-        "published": "02 Aug 2026 10:59 WIB",
-        "sentiment": "Bullish",
-        "score": 0.202,
-        "emoji": "🟢",
-        "impact": "low"
-      },
-      {
-        "source": "Investing.com Forex",
-        "title": "Capital One mengatakan pihaknya menutup rekening Trump Organization setelah penyelidikan anti pencucian uang",
-        "url": "https://www.investing.com/news/stock-market-news/capital-one-says-it-closed-trump-organizations-accounts-after-antimoney-laundering-probe-4829656",
-        "summary": "",
-        "published": "02 Aug 2026 06:24 WIB",
-        "sentiment": "Netral",
-        "score": 0.0,
-        "emoji": "⚪",
-        "impact": "low"
-      },
-      {
         "source": "Investing.com Economy",
         "title": "Kehidupan setelah Orban: Hongaria Inc menggali era politik baru",
         "url": "https://www.investing.com/news/economic-indicators/life-after-orban-hungary-inc-digs-in-as-new-political-era-takes-hold-4829672",
@@ -1224,6 +1319,50 @@ window.FK_DATA = {
         "score": 0.0,
         "emoji": "⚪",
         "impact": "low"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Pedagang Yen Bersiap untuk Lebih Banyak Intervensi dengan AS di Sisi Jepang",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-02/yen-traders-brace-for-more-intervention-with-us-at-japan-s-side",
+        "summary": "The yen edged higher in thin trading with markets on high alert for more joint intervention by Japan and the US on Monday after coordinated operations in Tokyo and New York last week triggered a dramatic rebound in the currency.",
+        "published": "02 Aug 2026 19:47 WIB",
+        "sentiment": "Bullish",
+        "score": 0.296,
+        "emoji": "🟢",
+        "impact": "low"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Gubernur Mendorong Solusi Negara dalam Masalah Biaya",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-02/governors-push-state-solutions-on-costs",
+        "summary": "Governors from Oklahoma, Maryland and Delaware say states remain the nation's laboratories of democracy, sharing policy ideas on housing, education, child care and energy while arguing that affordability is the top concern for voters across party lines. They say states cannot control inflation or gl",
+        "published": "02 Aug 2026 23:20 WIB",
+        "sentiment": "Bullish",
+        "score": 0.722,
+        "emoji": "🟢",
+        "impact": "high"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Kode Pakaian Kantor Menghadapi Debat Celana Pendek",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-02/office-dress-codes-face-shorts-debate-video",
+        "summary": "Bloomberg's Chris Rovzar says workplace dress codes are evolving as warmer weather, changing office culture and designer collections prompt more employees to consider wearing shorts to work. He says a Bloomberg survey finds opinion remains divided, with supporters arguing shorts can be professional ",
+        "published": "02 Aug 2026 23:18 WIB",
+        "sentiment": "Bearish",
+        "score": -0.106,
+        "emoji": "🔴",
+        "impact": "high"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Jackson Memperingatkan Kebijakan AS Berisiko pada Stabilitas Karibia",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-02/jackson-warns-us-policy-risks-caribbean-stability-video",
+        "summary": "Rep. Jonathan Jackson says the Trump administration's policies toward Haiti, Venezuela and Cuba risk worsening instability across the Caribbean, arguing that ending Temporary Protected Status for Haitians and maintaining broad sanctions will deepen humanitarian and migration challenges. He also call",
+        "published": "02 Aug 2026 22:28 WIB",
+        "sentiment": "Bearish",
+        "score": -0.998,
+        "emoji": "🔴",
+        "impact": "high"
       },
       {
         "source": "Bloomberg Markets",
@@ -1266,17 +1405,6 @@ window.FK_DATA = {
         "published": "02 Aug 2026 20:14 WIB",
         "sentiment": "Bullish",
         "score": 0.153,
-        "emoji": "🟢",
-        "impact": "low"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Pedagang Yen Bersiap untuk Lebih Banyak Intervensi dengan AS di Sisi Jepang",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-02/yen-traders-brace-for-more-intervention-with-us-at-japan-s-side",
-        "summary": "Currency traders are on high alert for more joint intervention by Japan and the US when trading gets underway in Asia on Monday after coordinated operations in Tokyo and New York last week triggered a dramatic rebound in the yen.",
-        "published": "02 Aug 2026 19:47 WIB",
-        "sentiment": "Bullish",
-        "score": 0.296,
         "emoji": "🟢",
         "impact": "low"
       },
@@ -1325,39 +1453,6 @@ window.FK_DATA = {
         "impact": "high"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Pangeran Saudi Prihatin dengan Rencana Serangan Trump ke Iran: Axios",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-02/saudi-prince-concerned-over-trump-s-iran-strike-plan-axios",
-        "summary": "Saudi Crown Prince Mohammed bin Salman told President Donald Trump in a call that he was concerned over the US’s plans for new strikes against Iran, Axios reported, citing people familiar with the conversation.",
-        "published": "02 Aug 2026 07:13 WIB",
-        "sentiment": "Bearish",
-        "score": -0.379,
-        "emoji": "🔴",
-        "impact": "low"
-      },
-      {
-        "source": "Bloomberg Markets",
-        "title": "Bloomberg Akhir Pekan Ini 01/08/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-01/bloomberg-this-weekend-08-01-2026-video",
-        "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Tim Stenovec bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Seaport Research Partners Chief Equity Strategist Jonathan Golub, Utah Governor Spencer Cox, Mary",
-        "published": "01 Aug 2026 23:17 WIB",
-        "sentiment": "Bullish",
-        "score": 0.302,
-        "emoji": "🟢",
-        "impact": "high"
-      },
-      {
-        "source": "Google News Forex",
-        "title": "Jepang dan AS bersama-sama melakukan intervensi di pasar mata uang untuk pertama kalinya dalam 15 tahun untuk mendukung yen - NEWS.am",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBOaVFFX21NTlZ1eVhrb3hnNk13VTd5UEpMTzVuNVpJV1Z1cUViLTlUYmJyTWdtLWtlQjJON3dwLWwzbkE5M0E?oc=5",
-        "summary": "Japan and the US jointly intervened in the currency market for the first time in 15 years to support the yen NEWS.am",
-        "published": "02 Aug 2026 17:52 WIB",
-        "sentiment": "Bullish",
-        "score": 0.66,
-        "emoji": "🟢",
-        "impact": "low"
-      },
-      {
         "source": "Google News Geopolitik",
         "title": "Apa yang diungkapkan oleh pembelian FX Bank Sentral senilai $2 miliar tentang manat - AzerNews",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4eEx0cC10M29hYWcyX2tNYV9BS2cyYVVUWTZ4czVVU3RJVEtMcVhuYlFzdUVhRUFVNlhkdm1aNUMxU3d4V0ZQUFRENmpyaTlLdWhSMWtMaw?oc=5",
@@ -1381,10 +1476,10 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Setidaknya delapan orang tewas dalam serangan Israel di Gaza setelah Hamas menyetujui kesepakatan perlucutan senjata",
+        "title": "Setidaknya 13 orang tewas dalam serangan Israel di Gaza setelah Hamas menyetujui kesepakatan perlucutan senjata",
         "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
         "summary": "Israel says it was targeting military operatives in the strikes on Gaza City, Khan Younis and Deir el-Balah.",
-        "published": "02 Aug 2026 21:46 WIB",
+        "published": "02 Aug 2026 22:50 WIB",
         "sentiment": "Bearish",
         "score": -0.711,
         "emoji": "🔴",
@@ -1398,6 +1493,17 @@ window.FK_DATA = {
         "published": "02 Aug 2026 17:32 WIB",
         "sentiment": "Bearish",
         "score": -0.75,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "BBC World",
+        "title": "Ukraina mengatakan kilang minyak dan lapangan terbang utama Rusia terkena serangan, sementara Moskow melaporkan delapan orang tewas",
+        "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss",
+        "summary": "Russia's military says it attacked Ukraine's ports and vessels in the Black Sea overnight.",
+        "published": "02 Aug 2026 22:48 WIB",
+        "sentiment": "Bearish",
+        "score": -0.539,
         "emoji": "🔴",
         "impact": "low"
       },
@@ -1436,6 +1542,17 @@ window.FK_DATA = {
       },
       {
         "source": "BBC Top Stories",
+        "title": "Serangan Besar-besaran merespons setelah Singapura melarang pertunjukan Palestina",
+        "url": "https://www.bbc.co.uk/news/articles/cr59qe86yj4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The UK band says they are \"surprised and disappointed\" by their treatment over shouting \"free Palestine\" at a concert there.",
+        "published": "03 Aug 2026 00:40 WIB",
+        "sentiment": "Bearish",
+        "score": -0.761,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "BBC Top Stories",
         "title": "Geng bayangan merekrut pembunuh bayaran remaja untuk membunuh di seluruh Eropa",
         "url": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss",
         "summary": "The Foxtrot Network is thought to be responsible for about 35 murders in Europe, and uses violence-as-a-service tactics.",
@@ -1446,113 +1563,102 @@ window.FK_DATA = {
         "impact": "low"
       },
       {
-        "source": "BBC Top Stories",
-        "title": "Empat orang ditangkap karena serangan kejahatan rasial terhadap awak kapal",
-        "url": "https://www.bbc.co.uk/news/articles/cx2mppyzgedo?at_medium=RSS&at_campaign=rss",
-        "summary": "Three of the four are arrested on suspicion of attempted murder, with one man in a critical condition.",
-        "published": "02 Aug 2026 20:27 WIB",
+        "source": "Al Jazeera",
+        "title": "Relawan lokal membantu membangun kembali biara Kristen yang hancur di Lebanon",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/local-volunteers-help-rebuild-destroyed-christian-monastery-in-lebanon?traffic_source=rss",
+        "summary": "Interfaith volunteers rebuild war-damaged Catholic monastery in Lebanon’s Zawtar al-Gharbiyeh.",
+        "published": "03 Aug 2026 04:18 WIB",
+        "sentiment": "Bearish",
+        "score": -0.208,
+        "emoji": "🔴",
+        "impact": "high"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Venezuela dan Republik Dominika mengatakan mereka akan berupaya memulihkan hubungan",
+        "url": "https://www.aljazeera.com/news/2026/8/2/venezuela-and-the-dominican-republic-say-they-will-work-to-restore-ties?traffic_source=rss",
+        "summary": "Both countries have agreed on a plan to restore diplomatic relations cut off after a contested vote in 2024.",
+        "published": "03 Aug 2026 03:29 WIB",
+        "sentiment": "Bullish",
+        "score": 0.527,
+        "emoji": "🟢",
+        "impact": "low"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Israel menyerang biara Armenia di Kota Tua Yerusalem",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/israelis-attack-armenian-monastery-in-jerusalems-old-city?traffic_source=rss",
+        "summary": "Six Jewish Israelis were filmed spitting at the entrance to Saint James Monastery in Jerusalem's Old City.",
+        "published": "03 Aug 2026 02:39 WIB",
+        "sentiment": "Bearish",
+        "score": -0.557,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Iran mengatakan negosiasi dengan Oman mengenai Selat Hormuz dalam tahap akhir",
+        "url": "https://www.aljazeera.com/news/2026/8/2/iran-says-negotiations-with-oman-over-strait-of-hormuz-in-final-stages?traffic_source=rss",
+        "summary": "Tehran's announcement comes after Trump said US would hold off on new Iran attack in hope of quick deal.",
+        "published": "03 Aug 2026 02:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.052,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Serangan Rusia dan Ukraina menewaskan 14 orang di kedua sisi",
+        "url": "https://www.aljazeera.com/news/2026/8/2/ukrainian-drone-attacks-kill-eight-in-response-to-russian-missiles?traffic_source=rss",
+        "summary": "Ukrainian strikes target Russian oil hubs and high-rises as Zelenskyy warns of critical Patriot interceptor shortages",
+        "published": "03 Aug 2026 01:37 WIB",
+        "sentiment": "Bearish",
+        "score": -0.999,
+        "emoji": "🔴",
+        "impact": "high"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Senator Partai Republik mengatakan mantan menantunya harus mengundurkan diri dari Kongres AS",
+        "url": "https://www.aljazeera.com/news/2026/8/2/republican-senator-says-former-son-in-law-should-resign-from-us-congress?traffic_source=rss",
+        "summary": "Senator Bernie Moreno has broken silence around domestic abuse allegations involving Representative Max Miller.",
+        "published": "03 Aug 2026 01:27 WIB",
+        "sentiment": "Bearish",
+        "score": -0.866,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "'Trofi partisipasi perang Iran' yang mengejek Trump muncul di New York",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/iran-war-participation-trophy-mocking-trump-appears-in-new-york?traffic_source=rss",
+        "summary": "A 10-foot-tall golden trophy mocking US President Donald Trump for the Iran war has appeared in New York.",
+        "published": "03 Aug 2026 00:06 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
         "emoji": "🔴",
-        "impact": "low"
+        "impact": "high"
       },
       {
         "source": "Al Jazeera",
-        "title": "Helikopter pemadam kebakaran bertabrakan di dekat Athena saat Yunani memadamkan kebakaran hutan",
-        "url": "https://www.aljazeera.com/news/2026/8/2/firefighting-helicopters-collide-near-athens-as-greece-battles-wildfires?traffic_source=rss",
-        "summary": "Europe struggles with record-breaking summer heat as wildfires ravage Greece, France, and Spain, sparking evacuations.",
-        "published": "02 Aug 2026 21:15 WIB",
-        "sentiment": "Bearish",
-        "score": -0.66,
-        "emoji": "🔴",
-        "impact": "low"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Tidak ada terobosan di Selat Hormuz karena Trump menghentikan serangan terhadap Iran",
-        "url": "https://www.aljazeera.com/news/2026/8/2/no-breakthrough-on-strait-of-hormuz-as-trump-halts-attack-on-iran?traffic_source=rss",
-        "summary": "Iran says Trump's comment on pullback from threatened strikes made 'within the context of psychological operations'.",
-        "published": "02 Aug 2026 21:11 WIB",
+        "title": "Putra Mahkota Saudi MBS mendesak Trump untuk ‘memprioritaskan dialog’ dalam perang AS-Iran",
+        "url": "https://www.aljazeera.com/news/2026/8/2/saudi-crown-prince-mbs-urges-trump-to-prioritise-dialogue-in-us-iran-war?traffic_source=rss",
+        "summary": "US president halted strikes after earlier threatening Iran with unprecedented force.",
+        "published": "02 Aug 2026 23:10 WIB",
         "sentiment": "Bearish",
         "score": -0.949,
         "emoji": "🔴",
-        "impact": "low"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Rencana jalan pintas Rubio: Bisakah dunia keluar dari titik sempit Selat Hormuz?",
-        "url": "https://www.aljazeera.com/economy/2026/8/2/rubios-bypass-plan-can-the-world-escape-the-strait-of-hormuz-chokepoint?traffic_source=rss",
-        "summary": "Experts warn that Marco Rubio's Hormuz bypass plan is hindered by pipeline limits and severe Red Sea threats.",
-        "published": "02 Aug 2026 20:59 WIB",
-        "sentiment": "Bearish",
-        "score": -0.705,
-        "emoji": "🔴",
         "impact": "high"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Boikot pemilu Kashmir yang dikelola Pakistan terjadi setelah tindakan keras yang mematikan",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/02-08-reported-kamal-hyder-pak-pk?traffic_source=rss",
-        "summary": "Residents in Muzaffarabad, in Pakistan-administered Kashmir, have boycotted the election amid a strike.",
-        "published": "02 Aug 2026 20:40 WIB",
-        "sentiment": "Bearish",
-        "score": -0.67,
-        "emoji": "🔴",
-        "impact": "medium"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Jalan-jalan di Yaman yang rusak menyebabkan sulitnya mencari air bagi penduduk desa Taiz",
-        "url": "https://www.aljazeera.com/features/2026/8/2/yemens-crumbling-roads-means-an-arduous-quest-for-water-for-taiz-villagers?traffic_source=rss",
-        "summary": "Poor road infrastructure is exacerbating Yemen's water crisis, leading to hardships for thousands in Taiz governorate.",
-        "published": "02 Aug 2026 20:08 WIB",
-        "sentiment": "Bearish",
-        "score": -0.882,
-        "emoji": "🔴",
-        "impact": "low"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Setidaknya lima orang tewas, 41 hilang setelah kapal feri terbakar di Indonesia",
-        "url": "https://www.aljazeera.com/news/2026/8/2/at-least-five-dead-41-missing-after-ferry-catches-fire-off-indonesia?traffic_source=rss",
-        "summary": "The ship was carrying 271 passengers and crew members when the blaze broke out as it sailed eastwards from Java.",
-        "published": "02 Aug 2026 19:33 WIB",
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "emoji": "🔴",
-        "impact": "high"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Dari Sudan ke Spanyol: Antara perang dan rumah | Al Jazeera Asli",
-        "url": "https://www.aljazeera.com/video/al-jazeera-documentaries/2026/8/2/aje-onl-aj_or_sdn_war-020826?traffic_source=rss",
-        "summary": "A young Sudanese refugee rebuilds his life in Spain while war keeps him from the family he left behind.",
-        "published": "02 Aug 2026 18:07 WIB",
-        "sentiment": "Bearish",
-        "score": -0.912,
-        "emoji": "🔴",
-        "impact": "high"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Tentara Israel dipenjara karena pemogokan Sde Teiman",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/israeli-soldiers-jailed-over-sde-teiman-walkout?traffic_source=rss",
-        "summary": "Fourteen Israeli soldiers have been sentenced to military prison after leading an unauthorised walkout from Sde Teiman.",
-        "published": "02 Aug 2026 17:31 WIB",
-        "sentiment": "Bearish",
-        "score": -0.881,
-        "emoji": "🔴",
-        "impact": "low"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Posisi bos FIFA Infantino tampaknya tidak dapat diterima: Ketua Liga Eropa",
-        "url": "https://www.aljazeera.com/sports/2026/8/2/fifa-boss-infantinos-position-looks-unacceptable-head-of-european-league?traffic_source=rss",
-        "summary": "Claudius Schafer says there can be 'only one consequence' to Infantino's actions over his World Cup privatisation plan.",
-        "published": "02 Aug 2026 17:31 WIB",
-        "sentiment": "Bearish",
-        "score": -0.459,
-        "emoji": "🔴",
+        "source": "MarketWatch",
+        "title": "Kami berusia 60an dengan $1,5 juta. Akankah amanah lebih efektif dibandingkan wasiat untuk mencegah konflik di antara ahli waris kita?",
+        "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
+        "summary": "“I realize that probate can be lengthy, public and expensive.”",
+        "published": "03 Aug 2026 00:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.59,
+        "emoji": "🟢",
         "impact": "low"
       },
       {
@@ -1612,66 +1718,150 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Tumpang tindihnya pusat kekuasaan di Iran membuat upaya mengakhiri perang menjadi lebih rumit",
-        "url": "https://www.cnbc.com/2026/08/01/iran-ceasefire-power-structure.html",
-        "summary": "Iran’s power structure complicates efforts to enforce any ceasefire with the U.S., from the Supreme Leader to the Revolutionary Guards.",
-        "published": "01 Aug 2026 13:52 WIB",
-        "sentiment": "Bearish",
-        "score": -0.077,
-        "emoji": "🔴",
+        "title": "Investor menilai booming pasar minyak akibat perang Iran. Bertahan lama, perdagangan akan menjadi lebih rumit",
+        "url": "https://www.cnbc.com/2026/08/02/oil-prices-iran-war-energy-market.html",
+        "summary": "Oil price volatility caused by U.S.-Iran war created big market winners, but for buy-and-hold investors, there are better long-term energy themes to monitor.",
+        "published": "02 Aug 2026 20:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.659,
+        "emoji": "🟢",
         "impact": "high"
-      },
-      {
-        "source": "CNBC World",
-        "title": "Membangun pada suhu 131°F: Eropa berlomba untuk melindungi infrastrukturnya dari ‘bencana diam-diam’",
-        "url": "https://www.cnbc.com/2026/08/01/europe-extreme-heat-climate-change-55c.html",
-        "summary": "A summer of weather extremes and severe infrastructure stress has prompted companies and policymakers across Europe to respond.",
-        "published": "01 Aug 2026 13:58 WIB",
-        "sentiment": "Bearish",
-        "score": -0.421,
-        "emoji": "🔴",
-        "impact": "low"
       }
     ]
   },
   "geopolitik": {
-    "generated": "02 Aug 2026 22:01 WIB",
+    "generated": "03 Aug 2026 04:54 WIB",
     "risk_level": "TINGGI",
     "risk_color": "#ef4444",
     "risk_emoji": "🔴",
     "pairs_affected": [
       {
-        "pair": "XAU/USD",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.289,
-        "count": 10
+        "pair": "USD/JPY",
+        "direction": "Netral →",
+        "score": -0.048,
+        "count": 16
       },
       {
-        "pair": "USD/JPY",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.312,
-        "count": 9
+        "pair": "XAU/USD",
+        "direction": "Netral →",
+        "score": -0.048,
+        "count": 16
       },
       {
         "pair": "USD/CHF",
-        "direction": "Tekanan Turun ▼",
-        "score": -0.227,
-        "count": 8
+        "direction": "Netral →",
+        "score": -0.006,
+        "count": 14
       },
       {
         "pair": "EUR/USD",
         "direction": "Tekanan Turun ▼",
-        "score": -0.582,
+        "score": -0.56,
         "count": 3
       },
       {
-        "pair": "GBP/USD",
+        "pair": "CAD/USD",
+        "direction": "Tekanan Naik ▲",
+        "score": 0.317,
+        "count": 1
+      },
+      {
+        "pair": "NOK/USD",
+        "direction": "Tekanan Naik ▲",
+        "score": 0.317,
+        "count": 1
+      },
+      {
+        "pair": "USD/RUB",
         "direction": "Tekanan Turun ▼",
-        "score": -0.67,
+        "score": -0.998,
+        "count": 1
+      },
+      {
+        "pair": "CAD/JPY",
+        "direction": "Tekanan Naik ▲",
+        "score": 0.685,
         "count": 1
       }
     ],
     "items": [
+      {
+        "source": "ForexLive",
+        "title": "Menteri Keuangan Jepang akan mengkonfirmasi intervensi yen bersama (dengan AS) pada hari Senin",
+        "url": "https://investinglive.com/forex/japan-s-finance-minister-will-confirm-joint-with-us-conducted-yen-intervention-on-monday/",
+        "summary": "Confirmation of joint intervention marks a significant shift from Japan acting alone, and the scale reported, with the Bank of Japan data suggesting up to $58.97 billion sold to support the yen, signals a determined effort to defend the currency from its weakest levels against the dollar since 1986.",
+        "published": "03 Aug 2026 03:45 WIB",
+        "sentiment": "Bullish",
+        "score": 0.098,
+        "emoji": "🟢",
+        "impact": "high"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Akhir Pekan - OPEC+ menyetujui kenaikan 188.000 barel per hari pada bulan September, menyelesaikan pengurangan produksi pada tahun 2023",
+        "url": "https://investinglive.com/commodities/weekend-opec-agrees-188-000-bpd-september-hike-completing-rollback-of-2023-output-cuts/",
+        "summary": "The September increase is largely symbolic given that export flows from the Gulf remain constrained by the Iran conflict, meaning the barrels are unlikely to show up in physical markets in the near term. The more consequential signal is the option value it creates: should Trump's weekend claim of a ",
+        "published": "03 Aug 2026 03:26 WIB",
+        "sentiment": "Bullish",
+        "score": 0.317,
+        "emoji": "🟢",
+        "impact": "low"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Mengapa eksploitasi Coldcard senilai $70 juta yang dilaporkan mengubah cara berpikir investor kripto tentang hak asuh mandiri",
+        "url": "https://investinglive.com/education/why-the-reported-70-million-coldcard-exploit-changes-how-crypto-investors-should-think-about-self-custody/",
+        "summary": "Coldcard hardware wallet exploit exposes a harsh lesson: Self-custody is only as strong as key generation A firmware flaw affecting some Coldcard hardware wallets has highlighted that secure self-custody depends not only on offline storage, but also on strong key generation. Here are the practical l",
+        "published": "03 Aug 2026 03:24 WIB",
+        "sentiment": "Bullish",
+        "score": 0.647,
+        "emoji": "🟢",
+        "impact": "high"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Akhir Pekan - Trump membatalkan serangan terhadap Iran karena 'batas' kesepakatan disetujui, Teheran menolak permintaan tersebut",
+        "url": "https://investinglive.com/commodities/weekend-trump-cancels-iran-strikes-as-deal-perimeters-agreed-tehran-denies-request/",
+        "summary": "A confirmed stand-down from strikes on Iranian energy infrastructure would remove, for now, one of the more acute supply-side risks weighing on oil markets, particularly given the scale of the reported bombing campaign under discussion. Any de-escalation touching the Hormuz Strait carries outsized s",
+        "published": "03 Aug 2026 03:06 WIB",
+        "sentiment": "Bearish",
+        "score": -0.868,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Gubernur Mendorong Solusi Negara dalam Masalah Biaya",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-02/governors-push-state-solutions-on-costs",
+        "summary": "Governors from Oklahoma, Maryland and Delaware say states remain the nation's laboratories of democracy, sharing policy ideas on housing, education, child care and energy while arguing that affordability is the top concern for voters across party lines. They say states cannot control inflation or gl",
+        "published": "02 Aug 2026 23:20 WIB",
+        "sentiment": "Bullish",
+        "score": 0.701,
+        "emoji": "🟢",
+        "impact": "high"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Kode Pakaian Kantor Menghadapi Debat Celana Pendek",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-02/office-dress-codes-face-shorts-debate-video",
+        "summary": "Bloomberg's Chris Rovzar says workplace dress codes are evolving as warmer weather, changing office culture and designer collections prompt more employees to consider wearing shorts to work. He says a Bloomberg survey finds opinion remains divided, with supporters arguing shorts can be professional ",
+        "published": "02 Aug 2026 23:18 WIB",
+        "sentiment": "Bearish",
+        "score": -0.106,
+        "emoji": "🔴",
+        "impact": "high"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Jackson Memperingatkan Kebijakan AS Berisiko pada Stabilitas Karibia",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-02/jackson-warns-us-policy-risks-caribbean-stability-video",
+        "summary": "Rep. Jonathan Jackson says the Trump administration's policies toward Haiti, Venezuela and Cuba risk worsening instability across the Caribbean, arguing that ending Temporary Protected Status for Haitians and maintaining broad sanctions will deepen humanitarian and migration challenges. He also call",
+        "published": "02 Aug 2026 22:28 WIB",
+        "sentiment": "Bearish",
+        "score": -0.998,
+        "emoji": "🔴",
+        "impact": "high"
+      },
       {
         "source": "Bloomberg Markets",
         "title": "Pedagang Obligasi yang Tidak Melihat Fed Melihat Imbal Hasil Risiko Meningkat",
@@ -1728,17 +1918,6 @@ window.FK_DATA = {
         "impact": "high"
       },
       {
-        "source": "Bloomberg Markets",
-        "title": "Bloomberg Akhir Pekan Ini 01/08/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-01/bloomberg-this-weekend-08-01-2026-video",
-        "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Tim Stenovec bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Seaport Research Partners Chief Equity Strategist Jonathan Golub, Utah Governor Spencer Cox, Mary",
-        "published": "01 Aug 2026 23:17 WIB",
-        "sentiment": "Bullish",
-        "score": 0.302,
-        "emoji": "🟢",
-        "impact": "high"
-      },
-      {
         "source": "BBC World",
         "title": "Trump membatalkan serangan terhadap Iran karena kesepakatan dibuat 'cepat'",
         "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
@@ -1751,68 +1930,101 @@ window.FK_DATA = {
       },
       {
         "source": "BBC World",
-        "title": "Setidaknya delapan orang tewas dalam serangan Israel di Gaza setelah Hamas menyetujui kesepakatan perlucutan senjata",
+        "title": "Setidaknya 13 orang tewas dalam serangan Israel di Gaza setelah Hamas menyetujui kesepakatan perlucutan senjata",
         "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
         "summary": "Israel says it was targeting military operatives in the strikes on Gaza City, Khan Younis and Deir el-Balah.",
-        "published": "02 Aug 2026 21:46 WIB",
+        "published": "02 Aug 2026 22:50 WIB",
         "sentiment": "Bearish",
         "score": -0.711,
         "emoji": "🔴",
         "impact": "low"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Rencana jalan pintas Rubio: Bisakah dunia keluar dari titik sempit Selat Hormuz?",
-        "url": "https://www.aljazeera.com/economy/2026/8/2/rubios-bypass-plan-can-the-world-escape-the-strait-of-hormuz-chokepoint?traffic_source=rss",
-        "summary": "Experts warn that Marco Rubio's Hormuz bypass plan is hindered by pipeline limits and severe Red Sea threats.",
-        "published": "02 Aug 2026 20:59 WIB",
+        "source": "BBC World",
+        "title": "Ukraina mengatakan kilang minyak dan lapangan terbang utama Rusia terkena serangan, sementara Moskow melaporkan delapan orang tewas",
+        "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss",
+        "summary": "Russia's military says it attacked Ukraine's ports and vessels in the Black Sea overnight.",
+        "published": "02 Aug 2026 22:48 WIB",
         "sentiment": "Bearish",
-        "score": -0.705,
+        "score": -0.539,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Relawan lokal membantu membangun kembali biara Kristen yang hancur di Lebanon",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/local-volunteers-help-rebuild-destroyed-christian-monastery-in-lebanon?traffic_source=rss",
+        "summary": "Interfaith volunteers rebuild war-damaged Catholic monastery in Lebanon’s Zawtar al-Gharbiyeh.",
+        "published": "03 Aug 2026 04:18 WIB",
+        "sentiment": "Bearish",
+        "score": -0.208,
         "emoji": "🔴",
         "impact": "high"
       },
       {
         "source": "Al Jazeera",
-        "title": "Boikot pemilu Kashmir yang dikelola Pakistan terjadi setelah tindakan keras yang mematikan",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/02-08-reported-kamal-hyder-pak-pk?traffic_source=rss",
-        "summary": "Residents in Muzaffarabad, in Pakistan-administered Kashmir, have boycotted the election amid a strike.",
-        "published": "02 Aug 2026 20:40 WIB",
-        "sentiment": "Bearish",
-        "score": -0.67,
-        "emoji": "🔴",
-        "impact": "medium"
+        "title": "Venezuela dan Republik Dominika mengatakan mereka akan berupaya memulihkan hubungan",
+        "url": "https://www.aljazeera.com/news/2026/8/2/venezuela-and-the-dominican-republic-say-they-will-work-to-restore-ties?traffic_source=rss",
+        "summary": "Both countries have agreed on a plan to restore diplomatic relations cut off after a contested vote in 2024.",
+        "published": "03 Aug 2026 03:29 WIB",
+        "sentiment": "Bullish",
+        "score": 0.527,
+        "emoji": "🟢",
+        "impact": "low"
       },
       {
         "source": "Al Jazeera",
-        "title": "Setidaknya lima orang tewas, 41 hilang setelah kapal feri terbakar di Indonesia",
-        "url": "https://www.aljazeera.com/news/2026/8/2/at-least-five-dead-41-missing-after-ferry-catches-fire-off-indonesia?traffic_source=rss",
-        "summary": "The ship was carrying 271 passengers and crew members when the blaze broke out as it sailed eastwards from Java.",
-        "published": "02 Aug 2026 19:33 WIB",
+        "title": "Iran mengatakan negosiasi dengan Oman mengenai Selat Hormuz dalam tahap akhir",
+        "url": "https://www.aljazeera.com/news/2026/8/2/iran-says-negotiations-with-oman-over-strait-of-hormuz-in-final-stages?traffic_source=rss",
+        "summary": "Tehran's announcement comes after Trump said US would hold off on new Iran attack in hope of quick deal.",
+        "published": "03 Aug 2026 02:08 WIB",
+        "sentiment": "Bearish",
+        "score": -0.052,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Serangan Rusia dan Ukraina menewaskan 14 orang di kedua sisi",
+        "url": "https://www.aljazeera.com/news/2026/8/2/ukrainian-drone-attacks-kill-eight-in-response-to-russian-missiles?traffic_source=rss",
+        "summary": "Ukrainian strikes target Russian oil hubs and high-rises as Zelenskyy warns of critical Patriot interceptor shortages",
+        "published": "03 Aug 2026 01:37 WIB",
+        "sentiment": "Bearish",
+        "score": -0.999,
+        "emoji": "🔴",
+        "impact": "high"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "Senator Partai Republik mengatakan mantan menantunya harus mengundurkan diri dari Kongres AS",
+        "url": "https://www.aljazeera.com/news/2026/8/2/republican-senator-says-former-son-in-law-should-resign-from-us-congress?traffic_source=rss",
+        "summary": "Senator Bernie Moreno has broken silence around domestic abuse allegations involving Representative Max Miller.",
+        "published": "03 Aug 2026 01:27 WIB",
+        "sentiment": "Bearish",
+        "score": -0.866,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "Al Jazeera",
+        "title": "'Trofi partisipasi perang Iran' yang mengejek Trump muncul di New York",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/iran-war-participation-trophy-mocking-trump-appears-in-new-york?traffic_source=rss",
+        "summary": "A 10-foot-tall golden trophy mocking US President Donald Trump for the Iran war has appeared in New York.",
+        "published": "03 Aug 2026 00:06 WIB",
         "sentiment": "Bearish",
         "score": -1.0,
         "emoji": "🔴",
         "impact": "high"
       },
       {
-        "source": "Al Jazeera",
-        "title": "Dari Sudan ke Spanyol: Antara perang dan rumah | Al Jazeera Asli",
-        "url": "https://www.aljazeera.com/video/al-jazeera-documentaries/2026/8/2/aje-onl-aj_or_sdn_war-020826?traffic_source=rss",
-        "summary": "A young Sudanese refugee rebuilds his life in Spain while war keeps him from the family he left behind.",
-        "published": "02 Aug 2026 18:07 WIB",
-        "sentiment": "Bearish",
-        "score": -0.912,
-        "emoji": "🔴",
-        "impact": "high"
-      },
-      {
-        "source": "Al Jazeera",
-        "title": "Tentara Israel dipenjara karena pemogokan Sde Teiman",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/israeli-soldiers-jailed-over-sde-teiman-walkout?traffic_source=rss",
-        "summary": "Fourteen Israeli soldiers have been sentenced to military prison after leading an unauthorised walkout from Sde Teiman.",
-        "published": "02 Aug 2026 17:31 WIB",
-        "sentiment": "Bearish",
-        "score": -0.881,
-        "emoji": "🔴",
+        "source": "MarketWatch",
+        "title": "Kami berusia 60an dengan $1,5 juta. Akankah amanah lebih efektif dibandingkan wasiat untuk mencegah konflik di antara ahli waris kita?",
+        "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
+        "summary": "“I realize that probate can be lengthy, public and expensive.”",
+        "published": "03 Aug 2026 00:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.59,
+        "emoji": "🟢",
         "impact": "low"
       },
       {
@@ -1839,28 +2051,116 @@ window.FK_DATA = {
       },
       {
         "source": "CNBC World",
-        "title": "Tumpang tindihnya pusat kekuasaan di Iran membuat upaya mengakhiri perang menjadi lebih rumit",
-        "url": "https://www.cnbc.com/2026/08/01/iran-ceasefire-power-structure.html",
-        "summary": "Iran’s power structure complicates efforts to enforce any ceasefire with the U.S., from the Supreme Leader to the Revolutionary Guards.",
-        "published": "01 Aug 2026 13:52 WIB",
-        "sentiment": "Bearish",
-        "score": -0.077,
-        "emoji": "🔴",
+        "title": "Investor menilai booming pasar minyak akibat perang Iran. Bertahan lama, perdagangan akan menjadi lebih rumit",
+        "url": "https://www.cnbc.com/2026/08/02/oil-prices-iran-war-energy-market.html",
+        "summary": "Oil price volatility caused by U.S.-Iran war created big market winners, but for buy-and-hold investors, there are better long-term energy themes to monitor.",
+        "published": "02 Aug 2026 20:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.685,
+        "emoji": "🟢",
         "impact": "high"
       }
     ]
   },
   "fj_live": {
-    "generated": "02 Aug 2026 22:01 WIB",
+    "generated": "03 Aug 2026 04:54 WIB",
     "summary": {
-      "total": 31,
-      "bullish": 2,
-      "bearish": 1,
-      "netral": 28,
-      "avg_score": 0.0149,
+      "total": 39,
+      "bullish": 5,
+      "bearish": 2,
+      "netral": 32,
+      "avg_score": 0.041,
       "overall": "Netral"
     },
     "items": [
+      {
+        "source": "FinancialJuice",
+        "title": "Trump terhadap yen: AS memperoleh keuntungan finansial dari kesepakatan",
+        "url": "https://www.financialjuice.com/News/9704233/Trump-on-yen-US-reaping-financial-gains-from-deal.aspx?xy=rss",
+        "summary": "",
+        "published": "03 Aug 2026 04:43 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪",
+        "impact": "low"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Trump mengenai yen: Kami selalu ada untuk Jepang",
+        "url": "https://www.financialjuice.com/News/9704232/Trump-on-yen-We-are-always-there-for-Japan.aspx?xy=rss",
+        "summary": "",
+        "published": "03 Aug 2026 04:43 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪",
+        "impact": "low"
+      },
+      {
+        "source": "FinancialJuice",
+        "title": "Trump mengenai yen: AS mengambil tindakan karena hubungan yang kuat dengan Jepang",
+        "url": "https://www.financialjuice.com/News/9704231/Trump-on-yen-US-stepping-in-due-to-strong-ties-with-Japan.aspx?xy=rss",
+        "summary": "",
+        "published": "03 Aug 2026 04:43 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪",
+        "impact": "low"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Akhir Pekan - Beijing akan mempercepat belanja infrastruktur yang ada, bukan stimulus baru",
+        "url": "https://investinglive.com/stock-market-update/weekend-beijing-to-accelerate-existing-infrastructure-spending-not-new-stimulus/",
+        "summary": "The absence of large-scale stimulus signals limited near-term upside for commodities and industrial demand tied directly to Chinese fiscal expansion, with the market instead left to price in a steadier, more incremental spending path through the third quarter. Accelerated deployment of already-budge",
+        "published": "03 Aug 2026 04:34 WIB",
+        "sentiment": "Bearish",
+        "score": -0.26,
+        "emoji": "🔴",
+        "impact": "low"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Menteri Keuangan Jepang akan mengkonfirmasi intervensi yen bersama (dengan AS) pada hari Senin",
+        "url": "https://investinglive.com/forex/japan-s-finance-minister-will-confirm-joint-with-us-conducted-yen-intervention-on-monday/",
+        "summary": "Confirmation of joint intervention marks a significant shift from Japan acting alone, and the scale reported, with the Bank of Japan data suggesting up to $58.97 billion sold to support the yen, signals a determined effort to defend the currency from its weakest levels against the dollar since 1986.",
+        "published": "03 Aug 2026 03:45 WIB",
+        "sentiment": "Bullish",
+        "score": 0.098,
+        "emoji": "🟢",
+        "impact": "high"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Akhir Pekan - OPEC+ menyetujui kenaikan 188.000 barel per hari pada bulan September, menyelesaikan pengurangan produksi pada tahun 2023",
+        "url": "https://investinglive.com/commodities/weekend-opec-agrees-188-000-bpd-september-hike-completing-rollback-of-2023-output-cuts/",
+        "summary": "The September increase is largely symbolic given that export flows from the Gulf remain constrained by the Iran conflict, meaning the barrels are unlikely to show up in physical markets in the near term. The more consequential signal is the option value it creates: should Trump's weekend claim of a ",
+        "published": "03 Aug 2026 03:26 WIB",
+        "sentiment": "Bullish",
+        "score": 0.317,
+        "emoji": "🟢",
+        "impact": "low"
+      },
+      {
+        "source": "ForexLive",
+        "title": "Senin buka harga indikatif forex, 03 Agustus 2026",
+        "url": "https://investinglive.com/forex/monday-open-indicative-forex-prices-03-august-2026/",
+        "summary": "In main Asian centre markets its just before: 5am in Tokyo 4am in Singapore and Hong Kong 6am in Australia and 8am in New Zealand Early indications, not much change from late Friday: EUR/USD 1.1554 USD/JPY 157.27 GBP/USD 1.3484 USD/CHF 0.8073 USD/CAD 1.4009 AUD/USD 0.7049 NZD/USD 0.5893 I'mm be back",
+        "published": "03 Aug 2026 02:47 WIB",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "emoji": "⚪",
+        "impact": "low"
+      },
+      {
+        "source": "Bloomberg Markets",
+        "title": "Gubernur Mendorong Solusi Negara dalam Masalah Biaya",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-02/governors-push-state-solutions-on-costs",
+        "summary": "Governors from Oklahoma, Maryland and Delaware say states remain the nation's laboratories of democracy, sharing policy ideas on housing, education, child care and energy while arguing that affordability is the top concern for voters across party lines. They say states cannot control inflation or gl",
+        "published": "02 Aug 2026 23:20 WIB",
+        "sentiment": "Bullish",
+        "score": 0.701,
+        "emoji": "🟢",
+        "impact": "high"
+      },
       {
         "source": "Bloomberg Markets",
         "title": "Pedagang Obligasi yang Tidak Melihat Fed Melihat Imbal Hasil Risiko Meningkat",
@@ -1873,10 +2173,21 @@ window.FK_DATA = {
         "impact": "high"
       },
       {
+        "source": "CNBC World",
+        "title": "Investor menilai booming pasar minyak akibat perang Iran. Bertahan lama, perdagangan akan menjadi lebih rumit",
+        "url": "https://www.cnbc.com/2026/08/02/oil-prices-iran-war-energy-market.html",
+        "summary": "Oil price volatility caused by U.S.-Iran war created big market winners, but for buy-and-hold investors, there are better long-term energy themes to monitor.",
+        "published": "02 Aug 2026 20:00 WIB",
+        "sentiment": "Bullish",
+        "score": 0.685,
+        "emoji": "🟢",
+        "impact": "high"
+      },
+      {
         "source": "Bloomberg Markets",
         "title": "Pedagang Yen Bersiap untuk Lebih Banyak Intervensi dengan AS di Sisi Jepang",
         "url": "https://www.bloomberg.com/news/articles/2026-08-02/yen-traders-brace-for-more-intervention-with-us-at-japan-s-side",
-        "summary": "Currency traders are on high alert for more joint intervention by Japan and the US when trading gets underway in Asia on Monday after coordinated operations in Tokyo and New York last week triggered a dramatic rebound in the yen.",
+        "summary": "The yen edged higher in thin trading with markets on high alert for more joint intervention by Japan and the US on Monday after coordinated operations in Tokyo and New York last week triggered a dramatic rebound in the currency.",
         "published": "02 Aug 2026 19:47 WIB",
         "sentiment": "Bullish",
         "score": 0.296,
@@ -1929,8 +2240,8 @@ window.FK_DATA = {
       },
       {
         "source": "FinancialJuice",
-        "title": "OPEC: tujuh negara peserta sepakat untuk memangkas produksi sebesar 188.000 barel per hari",
-        "url": "https://www.financialjuice.com/News/9704065/OPEC-seven-participant-nations-agree-to-cut-output-by-188000-barrels-a-day.aspx?xy=rss",
+        "title": "OPEC: 7 negara peserta memutuskan untuk menerapkan penyesuaian produksi sebesar 188.000 barel per hari.",
+        "url": "https://www.financialjuice.com/News/9704065/OPEC-The-7-participating-countries-decided-to-implement-a-production-adjustment-of-188000-barrels-per-day.aspx?xy=rss",
         "summary": "",
         "published": "02 Aug 2026 18:26 WIB",
         "sentiment": "Netral",
@@ -1969,17 +2280,6 @@ window.FK_DATA = {
         "sentiment": "Netral",
         "score": 0.0,
         "emoji": "⚪",
-        "impact": "low"
-      },
-      {
-        "source": "Google News Forex",
-        "title": "Jepang dan AS bersama-sama melakukan intervensi di pasar mata uang untuk pertama kalinya dalam 15 tahun untuk mendukung yen - NEWS.am",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBOaVFFX21NTlZ1eVhrb3hnNk13VTd5UEpMTzVuNVpJV1Z1cUViLTlUYmJyTWdtLWtlQjJON3dwLWwzbkE5M0E?oc=5",
-        "summary": "Japan and the US jointly intervened in the currency market for the first time in 15 years to support the yen NEWS.am",
-        "published": "02 Aug 2026 17:52 WIB",
-        "sentiment": "Bullish",
-        "score": 0.402,
-        "emoji": "🟢",
         "impact": "low"
       },
       {
@@ -2205,7 +2505,7 @@ window.FK_DATA = {
     ]
   },
   "rekomendasi": {
-    "generated": "02 Aug 2026 22:01 WIB",
+    "generated": "03 Aug 2026 04:54 WIB",
     "pairs": [
       {
         "label": "USD/CHF",
@@ -2223,19 +2523,25 @@ window.FK_DATA = {
         "rsi_score": 2,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": 0.162,
+          "fund_score": 0.127,
           "confidence": "Lemah",
           "base": "USD",
           "quote": "CHF",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Netral",
-          "base_score": 0.162,
+          "base_score": 0.127,
           "quote_score": 0.0,
-          "base_count": 4,
-          "quote_count": 0,
+          "base_count": 6,
+          "quote_count": 1,
           "base_insufficient": false,
           "quote_insufficient": true,
-          "calendar_warning": []
+          "calendar_warning": [
+            {
+              "currency": "USD",
+              "event_name": "ISM Manufacturing PMI",
+              "time_wib": "18:00"
+            }
+          ]
         }
       },
       {
@@ -2263,7 +2569,7 @@ window.FK_DATA = {
           "base_score": 0.0,
           "quote_score": 0.0,
           "base_count": 0,
-          "quote_count": 0,
+          "quote_count": 1,
           "base_insufficient": true,
           "quote_insufficient": true,
           "calendar_warning": []
@@ -2293,8 +2599,8 @@ window.FK_DATA = {
           "quote_sentiment": "Netral",
           "base_score": 0.0,
           "quote_score": 0.0,
-          "base_count": 0,
-          "quote_count": 0,
+          "base_count": 1,
+          "quote_count": 1,
           "base_insufficient": true,
           "quote_insufficient": true,
           "calendar_warning": []
@@ -2316,19 +2622,25 @@ window.FK_DATA = {
         "rsi_score": 3,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": 0.162,
+          "fund_score": 0.127,
           "confidence": "Lemah",
           "base": "USD",
           "quote": "CAD",
           "base_sentiment": "Bullish",
           "quote_sentiment": "Netral",
-          "base_score": 0.162,
+          "base_score": 0.127,
           "quote_score": 0.0,
-          "base_count": 4,
-          "quote_count": 0,
+          "base_count": 6,
+          "quote_count": 1,
           "base_insufficient": false,
           "quote_insufficient": true,
-          "calendar_warning": []
+          "calendar_warning": [
+            {
+              "currency": "USD",
+              "event_name": "ISM Manufacturing PMI",
+              "time_wib": "18:00"
+            }
+          ]
         }
       },
       {
@@ -2347,19 +2659,62 @@ window.FK_DATA = {
         "rsi_score": 3,
         "fundamental": {
           "signal": "SELL",
-          "fund_score": -0.762,
+          "fund_score": -0.751,
           "confidence": "Kuat",
           "base": "EUR",
           "quote": "USD",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Bullish",
-          "base_score": -0.6,
-          "quote_score": 0.162,
-          "base_count": 7,
-          "quote_count": 4,
+          "base_score": -0.624,
+          "quote_score": 0.127,
+          "base_count": 5,
+          "quote_count": 6,
           "base_insufficient": false,
           "quote_insufficient": false,
-          "calendar_warning": []
+          "calendar_warning": [
+            {
+              "currency": "USD",
+              "event_name": "ISM Manufacturing PMI",
+              "time_wib": "18:00"
+            }
+          ]
+        }
+      },
+      {
+        "label": "GBP/USD",
+        "score": 35,
+        "direction": "BUY",
+        "rsi": 64.5,
+        "last_close": "1.34867",
+        "smma7": "1.34667",
+        "ema9": "1.34721",
+        "atr14": "0.00163",
+        "bars_since_cross": 6,
+        "cross_label": "6 candle lalu",
+        "freshness_score": 20,
+        "separation_score": 8,
+        "rsi_score": 7,
+        "fundamental": {
+          "signal": "Netral",
+          "fund_score": -0.127,
+          "confidence": "Lemah",
+          "base": "GBP",
+          "quote": "USD",
+          "base_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
+          "base_score": 0.0,
+          "quote_score": 0.127,
+          "base_count": 1,
+          "quote_count": 6,
+          "base_insufficient": true,
+          "quote_insufficient": false,
+          "calendar_warning": [
+            {
+              "currency": "USD",
+              "event_name": "ISM Manufacturing PMI",
+              "time_wib": "18:00"
+            }
+          ]
         }
       },
       {
@@ -2386,7 +2741,7 @@ window.FK_DATA = {
           "quote_sentiment": "Netral",
           "base_score": 0.0,
           "quote_score": 0.0,
-          "base_count": 0,
+          "base_count": 1,
           "quote_count": 0,
           "base_insufficient": true,
           "quote_insufficient": true,
@@ -2409,15 +2764,15 @@ window.FK_DATA = {
         "rsi_score": 4,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": -0.6,
+          "fund_score": -0.624,
           "confidence": "Lemah",
           "base": "EUR",
           "quote": "AUD",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Netral",
-          "base_score": -0.6,
+          "base_score": -0.624,
           "quote_score": 0.0,
-          "base_count": 7,
+          "base_count": 5,
           "quote_count": 0,
           "base_insufficient": false,
           "quote_insufficient": true,
@@ -2440,19 +2795,25 @@ window.FK_DATA = {
         "rsi_score": 1,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": -0.162,
+          "fund_score": -0.127,
           "confidence": "Lemah",
           "base": "AUD",
           "quote": "USD",
           "base_sentiment": "Netral",
           "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": 0.162,
+          "quote_score": 0.127,
           "base_count": 0,
-          "quote_count": 4,
+          "quote_count": 6,
           "base_insufficient": true,
           "quote_insufficient": false,
-          "calendar_warning": []
+          "calendar_warning": [
+            {
+              "currency": "USD",
+              "event_name": "ISM Manufacturing PMI",
+              "time_wib": "18:00"
+            }
+          ]
         }
       },
       {
@@ -2479,41 +2840,10 @@ window.FK_DATA = {
           "quote_sentiment": "Netral",
           "base_score": 0.0,
           "quote_score": 0.0,
-          "base_count": 0,
-          "quote_count": 0,
+          "base_count": 1,
+          "quote_count": 1,
           "base_insufficient": true,
           "quote_insufficient": true,
-          "calendar_warning": []
-        }
-      },
-      {
-        "label": "GBP/USD",
-        "score": 29,
-        "direction": "BUY",
-        "rsi": 62.1,
-        "last_close": "1.34820",
-        "smma7": "1.34689",
-        "ema9": "1.34741",
-        "atr14": "0.00155",
-        "bars_since_cross": 7,
-        "cross_label": "7 candle lalu",
-        "freshness_score": 15,
-        "separation_score": 8,
-        "rsi_score": 6,
-        "fundamental": {
-          "signal": "Netral",
-          "fund_score": -0.162,
-          "confidence": "Lemah",
-          "base": "GBP",
-          "quote": "USD",
-          "base_sentiment": "Netral",
-          "quote_sentiment": "Bullish",
-          "base_score": 0.0,
-          "quote_score": 0.162,
-          "base_count": 0,
-          "quote_count": 4,
-          "base_insufficient": true,
-          "quote_insufficient": false,
           "calendar_warning": []
         }
       },
@@ -2533,16 +2863,16 @@ window.FK_DATA = {
         "rsi_score": 4,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": -0.6,
+          "fund_score": -0.624,
           "confidence": "Lemah",
           "base": "EUR",
           "quote": "CAD",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Netral",
-          "base_score": -0.6,
+          "base_score": -0.624,
           "quote_score": 0.0,
-          "base_count": 7,
-          "quote_count": 0,
+          "base_count": 5,
+          "quote_count": 1,
           "base_insufficient": false,
           "quote_insufficient": true,
           "calendar_warning": []
@@ -2564,19 +2894,25 @@ window.FK_DATA = {
         "rsi_score": 2,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": -0.162,
+          "fund_score": -0.127,
           "confidence": "Lemah",
           "base": "NZD",
           "quote": "USD",
           "base_sentiment": "Netral",
           "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": 0.162,
+          "quote_score": 0.127,
           "base_count": 0,
-          "quote_count": 4,
+          "quote_count": 6,
           "base_insufficient": true,
           "quote_insufficient": false,
-          "calendar_warning": []
+          "calendar_warning": [
+            {
+              "currency": "USD",
+              "event_name": "ISM Manufacturing PMI",
+              "time_wib": "18:00"
+            }
+          ]
         }
       },
       {
@@ -2626,18 +2962,18 @@ window.FK_DATA = {
         "rsi_score": 10,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": 0.0,
+          "fund_score": -0.118,
           "confidence": "Lemah",
           "base": "CHF",
           "quote": "JPY",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": 0.0,
-          "base_count": 0,
-          "quote_count": 2,
+          "quote_score": 0.118,
+          "base_count": 1,
+          "quote_count": 3,
           "base_insufficient": true,
-          "quote_insufficient": true,
+          "quote_insufficient": false,
           "calendar_warning": []
         }
       },
@@ -2657,18 +2993,18 @@ window.FK_DATA = {
         "rsi_score": 10,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": 0.0,
+          "fund_score": -0.118,
           "confidence": "Lemah",
           "base": "CAD",
           "quote": "JPY",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": 0.0,
-          "base_count": 0,
-          "quote_count": 2,
+          "quote_score": 0.118,
+          "base_count": 1,
+          "quote_count": 3,
           "base_insufficient": true,
-          "quote_insufficient": true,
+          "quote_insufficient": false,
           "calendar_warning": []
         }
       },
@@ -2688,19 +3024,25 @@ window.FK_DATA = {
         "rsi_score": 10,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": 0.162,
+          "fund_score": 0.009,
           "confidence": "Lemah",
           "base": "USD",
           "quote": "JPY",
           "base_sentiment": "Bullish",
-          "quote_sentiment": "Netral",
-          "base_score": 0.162,
-          "quote_score": 0.0,
-          "base_count": 4,
-          "quote_count": 2,
+          "quote_sentiment": "Bullish",
+          "base_score": 0.127,
+          "quote_score": 0.118,
+          "base_count": 6,
+          "quote_count": 3,
           "base_insufficient": false,
-          "quote_insufficient": true,
-          "calendar_warning": []
+          "quote_insufficient": false,
+          "calendar_warning": [
+            {
+              "currency": "USD",
+              "event_name": "ISM Manufacturing PMI",
+              "time_wib": "18:00"
+            }
+          ]
         }
       },
       {
@@ -2719,18 +3061,18 @@ window.FK_DATA = {
         "rsi_score": 9,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": 0.0,
+          "fund_score": -0.118,
           "confidence": "Lemah",
           "base": "NZD",
           "quote": "JPY",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": 0.0,
+          "quote_score": 0.118,
           "base_count": 0,
-          "quote_count": 2,
+          "quote_count": 3,
           "base_insufficient": true,
-          "quote_insufficient": true,
+          "quote_insufficient": false,
           "calendar_warning": []
         }
       },
@@ -2759,7 +3101,7 @@ window.FK_DATA = {
           "base_score": 0.0,
           "quote_score": 0.0,
           "base_count": 0,
-          "quote_count": 0,
+          "quote_count": 1,
           "base_insufficient": true,
           "quote_insufficient": true,
           "calendar_warning": []
@@ -2781,18 +3123,18 @@ window.FK_DATA = {
         "rsi_score": 9,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": 0.0,
+          "fund_score": -0.118,
           "confidence": "Lemah",
           "base": "AUD",
           "quote": "JPY",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": 0.0,
+          "quote_score": 0.118,
           "base_count": 0,
-          "quote_count": 2,
+          "quote_count": 3,
           "base_insufficient": true,
-          "quote_insufficient": true,
+          "quote_insufficient": false,
           "calendar_warning": []
         }
       },
@@ -2812,18 +3154,18 @@ window.FK_DATA = {
         "rsi_score": 9,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": 0.0,
+          "fund_score": -0.118,
           "confidence": "Lemah",
           "base": "GBP",
           "quote": "JPY",
           "base_sentiment": "Netral",
-          "quote_sentiment": "Netral",
+          "quote_sentiment": "Bullish",
           "base_score": 0.0,
-          "quote_score": 0.0,
-          "base_count": 0,
-          "quote_count": 2,
+          "quote_score": 0.118,
+          "base_count": 1,
+          "quote_count": 3,
           "base_insufficient": true,
-          "quote_insufficient": true,
+          "quote_insufficient": false,
           "calendar_warning": []
         }
       },
@@ -2842,19 +3184,19 @@ window.FK_DATA = {
         "separation_score": 9,
         "rsi_score": 9,
         "fundamental": {
-          "signal": "Netral",
-          "fund_score": -0.6,
-          "confidence": "Lemah",
+          "signal": "SELL",
+          "fund_score": -0.742,
+          "confidence": "Kuat",
           "base": "EUR",
           "quote": "JPY",
           "base_sentiment": "Bearish",
-          "quote_sentiment": "Netral",
-          "base_score": -0.6,
-          "quote_score": 0.0,
-          "base_count": 7,
-          "quote_count": 2,
+          "quote_sentiment": "Bullish",
+          "base_score": -0.624,
+          "quote_score": 0.118,
+          "base_count": 5,
+          "quote_count": 3,
           "base_insufficient": false,
-          "quote_insufficient": true,
+          "quote_insufficient": false,
           "calendar_warning": []
         }
       },
@@ -2882,8 +3224,8 @@ window.FK_DATA = {
           "quote_sentiment": "Netral",
           "base_score": 0.0,
           "quote_score": 0.0,
-          "base_count": 0,
-          "quote_count": 0,
+          "base_count": 1,
+          "quote_count": 1,
           "base_insufficient": true,
           "quote_insufficient": true,
           "calendar_warning": []
@@ -2905,16 +3247,16 @@ window.FK_DATA = {
         "rsi_score": 4,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": -0.6,
+          "fund_score": -0.624,
           "confidence": "Lemah",
           "base": "EUR",
           "quote": "GBP",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Netral",
-          "base_score": -0.6,
+          "base_score": -0.624,
           "quote_score": 0.0,
-          "base_count": 7,
-          "quote_count": 0,
+          "base_count": 5,
+          "quote_count": 1,
           "base_insufficient": false,
           "quote_insufficient": true,
           "calendar_warning": []
@@ -2936,16 +3278,16 @@ window.FK_DATA = {
         "rsi_score": 0,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": -0.6,
+          "fund_score": -0.624,
           "confidence": "Lemah",
           "base": "EUR",
           "quote": "CHF",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Netral",
-          "base_score": -0.6,
+          "base_score": -0.624,
           "quote_score": 0.0,
-          "base_count": 7,
-          "quote_count": 0,
+          "base_count": 5,
+          "quote_count": 1,
           "base_insufficient": false,
           "quote_insufficient": true,
           "calendar_warning": []
@@ -2976,7 +3318,7 @@ window.FK_DATA = {
           "base_score": 0.0,
           "quote_score": 0.0,
           "base_count": 0,
-          "quote_count": 0,
+          "quote_count": 1,
           "base_insufficient": true,
           "quote_insufficient": true,
           "calendar_warning": []
@@ -2998,15 +3340,15 @@ window.FK_DATA = {
         "rsi_score": 0,
         "fundamental": {
           "signal": "Netral",
-          "fund_score": -0.6,
+          "fund_score": -0.624,
           "confidence": "Lemah",
           "base": "EUR",
           "quote": "NZD",
           "base_sentiment": "Bearish",
           "quote_sentiment": "Netral",
-          "base_score": -0.6,
+          "base_score": -0.624,
           "quote_score": 0.0,
-          "base_count": 7,
+          "base_count": 5,
           "quote_count": 0,
           "base_insufficient": false,
           "quote_insufficient": true,

@@ -1,41 +1,136 @@
 {
-  "generated": "02 Aug 2026 22:01 WIB",
+  "generated": "03 Aug 2026 04:54 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.289,
-      "count": 10
+      "pair": "USD/JPY",
+      "direction": "Netral →",
+      "score": -0.048,
+      "count": 16
     },
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.312,
-      "count": 9
+      "pair": "XAU/USD",
+      "direction": "Netral →",
+      "score": -0.048,
+      "count": 16
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.227,
-      "count": 8
+      "direction": "Netral →",
+      "score": -0.006,
+      "count": 14
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.582,
+      "score": -0.56,
       "count": 3
     },
     {
-      "pair": "GBP/USD",
+      "pair": "CAD/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.317,
+      "count": 1
+    },
+    {
+      "pair": "NOK/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.317,
+      "count": 1
+    },
+    {
+      "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.67,
+      "score": -0.998,
+      "count": 1
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.685,
       "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Menteri Keuangan Jepang akan mengkonfirmasi intervensi yen bersama (dengan AS) pada hari Senin",
+      "url": "https://investinglive.com/forex/japan-s-finance-minister-will-confirm-joint-with-us-conducted-yen-intervention-on-monday/",
+      "summary": "Confirmation of joint intervention marks a significant shift from Japan acting alone, and the scale reported, with the Bank of Japan data suggesting up to $58.97 billion sold to support the yen, signals a determined effort to defend the currency from its weakest levels against the dollar since 1986.",
+      "published": "03 Aug 2026 03:45 WIB",
+      "sentiment": "Bullish",
+      "score": 0.098,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - OPEC+ menyetujui kenaikan 188.000 barel per hari pada bulan September, menyelesaikan pengurangan produksi pada tahun 2023",
+      "url": "https://investinglive.com/commodities/weekend-opec-agrees-188-000-bpd-september-hike-completing-rollback-of-2023-output-cuts/",
+      "summary": "The September increase is largely symbolic given that export flows from the Gulf remain constrained by the Iran conflict, meaning the barrels are unlikely to show up in physical markets in the near term. The more consequential signal is the option value it creates: should Trump's weekend claim of a ",
+      "published": "03 Aug 2026 03:26 WIB",
+      "sentiment": "Bullish",
+      "score": 0.317,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Mengapa eksploitasi Coldcard senilai $70 juta yang dilaporkan mengubah cara berpikir investor kripto tentang hak asuh mandiri",
+      "url": "https://investinglive.com/education/why-the-reported-70-million-coldcard-exploit-changes-how-crypto-investors-should-think-about-self-custody/",
+      "summary": "Coldcard hardware wallet exploit exposes a harsh lesson: Self-custody is only as strong as key generation A firmware flaw affecting some Coldcard hardware wallets has highlighted that secure self-custody depends not only on offline storage, but also on strong key generation. Here are the practical l",
+      "published": "03 Aug 2026 03:24 WIB",
+      "sentiment": "Bullish",
+      "score": 0.647,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Akhir Pekan - Trump membatalkan serangan terhadap Iran karena 'batas' kesepakatan disetujui, Teheran menolak permintaan tersebut",
+      "url": "https://investinglive.com/commodities/weekend-trump-cancels-iran-strikes-as-deal-perimeters-agreed-tehran-denies-request/",
+      "summary": "A confirmed stand-down from strikes on Iranian energy infrastructure would remove, for now, one of the more acute supply-side risks weighing on oil markets, particularly given the scale of the reported bombing campaign under discussion. Any de-escalation touching the Hormuz Strait carries outsized s",
+      "published": "03 Aug 2026 03:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.868,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gubernur Mendorong Solusi Negara dalam Masalah Biaya",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-02/governors-push-state-solutions-on-costs",
+      "summary": "Governors from Oklahoma, Maryland and Delaware say states remain the nation's laboratories of democracy, sharing policy ideas on housing, education, child care and energy while arguing that affordability is the top concern for voters across party lines. They say states cannot control inflation or gl",
+      "published": "02 Aug 2026 23:20 WIB",
+      "sentiment": "Bullish",
+      "score": 0.701,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kode Pakaian Kantor Menghadapi Debat Celana Pendek",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-02/office-dress-codes-face-shorts-debate-video",
+      "summary": "Bloomberg's Chris Rovzar says workplace dress codes are evolving as warmer weather, changing office culture and designer collections prompt more employees to consider wearing shorts to work. He says a Bloomberg survey finds opinion remains divided, with supporters arguing shorts can be professional ",
+      "published": "02 Aug 2026 23:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.106,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Jackson Memperingatkan Kebijakan AS Berisiko pada Stabilitas Karibia",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-02/jackson-warns-us-policy-risks-caribbean-stability-video",
+      "summary": "Rep. Jonathan Jackson says the Trump administration's policies toward Haiti, Venezuela and Cuba risk worsening instability across the Caribbean, arguing that ending Temporary Protected Status for Haitians and maintaining broad sanctions will deepen humanitarian and migration challenges. He also call",
+      "published": "02 Aug 2026 22:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.998,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "Bloomberg Markets",
       "title": "Pedagang Obligasi yang Tidak Melihat Fed Melihat Imbal Hasil Risiko Meningkat",
@@ -92,17 +187,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Bloomberg Akhir Pekan Ini 01/08/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-01/bloomberg-this-weekend-08-01-2026-video",
-      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Tim Stenovec bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Seaport Research Partners Chief Equity Strategist Jonathan Golub, Utah Governor Spencer Cox, Mary",
-      "published": "01 Aug 2026 23:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.302,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
       "title": "Trump membatalkan serangan terhadap Iran karena kesepakatan dibuat 'cepat'",
       "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
@@ -115,68 +199,101 @@
     },
     {
       "source": "BBC World",
-      "title": "Setidaknya delapan orang tewas dalam serangan Israel di Gaza setelah Hamas menyetujui kesepakatan perlucutan senjata",
+      "title": "Setidaknya 13 orang tewas dalam serangan Israel di Gaza setelah Hamas menyetujui kesepakatan perlucutan senjata",
       "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
       "summary": "Israel says it was targeting military operatives in the strikes on Gaza City, Khan Younis and Deir el-Balah.",
-      "published": "02 Aug 2026 21:46 WIB",
+      "published": "02 Aug 2026 22:50 WIB",
       "sentiment": "Bearish",
       "score": -0.711,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Rencana jalan pintas Rubio: Bisakah dunia keluar dari titik sempit Selat Hormuz?",
-      "url": "https://www.aljazeera.com/economy/2026/8/2/rubios-bypass-plan-can-the-world-escape-the-strait-of-hormuz-chokepoint?traffic_source=rss",
-      "summary": "Experts warn that Marco Rubio's Hormuz bypass plan is hindered by pipeline limits and severe Red Sea threats.",
-      "published": "02 Aug 2026 20:59 WIB",
+      "source": "BBC World",
+      "title": "Ukraina mengatakan kilang minyak dan lapangan terbang utama Rusia terkena serangan, sementara Moskow melaporkan delapan orang tewas",
+      "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss",
+      "summary": "Russia's military says it attacked Ukraine's ports and vessels in the Black Sea overnight.",
+      "published": "02 Aug 2026 22:48 WIB",
       "sentiment": "Bearish",
-      "score": -0.705,
+      "score": -0.539,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Relawan lokal membantu membangun kembali biara Kristen yang hancur di Lebanon",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/local-volunteers-help-rebuild-destroyed-christian-monastery-in-lebanon?traffic_source=rss",
+      "summary": "Interfaith volunteers rebuild war-damaged Catholic monastery in Lebanon’s Zawtar al-Gharbiyeh.",
+      "published": "03 Aug 2026 04:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.208,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Boikot pemilu Kashmir yang dikelola Pakistan terjadi setelah tindakan keras yang mematikan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/02-08-reported-kamal-hyder-pak-pk?traffic_source=rss",
-      "summary": "Residents in Muzaffarabad, in Pakistan-administered Kashmir, have boycotted the election amid a strike.",
-      "published": "02 Aug 2026 20:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.67,
-      "emoji": "🔴",
-      "impact": "medium"
+      "title": "Venezuela dan Republik Dominika mengatakan mereka akan berupaya memulihkan hubungan",
+      "url": "https://www.aljazeera.com/news/2026/8/2/venezuela-and-the-dominican-republic-say-they-will-work-to-restore-ties?traffic_source=rss",
+      "summary": "Both countries have agreed on a plan to restore diplomatic relations cut off after a contested vote in 2024.",
+      "published": "03 Aug 2026 03:29 WIB",
+      "sentiment": "Bullish",
+      "score": 0.527,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Setidaknya lima orang tewas, 41 hilang setelah kapal feri terbakar di Indonesia",
-      "url": "https://www.aljazeera.com/news/2026/8/2/at-least-five-dead-41-missing-after-ferry-catches-fire-off-indonesia?traffic_source=rss",
-      "summary": "The ship was carrying 271 passengers and crew members when the blaze broke out as it sailed eastwards from Java.",
-      "published": "02 Aug 2026 19:33 WIB",
+      "title": "Iran mengatakan negosiasi dengan Oman mengenai Selat Hormuz dalam tahap akhir",
+      "url": "https://www.aljazeera.com/news/2026/8/2/iran-says-negotiations-with-oman-over-strait-of-hormuz-in-final-stages?traffic_source=rss",
+      "summary": "Tehran's announcement comes after Trump said US would hold off on new Iran attack in hope of quick deal.",
+      "published": "03 Aug 2026 02:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.052,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan Rusia dan Ukraina menewaskan 14 orang di kedua sisi",
+      "url": "https://www.aljazeera.com/news/2026/8/2/ukrainian-drone-attacks-kill-eight-in-response-to-russian-missiles?traffic_source=rss",
+      "summary": "Ukrainian strikes target Russian oil hubs and high-rises as Zelenskyy warns of critical Patriot interceptor shortages",
+      "published": "03 Aug 2026 01:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.999,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Senator Partai Republik mengatakan mantan menantunya harus mengundurkan diri dari Kongres AS",
+      "url": "https://www.aljazeera.com/news/2026/8/2/republican-senator-says-former-son-in-law-should-resign-from-us-congress?traffic_source=rss",
+      "summary": "Senator Bernie Moreno has broken silence around domestic abuse allegations involving Representative Max Miller.",
+      "published": "03 Aug 2026 01:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.866,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "'Trofi partisipasi perang Iran' yang mengejek Trump muncul di New York",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/iran-war-participation-trophy-mocking-trump-appears-in-new-york?traffic_source=rss",
+      "summary": "A 10-foot-tall golden trophy mocking US President Donald Trump for the Iran war has appeared in New York.",
+      "published": "03 Aug 2026 00:06 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Dari Sudan ke Spanyol: Antara perang dan rumah | Al Jazeera Asli",
-      "url": "https://www.aljazeera.com/video/al-jazeera-documentaries/2026/8/2/aje-onl-aj_or_sdn_war-020826?traffic_source=rss",
-      "summary": "A young Sudanese refugee rebuilds his life in Spain while war keeps him from the family he left behind.",
-      "published": "02 Aug 2026 18:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.912,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tentara Israel dipenjara karena pemogokan Sde Teiman",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/israeli-soldiers-jailed-over-sde-teiman-walkout?traffic_source=rss",
-      "summary": "Fourteen Israeli soldiers have been sentenced to military prison after leading an unauthorised walkout from Sde Teiman.",
-      "published": "02 Aug 2026 17:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.881,
-      "emoji": "🔴",
+      "source": "MarketWatch",
+      "title": "Kami berusia 60an dengan $1,5 juta. Akankah amanah lebih efektif dibandingkan wasiat untuk mencegah konflik di antara ahli waris kita?",
+      "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
+      "summary": "“I realize that probate can be lengthy, public and expensive.”",
+      "published": "03 Aug 2026 00:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.59,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -203,13 +320,13 @@
     },
     {
       "source": "CNBC World",
-      "title": "Tumpang tindihnya pusat kekuasaan di Iran membuat upaya mengakhiri perang menjadi lebih rumit",
-      "url": "https://www.cnbc.com/2026/08/01/iran-ceasefire-power-structure.html",
-      "summary": "Iran’s power structure complicates efforts to enforce any ceasefire with the U.S., from the Supreme Leader to the Revolutionary Guards.",
-      "published": "01 Aug 2026 13:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.077,
-      "emoji": "🔴",
+      "title": "Investor menilai booming pasar minyak akibat perang Iran. Bertahan lama, perdagangan akan menjadi lebih rumit",
+      "url": "https://www.cnbc.com/2026/08/02/oil-prices-iran-war-energy-market.html",
+      "summary": "Oil price volatility caused by U.S.-Iran war created big market winners, but for buy-and-hold investors, there are better long-term energy themes to monitor.",
+      "published": "02 Aug 2026 20:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.685,
+      "emoji": "🟢",
       "impact": "high"
     }
   ]
