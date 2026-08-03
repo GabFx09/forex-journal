@@ -1,35 +1,41 @@
 {
-  "generated": "03 Aug 2026 04:54 WIB",
+  "generated": "03 Aug 2026 07:01 WIB",
   "summary": {
-    "total": 56,
-    "bullish": 19,
-    "bearish": 29,
-    "netral": 8,
-    "avg_score": -0.1816,
+    "total": 69,
+    "bullish": 28,
+    "bearish": 34,
+    "netral": 7,
+    "avg_score": -0.1053,
     "overall": "Bearish",
     "currency_impact": [
       {
+        "currency": "JPY",
+        "sentiment": "Bullish",
+        "score": 0.363,
+        "count": 11
+      },
+      {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.166,
+        "score": 0.122,
         "count": 6
       },
       {
         "currency": "EUR",
         "sentiment": "Bearish",
-        "score": -0.624,
-        "count": 5
-      },
-      {
-        "currency": "JPY",
-        "sentiment": "Bullish",
-        "score": 0.131,
-        "count": 3
+        "score": -0.818,
+        "count": 4
       },
       {
         "currency": "GBP",
         "sentiment": "Netral",
         "score": 0.0,
+        "count": 1
+      },
+      {
+        "currency": "AUD",
+        "sentiment": "Bullish",
+        "score": 0.572,
         "count": 1
       },
       {
@@ -47,6 +53,94 @@
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Titik-titik minyak utama masih kekurangan lalu lintas. Lalu lintas kapal tanker Laut Merah dan Hormuz masih sangat tertekan",
+      "url": "https://investinglive.com/commodities/key-oil-chokepoints-remain-starved-of-traffic-red-sea-hormuz-tanker-traffic-stays-deeply-depressed/",
+      "summary": "The latest crossing figures underscore just how far shipping activity through both chokepoints remains from pre-conflict norms, with Hormuz traffic in particular a shadow of the flows that once carried a fifth of the world's crude and gas. Even Friday's relative high of 19 vessels was still well sho",
+      "published": "03 Aug 2026 06:55 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "PMI manufaktur Australia mencapai 52,0 seiring kembalinya pertumbuhan output pada bulan Juli",
+      "url": "https://investinglive.com/news/australia-manufacturing-pmi-hits-52-0-as-output-growth-returns-in-july/",
+      "summary": "The rise to 52.0 signals a modest but genuine improvement in Australian manufacturing conditions, with production and new orders both returning to growth for the first time in several months, a mildly positive read for domestic industrial activity and employment data in the near term. However, the r",
+      "published": "03 Aug 2026 06:20 WIB",
+      "sentiment": "Bullish",
+      "score": 0.92,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Selain itu, Jepang mengkonfirmasi intervensi gabungan yen pada hari Jumat, dan berjanji akan melakukan tindakan lebih lanjut",
+      "url": "https://investinglive.com/forex/bessent-japan-confirm-friday-s-joint-yen-intervention-vow-further-action/",
+      "summary": "Official confirmation from both US Treasury Secretary Bessent and Japan's Ministry of Finance removes any ambiguity that had surrounded Friday's suspected intervention, and the explicit pledge from both sides not to hesitate on further joint action signals a firm floor under the yen for now. Bessent",
+      "published": "03 Aug 2026 06:10 WIB",
+      "sentiment": "Bullish",
+      "score": 0.385,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Kalender ekonomi dan peristiwa di Asia 03 Agustus 2026 - Hari libur Australia",
+      "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-03-august-2026-australia-holiday/",
+      "summary": "We've had the data from NZ already: number of new dwelling consents-3.6% m/m and +32.1% y/y The focus is on the private survey China manufacturing PMI. Official data were not encouraging: China July manufacturing PMI 49.2 vs 50.0 expected This article was written by Eamonn Sheridan at investinglive.",
+      "published": "03 Aug 2026 05:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.083,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Laporan Iran menembakkan rudal jelajah ke kapal tanker minyak AS, dan Angkatan Laut Inggris juga melaporkan insiden tersebut",
+      "url": "https://investinglive.com/commodities/reports-of-iran-firing-cruise-missile-at-us-oil-tanker-also-uk-navy-reports-incident/",
+      "summary": "Two incoming reports: Iran's IRGC has just launched an anti-ship cruise missile toward the Strait of Hormuz, likely target being an oil tanker sent by the US through the US-backed southern route UKMTO reports an attack incident off Oman Trump, is upbeat: Trump claims Hormuz deal done, denuclearisati",
+      "published": "03 Aug 2026 05:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.692,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Globex terbuka dan Trump berhasil mencapai tujuannya: Minyak turun, stok naik",
+      "url": "https://investinglive.com/commodities/globex-is-open-and-trump-is-getting-his-way-oil-down-stocks-up/",
+      "summary": "Trump with his market supportive comments ahead of the open have had an impact: oil down around 6% ES and NQ up around 0.5% each ICYMI: Trump claims Hormuz deal done, denuclearisation talks to start tomorrow Weekend - Trump cancels Iran strikes as deal 'perimeters' agreed, Tehran denies request This",
+      "published": "03 Aug 2026 05:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.36,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Trump menganggap intervensi yen bermanfaat secara finansial bagi AS",
+      "url": "https://investinglive.com/forex/trump-frames-yen-intervention-as-financially-beneficial-to-us/",
+      "summary": "Trump's framing of the yen intervention as both a function of the US-Japan relationship and a source of financial benefit to Washington suggests the administration views the action as sustainable rather than a one-off emergency measure, which could support continued confidence in coordinated defence",
+      "published": "03 Aug 2026 05:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.914,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Trump mengklaim kesepakatan Hormuz telah selesai dan perundingan denuklirisasi akan dimulai besok",
+      "url": "https://investinglive.com/commodities/trump-claims-hormuz-deal-done-denuclearisation-talks-to-start-tomorrow/",
+      "summary": "Trump's claim of a completed Hormuz agreement should be treated cautiously by markets pending independent confirmation from Iran or a third party, particularly given his prior claim of an Iranian request to hold off on strikes was directly denied by Tehran's Mehr news agency as \"a new lie.\" His 'dea",
+      "published": "03 Aug 2026 04:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.288,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Akhir Pekan - Beijing akan mempercepat belanja infrastruktur yang ada, bukan stimulus baru",
@@ -136,6 +230,72 @@
       "impact": "low"
     },
     {
+      "source": "FXStreet News",
+      "title": "OPEC+ setuju untuk meningkatkan produksi bulan September sebesar 188.000 barel per hari",
+      "url": "https://www.fxstreet.com/news/opec-agrees-to-boost-september-production-by-188-000-barrels-per-day-202608022343",
+      "summary": "The Organization of Petroleum Exporting Countries and its allies (OPEC+) agreed on Sunday to boost oil production by 188,000 barrels a day (bpd) from September, against a backdrop of disruption caused by the Mideast war.",
+      "published": "03 Aug 2026 06:43 WIB",
+      "sentiment": "Bullish",
+      "score": 0.226,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Dolar Australia mengumpulkan kekuatan mendekati 0,7050 karena Trump membatalkan serangan terhadap Iran",
+      "url": "https://www.fxstreet.com/news/australian-dollar-gathers-strength-to-near-07050-as-trump-cancels-iran-strikes-202608022332",
+      "summary": "The AUD/USD pair gains ground to near 0.7040 during the early Asian session on Monday. The Australian Dollar (AUD) strengthens against the US Dollar (USD) on improved risk sentiment after the reports that US President Donald Trump holds off Iran strikes.",
+      "published": "03 Aug 2026 06:32 WIB",
+      "sentiment": "Bullish",
+      "score": 0.572,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Kabar terkini mengenai Perang Timur Tengah: Trump menunda serangan terhadap Iran karena janji kesepakatan Hormuz sudah dekat",
+      "url": "https://www.fxstreet.com/news/middle-east-war-updates-trump-holds-off-iran-strikes-on-pledge-hormuz-deal-is-close-202608022237",
+      "summary": "Here’s a brief recap of the key developments in the Middle East war that occurred over the weekend, which are expected to have a significant impact on markets in the upcoming week.",
+      "published": "03 Aug 2026 05:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.859,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "AstraZeneca mengadakan pembicaraan dengan Bristol Myers Squibb mengenai megadeal $400 miliar, FT melaporkan",
+      "url": "https://www.investing.com/news/stock-market-news/astrazeneca-holds-talks-with-bristol-myers-squibb-on-400-billion-megadeal-ft-reports-4829708",
+      "summary": "",
+      "published": "03 Aug 2026 06:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Toyota diperkirakan akan membukukan penurunan laba kelima berturut-turut, investor mempertimbangkan dampak gempa Jepang",
+      "url": "https://www.investing.com/news/stock-market-news/toyota-expected-to-post-fifth-straight-profit-drop-investors-weigh-japan-quake-fallout-4829718",
+      "summary": "",
+      "published": "03 Aug 2026 06:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.322,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Drone Ukraina membunuh delapan orang di Rusia dan menyerang gudang Wildberry, kata gubernur",
+      "url": "https://www.investing.com/news/stock-market-news/ukrainian-drones-kill-two-in-russia-strike-wildberries-warehouse-governors-say-4829675",
+      "summary": "",
+      "published": "03 Aug 2026 04:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.815,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "Investing.com Forex",
       "title": "Saham Rusia menguat pada penutupan perdagangan; Indeks MOEX Rusia naik 0,75%",
       "url": "https://www.investing.com/news/stock-market-news/russia-stocks-higher-at-close-of-trade-moex-russia-index-up-075-4829716",
@@ -181,17 +341,6 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "AstraZeneca mengadakan pembicaraan dengan Bristol Myers Squibb mengenai megadeal $400 miliar, FT melaporkan",
-      "url": "https://www.investing.com/news/stock-market-news/astrazeneca-holds-talks-with-bristol-myers-squibb-on-400-billion-megadeal-ft-reports-4829708",
-      "summary": "",
-      "published": "03 Aug 2026 02:54 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
       "title": "Pasar saham di negara ini mungkin akan lebih baik dibandingkan negara-negara lain jika gelembung AI muncul: Analis",
       "url": "https://www.investing.com/news/stock-market-news/this-countrys-stock-market-may-do-better-than-most-if-ai-bubble-pops-analyst-4829705",
       "summary": "",
@@ -200,17 +349,6 @@
       "score": 0.44,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Drone Ukraina membunuh delapan orang di Rusia dan menyerang gudang Wildberry, kata gubernur",
-      "url": "https://www.investing.com/news/stock-market-news/ukrainian-drones-kill-two-in-russia-strike-wildberries-warehouse-governors-say-4829675",
-      "summary": "",
-      "published": "03 Aug 2026 01:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.815,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "Investing.com Forex",
@@ -235,17 +373,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Bagi pengguna GLP-1, perjalanan belanja pakaian di toko kembali hadir",
-      "url": "https://www.investing.com/news/stock-market-news/for-glp1-users-the-instore-clothes-shopping-trip-is-back-4829685",
-      "summary": "",
-      "published": "02 Aug 2026 18:06 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Kehidupan setelah Orban: Hongaria Inc menggali era politik baru",
       "url": "https://www.investing.com/news/economic-indicators/life-after-orban-hungary-inc-digs-in-as-new-political-era-takes-hold-4829672",
@@ -258,12 +385,78 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pedagang Yen Bersiap untuk Lebih Banyak Intervensi dengan AS di Sisi Jepang",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 3 Agustus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/latest-oil-market-news-and-analysis-for-aug-3",
+      "summary": "Oil fell after US President Donald Trump said new talks with Iran would begin on Monday after he called off a planned attack on the Islamic Republic.",
+      "published": "03 Aug 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Penurunan Yen Menghadapi Risiko pada Aksi Bersama AS-Jepang, Kata Ahli Strategi",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/yen-bears-face-risks-on-joint-us-japan-action-strategists-say",
+      "summary": "Strategists say the coordinated intervention between Japan and the US increases the risk for anyone betting against the currency. President Donald Trump said the US joined a currency-market intervention that lifted the yen last week as a sign of friendship with Japan.",
+      "published": "03 Aug 2026 06:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.077,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pedagang Yen Bersiap untuk Lebih Banyak Intervensi karena Trump Mendukung Jepang",
       "url": "https://www.bloomberg.com/news/articles/2026-08-02/yen-traders-brace-for-more-intervention-with-us-at-japan-s-side",
-      "summary": "The yen edged higher in thin trading with markets on high alert for more joint intervention by Japan and the US on Monday after coordinated operations in Tokyo and New York last week triggered a dramatic rebound in the currency.",
+      "summary": "The yen swung in choppy trading with markets on high alert for more joint intervention by Japan and the US on Monday after coordinated operations in Tokyo and New York last week triggered a dramatic rebound in the currency.",
       "published": "02 Aug 2026 19:47 WIB",
       "sentiment": "Bullish",
-      "score": 0.296,
+      "score": 0.25,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Minyak Turun karena Optimisme Kesepakatan Iran, Yen dalam Fokus: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/oil-slumps-us-futures-rise-on-iran-talks-optimism-markets-wrap",
+      "summary": "Oil dropped and US equity-index futures rose after President Donald Trump said fresh US-Iran talks would begin Monday, boosting optimism the two sides could reach a deal to reopen the Strait of Hormuz.",
+      "published": "03 Aug 2026 05:09 WIB",
+      "sentiment": "Bullish",
+      "score": 0.92,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bessent Mengatakan Kemungkinan Lebih Banyak Langkah Terhadap Yen seiring Trump Memuji Jepang",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/trump-says-yen-intervention-is-signal-of-friendship-with-japan",
+      "summary": "US Treasury Secretary Scott Bessent said that the US stepped in to help fight “disorderly” movements in the yen and is ready to keep helping Japan, while President Donald Trump said the currency-market intervention was a sign of friendship with Tokyo.",
+      "published": "03 Aug 2026 05:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.898,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Jepang Akan Jatuh Karena Kekhawatiran Yen, Kioxia Guidance Miss",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/japanese-stocks-set-to-fall-on-yen-worries-kioxia-guidance-miss",
+      "summary": "Japanese stock futures pointed to a lower open as traders remain on alert for further yen intervention after Tokyo and New York coordinated to support the currency. Kioxia Holdings Corp. may come under pressure after its profit forecast missed analysts’ expectations.",
+      "published": "03 Aug 2026 05:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.456,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Trump Sebut Intervensi AS terhadap Yen Adalah 'Sinyal Persahabatan'",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/trump-says-us-intervention-in-yen-was-a-signal-of-friendship",
+      "summary": "“It was a signal of friendship,” President Donald Trump says after being asked why the US intervened to support the Japanese yen.",
+      "published": "03 Aug 2026 04:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.402,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -323,70 +516,15 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Nides Mengatakan Perang Iran Perlu Negosiasi",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-02/nides-says-iran-war-needs-negotiations-video",
-      "summary": "Former US Ambassador to Israel Tom Nides says there is no lasting military solution to the conflict with Iran, arguing that renewed negotiations involving regional allies offer the only realistic path to reopening the Strait of Hormuz and addressing Tehran's nuclear program. He also says regime chan",
-      "published": "02 Aug 2026 20:31 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Omong-omong: Berita Utama yang Mungkin Anda Lewatkan pada Minggu 8/02",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-02/by-the-way-headlines-you-may-have-missed-video",
-      "summary": "Younger Chinese professionals moving away from the traditional baijiu drinking culture, premium bottled water gaining traction with wellness-focused consumers, and historic government buildings across Europe being converted into luxury hotels. Bloomberg News' Nathan Hager joins David Gura and Christ",
-      "published": "02 Aug 2026 20:14 WIB",
+      "source": "Google News Forex",
+      "title": "Jepang dan AS bersama-sama melakukan intervensi di pasar mata uang untuk pertama kalinya dalam 15 tahun untuk mendukung yen - news.am",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBOaVFFX21NTlZ1eVhrb3hnNk13VTd5UEpMTzVuNVpJV1Z1cUViLTlUYmJyTWdtLWtlQjJON3dwLWwzbkE5M0E?oc=5",
+      "summary": "Japan and the US jointly intervened in the currency market for the first time in 15 years to support the yen news.am",
+      "published": "02 Aug 2026 17:52 WIB",
       "sentiment": "Bullish",
-      "score": 0.153,
+      "score": 0.66,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Trump Menghentikan Serangan Iran saat Perundingan Dilanjutkan",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-02/trump-pauses-iran-strikes-as-talks-resume-video",
-      "summary": "Bloomberg's Jeff Mason and Dan Williams say President Donald Trump is pausing planned military action against Iran to allow negotiations over the Strait of Hormuz and Iran's nuclear program to continue, while warning the pause depends on reaching a deal quickly. They say Israel remains cautious, Gul",
-      "published": "02 Aug 2026 19:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.539,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Robot Bedah Ini Bisa Mengubah Ruang Operasi",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-02/this-surgical-robot-could-transform-the-operating-room-video",
-      "summary": "After spending years and hundreds of millions of dollars, Johnson and Johnson has won FDA approval for its new surgical robot Ottava. Can it challenge the dominance of competitors who entered the race years earlier, or is the market already spoken for? (Source: Bloomberg)",
-      "published": "02 Aug 2026 19:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.836,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Bom Tewaskan Tiga Orang, Lukai 21 Orang di Restoran di Lapangan Kudrinskaya Moskow",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/bomb-kills-three-injures-21-at-restaurant-on-moscow-s-kudrinskaya-square",
-      "summary": "Three people were killed and 21 injured after a bomb was detonated in an upscale restaurant in central Moscow on Saturday night, according to Russia’s National Anti-Terrorism Committee.",
-      "published": "02 Aug 2026 14:22 WIB",
-      "sentiment": "Bearish",
-      "score": -0.952,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Trump Mengatakan AS Akan Menahan Serangan Iran Jika Kesepakatan Disepakati",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/trump-says-us-to-cancel-iran-attack-subject-to-a-rapid-deal",
-      "summary": "President Donald Trump said the US will hold off new strikes against Iran after the Islamic Republic and other Middle Eastern nations told him they’re working toward a deal.",
-      "published": "02 Aug 2026 09:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.542,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "Google News Geopolitik",
@@ -500,6 +638,17 @@
     },
     {
       "source": "Al Jazeera",
+      "title": "Serangan drone tentara Sudan di Darfur menewaskan 35 orang, kata kelompok hak asasi manusia",
+      "url": "https://www.aljazeera.com/news/2026/8/2/sudan-army-drone-attack-on-darfur-kills-35-rights-group-says?traffic_source=rss",
+      "summary": "Tens of thousands of people have been killed in the ongoing war between army chief al-Burhan and RSF commander Dagalo.",
+      "published": "03 Aug 2026 05:51 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Relawan lokal membantu membangun kembali biara Kristen yang hancur di Lebanon",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/local-volunteers-help-rebuild-destroyed-christian-monastery-in-lebanon?traffic_source=rss",
       "summary": "Interfaith volunteers rebuild war-damaged Catholic monastery in Lebanon’s Zawtar al-Gharbiyeh.",
@@ -576,17 +725,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Putra Mahkota Saudi MBS mendesak Trump untuk ‘memprioritaskan dialog’ dalam perang AS-Iran",
-      "url": "https://www.aljazeera.com/news/2026/8/2/saudi-crown-prince-mbs-urges-trump-to-prioritise-dialogue-in-us-iran-war?traffic_source=rss",
-      "summary": "US president halted strikes after earlier threatening Iran with unprecedented force.",
-      "published": "02 Aug 2026 23:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.949,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
       "title": "Kami berusia 60an dengan $1,5 juta. Akankah amanah lebih efektif dibandingkan wasiat untuk mencegah konflik di antara ahli waris kita?",
       "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
@@ -640,6 +778,17 @@
       "score": 0.0,
       "emoji": "⚪",
       "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Minyak turun lebih dari 4% setelah Trump membatalkan rencana serangan terhadap Iran",
+      "url": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
+      "summary": "Oil prices fell on Monday as investors pared geopolitical risk premiums after U.S. President Donald Trump said he had called off a planned strike on Iran.",
+      "published": "03 Aug 2026 06:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "CNBC World",

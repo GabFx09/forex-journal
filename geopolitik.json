@@ -1,26 +1,26 @@
 {
-  "generated": "03 Aug 2026 04:54 WIB",
+  "generated": "03 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
       "pair": "USD/JPY",
-      "direction": "Netral →",
-      "score": -0.048,
-      "count": 16
+      "direction": "Tekanan Turun ▼",
+      "score": -0.214,
+      "count": 19
     },
     {
       "pair": "XAU/USD",
-      "direction": "Netral →",
-      "score": -0.048,
-      "count": 16
+      "direction": "Tekanan Turun ▼",
+      "score": -0.214,
+      "count": 19
     },
     {
       "pair": "USD/CHF",
-      "direction": "Netral →",
-      "score": -0.006,
-      "count": 14
+      "direction": "Tekanan Turun ▼",
+      "score": -0.236,
+      "count": 17
     },
     {
       "pair": "EUR/USD",
@@ -30,30 +30,63 @@
     },
     {
       "pair": "CAD/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.317,
-      "count": 1
+      "direction": "Netral →",
+      "score": -0.033,
+      "count": 2
     },
     {
       "pair": "NOK/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.317,
-      "count": 1
-    },
-    {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.998,
-      "count": 1
+      "direction": "Netral →",
+      "score": -0.033,
+      "count": 2
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.685,
-      "count": 1
+      "score": 0.064,
+      "count": 2
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.064,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Titik-titik minyak utama masih kekurangan lalu lintas. Lalu lintas kapal tanker Laut Merah dan Hormuz masih sangat tertekan",
+      "url": "https://investinglive.com/commodities/key-oil-chokepoints-remain-starved-of-traffic-red-sea-hormuz-tanker-traffic-stays-deeply-depressed/",
+      "summary": "The latest crossing figures underscore just how far shipping activity through both chokepoints remains from pre-conflict norms, with Hormuz traffic in particular a shadow of the flows that once carried a fifth of the world's crude and gas. Even Friday's relative high of 19 vessels was still well sho",
+      "published": "03 Aug 2026 06:55 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Laporan Iran menembakkan rudal jelajah ke kapal tanker minyak AS, dan Angkatan Laut Inggris juga melaporkan insiden tersebut",
+      "url": "https://investinglive.com/commodities/reports-of-iran-firing-cruise-missile-at-us-oil-tanker-also-uk-navy-reports-incident/",
+      "summary": "Two incoming reports: Iran's IRGC has just launched an anti-ship cruise missile toward the Strait of Hormuz, likely target being an oil tanker sent by the US through the US-backed southern route UKMTO reports an attack incident off Oman Trump, is upbeat: Trump claims Hormuz deal done, denuclearisati",
+      "published": "03 Aug 2026 05:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.692,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Globex terbuka dan Trump berhasil mencapai tujuannya: Minyak turun, stok naik",
+      "url": "https://investinglive.com/commodities/globex-is-open-and-trump-is-getting-his-way-oil-down-stocks-up/",
+      "summary": "Trump with his market supportive comments ahead of the open have had an impact: oil down around 6% ES and NQ up around 0.5% each ICYMI: Trump claims Hormuz deal done, denuclearisation talks to start tomorrow Weekend - Trump cancels Iran strikes as deal 'perimeters' agreed, Tehran denies request This",
+      "published": "03 Aug 2026 05:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.36,
+      "emoji": "🔴",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Menteri Keuangan Jepang akan mengkonfirmasi intervensi yen bersama (dengan AS) pada hari Senin",
@@ -95,6 +128,39 @@
       "published": "03 Aug 2026 03:06 WIB",
       "sentiment": "Bearish",
       "score": -0.868,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "OPEC+ setuju untuk meningkatkan produksi bulan September sebesar 188.000 barel per hari",
+      "url": "https://www.fxstreet.com/news/opec-agrees-to-boost-september-production-by-188-000-barrels-per-day-202608022343",
+      "summary": "The Organization of Petroleum Exporting Countries and its allies (OPEC+) agreed on Sunday to boost oil production by 188,000 barrels a day (bpd) from September, against a backdrop of disruption caused by the Mideast war.",
+      "published": "03 Aug 2026 06:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.382,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Kabar terkini mengenai Perang Timur Tengah: Trump menunda serangan terhadap Iran karena janji kesepakatan Hormuz sudah dekat",
+      "url": "https://www.fxstreet.com/news/middle-east-war-updates-trump-holds-off-iran-strikes-on-pledge-hormuz-deal-is-close-202608022237",
+      "summary": "Here’s a brief recap of the key developments in the Middle East war that occurred over the weekend, which are expected to have a significant impact on markets in the upcoming week.",
+      "published": "03 Aug 2026 05:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.859,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 3 Agustus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/latest-oil-market-news-and-analysis-for-aug-3",
+      "summary": "Oil fell after US President Donald Trump said new talks with Iran would begin on Monday after he called off a planned attack on the Islamic Republic.",
+      "published": "03 Aug 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -143,50 +209,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Nides Mengatakan Perang Iran Perlu Negosiasi",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-02/nides-says-iran-war-needs-negotiations-video",
-      "summary": "Former US Ambassador to Israel Tom Nides says there is no lasting military solution to the conflict with Iran, arguing that renewed negotiations involving regional allies offer the only realistic path to reopening the Strait of Hormuz and addressing Tehran's nuclear program. He also says regime chan",
-      "published": "02 Aug 2026 20:31 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Trump Menghentikan Serangan Iran saat Perundingan Dilanjutkan",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-02/trump-pauses-iran-strikes-as-talks-resume-video",
-      "summary": "Bloomberg's Jeff Mason and Dan Williams say President Donald Trump is pausing planned military action against Iran to allow negotiations over the Strait of Hormuz and Iran's nuclear program to continue, while warning the pause depends on reaching a deal quickly. They say Israel remains cautious, Gul",
-      "published": "02 Aug 2026 19:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.539,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Bom Tewaskan Tiga Orang, Lukai 21 Orang di Restoran di Lapangan Kudrinskaya Moskow",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/bomb-kills-three-injures-21-at-restaurant-on-moscow-s-kudrinskaya-square",
-      "summary": "Three people were killed and 21 injured after a bomb was detonated in an upscale restaurant in central Moscow on Saturday night, according to Russia’s National Anti-Terrorism Committee.",
-      "published": "02 Aug 2026 14:22 WIB",
-      "sentiment": "Bearish",
-      "score": -0.952,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Trump Mengatakan AS Akan Menahan Serangan Iran Jika Kesepakatan Disepakati",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/trump-says-us-to-cancel-iran-attack-subject-to-a-rapid-deal",
-      "summary": "President Donald Trump said the US will hold off new strikes against Iran after the Islamic Republic and other Middle Eastern nations told him they’re working toward a deal.",
-      "published": "02 Aug 2026 09:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.542,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
       "title": "Trump membatalkan serangan terhadap Iran karena kesepakatan dibuat 'cepat'",
       "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
@@ -218,6 +240,17 @@
       "score": -0.539,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan drone tentara Sudan di Darfur menewaskan 35 orang, kata kelompok hak asasi manusia",
+      "url": "https://www.aljazeera.com/news/2026/8/2/sudan-army-drone-attack-on-darfur-kills-35-rights-group-says?traffic_source=rss",
+      "summary": "Tens of thousands of people have been killed in the ongoing war between army chief al-Burhan and RSF commander Dagalo.",
+      "published": "03 Aug 2026 05:51 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -306,6 +339,17 @@
       "score": 0.743,
       "emoji": "🟢",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Minyak turun lebih dari 4% setelah Trump membatalkan rencana serangan terhadap Iran",
+      "url": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
+      "summary": "Oil prices fell on Monday as investors pared geopolitical risk premiums after U.S. President Donald Trump said he had called off a planned strike on Iran.",
+      "published": "03 Aug 2026 06:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "CNBC World",
