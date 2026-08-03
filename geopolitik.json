@@ -1,5 +1,5 @@
 {
-  "generated": "03 Aug 2026 07:01 WIB",
+  "generated": "03 Aug 2026 09:58 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,75 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.214,
-      "count": 19
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.214,
-      "count": 19
+      "score": -0.388,
+      "count": 17
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.236,
-      "count": 17
+      "score": -0.39,
+      "count": 16
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.449,
+      "count": 16
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.243,
+      "count": 4
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.243,
+      "count": 4
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.56,
+      "score": -0.189,
       "count": 3
     },
     {
       "pair": "CAD/USD",
-      "direction": "Netral →",
-      "score": -0.033,
-      "count": 2
+      "direction": "Tekanan Turun ▼",
+      "score": -0.538,
+      "count": 3
     },
     {
       "pair": "NOK/USD",
-      "direction": "Netral →",
-      "score": -0.033,
-      "count": 2
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.064,
-      "count": 2
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.064,
-      "count": 2
+      "direction": "Tekanan Turun ▼",
+      "score": -0.538,
+      "count": 3
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Reserve Bank of India diperkirakan akan mempertahankan suku bunganya karena inflasi tetap berada di zona nyaman, menurut jajak pendapat Reuters",
+      "url": "https://investinglive.com/central-banks/reserve-bank-of-india-expected-to-hold-rates-as-inflation-stays-in-comfort-zone-reuters-poll-shows/",
+      "summary": "A hold from the RBI, in line with 68 of 72 economists surveyed by Reuters , would keep India as a notable outlier among emerging and developed market peers that have already hiked in response to the oil-price shock from the Iran war. The divergence keeps the rupee vulnerable, since the currency's re",
+      "published": "03 Aug 2026 09:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.978,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Mimura dari Jepang mengatakan aksi gabungan yen adalah puncak dari aliansi mata uang",
+      "url": "https://investinglive.com/forex/japan-s-mimura-says-joint-yen-action-culmination-of-currency-alliance/",
+      "summary": "Mimura's framing of the joint intervention as the culmination of a longstanding currency alliance reinforces the narrative of durable, structural cooperation rather than a one-off response, which should support confidence in continued coordinated action if the yen weakens again. His refusal to comme",
+      "published": "03 Aug 2026 07:24 WIB",
+      "sentiment": "Bullish",
+      "score": 0.572,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Titik-titik minyak utama masih kekurangan lalu lintas. Lalu lintas kapal tanker Laut Merah dan Hormuz masih sangat tertekan",
@@ -99,35 +121,24 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Akhir Pekan - OPEC+ menyetujui kenaikan 188.000 barel per hari pada bulan September, menyelesaikan pengurangan produksi pada tahun 2023",
-      "url": "https://investinglive.com/commodities/weekend-opec-agrees-188-000-bpd-september-hike-completing-rollback-of-2023-output-cuts/",
-      "summary": "The September increase is largely symbolic given that export flows from the Gulf remain constrained by the Iran conflict, meaning the barrels are unlikely to show up in physical markets in the near term. The more consequential signal is the option value it creates: should Trump's weekend claim of a ",
-      "published": "03 Aug 2026 03:26 WIB",
-      "sentiment": "Bullish",
-      "score": 0.317,
-      "emoji": "🟢",
+      "source": "FXStreet News",
+      "title": "Presiden AS Donald Trump mengatakan pembicaraan Iran akan dimulai Senin setelah membatalkan serangan",
+      "url": "https://www.fxstreet.com/news/us-president-donald-trump-says-iran-talks-to-begin-monday-after-canceling-attack-202608030122",
+      "summary": "US President Donald Trump said that fresh round of Iran talks would begin Monday after he cancelled a planned attack on Iran partially in response to pleas from US allies in the Middle East, including Saudi Arabia, Bloomberg reported on Monday.",
+      "published": "03 Aug 2026 08:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.79,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Mengapa eksploitasi Coldcard senilai $70 juta yang dilaporkan mengubah cara berpikir investor kripto tentang hak asuh mandiri",
-      "url": "https://investinglive.com/education/why-the-reported-70-million-coldcard-exploit-changes-how-crypto-investors-should-think-about-self-custody/",
-      "summary": "Coldcard hardware wallet exploit exposes a harsh lesson: Self-custody is only as strong as key generation A firmware flaw affecting some Coldcard hardware wallets has highlighted that secure self-custody depends not only on offline storage, but also on strong key generation. Here are the practical l",
-      "published": "03 Aug 2026 03:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.647,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Akhir Pekan - Trump membatalkan serangan terhadap Iran karena 'batas' kesepakatan disetujui, Teheran menolak permintaan tersebut",
-      "url": "https://investinglive.com/commodities/weekend-trump-cancels-iran-strikes-as-deal-perimeters-agreed-tehran-denies-request/",
-      "summary": "A confirmed stand-down from strikes on Iranian energy infrastructure would remove, for now, one of the more acute supply-side risks weighing on oil markets, particularly given the scale of the reported bombing campaign under discussion. Any de-escalation touching the Hormuz Strait carries outsized s",
-      "published": "03 Aug 2026 03:06 WIB",
+      "source": "FXStreet News",
+      "title": "WTI mempertahankan penurunan mendekati $79,00 di tengah perundingan perdamaian Timur Tengah dan ekspansi produksi OPEC+",
+      "url": "https://www.fxstreet.com/news/wti-holds-losses-near-7900-amid-middle-east-peace-talks-opec-output-expansion-202608030044",
+      "summary": "West Texas Intermediate (WTI) crude oil price gains ground after opening with a bearish gap, remaining nearly 7% down to trade around $79.30 per barrel during Asian hours on Monday.",
+      "published": "03 Aug 2026 07:44 WIB",
       "sentiment": "Bearish",
-      "score": -0.868,
+      "score": -0.238,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -154,6 +165,28 @@
       "impact": "high"
     },
     {
+      "source": "Investing.com Forex",
+      "title": "Steadfast Australia melonjak setelah konsorsium menegaskan kembali tawaran pengambilalihan sebesar $5,4 miliar",
+      "url": "https://www.investing.com/news/stock-market-news/australias-steadfast-jumps-after-consortium-reaffirms-54-bln-takeover-offer-4829749",
+      "summary": "",
+      "published": "03 Aug 2026 09:26 WIB",
+      "sentiment": "Bullish",
+      "score": 0.25,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Jepang Merosot karena Eksportir Terpuruk karena Kekhawatiran Intervensi Yen",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/japanese-stocks-set-to-fall-on-yen-worries-kioxia-guidance-miss",
+      "summary": "Japanese equities declined as automakers and other exporters dropped amid concerns about a stronger yen following joint currency intervention with the US. Traders remain on high alert for further moves by the authorities.",
+      "published": "03 Aug 2026 05:39 WIB",
+      "sentiment": "Bullish",
+      "score": 0.586,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
       "source": "Bloomberg Markets",
       "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 3 Agustus",
       "url": "https://www.bloomberg.com/news/articles/2026-08-02/latest-oil-market-news-and-analysis-for-aug-3",
@@ -163,50 +196,6 @@
       "score": -0.557,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gubernur Mendorong Solusi Negara dalam Masalah Biaya",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-02/governors-push-state-solutions-on-costs",
-      "summary": "Governors from Oklahoma, Maryland and Delaware say states remain the nation's laboratories of democracy, sharing policy ideas on housing, education, child care and energy while arguing that affordability is the top concern for voters across party lines. They say states cannot control inflation or gl",
-      "published": "02 Aug 2026 23:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.701,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kode Pakaian Kantor Menghadapi Debat Celana Pendek",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-02/office-dress-codes-face-shorts-debate-video",
-      "summary": "Bloomberg's Chris Rovzar says workplace dress codes are evolving as warmer weather, changing office culture and designer collections prompt more employees to consider wearing shorts to work. He says a Bloomberg survey finds opinion remains divided, with supporters arguing shorts can be professional ",
-      "published": "02 Aug 2026 23:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.106,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Jackson Memperingatkan Kebijakan AS Berisiko pada Stabilitas Karibia",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-02/jackson-warns-us-policy-risks-caribbean-stability-video",
-      "summary": "Rep. Jonathan Jackson says the Trump administration's policies toward Haiti, Venezuela and Cuba risk worsening instability across the Caribbean, arguing that ending Temporary Protected Status for Haitians and maintaining broad sanctions will deepen humanitarian and migration challenges. He also call",
-      "published": "02 Aug 2026 22:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.998,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pedagang Obligasi yang Tidak Melihat Fed Melihat Imbal Hasil Risiko Meningkat",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/bond-traders-flying-blind-on-fed-see-risk-yields-spiral-higher",
-      "summary": "Bond investors including Brandywine Global Investment Management and Wellington Management say the risk of a deeper Treasury rout is rising as Federal Reserve Chairman Kevin Warsh keeps investors in the dark about how officials will respond to the evolving economy.",
-      "published": "02 Aug 2026 21:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.237,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -240,6 +229,39 @@
       "score": -0.539,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Trump menyarankan pembicaraan baru dengan Iran dimulai pada hari Senin",
+      "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
+      "summary": "Tehran has not responded to the suggestion that new talks are imminent. Trump has previously said a negotiated end to the war is close, only for strikes to resume.",
+      "published": "03 Aug 2026 07:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.831,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump mengatakan babak baru perundingan Iran akan dimulai Senin",
+      "url": "https://www.aljazeera.com/news/2026/8/2/trump-says-new-round-of-iran-talks-will-begin-monday?traffic_source=rss",
+      "summary": "The US president says Gulf allies and Tehran urged him to delay planned strikes, as oil prices dropped in response.",
+      "published": "03 Aug 2026 06:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.586,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Lula dari Brasil meluncurkan pencalonannya untuk masa jabatan keempat, dengan fokus pada kedaulatan nasional",
+      "url": "https://www.aljazeera.com/news/2026/8/2/brazils-lula-launches-fourth-term-bid-focuses-on-national-sovereignty?traffic_source=rss",
+      "summary": "Lula seeks to use Bolsonaro family ties with Trump to cast election as fight against submission to foreign interests.",
+      "published": "03 Aug 2026 06:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.153,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "Al Jazeera",
@@ -297,28 +319,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Senator Partai Republik mengatakan mantan menantunya harus mengundurkan diri dari Kongres AS",
-      "url": "https://www.aljazeera.com/news/2026/8/2/republican-senator-says-former-son-in-law-should-resign-from-us-congress?traffic_source=rss",
-      "summary": "Senator Bernie Moreno has broken silence around domestic abuse allegations involving Representative Max Miller.",
-      "published": "03 Aug 2026 01:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.866,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "'Trofi partisipasi perang Iran' yang mengejek Trump muncul di New York",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/iran-war-participation-trophy-mocking-trump-appears-in-new-york?traffic_source=rss",
-      "summary": "A 10-foot-tall golden trophy mocking US President Donald Trump for the Iran war has appeared in New York.",
-      "published": "03 Aug 2026 00:06 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
       "title": "Kami berusia 60an dengan $1,5 juta. Akankah amanah lebih efektif dibandingkan wasiat untuk mencegah konflik di antara ahli waris kita?",
       "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
@@ -330,37 +330,37 @@
       "impact": "low"
     },
     {
-      "source": "CNBC Forex",
-      "title": "Saham Berkshire Hathaway mencapai level tertinggi dalam delapan bulan",
-      "url": "https://www.cnbc.com/2026/08/01/-berkshire-hathaway-shares-hit-eight-month-high.html",
-      "summary": "The conglomerate that Warren Buffett built rallied to an eight-month high this week. There could be more gains ahead if they play catch up with the S&P 500.",
-      "published": "01 Aug 2026 21:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.743,
-      "emoji": "🟢",
+      "source": "CNBC World",
+      "title": "Trump mengatakan perundingan Iran akan dilanjutkan pada hari Senin setelah membatalkan rencana serangan",
+      "url": "https://www.cnbc.com/2026/08/03/trump-iran-us-negotiations-peace-proposals-.html",
+      "summary": "The latest peace proposal calls for warring parties to return to negotiations and continue working out some of the thorny issues that derailed diplomatic efforts.",
+      "published": "03 Aug 2026 09:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.482,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "CNBC World",
-      "title": "Minyak turun lebih dari 4% setelah Trump membatalkan rencana serangan terhadap Iran",
+      "title": "Minyak turun lebih dari 4% karena ketegangan di Timur Tengah mereda akibat upaya diplomasi",
       "url": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
       "summary": "Oil prices fell on Monday as investors pared geopolitical risk premiums after U.S. President Donald Trump said he had called off a planned strike on Iran.",
-      "published": "03 Aug 2026 06:33 WIB",
+      "published": "03 Aug 2026 09:33 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.809,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "CNBC World",
-      "title": "Trump membatalkan rencana serangan terhadap Iran, dengan mengatakan ia mencapai kesepakatan mengenai 'batasan kesepakatan'",
-      "url": "https://www.cnbc.com/2026/08/02/trump-planned-attack-on-iran-canceled-after-reaching-outline-of-deal.html",
-      "summary": "The U.S. president said Iran and its regional neighbors asked the U.S. to hold off on attacks after 'the perimeters of a deal has been agreed to.'",
-      "published": "02 Aug 2026 17:18 WIB",
+      "title": "CNBC Daily Open: Pasar kehabisan napas saat Trump mundur, OPEC+ meningkat",
+      "url": "https://www.cnbc.com/2026/08/03/trump-ceasefire-nuclear-deal-strait-of-hormuz-opec-oil-output-.html",
+      "summary": "Trump's canceled strike on Iran and an OPEC+ output hike drained the war premium from oil over the weekend, sending crude lower and stock futures higher.",
+      "published": "03 Aug 2026 09:53 WIB",
       "sentiment": "Bearish",
-      "score": -0.216,
+      "score": -0.995,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -369,7 +369,7 @@
       "summary": "Oil price volatility caused by U.S.-Iran war created big market winners, but for buy-and-hold investors, there are better long-term energy themes to monitor.",
       "published": "02 Aug 2026 20:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.685,
+      "score": 0.659,
       "emoji": "🟢",
       "impact": "high"
     }

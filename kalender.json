@@ -1,5 +1,5 @@
 {
-  "generated": "03 Aug 2026 07:01 WIB",
+  "generated": "03 Aug 2026 09:58 WIB",
   "events": [
     {
       "date": "2026-08-02",
@@ -41,7 +41,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "Final Manufacturing PMI",
-      "actual": "",
+      "actual": "54.5",
       "forecast": "54.7",
       "previous": "54.7"
     },
@@ -52,7 +52,7 @@
       "currency": "AUD",
       "impact": "low",
       "event": "MI Inflation Gauge m/m",
-      "actual": "",
+      "actual": "1.0%",
       "forecast": "",
       "previous": "-0.4%"
     },
@@ -63,7 +63,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "RatingDog Manufacturing PMI",
-      "actual": "",
+      "actual": "50.9",
       "forecast": "51.9",
       "previous": "51.7"
     },
@@ -642,6 +642,17 @@
     {
       "date": "2026-08-05",
       "day": "Rabu",
+      "time_wib": "04:35",
+      "currency": "USD",
+      "impact": "low",
+      "event": "FOMC Member Daly Speaks",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "2026-08-05",
+      "day": "Rabu",
       "time_wib": "05:30",
       "currency": "AUD",
       "impact": "low",
@@ -1023,6 +1034,17 @@
       "actual": "",
       "forecast": "12.1B",
       "previous": "-0.2B"
+    },
+    {
+      "date": "2026-08-08",
+      "day": "Sabtu",
+      "time_wib": "20:45",
+      "currency": "USD",
+      "impact": "low",
+      "event": "FOMC Member Bowman Speaks",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
     },
     {
       "date": "2026-08-08",
