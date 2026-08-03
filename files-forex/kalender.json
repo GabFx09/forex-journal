@@ -1,5 +1,5 @@
 {
-  "generated": "03 Aug 2026 04:54 WIB",
+  "generated": "03 Aug 2026 07:01 WIB",
   "events": [
     {
       "date": "2026-08-02",
@@ -30,9 +30,9 @@
       "currency": "NZD",
       "impact": "low",
       "event": "Building Consents m/m",
-      "actual": "",
+      "actual": "-3.6%",
       "forecast": "",
-      "previous": "-4.0%"
+      "previous": "-4.9%"
     },
     {
       "date": "2026-08-02",
