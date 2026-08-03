@@ -1,5 +1,5 @@
 {
-  "generated": "03 Aug 2026 09:58 WIB",
+  "generated": "03 Aug 2026 22:04 WIB",
   "events": [
     {
       "date": "2026-08-02",
@@ -74,9 +74,9 @@
       "currency": "EUR",
       "impact": "low",
       "event": "German Retail Sales m/m",
-      "actual": "",
+      "actual": "-1.1%",
       "forecast": "-0.4%",
-      "previous": "1.1%"
+      "previous": "1.2%"
     },
     {
       "date": "2026-08-02",
@@ -85,7 +85,7 @@
       "currency": "CHF",
       "impact": "medium",
       "event": "CPI m/m",
-      "actual": "",
+      "actual": "-0.1%",
       "forecast": "-0.1%",
       "previous": "0.0%"
     },
@@ -96,7 +96,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Spanish Manufacturing PMI",
-      "actual": "",
+      "actual": "50.2",
       "forecast": "50.5",
       "previous": "49.7"
     },
@@ -107,7 +107,7 @@
       "currency": "CHF",
       "impact": "low",
       "event": "Manufacturing PMI",
-      "actual": "",
+      "actual": "53.2",
       "forecast": "54.5",
       "previous": "54.3"
     },
@@ -118,7 +118,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Italian Manufacturing PMI",
-      "actual": "",
+      "actual": "51.3",
       "forecast": "52.5",
       "previous": "52.2"
     },
@@ -129,7 +129,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "French Final Manufacturing PMI",
-      "actual": "",
+      "actual": "49.8",
       "forecast": "50.0",
       "previous": "50.0"
     },
@@ -140,7 +140,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "German Final Manufacturing PMI",
-      "actual": "",
+      "actual": "52.2",
       "forecast": "52.2",
       "previous": "52.2"
     },
@@ -151,7 +151,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Final Manufacturing PMI",
-      "actual": "",
+      "actual": "51.9",
       "forecast": "52.0",
       "previous": "52.0"
     },
@@ -162,7 +162,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "Final Manufacturing PMI",
-      "actual": "",
+      "actual": "51.9",
       "forecast": "52.8",
       "previous": "52.8"
     },
@@ -184,7 +184,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Final Manufacturing PMI",
-      "actual": "",
+      "actual": "53.9",
       "forecast": "53.8",
       "previous": "53.8"
     },
@@ -195,7 +195,7 @@
       "currency": "USD",
       "impact": "high",
       "event": "ISM Manufacturing PMI",
-      "actual": "",
+      "actual": "55.6",
       "forecast": "54.0",
       "previous": "53.3"
     },
@@ -206,7 +206,7 @@
       "currency": "USD",
       "impact": "medium",
       "event": "ISM Manufacturing Prices",
-      "actual": "",
+      "actual": "71.1",
       "forecast": "70.0",
       "previous": "73.0"
     },
@@ -217,9 +217,9 @@
       "currency": "USD",
       "impact": "low",
       "event": "Construction Spending m/m",
-      "actual": "",
+      "actual": "-0.1%",
       "forecast": "0.2%",
-      "previous": "0.1%"
+      "previous": "0.0%"
     },
     {
       "date": "2026-08-03",
