@@ -1,5 +1,5 @@
 {
-  "generated": "04 Aug 2026 09:37 WIB",
+  "generated": "04 Aug 2026 22:02 WIB",
   "events": [
     {
       "date": "2026-08-02",
@@ -283,7 +283,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "10-y Bond Auction",
-      "actual": "",
+      "actual": "2.84|2.6",
       "forecast": "",
       "previous": "2.73|3.1"
     },
@@ -294,9 +294,9 @@
       "currency": "AUD",
       "impact": "low",
       "event": "Commodity Prices y/y",
-      "actual": "",
+      "actual": "15.4%",
       "forecast": "",
-      "previous": "16.9%"
+      "previous": "14.6%"
     },
     {
       "date": "2026-08-04",
@@ -305,7 +305,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "French Gov Budget Balance",
-      "actual": "",
+      "actual": "-106.8B",
       "forecast": "",
       "previous": "-93.3B"
     },
@@ -316,7 +316,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Spanish Unemployment Change",
-      "actual": "",
+      "actual": "19.5K",
       "forecast": "-18.4K",
       "previous": "-28.7K"
     },
@@ -327,7 +327,7 @@
       "currency": "EUR",
       "impact": "low",
       "event": "Italian Retail Sales m/m",
-      "actual": "",
+      "actual": "-0.1%",
       "forecast": "0.3%",
       "previous": "0.2%"
     },
@@ -338,9 +338,9 @@
       "currency": "CAD",
       "impact": "low",
       "event": "Trade Balance",
-      "actual": "",
+      "actual": "3.9B",
       "forecast": "3.0B",
-      "previous": "4.2B"
+      "previous": "3.7B"
     },
     {
       "date": "2026-08-04",
@@ -349,7 +349,7 @@
       "currency": "USD",
       "impact": "low",
       "event": "Trade Balance",
-      "actual": "",
+      "actual": "-73.3B",
       "forecast": "-73.0B",
       "previous": "-77.6B"
     },
@@ -360,7 +360,7 @@
       "currency": "CAD",
       "impact": "low",
       "event": "Manufacturing PMI",
-      "actual": "",
+      "actual": "53.5",
       "forecast": "52.2",
       "previous": "53.0"
     },
@@ -371,9 +371,9 @@
       "currency": "USD",
       "impact": "medium",
       "event": "JOLTS Job Openings",
-      "actual": "",
+      "actual": "7.36M",
       "forecast": "7.44M",
-      "previous": "7.59M"
+      "previous": "7.54M"
     },
     {
       "date": "2026-08-04",
@@ -382,18 +382,18 @@
       "currency": "USD",
       "impact": "low",
       "event": "Factory Orders m/m",
-      "actual": "",
+      "actual": "-0.3%",
       "forecast": "0.2%",
-      "previous": "-1.3%"
+      "previous": "-1.1%"
     },
     {
       "date": "2026-08-04",
       "day": "Selasa",
-      "time_wib": "19:30",
+      "time_wib": "20:13",
       "currency": "USD",
       "impact": "low",
       "event": "RCM/TIPP Economic Optimism",
-      "actual": "",
+      "actual": "45.1",
       "forecast": "47.5",
       "previous": "45.5"
     },
@@ -636,7 +636,7 @@
       "impact": "low",
       "event": "Crude Oil Inventories",
       "actual": "",
-      "forecast": "",
+      "forecast": "-0.9M",
       "previous": "-7.2M"
     },
     {
