@@ -1,5 +1,5 @@
 {
-  "generated": "04 Aug 2026 05:35 WIB",
+  "generated": "04 Aug 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.133,
-      "count": 22
+      "score": -0.091,
+      "count": 24
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.168,
-      "count": 21
+      "score": -0.121,
+      "count": 23
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.123,
-      "count": 13
+      "score": -0.107,
+      "count": 14
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.36,
-      "count": 9
+      "score": -0.293,
+      "count": 8
     },
     {
       "pair": "CAD/JPY",
@@ -41,19 +41,41 @@
       "count": 5
     },
     {
-      "pair": "AUD/USD",
+      "pair": "CAD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.752,
-      "count": 2
+      "score": -0.282,
+      "count": 1
     },
     {
-      "pair": "USD/CNY",
+      "pair": "NOK/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.752,
-      "count": 2
+      "score": -0.282,
+      "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Informasi lebih lanjut mengenai hal ini - Inflasi inti Korea Selatan mencapai level tertinggi dalam 2-1/2 tahun meskipun berita utama melemah",
+      "url": "https://investinglive.com/news/more-info-on-this-south-korea-core-inflation-hits-2-1-2-year-high-despite-headline-cooling/",
+      "summary": "The undershoot on both headline and monthly CPI is likely to be read as giving the Bank of Korea some breathing room, even as the vice finance minister's comments on persistent upward pressures suggest policymakers are not treating the softer print as a green light to ease. The core CPI acceleration",
+      "published": "04 Aug 2026 06:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.056,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI - HSBC tetap bullish pada saham AS, menyebut rotasi aksi jual chip bukan kapitulasi",
+      "url": "https://investinglive.com/stock-market-update/icymi-hsbc-stays-bullish-on-us-stocks-calls-chip-selloff-rotation-not-capitulation/",
+      "summary": "The rotation framing matters for positioning, since it implies investors are reallocating within the AI trade rather than abandoning it, which could limit further downside in semiconductor names once portfolio reshuffling runs its course. The sharp rebound in software stocks alongside the chip pullb",
+      "published": "04 Aug 2026 05:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.332,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "ICYMI: Ketua Federal Reserve Warsh mempertimbangkan untuk memotong pertemuan Fed, perubahan kebijakan terbesar dalam beberapa dekade",
@@ -132,17 +154,6 @@
       "impact": "medium"
     },
     {
-      "source": "ForexLive",
-      "title": "Final PMI Manufaktur Global S&P untuk bulan Juli 53,9 vs pendahuluan 53,8",
-      "url": "https://investinglive.com/news/s-p-global-manufacturing-pmi-final-for-july-53-9-vs-53-8-preliminary/",
-      "summary": "Preliminary 53.8. Last month 53.9 Key Takeaways PMI unchanged at 53.9, signaling continued but steady manufacturing expansion. Output growth slowed to its weakest pace since March. New orders softened for the third consecutive month. Export demand remained weak, hurt by tariffs and subdued global de",
-      "published": "03 Aug 2026 20:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.891,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
       "source": "FXStreet News",
       "title": "Dolar Australia merosot ke 0,70 karena PMI ISM AS menghidupkan kembali Dolar AS",
       "url": "https://www.fxstreet.com/news/australian-dollar-slides-to-070-as-us-ism-pmi-revives-the-us-dollar-202608032230",
@@ -188,7 +199,7 @@
     },
     {
       "source": "FXStreet News",
-      "title": "Emas berkonsolidasi karena konflik antara berita utama AS-Iran dan spekulasi Fed yang hawkish membatasi kenaikan",
+      "title": "Emas berkonsolidasi karena konflik berita utama AS-Iran dan spekulasi Fed yang hawkish membatasi kenaikan",
       "url": "https://www.fxstreet.com/news/gold-struggles-to-hold-gains-amid-mixed-us-iran-headlines-hawkish-fed-202608031058",
       "summary": "Gold (XAU/USD) trims gains after opening the week with a bullish gap as buyers lack conviction amid conflicting US-Iran headlines and caution ahead of key US employment data. At the time of writing, XAU/USD trades around $4,036, easing from an intraday high of $4,084.",
       "published": "03 Aug 2026 17:58 WIB",
@@ -209,8 +220,19 @@
       "impact": "low"
     },
     {
+      "source": "Investing.com Forex",
+      "title": "Eli Lilly menawarkan akses awal terhadap obat obesitas generasi berikutnya kepada beberapa pasien",
+      "url": "https://www.investing.com/news/stock-market-news/eli-lilly-to-offer-early-access-to-nextgen-obesity-drug-to-some-patients-4832511",
+      "summary": "",
+      "published": "04 Aug 2026 05:36 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
       "source": "Reuters Currencies",
-      "title": "Penawaran Pagi: Banyak yang 'harus dilakukan' terkait intervensi yen - Reuters",
+      "title": "Penawaran Pagi: Banyak 'yang harus dilakukan' mengenai intervensi yen - Reuters",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjN4VTZkRW15YUdiR1lOajdhS1dvb1JFOXA1QzRtdVlHbWdTWEpyYm83QjJ5MzJ3VU13VWo1WVlraUJhLV8zbWJMbzVZSnpBVFNFcGx5Rk9HcWdDbTZ1N1BKbjdjY19Sazk5RUY5YWJlSzhWRUx6TmlTUURsYmpnNWJBVUc3cWhaQWdoU0NsRi1uME93TC1n?oc=5",
       "summary": "Morning Bid: Much 'to do' about yen intervention Reuters",
       "published": "03 Aug 2026 17:41 WIB",
@@ -218,6 +240,17 @@
       "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Nasdaq Futures Naik Setelah Reli Teknologi, Yen Stabil: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/stock-market-today-dow-s-p-live-updates",
+      "summary": "US stock index futures climbed in early Asian trading as cooling tensions in the Middle East and strong technology earnings buoyed equities. The yen steadied after its intervention-led gains.",
+      "published": "04 Aug 2026 05:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.619,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -273,17 +306,6 @@
       "score": -0.208,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Risiko Perang Iran Masih Penting di Latar Belakang, Kata Torsten Slok",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-03/iran-war-risk-still-important-in-background-says-slok-video",
-      "summary": "Torsten Slok, chief economist at Apollo, said that while AI and the Fed may be issues more at the forefront of the economic conversation, risk from the Iran war and its subsequent impact on fuel stores remains an important factor in the background. Slok also commented the possibility that the Fed ma",
-      "published": "04 Aug 2026 02:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.797,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "Google News Forex",
@@ -353,7 +375,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump mengatakan pembicaraan dengan Iran adalah ‘kesempatan terakhir’ untuk mencapai kesepakatan",
+      "title": "Trump mengatakan pembicaraan dengan Iran adalah 'kesempatan terakhir' untuk mencapai kesepakatan",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-says-talks-with-iran-are-last-chance-to-forge-a-deal?traffic_source=rss",
       "summary": "US President Donald Trump said Iran has a \"last chance\" to reach a nuclear agreement.",
       "published": "04 Aug 2026 02:45 WIB",
@@ -396,28 +418,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Di dalam protes Aksi Palestina",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/inside-the-palestine-action-protests?traffic_source=rss",
-      "summary": "After the UK proscribed Palestine Action as a terrorist organisation, thousands were arrested or investigated.",
-      "published": "03 Aug 2026 23:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.866,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Angkatan Laut Rumania meledakkan dasar sungai untuk melindungi pembangkit listrik tenaga nuklir",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/romanian-navy-blasts-riverbed-to-protect-nuclear-plant?traffic_source=rss",
-      "summary": "Romania's military detonated part of the Danube riverbed to redirect water towards the Cernavoda Nuclear Power Plant.",
-      "published": "03 Aug 2026 23:01 WIB",
-      "sentiment": "Bullish",
-      "score": 0.302,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "CNBC World",
       "title": "Dua puluh lima negara bagian menuntut pemerintahan Trump atas tarif global terbaru",
       "url": "https://www.cnbc.com/2026/08/03/trump-tariffs-25-states-lawsuit-supreme-court.html",
@@ -433,22 +433,11 @@
       "title": "Palantir melonjak 12% pada kuartal ledakan, dengan pendapatan komersial AS melonjak hampir 150%",
       "url": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
       "summary": "Palantir's second-quarter earnings beat expectations, and the AI software company lifted revenue guidance.",
-      "published": "04 Aug 2026 04:34 WIB",
+      "published": "04 Aug 2026 05:47 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump mengatakan Exxon dan Chevron menghasilkan 'terlalu banyak uang' dari tingginya harga minyak selama konflik Iran: 'Saya tidak menyukainya'",
-      "url": "https://www.cnbc.com/2026/08/03/trump-says-exxon-and-chevron-made-too-much-money-off-high-oil-prices-during-iran-conflict-i-dont-like-it.html",
-      "summary": "U.S. crude oil prices have gained about 20% since the U.S. and Israel attacked Iran on Feb. 28.",
-      "published": "04 Aug 2026 03:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.898,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "CNBC World",
@@ -459,6 +448,17 @@
       "sentiment": "Bullish",
       "score": 0.25,
       "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump mengatakan Exxon dan Chevron menghasilkan 'terlalu banyak uang' dari tingginya harga minyak selama konflik Iran: 'Saya tidak menyukainya'",
+      "url": "https://www.cnbc.com/2026/08/03/trump-says-exxon-and-chevron-made-too-much-money-off-high-oil-prices-during-iran-conflict-i-dont-like-it.html",
+      "summary": "U.S. crude oil prices have gained about 20% since the U.S. and Israel attacked Iran on Feb. 28.",
+      "published": "04 Aug 2026 03:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.898,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
