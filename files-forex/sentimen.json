@@ -1,36 +1,36 @@
 {
-  "generated": "04 Aug 2026 05:35 WIB",
+  "generated": "04 Aug 2026 07:02 WIB",
   "summary": {
-    "total": 98,
-    "bullish": 44,
+    "total": 94,
+    "bullish": 46,
     "bearish": 38,
-    "netral": 16,
-    "avg_score": -0.0309,
+    "netral": 10,
+    "avg_score": 0.0272,
     "overall": "Netral",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.13,
-        "count": 30
+        "score": 0.237,
+        "count": 29
       },
       {
         "currency": "JPY",
         "sentiment": "Bullish",
-        "score": 0.171,
-        "count": 11
+        "score": 0.288,
+        "count": 14
       },
       {
         "currency": "EUR",
         "sentiment": "Bullish",
-        "score": 0.217,
-        "count": 7
+        "score": 0.303,
+        "count": 5
       },
       {
         "currency": "CHF",
         "sentiment": "Netral",
-        "score": 0.027,
-        "count": 3
+        "score": 0.04,
+        "count": 2
       },
       {
         "currency": "GBP",
@@ -41,6 +41,61 @@
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Informasi lebih lanjut mengenai hal ini - Inflasi inti Korea Selatan mencapai level tertinggi dalam 2-1/2 tahun meskipun berita utama melemah",
+      "url": "https://investinglive.com/news/more-info-on-this-south-korea-core-inflation-hits-2-1-2-year-high-despite-headline-cooling/",
+      "summary": "The undershoot on both headline and monthly CPI is likely to be read as giving the Bank of Korea some breathing room, even as the vice finance minister's comments on persistent upward pressures suggest policymakers are not treating the softer print as a green light to ease. The core CPI acceleration",
+      "published": "04 Aug 2026 06:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.056,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "CPI inti Korea Selatan (Juli) menunjukkan kenaikan tahunan terbesar sejak Desember 2023",
+      "url": "https://investinglive.com/news/south-korea-core-cpi-july-shows-biggest-annual-rise-since-december-2023/",
+      "summary": "South Korea July CPI came in at +2.8% y/y, below the Reuters poll estimate of +3.0% and down from +3.2% in June, marking a three-month low. On a monthly basis, CPI fell 0.2%, versus expectations for +0.1%, its first monthly decline since November 2025, driven by a 5.5% drop in petroleum prices. Core",
+      "published": "04 Aug 2026 06:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.574,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Ketua Amazon Jeff Bezos telah menjual saham AMZN miliknya senilai $4,07 miliar",
+      "url": "https://investinglive.com/stocks/amazon-chair-jeff-bezos-has-sold-4-07-billion-worth-of-his-amzn-shares/",
+      "summary": "Just a post for info. This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "04 Aug 2026 06:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.586,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Pendapatan Palantir melonjak 93% karena Karp memuji kuartal \"dunia lain\", meningkatkan panduan",
+      "url": "https://investinglive.com/stocks/palantir-revenue-jumps-93-as-karp-hails-otherworldly-quarter-raises-guidance/",
+      "summary": "The scale of the U.S. commercial growth, up 149% year over year, is likely to draw the most attention from investors, since it points to accelerating enterprise adoption well beyond the government contracts that have historically anchored Palantir's business. A Rule of 40 score of 155% is an unusual",
+      "published": "04 Aug 2026 05:50 WIB",
+      "sentiment": "Bullish",
+      "score": 1.0,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI - HSBC tetap bullish pada saham AS, menyebut rotasi aksi jual chip bukan kapitulasi",
+      "url": "https://investinglive.com/stock-market-update/icymi-hsbc-stays-bullish-on-us-stocks-calls-chip-selloff-rotation-not-capitulation/",
+      "summary": "The rotation framing matters for positioning, since it implies investors are reallocating within the AI trade rather than abandoning it, which could limit further downside in semiconductor names once portfolio reshuffling runs its course. The sharp rebound in software stocks alongside the chip pullb",
+      "published": "04 Aug 2026 05:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.332,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "ICYMI: Ketua Federal Reserve Warsh mempertimbangkan untuk memotong pertemuan Fed, perubahan kebijakan terbesar dalam beberapa dekade",
@@ -207,59 +262,15 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Trump: Iran sungguh bermuka dua",
-      "url": "https://investinglive.com/news/trump-iran-is-unbelievably-duplicitous/",
-      "summary": "Trump is on TruthSocial (I assume it is not the $100,000 one) where he is saying that Iran leadership is unbelievably duplicitous. The full post reads: Of course Trump can have his \"duplicitous\" moments as well. Just saying. This article was written by Greg Michalowski at investinglive.com.",
-      "published": "03 Aug 2026 22:34 WIB",
+      "source": "FXStreet News",
+      "title": "Emas turun mendekati $4.050 karena ketidakpastian pembicaraan AS-Iran",
+      "url": "https://www.fxstreet.com/news/gold-declines-to-near-4-050-on-us-iran-talks-uncertainty-202608032319",
+      "summary": "Gold price (XAU/USD) declines to near $4,050 during the early Asian session on Tuesday. The precious metal eased slightly from the recent rally after the US paused planned airstrikes against Iran. Traders will closely monitor the developments surrounding US-Iran talks for fresh impetus.",
+      "published": "04 Aug 2026 06:19 WIB",
       "sentiment": "Bullish",
-      "score": 0.273,
+      "score": 0.78,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "USDCHF berjalan lebih tinggi pada perdagangan NA dan memasuki resistance area swing",
-      "url": "https://investinglive.com/technical-analysis/usdchf-runs-higher-in-na-trading-and-enters-into-swing-area-resistance/",
-      "summary": "The USDCHF has moved higher today, rebounding from support at the 38.2% retracement of the rally from the late-May low at 0.8049. That bounce carried the pair to 0.8087 during the European session before extending further to a new intraday high at 0.8113. The latest push has the price testing a key ",
-      "published": "03 Aug 2026 22:26 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Belanja Konstruksi AS untuk bulan Juni -0,1% vs perkiraan 0,2%.",
-      "url": "https://investinglive.com/news/us-construction-spending-for-june-0-1-vs-0-2-estimate/",
-      "summary": "Prior month 0.0% revised from 0.1%. Construction spending -0.1% versus +0.2% estimate This article was written by Greg Michalowski at investinglive.com.",
-      "published": "03 Aug 2026 21:03 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "IMP Manufaktur ISM AS untuk bulan Juli 55,6 versus perkiraan 54,0",
-      "url": "https://investinglive.com/news/us-ism-manufacturing-pmi-for-july-55-6-versus-54-0-estimate/",
-      "summary": "Prior month 53.3 Prices paid 71.1 versus 71.0 estimate.. Prior month 73.0 Employment 52.8 versus 49.7 last month. New orders 56.7 versus 56.0 last month Here are the other components for July vs June: Production: 58.5 vs 52.2 Supplier Deliveries: 58.9 vs 57.4 Inventories: 51.2 vs 51.4 Customers' Inv",
-      "published": "03 Aug 2026 21:02 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Final PMI Manufaktur Global S&P untuk bulan Juli 53,9 vs pendahuluan 53,8",
-      "url": "https://investinglive.com/news/s-p-global-manufacturing-pmi-final-for-july-53-9-vs-53-8-preliminary/",
-      "summary": "Preliminary 53.8. Last month 53.9 Key Takeaways PMI unchanged at 53.9, signaling continued but steady manufacturing expansion. Output growth slowed to its weakest pace since March. New orders softened for the third consecutive month. Export demand remained weak, hurt by tariffs and subdued global de",
-      "published": "03 Aug 2026 20:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.891,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "FXStreet News",
@@ -417,7 +428,7 @@
     },
     {
       "source": "FXStreet News",
-      "title": "Emas berkonsolidasi karena konflik antara berita utama AS-Iran dan spekulasi Fed yang hawkish membatasi kenaikan",
+      "title": "Emas berkonsolidasi karena konflik berita utama AS-Iran dan spekulasi Fed yang hawkish membatasi kenaikan",
       "url": "https://www.fxstreet.com/news/gold-struggles-to-hold-gains-amid-mixed-us-iran-headlines-hawkish-fed-202608031058",
       "summary": "Gold (XAU/USD) trims gains after opening the week with a bullish gap as buyers lack conviction amid conflicting US-Iran headlines and caution ahead of key US employment data. At the time of writing, XAU/USD trades around $4,036, easing from an intraday high of $4,084.",
       "published": "03 Aug 2026 17:58 WIB",
@@ -449,22 +460,22 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Berita Sela: IMP Manufaktur ISM AS naik menjadi 55,6 di bulan Juli vs perkiraan 54",
-      "url": "https://www.fxstreet.com/news/us-ism-manufacturing-pmi-is-expected-to-show-strong-factory-activity-in-july-202608031000",
-      "summary": "Business activity in the US manufacturing sector expanded at an accelerating pace in July, with the Institute for Supply Management's (ISM) Manufacturing Purchasing Managers' Index (PMI) rising to 55.6 from 53.3 in June. This reading came in better than the market expectation of 54.",
-      "published": "03 Aug 2026 17:00 WIB",
+      "source": "Investing.com Forex",
+      "title": "Inflasi Korea Selatan turun ke level terendah dalam 3 bulan di bulan Juli, CPI inti melonjak",
+      "url": "https://www.investing.com/news/stock-market-news/south-korea-inflation-eases-to-3mth-low-in-july-core-cpi-surges-93CH-4832581",
+      "summary": "",
+      "published": "04 Aug 2026 06:49 WIB",
       "sentiment": "Bullish",
-      "score": 0.44,
+      "score": 0.132,
       "emoji": "🟢",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Pengadilan tertinggi California memutuskan Gilead, mengatakan produsen obat tidak memiliki 'kewajiban untuk berinovasi'",
-      "url": "https://www.investing.com/news/stock-market-news/californias-highest-court-rules-for-gilead-says-drugmakers-dont-have-duty-to-innovate-4832104",
+      "title": "CXMT: Apa yang terjadi setelah IPO semikonduktor terbesar di Tiongkok?",
+      "url": "https://www.investing.com/news/stock-market-news/cxmt-what-comes-after-chinas-largestever-semiconductor-ipo-93CH-4832567",
       "summary": "",
-      "published": "04 Aug 2026 04:36 WIB",
+      "published": "04 Aug 2026 06:38 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -472,10 +483,10 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Mengapa saham Ichor Holdings merosot hari ini?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-ichor-holdings-stock-sliding-today-93CH-4832427",
+      "title": "Vanadium Australia bermitra dengan Alcoa dalam studi penyimpanan baterai",
+      "url": "https://www.investing.com/news/stock-market-news/australian-vanadium-partners-with-alcoa-on-battery-storage-study-93CH-4832566",
       "summary": "",
-      "published": "04 Aug 2026 04:36 WIB",
+      "published": "04 Aug 2026 06:37 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -483,21 +494,21 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Snap mengalahkan perkiraan pendapatan pada peningkatan iklan dari Piala Dunia, dan saham melonjak",
-      "url": "https://www.investing.com/news/stock-market-news/snap-beats-revenue-estimates-on-ad-boost-from-world-cup-4832234",
+      "title": "Grab Singapura meningkatkan perkiraan pada tahun 2026 mengenai pengiriman yang solid dan permintaan layanan transportasi online",
+      "url": "https://www.investing.com/news/stock-market-news/singapores-grab-lifts-annual-revenue-forecast-4832501",
       "summary": "",
-      "published": "04 Aug 2026 04:31 WIB",
-      "sentiment": "Bullish",
-      "score": 0.679,
-      "emoji": "🟢",
+      "published": "04 Aug 2026 06:36 WIB",
+      "sentiment": "Netral",
+      "score": 0.026,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
       "source": "Investing.com Forex",
-      "title": "SuKarne, eksportir daging terbesar di Meksiko, sedang menjajaki penjualan, kata sumber",
-      "url": "https://www.investing.com/news/stock-market-news/exclusivemexicos-largest-meat-exporter-sukarne-explores-sale-sources-say-4832422",
+      "title": "Raksasa foil tembaga Tiongkok Londian Wason mengincar valuasi $1,7 miliar dalam IPO AS",
+      "url": "https://www.investing.com/news/stock-market-news/chinese-copper-foil-giant-londian-wason-eyes-17-billion-valuation-in-us-ipo-4830427",
       "summary": "",
-      "published": "04 Aug 2026 04:30 WIB",
+      "published": "04 Aug 2026 06:18 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -505,68 +516,68 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Saham Meksiko melemah pada penutupan perdagangan; S&P/BMV IPC turun 0,36%",
-      "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-036-4832419",
+      "title": "Electronic Arts meleset dari perkiraan pemesanan triwulanan menjelang pembelian yang didukung Saudi",
+      "url": "https://www.investing.com/news/stock-market-news/electronic-arts-misses-quarterly-bookings-estimates-ahead-of-saudibacked-buyout-4832552",
       "summary": "",
-      "published": "04 Aug 2026 04:30 WIB",
+      "published": "04 Aug 2026 06:18 WIB",
       "sentiment": "Bearish",
-      "score": -0.296,
+      "score": -0.306,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Mengapa stok Custom Truck One Source hari ini?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-custom-truck-one-source-stock-up-today-93CH-4832417",
+      "title": "Palantir meningkatkan perkiraan pendapatan tahunan karena permintaan yang stabil untuk analisis data yang didukung AI",
+      "url": "https://www.investing.com/news/stock-market-news/palantir-raises-annual-revenue-forecast-on-strong-demand-from-us-government-commercial-customers-4832191",
       "summary": "",
-      "published": "04 Aug 2026 04:27 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham Kolombia melemah pada penutupan perdagangan; COLCAP turun 0,31%",
-      "url": "https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-031-4832412",
-      "summary": "",
-      "published": "04 Aug 2026 04:25 WIB",
+      "published": "04 Aug 2026 06:12 WIB",
       "sentiment": "Bearish",
-      "score": -0.296,
+      "score": -0.128,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Mengapa saham Ameresco melonjak hari ini?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-ameresco-stock-surging-today-93CH-4832409",
+      "title": "Qantas Australia akan keluar dari Jetstar Jepang dalam kesepakatan pembelian kembali saham senilai $52 juta",
+      "url": "https://www.investing.com/news/stock-market-news/australias-qantas-to-exit-jetstar-japan-in-52-million-share-buyback-deal-4832532",
       "summary": "",
-      "published": "04 Aug 2026 04:23 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham Rusia menguat pada penutupan perdagangan; Indeks MOEX Rusia naik 1,60%",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-higher-at-close-of-trade-moex-russia-index-up-160-4832405",
-      "summary": "",
-      "published": "04 Aug 2026 04:20 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Pemegang saham Danaher memuji pilihan CEO baru",
-      "url": "https://www.investing.com/news/stock-market-news/danaher-shareholders-applaud-new-ceo-pick-93CH-4832404",
-      "summary": "",
-      "published": "04 Aug 2026 04:19 WIB",
+      "published": "04 Aug 2026 06:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.459,
+      "score": 0.376,
       "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "TikTok menyelesaikan tiga tuntutan hukum remaja di media sosial sebelum persidangan",
+      "url": "https://www.investing.com/news/stock-market-news/tiktok-settling-three-teen-social-media-lawsuits-ahead-of-trial-4832472",
+      "summary": "",
+      "published": "04 Aug 2026 05:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.153,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Eli Lilly menawarkan akses awal terhadap obat obesitas generasi berikutnya kepada beberapa pasien",
+      "url": "https://www.investing.com/news/stock-market-news/eli-lilly-to-offer-early-access-to-nextgen-obesity-drug-to-some-patients-4832511",
+      "summary": "",
+      "published": "04 Aug 2026 05:36 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Economy",
+      "title": "Inflasi Korea Selatan turun ke level terendah dalam tiga bulan, namun risiko tetap ada",
+      "url": "https://www.investing.com/news/economic-indicators/south-korea-july-inflation-28-yy-weaker-than-expected-4832540",
+      "summary": "",
+      "published": "04 Aug 2026 06:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.574,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -625,25 +636,36 @@
       "impact": "medium"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Output manufaktur zona euro meningkat pada laju tercepat sejak Maret 2022",
-      "url": "https://www.investing.com/news/economic-indicators/eurozone-manufacturing-output-rises-at-fastest-pace-since-march-2022-93CH-4829973",
-      "summary": "",
-      "published": "03 Aug 2026 15:15 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
       "source": "Reuters Currencies",
-      "title": "Penawaran Pagi: Banyak yang 'harus dilakukan' terkait intervensi yen - Reuters",
+      "title": "Penawaran Pagi: Banyak 'yang harus dilakukan' mengenai intervensi yen - Reuters",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZjN4VTZkRW15YUdiR1lOajdhS1dvb1JFOXA1QzRtdVlHbWdTWEpyYm83QjJ5MzJ3VU13VWo1WVlraUJhLV8zbWJMbzVZSnpBVFNFcGx5Rk9HcWdDbTZ1N1BKbjdjY19Sazk5RUY5YWJlSzhWRUx6TmlTUURsYmpnNWJBVUc3cWhaQWdoU0NsRi1uME93TC1n?oc=5",
       "summary": "Morning Bid: Much 'to do' about yen intervention Reuters",
       "published": "03 Aug 2026 17:41 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Emas Stabil karena Pembicaraan Timur Tengah Membebani Prospek Suku Bunga",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/gold-steady-as-middle-east-talks-weigh-on-interest-rate-outlook",
+      "summary": "Gold moved in a narrow range as traders monitored talks in the Middle East for signs of progress that would ease pressure on the US Federal Reserve to raise interest rates.",
+      "published": "04 Aug 2026 06:25 WIB",
+      "sentiment": "Bullish",
+      "score": 0.844,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Nasdaq Futures Naik Setelah Reli Teknologi, Yen Stabil: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/stock-market-today-dow-s-p-live-updates",
+      "summary": "US stock index futures climbed in early Asian trading as cooling tensions in the Middle East and strong technology earnings buoyed equities. The yen steadied after its intervention-led gains.",
+      "published": "04 Aug 2026 05:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.619,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -733,28 +755,6 @@
       "score": -0.208,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Peluncuran Dana dan Memanfaatkan ETF Membanjiri Industri | ETF IQ 8/3/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-03/etf-iq-8-3-2026-video",
-      "summary": "\"Bloomberg ETF IQ\" focuses on the opportunities, risks and current trends tied to the trillions of dollars in the global exchange traded funds industry. Today's guests: Vident Asset Management President Amrita Nandakumar, Matthews CIO & Portfolio Manager Sean Taylor, Amplify ETFs Founder & CEO Chris",
-      "published": "04 Aug 2026 02:36 WIB",
-      "sentiment": "Bullish",
-      "score": 0.379,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Risiko Perang Iran Masih Penting di Latar Belakang, Kata Torsten Slok",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-03/iran-war-risk-still-important-in-background-says-slok-video",
-      "summary": "Torsten Slok, chief economist at Apollo, said that while AI and the Fed may be issues more at the forefront of the economic conversation, risk from the Iran war and its subsequent impact on fuel stores remains an important factor in the background. Slok also commented the possibility that the Fed ma",
-      "published": "04 Aug 2026 02:26 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "Google News Forex",
@@ -879,28 +879,6 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Finalis X Factor menyangkal membunuh influencer dengan menabraknya dengan mobil",
-      "url": "https://www.bbc.co.uk/news/articles/c75gq56qrwno?at_medium=RSS&at_campaign=rss",
-      "summary": "Gabrielle Carrington denies killing Klaudia Zakrzewska outside Inca nightclub in Soho on 19 April.",
-      "published": "03 Aug 2026 18:35 WIB",
-      "sentiment": "Bearish",
-      "score": -0.936,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Farage mengatakan dia membahas kembali ke dunia politik beberapa bulan sebelum pemilihan umum",
-      "url": "https://www.bbc.co.uk/news/articles/c74g0l1ylpvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Farage said the talks came \"quite some time after\" he received a £5m gift from a Reform donor.",
-      "published": "04 Aug 2026 00:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.44,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC Top Stories",
       "title": "Bagaimana orang tua dan murid mengambil alih sekolah yang 'kejam' dan 'otoriter' - dan menang",
       "url": "https://www.bbc.co.uk/news/articles/cgje8d1p419o?at_medium=RSS&at_campaign=rss",
       "summary": "Discipline at an academy trust went too far - parents, pupils and former teachers tell BBC Panorama.",
@@ -923,7 +901,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump mengatakan pembicaraan dengan Iran adalah ‘kesempatan terakhir’ untuk mencapai kesepakatan",
+      "title": "Trump mengatakan pembicaraan dengan Iran adalah 'kesempatan terakhir' untuk mencapai kesepakatan",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-says-talks-with-iran-are-last-chance-to-forge-a-deal?traffic_source=rss",
       "summary": "US President Donald Trump said Iran has a \"last chance\" to reach a nuclear agreement.",
       "published": "04 Aug 2026 02:45 WIB",
@@ -966,39 +944,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Di dalam protes Aksi Palestina",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/inside-the-palestine-action-protests?traffic_source=rss",
-      "summary": "After the UK proscribed Palestine Action as a terrorist organisation, thousands were arrested or investigated.",
-      "published": "03 Aug 2026 23:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.866,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Angkatan Laut Rumania meledakkan dasar sungai untuk melindungi pembangkit listrik tenaga nuklir",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/romanian-navy-blasts-riverbed-to-protect-nuclear-plant?traffic_source=rss",
-      "summary": "Romania's military detonated part of the Danube riverbed to redirect water towards the Cernavoda Nuclear Power Plant.",
-      "published": "03 Aug 2026 23:01 WIB",
-      "sentiment": "Bullish",
-      "score": 0.302,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Economy",
-      "title": "Mengapa penerbangan begitu mahal dan kemungkinan besar akan tetap seperti itu",
-      "url": "https://www.cnbc.com/2026/08/02/flights-are-getting-even-more-expensive-as-fuel-prices-rise.html",
-      "summary": "Airlines are paying billions of dollars more in fuel costs this year",
-      "published": "02 Aug 2026 19:00 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
       "source": "CNBC World",
       "title": "Apa yang pasar katakan tentang intervensi AS untuk menopang yen",
       "url": "https://www.cnbc.com/2026/08/03/yen-us-intervention-japan-market-currency.html",
@@ -1025,11 +970,22 @@
       "title": "Palantir melonjak 12% pada kuartal ledakan, dengan pendapatan komersial AS melonjak hampir 150%",
       "url": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
       "summary": "Palantir's second-quarter earnings beat expectations, and the AI software company lifted revenue guidance.",
-      "published": "04 Aug 2026 04:34 WIB",
+      "published": "04 Aug 2026 05:47 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Analisis: Federal Reserve mungkin akan terlibat dalam upaya Bessent untuk mendukung yen Jepang",
+      "url": "https://www.cnbc.com/2026/08/03/bessent-fed-japan-yen-fima-repo-facility.html",
+      "summary": "Treasury Secretary Scott Bessent wants to defend the yen without selling Treasurys into a sensitive U.S. bond market. The Federal Reserve could help.",
+      "published": "04 Aug 2026 06:20 WIB",
+      "sentiment": "Bullish",
+      "score": 0.735,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
@@ -1040,17 +996,6 @@
       "sentiment": "Bullish",
       "score": 0.183,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump mengatakan Exxon dan Chevron menghasilkan 'terlalu banyak uang' dari tingginya harga minyak selama konflik Iran: 'Saya tidak menyukainya'",
-      "url": "https://www.cnbc.com/2026/08/03/trump-says-exxon-and-chevron-made-too-much-money-off-high-oil-prices-during-iran-conflict-i-dont-like-it.html",
-      "summary": "U.S. crude oil prices have gained about 20% since the U.S. and Israel attacked Iran on Feb. 28.",
-      "published": "04 Aug 2026 03:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.898,
-      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -1077,6 +1022,28 @@
     },
     {
       "source": "CNBC World",
+      "title": "Trump mengatakan Exxon dan Chevron menghasilkan 'terlalu banyak uang' dari tingginya harga minyak selama konflik Iran: 'Saya tidak menyukainya'",
+      "url": "https://www.cnbc.com/2026/08/03/trump-says-exxon-and-chevron-made-too-much-money-off-high-oil-prices-during-iran-conflict-i-dont-like-it.html",
+      "summary": "U.S. crude oil prices have gained about 20% since the U.S. and Israel attacked Iran on Feb. 28.",
+      "published": "04 Aug 2026 03:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.898,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Mengapa AS turun tangan setelah beberapa dekade untuk menopang yen Jepang – dan apa yang dipertaruhkan",
+      "url": "https://www.cnbc.com/2026/08/03/japan-yen-intervention-us-treasurys-euros-.html",
+      "summary": "Washington's decision to join Japan in supporting the battered yen has prompted questions over what motivated the rare coordinated intervention.",
+      "published": "03 Aug 2026 20:49 WIB",
+      "sentiment": "Bullish",
+      "score": 0.796,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Bisakah Palantir melakukan comeback ala Microsoft? Inilah yang dikatakan opsi",
       "url": "https://www.cnbc.com/2026/08/03/can-palantir-pull-off-a-microsoft-style-comeback-heres-what-options-say.html",
       "summary": "Hopes are running high that high-profile software provider Palantir can shake off its nine-month bear market and rally after earnings.",
@@ -1096,17 +1063,6 @@
       "score": -0.851,
       "emoji": "🔴",
       "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Harga solar di Kalifornia telah melonjak sejak perang Iran dimulai, dan menimbulkan dampak yang besar di seluruh negeri",
-      "url": "https://www.cnbc.com/2026/08/03/californias-diesel-prices-have-jumped-since-the-iran-war-started-with-ripple-effects-across-the-country.html",
-      "summary": "California has the highest gas prices in the country as well as the busiest containership port, meaning consumers across the country could feel the impact of higher diesel.",
-      "published": "04 Aug 2026 02:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.501,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "CNBC Markets",
