@@ -1,179 +1,190 @@
 {
-  "generated": "05 Aug 2026 22:01 WIB",
+  "generated": "06 Aug 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
+      "pair": "USD/CHF",
+      "direction": "Netral →",
+      "score": -0.035,
+      "count": 19
+    },
+    {
       "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.186,
-      "count": 14
+      "direction": "Netral →",
+      "score": -0.035,
+      "count": 19
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.237,
-      "count": 13
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.135,
-      "count": 11
+      "score": -0.109,
+      "count": 19
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.23,
-      "count": 8
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.246,
-      "count": 5
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.246,
-      "count": 5
+      "score": 0.281,
+      "count": 6
     },
     {
       "pair": "AUD/USD",
-      "direction": "Netral →",
-      "score": 0.007,
-      "count": 2
+      "direction": "Tekanan Naik ▲",
+      "score": 0.445,
+      "count": 3
     },
     {
       "pair": "USD/CNY",
-      "direction": "Netral →",
-      "score": 0.007,
-      "count": 2
+      "direction": "Tekanan Naik ▲",
+      "score": 0.445,
+      "count": 3
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.108,
+      "count": 1
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.108,
+      "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Emas melonjak di atas $4.100 karena ekspektasi terhadap kesepakatan AS-Iran mengurangi inflasi, dan Fed memperketat risiko",
-      "url": "https://investinglive.com/commodities/gold-surges-above-4-100-as-expectations-for-a-us-iran-deal-reduce-inflation-fed-tightening-risk/",
-      "summary": "FUNDAMENTAL OVERVIEW Gold has finally found some footing after a couple of headlines yesterday pointed to an imminent US-Iran deal. The initial boost came from Qatari mediators saying that the language for a possible US-Iran agreement had been drafted. Momentum then gathered pace when US Treasury Se",
-      "published": "05 Aug 2026 17:22 WIB",
+      "title": "Penjelasan: apa arti kesepakatan Hormuz yang memberikan kendali pengiriman kepada Iran",
+      "url": "https://investinglive.com/commodities/explainer-what-a-hormuz-deal-giving-iran-shipping-control-would-mean/",
+      "summary": "Any deal perceived to hand Iran meaningful control over shipping through the strait would likely be read by oil markets as a mixed signal, easing immediate war risk while introducing a new and less familiar risk around fees and access terms for tankers moving through the waterway. Reports that regio",
+      "published": "06 Aug 2026 06:07 WIB",
       "sentiment": "Bullish",
-      "score": 0.932,
+      "score": 0.423,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Ketua RBI Malhotra: Kami tidak dovish atau hawkish",
-      "url": "https://investinglive.com/news/rbi-chief-malhotra-we-are-neither-dovish-nor-hawkish/",
-      "summary": "We are neither dovish nor hawkish It's out endeavor to bring inflation in line with target over the medium term Quite possible going forward that as tensions de-escalate that Rupee may strengthen Monetary policy transmission is more or less complete The Reserve Bank of India left its benchmark repo ",
-      "published": "05 Aug 2026 14:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.68,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Opsi FX kedaluwarsa pada 5 Agustus 10 pagi pemotongan New York",
-      "url": "https://investinglive.com/orders/fx-option-expiries-for-5-august-10am-new-york-cut/",
-      "summary": "There is arguably just one to take note of on the day, as highlighted in bold below. That being for EUR/USD at the 1.1500 level. The expiries don't tie much to any technical significance but they rest just below the 100-hour moving average of 1.1512 for now. The currency pair has been keeping above ",
-      "published": "05 Aug 2026 12:14 WIB",
+      "title": "Pemerintahan Trump mengembalikan $100 miliar dari tarif yang telah diturunkan",
+      "url": "https://investinglive.com/news/trump-administration-refunds-100bn-of-struck-down-tariffs/",
+      "summary": "The scale of the refund underscores how significant the Supreme Court's February ruling has been for importers, with more than half of the $166 billion collected under the struck down tariffs now returned. For companies that paid these duties, particularly importers reliant on affected trading relat",
+      "published": "06 Aug 2026 05:53 WIB",
       "sentiment": "Bullish",
-      "score": 0.134,
+      "score": 0.763,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Departemen Keuangan AS mencabut sanksi terhadap Iran karena harapan kesepakatan mendapatkan momentum",
-      "url": "https://www.fxstreet.com/news/us-treasury-lifts-iran-sanctions-as-deal-hopes-gain-momentum-202608051438",
-      "summary": "On Wednesday, the US removed Iran-related sanctions, according to the US Treasury Department’s website. The US Treasury lifted sanctions imposed on two aircraft linked to the Islamic Revolutionary Guard ‌Corps (IRGC) and three airlines.",
-      "published": "05 Aug 2026 21:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.238,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Emas mencapai $4.200 karena data tenaga kerja AS yang lebih lemah karena prospek Fed menjadi kurang hawkish",
-      "url": "https://www.fxstreet.com/news/gold-advances-to-one-month-high-as-hormuz-reopening-hopes-ease-inflation-fears-202608051119",
-      "summary": "Gold (XAU/USD) jumps more than 3.50% on Wednesday as weaker-than-expected US labour market data pressures the US Dollar (USD), while lower Oil prices on hopes of reopening the Strait of Hormuz ease inflation concerns and weaken expectations for Federal Reserve (Fed) rate hikes.",
-      "published": "05 Aug 2026 18:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.17,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Minyak: Geopolitik Menguji Rute Pasokan – BNY",
-      "url": "https://www.fxstreet.com/news/oil-geopolitics-test-supply-routes-bny-202608051256",
-      "summary": "BNY’s Geoff Yu reports Oil prices rose after the Houthis claimed a missile strike on a Saudi tanker near Yanbu, highlighting risks to alternative export routes while Strait of Hormuz disruptions persist.",
-      "published": "05 Aug 2026 19:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.772,
-      "emoji": "🔴",
       "impact": "medium"
     },
     {
-      "source": "FXStreet News",
-      "title": "Para ahli strategi menurunkan perkiraan Euro, tetap skeptis terhadap intervensi Yen – Reuters",
-      "url": "https://www.fxstreet.com/news/strategists-lower-euro-forecasts-remain-skeptical-over-yen-interventions-reuters-202608051254",
-      "summary": "Reuters’ latest poll of foreign exchange strategists shows a modest downward revision in Euro (EUR) forecasts while highlighting persistent market skepticism over the effectiveness of Japanese currency intervention.",
-      "published": "05 Aug 2026 19:54 WIB",
+      "source": "ForexLive",
+      "title": "UBS menjelaskan lima alasan reli ekuitas masih berlanjut",
+      "url": "https://investinglive.com/stock-market-update/ubs-on-five-reasons-the-equity-rally-has-further-to-run/",
+      "summary": "UBS's constructive stance suggests the bank sees limited near term downside for equities, with easing Hormuz-related oil risk and a patient Fed removing two of the more prominent overhangs on sentiment. The emphasis on broadening earnings, beyond the narrow group of megacap technology names, points ",
+      "published": "06 Aug 2026 05:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.077,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "BofA memangkas perkiraan dolar/yen akhir tahun menjadi 149 setelah intervensi",
+      "url": "https://investinglive.com/central-banks/bofa-cuts-year-end-dollar-yen-forecast-to-149-after-intervention/",
+      "summary": "BofA's revised forecast signals growing conviction among major banks that coordinated intervention has genuinely shifted the yen's trajectory rather than offering only temporary relief. A roughly 6% appreciation call by year end implies traders should expect sustained downward pressure on USD/JPY ra",
+      "published": "06 Aug 2026 04:44 WIB",
+      "sentiment": "Bullish",
+      "score": 0.63,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "JPMorgan memperingatkan momentum saham yang didorong oleh AI mencerminkan hal-hal ekstrem di era dot-com",
+      "url": "https://investinglive.com/stock-market-update/jpmorgan-warns-ai-driven-stock-momentum-echoes-dot-com-era-extremes/",
+      "summary": "JPMorgan's note points to a market increasingly vulnerable to a sharp reversal, given how concentrated gains have become in a small cluster of AI-linked names. A decoupling between momentum and traditional fundamentals such as valuation and quality suggests investors are chasing price action rather ",
+      "published": "06 Aug 2026 04:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.431,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Rekap minyak - Harga minyak bervariasi karena harapan pembukaan kembali Hormuz mengimbangi kejutan peningkatan minyak mentah AS",
+      "url": "https://investinglive.com/commodities/oil-recap-oil-prices-mixed-as-hormuz-reopening-hopes-offset-surprise-us-crude-build/",
+      "summary": "The tug of war between de-escalation hopes in the Strait of Hormuz and a surprise build in US crude stocks looks set to keep oil choppy and directionless in the near term. Any confirmed announcement on an Iran-Oman arrangement, particularly one involving a US-Iran return to talks, would likely trigg",
+      "published": "06 Aug 2026 03:41 WIB",
       "sentiment": "Bearish",
-      "score": -0.33,
+      "score": -0.91,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Kita telah menemui jalan buntu pada perdagangan yen Jepang",
+      "url": "https://investinglive.com/forex/we-ve-reached-an-impasse-on-the-japanese-yen-trade/",
+      "summary": "What a strange time we live in. Treasury Secretary Scott Bessent obviously leaked this picture last week ahead of yen intervention, then actually followed through late in the day. I don't know what the point of leaking it was but the market isn't exactly sure what to do next. There has to be a plan ",
+      "published": "06 Aug 2026 02:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.92,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "FXStreet News",
-      "title": "Dolar Kanada menguat karena minyak pulih, USD melemah karena data ADP yang lebih lemah",
-      "url": "https://www.fxstreet.com/news/canadian-dollar-firms-as-oil-rebounds-usd-softens-on-weaker-adp-data-202608051235",
-      "summary": "USD/CAD trades around 1.4040 on Wednesday at the time of writing, down 0.14% on the day, as the Canadian Dollar (CAD) benefits from a rebound in Oil prices.",
-      "published": "05 Aug 2026 19:35 WIB",
+      "title": "Indonesia: Campuran pertumbuhan-inflasi mendukung sikap BI yang stabil – DBS",
+      "url": "https://www.fxstreet.com/news/indonesia-growth-inflation-mix-supports-steady-bi-stance-dbs-202608052211",
+      "summary": "DBS Group Research economist Radhika Rao notes Indonesia’s onshore markets are focused on the appointment of a new Bank Indonesia Governor after Perry Warjiyo’s departure, with Acting Governor Destry Damayanti prioritising non-rate measures and IDR liquidity.",
+      "published": "06 Aug 2026 05:11 WIB",
       "sentiment": "Bullish",
-      "score": 0.382,
+      "score": 0.625,
       "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "FXStreet News",
-      "title": "Yen Jepang naik lebih tinggi setelah data ketenagakerjaan AS lemah",
-      "url": "https://www.fxstreet.com/news/japanese-yen-edges-higher-after-weak-us-employment-data-202608051232",
-      "summary": "USD/JPY trades under modest pressure on Wednesday as easing tensions in the Middle East and weaker US labour market data weigh on the US Dollar (USD). At the time of writing, the pair trades around 157.45, down 0.2% on the day.",
-      "published": "05 Aug 2026 19:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.94,
-      "emoji": "🔴",
-      "impact": "low"
+      "title": "Forex Hari Ini: Emas melonjak di atas $4.240 karena data tenaga kerja AS menurun",
+      "url": "https://www.fxstreet.com/news/forex-today-gold-surges-above-4-240-as-us-labor-data-crumbles-202608052115",
+      "summary": "Metals were the biggest earners of the day on Wednesday, with Gold surging more than 4% to trade near $4,247 per troy ounce and Silver rallying almost 5% toward $62.20 amid a softer-than-expected US labor market report, with a slowdown in private hiring.",
+      "published": "06 Aug 2026 04:15 WIB",
+      "sentiment": "Bullish",
+      "score": 0.16,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 5 Agustus",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-04/latest-oil-market-news-and-analysis-for-aug-5",
-      "summary": "Oil steadied amid mounting signs that the US and Iran are nearing a deal to reopen the Strait of Hormuz, potentially restoring millions of barrels a day of production disrupted by the months-long conflict.",
-      "published": "05 Aug 2026 05:01 WIB",
-      "sentiment": "Netral",
-      "score": -0.026,
-      "emoji": "⚪",
-      "impact": "low"
+      "title": "Hedge Funds Terpukul Besar di Bulan Juli Setelah Aksi Jual AI yang Merusak",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/hedge-funds-take-big-hit-in-july-after-bruising-ai-selloff",
+      "summary": "A spate of well-known hedge funds reported steep losses in July as AI shares tumbled, most notably forcing the highly leveraged Situational Awareness to sell most of its stock portfolio at a deep discount to Ken Griffin’s Citadel.",
+      "published": "06 Aug 2026 04:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.288,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Perdagangan Tembaga AS Mendekati Rekor Risiko Tarif, Spekulasi Hormuz",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/us-copper-trades-near-record-on-tariff-risks-hormuz-speculation",
-      "summary": "Copper futures in New York traded just short of an all-time high as investors awaited a decision on US tariffs, while also tracking a push to reopen the Strait of Hormuz that lifted demand for risk assets.",
-      "published": "05 Aug 2026 11:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.557,
-      "emoji": "🔴",
-      "impact": "medium"
+      "title": "S&P 500 Turun Setelah Kenaikan $3,7 Triliun: Market Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/stock-market-today-dow-s-p-live-updates",
+      "summary": "Wall Street’s blistering run took a breather, with traders digesting the recent stock gains and monitoring any hints of progress toward a deal to revive the Strait of Hormuz.",
+      "published": "05 Aug 2026 05:11 WIB",
+      "sentiment": "Bullish",
+      "score": 0.74,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "CEO MNTN di Bisnis Iklan Disney, Streaming Wars Outlook",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-05/mntn-ceo-on-disney-s-ad-business-streaming-wars-outlook-video",
+      "summary": "MNTN CEO Mark Douglas discussed the current state of the connected TV and streaming advertising landscape following a strong earnings report from his company, which showed a 21% year-over-year revenue increase. The conversation highlighted recent earnings from major media companies, including Disney",
+      "published": "06 Aug 2026 04:39 WIB",
+      "sentiment": "Bullish",
+      "score": 0.92,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -187,48 +198,59 @@
       "impact": "high"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Dolar Kanada bertahan di dekat level terendah satu minggu karena lemahnya harga minyak melawan penurunan USD - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOHZlaW1vVFZXZWRRWHR4c2RQWUpTQzNVLTRMdEJSSVJjdy0zN2JCZkhGM0tYcGJWNnhtWHlmNFp3WUVrOE9aUWk5YUNZUzdtY01fRmZ4cTFHekhET3UwTGxvMDBjQU1nTC16X3gxazk1S01pYmwyc0lxMDJCek44WVdnQ3gydi1FZ2xpYWcyYjR4N1hHdlRhV1ZYaGtwX2ZJbFBkN3c2d3ZWVVdHYkktV2ttZEsxUWpCQTFwZVhpaw?oc=5",
-      "summary": "Canadian Dollar hangs near one-week low as weak oil prices counter USD downtick FXStreet",
-      "published": "05 Aug 2026 10:50 WIB",
+      "source": "BBC World",
+      "title": "Setelah serangan mematikan di Kyiv, Ukraina memperingatkan kekurangan pencegat menyebabkan banyak korban jiwa",
+      "url": "https://www.bbc.co.uk/news/articles/cyvlgq2gp2eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Without Patriot interceptors, Ukraine's skies are wide open and people are fully exposed to Russia's missile barrages.",
+      "published": "06 Aug 2026 01:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.692,
+      "score": -0.701,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Ketidakpastian Geopolitik Menjadikan Aset Safe Haven Tetap Fokus - Forex Factory",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNkVDRZWnVfeXJQSUcxSWN0WVRDbUhsNl9pT3dPQTZPVUs2bENHRk5KY3VZcmhEbHNTbW9YZGU3czJuWTJ5NVdfb3lmLUx1ZDI3THU2LTZZdkxNc2ZVU3FETWJnRDVSc05JZWRrajYyc3VqQ0p3cHJSSVR6SUppYVVmTlNZdTc1by1BaXRfSmFYcjYxcXJYTlBUZUFzY2FY0gGmAUFVX3lxTE5RTjEyZ1YzMWVsT1RRTUkyNzY0N0xTajl5d0FzQzN3akZlOUVSYmJXb3MwYy1CVGhjVjZiOVV2TGNXb25mUjFOMm5zVHdId2pKeTNpMWtZQ0M2bFI1ZnBkYzFBSkNFdkZaSnJacEF4NVZYbDNPVVNBS0o3Wmd1RURSUVEyWGIxRGxTU1RSQ212Z0ZkMEdUYnYwb0ItdXhsQ093MEZFOGc?oc=5",
-      "summary": "Geopolitical Uncertainty Keeps Safe-Haven Assets in Focus Forex Factory",
-      "published": "04 Aug 2026 15:08 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Indeks Dolar Bertahan Di Dekat 100,00 karena Ketegangan AS-Iran Memicu Permintaan Safe Haven - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5PWGxIcWlGZ0swRjFJV2V6UXR2UDlyTXFwdGttejJwcFZLa3ZSX0N4YmRMenpHX0JHc0NRVXkzUUtweWMzeTEyX0dtTGFsMnlzWjhETlJ1Y29YN0ZGQkI5UU1wVUpzcUlfeHJHWWtMYmI0QUFUOEFjVF9pRnNGX3M?oc=5",
-      "summary": "Dollar Index Holds Near 100.00 as US-Iran Tensions Fuel Safe-Haven Demand CryptoRank",
-      "published": "04 Aug 2026 11:43 WIB",
-      "sentiment": "Bearish",
-      "score": -0.157,
-      "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "BBC World",
-      "title": "Orang luar politik sayap kiri memenangkan pemilihan pendahuluan Senat Demokrat di Michigan",
-      "url": "https://www.bbc.co.uk/news/articles/ckgdkpz07kvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Abdul El-Sayed, the son of Egyptian immigrants, would be the first Muslim US senator if elected in November.",
-      "published": "05 Aug 2026 21:39 WIB",
-      "sentiment": "Bullish",
-      "score": 0.572,
-      "emoji": "🟢",
+      "title": "Israel menyerang Lebanon selatan setelah peringatan evakuasi pertama dalam beberapa minggu",
+      "url": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Lebanon's health ministry says one person was killed in the strikes, which the Israeli military says were a response to a Hezbollah ceasefire violation.",
+      "published": "06 Aug 2026 03:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.934,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Saksikan: 'Malam paling menakutkan' saat Ukraina gagal mencegat serangan Rusia",
+      "url": "https://www.bbc.co.uk/news/videos/clyxdgx7m8no?at_medium=RSS&at_campaign=rss",
+      "summary": "Kyiv's depleted air defences meant many of the missiles were not intercepted - like the one that hit Anastasiia's home.",
+      "published": "06 Aug 2026 02:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.962,
+      "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Celana pendek, atasan bertali, dan sandal: Bisakah atasan saya memberi tahu saya apa yang harus saya kenakan di musim panas?",
+      "url": "https://www.bbc.co.uk/news/articles/cre49389g1qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Here's how to style for success while keeping your cool - and where you and your boss stand on your wardrobe.",
+      "published": "06 Aug 2026 06:22 WIB",
+      "sentiment": "Bullish",
+      "score": 0.772,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Pemerintahan Trump membayar kembali tarif 'Hari Pembebasan' sebesar $100 miliar kepada dunia usaha",
+      "url": "https://www.bbc.co.uk/news/articles/cwyewn5wexvo?at_medium=RSS&at_campaign=rss",
+      "summary": "It represents roughly 60% of all tariff revenue collected under the policy, with billions still to be repaid.",
+      "published": "06 Aug 2026 02:39 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
     },
     {
       "source": "BBC Business",
@@ -242,55 +264,44 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Laba BP sebesar $5,7 miliar merupakan laba tertinggi sejak tahun 2022 karena perang Iran yang mendorong kenaikan harga minyak",
-      "url": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
-      "published": "04 Aug 2026 17:07 WIB",
-      "sentiment": "Netral",
-      "score": 0.023,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Kandidat berantai melawan Farage dalam pemilihan sela Clacton",
-      "url": "https://www.bbc.co.uk/news/articles/cd69q4yg0ggo?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Verify takes a look at the serial candidates standing in Clacton, how they fared in previous elections, and whether they have ever won enough votes to get their deposits back.",
-      "published": "05 Aug 2026 20:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.652,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
       "source": "Al Jazeera",
-      "title": "Ayah di Gaza membuka pusat bermain untuk memulihkan masa kanak-kanaknya di tengah serangan Israel",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/08-05-2026-gaza-jump-city-children-sv-mp4?traffic_source=rss",
-      "summary": "A Palestinian father opened a Gaza play center offering children free escape and joy amid near daily Israeli attacks.",
-      "published": "05 Aug 2026 21:08 WIB",
-      "sentiment": "Bullish",
-      "score": 0.76,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mengapa Partai Republik AS kehilangan kepercayaan pada Menteri Perang Pete Hegseth?",
-      "url": "https://www.aljazeera.com/news/2026/8/5/why-are-us-republicans-losing-faith-in-war-secretary-pete-hegseth?traffic_source=rss",
-      "summary": "The reasons for dissent are not unanimous, ranging from the war in Iran to an overhaul of military leadership.",
-      "published": "05 Aug 2026 20:48 WIB",
+      "title": "Erica Schwartz dikukuhkan sebagai kepala CDC yang baru di tengah kekacauan badan-badan AS",
+      "url": "https://www.aljazeera.com/news/2026/8/5/erica-schwartz-confirmed-as-new-cdc-chief-amid-us-agency-turmoil?traffic_source=rss",
+      "summary": "US public health agency faces toughest test as Schwartz takes charge amid political pressure and public health crises.",
+      "published": "06 Aug 2026 05:46 WIB",
       "sentiment": "Bearish",
-      "score": -0.902,
+      "score": -0.692,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Kepala Hak Asasi Manusia PBB mengatakan Iran mengeksekusi sedikitnya 56 orang sejak Maret",
-      "url": "https://www.aljazeera.com/news/2026/8/5/un-rights-chief-says-iran-executed-at-least-56-people-since-march?traffic_source=rss",
-      "summary": "Volker Turk warns of surge in Iran executions to suppress dissent after January uprising.",
-      "published": "05 Aug 2026 19:58 WIB",
+      "title": "Para pejabat AS menolak laporan mengenai rendahnya pasokan amunisi",
+      "url": "https://www.aljazeera.com/news/2026/8/5/us-officials-push-back-on-reports-of-dangerously-low-munitions-supplies?traffic_source=rss",
+      "summary": "Experts warn that low stockpiles of air defence interceptors as a result of the war on Iran leave the US vulnerable.",
+      "published": "06 Aug 2026 05:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.984,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pasukan Israel menyerbu kamp di Tepi Barat yang diduduki",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/israeli-forces-raid-camp-in-occupied-west-bank-2?traffic_source=rss",
+      "summary": "Israeli forces have launched a large-scale military operation in Qalandiya refugee camp in the occupied West Bank.",
+      "published": "06 Aug 2026 04:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.128,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Flavio Bolsonaro dari Brasil menunjuk Alfredo Gaspar sebagai cawapres",
+      "url": "https://www.aljazeera.com/news/2026/8/5/brazils-flavio-bolsonaro-names-alfredo-gaspar-as-running-mate?traffic_source=rss",
+      "summary": "The announcement comes as Lula warns of foreign interference and polls show a tightening presidential race.",
+      "published": "06 Aug 2026 02:22 WIB",
       "sentiment": "Bearish",
       "score": -0.103,
       "emoji": "🔴",
@@ -298,58 +309,25 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Di Bandar Abbas, gencatan senjata tidak pernah tercapai",
-      "url": "https://www.aljazeera.com/features/2026/8/5/in-bandar-abbas-the-ceasefire-never-came?traffic_source=rss",
-      "summary": "A single mother from Bandar Abbas reflects on the fear and resilience of living through repeated attacks.",
-      "published": "05 Aug 2026 19:14 WIB",
+      "title": "Malaysia berjanji tidak akan memulangkan pengungsi Rohingya ke Myanmar jika nyawa mereka terancam",
+      "url": "https://www.aljazeera.com/news/2026/8/5/malaysia-will-not-return-rohingya-refugees-to-myanmar-if-lives-are-at-risk?traffic_source=rss",
+      "summary": "Authorities are screening 5,000 refugees as rights groups warn they remain at risk of persecution in Myanmar.",
+      "published": "06 Aug 2026 01:40 WIB",
       "sentiment": "Bearish",
-      "score": -0.727,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran, Oman, AS ‘hampir’ mencapai kesepakatan Hormuz: Apa yang mereka semua inginkan?",
-      "url": "https://www.aljazeera.com/news/2026/8/5/iran-oman-us-close-to-hormuz-deal-what-do-they-all-want?traffic_source=rss",
-      "summary": "An agreement could restore shipping through crucial waterway, paving way for peace talks between Tehran and Washington.",
-      "published": "05 Aug 2026 19:07 WIB",
-      "sentiment": "Bullish",
-      "score": 1.0,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kapal kargo Turki terbakar setelah serangan drone Laut Hitam",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/08-05-2026-drone-attacks-turkish-ship-sv?traffic_source=rss",
-      "summary": "A Turkish cargo ship caught fire after a drone attack near Russia’s Black Sea port of Novorossiysk.",
-      "published": "05 Aug 2026 18:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.955,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mantan bintang Liverpool Salah tiba di Turkiye sebelum pindah ke Trabzonspor",
-      "url": "https://www.aljazeera.com/sports/2026/8/5/ex-liverpool-star-salah-arrives-in-turkiye-ahead-of-move-to-trabzonspor?traffic_source=rss",
-      "summary": "Egypt forward Mohamed Salah landed in Istanbul on Wednesday to complete his move to Turkiye club Trabzonspor.",
-      "published": "05 Aug 2026 18:38 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.717,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pasukan Israel menahan warga Palestina selama penggerebekan di Tepi Barat yang diduduki",
-      "url": "https://www.aljazeera.com/news/2026/8/5/israeli-forces-detain-palestinians-during-raid-in-occupied-west-bank?traffic_source=rss",
-      "summary": "A journalist covering events was severely beaten by Israeli soldiers, while locals were also attacked.",
-      "published": "05 Aug 2026 18:31 WIB",
+      "title": "Apakah konflik antara Rusia dan Ukraina semakin mendalam?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/8/5/is-the-conflict-between-russia-and-ukraine-deepening?traffic_source=rss",
+      "summary": "The war sees a surge in attacks by both sides with little diplomatic movement.",
+      "published": "06 Aug 2026 01:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.891,
+      "score": -1.0,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "CNBC Economy",
@@ -375,10 +353,21 @@
     },
     {
       "source": "CNBC World",
+      "title": "Perombakan AI Google: Kepala ilmuwan Jeff Dean keluar dan Demis Hassabis mundur sebagai CEO DeepMind",
+      "url": "https://www.cnbc.com/2026/08/05/google-chief-scientist-jeff-dean-leaving-company-after-27-years.html",
+      "summary": "Google's AI divisions are getting reshuffled, the search giant announced on Wednesday.",
+      "published": "06 Aug 2026 01:51 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
       "title": "Admin Trump mengembalikan $100 miliar dalam bentuk tarif 'hari pembebasan'",
       "url": "https://www.cnbc.com/2026/08/05/trump-tariffs-refunds-ieepa-lawsuit.html",
       "summary": "The Trump administration has taken steps to effectively re-create the IEEPA tariff regime using other legal authorities. They already face court challenges.",
-      "published": "05 Aug 2026 21:46 WIB",
+      "published": "06 Aug 2026 02:31 WIB",
       "sentiment": "Bullish",
       "score": 0.572,
       "emoji": "🟢",
@@ -386,25 +375,36 @@
     },
     {
       "source": "CNBC World",
+      "title": "Iran dan Oman mengatakan perundingan di Selat Hormuz sudah mencapai tahap akhir, ketika Trump kembali mengisyaratkan kesepakatan sudah dekat",
+      "url": "https://www.cnbc.com/2026/08/05/us-iran-war-trump-hormuz-bessent-iran-deal-close.html",
+      "summary": "Trump's latest remarks signaling again that a deal with Iran to reopen the Hormuz Strait is close at hand drove oil prices lower and sent stocks soaring.",
+      "published": "06 Aug 2026 01:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.108,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Eksekutif Microsoft AI memberi tahu pengembang untuk menggunakan model teratas OpenAI secara default sebagai bagian dari dorongan efisiensi",
+      "url": "https://www.cnbc.com/2026/08/05/microsoft-makes-openai-gpt-5point6-sol-default-in-github-copilot-for-staff.html",
+      "summary": "Microsoft is taking advantage of its intellectual property rights with OpenAI, encouraging employees to use the company's top model.",
+      "published": "06 Aug 2026 01:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.835,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
       "title": "Abdul El-Sayed memenangkan pemilihan pendahuluan di Senat Demokrat Michigan karena pemilih beralih ke kiri",
       "url": "https://www.cnbc.com/2026/08/04/abdul-el-sayed-haley-stevens-michigan-primary.html",
       "summary": "Abdul El-Sayed won the Michigan Democratic Senate primary, setting up a context with former Rep. Mike Rogers in the November general election.",
-      "published": "05 Aug 2026 21:41 WIB",
+      "published": "06 Aug 2026 01:41 WIB",
       "sentiment": "Bullish",
       "score": 0.813,
       "emoji": "🟢",
       "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Benteng Ken Griffin mencatatkan bulan terbaik dalam beberapa tahun setelah meraup saham Kesadaran Situasional",
-      "url": "https://www.cnbc.com/2026/08/05/ken-griffins-citadel-posts-best-month-in-years-after-scooping-up-situational-awareness-stocks.html",
-      "summary": "The July gains came after Citadel acquired the bulk of the public-stock portfolio formerly held by Situational Awareness late last month.",
-      "published": "05 Aug 2026 18:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.765,
-      "emoji": "🟢",
-      "impact": "high"
     }
   ]
 }
