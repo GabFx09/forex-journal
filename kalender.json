@@ -1,5 +1,5 @@
 {
-  "generated": "07 Aug 2026 09:06 WIB",
+  "generated": "07 Aug 2026 11:37 WIB",
   "events": [
     {
       "date": "2026-08-02",
@@ -873,11 +873,11 @@
     {
       "date": "2026-08-06",
       "day": "Kamis",
-      "time_wib": "09:00",
+      "time_wib": "06:38",
       "currency": "CNY",
       "impact": "low",
       "event": "Trade Balance",
-      "actual": "",
+      "actual": "767B",
       "forecast": "735B",
       "previous": "859B"
     },
@@ -888,7 +888,7 @@
       "currency": "CNY",
       "impact": "low",
       "event": "USD-Denominated Trade Balance",
-      "actual": "",
+      "actual": "112.5B",
       "forecast": "108.6B",
       "previous": "125.6B"
     },
