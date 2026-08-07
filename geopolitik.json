@@ -1,5 +1,5 @@
 {
-  "generated": "07 Aug 2026 07:02 WIB",
+  "generated": "07 Aug 2026 09:06 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,38 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.251,
-      "count": 24
+      "score": -0.252,
+      "count": 23
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
       "score": -0.228,
-      "count": 23
+      "count": 22
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.189,
+      "score": -0.133,
       "count": 19
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.31,
-      "count": 4
+      "score": -0.289,
+      "count": 6
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.205,
-      "count": 3
+      "score": -0.432,
+      "count": 4
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.205,
-      "count": 3
+      "score": -0.432,
+      "count": 4
     },
     {
       "pair": "USD/RUB",
@@ -47,9 +47,9 @@
       "count": 2
     },
     {
-      "pair": "AUD/USD",
-      "direction": "Netral →",
-      "score": 0.0,
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.302,
       "count": 1
     }
   ],
@@ -121,25 +121,25 @@
       "impact": "medium"
     },
     {
-      "source": "ForexLive",
-      "title": "Sekarang kita seharusnya menunggu keputusan Trump mengenai kesepakatan Iran",
-      "url": "https://investinglive.com/news/now-we-are-supposedly-waiting-on-trump-s-decision-on-the-iran-deal/",
-      "summary": "Trump is just out with a message: The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy with the job that Pete Hegseth is doing. Everything has been extraordinary, including our attack on Venezuela, where the result was accomplished in less than one day, a",
-      "published": "06 Aug 2026 23:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.612,
-      "emoji": "🔴",
-      "impact": "low"
+      "source": "FXStreet News",
+      "title": "Euro melemah terhadap Dolar AS di tengah ketegangan di Timur Tengah",
+      "url": "https://www.fxstreet.com/news/euro-weakens-against-us-dollar-amid-middle-east-tensions-202608070154",
+      "summary": "EUR/USD extends its losses for the second consecutive day, trading around 1.1520 during the Asian hours on Friday. The currency pair faces downward pressure as the US Dollar (USD) gains strength, propelled by renewed safe-haven demand among global investors.",
+      "published": "07 Aug 2026 08:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.098,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Iran dilaporkan sedang menyusun rencana strategis yang akan membatasi akses melalui Selat Hormuz",
-      "url": "https://investinglive.com/news/iran-is-reportedly-drafting-a-strategic-plan-that-would-restrict-access-through-the-strait-of-hormuz/",
-      "summary": "Fars is reporting Iran is reportedly drafting a strategic plan that would restrict access through the Strait of Hormuz for vessels linked to the United States, Israel, and other countries it considers hostile. Under the proposal: U.S., Israeli, and other designated \"hostile\" vessels would be prohibi",
-      "published": "06 Aug 2026 23:16 WIB",
-      "sentiment": "Bearish",
-      "score": -0.765,
-      "emoji": "🔴",
+      "source": "FXStreet News",
+      "title": "WTI bertahan di dekat $77,50 karena meningkatnya ketegangan di Timur Tengah mengancam jalur pasokan minyak",
+      "url": "https://www.fxstreet.com/news/wti-holds-firm-near-7750-as-escalating-middle-east-tensions-threaten-oil-supply-routes-202608070046",
+      "summary": "West Texas Intermediate (WTI) oil price remains steady after registering modest gains in the previous day, trading around $77.50 per barrel during the Asian hours on Friday.",
+      "published": "07 Aug 2026 07:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.42,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -188,20 +188,20 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Asia Tergelincir Karena Kekhawatiran Iran, Minyak Naik: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/stock-market-today-dow-s-p-live-updates",
-      "summary": "Stocks in Asia looked set to edge lower Friday after a resurgence in geopolitical tensions sent US stocks and bonds lower. Oil jumped, reviving inflation concerns ahead of a key US jobs report.",
-      "published": "07 Aug 2026 05:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.727,
-      "emoji": "🔴",
+      "title": "Putri Anwar Cuti dari Kepemimpinan Partai di Tengah Kemunduran",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/anwar-s-daughter-takes-leave-from-party-leadership-amid-setbacks",
+      "summary": "Malaysian Prime Minister Anwar Ibrahim’s daughter has sought to relinquish her role as deputy president of his party, more than a year after her election fueled accusations of nepotism and exposed deep divisions within the ruling coalition.",
+      "published": "07 Aug 2026 07:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.302,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
       "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 7 Agustus",
       "url": "https://www.bloomberg.com/news/articles/2026-08-06/latest-oil-market-news-and-analysis-for-aug-7",
-      "summary": "Oil extended gains on reports that Iran attacked “hostile targets” in the Strait of Hormuz, with Tehran seeking to bar US ships from the critical waterway in a deal with Oman.",
+      "summary": "Oil extended gains after a report that Iran attacked “hostile targets” in the Strait of Hormuz, with Tehran seeking to bar US ships from the critical waterway in a deal with Oman.",
       "published": "07 Aug 2026 05:01 WIB",
       "sentiment": "Bearish",
       "score": -0.36,
@@ -218,17 +218,6 @@
       "score": -0.054,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Dolar Mencapai Hari Terbaiknya dalam Dua Minggu seiring Kenaikan Harga Minyak",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/dollar-heads-for-best-day-in-two-weeks-as-oil-prices-advance",
-      "summary": "The dollar finished its best day in two weeks as oil prices advanced amid fading optimism over easing tensions in the Middle East.",
-      "published": "07 Aug 2026 01:22 WIB",
-      "sentiment": "Bullish",
-      "score": 0.76,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -287,6 +276,28 @@
     },
     {
       "source": "Al Jazeera",
+      "title": "Serangan Israel di Qalandiya Tepi Barat melukai 51 warga Palestina",
+      "url": "https://www.aljazeera.com/news/2026/8/7/israeli-raid-in-west-banks-qalandiya-injures-51-palestinians?traffic_source=rss",
+      "summary": "Israeli forces arrest dozens of Palestinians near Jerusalem amid uptick in military and settler violence in West Bank.",
+      "published": "07 Aug 2026 08:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.758,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Tidak ada garis merah’: Penduduk Lebanon Selatan marah ketika Israel kembali melancarkan serangan",
+      "url": "https://www.aljazeera.com/news/2026/8/6/south-lebanon-people-speak-out-as-israel-launches-attacks-ceasefire?traffic_source=rss",
+      "summary": "People in southern Lebanon question their government's approach as Israel launches more attacks and displacement orders.",
+      "published": "07 Aug 2026 06:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.928,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Ghalibaf dari Iran menuduh Trump melakukan diplomasi 'berulang-ulang'",
       "url": "https://www.aljazeera.com/news/2026/8/6/irans-ghalibaf-accuses-trump-of-conducting-show-diplomacy-on-loop?traffic_source=rss",
       "summary": "US president says he is involved in talks and war will end 'pretty soon', claiming that Iran cannot 'go much longer'.",
@@ -330,41 +341,8 @@
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Perang Sudan mengancam piramida Meroe kuno",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/sudan-war-threatens-ancient-meroe-pyramids?traffic_source=rss",
-      "summary": "Sudan’s ongoing war is endangering the ancient Meroe pyramids, which are a UNESCO World Heritage Site.",
-      "published": "07 Aug 2026 02:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.966,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tagihan AI terbesar untuk orang tua?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/aje-onl-nf_-final-dnrexp-260805-withrowe-chatbotact-060826?traffic_source=rss",
-      "summary": "Congress is pushing a new bill forward that would give parents the power over their kid’s interactions with AI chatbots.",
-      "published": "07 Aug 2026 02:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pemimpin Ceuta mengatakan 100 orang tewas dalam serbuan perbatasan sementara 5.000 orang masih berada di daerah kantong",
-      "url": "https://www.aljazeera.com/news/2026/8/6/ceutas-leader-says-100-died-in-border-rush-as-up-to-5000-still-in-enclave?traffic_source=rss",
-      "summary": "After migrant surge from Morocco, EU says Spain assured Schengen is safe but warns Europe's borders are 'vulnerable'.",
-      "published": "07 Aug 2026 01:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.372,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
-      "title": "Cara Mengucapkan Selamat Ulang Tahun ke-91 Jamsostek",
+      "title": "Cara mengucapkan selamat ulang tahun ke 91 Jamsostek",
       "url": "https://www.marketwatch.com/story/how-to-wish-social-security-a-happy-91st-birthday-865d71a8?mod=mw_rss_topstories",
       "summary": "Let’s all agree that, going forward, we’ll stop saying that Social Security will “run out of money” in 2032.",
       "published": "07 Aug 2026 03:56 WIB",
@@ -397,23 +375,34 @@
     },
     {
       "source": "CNBC World",
+      "title": "Kepala perunding Iran menuduh Trump melakukan 'diplomasi teater' ketika lalu lintas Hormuz hampir macet",
+      "url": "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html",
+      "summary": "The conflict is broadening across the region, with Gulf energy infrastructure and key shipping chokepoints under renewed threat.",
+      "published": "07 Aug 2026 08:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.798,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Harga minyak naik di tengah kekhawatiran akan gangguan pasokan menyusul rancangan rencana Iran yang membatasi Selat Hormuz",
+      "url": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
+      "summary": "News of Iran's restrictive draft plan for the Strait of Hormuz sent oil prices higher, renewing concerns over supply disruptions.",
+      "published": "07 Aug 2026 08:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.772,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Saham SpaceX dapat menghadapi tekanan lebih lanjut karena pembukaan saham batch pertama sejak IPO",
       "url": "https://www.cnbc.com/2026/08/06/spacex-faces-test-as-shares-unlock-allowing-early-investors-cash-out.html",
       "summary": "With the first tranche of SpaceX shares held by insiders unlocking, the stock could see downward pressure.",
       "published": "06 Aug 2026 22:19 WIB",
       "sentiment": "Bearish",
       "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Harga gas bisa tetap tinggi pada musim gugur ini meskipun harga minyak mentah stabil. Inilah alasannya",
-      "url": "https://www.cnbc.com/2026/08/06/refinery-gas-oil-prices-iran-ukraine-war.html",
-      "summary": "The refining market is very tight due to the Ukraine and Iran wars, keeping gas prices elevated even as crude prices fall.",
-      "published": "07 Aug 2026 03:34 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -430,23 +419,23 @@
     },
     {
       "source": "CNBC World",
+      "title": "Harga gas bisa tetap tinggi pada musim gugur ini meskipun harga minyak mentah stabil. Inilah alasannya",
+      "url": "https://www.cnbc.com/2026/08/06/refinery-gas-oil-prices-iran-ukraine-war.html",
+      "summary": "The refining market is very tight due to the Ukraine and Iran wars, keeping gas prices elevated even as crude prices fall.",
+      "published": "07 Aug 2026 03:34 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
       "title": "Opini: Peran baru Demis Hassabis mengungkap tindakan penyeimbangan AI Google",
       "url": "https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html",
       "summary": "Demis Hassabis’ new role highlights the tension between his scientific ambitions and Google’s pressure to commercialize and scale AI.",
       "published": "06 Aug 2026 20:15 WIB",
       "sentiment": "Bearish",
       "score": -0.692,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump mendapat penangguhan hukuman pada menit-menit terakhir yang memblokir sementara akses BBC ke catatan bisnisnya",
-      "url": "https://www.cnbc.com/2026/08/06/trump-bbc-lawsuit-financial-records-court-stay.html",
-      "summary": "Trump sued the BBC for $10 billion, alleging its 2024 “Panorama” documentary about the Jan. 6, 2021, Capitol attack defamed him.",
-      "published": "07 Aug 2026 01:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.33,
       "emoji": "🔴",
       "impact": "low"
     }
