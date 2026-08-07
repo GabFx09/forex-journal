@@ -1,5 +1,5 @@
 {
-  "generated": "07 Aug 2026 04:49 WIB",
+  "generated": "07 Aug 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,20 +7,20 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.223,
-      "count": 21
+      "score": -0.251,
+      "count": 24
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.196,
-      "count": 20
+      "score": -0.228,
+      "count": 23
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.175,
-      "count": 17
+      "score": -0.189,
+      "count": 19
     },
     {
       "pair": "EUR/USD",
@@ -31,14 +31,14 @@
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.12,
-      "count": 2
+      "score": -0.205,
+      "count": 3
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.12,
-      "count": 2
+      "score": -0.205,
+      "count": 3
     },
     {
       "pair": "USD/RUB",
@@ -47,13 +47,24 @@
       "count": 2
     },
     {
-      "pair": "EUR",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.08,
+      "pair": "AUD/USD",
+      "direction": "Netral →",
+      "score": 0.0,
       "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Lebih lanjut Musalem dari The Fed mengatakan kondisi keuangan sangat akomodatif, harga aset meningkat",
+      "url": "https://investinglive.com/central-banks/more-from-fed-s-musalem-says-financial-conditions-very-accommodative-asset-prices-elevated/",
+      "summary": "Musalem's warning that conditions are fertile for inflation expectations to become unanchored, paired with his description of financial conditions as very accommodative and asset prices as elevated, signals discomfort with how loosely markets are currently pricing risk relative to his own hawkish re",
+      "published": "07 Aug 2026 05:38 WIB",
+      "sentiment": "Bearish",
+      "score": -0.708,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Musalem mengatakan risiko inflasi cenderung lebih tinggi dan kredibilitas dipertaruhkan",
@@ -132,15 +143,15 @@
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Orang dalam Google mengungkap drama di balik guncangan yang meresahkan kemarin",
-      "url": "https://investinglive.com/stocks/a-google-insider-is-revealing-the-drama-behind-yesterday-s-unsettling-shake-up/",
-      "summary": "Alphabet shares fell 4% on Wednesday on what the company would like you to read as a routine executive transition: Demis Hassabis up to chairman of DeepMind and chief scientist of Alphabet, Koray Kavukcuoglu taking day-to-day control, and Jeff Dean off to found a startup — with Google's blessing and",
-      "published": "06 Aug 2026 21:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.735,
-      "emoji": "🟢",
-      "impact": "medium"
+      "source": "FXStreet News",
+      "title": "Peso Filipina: Inflasi dan politik membebani PHP terhadap Dolar AS – ING",
+      "url": "https://www.fxstreet.com/news/philippine-peso-inflation-and-politics-weigh-on-php-against-us-dollar-ing-202608062209",
+      "summary": "ING economists Deepali Bhargava and Lynn Song warn that upside inflation risks are re-emerging for the Philippine Peso (PHP), driven by recovering Oil prices and expectations of a strong El Niño that could spark a food-price shock. Rising global rice and fertiliser prices add to pressures.",
+      "published": "07 Aug 2026 05:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.376,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "FXStreet News",
@@ -166,6 +177,50 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Emas Stabil seiring Para Pedagang Menilai Dampak Kenaikan Harga Hormuz",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/gold-steady-as-traders-assess-impact-of-hormuz-flare-up-on-rates",
+      "summary": "Gold moved in a narrow range as traders assessed the impact of a reported Iranian attack in the Strait of Hormuz on the Federal Reserve’s path for interest rates.",
+      "published": "07 Aug 2026 06:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.106,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Asia Tergelincir Karena Kekhawatiran Iran, Minyak Naik: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/stock-market-today-dow-s-p-live-updates",
+      "summary": "Stocks in Asia looked set to edge lower Friday after a resurgence in geopolitical tensions sent US stocks and bonds lower. Oil jumped, reviving inflation concerns ahead of a key US jobs report.",
+      "published": "07 Aug 2026 05:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.727,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 7 Agustus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/latest-oil-market-news-and-analysis-for-aug-7",
+      "summary": "Oil extended gains on reports that Iran attacked “hostile targets” in the Strait of Hormuz, with Tehran seeking to bar US ships from the critical waterway in a deal with Oman.",
+      "published": "07 Aug 2026 05:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.36,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pengambilan Besar: Situasi di Kesadaran Situasional",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-06/big-take-the-situation-at-situational-awareness",
+      "summary": "On today’s Big Take podcast, hedge fund reporters Katherine Burton and Hema Parmar join Sarah Holder to break down the rise of 24-year-old ‘Nostradamus of AI’ Leopold Aschenbrenner, the meltdown of his hedge fund Situational Awareness and whether the episode exposes broader hedge fund vulnerabilitie",
+      "published": "07 Aug 2026 05:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.054,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Dolar Mencapai Hari Terbaiknya dalam Dua Minggu seiring Kenaikan Harga Minyak",
       "url": "https://www.bloomberg.com/news/articles/2026-08-06/dollar-heads-for-best-day-in-two-weeks-as-oil-prices-advance",
       "summary": "The dollar finished its best day in two weeks as oil prices advanced amid fading optimism over easing tensions in the Middle East.",
@@ -174,28 +229,6 @@
       "score": 0.76,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Saham Jatuh karena Kekhawatiran AS-Iran Memicu Reli Minyak: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/stock-market-today-dow-s-p-live-updates",
-      "summary": "A flare-up in geopolitical risks sent stocks and bonds lower as oil jumped, fueling inflation worries before Friday’s jobs report.",
-      "published": "06 Aug 2026 05:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.807,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Katz dari IMF Mengatakan Jepang Memiliki Ruang untuk Menormalkan Kebijakan",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-06/imf-s-katz-says-japan-has-scope-to-normalize-policy-video",
-      "summary": "Dan Katz, first deputy managing director at the International Monetary Fund, discusses what steps the Bank of Japan should take to aid the country's currency and assesses the nation's path forward for monetary policy. He speaks with Bloomberg Television’s Jennifer Zabasajja from Cape Town, South Afr",
-      "published": "07 Aug 2026 03:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -224,7 +257,7 @@
       "title": "Serangan Houthi dilaporkan menewaskan sedikitnya 30 pasukan pemerintah Yaman",
       "url": "https://www.bbc.co.uk/news/articles/ckgdmdr0lmgo?at_medium=RSS&at_campaign=rss",
       "summary": "The Houthis say they launched missiles and drones at \"Saudi military build-ups\" in the central provinces of Marib and Hadramawt.",
-      "published": "07 Aug 2026 01:43 WIB",
+      "published": "07 Aug 2026 05:41 WIB",
       "sentiment": "Bearish",
       "score": -0.956,
       "emoji": "🔴",
@@ -251,6 +284,17 @@
       "score": 0.0,
       "emoji": "⚪",
       "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Ghalibaf dari Iran menuduh Trump melakukan diplomasi 'berulang-ulang'",
+      "url": "https://www.aljazeera.com/news/2026/8/6/irans-ghalibaf-accuses-trump-of-conducting-show-diplomacy-on-loop?traffic_source=rss",
+      "summary": "US president says he is involved in talks and war will end 'pretty soon', claiming that Iran cannot 'go much longer'.",
+      "published": "07 Aug 2026 06:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -319,30 +363,8 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Perempuan mengekspos pemerkosaan sebagai senjata perang di Sudan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/women-expose-rape-as-a-weapon-of-war-in-sudan?traffic_source=rss",
-      "summary": "Women displaced by Sudan's war are speaking publicly about surviving rape by Rapid Support Forces fighters.",
-      "published": "07 Aug 2026 01:05 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Houthi melancarkan serangan mematikan terhadap pasukan koalisi pimpinan Saudi di Yaman",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/06-08-reported-ansarallah-yemen-yn?traffic_source=rss",
-      "summary": "Yemen's Houthis say they launched drones and ballistic missiles in Marib and Hadramout.",
-      "published": "07 Aug 2026 00:35 WIB",
-      "sentiment": "Bearish",
-      "score": -0.5,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "MarketWatch",
-      "title": "Cara mengucapkan selamat ulang tahun ke 91 Jamsostek",
+      "title": "Cara Mengucapkan Selamat Ulang Tahun ke-91 Jamsostek",
       "url": "https://www.marketwatch.com/story/how-to-wish-social-security-a-happy-91st-birthday-865d71a8?mod=mw_rss_topstories",
       "summary": "Let’s all agree that, going forward, we’ll stop saying that Social Security will “run out of money” in 2032.",
       "published": "07 Aug 2026 03:56 WIB",
