@@ -1,47 +1,47 @@
 {
-  "generated": "08 Aug 2026 07:01 WIB",
+  "generated": "08 Aug 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
       "pair": "USD/JPY",
-      "direction": "Netral →",
-      "score": -0.013,
-      "count": 17
+      "direction": "Tekanan Turun ▼",
+      "score": -0.252,
+      "count": 18
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.281,
+      "count": 15
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.051,
-      "count": 14
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.05,
-      "count": 13
+      "score": -0.335,
+      "count": 15
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.057,
-      "count": 6
+      "direction": "Tekanan Naik ▲",
+      "score": 0.089,
+      "count": 5
     },
     {
       "pair": "EUR",
       "direction": "Tekanan Naik ▲",
-      "score": 0.124,
-      "count": 4
-    },
-    {
-      "pair": "USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.124,
-      "count": 4
+      "score": 0.166,
+      "count": 3
     },
     {
       "pair": "GBP",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.166,
+      "count": 3
+    },
+    {
+      "pair": "USD",
       "direction": "Tekanan Naik ▲",
       "score": 0.166,
       "count": 3
@@ -177,24 +177,68 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Angkatan Darat AS Ingin Membiarkan Perusahaan Menguji Senjata Lebih Cepat",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-07/us-army-wants-to-let-companies-test-weapons-faster-video-msje9o14",
-      "summary": "The US Army wants to see new weapons on the battlefield faster. Tyler Kendall sat down with US Army Secretary Dan Driscoll to discuss the Pentagon's plan to open up five military ranges to private industry. (Source: Bloomberg)",
-      "published": "08 Aug 2026 03:25 WIB",
+      "title": "WuXi AppTec Mendapat Penangguhan Sementara dari Pembatasan Militer Tiongkok",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-08/wuxi-apptec-gets-temporary-reprieve-of-chinese-military-label",
+      "summary": "A US judge blocked the Defense Department from enforcing its designation of WuXi AppTec Co. as a Chinese military company, granting temporary relief to the major pharmaceutical contractor.",
+      "published": "08 Aug 2026 11:57 WIB",
+      "sentiment": "Bullish",
+      "score": 0.586,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Jenis Amunisi AS Memperumit Strategi Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-08/us-munitions-strain-complicates-iran-strategy-video",
+      "summary": "The US remains outside formal negotiations with Iran as Oman and Tehran discuss arrangements for the Strait of Hormuz, leaving the diplomatic path uncertain and raising the possibility of renewed fighting. Joining Bloomberg This Weekend, Bloomberg News White House & National Security Editor Michelle",
+      "published": "08 Aug 2026 21:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.813,
+      "score": -0.652,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 7 Agustus",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/latest-oil-market-news-and-analysis-for-aug-7",
-      "summary": "Oil steadied as tensions in the Middle East flared while traders monitored progress toward a deal between Iran and Oman to restore shipping through the Strait of Hormuz.",
-      "published": "07 Aug 2026 05:01 WIB",
-      "sentiment": "Bullish",
-      "score": 0.238,
-      "emoji": "🟢",
+      "title": "Data Pekerjaan yang Lemah Ditutupi oleh Turunnya Pengangguran",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-08/weak-jobs-data-masked-by-falling-unemployment-video",
+      "summary": "The US unexpectedly lost 23,000 jobs in July while unemployment fell to 4.1%, a decline driven by fewer people participating in the labor force rather than stronger employment. Bloomberg News Economics Chief US Economist Anna Wong joins Bloomberg This Weekend and explains to hosts David Gura and Chr",
+      "published": "08 Aug 2026 19:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.83,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kyiv Terkejut saat Ukraina Menargetkan Dua Kilang Minyak Rusia",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-08/ukraine-drone-strike-sparks-fire-at-russia-s-ilsky-refinery",
+      "summary": "A fire was sparked at Russia’s Ilsky oil refinery in the southern Krasnodar region by Ukrainian drone debris, injuring five people, the regional task force said on Saturday, as Russia and Ukraine exchanged overnight attacks including a large-scale missile barrage on Kyiv.",
+      "published": "08 Aug 2026 12:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.903,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Perang Membawa Musim Dingin Ketidakpuasan bagi Bahan Bakar Pekerja Keras Dunia",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-08/war-brings-winter-of-discontent-for-the-world-s-workhorse-fuel",
+      "summary": "A diesel squeeze spurred by wars in the Middle East and Ukraine is setting the stage for an even worse crunch as demand rises ahead of the Northern Hemisphere winter.",
+      "published": "08 Aug 2026 11:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.982,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Investasi Misteri Kesadaran Situasional Adalah Sumber Pengecoran",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-08/situational-awareness-s-mystery-investment-was-to-source-foundry",
+      "summary": "A mystery $400 million investment made by Situational Awareness just days after the hedge fund was on the brink of collapse was to chip manufacturing startup Source Foundry, according to people familiar with the matter.",
+      "published": "08 Aug 2026 10:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -209,26 +253,37 @@
       "impact": "low"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Dolar AS Tetap Stabil karena Ketegangan di Timur Tengah Memicu Perdagangan yang Hati-hati - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FVkVkVjNHNFhpb0h2ZG0tR3NSYi1UYW9jTFhtdl9LWHRXZlpPUFktVkdKMUlhS0tsNnhRbUdjNjhzRzY1TGtIQ1ZfLXlNdkJraGpJOHd2M21IeXI0aUVodksxX0VKWmpodUFjUmtNLWRQb2trNUdjS3BZaUVpdw?oc=5",
-      "summary": "US Dollar Holds Steady as Mideast Tensions Fuel Cautious Trading CryptoRank",
-      "published": "07 Aug 2026 07:17 WIB",
+      "source": "BBC World",
+      "title": "Anak di antara tiga orang yang tewas dalam serangan rudal Rusia di dekat Kyiv",
+      "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.",
+      "published": "08 Aug 2026 20:29 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -1.0,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "BBC World",
-      "title": "Saya sedang berdiri di depan guru saya ketika dia ditembak, kata seorang murid Thailand",
-      "url": "https://www.bbc.co.uk/news/articles/c07rxz03034o?at_medium=RSS&at_campaign=rss",
-      "summary": "The student says she feared never seeing her mother again after the attack killed five teachers.",
-      "published": "07 Aug 2026 21:20 WIB",
+      "title": "AS menghadiahkan $1 miliar kepada Kolombia pada hari pertama presiden sayap kanan baru menjabat",
+      "url": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Abelardo de la Espriella used his maiden speech to promise an \"all-out war\" on what he calls \"narco-terrorism\".",
+      "published": "08 Aug 2026 20:49 WIB",
       "sentiment": "Bearish",
-      "score": -0.896,
+      "score": -0.462,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Kematian penyerang NBA Clarke karena efek obat-obatan",
+      "url": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
+      "summary": "Memphis Grizzlies forward Brandon Clarke's death was due to the effects of heroin and cocaine, the Los Angeles medical authority reveals.",
+      "published": "08 Aug 2026 19:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -242,103 +297,59 @@
       "impact": "low"
     },
     {
-      "source": "BBC Business",
-      "title": "Celana pendek, atasan bertali, dan sandal: Pakaian apa yang boleh dikenakan saat bekerja?",
-      "url": "https://www.bbc.co.uk/news/articles/cre49389g1qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Here's how to style for success while keeping your cool - and where you and your boss stand on your wardrobe.",
-      "published": "06 Aug 2026 19:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.811,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "Al Jazeera",
-      "title": "Badan ICC mendesak Chad dan Venezuela untuk mengubah arah penarikan diri",
-      "url": "https://www.aljazeera.com/news/2026/8/7/icc-body-urges-chad-and-venezuela-to-reverse-course-on-withdrawal?traffic_source=rss",
-      "summary": "International court's oversight body warns exits threaten global justice, as US intensifies campaign against tribunal.",
-      "published": "08 Aug 2026 06:34 WIB",
-      "sentiment": "Bullish",
-      "score": 0.128,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Petugas medis di antara enam warga Palestina yang terluka dalam serangan Israel di Tepi Barat",
-      "url": "https://www.aljazeera.com/news/2026/8/7/medics-among-six-palestinians-injured-in-israeli-attacks-across-west-bank?traffic_source=rss",
-      "summary": "Since January, Palestinians have reported more than 11,000 Israeli attacks in the occupied West Bank, officials say.",
-      "published": "08 Aug 2026 06:15 WIB",
+      "title": "Drone yang terlihat di Bulgaria dan Jerman meningkatkan kekhawatiran akan eskalasi Rusia",
+      "url": "https://www.aljazeera.com/news/2026/8/8/drones-spotted-in-bulgaria-and-germany-raise-concerns-of-russian-escalation?traffic_source=rss",
+      "summary": "The drone incidents in Europe have ignited fears that Moscow's war on Kyiv is now entangling NATO nations.",
+      "published": "08 Aug 2026 19:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.898,
+      "score": -0.932,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Atletico Madrid tidak akan menjual Alvarez di tengah minat Barcelona, ​​kata Simeone",
+      "url": "https://www.aljazeera.com/sports/2026/8/8/atletico-madrid-will-not-sell-alvarez-amid-barcelona-interest-says-simeone?traffic_source=rss",
+      "summary": "Last month, Atletico filed a complaint to FIFA over Barcelona allegedly tapping up the 26-year-old forward.",
+      "published": "08 Aug 2026 19:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.122,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Timur Tengah pasca-Amerika mulai terbentuk",
+      "url": "https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
+      "summary": "The pact between Saudi Arabia, Pakistan and Turkiye is yet another step towards a new regional security architecture.",
+      "published": "08 Aug 2026 18:34 WIB",
+      "sentiment": "Bullish",
+      "score": 0.26,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "UEA mengatakan salah satu kapalnya menjadi sasaran rudal karena ketegangan AS-Iran terkait Selat Hormuz masih tinggi",
+      "url": "https://www.cnbc.com/2026/08/08/uae-ship-targeted-missile-us-iran-tensions-stay-high.html",
+      "summary": "Iran's military stressed that the crucial waterway would only be reopened when the U.S. accepts Iran's conditions.",
+      "published": "08 Aug 2026 20:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.581,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Lebanon menunjuk pada ‘kemajuan positif’ dalam perundingan perbatasan dan perundingan Israel",
-      "url": "https://www.aljazeera.com/news/2026/8/7/lebanon-points-to-positive-progress-on-borders-prisoners-in-israel-talks?traffic_source=rss",
-      "summary": "New Israeli attacks reported in southern Lebanon as Beirut offers optimism after the seventh round of discussions.",
-      "published": "08 Aug 2026 04:02 WIB",
+      "source": "CNBC World",
+      "title": "Di dalam startup pembuat drone yang menggerakkan kampanye serangan besar-besaran di Ukraina",
+      "url": "https://www.cnbc.com/2026/08/08/ukraine-russia-war-fire-point-drones.html",
+      "summary": "Fire Point CEO Iryna Terekh says Ukraine has \"learned the hard way\" that military leverage is integral to to bringing diplomacy within reach.",
+      "published": "08 Aug 2026 12:21 WIB",
       "sentiment": "Bearish",
       "score": -0.402,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pengadilan banding AS menguatkan perintah untuk menghentikan sementara ballroom Trump di Gedung Putih",
-      "url": "https://www.aljazeera.com/news/2026/8/7/us-appeals-court-upholds-injunction-pausing-trumps-white-house-ballroom?traffic_source=rss",
-      "summary": "The two-judge majority underscored that the president needed congressional authority to move forward with his plans.",
-      "published": "08 Aug 2026 03:27 WIB",
-      "sentiment": "Netral",
-      "score": -0.003,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Beberapa orang tewas dalam serangan di Ukraina saat Kyiv menyerang raksasa e-commerce Rusia",
-      "url": "https://www.aljazeera.com/news/2026/8/7/several-killed-in-attacks-on-ukraine-as-kyiv-hits-russian-e-commerce-giant?traffic_source=rss",
-      "summary": "Ukraine continues to strike warehouses and logistics hubs run by Wildberries, which it says aid Moscow's war efforts.",
-      "published": "08 Aug 2026 01:54 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Apakah dana tanggal target cukup agresif untuk memberikan tabungan pensiun bagi orang Amerika yang bertahan seumur hidup mereka",
-      "url": "https://www.marketwatch.com/story/are-target-date-funds-hurting-americans-as-they-live-longer-929f4f92?mod=mw_rss_topstories",
-      "summary": "The popular default investments may need to be more aggressive in order to fund decades of retirement.",
-      "published": "08 Aug 2026 03:04 WIB",
-      "sentiment": "Netral",
-      "score": -0.001,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Economy",
-      "title": "Warner Bros. Discovery melaporkan lonjakan pendapatan streaming sebesar 10% menjelang usulan penggabungan Paramount",
-      "url": "https://www.cnbc.com/2026/08/06/warner-bros-discovery-streaming-revenue-paramount-combination.html",
-      "summary": "Warner Bros. Discovery's streaming segment surpassed $3 billion in revenue for the second quarter, marking a 10% increase from the year prior",
-      "published": "06 Aug 2026 22:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.238,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Economy",
-      "title": "Megayacht Amadea dijual seharga $187 juta kepada miliarder Dubai yang memiliki hubungan dengan Trump",
-      "url": "https://www.cnbc.com/2026/08/06/megayacht-amadea-sale-dubai-billionaire-trump-ties.html",
-      "summary": "The sale of the Amadea caps a turbulent and controversial history for the 348-foot yacht, which was seized from a sanctioned Russian oligarch.",
-      "published": "06 Aug 2026 19:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.79,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "CNBC World",
