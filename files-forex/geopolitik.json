@@ -1,5 +1,5 @@
 {
-  "generated": "08 Aug 2026 22:01 WIB",
+  "generated": "09 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,49 +7,49 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.252,
+      "score": -0.398,
       "count": 18
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.281,
-      "count": 15
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.335,
+      "score": -0.369,
+      "count": 17
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.433,
       "count": 15
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.089,
-      "count": 5
-    },
-    {
-      "pair": "EUR",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.166,
-      "count": 3
-    },
-    {
-      "pair": "GBP",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.166,
-      "count": 3
-    },
-    {
-      "pair": "USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.166,
-      "count": 3
+      "direction": "Tekanan Turun ▼",
+      "score": -0.092,
+      "count": 6
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Naik ▲",
       "score": 0.622,
+      "count": 2
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.622,
+      "count": 2
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.634,
+      "count": 2
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.634,
       "count": 2
     }
   ],
@@ -107,50 +107,6 @@
       "sentiment": "Bearish",
       "score": -0.888,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "investmentPasar live Eropa ditutup: Emas menguat, dolar melemah jelang NFP",
-      "url": "https://investinglive.com/news/investinglive-european-markets-wrap-gold-advances-dollar-muted-ahead-of-nfp/",
-      "summary": "Headlines: All eyes on the US jobs report now What is the distribution of forecasts for the US NFP? Gold stays supported amid Middle East de-escalation, but the US CPI could erase the gains Trump says a rate hike isn't completely up to Warsh, it's up to the Board How have interest rate expectations ",
-      "published": "07 Aug 2026 18:05 WIB",
-      "sentiment": "Bullish",
-      "score": 0.84,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "EUR/USD terhenti di garis tren utama menjelang laporan NFP dan CPI AS. Apa selanjutnya?",
-      "url": "https://investinglive.com/forex/eur-usd-stalls-at-a-key-trendline-ahead-of-the-us-nfp-and-cpi-reports-what-s-next/",
-      "summary": "FUNDAMENTAL OVERVIEW USD: The US dollar weakened across the board this week following de-escalation in the Middle East and increased hopes for a US-Iran deal. The bearish momentum waned though probably because the anticipated timeline for the deal passed without an announcement. Nevertheless, the ho",
-      "published": "07 Aug 2026 17:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.58,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Trump mengatakan kenaikan suku bunga tidak sepenuhnya tergantung pada Warsh, namun tergantung pada Dewan",
-      "url": "https://investinglive.com/news/trump-says-a-rate-hike-isn-t-completely-up-to-warsh-it-s-up-to-the-board/",
-      "summary": "A rate hike is not completely up to Warsh He's got a board that' very political It's up to the board I think Warsh is great, I won't criticize him Speaking in an interview with Punchbowl News, Trump said a potential rate hike is \"not completely up to Warsh\" adding that the Fed chair \"has a board tha",
-      "published": "07 Aug 2026 16:32 WIB",
-      "sentiment": "Bullish",
-      "score": 0.545,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Emas tetap mendapat dukungan di tengah deeskalasi Timur Tengah, namun IHK AS dapat menghapus kenaikan tersebut",
-      "url": "https://investinglive.com/commodities/gold-stays-supported-amid-middle-east-de-escalation-but-the-us-cpi-could-erase-the-gains/",
-      "summary": "FUNDAMENTAL OVERVIEW Gold continues to extend gains as the de-escalation in the Middle East and the hopes for a US-Iran deal reduced inflation and Fed tightening risks. Barring another escalation, the upside should remain supported. The next test will come next week with the release of the US CPI re",
-      "published": "07 Aug 2026 15:25 WIB",
-      "sentiment": "Bullish",
-      "score": 0.666,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -242,33 +198,11 @@
       "impact": "high"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Euro Tergelincir Terhadap Dolar AS karena Ketegangan di Timur Tengah Memicu Permintaan Safe Haven - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZVhGZU4tOTRaZWx3TlkyR0tRSHBoc1NsNF9QZjJjUmFLRTBHUzRLdndZMTlJdFp5bjl3N0pQN00zQldNeHRVODhTWFNhOGlOYW94d2pLSFdJWlZKVWw0dHFoRmV3UWNIeVhIdFVvSzRSRE1EZVVMZWJhNW83ZElHZEpZSVkzZw?oc=5",
-      "summary": "Euro Slips Against US Dollar as Middle East Tensions Fuel Safe-Haven Demand CryptoRank",
-      "published": "07 Aug 2026 12:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.077,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC World",
-      "title": "Anak di antara tiga orang yang tewas dalam serangan rudal Rusia di dekat Kyiv",
-      "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.",
-      "published": "08 Aug 2026 20:29 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "AS menghadiahkan $1 miliar kepada Kolombia pada hari pertama presiden sayap kanan baru menjabat",
+      "title": "AS menawarkan $1 miliar kepada Kolombia pada hari pertama presiden sayap kanan baru menjabat",
       "url": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
       "summary": "Abelardo de la Espriella used his maiden speech to promise an \"all-out war\" on what he calls \"narco-terrorism\".",
-      "published": "08 Aug 2026 20:49 WIB",
+      "published": "09 Aug 2026 00:58 WIB",
       "sentiment": "Bearish",
       "score": -0.462,
       "emoji": "🔴",
@@ -276,12 +210,34 @@
     },
     {
       "source": "BBC World",
-      "title": "Kematian penyerang NBA Clarke karena efek obat-obatan",
-      "url": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-      "summary": "Memphis Grizzlies forward Brandon Clarke's death was due to the effects of heroin and cocaine, the Los Angeles medical authority reveals.",
-      "published": "08 Aug 2026 19:05 WIB",
+      "title": "Madonna memberikan penghormatan kepada produser 'jenius, dunia lain' William Orbit",
+      "url": "https://www.bbc.co.uk/news/articles/cewr8wel4z8o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Queen of Pop worked with Orbit several times over the years, most notably on her genre-bending, Grammy Award-winning album Ray of Light.",
+      "published": "09 Aug 2026 00:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.973,
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Saksikan: Momen anggota parlemen oposisi melempar telur ke penjabat PM Kosovo",
+      "url": "https://www.bbc.co.uk/news/videos/cvg8je12xxeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Lawmakers and police officers had to intervene after Alliance party MP Time Kadrijaj hurled at least four eggs towards Kosovo's acting prime minister Albin Kurti.",
+      "published": "08 Aug 2026 22:59 WIB",
+      "sentiment": "Bullish",
+      "score": 0.322,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Anak di antara tiga orang yang tewas dalam serangan rudal Rusia di dekat Kyiv",
+      "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.",
+      "published": "09 Aug 2026 01:06 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -297,47 +253,91 @@
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Drone yang terlihat di Bulgaria dan Jerman meningkatkan kekhawatiran akan eskalasi Rusia",
-      "url": "https://www.aljazeera.com/news/2026/8/8/drones-spotted-in-bulgaria-and-germany-raise-concerns-of-russian-escalation?traffic_source=rss",
-      "summary": "The drone incidents in Europe have ignited fears that Moscow's war on Kyiv is now entangling NATO nations.",
-      "published": "08 Aug 2026 19:30 WIB",
+      "source": "BBC World",
+      "title": "Kematian penyerang NBA Clarke karena efek obat-obatan",
+      "url": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
+      "summary": "Memphis Grizzlies forward Brandon Clarke's death was due to the effects of heroin and cocaine, the Los Angeles medical authority reveals.",
+      "published": "08 Aug 2026 19:05 WIB",
       "sentiment": "Bearish",
-      "score": -0.932,
+      "score": -0.973,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Jet pemerintah Irlandia melakukan perjalanan ke UEA untuk ekstradisi Kinahan",
+      "url": "https://www.bbc.co.uk/news/articles/cly5zvv2kreo?at_medium=RSS&at_campaign=rss",
+      "summary": "Daniel Kinahan was arrested in Dubai under a warrant issued by the Irish courts in April but has fought attempts to extradite him.",
+      "published": "09 Aug 2026 01:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.692,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Atletico Madrid tidak akan menjual Alvarez di tengah minat Barcelona, ​​kata Simeone",
-      "url": "https://www.aljazeera.com/sports/2026/8/8/atletico-madrid-will-not-sell-alvarez-amid-barcelona-interest-says-simeone?traffic_source=rss",
-      "summary": "Last month, Atletico filed a complaint to FIFA over Barcelona allegedly tapping up the 26-year-old forward.",
-      "published": "08 Aug 2026 19:01 WIB",
-      "sentiment": "Bullish",
-      "score": 0.122,
-      "emoji": "🟢",
+      "title": "Vance mengatakan AS 'menghancurkan' program nuklir Iran",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/vance-says-us-destroyed-irans-nuclear-programme?traffic_source=rss",
+      "summary": "US Vice President JD Vance claims Washington has “destroyed” Iran’s nuclear programme and degraded its military.",
+      "published": "09 Aug 2026 06:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.421,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan bom mobil mengguncang Kolombia setelah pelantikan presiden garis keras",
+      "url": "https://www.aljazeera.com/news/2026/8/8/car-bomb-attack-rattles-colombia-after-inauguration-of-hardline-president?traffic_source=rss",
+      "summary": "Government promises harsh response following explosives attack on Pan-American Highway in southwest of country.",
+      "published": "09 Aug 2026 05:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.946,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pasukan pemerintah Yaman menyerang Houthi di tengah penembakan baru terhadap Marib",
+      "url": "https://www.aljazeera.com/news/2026/8/8/yemens-government-forces-attack-houthis-amid-renewed-shelling-of-marib?traffic_source=rss",
+      "summary": "Fears of a wider conflict grow as Yemen’s army counterattacks and expert warns ‘all the warning signs are there’.",
+      "published": "09 Aug 2026 01:43 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Timur Tengah pasca-Amerika mulai terbentuk",
-      "url": "https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
-      "summary": "The pact between Saudi Arabia, Pakistan and Turkiye is yet another step towards a new regional security architecture.",
-      "published": "08 Aug 2026 18:34 WIB",
-      "sentiment": "Bullish",
-      "score": 0.26,
-      "emoji": "🟢",
+      "title": "British Columbia mengeluarkan perintah evakuasi menjelang kebakaran hutan yang meluas",
+      "url": "https://www.aljazeera.com/news/2026/8/8/british-columbia-issues-evacuation-orders-ahead-of-fast-moving-wildfires?traffic_source=rss",
+      "summary": "Authorities warn residents to be prepared to leave their homes as fast-moving wildfires spread across western Canada.",
+      "published": "09 Aug 2026 00:14 WIB",
+      "sentiment": "Netral",
+      "score": -0.003,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Apakah dana tanggal target cukup agresif untuk memberikan tabungan pensiun bagi orang Amerika yang bertahan seumur hidup?",
+      "url": "https://www.marketwatch.com/story/are-target-date-funds-hurting-americans-as-they-live-longer-929f4f92?mod=mw_rss_topstories",
+      "summary": "The popular default investments may need to be more aggressive in order to fund decades of retirement.",
+      "published": "09 Aug 2026 00:58 WIB",
+      "sentiment": "Netral",
+      "score": -0.001,
+      "emoji": "⚪",
       "impact": "high"
     },
     {
       "source": "CNBC World",
-      "title": "UEA mengatakan salah satu kapalnya menjadi sasaran rudal karena ketegangan AS-Iran terkait Selat Hormuz masih tinggi",
+      "title": "Iran menetapkan persyaratan untuk pembukaan Selat Hormuz setelah UEA mengatakan salah satu kapalnya menjadi sasaran serangan udara",
       "url": "https://www.cnbc.com/2026/08/08/uae-ship-targeted-missile-us-iran-tensions-stay-high.html",
       "summary": "Iran's military stressed that the crucial waterway would only be reopened when the U.S. accepts Iran's conditions.",
-      "published": "08 Aug 2026 20:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.581,
-      "emoji": "🔴",
+      "published": "09 Aug 2026 00:41 WIB",
+      "sentiment": "Netral",
+      "score": -0.026,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -345,7 +345,7 @@
       "title": "Di dalam startup pembuat drone yang menggerakkan kampanye serangan besar-besaran di Ukraina",
       "url": "https://www.cnbc.com/2026/08/08/ukraine-russia-war-fire-point-drones.html",
       "summary": "Fire Point CEO Iryna Terekh says Ukraine has \"learned the hard way\" that military leverage is integral to to bringing diplomacy within reach.",
-      "published": "08 Aug 2026 12:21 WIB",
+      "published": "08 Aug 2026 22:29 WIB",
       "sentiment": "Bearish",
       "score": -0.402,
       "emoji": "🔴",
