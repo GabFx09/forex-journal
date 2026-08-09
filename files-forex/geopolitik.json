@@ -1,5 +1,5 @@
 {
-  "generated": "09 Aug 2026 22:01 WIB",
+  "generated": "10 Aug 2026 05:27 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,20 +7,32 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.41,
+      "score": -0.403,
       "count": 15
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.41,
+      "score": -0.403,
       "count": 15
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.616,
+      "score": -0.562,
       "count": 12
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.52,
+      "count": 4
+    },
+    {
+      "pair": "USD/RUB",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.87,
+      "count": 1
     },
     {
       "pair": "CAD/USD",
@@ -35,13 +47,46 @@
       "count": 1
     },
     {
-      "pair": "EUR/USD",
+      "pair": "GBP/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -1.0,
+      "score": -0.539,
       "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Minyak telah dibuka untuk perdagangan berjangka minggu ini di Globex, naik sekitar 2% setelah akhir pekan yang menegangkan",
+      "url": "https://investinglive.com/commodities/oil-has-opened-for-the-week-s-futures-trade-on-globex-up-around-2-after-a-tense-weekend-0/",
+      "summary": "Oil futures higher after a weekend of not much progress to end the war: Attacks: Reports that Iran missiles have hit a tanker off Oman in Hormuz Iran hot backing down: Iran vows Hormuz stays shut until US meets demands Trump all at sea: Trump: \"we are low keying it\" This article was written by Eamon",
+      "published": "10 Aug 2026 05:08 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Ada laporan bahwa rudal Iran telah menghantam sebuah kapal tanker di lepas pantai Oman di koridor selatan Hormuz",
+      "url": "https://investinglive.com/commodities/there-are-reports-that-iran-missiles-have-hit-a-tanker-off-oman-in-hormuz-southern-corridor/",
+      "summary": "This strike, if confirmed, lands directly on the southern lane that US officials had described as the one reliable channel still moving roughly 8 million barrels a day, and its loss or disruption would remove the main pressure valve that had been keeping the market calm despite the broader standoff.",
+      "published": "10 Aug 2026 04:36 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran bersumpah Hormuz akan tetap ditutup sampai AS memenuhi tuntutan ketika Houthi memperluas blokade Laut Merah",
+      "url": "https://investinglive.com/commodities/iran-vows-hormuz-stays-shut-until-us-meets-demands-as-houthis-widen-red-sea-blockade/",
+      "summary": "This hardens the more bearish read from our earlier piece on Trump's low key posture. The IRGC's insistence that Hormuz stays a theatre of war until sanctions are lifted and compensation is paid suggests the Vahidi camp, not Pezeshkian's, is currently setting the terms, and that argues for a firmer ",
+      "published": "10 Aug 2026 03:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.87,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Newsquawk minggu depan: pengumuman RBA dan penjualan ritel AS",
@@ -52,6 +97,28 @@
       "score": 0.361,
       "emoji": "🟢",
       "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Aussie-Yen Diperkirakan Mendekati Level Tertingginya dalam Tiga Dekade, Kata Para Analis",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-09/aussie-yen-is-set-to-approach-three-decade-high-analysts-say",
+      "summary": "The Australian dollar is poised to climb back toward a 35-year high against the yen as the impact of Tokyo’s currency intervention fades and the Reserve Bank of Australia’s hawkish stance bolsters the exchange rate, according to strategists.",
+      "published": "10 Aug 2026 04:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.33,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bloomberg Akhir Pekan Ini 08/09/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-09/bloomberg-this-weekend-08-09-2026-video",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Puerto Rico Resident Commissioner Rep. Pablo José Hernández Rivera, Royal Observatory Greenwich Pla",
+      "published": "09 Aug 2026 22:57 WIB",
+      "sentiment": "Bullish",
+      "score": 0.302,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -109,22 +176,11 @@
       "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Inflasi Tiongkok Mereda seiring Guncangan Minyak Akibat Perang Iran Mulai Mereda",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-09/china-s-inflation-cools-as-oil-shock-of-iran-war-starts-to-ease",
-      "summary": "China’s factory-gate inflation eased for the first time since the Iran war broke out in late February while consumer prices also decelerated, in another sign that cost pressures from the oil shock are starting to fade.",
-      "published": "09 Aug 2026 08:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.935,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
       "title": "Israel menolak rencana 15 poin Trump untuk Gaza, kata Netanyahu",
       "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss",
       "summary": "Israel's PM says its military will not pull out from Gaza until Hamas is \"genuinely\" disarmed.",
-      "published": "09 Aug 2026 21:18 WIB",
+      "published": "10 Aug 2026 04:25 WIB",
       "sentiment": "Bearish",
       "score": -0.494,
       "emoji": "🔴",
@@ -134,12 +190,23 @@
       "source": "BBC World",
       "title": "Warga diperingatkan untuk bersiap menghadapi kemungkinan terburuk karena kebakaran hutan di Kanada tidak terkendali",
       "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over more than 39 sq miles (103 sq km).",
-      "published": "09 Aug 2026 20:08 WIB",
+      "summary": "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over 53 sq miles (136 sq km).",
+      "published": "10 Aug 2026 01:03 WIB",
       "sentiment": "Bearish",
       "score": -0.932,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Drone terlihat di pangkalan Jerman beberapa hari setelah insiden bom Leipzig",
+      "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Police are investigating a drone sighting over a miltary base reportedly used for housing Patriot missile system parts.",
+      "published": "09 Aug 2026 23:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.574,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -176,69 +243,47 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Rencana ‘Rafaah Hijau’ Israel bertujuan untuk memecah-belah Gaza, kata para ahli",
-      "url": "https://www.aljazeera.com/news/2026/8/9/israels-green-rafah-plan-aims-to-fragment-gaza-experts-say?traffic_source=rss",
-      "summary": "Experts warn Israel's new administrative zones in Gaza seek to erase the Palestinian cause and force mass displacement.",
-      "published": "09 Aug 2026 20:54 WIB",
+      "title": "Jerman memperingatkan adanya ‘perang hibrida setiap hari’ setelah drone bermuatan bahan peledak ditemukan",
+      "url": "https://www.aljazeera.com/news/2026/8/9/germany-warns-of-daily-hybrid-warfare-following-suspected-drone-attack?traffic_source=rss",
+      "summary": "Espionage, sabotage, cyberattacks, and covert operations are a 'constant reality', says Germany's interior minister.",
+      "published": "10 Aug 2026 03:40 WIB",
       "sentiment": "Bearish",
-      "score": -0.183,
+      "score": -0.746,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Barzani mengatakan Kurdistan Irak menginginkan perdamaian ketika ketegangan regional meningkat",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/barzani-says-iraqi-kurdistan-wants-peace-as-regional-tensions-rise?traffic_source=rss",
-      "summary": "Barzani says Iraqi Kurdistan wants peace as regional tensions rise",
-      "published": "09 Aug 2026 20:28 WIB",
+      "title": "Warga Palestina mengatakan keputusan Netanyahu 'tidak memberikan jalan yang jelas' menuju perdamaian",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/palestinians-say-netanyahus-decision-leaves-no-clear-path-to-peace?traffic_source=rss",
+      "summary": "‘We're going backwards.’",
+      "published": "10 Aug 2026 03:02 WIB",
       "sentiment": "Bullish",
-      "score": 0.302,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "‘Orang kaya miskin’: Melonjaknya harga pangan merugikan keluarga Iran",
-      "url": "https://www.aljazeera.com/features/2026/8/9/the-wealthy-poor-soaring-food-prices-hurt-iranian-families?traffic_source=rss",
-      "summary": "Iranians from all walks of life struggle under the weight of rising inflation and war pressure.",
-      "published": "09 Aug 2026 20:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.893,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Negara mana lagi yang bisa bergabung dengan pakta pertahanan Turki-Saudi-Pakistan?",
-      "url": "https://www.aljazeera.com/news/2026/8/9/which-other-countries-could-join-the-turkiye-saudi-pakistan-defence-pact?traffic_source=rss",
-      "summary": "While Egypt has been floated as a candidate, analysts say Cairo may be wary of defence commitments.",
-      "published": "09 Aug 2026 18:59 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
+      "score": 0.647,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pasukan Rusia membunuh beberapa orang di Ukraina, melancarkan serangan ‘brutal’ di Odessa",
-      "url": "https://www.aljazeera.com/news/2026/8/9/russian-forces-kill-several-in-ukraine-launch-brutal-attack-in-odesa?traffic_source=rss",
-      "summary": "President Volodymyr Zelenskyy accuses Moscow of harming global food security amid a plate of attacks on Odesa's port.",
-      "published": "09 Aug 2026 17:55 WIB",
+      "title": "Pentagon mendesak produksi senjata AS lebih cepat di tengah kekhawatiran persediaan",
+      "url": "https://www.aljazeera.com/news/2026/8/9/pentagon-urges-faster-us-weapons-production-amid-stockpile-concerns?traffic_source=rss",
+      "summary": "US defence industry pressed to boost output as munitions shortages raise security concerns amid Middle East tensions.",
+      "published": "09 Aug 2026 22:38 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.258,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Tentara Yaman memperingatkan Houthi setelah serangan meningkatkan risiko eskalasi",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/yemeni-army-warns-houthis-after-attacks-heighten-escalation-risk?traffic_source=rss",
-      "summary": "Yemeni army warns Houthis after attacks heighten escalation risk",
-      "published": "09 Aug 2026 17:45 WIB",
+      "title": "Kekhawatiran meningkat atas integritas pemilu Israel pada bulan Oktober mendatang",
+      "url": "https://www.aljazeera.com/news/2026/8/9/concerns-mount-over-integrity-of-israels-upcoming-october-elections?traffic_source=rss",
+      "summary": "Poll shows 70 percent of Jewish Israelis fear election integrity risks as Netanyahu government faces mounting criticism.",
+      "published": "09 Aug 2026 22:20 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.539,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "CNBC World",
