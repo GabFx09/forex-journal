@@ -1,5 +1,5 @@
 {
-  "generated": "10 Aug 2026 07:01 WIB",
+  "generated": "10 Aug 2026 09:33 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.541,
-      "count": 16
+      "score": -0.527,
+      "count": 17
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.541,
-      "count": 16
+      "score": -0.527,
+      "count": 17
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.603,
-      "count": 14
+      "score": -0.563,
+      "count": 16
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.599,
-      "count": 5
+      "score": -0.614,
+      "count": 4
     },
     {
       "pair": "USD/RUB",
@@ -47,13 +47,24 @@
       "count": 1
     },
     {
-      "pair": "GBP/USD",
+      "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.539,
+      "score": -0.827,
       "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Pemutus sirkuit Kosdaq dipicu ketika saham teknologi Korea melonjak. Kospi, Nikkei bangkit.",
+      "url": "https://investinglive.com/stock-market-update/kosdaq-circuit-breaker-triggered-as-korean-tech-stocks-surge-kospi-nikkei-rise/",
+      "summary": "This is a straightforward continuation of the theme we flagged in our gold piece, where the weak US payrolls print pushed traders to slash Fed hike bets, and that same repricing is now the clear driver behind the rally in Korean and Japanese chip stocks. The Kosdaq's circuit breaker trigger points t",
+      "published": "10 Aug 2026 09:28 WIB",
+      "sentiment": "Netral",
+      "score": 0.026,
+      "emoji": "⚪",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Goldman Sachs tetap bullish pada saham, memperkirakan minyak akan melemah di bawah $70",
@@ -121,6 +132,39 @@
       "impact": "high"
     },
     {
+      "source": "FXStreet News",
+      "title": "Ketegangan Hormuz meningkat seiring serangan rudal yang belum terkonfirmasi di tengah rapuhnya perundingan AS-Iran",
+      "url": "https://www.fxstreet.com/news/hormuz-tensions-escalate-as-unconfirmed-missile-attack-amid-fragile-us-iran-talks-202608100117",
+      "summary": "The ongoing US-Iran conflict has entered a crucial diplomatic phase, with intense fighting and strategic pressure around the vital Strait of Hormuz continuing to drive the dynamic of the war.",
+      "published": "10 Aug 2026 08:17 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "WTI naik mendekati $79,50 di tengah ketidakpastian pembukaan kembali Selat Hormuz",
+      "url": "https://www.fxstreet.com/news/wti-slips-below-7650-despite-uncertainty-over-reopening-strait-of-hormuz-202608100048",
+      "summary": "West Texas Intermediate (WTI) oil price gains ground after registering nearly 1.5% losses in the previous trading day, hovering around $79.40 per barrel during the Asian hours on Monday. Crude oil prices advance as persistent uncertainty surrounds efforts to reopen the critical Strait of Hormuz.",
+      "published": "10 Aug 2026 07:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.827,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "I Squared memenangkan perang penawaran untuk oOh!media Australia dengan kesepakatan $735 juta",
+      "url": "https://www.investing.com/news/stock-market-news/i-squared-wins-bidding-war-for-australias-oohmedia-with-735-million-deal-4847778",
+      "summary": "",
+      "published": "10 Aug 2026 07:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.126,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "Bloomberg Markets",
       "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 10 Agustus",
       "url": "https://www.bloomberg.com/news/articles/2026-08-09/latest-oil-market-news-and-analysis-for-aug-10",
@@ -130,6 +174,28 @@
       "score": -0.098,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Inflasi Tiongkok Mereda seiring Guncangan Minyak Akibat Perang Iran Mulai Mereda",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-09/china-s-inflation-cools-as-oil-shock-of-iran-war-starts-to-ease",
+      "summary": "China’s factory-gate inflation eased for the first time since the Iran war broke out in late February while consumer prices also decelerated, in another sign that cost pressures from the oil shock are starting to fade.",
+      "published": "09 Aug 2026 08:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.935,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Penambang Skandium Australia Melonjak Setelah Investasi AS $400 Juta",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/australian-scandium-miner-soars-after-400-million-us-investment",
+      "summary": "Sunrise Energy Metals Ltd. shares soared after the Australian scandium miner secured as much as $400 million in long-term debt financing from the US Department of War.",
+      "published": "10 Aug 2026 08:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.183,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -165,28 +231,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Krisis Senjata AS Menimbulkan Risiko di Luar Iran",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-09/us-weapons-crunch-raises-risks-beyond-iran-video",
-      "summary": "The Pentagon presses defense companies to accelerate weapons production as the Iran war depletes key US stockpiles and raises questions about readiness in other regions. Brigadier General Mark Kimmitt (Ret) and Bloomberg Economics Defense Lead Becca Wasser are on Bloomberg This Weekend and say the U",
-      "published": "09 Aug 2026 19:52 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pembicaraan Iran Menawarkan Sedikit Bantuan untuk Pengiriman Hormuz",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-09/iran-talks-offer-little-relief-for-hormuz-shipping-video",
-      "summary": "Iran and Oman are still discussing a temporary arrangement for shipping through the Strait of Hormuz, but attacks on regional energy infrastructure and major disagreements over transit rules are complicating negotiations. Bloomberg News White House Correspondent Skylar Woodhouse and Bloomberg News M",
-      "published": "09 Aug 2026 19:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.389,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
       "title": "Israel menolak rencana 15 poin Trump untuk Gaza, kata Netanyahu",
       "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss",
@@ -199,17 +243,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Warga diperingatkan untuk bersiap menghadapi kemungkinan terburuk karena kebakaran hutan di Kanada tidak terkendali",
-      "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over 53 sq miles (136 sq km).",
-      "published": "10 Aug 2026 05:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.932,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
       "title": "Drone terlihat di pangkalan Jerman beberapa hari setelah insiden bom Leipzig",
       "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
       "summary": "Police are investigating a drone sighting over a miltary base reportedly used for housing Patriot missile system parts.",
@@ -218,6 +251,17 @@
       "score": -0.574,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Warga diperingatkan untuk bersiap menghadapi kemungkinan terburuk karena kebakaran hutan di Kanada tidak terkendali",
+      "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over 53 sq miles (136 sq km).",
+      "published": "10 Aug 2026 07:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.932,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -242,26 +286,37 @@
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "AS menawarkan $1 miliar kepada Kolombia pada hari pertama presiden sayap kanan baru menjabat",
-      "url": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Abelardo de la Espriella used his maiden speech to promise an \"all-out war\" on what he calls \"narco-terrorism\".",
-      "published": "09 Aug 2026 00:58 WIB",
+      "source": "BBC Top Stories",
+      "title": "The Papers: 'Kemarahan baru di penjara' dan 'Hari-hari bahaya'",
+      "url": "https://www.bbc.co.uk/news/articles/c4g32y6ee20o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Sun says \"jet bomb plotters\" are launching parole bids, as the Mirror carries a heatwave \"open water swimming\" warning.",
+      "published": "10 Aug 2026 07:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.462,
+      "score": -0.986,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Apa yang menyebabkan kerusuhan di Kashmir yang dikuasai Pakistan?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/aje-onl-nf_dnrexp-260808-warrinera-pakistankashmir-100826?traffic_source=rss",
-      "summary": "Pakistan-administered Kashmir is facing its biggest political crisis in years. Al Jazeera's Ava Warriner explains.",
-      "published": "10 Aug 2026 05:37 WIB",
+      "title": "Houthi melancarkan serangan rudal balistik dan drone baru di pelabuhan al-Makha",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/houthis-launch-fresh-ballistic-missile-and-drone-attacks-on-al-makha-port?traffic_source=rss",
+      "summary": "Iran-backed Houthis have resumed attacks on Yemen’s al-Makha port in the Red Sea.",
+      "published": "10 Aug 2026 08:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.785,
+      "score": -0.702,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Houthi kembali melancarkan serangan rudal dan drone di pelabuhan al-Makha di Yaman",
+      "url": "https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha?traffic_source=rss",
+      "summary": "The latest Houthi attacks come less than 24 hours after an earlier barrage struck al-Makha (Mocha) and its commercial port.",
+      "published": "10 Aug 2026 07:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.938,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
@@ -284,28 +339,6 @@
       "score": 0.647,
       "emoji": "🟢",
       "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pentagon mendesak produksi senjata AS lebih cepat di tengah kekhawatiran persediaan",
-      "url": "https://www.aljazeera.com/news/2026/8/9/pentagon-urges-faster-us-weapons-production-amid-stockpile-concerns?traffic_source=rss",
-      "summary": "US defence industry pressed to boost output as munitions shortages raise security concerns amid Middle East tensions.",
-      "published": "09 Aug 2026 22:38 WIB",
-      "sentiment": "Bearish",
-      "score": -0.258,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kekhawatiran meningkat atas integritas pemilu Israel pada bulan Oktober mendatang",
-      "url": "https://www.aljazeera.com/news/2026/8/9/concerns-mount-over-integrity-of-israels-upcoming-october-elections?traffic_source=rss",
-      "summary": "Poll shows 70 percent of Jewish Israelis fear election integrity risks as Netanyahu government faces mounting criticism.",
-      "published": "09 Aug 2026 22:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.539,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "CNBC World",
