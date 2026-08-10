@@ -1,18 +1,18 @@
 {
-  "generated": "10 Aug 2026 05:27 WIB",
+  "generated": "10 Aug 2026 07:01 WIB",
   "summary": {
-    "total": 54,
-    "bullish": 21,
-    "bearish": 26,
+    "total": 59,
+    "bullish": 18,
+    "bearish": 34,
     "netral": 7,
-    "avg_score": -0.1295,
+    "avg_score": -0.2441,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
-        "sentiment": "Netral",
-        "score": -0.015,
-        "count": 5
+        "sentiment": "Bearish",
+        "score": -0.133,
+        "count": 7
       },
       {
         "currency": "JPY",
@@ -27,15 +27,15 @@
         "count": 3
       },
       {
-        "currency": "GBP",
+        "currency": "AUD",
         "sentiment": "Bearish",
-        "score": -0.148,
+        "score": -0.057,
         "count": 3
       },
       {
-        "currency": "AUD",
-        "sentiment": "Bullish",
-        "score": 0.346,
+        "currency": "GBP",
+        "sentiment": "Bearish",
+        "score": -0.477,
         "count": 2
       },
       {
@@ -59,6 +59,50 @@
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Goldman Sachs tetap bullish pada saham, memperkirakan minyak akan melemah di bawah $70",
+      "url": "https://investinglive.com/commodities/goldman-sachs-stays-bullish-on-stocks-expects-oil-to-soften-below-70-dollars/",
+      "summary": "Varadhan's oil call is the piece most worth flagging against our own coverage, since it sits in tension with the escalation we have just reported, including Iran's reported missile strike on a tanker in the US-backed southern corridor of Hormuz . His view that oil settles well below 70 dollars a bar",
+      "published": "10 Aug 2026 06:52 WIB",
+      "sentiment": "Netral",
+      "score": 0.046,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "UBS menandai adanya risiko emas jangka pendek namun tetap teguh pada target $5.000",
+      "url": "https://investinglive.com/commodities/ubs-flags-near-term-gold-risks-but-holds-firm-on-5-000-dollar-target/",
+      "summary": "This builds directly on the rally we flagged in our earlier gold piece , where a weak payrolls print pushed bullion to a seven week high, and UBS's note gives that move a structural rather than purely tactical framing. The bank's 5000 dollar target implies roughly 18 percent upside from the recent b",
+      "published": "10 Aug 2026 06:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.903,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Netanyahu menolak rencana Trump di Gaza karena AS meremehkan perselisihan tersebut",
+      "url": "https://investinglive.com/commodities/netanyahu-rejects-trump-gaza-plan-as-us-plays-down-the-friction/",
+      "summary": "There is a more direct oil read here than a first glance suggests. Hamas is one of Iran's regional proxies, and a genuine collapse of the Gaza ceasefire would give Tehran a pretext to harden its posture across every front simultaneously, Hormuz included, at a moment when the IRGC has already declare",
+      "published": "10 Aug 2026 06:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.915,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Pratinjau: Pertemuan RBA pada hari Selasa. CBA memperkirakan RBA akan mempertahankan suku bunga hingga sisa tahun 2026",
+      "url": "https://investinglive.com/central-banks/preview-rba-meet-tuesday-cba-expects-rba-to-hold-rates-through-the-rest-of-2026/",
+      "summary": "A hold from the RBA with continued hawkish rhetoric is the base case CBA is pricing in, and that combination, no move but no dovish pivot either, suggests limited near term direction for AUD from the decision itself. The more market relevant signal is CBA's expectation that the RBA will revise its u",
+      "published": "10 Aug 2026 05:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.863,
+      "emoji": "🔴",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Minyak telah dibuka untuk perdagangan berjangka minggu ini di Globex, naik sekitar 2% setelah akhir pekan yang menegangkan",
@@ -160,6 +204,39 @@
     },
     {
       "source": "Investing.com Forex",
+      "title": "Treasury Wine mengumumkan biaya $395 juta terkait dengan perombakan rantai pasokan AS",
+      "url": "https://www.investing.com/news/stock-market-news/treasury-wine-announces-395-million-charge-tied-to-us-supply-chain-revamp-4847764",
+      "summary": "",
+      "published": "10 Aug 2026 06:19 WIB",
+      "sentiment": "Bullish",
+      "score": 0.202,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Shein menyadari bahwa tidak ada tempat seperti Tiongkok setelah eksperimen gudang di Vietnam mengecewakan",
+      "url": "https://www.investing.com/news/stock-market-news/shein-finds-theres-no-place-like-china-after-vietnam-warehouse-experiment-disappoints-4847761",
+      "summary": "",
+      "published": "10 Aug 2026 06:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.79,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Kami sudah memberi tahu Anda terlebih dahulu: saham-saham pilihan AI ini sudah naik +48% dan +28%.",
+      "url": "https://www.investing.com/news/stock-market-news/we-told-you-first-these-aipicked-stocks-are-up-48-and-28-already-4847758",
+      "summary": "",
+      "published": "10 Aug 2026 05:17 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
       "title": "Trump menunjuk Will Scharf sebagai penasihat Gedung Putih",
       "url": "https://www.investing.com/news/stock-market-news/trump-names-will-scharf-as-white-house-counsel-4847757",
       "summary": "",
@@ -236,39 +313,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Panggilan Jalan Minggu Ini",
-      "url": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-4847676",
-      "summary": "",
-      "published": "09 Aug 2026 17:05 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham-saham Eropa menarik investor karena pendapatan dan pertumbuhan menguat",
-      "url": "https://www.investing.com/news/stock-market-news/european-stocks-draw-investors-as-earnings-and-growth-strengthen-4847722",
-      "summary": "",
-      "published": "09 Aug 2026 16:58 WIB",
-      "sentiment": "Bullish",
-      "score": 0.679,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Maruti India memperkirakan pasar kendaraan penumpang akan meningkat hingga 6,3 juta unit pada tahun 2031",
-      "url": "https://www.investing.com/news/stock-market-news/indias-maruti-sees-passenger-vehicle-market-rising-to-up-to-63-million-units-by-2031-4847721",
-      "summary": "",
-      "published": "09 Aug 2026 16:12 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Defisit perdagangan Jerman dengan Tiongkok meningkat karena Beijing kurang bergantung pada industri Eropa",
       "url": "https://www.investing.com/news/economic-indicators/german-trade-deficit-with-china-grows-as-beijing-relies-less-on-european-industry-4847711",
@@ -288,6 +332,17 @@
       "sentiment": "Bullish",
       "score": 0.318,
       "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 10 Agustus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-09/latest-oil-market-news-and-analysis-for-aug-10",
+      "summary": "Oil extended gains as Iran and Oman remained short of a deal to reopen the Strait of Hormuz, while Houthi militants claimed an attack on a Saudi refinery near the Red Sea.",
+      "published": "10 Aug 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.098,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -390,28 +445,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Pertahanan Mata Uang Mendapat Perubahan seiring dengan Munculnya Cadangan Penjaga Asia",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-09/currency-defense-gets-makeover-as-emerging-asia-guards-reserves",
-      "summary": "Central banks in emerging Asia are increasingly finding ways to support their currencies without dipping into foreign-exchange reserves, as recurring Middle East tensions and the prospect of higher-for-longer US interest rates keep policymakers on edge.",
-      "published": "09 Aug 2026 17:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.531,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Rumania Memperluas Output Reaktor Sembilan Hari Setelah Ledakan Danube",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-09/romania-extends-reactor-output-by-nine-days-after-danube-blasts",
-      "summary": "Romania can keep the second nuclear reactor at its Cernavoda plant in operation for at least nine more days after explosive works on the Danube led to an increase in the flow of the river by 4cm (1.6 inches).",
-      "published": "09 Aug 2026 15:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.421,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "Google News Forex",
       "title": "Penjualan Euro AS untuk Mendukung Yen Menimbulkan Pertanyaan Koordinasi ECB - EU Today",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE01c1dEOXJpb2tkMkQzOFF0MmR5RnJ3em1SOEwzSVJ0VmtFN2FXNVZFUHd4bjR3MVZON00zcjJLdTlrdXpvcEFOQ19Bb3NBQWpNWlpXZ2R3N1NwQ1p5WG1VQ2pMNEI?oc=5",
@@ -449,7 +482,7 @@
       "title": "Warga diperingatkan untuk bersiap menghadapi kemungkinan terburuk karena kebakaran hutan di Kanada tidak terkendali",
       "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
       "summary": "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over 53 sq miles (136 sq km).",
-      "published": "10 Aug 2026 01:03 WIB",
+      "published": "10 Aug 2026 05:27 WIB",
       "sentiment": "Bearish",
       "score": -0.932,
       "emoji": "🔴",
@@ -512,14 +545,36 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Karya Banksy merugikan publik hampir £150.000",
-      "url": "https://www.bbc.co.uk/news/articles/cx2vnny7j5zo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC reveals taxpayers have funded thousands of pounds worth of cleaning operations and security for the artworks.",
-      "published": "09 Aug 2026 06:52 WIB",
-      "sentiment": "Bullish",
-      "score": 0.511,
-      "emoji": "🟢",
+      "title": "Burnham mengajukan larangan 'perangkap berlangganan' untuk meringankan biaya hidup",
+      "url": "https://www.bbc.co.uk/news/articles/cly5x9qlnvjo?at_medium=RSS&at_campaign=rss",
+      "summary": "The prime minister is embarking on a UK tour with a series of announcements aimed at easing living costs.",
+      "published": "10 Aug 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.186,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Union melaporkan 108 serangan terhadap jurnalis Palestina pada bulan Juli",
+      "url": "https://www.aljazeera.com/news/2026/8/9/union-reports-108-attacks-on-palestinian-journalists-in-july?traffic_source=rss",
+      "summary": "Palestinian Journalists Syndicate exposes rising threats, with over 270 journalists killed in Gaza since October 2023.",
+      "published": "10 Aug 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apa yang menyebabkan kerusuhan di Kashmir yang dikuasai Pakistan?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/aje-onl-nf_dnrexp-260808-warrinera-pakistankashmir-100826?traffic_source=rss",
+      "summary": "Pakistan-administered Kashmir is facing its biggest political crisis in years. Al Jazeera's Ava Warriner explains.",
+      "published": "10 Aug 2026 05:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.785,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -600,10 +655,10 @@
     },
     {
       "source": "MarketWatch",
-      "title": "Saham berjangka AS datar karena investor menunggu data inflasi dan bergulat dengan ketidakpastian Iran",
+      "title": "Saham berjangka AS merosot karena investor menunggu data inflasi dan bergulat dengan ketidakpastian Iran",
       "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
       "summary": "U.S. stock-index futures were little changed on Sunday, after new demands from Iran raised fresh doubts about the Strait of Hormuz reopening anytime soon and as investors await key inflation data later this week.",
-      "published": "10 Aug 2026 05:17 WIB",
+      "published": "10 Aug 2026 06:40 WIB",
       "sentiment": "Bearish",
       "score": -0.197,
       "emoji": "🔴",

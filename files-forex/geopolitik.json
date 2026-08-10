@@ -1,5 +1,5 @@
 {
-  "generated": "10 Aug 2026 05:27 WIB",
+  "generated": "10 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.403,
-      "count": 15
+      "score": -0.541,
+      "count": 16
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.403,
-      "count": 15
+      "score": -0.541,
+      "count": 16
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.562,
-      "count": 12
+      "score": -0.603,
+      "count": 14
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.52,
-      "count": 4
+      "score": -0.599,
+      "count": 5
     },
     {
       "pair": "USD/RUB",
@@ -54,6 +54,28 @@
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Goldman Sachs tetap bullish pada saham, memperkirakan minyak akan melemah di bawah $70",
+      "url": "https://investinglive.com/commodities/goldman-sachs-stays-bullish-on-stocks-expects-oil-to-soften-below-70-dollars/",
+      "summary": "Varadhan's oil call is the piece most worth flagging against our own coverage, since it sits in tension with the escalation we have just reported, including Iran's reported missile strike on a tanker in the US-backed southern corridor of Hormuz . His view that oil settles well below 70 dollars a bar",
+      "published": "10 Aug 2026 06:52 WIB",
+      "sentiment": "Netral",
+      "score": 0.046,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Netanyahu menolak rencana Trump di Gaza karena AS meremehkan perselisihan tersebut",
+      "url": "https://investinglive.com/commodities/netanyahu-rejects-trump-gaza-plan-as-us-plays-down-the-friction/",
+      "summary": "There is a more direct oil read here than a first glance suggests. Hamas is one of Iran's regional proxies, and a genuine collapse of the Gaza ceasefire would give Tehran a pretext to harden its posture across every front simultaneously, Hormuz included, at a moment when the IRGC has already declare",
+      "published": "10 Aug 2026 06:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.915,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Minyak telah dibuka untuk perdagangan berjangka minggu ini di Globex, naik sekitar 2% setelah akhir pekan yang menegangkan",
@@ -97,6 +119,17 @@
       "score": 0.361,
       "emoji": "🟢",
       "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 10 Agustus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-09/latest-oil-market-news-and-analysis-for-aug-10",
+      "summary": "Oil extended gains as Iran and Oman remained short of a deal to reopen the Strait of Hormuz, while Houthi militants claimed an attack on a Saudi refinery near the Red Sea.",
+      "published": "10 Aug 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.098,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -154,28 +187,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Pertahanan Mata Uang Mendapat Perubahan seiring dengan Munculnya Cadangan Penjaga Asia",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-09/currency-defense-gets-makeover-as-emerging-asia-guards-reserves",
-      "summary": "Central banks in emerging Asia are increasingly finding ways to support their currencies without dipping into foreign-exchange reserves, as recurring Middle East tensions and the prospect of higher-for-longer US interest rates keep policymakers on edge.",
-      "published": "09 Aug 2026 17:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.531,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Rumania Memperluas Output Reaktor Sembilan Hari Setelah Ledakan Danube",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-09/romania-extends-reactor-output-by-nine-days-after-danube-blasts",
-      "summary": "Romania can keep the second nuclear reactor at its Cernavoda plant in operation for at least nine more days after explosive works on the Danube led to an increase in the flow of the river by 4cm (1.6 inches).",
-      "published": "09 Aug 2026 15:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.421,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "BBC World",
       "title": "Israel menolak rencana 15 poin Trump untuk Gaza, kata Netanyahu",
       "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss",
@@ -191,7 +202,7 @@
       "title": "Warga diperingatkan untuk bersiap menghadapi kemungkinan terburuk karena kebakaran hutan di Kanada tidak terkendali",
       "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
       "summary": "The Bald Range wildfire in British Columbia, still considered \"out of control\", has spread over 53 sq miles (136 sq km).",
-      "published": "10 Aug 2026 01:03 WIB",
+      "published": "10 Aug 2026 05:27 WIB",
       "sentiment": "Bearish",
       "score": -0.932,
       "emoji": "🔴",
@@ -238,6 +249,17 @@
       "published": "09 Aug 2026 00:58 WIB",
       "sentiment": "Bearish",
       "score": -0.462,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apa yang menyebabkan kerusuhan di Kashmir yang dikuasai Pakistan?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/aje-onl-nf_dnrexp-260808-warrinera-pakistankashmir-100826?traffic_source=rss",
+      "summary": "Pakistan-administered Kashmir is facing its biggest political crisis in years. Al Jazeera's Ava Warriner explains.",
+      "published": "10 Aug 2026 05:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.785,
       "emoji": "🔴",
       "impact": "high"
     },
