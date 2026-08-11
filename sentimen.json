@@ -1,23 +1,23 @@
 {
-  "generated": "11 Aug 2026 09:23 WIB",
+  "generated": "11 Aug 2026 10:14 WIB",
   "summary": {
-    "total": 97,
-    "bullish": 44,
+    "total": 100,
+    "bullish": 47,
     "bearish": 37,
     "netral": 16,
-    "avg_score": 0.0057,
+    "avg_score": 0.033,
     "overall": "Netral",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Netral",
-        "score": 0.044,
+        "score": -0.016,
         "count": 28
       },
       {
         "currency": "JPY",
-        "sentiment": "Netral",
-        "score": 0.026,
+        "sentiment": "Bullish",
+        "score": 0.243,
         "count": 9
       },
       {
@@ -29,8 +29,8 @@
       {
         "currency": "AUD",
         "sentiment": "Bullish",
-        "score": 0.516,
-        "count": 8
+        "score": 0.532,
+        "count": 7
       },
       {
         "currency": "CAD",
@@ -45,15 +45,15 @@
         "count": 4
       },
       {
-        "currency": "NZD",
-        "sentiment": "Netral",
-        "score": -0.044,
-        "count": 3
-      },
-      {
         "currency": "GBP",
         "sentiment": "Bullish",
         "score": 0.754,
+        "count": 2
+      },
+      {
+        "currency": "NZD",
+        "sentiment": "Bullish",
+        "score": 0.222,
         "count": 2
       },
       {
@@ -73,6 +73,39 @@
       "published": "11 Aug 2026 07:09 WIB",
       "sentiment": "Bullish",
       "score": 0.7,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Rupee akan dibuka melemah karena tekanan minyak meningkat, dukungan RBI menjadi fokus",
+      "url": "https://investinglive.com/central-banks/rupee-set-to-open-weaker-as-oil-pressure-builds-rbi-support-in-focus/",
+      "summary": "The rupee's weakness is a fairly direct read through of the broader oil driven risk premium building around the Hormuz standoff, with Brent's advance toward the $88 level adding fresh pressure on India's import bill and currency. RBI's consistent dollar selling near current levels is doing the heavy",
+      "published": "11 Aug 2026 10:08 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Sumber: BoJ kemungkinan menaikkan suku bunga lagi pada pertemuan 17-18 September",
+      "url": "https://investinglive.com/central-banks/sources-boj-could-raise-rates-again-at-september-17-18-meeting/",
+      "summary": "This report adds a further layer of support to the yen thesis that has been building across recent coverage, where market participants including MUFG and Goldman Sachs have argued that genuine, lasting yen strength depends on the BoJ actually delivering further tightening rather than on intervention",
+      "published": "11 Aug 2026 09:51 WIB",
+      "sentiment": "Bullish",
+      "score": 0.5,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Korea Selatan: Kospi naik untuk hari kedua karena Samsung Electronics melonjak sekitar 3,6%",
+      "url": "https://investinglive.com/stock-market-update/south-korea-kospi-rises-for-second-day-as-samsung-electronics-jumps-circa-3-6/",
+      "summary": "South Korean equities extended their advance for a second straight session, with Samsung Electronics doing much of the heavy lifting even as SK Hynix and LG Energy Solution moved lower, pointing to stock specific rather than broad based sector strength. Foreign investors turning net buyers alongside",
+      "published": "11 Aug 2026 09:35 WIB",
+      "sentiment": "Bullish",
+      "score": 1.0,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -253,37 +286,26 @@
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "investBerita pasar langsung Amerika: Emas dan minyak terus naik, yen tenggelam",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-aug/",
-      "summary": "Fed's Hammack: Now is the time to bring more restraint into policy Trump says he is demanding compensation from Iran for people killed It's time to start the countdown on Atlantic hurricane season US July employment trends 107.71 vs 106.74 prior Intel dilutes shareholders: Will launch $15 billion se",
-      "published": "11 Aug 2026 03:17 WIB",
+      "source": "FXStreet News",
+      "title": "BoJ Akan Pertimbangkan Menaikkan Suku Bunga Pada Bulan September – Jiji Press",
+      "url": "https://www.fxstreet.com/news/boj-to-consider-raising-interest-rates-in-september-jiji-press-202608110303",
+      "summary": "According to the Jiji Press, the Bank of Japan (BoJ) may consider an additional interest rate increase at its next policy meeting on September 17-18, after leaving them unchanged in July, to counter upside inflation risks.",
+      "published": "11 Aug 2026 10:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.655,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Dolar Selandia Baru tetap terbatas dalam kisaran vs USD di tengah risiko Iran, menjelang IHK AS",
+      "url": "https://www.fxstreet.com/news/new-zealand-dollar-remains-confined-in-a-range-vs-usd-amid-iran-risks-ahead-of-us-cpi-202608110302",
+      "summary": "The NZD/USD pair seesaws between tepid gains/minor losses during the Asian session on Tuesday and currently trades just below the 0.5900 mark.",
+      "published": "11 Aug 2026 10:02 WIB",
       "sentiment": "Bearish",
-      "score": -0.878,
+      "score": -0.666,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Kalender ekonomi dan peristiwa di Asia Selasa, 11 Agustus 2026 - Hari libur Jepang, keputusan RBA",
-      "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-tuesday-august-11-2026-japan-holiday-rba-decision/",
-      "summary": "Previews of today's Reserve Bank of Australia decision are here: RBA preview: Analysts see cash rate on hold at 4.35% Tuesday RBA preview - Westpac says soft Q2 CPI gives RBA room to hold at 4.35% Preview: RBA meet Tuesday. CBA expects RBA to hold rates through the rest of 2026 This article was writ",
-      "published": "11 Aug 2026 03:02 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
       "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Emas terus rebound saat naik di atas level tertinggi pertengahan Juni",
-      "url": "https://investinglive.com/commodities/gold-continues-to-rebound-as-it-climbs-above-the-mid-june-high/",
-      "summary": "Four straight days of gains in both gold and oil is a rare occurence and it makes me anxious about the status of the US dollar. It's notable that the gains have come amidst US intervention in the yen and yet-another mess in the Iran strategy. In any case, the bounce in gold hasn't run out of steam y",
-      "published": "11 Aug 2026 02:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -331,13 +353,13 @@
     },
     {
       "source": "FXStreet News",
-      "title": "Perkiraan Harga Perak: XAG/USD tergelincir mendekati $66,00 karena kekhawatiran kenaikan suku bunga Fed dan lonjakan harga minyak",
+      "title": "Perkiraan Harga Perak: XAG/USD mempertahankan penurunan mendekati $66,00 di tengah kekhawatiran kenaikan suku bunga Fed dan lonjakan harga minyak",
       "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-slips-to-near-6600-on-fed-hike-fears-oil-surge-202608110137",
       "summary": "Silver price (XAG/USD) depreciates after two days of gains, trading around $66.00 per troy ounce during the Asian hours on Tuesday. The price of non-yielding Silver has taken a hit recently as rising oil prices spark renewed inflation fears and heighten expectations for interest rate hikes.",
       "published": "11 Aug 2026 08:37 WIB",
-      "sentiment": "Bullish",
-      "score": 0.418,
-      "emoji": "🟢",
+      "sentiment": "Bearish",
+      "score": -0.09,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -484,15 +506,26 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dow Jones Industrial Average mulai menetapkan harga premium perang tahun 2029",
-      "url": "https://www.fxstreet.com/news/the-dow-jones-industrial-average-kept-what-payrolls-lost-202608101625",
-      "summary": "The Dow Jones Industrial Average trades near 53,900 on Monday, lower by three tenths of a percent and pinned to the bottom of a session that has covered barely 200 points, the narrowest daily bar in weeks. Every price of the day sits inside Friday's range, and Friday's sat inside Thursday's.",
-      "published": "10 Aug 2026 23:25 WIB",
+      "source": "Investing.com Forex",
+      "title": "Amkor mempertimbangkan penjualan saham di bisnis Tiongkok senilai $1,5 miliar, Bloomberg melaporkan",
+      "url": "https://www.investing.com/news/stock-market-news/amkor-considers-stake-sale-in-15-bln-china-business-bloomberg-reports-4850743",
+      "summary": "",
+      "published": "11 Aug 2026 10:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Trump menggunakan pesawat militer untuk meninggalkan Turki karena ancaman Iran- Washington Post",
+      "url": "https://www.investing.com/news/stock-market-news/trump-used-military-plane-to-leave-turkey-due-to-iran-threat-washington-post-93CH-4850737",
+      "summary": "",
+      "published": "11 Aug 2026 09:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.807,
+      "score": -0.557,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Investing.com Forex",
@@ -583,28 +616,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Nikkei 225 melingkar di antara MA utama: Level breakout langsung",
-      "url": "https://www.investing.com/news/stock-market-news/nikkei-225-stalls-below-200-sma-near-67000-live-levels-93CH-4847790",
-      "summary": "",
-      "published": "11 Aug 2026 08:04 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "SK Hynix terjebak dalam tanda bearish di dekat posisi terendah multi-bulan: level saat ini",
-      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-bear-flag-80-done-tests-fibonacci-support-live-levels-93CH-4847791",
-      "summary": "",
-      "published": "11 Aug 2026 08:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.421,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Singapura menaikkan perkiraan PDB tahun 2026 setelah kuartal kedua mengalahkan permintaan yang didorong oleh AI",
       "url": "https://www.investing.com/news/economic-indicators/singapore-raises-2026-gdp-forecast-after-q2-beat-on-aidriven-demand-4850669",
@@ -682,14 +693,25 @@
       "impact": "low"
     },
     {
+      "source": "Reuters Currencies",
+      "title": "Emas Naik Untuk Sesi Ketiga, Laporan Inflasi Menjadi Fokus - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ3pfajk5NldmMDliSlhNU3ZYd1J6UGt3cWM4ZHBzTkxnYTVGbnVWU0ZOVFFqLUk2eFYyQnhxdUxiUFp5Y0lXTnpEOGIwMHBveTR5bzBvZmxjWTA4TmR6OUt0U1ZSd2V0dDhkMlg4TkpFdlFCSEtJN3BXYXJQMFZLZDgyZjR6UTRXeU5fRFZ1MHM1WXpCMEtTOF9CNmptQTJmNzBQN1JyMA?oc=5",
+      "summary": "Gold gains for third session, inflation reports in focus Reuters",
+      "published": "11 Aug 2026 07:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.666,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
       "source": "Bloomberg Markets",
-      "title": "Obligasi Jatuh Karena Kekhawatiran Inflasi, Minyak Menahan Kenaikan: Pembungkus Pasar",
+      "title": "Obligasi Jatuh Karena Kekhawatiran Inflasi, Emas Mencapai $4.400: Market Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-08-10/stock-market-today-dow-s-p-live-updates",
-      "summary": "Government bonds in Asia Pacific followed Treasuries lower as oil’s four-day rally revived inflation concerns before key US consumer price data later this week.",
+      "summary": "Government bonds in Asia Pacific followed Treasuries lower as oil’s four-day rally revived inflation concerns before the key US consumer price data later this week. Gold extended its rally.",
       "published": "11 Aug 2026 05:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.077,
-      "emoji": "🔴",
+      "sentiment": "Bullish",
+      "score": 0.459,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -804,17 +826,6 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Dolar Selandia Baru tergelincir karena USD menguat karena risiko Timur Tengah, taruhan kenaikan suku bunga Fed - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPX0NTLUxlOXBsMWs5Y1lMZ1p5cm55WUxyRmZuQXBZRnBza2l2M1o0cHNid3EwdzBWdS1MR1pWcjRRX2NkeDhCeS1YNVA1ZWdEcmRta0lOSjJqMzVnRTEtRE9VVndqa1U4X3BTNHZBYU9lQktxbjEtYmxOZ0F1clVrNXIzNzdZTmk0a0xrQVRrNmtxRG5PdEN6UUpuTlZoR1draWU5X2NiQ3dTdkpMeTJEMEduUElJZkhrNmdBdXFBenJjQi00dWk2ZEV3?oc=5",
-      "summary": "New Zealand Dollar slips as USD firms on Mideast risks, Fed hike bets FXStreet",
-      "published": "10 Aug 2026 10:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Geopolitik",
       "title": "Dolar Kanada Tergelincir karena Penghindaran Risiko Meningkatnya Dolar AS - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3VhdjAtR3pnVGVWVVF3dWQ4QTdpb0ZXSk96M013NVJjZ1FNYnMwZk12TXdaZTY2X2hKckFyNFRMVUdVckRvMEtuLXA4eU9vaUJBUVdXcnNpSTFpTm5OTTJ0NjkxM0NkMmlBSkJCMXdjOGZmcDdGbW5LRzBQSHVwTjJfVjBST1ZodGt3QW5R?oc=5",
       "summary": "Canadian Dollar Slips as Risk Aversion Boosts US Dollar CryptoRank",
@@ -884,7 +895,7 @@
       "title": "Trump menandatangani perintah untuk membatasi vaksin anak-anak dan membagi suntikan MMR",
       "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
       "summary": "The American Academy of Pediatrics calls the recommendation on measles, mumps and rubella shots \"dangerous\".",
-      "published": "11 Aug 2026 09:10 WIB",
+      "published": "11 Aug 2026 09:43 WIB",
       "sentiment": "Bearish",
       "score": -0.477,
       "emoji": "🔴",
@@ -966,6 +977,17 @@
       "score": 0.886,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump menuntut kompensasi dari Iran seiring berlanjutnya pembicaraan mengenai Selat Hormuz",
+      "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
+      "summary": "US president seeks payment for '50 years' of alleged damages after Iran conditions opening of Hormuz on war reparations.",
+      "published": "11 Aug 2026 09:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.858,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -1098,6 +1120,17 @@
       "score": -0.66,
       "emoji": "🔴",
       "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Singapura merevisi perkiraan pertumbuhan tahunannya jauh lebih tinggi karena dorongan terkait AI",
+      "url": "https://www.cnbc.com/2026/08/11/singapore-gdp-forecast-ai-boost-oil.html",
+      "summary": "GDP growth for 2026 is now expected to come in at 4.5% to 5.5%, more than double the low end of its previous forecast of 2%-4%",
+      "published": "11 Aug 2026 09:58 WIB",
+      "sentiment": "Bullish",
+      "score": 0.78,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
