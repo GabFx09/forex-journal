@@ -1,5 +1,5 @@
 {
-  "generated": "11 Aug 2026 10:14 WIB",
+  "generated": "11 Aug 2026 11:35 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,32 +7,26 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.287,
-      "count": 18
+      "score": -0.495,
+      "count": 15
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.245,
-      "count": 17
+      "score": -0.459,
+      "count": 14
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.31,
-      "count": 10
+      "score": -0.768,
+      "count": 7
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.095,
-      "count": 7
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.078,
-      "count": 3
+      "score": -0.207,
+      "count": 6
     },
     {
       "pair": "CAD/JPY",
@@ -45,6 +39,12 @@
       "direction": "Tekanan Naik ▲",
       "score": 0.483,
       "count": 3
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.407,
+      "count": 2
     },
     {
       "pair": "EUR",
@@ -99,17 +99,6 @@
       "impact": "medium"
     },
     {
-      "source": "ForexLive",
-      "title": "BELUM DIKONFIRMASI - Laporan masuk tentang peluncuran rudal jelajah lebih lanjut dari Sirik, Iran",
-      "url": "https://investinglive.com/commodities/unconfirmed-incoming-report-of-further-cruise-missile-launches-from-sirik-iran/",
-      "summary": "Iran shakedown continues. Yesterday: There are reports that Iran missiles have hit a tanker off Oman in Hormuz southern corridor This article was written by Eamonn Sheridan at investinglive.com.",
-      "published": "11 Aug 2026 04:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.482,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "FXStreet News",
       "title": "Perkiraan Harga Perak: XAG/USD mempertahankan penurunan mendekati $66,00 di tengah kekhawatiran kenaikan suku bunga Fed dan lonjakan harga minyak",
       "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-slips-to-near-6600-on-fed-hike-fears-oil-surge-202608110137",
@@ -132,46 +121,13 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dolar Selandia Baru tergelincir karena penguatan Dolar AS dan Minyak menahan Kiwi",
-      "url": "https://www.fxstreet.com/news/new-zealand-dollar-slips-as-firm-us-dollar-and-oil-keep-the-kiwi-pinned-202608102113",
-      "summary": "The New Zealand Dollar (NZD) trades near 0.5900 against the US Dollar (USD) on Monday, giving back a little ground after a run toward multi-day highs last week.",
-      "published": "11 Aug 2026 04:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.34,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Austal mendapat tawaran hingga $1,2 miliar untuk unit AS dari Hanwha; reli saham",
-      "url": "https://www.investing.com/news/stock-market-news/austal-gets-up-to-12-bln-offer-for-us-unit-from-hanwha-shares-rally-4850723",
-      "summary": "",
-      "published": "11 Aug 2026 08:54 WIB",
-      "sentiment": "Bullish",
-      "score": 0.376,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Pembuat kapal Austal mendapat tawaran $1,2 miliar untuk operasi AS dari Hanwha",
-      "url": "https://www.investing.com/news/stock-market-news/shipbuilder-austal-gets-12-billion-offer-for-us-operations-from-hanwha-4850710",
-      "summary": "",
-      "published": "11 Aug 2026 08:18 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
       "source": "Google News Geopolitik",
       "title": "Dolar/Yen Sebentar Mencapai 159 di NY seiring Ketegangan Timur Tengah Memacu 'Pembelian Dolar Safe-Haven' - finance.biggo.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0T1BuUlhaRFRoTHM4dlJMaHNPYVJnR3NsWWt6LUhLc3kydUp5dzdyaDI5UEFVa0NDaXNYR3FZQllFdEZwX3BKckRMS2NRODNNTzdkWUFRWkFxR2h2OGpBTUN0bE5hdi1hd2FqQ0VjcG9SRWw2VXc?oc=5",
       "summary": "Dollar/Yen Briefly Tops 159 in NY as Middle East Tensions Spur 'Safe-Haven Dollar Buying' finance.biggo.com",
       "published": "11 Aug 2026 01:37 WIB",
       "sentiment": "Bullish",
-      "score": 0.073,
+      "score": 0.216,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -182,7 +138,7 @@
       "summary": "Dollar Index Climbs Above 99.50 as Middle East Tensions Boost Safe-Haven Demand CryptoRank",
       "published": "10 Aug 2026 12:42 WIB",
       "sentiment": "Bearish",
-      "score": -0.208,
+      "score": -0.33,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -209,17 +165,6 @@
       "impact": "medium"
     },
     {
-      "source": "BBC World",
-      "title": "Pengadilan Rusia hanya melarang partai anti-perang untuk mencalonkan diri dalam pemilihan parlemen",
-      "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Russia's only liberal, anti-war party will not be able to take part in next month's parliamentary elections, a Moscow court rules.",
-      "published": "11 Aug 2026 01:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.58,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "BBC Top Stories",
       "title": "Inggris bersiap untuk memberantas hepatitis C",
       "url": "https://www.bbc.co.uk/news/articles/c75gk620r22o?at_medium=RSS&at_campaign=rss",
@@ -229,6 +174,17 @@
       "score": -0.798,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Ke mana perginya semua uang jika Amerika kehabisan senjata?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/where-did-all-the-money-go-if-the-us-is-running-out-of-weapons?traffic_source=rss",
+      "summary": "The war on Iran is exposing shortages in US weapons stockpiles, raising questions about years of defence spending.",
+      "published": "11 Aug 2026 10:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.98,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
