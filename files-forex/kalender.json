@@ -1,5 +1,5 @@
 {
-  "generated": "11 Aug 2026 22:02 WIB",
+  "generated": "12 Aug 2026 01:26 WIB",
   "events": [
     {
       "date": "2026-08-09",
@@ -328,7 +328,7 @@
       "impact": "low",
       "event": "Crude Oil Inventories",
       "actual": "",
-      "forecast": "",
+      "forecast": "-1.5M",
       "previous": "2.5M"
     },
     {
