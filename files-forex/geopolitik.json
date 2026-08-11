@@ -1,5 +1,5 @@
 {
-  "generated": "11 Aug 2026 09:23 WIB",
+  "generated": "11 Aug 2026 10:14 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,20 +7,20 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.208,
-      "count": 16
+      "score": -0.287,
+      "count": 18
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.155,
-      "count": 15
+      "score": -0.245,
+      "count": 17
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.158,
-      "count": 8
+      "score": -0.31,
+      "count": 10
     },
     {
       "pair": "EUR/USD",
@@ -67,6 +67,17 @@
     },
     {
       "source": "ForexLive",
+      "title": "Rupee akan dibuka melemah karena tekanan minyak meningkat, dukungan RBI menjadi fokus",
+      "url": "https://investinglive.com/central-banks/rupee-set-to-open-weaker-as-oil-pressure-builds-rbi-support-in-focus/",
+      "summary": "The rupee's weakness is a fairly direct read through of the broader oil driven risk premium building around the Hormuz standoff, with Brent's advance toward the $88 level adding fresh pressure on India's import bill and currency. RBI's consistent dollar selling near current levels is doing the heavy",
+      "published": "11 Aug 2026 10:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.98,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
       "title": "Kondisi bisnis Australia sedikit lebih tinggi pada bulan Juli namun kepercayaan masih rapuh",
       "url": "https://investinglive.com/news/australian-business-conditions-edge-higher-in-july-but-confidence-stays-fragile/",
       "summary": "The NAB survey points to an economy holding up better than feared but still operating under the shadow of elevated uncertainty, a combination that gives the RBA little reason to shift from its expected hold today. The pickup in conditions to +4, still below the long run trend of +7, alongside confid",
@@ -100,7 +111,7 @@
     },
     {
       "source": "FXStreet News",
-      "title": "Perkiraan Harga Perak: XAG/USD tergelincir mendekati $66,00 karena kekhawatiran kenaikan suku bunga Fed dan lonjakan harga minyak",
+      "title": "Perkiraan Harga Perak: XAG/USD mempertahankan penurunan mendekati $66,00 di tengah kekhawatiran kenaikan suku bunga Fed dan lonjakan harga minyak",
       "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-slips-to-near-6600-on-fed-hike-fears-oil-surge-202608110137",
       "summary": "Silver price (XAG/USD) depreciates after two days of gains, trading around $66.00 per troy ounce during the Asian hours on Tuesday. The price of non-yielding Silver has taken a hit recently as rising oil prices spark renewed inflation fears and heighten expectations for interest rate hikes.",
       "published": "11 Aug 2026 08:37 WIB",
@@ -218,6 +229,17 @@
       "score": -0.798,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump menuntut kompensasi dari Iran seiring berlanjutnya pembicaraan mengenai Selat Hormuz",
+      "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
+      "summary": "US president seeks payment for '50 years' of alleged damages after Iran conditions opening of Hormuz on war reparations.",
+      "published": "11 Aug 2026 09:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.858,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",

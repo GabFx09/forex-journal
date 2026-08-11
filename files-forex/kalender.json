@@ -1,10 +1,10 @@
 {
-  "generated": "11 Aug 2026 09:23 WIB",
+  "generated": "11 Aug 2026 10:14 WIB",
   "events": [
     {
       "date": "2026-08-09",
       "day": "Minggu",
-      "time_wib": "04:50",
+      "time_wib": "05:50",
       "currency": "JPY",
       "impact": "low",
       "event": "Bank Lending y/y",
@@ -35,9 +35,9 @@
       "previous": "3.06T"
     },
     {
-      "date": "2026-08-09",
-      "day": "Minggu",
-      "time_wib": "10:00",
+      "date": "2026-08-10",
+      "day": "Senin",
+      "time_wib": "11:00",
       "currency": "JPY",
       "impact": "low",
       "event": "Economy Watchers Sentiment",
@@ -48,7 +48,7 @@
     {
       "date": "2026-08-10",
       "day": "Senin",
-      "time_wib": "13:30",
+      "time_wib": "14:30",
       "currency": "EUR",
       "impact": "low",
       "event": "Sentix Investor Confidence",
@@ -59,7 +59,7 @@
     {
       "date": "2026-08-10",
       "day": "Senin",
-      "time_wib": "18:45",
+      "time_wib": "19:45",
       "currency": "USD",
       "impact": "low",
       "event": "Cleveland Fed Inflation Expectations",
@@ -70,7 +70,7 @@
     {
       "date": "2026-08-10",
       "day": "Senin",
-      "time_wib": "00:00",
+      "time_wib": "01:00",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Hammack Speaks",
@@ -92,7 +92,7 @@
     {
       "date": "2026-08-10",
       "day": "Senin",
-      "time_wib": "04:01",
+      "time_wib": "05:01",
       "currency": "GBP",
       "impact": "low",
       "event": "BRC Retail Sales Monitor y/y",
@@ -103,7 +103,7 @@
     {
       "date": "2026-08-10",
       "day": "Senin",
-      "time_wib": "06:30",
+      "time_wib": "07:30",
       "currency": "AUD",
       "impact": "low",
       "event": "NAB Business Confidence",
@@ -114,7 +114,7 @@
     {
       "date": "2026-08-10",
       "day": "Senin",
-      "time_wib": "09:30",
+      "time_wib": "10:30",
       "currency": "AUD",
       "impact": "high",
       "event": "Cash Rate",
@@ -145,9 +145,9 @@
       "previous": ""
     },
     {
-      "date": "2026-08-10",
-      "day": "Senin",
-      "time_wib": "10:30",
+      "date": "2026-08-11",
+      "day": "Selasa",
+      "time_wib": "11:30",
       "currency": "AUD",
       "impact": "high",
       "event": "RBA Press Conference",
@@ -158,7 +158,7 @@
     {
       "date": "2026-08-11",
       "day": "Selasa",
-      "time_wib": "13:00",
+      "time_wib": "14:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Italian Trade Balance",
@@ -169,7 +169,7 @@
     {
       "date": "2026-08-11",
       "day": "Selasa",
-      "time_wib": "15:00",
+      "time_wib": "16:00",
       "currency": "USD",
       "impact": "low",
       "event": "NFIB Small Business Index",
@@ -180,7 +180,7 @@
     {
       "date": "2026-08-11",
       "day": "Selasa",
-      "time_wib": "17:15",
+      "time_wib": "18:15",
       "currency": "USD",
       "impact": "low",
       "event": "ADP Weekly Employment Change",
@@ -202,7 +202,7 @@
     {
       "date": "2026-08-11",
       "day": "Selasa",
-      "time_wib": "19:00",
+      "time_wib": "20:00",
       "currency": "USD",
       "impact": "low",
       "event": "Existing Home Sales",
@@ -213,7 +213,7 @@
     {
       "date": "2026-08-11",
       "day": "Selasa",
-      "time_wib": "01:30",
+      "time_wib": "02:30",
       "currency": "USD",
       "impact": "low",
       "event": "API Weekly Statistical Bulletin",
@@ -224,7 +224,7 @@
     {
       "date": "2026-08-11",
       "day": "Selasa",
-      "time_wib": "04:50",
+      "time_wib": "05:50",
       "currency": "JPY",
       "impact": "low",
       "event": "M2 Money Stock y/y",
@@ -235,7 +235,7 @@
     {
       "date": "2026-08-12",
       "day": "Rabu",
-      "time_wib": "11:00",
+      "time_wib": "12:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German Final CPI m/m",
@@ -268,7 +268,7 @@
     {
       "date": "2026-08-12",
       "day": "Rabu",
-      "time_wib": "17:30",
+      "time_wib": "18:30",
       "currency": "CAD",
       "impact": "low",
       "event": "Building Permits m/m",
@@ -323,7 +323,7 @@
     {
       "date": "2026-08-12",
       "day": "Rabu",
-      "time_wib": "19:30",
+      "time_wib": "20:30",
       "currency": "USD",
       "impact": "low",
       "event": "Crude Oil Inventories",
@@ -334,7 +334,7 @@
     {
       "date": "2026-08-12",
       "day": "Rabu",
-      "time_wib": "22:01",
+      "time_wib": "23:01",
       "currency": "USD",
       "impact": "low",
       "event": "10-y Bond Auction",
@@ -345,7 +345,7 @@
     {
       "date": "2026-08-12",
       "day": "Rabu",
-      "time_wib": "23:00",
+      "time_wib": "00:00",
       "currency": "USD",
       "impact": "low",
       "event": "Federal Budget Balance",
@@ -356,7 +356,7 @@
     {
       "date": "2026-08-12",
       "day": "Rabu",
-      "time_wib": "04:01",
+      "time_wib": "05:01",
       "currency": "GBP",
       "impact": "low",
       "event": "RICS House Price Balance",
@@ -367,7 +367,7 @@
     {
       "date": "2026-08-12",
       "day": "Rabu",
-      "time_wib": "04:50",
+      "time_wib": "05:50",
       "currency": "JPY",
       "impact": "low",
       "event": "PPI y/y",
@@ -378,7 +378,7 @@
     {
       "date": "2026-08-12",
       "day": "Rabu",
-      "time_wib": "05:15",
+      "time_wib": "06:15",
       "currency": "AUD",
       "impact": "low",
       "event": "RBA Assist Gov Kent Speaks",
@@ -389,7 +389,7 @@
     {
       "date": "2026-08-12",
       "day": "Rabu",
-      "time_wib": "08:00",
+      "time_wib": "09:00",
       "currency": "NZD",
       "impact": "medium",
       "event": "Inflation Expectations q/q",
@@ -400,7 +400,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "11:00",
+      "time_wib": "12:00",
       "currency": "GBP",
       "impact": "high",
       "event": "GDP m/m",
@@ -499,7 +499,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "11:30",
+      "time_wib": "12:30",
       "currency": "CHF",
       "impact": "low",
       "event": "PPI m/m",
@@ -532,7 +532,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "14:00",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Industrial Production m/m",
@@ -543,7 +543,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "17:15",
+      "time_wib": "18:15",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Hammack Speaks",
@@ -554,7 +554,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "17:30",
+      "time_wib": "18:30",
       "currency": "USD",
       "impact": "high",
       "event": "Core PPI m/m",
@@ -587,7 +587,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "17:40",
+      "time_wib": "18:40",
       "currency": "USD",
       "impact": "low",
       "event": "FOMC Member Barkin Speaks",
@@ -598,7 +598,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "18:30",
+      "time_wib": "19:30",
       "currency": "GBP",
       "impact": "low",
       "event": "CB Leading Index m/m",
@@ -620,7 +620,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "19:30",
+      "time_wib": "20:30",
       "currency": "AUD",
       "impact": "low",
       "event": "CB Leading Index m/m",
@@ -642,7 +642,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "22:01",
+      "time_wib": "23:01",
       "currency": "USD",
       "impact": "low",
       "event": "30-y Bond Auction",
@@ -653,7 +653,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "03:30",
+      "time_wib": "04:30",
       "currency": "NZD",
       "impact": "low",
       "event": "BusinessNZ Manufacturing Index",
@@ -664,7 +664,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "03:45",
+      "time_wib": "04:45",
       "currency": "NZD",
       "impact": "low",
       "event": "Visitor Arrivals m/m",
@@ -675,7 +675,7 @@
     {
       "date": "2026-08-13",
       "day": "Kamis",
-      "time_wib": "04:30",
+      "time_wib": "05:30",
       "currency": "AUD",
       "impact": "medium",
       "event": "RBA Gov Bullock Speaks",
@@ -686,7 +686,7 @@
     {
       "date": "2026-08-14",
       "day": "Jumat",
-      "time_wib": "11:00",
+      "time_wib": "12:00",
       "currency": "EUR",
       "impact": "low",
       "event": "German WPI m/m",
@@ -697,7 +697,7 @@
     {
       "date": "2026-08-14",
       "day": "Jumat",
-      "time_wib": "11:45",
+      "time_wib": "12:45",
       "currency": "EUR",
       "impact": "low",
       "event": "French Final CPI m/m",
@@ -708,7 +708,7 @@
     {
       "date": "2026-08-14",
       "day": "Jumat",
-      "time_wib": "14:00",
+      "time_wib": "15:00",
       "currency": "EUR",
       "impact": "low",
       "event": "Flash Employment Change q/q",
@@ -741,7 +741,7 @@
     {
       "date": "2026-08-14",
       "day": "Jumat",
-      "time_wib": "17:30",
+      "time_wib": "18:30",
       "currency": "CAD",
       "impact": "low",
       "event": "Manufacturing Sales m/m",
@@ -785,7 +785,7 @@
     {
       "date": "2026-08-14",
       "day": "Jumat",
-      "time_wib": "19:00",
+      "time_wib": "20:00",
       "currency": "USD",
       "impact": "medium",
       "event": "Prelim UoM Consumer Sentiment",
