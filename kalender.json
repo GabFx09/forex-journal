@@ -1,5 +1,5 @@
 {
-  "generated": "11 Aug 2026 05:03 WIB",
+  "generated": "11 Aug 2026 07:01 WIB",
   "events": [
     {
       "date": "2026-08-09",
@@ -96,7 +96,7 @@
       "currency": "GBP",
       "impact": "low",
       "event": "BRC Retail Sales Monitor y/y",
-      "actual": "",
+      "actual": "1.0%",
       "forecast": "1.6%",
       "previous": "1.7%"
     },
