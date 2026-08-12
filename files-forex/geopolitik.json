@@ -1,5 +1,5 @@
 {
-  "generated": "12 Aug 2026 08:26 WIB",
+  "generated": "12 Aug 2026 10:43 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,58 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.209,
-      "count": 18
+      "score": -0.189,
+      "count": 12
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.209,
-      "count": 18
+      "score": -0.189,
+      "count": 12
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.234,
-      "count": 15
+      "score": -0.223,
+      "count": 9
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.072,
+      "score": 0.3,
+      "count": 4
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.423,
       "count": 3
     },
     {
       "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.181,
-      "count": 2
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.181,
-      "count": 2
-    },
-    {
-      "pair": "AUD/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.798,
+      "score": 0.637,
       "count": 1
     },
     {
-      "pair": "USD/CNY",
+      "pair": "NOK/SEK",
       "direction": "Tekanan Naik ▲",
-      "score": 0.798,
+      "score": 0.637,
       "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Trump menyatakan memiliki kendali penuh atas Hormuz. Komentar toples itu dengan serangan pengiriman selama berminggu-minggu.",
+      "url": "https://investinglive.com/commodities/trump-says-has-total-control-of-hormuz-remarks-that-jar-with-weeks-of-shipping-attacks/",
+      "summary": "Trump's tarmac comments sit awkwardly against the news flow of the past several days, with Iran's top security official reiterating the strait stays closed until Washington meets its conditions, continued Houthi and blockade related shipping attacks, and Brent and WTI both grinding higher on that sa",
+      "published": "12 Aug 2026 08:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.539,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Kepala ekonom Goldman Hatzius memperkirakan angka IHK AS bulan Juli akan baik-baik saja",
@@ -99,25 +104,25 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "USD/CAD melemah karena Kanada mencoba mencapai kesepakatan perdagangan dengan Trump",
-      "url": "https://investinglive.com/forex/usd-cad-edges-lower-as-canada-tries-to-close-trade-deal-with-trump/",
-      "summary": "Reports continue to highlight ongoing meetings between top negotiators from Canada and the United States ahead of an August 19 tariff deadline. CBC today reports that Canada-U.S. Trade Minister Dominic LeBlanc and his American counterpart \"are aiming to present U.S. President Donald Trump a path to ",
-      "published": "12 Aug 2026 01:39 WIB",
+      "source": "FXStreet News",
+      "title": "Dolar Selandia Baru kesulitan karena penguatan Dolar AS di tengah ketidakpastian Timur Tengah",
+      "url": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-as-us-dollar-gains-on-middle-east-uncertainty-202608120308",
+      "summary": "NZD/USD continues its losing streak for the third consecutive day, trading around 0.5870 during the Asian hours on Wednesday. The pair depreciates as the US Dollar (USD) gains ground on increased safe-haven demand amid rising uncertainty surrounding Middle East peace talks.",
+      "published": "12 Aug 2026 10:08 WIB",
       "sentiment": "Bullish",
-      "score": 0.798,
+      "score": 0.441,
       "emoji": "🟢",
-      "impact": "medium"
+      "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "EIA menaikkan perkiraan harga minyak mentah karena risiko pasokan Timur Tengah memperketat prospek",
-      "url": "https://investinglive.com/news/eia-raises-crude-oil-price-forecasts-as-middle-east-supply-risks-tighten-outlook/",
-      "summary": "The latest EIA outlook includes a notable upward revision to crude oil price forecasts for both 2026 and 2027, while also adjusting its expectations for global supply and demand. The agency also highlighted significant Middle East production disruptions in July and continued risks surrounding key sh",
-      "published": "12 Aug 2026 00:19 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
+      "source": "FXStreet News",
+      "title": "Pound Inggris melemah karena kenaikan Dolar AS dan ketegangan geopolitik membebani sentimen",
+      "url": "https://www.fxstreet.com/news/british-pound-loses-as-rising-us-dollar-geopolitical-tensions-weigh-on-sentiment-202608120155",
+      "summary": "GBP/USD inches lower after remaining flat in the previous day, trading around 1.3500 during the Asian hours on Wednesday. The currency pair continues to hold its losses as the US Dollar (USD) gains strength ahead of a crucial inflation report.",
+      "published": "12 Aug 2026 08:55 WIB",
+      "sentiment": "Bullish",
+      "score": 0.178,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -165,48 +170,15 @@
       "impact": "high"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "FleetPartners mencapai titik tertinggi di tahun 2017 saat Element menaikkan tawaran dalam perlombaan pengambilalihan yang memanas",
-      "url": "https://www.investing.com/news/stock-market-news/fleetpartners-hits-2017-high-as-element-raises-offer-in-heated-takeover-race-today-4853540",
-      "summary": "",
-      "published": "12 Aug 2026 07:47 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Minyak Menguat Jelang CPI AS, Saham Teknologi Asia Naik: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/stock-market-today-dow-s-p-live-updates",
-      "summary": "Crude oil climbed as traders remained wary about the prospects for a Middle East deal, tempering the mood in the run-up to crucial US inflation data. Technology shares powered gains in Asian equities.",
-      "published": "12 Aug 2026 05:07 WIB",
+      "title": "Perdana Menteri Selandia Baru Luxon Memenangkan Pemungutan Suara Kepercayaan Partai",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/new-zealand-prime-minister-luxon-wins-party-confidence-vote",
+      "summary": "New Zealand Prime Minister Christopher Luxon said the governing National Party has backed him to remain its leader in a confidence vote less than three months before a general election.",
+      "published": "12 Aug 2026 07:55 WIB",
       "sentiment": "Bullish",
-      "score": 0.353,
+      "score": 0.941,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gainwell Milik Veritas Memulai Bagian Obligasi dari Kesepakatan $5,8 Miliar",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/veritas-backed-gainwell-kicks-off-bond-part-of-5-8-billion-deal",
-      "summary": "Gainwell Technologies has started the next leg of a broader $5.8 billion debt overhaul that marks the US software sector’s biggest financing of 2026 in the junk-debt market.",
-      "published": "11 Aug 2026 19:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.281,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Fmr. FDA, Pejabat CDC di Cyclospora, Masalah Keamanan Pangan",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-11/fmr-fda-cdc-official-on-cyclospora-food-safety-issues-video",
-      "summary": "Steve Ostroff, Former Acting Commissioner of the FDA and Former Deputy Director of the National Center for Infectious Diseases at the CDC, joined the program to discuss the public awareness timeline of the cyclospora outbreak. The conversation highlighted that while the outbreak became widely known ",
-      "published": "12 Aug 2026 04:31 WIB",
-      "sentiment": "Bullish",
-      "score": 0.261,
-      "emoji": "🟢",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "Google News Geopolitik",
@@ -218,6 +190,28 @@
       "score": 0.073,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump mengatakan dia mengganti pesawat setelah KTT NATO karena kemungkinan adanya ancaman",
+      "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
+      "summary": "But the president says the jet he boarded instead was at \"greater risk\" than the decoy Air Force One.",
+      "published": "12 Aug 2026 09:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.233,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "PM Selandia Baru selamat dari tantangan kepemimpinan kedua menjelang pemilu",
+      "url": "https://www.bbc.co.uk/news/articles/cx2ve2jk5qeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Christopher Luxon says he has \"full support\" of his party, after a vote of confidence 12 weeks before a general election.",
+      "published": "12 Aug 2026 09:51 WIB",
+      "sentiment": "Bullish",
+      "score": 0.84,
+      "emoji": "🟢",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -254,6 +248,17 @@
     },
     {
       "source": "Al Jazeera",
+      "title": "Enam orang tewas dalam serangan Houthi terhadap kapal Bab al-Mandeb, kata pemerintah Yaman",
+      "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says?traffic_source=rss",
+      "summary": "Deaths on Egyptian-owned Tihamah mark first shipping deaths linked to Houthis since the US-Israel war on Iran began.",
+      "published": "12 Aug 2026 10:09 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Korea Utara meluncurkan rudal balistik saat Korea Selatan dan AS merencanakan latihan militer",
       "url": "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills?traffic_source=rss",
       "summary": "Pyongyang conducts second weapons test in less than a week as Seoul, Washington gear up for annual military exercises.",
@@ -262,17 +267,6 @@
       "score": -0.52,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Perang Iran langsung: AS menembakkan rudal ke kapal kargo yang melanggar blokade Iran",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/8/12/iran-war-live-us-fires-missiles-at-cargo-ship-violating-iran-blockade?traffic_source=rss",
-      "summary": "US forces disable a Panama-flagged cargo ship attempting to sail towards an Iranian port.",
-      "published": "12 Aug 2026 07:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.973,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -306,28 +300,6 @@
       "score": -0.66,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Venezuela dan Israel memulihkan hubungan konsuler ketika hubungan memanas",
-      "url": "https://www.aljazeera.com/news/2026/8/11/venezuela-and-israel-restore-consular-ties-as-relations-warm?traffic_source=rss",
-      "summary": "Despite cutting diplomatic ties with Israel in 2009, Caracas has shifted alignment in wake of Maduro abduction.",
-      "published": "12 Aug 2026 01:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.165,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "CEO Paramount dapat menghapus operasi dari California karena merger yang terhenti",
-      "url": "https://www.aljazeera.com/economy/2026/8/11/paramount-ceo-may-remove-operations-from-california-over-stalled-merger?traffic_source=rss",
-      "summary": "Paramount's CEO David Ellison warns of a California exit if the US state does not agree to talks, according to reports.",
-      "published": "12 Aug 2026 01:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.592,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "MarketWatch",
@@ -381,17 +353,6 @@
       "published": "11 Aug 2026 19:55 WIB",
       "sentiment": "Bearish",
       "score": -0.751,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Perang di Ukraina memicu perlombaan bagi negara-negara untuk membangun satelit mata-mata, kata CEO teknologi luar angkasa",
-      "url": "https://www.cnbc.com/2026/08/11/iceye-satellite-fleets-defense-europe.html",
-      "summary": "Governments are ramping up satellite capabilities as space intelligence becomes increasingly critical to modern warfare.",
-      "published": "11 Aug 2026 22:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.809,
       "emoji": "🔴",
       "impact": "high"
     }
