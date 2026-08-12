@@ -1,5 +1,5 @@
 {
-  "generated": "12 Aug 2026 01:26 WIB",
+  "generated": "12 Aug 2026 07:01 WIB",
   "events": [
     {
       "date": "2026-08-09",
@@ -228,7 +228,7 @@
       "currency": "JPY",
       "impact": "low",
       "event": "M2 Money Stock y/y",
-      "actual": "",
+      "actual": "2.2%",
       "forecast": "2.1%",
       "previous": "2.2%"
     },
@@ -328,7 +328,7 @@
       "impact": "low",
       "event": "Crude Oil Inventories",
       "actual": "",
-      "forecast": "-1.5M",
+      "forecast": "-1.7M",
       "previous": "2.5M"
     },
     {
@@ -350,7 +350,7 @@
       "impact": "low",
       "event": "Federal Budget Balance",
       "actual": "",
-      "forecast": "-361.2B",
+      "forecast": "-348.3B",
       "previous": "-120.3B"
     },
     {
@@ -405,7 +405,7 @@
       "impact": "high",
       "event": "GDP m/m",
       "actual": "",
-      "forecast": "-0.1%",
+      "forecast": "0.0%",
       "previous": "0.1%"
     },
     {
@@ -526,7 +526,7 @@
       "impact": "low",
       "event": "New Loans",
       "actual": "",
-      "forecast": "50B",
+      "forecast": "-50B",
       "previous": "1610B"
     },
     {
@@ -581,7 +581,7 @@
       "impact": "medium",
       "event": "Unemployment Claims",
       "actual": "",
-      "forecast": "203K",
+      "forecast": "202K",
       "previous": "199K"
     },
     {
@@ -636,7 +636,7 @@
       "impact": "low",
       "event": "Natural Gas Storage",
       "actual": "",
-      "forecast": "",
+      "forecast": "31B",
       "previous": "33B"
     },
     {
