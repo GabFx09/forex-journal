@@ -1,23 +1,35 @@
 {
-  "generated": "12 Aug 2026 07:01 WIB",
+  "generated": "12 Aug 2026 08:26 WIB",
   "summary": {
-    "total": 93,
-    "bullish": 41,
-    "bearish": 42,
-    "netral": 10,
-    "avg_score": -0.0565,
+    "total": 95,
+    "bullish": 33,
+    "bearish": 45,
+    "netral": 17,
+    "avg_score": -0.116,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.108,
-        "count": 22
+        "score": 0.088,
+        "count": 24
       },
       {
         "currency": "AUD",
         "sentiment": "Bearish",
-        "score": -0.213,
+        "score": -0.214,
+        "count": 6
+      },
+      {
+        "currency": "JPY",
+        "sentiment": "Bearish",
+        "score": -0.17,
+        "count": 5
+      },
+      {
+        "currency": "CNY",
+        "sentiment": "Bullish",
+        "score": 0.111,
         "count": 5
       },
       {
@@ -27,44 +39,76 @@
         "count": 4
       },
       {
-        "currency": "JPY",
-        "sentiment": "Netral",
-        "score": 0.028,
+        "currency": "CAD",
+        "sentiment": "Bullish",
+        "score": 0.167,
         "count": 4
       },
       {
         "currency": "EUR",
         "sentiment": "Bullish",
-        "score": 0.342,
+        "score": 0.266,
         "count": 3
-      },
-      {
-        "currency": "CNY",
-        "sentiment": "Bullish",
-        "score": 0.279,
-        "count": 2
-      },
-      {
-        "currency": "CAD",
-        "sentiment": "Bullish",
-        "score": 0.666,
-        "count": 1
       },
       {
         "currency": "CHF",
         "sentiment": "Bearish",
-        "score": -0.216,
-        "count": 1
+        "score": -0.478,
+        "count": 2
       },
       {
         "currency": "NZD",
         "sentiment": "Bearish",
-        "score": -0.574,
-        "count": 1
+        "score": -0.412,
+        "count": 2
       }
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "PBOC menetapkan titik tengah USD/CNY hari ini di 6,7882 (vs perkiraan di 6,7430)",
+      "url": "https://investinglive.com/central-banks/pboc-sets-usd-cny-mid-point-today-at-6-7-vs-estimate-at-6-7430/",
+      "summary": "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here. more to come This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "12 Aug 2026 08:15 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Kepala ekonom Goldman Hatzius memperkirakan angka IHK AS bulan Juli akan baik-baik saja",
+      "url": "https://investinglive.com/news/goldman-chief-economist-hatzius-expects-a-benign-july-us-cpi-print/",
+      "summary": "Hatzius's forecast, a headline print around 0.05% month on month and core near 0.19%, would sit in line with or slightly below consensus and reinforce the softer trend he says began in June, a read that would ease pressure on the Fed heading into September if it holds. The more consequential number ",
+      "published": "12 Aug 2026 08:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.41,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Imbal hasil obligasi Jepang naik karena kenaikan harga minyak memicu kekhawatiran inflasi baru",
+      "url": "https://investinglive.com/news/japan-bond-yields-rise-as-oil-gains-stoke-fresh-inflation-concerns/",
+      "summary": "The move higher in JGB yields, led by a record high on the five year and the highest two year print since May 1995, reflects markets pricing a firmer case for further Bank of Japan tightening as imported inflation risk builds via crude. That the two year, the tenor most sensitive to BOJ policy, is l",
+      "published": "12 Aug 2026 07:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.193,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "PBOC diperkirakan akan menetapkan kurs referensi USD/CNY di 6,7430 – perkiraan Reuters",
+      "url": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-7-reuters-estimate-3/",
+      "summary": "The People’s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets. China operates a managed floating exchange rate system, under which the renminbi (yuan",
+      "published": "12 Aug 2026 07:22 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Goolsbee dari Fed \"berkata\" ((7 minggu lalu!) inflasi adalah masalah perekonomian terbesar",
@@ -122,7 +166,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "RBA mempertahankan suku bunga di 4,35 persen untuk pertemuan kedua, menandai ruang untuk menaikkan lagi - pendapat analis",
+      "title": "RBA mempertahankan suku bunga di 4,35 persen untuk pertemuan kedua, menandai ruang untuk menaikkan suku bunga lagi - pendapat para analis",
       "url": "https://investinglive.com/central-banks/rba-holds-cash-rate-at-4-35pc-for-second-meeting-flags-scope-to-hike-again-analyst-take/",
       "summary": "The decision was fully priced and unanimous, so the market reaction sits less in the outcome than in the tone. CBA reads the Board's strengthened conditional guidance, that it will hike further if upside risks materialise, as a deliberate signal to prevent markets from getting ahead of themselves on",
       "published": "12 Aug 2026 05:03 WIB",
@@ -242,46 +286,46 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Departemen Keuangan AS menjual obligasi 3 tahun senilai $75 miliar dengan imbal hasil tinggi 4,291%",
-      "url": "https://investinglive.com/news/us-treasury-sells-75-billion-3-year-notes-at-a-high-yield-of-4-291/",
-      "summary": "High yield 4.291% WI level at the time of the auction 4.296% Tail -0.5 basis points versus average of 0.0%. Bid to cover 2.71X versus 6 month average of 2.61X Indirects (overseas buyers) 64.2% versus average of 64.3% Directs 24.0% versus average of 21.7% Dealers 11.8% versus average of 13.9% AUCTION",
-      "published": "12 Aug 2026 00:08 WIB",
+      "source": "FXStreet News",
+      "title": "Perbankan berbeda pendapat mengenai apakah langkah RBA selanjutnya adalah menaikkan atau menurunkan suku bunga di tengah risiko energi",
+      "url": "https://www.fxstreet.com/news/banks-split-on-whether-next-rba-move-is-a-hike-or-cut-amid-energy-risks-202608120115",
+      "summary": "The Reserve Bank of Australia (RBA) unanimously held rates at 4.35% in August, but major economic forecasters offer varying takes on what comes next:",
+      "published": "12 Aug 2026 08:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.341,
+      "score": -0.221,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Goolsbee, Fed: Masalah terbesar yang dihadapi perekonomian adalah inflasi",
-      "url": "https://investinglive.com/central-banks/fed-s-goolsbee-biggest-problem-facing-the-economy-is-inflation/",
-      "summary": "Prices and affordability, that's the biggest prolem we are facing right now Labor market is stable is stable, without being good This article was written by Adam Button at investinglive.com.",
-      "published": "11 Aug 2026 23:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.179,
-      "emoji": "🔴",
+      "source": "FXStreet News",
+      "title": "PBOC menetapkan kurs referensi USD/CNY di 6,7882 vs 6,7900 sebelumnya",
+      "url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67882-vs-67900-previous-202608120115",
+      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7882 compared to the previous day's fix of 6.7900 and 6.7430 Reuters estimate.",
+      "published": "12 Aug 2026 08:15 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Saham Eropa berakhir bervariasi, namun DAX dan Ibex ditutup pada rekor tertinggi",
-      "url": "https://investinglive.com/news/european-shares-end-mixed-but-dax-and-ibex-close-at-record-highs/",
-      "summary": "As London/European traders head for the exits, the major European equity indices are closing mixed, but Germany's DAX and Spain's Ibex stand out after closing at new record highs. The DAX rose 0.26%, while the Ibex added 0.20%, extending the recent run of record-setting performances across European ",
-      "published": "11 Aug 2026 23:22 WIB",
+      "source": "FXStreet News",
+      "title": "Euro berkonsolidasi di bawah pertengahan 1,1500an vs USD jelang HICP Jerman dan CPI AS",
+      "url": "https://www.fxstreet.com/news/euro-consolidates-below-mid-11500s-vs-usd-ahead-of-german-hicp-us-cpi-202608120108",
+      "summary": "The EUR/USD pair struggles to gain any meaningful traction and holds steady around mid-1.1500s during the Asian session on Wednesday, within a familiar range held over the past week or so.",
+      "published": "12 Aug 2026 08:08 WIB",
       "sentiment": "Bullish",
-      "score": 0.803,
+      "score": 0.574,
       "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "NZDUSD diperdagangkan dalam rentang perdagangan 49 pip selama 7 hari perdagangan terakhir. Itu tidak banyak.",
-      "url": "https://investinglive.com/technical-analysis/nzdusd-trades-within-a-49-pip-trading-range-over-the-last-7-trading-days-that-is-not-a-lot/",
-      "summary": "The NZDUSD has been stuck in a narrow 49-pip trading range over the last seven trading days, highlighting a market that has seen plenty of intraday and day-to-day price action but very little net progress. The broader move had been more bullish following the June 26 low, but that momentum has transi",
-      "published": "11 Aug 2026 22:45 WIB",
+      "source": "FXStreet News",
+      "title": "WTI naik di atas $82,50 karena sinyal beragam mengenai potensi kesepakatan AS-Iran",
+      "url": "https://www.fxstreet.com/news/wti-advances-above-8250-due-to-mixed-signals-regarding-potential-us-iran-deal-202608120053",
+      "summary": "West Texas Intermediate (WTI) oil price extends its gains for the third successive day, trading around $82.70 per barrel during the Asian hours on Wednesday. Crude oil prices advance as investors weigh mixed signals regarding a potential deal between the United States (US) and Iran.",
+      "published": "12 Aug 2026 07:53 WIB",
       "sentiment": "Bullish",
-      "score": 0.135,
+      "score": 0.637,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -462,36 +506,102 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Forex Hari Ini: Dolar AS jeda jelang IHK AS",
-      "url": "https://www.fxstreet.com/news/forex-today-us-dollar-on-pause-ahead-of-us-cpi-202608111818",
-      "summary": "The US Dollar Index (DXY) is trading little changed in the vicinity below the 100.00 price zone ahead of the United States (US) July Consumer Price Index (CPI), which is expected on Wednesday.",
-      "published": "12 Aug 2026 01:18 WIB",
+      "source": "Investing.com Forex",
+      "title": "Pemegang saham ASX berencana meminta persetujuan pengadilan untuk menuntut mantan direktur atas proyek CHESS",
+      "url": "https://www.investing.com/news/stock-market-news/asx-shareholder-plans-to-seek-court-approval-to-sue-former-directors-over-chess-project-4853561",
+      "summary": "",
+      "published": "12 Aug 2026 08:12 WIB",
       "sentiment": "Bullish",
-      "score": 0.421,
+      "score": 0.477,
       "emoji": "🟢",
-      "impact": "high"
+      "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Minyak: Premi risiko Selat Hormuz – Commerzbank",
-      "url": "https://www.fxstreet.com/news/oil-strait-of-hormuz-risk-premium-commerzbank-202608111815",
-      "summary": "Commerzbank’s energy team notes fading hopes for a US–Iran agreement to reopen the Strait of Hormuz, driving Brent toward USD 90 and gas oil to nearly USD 1,350 per ton. Drone attacks on refineries in Saudi Arabia, Russia, Libya and tight diesel supply add to the risk premium.",
-      "published": "12 Aug 2026 01:15 WIB",
-      "sentiment": "Bullish",
-      "score": 0.09,
-      "emoji": "🟢",
-      "impact": "high"
+      "source": "Investing.com Forex",
+      "title": "Nikkei 225 terhenti di bawah SMA 200: Level saat ini",
+      "url": "https://www.investing.com/news/stock-market-news/nikkei-225-stalls-below-200-sma-near-67000-live-levels-93CH-4847790",
+      "summary": "",
+      "published": "12 Aug 2026 08:06 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Indeks Dolar AS tidak memiliki sikap dovish terhadap harga",
-      "url": "https://www.fxstreet.com/news/the-us-dollar-index-has-no-dovish-tail-to-price-202608111806",
-      "summary": "Tuesday gives the Dollar Index a session with almost nothing in it.",
-      "published": "12 Aug 2026 01:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.376,
-      "emoji": "🔴",
+      "source": "Investing.com Forex",
+      "title": "SK Hynix menguji pivot KRW 1.455.000 dalam cengkeraman beruang: Level langsung",
+      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-bear-flag-80-done-tests-fibonacci-support-live-levels-93CH-4847791",
+      "summary": "",
+      "published": "12 Aug 2026 08:06 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Mengapa saham Fleetpartners melonjak hari ini?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-fleetpartners-stock-surging-today-93CH-4853554",
+      "summary": "",
+      "published": "12 Aug 2026 08:03 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Mengapa saham Suncorp melonjak hari ini?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-suncorp-stock-surging-today-93CH-4853552",
+      "summary": "",
+      "published": "12 Aug 2026 08:02 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Apakah Tencent a Buy menuju pendapatan Q2?",
+      "url": "https://www.investing.com/news/stock-market-news/is-tencent-a-buy-heading-into-q2-earnings-93CH-4853546",
+      "summary": "",
+      "published": "12 Aug 2026 07:51 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Mengapa saham Rakuten anjlok hari ini?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-rakuten-stock-tumbling-today-93CH-4853542",
+      "summary": "",
+      "published": "12 Aug 2026 07:50 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "FleetPartners mencapai titik tertinggi di tahun 2017 saat Element menaikkan tawaran dalam perlombaan pengambilalihan yang memanas",
+      "url": "https://www.investing.com/news/stock-market-news/fleetpartners-hits-2017-high-as-element-raises-offer-in-heated-takeover-race-today-4853540",
+      "summary": "",
+      "published": "12 Aug 2026 07:47 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Nvidia bermitra dengan raksasa Wall Street untuk mengumpulkan $500 miliar untuk pengembangan AI",
+      "url": "https://www.investing.com/news/stock-market-news/wall-street-giants-partner-with-nvidia-on-500-billion-ai-financing-deal-ft-reports-4849929",
+      "summary": "",
+      "published": "12 Aug 2026 07:30 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -503,105 +613,6 @@
       "sentiment": "Bullish",
       "score": 0.128,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Vogenx memberi harga IPO pada $13 per saham, mengumpulkan $81,3 juta",
-      "url": "https://www.investing.com/news/stock-market-news/vogenx-prices-ipo-at-13-per-share-raising-813m-432SI-4852971",
-      "summary": "",
-      "published": "12 Aug 2026 06:33 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Kereta api barang di AS kehilangan daya tariknya karena menantang aturan baru yang mewajibkan setidaknya dua orang awak",
-      "url": "https://www.investing.com/news/stock-market-news/us-freight-railroads-lose-appeal-challenging-new-rule-requiring-at-least-twoperson-crews-4852974",
-      "summary": "",
-      "published": "12 Aug 2026 06:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.273,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "CoreWeave meningkatkan rencana belanja tahun 2026, mengalahkan perkiraan triwulanan terkait lonjakan permintaan AI",
-      "url": "https://www.investing.com/news/stock-market-news/coreweave-edges-past-quarterly-revenue-estimates-4852603",
-      "summary": "",
-      "published": "12 Aug 2026 06:25 WIB",
-      "sentiment": "Bullish",
-      "score": 0.362,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Ryanair menandatangani kesepakatan Google Cloud berdurasi lima tahun, memperluas penggunaan AI dalam operasi maskapai penerbangan",
-      "url": "https://www.investing.com/news/stock-market-news/ryanair-signs-fiveyear-google-cloud-deal-expands-use-of-ai-in-airline-operations-4852967",
-      "summary": "",
-      "published": "12 Aug 2026 06:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.183,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "SCE memenangkan keputusan sementara dalam kasus pertanggungjawaban kebakaran hutan Eaton, Bloomberg News melaporkan",
-      "url": "https://www.investing.com/news/stock-market-news/sce-wins-tentative-ruling-in-eaton-wildfire-liability-case-bloomberg-news-reports-4852961",
-      "summary": "",
-      "published": "12 Aug 2026 05:54 WIB",
-      "sentiment": "Bullish",
-      "score": 0.44,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Pemerintahan Trump menyelesaikan pengecualian pelaporan kepemilikan untuk perusahaan-perusahaan AS",
-      "url": "https://www.investing.com/news/stock-market-news/trump-administration-finalizes-ownership-reporting-exemption-for-us-firms-4852772",
-      "summary": "",
-      "published": "12 Aug 2026 05:54 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saat Berkshire melakukan pembelian senilai $20 miliar, saham-saham pilihan AI ini naik +204%",
-      "url": "https://www.investing.com/news/stock-market-news/as-berkshire-goes-on-a-20b-buying-spree-these-aipicked-stocks-are-up-204-4852951",
-      "summary": "",
-      "published": "12 Aug 2026 05:35 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Laba tahunan Commonwealth Bank of Australia naik 7%",
-      "url": "https://www.investing.com/news/stock-market-news/commonwealth-bank-of-australias-annual-profit-rises-7-4852896",
-      "summary": "",
-      "published": "12 Aug 2026 04:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.44,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Mengapa saham Mineralys Therapeutics merosot hari ini?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-mineralys-therapeutics-stock-sliding-today-93CH-4852852",
-      "summary": "",
-      "published": "12 Aug 2026 04:30 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -617,6 +628,39 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Minyak Menguat Jelang CPI AS, Saham Teknologi Asia Naik: Pasar Selesai",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/stock-market-today-dow-s-p-live-updates",
+      "summary": "Crude oil climbed as traders remained wary about the prospects for a Middle East deal, tempering the mood in the run-up to crucial US inflation data. Technology shares powered gains in Asian equities.",
+      "published": "12 Aug 2026 05:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.622,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Indeks Katsu Curry Baru Menyaingi Big Mac Gauge untuk Menunjukkan Betapa Lemahnya Yen Sebenarnya",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/curry-dish-not-big-mac-captures-just-how-weak-yen-is-bny-says",
+      "summary": "A senior strategist at Bank of New York Mellon is using the price of a Japanese fast-food staple to get an accurate snapshot of the yen’s weakness as the impact of the recent intervention fades.",
+      "published": "12 Aug 2026 07:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.771,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Obligasi Indonesia mungkin mengalami penjualan terburuk, kata para analis",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/indonesian-bonds-may-have-seen-worst-of-selling-analysts-say",
+      "summary": "Indonesia’s bond market, the worst performer in Asia, may bounce back as a new central bank chief is expected to support the currency while authorities address concerns about fiscal stability, analysts said.",
+      "published": "12 Aug 2026 07:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.758,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Emas Stabil seiring Pedagang Mencermati Inflasi AS untuk Petunjuk Kenaikan Suku Bunga",
       "url": "https://www.bloomberg.com/news/articles/2026-08-11/gold-steadies-as-traders-watch-us-inflation-for-rate-hike-clues",
       "summary": "Gold steadied, as traders weighed prospects for a deal to reopen the Strait of Hormuz while awaiting US inflation data that could provide fresh clues to the Federal Reserve’s interest-rate path.",
@@ -625,17 +669,6 @@
       "score": 0.622,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Minyak Naik Dengan Fokus pada Iran, Reli CoreWeave: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/stock-market-today-dow-s-p-live-updates",
-      "summary": "Crude oil posted a modest gain as traders remained wary over the prospects for a Middle East deal, tempering the mood ahead of crucial US inflation data. Sentiment toward technology stocks remained buoyant, with CoreWeave Inc. shares surging after the company bolstered its outlook.",
-      "published": "12 Aug 2026 05:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.831,
-      "emoji": "🟢",
-      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -657,72 +690,6 @@
       "sentiment": "Bullish",
       "score": 0.261,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Yen Sedikit Menuju 160 Per Dolar, Meningkatkan Kekhawatiran Intervensi",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/yen-slides-toward-160-per-dollar-raising-intervention-concerns",
-      "summary": "The yen edged closer toward a key level against the dollar, raising concerns over Japanese authorities stepping in again to prop up the currency.",
-      "published": "11 Aug 2026 17:03 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Badai Hebat Melanda Chicago, Mengganggu Ratusan Penerbangan AS",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/severe-thunderstorms-across-us-midwest-trigger-flood-warnings",
-      "summary": "Severe thunderstorms raked Chicago and the Midwest Tuesday, triggering tornado warnings and disrupting hundreds of flights as another round of dangerous weather swept across the US.",
-      "published": "11 Aug 2026 20:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.939,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Aset negara berkembang melemah karena keraguan Iran terhadap kesepakatan yang mendorong harga minyak naik",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/emerging-assets-pressured-as-higher-oil-stokes-inflation-worries",
-      "summary": "Emerging-market assets fell on Tuesday, with a currency gauge snapping a four-day winning streak as fading hopes for a US-Iran deal weighed on risk sentiment.",
-      "published": "11 Aug 2026 15:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.727,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "S&P 500 Jatuh karena Minyak Naik Sebelum Data Inflasi: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/stock-market-today-dow-s-p-live-updates",
-      "summary": "Wall Street traders refrained from making riskier bets before key inflation data, with stocks falling as the lack of a deal to restore energy flows through the Strait of Hormuz lifted oil prices.",
-      "published": "11 Aug 2026 05:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.33,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Obligasi Besar Pendek Dana Pengejar Tren Menaikkan Taruhannya pada CPI",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/trend-chasing-funds-big-short-on-bonds-raises-stakes-for-cpi",
-      "summary": "Record short bets against global bonds by trend-chasing investors are lifting the stakes for US inflation reports this week.",
-      "published": "11 Aug 2026 22:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Saham AS Berakhir Turun karena Kebuntuan Hormuz Mendorong Minyak Naik Jelang CPI",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/us-stock-futures-rise-as-oil-erases-gains-on-iran-optimism",
-      "summary": "US stocks continued to fall into Tuesday’s market close after Pakistan said a US and Iran deal to address the Strait of Hormuz was close, while negotiations between the two countries remain at an impasse, pushing oil prices higher.",
-      "published": "11 Aug 2026 19:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.34,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -749,6 +716,17 @@
     },
     {
       "source": "Google News Geopolitik",
+      "title": "Dolar Selandia Baru Tergelincir karena Dolar AS Rebound karena Permintaan Safe-Haven - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUk4xSjRzOWRMYkZmTU5GOHFNQVVXZU5RelQzbFpjYVdrUVA2c01ORW5MZnlGdV95WTFFYXJwMVcxelFTa0s5dEM1MjBnTTM1emd3X00zQWtPYklNeUtWZGpjYnIwVlFkMGZlc2QyR3ktUUpHOUdINEN2LXVmRGo4UDhwc1NSbF9tTHBHNW5ZYWNleDF4RGI0VnM4b0pOUTIw?oc=5",
+      "summary": "New Zealand Dollar Slips as US Dollar Rebounds on Safe-Haven Demand CryptoRank",
+      "published": "11 Aug 2026 17:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.25,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Google News Geopolitik",
       "title": "Dolar Selandia Baru masih terbatas dalam kisaran vs USD di tengah risiko Iran, menjelang IHK AS - FXStreet",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYW1OQlpyTC1abnBEY3hpd3JoMlZnbnF1UTJ1MGlvbnJVb1d2UHN1cHhaNlNsanF2eThob0E1Y3Y3NU1YcHpsSDFfWGpna2ZMVng5RFhGWU01SjE5dGhUNEZKLThvc1lSWUNkLVRxd3FKYno0Ym50djFNSjNjYURqNDdibGtGOGI3RjN3SkhzaEJYTGhfM0xQa3ZVWTBsWTI3c09VaXNyMVhDVjVpSzN1dC1DcGJSUmQzU0p4RHhMeF94NEd1TEFv?oc=5",
       "summary": "New Zealand Dollar remains confined in a range vs USD amid Iran risks, ahead of US CPI FXStreet",
@@ -760,6 +738,17 @@
     },
     {
       "source": "Google News Geopolitik",
+      "title": "Franc Swiss Tergelincir karena Penghindaran Risiko Meningkatkan Dolar AS - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yU2VPNXYyRGFqV2VFelNyS0c2ZGZTQ2xVWEQ2bU85UzNYTmxQX1NMSXVmaF9ac0xKRFNoWElWU3VVSVNGYnBlbWFuNm93OGJRajlKbENBMDdwczlpaWtIeVg0SVFVNEsxZnAyYkVRYU9PNUwxaEE?oc=5",
+      "summary": "Swiss Franc Slips as Risk Aversion Boosts US Dollar CryptoRank",
+      "published": "11 Aug 2026 18:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.74,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Google News Geopolitik",
       "title": "Dolar/Yen Sebentar Mencapai 159 di NY seiring Ketegangan Timur Tengah Memacu 'Pembelian Dolar Safe-Haven' - finance.biggo.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0T1BuUlhaRFRoTHM4dlJMaHNPYVJnR3NsWWt6LUhLc3kydUp5dzdyaDI5UEFVa0NDaXNYR3FZQllFdEZwX3BKckRMS2NRODNNTzdkWUFRWkFxR2h2OGpBTUN0bE5hdi1hd2FqQ0VjcG9SRWw2VXc?oc=5",
       "summary": "Dollar/Yen Briefly Tops 159 in NY as Middle East Tensions Spur 'Safe-Haven Dollar Buying' finance.biggo.com",
@@ -768,6 +757,17 @@
       "score": 0.216,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Pertukaran pesawat Trump yang dramatis mengisyaratkan pertaruhan pribadi dalam perang Iran",
+      "url": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
+      "summary": "It marks another striking episode in the turbulent history of his relationship with Iran, writes the BBC's Anthony Zurcher.",
+      "published": "12 Aug 2026 07:14 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -903,6 +903,39 @@
     },
     {
       "source": "Al Jazeera",
+      "title": "Korea Utara meluncurkan rudal balistik saat Korea Selatan dan AS merencanakan latihan militer",
+      "url": "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills?traffic_source=rss",
+      "summary": "Pyongyang conducts second weapons test in less than a week as Seoul, Washington gear up for annual military exercises.",
+      "published": "12 Aug 2026 07:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Perang Iran langsung: AS menembakkan rudal ke kapal kargo yang melanggar blokade Iran",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/12/iran-war-live-us-fires-missiles-at-cargo-ship-violating-iran-blockade?traffic_source=rss",
+      "summary": "US forces disable a Panama-flagged cargo ship attempting to sail towards an Iranian port.",
+      "published": "12 Aug 2026 07:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Kapal kargo terbakar setelah serangan Houthi di selat Bab al-Mandeb",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/cargo-ship-in-flames-after-houthi-attack-in-bab-al-mandeb-strait?traffic_source=rss",
+      "summary": "Footage shows an Egyptian-owned cargo vessel in flames in the Bab al-Mandeb strait after a suspected Houthi attack.",
+      "published": "12 Aug 2026 06:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.876,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Di tenda-tenda Gaza, para janda menghadapi kenyataan perang yang paling kejam sendirian",
       "url": "https://www.aljazeera.com/news/2026/8/11/in-gazas-tents-widows-face-wars-harshest-realities-alone?traffic_source=rss",
       "summary": "Widows in Gaza struggle alone under displacement, burdened by loss, insecurity, and daily battles for survival.",
@@ -976,17 +1009,6 @@
       "sentiment": "Bearish",
       "score": -0.592,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kelompok hak asasi manusia meluncurkan tantangan hukum baru terhadap kampanye Trump melawan ICC",
-      "url": "https://www.aljazeera.com/news/2026/8/11/rights-groups-launch-new-legal-challenge-to-trump-campaign-against-icc?traffic_source=rss",
-      "summary": "Prominent organisation charge sanctions against international tribunal trample consitutional rights, hinder their work.",
-      "published": "12 Aug 2026 01:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
       "impact": "high"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated": "12 Aug 2026 07:01 WIB",
+  "generated": "12 Aug 2026 08:26 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,38 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.179,
+      "score": -0.209,
       "count": 18
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.179,
+      "score": -0.209,
       "count": 18
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.197,
+      "score": -0.234,
       "count": 15
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.173,
-      "count": 4
+      "score": 0.072,
+      "count": 3
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.443,
-      "count": 3
+      "score": -0.181,
+      "count": 2
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.443,
-      "count": 3
+      "score": -0.181,
+      "count": 2
     },
     {
       "pair": "AUD/USD",
@@ -54,6 +54,17 @@
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Kepala ekonom Goldman Hatzius memperkirakan angka IHK AS bulan Juli akan baik-baik saja",
+      "url": "https://investinglive.com/news/goldman-chief-economist-hatzius-expects-a-benign-july-us-cpi-print/",
+      "summary": "Hatzius's forecast, a headline print around 0.05% month on month and core near 0.19%, would sit in line with or slightly below consensus and reinforce the softer trend he says began in June, a read that would ease pressure on the Fed heading into September if it holds. The more consequential number ",
+      "published": "12 Aug 2026 08:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.141,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Westpac mengatakan sikap mempertahankan RBA terlihat kuat meskipun ada batasan inflasi yang hawkish",
@@ -111,6 +122,17 @@
     },
     {
       "source": "FXStreet News",
+      "title": "WTI naik di atas $82,50 karena sinyal beragam mengenai potensi kesepakatan AS-Iran",
+      "url": "https://www.fxstreet.com/news/wti-advances-above-8250-due-to-mixed-signals-regarding-potential-us-iran-deal-202608120053",
+      "summary": "West Texas Intermediate (WTI) oil price extends its gains for the third successive day, trading around $82.70 per barrel during the Asian hours on Wednesday. Crude oil prices advance as investors weigh mixed signals regarding a potential deal between the United States (US) and Iran.",
+      "published": "12 Aug 2026 07:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.637,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Imbal hasil AS turun karena kehati-hatian CPI mengimbangi kenaikan harga minyak",
       "url": "https://www.fxstreet.com/news/us-yields-ease-as-cpi-caution-offsets-oil-rally-202608112239",
       "summary": "US Treasury yields eased on Tuesday as most investors remain cautious, awaiting the release of US inflation figures and the resolution of the US-Iran conflict, which has encountered hurdles.",
@@ -143,24 +165,24 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Minyak: Premi risiko Selat Hormuz – Commerzbank",
-      "url": "https://www.fxstreet.com/news/oil-strait-of-hormuz-risk-premium-commerzbank-202608111815",
-      "summary": "Commerzbank’s energy team notes fading hopes for a US–Iran agreement to reopen the Strait of Hormuz, driving Brent toward USD 90 and gas oil to nearly USD 1,350 per ton. Drone attacks on refineries in Saudi Arabia, Russia, Libya and tight diesel supply add to the risk premium.",
-      "published": "12 Aug 2026 01:15 WIB",
-      "sentiment": "Bullish",
-      "score": 0.317,
-      "emoji": "🟢",
-      "impact": "high"
+      "source": "Investing.com Forex",
+      "title": "FleetPartners mencapai titik tertinggi di tahun 2017 saat Element menaikkan tawaran dalam perlombaan pengambilalihan yang memanas",
+      "url": "https://www.investing.com/news/stock-market-news/fleetpartners-hits-2017-high-as-element-raises-offer-in-heated-takeover-race-today-4853540",
+      "summary": "",
+      "published": "12 Aug 2026 07:47 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Minyak Naik Dengan Fokus pada Iran, Reli CoreWeave: Pasar Selesai",
+      "title": "Minyak Menguat Jelang CPI AS, Saham Teknologi Asia Naik: Pasar Selesai",
       "url": "https://www.bloomberg.com/news/articles/2026-08-11/stock-market-today-dow-s-p-live-updates",
-      "summary": "Crude oil posted a modest gain as traders remained wary over the prospects for a Middle East deal, tempering the mood ahead of crucial US inflation data. Sentiment toward technology stocks remained buoyant, with CoreWeave Inc. shares surging after the company bolstered its outlook.",
+      "summary": "Crude oil climbed as traders remained wary about the prospects for a Middle East deal, tempering the mood in the run-up to crucial US inflation data. Technology shares powered gains in Asian equities.",
       "published": "12 Aug 2026 05:07 WIB",
       "sentiment": "Bullish",
-      "score": 0.692,
+      "score": 0.353,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -184,50 +206,6 @@
       "sentiment": "Bullish",
       "score": 0.261,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Yen Sedikit Menuju 160 Per Dolar, Meningkatkan Kekhawatiran Intervensi",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/yen-slides-toward-160-per-dollar-raising-intervention-concerns",
-      "summary": "The yen edged closer toward a key level against the dollar, raising concerns over Japanese authorities stepping in again to prop up the currency.",
-      "published": "11 Aug 2026 17:03 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Badai Hebat Melanda Chicago, Mengganggu Ratusan Penerbangan AS",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/severe-thunderstorms-across-us-midwest-trigger-flood-warnings",
-      "summary": "Severe thunderstorms raked Chicago and the Midwest Tuesday, triggering tornado warnings and disrupting hundreds of flights as another round of dangerous weather swept across the US.",
-      "published": "11 Aug 2026 20:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.939,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "S&P 500 Jatuh karena Minyak Naik Sebelum Data Inflasi: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/stock-market-today-dow-s-p-live-updates",
-      "summary": "Wall Street traders refrained from making riskier bets before key inflation data, with stocks falling as the lack of a deal to restore energy flows through the Strait of Hormuz lifted oil prices.",
-      "published": "11 Aug 2026 05:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.33,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Saham AS Berakhir Turun karena Kebuntuan Hormuz Mendorong Minyak Naik Jelang CPI",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/us-stock-futures-rise-as-oil-erases-gains-on-iran-optimism",
-      "summary": "US stocks continued to fall into Tuesday’s market close after Pakistan said a US and Iran deal to address the Strait of Hormuz was close, while negotiations between the two countries remain at an impasse, pushing oil prices higher.",
-      "published": "11 Aug 2026 19:10 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
       "impact": "high"
     },
     {
@@ -276,6 +254,39 @@
     },
     {
       "source": "Al Jazeera",
+      "title": "Korea Utara meluncurkan rudal balistik saat Korea Selatan dan AS merencanakan latihan militer",
+      "url": "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills?traffic_source=rss",
+      "summary": "Pyongyang conducts second weapons test in less than a week as Seoul, Washington gear up for annual military exercises.",
+      "published": "12 Aug 2026 07:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Perang Iran langsung: AS menembakkan rudal ke kapal kargo yang melanggar blokade Iran",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/12/iran-war-live-us-fires-missiles-at-cargo-ship-violating-iran-blockade?traffic_source=rss",
+      "summary": "US forces disable a Panama-flagged cargo ship attempting to sail towards an Iranian port.",
+      "published": "12 Aug 2026 07:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Kapal kargo terbakar setelah serangan Houthi di selat Bab al-Mandeb",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/cargo-ship-in-flames-after-houthi-attack-in-bab-al-mandeb-strait?traffic_source=rss",
+      "summary": "Footage shows an Egyptian-owned cargo vessel in flames in the Bab al-Mandeb strait after a suspected Houthi attack.",
+      "published": "12 Aug 2026 06:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.876,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Israel menghancurkan rumah warga Palestina yang terbunuh dalam serangan pemukim",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/israel-demolishes-home-of-palestinian-killed-during-settler-attack?traffic_source=rss",
       "summary": "Video shows the moment Israeli forces blow up the home of Farouk Ramadan, a Palestinian man who was killed in July.",
@@ -316,17 +327,6 @@
       "sentiment": "Bearish",
       "score": -0.592,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kelompok hak asasi manusia meluncurkan tantangan hukum baru terhadap kampanye Trump melawan ICC",
-      "url": "https://www.aljazeera.com/news/2026/8/11/rights-groups-launch-new-legal-challenge-to-trump-campaign-against-icc?traffic_source=rss",
-      "summary": "Prominent organisation charge sanctions against international tribunal trample consitutional rights, hinder their work.",
-      "published": "12 Aug 2026 01:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
