@@ -1,5 +1,5 @@
 {
-  "generated": "12 Aug 2026 22:02 WIB",
+  "generated": "13 Aug 2026 01:14 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,64 @@
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.231,
-      "count": 13
+      "score": -0.202,
+      "count": 14
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.16,
-      "count": 11
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.105,
-      "count": 8
+      "score": -0.132,
+      "count": 12
     },
     {
       "pair": "USD/CHF",
       "direction": "Netral →",
-      "score": 0.021,
-      "count": 8
+      "score": 0.04,
+      "count": 7
     },
     {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.399,
-      "count": 4
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.373,
+      "count": 7
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.212,
+      "score": 0.225,
       "count": 3
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Naik ▲",
-      "score": 0.212,
+      "score": 0.225,
       "count": 3
     },
     {
-      "pair": "CAD/USD",
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.539,
+      "count": 2
+    },
+    {
+      "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.717,
+      "score": -0.918,
       "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Westpac melihat Indeks Dolar lebih rendah dan memiliki dua ide perdagangan lainnya",
+      "url": "https://investinglive.com/forex/westpac-sees-the-dollar-index-lower-and-has-two-other-trade-ideas/",
+      "summary": "Westpac is looking for another leg lower in the US dollar and suggests selling the Dollar Index on a break of 99.40. The bank highlights 99.40 as key support over the past two months and would sell a downside break, targeting 98.00 with a stop at 99.90. Westpac said a benign July CPI report along wi",
+      "published": "12 Aug 2026 22:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.086,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Iran dilaporkan menyatakan bahwa tidak ada diskusi mengenai perpanjangan gencatan senjata karena perjanjian tersebut sudah tidak ada lagi",
@@ -77,37 +88,15 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "easyMarkets Melaporkan Perdagangan yang Lebih Berhati-hati karena Emas dan Minyak Memimpin Aktivitas Q2",
-      "url": "https://investinglive.com/education/easymarkets-reports-more-cautious-trading-as-gold-and-oil-lead-q2-activity/",
-      "summary": "Retail traders adopted a more defensive approach during the second quarter of 2026 as geopolitical tensions and mixed macroeconomic signals created uncertainty across global markets, according to easyMarkets' latest quarterly trading review. While Gold remained the most traded instrument on the easy",
-      "published": "12 Aug 2026 15:05 WIB",
+      "source": "FXStreet News",
+      "title": "Minyak: Pengetatan pasokan mendukung kenaikan harga – BNY",
+      "url": "https://www.fxstreet.com/news/oil-tightening-supply-supports-elevated-prices-bny-202608121519",
+      "summary": "BNY notes Crude Oil prices remain elevated as doubts over a US–Iran deal heighten supply concerns.",
+      "published": "12 Aug 2026 22:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.831,
+      "score": -0.63,
       "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Inflasi Italia sedikit berkurang di bulan Juli, namun harga inti tetap stabil",
-      "url": "https://investinglive.com/news/italy-july-final-cpi-2-9-vs-2-8-y-y-prelim/",
-      "summary": "July final CPI +2.9% vs +2.8% y/y prelim Prior +3.0% July final HICP +2.9% vs +2.9% y/y prelim Prior +3.0% Italy headline annual inflation is confirmed to see just a marginal drop from June to July. This comes amid a slowdown in a couple of categories, namely unregulated energy products (from +13.3%",
-      "published": "12 Aug 2026 15:01 WIB",
-      "sentiment": "Bullish",
-      "score": 0.075,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Opsi FX kedaluwarsa pada 12 Agustus 10 pagi pemotongan New York",
-      "url": "https://investinglive.com/orders/fx-option-expiries-for-12-august-10am-new-york-cut/",
-      "summary": "There are just a couple of expiries to take note of on the day, as highlighted in bold below. They are for EUR/USD at the 1.1500 and 1.1550 levels. The expiries don't tie much to any technical significance, with the currency pair now weaving in and around the 100 and 200-hour moving averages at 1.15",
-      "published": "12 Aug 2026 13:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.692,
-      "emoji": "🟢",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -119,39 +108,6 @@
       "score": 0.238,
       "emoji": "🟢",
       "impact": "medium"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Minyak: Pemulihan permintaan Tiongkok dapat mengangkat harga – NBC",
-      "url": "https://www.fxstreet.com/news/oil-chinese-demand-recovery-could-lift-prices-nbc-202608121250",
-      "summary": "National Bank of Canada's (NBC) Jocelyn Paquet analyzes how China’s sharp reduction in petroleum imports helped offset the Middle East supply shock and limit Oil price gains. The July rebound in Chinese imports is highlighted as historically large in percentage terms.",
-      "published": "12 Aug 2026 19:50 WIB",
-      "sentiment": "Netral",
-      "score": 0.028,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Mengapa Yen Jepang tertahan di dekat 159,25 setelah intervensi gabungan AS-Jepang pertama sejak 2011?",
-      "url": "https://www.fxstreet.com/news/why-is-the-japanese-yen-stuck-near-15925-after-the-first-joint-us-japan-intervention-since-2011-202608121148",
-      "summary": "The Japanese Yen (JPY) continues to navigate complex market dynamics, consolidating near the 159.25 level against the US Dollar (USD) following a sharp upward push.",
-      "published": "12 Aug 2026 18:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.273,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Trump Mengatakan AS Mengontrol Selat Hormuz, Tapi Pembicaraan Terus Berlanjut",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/trump-says-us-controls-the-strait-but-talks-continue-video",
-      "summary": "President Donald Trump claimed the US had “total control over the Hormuz Strait,” saying “We own it” and that Iran's actions will be met with force. Talks appear to be deadlocked as each side hardens their stance. Oil prices have been climbing as traders remain uncertain about the prospects of a dea",
-      "published": "12 Aug 2026 21:28 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -166,47 +122,58 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Carry Trade Favorit Mendapat Kegelisahan Pemilu Brasil",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/a-favorite-carry-trade-gets-a-dose-of-brazil-election-jitters",
-      "summary": "Election worries are starting to seep into Brazilian markets, prompting some investors to pare exposure to one of this year’s most rewarding carry trades as they brace for a bumpier ride into the October presidential vote.",
-      "published": "12 Aug 2026 20:39 WIB",
+      "title": "Yardeni Menaikkan Target S&P 500 pada 'Momentum Pendapatan Luar Biasa'",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-12/yardeni-raises-s-p-500-target-video",
+      "summary": "An in-line inflation reading spurred gains in both stocks and bonds, easing concern about imminent Federal Reserve interest-rate increases despite elevated oil prices. Ed Yardeni, Founder at Yardeni Research, talks about raising his S&P target and the market melt up. (Source: Bloomberg)",
+      "published": "12 Aug 2026 23:31 WIB",
       "sentiment": "Bullish",
-      "score": 0.518,
+      "score": 0.778,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Output Minyak Harian Rusia Hampir Juta Barel Di Bawah Kuota OPEC+",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/russia-daily-oil-output-almost-million-barrels-below-opec-quota",
-      "summary": "Russia’s crude-only production lagged behind its OPEC+ quota by almost a million barrels a day in July as Ukraine attacked the nation’s oil infrastructure almost daily.",
-      "published": "12 Aug 2026 20:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.717,
-      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Inflasi 'Teflon' Tidak Akan Bertahan, Kata Kelly dari JPMorgan",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/-teflon-inflation-won-t-stick-jpmorgan-s-kelly-says-video",
-      "summary": "David Kelly, JPMorgan Asset Management's chief global strategist, sees a disinflation trend in the US stemming from lower tariff costs and oil eventually flowing out of the Strait of Hormuz. Speaking on \"Bloomberg Surveillance,\" Kelly also says the Federal Reserve is on the wrong track signaling tha",
-      "published": "12 Aug 2026 20:22 WIB",
-      "sentiment": "Bearish",
-      "score": -0.421,
-      "emoji": "🔴",
-      "impact": "medium"
+      "title": "CEO Lightbridge Mengatakan Bahan Bakar Nuklir Meningkat",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-12/lightbridge-ceo-says-nuclear-fuel-is-accelerating-video",
+      "summary": "Lightbridge CEO Seth Grae says the company’s advanced nuclear fuel is progressing faster than expected as testing continues at Idaho National Laboratory. He joins Bloomberg Open Interest to explain why early results look promising, how the fuel could boost output from existing reactors, and why surg",
+      "published": "12 Aug 2026 22:37 WIB",
+      "sentiment": "Bullish",
+      "score": 0.902,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "BBC World",
-      "title": "Trump mengonfirmasi bahwa dia mengganti pesawat setelah KTT NATO karena kemungkinan adanya ancaman",
-      "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Journalists and White House staff who were on board the jet were unaware the president had left.",
-      "published": "12 Aug 2026 10:44 WIB",
+      "title": "Anggota kabinet Trump tetap berada di pesawat umpan, setelah presiden keluar secara diam-diam",
+      "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump boarded a different plane in Turkey during a Nato summit for security reasons involving Iran.",
+      "published": "12 Aug 2026 23:34 WIB",
+      "sentiment": "Bullish",
+      "score": 0.34,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Terminal ekspor biji-bijian utama Rusia terkena serangan pelabuhan Laut Hitam Ukraina",
+      "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
+      "summary": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
+      "published": "13 Aug 2026 00:47 WIB",
       "sentiment": "Bearish",
-      "score": -0.717,
+      "score": -0.938,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Ribuan warga Kanada menyerukan pengusiran duta besar AS",
+      "url": "https://www.bbc.co.uk/news/articles/c9d83j4ql2xo?at_medium=RSS&at_campaign=rss",
+      "summary": "An online petition accusing Pete Hoekstra of diplomatic interference in Canadian domestic affairs has garnered more than 60,000 signatures.",
+      "published": "12 Aug 2026 23:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.178,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -242,17 +209,6 @@
       "impact": "medium"
     },
     {
-      "source": "BBC World",
-      "title": "Umpan untuk menyembunyikan presiden adalah hal biasa - namun tipu muslihat Trump yang rumit berbeda tingkatannya",
-      "url": "https://www.bbc.co.uk/news/articles/c9d84874dzjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Deceptions of varying complexity are often used to thwart potential threats, former Secret Service agents say.",
-      "published": "12 Aug 2026 03:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.699,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC Business",
       "title": "Burnham memperingatkan perang Iran dapat memukul pertumbuhan Inggris tahun depan",
       "url": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
@@ -265,14 +221,58 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Anggota kabinet tetap berada di pesawat umpan, setelah Trump keluar secara diam-diam",
-      "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
-      "summary": "The president boarded a different plane in Turkey during a Nato summit to evade an Iranian threat.",
-      "published": "12 Aug 2026 21:44 WIB",
+      "title": "PM memperingatkan dampak perang Iran terhadap pertumbuhan Inggris tahun depan",
+      "url": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
+      "summary": "The conflict in the Middle East has pushed up oil and fuel prices, and also disrupted supply chains.",
+      "published": "12 Aug 2026 21:17 WIB",
       "sentiment": "Bearish",
-      "score": -0.527,
+      "score": -0.771,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Kontes Lagu Eurovision mengubah peraturan bagi negara-negara yang sedang berperang",
+      "url": "https://www.bbc.co.uk/news/articles/cdx7pv300vwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Organisers say countries engaged in armed conflict will be automatically disqualified from hosting.",
+      "published": "12 Aug 2026 22:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.903,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apakah perekonomian Rusia melemah meski Iran mendapat keuntungan besar dari perang?",
+      "url": "https://www.aljazeera.com/video/counting-the-cost/2026/8/12/is-russias-economy-cracking-despite-the-iran-war-windfall?traffic_source=rss",
+      "summary": "A widening deficit and Ukrainian strikes are testing Russia's economy, even as war in the Middle East lifts oil revenue.",
+      "published": "12 Aug 2026 22:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.874,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran tetap menentang dan bersumpah untuk melawan AS sampai tuntutan dipenuhi",
+      "url": "https://www.aljazeera.com/news/2026/8/12/iran-remains-defiant-as-it-vows-to-fight-us-until-demands-met?traffic_source=rss",
+      "summary": "IRGC advisers say Iran has replaced more missiles and drones than it used, and cite falling US munition stocks.",
+      "published": "12 Aug 2026 22:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.785,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Ketika transit Selat Hormuz berkurang, Trump kembali mengatakan AS memiliki ‘kendali’",
+      "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss",
+      "summary": "Just eight vessels crossed strait on Tuesday, down from 130 to 140 prior to the war as peace talks stall.",
+      "published": "12 Aug 2026 22:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -286,26 +286,48 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "'Misi tersulit dalam hidupku': Kehilangan seorang penyelamat dalam Perang Lebanon",
-      "url": "https://www.aljazeera.com/video/al-jazeera-originals/2026/8/12/aje-onl-or_leb_paramedics_teaser-120826?traffic_source=rss",
-      "summary": "A Lebanon rescuer’s work is shaped by the daughter he lost in an Israeli attack on his station.",
-      "published": "12 Aug 2026 17:02 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
+      "source": "MarketWatch",
+      "title": "‘Saya tiba-tiba mendapat sejumlah uang’: Apakah memasukkan $20.000 ke dalam CD merupakan langkah cerdas?",
+      "url": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
+      "summary": "“I want to make the process as straightforward as possible for my beneficiaries to access the funds.”",
+      "published": "13 Aug 2026 00:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.62,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Presiden Zambia mencalonkan diri untuk masa jabatan kedua menjelang pemilu",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/zambias-president-rallies-for-second-term-ahead-of-election?traffic_source=rss",
-      "summary": "Zambia's president rallies for second term ahead of election",
-      "published": "12 Aug 2026 16:16 WIB",
+      "source": "MarketWatch",
+      "title": "Apakah $1 juta cukup untuk sebuah rumah tangga untuk pensiun? Jawabannya terus berubah.",
+      "url": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
+      "summary": "“Some readers — and couples — would be grateful to retire on half that amount.”",
+      "published": "12 Aug 2026 23:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.459,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC Economy",
+      "title": "Saham Wendy melonjak karena laporan potensi tawaran pengambilalihan dari Trian Fund Management milik Nelson Peltz",
+      "url": "https://www.cnbc.com/2026/08/12/wendys-stock-jumps-on-nelson-peltz-takeover-bid-report.html",
+      "summary": "Peltz's relationship with Wendy's dates back to an activist campaign he led more than two decades ago.",
+      "published": "13 Aug 2026 00:34 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
-      "impact": "medium"
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Lalu lintas kapal di Selat Hormuz mendekati titik terendah dalam tiga bulan karena kesepakatan AS-Iran diragukan",
+      "url": "https://www.cnbc.com/2026/08/12/strait-hormuz-ship-traffic-iran-war-deal.html",
+      "summary": "Traffic is about 90% lower than the daily average of 130 ships that transited Hormuz before the U.S. and Israel attacked Iran on Feb. 28.",
+      "published": "12 Aug 2026 23:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.832,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
@@ -317,28 +339,6 @@
       "score": -0.318,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Serangan Houthi menewaskan enam orang dalam kematian pertama di Laut Merah dalam lebih dari setahun; AS menyerang kapal kontainer",
-      "url": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html",
-      "summary": "A cargoship and containership have been hit in the Red Sea and Gulf of Oman as the war inflicts a toll on the world's critical shipping lanes.",
-      "published": "12 Aug 2026 19:28 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Bos AI baru Google mewarisi perlombaan untuk mengejar OpenAI dan Anthropic",
-      "url": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
-      "summary": "Koray Kavukcuoglu is taking charge of Google DeepMind as it tries to keep Gemini competitive with OpenAI and Anthropic.",
-      "published": "12 Aug 2026 12:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.178,
-      "emoji": "🟢",
-      "impact": "medium"
     }
   ]
 }
