@@ -1,155 +1,221 @@
 {
-  "generated": "13 Aug 2026 01:14 WIB",
+  "generated": "13 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.202,
-      "count": 14
+      "pair": "USD/JPY",
+      "direction": "Netral →",
+      "score": -0.008,
+      "count": 16
     },
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.132,
-      "count": 12
+      "pair": "XAU/USD",
+      "direction": "Netral →",
+      "score": 0.038,
+      "count": 15
     },
     {
       "pair": "USD/CHF",
-      "direction": "Netral →",
-      "score": 0.04,
-      "count": 7
+      "direction": "Tekanan Naik ▲",
+      "score": 0.264,
+      "count": 10
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.373,
-      "count": 7
+      "score": -0.419,
+      "count": 5
     },
     {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.225,
-      "count": 3
+      "pair": "AUD/USD",
+      "direction": "Netral →",
+      "score": 0.0,
+      "count": 1
     },
     {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.225,
-      "count": 3
+      "pair": "USD/CNY",
+      "direction": "Netral →",
+      "score": 0.0,
+      "count": 1
     },
     {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.539,
-      "count": 2
-    },
-    {
-      "pair": "USD/RUB",
+      "pair": "CAD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.918,
+      "score": -0.485,
+      "count": 1
+    },
+    {
+      "pair": "NOK/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.485,
       "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Westpac melihat Indeks Dolar lebih rendah dan memiliki dua ide perdagangan lainnya",
-      "url": "https://investinglive.com/forex/westpac-sees-the-dollar-index-lower-and-has-two-other-trade-ideas/",
-      "summary": "Westpac is looking for another leg lower in the US dollar and suggests selling the Dollar Index on a break of 99.40. The bank highlights 99.40 as key support over the past two months and would sell a downside break, targeting 98.00 with a stop at 99.90. Westpac said a benign July CPI report along wi",
-      "published": "12 Aug 2026 22:47 WIB",
-      "sentiment": "Bullish",
-      "score": 0.086,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Iran dilaporkan menyatakan bahwa tidak ada diskusi mengenai perpanjangan gencatan senjata karena perjanjian tersebut sudah tidak ada lagi",
-      "url": "https://investinglive.com/news/iran-reportedly-maintains-that-there-are-no-discussions-over-ceasefire-extension-as-the-pact-doesn-t-exist-anymore/",
-      "summary": "There are no discussions with the US over extending ceasefire agreement From Iran's perpsecitve, there is no ceasefire start date and therefore there is nothing to extend The US violated the agreement 48 hours after it was reached and withdrew from it a few days later One of the issues that is being",
-      "published": "12 Aug 2026 17:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.326,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Reli perak akan menghadapi ujian penting hari ini dengan IHK AS diperkirakan akan mempengaruhi taruhan kenaikan suku bunga Fed",
-      "url": "https://investinglive.com/commodities/silver-s-rally-will-face-a-key-test-today-with-the-us-cpi-expected-to-influence-fed-rate-hike-bets/",
-      "summary": "FUNDAMENTAL OVERVIEW Silver has been rallying steadily since last Tuesday on US-Iran deal hopes and found some further support from a softer than expected NFP report. The momentum looks to be running out of steam though and it will likely need support from the US CPI report today to extend the gains",
-      "published": "12 Aug 2026 16:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.92,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Minyak: Pengetatan pasokan mendukung kenaikan harga – BNY",
-      "url": "https://www.fxstreet.com/news/oil-tightening-supply-supports-elevated-prices-bny-202608121519",
-      "summary": "BNY notes Crude Oil prices remain elevated as doubts over a US–Iran deal heighten supply concerns.",
-      "published": "12 Aug 2026 22:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.63,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Brasil: Kemenangan Lula bisa memperdalam risiko fiskal - Societe Generale",
-      "url": "https://www.fxstreet.com/news/brazil-lula-victory-could-deepen-fiscal-risks-societe-generale-202608121335",
-      "summary": "Societe Generale analysts Brendan McKenna and Dev Ashish outline scenarios for Brazil’s 2026 election, assigning a 65% probability to President Lula winning a fourth term and 30% to Flavio.",
-      "published": "12 Aug 2026 20:35 WIB",
-      "sentiment": "Bullish",
-      "score": 0.238,
-      "emoji": "🟢",
+      "title": "Ford akan mengalihkan sebagian produksi Lincoln dari Tiongkok ke AS mulai tahun 2030",
+      "url": "https://investinglive.com/stocks/ford-to-shift-some-lincoln-production-from-china-to-us-from-2030/",
+      "summary": "The move underlines how the 52.5% tariff on Chinese-built vehicles is now driving concrete reshoring decisions rather than just squeezing margins on existing import volumes, with Ford following General Motors down the same path on separate Lincoln and Buick nameplates. For Ford specifically, shiftin",
+      "published": "13 Aug 2026 06:50 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "medium"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Saham, Obligasi Naik karena CPI yang Jinak Membatasi Taruhan Kenaikan Fed: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/stock-market-today-dow-s-p-live-updates",
-      "summary": "An in-line inflation reading spurred gains in both stocks and bonds, easing concern about imminent Federal Reserve interest-rate increases despite elevated oil prices.",
-      "published": "12 Aug 2026 05:07 WIB",
+      "source": "ForexLive",
+      "title": "UBS melihat tingkat suku bunga riil yang lebih rendah menghidupkan kembali permintaan emas, penurunan harga sebagai peluang pembelian",
+      "url": "https://investinglive.com/commodities/ubs-sees-lower-real-rates-reviving-gold-demand-flags-dips-as-buying-chances/",
+      "summary": "UBS's call is constructive on both the cyclical and structural drivers of gold, tying the metal's outlook directly to its Fed rate path view: a hold through 2026 followed by renewed easing in 2027 would pull real yields lower and weigh on the dollar, the classic combination that has historically dra",
+      "published": "13 Aug 2026 05:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.212,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Goldman menyebut IHK bulan Juli menggembirakan, masih bersiap menghadapi PCE inti yang lebih panas",
+      "url": "https://investinglive.com/stock-market-update/goldman-calls-july-cpi-encouraging-still-braces-for-hotter-core-pce/",
+      "summary": "Goldman's read reinforces the market's post-CPI lean toward a September hold, adding a well-known sell-side voice to a narrative already supported by Wednesday's in-line print . The more interesting signal sits in the PCE preview: a modest overshoot driven by portfolio management fees is a technical",
+      "published": "13 Aug 2026 04:21 WIB",
+      "sentiment": "Bullish",
+      "score": 0.568,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Minyak bertahan mendekati $89 karena kebuntuan Iran-AS semakin kuat dan stok minyak mentah meningkat secara mengejutkan",
+      "url": "https://investinglive.com/commodities/oil-holds-near-89-as-iran-us-stalemate-solidifies-and-crude-stocks-post-surprise-build/",
+      "summary": "Price action was muted given the scale of the headlines, with Brent and WTI both essentially flat on the session, suggesting the market has already priced in a prolonged standoff rather than an imminent breakthrough. The surprise crude build capped early gains, but the bigger signal is structural: O",
+      "published": "13 Aug 2026 03:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.485,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "\"Postingan apa yang saya lewatkan\". Trump mengklaim Hormuz, didukung minyak, dan CPI sejalan",
+      "url": "https://investinglive.com/commodities/the-what-d-i-miss-catch-up-post-trump-claims-hormuz-oil-supported-cpi-in-line/",
+      "summary": "The gap between Washington's rhetoric and physical shipping data is the trade to watch. Trump's repeated claims of \"total control\" over Hormuz have not been matched by tanker flows, with transit falling to a one-week low even as he floats a permanent US presence there. That divergence keeps a geopol",
+      "published": "13 Aug 2026 03:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.208,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Iran mengatakan tidak ada kemajuan dalam perjanjian perdamaian sementara dengan AS — Reuters",
+      "url": "https://www.fxstreet.com/news/iran-says-no-progress-on-interim-peace-deal-with-us-reuters-202608122346",
+      "summary": "The United States (US) and Iran remain at ​loggerheads over efforts to agree a permanent end to the war in the Middle East, Reuters reported on Wednesday.",
+      "published": "13 Aug 2026 06:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.375,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Emas melemah mendekati $4.400 karena ketegangan Iran-AS berlawanan dengan dukungan inflasi AS yang terkendali",
+      "url": "https://www.fxstreet.com/news/gold-edges-lower-to-near-4-400-as-iran-us-tensions-counter-support-from-tame-us-inflation-202608122329",
+      "summary": "Gold price (XAU/USD) declines to around $4,400 during the early Asian session on Thursday, pressured by escalating geopolitical tensions between the United States (US) and Iran.",
+      "published": "13 Aug 2026 06:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.362,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Komoditas: Dolar yang Melemah Tidak Memiliki Katalis Pertumbuhan – BNY",
+      "url": "https://www.fxstreet.com/news/commodities-weaker-dollar-lacks-growth-catalyst-bny-202608122318",
+      "summary": "Geoff Yu at BNY says a less hawkish Fed has weakened the Dollar, but this has not translated into a broad commodity rally. Institutional investors remain sellers of metals and miners, while EM commodity sovereign debt continues to struggle and commodity FX buying has faded.",
+      "published": "13 Aug 2026 06:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.701,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga Perak: XAG berubah menjadi bullish, incar SMA 200-hari",
+      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-bullish-with-eyes-on-200-day-sma-202608121915",
+      "summary": "Silver (XAG/USD) price surges over 1.40% on Wednesday as the latest inflation report in the United States (US) showed that prices are cooling, on its way towards the Federal Reserve’s (Fed) goal of 2%. At the time of writing, the XAG/USD pair trades at $65.53 after reaching a daily high of $66.80.",
+      "published": "13 Aug 2026 02:15 WIB",
+      "sentiment": "Bullish",
+      "score": 0.557,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Harga emas bersinar di atas $4.400 karena penurunan inflasi memicu keringanan The Fed",
+      "url": "https://www.fxstreet.com/news/gold-price-shines-above-4-400-as-inflation-dip-fuels-fed-relief-202608121905",
+      "summary": "Gold price (XAU/USD) registers gains of over 1% on Wednesday as US inflation data aligns with estimates, easing the Federal Reserve’s (Fed) task of further tightening monetary policy. The Consumer Price Index (CPI) continues its downward trajectory.",
+      "published": "13 Aug 2026 02:05 WIB",
       "sentiment": "Bullish",
       "score": 0.527,
       "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Yardeni Menaikkan Target S&P 500 pada 'Momentum Pendapatan Luar Biasa'",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/yardeni-raises-s-p-500-target-video",
-      "summary": "An in-line inflation reading spurred gains in both stocks and bonds, easing concern about imminent Federal Reserve interest-rate increases despite elevated oil prices. Ed Yardeni, Founder at Yardeni Research, talks about raising his S&P target and the market melt up. (Source: Bloomberg)",
-      "published": "12 Aug 2026 23:31 WIB",
+      "source": "Investing.com Forex",
+      "title": "Senator menekan Rubio, karena kurangnya sanksi balasan terhadap Rusia",
+      "url": "https://www.investing.com/news/stock-market-news/senators-press-rubio-bessent-on-lack-of-counterevasion-sanctions-on-russia-4855935",
+      "summary": "",
+      "published": "13 Aug 2026 06:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.398,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Trump menggugat layanan yang menawarkan akses awal berbayar ke postingan Truth Social",
+      "url": "https://www.investing.com/news/stock-market-news/trump-sued-over-service-that-offers-paid-early-access-to-truth-social-posts-4856391",
+      "summary": "",
+      "published": "13 Aug 2026 05:18 WIB",
       "sentiment": "Bullish",
-      "score": 0.778,
+      "score": 0.318,
       "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "CEO Lightbridge Mengatakan Bahan Bakar Nuklir Meningkat",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/lightbridge-ceo-says-nuclear-fuel-is-accelerating-video",
-      "summary": "Lightbridge CEO Seth Grae says the company’s advanced nuclear fuel is progressing faster than expected as testing continues at Idaho National Laboratory. He joins Bloomberg Open Interest to explain why early results look promising, how the fuel could boost output from existing reactors, and why surg",
-      "published": "12 Aug 2026 22:37 WIB",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 13 Agustus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/latest-oil-market-news-and-analysis-for-aug-13",
+      "summary": "Oil held the bulk of a five-session gain, as traders waited for signs of progress toward reopening the Strait of Hormuz.",
+      "published": "13 Aug 2026 05:02 WIB",
       "sentiment": "Bullish",
-      "score": 0.902,
+      "score": 0.735,
       "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Overdeck Two Sigma Menawarkan Istri $633 Juta, Kata Pengacara",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/two-sigma-s-overdeck-offered-wife-633-million-her-lawyer-says",
+      "summary": "Two Sigma Investments’ billionaire co-founder John Overdeck schemed to leave his wife Laura “with as little as possible,” her lawyer said as the couple’s divorce trial began, an amount she pegged at $633 million.",
+      "published": "13 Aug 2026 02:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.052,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Anggota kabinet Trump tetap berada di pesawat umpan, setelah presiden keluar secara diam-diam",
-      "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump boarded a different plane in Turkey during a Nato summit for security reasons involving Iran.",
-      "published": "12 Aug 2026 23:34 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Mantan Pejabat CDC tentang Wabah Cyclospora",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-12/former-cdc-official-on-the-cyclospora-outbreak-video",
+      "summary": "Dr. Debra Houry, Former Deputy Director for Program & Science at the CDC, discusses the ongoing cyclospora outbreak amid conflicting messages from health authorities. While the Department of Health and Human Services (HHS) declared the outbreak contained and stated that salad is safe to eat, CDC dat",
+      "published": "13 Aug 2026 04:30 WIB",
       "sentiment": "Bullish",
-      "score": 0.34,
+      "score": 0.281,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -169,10 +235,21 @@
       "title": "Ribuan warga Kanada menyerukan pengusiran duta besar AS",
       "url": "https://www.bbc.co.uk/news/articles/c9d83j4ql2xo?at_medium=RSS&at_campaign=rss",
       "summary": "An online petition accusing Pete Hoekstra of diplomatic interference in Canadian domestic affairs has garnered more than 60,000 signatures.",
-      "published": "12 Aug 2026 23:35 WIB",
+      "published": "13 Aug 2026 05:56 WIB",
       "sentiment": "Bearish",
       "score": -0.178,
       "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Anggota kabinet Trump tetap berada di pesawat umpan, setelah presiden keluar secara diam-diam",
+      "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump boarded a different plane in Turkey during a Nato summit for security reasons involving Iran.",
+      "published": "13 Aug 2026 06:19 WIB",
+      "sentiment": "Bullish",
+      "score": 0.34,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -187,41 +264,8 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Cristiano Ronaldo menikahi pasangan lamanya Georgina Rodríguez",
-      "url": "https://www.bbc.co.uk/news/articles/clyj0325z3ko?at_medium=RSS&at_campaign=rss",
-      "summary": "The couple have tied the knot after the Portuguese captain played his last ever World Cup this summer.",
-      "published": "12 Aug 2026 11:29 WIB",
-      "sentiment": "Bullish",
-      "score": 0.34,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "PM Selandia Baru selamat dari tantangan kepemimpinan kedua menjelang pemilu",
-      "url": "https://www.bbc.co.uk/news/articles/cx2ve2jk5qeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Christopher Luxon says he has \"full support\" of his party, after a vote of confidence 12 weeks before a general election.",
-      "published": "12 Aug 2026 09:51 WIB",
-      "sentiment": "Bullish",
-      "score": 0.84,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
       "source": "BBC Business",
       "title": "Burnham memperingatkan perang Iran dapat memukul pertumbuhan Inggris tahun depan",
-      "url": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
-      "summary": "The conflict in the Middle East has pushed up oil and fuel prices, and also disrupted supply chains.",
-      "published": "12 Aug 2026 21:17 WIB",
-      "sentiment": "Bearish",
-      "score": -0.771,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "PM memperingatkan dampak perang Iran terhadap pertumbuhan Inggris tahun depan",
       "url": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
       "summary": "The conflict in the Middle East has pushed up oil and fuel prices, and also disrupted supply chains.",
       "published": "12 Aug 2026 21:17 WIB",
@@ -243,68 +287,35 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Apakah perekonomian Rusia melemah meski Iran mendapat keuntungan besar dari perang?",
-      "url": "https://www.aljazeera.com/video/counting-the-cost/2026/8/12/is-russias-economy-cracking-despite-the-iran-war-windfall?traffic_source=rss",
-      "summary": "A widening deficit and Ukrainian strikes are testing Russia's economy, even as war in the Middle East lifts oil revenue.",
-      "published": "12 Aug 2026 22:36 WIB",
+      "title": "Hegseth memperingatkan bahwa ICC mungkin menyelidiki serangan kapal AS di Amerika Latin",
+      "url": "https://www.aljazeera.com/news/2026/8/12/hegseth-cautions-that-icc-may-investigate-us-boat-strikes-in-latin-america?traffic_source=rss",
+      "summary": "US defence chief vows to continue campaign against drug cartels, says Colombia has joined regional military coalition.",
+      "published": "13 Aug 2026 04:52 WIB",
       "sentiment": "Bearish",
-      "score": -0.874,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran tetap menentang dan bersumpah untuk melawan AS sampai tuntutan dipenuhi",
-      "url": "https://www.aljazeera.com/news/2026/8/12/iran-remains-defiant-as-it-vows-to-fight-us-until-demands-met?traffic_source=rss",
-      "summary": "IRGC advisers say Iran has replaced more missiles and drones than it used, and cite falling US munition stocks.",
-      "published": "12 Aug 2026 22:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.785,
+      "score": -0.193,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Ketika transit Selat Hormuz berkurang, Trump kembali mengatakan AS memiliki ‘kendali’",
-      "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss",
-      "summary": "Just eight vessels crossed strait on Tuesday, down from 130 to 140 prior to the war as peace talks stall.",
-      "published": "12 Aug 2026 22:07 WIB",
+      "title": "Serangan drone terhadap infrastruktur energi memperparah krisis energi Libya",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/drone-attacks-on-energy-infrastructure-deepen-libyas-energy-crisis?traffic_source=rss",
+      "summary": "Repeated drone strikes on oil and power infrastructure are deepening Libya's energy crisis.",
+      "published": "13 Aug 2026 03:59 WIB",
       "sentiment": "Bearish",
-      "score": -0.296,
+      "score": -1.0,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mengapa Korea Utara menembakkan rudal menjelang latihan AS-Korea Selatan?",
-      "url": "https://www.aljazeera.com/news/2026/8/12/why-has-north-korea-fired-a-missile-ahead-of-us-south-korea-drills?traffic_source=rss",
-      "summary": "Pyongyang has repeatedly condemned US–South Korea military drills, claiming they are a 'rehearsal for invasion'.",
-      "published": "12 Aug 2026 20:10 WIB",
+      "title": "Israel berjanji akan mempertahankan pasukannya di Lebanon, Gaza, dan Suriah",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/israel-vows-to-keep-troops-in-lebanon-gaza-and-syria?traffic_source=rss",
+      "summary": "Israeli defence minister Israel Katz has said that Israel “will under no circumstances” withdraw its troops.",
+      "published": "13 Aug 2026 03:26 WIB",
       "sentiment": "Bearish",
-      "score": -0.918,
+      "score": -0.202,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "‘Saya tiba-tiba mendapat sejumlah uang’: Apakah memasukkan $20.000 ke dalam CD merupakan langkah cerdas?",
-      "url": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
-      "summary": "“I want to make the process as straightforward as possible for my beneficiaries to access the funds.”",
-      "published": "13 Aug 2026 00:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.62,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Apakah $1 juta cukup untuk sebuah rumah tangga untuk pensiun? Jawabannya terus berubah.",
-      "url": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
-      "summary": "“Some readers — and couples — would be grateful to retire on half that amount.”",
-      "published": "12 Aug 2026 23:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.459,
-      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -312,7 +323,7 @@
       "title": "Saham Wendy melonjak karena laporan potensi tawaran pengambilalihan dari Trian Fund Management milik Nelson Peltz",
       "url": "https://www.cnbc.com/2026/08/12/wendys-stock-jumps-on-nelson-peltz-takeover-bid-report.html",
       "summary": "Peltz's relationship with Wendy's dates back to an activist campaign he led more than two decades ago.",
-      "published": "13 Aug 2026 00:34 WIB",
+      "published": "13 Aug 2026 04:13 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
