@@ -1,5 +1,5 @@
 {
-  "generated": "13 Aug 2026 10:04 WIB",
+  "generated": "13 Aug 2026 11:04 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,64 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.272,
-      "count": 13
+      "score": -0.183,
+      "count": 15
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.237,
-      "count": 12
+      "score": -0.212,
+      "count": 13
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.171,
-      "count": 10
+      "score": -0.076,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.153,
+      "score": -0.243,
       "count": 4
+    },
+    {
+      "pair": "AUD/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.251,
+      "count": 2
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.251,
+      "count": 2
     },
     {
       "pair": "EUR",
       "direction": "Tekanan Naik ▲",
-      "score": 0.556,
-      "count": 1
+      "score": 0.637,
+      "count": 2
     },
     {
       "pair": "USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.556,
-      "count": 1
-    },
-    {
-      "pair": "emerging markets",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.556,
-      "count": 1
-    },
-    {
-      "pair": "AUD/USD",
-      "direction": "Netral →",
-      "score": 0.0,
-      "count": 1
+      "score": 0.637,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "investBerita langsung Pasar Asia-Pasifik: Minyak melemah seiring dilaporkannya transfer aset UEA-Iran",
+      "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-oil-eases-as-uae-iran-asset-transfer-reported/",
+      "summary": "NZD drips lower still on RBNZ inflation expectations survey drop from prior Asia stocks - Nikkei, Topix and Kospi all rally on chip strength and earnings optimism Tariff refunds boost earnings at Apple, Nike and FedEx, WSJ reports Recap: RBA's Kent: policy is restrictive and working, but risks still",
+      "published": "13 Aug 2026 10:41 WIB",
+      "sentiment": "Bullish",
+      "score": 0.501,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
     {
       "source": "ForexLive",
       "title": "Rekap: Kent dari RBA: kebijakan bersifat restriktif dan berhasil, namun risiko masih cenderung lebih tinggi",
@@ -121,28 +132,6 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Minyak bertahan mendekati $89 karena kebuntuan Iran-AS semakin kuat dan stok minyak mentah meningkat secara mengejutkan",
-      "url": "https://investinglive.com/commodities/oil-holds-near-89-as-iran-us-stalemate-solidifies-and-crude-stocks-post-surprise-build/",
-      "summary": "Price action was muted given the scale of the headlines, with Brent and WTI both essentially flat on the session, suggesting the market has already priced in a prolonged standoff rather than an imminent breakthrough. The surprise crude build capped early gains, but the bigger signal is structural: O",
-      "published": "13 Aug 2026 03:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.485,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "\"Postingan apa yang saya lewatkan\". Trump mengklaim Hormuz, didukung minyak, dan CPI sejalan",
-      "url": "https://investinglive.com/commodities/the-what-d-i-miss-catch-up-post-trump-claims-hormuz-oil-supported-cpi-in-line/",
-      "summary": "The gap between Washington's rhetoric and physical shipping data is the trade to watch. Trump's repeated claims of \"total control\" over Hormuz have not been matched by tanker flows, with transit falling to a one-week low even as he floats a permanent US presence there. That divergence keeps a geopol",
-      "published": "13 Aug 2026 03:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.208,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "FXStreet News",
       "title": "Dolar Kanada stabil karena melemahnya Dolar AS mengimbangi penurunan harga minyak",
       "url": "https://www.fxstreet.com/news/canadian-dollar-steadies-as-weak-us-dollar-offsets-lower-oil-prices-202608130146",
@@ -188,6 +177,28 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Saham dan Obligasi Naik seiring Kelonggaran Taruhan Kenaikan Suku Bunga Fed: Pembungkusan Pasar",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/stock-market-today-dow-s-p-live-updates",
+      "summary": "Global stocks climbed toward a record and bonds extended gains as a subdued US inflation report eased concerns about an imminent interest-rate hike by the Federal Reserve. Brent snapped a six-day rally.",
+      "published": "13 Aug 2026 05:08 WIB",
+      "sentiment": "Bullish",
+      "score": 0.717,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Korea Naik seiring Reli Chip Kembali Menguat",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-13/korean-stocks-rise-as-chip-rally-regains-steam-video",
+      "summary": "A revival in the global AI trade pushed South Korean stocks toward a technical bull market, marking a dramatic turnaround from last month’s historic rout. Bloomberg TV's Avril Hong breaks down the latest moves. (Source: Bloomberg)",
+      "published": "13 Aug 2026 10:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Saham Korea Naik 23% dalam 10 Hari karena Reli Chip Kembali Menguat",
       "url": "https://www.bloomberg.com/news/articles/2026-08-13/korean-stocks-rise-22-in-ten-days-as-chip-rally-regains-steam",
       "summary": "A revival in the global AI trade pushed South Korean stocks toward a technical bull market, marking a dramatic turnaround from last month’s historic rout.",
@@ -209,37 +220,26 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Brasil Mendukung Tindakan Pengendalian Pengeluaran dalam Persetujuan Fiskal dari Lula",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-13/brazil-backs-spending-control-measure-in-fiscal-nod-from-lula",
-      "summary": "Brazil’s Congress approved measures to curb spending growth in a move that aims to signal greater budget discipline backed by President Luiz Inacio Lula da Silva ahead of his reelection bid later this year.",
-      "published": "13 Aug 2026 07:08 WIB",
-      "sentiment": "Bullish",
-      "score": 0.858,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Pound Tergelincir karena Kekuatan Dolar dan Risiko Geopolitik Membatasi Sentimen - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM1A0N2JXT1B0Q0V2cWlOMUd6TW1xcjQtb3UxXzBkNVVibHk3UHpDYXBoX2RoU1RBZzZhZEROWklselRiVVpYN0Z2ZW5ZUkp1endjR3NianBuNWtIMU9YMF9jXzlDaHRMUGRnYVdYM1JxU0EzV3Z2eE5jdDhWRFBLd08yTlVqNnVpSG42Qw?oc=5",
-      "summary": "Pound Slips as Dollar Strength and Geopolitical Risks Curb Sentiment CryptoRank",
-      "published": "12 Aug 2026 11:33 WIB",
-      "sentiment": "Bullish",
-      "score": 0.193,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
       "source": "BBC World",
       "title": "Terminal ekspor biji-bijian utama Rusia terkena serangan pelabuhan Laut Hitam Ukraina",
       "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
       "summary": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
-      "published": "13 Aug 2026 00:47 WIB",
+      "published": "13 Aug 2026 10:28 WIB",
       "sentiment": "Bearish",
       "score": -0.938,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Pelapor pelanggaran militer Australia dibebaskan bersyarat setelah lebih dari dua tahun dipenjara",
+      "url": "https://www.bbc.co.uk/news/articles/c5yw7vdwjxyo?at_medium=RSS&at_campaign=rss",
+      "summary": "David McBride was jailed after pleading guilty to leaking military secrets about Afghanistan.",
+      "published": "13 Aug 2026 09:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.718,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -349,17 +349,6 @@
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Harga minyak naik di tengah kekhawatiran gangguan pasokan karena tumpahan minyak di dekat Oman semakin parah",
-      "url": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
-      "summary": "News of recent deadly attacks on vessels in the Gulf of Oman and the Red Sea drove oil higher. An oil spill near Oman continued to worsen.",
-      "published": "13 Aug 2026 08:59 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
       "impact": "low"
     },
     {
