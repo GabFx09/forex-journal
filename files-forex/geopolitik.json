@@ -1,5 +1,5 @@
 {
-  "generated": "13 Aug 2026 08:34 WIB",
+  "generated": "13 Aug 2026 10:04 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,20 +7,20 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.152,
-      "count": 12
+      "score": -0.272,
+      "count": 13
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.102,
-      "count": 11
+      "score": -0.237,
+      "count": 12
     },
     {
       "pair": "USD/CHF",
-      "direction": "Netral →",
-      "score": 0.041,
-      "count": 8
+      "direction": "Tekanan Turun ▼",
+      "score": -0.171,
+      "count": 10
     },
     {
       "pair": "EUR/USD",
@@ -29,31 +29,53 @@
       "count": 4
     },
     {
+      "pair": "EUR",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.556,
+      "count": 1
+    },
+    {
+      "pair": "USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.556,
+      "count": 1
+    },
+    {
+      "pair": "emerging markets",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.556,
+      "count": 1
+    },
+    {
       "pair": "AUD/USD",
       "direction": "Netral →",
       "score": 0.0,
       "count": 1
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Netral →",
-      "score": 0.0,
-      "count": 1
-    },
-    {
-      "pair": "CAD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.485,
-      "count": 1
-    },
-    {
-      "pair": "NOK/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.485,
-      "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Rekap: Kent dari RBA: kebijakan bersifat restriktif dan berhasil, namun risiko masih cenderung lebih tinggi",
+      "url": "https://investinglive.com/central-banks/recap-rba-s-kent-policy-is-restrictive-and-working-but-risks-still-skew-higher/",
+      "summary": "Taken as a whole, Kent's remarks RBA assistant Gov Kent: cash rate increases are having their intended effect More from RBA's Kent: Flags upside inflation risk, further hikes possible, warns on equities read as a central bank confident its tightening is transmitting as intended but unwilling to decl",
+      "published": "13 Aug 2026 09:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.548,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Jepang tidak kehabisan ruang untuk mempertahankan yen meskipun tahun intervensi 2026 sibuk",
+      "url": "https://investinglive.com/forex/japan-is-not-out-of-room-to-defend-the-yen-despite-busy-2026-intervention-year/",
+      "summary": "The practical read for positioning is that Tokyo's ability to act again is not meaningfully constrained, whatever the informal IMF optics suggest, since both reserve capacity and official statements point to room to intervene if the trigger materialises. The nuance worth flagging is the distinction ",
+      "published": "13 Aug 2026 08:37 WIB",
+      "sentiment": "Bullish",
+      "score": 0.556,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Lebih lanjut dari Kent RBA: Menandai risiko kenaikan inflasi, kemungkinan kenaikan lebih lanjut, memperingatkan ekuitas",
@@ -122,6 +144,17 @@
     },
     {
       "source": "FXStreet News",
+      "title": "Dolar Kanada stabil karena melemahnya Dolar AS mengimbangi penurunan harga minyak",
+      "url": "https://www.fxstreet.com/news/canadian-dollar-steadies-as-weak-us-dollar-offsets-lower-oil-prices-202608130146",
+      "summary": "USD/CAD remains steady after registering minor gains in the previous day, trading around 1.3940 during the Asian hours on Thursday. The currency pair moves within a narrow range as a weaker US Dollar (USD) balances out the impact of falling oil prices on the commodity-linked Canadian Dollar (CAD).",
+      "published": "13 Aug 2026 08:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.353,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Iran mengatakan tidak ada kemajuan dalam perjanjian perdamaian sementara dengan AS — Reuters",
       "url": "https://www.fxstreet.com/news/iran-says-no-progress-on-interim-peace-deal-with-us-reuters-202608122346",
       "summary": "The United States (US) and Iran remain at ​loggerheads over efforts to agree a permanent end to the war in the Middle East, Reuters reported on Wednesday.",
@@ -155,6 +188,28 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Saham Korea Naik 23% dalam 10 Hari karena Reli Chip Kembali Menguat",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/korean-stocks-rise-22-in-ten-days-as-chip-rally-regains-steam",
+      "summary": "A revival in the global AI trade pushed South Korean stocks toward a technical bull market, marking a dramatic turnaround from last month’s historic rout.",
+      "published": "13 Aug 2026 07:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Dorongan Tiongkok dari Batu Bara ke Bahan Kimia Terbayar dengan Rekor Keuntungan",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/china-s-coal-to-chemicals-push-pays-off-with-record-profits",
+      "summary": "China’s decade-plus quest to replace oil with coal in chemicals production is paying off for industry leader Ningxia Baofeng Energy Group Co., which pulled in record profits as crude prices soared due to the Middle East War.",
+      "published": "13 Aug 2026 08:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.258,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Brasil Mendukung Tindakan Pengendalian Pengeluaran dalam Persetujuan Fiskal dari Lula",
       "url": "https://www.bloomberg.com/news/articles/2026-08-13/brazil-backs-spending-control-measure-in-fiscal-nod-from-lula",
       "summary": "Brazil’s Congress approved measures to curb spending growth in a move that aims to signal greater budget discipline backed by President Luiz Inacio Lula da Silva ahead of his reelection bid later this year.",
@@ -165,26 +220,15 @@
       "impact": "medium"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru 13 Agustus",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/latest-oil-market-news-and-analysis-for-aug-13",
-      "summary": "Oil held the bulk of a six-session gain, as traders waited for signs of progress toward reopening the Strait of Hormuz.",
-      "published": "13 Aug 2026 05:02 WIB",
+      "source": "Google News Geopolitik",
+      "title": "Pound Tergelincir karena Kekuatan Dolar dan Risiko Geopolitik Membatasi Sentimen - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM1A0N2JXT1B0Q0V2cWlOMUd6TW1xcjQtb3UxXzBkNVVibHk3UHpDYXBoX2RoU1RBZzZhZEROWklselRiVVpYN0Z2ZW5ZUkp1endjR3NianBuNWtIMU9YMF9jXzlDaHRMUGRnYVdYM1JxU0EzV3Z2eE5jdDhWRFBLd08yTlVqNnVpSG42Qw?oc=5",
+      "summary": "Pound Slips as Dollar Strength and Geopolitical Risks Curb Sentiment CryptoRank",
+      "published": "12 Aug 2026 11:33 WIB",
       "sentiment": "Bullish",
-      "score": 0.735,
+      "score": 0.193,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Overdeck Two Sigma Menawarkan Istri $633 Juta, Kata Pengacara",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/two-sigma-s-overdeck-offered-wife-633-million-her-lawyer-says",
-      "summary": "Two Sigma Investments’ billionaire co-founder John Overdeck schemed to leave his wife Laura “with as little as possible,” her lawyer said as the couple’s divorce trial began, an amount she pegged at $633 million.",
-      "published": "13 Aug 2026 02:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.052,
-      "emoji": "🔴",
-      "impact": "low"
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -210,23 +254,23 @@
     },
     {
       "source": "BBC World",
-      "title": "Anggota kabinet Trump tetap berada di pesawat umpan, setelah presiden keluar secara diam-diam",
-      "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump boarded a different plane in Turkey during a Nato summit for security reasons involving Iran.",
-      "published": "13 Aug 2026 06:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.34,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
       "title": "Zhu Rongji, yang membantu mengubah Tiongkok menjadi raksasa perdagangan, meninggal pada usia 97 tahun",
       "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss",
       "summary": "The former premier brought China into the WTO and championed reforms that fuelled growth.",
       "published": "12 Aug 2026 19:10 WIB",
       "sentiment": "Bullish",
       "score": 0.666,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Anggota kabinet Trump tetap berada di pesawat umpan, setelah presiden keluar secara diam-diam",
+      "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump boarded a different plane in Turkey during a Nato summit for security reasons involving Iran.",
+      "published": "13 Aug 2026 06:19 WIB",
+      "sentiment": "Bullish",
+      "score": 0.34,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -238,6 +282,17 @@
       "published": "12 Aug 2026 21:17 WIB",
       "sentiment": "Bearish",
       "score": -0.771,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Suhu akan melonjak hingga 38C seiring diberlakukannya peringatan panas ekstrem berwarna kuning",
+      "url": "https://www.bbc.co.uk/weather/articles/ce85pj0e20po?at_medium=RSS&at_campaign=rss",
+      "summary": "Heat will spike again on Thursday with a rare warning in place and more records set to tumble.",
+      "published": "13 Aug 2026 09:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.622,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -298,10 +353,21 @@
     },
     {
       "source": "CNBC World",
+      "title": "Harga minyak naik di tengah kekhawatiran gangguan pasokan karena tumpahan minyak di dekat Oman semakin parah",
+      "url": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
+      "summary": "News of recent deadly attacks on vessels in the Gulf of Oman and the Red Sea drove oil higher. An oil spill near Oman continued to worsen.",
+      "published": "13 Aug 2026 08:59 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Goldman mengatakan cadangan devisa Jepang sebesar $1 triliun memberikan 'banyak kapasitas' untuk intervensi yen lebih lanjut",
       "url": "https://www.cnbc.com/2026/08/13/us-japan-dollar-yen-intervention-goldman.html",
       "summary": "Japan has enough cash at its disposal for a couple more rounds of yen-buying on the scale of last month's intervention, Goldman Sachs says.",
-      "published": "13 Aug 2026 08:12 WIB",
+      "published": "13 Aug 2026 09:31 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -315,17 +381,6 @@
       "published": "12 Aug 2026 23:33 WIB",
       "sentiment": "Bearish",
       "score": -0.832,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Panas terik membebani pasokan tenaga nuklir di Eropa – dan mendorong tindakan drastis",
-      "url": "https://www.cnbc.com/2026/08/12/europe-heat-drought-nuclear-power.html",
-      "summary": "Heat and drought are curbing nuclear output across Europe, with Romania facing a possible reactor shutdown and France reducing generation.",
-      "published": "12 Aug 2026 18:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.318,
       "emoji": "🔴",
       "impact": "low"
     }
