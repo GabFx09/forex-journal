@@ -1,32 +1,32 @@
 {
-  "generated": "13 Aug 2026 07:01 WIB",
+  "generated": "13 Aug 2026 08:34 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
       "pair": "USD/JPY",
-      "direction": "Netral →",
-      "score": -0.008,
-      "count": 16
+      "direction": "Tekanan Turun ▼",
+      "score": -0.152,
+      "count": 12
     },
     {
       "pair": "XAU/USD",
-      "direction": "Netral →",
-      "score": 0.038,
-      "count": 15
+      "direction": "Tekanan Turun ▼",
+      "score": -0.102,
+      "count": 11
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.264,
-      "count": 10
+      "direction": "Netral →",
+      "score": 0.041,
+      "count": 8
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.419,
-      "count": 5
+      "score": -0.153,
+      "count": 4
     },
     {
       "pair": "AUD/USD",
@@ -54,6 +54,17 @@
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Lebih lanjut dari Kent RBA: Menandai risiko kenaikan inflasi, kemungkinan kenaikan lebih lanjut, memperingatkan ekuitas",
+      "url": "https://investinglive.com/central-banks/more-from-rba-s-kent-flags-upside-inflation-risk-further-hikes-possible-warns-on-equities/",
+      "summary": "This second batch of comments tempers the more settled tone from Kent's earlier remarks on rate transmission and neutral rate estimates. Explicitly aligning with Governor Bullock's view that inflation risks lean to the upside, and floating the possibility of further hikes if those risks materialise,",
+      "published": "13 Aug 2026 07:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.91,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Ford akan mengalihkan sebagian produksi Lincoln dari Tiongkok ke AS mulai tahun 2030",
@@ -143,54 +154,21 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga Perak: XAG berubah menjadi bullish, incar SMA 200-hari",
-      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-bullish-with-eyes-on-200-day-sma-202608121915",
-      "summary": "Silver (XAG/USD) price surges over 1.40% on Wednesday as the latest inflation report in the United States (US) showed that prices are cooling, on its way towards the Federal Reserve’s (Fed) goal of 2%. At the time of writing, the XAG/USD pair trades at $65.53 after reaching a daily high of $66.80.",
-      "published": "13 Aug 2026 02:15 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Brasil Mendukung Tindakan Pengendalian Pengeluaran dalam Persetujuan Fiskal dari Lula",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/brazil-backs-spending-control-measure-in-fiscal-nod-from-lula",
+      "summary": "Brazil’s Congress approved measures to curb spending growth in a move that aims to signal greater budget discipline backed by President Luiz Inacio Lula da Silva ahead of his reelection bid later this year.",
+      "published": "13 Aug 2026 07:08 WIB",
       "sentiment": "Bullish",
-      "score": 0.557,
+      "score": 0.858,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Harga emas bersinar di atas $4.400 karena penurunan inflasi memicu keringanan The Fed",
-      "url": "https://www.fxstreet.com/news/gold-price-shines-above-4-400-as-inflation-dip-fuels-fed-relief-202608121905",
-      "summary": "Gold price (XAU/USD) registers gains of over 1% on Wednesday as US inflation data aligns with estimates, easing the Federal Reserve’s (Fed) task of further tightening monetary policy. The Consumer Price Index (CPI) continues its downward trajectory.",
-      "published": "13 Aug 2026 02:05 WIB",
-      "sentiment": "Bullish",
-      "score": 0.527,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Senator menekan Rubio, karena kurangnya sanksi balasan terhadap Rusia",
-      "url": "https://www.investing.com/news/stock-market-news/senators-press-rubio-bessent-on-lack-of-counterevasion-sanctions-on-russia-4855935",
-      "summary": "",
-      "published": "13 Aug 2026 06:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.398,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Trump menggugat layanan yang menawarkan akses awal berbayar ke postingan Truth Social",
-      "url": "https://www.investing.com/news/stock-market-news/trump-sued-over-service-that-offers-paid-early-access-to-truth-social-posts-4856391",
-      "summary": "",
-      "published": "13 Aug 2026 05:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.318,
-      "emoji": "🟢",
-      "impact": "low"
+      "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
       "title": "Berita dan Analisis Pasar Minyak Terbaru 13 Agustus",
       "url": "https://www.bloomberg.com/news/articles/2026-08-12/latest-oil-market-news-and-analysis-for-aug-13",
-      "summary": "Oil held the bulk of a five-session gain, as traders waited for signs of progress toward reopening the Strait of Hormuz.",
+      "summary": "Oil held the bulk of a six-session gain, as traders waited for signs of progress toward reopening the Strait of Hormuz.",
       "published": "13 Aug 2026 05:02 WIB",
       "sentiment": "Bullish",
       "score": 0.735,
@@ -206,17 +184,6 @@
       "sentiment": "Bearish",
       "score": -0.052,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Mantan Pejabat CDC tentang Wabah Cyclospora",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/former-cdc-official-on-the-cyclospora-outbreak-video",
-      "summary": "Dr. Debra Houry, Former Deputy Director for Program & Science at the CDC, discusses the ongoing cyclospora outbreak amid conflicting messages from health authorities. While the Department of Health and Human Services (HHS) declared the outbreak contained and stated that salad is safe to eat, CDC dat",
-      "published": "13 Aug 2026 04:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.281,
-      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -275,17 +242,6 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Kontes Lagu Eurovision mengubah peraturan bagi negara-negara yang sedang berperang",
-      "url": "https://www.bbc.co.uk/news/articles/cdx7pv300vwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Organisers say countries engaged in armed conflict will be automatically disqualified from hosting.",
-      "published": "12 Aug 2026 22:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.903,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Al Jazeera",
       "title": "Hegseth memperingatkan bahwa ICC mungkin menyelidiki serangan kapal AS di Amerika Latin",
       "url": "https://www.aljazeera.com/news/2026/8/12/hegseth-cautions-that-icc-may-investigate-us-boat-strikes-in-latin-america?traffic_source=rss",
@@ -319,11 +275,33 @@
       "impact": "low"
     },
     {
+      "source": "MarketWatch",
+      "title": "Apakah $1 juta cukup untuk sebuah rumah tangga untuk pensiun? Jawabannya terus berubah.",
+      "url": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
+      "summary": "“Some readers — and couples — would be grateful to retire on half that amount.”",
+      "published": "13 Aug 2026 07:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.459,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
       "source": "CNBC Economy",
       "title": "Saham Wendy melonjak karena laporan potensi tawaran pengambilalihan dari Trian Fund Management milik Nelson Peltz",
       "url": "https://www.cnbc.com/2026/08/12/wendys-stock-jumps-on-nelson-peltz-takeover-bid-report.html",
       "summary": "Peltz's relationship with Wendy's dates back to an activist campaign he led more than two decades ago.",
       "published": "13 Aug 2026 04:13 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Goldman mengatakan cadangan devisa Jepang sebesar $1 triliun memberikan 'banyak kapasitas' untuk intervensi yen lebih lanjut",
+      "url": "https://www.cnbc.com/2026/08/13/us-japan-dollar-yen-intervention-goldman.html",
+      "summary": "Japan has enough cash at its disposal for a couple more rounds of yen-buying on the scale of last month's intervention, Goldman Sachs says.",
+      "published": "13 Aug 2026 08:12 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
