@@ -1,5 +1,5 @@
 {
-  "generated": "14 Aug 2026 10:03 WIB",
+  "generated": "14 Aug 2026 12:04 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,38 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.127,
+      "score": -0.07,
       "count": 19
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.124,
+      "score": -0.062,
       "count": 18
     },
     {
       "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.104,
+      "direction": "Netral →",
+      "score": -0.044,
       "count": 18
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.54,
-      "count": 4
+      "score": -0.397,
+      "count": 7
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.705,
-      "count": 1
+      "score": -0.383,
+      "count": 5
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.705,
-      "count": 1
+      "score": -0.383,
+      "count": 5
     },
     {
       "pair": "CAD/JPY",
@@ -54,6 +54,28 @@
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "investBerita langsung Pasar Asia-Pasifik: Harga minyak naik, pergerakan kecil",
+      "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-oil-edges-up-small-move/",
+      "summary": "Trump orders more tariffs, this time up to 100% on drone imports. Cites security. Follow-up: Latvia shoots down drone hours after issuing air threat alert EUR risk: Latvia issues air threat alert, Finland restricts Gulf of Finland traffic PBOC sets USD/ CNY reference rate for today at 6.7878 (vs. es",
+      "published": "14 Aug 2026 10:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.74,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Trump memerintahkan tarif lebih tinggi, kali ini hingga 100% pada impor drone. Mengutip keamanan.",
+      "url": "https://investinglive.com/news/trump-orders-more-tariffs-this-time-up-to-100-on-drone-imports-cites-security/",
+      "summary": "The tiered structure here matters more than the headline rate: a 100% tariff on militarily sensitive drones and components targets China directly given its dominance in that segment, while the lower 15% and 10% rates carved out for the EU, Japan, South Korea, Taiwan and the UK function as a soft inc",
+      "published": "14 Aug 2026 10:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.178,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
     {
       "source": "ForexLive",
       "title": "Tindak lanjut: Latvia menembak jatuh drone beberapa jam setelah mengeluarkan peringatan ancaman udara",
@@ -143,26 +165,26 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Adnoc dari UEA mengatakan dua kapalnya menyerang di Hormuz",
-      "url": "https://investinglive.com/commodities/uae-s-adnoc-says-two-of-its-vessels-attacked-in-hormuz/",
-      "summary": "ADNOC, the Abu Dhabi National Oil Company, is the UAE's state owned energy giant, spanning upstream production, gas, refining, petrochemicals and shipping through listed subsidiaries like ADNOC Gas and ADNOC Drilling. Its Murban crude is a key Gulf benchmark. Group CEO Sultan Al Jaber also serves as",
-      "published": "14 Aug 2026 03:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
-      "emoji": "🔴",
-      "impact": "high"
+      "source": "FXStreet News",
+      "title": "Euro menguat karena surutnya taruhan kenaikan suku bunga The Fed membebani USD; risiko geopolitik membatasi kenaikan",
+      "url": "https://www.fxstreet.com/news/euro-gains-as-receding-fed-hike-bets-weigh-on-usd-geopolitical-risks-cap-upside-202608140404",
+      "summary": "The EUR/USD pair attracts some follow-through buyers during the Asian session on Friday and looks to build on the previous day's modest bounce from the vicinity of the 1.1500 psychological mark, or an over one-week low.",
+      "published": "14 Aug 2026 11:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.153,
+      "emoji": "🟢",
+      "impact": "medium"
     },
     {
-      "source": "ForexLive",
-      "title": "Ini adalah 'apa yang saya lewatkan?' pos! Minyak turun meski terjadi kekacauan di Hormuz, S&P 500 mencapai rekor tertinggi",
-      "url": "https://investinglive.com/commodities/its-the-what-d-i-miss-post-oil-falls-despite-hormuz-chaos-s-p-500-record-high/",
-      "summary": "Diverging signals from Richmond and Cleveland Fed presidents this week underline how unsettled the September rate path remains, with markets currently pricing roughly a one third chance of a hike, down from about half earlier in the week after softer producer price data . Oil traders are increasingl",
-      "published": "14 Aug 2026 03:46 WIB",
+      "source": "FXStreet News",
+      "title": "Franc Swiss menguat karena melemahnya inflasi AS menekan Dolar AS",
+      "url": "https://www.fxstreet.com/news/swiss-franc-strengthens-as-softer-us-inflation-pressures-us-dollar-202608140305",
+      "summary": "USD/CHF halts its four-day winning streak, trading around 0.8140 during the Asian hours on Friday. The currency pair edges lower as the US Dollar (USD) faces downward pressure following a softer-than-expected US inflation report.",
+      "published": "14 Aug 2026 10:05 WIB",
       "sentiment": "Bearish",
-      "score": -0.592,
+      "score": -0.08,
       "emoji": "🔴",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "source": "FXStreet News",
@@ -198,6 +220,28 @@
       "impact": "low"
     },
     {
+      "source": "Bloomberg Markets",
+      "title": "Wilayah Rusia Melaporkan Krisis Bahan Bakar Baru Saat Kyiv Menghantam Kilang",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/russian-regions-report-new-fuel-crunch-as-kyiv-hits-refineries",
+      "summary": "Several regions of Russia are facing fuel shortages again after Ukraine resumed almost daily attacks on oil refineries in the country.",
+      "published": "14 Aug 2026 11:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.498,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pendapatan China Tech Memperbarui Fokus pada Saham Perangkat Keras Melalui Internet",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/china-tech-earnings-renew-focus-on-hardware-stocks-over-internet",
+      "summary": "Chinese tech firms’ early earnings are giving hardware stocks renewed momentum, while internet platforms still struggle to show a full consumer‑demand recovery.",
+      "published": "14 Aug 2026 10:54 WIB",
+      "sentiment": "Netral",
+      "score": 0.026,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
       "source": "BBC World",
       "title": "Warga Palestina disuruh meninggalkan rumah di desa tempat pemukim Israel mengepung rumah mereka",
       "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
@@ -210,14 +254,14 @@
     },
     {
       "source": "BBC World",
-      "title": "Putin tidak bisa lagi mengklaim kemenangan di Ukraina, kata pemenang Hadiah Nobel Perdamaian kepada BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
-      "summary": "In an exclusive interview with the BBC’s Steve Rosenberg, Dmitry Muratov says the Kremlin leader can only \"destroy Ukraine, not conquer it\", with the war now in its fifth year.",
-      "published": "13 Aug 2026 11:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.281,
-      "emoji": "🟢",
-      "impact": "high"
+      "title": "AS mengatakan puluhan negara membantu Tiongkok menghindari tarif Trump",
+      "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+      "summary": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
+      "published": "14 Aug 2026 10:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -243,24 +287,13 @@
     },
     {
       "source": "BBC World",
-      "title": "Ribuan warga Kanada menyerukan pengusiran duta besar AS",
-      "url": "https://www.bbc.co.uk/news/articles/c9d83j4ql2xo?at_medium=RSS&at_campaign=rss",
-      "summary": "An online petition accusing Pete Hoekstra of diplomatic interference in Canadian domestic affairs has garnered more than 60,000 signatures.",
-      "published": "13 Aug 2026 05:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.178,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Terminal ekspor biji-bijian utama Rusia terkena serangan pelabuhan Laut Hitam Ukraina",
-      "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
-      "summary": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
-      "published": "13 Aug 2026 10:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.938,
-      "emoji": "🔴",
+      "title": "Putin tidak bisa lagi mengklaim kemenangan di Ukraina, kata pemenang Hadiah Nobel Perdamaian kepada BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
+      "summary": "In an exclusive interview with the BBC’s Steve Rosenberg, Dmitry Muratov says the Kremlin leader can only \"destroy Ukraine, not conquer it\", with the war now in its fifth year.",
+      "published": "13 Aug 2026 11:55 WIB",
+      "sentiment": "Bullish",
+      "score": 0.281,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -341,17 +374,6 @@
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Meksiko mengatakan Kolombia menolak tim penyelamat gempa mereka",
-      "url": "https://www.aljazeera.com/news/2026/8/13/mexico-says-colombia-rejected-its-earthquake-rescue-team?traffic_source=rss",
-      "summary": "Colombia denies politics played a role after Mexico said its military rescuers were refused entry.",
-      "published": "14 Aug 2026 04:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.382,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "MarketWatch",
       "title": "Saham Workday mengalami rekor lonjakan. Bisakah pembelian ini memicu kebangkitan perangkat lunak?",
       "url": "https://www.marketwatch.com/story/workdays-stock-sees-a-record-surge-could-a-buyout-spark-a-software-revival-f2bd9219?mod=mw_rss_topstories",
@@ -386,6 +408,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "Bagaimana ceruk perdagangan tembaga menjadi ukuran real-time mengenai langkah tarif Trump selanjutnya",
+      "url": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
+      "summary": "The widening price of copper between two metals exchanges is offering investors a gauge of U.S. tariff risk.",
+      "published": "14 Aug 2026 12:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.353,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
       "title": "Tim Cook dari Apple bergabung dengan Howard Lutnick dalam pembukaan pabrik manufaktur di Houston",
       "url": "https://www.cnbc.com/2026/08/13/apples-tim-cook-and-howard-lutnick-open-houston-manufacturing-plant.html",
       "summary": "As Tim Cook gets set to step down as Apple CEO, he's offering a glimpse into what he may be doing as chairman.",
@@ -397,25 +430,14 @@
     },
     {
       "source": "CNBC World",
-      "title": "Goldman mengatakan cadangan devisa Jepang sebesar $1 triliun memberikan 'banyak kapasitas' untuk intervensi yen lebih lanjut",
-      "url": "https://www.cnbc.com/2026/08/13/us-japan-dollar-yen-intervention-goldman.html",
-      "summary": "Japan has enough cash at its disposal for a couple more rounds of yen-buying on the scale of last month's intervention, Goldman Sachs says.",
-      "published": "13 Aug 2026 20:33 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Ukraina menyerang terminal ekspor biji-bijian Rusia di Laut Hitam, yang memicu peringatan mengenai pasar pangan",
-      "url": "https://www.cnbc.com/2026/08/13/ukraine-russia-novorossiysk-grain.html",
-      "summary": "Ukraine has launched a heavy drone assault on warships and major Russian grain export terminals in the Black Sea port city of Novorossiysk.",
-      "published": "13 Aug 2026 17:01 WIB",
+      "title": "Tiongkok membuat robot yang bisa melakukan backflip – tapi bisakah mereka menghasilkan uang?",
+      "url": "https://www.cnbc.com/2026/08/14/china-humanoid-robots-unitree-ipo-tesla-optimus.html",
+      "summary": "Unitree’s IPO will gauge investors’ appetite for a technology that has yet to prove its commercial viability amid intensifying geopolitical tensions.",
+      "published": "14 Aug 2026 12:00 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.63,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "CNBC Markets",
