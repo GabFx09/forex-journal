@@ -1,5 +1,5 @@
 {
-  "generated": "14 Aug 2026 07:01 WIB",
+  "generated": "14 Aug 2026 10:03 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.152,
-      "count": 22
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.152,
-      "count": 22
+      "score": -0.127,
+      "count": 19
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.12,
-      "count": 20
+      "score": -0.124,
+      "count": 18
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.104,
+      "count": 18
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.596,
+      "score": -0.54,
       "count": 4
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.404,
-      "count": 2
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.404,
-      "count": 2
     },
     {
       "pair": "AUD/USD",
@@ -51,9 +39,54 @@
       "direction": "Tekanan Turun ▼",
       "score": -0.705,
       "count": 1
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.477,
+      "count": 1
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.477,
+      "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Tindak lanjut: Latvia menembak jatuh drone beberapa jam setelah mengeluarkan peringatan ancaman udara",
+      "url": "https://investinglive.com/news/follow-up-latvia-shoots-down-drone-hours-after-issuing-air-threat-alert/",
+      "summary": "This confirms the escalation we flagged as a live possibility in our earlier piece , this wasn't a stray drone drifting off course, it required a NATO air defence mission to physically shoot it down over Latvian territory, a more serious outcome than the alert-and-clear pattern that has repeated thr",
+      "published": "14 Aug 2026 09:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.745,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Risiko EUR: Latvia mengeluarkan peringatan ancaman udara, Finlandia membatasi lalu lintas Teluk Finlandia",
+      "url": "https://investinglive.com/news/eur-risk-latvia-issues-air-threat-alert-finland-restricts-gulf-of-finland-traffic/",
+      "summary": "Individually, these alerts rarely move markets, Latvia and Finland have both issued similar drone related warnings repeatedly through 2026 as drones stray off course near the Russian border. The relevance here is cumulative rather than singular: another pair of alerts landing the same evening keeps ",
+      "published": "14 Aug 2026 08:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Franklin Templeton tetap optimis pada saham, bersandar pada AI dan AS",
+      "url": "https://investinglive.com/stock-market-update/franklin-templeton-stays-bullish-on-stocks-leans-into-ai-and-us/",
+      "summary": "Franklin Templeton's note lands as a risk-on counterweight to the more cautious Fed and inflation narratives dominating this week, arguing that strong corporate earnings outweigh geopolitical tension and rate uncertainty. Its preference for US, Japan and emerging market equities over Europe and Aust",
+      "published": "14 Aug 2026 08:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.902,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "UBS melihat lebih banyak ruang untuk membeli saham, mendukung eksposur global yang lebih luas",
@@ -132,59 +165,37 @@
       "impact": "medium"
     },
     {
-      "source": "ForexLive",
-      "title": "Entah perangkat lunaknya menjadi nol atau AI yang melakukannya",
-      "url": "https://investinglive.com/stocks/either-software-gets-zeroed-out-or-ai-does/",
-      "summary": "Bloomberg TV today spoke with Paula Seligson about software stocks and a recent report on how much risk there is in the sector. The “SaaSpocalypse” was a theme early in the year and some of those companies have had great bounces from the bottom but the problem isn't going away. The kill app for AI i",
-      "published": "14 Aug 2026 02:25 WIB",
+      "source": "FXStreet News",
+      "title": "Pound Inggris naik lebih tinggi vs USD lebih lemah; tidak ada tindak lanjut karena geopolitik membatasi kemajuan",
+      "url": "https://www.fxstreet.com/news/british-pound-edges-higher-vs-softer-usd-lacks-follow-through-as-geopolitics-cap-gains-202608140154",
+      "summary": "The GBP/USD pair attracts some dip-buyers during the Asian session on Friday and, for now, seems to have snapped a two-day losing streak to the weekly low, which it touched the previous day.",
+      "published": "14 Aug 2026 08:54 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.25,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Yen Jepang menguat karena IHP AS yang lemah melemahkan prospek Fed",
+      "url": "https://www.fxstreet.com/news/japanese-yen-strengthens-as-soft-us-ppi-tempers-fed-outlook-202608140139",
+      "summary": "The USD/JPY pair loses traction to near 159.45 during the Asian trading hours on Friday. Softer US inflation reports and fears of currency intervention weigh on the US Dollar (USD) against the Japanese Yen (JPY).",
+      "published": "14 Aug 2026 08:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.545,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "FXStreet News",
-      "title": "Rupiah Indonesia: Perdagangan dua arah dengan level-level penting yang diawasi terhadap Dolar AS – OCBC",
-      "url": "https://www.fxstreet.com/news/indonesian-rupiah-two-way-trade-with-key-levels-watched-against-us-dollar-ocbc-202608131921",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that USD/IDR has rebounded after a near 2% month-to-date pullback, with external factors such as elevated Oil prices and US rates remaining key drivers.",
-      "published": "14 Aug 2026 02:21 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "title": "WTI tetap di bawah $80,50 karena para pedagang memantau upaya diplomatik untuk membuka kembali Hormuz",
+      "url": "https://www.fxstreet.com/news/wti-remains-below-8050-as-traders-monitor-diplomatic-efforts-to-reopen-hormuz-202608140100",
+      "summary": "West Texas Intermediate (WTI) oil price remains subdued for the third successive day, trading around $80.30 per barrel during the Asian hours on Friday. Crude oil prices edge lower as investors adopt a wait-and-see approach, closely monitoring diplomatic attempts to reopen the Strait of Hormuz.",
+      "published": "14 Aug 2026 08:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.477,
+      "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham BridgeBio jatuh saat KKR meluncurkan penawaran sekunder",
-      "url": "https://www.investing.com/news/stock-market-news/bridgebio-shares-fall-as-kkr-launches-secondary-offering-93CH-4859434",
-      "summary": "",
-      "published": "14 Aug 2026 04:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.216,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Saham Asia Siap Menguat, Harga Minyak Mentah Turun: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-13/asian-stocks-set-for-gains-as-us-inflation-cools-markets-wrap",
-      "summary": "Asian stocks were set to extend gains Friday as further evidence of moderating US inflation and a pullback in oil prices reinforced bets that the Federal Reserve will refrain from raising interest rates next month.",
-      "published": "14 Aug 2026 05:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.807,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru 14 Agustus",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-13/latest-oil-market-news-and-analysis-for-aug-14",
-      "summary": "Oil held a decline as traders monitored efforts toward a deal that could reopen the Strait of Hormuz, while fresh attacks on tankers and energy infrastructure kept the market on edge.",
-      "published": "14 Aug 2026 05:04 WIB",
-      "sentiment": "Netral",
-      "score": -0.032,
-      "emoji": "⚪",
-      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -275,28 +286,6 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Burnham memperingatkan perang Iran dapat memukul pertumbuhan Inggris tahun depan",
-      "url": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
-      "summary": "The conflict in the Middle East has pushed up oil and fuel prices, and also disrupted supply chains.",
-      "published": "12 Aug 2026 21:17 WIB",
-      "sentiment": "Bearish",
-      "score": -0.771,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Inggris mengalami hari terpanas sepanjang tahun dengan suhu 38,1C yang tercatat di Kew Gardens",
-      "url": "https://www.bbc.co.uk/news/articles/c8xnwz7kl2vo?at_medium=RSS&at_campaign=rss",
-      "summary": "An amber extreme heat warning is in place for parts of England until midnight.",
-      "published": "14 Aug 2026 01:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.478,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC Top Stories",
       "title": "Count Binface telah menerima tiga PM dan kalah - tapi mungkinkah ini menjadi penampilan terbaiknya?",
       "url": "https://www.bbc.co.uk/news/articles/ce97mm3vvemo?at_medium=RSS&at_campaign=rss",
@@ -305,6 +294,39 @@
       "sentiment": "Bullish",
       "score": 0.651,
       "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Menlu Norwegia mengatakan kepada Al Jazeera bahwa perang AS terhadap Iran tidaklah ‘cerdas’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/aje-onl-nf_norways-fm-us-war-on-iran-was-not-smart-130826?traffic_source=rss",
+      "summary": "Norway’s FM Espen Barth Eide says the Iran war failed to achieve its initial aims and strengthened hardliners in Tehran.",
+      "published": "14 Aug 2026 08:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.932,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "UEA menuduh Iran melakukan serangan terhadap dua kapal ADNOC di Selat Hormuz",
+      "url": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz?traffic_source=rss",
+      "summary": "No injuries were reported in the attack, which the UAE called 'piracy' and a threat to global energy security.",
+      "published": "14 Aug 2026 07:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.939,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Yaman menghadapi risiko tertinggi untuk kembali berperang sejak gencatan senjata tahun 2022, PBB memperingatkan",
+      "url": "https://www.aljazeera.com/news/2026/8/14/yemen-faces-highest-risk-of-returning-to-war-since-2022-truce-un-warns?traffic_source=rss",
+      "summary": "Civilian and military casualties have been reported as fighting has flared across Yemeni front lines in recent days.",
+      "published": "14 Aug 2026 07:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.996,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -330,39 +352,6 @@
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Tentara Sudan mengatakan RSF maju ke kota utama yang berbatasan dengan Ethiopia",
-      "url": "https://www.aljazeera.com/news/2026/8/13/sudan-army-says-rsf-advance-on-key-town-bordering-ethiopia?traffic_source=rss",
-      "summary": "Military and government sources say the paramilitary RSF and allies advance into town of Kurmuk in Blue Nile state.",
-      "published": "14 Aug 2026 02:53 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Hakim menolak gugatan Trump yang menuduh Harvard tidak melindungi mahasiswa Yahudi",
-      "url": "https://www.aljazeera.com/news/2026/8/13/judge-nixes-trump-lawsuit-alleging-harvard-did-not-protect-jewish-students?traffic_source=rss",
-      "summary": "Ruling latest setback in Trump administration response to Gaza war protests that swept college campuses.",
-      "published": "14 Aug 2026 01:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.915,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Polandia menangkap pria yang diduga mencoba membunuh orang Amerika Ukraina",
-      "url": "https://www.aljazeera.com/news/2026/8/13/poland-arrests-man-who-allegedly-tried-to-kill-ukrainian-american?traffic_source=rss",
-      "summary": "The suspect has been identified as a Russian citizen who planned to kill one of Moscow's critics in Warsaw.",
-      "published": "14 Aug 2026 01:04 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
       "title": "Saham Workday mengalami rekor lonjakan. Bisakah pembelian ini memicu kebangkitan perangkat lunak?",
       "url": "https://www.marketwatch.com/story/workdays-stock-sees-a-record-surge-could-a-buyout-spark-a-software-revival-f2bd9219?mod=mw_rss_topstories",
@@ -386,12 +375,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Perang Iran berisiko menghentikan perekonomian negara-negara G7 yang tumbuh paling cepat",
-      "url": "https://www.cnbc.com/2026/08/13/iran-war-g7s-fastest-growing-economy.html",
-      "summary": "The U.K. economy is showing further signs of a long-awaited rebound, but the picture is complicated by the fallout from the Iran war and high energy prices.",
-      "published": "13 Aug 2026 19:42 WIB",
+      "title": "Dari Apple hingga Ford: Bagaimana teknologi Tiongkok semakin sulit diabaikan oleh perusahaan global",
+      "url": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
+      "summary": "Global companies are increasingly tapping Chinese technology for its growing capabilities and scale, even as geopolitical risks remain.",
+      "published": "14 Aug 2026 07:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.732,
+      "score": -0.6,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -425,6 +414,17 @@
       "published": "13 Aug 2026 17:01 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Perang Iran berisiko menghentikan perekonomian negara-negara G7 yang tumbuh paling cepat",
+      "url": "https://www.cnbc.com/2026/08/13/iran-war-g7s-fastest-growing-economy.html",
+      "summary": "The U.K. economy is showing further signs of a long-awaited rebound, but the picture is complicated by the fallout from the Iran war and high energy prices.",
+      "published": "13 Aug 2026 19:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.732,
       "emoji": "🔴",
       "impact": "high"
     }
