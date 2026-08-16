@@ -1,30 +1,24 @@
 {
-  "generated": "15 Aug 2026 22:01 WIB",
+  "generated": "16 Aug 2026 07:01 WIB",
   "summary": {
-    "total": 94,
-    "bullish": 34,
-    "bearish": 46,
-    "netral": 14,
-    "avg_score": -0.1104,
+    "total": 84,
+    "bullish": 33,
+    "bearish": 41,
+    "netral": 10,
+    "avg_score": -0.0997,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
-        "sentiment": "Netral",
-        "score": -0.034,
-        "count": 28
+        "sentiment": "Bearish",
+        "score": -0.075,
+        "count": 26
       },
       {
         "currency": "EUR",
-        "sentiment": "Netral",
-        "score": -0.048,
-        "count": 7
-      },
-      {
-        "currency": "JPY",
         "sentiment": "Bullish",
-        "score": 0.12,
-        "count": 5
+        "score": 0.117,
+        "count": 6
       },
       {
         "currency": "CAD",
@@ -34,15 +28,21 @@
       },
       {
         "currency": "GBP",
+        "sentiment": "Netral",
+        "score": -0.015,
+        "count": 3
+      },
+      {
+        "currency": "JPY",
         "sentiment": "Bearish",
-        "score": -0.181,
-        "count": 4
+        "score": -0.152,
+        "count": 3
       },
       {
         "currency": "CNY",
         "sentiment": "Bullish",
-        "score": 0.261,
-        "count": 4
+        "score": 0.184,
+        "count": 3
       },
       {
         "currency": "CHF",
@@ -65,6 +65,17 @@
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Pendapatan saham: 3 Pelajaran penting bagi investor dan pedagang",
+      "url": "https://investinglive.com/education/stock-earnings-3-key-lessons-for-investors-and-traders/",
+      "summary": "Earnings beats are not enough: What experienced investors watch instead A stock can beat Wall Street’s earnings estimates and still fall sharply. Another company can miss an estimate and rally. This is not necessarily irrational. Stock prices respond to how results compare with the expectations alre",
+      "published": "15 Aug 2026 22:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.112,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "investBerita Live Americas FX selesai 14 Agustus: Saham-saham berakhir beragam karena imbal hasil naik dan dolar turun",
@@ -243,7 +254,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Memulai sesi Amerika pada 14 Agustus: USD melemah karena pembicaraan kenaikan suku bunga BOJ mengangkat yen",
+      "title": "Memulai sesi Amerika pada 14 Agustus: USD melemah karena pembicaraan kenaikan suku bunga BoJ mengangkat yen",
       "url": "https://investinglive.com/technical-analysis/kickstart-the-na-session-for-augste-14-usd-falls-across-the-board-as-boj-rate-hike-talk-lifts-the-yen/",
       "summary": "The US dollar is trading lower across the board to start the North American session on Friday, with the greenback losing ground against all of the major currencies. The NZD is leading the way, rising 0.62% versus the USD and back above the 100 and 200 hour MAs (see chart below), while the GBP is up ",
       "published": "14 Aug 2026 19:09 WIB",
@@ -251,28 +262,6 @@
       "score": -0.506,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Tiga alasan mengapa kenaikan suku bunga BOJ tidak akan menyelamatkan yen",
-      "url": "https://investinglive.com/forex/three-reasons-why-boj-rate-hikes-will-not-save-the-yen/",
-      "summary": "After the joint intervention from Japan and the US, the yen currency has been a key focus again in recent weeks. And that just amplifies all the scrutiny on the upcoming BOJ policy decision, with some speculation that the joint intervention included some promise on Japan's end to push for higher int",
-      "published": "14 Aug 2026 18:05 WIB",
-      "sentiment": "Bullish",
-      "score": 0.897,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pinjaman bank China baru terkontraksi lagi pada bulan Juli, yang kedua kalinya pada tahun ini",
-      "url": "https://investinglive.com/news/china-new-bank-loans-contract-again-in-july-the-second-time-this-year/",
-      "summary": "Well, it's starting to look like a feature and not a bug anymore. The latest credit data for the month of July sees China new bank loans fall into contraction again, shrinking by ¥340 billion. That is a miss on expectations, which were expecting lending to increase by ¥45 billion instead. That is a ",
-      "published": "14 Aug 2026 16:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.492,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -485,6 +474,50 @@
     },
     {
       "source": "Investing.com Forex",
+      "title": "Mengapa mobilisasi investasi Nvidia sebesar $500 miliar berdampak positif bagi sahamnya",
+      "url": "https://www.investing.com/news/stock-market-news/why-nvidias-500bn-investment-mobilization-is-a-positive-for-the-stock-4861855",
+      "summary": "",
+      "published": "16 Aug 2026 04:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.557,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Nvidia mempertimbangkan $3 miliar dalam SB Energy untuk pusat data AI Ohio - The Information",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-weighs-3-bln-in-sb-energy-for-ohio-ai-data-center--the-information-4861850",
+      "summary": "",
+      "published": "16 Aug 2026 03:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.273,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Nvidia sedang dalam pembicaraan untuk menginvestasikan $3 miliar di SB Energy sebagai bagian dari kesepakatan pusat data OpenAI, Informasi melaporkan",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-in-talks-to-invest-3-billion-in-sb-energy-as-part-of-openai-data-center-deal-the-information-reports-4861844",
+      "summary": "",
+      "published": "16 Aug 2026 02:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.353,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Di bawah reli S&P 500: Ketika kinerja dan fundamental berbeda",
+      "url": "https://www.investing.com/news/stock-market-news/beneath-the-sp-500-rally-where-performance-and-fundamentals-diverge-4861823",
+      "summary": "",
+      "published": "16 Aug 2026 00:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
       "title": "Apakah Alphabet menandakan perubahan dalam strategi AI-nya?",
       "url": "https://www.investing.com/news/stock-market-news/is-alphabet-signaling-a-shift-in-its-ai-strategy-4861790",
       "summary": "",
@@ -550,92 +583,26 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Penilaian IPO antropis bertumpu pada target pendapatan hingga $200 miliar pada tahun 2028 - Reuters",
-      "url": "https://www.investing.com/news/stock-market-news/anthropic-ipo-valuation-rests-on-up-to-200-billion-2028-revenue-target--reuters-4861731",
-      "summary": "",
-      "published": "15 Aug 2026 11:19 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Pembuat drone asal Tiongkok, DJI, mendapat peluang baru untuk lolos dari daftar hitam Pentagon",
-      "url": "https://www.investing.com/news/stock-market-news/chinese-drone-maker-dji-gets-fresh-chance-to-escape-pentagons-blacklist-4861356",
-      "summary": "",
-      "published": "15 Aug 2026 11:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.612,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Rekor reli saham Singapura mendapat dorongan dari perekonomian 'Goldilocks'",
-      "url": "https://www.investing.com/news/stock-market-news/singapore-stocks-record-rally-gets-boost-from-goldilocks-economy-4861721",
-      "summary": "",
-      "published": "15 Aug 2026 11:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.482,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Penilaian IPO Exclusive-Anthropic bergantung pada perkiraan pendapatan $190-200 miliar pada tahun 2028, kata sumber",
-      "url": "https://www.investing.com/news/stock-market-news/exclusiveanthropic-ipo-valuation-hinges-on-190200-billion-2028-revenue-forecast-sources-say-4861650",
-      "summary": "",
-      "published": "15 Aug 2026 07:31 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "Taiwan menaikkan proyeksi pertumbuhan PDB 2026 menjadi 11,05%",
-      "url": "https://www.investing.com/news/economic-indicators/taiwan-raises-2026-gdp-growth-projection-to-1105-4859956",
-      "summary": "",
-      "published": "14 Aug 2026 15:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
-      "emoji": "🟢",
+      "source": "Bloomberg Markets",
+      "title": "Bally's Memperingatkan Risiko Pelanggaran Perjanjian Hutang Saat Mencari Dana Baru",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/bally-s-warns-of-going-concern-doubt-as-it-seeks-fresh-liquidity",
+      "summary": "Bally’s Corp. warned investors of “substantial doubt” that it will be able to continue as a going concern as the company risks running afoul of agreement with lenders.",
+      "published": "15 Aug 2026 06:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.692,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Inflasi bulan Juli di Perancis naik 2,4% tahun ke tahun",
-      "url": "https://www.investing.com/news/economic-indicators/frances-july-inflation-rises-24-yearonyear-93CH-4859820",
-      "summary": "",
-      "published": "14 Aug 2026 13:46 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Reuters Currencies",
-      "title": "BOJ mengincar kenaikan suku bunga di bulan September, laju pengetatan yang lebih cepat, kata sumber - reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWHVuTnFNU0ZEVXdoQWJXd212Z3Bxd21Nc05LWV9KaS1oa1JmU2puVDJUQzk4b08xaUZSTGlZRFQxUjI1NEpCaUdLVkllYlR2MVZ4djJ5RzJ2LXlMN2xUWHRIVnBKdzhReXhDM05BblZQdWs3UmlNbVFlNVdEYUotNjBOTHJ3dHVnNWt0S1JmeFU2UzcwV3lyMzZxRl9kWDROcU5zUVdWNFRvNUJnMkpQRUZLZlpqWk1PZXpTMw?oc=5",
-      "summary": "BOJ eyeing September rate hike, faster pace of tightening, sources say reuters.com",
-      "published": "14 Aug 2026 12:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.16,
-      "emoji": "🟢",
+      "source": "Bloomberg Markets",
+      "title": "Kawanan Drone Mendorong AI Lebih Dalam ke Peperangan Modern",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-15/drone-swarms-push-ai-deeper-into-modern-warfare-video",
+      "summary": "Bloomberg News Cyber Security & Tech Reporter Katrina Manson got a firsthand look at autonomous drone-swarm technology that allows multiple aircrafts to coordinate and strike targets even when communications or GPS are disrupted. Joining Bloomberg This Weekend, Mason explains to Carol Massar that th",
+      "published": "15 Aug 2026 22:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.119,
+      "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Reuters Currencies",
-      "title": "Inflasi grosir India sedikit melambat menjadi 9,78% di bulan Juli - reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVmdocDFpU01TV2NCOWVaVXpSMS15UHQ1ZzhFaDI4ODBmaERJTW9qSkpmVmlidlNqbnJSanVreGtHZVVGSjlFR2RGRTVBUVZGTUN3Rjl3cWFOeG9WVWZ1MXNsdURXc1ZJNHlVbjBZRlhVM2F4NktrMzdIZ2dNbFlybFBFTmNRV1NTeHlVc0JONDdNT0tVdHBiUVlBOF9qSGc?oc=5",
-      "summary": "India's wholesale inflation slows marginally to 9.78% in July reuters.com",
-      "published": "14 Aug 2026 13:38 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -726,61 +693,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Xi Mendesak Peralihan ke Pencegahan dalam Penanggulangan Bencana, kata Xinhua",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-15/xi-urges-shift-to-prevention-in-disaster-management-xinhua-says",
-      "summary": "President Xi Jinping called for China to shift disaster management toward prevention, saying safety and resilience should be integrated into planning and development, Xinhua News Agency reported on Saturday.",
-      "published": "15 Aug 2026 14:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.831,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Modi Memetakan Dorongan Pertumbuhan India Saat Ia Menjangkau Siswa",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-15/modi-vows-chip-plants-nuclear-reactors-in-india-growth-push",
-      "summary": "India’s Prime Minister Narendra Modi used his Independence Day speech to renew his pledge to make the country a developed nation within two decades and reach out to younger citizens following widespread student protests.",
-      "published": "15 Aug 2026 09:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.33,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Anwar dari Malaysia Bersumpah Melakukan Reformasi Lebih Cepat Setelah Kekalahan Dalam Pemilu",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-15/malaysia-s-anwar-vows-faster-reforms-after-electoral-defeats",
-      "summary": "Malaysian Prime Minister Anwar Ibrahim said he will speed up the pace of reforms and strengthen an anti-corruption drive as he seeks to rebuild public support after a string of electoral defeats and party departures.",
-      "published": "15 Aug 2026 12:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.397,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Modi Memetakan Dorongan Pertumbuhan India Dengan Fokus pada Kaum Muda",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-15/modi-maps-india-s-growth-push-with-youth-focus-video",
-      "summary": "India's Prime Minister Narendra Modi renewed his pledge to make the country a developed nation within two decades in his Independence Day speech. (Source: Bloomberg)",
-      "published": "15 Aug 2026 12:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Google News Forex",
-      "title": "Para Ahli: Ketika Inflasi Turun, Kazakhstan Menghadapi Trade-Off Kebijakan Moneter Baru - The Astana Times",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWjZ6X2w4R2xMQy0wSDM1eU4xMEFEMkVSVHV2dnh6R05hd3dIVmdlaDR4Z2pCNXpUOVRPWkVsWGNidEtTay1ZRWpFZXVVNGQ2OUpXLUQzVnZPaEk2ak9FdjlJazhOdU1XOGJMb0V6bHp5OHdkMl9YOE51aENTQ1ZRWnAwaTdDYWkwU1huZmNOR3plNVoyNDdvcVZNR2NEZVJtZGJtMmdkUHRvUQ?oc=5",
-      "summary": "Experts: As Inflation Falls, Kazakhstan Faces New Monetary Policy Trade-Off The Astana Times",
-      "published": "14 Aug 2026 15:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "Google News Forex",
       "title": "ING melihat Uzbekistan menunda penurunan suku bunga karena risiko inflasi terus berlanjut - trend.az",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmNkZXTGNSbzF4MXl0U0VmSjZVNmNwTGV0aVZQWGZPSjkyVkRxNjV4b0ZheTlKQl9TWUR5dlB3QmUxSTFNeG0xUll1cnpTLVFQMlFOZkhfZUFyd1pMNjRB?oc=5",
@@ -793,35 +705,13 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Euro menguat karena surutnya taruhan kenaikan suku bunga The Fed membebani USD; risiko geopolitik membatasi kenaikan - tmgm.com",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQb2RCdzd1WEVacEhJVG9pay1fODQyemZQUldUcW5LSVdoR0xSQy1sNXJqT1kyRjFWMjUxR0k2ZzdhQ3d3dXFOQmJKQzYwU2lZNklHUHJjNGFkUmZXWm9ZSkp6N0w4QXg4bUtIc1hxblhycmRQU1M3VExYbkNWNzR4dlV0N0FYQ0cwSmJ1UTFxSGpSaE9GbVg5TEhkNEo2RFN3WEVCSUdMSXdvZjF3ZHNERjMyZnlyc3lTOVVRY1NicS1HUzRhTllTX29Ibi1TR2pjVmpUQlZLcHkxUnl3M3c?oc=5",
-      "summary": "Euro gains as receding Fed hike bets weigh on USD; geopolitical risks cap upside tmgm.com",
-      "published": "14 Aug 2026 11:40 WIB",
-      "sentiment": "Bullish",
-      "score": 0.153,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Pound Menguat vs Dolar yang Lebih Lemah, Namun Risiko Geopolitik Membatasi Kenaikan - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOGY1NEZ2VkNpZ2xkalB1ZmJFVnF3UVV2OXhSOWRmUUg0M0pWemdBcmVLM0dOa0Z2ZVlkZ3RWSndvZ3hzVk8xaXZjSGo0ZkNlT0d3ZXBLakhIQ3FxcEVybE1FMjR0N0lGT3RSVlprZXVKYmd0M25nLU5HaC01Zl9jNWJSZTNpbnFnZk51cGVsQUNzb1pYV2o2dG05M3ctMlVCU3ZjbA?oc=5",
-      "summary": "Pound Edges Higher vs Weaker Dollar, But Geopolitical Risks Cap Gains CryptoRank",
-      "published": "14 Aug 2026 10:54 WIB",
+      "title": "Perkiraan Mingguan EUR/USD: Eskalasi Perang Dapat Menghidupkan Kembali Permintaan Dolar AS - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYTBHRHdjMUljUDNnSnk2NFMwRDNON1czazJON0FFN1Z1eXRmTko5TWpRMHlNNkRpaEU1VUgtS2lvWGRrdjhIOWd0NVdNM0x0MDlKT1kyVjZJbmFzS3RQYmlYU2tEa1pzRTBJVUNsSlFMVEZhajdPSl9BU3hYeTFrRHFpUTlvSDk2NGFzdVBpVWpWM3ljQ0FZRA?oc=5",
+      "summary": "EUR/USD Weekly Forecast: War Escalation Could Revive US Dollar Demand CryptoRank",
+      "published": "15 Aug 2026 02:59 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.878,
       "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Forex Hari Ini: Dolar Turun Karena Taruhan Kenaikan Suku Bunga Fed Mendingin, Batasan Kebuntuan di Timur Tengah Bergerak - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbjZfZGVseWNWbjktRjZnNXFWTHVXOGlVbEFRVThsMzlrZ0ItNnFPcEFJYkkySDUtSmdNTHpCeHlpa2l5STFPbDAxdW9KbU1wM2d0Zk84c251YmptVkEteEtpWEUwcEgzXzBnWHhKN2lGMzJYM2xXcndjZjdhT25DN3BpQnRqUjZZdEs4aXdoOG5hMXZFdGRIWWFyaDZrWFdvanJBTC1R?oc=5",
-      "summary": "Forex Today: Dollar Dips as Fed Rate Hike Bets Cool, Mideast Stalemate Caps Moves CryptoRank",
-      "published": "14 Aug 2026 16:14 WIB",
-      "sentiment": "Bullish",
-      "score": 0.637,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -839,10 +729,43 @@
       "source": "BBC World",
       "title": "Sebelas orang tewas dalam serangan Israel di Lebanon selatan, kata pihak berwenang",
       "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as an earlier action against its soldiers.",
-      "published": "15 Aug 2026 20:38 WIB",
+      "summary": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as earlier action against its soldiers.",
+      "published": "16 Aug 2026 03:21 WIB",
       "sentiment": "Bearish",
       "score": -0.828,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Liechtenstein mengubah aturan suksesi untuk mengizinkan perempuan naik takhta",
+      "url": "https://www.bbc.co.uk/news/articles/cn9nnxrxg4qo?at_medium=RSS&at_campaign=rss",
+      "summary": "The declaration was made on the national day of the central European country, which has a population of just 44,000.",
+      "published": "16 Aug 2026 02:41 WIB",
+      "sentiment": "Bullish",
+      "score": 0.402,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Qatar membantah menangkap tiga pilot Iran setelah menjatuhkan jet tempur",
+      "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss",
+      "summary": "Iran claims they have been held since Qatar downed two fighter jets at the start of the US-Iran war.",
+      "published": "16 Aug 2026 04:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.75,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Negara bagian Australia akan meluncurkan pembelian kembali senjata setelah serangan Pantai Bondi",
+      "url": "https://www.bbc.co.uk/news/articles/cgjee21eenvo?at_medium=RSS&at_campaign=rss",
+      "summary": "New South Wales, where the attack took place, will offer gun owners cash to give up their firearms.",
+      "published": "16 Aug 2026 04:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.955,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -858,28 +781,6 @@
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "Penghitungan suara di Zambia dilanjutkan setelah jeda karena dugaan serangan terhadap staf pemungutan suara",
-      "url": "https://www.bbc.co.uk/news/articles/c5yr8r04edvo?at_medium=RSS&at_campaign=rss",
-      "summary": "The electoral commission said violence had \"resulted in the theft of marked ballot papers\".",
-      "published": "14 Aug 2026 23:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.951,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Bentang alam Eropa yang hangus terlihat dari luar angkasa setelah gelombang panas musim panas",
-      "url": "https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss",
-      "summary": "From glaciers shrinking to an exposed shipwreck, satellites capture the impact of extreme heat and drought.",
-      "published": "15 Aug 2026 12:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.077,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC Business",
       "title": "Larangan sementara terhadap BBQ sekali pakai saat militer dikerahkan untuk membantu memadamkan kebakaran hutan",
       "url": "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&at_campaign=rss",
@@ -891,26 +792,15 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Selena Gomez menggugat atas dugaan penipuan terhadap perusahaan kesehatan mental",
-      "url": "https://www.bbc.co.uk/news/articles/c8jn2811we4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Investors say the actor and singer did not take an \"active role\" in the company as promised.",
-      "published": "14 Aug 2026 18:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.551,
-      "emoji": "🔴",
+      "source": "BBC Top Stories",
+      "title": "Hunt memenangkan emas ketiga saat Asher-Smith membuat sejarah",
+      "url": "https://www.bbc.co.uk/sport/athletics/articles/cqjxxd0j844o?at_medium=RSS&at_campaign=rss",
+      "summary": "Amy Hunt claims the third gold medal of her bid for a historic quadruple and Dina Asher-Smith makes history as Great Britain win two relay golds at the European Athletics Championships.",
+      "published": "16 Aug 2026 04:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.958,
+      "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "BBC Business",
-      "title": "AS mengatakan puluhan negara membantu Tiongkok menghindari tarif Trump",
-      "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
-      "summary": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
-      "published": "14 Aug 2026 15:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "BBC Top Stories",
@@ -925,7 +815,7 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Penjual yang bingung dengan pesanan massal yang tidak biasa mencurigai buku-buku dihancurkan untuk melatih AI",
+      "title": "Penjual yang bingung dengan pesanan dalam jumlah besar mencurigai buku bekas dihancurkan untuk melatih AI",
       "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
       "summary": "Independent booksellers have seen scores of their novels being shipped to far-off warehouses.",
       "published": "15 Aug 2026 18:25 WIB",
@@ -936,80 +826,91 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Perang Yaman berikutnya mungkin berbeda",
-      "url": "https://www.aljazeera.com/features/2026/8/15/the-next-yemen-war-might-be-different?traffic_source=rss",
-      "summary": "Drones are no longer the advantage for only one side.",
-      "published": "15 Aug 2026 21:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.705,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Lima tahun kemudian, bagaimana Taliban menghadapi oposisi bersenjata?",
-      "url": "https://www.aljazeera.com/news/2026/8/15/five-years-on-how-will-taliban-deal-with-armed-opposition?traffic_source=rss",
-      "summary": "The United Nations says armed groups opposed to the government remain active.",
-      "published": "15 Aug 2026 19:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.75,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pengungsi Afghanistan menghadapi masa depan yang tidak pasti seiring dengan pergeseran Eropa ke sayap kanan",
-      "url": "https://www.aljazeera.com/news/2026/8/15/afghan-refugees-face-uncertain-future-as-europe-shifts-to-the-right?traffic_source=rss",
-      "summary": "With the fall of the former government in Kabul, thousands of Afghans were forced to flee the country, many to Europe.",
-      "published": "15 Aug 2026 19:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.717,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah Tiongkok berupaya meniru blokade Selat Hormuz Iran di sekitar Taiwan?",
-      "url": "https://www.aljazeera.com/video/101-east/2026/8/15/is-china-seeking-to-copy-irans-strait-of-hormuz-blockade-around-taiwan?traffic_source=rss",
-      "summary": "Taiwan has long prepared for a Chinese military invasion but wars in Iran and Ukraine expose new potential threats.",
-      "published": "15 Aug 2026 18:30 WIB",
+      "title": "Pemerintah Yaman mengatakan serangan Houthi menghantam daerah pemukiman di Marib",
+      "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
+      "summary": "Yemen's Ministry of Information denounces attacks on Marib as 'escalation' that threatens lives and increases suffering.",
+      "published": "16 Aug 2026 06:27 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Menteri Jepang mengunjungi kuil korban perang, membuat marah Tiongkok dan Korea Selatan",
-      "url": "https://www.aljazeera.com/news/2026/8/15/japanese-minister-visits-shrine-to-war-dead-angering-china-south-korea?traffic_source=rss",
-      "summary": "Defence Minister Koizumi's visit to Yasukuni Shrine comes on the 81st anniversary of Japan's surrender in WWII.",
-      "published": "15 Aug 2026 18:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.98,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pemenang Piala Dunia Ferran Torres bergabung dengan Paris Saint-Germain dari Barcelona",
-      "url": "https://www.aljazeera.com/sports/2026/8/15/world-cup-winner-ferran-torres-joins-paris-saint-germain-from-barcelona?traffic_source=rss",
-      "summary": "The 26-year-old striker cost the Ligue 1 champions a reported 50 million euros ($58m) and has signed a five-year deal.",
-      "published": "15 Aug 2026 17:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.882,
-      "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Piala Dunia FIFA dan Olimpiade dikutip Coe memperingatkan politisi dekat olahraga",
-      "url": "https://www.aljazeera.com/sports/2026/8/15/coe-cites-olympics-and-fifa-world-cup-in-warning-on-interference-in-sport?traffic_source=rss",
-      "summary": "World Athletics' president says political influence in sport must be kept in check with LA Olympics on horizon.",
-      "published": "15 Aug 2026 15:44 WIB",
+      "title": "Kolombia meminta Trump untuk menangguhkan tarif ketika negara tersebut terguncang akibat gempa bumi",
+      "url": "https://www.aljazeera.com/news/2026/8/15/colombia-asks-trump-to-suspend-tariffs-as-country-reels-from-earthquake?traffic_source=rss",
+      "summary": "Post-earthquake reconstruction is expected to cost about $6.4bn, but Colombia has been hit by renewed US tariffs.",
+      "published": "16 Aug 2026 06:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.183,
+      "score": -0.166,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Kapal induk Amerika diperkirakan akan menggantikan USS Lincoln di Timur Tengah",
+      "url": "https://www.aljazeera.com/news/2026/8/15/us-aircraft-carrier-expected-to-relieve-uss-lincoln-in-middle-east?traffic_source=rss",
+      "summary": "The USS Washington's movement comes amid reports of dire conditions on the USS Lincoln amid the ongoing Iran war.",
+      "published": "16 Aug 2026 00:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.74,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Badai Lala menguat menjadi badai Kategori 1 saat mendekati Hawaii",
+      "url": "https://www.aljazeera.com/news/2026/8/15/tropical-storm-lala-expected-to-strengthen-as-it-nears-hawaii?traffic_source=rss",
+      "summary": "Authorities warn residents to take precautions as storm is expected to bring rain and strong winds to the island chain.",
+      "published": "16 Aug 2026 00:27 WIB",
+      "sentiment": "Bullish",
+      "score": 0.71,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Reaksi PM Inggris Burnham atas kematian mantan profesor Cambridge",
+      "url": "https://www.aljazeera.com/news/2026/8/15/uk-pm-burnham-reacts-to-death-of-former-cambridge-professor?traffic_source=rss",
+      "summary": "Jason Arday was found dead on Friday, just days after resigning amid intense scrutiny over his academic work.",
+      "published": "16 Aug 2026 00:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.869,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Erdogan mengatakan Mesir bisa bergabung dengan pakta pertahanan Turki-Saudi-Pakistan",
+      "url": "https://www.aljazeera.com/news/2026/8/15/erdogan-says-egypt-could-join-turkiye-saudi-pakistan-defence-pact?traffic_source=rss",
+      "summary": "Turkish president tells Al Jazeera that the recently signed agreement is open to new members as he pledges continued support.",
+      "published": "15 Aug 2026 23:39 WIB",
+      "sentiment": "Bullish",
+      "score": 0.898,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Apakah Anda pikir suku bunga sekarang tinggi? Bagan ini menawarkan perspektif yang berbeda.",
+      "url": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories",
+      "summary": "Also in Weekend Reads: 10 remarkable housing markets, stock picks, and health-insurance battles.",
+      "published": "16 Aug 2026 02:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.612,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Apakah $1 juta cukup untuk sebuah rumah tangga untuk pensiun? Jawabannya terus berubah.",
+      "url": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
+      "summary": "“Some readers — and couples — would be grateful to retire on half that amount.”",
+      "published": "15 Aug 2026 23:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.459,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "CNBC Economy",
@@ -1046,6 +947,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "Pendapatan antropik dilaporkan melonjak hingga lebih dari $11,5 miliar pada kuartal kedua",
+      "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+      "summary": "The jump in revenue underscores the rapid growth of the Claude chatbot maker as it prepares for a potential blockbuster initial public offering.",
+      "published": "15 Aug 2026 21:45 WIB",
+      "sentiment": "Bullish",
+      "score": 0.838,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Panas ekstrem memicu panen Champagne yang paling awal, sehingga menguji rasanya yang terkenal",
       "url": "https://www.cnbc.com/2026/08/15/heatwave-champagne-harvest-climate.html",
       "summary": "Producers of the iconic French fizz face a challenge to preserve its taste profile while they also battle tariff complications and fewer drinkers.",
@@ -1076,28 +988,6 @@
       "score": 0.545,
       "emoji": "🟢",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Tiongkok membuat robot yang bisa melakukan backflip – tapi bisakah mereka menghasilkan uang?",
-      "url": "https://www.cnbc.com/2026/08/14/china-humanoid-robots-unitree-ipo-tesla-optimus.html",
-      "summary": "Unitree’s IPO will gauge investors’ appetite for a technology that has yet to prove its commercial viability amid intensifying geopolitical tensions.",
-      "published": "14 Aug 2026 15:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.63,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "‘Sama sekali tidak dapat diterima’: PM Jepang Takaichi mengutuk kunjungan Putin ke Kepulauan Kuril yang disengketakan",
-      "url": "https://www.cnbc.com/2026/08/14/putin-kuril-islands-japan.html",
-      "summary": "Japan protested Vladimir Putin’s first visit to the disputed Kuril Islands, escalating tensions over territory claimed by both Tokyo and Moscow.",
-      "published": "14 Aug 2026 19:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.963,
-      "emoji": "🔴",
-      "impact": "low"
     }
   ]
 }
