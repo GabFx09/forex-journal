@@ -1,5 +1,5 @@
 {
-  "generated": "17 Aug 2026 07:01 WIB",
+  "generated": "17 Aug 2026 10:04 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,63 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.301,
-      "count": 15
+      "score": -0.29,
+      "count": 18
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.301,
-      "count": 15
+      "score": -0.29,
+      "count": 18
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.32,
-      "count": 14
+      "score": -0.278,
+      "count": 16
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.604,
-      "count": 3
-    },
-    {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.887,
+      "score": -0.384,
       "count": 2
     },
     {
-      "pair": "EUR",
-      "direction": "Netral →",
-      "score": 0.0,
-      "count": 1
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.159,
+      "count": 2
     },
     {
-      "pair": "USD",
-      "direction": "Netral →",
-      "score": 0.0,
-      "count": 1
-    },
-    {
-      "pair": "emerging markets",
-      "direction": "Netral →",
-      "score": 0.0,
-      "count": 1
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.159,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Bloomberg mengatakan perdagangan gelap angkutan minyak adalah alasan perang Iran tidak meningkatkan harga minyak",
+      "url": "https://investinglive.com/commodities/bloomberg-says-dark-trade-oil-shuttles-are-the-reason-iran-war-hasn-t-spiked-oil-prices/",
+      "summary": "The clandestine shuttle trade helps explain why Brent has held broadly in an $80 to $90 range through August rather than testing the $150 levels once feared at the war's outset, effectively acting as an informal supply buffer the market has come to depend on without fully pricing the risk behind it.",
+      "published": "17 Aug 2026 09:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.917,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "PBOC menetapkan kurs referensi USD/CNY untuk hari ini di 6,7873 (vs perkiraan di 6,7382)",
+      "url": "https://investinglive.com/central-banks/pboc-sets-usd-cny-reference-rate-for-today-at-6-74-vs-estimate-at-6-7382/",
+      "summary": "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this. PBOC injected CNY 565.5bn via overnight reverse repos zero 7-day reverse repo Earlier: China's Securities Daily warns against chasing gold at current highs China delays July economic data rele",
+      "published": "17 Aug 2026 08:15 WIB",
+      "sentiment": "Bullish",
+      "score": 0.202,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Bessent mengamati tekanan ekonomi Iran, namun hubungan erat dengan Tiongkok membatasi pilihan",
@@ -99,37 +109,70 @@
       "impact": "high"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Laba setahun penuh Susu a2 Selandia Baru turun 44% karena melemahnya penjualan IMF berlabel Tiongkok",
-      "url": "https://www.investing.com/news/stock-market-news/new-zealands-a2-milk-posts-44-fall-in-fullyear-profit-4862012",
-      "summary": "",
-      "published": "17 Aug 2026 04:48 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Harga Minyak Naik Seiring Berlanjutnya Ketegangan di Timur Tengah: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
-      "summary": "Oil edged higher as traders looked for the next catalyst to set direction, with renewed Israeli attacks on Lebanon and the prospect of fresh US sanctions on Iran adding to geopolitical uncertainty.",
-      "published": "17 Aug 2026 05:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.782,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Bloomberg Markets",
       "title": "Berita dan Analisis Pasar Minyak Terbaru 17 Juni",
       "url": "https://www.bloomberg.com/news/articles/2026-08-16/latest-oil-market-news-and-analysis-for-june-17",
-      "summary": "Oil steadied as fresh fighting in Lebanon and attacks on vessels in the Strait of Hormuz muddied the outlook for a deal to end the US-Iran war.",
+      "summary": "Oil rose as fresh fighting in Lebanon and attacks on vessels in the Strait of Hormuz muddied the outlook for a deal to end the US-Iran war.",
       "published": "17 Aug 2026 05:02 WIB",
       "sentiment": "Bearish",
       "score": -0.871,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "'Terlalu Besar untuk Dilarang' WuXi AppTec Mendapat 100% pada GLP-1 Chokehold",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-16/wuxi-apptec-s-100-stock-rally-defies-geopolitical-headwinds",
+      "summary": "The Pentagon’s designation of WuXi AppTec Co. as a Chinese military company may have prompted some US clients to pull back, but investors are still piling into the stock betting the firm will remain central to the global supply of obesity, cancer and other drugs.",
+      "published": "17 Aug 2026 06:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Trump Mengatakan Dia Membatasi Latihan dengan Korea Selatan",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-17/trump-says-he-s-curtailing-drills-with-south-korea-video",
+      "summary": "President Donald Trump said he told the Pentagon to “substantially reduce” joint military exercises with South Korea, citing the cost of the drills and the signal they send to North Korea. Bloomberg’s Jon Herskovitz breaks down the situation. (Corrects spelling mistake in reporter’s name.) (Source: ",
+      "published": "17 Aug 2026 08:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.34,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Tembaga Menuju Rekor Tertinggi di LME seiring Meningkatnya Ketegangan Pasokan",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/copper-heads-toward-record-high-on-lme-as-supply-tensions-build",
+      "summary": "Copper extended a seven-week rally to head toward a record, with a key price spread on the London Metal Exchange widening to unusual levels in a clear sign of rising competition for short-term supply.",
+      "published": "17 Aug 2026 08:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.106,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Inflasi Sri Lanka Melambat Menuju Tujuan, Kata Kepala Bank Sentral",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/sri-lanka-inflation-and-growth-to-both-slow-over-rest-of-year",
+      "summary": "Sri Lanka’s inflation is expected to slow back toward the central bank’s target of 5% over the second half of this year and into next year, according to Governor Nandalal Weerasinghe.",
+      "published": "17 Aug 2026 08:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Reli Baht Thailand Mungkin Memudar karena Bank Sentral Dovish, Kata Para Analis",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/thai-baht-rally-may-fade-on-dovish-central-bank-analysts-say",
+      "summary": "A nascent rally in the Thai baht may be short-lived as the central bank is likely to maintain a dovish policy stance to support an economy hit by elevated oil prices, according to analysts.",
+      "published": "17 Aug 2026 07:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.402,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -154,28 +197,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Kampanye Tekanan Iran Kurang Jelas",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-16/iran-pressure-campaign-lacks-clear-off-ramp",
-      "summary": "Acting Principal Deputy Assistant Secretary for the Bureau of Near Eastern Affairs Jen Gavito and retired Vice Adm. Robert Harward join Bloomberg This Weekend and offer sharply different assessments of whether escalating US economic pressure can change Iran’s calculus, with Gavito arguing sanctions ",
-      "published": "16 Aug 2026 20:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.991,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Komandan AS mengatakan kesehatan mental adalah 'prioritas' di USS Lincoln",
-      "url": "https://www.bbc.co.uk/news/articles/ceqeeendz42o?at_medium=RSS&at_campaign=rss",
-      "summary": "Adm Brad Cooper acknowledged that navy service at sea for long periods is \"uniquely challenging and tough\", following a visit to the warship.",
-      "published": "17 Aug 2026 04:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.233,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
       "title": "Remaja tersangka penembakan di kampus Virginia ditemukan bersembunyi di lemari",
       "url": "https://www.bbc.co.uk/news/articles/c0l5583903yo?at_medium=RSS&at_campaign=rss",
@@ -185,6 +206,17 @@
       "score": -0.966,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Komandan AS mengatakan kesehatan mental adalah 'prioritas' di USS Lincoln",
+      "url": "https://www.bbc.co.uk/news/articles/ceqeeendz42o?at_medium=RSS&at_campaign=rss",
+      "summary": "Adm Cooper acknowledges service at sea for long periods is \"uniquely challenging\", after visiting the warship.",
+      "published": "17 Aug 2026 04:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.106,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -231,15 +263,37 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Para influencer digigit saat mengejar gambar hiu yang sempurna",
-      "url": "https://www.bbc.co.uk/news/articles/c5yvrn7rpqpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Tayane Dalazen was on a shark-diving trip in Brazil when she was attacked.",
-      "published": "16 Aug 2026 06:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.098,
-      "emoji": "🟢",
+      "source": "Al Jazeera",
+      "title": "Pemukim Israel mendirikan tenda untuk pos ilegal baru di Tepi Barat yang diduduki",
+      "url": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss",
+      "summary": "UN Special Rapporteur Albanese warns that Israel is 'using settlers to advance ethnic cleansing' in the West Bank.",
+      "published": "17 Aug 2026 08:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.398,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Bisakah Uni Afrika menjadikan misinya di Sudan bermanfaat?",
+      "url": "https://www.aljazeera.com/news/2026/8/17/can-the-au-make-its-current-sudan-mission-count?traffic_source=rss",
+      "summary": "The African Union is seeking progress in Sudan, but must overcome deep battlefield and diplomatic divisions.",
+      "published": "17 Aug 2026 08:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.441,
+      "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Menteri Israel menyerukan pembunuhan ’30 hingga 40’ warga Palestina di Gaza setiap malam",
+      "url": "https://www.aljazeera.com/news/2026/8/16/israeli-minister-calls-for-killing-30-to-40-palestinians-in-gaza-nightly?traffic_source=rss",
+      "summary": "Far-right National Security Minister Ben-Gvir sits on Israel's security cabinet, which helps shape war and policy.",
+      "published": "17 Aug 2026 06:58 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -275,39 +329,6 @@
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Erdogan mengatakan serangan Israel ke Lebanon merupakan kekhawatiran serius bagi Turki",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/erdogan-says-israeli-attacks-on-lebanon-are-a-serious-concern-for-turkiye?traffic_source=rss",
-      "summary": "Turkish President Recep Tayyip Erdogan said continued Israeli attacks on Lebanon are a source of serious concern.",
-      "published": "17 Aug 2026 02:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.831,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tentara Israel mengepung rumah-rumah warga Palestina di Tepi Barat yang diduduki",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israeli-army-besieges-palestinian-homes-in-occupied-west-bank?traffic_source=rss",
-      "summary": "Israeli troops have raided the village of Qusra, south of Nablus, in the occupied West Bank.",
-      "published": "17 Aug 2026 00:45 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Cristiano Ronaldo mengisyaratkan pensiun di akhir musim",
-      "url": "https://www.aljazeera.com/sports/2026/8/16/cristiano-ronaldo-hints-at-retirement-at-the-end-of-the-football-season?traffic_source=rss",
-      "summary": "Superstar forward gave his clearest indication yet that he might end his playing career after the current season.",
-      "published": "17 Aug 2026 00:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.122,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
       "title": "Inilah alasan sebenarnya mengapa harga minyak tidak bergerak lebih tinggi",
       "url": "https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories",
@@ -331,14 +352,14 @@
     },
     {
       "source": "CNBC World",
-      "title": "Cadangan minyak strategis yang habis mendekati tingkat yang menimbulkan kekhawatiran akan kerusakan pada gua-gua dan operasi",
-      "url": "https://www.cnbc.com/2026/08/15/strategic-petroleum-reserve-spr-oil-iran-war-caverns.html",
-      "summary": "The rapid drawdown of the U.S. Strategic Petroleum Reserve could damage the caverns that store the oil, experts warn.",
-      "published": "15 Aug 2026 21:19 WIB",
+      "title": "CNBC Daily Open: Angkatan Laut AS menghadapi tantangan kesehatan mental seiring berlarutnya konflik di Timur Tengah",
+      "url": "https://www.cnbc.com/2026/08/17/cnbc-daily-open-trump-iran-oil-hormuz-china-berkshire-anthropic.html",
+      "summary": "Mental health challenges aboard the USS Abraham Lincoln are raising concerns over the health of U.S. soldiers, as the Middle-East conflict drags on.",
+      "published": "17 Aug 2026 08:11 WIB",
       "sentiment": "Bearish",
-      "score": -0.858,
+      "score": -0.729,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     }
   ]
 }
