@@ -1,56 +1,84 @@
 {
-  "generated": "18 Aug 2026 01:54 WIB",
+  "generated": "18 Aug 2026 06:29 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.501,
-      "count": 22
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.493,
-      "count": 21
+      "score": -0.205,
+      "count": 20
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.26,
+      "count": 20
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.547,
-      "count": 15
+      "score": -0.252,
+      "count": 16
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.113,
+      "count": 5
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.195,
-      "count": 5
+      "score": -0.208,
+      "count": 4
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.195,
-      "count": 5
+      "score": -0.208,
+      "count": 4
     },
     {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.101,
-      "count": 5
-    },
-    {
-      "pair": "GBP/USD",
+      "pair": "EUR",
       "direction": "Tekanan Naik ▲",
-      "score": 0.66,
+      "score": 0.382,
+      "count": 1
+    },
+    {
+      "pair": "GBP",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.382,
       "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Minyak mentah berjangka ditutup pada $84,50",
+      "title": "Hype Jackson Hole mengalahkan pedoman Warsh dengan mengatakan sesedikit mungkin",
+      "url": "https://investinglive.com/central-banks/jackson-hole-hype-outruns-warsh-playbook-of-saying-as-little-as-possible/",
+      "summary": "Positioning ahead of Jackson Hole risks overweighting the podium and underweighting the committee. Warsh has curtailed forward guidance at every opportunity since taking office in May, shortened the postmeeting statement, and given deliberately evasive answers at both press conferences held so far, ",
+      "published": "18 Aug 2026 04:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.018,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Indeks saham AS ditutup lebih rendah pada hari ini. Penurunan dipimpin oleh S&P/Dow",
+      "url": "https://investinglive.com/technical-analysis/us-stock-indices-closed-lower-on-the-day-declines-are-led-by-the-s-p-down-with-declines-near-0-50/",
+      "summary": "The major U.S. stock indices closed lower, with selling accelerating into the afternoon as rising oil prices and higher Treasury yields weighed on investor sentiment. The declines came after the S&P 500 reached a record high last week, leaving the market vulnerable to some profit-taking. The closing",
+      "published": "18 Aug 2026 03:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Crude oil futures settle at $84.50",
       "url": "https://investinglive.com/technical-analysis/crude-oil-futures-settled-at-84-50/",
       "summary": "Oil prices are closing sharply higher, with WTI accelerating to the upside in the final hours of trading. The price settled at $84.50, up $2.10 or 2.55% on the day. The Strait of Hormuz remains the key fundamental driver, as sharply reduced shipping traffic continues to fuel concerns about potential",
       "published": "18 Aug 2026 01:50 WIB",
@@ -61,7 +89,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Pembeli emas mengambil kendali lebih besar dengan penembusan di atas rata-rata pergerakan 100 hari",
+      "title": "Gold buyers are taking more control with a break above the 100 day moving average",
       "url": "https://investinglive.com/technical-analysis/gold-buyers-are-taking-more-control-with-a-break-above-the-100-day-moving-average/",
       "summary": "The price of gold pushed to a high near $4,450 last week before reversing lower and falling back below two important technical levels: the 100-day moving average at $4,390.87 and the 100-hour moving average at $4,384.33. That decline took gold down toward $4,350, where buyers stepped back in. In tra",
       "published": "17 Aug 2026 22:32 WIB",
@@ -71,47 +99,47 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "USDCHF menggeser bias jangka pendek ke sisi bawah jika menembus MA 100 dan 200 jam",
-      "url": "https://investinglive.com/technical-analysis/usdchf-shifts-the-short-term-bias-to-the-downside-on-break-of-100-and-200-hour-mas/",
-      "summary": "The USDCHF spent most of the latter part of last week trading above its 200-hour moving average (green line on the chart below), with the price largely holding that support from Tuesday onward. There were brief dips below the moving average on Wednesday and again on Friday, but both breaks were mode",
-      "published": "17 Aug 2026 20:50 WIB",
-      "sentiment": "Netral",
-      "score": 0.039,
-      "emoji": "⚪",
+      "source": "FXStreet News",
+      "title": "Emas memperoleh momentum di atas $4.400 karena data AS yang lebih lemah mengurangi peluang kenaikan suku bunga Fed",
+      "url": "https://www.fxstreet.com/news/gold-gains-momentum-above-4-400-as-softer-us-data-dampens-fed-hike-odds-202608172327",
+      "summary": "Gold price (XAU/USD) edges higher to near $4,415 during the early Asian session on Tuesday. The precious metal extends its upside amid fading expectations for further US Federal Reserve (Fed) rate hikes. Traders will closely monitor the developments surrounding the Middle East conflicts.",
+      "published": "18 Aug 2026 06:27 WIB",
+      "sentiment": "Bullish",
+      "score": 0.382,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Imbal hasil obligasi 30 tahun AS naik ke level tertinggi sejak 2007",
-      "url": "https://investinglive.com/forex/us-30-year-yields-rise-to-the-highest-since-2007/",
-      "summary": "There is a decent argument that if the Fed remains asleep at the wheel and the AI boom continues for another year, we could inch down the capital stack a tad and get high-quality bonds or notes paying +7%, maybe more. Once you get to those levels, the pull towards bonds and away from equities is a p",
-      "published": "17 Aug 2026 20:08 WIB",
+      "source": "FXStreet News",
+      "title": "Dow Jones Industrial Average menilai perang ini akan bertahan lama",
+      "url": "https://www.fxstreet.com/news/the-dow-jones-industrial-average-prices-the-war-last-202608172156",
+      "summary": "The Dow Jones Industrial Average gave up close to 260 points to beneath 53,500, roughly half a percent lower, on the day the 60-day negotiating window meant to end the war over the Strait of Hormuz expired with nothing agreed to replace it.",
+      "published": "18 Aug 2026 04:56 WIB",
       "sentiment": "Bearish",
-      "score": -0.353,
+      "score": -0.976,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Iran telah menetapkan batas waktu \"beberapa minggu\" untuk implementasi penuh MOU tersebut",
-      "url": "https://investinglive.com/news/iran-has-set-a-deadline-of-a-few-weeks-for-full-implementation-of-the-mou/",
-      "summary": "Some comments from a senior Iranian official (unnamed), cited by Reuters: Iran has decided to shift its policy from defensive to a 'fully offensive one' Pressuring US or relying on mediators to reach a lasting peace is not realistic Has set a deadline of a few weeks for a full implementation of the ",
-      "published": "17 Aug 2026 19:53 WIB",
+      "source": "FXStreet News",
+      "title": "Forex Hari Ini: Dolar AS merosot ke posisi terendah dua bulan karena risiko Timur Tengah mengangkat Minyak dan Emas",
+      "url": "https://www.fxstreet.com/news/forex-today-us-dollar-sags-to-two-month-lows-as-middle-east-risk-lifts-oil-and-gold-202608172022",
+      "summary": "The US Dollar Index (DXY) starts the week on the back foot, with the US Dollar Index (DXY) slipping toward two-month lows and holding below the 100.00 mark. August's run of underwhelming US data jobs, inflation and retail sales has steadily trimmed bets on a Federal Reserve (Fed) move next month.",
+      "published": "18 Aug 2026 03:22 WIB",
       "sentiment": "Bearish",
-      "score": -0.874,
+      "score": -0.282,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "IHK Kanada bulan Juli 3,0% y/y vs perkiraan +2,9%.",
-      "url": "https://investinglive.com/news/canada-july-cpi-3-0-y-y-vs-2-9-expected/",
-      "summary": "Prior was +2.8% CPI m/m +0.5% vs +0.4% expected (prior was -0.4%) BOC core +0.2% m/m vs +0.1% prior BOC core +2.3% y/y vs +2.1% prior CPI median +2.0% vs +1.9% expected CPI trim +1.9% vs +1.8% expected CPI common +2.7% vs +2.6% prior Canadian inflation has been tracking the rise in oil prices but is",
-      "published": "17 Aug 2026 19:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.204,
-      "emoji": "🔴",
+      "source": "FXStreet News",
+      "title": "Dolar Singapura: Bias naik ringan terhadap Dolar AS tetap utuh – UOB",
+      "url": "https://www.fxstreet.com/news/singapore-dollar-mild-upside-bias-against-us-dollar-remains-intact-uob-202608171953",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD remains under mild downward pressure after slipping to 1.2775 before rebounding. Intraday, the pair may retest 1.2775, but support at 1.2765 is expected to hold.",
+      "published": "18 Aug 2026 02:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.485,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -126,102 +154,69 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Indeks Dolar AS tidak dapat menguat karena tawaran Washington",
-      "url": "https://www.fxstreet.com/news/the-us-dollar-index-cannot-rally-with-washington-on-the-offer-202608171624",
-      "summary": "The Dollar Index trades near 99.50, roughly a tenth of a percent lower, having opened directly on its 200-day Exponential Moving Average (EMA) and failed there inside the first minutes, with a session low just above 99.25 taking out the August range.",
-      "published": "17 Aug 2026 23:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.845,
-      "emoji": "🔴",
-      "impact": "high"
+      "source": "Investing.com Forex",
+      "title": "Reliance Worldwide Australia menerima tawaran pengambilalihan senilai $2,9 miliar dari Brookfield",
+      "url": "https://www.investing.com/news/stock-market-news/australias-reliance-worldwide-receives-29-billion-takeover-bid-from-brookfield-4864096",
+      "summary": "",
+      "published": "18 Aug 2026 06:07 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dow Jones Industrial Average memungkinkan perusahaan penyulingan menentukan harga perang tersebut",
-      "url": "https://www.fxstreet.com/news/the-dow-jones-industrial-average-lets-refiners-price-the-war-202608171616",
-      "summary": "The Dow Jones Industrial Average (DJIA) trades near 53,550 on Monday, down close to 200 points and roughly 1,200 beneath the record printed on August 5, on the day the 60-day negotiating window that was meant to end the war over the Strait of Hormuz lapses with nothing agreed to replace it.",
-      "published": "17 Aug 2026 23:16 WIB",
-      "sentiment": "Bearish",
-      "score": -0.943,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Minyak WTI naik di atas $82 karena kebuntuan Washington-Teheran memicu kembali kekhawatiran pasokan",
-      "url": "https://www.fxstreet.com/news/wti-oil-climbs-above-82-as-washington-tehran-standoff-reignites-supply-concerns-202608171604",
-      "summary": "West Texas Intermediate (WTI) US Oil advances on Monday and trades around $82.10 at the time of writing, up 0.68% on the day. Oil prices remain supported by the deadlock between the United States (US) and Iran, which keeps concerns about Oil flows through the Strait of Hormuz elevated.",
-      "published": "17 Aug 2026 23:04 WIB",
+      "source": "Investing.com Forex",
+      "title": "Saham Andersen Group jatuh karena penawaran sekunder 4,3 juta saham",
+      "url": "https://www.investing.com/news/stock-market-news/andersen-group-stock-falls-on-43m-share-secondary-offering-93CH-4864037",
+      "summary": "",
+      "published": "18 Aug 2026 04:54 WIB",
       "sentiment": "Bullish",
-      "score": 0.402,
+      "score": 0.216,
       "emoji": "🟢",
       "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Saham Jatuh karena Brent Mencapai $90 karena Risiko Timur Tengah: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
-      "summary": "A flare-up in Middle East violence lifted oil prices while dragging down both stocks and bonds on concern that an escalation of the war could fuel inflation.",
-      "published": "17 Aug 2026 05:14 WIB",
+      "source": "Investing.com Economy",
+      "title": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails",
+      "url": "https://www.investing.com/news/economic-indicators/iran-threatens-to-go-on-offensive-in-strait-of-hormuz-if-diplomacy-with-us-fails-4863392",
+      "summary": "",
+      "published": "17 Aug 2026 20:48 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Iran Merasa Memiliki 'Pengaruh Baru' di Timur Tengah di Tengah Perang dengan AS",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-17/iran-feels-it-has-new-leverage-in-mideast-amid-war-video",
-      "summary": "Michael Allen, managing director of Beacon Global Strategies and a former national security aide to President George W. Bush, said Iranians feel they have \"a lot of new leverage\" they didn't have before the US and Israel launched strikes as Iran's government looks to rebuild its influence in the reg",
-      "published": "18 Aug 2026 01:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.622,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru 17 Juni",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-16/latest-oil-market-news-and-analysis-for-june-17",
-      "summary": "Oil climbed in thin summer trading as investors weighed fresh Middle East tensions against signs of ongoing shipments through the contested Strait of Hormuz.",
-      "published": "17 Aug 2026 05:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.103,
+      "score": -0.813,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Tekanan Tembaga Meningkat Dengan Melonjaknya Spread dan Harga Mendekati Rekornya",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-17/copper-heads-toward-record-high-on-lme-as-supply-tensions-build",
-      "summary": "Copper rose toward a record on the London Metal Exchange, with soaring price spreads highlighting an increasingly acute squeeze in near-term supply.",
-      "published": "17 Aug 2026 08:45 WIB",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 18 Agustus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/latest-oil-market-news-and-analysis-for-aug-18",
+      "summary": "Oil advanced for a third day as prospects for a near-term resolution of the US-Iran war receded, with President Donald Trump saying he’s not interested in extending an expiring agreement with Tehran.",
+      "published": "18 Aug 2026 05:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.062,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Asia Stocks to Fall, Oil Extends Gains on Mid East: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates",
+      "summary": "Stocks in Asia were set to follow Wall Street lower as elevated oil prices stoked inflation concerns and hopes faded for a deal to end the Iran war.",
+      "published": "18 Aug 2026 05:07 WIB",
       "sentiment": "Bearish",
-      "score": -0.16,
+      "score": -0.103,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham AI Melonjak karena Pertumbuhan Antropis | Bunga Terbuka 17/8/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-17/open-interest-8-17-2026-video",
-      "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\"AI stocks are back in the driver’s seat as Anthropic’s growth fuels fresh optimism.,Plus, Jane Street takes a stunning $15 billion July loss, its first losing month in a decade.And President Trump pressures Oman and",
-      "published": "17 Aug 2026 23:26 WIB",
-      "sentiment": "Netral",
-      "score": 0.028,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Lori Calvasina dari RBC Melihat S&P 500 Naik Meskipun Ada Risiko dari Fed",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-17/rbc-s-calvasina-sees-s-p-500-upside-despite-fed-risk-video",
-      "summary": "Wall Street traders sent stocks and bonds wavering in the Monday session as fresh Middle East violence stoked concerns about an escalation of the war that has jolted global markets. Following the S&P 500’s longest weekly advance since May, the gauge fluctuated. Chipmakers rallied as Anthropic PBC’s ",
-      "published": "17 Aug 2026 23:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.961,
-      "emoji": "🔴",
+      "title": "US-Iran Prospects Dim as Trump Seems in No Hurry to Reach Deal",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-17/trump-likes-the-idea-of-declaring-hormuz-a-territory-video",
+      "summary": "The war between the US and Iran has slowed down, as peace prospects dim with President Trump in no hurry to reach a peace deal. The apparent slowdown of actions comes as the President insists the US is controlling the Strait of Hormuz, as major US defense firms race to make cheaper missiles to bolst",
+      "published": "18 Aug 2026 05:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.474,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -237,7 +232,29 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Bentrokan antara pemerintah dan pejuang oposisi di Baidoa Somalia",
+      "title": "Warga sipil menanggung akibatnya ketika militer Israel meningkatkan pertaruhan di Lebanon: UNIFIL",
+      "url": "https://www.aljazeera.com/news/2026/8/17/civilians-pay-price-as-israeli-military-activity-rises-in-lebanon-unifil?traffic_source=rss",
+      "summary": "UN peacekeeping force recorded an average of 137 projectiles fired daily in the region over the last two weeks.",
+      "published": "18 Aug 2026 03:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.153,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump’s approval rating sinks to new low at 33 percent",
+      "url": "https://www.aljazeera.com/economy/2026/8/17/trumps-approval-rating-sinks-to-new-low?traffic_source=rss",
+      "summary": "New poll found a majority of US citizens concerned about the US war on Iran.",
+      "published": "18 Aug 2026 03:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Clashes between government and opposition fighters in Somalia’s Baidoa",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/clashes-between-government-and-opposition-fighters-in-somalias-baidoa?traffic_source=rss",
       "summary": "Heavy clashes broke out in Baidoa, Somalia between federal troops and armed opposition groups.",
       "published": "18 Aug 2026 00:42 WIB",
@@ -280,50 +297,6 @@
       "impact": "medium"
     },
     {
-      "source": "Al Jazeera",
-      "title": "PM Inggris Burnham ditipu oleh penipu Gedung Putih",
-      "url": "https://www.aljazeera.com/news/2026/8/17/british-pm-burnham-duped-by-white-house-impostor?traffic_source=rss",
-      "summary": "The FBI has warned of 'malicious actors' misusing AI to impersonate senior government officials.",
-      "published": "17 Aug 2026 23:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Partai Demokrat menegur Trump karena mengurangi latihan militer dengan Korea Selatan",
-      "url": "https://www.aljazeera.com/news/2026/8/17/democrats-rebuke-trump-over-scaling-back-military-drills-with-south-korea?traffic_source=rss",
-      "summary": "Republican Senator Thom Tillis says the decision allows North Korea to provide more support to Russia in Ukraine.",
-      "published": "17 Aug 2026 23:14 WIB",
-      "sentiment": "Bullish",
-      "score": 0.458,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump mengatakan AS telah melakukan kontak dengan IRGC dan meminta Iran untuk menyerah",
-      "url": "https://www.aljazeera.com/news/2026/8/17/trump-demands-iran-put-up-the-white-flag-of-surrender-as-mou-expires?traffic_source=rss",
-      "summary": "President also claims US is in direct contact with IRGC, denies a rush to end conflict ahead of November's US midterms.",
-      "published": "17 Aug 2026 22:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.705,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Investor yang dijuluki 'dewa saham AI' memiliki 56% dana lindung nilai yang diinvestasikan di kedua saham ini sebelum ledakan di bulan Juli",
-      "url": "https://www.marketwatch.com/story/investor-dubbed-ai-stock-god-had-56-of-his-funds-in-these-two-stocks-before-it-blew-up-07472f46?mod=mw_rss_topstories",
-      "summary": "At the end of the first half of 2026, on the cusp of a major correction in the sector, more than three quarters of the Situational Awareness fund was betting on just five stocks, all of which were, in essence, one big bet on AI.",
-      "published": "17 Aug 2026 23:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "CNBC Forex",
       "title": "Pedagang pasar prediksi melihat sekitar 1 dari 4 peluang tawaran Paramount untuk membeli Warner Bros. Discovery gagal",
       "url": "https://www.cnbc.com/2026/08/17/pskys-wbd-bid-has-1-in-4-odds-of-falling-through-kalshi-traders-say.html",
@@ -336,21 +309,21 @@
     },
     {
       "source": "CNBC World",
-      "title": "Trump mengancam akan 'mengebom' Oman jika 'menghalangi' seiring berakhirnya gencatan senjata AS-Iran",
+      "title": "Trump tidak akan memperpanjang gencatan senjata dengan Iran, mengancam akan 'mengebom' Oman jika 'menghalangi'",
       "url": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
       "summary": "Shipping traffic in the Strait of Hormuz sank to a new low as a ceasefire between the U.S. and Iran is set to expire on Monday with no deal in sight.",
-      "published": "17 Aug 2026 21:49 WIB",
+      "published": "18 Aug 2026 02:24 WIB",
       "sentiment": "Bearish",
-      "score": -0.684,
+      "score": -0.703,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "CNBC World",
-      "title": "Minyak Brent naik menjadi $91 karena Iran mengesampingkan perpanjangan kesepakatan sementara, dan mengancam akan meningkatkan konflik",
+      "title": "Minyak Brent naik di atas $90 karena Iran mengesampingkan perpanjangan kesepakatan sementara, dan mengancam akan meningkatkan konflik",
       "url": "https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html",
       "summary": "The U.S.-Iran deal was supposed to open the Strait of Hormuz while they negotiated a final deal on Tehran's nuclear program within 60 days.",
-      "published": "18 Aug 2026 01:25 WIB",
+      "published": "18 Aug 2026 02:46 WIB",
       "sentiment": "Bearish",
       "score": -0.679,
       "emoji": "🔴",
@@ -364,6 +337,17 @@
       "published": "17 Aug 2026 19:41 WIB",
       "sentiment": "Bearish",
       "score": -0.785,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Produsen mobil Jepang rentan terhadap dampak satu-dua dari perang Iran dan reli yen",
+      "url": "https://www.cnbc.com/2026/08/17/japanese-automakers-vulnerable-iran-war-yen-rally.html",
+      "summary": "Japanese automakers vulnerable to one-two punch of Iran war, yen rally",
+      "published": "17 Aug 2026 12:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.7,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -388,17 +372,6 @@
       "score": -0.296,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Produsen mobil Jepang rentan terhadap dampak satu-dua dari perang Iran dan reli yen",
-      "url": "https://www.cnbc.com/2026/08/17/japanese-automakers-vulnerable-iran-war-yen-rally.html",
-      "summary": "Japanese automakers vulnerable to one-two punch of Iran war, yen rally",
-      "published": "17 Aug 2026 12:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.7,
-      "emoji": "🔴",
-      "impact": "high"
     }
   ]
 }
