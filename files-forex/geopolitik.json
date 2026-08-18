@@ -1,5 +1,5 @@
 {
-  "generated": "18 Aug 2026 06:29 WIB",
+  "generated": "18 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,38 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.205,
+      "score": -0.164,
       "count": 20
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.26,
+      "score": -0.219,
       "count": 20
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.252,
+      "score": -0.203,
       "count": 16
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.113,
-      "count": 5
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.208,
-      "count": 4
+      "score": -0.23,
+      "count": 3
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.208,
-      "count": 4
+      "score": -0.23,
+      "count": 3
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.206,
+      "count": 3
     },
     {
       "pair": "EUR",
@@ -54,6 +54,17 @@
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "ICYMI: Wells Fargo memangkas target emas 2026 menjadi $4.900-5.100, secara keseluruhan masih bullish",
+      "url": "https://investinglive.com/commodities/icymi-wells-fargo-cuts-2026-gold-target-to-4-900-5-100-still-bullish-overall/",
+      "summary": "The downward revision is notable less for the direction, which follows a genuinely difficult five month stretch for gold, than for the fact that Wells Fargo is cutting targets even while reiterating a favourable overall stance on precious metals. That combination suggests the bank sees the current r",
+      "published": "18 Aug 2026 06:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.679,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Hype Jackson Hole mengalahkan pedoman Warsh dengan mengatakan sesedikit mungkin",
@@ -78,7 +89,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Crude oil futures settle at $84.50",
+      "title": "Minyak mentah berjangka menetap di $84,50",
       "url": "https://investinglive.com/technical-analysis/crude-oil-futures-settled-at-84-50/",
       "summary": "Oil prices are closing sharply higher, with WTI accelerating to the upside in the final hours of trading. The price settled at $84.50, up $2.10 or 2.55% on the day. The Strait of Hormuz remains the key fundamental driver, as sharply reduced shipping traffic continues to fuel concerns about potential",
       "published": "18 Aug 2026 01:50 WIB",
@@ -89,7 +100,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Gold buyers are taking more control with a break above the 100 day moving average",
+      "title": "Pembeli emas mengambil kendali lebih besar dengan penembusan di atas rata-rata pergerakan 100 hari",
       "url": "https://investinglive.com/technical-analysis/gold-buyers-are-taking-more-control-with-a-break-above-the-100-day-moving-average/",
       "summary": "The price of gold pushed to a high near $4,450 last week before reversing lower and falling back below two important technical levels: the 100-day moving average at $4,390.87 and the 100-hour moving average at $4,384.33. That decline took gold down toward $4,350, where buyers stepped back in. In tra",
       "published": "17 Aug 2026 22:32 WIB",
@@ -143,17 +154,6 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Perkiraan Harga Perak: XAG berkonsolidasi seiring kembalinya permintaan safe haven",
-      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-consolidates-as-haven-demand-returns-202608171820",
-      "summary": "Silver (XAG/USD) price surges nearly 1.80% on Monday as the Greenback dives, while uncertainty over the US-Iran conflict clouds investor sentiment. The precious metals segment seems to have regained its haven status, even though Oil prices edged higher.",
-      "published": "18 Aug 2026 01:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.52,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Forex",
       "title": "Reliance Worldwide Australia menerima tawaran pengambilalihan senilai $2,9 miliar dari Brookfield",
       "url": "https://www.investing.com/news/stock-market-news/australias-reliance-worldwide-receives-29-billion-takeover-bid-from-brookfield-4864096",
@@ -176,15 +176,15 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails",
-      "url": "https://www.investing.com/news/economic-indicators/iran-threatens-to-go-on-offensive-in-strait-of-hormuz-if-diplomacy-with-us-fails-4863392",
-      "summary": "",
-      "published": "17 Aug 2026 20:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.813,
-      "emoji": "🔴",
-      "impact": "low"
+      "source": "Bloomberg Markets",
+      "title": "Minyak Naik di Timur Tengah, Penjualan Treasury: Pembungkus Pasar",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates",
+      "summary": "Oil prices climbed as prospects for peace in the Middle East dimmed, reviving concerns that prolonged geopolitical tensions may threaten supplies and keep energy costs elevated. Treasuries sold off.",
+      "published": "18 Aug 2026 05:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.557,
+      "emoji": "🟢",
+      "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
@@ -199,18 +199,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asia Stocks to Fall, Oil Extends Gains on Mid East: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates",
-      "summary": "Stocks in Asia were set to follow Wall Street lower as elevated oil prices stoked inflation concerns and hopes faded for a deal to end the Iran war.",
-      "published": "18 Aug 2026 05:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.103,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US-Iran Prospects Dim as Trump Seems in No Hurry to Reach Deal",
+      "title": "Prospek AS-Iran Meredup karena Trump Tampaknya Tidak Terburu-buru Mencapai Kesepakatan",
       "url": "https://www.bloomberg.com/news/videos/2026-08-17/trump-likes-the-idea-of-declaring-hormuz-a-territory-video",
       "summary": "The war between the US and Iran has slowed down, as peace prospects dim with President Trump in no hurry to reach a peace deal. The apparent slowdown of actions comes as the President insists the US is controlling the Strait of Hormuz, as major US defense firms race to make cheaper missiles to bolst",
       "published": "18 Aug 2026 05:00 WIB",
@@ -243,7 +232,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump’s approval rating sinks to new low at 33 percent",
+      "title": "Tingkat persetujuan terhadap Trump merosot ke titik terendah baru, yaitu 33 persen",
       "url": "https://www.aljazeera.com/economy/2026/8/17/trumps-approval-rating-sinks-to-new-low?traffic_source=rss",
       "summary": "New poll found a majority of US citizens concerned about the US war on Iran.",
       "published": "18 Aug 2026 03:41 WIB",
@@ -254,7 +243,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Clashes between government and opposition fighters in Somalia’s Baidoa",
+      "title": "Bentrokan antara pemerintah dan pejuang oposisi di Baidoa Somalia",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/clashes-between-government-and-opposition-fighters-in-somalias-baidoa?traffic_source=rss",
       "summary": "Heavy clashes broke out in Baidoa, Somalia between federal troops and armed opposition groups.",
       "published": "18 Aug 2026 00:42 WIB",
@@ -284,17 +273,6 @@
       "score": 0.0,
       "emoji": "⚪",
       "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Partai Likud yang dipimpin Netanyahu mengadakan pemilihan pendahuluan menjelang pemilihan umum Israel",
-      "url": "https://www.aljazeera.com/news/2026/8/17/netanyahus-likud-party-holds-primaries-ahead-of-israels-general-elections?traffic_source=rss",
-      "summary": "On Monday, Israel's governing party will determine its candidate list for the next election.",
-      "published": "18 Aug 2026 00:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.66,
-      "emoji": "🟢",
-      "impact": "medium"
     },
     {
       "source": "CNBC Forex",
