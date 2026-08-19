@@ -1,5 +1,5 @@
 {
-  "generated": "19 Aug 2026 07:01 WIB",
+  "generated": "19 Aug 2026 09:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,75 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.399,
-      "count": 29
+      "score": -0.457,
+      "count": 24
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.445,
-      "count": 24
+      "score": -0.489,
+      "count": 21
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.376,
-      "count": 23
+      "score": -0.422,
+      "count": 18
     },
     {
       "pair": "EUR/USD",
-      "direction": "Netral →",
-      "score": -0.035,
-      "count": 15
+      "direction": "Tekanan Turun ▼",
+      "score": -0.147,
+      "count": 17
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.133,
-      "count": 10
+      "score": 0.192,
+      "count": 8
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.133,
-      "count": 10
+      "score": 0.192,
+      "count": 8
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.355,
-      "count": 2
+      "score": 0.194,
+      "count": 3
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Naik ▲",
-      "score": 0.355,
-      "count": 2
+      "score": 0.194,
+      "count": 3
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Perdagangan UEA-Iran terhenti lebih signifikan dibandingkan embargo AS, kata mantan pejabat",
+      "url": "https://investinglive.com/commodities/uae-iran-trade-halt-more-significant-than-us-embargo-ex-official-says/",
+      "summary": "Kimmitt's comments reframe the UAE's trade suspension from a diplomatic statement into a potentially serious economic shock for Iran, given Dubai's outsized role as Iran's single largest source of imported goods and its long-standing function as a financial workaround for sanctions. If accurate, the",
+      "published": "19 Aug 2026 08:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.284,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Pembaruan: Minyak melanjutkan kenaikannya hingga hari keempat karena pertarungan Hormuz yang berlarut-larut",
+      "url": "https://investinglive.com/commodities/update-oil-extends-gains-to-fourth-day-as-hormuz-fighting-drags-on/",
+      "summary": "The fourth consecutive day of gains reflects a market still pricing genuine uncertainty over whether the Strait of Hormuz is actually navigable, rather than reacting to any single fresh escalation. The direct contradiction between Washington's insistence the strait is open and Tehran's assertion tha",
+      "published": "19 Aug 2026 07:44 WIB",
+      "sentiment": "Bearish",
+      "score": -0.353,
+      "emoji": "🔴",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Kanada dan AS berpacu dengan tenggat waktu tarif tengah malam seiring berlanjutnya pembicaraan",
@@ -154,37 +176,15 @@
       "impact": "medium"
     },
     {
-      "source": "ForexLive",
-      "title": "Negosiator Kanada dan AS diperkirakan akan bertemu lagi menjelang batas waktu tarif tengah malam",
-      "url": "https://investinglive.com/news/canadian-and-us-negotiators-are-expected-to-meet-again-ahead-of-midnight-tariff-deadline/",
-      "summary": "Full report here Canadian and US negotiators are expected to meet again as both sides make a final push to reach an agreement before US’s midnight tariff deadline, according to CBC News. The latest development adds some hope that diplomacy remains active, but it comes against a backdrop of considera",
-      "published": "19 Aug 2026 00:41 WIB",
+      "source": "FXStreet News",
+      "title": "WTI naik mendekati $85,00 di tengah meningkatnya ketegangan AS-Iran",
+      "url": "https://www.fxstreet.com/news/wti-rises-to-near-8500-amid-escalating-us-iran-tensions-202608190123",
+      "summary": "West Texas Intermediate (WTI) oil price extends its gains for the fourth consecutive day, trading around $84.80 per barrel during the Asian hours on Wednesday.",
+      "published": "19 Aug 2026 08:23 WIB",
       "sentiment": "Bullish",
-      "score": 0.185,
+      "score": 0.52,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pentagon mempertimbangkan kehadiran militer AS dalam jumlah yang lebih kecil di Teluk setelah perang Iran berakhir - WaPo",
-      "url": "https://investinglive.com/news/pentagon-weighing-a-smaller-us-military-presence-in-the-gulf-once-the-iran-war-ends-wapo/",
-      "summary": "Full report here The Pentagon is evaluating whether the damage inflicted on US military facilities during the Iran war should lead to a fundamental restructuring of America’s military presence in the Middle East. While no formal review has been ordered by Defense Secretary Pete Hegseth, officials sa",
-      "published": "18 Aug 2026 22:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.994,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Dolar Kanada berada di bawah tekanan baru seiring dengan semakin dekatnya batas waktu tarif Trump",
-      "url": "https://investinglive.com/news/canadian-dollar-comes-under-renewed-pressure-as-trump-tariff-deadline-approaches/",
-      "summary": "The Canadian dollar weakened following a tweet from FOX Business White House correspondent Edward Lawrence that President Donald Trump spoke with Canadian Prime Minister Mark Carney about additional tariffs Washington is preparing to impose on Canada. According to Lawrence, a White House official co",
-      "published": "18 Aug 2026 22:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.386,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -220,36 +220,36 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Forex Hari Ini: Dolar AS menguat karena kegelisahan Hormuz menjelang IHK Inggris dan Risalah FOMC",
-      "url": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-on-hormuz-jitters-ahead-of-uk-cpi-and-fomc-minutes-202608181954",
-      "summary": "The US Dollar Index (DXY) held a firm tone near the 99.60s on Tuesday, keeping a mild safe-haven bid as tensions around the Strait of Hormuz stayed front and center. Gold and Oil both sold off, and most major currencies drifted lower against the Greenback.",
-      "published": "19 Aug 2026 02:54 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Penjualan Chip Meluas ke Asia, Treasury Stabil: Pasar Membungkus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian stocks dropped as a semiconductor selloff deepened, with investors retreating from one of the year’s hottest trades amid elevated bond yields and geopolitical uncertainty. Treasuries stabilized following recent losses.",
+      "published": "19 Aug 2026 05:11 WIB",
       "sentiment": "Bearish",
-      "score": -0.633,
+      "score": -0.42,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "PHP/USD: Peso Filipina Jatuh ke Rekor Terendah Baru seiring Naiknya Harga Minyak",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/php-usd-philippine-peso-fell-to-new-record-low-as-oil-prices-rise",
+      "summary": "The Philippine peso fell to a record low against the dollar as higher oil prices put renewed pressure on the currency.",
+      "published": "19 Aug 2026 08:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.431,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Yen Jepang melemah karena Greenback mempertahankan tawaran safe-haven",
-      "url": "https://www.fxstreet.com/news/japanese-yen-drifts-lower-as-greenback-retains-safe-haven-bid-202608181806",
-      "summary": "USD/JPY holds modest gains near the 159.60s on Tuesday, edging higher on the day. The pair has clawed back ground after a recent sharp pullback and is grinding back toward the upper end of its recent range.",
-      "published": "19 Aug 2026 01:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.34,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Chip Selloff Clouds Asia Open, Kegelisahan Obligasi Berlama-lama: Pembungkus Pasar",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-18/stock-market-today-dow-s-p-live-updates",
-      "summary": "Asian stocks were set to fall as a selloff in US technology shares, elevated bond yields and rising oil prices weighed on sentiment.",
-      "published": "19 Aug 2026 05:11 WIB",
-      "sentiment": "Bullish",
-      "score": 0.216,
-      "emoji": "🟢",
+      "title": "Trump Mengambil Tindakan Keras saat Ketegangan Hormuz Menandai Normal Baru",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-19/trump-takes-hard-line-as-hormuz-tensions-mark-new-normal-video",
+      "summary": "US President Donald Trump insisted that there were no talks ongoing with Iran, leaving the conflict in the Middle East and control of the Strait of Hormuz stuck in limbo. Bloomberg's Jeff Mason shares his perpective. (Source: Bloomberg)",
+      "published": "19 Aug 2026 07:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.911,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -260,28 +260,6 @@
       "published": "19 Aug 2026 05:02 WIB",
       "sentiment": "Bearish",
       "score": -0.841,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Aula Revolusi Tentang Investasi di Sektor Pertahanan",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-18/revolution-s-hall-on-investing-in-the-defense-sector-video",
-      "summary": "David Hall, managing partner at Revolution, talks about investing in the defense sector and backing Hermeus, a company looking to build a hyper-sonic military jet. He speaks with Romaine Bostick at the Bloomberg New Voices event in Martha's Vineyard. (Source: Bloomberg)",
-      "published": "19 Aug 2026 04:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.273,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Reli negara-negara berkembang terhenti di tengah lonjakan imbal hasil obligasi pemerintah dan ketegangan di Timur Tengah",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-18/emerging-assets-halt-rally-on-higher-oil-prices-bond-selloff",
-      "summary": "The recent rally in emerging-market assets stalled on Tuesday as a surge in long-term US Treasury yields and renewed tensions in the Middle East drained demand for risk, snapping a four-day winning streak in stocks and pushing borrowing costs higher.",
-      "published": "18 Aug 2026 17:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.402,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -320,14 +298,14 @@
     },
     {
       "source": "BBC World",
-      "title": "Inggris 'mendukung Ukraina 100%', kata Burnham, setelah peringatan drone dari Rusia",
-      "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Russia accuses the UK of escalating the Ukraine war by supplying British-made drones as the prime minister vows to support Kyiv in its \"hour of need\".",
-      "published": "18 Aug 2026 19:36 WIB",
+      "title": "Menteri Pertahanan Ukraina yang dipecat menyerukan pemilihan presiden",
+      "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
+      "published": "19 Aug 2026 08:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.622,
+      "score": -0.402,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -375,6 +353,28 @@
     },
     {
       "source": "BBC Top Stories",
+      "title": "Is another UK heatwave on the way in September?",
+      "url": "https://www.bbc.co.uk/weather/articles/c79g04899wno?at_medium=RSS&at_campaign=rss",
+      "summary": "Some long range forecasts are suggesting autumn could be hotter and drier than average. Simon King explores whether a warm spell might be on the cards.",
+      "published": "19 Aug 2026 07:21 WIB",
+      "sentiment": "Bullish",
+      "score": 0.146,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "AS mengutuk 'eskalasi yang tidak perlu' setelah serangan udara Israel terhadap pangkalan udara Suriah",
+      "url": "https://www.bbc.co.uk/news/articles/c62vy3wl31lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Damascus called the attacks \"an unjustified act of aggression\" that imperilled regional security.",
+      "published": "19 Aug 2026 07:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.878,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
       "title": "Melacak misi USS Lincoln selama berbulan-bulan seiring dengan meningkatnya kekhawatiran terhadap kondisi tersebut",
       "url": "https://www.bbc.co.uk/news/videos/cdrv71lzejpo?at_medium=RSS&at_campaign=rss",
       "summary": "BBC Verify has used satellite imagery to monitor the warship on one of the longest ever US deployments.",
@@ -385,13 +385,24 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Orang dewasa muda lebih banyak menggunakan obat resep daripada alkohol - dan hal ini menimbulkan perpecahan di kalangan para ahli",
-      "url": "https://www.bbc.co.uk/news/articles/c1d1lpl9vrxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Increasingly, young adults are taking anxiety medication to feel \"drunk\" at parties. But it's not a free lunch, experts warn.",
-      "published": "18 Aug 2026 07:00 WIB",
+      "source": "Al Jazeera",
+      "title": "Bagaimana Ebola menjadi wabah paling mematikan dalam sejarah Kongo",
+      "url": "https://www.aljazeera.com/news/2026/8/19/how-ebola-became-the-deadliest-outbreak-in-dr-congos-history?traffic_source=rss",
+      "summary": "Conflict, delayed detection, and mistrust are complicating efforts to contain the virus in eastern DR Congo.",
+      "published": "19 Aug 2026 07:53 WIB",
       "sentiment": "Bearish",
-      "score": -0.814,
+      "score": -0.574,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Partai Demokrat menyerukan penyelidikan USS Lincoln, mempertanyakan kesiapan Angkatan Laut AS",
+      "url": "https://www.aljazeera.com/news/2026/8/18/democrats-call-for-uss-lincoln-probe-question-us-navys-readiness?traffic_source=rss",
+      "summary": "Lawmakers question whether conditions on the aircraft carrier indicate a 'pattern' of poor planning amid the Iran war.",
+      "published": "19 Aug 2026 06:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.798,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -525,17 +536,6 @@
       "sentiment": "Bearish",
       "score": -0.927,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Startup ini menggunakan AI untuk membantu keluarga penderita penyakit langka mengembangkan pengobatan khusus",
-      "url": "https://www.cnbc.com/2026/08/18/the-startup-using-ai-to-help-build-custom-treatments-for-rare-diseases.html",
-      "summary": "Nome uses AI and drug-development expertise to help rare disease families turn genetic diagnoses into potential paths toward treatment.",
-      "published": "18 Aug 2026 18:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.58,
-      "emoji": "🟢",
       "impact": "high"
     }
   ]
