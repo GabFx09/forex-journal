@@ -1,5 +1,5 @@
 {
-  "generated": "19 Aug 2026 04:53 WIB",
+  "generated": "19 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,86 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.349,
-      "count": 24
+      "score": -0.399,
+      "count": 29
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.417,
-      "count": 21
+      "score": -0.445,
+      "count": 24
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.27,
-      "count": 19
+      "score": -0.376,
+      "count": 23
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.067,
-      "count": 13
+      "direction": "Netral →",
+      "score": -0.035,
+      "count": 15
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.088,
-      "count": 9
+      "score": 0.133,
+      "count": 10
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.088,
-      "count": 9
+      "score": 0.133,
+      "count": 10
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.26,
+      "score": 0.355,
       "count": 2
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Naik ▲",
-      "score": 0.26,
+      "score": 0.355,
       "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Kanada dan AS berpacu dengan tenggat waktu tarif tengah malam seiring berlanjutnya pembicaraan",
+      "url": "https://investinglive.com/news/canada-us-race-against-midnight-tariff-deadline-as-talks-continue/",
+      "summary": "A breakdown in talks and the imposition of new 50% tariffs would hit sectors including lumber, wine, dairy and autos, with knock-on risk to broader USMCA negotiations that have underpinned North American trade stability for years. The auto sector is the clearest pressure point, given industry warnin",
+      "published": "19 Aug 2026 06:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.462,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Irak mendukung rute ekspor minyak baru untuk melewati kemacetan Teluk Hormuz",
+      "url": "https://investinglive.com/commodities/iraq-backs-new-oil-export-routes-to-bypass-hormuz-gulf-bottleneck/",
+      "summary": "Iraq's move underscores how deeply the closure of the Strait of Hormuz is reshaping export strategy across OPEC's Gulf-dependent producers, even for a country whose exports flow mainly from southern terminals rather than through the strait directly. As OPEC's second-largest producer, any disruption ",
+      "published": "19 Aug 2026 05:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.441,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Pratinjau: Yang perlu diperhatikan saat risalah FOMC bulan Juli dirilis pada hari Rabu",
+      "url": "https://investinglive.com/central-banks/preview-what-to-watch-as-july-fomc-minutes-drop-wednesday/",
+      "summary": "The minutes carry more weight than usual this cycle because Chair Warsh's July statement was deliberately brief and offered little forward guidance, leaving markets largely in the dark on how the committee is thinking beyond the three known dissents. A hawkish tone, particularly explicit discussion ",
+      "published": "19 Aug 2026 04:57 WIB",
+      "sentiment": "Bullish",
+      "score": 0.281,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Iran menolak tuduhan rudal UEA dan memperingatkan terhadap klaim yang tidak berdasar",
@@ -154,14 +187,36 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Yen tetap berada di bawah tekanan meski ada intervensi",
-      "url": "https://investinglive.com/education/the-yen-remains-under-pressure-despite-intervention/",
-      "summary": "At the end of July and the beginning of August, Japan and the U.S. conducted a rare, joint currency intervention to support the yen, spending around $89 billion and $5-$10 billion, respectively. Initially, the yen strengthened from 164 to 156 against the dollar, but two weeks later, USD/JPY is back ",
-      "published": "18 Aug 2026 19:53 WIB",
+      "source": "FXStreet News",
+      "title": "Dolar Australia berbalik arah karena Iran berisiko mengangkat USD menjelang risalah rapat Fed",
+      "url": "https://www.fxstreet.com/news/australian-dollar-reverses-as-iran-risks-lift-usd-ahead-of-fed-minutes-202608182353",
+      "summary": "The Aussie Dollar reversed its course against the Greenback on Tuesday as investors remain uncertain of the outcome of the Middle East conflict, which tends to push energy prices higher, increasing the likelihood that major central banks would need to tighten monetary policy.",
+      "published": "19 Aug 2026 06:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.42,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Trump dan Carney mengadakan pembicaraan di menit-menit terakhir menjelang penerapan tarif baru sebesar 50% pada barang-barang Kanada",
+      "url": "https://www.fxstreet.com/news/trump-carney-hold-last-minute-talks-ahead-of-new-50-tariffs-on-canadian-goods-202608182340",
+      "summary": "US President Donald Trump and Canadian Prime Minister Mark Carney are negotiating in an effort to reach an agreement on tariffs, with just hours to go before the United States (US) imposes 50% tariffs on hockey sticks, wine and an array of other Canadian imports, CNBC reported on Tuesday.",
+      "published": "19 Aug 2026 06:40 WIB",
       "sentiment": "Bullish",
-      "score": 0.511,
+      "score": 0.771,
       "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Peso Meksiko turun karena ketegangan Timur Tengah dan fokus pada berita acara FOMC",
+      "url": "https://www.fxstreet.com/news/mexican-peso-dips-on-middle-east-tensions-eyes-on-fomc-minutes-202608182158",
+      "summary": "The Mexican Peso loses some ground on Tuesday, depreciating by about 0.16% against the US Dollar as investors await the release of the Federal Reserve’s last meeting minutes, with a resolution of the US-Iran conflict remaining unlikely.",
+      "published": "19 Aug 2026 04:58 WIB",
+      "sentiment": "Bearish",
+      "score": -0.494,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -187,37 +242,37 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Euro gagal mempertahankan kenaikan terhadap Pound menjelang inflasi Inggris",
-      "url": "https://www.fxstreet.com/news/euro-fails-to-hold-gains-over-the-pound-ahead-of-uk-inflation-202608181610",
-      "summary": "EUR/GBP slips toward 0.8550 at the time of writing on Tuesday, with the Euro (EUR) unable to hold onto earlier gains against the Pound Sterling (GBP).",
-      "published": "18 Aug 2026 23:10 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Chip Selloff Clouds Asia Open, Kegelisahan Obligasi Berlama-lama: Pembungkus Pasar",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian stocks were set to fall as a selloff in US technology shares, elevated bond yields and rising oil prices weighed on sentiment.",
+      "published": "19 Aug 2026 05:11 WIB",
       "sentiment": "Bullish",
-      "score": 0.34,
+      "score": 0.216,
       "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 19 Agustus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/latest-oil-market-news-and-analysis-for-aug-19",
+      "summary": "Oil rose for a fourth day, with no sign of progress toward a resolution of the US-Iran war after almost six months of conflict.",
+      "published": "19 Aug 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.841,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dolar Selandia Baru melemah di tengah ketegangan AS-Iran karena ekspektasi kenaikan suku bunga RBNZ membatasi penurunan",
-      "url": "https://www.fxstreet.com/news/new-zealand-dollar-edges-lower-on-us-iran-tensions-as-rbnz-hike-expectations-curb-losses-202608181605",
-      "summary": "NZD/USD retreats on Tuesday and trades around 0.5880 at the time of writing, down 0.38% on the day. The New Zealand Dollar (NZD) remains under pressure as mounting geopolitical tensions between the United States (US) and Iran fuel risk aversion and support demand for the US Dollar (USD).",
-      "published": "18 Aug 2026 23:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.759,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Tembaga: Kenaikan harga menghadapi risiko pasokan – Commerzbank",
-      "url": "https://www.fxstreet.com/news/copper-booming-prices-face-supply-risks-commerzbank-202608181509",
-      "summary": "Commerzbank’s Barbara Lambrecht highlights that Copper prices on the LME are close to record highs, with an unusually large cash–3‑month spread driven by falling LME stocks and tariff-related pre‑emptive buying in the US.",
-      "published": "18 Aug 2026 22:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.233,
-      "emoji": "🔴",
-      "impact": "medium"
+      "source": "Bloomberg Markets",
+      "title": "Aula Revolusi Tentang Investasi di Sektor Pertahanan",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-18/revolution-s-hall-on-investing-in-the-defense-sector-video",
+      "summary": "David Hall, managing partner at Revolution, talks about investing in the defense sector and backing Hermeus, a company looking to build a hyper-sonic military jet. He speaks with Romaine Bostick at the Bloomberg New Voices event in Martha's Vineyard. (Source: Bloomberg)",
+      "published": "19 Aug 2026 04:50 WIB",
+      "sentiment": "Bullish",
+      "score": 0.273,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -231,26 +286,26 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Saham Energi Mencapai Rekor seiring Kenaikan Minyak karena Memudarnya Harapan Kesepakatan",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-18/energy-stocks-soar-to-record-as-oil-rises-on-trump-s-hard-line",
-      "summary": "Energy stocks closed at the first record since March as investors see diminishing prospects for a near-term ceasefire in the Iran war that could ease the standoff in the crucial Strait of Hormuz.",
-      "published": "18 Aug 2026 20:59 WIB",
+      "source": "Google News Geopolitik",
+      "title": "Bank sentral Sudan menilai intervensi mata uang untuk mendukung pound - Sudan Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUY0tnN2dHOXdMZjFLYktKQUs1SlBWTmJsaXNsRTNCRGRqNzFVcDhMUEpiaDZrVjlwVUprVjZJZ21mV2dlZzNfTGY2ejJvLW9j?oc=5",
+      "summary": "Sudan central bank assesses currency interventions to support pound Sudan Tribune",
+      "published": "19 Aug 2026 05:01 WIB",
       "sentiment": "Bullish",
-      "score": 0.78,
+      "score": 0.402,
       "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Saham AS Turun, Dipimpin oleh Sektor Teknologi, karena Lonjakan Imbal Hasil Obligasi Memicu Kegelisahan",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-18/us-stock-index-futures-drop-as-bond-yields-oil-prices-rise",
-      "summary": "US stocks fell on Tuesday, led by a slump in technology shares, as elevated bond yields and gains in oil prices prompted investors to pare back some of their riskier trades including bets on AI.",
-      "published": "18 Aug 2026 13:51 WIB",
+      "source": "Google News Geopolitik",
+      "title": "Peso Meksiko Tergelincir karena Gejolak Timur Tengah Memicu Tawaran Safe Haven Dolar AS - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYmlfemRqVzVMWDVpSC1EMG5GT3p0Mkw4UFQ2RTdWOHU0ZnotZ0hzTnRQVUI1TFVBdFRoTWZJczIwWHFKTFB6TFZwYjVMSHpsa0JiNG00MTRZWjJQS2U3T0N1ZDZ0Uk15bXZXRjVHdTlwMzlFVVlYWmtub1Azb254TC0zRGE?oc=5",
+      "summary": "Mexican Peso Slips as Middle East Turmoil Fuels US Dollar Safe-Haven Bids CryptoRank",
+      "published": "18 Aug 2026 04:16 WIB",
       "sentiment": "Netral",
-      "score": 0.026,
+      "score": 0.023,
       "emoji": "⚪",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Google News Geopolitik",
@@ -287,6 +342,28 @@
     },
     {
       "source": "BBC Business",
+      "title": "Pembayaran seluler meningkat namun penurunan uang tunai melambat",
+      "url": "https://www.bbc.co.uk/news/articles/cd7l9en2qrjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Nine in 10 mobile wallet users have their debit card loaded as their default payment method, new data shows.",
+      "published": "19 Aug 2026 06:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.16,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Teknologi penting tetap aman dengan bergerak di bawah tanah",
+      "url": "https://www.bbc.co.uk/news/articles/c20ydrndr0wo?at_medium=RSS&at_campaign=rss",
+      "summary": "The war in Ukraine has spurred people to consider putting vital infrastructure underground.",
+      "published": "19 Aug 2026 06:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.353,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Business",
       "title": "Kesempatan terakhir Carney untuk meyakinkan Trump menjelang batas waktu perdagangan AS-Kanada",
       "url": "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
       "summary": "Negotiators want a deal to avoid fresh US tariffs - though Canadians are not in the mood to offer many concessions.",
@@ -295,6 +372,17 @@
       "score": 0.501,
       "emoji": "🟢",
       "impact": "medium"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Melacak misi USS Lincoln selama berbulan-bulan seiring dengan meningkatnya kekhawatiran terhadap kondisi tersebut",
+      "url": "https://www.bbc.co.uk/news/videos/cdrv71lzejpo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Verify has used satellite imagery to monitor the warship on one of the longest ever US deployments.",
+      "published": "19 Aug 2026 03:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.338,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC Top Stories",
@@ -309,9 +397,20 @@
     },
     {
       "source": "Al Jazeera",
+      "title": "Bolivia menangkap penasihat politik kelompok sayap kanan Amerika Latin",
+      "url": "https://www.aljazeera.com/news/2026/8/18/bolivia-arrests-political-adviser-to-latin-american-right-wingers?traffic_source=rss",
+      "summary": "Arrest comes after attack on activist Nadia Beller, who says she was targeted for her opposition to corruption.",
+      "published": "19 Aug 2026 04:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.893,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
       "title": "Mengapa AS meningkatkan produksi Tomahawk?",
       "url": "https://www.aljazeera.com/video/inside-story/2026/8/18/why-is-the-us-ramping-up-tomahawk-production?traffic_source=rss",
-      "summary": "Pentagon contracts defence manufacturer to increase output of cruise missiles.",
+      "summary": "The Pentagon has contracted a defence manufacturer to increase the output of cruise missiles.",
       "published": "19 Aug 2026 04:26 WIB",
       "sentiment": "Bullish",
       "score": 0.322,
@@ -320,9 +419,9 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Kongo Wabah Ebola ‘darurat global’ saat angka infeksi melampaui 5.000: WHO",
+      "title": "Wabah Ebola di Kongo merupakan ‘darurat global’ ketika angka infeksi melampaui 5.000: WHO",
       "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss",
-      "summary": "Officials warn they are continuing to identify new chains of transmission, which need to be broken to stop the spread.",
+      "summary": "Officials warn they are continuing to identify new chains of transmission that need to be broken to stop the spread.",
       "published": "19 Aug 2026 04:24 WIB",
       "sentiment": "Bearish",
       "score": -0.851,
@@ -363,17 +462,6 @@
       "impact": "medium"
     },
     {
-      "source": "MarketWatch",
-      "title": "Anda akan segera dapat membeli paket Medicare Advantage di Costco. Apa yang perlu Anda ketahui.",
-      "url": "https://www.marketwatch.com/story/soon-you-can-buy-medicare-advantage-plans-at-costco-what-you-need-to-know-34e03242?mod=mw_rss_topstories",
-      "summary": "The warehouse club becomes the latest consumer brand to offer health insurance.",
-      "published": "19 Aug 2026 01:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.17,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "CNBC Forex",
       "title": "Pedagang pasar prediksi melihat sekitar 1 dari 4 peluang tawaran Paramount untuk membeli Warner Bros. Discovery gagal",
       "url": "https://www.cnbc.com/2026/08/17/pskys-wbd-bid-has-1-in-4-odds-of-falling-through-kalshi-traders-say.html",
@@ -408,6 +496,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "Nuklir di mana-mana? Payung nuklir AS yang melemah mendorong sekutu-sekutunya untuk mempertimbangkan pilihan-pilihan pertahanan, sehingga meningkatkan risiko kaskade proliferasi",
+      "url": "https://www.cnbc.com/2026/08/19/nuclear-proliferation-defense-risk-trump-umbrella-.html",
+      "summary": "As countries take more responsibility for their own defense and nuclear states step back from arms-control commitments, the question of proliferation arises.",
+      "published": "19 Aug 2026 06:25 WIB",
+      "sentiment": "Netral",
+      "score": 0.023,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Trump dan Carney dilaporkan sedang melakukan pembicaraan menjelang tarif baru sebesar 50% untuk barang-barang Kanada",
       "url": "https://www.cnbc.com/2026/08/18/trump-carney-canada-tariffs-dealine-talks.html",
       "summary": "Trump has already imposed a variety of tariffs on Canada and its specific exports, including metals, lumber and auto parts.",
@@ -437,28 +536,6 @@
       "sentiment": "Bullish",
       "score": 0.58,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Korea Selatan harus bersiap menghadapi ‘skenario terburuk’, kata Presiden Lee, ketika Trump menghentikan latihan militer",
-      "url": "https://www.cnbc.com/2026/08/18/trump-south-korea-military-exercises-iran-north-korea.html",
-      "summary": "The annual exercises, are defensive and not intended to attack North Korea or raise tensions on the peninsula, Lee said.",
-      "published": "18 Aug 2026 12:16 WIB",
-      "sentiment": "Bearish",
-      "score": -0.466,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump tidak akan memperpanjang gencatan senjata dengan Iran, mengancam akan 'mengebom' Oman jika 'menghalangi'",
-      "url": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
-      "summary": "Shipping traffic in the Strait of Hormuz sank to a new low as a ceasefire between the U.S. and Iran is set to expire on Monday with no deal in sight.",
-      "published": "18 Aug 2026 02:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.703,
-      "emoji": "🔴",
       "impact": "high"
     }
   ]
