@@ -1,5 +1,5 @@
 {
-  "generated": "19 Aug 2026 09:01 WIB",
+  "generated": "19 Aug 2026 11:00 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,38 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.457,
+      "score": -0.437,
       "count": 24
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.489,
-      "count": 21
+      "score": -0.436,
+      "count": 23
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.422,
-      "count": 18
+      "score": -0.4,
+      "count": 19
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.147,
-      "count": 17
+      "score": -0.191,
+      "count": 16
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.192,
-      "count": 8
+      "score": 0.131,
+      "count": 9
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.192,
-      "count": 8
+      "score": 0.131,
+      "count": 9
     },
     {
       "pair": "CAD/JPY",
@@ -54,6 +54,50 @@
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "investBerita pasar Asia-Pasifik langsung: Ekuitas Asia merosot, pemutus arus KOSPI",
+      "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-equities-slide-kospi-circuit-breaker/",
+      "summary": "RBA dep Gov Hauser says inflation is too high, monetary policy needs to bring it down China eases limits on Nvidia H200 chips as AI race escalates, FT reports Trump pauses 50% Canada tariffs for 'three day period' UAE-Iran trade halt more significant than US embargo, ex-official says Australia Q2 20",
+      "published": "19 Aug 2026 10:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.526,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Gubernur RBA Hauser mengatakan inflasi terlalu tinggi, kebijakan moneter perlu menurunkannya",
+      "url": "https://investinglive.com/central-banks/rba-dep-gov-hauser-says-inflation-is-too-high-monetary-policy-needs-to-bring-it-down/",
+      "summary": "Reserve Bank of Australia Deputy Gov Hauser: Inflation is too high Monetary policy needs to bring inflation down, needs to reduce demand in economy Not seeing recession, just slowdown Worried about inflation, upside risks to inflation If inflation doesnt come down, will have to raise rates again ---",
+      "published": "19 Aug 2026 09:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.434,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Tiongkok melonggarkan batasan pada chip Nvidia H200 seiring meningkatnya persaingan AI, lapor FT",
+      "url": "https://investinglive.com/stock-market-update/china-eases-limits-on-nvidia-h200-chips-as-ai-race-escalates-ft-reports/",
+      "summary": "A loosening of Beijing's own restrictions on Nvidia's H200 chips, even at a small scale, signals that Chinese authorities are prioritising domestic AI competitiveness over previous concerns about reliance on US hardware, a shift that could be read as bullish for Nvidia's addressable market in China ",
+      "published": "19 Aug 2026 09:32 WIB",
+      "sentiment": "Bullish",
+      "score": 0.341,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Trump menghentikan sementara tarif 50% Kanada untuk 'periode tiga hari'",
+      "url": "https://investinglive.com/news/trump-pauses-50-canada-tariffs-for-three-day-period/",
+      "summary": "Trump pauses the new tariffs that were due at midnight US Eastern time. Says has a tentative deal. USD/CAD dropped from around 1.3900 to around 1.3880. This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "19 Aug 2026 09:19 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
     {
       "source": "ForexLive",
       "title": "Perdagangan UEA-Iran terhenti lebih signifikan dibandingkan embargo AS, kata mantan pejabat",
@@ -132,46 +176,13 @@
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "UEA menghentikan semua transaksi perdagangan dan keuangan dengan Iran, kata pejabat Kementerian Luar Negeri",
-      "url": "https://investinglive.com/commodities/uae-halts-all-trade-and-financial-dealings-with-iran-mofa-official-says/",
-      "summary": "The suspension of trade, commercial and financial dealings between the UAE and Iran adds a fresh layer of geopolitical risk to an already tense Gulf backdrop. Traders will watch for signs the move signals a wider regional realignment against Tehran, which could tighten sentiment around Gulf shipping",
-      "published": "19 Aug 2026 03:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.511,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Trump sedang mempertimbangkan apakah akan memberikan penangguhan tarif kepada Kanada - Politico",
-      "url": "https://investinglive.com/news/trump-is-weighing-whether-to-grant-canada-a-tariff-reprieve-politico/",
-      "summary": "Full report here Politico is reporting that a potential interim trade deal between the US and Canada is now on President Trump’s desk, according to people familiar with the negotiations, leaving Trump to decide whether to accept an interim deal before broader USMCA talks or allow the planned 50% tar",
-      "published": "19 Aug 2026 02:23 WIB",
+      "source": "FXStreet News",
+      "title": "Presiden AS Trump: Saya telah menghentikan tarif 50% terhadap Kanada",
+      "url": "https://www.fxstreet.com/news/us-president-trump-i-have-paused-50-tariffs-against-canada-202608190258",
+      "summary": "Following overnight negotiations with Canadian Prime Minister Mark Carney, US President Donald Trump announced on Wednesday, “I have paused 50% tariffs against Canada for a three-day period.”",
+      "published": "19 Aug 2026 09:58 WIB",
       "sentiment": "Bullish",
-      "score": 0.761,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "investmentRingkasan berita FX Amerika langsung: Data AS beragam karena berita utama Iran dan tarif Kanada mendominasi",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap/",
-      "summary": "Canadian dollar extends losses as US downplays hopes for trade deal with Canada Canadian and US negotiators are expected to meet again ahead of midnight tariff deadline Cleveland Fed survey: businesses expect inflation to ease, investment to weaken over the coming year Pentagon weighing a smaller US",
-      "published": "19 Aug 2026 02:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Dolar Kanada terus mengalami penurunan karena AS meremehkan harapan kesepakatan perdagangan dengan Kanada",
-      "url": "https://investinglive.com/news/canadian-dollar-extends-losses-as-us-downplays-hopes-for-trade-deal-with-canada/",
-      "summary": "The outlook for a last-minute US-Canada trade agreement is getting a bit bleaker, with US officials reportedly downplaying hopes of a deal ahead of Tuesday’s tariff deadline. US President Trump and Canadian PM Carney are nevertheless expected to speak again ahead of the midnight deadline. The latest",
-      "published": "19 Aug 2026 01:52 WIB",
-      "sentiment": "Bullish",
-      "score": 0.958,
+      "score": 0.08,
       "emoji": "🟢",
       "impact": "medium"
     },
@@ -209,13 +220,24 @@
       "impact": "medium"
     },
     {
-      "source": "FXStreet News",
-      "title": "Peso Meksiko turun karena ketegangan Timur Tengah dan fokus pada berita acara FOMC",
-      "url": "https://www.fxstreet.com/news/mexican-peso-dips-on-middle-east-tensions-eyes-on-fomc-minutes-202608182158",
-      "summary": "The Mexican Peso loses some ground on Tuesday, depreciating by about 0.16% against the US Dollar as investors await the release of the Federal Reserve’s last meeting minutes, with a resolution of the US-Iran conflict remaining unlikely.",
-      "published": "19 Aug 2026 04:58 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 19 Agustus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/latest-oil-market-news-and-analysis-for-aug-19",
+      "summary": "Oil rose for a fourth day, with no sign of progress toward a resolution of the US-Iran war after almost six months of conflict.",
+      "published": "19 Aug 2026 05:02 WIB",
       "sentiment": "Bearish",
-      "score": -0.494,
+      "score": -0.841,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Tembaga Menahan Kerugian karena Pengiriman ke LME Mengurangi Krisis Pasokan",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/copper-holds-loss-as-deliveries-to-lme-mitigate-supply-crunch",
+      "summary": "Copper held the biggest loss in more than three weeks after traders made significant deliveries of the metal to London Metal Exchange warehouses, easing a historic squeeze.",
+      "published": "19 Aug 2026 10:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.442,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -229,6 +251,28 @@
       "score": -0.42,
       "emoji": "🔴",
       "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Swiss Akan Menolak Netralitas yang Lebih Ketat dalam Pemungutan Suara, Rusia Ingin Bergoyang",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/swiss-to-reject-stricter-neutrality-in-vote-russia-wants-to-sway",
+      "summary": "Swiss voters are set to reject an initiative to strengthen the country’s neutrality in a ballot next month that Russia has tried to sway with jibes about the country’s actions during World War II.",
+      "published": "19 Aug 2026 10:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.871,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Oasis Mendesak Kakaku.com untuk Menarik Dukungan untuk Tawaran Pembelian EQT",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/oasis-urges-kakaku-com-to-withdraw-support-for-eqt-s-buyout-bid",
+      "summary": "Kakaku.com Inc. shareholder Oasis Management Co. has asked the company to withdraw its support for EQT AB’s buyout bid on grounds that the offer is too low, escalating a bidding war for the Japanese price comparison site.",
+      "published": "19 Aug 2026 09:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.233,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -251,28 +295,6 @@
       "score": -0.911,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru 19 Agustus",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-18/latest-oil-market-news-and-analysis-for-aug-19",
-      "summary": "Oil rose for a fourth day, with no sign of progress toward a resolution of the US-Iran war after almost six months of conflict.",
-      "published": "19 Aug 2026 05:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.841,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Bank sentral Sudan menilai intervensi mata uang untuk mendukung pound - Sudan Tribune",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUY0tnN2dHOXdMZjFLYktKQUs1SlBWTmJsaXNsRTNCRGRqNzFVcDhMUEpiaDZrVjlwVUprVjZJZ21mV2dlZzNfTGY2ejJvLW9j?oc=5",
-      "summary": "Sudan central bank assesses currency interventions to support pound Sudan Tribune",
-      "published": "19 Aug 2026 05:01 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
-      "impact": "high"
     },
     {
       "source": "Google News Geopolitik",
@@ -304,6 +326,17 @@
       "published": "19 Aug 2026 08:31 WIB",
       "sentiment": "Bearish",
       "score": -0.402,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump menghentikan sementara tarif baru terhadap Kanada dan mengatakan negara-negara hampir mencapai kesepakatan",
+      "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss",
+      "summary": "US President Donald Trump said he will delay imposing new tariffs on a wide array of Canadian goods for three days as the countries firm up a trade deal.",
+      "published": "19 Aug 2026 10:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.322,
       "emoji": "🔴",
       "impact": "medium"
     },
@@ -353,7 +386,7 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Is another UK heatwave on the way in September?",
+      "title": "Apakah gelombang panas Inggris akan terjadi lagi pada bulan September?",
       "url": "https://www.bbc.co.uk/weather/articles/c79g04899wno?at_medium=RSS&at_campaign=rss",
       "summary": "Some long range forecasts are suggesting autumn could be hotter and drier than average. Simon King explores whether a warm spell might be on the cards.",
       "published": "19 Aug 2026 07:21 WIB",
@@ -364,23 +397,34 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "AS mengutuk 'eskalasi yang tidak perlu' setelah serangan udara Israel terhadap pangkalan udara Suriah",
-      "url": "https://www.bbc.co.uk/news/articles/c62vy3wl31lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Damascus called the attacks \"an unjustified act of aggression\" that imperilled regional security.",
-      "published": "19 Aug 2026 07:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.878,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
       "title": "Melacak misi USS Lincoln selama berbulan-bulan seiring dengan meningkatnya kekhawatiran terhadap kondisi tersebut",
       "url": "https://www.bbc.co.uk/news/videos/cdrv71lzejpo?at_medium=RSS&at_campaign=rss",
       "summary": "BBC Verify has used satellite imagery to monitor the warship on one of the longest ever US deployments.",
       "published": "19 Aug 2026 03:48 WIB",
       "sentiment": "Bearish",
       "score": -0.338,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "UEA memberlakukan embargo perdagangan tanpa batas terhadap Iran atas dugaan serangan rudal",
+      "url": "https://www.aljazeera.com/news/2026/8/19/uae-imposes-indefinite-trade-embargo-on-iran-over-alleged-missile-attacks?traffic_source=rss",
+      "summary": "Iran denies launching missiles at the UAE, suggesting the incident was a 'false flag operation'.",
+      "published": "19 Aug 2026 10:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.887,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "AS memberikan sanksi kepada presiden dan pengacara utama Pengadilan Kriminal Internasional",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/us-sanctions-international-criminal-courts-president-and-top-lawyer?traffic_source=rss",
+      "summary": "The US has sanctioned International Criminal Court president Tomoko Akane and trial lawyer Abdoulaye Seye.",
+      "published": "19 Aug 2026 10:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.798,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -440,36 +484,14 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Rusia melaporkan serangan pesawat tak berawak Ukraina di dekat pembangkit listrik tenaga nuklir Zaporizhzhia",
-      "url": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss",
-      "summary": "Concern over the security of Europe's largest nuclear plant has been rife since Russia launched its full-scale war.",
-      "published": "19 Aug 2026 03:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.441,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Serangan rudal Rusia menewaskan 10 warga sipil di Kharkiv",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss",
-      "summary": "A Russian missile strike on Pechenihy, in Ukraine’s Kharkiv region, killed at least 10 civilians and wounded 17 others.",
-      "published": "19 Aug 2026 03:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.955,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump dan Carney berbicara menjelang batas waktu tarif AS",
-      "url": "https://www.aljazeera.com/economy/2026/8/18/trump-and-carney-speak-ahead-of-us-tariff-deadline?traffic_source=rss",
-      "summary": "The new US tariffs would cover about $20bn worth of imports and could lead to job losses and business closures.",
-      "published": "19 Aug 2026 03:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.282,
-      "emoji": "🔴",
+      "source": "MarketWatch",
+      "title": "Trump menunda tarif baru sebesar 50% untuk barang-barang Kanada",
+      "url": "https://www.marketwatch.com/story/trump-holds-off-on-new-50-tariffs-for-canadian-goods-71f75005?mod=mw_rss_topstories",
+      "summary": "Here’s what’s going on with the Trump administration’s plan for new tariffs for some Canadian goods.",
+      "published": "19 Aug 2026 09:42 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "medium"
     },
     {
@@ -496,6 +518,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "Trump menghentikan sementara tarif 50% yang dijadwalkan di Kanada selama tiga hari, mengumumkan 'kesepakatan' dengan Ottawa",
+      "url": "https://www.cnbc.com/2026/08/18/trump-carney-canada-tariffs-dealine-talks.html",
+      "summary": "Trump has already imposed a variety of tariffs on Canada and its specific exports, including metals, lumber and auto parts.",
+      "published": "19 Aug 2026 10:18 WIB",
+      "sentiment": "Netral",
+      "score": 0.003,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
       "title": "Trump mengatakan tidak ada pembicaraan yang dijadwalkan dengan Iran saat ia mengisyaratkan tindakan di Selat Hormuz",
       "url": "https://www.cnbc.com/2026/08/18/us-iran-war-trump-hormuz-trump-ceasefire-expires-extension-.html",
       "summary": "Trump insists the U.S., not Iran, is in control of the strait, even though transiting vessels continue to come under attack and few attempt the crossing.",
@@ -515,17 +548,6 @@
       "score": 0.023,
       "emoji": "⚪",
       "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump dan Carney dilaporkan sedang melakukan pembicaraan menjelang tarif baru sebesar 50% untuk barang-barang Kanada",
-      "url": "https://www.cnbc.com/2026/08/18/trump-carney-canada-tariffs-dealine-talks.html",
-      "summary": "Trump has already imposed a variety of tariffs on Canada and its specific exports, including metals, lumber and auto parts.",
-      "published": "19 Aug 2026 03:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.077,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "CNBC World",
