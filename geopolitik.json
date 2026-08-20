@@ -1,5 +1,5 @@
 {
-  "generated": "20 Aug 2026 05:08 WIB",
+  "generated": "20 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.091,
-      "count": 15
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.099,
-      "count": 14
+      "score": -0.142,
+      "count": 13
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.227,
-      "count": 14
+      "score": -0.221,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.198,
-      "count": 8
+      "score": -0.253,
+      "count": 11
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.088,
+      "count": 11
     },
     {
       "pair": "AUD/USD",
@@ -41,19 +41,41 @@
       "count": 5
     },
     {
-      "pair": "EUR",
-      "direction": "Netral →",
-      "score": 0.021,
-      "count": 2
+      "pair": "GBP/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.209,
+      "count": 3
     },
     {
-      "pair": "USD",
-      "direction": "Netral →",
-      "score": 0.021,
-      "count": 2
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.886,
+      "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Trump berjanji akan menghancurkan operasi ekonomi baru terhadap Iran, dan sekutunya memperingatkan",
+      "url": "https://investinglive.com/commodities/trump-vows-crushing-new-economic-operation-against-iran-warns-allies/",
+      "summary": "This is a significant escalation in rhetoric even by the standards of the past several weeks, and oil prices are the asset most directly exposed to it. A threat to sanction any country, bank, or shipping entity aiding Iran raises the risk of further disruption to whatever flows are currently moving ",
+      "published": "20 Aug 2026 06:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.886,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Independensi The Fed menjadi fokus ketika para senator mempertanyakan kesenjangan kalender Warsh",
+      "url": "https://investinglive.com/central-banks/fed-independence-in-focus-as-senators-question-warsh-s-calendar-gaps/",
+      "summary": "Questions over the Fed chairman's contact with the White House add a fresh layer of uncertainty to a rates outlook that is already unsettled following the hawkish (but dated) FOMC minutes and the Treasury's buyback intervention. Any perception that Warsh's decisions are being shaped by the administr",
+      "published": "20 Aug 2026 05:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.542,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "ICYMI: AS menjalankan koridor minyak Hormuz secara diam-diam, menghasilkan 10 juta barel per hari: Axios",
@@ -110,15 +132,15 @@
       "impact": "medium"
     },
     {
-      "source": "ForexLive",
-      "title": "Risalah rapat FOMC menjadi fokus hari ini",
-      "url": "https://investinglive.com/central-banks/fomc-meeting-minutes-in-focus-in-the-day-ahead/",
-      "summary": "After Fed chair Warsh's shift in stance on forward guidance in response to the central bank's reaction function, the FOMC meeting minutes will arguably take on more importance than it did before. Warsh didn't offer much of anything in kicking the can down the road. As such, a closer look at the disc",
-      "published": "19 Aug 2026 14:57 WIB",
-      "sentiment": "Bullish",
-      "score": 0.201,
-      "emoji": "🟢",
-      "impact": "high"
+      "source": "FXStreet News",
+      "title": "Presiden AS Donald Trump mengumumkan \"operasi ekonomi yang menghancurkan\" terhadap Iran",
+      "url": "https://www.fxstreet.com/news/us-president-donald-trump-announces-crushing-economic-operation-on-iran-202608192341",
+      "summary": "US President Trump announced the most severe economic action ever taken against Iran, CBS News reported on Wednesday. Trump said this will be economic conflict and isolation on an unprecedented scale and the countries allowing financial aid to Iran will face severe economic consequences.",
+      "published": "20 Aug 2026 06:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.9,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -132,17 +154,6 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dow Jones Industrial Average menguat karena tawaran yang tidak dibuat oleh siapa pun",
-      "url": "https://www.fxstreet.com/news/dow-jones-industrial-average-rallies-on-a-bid-nobody-made-202608191641",
-      "summary": "The Dow Jones Industrial Average (DJIA) trades near 53,600 on Wednesday, more than 230 points and 0.44% higher, and none of that gain is about earnings, growth or the Federal Reserve (Fed).",
-      "published": "19 Aug 2026 23:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.115,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "Bloomberg Markets",
       "title": "CEO Estee Lauder Mengatakan Perusahaan Memiliki 'Momentum Hebat'",
       "url": "https://www.bloomberg.com/news/videos/2026-08-19/estee-lauder-ceo-says-company-has-great-momentum-video",
@@ -152,6 +163,17 @@
       "score": 0.756,
       "emoji": "🟢",
       "impact": "high"
+    },
+    {
+      "source": "Google News Geopolitik",
+      "title": "Mata uang Brasil kemungkinan akan menghadapi pemilu yang tidak terlalu bergejolak - Valor International",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTVppZjlQRkFyOTRvQTdzajdFRGJDRXZyMHlER19rLTN0WG9rQXVYN0hLZWV2Rmx3ZkFZNFVWYWhGT0RCbFFPWWdWZ09zWFBfQWxLVS04bzBYUVRwSW1lRUJOY3gzakdJTi1TVF9lX1B1OWc4VktnWUdYUWZuT0hiRFFXQmxCZ2ItTDVaX05tcjN4aE5vVWw2R0hndmpUczNLbGgtQlJQbEhwQXZMSkEzV3RfcEoxOHpYLWpqOExQWHIwUdIB0AFBVV95cUxNQWl0MFh5eTVBaEtJTnFva2pLVUI0b3BTUnNWeXExRUtVeUE5U0lHWGxRbTY1LUJicVFlTnFQaldXTXlWS1J6bHlNSTFBc01VRUhrRzJuMkVkR1h1YkVWeC1Bb0xNTGlzNGVoSnMyaDZWdkFmS2MzVHBxUzdKT2x2X0ZsNklKbXozOUNpNVlTeVlWNElRX0N3Q3RwbWFHbEIyY2Z4eHhHYzFtQk1LZk1ESWVGWFE4TS1YT3dnM2JqTzAtQVpmVGctWlZzMUk1eW54?oc=5",
+      "summary": "Brazilian currency likely to face less turbulent election Valor International",
+      "published": "18 Aug 2026 19:10 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -191,7 +213,7 @@
       "title": "Kanada dan AS mengatakan mereka sedang menyelesaikan kesepakatan perdagangan, namun rinciannya masih belum jelas",
       "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss",
       "summary": "Prime Minister Carney hailed \"significant progress\" in trade talks as the two countries seek to hammer out final details ahead of a new weekend tariff deadline.",
-      "published": "20 Aug 2026 02:59 WIB",
+      "published": "20 Aug 2026 06:32 WIB",
       "sentiment": "Bullish",
       "score": 0.67,
       "emoji": "🟢",
@@ -221,17 +243,6 @@
     },
     {
       "source": "BBC Business",
-      "title": "Teknologi penting tetap aman dengan bergerak di bawah tanah",
-      "url": "https://www.bbc.co.uk/news/articles/c20ydrndr0wo?at_medium=RSS&at_campaign=rss",
-      "summary": "The war in Ukraine has spurred people to consider putting vital infrastructure underground.",
-      "published": "19 Aug 2026 06:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.353,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Business",
       "title": "Pembayaran seluler meningkat namun penurunan uang tunai melambat",
       "url": "https://www.bbc.co.uk/news/articles/cd7l9en2qrjo?at_medium=RSS&at_campaign=rss",
       "summary": "Nine in 10 mobile wallet users have their debit card loaded as their default payment method, new data shows.",
@@ -246,11 +257,44 @@
       "title": "Pangeran Harry dan Meghan pindah kembali ke Inggris",
       "url": "https://www.bbc.co.uk/news/articles/c62ey03z9d1o?at_medium=RSS&at_campaign=rss",
       "summary": "The couple's children, Prince Archie, 7, and Princess Lilibet, 5, are enrolled to start at a school in September.",
-      "published": "20 Aug 2026 04:59 WIB",
+      "published": "20 Aug 2026 06:52 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Badan internasional melakukan pemungutan suara untuk mengadakan pertemuan darurat mengenai Nikaragua",
+      "url": "https://www.aljazeera.com/news/2026/8/19/international-body-votes-to-convene-emergency-meeting-over-nicaragua?traffic_source=rss",
+      "summary": "Nicaragua's move to extend Ortega's rule and bar rivals from elections triggers a near-unanimous OAS rebuke.",
+      "published": "20 Aug 2026 06:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.226,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pentagon menanyai sekutu-sekutu NATO mengenai loyalitas politik, demikian ungkap dokumen",
+      "url": "https://www.aljazeera.com/news/2026/8/19/pentagon-quizzes-nato-allies-on-political-loyalty-documents-reveal?traffic_source=rss",
+      "summary": "NATO allies probed on loyalty to US policies in Pentagon questionnaire obtained exclusively by Al Jazeera.",
+      "published": "20 Aug 2026 06:24 WIB",
+      "sentiment": "Bullish",
+      "score": 0.791,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Lebanon menyerahkan mantan jenderal tentara Suriah ke Damaskus setelah surat perintah penangkapan",
+      "url": "https://www.aljazeera.com/news/2026/8/19/lebanon-hands-former-syrian-army-general-to-damascus-after-arrest-warrant?traffic_source=rss",
+      "summary": "The transfer is the first from Lebanon involving a Syrian military officer who fled after al-Assad's government fell.",
+      "published": "20 Aug 2026 06:21 WIB",
+      "sentiment": "Bearish",
+      "score": -0.42,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -297,28 +341,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Kanada meningkatkan bantuan ke Lebanon hingga $50 juta dan mengutuk ‘invasi melanggar hukum’ Israel",
-      "url": "https://www.aljazeera.com/news/2026/8/19/canada-pledges-50m-aid-to-lebanon-and-condemns-israeli-unlawful-invasion?traffic_source=rss",
-      "summary": "Canada official condemns Israel's 'invasion' of Lebanon, calls for sovereignty as aid pledged to the crisis-hit nation.",
-      "published": "20 Aug 2026 01:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.809,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "NATO ‘bersiap’ untuk membela sekutu di tengah laporan rencana serangan Iran",
-      "url": "https://www.aljazeera.com/news/2026/8/19/nato-prepared-to-defend-allies-amid-report-of-iranian-strike-plans?traffic_source=rss",
-      "summary": "NATO says it will 'do what is necessary' amid media report Iran considered strikes against US targets in Europe.",
-      "published": "20 Aug 2026 00:50 WIB",
-      "sentiment": "Bearish",
-      "score": -0.379,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "MarketWatch",
       "title": "Saham ServiceNow memimpin reli perangkat lunak. Inilah yang memberi semangat kepada investor.",
       "url": "https://www.marketwatch.com/story/servicenows-stock-leads-a-software-rally-heres-whats-energizing-investors-0ad74dd1?mod=mw_rss_topstories",
@@ -361,17 +383,6 @@
       "score": 0.003,
       "emoji": "⚪",
       "impact": "medium"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Rusia mengatakan perekonomiannya kuat. Pemerintah baru saja memecat seorang ekonom terkemuka yang memperingatkan sebaliknya",
-      "url": "https://www.cnbc.com/2026/08/18/ukraine-war-russia-economy-klepach.html",
-      "summary": "Andrei Klepach was reportedly fired from his role after presenting a report warning that Russia could not win a prolonged war of attrition with Ukraine.",
-      "published": "18 Aug 2026 18:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.927,
-      "emoji": "🔴",
-      "impact": "high"
     }
   ]
 }
