@@ -1,18 +1,18 @@
 {
-  "generated": "20 Aug 2026 12:12 WIB",
+  "generated": "20 Aug 2026 12:15 WIB",
   "summary": {
-    "total": 104,
-    "bullish": 41,
-    "bearish": 49,
-    "netral": 14,
-    "avg_score": -0.0879,
+    "total": 105,
+    "bullish": 42,
+    "bearish": 48,
+    "netral": 15,
+    "avg_score": -0.0736,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Netral",
-        "score": -0.031,
-        "count": 26
+        "score": 0.022,
+        "count": 27
       },
       {
         "currency": "JPY",
@@ -23,7 +23,7 @@
       {
         "currency": "EUR",
         "sentiment": "Bullish",
-        "score": 0.335,
+        "score": 0.571,
         "count": 6
       },
       {
@@ -45,16 +45,16 @@
         "count": 3
       },
       {
+        "currency": "GBP",
+        "sentiment": "Netral",
+        "score": -0.024,
+        "count": 2
+      },
+      {
         "currency": "CHF",
         "sentiment": "Bullish",
         "score": 0.402,
         "count": 2
-      },
-      {
-        "currency": "GBP",
-        "sentiment": "Bearish",
-        "score": -0.813,
-        "count": 1
       }
     ]
   },
@@ -259,6 +259,17 @@
     },
     {
       "source": "FXStreet News",
+      "title": "Perkiraan Harga GBP/USD: Menguat Di Atas 1,3600 Karena Tren Bullish Bertahan Di Atas SMA 100-Hari",
+      "url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-strengthens-above-13600-as-bullish-trend-holds-above-100-day-sma-202608200513",
+      "summary": "The GBP/USD pair trades in positive territory around 1.3610 during the early European trading hours on Thursday.",
+      "published": "20 Aug 2026 12:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.765,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Franc Swiss melemah menjelang data Neraca Perdagangan",
       "url": "https://www.fxstreet.com/news/swiss-franc-weakens-ahead-of-trade-balance-data-202608200510",
       "summary": "USD/CHF gains ground after registering handsome losses in the previous day, trading around 0.8000 during the Asian hours on Thursday. The USD/CHF pair continues to hold its gains as the Swiss Franc (CHF) remains under pressure ahead of the upcoming domestic Trade Balance report.",
@@ -434,17 +445,6 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Euro melemah di bawah 1,1700 meskipun peluang kenaikan suku bunga Fed memudar",
-      "url": "https://www.fxstreet.com/news/euro-edges-lower-below-11700-despite-fading-fed-hike-odds-202608200103",
-      "summary": "The EUR/USD pair posts modest losses around 1.1675 during the early Asian session on Thursday. The Euro (EUR) edges lower against the US Dollar (USD) after experiencing a sharp surge in the previous session.",
-      "published": "20 Aug 2026 08:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.647,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Forex",
       "title": "Saham Toyota dan Honda naik di tengah laporan rencana AS untuk memotong tarif mobil Kanada",
       "url": "https://www.investing.com/news/stock-market-news/toyota-honda-shares-rise-on-report-us-plans-to-cut-canada-auto-tariffs-4868677",
@@ -490,7 +490,7 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Saham-saham Asia rebound karena pembelian kembali Treasury menghidupkan kembali selera risiko; KOSPI melonjak",
+      "title": "Saham Asia Rebound karena Pembelian Kembali Treasury Menghidupkan Kembali Selera Risiko; KOSPI melonjak",
       "url": "https://www.investing.com/news/stock-market-news/asian-stocks-rebound-as-treasury-buybacks-revive-risk-appetite-kospi-surges-4868669",
       "summary": "",
       "published": "20 Aug 2026 11:33 WIB",
@@ -600,9 +600,9 @@
     },
     {
       "source": "Reuters Currencies",
-      "title": "Citi, HSBC, StanChart mengadopsi alat AI forex Ant International - Reuters",
+      "title": "Citi, HSBC, StanChart mengadopsi alat AI forex Ant International - reuters.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbUpsbUhGRVo0V2tja0RmZS05YUUySzFMNWVuTERqc2R2ZWhyZlRqVEI5QTVYLUpxMkFGRDVrQVBUVHppY3hRQkdieEFPRkhmSFdsV0dGUHVCNmN3VzltT2pnb3IxQmZ1bDNLNmZRVFBuOXJYZXVLd1c1ampCZ1Fqc0tnN0tOQURWdHNDQldPUk1xUW9SZG5vQV9nZExUM0duQTdnLWd4WmQ5LTR3ZW8zRg?oc=5",
-      "summary": "Citi, HSBC, StanChart adopt Ant International’s forex AI tool Reuters",
+      "summary": "Citi, HSBC, StanChart adopt Ant International’s forex AI tool reuters.com",
       "published": "20 Aug 2026 09:06 WIB",
       "sentiment": "Bullish",
       "score": 0.34,
@@ -611,9 +611,9 @@
     },
     {
       "source": "Reuters Currencies",
-      "title": "Bank sentral India kemungkinan akan melakukan intervensi untuk melindungi rupee dari tekanan minyak, kata para pedagang - Reuters",
+      "title": "Bank sentral India kemungkinan akan melakukan intervensi untuk melindungi rupee dari tekanan minyak, kata para pedagang - reuters.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUHVOeHdQRXVmbHgxLVhUOXdSNlFLSFlXSVBFZUxSSVQwOUR4WjhlaW9ZRE9fQUZTbjQ1b1VJbWpMLTNpQ1RYdXF5cmZ5QjhIYXJNN0R5UWlGQTlKdmZjV1ZZNUotR0NNWWJOWGVxM0EyTkNJeXFsX0J6d1dITlZwNTI5WDRrWjV0Y1lZM3ZpdU9WNjlObGNSVXRvbzVzUUo3cloyN0FBNUl0a3JVWUIwQVg3bVRNTWRwTmw4WnB3?oc=5",
-      "summary": "Indian central bank likely intervenes to shield rupee from oil strain, traders say Reuters",
+      "summary": "Indian central bank likely intervenes to shield rupee from oil strain, traders say reuters.com",
       "published": "19 Aug 2026 10:32 WIB",
       "sentiment": "Bearish",
       "score": -0.103,
@@ -622,9 +622,9 @@
     },
     {
       "source": "Reuters Currencies",
-      "title": "Investor mengincar franc Swiss untuk carry trade yang populer setelah intervensi yen - Reuters",
+      "title": "Investor mengincar franc Swiss untuk carry trade yang populer setelah intervensi yen - reuters.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVnAzS0lzUXlRcWhYbXljdDlSVWZNM2lXMVd4aUNMVllRdnNrRV91SjJ2TVFiV1BpQmdsN3VOV1hNV0g3bHdRUFFvUGxEYmh4R29UTkFnQU5qcldLX0FpRzVYbzRocl9Gd1U2Qk9JTlFwUmhDQ3BOTVBybTdKXzhoTm1rOFMyU28wZmQ0Q21KZlY0Qzkzb3NHc2VUbG40TnhCQjFTbkJBbXE1bHdQeXZMNjdXYWhwNnI4cXZjZ0VkMWtqandIeWh4ag?oc=5",
-      "summary": "Investors set sights on Swiss franc for popular carry trades after yen intervention Reuters",
+      "summary": "Investors set sights on Swiss franc for popular carry trades after yen intervention reuters.com",
       "published": "19 Aug 2026 11:02 WIB",
       "sentiment": "Bullish",
       "score": 0.681,
@@ -633,9 +633,20 @@
     },
     {
       "source": "Reuters Currencies",
-      "title": "Alphabet kumpulkan obligasi perdana dolar Australia senilai $3,9 miliar - Reuters",
+      "title": "Dolar berada di posisi terendah dalam tiga bulan karena Departemen Keuangan berupaya mengendalikan lonjakan imbal hasil obligasi - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPamFxZlBhRm1DcmRBZF9VSDd4aXllSmNTWEttZ2dLUkprSnJ5c2xBNXRKT1lQTDdrbXlUUjBnTXdWdVRrWENPYkRkal9pbm9UVDNueFd0am56Z3JCakxsZ2ZHclBRMHpyUUMzeVJHV1FPcVp1dXBYNUtMNk81Z3k1QkRmV1RnRHdPVjhDU3hNYS1xaWxYOU4wMUQwWk5nTDJPWG9kblZIQV9xOG11QTJR?oc=5",
+      "summary": "Dollar at three-month lows as Treasury seeks to rein in surging bond yields reuters.com",
+      "published": "20 Aug 2026 07:53 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Reuters Currencies",
+      "title": "Alphabet kumpulkan obligasi perdana dolar Australia senilai $3,9 miliar - reuters.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSWowTDhsUGNUOXVDQ1Q0STlaemFrQ2tRQUFsUVo0Z3VaYURVQnV3U1VhUV9oTmthdm9PM2xFaUhzRlhGQ2JyNGJYMjVIX1FrT0Z5R0RjXzhsWUVSMXRGWGg4eHd5VlhRQjUtTS1id0YzTXhpdE9GN2hCVHFVQi0wNkFsd3NBUFEyc0pyRVBZcnB1OTZBQ0RDdlpQSzk3NHVTdHRRVjB4T1FpeVJ0ODBQbjZn?oc=5",
-      "summary": "Alphabet raises $3.9 billion in inaugural Australian dollar bond Reuters",
+      "summary": "Alphabet raises $3.9 billion in inaugural Australian dollar bond reuters.com",
       "published": "20 Aug 2026 03:25 WIB",
       "sentiment": "Netral",
       "score": 0.0,
@@ -644,9 +655,9 @@
     },
     {
       "source": "Reuters Currencies",
-      "title": "Imbal hasil zona euro turun dari tertinggi multi-tahun setelah pengumuman Departemen Keuangan AS - Reuters",
+      "title": "Imbal hasil zona Euro turun dari tertinggi multi-tahun setelah pengumuman Departemen Keuangan AS - reuters.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcXBZX1BWaGNBWmxlLXZuY1FjdkJyX3kwdEZhSE9JSXg3cTNWXzk5UlBhTi1LTjQwaGNOaHYtbTFwYlpiNHNXaF9vdDZ2NWJreHlhQXhpZmVKb1NUNzJOaEIzTDRrdkI2VDJiakUxWTl2T2w0WlA4aGpaUFFaVVdnVmNhelF5ajdZQndfUno2UEZWWlphU2QzT2RHMWwySU9TX2xkSGZYc0lRWlNZZTVXbTRR?oc=5",
-      "summary": "Euro zone yields slip from multi-year highs after US Treasury announcement Reuters",
+      "summary": "Euro zone yields slip from multi-year highs after US Treasury announcement reuters.com",
       "published": "19 Aug 2026 22:45 WIB",
       "sentiment": "Bullish",
       "score": 0.382,
@@ -688,7 +699,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Serangan Rusia Meninggalkan Petani Ukraina Dengan Tumpukan Gandum yang Tidak Terjual",
+      "title": "Serangan Rusia Meninggalkan Petani Ukraina dengan Tumpukan Gandum yang Tak Terjual",
       "url": "https://www.bloomberg.com/news/articles/2026-08-20/russian-strikes-leave-ukraine-farmers-with-piles-of-unsold-grain",
       "summary": "More than four years ago, Ravil Dzhamally fled his farm in Ukraine’s Kherson region after it was overrun by invading Russian troops. When Moscow’s forces were driven back, he returned to clear his fields of mines and plant wheat, barley and sunflowers.",
       "published": "20 Aug 2026 11:00 WIB",
@@ -732,9 +743,9 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Bank Sentral Sudan meninjau intervensi valuta asing untuk menstabilkan mata uang - Sudan Tribune",
+      "title": "Bank sentral Sudan meninjau intervensi valuta asing untuk menstabilkan mata uang - sudantribune.com",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUY0tnN2dHOXdMZjFLYktKQUs1SlBWTmJsaXNsRTNCRGRqNzFVcDhMUEpiaDZrVjlwVUprVjZJZ21mV2dlZzNfTGY2ejJvLW9j?oc=5",
-      "summary": "Sudan central bank reviews foreign exchange interventions to stabilize currency Sudan Tribune",
+      "summary": "Sudan central bank reviews foreign exchange interventions to stabilize currency sudantribune.com",
       "published": "19 Aug 2026 05:01 WIB",
       "sentiment": "Netral",
       "score": 0.0,
@@ -757,7 +768,7 @@
       "title": "Rusia melancarkan serangan rudal ke Kyiv dan wilayah sekitarnya, menewaskan sedikitnya delapan orang",
       "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
       "summary": "Apartment blocks and warehouses were targeted in the \"massive attack\" on Thursday, according to the State Emergency Service of Ukraine.",
-      "published": "20 Aug 2026 11:46 WIB",
+      "published": "20 Aug 2026 12:12 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -908,7 +919,7 @@
     },
     {
       "source": "BBC Business",
-      "title": "Biaya pinjaman global mencapai titik tertinggi baru karena kekhawatiran terhadap minyak, AI dan inflasi",
+      "title": "Biaya pinjaman global mencapai titik tertinggi baru akibat kekhawatiran terhadap minyak, AI dan inflasi",
       "url": "https://www.bbc.co.uk/news/articles/c1k1x1zdywdo?at_medium=RSS&at_campaign=rss",
       "summary": "Interest rates on long-term US, UK, German and Japanese government debt have soared.",
       "published": "19 Aug 2026 01:20 WIB",
@@ -1150,7 +1161,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Trump yang mengurangi latihan AS-Korea Selatan berisiko lebih dari sekadar kesiapan militer bersama",
+      "title": "Trump mengurangi skala latihan AS-Korea Selatan mempunyai risiko lebih dari sekedar kesiapan militer gabungan",
       "url": "https://www.cnbc.com/2026/08/20/trump-south-korea-military-drills-cuts-.html",
       "summary": "The move by Trump also will start to raise questions about the credibility of Washington's commitment to alliances.",
       "published": "20 Aug 2026 12:08 WIB",
