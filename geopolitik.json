@@ -1,5 +1,5 @@
 {
-  "generated": "20 Aug 2026 22:01 WIB",
+  "generated": "21 Aug 2026 03:27 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,64 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.39,
-      "count": 26
+      "score": -0.265,
+      "count": 19
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.39,
-      "count": 26
+      "score": -0.265,
+      "count": 19
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.47,
-      "count": 23
+      "score": -0.357,
+      "count": 16
     },
     {
       "pair": "EUR/USD",
       "direction": "Netral →",
-      "score": -0.009,
-      "count": 6
-    },
-    {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.246,
-      "count": 2
+      "score": -0.023,
+      "count": 7
     },
     {
       "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.105,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.209,
       "count": 2
     },
     {
       "pair": "USD/CNY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.209,
+      "count": 2
+    },
+    {
+      "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.105,
+      "score": -0.323,
       "count": 2
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.202,
-      "count": 2
+      "score": -0.52,
+      "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "US Treasury Secretary Bessent says the long-dated bond buyback could be more than 4 billion",
+      "url": "https://investinglive.com/news/us-treasury-secretary-bessent-says-the-long-dated-bond-buyback-could-be-more-than-4-billion/",
+      "summary": "Buyback could be more than 4 billion Part of it is signalling We want to show that yields do not reflect underlying fundamentals Probably going to announce increased focus on fiscal consolidation Nothing magic about $40 trillion debt number Expect tariff 2026 income will be similar to 2025 Very good",
+      "published": "20 Aug 2026 22:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.678,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
     {
       "source": "ForexLive",
       "title": "Indeks utama AS untuk bulan Juli +0,2% vs perkiraan +0,1%.",
@@ -99,123 +110,24 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "investBerita pasar Asia-Pasifik langsung: Trump berjanji akan menghapuskan sanksi baru terhadap Iran",
-      "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-trump-vows-sweeping-new-iran-sanctions/",
-      "summary": "SK Hynix swap costs, which spiked to 1000bp in June, now said to halve Run on banks feared as concern rises over government seizing deposits to fund war Australia's jobless rate climbs to a near four year high in July PBOC sets USD/ CNY mid-point today at 6.7808 (vs. estimate at 6.7196) Australian J",
-      "published": "20 Aug 2026 10:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.871,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "FXStreet News",
-      "title": "Dolar Kanada: Fokus ke atas ke 1,35–1,37 terhadap Dolar AS – Scotiabank",
-      "url": "https://www.fxstreet.com/news/canadian-dollar-upside-focus-into-135-137-against-us-dollar-scotiabank-202608201330",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight that USD/CAD is under pressure as broad US Dollar (USD) weakness combines with tentative progress on a US-Canada trade deal.",
-      "published": "20 Aug 2026 20:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.052,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Rupee India: RBI Pertahankan Posisi Jual Dolar yang Dapat Dikelola – BNY",
-      "url": "https://www.fxstreet.com/news/indian-rupee-rbi-defends-manageable-dollar-shorts-bny-202608201320",
-      "summary": "BNY Mellon’s Geoff Yu highlights comments from RBI Governor Sanjay Malhotra that the central bank’s net-short forward-Dollar position is still very manageable despite large bearish bets to support the Rupee.",
-      "published": "20 Aug 2026 20:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.322,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Amerika Serikat: Risiko imbal hasil jangka panjang terkendali – ING",
-      "url": "https://www.fxstreet.com/news/united-states-long-end-yield-risks-contained-ing-202608201225",
-      "summary": "ING’s Padhraic Garvey analyses how the US Treasury’s decision to double buybacks in 10-30 year maturities affects long-end US Treasuries. He stresses that while the programme is sizeable and could be expanded again, it mainly mutes, rather than reverses, upward pressure on long yields.",
-      "published": "20 Aug 2026 19:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.511,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Saham Jatuh karena Reli Treasury Tergagap karena Lonjakan Minyak: Pasar Selesai",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/stock-market-today-dow-s-p-live-updates",
-      "summary": "A rally in bonds fizzled out and stocks fell on bets the Treasury plan to curb borrowing costs is just a short-term fix, with a renewed surge in oil prices stoking worries about inflation.",
-      "published": "20 Aug 2026 05:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.108,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kami Melihat 'Pasar Obligasi Berbentuk K' Kata Guneet Dhingra",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-20/we-re-seeing-a-k-shaped-bond-market-says-dhingra-video",
-      "summary": "Market participants are warning that a lack of predictability when it comes to the US Treasury’s debt management strategy could ultimately portend higher borrowing costs. Guneet Dhingra, Head of US Rates Strategy at BNP Paribas, discusses this, and examines current parallels with the 2023 bond sello",
-      "published": "20 Aug 2026 21:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.815,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Mesir Mempertahankan Suku Bunga untuk Keempat Kalinya Tanpa Ada Akhir dari Perang Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/egypt-holds-rates-a-fourth-time-with-no-end-to-iran-war-in-sight",
-      "summary": "Egypt held interest rates for a fourth meeting in a row, choosing caution after inflation quickened and prospects dimmed for an imminent end to the Iran war.",
-      "published": "20 Aug 2026 21:26 WIB",
-      "sentiment": "Netral",
-      "score": -0.003,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Ethiopia Menjual $500 Juta dalam Penawaran Terbaru untuk Mendukung Mata Uang",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/ethiopia-sells-500-million-in-latest-bid-to-support-currency",
-      "summary": "Ethiopia sold $500 million to local banks on Thursday, stepping up efforts to ease dollar shortages and stem the slide in its currency.",
-      "published": "20 Aug 2026 21:05 WIB",
+      "title": "Rupiah Indonesia: Dolar yang Lebih Lemah menawarkan keringanan yang terbatas – OCBC",
+      "url": "https://www.fxstreet.com/news/indonesian-rupiah-softer-dollar-offers-limited-relief-ocbc-202608201843",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note that Indonesian Rupiah (IDR) should find some relief from a softer Dollar and lower long-end US yields, with BI keeping its policy rate at 5.75% and focusing on currency stability.",
+      "published": "21 Aug 2026 01:43 WIB",
       "sentiment": "Bullish",
       "score": 0.146,
       "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Investor Memperingatkan AS agar Beralih dari Pengelolaan Utang yang Dapat Diprediksi",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/investors-warn-us-over-shifting-from-predictable-debt-management",
-      "summary": "Market participants are warning that a lack of predictability when it comes to the US Treasury’s debt management strategy could ultimately portend higher borrowing costs.",
-      "published": "20 Aug 2026 20:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.815,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pasar Berada di 'La La Land,' Kata Heinel dari State Street",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-20/markets-are-in-la-la-land-state-street-s-heinel-says-video",
-      "summary": "State Street Investment Management Global Chief Investment Officer Lori Heinel discusses the limited impact of Treasury Secretary Scott Bessent's bond buyback announcement, describing it as a short-term measure unlikely to alter the upward trajectory of bond yields. She speaks on \"Bloomberg Open Int",
-      "published": "20 Aug 2026 20:49 WIB",
+      "source": "FXStreet News",
+      "title": "Singapore Dollar: Upside risk stays in focus against US Dollar – UOB",
+      "url": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-stays-in-focus-against-us-dollar-uob-202608201833",
+      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann note that USD/SGD extended its overnight slide as the US Dollar (USD) sell-off pushed the pair back toward the 1.27 area.",
+      "published": "21 Aug 2026 01:33 WIB",
       "sentiment": "Bullish",
-      "score": 0.36,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Orang Tua Membayar $95.000 Untuk Gap Years Untuk Membuktikan Karir Anak Mereka Di Masa Depan",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-20/parents-pay-95-000-for-gap-years-to-future-proof-their-kids-careers",
-      "summary": "Parents are paying upwards of $100,000 for premium gap years that offer high-end travel, networking opportunities and unique experiences to help kids stand out in a cutthroat job market. (Source: Bloomberg)",
-      "published": "20 Aug 2026 20:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.519,
+      "score": 0.098,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -223,34 +135,56 @@
       "source": "Bloomberg Markets",
       "title": "Saham AS Jatuh karena Minyak, Imbal Hasil Meningkat Sementara Walmart Merosot",
       "url": "https://www.bloomberg.com/news/articles/2026-08-20/us-stock-futures-fall-as-oil-yields-climb-while-walmart-slumps",
-      "summary": "US stocks slid at the open on Thursday as a rally in government bonds sputtered, sending yields higher, and oil prices rose. Walmart Inc.’s earnings disappointed, pressuring shares of the retail giant and peers.",
+      "summary": "US stocks fell on Thursday as oil prices and benchmark bond yields rose, while disappointing earnings from Walmart Inc. pressured shares of the retail giant and peers.",
       "published": "20 Aug 2026 19:13 WIB",
       "sentiment": "Bearish",
-      "score": -0.511,
+      "score": -0.52,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Setidaknya 15 orang tewas di Kyiv saat Ukraina bergulat dengan kekurangan pertahanan udara",
-      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Blocks of flats and warehouses were targeted in the \"massive attack\" on Thursday, Ukrainian officials say.",
-      "published": "20 Aug 2026 20:56 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Dolar Terlihat Membayar Harga Penawaran Treasury untuk Menjinakkan Imbal Hasil",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/dollar-risks-becoming-biggest-loser-from-bessent-s-bond-buying",
+      "summary": "Treasury Secretary Scott Bessent’s bold intervention to stem a potentially damaging rise in US borrowing costs has some investors saying the dollar will ultimately pay the price.",
+      "published": "20 Aug 2026 12:50 WIB",
+      "sentiment": "Bullish",
+      "score": 0.128,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Penolakan Warsh Terhadap Panduan Menambah Volatilitas: Lyngen",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-20/warsh-s-pushback-on-guidance-adds-volatility-lyngen-video",
+      "summary": "Ian Lyngen, Head of US Rates Strategy at BMO Capital Markets, and Stephanie Roth, Chief Economist at Wolfe Research, join Scarlet Fu on \"Bloomberg Real Yield.\" US Treasuries fell a day after the Trump administration’s surprise decision to increase buybacks of longer-dated bonds, showing the move did",
+      "published": "21 Aug 2026 02:43 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.258,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 19 Agustus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/latest-oil-market-news-and-analysis-for-aug-19",
+      "summary": "Oil climbed to the highest in almost a month, as Donald Trump’s threat to crush the Iranian economy further clouded the prospect of ending a war that has upended energy markets.",
+      "published": "20 Aug 2026 05:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.78,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC World",
-      "title": "Trump berjanji akan mengambil tindakan ekonomi yang lebih ketat terhadap Iran dan negara-negara pendukungnya",
-      "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
-      "summary": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
-      "published": "20 Aug 2026 16:13 WIB",
-      "sentiment": "Netral",
-      "score": 0.026,
-      "emoji": "⚪",
-      "impact": "low"
+      "title": "Rusia 'dengan sengaja' menyerang infrastruktur penting dalam serangan terbaru, kata Wali Kota Kyiv",
+      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 17 people were killed in the \"massive attack\" overnight on Ukraine's capital, as mayor Vitali Klitschko warns hot water supply has been disrupted.",
+      "published": "21 Aug 2026 00:14 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -309,10 +243,21 @@
     },
     {
       "source": "BBC Business",
-      "title": "Carney meminta diakhirinya larangan alkohol di AS, kata pemimpin provinsi tersebut, seiring dengan semakin dekatnya kesepakatan perdagangan",
+      "title": "Trump berjanji akan mengambil tindakan ekonomi yang lebih ketat terhadap Iran dan negara-negara pendukungnya",
+      "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
+      "published": "20 Aug 2026 16:13 WIB",
+      "sentiment": "Netral",
+      "score": 0.026,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Carney meminta provinsi-provinsi di Kanada untuk mengakhiri larangan alkohol di AS seiring semakin dekatnya kesepakatan perdagangan",
       "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss",
-      "summary": "An agreement preventing a new wave of US tariffs is close and could include an end to Canada's boycott of US whiskey.",
-      "published": "20 Aug 2026 18:10 WIB",
+      "summary": "An agreement preventing a new wave of US tariffs is close and could include an end to Canada's boycott of US wine and spirits.",
+      "published": "21 Aug 2026 03:15 WIB",
       "sentiment": "Bearish",
       "score": -0.261,
       "emoji": "🔴",
@@ -325,115 +270,49 @@
       "summary": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
       "published": "19 Aug 2026 23:12 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.501,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "USS Washington tiba di Timur Tengah setelah mendapat protes dari kapal induk",
-      "url": "https://www.aljazeera.com/news/2026/8/20/uss-washington-arrives-in-middle-east-after-aircraft-carrier-outcry?traffic_source=rss",
-      "summary": "Vessel expected to replace USS Lincoln after reports of dire conditions on board raised questions over US war planning.",
-      "published": "20 Aug 2026 21:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.961,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mengapa kunjungan utusan Trump ke Kashmir menyebabkan pertikaian AS-Pakistan",
-      "url": "https://www.aljazeera.com/news/2026/8/20/why-a-trump-envoys-kashmir-visit-has-led-to-us-pakistan-spat?traffic_source=rss",
-      "summary": "Pakistan says the comments contradict Washington’s position, but experts see them as a diplomatic misstep.",
-      "published": "20 Aug 2026 20:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.245,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Panglima militer Myanmar mengunjungi Bangkok saat serangan diplomatik terus berlanjut",
-      "url": "https://www.aljazeera.com/news/2026/8/20/myanmar-military-chief-visits-bangkok-as-diplomatic-offensive-continues?traffic_source=rss",
-      "summary": "After five years of isolation, Myanmar's post-coup leadership is trying to boost its legitmacy.",
-      "published": "20 Aug 2026 20:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.459,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Gaza mengadakan pemakaman massal untuk 50 warga Palestina yang tewas dalam perang genosida Israel",
-      "url": "https://www.aljazeera.com/news/2026/8/20/gaza-holds-mass-funeral-for-50-palestinians-killed-in-israeli-genocidal-war?traffic_source=rss",
-      "summary": "Funerals take place weeks after the bodies of 112 Palestinians were buried in another mass funeral.",
-      "published": "20 Aug 2026 20:05 WIB",
+      "source": "BBC Top Stories",
+      "title": "Pria didakwa atas serangan sinagoga Manchester",
+      "url": "https://www.bbc.co.uk/news/articles/cm2g5ne37zyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Police say the man is accused of failing to disclose information regarding terrorist activity.",
+      "published": "20 Aug 2026 23:17 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Alarm berbunyi di Korea Selatan selama latihan pertahanan serangan udara tahunan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/alarms-blare-in-south-korea-during-annual-air-raid-defence-drill?traffic_source=rss",
-      "summary": "South Korea has held a nationwide drill simulating an air raid to coincide with joint military exercises with the US.",
-      "published": "20 Aug 2026 19:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.178,
-      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pemerintah Bangladesh berada di bawah tekanan karena kaum muda menuntut pekerjaan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/20-08-reported-tanvir-chowdhury-bangladesh-bn?traffic_source=rss",
-      "summary": "Six months into Prime Minister Tariq Rahman’s term, Bangladesh faces an energy crisis and rising prices.",
-      "published": "20 Aug 2026 18:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.771,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Bagaimana perang di Myanmar mendorong krisis Rohingya",
-      "url": "https://www.aljazeera.com/video/investigations/2026/8/20/how-myanmars-war-drives-the-rohingya-crisis?traffic_source=rss",
-      "summary": "Al Jazeera exposes atrocities committed against the Rohingya ethnic minority group during Myanmar’s civil war.",
-      "published": "20 Aug 2026 18:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.986,
-      "emoji": "🔴",
+      "title": "Sekolah-sekolah di Thailand mengadakan latihan menembak setelah serangan mematikan",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/thai-schools-hold-shooter-drills-after-deadly-attack?traffic_source=rss",
+      "summary": "Schools across Thailand are carrying out active shooter drills to save lives and spread awareness.",
+      "published": "21 Aug 2026 01:59 WIB",
+      "sentiment": "Bullish",
+      "score": 0.261,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pejabat Suriah mengatakan ‘tidak ada rencana’ untuk membangun kehadiran militer Turki",
-      "url": "https://www.aljazeera.com/news/2026/8/20/syrian-official-says-no-plans-to-establish-turkish-military-presence?traffic_source=rss",
-      "summary": "The foreign minister says in an interview that Turkish military officials had visited the airbase as part of training.",
-      "published": "20 Aug 2026 17:16 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Kondisi sudah siap untuk terjadinya 'kecelakaan' pasar, namun melonjaknya imbal hasil obligasi saja tidak akan menyebabkan hal tersebut, akui ahli strategi yang pesimistis",
-      "url": "https://www.marketwatch.com/story/conditions-are-ripe-for-a-market-accident-but-surging-bond-yields-alone-wont-cause-it-concedes-pessimistic-strategist-222cfc57?mod=mw_rss_topstories",
-      "summary": "The rise in bond yields renders markets more vulnerable to bad news, observes the “permabear” Albert Edwards of Société Générale.",
-      "published": "20 Aug 2026 21:14 WIB",
+      "title": "Paramiliter Rusia di Mali membunuh sembilan orang, termasuk anak-anak: HRW",
+      "url": "https://www.aljazeera.com/news/2026/8/20/russian-paramilitaries-in-mali-kill-nine-including-children-hrw?traffic_source=rss",
+      "summary": "Human Rights Watch alleges that the killings by Africa Corps troops took place in the presence of Malian soldiers.",
+      "published": "21 Aug 2026 01:13 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.881,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "CNBC Economy",
       "title": "California AG mengatakan kepada CNBC bahwa penyelesaian gugatan Paramount-WBD akan memerlukan 'pemulihan struktural yang kuat'",
       "url": "https://www.cnbc.com/2026/08/20/california-ag-bonta-paramount-wbd-lawsuit-remedies.html",
       "summary": "California AG Rob Bonta discussed the states' antitrust case to block the Paramount Skydance-Warner Bros. Discovery merger with CNBC's David Faber.",
-      "published": "20 Aug 2026 21:59 WIB",
+      "published": "20 Aug 2026 23:42 WIB",
       "sentiment": "Bearish",
       "score": -0.798,
       "emoji": "🔴",
@@ -441,14 +320,25 @@
     },
     {
       "source": "CNBC World",
-      "title": "Trump mengatakan perekonomian Iran sedang ambruk. Seorang mantan penasihat bank sentral di Teheran menolak kebijakan tersebut",
-      "url": "https://www.cnbc.com/2026/08/20/iran-economy-worries-trump-sanction-war-hormuz-uae-.html",
-      "summary": "Iran's economy is deteriorating under the weight of mounting sanctions, but far from unraveling, a former adviser to Iran's central bank told CNBC.",
-      "published": "20 Aug 2026 15:38 WIB",
+      "title": "Bessent mengatakan AS kemungkinan tidak akan memulai kembali pertempuran besar-besaran dengan Iran karena negara itu meningkatkan tekanan ekonomi",
+      "url": "https://www.cnbc.com/2026/08/20/bessent-economy-iran-war-trump.html",
+      "summary": "Bessent and President Donald Trump unveiled the economic operation nearly six months into the Iran war, which continues without a clear end in sight.",
+      "published": "21 Aug 2026 00:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.945,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Kemarahan terhadap pusat data AI muncul di mana-mana, mulai dari iklan hingga pemilu",
+      "url": "https://www.cnbc.com/2026/08/20/ai-data-center-election-backlash.html",
+      "summary": "With less than three months until the midterm elections, opposition to AI data centers is becoming a bipartisan rallying cry in a growing number of states.",
+      "published": "20 Aug 2026 22:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.58,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "CNBC World",
@@ -463,23 +353,23 @@
     },
     {
       "source": "CNBC World",
+      "title": "Trump mengatakan perekonomian Iran sedang ambruk. Seorang mantan penasihat bank sentral di Teheran menolak kebijakan tersebut",
+      "url": "https://www.cnbc.com/2026/08/20/iran-economy-worries-trump-sanction-war-hormuz-uae-.html",
+      "summary": "Iran's economy is deteriorating under the weight of mounting sanctions, but far from unraveling, a former adviser to Iran's central bank told CNBC.",
+      "published": "21 Aug 2026 01:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.233,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
       "title": "Ancaman perompak Somalia kembali muncul ketika perang AS-Iran memicu kekacauan regional dan melemahkan sumber daya penegakan hukum",
       "url": "https://www.cnbc.com/2026/08/20/somali-pirates-return-iran-war.html",
       "summary": "Somali piracy incidents have resurged in the Red Sea region in recent times, especially since the U.S.-Iran war kicked off-major concern for shipping companies.",
       "published": "20 Aug 2026 18:13 WIB",
       "sentiment": "Bearish",
       "score": -0.94,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "CNBC Daily Open: Trump mengeluhkan 'suku bunga yang konyol'",
-      "url": "https://www.cnbc.com/2026/08/20/daily-open-trump-interest-rates.html",
-      "summary": "President Donald Trump is raging against rates, vowing economic warfare on Iran and lending support to crypto regulation in a busy environment for investors.",
-      "published": "20 Aug 2026 13:22 WIB",
-      "sentiment": "Bearish",
-      "score": -0.66,
       "emoji": "🔴",
       "impact": "high"
     }
