@@ -1,59 +1,70 @@
 {
-  "generated": "20 Aug 2026 07:01 WIB",
+  "generated": "20 Aug 2026 08:54 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.142,
-      "count": 13
-    },
-    {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.221,
+      "score": -0.29,
+      "count": 16
+    },
+    {
+      "pair": "USD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.262,
+      "count": 15
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.204,
       "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.253,
-      "count": 11
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.088,
-      "count": 11
+      "score": -0.346,
+      "count": 10
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.125,
-      "count": 5
+      "score": 0.42,
+      "count": 3
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.125,
-      "count": 5
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.209,
+      "score": 0.42,
       "count": 3
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.886,
-      "count": 1
+      "score": -0.407,
+      "count": 2
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.407,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Peningkatan AI mendorong ekspor Jepang karena pengiriman semikonduktor melonjak 49%",
+      "url": "https://investinglive.com/news/ai-boom-powers-japan-s-exports-as-semiconductor-shipments-surge-49/",
+      "summary": "The scale of the beat, both on exports and the narrower than expected trade deficit, adds to the case that Japan's growth momentum is broadening beyond domestic demand, which should support the yen at the margin and feed into the BOJ's ongoing debate over the timing of further policy normalization. ",
+      "published": "20 Aug 2026 07:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.513,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Trump berjanji akan menghancurkan operasi ekonomi baru terhadap Iran, dan sekutunya memperingatkan",
@@ -88,48 +99,15 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Trump mengatakan kepada wartawan bahwa AS dan Kanada telah mencapai kesepakatan dan menyarankan agar perundingan Iran dilanjutkan",
-      "url": "https://investinglive.com/news/trump-tells-reporters-us-and-canada-reached-a-deal-suggests-iran-negotiations-continue/",
-      "summary": "Trump spoke to reporters at the White House about the tariff deal with Canada, and added a couple of comments on Iran. On Canada, Trump said “we’ve come to a deal” following what he described as a good conversation with Canada's Prime Minister Carney. He reiterated, however, that the agreement remai",
-      "published": "19 Aug 2026 22:55 WIB",
+      "source": "FXStreet News",
+      "title": "WTI melonjak di atas $84,50 karena ketegangan di Selat Hormuz meningkat",
+      "url": "https://www.fxstreet.com/news/wti-surges-above-8450-as-strait-of-hormuz-standoff-escalate-202608200117",
+      "summary": "West Texas Intermediate (WTI) oil price appreciates after registering modest losses in the previous day, trading around $85.50 per barrel during the Asian hours on Thursday.",
+      "published": "20 Aug 2026 08:17 WIB",
       "sentiment": "Bullish",
-      "score": 0.807,
+      "score": 0.073,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Logam mulia melonjak setelah pengumuman mengejutkan dari Departemen Keuangan AS untuk mendukung sekuritas dengan jangka waktu lebih panjang",
-      "url": "https://investinglive.com/commodities/precious-metals-surge-after-surprise-us-treasury-announcement-to-support-longer-dated-securities/",
-      "summary": "The US Treasury announced today that it will at least double the size of its liquidity-support buyback operations for longer-dated Treasury securities, increasing the maximum purchase from $2 billion to at least $4 billion per operation. The change will apply beginning September 9, 2026. The announc",
-      "published": "19 Aug 2026 23:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.367,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Dolar Kanada naik ke level tertinggi baru setelah tarif Trump TACO dan pengumuman Departemen Keuangan AS",
-      "url": "https://investinglive.com/forex/canadian-dollar-rises-to-new-highs-after-trump-s-tariff-taco-us-treasury-announcement/",
-      "summary": "The Canadian dollar had a rough session yesterday as the tariff deadline approached with no breakthrough in US-Canada negotiations, leaving markets increasingly concerned that the threatened 50% tariffs would go ahead. The picture changed completely after President Trump delivered another classic TA",
-      "published": "19 Aug 2026 20:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Risalah RBI menunjukkan kekhawatiran inflasi yang berbeda dan alasan untuk kenaikan suku bunga",
-      "url": "https://investinglive.com/central-banks/rbi-minutes-show-different-inflation-concerns-and-a-case-for-a-rate-hike/",
-      "summary": "RBI Meeting Minutes The Reserve Bank of India’s Monetary Policy Committee unanimously voted to keep the policy repo rate unchanged at 5.25% at its August 3–5, 2026 meeting, while retaining a neutral stance. Despite the unanimous decision, the minutes show differences in how members assess the inflat",
-      "published": "19 Aug 2026 19:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.353,
-      "emoji": "🔴",
-      "impact": "medium"
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -155,25 +133,47 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "CEO Estee Lauder Mengatakan Perusahaan Memiliki 'Momentum Hebat'",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-19/estee-lauder-ceo-says-company-has-great-momentum-video",
-      "summary": "Estée Lauder Cos. Chief Executive Officer Stéphane de La Faverie says the company is expanding margin and has great momentum going forward. The beauty and makeup giant reported revenue and earnings for the fiscal fourth quarter that topped estimates. He speaks on \"Bloomberg The Close.\" (Source: Bloo",
-      "published": "20 Aug 2026 03:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.756,
-      "emoji": "🟢",
+      "title": "Anggota Parlemen dari Partai Demokrat Mendesak Bank Sentral AS untuk Mengungkapkan Seruan Trump",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/democratic-lawmakers-urge-fed-s-warsh-to-disclose-trump-calls",
+      "summary": "A group of Democratic lawmakers are urging Federal Reserve Chairman Kevin Warsh to disclose any conversations he has had with President Donald Trump since taking over the central bank in May.",
+      "published": "20 Aug 2026 08:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Mata uang Brasil kemungkinan akan menghadapi pemilu yang tidak terlalu bergejolak - Valor International",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTVppZjlQRkFyOTRvQTdzajdFRGJDRXZyMHlER19rLTN0WG9rQXVYN0hLZWV2Rmx3ZkFZNFVWYWhGT0RCbFFPWWdWZ09zWFBfQWxLVS04bzBYUVRwSW1lRUJOY3gzakdJTi1TVF9lX1B1OWc4VktnWUdYUWZuT0hiRFFXQmxCZ2ItTDVaX05tcjN4aE5vVWw2R0hndmpUczNLbGgtQlJQbEhwQXZMSkEzV3RfcEoxOHpYLWpqOExQWHIwUdIB0AFBVV95cUxNQWl0MFh5eTVBaEtJTnFva2pLVUI0b3BTUnNWeXExRUtVeUE5U0lHWGxRbTY1LUJicVFlTnFQaldXTXlWS1J6bHlNSTFBc01VRUhrRzJuMkVkR1h1YkVWeC1Bb0xNTGlzNGVoSnMyaDZWdkFmS2MzVHBxUzdKT2x2X0ZsNklKbXozOUNpNVlTeVlWNElRX0N3Q3RwbWFHbEIyY2Z4eHhHYzFtQk1LZk1ESWVGWFE4TS1YT3dnM2JqTzAtQVpmVGctWlZzMUk1eW54?oc=5",
-      "summary": "Brazilian currency likely to face less turbulent election Valor International",
-      "published": "18 Aug 2026 19:10 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "Bloomberg Markets",
+      "title": "Tim JPMorgan Melihat Risiko Kredibilitas dalam Pembelian Kembali Obligasi Departemen Keuangan",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/jpmorgan-team-sees-credibility-risk-in-treasury-s-bond-buybacks",
+      "summary": "JPMorgan Chase & Co. strategists warned that markets may view the US Treasury’s surprise effort to curb long-term borrowing costs as lacking credibility, potentially pushing up the term premium and yields over time.",
+      "published": "20 Aug 2026 07:59 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Draf Perdagangan AS-Kanada Menimbulkan Tekanan pada Meksiko untuk Menyesuaikan Ketentuan",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/us-canada-trade-draft-piles-pressure-on-mexico-to-match-terms",
+      "summary": "Canada’s preliminary trade deal with the US caught Mexican officials and business leaders off guard. Now, Mexico wants one of its own, as questions grow over whether months of painstaking engagement can deliver comparable tariff relief from President Donald Trump.",
+      "published": "20 Aug 2026 07:58 WIB",
+      "sentiment": "Bullish",
+      "score": 0.807,
+      "emoji": "🟢",
       "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Investor Melihat Imbal Hasil Treasury 10-Tahun Sebesar 5% Menimbulkan Kerugian pada Utang Negara Berkembang Asia",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/investors-see-10-year-treasury-yields-at-5-hurting-em-asia-debt",
+      "summary": "Global funds see any rise in Treasury 10-year yields toward 5% spurring outflows from emerging Asian bonds, as higher rates in the US will prompt investors to favor dollar assets over regional debt.",
+      "published": "20 Aug 2026 07:34 WIB",
+      "sentiment": "Bullish",
+      "score": 0.462,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -183,6 +183,17 @@
       "published": "19 Aug 2026 22:33 WIB",
       "sentiment": "Bearish",
       "score": -0.729,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump mengancam 'konsekuensi ekonomi yang luar biasa' terhadap negara mana pun yang membantu Iran",
+      "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
+      "published": "20 Aug 2026 08:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.599,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -199,6 +210,17 @@
     },
     {
       "source": "BBC World",
+      "title": "Kanada dan AS mengatakan mereka sedang menyelesaikan kesepakatan perdagangan, namun rinciannya masih belum jelas",
+      "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Prime Minister Carney hailed \"significant progress\" in trade talks as the two countries seek to hammer out final details ahead of a new weekend tariff deadline.",
+      "published": "20 Aug 2026 07:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.67,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
       "title": "Korea Selatan mempersingkat latihan perang dengan AS, dengan alasan permintaan Washington",
       "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss",
       "summary": "It comes after Trump announced plans to curtail joint military exercises with South Korea, citing a \"very good\" relationship with North Korea's Kim Jong Un.",
@@ -210,23 +232,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Kanada dan AS mengatakan mereka sedang menyelesaikan kesepakatan perdagangan, namun rinciannya masih belum jelas",
-      "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Prime Minister Carney hailed \"significant progress\" in trade talks as the two countries seek to hammer out final details ahead of a new weekend tariff deadline.",
-      "published": "20 Aug 2026 06:32 WIB",
-      "sentiment": "Bullish",
-      "score": 0.67,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC World",
-      "title": "AS mendakwa 17 warga Iran atas kampanye pencurian siber 'besar-besaran'",
-      "url": "https://www.bbc.co.uk/news/articles/c1m14n4llvvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Many of the alleged cyber attacks were carried out for the Iranian government, the Department of Justice says.",
-      "published": "19 Aug 2026 16:48 WIB",
+      "title": "Pencarian keluarga yang penuh penderitaan untuk mencari jawaban ketika ribuan orang masih hilang di Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/ce34r0er75go?at_medium=RSS&at_campaign=rss",
+      "summary": "Ten months after a ceasefire was declared, thousands of Palestinians in Gaza are still reported missing.",
+      "published": "19 Aug 2026 12:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.233,
+      "score": -0.71,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -257,11 +268,44 @@
       "title": "Pangeran Harry dan Meghan pindah kembali ke Inggris",
       "url": "https://www.bbc.co.uk/news/articles/c62ey03z9d1o?at_medium=RSS&at_campaign=rss",
       "summary": "The couple's children, Prince Archie, 7, and Princess Lilibet, 5, are enrolled to start at a school in September.",
-      "published": "20 Aug 2026 06:52 WIB",
+      "published": "20 Aug 2026 08:14 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Bodycam menangkap tim polisi yang terjatuh saat dek runtuh di Missouri",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/bodycam-captures-police-team-falling-when-deck-collapses-in-missouri?traffic_source=rss",
+      "summary": "Recently released body camera footage shows a deck collapsing during a warrant operation in Huntsville, Missouri.",
+      "published": "20 Aug 2026 08:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.852,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Harry Kane mencetak gol dengan memenangkan Sepatu Emas untuk kedua kalinya",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/harry-kane-scores-goal-by-winning-golden-shoe-for-the-second-time?traffic_source=rss",
+      "summary": "English footballer Harry Kane won the title of ‘Europe’s best goalscorer’, awarded the Golden Shoe for the second time.",
+      "published": "20 Aug 2026 07:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.853,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Kosovo menemukan sisa-sisa sedikitnya 23 orang yang diduga sebagai kuburan massal",
+      "url": "https://www.aljazeera.com/news/2026/8/19/kosovo-finds-remains-of-at-least-23-people-in-suspected-mass-graves?traffic_source=rss",
+      "summary": "The discovery is part of Kosovo’s long-running effort to find people who disappeared during a brutal war in the 1990s.",
+      "published": "20 Aug 2026 06:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.999,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -330,17 +374,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Ada Apa di Balik Serangan Terbaru Israel ke Suriah?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/8/19/whats-behind-israels-latest-attack-on-syria?traffic_source=rss",
-      "summary": "US envoy warns Israel's strike could have sparked direct confrontation with Turkish forces.",
-      "published": "20 Aug 2026 03:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.903,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
       "title": "Saham ServiceNow memimpin reli perangkat lunak. Inilah yang memberi semangat kepada investor.",
       "url": "https://www.marketwatch.com/story/servicenows-stock-leads-a-software-rally-heres-whats-energizing-investors-0ad74dd1?mod=mw_rss_topstories",
@@ -367,22 +400,11 @@
       "title": "Nuklir di mana-mana? Payung nuklir AS yang melemah mendorong sekutu-sekutunya untuk mempertimbangkan pilihan-pilihan pertahanan, sehingga meningkatkan risiko kaskade proliferasi",
       "url": "https://www.cnbc.com/2026/08/19/nuclear-proliferation-defense-risk-trump-umbrella-.html",
       "summary": "As countries take more responsibility for their own defense and nuclear states step back from arms-control commitments, the question of proliferation arises.",
-      "published": "19 Aug 2026 06:25 WIB",
+      "published": "20 Aug 2026 07:45 WIB",
       "sentiment": "Netral",
       "score": 0.023,
       "emoji": "⚪",
       "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump menghentikan sementara tarif 50% yang dijadwalkan di Kanada selama tiga hari, mengumumkan 'kesepakatan' dengan Ottawa",
-      "url": "https://www.cnbc.com/2026/08/18/trump-carney-canada-tariffs-dealine-talks.html",
-      "summary": "Trump has already imposed a variety of tariffs on Canada and its specific exports, including metals, lumber and auto parts.",
-      "published": "19 Aug 2026 10:18 WIB",
-      "sentiment": "Netral",
-      "score": 0.003,
-      "emoji": "⚪",
-      "impact": "medium"
     }
   ]
 }
