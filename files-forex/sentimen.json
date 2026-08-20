@@ -1,42 +1,36 @@
 {
-  "generated": "20 Aug 2026 05:08 WIB",
+  "generated": "20 Aug 2026 07:01 WIB",
   "summary": {
     "total": 96,
-    "bullish": 42,
-    "bearish": 38,
-    "netral": 16,
-    "avg_score": 0.0177,
+    "bullish": 38,
+    "bearish": 39,
+    "netral": 19,
+    "avg_score": -0.0019,
     "overall": "Netral",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.052,
+        "score": 0.103,
         "count": 27
-      },
-      {
-        "currency": "EUR",
-        "sentiment": "Bullish",
-        "score": 0.138,
-        "count": 8
       },
       {
         "currency": "GBP",
         "sentiment": "Netral",
-        "score": 0.006,
+        "score": -0.021,
         "count": 3
       },
       {
-        "currency": "NZD",
+        "currency": "JPY",
         "sentiment": "Bearish",
-        "score": -0.321,
-        "count": 2
+        "score": -0.239,
+        "count": 3
       },
       {
-        "currency": "JPY",
-        "sentiment": "Netral",
-        "score": -0.028,
-        "count": 1
+        "currency": "EUR",
+        "sentiment": "Bullish",
+        "score": 0.107,
+        "count": 2
       },
       {
         "currency": "AUD",
@@ -55,10 +49,71 @@
         "sentiment": "Bullish",
         "score": 0.527,
         "count": 1
+      },
+      {
+        "currency": "NZD",
+        "sentiment": "Bearish",
+        "score": -0.402,
+        "count": 1
       }
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Ekspor dan impor Jepang Juli 2026 keduanya lebih tinggi dari perkiraan",
+      "url": "https://investinglive.com/news/japan-july-2026-exports-and-imports-both-higher-than-expected/",
+      "summary": "Japanese trade data for July 2026. Imports +27.8% y/y expected +26.5%, prior +25.4% Exports +23.2% y/y expected +19.9%, prior +19.3% Trade Balance -634.5bn JPY expected -680bn, prior -409.9bn Exports to Asia +24.5% year/year to China +25.8% year/year to U.S. +22% year/year to EU +19.1% year/year Thi",
+      "published": "20 Aug 2026 06:54 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "UBS tetap konstruktif pada ekuitas karena VIX mencapai titik terendah pada tahun 2026 meskipun ada risiko",
+      "url": "https://investinglive.com/stock-market-update/ubs-stays-constructive-on-equities-as-vix-hits-2026-low-despite-risks/",
+      "summary": "UBS's framing suggests the path of least resistance for equities remains higher into year-end, provided the current run of limited near-term catalysts holds through Nvidia's earnings and the Jackson Hole symposium. The bank's read on the Fed is the more contestable element, with markets currently pr",
+      "published": "20 Aug 2026 06:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.155,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Trump berjanji akan menghancurkan operasi ekonomi baru terhadap Iran, dan sekutunya memperingatkan",
+      "url": "https://investinglive.com/commodities/trump-vows-crushing-new-economic-operation-against-iran-warns-allies/",
+      "summary": "This is a significant escalation in rhetoric even by the standards of the past several weeks, and oil prices are the asset most directly exposed to it. A threat to sanction any country, bank, or shipping entity aiding Iran raises the risk of further disruption to whatever flows are currently moving ",
+      "published": "20 Aug 2026 06:05 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Independensi The Fed menjadi fokus ketika para senator mempertanyakan kesenjangan kalender Warsh",
+      "url": "https://investinglive.com/central-banks/fed-independence-in-focus-as-senators-question-warsh-s-calendar-gaps/",
+      "summary": "Questions over the Fed chairman's contact with the White House add a fresh layer of uncertainty to a rates outlook that is already unsettled following the hawkish (but dated) FOMC minutes and the Treasury's buyback intervention. Any perception that Warsh's decisions are being shaped by the administr",
+      "published": "20 Aug 2026 05:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.542,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Kepanikan Bessent berisiko menghidupkan kembali pertaruhan kenaikan suku bunga, memberikan amunisi baru bagi The Fed",
+      "url": "https://investinglive.com/central-banks/bessent-s-panic-move-risks-reigniting-rate-hike-bets-hands-fed-hawks-new-ammunition/",
+      "summary": "This is the angle likely to dominate rates trading in the sessions ahead, since it reframes the entire buyback story from a one-off liquidity fix into a potential monetary policy trigger. If the Fed does treat the easing in financial conditions as material, that would represent a genuinely new pathw",
+      "published": "20 Aug 2026 05:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.376,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Bessent yang radikal, panik dengan langkah pembelian kembali obligasi Treasury secara besar-besaran, melemahkan dolar",
@@ -225,46 +280,68 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Emas bangkit kembali hari ini tetapi pembeli masih memiliki pekerjaan yang harus dilakukan untuk mendapatkan kembali momentum kenaikan",
-      "url": "https://investinglive.com/commodities/gold-bounces-back-up-today-but-buyers-have-work-to-do-to-regain-upside-momentum/",
-      "summary": "Gold is seeing a modest bounce back up in European morning trade, after falling to around $4,335 at the tail end of Asia trading. The past few hours is seeing gold push back up to around $4,367 currently but buyers were dealt a bit of a blow in trading yesterday. That after seeing price fall back be",
-      "published": "19 Aug 2026 17:50 WIB",
+      "source": "FXStreet News",
+      "title": "Presiden AS Donald Trump mengumumkan \"operasi ekonomi yang menghancurkan\" terhadap Iran",
+      "url": "https://www.fxstreet.com/news/us-president-donald-trump-announces-crushing-economic-operation-on-iran-202608192341",
+      "summary": "US President Trump announced the most severe economic action ever taken against Iran, CBS News reported on Wednesday. Trump said this will be economic conflict and isolation on an unprecedented scale and the countries allowing financial aid to Iran will face severe economic consequences.",
+      "published": "20 Aug 2026 06:41 WIB",
       "sentiment": "Bearish",
-      "score": -0.146,
+      "score": -0.9,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Inflasi kawasan Euro dipastikan sedikit meningkat di bulan Juli",
-      "url": "https://investinglive.com/news/euro-area-inflation-confirmed-to-nudge-up-a-little-in-july/",
-      "summary": "July final CPI +2.9% vs +2.9% y/y prelim Prior +2.8% July final core CPI +2.5% vs +2.5% y/y prelim Prior +2.4% This just confirms that inflation pressures in the euro area did pick up a little in July, keeping ECB policymakers on their toes ahead of the September decision next month. The breakdown o",
-      "published": "19 Aug 2026 16:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.052,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Risalah rapat FOMC menjadi fokus hari ini",
-      "url": "https://investinglive.com/central-banks/fomc-meeting-minutes-in-focus-in-the-day-ahead/",
-      "summary": "After Fed chair Warsh's shift in stance on forward guidance in response to the central bank's reaction function, the FOMC meeting minutes will arguably take on more importance than it did before. Warsh didn't offer much of anything in kicking the can down the road. As such, a closer look at the disc",
-      "published": "19 Aug 2026 14:57 WIB",
+      "source": "FXStreet News",
+      "title": "Emas naik di atas $4.500 karena Dolar AS dan imbal hasil turun",
+      "url": "https://www.fxstreet.com/news/gold-climbs-above-4-500-as-us-dollar-yields-fall-202608192326",
+      "summary": "Gold price (XAU/USD) rises to around $4,520 during the early Asian session on Thursday. The precious metal surges to the highest since early June amid the weakening US Dollar (USD) after the US Treasury Department stepped in to provide relief to bond markets.",
+      "published": "20 Aug 2026 06:26 WIB",
       "sentiment": "Bullish",
-      "score": 0.201,
+      "score": 0.663,
       "emoji": "🟢",
-      "impact": "high"
+      "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Pengambil kebijakan ECB, Rehn, mengatakan belum ada tanda-tanda jelas terjadinya dampak putaran kedua",
-      "url": "https://investinglive.com/central-banks/ecb-policymaker-rehn-says-no-clear-signs-of-second-round-effects-just-yet/",
-      "summary": "The wage growth and wage outlook have remained moderate so far No clear signs of second-round effects Keeping inflation expectations anchored will be essential to ensure this remains the case There's nothing major from his remarks here. The ECB still looks poised to act again in September to better ",
-      "published": "19 Aug 2026 14:17 WIB",
+      "source": "FXStreet News",
+      "title": "Dolar Australia menguat karena pembelian kembali Treasury mengimbangi kebijakan Fed yang hawkish",
+      "url": "https://www.fxstreet.com/news/australian-dollar-gains-as-treasury-buyback-offsets-hawkish-fed-202608192321",
+      "summary": "The Aussie Dollar advances on Wednesday, up over 0.56%, as the US Dollar registers losses amid the US Treasury bond buyback and despite the release of hawkish Federal Reserve minutes from the July meeting. The AUD/USD trades at 0.7127.",
+      "published": "20 Aug 2026 06:21 WIB",
       "sentiment": "Bullish",
-      "score": 0.935,
+      "score": 0.398,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Perkiraan Harga GBP/JPY: penjual mengambil kendali di bawah SMA 50-hari",
+      "url": "https://www.fxstreet.com/news/gbp-jpy-price-forecast-sellers-take-control-below-50-day-sma-202608192301",
+      "summary": "The GBP/JPY retreats on Wednesday as the cross-pair fails to climb past 216.00 and fell beneath the 50-day Simple Moving Average (SMA) of 125.56. The cross-pair trades at 214.25 down 0.37%.",
+      "published": "20 Aug 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.421,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Washington membeli Yen Jepang lagi tanpa sengaja",
+      "url": "https://www.fxstreet.com/news/washington-bought-the-japanese-yen-again-without-meaning-to-202608192228",
+      "summary": "USD/JPY closed Wednesday 0.92% lower just above 158.00, the largest single-session decline since the early-August intervention, and Tokyo did not lift a finger for it.",
+      "published": "20 Aug 2026 05:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Level terbaik Pound Sterling sejak Mei terjadi di Washington",
+      "url": "https://www.fxstreet.com/news/pound-sterlings-best-level-since-may-was-made-in-washington-202608192216",
+      "summary": "GBP/USD closed Wednesday 0.53% higher just above 1.3600, its best close in three months, and the United Kingdom inflation report that opened the session had almost nothing to do with it. Sterling spent the London morning up barely twenty pips on the day.",
+      "published": "20 Aug 2026 05:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.904,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -390,57 +467,35 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dolar Selandia Baru melonjak karena penurunan imbal hasil AS membebani USD",
-      "url": "https://www.fxstreet.com/news/new-zealand-dollar-jumps-as-falling-us-yields-weigh-on-the-usd-202608191706",
-      "summary": "NZD/USD rises sharply on Wednesday and trades around 0.5930 at the time of writing, up 0.96% on the day. The New Zealand Dollar (NZD) benefits primarily from broad weakness in the US Dollar (USD), as the sharp decline in US Treasury yields reduces the appeal of the Greenback.",
-      "published": "20 Aug 2026 00:06 WIB",
+      "source": "Investing.com Forex",
+      "title": "+99%, +44%, +41%: Saham-saham layanan kesehatan pilihan AI ini terus meningkat",
+      "url": "https://www.investing.com/news/stock-market-news/99-44-41-these-aipicked-healthcare-stocks-keep-climbing-4868435",
+      "summary": "",
+      "published": "20 Aug 2026 06:14 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Coty melihat laba kuartalan yang lemah, menahan perkiraan tahunan di 'tahun transisi'",
+      "url": "https://www.investing.com/news/stock-market-news/coty-beats-quarterly-revenue-calls-fiscal-2027-transition-year-on-business-overhaul-4868230",
+      "summary": "",
+      "published": "20 Aug 2026 06:06 WIB",
       "sentiment": "Bearish",
-      "score": -0.24,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dow Jones Industrial Average menguat karena tawaran yang tidak dibuat oleh siapa pun",
-      "url": "https://www.fxstreet.com/news/dow-jones-industrial-average-rallies-on-a-bid-nobody-made-202608191641",
-      "summary": "The Dow Jones Industrial Average (DJIA) trades near 53,600 on Wednesday, more than 230 points and 0.44% higher, and none of that gain is about earnings, growth or the Federal Reserve (Fed).",
-      "published": "19 Aug 2026 23:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.115,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "EUR/GBP mendorong menuju level tertinggi dua minggu di tengah menurunnya inflasi jasa Inggris",
-      "url": "https://www.fxstreet.com/news/eur-gbp-pushes-toward-two-week-high-amid-cooling-uk-services-inflation-202608191619",
-      "summary": "EUR/GBP trades on the front foot on Wednesday, pushing up to the vicinity of a two-week high near the 0.8570 region as the Euro holds firm against a softer British Pound (GBP). The pair has cleared its recent range after a run of green candles on the 4-hour chart.",
-      "published": "19 Aug 2026 23:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.103,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Pound Inggris melonjak karena pembelian kembali Treasury melemahkan Dolar AS",
-      "url": "https://www.fxstreet.com/news/british-pound-jumps-as-treasury-buyback-weakens-the-us-dollar-202608191523",
-      "summary": "The Pound Sterling (GBP) climbs against the US Dollar (USD) on Wednesday as the US Treasury stepped up in the markets to offer liquidity support via a buyback of longer-dated bonds, a day after the US 30-year yield hit its highest level since 2007.",
-      "published": "19 Aug 2026 22:23 WIB",
-      "sentiment": "Bullish",
-      "score": 0.459,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Yen Jepang menguat karena penurunan imbal hasil Treasury menekan Dolar AS",
-      "url": "https://www.fxstreet.com/news/japanese-yen-advances-as-falling-treasury-yields-pressure-us-dollar-202608191512",
-      "summary": "The Japanese Yen (JPY) extends its intraday gains on Wednesday as the US Dollar (USD) comes under fresh selling pressure following a sharp decline in longer-term US Treasury yields. At the time of writing, USD/JPY trades around 158.47, its lowest level in more than a week.",
-      "published": "19 Aug 2026 22:12 WIB",
+      "source": "Investing.com Forex",
+      "title": "Perusahaan pembayaran Stripe akan membeli pasar OpenRouter dalam dorongan AI",
+      "url": "https://www.investing.com/news/stock-market-news/payments-firm-stripe-to-buy-ai-developer-platform-openrouter-4867997",
+      "summary": "",
+      "published": "20 Aug 2026 05:36 WIB",
       "sentiment": "Netral",
-      "score": -0.028,
+      "score": 0.0,
       "emoji": "⚪",
       "impact": "low"
     },
@@ -522,39 +577,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Stok Infrastruktur Minyak & Gas Teratas: Grup Layanan Gas Alam Memimpin",
-      "url": "https://www.investing.com/news/stock-market-news/top-oil--gas-infrastructure-stock-natural-gas-services-group-leads-93CH-4868332",
-      "summary": "",
-      "published": "20 Aug 2026 04:28 WIB",
-      "sentiment": "Bullish",
-      "score": 0.511,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Stok Ultragenyx melonjak karena persetujuan terapi gen FDA",
-      "url": "https://www.investing.com/news/stock-market-news/ultragenyx-stock-surges-on-fda-gene-therapy-approval-93CH-4868331",
-      "summary": "",
-      "published": "20 Aug 2026 04:26 WIB",
-      "sentiment": "Bullish",
-      "score": 0.557,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham Kolombia melemah pada penutupan perdagangan; COLCAP turun 0,30%",
-      "url": "https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-030-4868328",
-      "summary": "",
-      "published": "20 Aug 2026 04:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Inflasi Inggris pada bulan Juli mencapai level tertinggi dalam empat bulan karena melonjaknya biaya energi",
       "url": "https://www.investing.com/news/economic-indicators/uk-july-cpi-rises-to-29-as-household-energy-costs-jump-4866463",
@@ -622,6 +644,17 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Saham Asia Menguat karena Departemen Keuangan AS Mendukung Obligasi: Pembungkus Pasar",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian stocks looked set to gain as pressure from the bond market eased after the US Treasury unveiled plans to buy back longer-dated debt to curb borrowing costs. Bonds rallied and the dollar fell to a three-month low.",
+      "published": "20 Aug 2026 05:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.887,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Saham Naik seiring Langkah Departemen Keuangan untuk Mendukung Obligasi: Pembungkus Pasar",
       "url": "https://www.bloomberg.com/news/articles/2026-08-18/stock-market-today-dow-s-p-live-updates",
       "summary": "Wall Street staged a rebound after the Treasury said it plans to boost buybacks of longer-dated bonds, a signal the US wants to lower borrowing costs after yields hit multi-decade highs.",
@@ -654,32 +687,10 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Dolar Jatuh ke Level Terlemahnya dalam Tiga Bulan karena Pembelian Kembali Treasury",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/dollar-tumbles-as-treasury-buyback-unleashes-bond-market-rally",
-      "summary": "The dollar tumbled by the most in three weeks after the Trump administration’s unexpected bond buyback announcement reversed a Treasury market rout that had pushed long-dated yields to the highest since 2007.",
-      "published": "19 Aug 2026 21:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.258,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Mark Walter Menggantung Saham Guggenheim untuk Mendapatkan Pinjaman",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-19/mark-walter-dangled-guggenheim-stake-to-secure-loans-video",
-      "summary": "Bloomberg's Sridhar Natarajan joins Dani Burger on \"Bloomberg Deals.\" Mark Walter offered to pledge his stake in his prized financial assets as part of a broader effort to raise billions of dollars in quick order. (Source: Bloomberg)",
-      "published": "20 Aug 2026 02:15 WIB",
-      "sentiment": "Bullish",
-      "score": 0.838,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "Google News Geopolitik",
-      "title": "Bank Sentral Sudan meninjau intervensi valuta asing untuk menstabilkan mata uang - Sudan Tribune",
+      "title": "Bank sentral Sudan meninjau intervensi valuta asing untuk menstabilkan mata uang - sudantribune.com",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUY0tnN2dHOXdMZjFLYktKQUs1SlBWTmJsaXNsRTNCRGRqNzFVcDhMUEpiaDZrVjlwVUprVjZJZ21mV2dlZzNfTGY2ejJvLW9j?oc=5",
-      "summary": "Sudan central bank reviews foreign exchange interventions to stabilize currency Sudan Tribune",
+      "summary": "Sudan central bank reviews foreign exchange interventions to stabilize currency sudantribune.com",
       "published": "19 Aug 2026 05:01 WIB",
       "sentiment": "Netral",
       "score": 0.0,
@@ -688,12 +699,12 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Indeks Dolar Stabil karena Permintaan Safe-Haven Tetap Ada di Tengah Ketidakpastian Global - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcktPdU14eGJoczhPeEVDWms5OFhZbFJUWVo0NHc1Ul9ERXJ0eFlyb3FWdWU5ZG9kN0pfUUJFeVVON1lNUnY2R0o5azc2UU91Q2JJcld4NTZCYUJ5OFV4a18yX0w3bWIzelB1NE9tRjQ4aTBITEpnd3pWcFVIY0NDc0FkOA?oc=5",
-      "summary": "Dollar Index Steadies as Safe-Haven Demand Persists Amid Global Uncertainty CryptoRank",
-      "published": "18 Aug 2026 22:43 WIB",
+      "title": "Indeks Dolar Stabil Di Atas 99,50 karena Permintaan Safe-Haven Mengimbangi Risiko Perdagangan - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTUVTbU9iVTJqbmlaRU5qampUSGJYak5LbEtiNTFINWg0SHJUS3dDVDVDTkk3NFR2cnN1RzZaSklqTHk4MFV0QW81MkJKTFh6YW1tVEx4N0hOa3o5NUJES2FqRTZLVDZsUzdLcjU2cVViQ1VDOHpjZjRQTE9oa0R1UEtwU1JpVGFXanpZZXp5SklhcTA?oc=5",
+      "summary": "Dollar Index Steadies Above 99.50 as Safe-Haven Demand Offsets Trade Risks CryptoRank",
+      "published": "19 Aug 2026 12:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.7,
+      "score": -0.717,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -707,6 +718,17 @@
       "score": -0.971,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Google News Geopolitik",
+      "title": "Mata uang Brasil kemungkinan akan menghadapi pemilu yang tidak terlalu bergejolak - Valor International",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTVppZjlQRkFyOTRvQTdzajdFRGJDRXZyMHlER19rLTN0WG9rQXVYN0hLZWV2Rmx3ZkFZNFVWYWhGT0RCbFFPWWdWZ09zWFBfQWxLVS04bzBYUVRwSW1lRUJOY3gzakdJTi1TVF9lX1B1OWc4VktnWUdYUWZuT0hiRFFXQmxCZ2ItTDVaX05tcjN4aE5vVWw2R0hndmpUczNLbGgtQlJQbEhwQXZMSkEzV3RfcEoxOHpYLWpqOExQWHIwUdIB0AFBVV95cUxNQWl0MFh5eTVBaEtJTnFva2pLVUI0b3BTUnNWeXExRUtVeUE5U0lHWGxRbTY1LUJicVFlTnFQaldXTXlWS1J6bHlNSTFBc01VRUhrRzJuMkVkR1h1YkVWeC1Bb0xNTGlzNGVoSnMyaDZWdkFmS2MzVHBxUzdKT2x2X0ZsNklKbXozOUNpNVlTeVlWNElRX0N3Q3RwbWFHbEIyY2Z4eHhHYzFtQk1LZk1ESWVGWFE4TS1YT3dnM2JqTzAtQVpmVGctWlZzMUk1eW54?oc=5",
+      "summary": "Brazilian currency likely to face less turbulent election Valor International",
+      "published": "18 Aug 2026 19:10 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -746,7 +768,7 @@
       "title": "Kanada dan AS mengatakan mereka sedang menyelesaikan kesepakatan perdagangan, namun rinciannya masih belum jelas",
       "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss",
       "summary": "Prime Minister Carney hailed \"significant progress\" in trade talks as the two countries seek to hammer out final details ahead of a new weekend tariff deadline.",
-      "published": "20 Aug 2026 02:59 WIB",
+      "published": "20 Aug 2026 06:32 WIB",
       "sentiment": "Bullish",
       "score": 0.885,
       "emoji": "🟢",
@@ -776,6 +798,17 @@
     },
     {
       "source": "BBC Business",
+      "title": "Utang nasional AS melampaui $40 triliun setelah meningkat dua kali lipat dalam satu dekade",
+      "url": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after the interest rate on 30-year bonds reached the highest level in almost 20 years.",
+      "published": "20 Aug 2026 05:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.226,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Business",
       "title": "Inflasi sedang memanas tetapi jangan berharap krisis terjadi lagi",
       "url": "https://www.bbc.co.uk/news/articles/cj63jr5r09zo?at_medium=RSS&at_campaign=rss",
       "summary": "Rising living costs could heap pressure on PM Andy Burnham though it depends what happens in the coming months.",
@@ -793,28 +826,6 @@
       "published": "19 Aug 2026 23:12 WIB",
       "sentiment": "Bearish",
       "score": -0.501,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Biaya pinjaman jangka panjang AS berkurang setelah pemerintah mengambil tindakan",
-      "url": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
-      "summary": "It comes after the interest rate on 30-year bonds reached the highest level in almost 20 years.",
-      "published": "20 Aug 2026 02:26 WIB",
-      "sentiment": "Bullish",
-      "score": 0.71,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Teknologi penting tetap aman dengan bergerak di bawah tanah",
-      "url": "https://www.bbc.co.uk/news/articles/c20ydrndr0wo?at_medium=RSS&at_campaign=rss",
-      "summary": "The war in Ukraine has spurred people to consider putting vital infrastructure underground.",
-      "published": "19 Aug 2026 06:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.353,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -878,7 +889,7 @@
       "title": "Pangeran Harry dan Meghan pindah kembali ke Inggris",
       "url": "https://www.bbc.co.uk/news/articles/c62ey03z9d1o?at_medium=RSS&at_campaign=rss",
       "summary": "The couple's children, Prince Archie, 7, and Princess Lilibet, 5, are enrolled to start at a school in September.",
-      "published": "20 Aug 2026 04:59 WIB",
+      "published": "20 Aug 2026 06:52 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -894,6 +905,39 @@
       "score": -0.557,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Badan internasional melakukan pemungutan suara untuk mengadakan pertemuan darurat mengenai Nikaragua",
+      "url": "https://www.aljazeera.com/news/2026/8/19/international-body-votes-to-convene-emergency-meeting-over-nicaragua?traffic_source=rss",
+      "summary": "Nicaragua's move to extend Ortega's rule and bar rivals from elections triggers a near-unanimous OAS rebuke.",
+      "published": "20 Aug 2026 06:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.226,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pentagon menanyai sekutu-sekutu NATO mengenai loyalitas politik, demikian ungkap dokumen",
+      "url": "https://www.aljazeera.com/news/2026/8/19/pentagon-quizzes-nato-allies-on-political-loyalty-documents-reveal?traffic_source=rss",
+      "summary": "NATO allies probed on loyalty to US policies in Pentagon questionnaire obtained exclusively by Al Jazeera.",
+      "published": "20 Aug 2026 06:24 WIB",
+      "sentiment": "Bullish",
+      "score": 0.791,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Lebanon menyerahkan mantan jenderal tentara Suriah ke Damaskus setelah surat perintah penangkapan",
+      "url": "https://www.aljazeera.com/news/2026/8/19/lebanon-hands-former-syrian-army-general-to-damascus-after-arrest-warrant?traffic_source=rss",
+      "summary": "The transfer is the first from Lebanon involving a Syrian military officer who fled after al-Assad's government fell.",
+      "published": "20 Aug 2026 06:21 WIB",
+      "sentiment": "Bearish",
+      "score": -0.42,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -962,28 +1006,6 @@
       "impact": "medium"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Kanada meningkatkan bantuan ke Lebanon hingga $50 juta dan mengutuk ‘invasi melanggar hukum’ Israel",
-      "url": "https://www.aljazeera.com/news/2026/8/19/canada-pledges-50m-aid-to-lebanon-and-condemns-israeli-unlawful-invasion?traffic_source=rss",
-      "summary": "Canada official condemns Israel's 'invasion' of Lebanon, calls for sovereignty as aid pledged to the crisis-hit nation.",
-      "published": "20 Aug 2026 01:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.809,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "NATO ‘bersiap’ untuk membela sekutu di tengah laporan rencana serangan Iran",
-      "url": "https://www.aljazeera.com/news/2026/8/19/nato-prepared-to-defend-allies-amid-report-of-iranian-strike-plans?traffic_source=rss",
-      "summary": "NATO says it will 'do what is necessary' amid media report Iran considered strikes against US targets in Europe.",
-      "published": "20 Aug 2026 00:50 WIB",
-      "sentiment": "Bearish",
-      "score": -0.379,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "MarketWatch",
       "title": "Saham ServiceNow memimpin reli perangkat lunak. Inilah yang memberi semangat kepada investor.",
       "url": "https://www.marketwatch.com/story/servicenows-stock-leads-a-software-rally-heres-whats-energizing-investors-0ad74dd1?mod=mw_rss_topstories",
@@ -1018,6 +1040,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "Trump mengumumkan 'perang ekonomi' terhadap Iran, dan mengancam konsekuensi 'luar biasa' bagi para pendukungnya",
+      "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
+      "summary": "The announcement extends a pressure campaign the Trump administration has waged since April under the banner Operation Economic Fury.",
+      "published": "20 Aug 2026 06:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.928,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
       "title": "Trump menggembar-gemborkan kesepakatan untuk menghindari tarif baru terhadap Kanada. Inilah yang kami ketahui sejauh ini",
       "url": "https://www.cnbc.com/2026/08/19/trump-canada-tariffs-deal-carney.html",
       "summary": "Trump's new tariffs on about $20 billion worth of Canadian goods were set to take effect Wednesday, but were postponed by three days.",
@@ -1040,17 +1073,6 @@
     },
     {
       "source": "CNBC World",
-      "title": "Utang pemerintah AS melampaui $40 triliun, meningkat lebih dari dua kali lipat dalam satu dekade",
-      "url": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html",
-      "summary": "",
-      "published": "20 Aug 2026 04:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.361,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
       "title": "Nuklir di mana-mana? Payung nuklir AS yang melemah mendorong sekutu-sekutunya untuk mempertimbangkan pilihan-pilihan pertahanan, sehingga meningkatkan risiko kaskade proliferasi",
       "url": "https://www.cnbc.com/2026/08/19/nuclear-proliferation-defense-risk-trump-umbrella-.html",
       "summary": "As countries take more responsibility for their own defense and nuclear states step back from arms-control commitments, the question of proliferation arises.",
@@ -1058,6 +1080,17 @@
       "sentiment": "Netral",
       "score": 0.023,
       "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Utang pemerintah AS melampaui $40 triliun, meningkat lebih dari dua kali lipat dalam satu dekade",
+      "url": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html",
+      "summary": "",
+      "published": "20 Aug 2026 05:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.361,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -1081,39 +1114,6 @@
       "score": 0.003,
       "emoji": "⚪",
       "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Kemunduran AS dari tatanan global ‘mengikis’ daya saing Eropa, kata bos bank sentral tersebut memperingatkan",
-      "url": "https://www.cnbc.com/2026/08/19/lagarde-ecb-europe-economy-trump.html",
-      "summary": "ECB chief Christine Lagarde called for better integration across the region if Europe wants to compete in the age of AI.",
-      "published": "19 Aug 2026 18:27 WIB",
-      "sentiment": "Bullish",
-      "score": 0.431,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Risiko dolar semakin meningkat. Inilah yang bisa melemahkan greenback",
-      "url": "https://www.cnbc.com/2026/08/19/inflation-dollar-risks-fed.html",
-      "summary": "Currency strategists flag Treasury risk, softer U.S. data and uncertain Fed policy as key factors that could pressure the dollar.",
-      "published": "19 Aug 2026 18:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.982,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Rusia mengatakan perekonomiannya kuat. Pemerintah baru saja memecat seorang ekonom terkemuka yang memperingatkan sebaliknya",
-      "url": "https://www.cnbc.com/2026/08/18/ukraine-war-russia-economy-klepach.html",
-      "summary": "Andrei Klepach was reportedly fired from his role after presenting a report warning that Russia could not win a prolonged war of attrition with Ukraine.",
-      "published": "18 Aug 2026 18:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.927,
-      "emoji": "🔴",
-      "impact": "high"
     }
   ]
 }
