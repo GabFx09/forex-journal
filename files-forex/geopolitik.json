@@ -1,5 +1,5 @@
 {
-  "generated": "21 Aug 2026 08:04 WIB",
+  "generated": "21 Aug 2026 09:48 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,50 +7,50 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.263,
-      "count": 14
+      "score": -0.393,
+      "count": 12
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.339,
-      "count": 13
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.336,
-      "count": 10
+      "score": -0.495,
+      "count": 11
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.351,
+      "score": -0.321,
+      "count": 9
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.55,
       "count": 8
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.616,
+      "count": 3
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.616,
+      "count": 3
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.552,
-      "count": 2
+      "score": -0.395,
+      "count": 3
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Turun ▼",
       "score": -0.553,
       "count": 2
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.858,
-      "count": 1
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.858,
-      "count": 1
     }
   ],
   "items": [
@@ -78,6 +78,28 @@
     },
     {
       "source": "FXStreet News",
+      "title": "Dolar Kanada menguat di tengah kenaikan harga minyak",
+      "url": "https://www.fxstreet.com/news/canadian-dollar-gains-ground-amid-rising-oil-prices-202608210153",
+      "summary": "USD/CAD extends its losses for the third successive day, trading around 1.3770 during the Asian hours on Friday. The currency pair loses ground as the commodity-linked Canadian Dollar (CAD) receives support from rising crude oil prices.",
+      "published": "21 Aug 2026 08:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.607,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "WTI berkonsolidasi di sekitar $86,00; potensi kenaikan tetap utuh di tengah kebuntuan AS-Iran",
+      "url": "https://www.fxstreet.com/news/wti-consolidates-around-8600-bulls-potential-intact-amid-us-iran-impasse-202608210109",
+      "summary": "West Texas Intermediate (WTI) – the benchmark US Crude Oil price – oscillates in a range around the $86.00 mark during the Asian session on Friday and remains well within striking distance of a three-week high, touched the previous day.",
+      "published": "21 Aug 2026 08:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.382,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Bessent mengatakan AS tidak mungkin melanjutkan pertempuran besar-besaran dengan Iran dan akan meningkatkan tekanan ekonomi",
       "url": "https://www.fxstreet.com/news/bessent-says-us-unlikely-to-resume-large-scale-iran-combat-steps-up-economic-pressure-202608202352",
       "summary": "US Treasury Secretary Scott Bessent said that the US President Donald Trump administration’s plan to crush Iran’s economy will likely negate the need for major US military operations against the Islamic Republic, CNBC reported on Thursday.",
@@ -88,37 +110,15 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Rupiah Indonesia: Dolar yang Lebih Lemah menawarkan keringanan yang terbatas – OCBC",
-      "url": "https://www.fxstreet.com/news/indonesian-rupiah-softer-dollar-offers-limited-relief-ocbc-202608201843",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note that Indonesian Rupiah (IDR) should find some relief from a softer Dollar and lower long-end US yields, with BI keeping its policy rate at 5.75% and focusing on currency stability.",
-      "published": "21 Aug 2026 01:43 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Singapura: Risiko kenaikan tetap menjadi fokus terhadap Dolar AS – UOB",
-      "url": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-stays-in-focus-against-us-dollar-uob-202608201833",
-      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann note that USD/SGD extended its overnight slide as the US Dollar (USD) sell-off pushed the pair back toward the 1.27 area.",
-      "published": "21 Aug 2026 01:33 WIB",
-      "sentiment": "Bullish",
-      "score": 0.098,
-      "emoji": "🟢",
+      "source": "Bloomberg Markets",
+      "title": "Saham Inghams Turun karena Biaya Pakan dan Bahan Bakar yang Lebih Tinggi Mencapai Outlook",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/inghams-shares-drop-as-higher-feed-and-fuel-costs-hit-outlook",
+      "summary": "Inghams Group Ltd. shares dropped the most in about two months after the Australian poultry producer flagged that higher feed, diesel and packaging costs caused by the war in the Middle East would impact its earnings forecast in the next year.",
+      "published": "21 Aug 2026 08:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.462,
+      "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "EQT Australia menerima tawaran $472 juta dari BGH Capital, hanya beberapa hari setelah pendekatan TPG",
-      "url": "https://www.investing.com/news/stock-market-news/australias-eqt-receives-472-mln-bid-from-bgh-capital-just-days-after-tpg-approach-93CH-4870669",
-      "summary": "",
-      "published": "21 Aug 2026 07:27 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -155,6 +155,17 @@
     },
     {
       "source": "BBC World",
+      "title": "AS memberikan sanksi kepada lebih banyak perusahaan dan pejabat Kuba",
+      "url": "https://www.bbc.co.uk/news/articles/cgq5x9l7054o?at_medium=RSS&at_campaign=rss",
+      "summary": "An international socialist institute and Cuba's construction ministry are subject to the latest US sanctions, Marco Rubio announces.",
+      "published": "21 Aug 2026 09:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
       "title": "Neo-Nazi Jerman dicurigai melakukan kebakaran mematikan pada tahun 1970 di panti jompo Yahudi",
       "url": "https://www.bbc.co.uk/news/articles/c3r055g23qdo?at_medium=RSS&at_campaign=rss",
       "summary": "Investigators believe they have identified an arsonist who attacked a Jewish community centre in Munich in 1970, killing seven people.",
@@ -185,17 +196,6 @@
       "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Ajudan utama Trump, Natalie Harp, tiba-tiba menjadi sorotan setelah bertahun-tahun berada di belakang layar",
-      "url": "https://www.bbc.co.uk/news/articles/c80nzdjgmk3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Democratic Senator Jon Ossoff used a speech to note the closeness of one aide to the president.",
-      "published": "20 Aug 2026 06:11 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
     },
     {
       "source": "BBC Business",
@@ -243,7 +243,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Houthi dan pemerintah melakukan serangan dagang saat Yaman kembali dilanda perang skala penuh",
+      "title": "Houthi dan serangan perdagangan pemerintah saat Yaman kembali ke perang skala penuh",
       "url": "https://www.aljazeera.com/news/2026/8/20/houthis-and-government-trade-attacks-as-yemen-slides-back-to-full-scale-war?traffic_source=rss",
       "summary": "Gov't forces carried out 81 attacks in the last 24 hours as Houthis claim to have hit two targets in Saudi Arabia.",
       "published": "21 Aug 2026 06:19 WIB",
@@ -309,17 +309,6 @@
     },
     {
       "source": "CNBC World",
-      "title": "Bessent mengatakan AS kemungkinan tidak akan memulai kembali pertempuran besar-besaran dengan Iran karena negara itu meningkatkan tekanan ekonomi",
-      "url": "https://www.cnbc.com/2026/08/20/bessent-economy-iran-war-trump.html",
-      "summary": "Bessent and President Donald Trump unveiled the economic operation nearly six months into the Iran war, which continues without a clear end in sight.",
-      "published": "21 Aug 2026 00:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.945,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
       "title": "Nuklir di mana-mana? Payung nuklir AS yang melemah mendorong sekutu-sekutunya untuk mempertimbangkan pilihan-pilihan pertahanan, sehingga meningkatkan risiko kaskade proliferasi",
       "url": "https://www.cnbc.com/2026/08/19/nuclear-proliferation-defense-risk-trump-umbrella-.html",
       "summary": "As countries take more responsibility for their own defense and nuclear states step back from arms-control commitments, the question of proliferation arises.",
@@ -328,6 +317,17 @@
       "score": 0.023,
       "emoji": "⚪",
       "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Bessent mengatakan AS kemungkinan tidak akan memulai kembali pertempuran besar-besaran dengan Iran karena negara itu meningkatkan tekanan ekonomi",
+      "url": "https://www.cnbc.com/2026/08/20/bessent-economy-iran-war-trump.html",
+      "summary": "Bessent and President Donald Trump unveiled the economic operation nearly six months into the Iran war, which continues without a clear end in sight.",
+      "published": "21 Aug 2026 00:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.945,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
