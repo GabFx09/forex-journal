@@ -1,5 +1,5 @@
 {
-  "generated": "21 Aug 2026 07:01 WIB",
+  "generated": "21 Aug 2026 08:04 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.213,
+      "score": -0.263,
       "count": 14
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.285,
+      "score": -0.339,
       "count": 13
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.252,
-      "count": 10
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.266,
+      "score": -0.336,
       "count": 10
     },
     {
-      "pair": "AUD/USD",
-      "direction": "Netral →",
-      "score": 0.008,
-      "count": 3
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Netral →",
-      "score": 0.008,
-      "count": 3
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.351,
+      "count": 8
     },
     {
       "pair": "USD/RUB",
@@ -51,6 +39,18 @@
       "direction": "Tekanan Turun ▼",
       "score": -0.553,
       "count": 2
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.858,
+      "count": 1
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.858,
+      "count": 1
     }
   ],
   "items": [
@@ -73,28 +73,6 @@
       "published": "21 Aug 2026 03:49 WIB",
       "sentiment": "Bullish",
       "score": 0.729,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Menteri Keuangan AS Bessent mengatakan pembelian kembali obligasi jangka panjang bisa mencapai lebih dari 4 miliar",
-      "url": "https://investinglive.com/news/us-treasury-secretary-bessent-says-the-long-dated-bond-buyback-could-be-more-than-4-billion/",
-      "summary": "Buyback could be more than 4 billion Part of it is signalling We want to show that yields do not reflect underlying fundamentals Probably going to announce increased focus on fiscal consolidation Nothing magic about $40 trillion debt number Expect tariff 2026 income will be similar to 2025 Very good",
-      "published": "20 Aug 2026 22:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.582,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Indeks utama AS untuk bulan Juli +0,2% vs perkiraan +0,1%.",
-      "url": "https://investinglive.com/news/us-leading-index-for-july-0-2-vs-0-1-expected/",
-      "summary": "Prior -0.2% (revised to -0.1%) The Conference Board Leading Economic Index increased by 0.2% in July, after an upwardly revised decline of 0.1% in June. As a result, the LEI’s six-month growth rate turned positive, to an increase of 0.2% between January and July 2026, a sharp reversal from its 1.3% ",
-      "published": "20 Aug 2026 21:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.698,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -132,15 +110,15 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Aluminium Premium Turun karena AS Akan Memotong Tarif Logam Kanada",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/aluminum-premium-slips-as-us-set-to-cut-tariffs-on-canada-metal",
-      "summary": "A key regional price benchmark for aluminum delivered to the US market tumbled after the Trump administration indicated it would lower tariffs on certain Canadian exports of aluminum.",
-      "published": "21 Aug 2026 03:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "medium"
+      "source": "Investing.com Forex",
+      "title": "EQT Australia menerima tawaran $472 juta dari BGH Capital, hanya beberapa hari setelah pendekatan TPG",
+      "url": "https://www.investing.com/news/stock-market-news/australias-eqt-receives-472-mln-bid-from-bgh-capital-just-days-after-tpg-approach-93CH-4870669",
+      "summary": "",
+      "published": "21 Aug 2026 07:27 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -254,12 +232,12 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Pria didakwa atas serangan sinagoga Manchester",
-      "url": "https://www.bbc.co.uk/news/articles/cm2g5ne37zyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Police say the man is accused of failing to disclose information regarding terrorist activity.",
-      "published": "20 Aug 2026 23:17 WIB",
+      "title": "Hari-hariku sebagai mahasiswa di London berubah menjadi teror - kini orang-orang yang selamat seperti saya tidak akan dilupakan",
+      "url": "https://www.bbc.co.uk/news/articles/cd0x91ym7veo?at_medium=RSS&at_campaign=rss",
+      "summary": "The UK's first national day for victims and survivors of terrorism takes place on Friday - and means more to this man than many.",
+      "published": "21 Aug 2026 07:11 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.798,
       "emoji": "🔴",
       "impact": "low"
     },

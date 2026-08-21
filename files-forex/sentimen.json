@@ -1,24 +1,24 @@
 {
-  "generated": "21 Aug 2026 07:01 WIB",
+  "generated": "21 Aug 2026 08:04 WIB",
   "summary": {
-    "total": 99,
-    "bullish": 46,
-    "bearish": 43,
-    "netral": 10,
-    "avg_score": -0.0299,
+    "total": 102,
+    "bullish": 48,
+    "bearish": 41,
+    "netral": 13,
+    "avg_score": -0.0171,
     "overall": "Netral",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.133,
+        "score": 0.134,
         "count": 28
       },
       {
         "currency": "JPY",
-        "sentiment": "Netral",
-        "score": 0.022,
-        "count": 8
+        "sentiment": "Bullish",
+        "score": 0.25,
+        "count": 11
       },
       {
         "currency": "EUR",
@@ -39,14 +39,70 @@
         "count": 1
       },
       {
+        "currency": "CAD",
+        "sentiment": "Netral",
+        "score": 0.0,
+        "count": 1
+      },
+      {
         "currency": "NZD",
         "sentiment": "Bullish",
         "score": 0.798,
+        "count": 1
+      },
+      {
+        "currency": "CNY",
+        "sentiment": "Netral",
+        "score": 0.0,
         "count": 1
       }
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "PMI awal menunjukkan pabrik-pabrik Jepang memimpin pertumbuhan terkuat sejak Februari",
+      "url": "https://investinglive.com/news/flash-pmi-shows-japan-factories-leading-strongest-growth-since-february/",
+      "summary": "The acceleration in output growth, combined with near record selling price inflation and a sustained rise in employment, strengthens the case for the Bank of Japan to proceed with a rate hike at its September meeting. A private sector expanding at its fastest pace in six months, alongside firms stil",
+      "published": "21 Aug 2026 07:37 WIB",
+      "sentiment": "Bullish",
+      "score": 1.0,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Bank sentral Rusia yang pernah menjadi pembeli emas terbesar di dunia kini menjadi penjual tetap",
+      "url": "https://investinglive.com/commodities/once-the-world-s-top-gold-buyer-russia-s-central-bank-now-a-steady-seller/",
+      "summary": "The scale of the drawdown, 1.6 million ounces since January, values reserve losses at 33.7 billion dollars over seven months, underscores how far Russia's fiscal position has deteriorated as weaker energy revenue forces the government to lean on its sovereign wealth buffers. The mirror mechanism thr",
+      "published": "21 Aug 2026 07:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.567,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "PBOC diperkirakan akan menetapkan kurs referensi USD/CNY di 6,7262 – perkiraan Reuters",
+      "url": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-7262-reuters-estimate/",
+      "summary": "The People’s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets. China operates a managed floating exchange rate system, under which the renminbi (yuan",
+      "published": "21 Aug 2026 07:17 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "BOJ diperkirakan akan menaikkan suku bunga menjadi 1,25% pada bulan September karena tekanan inflasi Jepang yang semakin meluas",
+      "url": "https://investinglive.com/central-banks/boj-seen-hiking-to-1-25-in-september-as-japan-inflation-pressures-broaden/",
+      "summary": "The data l ands squarely within the range the Bank of Japan needs to justify moving in September, with core inflation matching forecasts and the closely watched core-core measure accelerating to 1.9%. The pickup in service sector inflation is arguably the more important signal for policymakers than ",
+      "published": "21 Aug 2026 07:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.439,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Iran merencanakan serangan minyak untuk merugikan Trump sebelum pemilu paruh waktu, kata pejabat tersebut",
@@ -213,59 +269,15 @@
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Musalem dari Fed mengatakan kenaikan suku bunga sekarang bisa menyelamatkan tindakan yang lebih agresif di kemudian hari",
-      "url": "https://investinglive.com/central-banks/fed-s-musalem-says-hiking-rates-now-could-save-more-aggressive-action-later/",
-      "summary": "Strong growth and investment is influencing bond market Fed credibility is not in question Fed is focused on making monetary policy independent of fiscal policy Monetary policy is neutral or accomodative right now Financial conditions are pretty accomodative here Number one concern of public is infl",
-      "published": "20 Aug 2026 22:40 WIB",
-      "sentiment": "Bullish",
-      "score": 1.0,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Menteri Keuangan AS Bessent mengatakan pembelian kembali obligasi jangka panjang bisa mencapai lebih dari 4 miliar",
-      "url": "https://investinglive.com/news/us-treasury-secretary-bessent-says-the-long-dated-bond-buyback-could-be-more-than-4-billion/",
-      "summary": "Buyback could be more than 4 billion Part of it is signalling We want to show that yields do not reflect underlying fundamentals Probably going to announce increased focus on fiscal consolidation Nothing magic about $40 trillion debt number Expect tariff 2026 income will be similar to 2025 Very good",
-      "published": "20 Aug 2026 22:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.678,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Indeks utama AS untuk bulan Juli +0,2% vs perkiraan +0,1%.",
-      "url": "https://investinglive.com/news/us-leading-index-for-july-0-2-vs-0-1-expected/",
-      "summary": "Prior -0.2% (revised to -0.1%) The Conference Board Leading Economic Index increased by 0.2% in July, after an upwardly revised decline of 0.1% in June. As a result, the LEI’s six-month growth rate turned positive, to an increase of 0.2% between January and July 2026, a sharp reversal from its 1.3% ",
-      "published": "20 Aug 2026 21:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.698,
-      "emoji": "🟢",
+      "source": "FXStreet News",
+      "title": "Yen Jepang datar setelah laporan inflasi CPI",
+      "url": "https://www.fxstreet.com/news/japanese-yen-flatlines-after-cpi-inflation-report-202608210058",
+      "summary": "The USD/JPY pair holds steady near 159.05 during the early Asian session on Friday. Growing speculation that the Bank of Japan (BoJ) could raise interest rates next month offsets the weaker Gross Domestic Product (GDP) data.",
+      "published": "21 Aug 2026 07:58 WIB",
+      "sentiment": "Bearish",
+      "score": -0.398,
+      "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Daly dari Fed tidak melihat bukti yang menyerukan kenaikan suku bunga sebagai tindakan preventif, dan kebijakannya sudah tepat",
-      "url": "https://investinglive.com/central-banks/fed-s-daly-doesn-t-see-evidence-calling-for-pre-emptive-rate-hikes-policy-in-good-place/",
-      "summary": "Rise in long term yields is a global issue, not a signal for the Fed I don't see Fed credibility at risk Short term yields show markets understand Fed reaction function Policy is in a good place, watching markets I don't see evidence calling for pre-emptive rate hikes Modal outlook expects inflation",
-      "published": "20 Aug 2026 19:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.764,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Indeks bisnis Philly Fed bulan Agustus AS +47,4 vs +25,0 yang diperkirakan",
-      "url": "https://investinglive.com/news/us-august-philly-fed-business-index-xx-vs-25-0-expected/",
-      "summary": "Prior was +41.4 Details: New orders 30.1 versus 37.0 last month Shipments 27.7 versus 33.7 last month Unfilled orders 14.4 versus 18.1 last month Delivery times 3.7 versus 9.6 last month Inventories -3.7 versus 0.3 last month Prices paid 40.9 versus 53.9 last month Prices received 17.7 versus 27.4 l",
-      "published": "20 Aug 2026 19:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.077,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -293,7 +305,7 @@
       "source": "FXStreet News",
       "title": "CPI Nasional Jepang naik 2,0% YoY di bulan Juli, CPI Inti naik sesuai perkiraan",
       "url": "https://www.fxstreet.com/news/japans-national-cpi-climbs-20-yoy-in-july-core-cpi-rises-as-expected-202608202332",
-      "summary": "Japan’s National Consumer Price Index (CPI) climbed by 2.0% YoY in July, compared to the previous reading of 1.7%, according to the latest data released by the Japan Statistics Bureau on Friday.",
+      "summary": "Japan’s National Consumer Price Index (CPI) climbed by 2.0% YoY in July, compared to the previous reading of 1.6% (revised from 1.7%), according to the latest data released by the Japan Statistics Bureau on Friday.",
       "published": "21 Aug 2026 06:32 WIB",
       "sentiment": "Netral",
       "score": 0.0,
@@ -466,14 +478,91 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Yen Jepang berkinerja buruk karena kenaikan harga minyak membebani dan pemulihan Dolar AS",
-      "url": "https://www.fxstreet.com/news/japanese-yen-underperforms-as-elevated-oil-prices-weigh-us-dollar-recovers-202608201756",
-      "summary": "USD/JPY rebounds on Thursday, recovering most of the previous day’s losses as the US Dollar (USD) stages a modest recovery after falling to a three-month low. At the time of writing, USD/JPY trades around 159.05, up roughly 0.55% on the day.",
-      "published": "21 Aug 2026 00:56 WIB",
+      "source": "Investing.com Forex",
+      "title": "Remaja AS membatalkan gugatan terhadap Meta, Google, dan Snap sebelum persidangan",
+      "url": "https://www.investing.com/news/stock-market-news/us-teen-drops-lawsuit-against-meta-google-and-snap-ahead-of-trial-4870665",
+      "summary": "",
+      "published": "21 Aug 2026 07:42 WIB",
       "sentiment": "Bearish",
-      "score": -0.74,
+      "score": -0.146,
       "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "SpaceX dan AST Spacemobile mengincar spektrum Grain Management senilai $6 miliar- Bloomberg",
+      "url": "https://www.investing.com/news/stock-market-news/spacex-and-ast-spacemobile-eye-grain-management-spectrum-for-6-bln-bloomberg-93CH-4870684",
+      "summary": "",
+      "published": "21 Aug 2026 07:39 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "SK Hynix merencanakan pembuatan semikonduktor di Jepang, Hankyoreh melaporkan",
+      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-plans-semiconductor-fab-in-japan-hankyoreh-reports-4870683",
+      "summary": "",
+      "published": "21 Aug 2026 07:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.459,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "EQT Australia menerima tawaran $472 juta dari BGH Capital, hanya beberapa hari setelah pendekatan TPG",
+      "url": "https://www.investing.com/news/stock-market-news/australias-eqt-receives-472-mln-bid-from-bgh-capital-just-days-after-tpg-approach-93CH-4870669",
+      "summary": "",
+      "published": "21 Aug 2026 07:27 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Saham berjangka AS stabil setelah Wall St merosot karena kenaikan imbal hasil Treasury",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-wall-st-slides-on-rising-treasury-yields-4870666",
+      "summary": "",
+      "published": "21 Aug 2026 07:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.202,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Tencent, Alibaba, dan Baidu: bagaimana raksasa teknologi Tiongkok berbeda pendapat pada Q2 2026",
+      "url": "https://www.investing.com/news/stock-market-news/tencent-alibaba-and-baidu-how-chinas-tech-giants-diverged-in-q2-2026-93CH-4870649",
+      "summary": "",
+      "published": "21 Aug 2026 06:55 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "PMI manufaktur dan jasa Australia tumbuh dengan stabil di bulan Agustus",
+      "url": "https://www.investing.com/news/stock-market-news/australia-manufacturing-services-pmi-grow-steadily-in-august-93CH-4870648",
+      "summary": "",
+      "published": "21 Aug 2026 06:54 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "TPG Telecom melaporkan laba yang lebih tinggi karena peningkatan seluler mengimbangi lesunya broadband",
+      "url": "https://www.investing.com/news/stock-market-news/tpg-telecom-reports-higher-profit-as-mobile-gains-offset-sluggish-broadband-93CH-4870647",
+      "summary": "",
+      "published": "21 Aug 2026 06:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.462,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -499,92 +588,15 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Mariana, 18 kota lainnya di Brasil bergabung dalam kesepakatan kompensasi runtuhnya bendungan Vale-BHP",
-      "url": "https://www.investing.com/news/stock-market-news/mariana-18-more-brazil-cities-join-valebhp-dam-collapse-compensation-deal-4870563",
+      "source": "Investing.com Economy",
+      "title": "Manufaktur Jepang berkembang seiring peningkatan pesanan tercepat sejak 2018, menurut PMI",
+      "url": "https://www.investing.com/news/economic-indicators/japan-manufacturing-expands-as-orders-rise-fastest-since-2018-pmi-shows-4870686",
       "summary": "",
-      "published": "21 Aug 2026 05:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.107,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Anthropic menambahkan Citigroup untuk memimpin bank-bank IPO sebelum pencatatan - Bloomberg",
-      "url": "https://www.investing.com/news/stock-market-news/anthropic-adds-citigroup-to-lead-ipo-banks-ahead-of-listing--bloomberg-93CH-4870593",
-      "summary": "",
-      "published": "21 Aug 2026 04:52 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Standard Aero memenangkan kontrak perbaikan mesin Angkatan Laut senilai $62 juta",
-      "url": "https://www.investing.com/news/stock-market-news/standard-aero-wins-62m-navy-engine-repair-contract-93CH-4870588",
-      "summary": "",
-      "published": "21 Aug 2026 04:47 WIB",
+      "published": "21 Aug 2026 07:42 WIB",
       "sentiment": "Bullish",
-      "score": 0.572,
+      "score": 0.103,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham Meksiko menguat pada penutupan perdagangan; S&P/BMV IPC naik 0,55%",
-      "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-higher-at-close-of-trade-spbmv-ipc-up-055-4870572",
-      "summary": "",
-      "published": "21 Aug 2026 04:30 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham Kolombia melemah pada penutupan perdagangan; COLCAP turun 0,37%",
-      "url": "https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-037-4870568",
-      "summary": "",
-      "published": "21 Aug 2026 04:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Raytheon memenangkan $42,5 juta dalam kesepakatan suku cadang F/A-18 Angkatan Laut",
-      "url": "https://www.investing.com/news/stock-market-news/raytheon-wins-425-million-in-navy-fa18-spare-parts-deals-93CH-4870567",
-      "summary": "",
-      "published": "21 Aug 2026 04:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.652,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Boeing memenangkan kontrak pertahanan AS senilai $174 juta untuk mesin dan pelatihan",
-      "url": "https://www.investing.com/news/stock-market-news/boeing-wins-174m-in-us-defense-contracts-for-engines-training-93CH-4870566",
-      "summary": "",
-      "published": "21 Aug 2026 04:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.637,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Saham Rusia melemah pada penutupan perdagangan; Indeks MOEX Rusia turun 2,34%",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-234-4870565",
-      "summary": "",
-      "published": "21 Aug 2026 04:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "low"
+      "impact": "medium"
     },
     {
       "source": "Investing.com Economy",
@@ -628,6 +640,39 @@
       "sentiment": "Bearish",
       "score": -0.501,
       "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Obligasi Asia Mengikuti Penurunan Treasury, Dolar Tergelincir: Pasar Membungkus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian bonds declined and the dollar remained under pressure after a rally in Treasuries faded, with investors betting that US efforts to contain long-term borrowing costs through buybacks may offer only a temporary reprieve.",
+      "published": "21 Aug 2026 05:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.153,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Misi Mazumdar-Shaw untuk Memperluas Akses terhadap Obat-obatan yang Menyelamatkan Jiwa",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-medicines-video",
+      "summary": "Known as India’s ‘Queen of Biotech’, Kiran Mazumdar-Shaw built Biocon from a rented garage almost 50 years ago. Today, her multibillion-dollar company is one of the world’s biggest producers of insulin, and a leading force in biosimilars. As she looks at handing over her life’s work to successors, M",
+      "published": "21 Aug 2026 07:06 WIB",
+      "sentiment": "Bullish",
+      "score": 0.447,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Misi Mazumdar Shaw untuk Memperluas Akses terhadap Obat-obatan Vital",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-vital-drugs-video",
+      "summary": "Known as India’s ‘Queen of Biotech’, Kiran Mazumdar-Shaw built Biocon from a rented garage almost 50 years ago. Today, her multibillion-dollar company is one of the world’s biggest producers of insulin, and a leading force in biosimilars. As she looks at handing over her life’s work to successors, M",
+      "published": "21 Aug 2026 07:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.601,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -695,28 +740,6 @@
       "score": 0.44,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Texas Adalah Puncak Gunung Es Muni yang Mencair: Winkler",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-20/texas-is-tip-of-a-melting-muni-iceberg-winkler-video",
-      "summary": "Bloomberg's Matt Winkler joins Scarlet Fu on \"Bloomberg Real Yield.\" Borrowing costs for the state of Texas are higher than they are for California. The yield that investors demand on Texas bonds are, on average, point-3 percentage points higher than the Golden State. That adds up to as much as 3 mi",
-      "published": "21 Aug 2026 03:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.735,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Aluminium Premium Turun karena AS Akan Memotong Tarif Logam Kanada",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/aluminum-premium-slips-as-us-set-to-cut-tariffs-on-canada-metal",
-      "summary": "A key regional price benchmark for aluminum delivered to the US market tumbled after the Trump administration indicated it would lower tariffs on certain Canadian exports of aluminum.",
-      "published": "21 Aug 2026 03:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "Google News Forex",
@@ -896,6 +919,17 @@
     },
     {
       "source": "BBC Top Stories",
+      "title": "Hari-hariku sebagai mahasiswa di London berubah menjadi teror - kini orang-orang yang selamat seperti saya tidak akan dilupakan",
+      "url": "https://www.bbc.co.uk/news/articles/cd0x91ym7veo?at_medium=RSS&at_campaign=rss",
+      "summary": "The UK's first national day for victims and survivors of terrorism takes place on Friday - and means more to this man than many.",
+      "published": "21 Aug 2026 07:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.798,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
       "title": "AS mengatakan sanksi akan 'menghancurkan' perekonomian Iran dan 'runtuhnya' rezimnya",
       "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss",
       "summary": "US Treasury Secretary Scott Bessent says allies will need to decide whether they \"are with us or against us\".",
@@ -917,15 +951,15 @@
       "impact": "low"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Pria didakwa atas serangan sinagoga Manchester",
-      "url": "https://www.bbc.co.uk/news/articles/cm2g5ne37zyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Police say the man is accused of failing to disclose information regarding terrorist activity.",
-      "published": "20 Aug 2026 23:17 WIB",
+      "source": "Al Jazeera",
+      "title": "Perang Iran sedang berlangsung: AS berjanji memberikan sanksi paling keras terhadap Iran, mendesak dukungan Tiongkok",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/21/iran-war-live-us-vows-toughest-iran-sanctions-urges-china-support?traffic_source=rss",
+      "summary": "US Treasury Secretary Bessent says new economic measures will 'collapse' Iranian government.",
+      "published": "21 Aug 2026 07:00 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.759,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -1050,10 +1084,21 @@
     },
     {
       "source": "CNBC World",
+      "title": "Intervensi bersejarah Jepang terhadap yen telah ‘mendorong’ perdagangan carry trade",
+      "url": "https://www.cnbc.com/2026/08/20/us-japan-yen-intervention-bank-of-japan-carry-trade.html",
+      "summary": "Japan's historic effort to prop up the yen may have had an unintended consequence: giving investors a better opportunity to put the carry trade back on.",
+      "published": "21 Aug 2026 07:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.796,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Tingkat inflasi utama Jepang mencapai titik tertinggi tahun ini karena harga energi yang tertahan",
       "url": "https://www.cnbc.com/2026/08/21/japan-inflation-iran-war-energy.html",
       "summary": "Core inflation — which strips out prices of fresh food but includes energy — was in line with expectations, coming in at 1.8%.",
-      "published": "21 Aug 2026 06:47 WIB",
+      "published": "21 Aug 2026 07:22 WIB",
       "sentiment": "Bullish",
       "score": 0.593,
       "emoji": "🟢",
