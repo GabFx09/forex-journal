@@ -1,5 +1,5 @@
 {
-  "generated": "21 Aug 2026 04:22 WIB",
+  "generated": "21 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,26 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.179,
-      "count": 17
+      "score": -0.213,
+      "count": 14
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.236,
-      "count": 16
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.265,
-      "count": 14
+      "score": -0.285,
+      "count": 13
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.069,
-      "count": 8
+      "score": -0.252,
+      "count": 10
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.266,
+      "count": 10
     },
     {
       "pair": "AUD/USD",
@@ -43,17 +43,28 @@
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.323,
+      "score": -0.552,
       "count": 2
     },
     {
-      "pair": "EUR",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.729,
-      "count": 1
+      "pair": "GBP/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.553,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Iran \"dalam kondisi yang buruk,\" kata Trump, mengutip jatuhnya produksi senjata",
+      "url": "https://investinglive.com/commodities/iran-in-bad-shape-trump-says-citing-weapon-production-collapse/",
+      "summary": "Trump's comments add another data point to the market's ongoing assessment of how much longer the Iran conflict, and the associated oil price premium, is likely to run. His characterization of Iran's economy as being in severe distress, with triple digit inflation and a collapsing currency, feeds a ",
+      "published": "21 Aug 2026 06:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.858,
+      "emoji": "🔴",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Pratinjau: IHK inti Jepang terlihat mencapai level tertinggi dalam enam bulan, mengangkat taruhan pada kenaikan suku bunga BoJ di bulan September",
@@ -88,26 +99,15 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "IHP Juli Kanada +0,6% vs perkiraan -0,5%.",
-      "url": "https://investinglive.com/news/canada-july-ppi-xx-vs-0-5-expected/",
-      "summary": "Prior -1.4% PPI Y/Y +12.4% vs +12.4% prior Raw Material Price index M/M -2.2% vs -6.9% prior Raw Material Price index Y/Y +18.1% vs +20.7% prior The PPI increased 0.6% m/m in July, following a 1.4% decrease in June. Excluding energy and petroleum products, the PPI decreased 0.2%. The resumption of t",
-      "published": "20 Aug 2026 19:30 WIB",
+      "source": "FXStreet News",
+      "title": "Bessent mengatakan AS tidak mungkin melanjutkan pertempuran besar-besaran dengan Iran dan akan meningkatkan tekanan ekonomi",
+      "url": "https://www.fxstreet.com/news/bessent-says-us-unlikely-to-resume-large-scale-iran-combat-steps-up-economic-pressure-202608202352",
+      "summary": "US Treasury Secretary Scott Bessent said that the US President Donald Trump administration’s plan to crush Iran’s economy will likely negate the need for major US military operations against the Islamic Republic, CNBC reported on Thursday.",
+      "published": "21 Aug 2026 06:52 WIB",
       "sentiment": "Bullish",
-      "score": 0.62,
+      "score": 0.132,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Menteri Luar Negeri Iran meremehkan ancaman ekonomi Presiden AS Trump",
-      "url": "https://investinglive.com/news/iran-foreign-minister-plays-down-us-president-trump-s-economic-threat/",
-      "summary": "From overnight: Trump vows crushing new economic operation against Iran, warns allies The threat by Trump pretty much underscores that we are still nowhere near any deal between the two sides. And after trying to brute force his way to getting Iran to concede, Trump is now having to find a different",
-      "published": "20 Aug 2026 14:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.412,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -116,9 +116,9 @@
       "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note that Indonesian Rupiah (IDR) should find some relief from a softer Dollar and lower long-end US yields, with BI keeping its policy rate at 5.75% and focusing on currency stability.",
       "published": "21 Aug 2026 01:43 WIB",
       "sentiment": "Bullish",
-      "score": 0.146,
+      "score": 0.477,
       "emoji": "🟢",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -127,7 +127,7 @@
       "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann note that USD/SGD extended its overnight slide as the US Dollar (USD) sell-off pushed the pair back toward the 1.27 area.",
       "published": "21 Aug 2026 01:33 WIB",
       "sentiment": "Bullish",
-      "score": 0.341,
+      "score": 0.098,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -143,26 +143,15 @@
       "impact": "medium"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Saham AS Jatuh karena Minyak, Imbal Hasil Meningkat Sementara Walmart Merosot",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/us-stock-futures-fall-as-oil-yields-climb-while-walmart-slumps",
-      "summary": "US stocks fell on Thursday as oil prices and benchmark bond yields rose, while disappointing earnings from Walmart Inc. pressured shares of the retail giant and peers.",
-      "published": "20 Aug 2026 19:13 WIB",
+      "source": "BBC World",
+      "title": "Seberapa besar dampak 'D-Day ekonomi' Trump terhadap Iran?",
+      "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
+      "summary": "Iran has so far proved adept at finding ways around years of already punishing sanctions on its economy.",
+      "published": "21 Aug 2026 06:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.52,
+      "score": -0.871,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Dolar Terlihat Membayar Harga Penawaran Treasury untuk Menjinakkan Imbal Hasil",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/dollar-risks-becoming-biggest-loser-from-bessent-s-bond-buying",
-      "summary": "Treasury Secretary Scott Bessent’s bold intervention to stem a potentially damaging rise in US borrowing costs has some investors saying the dollar will ultimately pay the price.",
-      "published": "20 Aug 2026 12:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.128,
-      "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -177,6 +166,17 @@
     },
     {
       "source": "BBC World",
+      "title": "Trump ingin berteman dengan Kim – namun Korea Selatan harus menanggung akibatnya",
+      "url": "https://www.bbc.co.uk/news/articles/c4gj1vje8dxo?at_medium=RSS&at_campaign=rss",
+      "summary": "US military exercises with South Korea end early on Friday, at a time when the North is in a position of strength.",
+      "published": "21 Aug 2026 05:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.696,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
       "title": "Neo-Nazi Jerman dicurigai melakukan kebakaran mematikan pada tahun 1970 di panti jompo Yahudi",
       "url": "https://www.bbc.co.uk/news/articles/c3r055g23qdo?at_medium=RSS&at_campaign=rss",
       "summary": "Investigators believe they have identified an arsonist who attacked a Jewish community centre in Munich in 1970, killing seven people.",
@@ -188,25 +188,14 @@
     },
     {
       "source": "BBC World",
-      "title": "Israel mengonfirmasi tentara menembaki mobil yang menewaskan Hind Rajab dan membuka penyelidikan kriminal",
-      "url": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
-      "summary": "The five-year-old Palestinian girl initially survived the attack and pleaded for help but her body was recovered later with those of six of her relatives.",
-      "published": "20 Aug 2026 11:17 WIB",
+      "title": "Mengapa raksasa politik di Nigeria mungkin menghadapi kepunahan",
+      "url": "https://www.bbc.co.uk/news/articles/cj364klz857o?at_medium=RSS&at_campaign=rss",
+      "summary": "Once a giant of African politics, the PDP is in danger of being wiped out after January's elections.",
+      "published": "21 Aug 2026 06:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.729,
+      "score": -0.527,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Mantan wakil presiden Liberia didakwa dalam penyelidikan penyelundupan narkoba",
-      "url": "https://www.bbc.co.uk/news/articles/clyx028ryy6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Jewel Howard-Taylor was arrested at Liberia's international airport and has not commented on the allegations.",
-      "published": "20 Aug 2026 18:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.42,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -220,11 +209,22 @@
       "impact": "high"
     },
     {
+      "source": "BBC World",
+      "title": "Ajudan utama Trump, Natalie Harp, tiba-tiba menjadi sorotan setelah bertahun-tahun berada di belakang layar",
+      "url": "https://www.bbc.co.uk/news/articles/c80nzdjgmk3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Democratic Senator Jon Ossoff used a speech to note the closeness of one aide to the president.",
+      "published": "20 Aug 2026 06:11 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
       "source": "BBC Business",
       "title": "Trump berjanji akan mengambil tindakan ekonomi yang lebih ketat terhadap Iran dan negara-negara pendukungnya",
       "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
       "summary": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
-      "published": "20 Aug 2026 16:13 WIB",
+      "published": "21 Aug 2026 05:18 WIB",
       "sentiment": "Netral",
       "score": 0.026,
       "emoji": "⚪",
@@ -265,14 +265,47 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Sekolah-sekolah di Thailand mengadakan latihan menembak setelah serangan mematikan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/thai-schools-hold-shooter-drills-after-deadly-attack?traffic_source=rss",
-      "summary": "Schools across Thailand are carrying out active shooter drills to save lives and spread awareness.",
-      "published": "21 Aug 2026 01:59 WIB",
-      "sentiment": "Bullish",
-      "score": 0.261,
-      "emoji": "🟢",
+      "title": "Houthi dan pemerintah melakukan serangan dagang saat Yaman kembali dilanda perang skala penuh",
+      "url": "https://www.aljazeera.com/news/2026/8/20/houthis-and-government-trade-attacks-as-yemen-slides-back-to-full-scale-war?traffic_source=rss",
+      "summary": "Gov't forces carried out 81 attacks in the last 24 hours as Houthis claim to have hit two targets in Saudi Arabia.",
+      "published": "21 Aug 2026 06:19 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "AS mendakwa seorang wanita karena diduga merencanakan serangan terhadap Gedung Kongres New York",
+      "url": "https://www.aljazeera.com/news/2026/8/20/us-charges-woman-for-allegedly-plotting-attack-on-new-york-state-capitol?traffic_source=rss",
+      "summary": "The suspect, Jessica Bowie, 35, was arrested on charges of providing material support for 'terrorism'.",
+      "published": "21 Aug 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Biaya pembangunan kembali rumah keluarga di Suriah yang dilanda perang",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/the-cost-of-rebuilding-family-homes-in-war-ravaged-syria?traffic_source=rss",
+      "summary": "What does rebuilding look like for families after war? Al Jazeera’s Hannah Raslan reports from Syria.",
+      "published": "21 Aug 2026 05:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.42,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Walikota New York Mamdani menggugat untuk memblokir bonus asisten pengajar sebesar $10.000",
+      "url": "https://www.aljazeera.com/economy/2026/8/20/new-york-mayor-mamdani-sues-to-block-10000-teaching-aide-bonuses?traffic_source=rss",
+      "summary": "New York mayor challenges $10,000 bonus law, citing conflict with collective bargaining rules.",
+      "published": "21 Aug 2026 05:45 WIB",
+      "sentiment": "Bullish",
+      "score": 0.494,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "CNBC Economy",
@@ -287,17 +320,6 @@
     },
     {
       "source": "CNBC World",
-      "title": "Bessent mengatakan AS kemungkinan tidak akan memulai kembali pertempuran besar-besaran dengan Iran karena negara itu meningkatkan tekanan ekonomi",
-      "url": "https://www.cnbc.com/2026/08/20/bessent-economy-iran-war-trump.html",
-      "summary": "Bessent and President Donald Trump unveiled the economic operation nearly six months into the Iran war, which continues without a clear end in sight.",
-      "published": "21 Aug 2026 00:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.945,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
       "title": "Kemarahan terhadap pusat data AI muncul di mana-mana, mulai dari iklan hingga pemilu",
       "url": "https://www.cnbc.com/2026/08/20/ai-data-center-election-backlash.html",
       "summary": "With less than three months until the midterm elections, opposition to AI data centers is becoming a bipartisan rallying cry in a growing number of states.",
@@ -306,6 +328,17 @@
       "score": -0.58,
       "emoji": "🔴",
       "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Bessent mengatakan AS kemungkinan tidak akan memulai kembali pertempuran besar-besaran dengan Iran karena negara itu meningkatkan tekanan ekonomi",
+      "url": "https://www.cnbc.com/2026/08/20/bessent-economy-iran-war-trump.html",
+      "summary": "Bessent and President Donald Trump unveiled the economic operation nearly six months into the Iran war, which continues without a clear end in sight.",
+      "published": "21 Aug 2026 00:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.945,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -326,17 +359,6 @@
       "published": "21 Aug 2026 01:20 WIB",
       "sentiment": "Bearish",
       "score": -0.233,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Ancaman perompak Somalia kembali muncul ketika perang AS-Iran memicu kekacauan regional dan melemahkan sumber daya penegakan hukum",
-      "url": "https://www.cnbc.com/2026/08/20/somali-pirates-return-iran-war.html",
-      "summary": "Somali piracy incidents have resurged in the Red Sea region in recent times, especially since the U.S.-Iran war kicked off-major concern for shipping companies.",
-      "published": "20 Aug 2026 18:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.94,
       "emoji": "🔴",
       "impact": "high"
     }
