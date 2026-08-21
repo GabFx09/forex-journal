@@ -1,36 +1,36 @@
 {
-  "generated": "21 Aug 2026 09:48 WIB",
+  "generated": "21 Aug 2026 11:09 WIB",
   "summary": {
     "total": 101,
     "bullish": 43,
     "bearish": 41,
     "netral": 17,
-    "avg_score": -0.0241,
+    "avg_score": -0.0113,
     "overall": "Netral",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.108,
+        "score": 0.14,
         "count": 28
       },
       {
         "currency": "JPY",
         "sentiment": "Bullish",
-        "score": 0.387,
-        "count": 9
-      },
-      {
-        "currency": "EUR",
-        "sentiment": "Bullish",
-        "score": 0.423,
-        "count": 5
+        "score": 0.344,
+        "count": 8
       },
       {
         "currency": "CAD",
         "sentiment": "Bearish",
         "score": -0.062,
         "count": 4
+      },
+      {
+        "currency": "EUR",
+        "sentiment": "Bullish",
+        "score": 0.467,
+        "count": 3
       },
       {
         "currency": "GBP",
@@ -49,10 +49,49 @@
         "sentiment": "Bearish",
         "score": -0.419,
         "count": 2
+      },
+      {
+        "currency": "CHF",
+        "sentiment": "Bearish",
+        "score": -0.281,
+        "count": 1
       }
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "RBI terlihat menjual dolar untuk mendukung rupee karena USD/INR tetap stabil",
+      "url": "https://investinglive.com/forex/rbi-seen-selling-dollars-to-support-rupee-as-usd-inr-holds-steady/",
+      "summary": "The intervention fits a well established pattern for the RBI through 2026, stepping in periodically to smooth volatility rather than defend a specific level, typically when USD/INR approaches its record highs. That USD/INR is little changed despite the reported dollar sales suggests the central bank",
+      "published": "21 Aug 2026 10:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.599,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Saham Asia beragam karena Nikkei menuju minggu terburuk dalam sebulan di tengah kekhawatiran terhadap minyak",
+      "url": "https://investinglive.com/stock-market-update/asia-shares-mixed-as-nikkei-heads-for-worst-week-in-a-month-on-oil-fears/",
+      "summary": "The divergence between Japan and Korea on Friday captures how differently regional markets are digesting the same set of global pressures. Japan's slide reflects a fairly direct read-through from rising oil prices and bond yields into inflation and rate expectations, a sensitivity that has been buil",
+      "published": "21 Aug 2026 10:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.946,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Korea Selatan akan meluncurkan Dana Masa Depan dengan rejeki nomplok dari pendapatan pajak chip AI",
+      "url": "https://investinglive.com/stock-market-update/south-korea-to-launch-future-fund-with-windfall-ai-chip-tax-revenue/",
+      "summary": "The move signals Korea's intent to convert a cyclical windfall from the global chip upswing into a durable, long term investment vehicle rather than one off spending, which could support sustained capital deployment into strategic technology sectors regardless of near term swings in chip demand. For",
+      "published": "21 Aug 2026 10:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.557,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Wakil Menteri Keuangan Tiongkok memberi sinyal lebih banyak dukungan fiskal seiring melambatnya perekonomian",
@@ -208,48 +247,26 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Citi mengatakan perdagangan penurunan nilai memerlukan jalan keluar baru, sehingga mengarahkan pasar kembali ke emas",
-      "url": "https://investinglive.com/commodities/citi-says-debasement-trade-needs-new-outlet-pointing-markets-back-to-gold/",
-      "summary": "The pace of the rally is prompting banks to revisit both their timelines and their ceilings, with the metal already through a target that had been pencilled in for later in the year. Softer expectations for further Federal Reserve tightening are seen reviving exchange traded fund demand after a peri",
-      "published": "21 Aug 2026 05:27 WIB",
+      "source": "FXStreet News",
+      "title": "Emas naik ke level tertinggi baru sejak bulan Juni di tengah pembaruan penjualan USD, memudarnya taruhan kenaikan suku bunga Fed",
+      "url": "https://www.fxstreet.com/news/gold-advances-to-fresh-high-since-june-amid-renewed-usd-selling-fading-fed-hike-bets-202608210407",
+      "summary": "Gold (XAU/USD) hits a fresh high since early June, around the $4,544 region, during the Asian session on Friday and looks to build on the momentum above a technically significant 200-day Simple Moving Average (SMA).",
+      "published": "21 Aug 2026 11:07 WIB",
       "sentiment": "Bullish",
-      "score": 0.433,
+      "score": 0.66,
       "emoji": "🟢",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Harga minyak di Korea Selatan turun untuk pertama kalinya dalam 11 bulan karena harga minyak yang lebih murah pada bulan tersebut",
-      "url": "https://investinglive.com/news/south-korea-producer-prices-fall-for-first-time-in-11-months-on-cheaper-oil-that-month/",
-      "summary": "The on month decline snaps an 11 month run of gains and points to some near term easing in the pipeline pressures that feed into consumer prices, though the year on year rate remains elevated at 7.7 percent. The mix within the data is notable, with industrial goods and utility costs providing the di",
-      "published": "21 Aug 2026 04:52 WIB",
-      "sentiment": "Bullish",
-      "score": 0.113,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Daly dan Musalem dari Fed bersatu dalam kekhawatiran kredibilitas karena aksi jual obligasi terus berlanjut, namun berbeda pendapat mengenai kebijakan",
-      "url": "https://investinglive.com/central-banks/fed-s-daly-musalem-united-on-credibility-concerns-as-bond-selloff-persists-but-split-on-policy/",
-      "summary": "The remarks land as traders sharply pare bets on a September rate increase, with pricing falling to around 30 percent from more than 70 percent at the end of July. Daly's comments suggest a voting bloc within the Fed sees little urgency to act preemptively despite the bond market turmoil, which coul",
-      "published": "21 Aug 2026 04:14 WIB",
+      "source": "FXStreet News",
+      "title": "Franc Swiss menguat terhadap Dolar AS di tengah meningkatnya kekhawatiran utang AS",
+      "url": "https://www.fxstreet.com/news/swiss-franc-edges-up-against-us-dollar-amid-heightened-us-debt-concerns-202608210322",
+      "summary": "The Swiss Franc (CHF) resumes its upside journey against the US Dollar (USD) on Friday after a corrective move the previous day. The USD/CHF pair is down 0.17% to near 0.7990 in the Asian trading session.",
+      "published": "21 Aug 2026 10:22 WIB",
       "sentiment": "Bearish",
-      "score": -0.745,
+      "score": -0.281,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pratinjau: IHK inti Jepang terlihat mencapai level tertinggi dalam enam bulan, mengangkat taruhan pada kenaikan suku bunga BoJ di bulan September",
-      "url": "https://investinglive.com/central-banks/preview-japan-core-cpi-seen-hitting-six-month-high-lifting-bets-on-boj-september-hike/",
-      "summary": "Market pricing for a Bank of Japan rate hike in September has climbed to ~80 percent, up sharply from around 65 percent in early August, after media reports pointed to government support for an early tightening move. Attention is shifting toward the pace of subsequent hikes rather than whether the B",
-      "published": "21 Aug 2026 03:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.729,
-      "emoji": "🟢",
-      "impact": "high"
     },
     {
       "source": "FXStreet News",
@@ -450,14 +467,25 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Euro melemah di bawah 1,1700 seiring reboundnya dolar AS akibat imbal hasil",
-      "url": "https://www.fxstreet.com/news/euro-fades-below-11700-as-us-dollar-rebounds-on-yields-202608202230",
-      "summary": "The Euro remains steady below 1.1700 after failing to hold gains above it, despite hitting a three-month high. Broad US Dollar strength kept EUR/USD from ending Thursday’s session above the 1.1700 mark, with the pair finishing at around familiar levels, unchanged from Thursday’s opening price.",
-      "published": "21 Aug 2026 05:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.398,
-      "emoji": "🟢",
+      "source": "Investing.com Forex",
+      "title": "Mengapa saham Charter Hall merosot hari ini?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-charter-hall-stock-sliding-today-93CH-4870809",
+      "summary": "",
+      "published": "21 Aug 2026 10:27 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Mengapa saham NRW Holdings melonjak hari ini?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-nrw-holdings-stock-surging-today-93CH-4870808",
+      "summary": "",
+      "published": "21 Aug 2026 10:27 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -465,7 +493,51 @@
       "title": "Shein menargetkan debut pasar Hong Kong pada 1 September, kata sumber",
       "url": "https://www.investing.com/news/stock-market-news/shein-postpones-hong-kong-debut-to-september-scmp-reports-4869257",
       "summary": "",
-      "published": "21 Aug 2026 09:42 WIB",
+      "published": "21 Aug 2026 10:18 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Saham Henderson Land melonjak ke level tertinggi lebih dari 2 bulan setelah laba H1 melonjak",
+      "url": "https://www.investing.com/news/stock-market-news/henderson-land-shares-jump-to-more-than-2month-high-after-h1-profit-soars-4870802",
+      "summary": "",
+      "published": "21 Aug 2026 10:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.625,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Mengapa saham Samsung Electronics naik hari ini?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-samsung-electronics-stock-rising-today-93CH-4870797",
+      "summary": "",
+      "published": "21 Aug 2026 09:56 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Mengapa saham Henderson Land melonjak hari ini?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-henderson-land-stock-surging-today-93CH-4870796",
+      "summary": "",
+      "published": "21 Aug 2026 09:55 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Australia menyelidiki kejadian serupa yang keempat di bandara Sydney dalam waktu kurang dari sebulan",
+      "url": "https://www.investing.com/news/stock-market-news/australia-investigates-fourth-close-call-at-sydney-airport-in-less-than-a-month-4870790",
+      "summary": "",
+      "published": "21 Aug 2026 09:48 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -505,61 +577,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Mengapa saham Pop Mart hari ini merosot?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-pop-mart-stock-sliding-today-93CH-4870770",
-      "summary": "",
-      "published": "21 Aug 2026 09:15 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Hang Seng menguji resistensi 26,204 pada grafik 5 jam: Level live",
-      "url": "https://www.investing.com/news/stock-market-news/hang-seng-trapped-in-cloud-at-2505025650-live-levels-93CH-4862072",
-      "summary": "",
-      "published": "21 Aug 2026 09:02 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Mengapa saham Zip Co merosot hari ini?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-zip-co-stock-sliding-today-93CH-4870757",
-      "summary": "",
-      "published": "21 Aug 2026 08:55 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Mengapa saham Fisher & Paykel Healthcare naik hari ini?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-fisher--paykel-healthcare-stock-rising-today-93CH-4870756",
-      "summary": "",
-      "published": "21 Aug 2026 08:54 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Mengapa saham Guzman Y Gomez melonjak hari ini?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-guzman-y-gomez-stock-surging-today-93CH-4870747",
-      "summary": "",
-      "published": "21 Aug 2026 08:43 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Manufaktur Jepang berkembang seiring peningkatan pesanan tercepat sejak 2018, menurut PMI",
       "url": "https://www.investing.com/news/economic-indicators/japan-manufacturing-expands-as-orders-rise-fastest-since-2018-pmi-shows-4870686",
@@ -572,7 +589,7 @@
     },
     {
       "source": "Investing.com Economy",
-      "title": "IHK Jepang meningkat pada bulan Juli, inflasi inti meningkat namun tetap di bawah target BoJ",
+      "title": "IHK Jepang meningkat pada bulan Juli, inflasi inti meningkat namun tetap di bawah target BOJ",
       "url": "https://www.investing.com/news/economic-indicators/japan-cpi-rises-in-july-core-inflation-grows-but-stays-below-boj-target-4870639",
       "summary": "",
       "published": "21 Aug 2026 06:44 WIB",
@@ -616,6 +633,28 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Obligasi Asia Mengikuti Treasury Lebih Rendah, Saham Naik: Pasar Membungkus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian bonds declined and the dollar remained under pressure after a rally in Treasuries faded, with investors betting that US efforts to contain long-term borrowing costs through buybacks may offer only a temporary reprieve.",
+      "published": "21 Aug 2026 05:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.153,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Posisi Obligasi Berjangka Australia Mendekati Rekor Permintaan Lindung Nilai",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/australian-bond-futures-positions-near-record-on-hedging-demand",
+      "summary": "Positions on Australia’s three-year bond futures have risen toward an all-time high as the nation’s growing debt pile fuels demand for hedging.",
+      "published": "21 Aug 2026 10:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.501,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Pedagang Obligasi India Terguncang Setelah Risalah RBI yang Secara Mengejutkan Hawkish",
       "url": "https://www.bloomberg.com/news/newsletters/2026-08-21/india-bond-traders-left-reeling-after-surprisingly-hawkish-rbi-minutes",
       "summary": "As inflows from the foreign-currency deposit scheme begin to fade, yields could drift higher.",
@@ -644,17 +683,6 @@
       "published": "21 Aug 2026 09:15 WIB",
       "sentiment": "Bearish",
       "score": -0.35,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Obligasi Asia Mengikuti Penurunan Treasury, Dolar Tergelincir: Pasar Membungkus",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/stock-market-today-dow-s-p-live-updates",
-      "summary": "Asian bonds declined and the dollar remained under pressure after a rally in Treasuries faded, with investors betting that US efforts to contain long-term borrowing costs through buybacks may offer only a temporary reprieve.",
-      "published": "21 Aug 2026 05:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.153,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -736,17 +764,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Holcim Mengakuisisi Bagian Bisnis James Hardie di Eropa",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/holcim-said-to-acquire-part-of-james-hardie-s-european-business",
-      "summary": "Holcim Ltd. is acquiring part of the European business of James Hardie Industries Plc for €840 million ($981 million), expanding its building, sustainable flooring and walling solution offerings.",
-      "published": "21 Aug 2026 03:27 WIB",
-      "sentiment": "Bullish",
-      "score": 0.318,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "Google News Forex",
       "title": "Rebound Won memperumit keputusan suku bunga Bank of Korea berikutnya karena tekanan inflasi mereda - Korea JoongAng Daily",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWllnNWxObkNEd21oMWEyYnhMZ1VYdGpYNEMtUTNxamtMaHQyYldKWWdUV3hXSXdYUW1ycGpXOVJwLUo2LVRtR1NhbTJIelo5cUprdXM3WDUwTGxwVHRySXI2MXZIMExQOWV3YW80VkU3Z2xUQkx3c0V6VFBQOWdEazJITHJkN1hIdnF4Q1hhVXBlZlNONnUtZktPUTlZUGM2aWhua1hQRi1WYkZ0N2ItLUlkMkNjbjRvXzVmdjdkUlBCa0hGSmxnRlJOMUxhbUFQ?oc=5",
@@ -792,17 +809,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Rusia 'dengan sengaja' menyerang infrastruktur penting dalam serangan terbaru, kata Wali Kota Kyiv",
-      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-      "summary": "At least 17 people were killed in the \"massive attack\" overnight on Ukraine's capital, as mayor Vitali Klitschko warns hot water supply has been disrupted.",
-      "published": "21 Aug 2026 00:14 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
       "title": "Trump ingin berteman dengan Kim – namun Korea Selatan harus menanggung akibatnya",
       "url": "https://www.bbc.co.uk/news/articles/c4gj1vje8dxo?at_medium=RSS&at_campaign=rss",
       "summary": "US military exercises with South Korea end early on Friday, at a time when the North is in a position of strength.",
@@ -811,6 +817,17 @@
       "score": 0.696,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Rusia 'dengan sengaja' menyerang infrastruktur penting dalam serangan terbaru, kata Wali Kota Kyiv",
+      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 17 people were killed in the \"massive attack\" overnight on Ukraine's capital, as mayor Vitali Klitschko warns hot water supply has been disrupted.",
+      "published": "21 Aug 2026 00:14 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -844,28 +861,6 @@
       "score": -0.973,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Mengapa raksasa politik di Nigeria mungkin menghadapi kepunahan",
-      "url": "https://www.bbc.co.uk/news/articles/cj364klz857o?at_medium=RSS&at_campaign=rss",
-      "summary": "Once a giant of African politics, the PDP is in danger of being wiped out after January's elections.",
-      "published": "21 Aug 2026 06:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.527,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC World",
-      "title": "Tentara kelahiran Ukraina yang ditangkap menceritakan kepada BBC alasan mereka berperang demi Rusia",
-      "url": "https://www.bbc.co.uk/news/articles/cn9nr195drzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Men born in Ukraine who fought for Russia are tried for treason, but at a prisoner of war camp in western Ukraine, many believe they were defending their homeland.",
-      "published": "20 Aug 2026 12:01 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "BBC Business",
@@ -968,7 +963,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Houthi dan serangan perdagangan pemerintah saat Yaman kembali ke perang skala penuh",
+      "title": "Houthi dan pemerintah melakukan serangan dagang saat Yaman kembali dilanda perang skala penuh",
       "url": "https://www.aljazeera.com/news/2026/8/20/houthis-and-government-trade-attacks-as-yemen-slides-back-to-full-scale-war?traffic_source=rss",
       "summary": "Gov't forces carried out 81 attacks in the last 24 hours as Houthis claim to have hit two targets in Saudi Arabia.",
       "published": "21 Aug 2026 06:19 WIB",
@@ -1064,6 +1059,17 @@
       "score": 0.402,
       "emoji": "🟢",
       "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Perkiraan pertumbuhan PDB Taiwan sebesar 11% yang didorong oleh AI kemungkinan besar tidak akan berkelanjutan, kata para ekonom",
+      "url": "https://www.cnbc.com/2026/08/21/taiwan-gdp-growth-outlook-tech-forecast.html",
+      "summary": "Taiwan's economic growth could moderate due to its vulnerability to risks of capex slowdown, macroeconomic downturns, and concentration in semiconductors.",
+      "published": "21 Aug 2026 10:59 WIB",
+      "sentiment": "Bullish",
+      "score": 0.296,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "CNBC World",

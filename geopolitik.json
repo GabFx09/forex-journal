@@ -1,5 +1,5 @@
 {
-  "generated": "21 Aug 2026 09:48 WIB",
+  "generated": "21 Aug 2026 11:09 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,38 +7,38 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.393,
+      "score": -0.491,
       "count": 12
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.495,
-      "count": 11
+      "score": -0.491,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.321,
-      "count": 9
+      "score": -0.295,
+      "count": 8
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.55,
-      "count": 8
+      "score": -0.661,
+      "count": 7
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.616,
-      "count": 3
+      "score": -0.698,
+      "count": 4
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.616,
-      "count": 3
+      "score": -0.698,
+      "count": 4
     },
     {
       "pair": "USD/RUB",
@@ -47,13 +47,24 @@
       "count": 3
     },
     {
-      "pair": "GBP/USD",
+      "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.553,
-      "count": 2
+      "score": -0.261,
+      "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Saham Asia beragam karena Nikkei menuju minggu terburuk dalam sebulan di tengah kekhawatiran terhadap minyak",
+      "url": "https://investinglive.com/stock-market-update/asia-shares-mixed-as-nikkei-heads-for-worst-week-in-a-month-on-oil-fears/",
+      "summary": "The divergence between Japan and Korea on Friday captures how differently regional markets are digesting the same set of global pressures. Japan's slide reflects a fairly direct read-through from rising oil prices and bond yields into inflation and rate expectations, a sensitivity that has been buil",
+      "published": "21 Aug 2026 10:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.946,
+      "emoji": "🔴",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Iran \"dalam kondisi yang buruk,\" kata Trump, mengutip jatuhnya produksi senjata",
@@ -64,17 +75,6 @@
       "score": -0.858,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Pratinjau: IHK inti Jepang terlihat mencapai level tertinggi dalam enam bulan, mengangkat taruhan pada kenaikan suku bunga BoJ di bulan September",
-      "url": "https://investinglive.com/central-banks/preview-japan-core-cpi-seen-hitting-six-month-high-lifting-bets-on-boj-september-hike/",
-      "summary": "Market pricing for a Bank of Japan rate hike in September has climbed to ~80 percent, up sharply from around 65 percent in early August, after media reports pointed to government support for an early tightening move. Attention is shifting toward the pace of subsequent hikes rather than whether the B",
-      "published": "21 Aug 2026 03:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.729,
-      "emoji": "🟢",
-      "impact": "high"
     },
     {
       "source": "FXStreet News",
@@ -111,6 +111,17 @@
     },
     {
       "source": "Bloomberg Markets",
+      "title": "Posisi Obligasi Berjangka Australia Mendekati Rekor Permintaan Lindung Nilai",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/australian-bond-futures-positions-near-record-on-hedging-demand",
+      "summary": "Positions on Australia’s three-year bond futures have risen toward an all-time high as the nation’s growing debt pile fuels demand for hedging.",
+      "published": "21 Aug 2026 10:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.501,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
       "title": "Saham Inghams Turun karena Biaya Pakan dan Bahan Bakar yang Lebih Tinggi Mencapai Outlook",
       "url": "https://www.bloomberg.com/news/articles/2026-08-21/inghams-shares-drop-as-higher-feed-and-fuel-costs-hit-outlook",
       "summary": "Inghams Group Ltd. shares dropped the most in about two months after the Australian poultry producer flagged that higher feed, diesel and packaging costs caused by the war in the Middle East would impact its earnings forecast in the next year.",
@@ -133,17 +144,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Rusia 'dengan sengaja' menyerang infrastruktur penting dalam serangan terbaru, kata Wali Kota Kyiv",
-      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-      "summary": "At least 17 people were killed in the \"massive attack\" overnight on Ukraine's capital, as mayor Vitali Klitschko warns hot water supply has been disrupted.",
-      "published": "21 Aug 2026 00:14 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
       "title": "Trump ingin berteman dengan Kim – namun Korea Selatan harus menanggung akibatnya",
       "url": "https://www.bbc.co.uk/news/articles/c4gj1vje8dxo?at_medium=RSS&at_campaign=rss",
       "summary": "US military exercises with South Korea end early on Friday, at a time when the North is in a position of strength.",
@@ -152,6 +152,17 @@
       "score": 0.696,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Rusia 'dengan sengaja' menyerang infrastruktur penting dalam serangan terbaru, kata Wali Kota Kyiv",
+      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 17 people were killed in the \"massive attack\" overnight on Ukraine's capital, as mayor Vitali Klitschko warns hot water supply has been disrupted.",
+      "published": "21 Aug 2026 00:14 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -174,28 +185,6 @@
       "score": -0.973,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Mengapa raksasa politik di Nigeria mungkin menghadapi kepunahan",
-      "url": "https://www.bbc.co.uk/news/articles/cj364klz857o?at_medium=RSS&at_campaign=rss",
-      "summary": "Once a giant of African politics, the PDP is in danger of being wiped out after January's elections.",
-      "published": "21 Aug 2026 06:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.527,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC World",
-      "title": "Tentara kelahiran Ukraina yang ditangkap menceritakan kepada BBC alasan mereka berperang demi Rusia",
-      "url": "https://www.bbc.co.uk/news/articles/cn9nr195drzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Men born in Ukraine who fought for Russia are tried for treason, but at a prisoner of war camp in western Ukraine, many believe they were defending their homeland.",
-      "published": "20 Aug 2026 12:01 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "BBC Business",
@@ -243,7 +232,7 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Houthi dan serangan perdagangan pemerintah saat Yaman kembali ke perang skala penuh",
+      "title": "Houthi dan pemerintah melakukan serangan dagang saat Yaman kembali dilanda perang skala penuh",
       "url": "https://www.aljazeera.com/news/2026/8/20/houthis-and-government-trade-attacks-as-yemen-slides-back-to-full-scale-war?traffic_source=rss",
       "summary": "Gov't forces carried out 81 attacks in the last 24 hours as Houthis claim to have hit two targets in Saudi Arabia.",
       "published": "21 Aug 2026 06:19 WIB",
