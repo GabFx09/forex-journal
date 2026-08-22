@@ -1,5 +1,5 @@
 {
-  "generated": "22 Aug 2026 02:48 WIB",
+  "generated": "22 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,50 +7,50 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.422,
-      "count": 13
+      "score": -0.357,
+      "count": 21
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.422,
-      "count": 13
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Netral →",
-      "score": -0.021,
-      "count": 11
+      "score": -0.387,
+      "count": 20
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.411,
-      "count": 10
+      "score": -0.346,
+      "count": 19
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Netral →",
+      "score": -0.041,
+      "count": 12
     },
     {
       "pair": "AUD/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.261,
-      "count": 6
+      "direction": "Netral →",
+      "score": 0.05,
+      "count": 7
     },
     {
       "pair": "USD/CNY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.261,
-      "count": 6
+      "direction": "Netral →",
+      "score": 0.05,
+      "count": 7
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.46,
+      "score": -0.334,
       "count": 3
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.53,
-      "count": 1
+      "score": -0.241,
+      "count": 2
     }
   ],
   "items": [
@@ -111,6 +111,17 @@
     },
     {
       "source": "FXStreet News",
+      "title": "Perkiraan minggu depan: Debut Warsh di Jackson Hole dan inflasi AS menguji melemahnya Dolar AS",
+      "url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-warshs-jackson-hole-debut-and-us-inflation-test-a-soft-us-dollar-202608212022",
+      "summary": "The US Dollar Index (DXY) ended the week near even with Thursday, holding near 98.80. Like Thursday, DXY traded down to the 98.50s before recovering later in the session.",
+      "published": "22 Aug 2026 03:22 WIB",
+      "sentiment": "Bullish",
+      "score": 0.281,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Jerman: Sentimen Ifo terlihat melemah karena perang Iran – Commerzbank",
       "url": "https://www.fxstreet.com/news/germany-ifo-sentiment-seen-weakening-on-iran-war-commerzbank-202608211747",
       "summary": "Commerzbank economists Christoph Balz and Ralph Solveen expect the Ifo Business Climate Index to slip from 86.6 to 86.0 in August as renewed Iran war concerns and higher energy prices weigh on expectations.",
@@ -143,41 +154,30 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Bank of Canada: Kesepakatan tarif sepertinya tidak akan mempercepat kenaikan – TD Securities",
-      "url": "https://www.fxstreet.com/news/bank-of-canada-tariff-deal-unlikely-to-accelerate-hikes-td-securities-202608211638",
-      "summary": "TD Securities’ Robert Both expects the Bank of Canada to remain cautious even if a tariff agreement is reached. The Bank wants more data on how lower tariffs affect exports and output, with key trade figures not available until November.",
-      "published": "21 Aug 2026 23:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.574,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru 21 Agustus",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/latest-oil-market-news-and-analysis-for-aug-21",
-      "summary": "Oil capped a weekly gain as traders awaited details of a US campaign to isolate Iran’s economy, with no apparent end in sight to a conflict that has slashed Middle East exports.",
-      "published": "21 Aug 2026 05:02 WIB",
+      "source": "Investing.com Forex",
+      "title": "Insinyur Boeing, pekerja teknis menolak tawaran kontrak",
+      "url": "https://www.investing.com/news/stock-market-news/boeing-whitecollar-union-contract-vote-results-expected-today-4871891",
+      "summary": "",
+      "published": "22 Aug 2026 05:54 WIB",
       "sentiment": "Bearish",
-      "score": -0.44,
+      "score": -0.402,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Jam Berdetak pada Batas Waktu Tarif Kanada Baru",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-21/clock-ticks-down-on-new-canada-tariff-deadline-video",
-      "summary": "Sarah Bianchi, senior managing director at Evercore ISI and former deputy US trade representative, joined Balance of Power to discuss the upcoming tariff deadline. Bianchi said that after the US strikes a tariff deal with Canada, Mexico will likely ask for similar relief. (Source: Bloomberg)",
-      "published": "22 Aug 2026 01:19 WIB",
+      "title": "Pekan Wall Street | AI Mencapai Gaji, USMCA Di Bawah Tekanan, Krisis Sungai Colorado",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-21/wall-street-week-ai-hits-wages-colorado-river-crisis-video",
+      "summary": "This week, Former IBM CEO Sam Palmisano discusses why companies may benefit from having a “Plan B” for AI implementation. And, AI may not be causing mass layoffs yet, but early data suggest it is already slowing wage growth in exposed occupations. Plus, Canada may have dodged Trump’s newest tariffs,",
+      "published": "22 Aug 2026 06:12 WIB",
       "sentiment": "Bullish",
-      "score": 0.233,
+      "score": 0.165,
       "emoji": "🟢",
       "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gubernur Meksiko yang Dituduh AS Terkait Kartel Kembali ke Pekerjaannya",
+      "title": "Gubernur Meksiko yang Dituduh AS Memiliki Hubungan Kartel Kembali ke Pos",
       "url": "https://www.bloomberg.com/news/articles/2026-08-21/mexican-governor-accused-by-us-of-cartel-ties-returns-to-his-job",
       "summary": "The Mexican governor accused by the US of conspiring with a major criminal cartel to traffic drugs is ending his leave of absence, pledging to finish out his term through next year in a move that could inflame tensions with Washington.",
       "published": "22 Aug 2026 01:01 WIB",
@@ -187,26 +187,70 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Satu orang tewas dalam serangan pedang di sekolah Swedia",
-      "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
-      "summary": "One person remains in a critical condition, while another suffered minor injuries in the attack.",
-      "published": "22 Aug 2026 02:22 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Lula Memimpin Bolsonaro Enam Minggu Dari Pemilu Brasil",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/lula-holds-lead-over-bolsonaro-six-weeks-from-brazilian-election",
+      "summary": "President Luiz Inácio Lula da Silva maintained his lead over right-wing challenger Flávio Bolsonaro ahead of Brazil’s October election, a new poll found.",
+      "published": "22 Aug 2026 04:57 WIB",
+      "sentiment": "Bullish",
+      "score": 0.128,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Trump Izinkan Keringanan Tarif untuk Sejumlah Impor Daging Sapi Giling",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-21/trump-allows-tariff-relief-for-some-ground-beef-imports-video",
+      "summary": "President Donald Trump is aiming to deliver cost relief for some ground beef imports to lower prices for American consumers, by allowing up to 300,000 metric tons of product for ground beef to be imported with no out of quota tariff for the next 90 days. He also made a commitment that the beef will ",
+      "published": "22 Aug 2026 04:32 WIB",
+      "sentiment": "Bullish",
+      "score": 0.238,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Belajar dari Buffett dan Munger | Magister Bisnis dengan Alex Morris",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-21/masters-in-business-with-alex-morris-video",
+      "summary": "Barry speaks with Alex Morris, author of Buffett and Munger unscripted. They discuss his research in Warren Buffett and Charlie Munger's annual shareholder meetings. They discuss the challenges in interpreting the market. Alex also discusses other lessons from Berkshire Hathaway. (Source: Bloomberg)",
+      "published": "22 Aug 2026 04:00 WIB",
+      "sentiment": "Netral",
+      "score": -0.003,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Citadel Menghilangkan Risiko Dari Kesadaran Situasional",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-21/citadel-offloads-risk-from-situational-awareness-video",
+      "summary": "Ken Griffin's Citadel has offloaded more than 80% of the aggregate risk associated with the Situational Awareness stock portfolio it acquired from the embattled AI hedge fund. Citadel struck a deal last month to buy stocks from the fund led by Leopold Aschenbrenner. Bloomberg's Hema Parmar reports. ",
+      "published": "22 Aug 2026 03:53 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.717,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Struyven Goldman: Ayunan Minyak Mentah Lindung Nilai dengan Diesel",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-21/goldman-s-struyven-hedge-crude-s-swings-with-diesel-video",
+      "summary": "Daan Struyven, Goldman Sachs Co-Head of Global Commodities Research, discussed the market reaction to potential new US sanctions on Iran during a live financial news segment. He noted that oil prices experienced only a modest increase following the announcement, largely because the existing blockade",
+      "published": "22 Aug 2026 03:50 WIB",
+      "sentiment": "Netral",
+      "score": 0.048,
+      "emoji": "⚪",
+      "impact": "high"
     },
     {
       "source": "BBC World",
-      "title": "Dua warga Meksiko ditangkap saat polisi menemukan laboratorium sabu besar di pertanian Afrika Selatan",
-      "url": "https://www.bbc.co.uk/news/articles/c80n8d4xz1eo?at_medium=RSS&at_campaign=rss",
-      "summary": "The overnight raid of the multi-million dollar drug operation took place near the border with Zimbabwe.",
-      "published": "21 Aug 2026 18:57 WIB",
+      "title": "Dua orang terluka dalam serangan penikaman di kuil Sikh Kanada",
+      "url": "https://www.bbc.co.uk/news/articles/ce8l7w0n0jeo?at_medium=RSS&at_campaign=rss",
+      "summary": "One suspect is in custody, and police have said they are still investigating if the attack was motivated by hate.",
+      "published": "22 Aug 2026 05:45 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.976,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -220,11 +264,22 @@
       "impact": "high"
     },
     {
+      "source": "BBC World",
+      "title": "Tornado mendarat di New York dan Delaware",
+      "url": "https://www.bbc.co.uk/news/videos/cy07x9ne871o?at_medium=RSS&at_campaign=rss",
+      "summary": "Tornadoes swept through New York and Delaware as severe storms brought torrential rain to the Mid-Atlantic.",
+      "published": "21 Aug 2026 21:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.462,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "BBC Business",
       "title": "Kanada 'harus berjuang' seiring dengan semakin dekatnya tenggat waktu perdagangan AS, kata Perdana Menteri Manitoba",
       "url": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss",
       "summary": "Premier Wab Kinew's comments signal a tough battle for Prime Minister Mark Carney to get buy-in from Canadians on a possible trade deal with the US.",
-      "published": "21 Aug 2026 22:34 WIB",
+      "published": "22 Aug 2026 04:27 WIB",
       "sentiment": "Bearish",
       "score": -0.397,
       "emoji": "🔴",
@@ -253,11 +308,11 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Saksikan: Inggris menandai hari nasional pertama bagi para korban dan penyintas terorisme",
-      "url": "https://www.bbc.co.uk/news/videos/ckgdrl1zj8no?at_medium=RSS&at_campaign=rss",
-      "summary": "Survivors of terror attacks gathered today at the first annual National day for Victims and Survivors of terrorism.",
-      "published": "21 Aug 2026 23:33 WIB",
+      "source": "Al Jazeera",
+      "title": "Satu tewas, tiga terluka dalam serangan pedang di sekolah menengah Swedia",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/08-21-2026-sweden-sword-attack-clip?traffic_source=rss",
+      "summary": "One person has been killed and three others wounded in an attack by a sword-wielding man at a Swedish high school.",
+      "published": "22 Aug 2026 04:23 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -265,32 +320,10 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Turkiye menuduh Netanyahu melakukan ‘genosida’ dan meminta surat perintah Interpol",
-      "url": "https://www.aljazeera.com/news/2026/8/21/turkiye-accuses-israels-netanyahu-of-genocide-seeks-interpol-warrant?traffic_source=rss",
-      "summary": "Netanyahu and Erdogan trade insults as Ankara seeks warrant for Israel's attacks on Global Sumud Flotilla activists.",
-      "published": "22 Aug 2026 02:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.956,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Terowongan rahasia menjadi museum serangan kimia Suriah dan pengepungan Ghouta",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/08-21-26-ghouta-chemical-attack-anniversary-sv?traffic_source=rss",
-      "summary": "A Ghouta tunnel used during Assad’s siege is now a museum, 13 years after government forces’ deadly sarin gas attack.",
-      "published": "22 Aug 2026 01:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.815,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Serangan pesawat tak berawak Rusia di pusat perbelanjaan yang sibuk menewaskan 14 orang di Ukraina",
-      "url": "https://www.aljazeera.com/news/2026/8/21/russian-drone-attack-on-busy-shopping-centre-kills-14-in-ukraine?traffic_source=rss",
-      "summary": "Ukraine's Volodymyr Zelenskyy slams 'cynical and despicable' attack on his hometown Kryvyi Rih that injured over 120.",
-      "published": "22 Aug 2026 01:17 WIB",
+      "title": "Bisakah bencana kemanusiaan di Somalia dapat dihindari?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/8/21/can-a-humanitarian-disaster-be-averted-in-somalia-2?traffic_source=rss",
+      "summary": "The UN warns of another hunger crisis, with starvation threatening millions.",
+      "published": "22 Aug 2026 03:27 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -298,25 +331,69 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Ukraina menjatuhkan sanksi terhadap kartun populer Rusia ‘Masha and the Bear’",
-      "url": "https://www.aljazeera.com/news/2026/8/21/ukraine-sanctions-popular-russian-cartoon-masha-and-the?traffic_source=rss",
-      "summary": "Zelenskyy signs decree imposing sanctions on producers, accuses cartoon show of spreading 'pro-Russian propaganda'.",
-      "published": "21 Aug 2026 23:38 WIB",
+      "title": "Pengadilan AS memangkas denda Alex Jones atas kasus penembakan di sekolah Sandy Hook",
+      "url": "https://www.aljazeera.com/news/2026/8/21/us-court-slashes-alex-jones-fines-for-sandy-hook-school-shooting-case?traffic_source=rss",
+      "summary": "Court cuts Infowars founder's penalty for false claims that school shooting was a 'hoax' from $50m to $1.5m.",
+      "published": "22 Aug 2026 02:29 WIB",
       "sentiment": "Bearish",
-      "score": -0.33,
+      "score": -0.876,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Saingan Libya menguji jalan baru menuju persatuan, 15 tahun setelah jatuhnya Gadaffi",
+      "url": "https://www.aljazeera.com/economy/2026/8/21/libya-rivals-test-a-new-path-towards-unity-15-years-after-gadaffi-overthrow?traffic_source=rss",
+      "summary": "Fifteen years since Tripoli fell, Libyan parties are finally working towards unity.",
+      "published": "22 Aug 2026 02:21 WIB",
+      "sentiment": "Bullish",
+      "score": 0.242,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Para negosiator AS dan Kanada berlomba untuk menandatangani kesepakatan ketika batas waktu tarif Trump semakin dekat",
+      "url": "https://www.aljazeera.com/economy/2026/8/21/us-canada-negotiators-race-to-ink-a-deal-as-trumps-tariff-deadline-looms?traffic_source=rss",
+      "summary": "Experts say even a last-minute breakthrough will not result in the US lifting all its tariffs on Canadian goods.",
+      "published": "22 Aug 2026 02:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.073,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Warga Palestina yang menjadi korban serangan pemukim Israel menghadapi perjuangan untuk mendapatkan keadilan",
+      "url": "https://www.aljazeera.com/features/2026/8/21/palestinian-victims-of-israeli-settlers-face-painful-battle-for-justice?traffic_source=rss",
+      "summary": "Palestinians with missing relatives are marking International Day of Remembrance and Tribute to Victims of Terrorism.",
+      "published": "22 Aug 2026 02:14 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Anda akan segera dapat membeli paket Medicare Advantage di Costco. Apa yang perlu Anda ketahui.",
+      "url": "https://www.marketwatch.com/story/soon-you-can-buy-medicare-advantage-plans-at-costco-what-you-need-to-know-34e03242?mod=mw_rss_topstories",
+      "summary": "The warehouse club becomes the latest consumer brand to offer health insurance.",
+      "published": "22 Aug 2026 04:17 WIB",
+      "sentiment": "Bullish",
+      "score": 0.17,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "AS dan Kanada berupaya menghindari tarif baru dan mencapai kesepakatan dagang. Inilah yang mungkin ada di dalamnya.",
-      "url": "https://www.marketwatch.com/story/the-u-s-and-canada-are-scrambling-to-avoid-new-tariffs-and-seal-a-trade-deal-heres-what-could-be-in-it-f01dd61c?mod=mw_rss_topstories",
-      "summary": "U.S. and Canadian officials were engaged in additional talks on Friday. Details about what’s in their new trade deal have trickled out.",
-      "published": "21 Aug 2026 23:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.501,
-      "emoji": "🟢",
-      "impact": "medium"
+      "title": "Beginilah cara aktivis baru Departemen Keuangan Bessent meremehkan Warsh dari The Fed",
+      "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
+      "summary": "The surprising move this week by Treasury Secretary Scott Bessent to intervene in Treasury markets to lower the cost of government debt undercuts the credibility of Federal Reserve Chairman Kevin Warsh to make interest-rate policy, experts said.",
+      "published": "22 Aug 2026 03:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC Economy",
@@ -342,14 +419,14 @@
     },
     {
       "source": "CNBC World",
-      "title": "Batas waktu tarif Trump semakin dekat ketika Kanada mengatakan pihaknya berupaya menyelesaikan 'masalah perdagangan' dengan AS.",
+      "title": "Trump mengatakan AS dan Kanada 'seharusnya bisa' mencapai kesepakatan perdagangan seiring dengan semakin dekatnya batas waktu tarif",
       "url": "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html",
-      "summary": "Businesses have warned that Trump's new 50% duties could cripple their U.S. sales if they take effect.",
-      "published": "22 Aug 2026 01:23 WIB",
+      "summary": "Trump had already postponed the 50% tariffs on a range of Canadian goods so Washington and Ottawa could finalize a tentative deal.",
+      "published": "22 Aug 2026 04:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.106,
+      "score": -0.238,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "CNBC World",
