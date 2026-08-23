@@ -1,5 +1,5 @@
 {
-  "generated": "22 Aug 2026 22:01 WIB",
+  "generated": "23 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,44 +7,44 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.341,
-      "count": 17
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.341,
-      "count": 17
+      "score": -0.4,
+      "count": 23
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.379,
-      "count": 16
+      "score": -0.425,
+      "count": 21
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.353,
+      "count": 21
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.08,
-      "count": 12
+      "score": -0.357,
+      "count": 15
     },
     {
       "pair": "AUD/USD",
-      "direction": "Netral →",
-      "score": 0.034,
-      "count": 8
+      "direction": "Tekanan Turun ▼",
+      "score": -0.358,
+      "count": 12
     },
     {
       "pair": "USD/CNY",
-      "direction": "Netral →",
-      "score": 0.034,
-      "count": 8
+      "direction": "Tekanan Turun ▼",
+      "score": -0.358,
+      "count": 12
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.733,
-      "count": 3
+      "score": -0.676,
+      "count": 2
     },
     {
       "pair": "CAD/JPY",
@@ -56,7 +56,18 @@
   "items": [
     {
       "source": "ForexLive",
-      "title": "USDJPY menetapkan batasan ketat untuk perdagangan minggu depan",
+      "title": "investingLive Americas FX news wrap 21 Aug: Trump folds on beef tariffs.",
+      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-21-aug-trump-folds-on-beef-tariffs-0/",
+      "summary": "Nasdaq and S&P indices are settling between risk/bias defining MAs as the week comes to a close Baker Hughes rig count -5 at 588 European stocks rebound Friday, but weekly losses dominate Brazil's Lula and US Pres. Trump held phone call on Friday. Gold surges and breaks away from its 200 day MA SNB ",
+      "published": "22 Aug 2026 05:14 WIB",
+      "sentiment": "Bearish",
+      "score": -0.951,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "USDJPY sets the close guardrails for next week's trading",
       "url": "https://investinglive.com/technical-analysis/usdjpy-sets-the-close-guardrails-for-next-week-s-trading/",
       "summary": "The USDJPY has set the technical guardrails for the rest of today and heading into next week. Looking at the hourly chart, the low for the day stalled just ahead of the 200-day moving average, currently at 158.313. The low reached 158.35 before buyers stepped in and pushed the pair back higher. That",
       "published": "22 Aug 2026 02:01 WIB",
@@ -67,7 +78,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Saham-saham Eropa rebound pada hari Jumat, namun kerugian mingguan mendominasi",
+      "title": "European stocks rebound Friday, but weekly losses dominate",
       "url": "https://investinglive.com/technical-analysis/european-stocks-rebound-friday-but-weekly-losses-dominate/",
       "summary": "European shares are closing mostly higher on Friday, but the gains were not enough to erase losses for most of the major indices this week. The broader STOXX 600 is also on pace for a weekly decline as elevated bond yields and oil prices continue to weigh on sentiment. European closing levels: Germa",
       "published": "21 Aug 2026 23:52 WIB",
@@ -78,7 +89,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Lula dari Brasil dan Presiden AS. Trump mengadakan panggilan telepon pada hari Jumat.",
+      "title": "Brazil's Lula and US Pres. Trump held phone call on Friday.",
       "url": "https://investinglive.com/news/brazil-s-lula-us-trump-held-phone-call-on-friday/",
       "summary": "Brazilian President Luiz Inácio Lula da Silva and U.S. President Donald Trump held a phone call Friday, with trade and tariffs among the issues discussed. According to the Brazilian government: Lula and Trump held a phone call on Friday, discussing both the bilateral relationship and the broader glo",
       "published": "21 Aug 2026 23:22 WIB",
@@ -89,18 +100,18 @@
     },
     {
       "source": "ForexLive",
-      "title": "Emas melonjak dan melepaskan diri dari MA 200 hari",
+      "title": "Gold surges and breaks away from its 200 day MA",
       "url": "https://investinglive.com/technical-analysis/gold-surges-and-breaks-away-from-its-200-day-ma/",
       "summary": "The gold buyers raced higher earlier this week, helped by the broader decline in the U.S. dollar. The move carried the price away from its 100-day moving average at $4,391.78 and toward the 200-day moving average at $4,501.13. Yesterday, gold traded above and below the 200-day moving average as buye",
       "published": "21 Aug 2026 23:09 WIB",
-      "sentiment": "Netral",
-      "score": 0.023,
-      "emoji": "⚪",
+      "sentiment": "Bullish",
+      "score": 0.103,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Trump: Menghapuskan tarif 26,4% pada daging sapi impor dan harga akan turun sebesar 25%",
+      "title": "Trump: Gets rid of 26.4% tariffs on imported beef and prices will come down by 25%",
       "url": "https://investinglive.com/news/trump-gets-rid-of-26-4-tariffs-on-imported-beef-and-prices-will-come-down-by-25/",
       "summary": "President Trump is looking to solve another problem - the rising cost of beef prices. He is solving the problem by getting rid of a tariff. Trump in a TruthSocial post said: Beef prices have moved sharply higher mainly because the U.S. cattle herd has been shrinking for years, leaving fewer cattle a",
       "published": "21 Aug 2026 21:59 WIB",
@@ -155,13 +166,13 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Ukrainian drones hit warehouse of Russian online retailer Ozon in overnight strikes",
-      "url": "https://www.investing.com/news/stock-market-news/ukrainian-drones-hit-warehouse-of-russian-online-retailer-ozon-in-overnight-strikes-4872310",
+      "title": "Paramount and California to hold preliminary talks on Warner Bros deal, NYT reports",
+      "url": "https://www.investing.com/news/stock-market-news/paramount-and-california-to-hold-preliminary-talks-on-warner-bros-deal-nyt-reports-4872384",
       "summary": "",
-      "published": "22 Aug 2026 14:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.441,
-      "emoji": "🔴",
+      "published": "23 Aug 2026 02:06 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "high"
     },
     {
@@ -221,34 +232,56 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Mexico Optimistic it Can Achieve Lower US Tariffs on Cars, Steel",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-22/mexico-optimistic-it-can-achieve-lower-us-tariffs-on-cars-steel",
-      "summary": "Mexico’s top trade negotiator expressed optimism he can secure less burdensome tariff terms from the US on Mexican automobile and steel exports, similar to revised measures Washington is discussing with Canada.",
-      "published": "22 Aug 2026 07:16 WIB",
-      "sentiment": "Bullish",
-      "score": 0.728,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Wall Street Week | AI Hits Wages, USMCA Under Pressure, Colorado River Crisis",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-21/wall-street-week-ai-hits-wages-colorado-river-crisis-video",
-      "summary": "This week, Former IBM CEO Sam Palmisano discusses why companies may benefit from having a “Plan B” for AI implementation. And, AI may not be causing mass layoffs yet, but early data suggest it is already slowing wage growth in exposed occupations. Plus, Canada may have dodged Trump’s newest tariffs,",
-      "published": "22 Aug 2026 06:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.165,
-      "emoji": "🟢",
+      "title": "India’s Foreign Minister to Visit Russia Amid US Tariff Threat",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-22/india-s-foreign-minister-to-visit-russia-amid-us-tariff-threat",
+      "summary": "India‘s External Affairs Minister S. Jaishankar will visit Russia and co-chair the 27th India-Russia Inter-Governmental Commission meeting on trade, science, technology, and culture.",
+      "published": "22 Aug 2026 17:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.607,
+      "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "BBC World",
-      "title": "Tim penyelamat menggali reruntuhan mal di Ukraina saat Zelensky mengutuk serangan Rusia yang 'tercela'",
+      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Canada's prime minister said he was \"reluctantly\" announcing retaliatory tariffs as he accused the US of starting a trade war.",
+      "published": "23 Aug 2026 03:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.893,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
       "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
       "summary": "Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
       "published": "22 Aug 2026 20:13 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Syria says Israeli strike near Damascus violation of international law",
+      "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_medium=RSS&at_campaign=rss",
+      "summary": "The latest incident comes days after reports emerged Israel had struck a military airbase close to the Turkish border.",
+      "published": "23 Aug 2026 04:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.691,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "US military newspaper editor voices censorship fears after being fired",
+      "url": "https://www.bbc.co.uk/news/articles/cm2g23ng8p4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Erik Slavin believes he was fired for saying in an interview that \"in a hypothetical situation, censorship would be a red line\".",
+      "published": "22 Aug 2026 23:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.875,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -275,118 +308,206 @@
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Israeli drone strike on ‘civilian vehicle’ injures several in Syria",
-      "url": "https://www.aljazeera.com/news/2026/8/22/israeli-drone-strike-on-civilian-vehicle-causes-injuries-in-syria?traffic_source=rss",
-      "summary": "Syria condemns attack in southwest as a 'flagrant violation of sovereignty' and a 'blatant breach of international law'.",
-      "published": "22 Aug 2026 21:37 WIB",
+      "source": "BBC Top Stories",
+      "title": "Canadian PM calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Canada's prime minister said he was \"reluctantly\" announcing retaliatory tariffs as he accused the US of starting a trade war.",
+      "published": "23 Aug 2026 03:10 WIB",
       "sentiment": "Bearish",
-      "score": -0.958,
+      "score": -0.893,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "How a new era of heatwaves could shake up the school calendar",
+      "url": "https://www.bbc.co.uk/news/articles/cp872m0grgyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Teachers warn it could be increasingly difficult for classrooms to function during the hottest months.",
+      "published": "23 Aug 2026 06:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Fear and fallout three months on from Northern Ireland's race riots",
+      "url": "https://www.bbc.co.uk/news/articles/c0ej0edzddjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Northern Ireland saw consecutive nights of violence following a knife attack - but how are victims faring now?",
+      "published": "23 Aug 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Apa yang terungkap dari perang dengan AS tentang kemampuan senjata Iran?",
-      "url": "https://www.aljazeera.com/news/2026/8/22/what-did-war-with-the-us-reveal-about-irans-weapons-capabilities?traffic_source=rss",
-      "summary": "Iran says production is ongoing, but details will not be revealed during war conditions.",
-      "published": "22 Aug 2026 21:19 WIB",
+      "title": "Iran warns nearby nations against joining US ‘economic war’ efforts",
+      "url": "https://www.aljazeera.com/news/2026/8/22/iran-warns-nearby-nations-against-joining-us-economic-war-efforts?traffic_source=rss",
+      "summary": "The warning comes as US President Donald Trump threatens to isolate Iran economically to weaken its government.",
+      "published": "23 Aug 2026 06:26 WIB",
       "sentiment": "Bearish",
-      "score": -0.947,
+      "score": -0.92,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Ketika keluarga-keluarga mengambil jenazah, Gaza kehabisan tempat untuk menguburkan jenazah",
-      "url": "https://www.aljazeera.com/features/2026/8/22/as-families-retrive-bodies-gaza-is-running-out-of-places-to-bury-the-dead?traffic_source=rss",
-      "summary": "Israel's genocidal war on Gaza has seen thousands of bodies buried in makeshift sites.",
-      "published": "22 Aug 2026 20:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.928,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Russian strikes kill 6 people in Ukraine, day after shopping complex attack",
-      "url": "https://www.aljazeera.com/news/2026/8/22/russian-strikes-kill-6-people-in-ukraine-day-after-shopping-complex-attack?traffic_source=rss",
-      "summary": "Meanwhile, Ukrainian drone hits home in southern Russia, killing two children and injuring their parents, officials say.",
-      "published": "22 Aug 2026 19:09 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Hundreds of children take part in swimming class on Gaza’s shore",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/hundreds-of-children-take-part-in-swimming-class-on-gazas-shore?traffic_source=rss",
-      "summary": "On Gaza’s shore, 1,300 Palestinian children joined a swimming class to cope with the trauma of Israel’s genocidal war.",
-      "published": "22 Aug 2026 18:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.852,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ebola continues to spread in the DRC as 16,000 vaccine doses arrive",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/ebola-continues-to-spread-in-the-drc-as-16000-vaccine-doses-arrive?traffic_source=rss",
-      "summary": "Health authorities are warning that ‘approximately one person has been dying from Ebola every thirty minutes’.",
-      "published": "22 Aug 2026 18:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.42,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Lebih dari 16.000 dosis vaksin Ervebo tiba di Kongo yang dilanda Ebola",
-      "url": "https://www.aljazeera.com/news/2026/8/22/more-than-16000-doses-of-ervebo-vaccine-arrive-in-ebola-hit-dr-congo?traffic_source=rss",
-      "summary": "The doses are the first of 70,000 allocated for Kinshasa as experts warn of the virus's exponential spread.",
-      "published": "22 Aug 2026 17:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.183,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran says new US sanctions violate sovereignty of other states",
-      "url": "https://www.aljazeera.com/news/2026/8/22/iran-says-new-us-sanctions-violate-sovereignty-of-other-states?traffic_source=rss",
-      "summary": "Foreign Ministry spokesman Esmaeil Baghaei slams Trump's latest threat as a return to 'full-scale classic colonialism'.",
-      "published": "22 Aug 2026 16:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.845,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Here’s some surprisingly good news for the stock market this midterm election year",
-      "url": "https://www.marketwatch.com/story/heres-some-surprisingly-good-news-for-the-stock-market-this-midterm-election-year-d492d3a4?mod=mw_rss_topstories",
-      "summary": "There is a strong historical pattern of postmidterm strength.",
-      "published": "22 Aug 2026 19:00 WIB",
+      "title": "Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds",
+      "url": "https://www.aljazeera.com/news/2026/8/22/tropical-storm-moke-advances-towards-hawaii-with-heavy-rain-strong-winds?traffic_source=rss",
+      "summary": "For the second week in a row, Hawaii Island, also known as the Big Island, faces threats from an intensifying storm.",
+      "published": "23 Aug 2026 05:29 WIB",
       "sentiment": "Bullish",
-      "score": 0.971,
+      "score": 0.128,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Open-air cinema brings movie nights back to Khartoum",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-sudan-movie-night-sv?traffic_source=rss",
+      "summary": "Families are returning to the movies at an open-air cinema in Khartoum, offering residents a brief escape from war.",
+      "published": "23 Aug 2026 04:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.574,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Israeli army and settlers injure several Palestinians across West Bank",
+      "url": "https://www.aljazeera.com/news/2026/8/22/israeli-army-and-settlers-injure-several-palestinians-across-west-bank?traffic_source=rss",
+      "summary": "Palestinians face attacks and forced displacement as settlers expand control, backed by military raids and inaction.",
+      "published": "23 Aug 2026 04:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.75,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "US Postal Service shares mail-in ballot restrictions despite court ruling",
+      "url": "https://www.aljazeera.com/news/2026/8/22/us-postal-service-shares-mail-in-ballot-restrictions-despite-court-ruling?traffic_source=rss",
+      "summary": "US President Donald Trump has called for restrictions on mail-in voting as part of bid to exert control over elections.",
+      "published": "23 Aug 2026 03:49 WIB",
+      "sentiment": "Bullish",
+      "score": 0.296,
       "emoji": "🟢",
       "impact": "medium"
     },
     {
-      "source": "MarketWatch",
-      "title": "A massive ‘corporate welfare’ program is underway — and consumers want a bigger cut of it",
-      "url": "https://www.marketwatch.com/story/a-massive-corporate-welfare-program-is-underway-and-consumers-want-a-bigger-cut-of-it-0ff06d67?mod=mw_rss_topstories",
-      "summary": "Tariff refunds have been flowing back to companies since President Donald Trump’s levies were rejected by the Supreme Court.",
-      "published": "22 Aug 2026 18:00 WIB",
+      "source": "Al Jazeera",
+      "title": "Iran grants permission for some Iraqi oil tankers to pass through Hormuz",
+      "url": "https://www.aljazeera.com/news/2026/8/22/iran-grants-permission-for-some-iraqi-oil-tankers-to-pass-through-hormuz?traffic_source=rss",
+      "summary": "Iraqi President Nizar Amidi says his country's territory will not be used to launch attacks against any other state.",
+      "published": "23 Aug 2026 03:05 WIB",
       "sentiment": "Bearish",
-      "score": -0.128,
+      "score": -0.33,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Israeli strikes kill two and injure others as Gaza attacks continue",
+      "url": "https://www.aljazeera.com/news/2026/8/22/israeli-strikes-kill-two-and-injure-others-as-gaza-attacks-continue?traffic_source=rss",
+      "summary": "Israeli drone attack targeted a family in the central city of Deir el-Balah, killing one person and wounding others.",
+      "published": "23 Aug 2026 02:24 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Putin warns Ukraine has opened ‘Pandora’s box’, rejects peace proposals",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-putin-ukraine-talks-clip?traffic_source=rss",
+      "summary": "In an interview with the Russian channel Vesti, Vladimir Putin threatened Ukraine's 'most vulnerable' economic sectors.",
+      "published": "23 Aug 2026 02:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.728,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Envoy says Israel did not give the US notice before strikes on Syrian base",
+      "url": "https://www.aljazeera.com/news/2026/8/22/envoy-says-israel-did-not-give-the-us-notice-before-strikes-on-syrian-base?traffic_source=rss",
+      "summary": "US official Tom Barrack has criticised Israel for failing to give his country adequate warning, a claim Tel Aviv denies.",
+      "published": "23 Aug 2026 02:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.978,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Canada to match US tariffs “dollar for dollar,” PM Carney says",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-carney-tariffs-canada-ca?traffic_source=rss",
+      "summary": "Canadian Prime Minister Mark Carney says Canada will match new US tariffs “dollar for dollar.\"",
+      "published": "23 Aug 2026 02:13 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Carney: Canada will enact retaliatory US tariffs starting September 8",
+      "url": "https://www.aljazeera.com/news/2026/8/22/carney-canada-will-enact-retaliatory-us-tariffs-starting-september-8?traffic_source=rss",
+      "summary": "The prime minister spoke hours after the US imposed 50 percent tariffs on nearly $20bn worth of Canadian goods.",
+      "published": "23 Aug 2026 02:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.153,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Swedish police identify 17-year-old girl as victim in school sword attack",
+      "url": "https://www.aljazeera.com/news/2026/8/22/swedish-police-identify-17-year-old-girl-as-victim-in-school-sword-attack?traffic_source=rss",
+      "summary": "Brinell School's principal says 18-year-old suspected of carrying out Friday's deadly sword attack was a student there.",
+      "published": "23 Aug 2026 01:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.928,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Armed men kidnap dozens in attacks on Nigerian villages",
+      "url": "https://www.aljazeera.com/news/2026/8/22/armed-men-kidnap-dozens-in-attacks-on-nigerian-villages?traffic_source=rss",
+      "summary": "Police say three villages and a mosque were attacked, and worshippers kidnapped in central Niger State.",
+      "published": "23 Aug 2026 00:58 WIB",
+      "sentiment": "Bearish",
+      "score": -0.705,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
+      "url": "https://www.marketwatch.com/story/canada-announces-retaliatory-tariffs-on-u-s-goods-after-trade-talks-break-down-45081c2f?mod=mw_rss_topstories",
+      "summary": "Canadian Prime Minister Mark Carney on Saturday announced his country would impose “dollar-for-dollar” tariffs on U.S. goods — a retaliatory measure after trade talks between the two nations broke down.",
+      "published": "23 Aug 2026 03:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.612,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
+      "source": "MarketWatch",
+      "title": "‘There is considerable tension’: My grandmother, 99, wants to cut my mother out of her will. Should I intervene?",
+      "url": "https://www.marketwatch.com/story/there-is-considerable-tension-my-grandmother-99-wants-to-cut-my-mother-out-of-her-will-should-i-intervene-5e8f408e?mod=mw_rss_topstories",
+      "summary": "“Grandma feels that she was pressured by my mother into taking out a $50,000 HELOC.”",
+      "published": "22 Aug 2026 19:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.539,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
       "source": "CNBC Forex",
-      "title": "Warren Buffett Watch: Buffettlah, bukan Abel, yang tampaknya mengambil keputusan pada saham",
+      "title": "Warren Buffett Watch: It's Buffett, not Abel, who appears to be calling the shots on stocks",
       "url": "https://www.cnbc.com/2026/08/22/warren-buffett-not-greg-abel-appears-to-still-be-calling-the-shots-on-stocks.html",
       "summary": "New Berkshire Hathaway CEO Greg Abel appears to be letting Warren Buffett and portfolio manager Ted Weschler make all the decisions on the company's equities.",
       "published": "22 Aug 2026 19:06 WIB",
@@ -419,14 +540,25 @@
     },
     {
       "source": "CNBC World",
-      "title": "U.S.-Canada trade talks collapse, ushering in wave of new tariffs",
+      "title": "As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8",
       "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
       "summary": "New 50% Trump administration tariffs on some Canadian exports went into place after the U.S. and Canada failed to reach a deal on Friday.",
-      "published": "22 Aug 2026 21:53 WIB",
+      "published": "23 Aug 2026 03:18 WIB",
       "sentiment": "Bearish",
       "score": -0.671,
       "emoji": "🔴",
       "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Nvidia customers reportedly warned about AI-related price hikes",
+      "url": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html",
+      "summary": "The chipmaker has told some of its largest customers that the prices of servers containing its AI chips could move more than 15% higher, Bloomberg News reported.",
+      "published": "23 Aug 2026 03:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.353,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -452,25 +584,14 @@
     },
     {
       "source": "CNBC World",
-      "title": "NATO member Romania scrambles F-16 fighter jets to destroy drone near critical European gas project",
-      "url": "https://www.cnbc.com/2026/08/21/romania-russia-ukraine-drone-gas-nato.html",
-      "summary": "It comes weeks after Romania’s Air Force destroyed a Russian drone in its airspace.",
-      "published": "21 Aug 2026 17:15 WIB",
+      "title": "As GOP warns data centers put Ohio Senate seat at risk, Husted defends energy policy",
+      "url": "https://www.cnbc.com/2026/08/21/jon-husted-data-centers-ohio-senate.html",
+      "summary": "Vice President JD Vance joined Sen. Jon Husted and other GOP leaders at a Middletown, Ohio, steel plant, as data center fears loom.",
+      "published": "22 Aug 2026 06:12 WIB",
       "sentiment": "Bearish",
-      "score": -0.813,
+      "score": -0.785,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "'A delicate dance': JD Vance says economic pressure is the best way to achieve Washington's objectives in Iran",
-      "url": "https://www.cnbc.com/2026/08/21/us-iran-war-trump-hormuz-vance-economic-pressure.html",
-      "summary": "Vance said \"what has been true over the last couple of weeks is they felt a lot more pressure than we have.\"",
-      "published": "21 Aug 2026 15:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.543,
-      "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     }
   ]
 }
