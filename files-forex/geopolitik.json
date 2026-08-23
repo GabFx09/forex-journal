@@ -1,5 +1,5 @@
 {
-  "generated": "23 Aug 2026 22:01 WIB",
+  "generated": "24 Aug 2026 04:08 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,86 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.398,
-      "count": 20
+      "score": -0.39,
+      "count": 28
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.491,
-      "count": 18
+      "score": -0.458,
+      "count": 24
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.351,
-      "count": 18
+      "score": -0.301,
+      "count": 23
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.299,
-      "count": 11
+      "score": -0.328,
+      "count": 16
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.481,
-      "count": 5
+      "score": -0.599,
+      "count": 7
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.481,
-      "count": 5
+      "score": -0.599,
+      "count": 7
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.439,
+      "score": -0.186,
       "count": 3
     },
     {
-      "pair": "GBP/USD",
+      "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.08,
+      "score": -0.535,
       "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Going nuclear ... Iran security chief warns Tehran may seek nuclear weapons after US strikes",
+      "url": "https://investinglive.com/commodities/going-nuclear-iran-security-chief-warns-tehran-may-seek-nuclear-weapons-after-us-strikes/",
+      "summary": "Any credible signal that Iran might reconsider its non-nuclear posture adds a new layer of geopolitical risk premium to oil markets already pricing in Strait of Hormuz disruption and an active blockade. Coming from the secretary of Iran's Supreme National Security Council rather than a peripheral co",
+      "published": "24 Aug 2026 03:46 WIB",
+      "sentiment": "Netral",
+      "score": 0.018,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran dismisses new US sanctions as desperate as Hormuz shipping standstill continues",
+      "url": "https://investinglive.com/commodities/iran-dismisses-new-us-sanctions-as-desperate-as-hormuz-shipping-standstill-continues/",
+      "summary": "The near standstill in Strait of Hormuz shipping keeps a geopolitical risk premium embedded in oil prices, with traders likely to stay cautious heading into Monday's sanctions announcement from Washington. Iran's parliament advancing a bill to charge navigation, environmental, fueling, insurance and",
+      "published": "24 Aug 2026 03:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.57,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "US-Canada trade talks collapse as 50% tariffs take effect, Carney vows retaliation",
+      "url": "https://investinglive.com/news/us-canada-trade-talks-collapse-as-50-tariffs-take-effect-carney-vows-retaliation/",
+      "summary": "The breakdown reintroduces cross-border trade risk into North American markets just as investors had begun pricing in a de-escalation after weeks of negotiation. The Canadian dollar has come under renewed pressure, with commentary pointing to a slide toward the low 70s against the US dollar, though ",
+      "published": "24 Aug 2026 03:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.895,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "Investing.com Forex",
       "title": "Gulf markets rise as oil prices climb on Iran sanction fears",
@@ -66,15 +99,15 @@
       "impact": "high"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Korean retail traders chase 40% coupons after historic stock rout - report",
-      "url": "https://www.investing.com/news/stock-market-news/korean-retail-traders-chase-40-coupons-after-historic-stock-rout--report-4872421",
-      "summary": "",
-      "published": "23 Aug 2026 13:09 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
+      "source": "Bloomberg Markets",
+      "title": "US Long Bonds Risk Deeper Selloff Without Clear Warsh Guidance",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/us-long-bonds-risk-deeper-selloff-without-clear-warsh-guidance",
+      "summary": "Bond investors will zero in on Kevin Warsh’s Jackson Hole speech this week, with a further selloff in long-dated Treasuries at stake as markets look for clues on the Federal Reserve chairman’s response to persistent inflation and fiscal concerns.",
+      "published": "24 Aug 2026 02:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.497,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -143,17 +176,6 @@
       "impact": "medium"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Saudi Oil Logistics Roiled Again by Houthis’ Red Sea Threat",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/saudis-oil-logistics-roiled-again-by-houthis-red-sea-threat",
-      "summary": "Saudi Arabia is yet again being forced to overhaul how its oil gets to customers around the world, as Yemen’s Houthis make it harder for Riyadh to use a backup route that’s been vital to the global economy since the Iran war started.",
-      "published": "23 Aug 2026 18:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.844,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Google News Geopolitik",
       "title": "Why Doesn’t Geopolitical Risk Always Push Gold Higher? for OANDA:BTCUSD by Kelly_Carter12 - TradingView",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbExQTFhpS1lkRi1HcVVLalY2cTZ2SmlraElNalVQSGZSbVd6bHd0d1VRR3U4bnZocEZ5QjNyQ2tHQVBrbUR2aVdpMjBBeFdJdUtUdkRpZVhIMjExdXBTSnBtS2psdGFDVW1zMmF1VENDblpWWWJGWkUwVlNOdWR1cVRvc1k5ZmlHclRDM2tETUlMY0NkeUZGZ1U1dDduYnFKSTItRkFWOA?oc=5",
@@ -166,23 +188,23 @@
     },
     {
       "source": "BBC World",
-      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
-      "published": "23 Aug 2026 12:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.876,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
       "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
       "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
       "summary": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
       "published": "23 Aug 2026 19:56 WIB",
       "sentiment": "Bearish",
       "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
+      "published": "24 Aug 2026 02:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.876,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -276,17 +298,6 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "How a new era of heatwaves could shake up the school calendar",
-      "url": "https://www.bbc.co.uk/news/articles/cp872m0grgyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Teachers warn it could be increasingly difficult for classrooms to function during the hottest months.",
-      "published": "23 Aug 2026 06:16 WIB",
-      "sentiment": "Bearish",
-      "score": -0.717,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
       "title": "Scammers increasingly using QR codes to steal money and data",
       "url": "https://www.bbc.co.uk/news/articles/cwyjqg578e1o?at_medium=RSS&at_campaign=rss",
       "summary": "Scammers set up a monthly subscription of £60 from Les Howard's account after he downloaded an app.",
@@ -297,11 +308,121 @@
       "impact": "high"
     },
     {
+      "source": "BBC Top Stories",
+      "title": "How a new era of heatwaves could shake up the school calendar",
+      "url": "https://www.bbc.co.uk/news/articles/cp872m0grgyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Teachers warn it could be increasingly difficult for classrooms to function during the hottest months.",
+      "published": "23 Aug 2026 06:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "Al Jazeera",
-      "title": "The Suez Crisis stopped the British Empire. Will Hormuz defeat the US?",
-      "url": "https://www.aljazeera.com/video/deja-vu-2/2026/8/23/the-suez-crisis-stopped-the-british-empire-will-hormuz-defeat-the-us?traffic_source=rss",
-      "summary": "In the latest episode of Al Jazeera’s new podcast, Deja Vu looks at how oil, shipping and war shape the Gulf.",
-      "published": "23 Aug 2026 20:37 WIB",
+      "title": "Is Israel about to split the occupied West Bank in half?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/occupied-west-bank-division-ps?traffic_source=rss",
+      "summary": "Israel is moving forward with its ‘E1’ plan. What is it and why could it threaten the future of a Palestinian state?",
+      "published": "24 Aug 2026 03:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.531,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Zhou Bo: China’s alternative to Western power",
+      "url": "https://www.aljazeera.com/video/the-india-report/2026/8/23/zhou-bo-chinas-alternative-to-western-power?traffic_source=rss",
+      "summary": "Senior Colonel Zhou Bo and Sreenivasan Jain discuss China's vision of a fairer, multipolar world and work towards that.",
+      "published": "24 Aug 2026 02:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.17,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Video: Thousands of families flee fighting in Sudan’s North Kordofan State",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/video-thousands-of-families-flee-fighting-in-sudans-north-kordofan-state?traffic_source=rss",
+      "summary": "Mothers and their children are in dire need of food and safety in Sudan’s conflict-stricken Kordofan State.",
+      "published": "24 Aug 2026 01:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.482,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump has ‘run out of options’ in Iran war: Stephen Walt",
+      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/8/23/trump-has-run-out-of-options-in-iran-war-stephen-walt?traffic_source=rss",
+      "summary": "Political scientist Stephen Walt says Trump promised to make US stronger, but many of his policies are making it weaker.",
+      "published": "24 Aug 2026 01:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.659,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran war: Top US lawmaker says Republicans can ‘absolutely’ win midterms",
+      "url": "https://www.aljazeera.com/news/2026/8/23/iran-war-top-us-lawmaker-says-republicans-can-absolutely-win-midterms?traffic_source=rss",
+      "summary": "House Speaker Mike Johnson, a Trump ally, admits it 'would be helpful' if conflict ends before elections in November.",
+      "published": "24 Aug 2026 00:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.367,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Photos: Ukraine celebrates National Flag Day",
+      "url": "https://www.aljazeera.com/gallery/2026/8/23/photos-ukraine-observes-national-flag-day?traffic_source=rss",
+      "summary": "People observe a minute of silence for those killed in war to mark the holiday established in 2004.",
+      "published": "24 Aug 2026 00:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.539,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "French President Macron to host Saudi Crown Prince MBS in Paris for talks",
+      "url": "https://www.aljazeera.com/economy/2026/8/23/french-president-macron-to-host-saudi-crown-prince-mbs-in-paris-for-talks?traffic_source=rss",
+      "summary": "Energy, regional conflicts, and bilateral cooperation to dominate Emmanuel Macron and Mohammed bin Salman's discussions.",
+      "published": "23 Aug 2026 23:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.33,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Can Nigeria cash in on Iran war?",
+      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/8/23/can-nigeria-cash-in-on-iran-war?traffic_source=rss",
+      "summary": "Ekperikpe Ekpo says the US-Israel war on Iran has pushed Nigeria to expand its gas production.",
+      "published": "23 Aug 2026 23:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.838,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Canada, US and tit-for-tat tariffs: How will they impact their economies?",
+      "url": "https://www.aljazeera.com/news/2026/8/23/canada-us-and-tit-for-tat-tariffs-how-will-it-impact-their-economies?traffic_source=rss",
+      "summary": "Both countries will suffer from the trade war with steeper tariffs raising business costs and consumer prices.",
+      "published": "23 Aug 2026 22:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.893,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Gaza families search for children missing after years of war",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/gaza-families-search-for-children-missing-after-years-of-war?traffic_source=rss",
+      "summary": "Families in Gaza continue searching for children and relatives missing in the war.",
+      "published": "23 Aug 2026 22:42 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -309,69 +430,14 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Heavy Israeli air strike hits warehouse in central Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/heavy-israeli-air-strike-hits-warehouse-in-central-gaza?traffic_source=rss",
-      "summary": "Heavy Israeli air strike hits warehouse in central Gaza",
-      "published": "23 Aug 2026 20:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.33,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Dozens of attacks in southern Thailand wound three people",
-      "url": "https://www.aljazeera.com/news/2026/8/23/dozens-of-attacks-in-southern-thailand-wound-three-people?traffic_source=rss",
-      "summary": "Many local government offices and several vehicles were damaged or destroyed in the 51 attacks late on Saturday.",
-      "published": "23 Aug 2026 20:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.978,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Zelenskyy says wartime elections could ‘destroy’ Ukraine",
-      "url": "https://www.aljazeera.com/news/2026/8/23/zelenskyy-says-wartime-elections-could-destroy-ukraine?traffic_source=rss",
-      "summary": "The embattled Ukrainian president slams Mykhailo Fedorov's idea as a 'tsunami' that would 'split' the country.",
-      "published": "23 Aug 2026 19:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Can Iran retaliate against countries that join US ‘economic war’?",
-      "url": "https://www.aljazeera.com/news/2026/8/23/can-iran-retaliate-against-countries-that-join-us-economic-war?traffic_source=rss",
-      "summary": "Iran warns that countries backing US economic sanctions will be considered an enemy of Tehran.",
-      "published": "23 Aug 2026 18:50 WIB",
-      "sentiment": "Bearish",
-      "score": -0.462,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Israel’s war on Gaza forces Palestinians to rely on ‘Stone Age’ toilets",
-      "url": "https://www.aljazeera.com/features/2026/8/23/israels-war-on-gaza-forces-palestinians-to-rely-on-stone-age-toilets?traffic_source=rss",
-      "summary": "The displaced in Gaza are struggling to find safe, discreet and sanitary toilets amid health crisis.",
-      "published": "23 Aug 2026 18:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.996,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Syria’s foreign minister says door open for diplomacy with Israel",
-      "url": "https://www.aljazeera.com/news/2026/8/23/syria-foreign-minister-says-door-open-for-diplomacy-with-israel?traffic_source=rss",
-      "summary": "Asaad al-Shaibani urges Israel to seize 'historic opportunity' for diplomacy.",
-      "published": "23 Aug 2026 17:48 WIB",
+      "title": "Iran’s government signals fuel price hike on eve of new US sanctions",
+      "url": "https://www.aljazeera.com/economy/2026/8/23/iran-government-signals-fuel-price-hike-on-eve-of-new-us-sanctions?traffic_source=rss",
+      "summary": "Prices for food and other items are soaring, and there is a history of unrest, so any increase is being considered.",
+      "published": "23 Aug 2026 22:38 WIB",
       "sentiment": "Bullish",
-      "score": 0.421,
+      "score": 0.297,
       "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "MarketWatch",
@@ -433,7 +499,7 @@
       "title": "Paramount, California AG office reportedly plan to meet Monday to discuss settling WBD lawsuit",
       "url": "https://www.cnbc.com/2026/08/22/paramount-california-ag-said-to-plan-meeting-on-settling-wbd-suit-.html",
       "summary": "Paramount and the California A.G. office are set to meet Monday to discuss a settlement of the antitrust lawsuit over Paramount's Warner Bros. Discovery deal.",
-      "published": "23 Aug 2026 03:34 WIB",
+      "published": "24 Aug 2026 00:30 WIB",
       "sentiment": "Bearish",
       "score": -0.421,
       "emoji": "🔴",
