@@ -1,24 +1,36 @@
 {
-  "generated": "24 Aug 2026 08:02 WIB",
+  "generated": "24 Aug 2026 10:49 WIB",
   "summary": {
-    "total": 73,
-    "bullish": 24,
-    "bearish": 43,
-    "netral": 6,
-    "avg_score": -0.2517,
+    "total": 80,
+    "bullish": 31,
+    "bearish": 39,
+    "netral": 10,
+    "avg_score": -0.1509,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
-        "sentiment": "Netral",
-        "score": -0.043,
-        "count": 13
+        "sentiment": "Bullish",
+        "score": 0.088,
+        "count": 24
+      },
+      {
+        "currency": "CAD",
+        "sentiment": "Bearish",
+        "score": -0.379,
+        "count": 6
+      },
+      {
+        "currency": "CNY",
+        "sentiment": "Bearish",
+        "score": -0.211,
+        "count": 5
       },
       {
         "currency": "EUR",
         "sentiment": "Bullish",
-        "score": 0.304,
-        "count": 4
+        "score": 0.405,
+        "count": 3
       },
       {
         "currency": "NZD",
@@ -27,16 +39,16 @@
         "count": 3
       },
       {
-        "currency": "CAD",
-        "sentiment": "Bearish",
-        "score": -0.384,
-        "count": 2
+        "currency": "GBP",
+        "sentiment": "Bullish",
+        "score": 0.341,
+        "count": 1
       },
       {
-        "currency": "CNY",
-        "sentiment": "Bearish",
-        "score": -0.276,
-        "count": 2
+        "currency": "JPY",
+        "sentiment": "Bullish",
+        "score": 0.441,
+        "count": 1
       },
       {
         "currency": "AUD",
@@ -53,6 +65,72 @@
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "investingLive Asia-Pacific market news: Gold hit a three month high",
+      "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-gold-hit-a-three-month-high/",
+      "summary": "ICYMI - India gold imports double in July as WGC flags demand recovery ING says fiscal credibility fears drive gold back to above $4,600 an ounce Weekend Hormuz traffic thins to fewer than 20 vessels, Kpler data shows PBOC sets USD/ CNY reference rate for today at 6.7841 (vs. estimate at 6.7248) ICY",
+      "published": "24 Aug 2026 10:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.506,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI - India gold imports double in July as WGC flags demand recovery",
+      "url": "https://investinglive.com/commodities/icymi-india-gold-imports-double-in-july-as-wgc-flags-demand-recovery/",
+      "summary": "The doubling in India's gold import value points to a meaningful pickup in physical demand from the world's second-largest gold consumer, which should be read alongside rather than in isolation from the broader bullion rally driven by Fed rate expectations and US fiscal concerns already flagged else",
+      "published": "24 Aug 2026 09:44 WIB",
+      "sentiment": "Bullish",
+      "score": 0.521,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ING says fiscal credibility fears drive gold back to above $4,600 an ounce",
+      "url": "https://investinglive.com/commodities/ing-says-fiscal-credibility-fears-drive-gold-back-to-above-4-600-an-ounce/",
+      "summary": "ING's framing ties gold's advance directly to the fiscal and currency debasement narrative building around expanded Treasury buybacks, which links this move to the same bond market strain that has already produced elevated Treasury yields and Trump's own confusing military intervention ( Trump says ",
+      "published": "24 Aug 2026 09:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.796,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Weekend Hormuz traffic thins to fewer than 20 vessels, Kpler data shows",
+      "url": "https://investinglive.com/commodities/weekend-hormuz-traffic-thins-to-fewer-than-20-vessels-kpler-data-shows/",
+      "summary": "The weekend's sub-20 vessel count is a sharp step down even by the standards of a strait already operating under dual blockade, and it lands the same day Bessent is due to unveil the toughest US sanctions yet on Iran and hours after Rezaei threatened to halt all Gulf oil exports entirely . Traders s",
+      "published": "24 Aug 2026 08:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.511,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "PBOC sets USD/ CNY reference rate for today at 6.7841 (vs. estimate at 6.7248)",
+      "url": "https://investinglive.com/central-banks/pboc-sets-usd-cny-reference-rate-for-today-at-6-vs-estimate-at-6-7248/",
+      "summary": "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this . injects 340bn yuan via 7-day reverse repos at 1.4% (unchanged rate) This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "24 Aug 2026 08:15 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI: Goldman says options demand could push gold past $4,900 forecast",
+      "url": "https://investinglive.com/commodities/icymi-goldman-says-options-demand-could-push-gold-past-4-900-forecast/",
+      "summary": "Gold's volatile trading in Asia today could be reflective of the options dynamic Goldman describes, where dealer hedging near key strike levels can turn moves into self-reinforcing rallies or sell-offs regardless of the underlying fundamental driver. With bullion having advanced toward $4,600 largel",
+      "published": "24 Aug 2026 08:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.572,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Gold hits a 3 month above $4640 ... then get slammed $50 lower under $4600",
@@ -209,6 +287,94 @@
     },
     {
       "source": "FXStreet News",
+      "title": "Silver Price Forecast: XAG/USD holds bullish below $70.00/two-month high set on Friday",
+      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-bullish-below-7000-two-month-high-set-on-friday-202608240254",
+      "summary": "Silver (XAG/USD) seesaws between tepid gains and minor losses around the $69.00 mark through the Asian session on Monday. The white metal, however, remains within striking distance of a two-month high, around the $70.00 psychological mark touched on Friday, and seems poised to appreciate further.",
+      "published": "24 Aug 2026 09:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.527,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "United States Dollar Index softens below 99.00 on US fiscal concerns",
+      "url": "https://www.fxstreet.com/news/united-states-dollar-index-softens-below-9900-on-us-fiscal-concerns-202608240248",
+      "summary": "The US Dollar Index (DXY), an index of the value of the US Dollar (USD) measured against a basket of six world currencies, currently trades near 98.80 in the Asian trading hours on Monday.",
+      "published": "24 Aug 2026 09:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.717,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Japanese Yen advances on BoJ rate hike bets, subdued US Dollar",
+      "url": "https://www.fxstreet.com/news/japanese-yen-advances-on-boj-rate-hike-bets-subdued-us-dollar-202608240228",
+      "summary": "USD/JPY extended its losses for the second straight day after intraday volatility, trading around 158.80 during Asian hours on Monday. The pair declines as the Japanese Yen (JPY) gains ground on stronger-than-expected inflation data, which accelerated for a second straight month.",
+      "published": "24 Aug 2026 09:28 WIB",
+      "sentiment": "Bullish",
+      "score": 0.441,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Canadian Dollar bears seem hesitant as weak USD counters US-Canada trade war",
+      "url": "https://www.fxstreet.com/news/canadian-dollar-bears-seem-hesitant-as-weak-usd-counters-us-canada-trade-war-202608240203",
+      "summary": "The USD/CAD pair struggles to capitalize on a bullish gap opening on Monday, though it retains an intraday positive bias amid concerns about a deepening US-Canada trade war.",
+      "published": "24 Aug 2026 09:03 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Gold gains momentum above $4,600 on US Treasury buyback plans",
+      "url": "https://www.fxstreet.com/news/gold-gains-momentum-above-4-600-on-us-treasury-buyback-plans-202608240140",
+      "summary": "Gold price (XAU/USD) gains traction to around $4,625 during the early Asian trading hours on Monday. The precious metal climbs to the highest since May 15 as the US Treasury's buyback support plan weighs on the US Dollar (USD).",
+      "published": "24 Aug 2026 08:40 WIB",
+      "sentiment": "Bullish",
+      "score": 0.98,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "WTI slips below $85.00 as traders take profits before new US sanctions on Iran",
+      "url": "https://www.fxstreet.com/news/wti-slips-below-8500-as-traders-take-profits-before-new-us-sanctions-on-iran-202608240130",
+      "summary": "West Texas Intermediate (WTI) oil price depreciates after two days of gains, trading around $84.80 per barrel during the Asian hours on Monday. Crude oil prices decline as investors took profits ahead of an expected US announcement regarding stricter sanctions against Iran.",
+      "published": "24 Aug 2026 08:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.462,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "British Pound holds near Feb. 11 highs vs weak USD as bulls await breakout above 1.3660",
+      "url": "https://www.fxstreet.com/news/british-pound-holds-near-feb-11-highs-vs-weak-usd-as-bulls-await-breakout-above-13660-202608240116",
+      "summary": "The GBP/USD pair trades with a positive bias around mid-1.3600s at the start of a new week and remains well within striking distance of its highest level since February 11, touched on Friday.",
+      "published": "24 Aug 2026 08:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.341,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "PBOC sets USD/CNY reference rate at 6.7841 vs. 6.7817 previous",
+      "url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67841-vs-67817-previous-202608240115",
+      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7841 compared to Friday's fix of 6.7817 and 6.7248 Reuters estimate.",
+      "published": "24 Aug 2026 08:15 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Euro holds steady against US Dollar amid US debt strategy",
       "url": "https://www.fxstreet.com/news/euro-holds-steady-against-us-dollar-amid-us-debt-strategy-202608240055",
       "summary": "EUR/USD remains stronger for the fourth successive trading day, hovering around 1.1680 during the Asian hours on Monday. The currency pair holds its ground as the US Dollar (USD) struggles under pressure from newly announced United States (US) fiscal moves.",
@@ -264,10 +430,21 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Dell added to Evercore Tactical Outperform List ahead of earnings",
-      "url": "https://www.investing.com/news/stock-market-news/dell-added-to-evercore-tactical-outperform-list-ahead-of-earnings-4872520",
+      "title": "Alibaba shares plunge as Burry exits stake, shifts to JD.com",
+      "url": "https://www.investing.com/news/stock-market-news/alibaba-shares-plunge-as-burry-exits-stake-shifts-to-jdcom-4872596",
       "summary": "",
-      "published": "24 Aug 2026 07:35 WIB",
+      "published": "24 Aug 2026 10:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.296,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Why did MMG stock rise today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-did-mmg-stock-rise-today-93CH-4872595",
+      "summary": "",
+      "published": "24 Aug 2026 10:34 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -275,101 +452,90 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "U.S.-Canada trade war: These sectors are most sensitive to more tariffs",
-      "url": "https://www.investing.com/news/stock-market-news/uscanada-trade-war-these-sectors-are-most-sensitive-to-more-tariffs-93CH-4872518",
+      "title": "Nvidia discusses Perplexity investment at $30 billion-plus valuation, The Information reports",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-discusses-perplexity-investment-at-30-billionplus-valuation-the-information-reports-4872594",
       "summary": "",
-      "published": "24 Aug 2026 07:32 WIB",
+      "published": "24 Aug 2026 10:25 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Scandal-hit KPMG Australia to cut nearly 400 jobs, warns of difficult market",
+      "url": "https://www.investing.com/news/stock-market-news/kpmg-australia-plans-to-cut-5-of-jobs-warns-soft-conditions-to-persist-4872535",
+      "summary": "",
+      "published": "24 Aug 2026 10:24 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.692,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Investing.com Forex",
-      "title": "California expected to seek TV channel sales from Paramount-Warner, WSJ reports",
-      "url": "https://www.investing.com/news/stock-market-news/california-expected-to-seek-tv-channel-sales-from-paramountwarner-wsj-reports-4872493",
+      "title": "Alibaba stock slumps in Hong Kong after $10.2 billion share placement to fund AI",
+      "url": "https://www.investing.com/news/stock-market-news/alibaba-stock-slumps-in-hong-kong-after-102-billion-share-placement-to-fund-ai-4872593",
       "summary": "",
-      "published": "24 Aug 2026 07:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
+      "published": "24 Aug 2026 10:24 WIB",
+      "sentiment": "Bullish",
+      "score": 0.296,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Wall St futures steady after weekly losses; Nvidia results, Jackson Hole in focus",
-      "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-steady-after-weekly-losses-nvidia-results-jackson-hole-in-focus-4872516",
+      "title": "MMG shares rise as Las Bambas mine resumes operations in Peru",
+      "url": "https://www.investing.com/news/stock-market-news/mmg-shares-rise-as-las-bambas-mine-resumes-operations-in-peru-93CH-4872592",
       "summary": "",
-      "published": "24 Aug 2026 07:30 WIB",
+      "published": "24 Aug 2026 10:23 WIB",
+      "sentiment": "Bullish",
+      "score": 0.296,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Data#3 hits a record high: is the AI tailwind already priced in?",
+      "url": "https://www.investing.com/news/stock-market-news/data3-hits-a-record-high-is-the-ai-tailwind-already-priced-in-93CH-4872591",
+      "summary": "",
+      "published": "24 Aug 2026 10:22 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Shein’s pursuit of an IPO: From New York to London to Hong Kong",
+      "url": "https://www.investing.com/news/stock-market-news/sheins-pursuit-of-an-ipo-from-new-york-to-london-to-hong-kong-4872563",
+      "summary": "",
+      "published": "24 Aug 2026 10:19 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Shein to pay nearly $40 million fees to expanded roster of Hong Kong IPO banks",
+      "url": "https://www.investing.com/news/stock-market-news/shein-to-pay-nearly-40-million-fees-to-expanded-roster-of-hong-kong-ipo-banks-4872590",
+      "summary": "",
+      "published": "24 Aug 2026 10:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.482,
+      "score": -0.103,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Fast fashion giant Shein valued at up to $27 billion in Hong Kong IPO",
+      "title": "Fast-fashion giant Shein shrinks value to $27 billion, at best, in Hong Kong IPO",
       "url": "https://www.investing.com/news/stock-market-news/shein-launches-up-to-18-billion-hong-kong-ipo-4872479",
       "summary": "",
-      "published": "24 Aug 2026 07:06 WIB",
+      "published": "24 Aug 2026 10:18 WIB",
       "sentiment": "Bullish",
-      "score": 0.44,
+      "score": 0.765,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Ampol swings to interim profit as Iran war boosts refining margins",
-      "url": "https://www.investing.com/news/stock-market-news/ampol-swings-to-interim-profit-as-iran-war-boosts-refining-margins-93CH-4872492",
-      "summary": "",
-      "published": "24 Aug 2026 06:50 WIB",
-      "sentiment": "Netral",
-      "score": -0.003,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Bendigo Bank swings to FY profit",
-      "url": "https://www.investing.com/news/stock-market-news/bendigo-bank-swings-to-fy-profit-93CH-4872491",
-      "summary": "",
-      "published": "24 Aug 2026 06:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.44,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Ampol posts near five-fold surge in profit as Iran war boosts refining margin",
-      "url": "https://www.investing.com/news/stock-market-news/australias-ampol-logs-record-halfyear-profit-with-more-than-fourfold-rise-4872482",
-      "summary": "",
-      "published": "24 Aug 2026 06:36 WIB",
-      "sentiment": "Bullish",
-      "score": 0.077,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Why sovereign AI should reinforce rather than undermine the AI capex cycle?",
-      "url": "https://www.investing.com/news/stock-market-news/why-sovereign-ai-should-reinforce-rather-than-undermine-the-ai-capex-cycle-4872480",
-      "summary": "",
-      "published": "24 Aug 2026 05:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4872476",
-      "summary": "",
-      "published": "24 Aug 2026 04:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -385,14 +551,58 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks Dip With AI in Focus, Oil Declines: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates",
-      "summary": "Asian stocks edged lower, with the artificial intelligence trade in focus during a week set to be shaped by earnings from chip bellwether Nvidia Corp. and the Federal Reserve’s annual gathering. Oil fell.",
-      "published": "24 Aug 2026 05:10 WIB",
+      "title": "Hedge Funds Ramp Up Dollar Shorts Into Bessent’s Fiscal Plan",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/hedge-funds-ramp-up-dollar-shorts-ahead-of-bessent-s-fiscal-plan",
+      "summary": "Hedge funds are ramping up bearish dollar bets as they await more details on Treasury Secretary Scott Bessent’s new fiscal plan to address the highest borrowing costs in years.",
+      "published": "24 Aug 2026 08:40 WIB",
       "sentiment": "Bullish",
-      "score": 0.146,
+      "score": 0.353,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Why the Fed's Warsh Has 'No Good Options'",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-24/why-the-fed-s-warsh-has-no-good-options-video",
+      "summary": "Pepperstone Research Strategist Dilin Wu describes the bond market as \"ahead of the Fed,\" arguing that rising yields on treasuries is a structural issue in the economy. She also warns that Fed Chairman Kevin Warsh is left with only bad options to address the rising cost of servicing US bonds. (Sourc",
+      "published": "24 Aug 2026 10:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Asian Stocks Drop on Samsung, Alibaba; Oil Falls: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian stocks declined, with the artificial intelligence trade in early focus during a week set to be shaped by earnings from chip bellwether Nvidia Corp. and the Federal Reserve’s annual gathering. Oil fell.",
+      "published": "24 Aug 2026 05:10 WIB",
+      "sentiment": "Bullish",
+      "score": 0.09,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Citi and Axis Team Up on Leveraged India Dollar Deposit Boom",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/citi-axis-bank-team-up-on-leveraged-india-dollar-deposit-boom",
+      "summary": "Citigroup Inc. has tied up with Axis Bank Ltd. to finance non-resident Indians investing in foreign-currency deposits with the local lender, according to people familiar with the matter.",
+      "published": "24 Aug 2026 09:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.026,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gold Advances to Three-Month High as Debasement Trade Returns",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/gold-holds-near-three-month-high-as-debasement-trade-returns",
+      "summary": "Gold climbed to the highest in more than three months after the US Treasury’s bold intervention in the bond market revived concerns about a weaker dollar and pushed investors toward alternatives.",
+      "published": "24 Aug 2026 06:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.237,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -407,90 +617,13 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Holds Near Three-Month High as Debasement Trade Returns",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/gold-holds-near-three-month-high-as-debasement-trade-returns",
-      "summary": "Gold traded near a three-month high after the US Treasury’s bold intervention in the bond market revived concerns about a weaker dollar and pushed investors toward alternatives.",
-      "published": "24 Aug 2026 06:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.237,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Australian Firms in Reset Mode Emerge as Earnings-Season Winners",
+      "title": "Australian Firms Rally as Restructuring Efforts Drive Earnings-Season Gains",
       "url": "https://www.bloomberg.com/news/articles/2026-08-23/australian-firms-in-reset-mode-emerge-as-earnings-season-winners",
       "summary": "Investors who kept faith with Australian companies pursuing restructuring and leadership changes are reaping the rewards, as signs of progress unveiled during the August earnings season sent their stocks soaring.",
       "published": "24 Aug 2026 06:59 WIB",
       "sentiment": "Bullish",
-      "score": 0.816,
+      "score": 0.92,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Taiwan Dollar’s August Rebound Is Looking Fragile, Analysts Say",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/taiwan-dollar-s-august-rebound-is-looking-fragile-analysts-say",
-      "summary": "The Taiwan dollar’s strongest monthly rise in over a year is running into a wall of headwinds, sowing doubts among analysts on the sustainability of its rebound.",
-      "published": "24 Aug 2026 06:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.258,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Long Bonds Risk Deeper Selloff Without Clear Warsh Guidance",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/us-long-bonds-risk-deeper-selloff-without-clear-warsh-guidance",
-      "summary": "Bond investors will zero in on Kevin Warsh’s Jackson Hole speech this week, with a further selloff in long-dated Treasuries at stake as markets look for clues on the Federal Reserve chairman’s response to persistent inflation and fiscal concerns.",
-      "published": "24 Aug 2026 02:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.497,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Fed Faces High Stakes Test at Jackson Hole",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/fed-faces-high-stakes-test-at-jackson-hole-video",
-      "summary": "Fed Chair Kevin Warsh heads into Jackson Hole under heightened scrutiny after the Treasury’s intervention in the bond market raised questions about the traditional boundaries between fiscal and monetary policy. Host of Bloomberg Money Tom Keene and Veda Partners Co-Founder Henrietta Treyz are on Blo",
-      "published": "23 Aug 2026 21:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Rep. McCormick Warns Against Slowing AI Buildout",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/rep-mccormick-warns-against-slowing-ai-buildout-video",
-      "summary": "Representative Rich McCormick is on Bloomberg This Weekend with David Gura and Christina Ruffini and says the US should continue expanding data centers to support its leadership in artificial intelligence, arguing they can be built responsibly while benefiting local economies. (Source: Bloomberg)",
-      "published": "23 Aug 2026 21:29 WIB",
-      "sentiment": "Bullish",
-      "score": 0.718,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "How Water Scarcity Is Changing the Economics of the Southwest",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/the-water-crisis-reshaping-the-american-west-video",
-      "summary": "The Colorado River provides water to seven states, contributing to an estimated $1.4 trillion in annual economic activity. But decades of decline, record-low snowpack and shrinking reservoirs have pushed the system toward crisis, with Lake Powell nearing levels that could threaten hydropower product",
-      "published": "23 Aug 2026 21:02 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Canada Digs In as US Trade Fight Escalates",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/canada-digs-in-as-us-trade-fight-escalates-video",
-      "summary": "Joining Bloomberg This Weekend, Former Canadian Finance Minister Chrystia Freeland says Canada was right to walk away from a trade deal she argues would have harmed both countries, urging Ottawa not to back down and saying past retaliation against US tariffs proved effective. Freeland warns hosts Da",
-      "published": "23 Aug 2026 21:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.772,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -506,13 +639,13 @@
     },
     {
       "source": "BBC World",
-      "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
-      "summary": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
-      "published": "23 Aug 2026 19:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
+      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
+      "published": "24 Aug 2026 06:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.073,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -528,6 +661,17 @@
     },
     {
       "source": "BBC World",
+      "title": "Australian shark attack victim grateful for 'second chance at life'",
+      "url": "https://www.bbc.co.uk/news/articles/c87n792dnlno?at_medium=RSS&at_campaign=rss",
+      "summary": "Leah Stewart was mauled by a shark in June, suffering multiple bites to her arms and legs.",
+      "published": "24 Aug 2026 07:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
       "title": "DR Congo and M23 rebels agree roadmap for peace talks",
       "url": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss",
       "summary": "Representatives met in Switzerland to work out next steps to resolve the conflict.",
@@ -536,6 +680,17 @@
       "score": 0.591,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
+      "summary": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
+      "published": "23 Aug 2026 19:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -567,28 +722,6 @@
       "published": "23 Aug 2026 04:42 WIB",
       "sentiment": "Bearish",
       "score": -0.691,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-      "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
-      "published": "22 Aug 2026 20:13 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "US military newspaper editor voices censorship fears after being fired",
-      "url": "https://www.bbc.co.uk/news/articles/cm2g23ng8p4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Erik Slavin believes he was fired for saying in an interview that \"in a hypothetical situation, censorship would be a red line\".",
-      "published": "22 Aug 2026 23:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.875,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -637,39 +770,6 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-      "published": "24 Aug 2026 06:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.073,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Australian shark attack victim grateful for 'second chance at life'",
-      "url": "https://www.bbc.co.uk/news/articles/c87n792dnlno?at_medium=RSS&at_campaign=rss",
-      "summary": "Leah Stewart was mauled by a shark in June, suffering multiple bites to her arms and legs.",
-      "published": "24 Aug 2026 07:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.671,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "ECB investigates Carse 'nightclub incident'",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cg5l53d2ejmo?at_medium=RSS&at_campaign=rss",
-      "summary": "The ECB is investigating after videos circulating online appear to show England bowler Brydon Carse being led away from a nightclub in handcuffs.",
-      "published": "23 Aug 2026 22:07 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
       "source": "Al Jazeera",
       "title": "Tokayev allies head for landslide victory in Kazakhstan elections",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-kazakh-elections-sv-mp4?traffic_source=rss",
@@ -682,12 +782,12 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran war live: Iranian parliament advances plans for Hormuz service fees",
+      "title": "Iran war live: US vows ‘economic D-Day’; Tehran threatens Gulf oil exports",
       "url": "https://www.aljazeera.com/news/liveblog/2026/8/24/iran-war-live-iranian-assembly-advances-plans-for-hormuz-service-fees?traffic_source=rss",
-      "summary": "Draft law says ships of countries permitted to pass through the Strait of Hormuz will pay for Tehran's services.",
+      "summary": "US Treasury Secretary Scott Bessent says Washington aims to 'sever every economic lifeline' that sustains Iran.",
       "published": "24 Aug 2026 07:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.729,
+      "score": -0.771,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -747,33 +847,11 @@
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Trump has ‘run out of options’ in Iran war: Stephen Walt",
-      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/8/23/trump-has-run-out-of-options-in-iran-war-stephen-walt?traffic_source=rss",
-      "summary": "Political scientist Stephen Walt says Trump promised to make US stronger, but many of his policies are making it weaker.",
-      "published": "24 Aug 2026 01:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.659,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran war: Top US lawmaker says Republicans can ‘absolutely’ win midterms",
-      "url": "https://www.aljazeera.com/news/2026/8/23/iran-war-top-us-lawmaker-says-republicans-can-absolutely-win-midterms?traffic_source=rss",
-      "summary": "House Speaker Mike Johnson, a Trump ally, admits it 'would be helpful' if conflict ends before elections in November.",
-      "published": "24 Aug 2026 00:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.367,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
       "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
       "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
-      "summary": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trade partners.",
-      "published": "24 Aug 2026 07:35 WIB",
+      "summary": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trading partners.",
+      "published": "24 Aug 2026 10:02 WIB",
       "sentiment": "Bearish",
       "score": -0.912,
       "emoji": "🔴",
@@ -792,12 +870,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Treasury Secretary to announce Iran sanctions as Tehran dismisses economic warfare threat",
-      "url": "https://www.cnbc.com/2026/08/23/treasury-secretary-bessent-iran-sanctions-press-conference.html",
-      "summary": "Bessent told CNBC that the sanctions will be the \"toughest\" in history.",
-      "published": "24 Aug 2026 05:39 WIB",
+      "title": "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures",
+      "url": "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html",
+      "summary": "The escalation came as both sides have missed a 60-day ceasefire window to reach a deal, closing off the formal truce mechanism to end the six-month war.",
+      "published": "24 Aug 2026 10:38 WIB",
       "sentiment": "Bearish",
-      "score": -0.865,
+      "score": -0.751,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -811,6 +889,17 @@
       "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8",
+      "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
+      "summary": "New 50% Trump administration tariffs on some Canadian exports went into place after the U.S. and Canada failed to reach a deal on Friday.",
+      "published": "23 Aug 2026 13:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "CNBC World",
