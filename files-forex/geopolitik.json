@@ -1,5 +1,5 @@
 {
-  "generated": "24 Aug 2026 07:01 WIB",
+  "generated": "24 Aug 2026 07:38 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,26 +7,38 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.354,
-      "count": 34
+      "score": -0.337,
+      "count": 35
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.401,
-      "count": 31
+      "score": -0.361,
+      "count": 33
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.297,
+      "score": -0.262,
       "count": 30
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.507,
-      "count": 14
+      "score": -0.47,
+      "count": 16
+    },
+    {
+      "pair": "AUD/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.857,
+      "count": 5
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.857,
+      "count": 5
     },
     {
       "pair": "USD/RUB",
@@ -35,25 +47,24 @@
       "count": 5
     },
     {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.864,
-      "count": 4
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.864,
-      "count": 4
-    },
-    {
       "pair": "GBP/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.053,
-      "count": 3
+      "score": 0.14,
+      "count": 4
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Trump made 1,000-plus stock trades in June amid Iran war, tariff fights",
+      "url": "https://investinglive.com/stock-market-update/trump-made-1-000-plus-stock-trades-in-june-amid-iran-war-tariff-fights/",
+      "summary": "The scale of trading activity revives longstanding market concerns about the overlap between presidential statements that move prices, such as tariff pause announcements or social media posts naming individual companies, and personal stock positions disclosed only after a lag under existing reportin",
+      "published": "24 Aug 2026 06:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.831,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Oil eases on Globex after weekend Iran escalation and sanctions threats",
@@ -144,6 +155,28 @@
     },
     {
       "source": "Investing.com Forex",
+      "title": "California expected to seek TV channel sales from Paramount-Warner, WSJ reports",
+      "url": "https://www.investing.com/news/stock-market-news/california-expected-to-seek-tv-channel-sales-from-paramountwarner-wsj-reports-4872493",
+      "summary": "",
+      "published": "24 Aug 2026 06:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Ampol swings to interim profit as Iran war boosts refining margins",
+      "url": "https://www.investing.com/news/stock-market-news/ampol-swings-to-interim-profit-as-iran-war-boosts-refining-margins-93CH-4872492",
+      "summary": "",
+      "published": "24 Aug 2026 06:50 WIB",
+      "sentiment": "Netral",
+      "score": -0.003,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
       "title": "Ampol posts near five-fold surge in profit as Iran war boosts refining margin",
       "url": "https://www.investing.com/news/stock-market-news/australias-ampol-logs-record-halfyear-profit-with-more-than-fourfold-rise-4872482",
       "summary": "",
@@ -162,6 +195,17 @@
       "sentiment": "Bearish",
       "score": -0.237,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Australian Firms in Reset Mode Emerge as Earnings-Season Winners",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/australian-firms-in-reset-mode-emerge-as-earnings-season-winners",
+      "summary": "Investors who kept faith with Australian companies pursuing restructuring and leadership changes are reaping the rewards, as signs of progress unveiled during the August earnings season sent their stocks soaring.",
+      "published": "24 Aug 2026 06:59 WIB",
+      "sentiment": "Bullish",
+      "score": 0.816,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -229,17 +273,6 @@
       "score": -0.772,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Alliance Tested as Trump Pulls Out of South Korea Drill",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/alliance-tested-as-trump-pulls-out-of-south-korea-drill-video",
-      "summary": "The US and South Korea sharply curtailed their annual military exercises after President Donald Trump ordered them scaled back, surprising Seoul as North Korea expands its nuclear and missile capabilities and deepens military ties with Russia. Bloomberg Economics and Senior Geoeconomics Analyst Adam",
-      "published": "23 Aug 2026 20:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.281,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -385,13 +418,24 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "How a new era of heatwaves could shake up the school calendar",
-      "url": "https://www.bbc.co.uk/news/articles/cp872m0grgyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Teachers warn it could be increasingly difficult for classrooms to function during the hottest months.",
-      "published": "23 Aug 2026 06:16 WIB",
+      "source": "Al Jazeera",
+      "title": "Tokayev allies head for landslide victory in Kazakhstan elections",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-kazakh-elections-sv-mp4?traffic_source=rss",
+      "summary": "Exit polls give Kazakhstan’s pro-Tokayev Adilet party about 70 percent of the vote in the parliamentary elections.",
+      "published": "24 Aug 2026 07:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.402,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran war live: Iranian parliament advances plans for Hormuz service fees",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/24/iran-war-live-iranian-assembly-advances-plans-for-hormuz-service-fees?traffic_source=rss",
+      "summary": "Draft law says ships of countries permitted to pass through the Strait of Hormuz will pay for services provided by Iran.",
+      "published": "24 Aug 2026 07:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.717,
+      "score": -0.729,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -462,35 +506,13 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Photos: Ukraine celebrates National Flag Day",
-      "url": "https://www.aljazeera.com/gallery/2026/8/23/photos-ukraine-observes-national-flag-day?traffic_source=rss",
-      "summary": "People observe a minute of silence for those killed in war to mark the holiday established in 2004.",
-      "published": "24 Aug 2026 00:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.539,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
       "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
       "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
       "summary": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trade partners.",
-      "published": "24 Aug 2026 06:45 WIB",
+      "published": "24 Aug 2026 07:35 WIB",
       "sentiment": "Bearish",
       "score": -0.912,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Forex",
-      "title": "Warren Buffett Watch: It's Buffett, not Abel, who appears to be calling the shots on stocks",
-      "url": "https://www.cnbc.com/2026/08/22/warren-buffett-not-greg-abel-appears-to-still-be-calling-the-shots-on-stocks.html",
-      "summary": "New Berkshire Hathaway CEO Greg Abel appears to be letting Warren Buffett and portfolio manager Ted Weschler make all the decisions on the company's equities.",
-      "published": "22 Aug 2026 19:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
