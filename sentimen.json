@@ -1,23 +1,29 @@
 {
-  "generated": "24 Aug 2026 07:38 WIB",
+  "generated": "24 Aug 2026 08:02 WIB",
   "summary": {
-    "total": 67,
-    "bullish": 21,
-    "bearish": 39,
-    "netral": 7,
-    "avg_score": -0.2485,
+    "total": 73,
+    "bullish": 24,
+    "bearish": 43,
+    "netral": 6,
+    "avg_score": -0.2517,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
-        "sentiment": "Bearish",
-        "score": -0.09,
-        "count": 11
+        "sentiment": "Netral",
+        "score": -0.043,
+        "count": 13
       },
       {
         "currency": "EUR",
         "sentiment": "Bullish",
-        "score": 0.326,
+        "score": 0.304,
+        "count": 4
+      },
+      {
+        "currency": "NZD",
+        "sentiment": "Bearish",
+        "score": -0.303,
         "count": 3
       },
       {
@@ -27,16 +33,16 @@
         "count": 2
       },
       {
-        "currency": "NZD",
-        "sentiment": "Bearish",
-        "score": -0.614,
-        "count": 2
-      },
-      {
         "currency": "CNY",
         "sentiment": "Bearish",
         "score": -0.276,
         "count": 2
+      },
+      {
+        "currency": "AUD",
+        "sentiment": "Bullish",
+        "score": 0.183,
+        "count": 1
       },
       {
         "currency": "CHF",
@@ -47,6 +53,28 @@
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Gold hits a 3 month above $4640 ... then get slammed $50 lower under $4600",
+      "url": "https://investinglive.com/commodities/gold-hits-a-3-month-above-4640-then-get-slammed-50-lower-under-4600/",
+      "summary": "No fresh news apart from what has been covered. This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "24 Aug 2026 07:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.487,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "NZ main opposition party pledges to restore RBNZ dual mandate on employment if elected",
+      "url": "https://investinglive.com/central-banks/nz-main-opposition-party-pledges-to-restore-rbnz-dual-mandate-on-employment-if-elected/",
+      "summary": "Westpac's analysis suggests markets should not assume an automatic policy shift from a reinstated employment mandate, since its practical effect depends heavily on the nature of the shocks the economy faces rather than the mandate wording itself. In a typical demand-driven cycle, inflation and emplo",
+      "published": "24 Aug 2026 07:44 WIB",
+      "sentiment": "Bullish",
+      "score": 0.318,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "PBOC is expected to set the USD/CNY reference rate at 6.7248 – Reuters estimate",
@@ -181,6 +209,39 @@
     },
     {
       "source": "FXStreet News",
+      "title": "Euro holds steady against US Dollar amid US debt strategy",
+      "url": "https://www.fxstreet.com/news/euro-holds-steady-against-us-dollar-amid-us-debt-strategy-202608240055",
+      "summary": "EUR/USD remains stronger for the fourth successive trading day, hovering around 1.1680 during the Asian hours on Monday. The currency pair holds its ground as the US Dollar (USD) struggles under pressure from newly announced United States (US) fiscal moves.",
+      "published": "24 Aug 2026 07:55 WIB",
+      "sentiment": "Bullish",
+      "score": 0.237,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Canada’s Carney: Retaliatory tariffs will start September 8",
+      "url": "https://www.fxstreet.com/news/canadas-carney-retaliatory-tariffs-will-start-september-8-202608240047",
+      "summary": "The United States (US) imposed 50% tariffs on some Canadian products on Saturday after trade talks between the two countries fell apart on Friday. In response, Canadian Prime Minister Mark Carney said that the country would impose its own retaliatory tariffs beginning on September 8, CNBC reported.",
+      "published": "24 Aug 2026 07:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.077,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Australian Dollar posts modest gains above 0.7150 on US Treasury buyback worries",
+      "url": "https://www.fxstreet.com/news/australian-dollar-posts-modest-gains-above-07150-on-us-treasury-buyback-worries-202608240039",
+      "summary": "The AUD/USD pair trades with mild gains around 0.7175 during the early Asian session on Monday. The US Dollar (USD) edges lower against the Australian Dollar (AUD) amid concerns over the US Treasury's plan to expand buybacks of longer-dated government debt.",
+      "published": "24 Aug 2026 07:39 WIB",
+      "sentiment": "Bullish",
+      "score": 0.183,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
       "title": "New Zealand Dollar edges lower below 0.6000 after weaker Retail Sales data",
       "url": "https://www.fxstreet.com/news/new-zealand-dollar-edges-lower-below-06000-after-weaker-retail-sales-data-202608232339",
       "summary": "The NZD/USD pair declines to around 0.5970 during the early Asian session on Monday. The New Zealand Dollar (NZD) weakens against the US Dollar (USD) following New Zealand's downbeat economic data.",
@@ -203,6 +264,50 @@
     },
     {
       "source": "Investing.com Forex",
+      "title": "Dell added to Evercore Tactical Outperform List ahead of earnings",
+      "url": "https://www.investing.com/news/stock-market-news/dell-added-to-evercore-tactical-outperform-list-ahead-of-earnings-4872520",
+      "summary": "",
+      "published": "24 Aug 2026 07:35 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "U.S.-Canada trade war: These sectors are most sensitive to more tariffs",
+      "url": "https://www.investing.com/news/stock-market-news/uscanada-trade-war-these-sectors-are-most-sensitive-to-more-tariffs-93CH-4872518",
+      "summary": "",
+      "published": "24 Aug 2026 07:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "California expected to seek TV channel sales from Paramount-Warner, WSJ reports",
+      "url": "https://www.investing.com/news/stock-market-news/california-expected-to-seek-tv-channel-sales-from-paramountwarner-wsj-reports-4872493",
+      "summary": "",
+      "published": "24 Aug 2026 07:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Wall St futures steady after weekly losses; Nvidia results, Jackson Hole in focus",
+      "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-steady-after-weekly-losses-nvidia-results-jackson-hole-in-focus-4872516",
+      "summary": "",
+      "published": "24 Aug 2026 07:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.482,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
       "title": "Fast fashion giant Shein valued at up to $27 billion in Hong Kong IPO",
       "url": "https://www.investing.com/news/stock-market-news/shein-launches-up-to-18-billion-hong-kong-ipo-4872479",
       "summary": "",
@@ -211,17 +316,6 @@
       "score": 0.44,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "California expected to seek TV channel sales from Paramount-Warner, WSJ reports",
-      "url": "https://www.investing.com/news/stock-market-news/california-expected-to-seek-tv-channel-sales-from-paramountwarner-wsj-reports-4872493",
-      "summary": "",
-      "published": "24 Aug 2026 06:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "Investing.com Forex",
@@ -279,39 +373,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Japan’s stock market setup looks similar to late 2023. Here’s what it means",
-      "url": "https://www.investing.com/news/stock-market-news/japans-stock-market-setup-looks-similar-to-late-2023-heres-what-it-means-4872475",
-      "summary": "",
-      "published": "24 Aug 2026 03:34 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Burry exits Alibaba, builds large JD.com position over valuation concerns",
-      "url": "https://www.investing.com/news/stock-market-news/burry-exits-alibaba-builds-large-jdcom-position-over-valuation-concerns-4872469",
-      "summary": "",
-      "published": "24 Aug 2026 01:23 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Alibaba launches $10 billion Hong Kong share placement to fund AI spending",
-      "url": "https://www.investing.com/news/stock-market-news/alibaba-proposes-hong-kong-share-placement-worth-10-billion-4872416",
-      "summary": "",
-      "published": "24 Aug 2026 00:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Europe EV market share tops 25% in July as France, Germany drive growth",
       "url": "https://www.investing.com/news/economic-indicators/europe-ev-market-share-tops-25-in-july-as-france-germany-drive-growth-4872477",
@@ -324,23 +385,23 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Treasury Market Still Functioning, Fed's Kashkari Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-24/treasury-market-still-functioning-fed-s-kashkari-says-video",
-      "summary": "Federal Reserve Bank of Minneapolis President Neel Kashkari has played down concerns over rising US Treasury yields, saying markets are functioning well. His most recent statements come after Treasury Secretary Scott Bessent announced a plan to buy back long-term US debt. Bloomberg Mark Cranfield ha",
-      "published": "24 Aug 2026 07:31 WIB",
+      "title": "Asian Stocks Dip With AI in Focus, Oil Declines: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian stocks edged lower, with the artificial intelligence trade in focus during a week set to be shaped by earnings from chip bellwether Nvidia Corp. and the Federal Reserve’s annual gathering. Oil fell.",
+      "published": "24 Aug 2026 05:10 WIB",
       "sentiment": "Bullish",
-      "score": 0.66,
+      "score": 0.146,
       "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks Dip With AI in Focus, Oil Declines: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates",
-      "summary": "Asian stocks edged lower, with the artificial intelligence theme in early focus during a week set to be shaped by earnings from chip bellwether Nvidia Corp. and the Federal Reserve’s annual gathering.",
-      "published": "24 Aug 2026 05:10 WIB",
+      "title": "Treasury Market Still Functioning, Fed's Kashkari Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-24/treasury-market-still-functioning-fed-s-kashkari-says-video",
+      "summary": "Federal Reserve Bank of Minneapolis President Neel Kashkari has played down concerns over rising US Treasury yields, saying markets are functioning well. His most recent statements come after Treasury Secretary Scott Bessent announced a plan to buy back long-term US debt. Bloomberg's Mark Cranfield ",
+      "published": "24 Aug 2026 07:31 WIB",
       "sentiment": "Bullish",
-      "score": 0.146,
+      "score": 0.66,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -364,17 +425,6 @@
       "sentiment": "Bullish",
       "score": 0.816,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Burnham Enters World Stage With Debut Foreign Trip to Ukraine",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/burnham-enters-world-stage-with-debut-foreign-trip-to-ukraine",
-      "summary": "Andy Burnham is traveling to Ukraine on Monday for his first international trip as British prime minister, in an attempt to show he’ll maintain diplomatic and military support for Kyiv as Russia’s war enters a decisive phase.",
-      "published": "24 Aug 2026 06:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.157,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -599,7 +649,18 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "ECB investigating England bowler Brydon Carse for 'nightclub incident'",
+      "title": "Australian shark attack victim grateful for 'second chance at life'",
+      "url": "https://www.bbc.co.uk/news/articles/c87n792dnlno?at_medium=RSS&at_campaign=rss",
+      "summary": "Leah Stewart was mauled by a shark in June, suffering multiple bites to her arms and legs.",
+      "published": "24 Aug 2026 07:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "ECB investigates Carse 'nightclub incident'",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cg5l53d2ejmo?at_medium=RSS&at_campaign=rss",
       "summary": "The ECB is investigating after videos circulating online appear to show England bowler Brydon Carse being led away from a nightclub in handcuffs.",
       "published": "23 Aug 2026 22:07 WIB",
@@ -623,7 +684,7 @@
       "source": "Al Jazeera",
       "title": "Iran war live: Iranian parliament advances plans for Hormuz service fees",
       "url": "https://www.aljazeera.com/news/liveblog/2026/8/24/iran-war-live-iranian-assembly-advances-plans-for-hormuz-service-fees?traffic_source=rss",
-      "summary": "Draft law says ships of countries permitted to pass through the Strait of Hormuz will pay for services provided by Iran.",
+      "summary": "Draft law says ships of countries permitted to pass through the Strait of Hormuz will pay for Tehran's services.",
       "published": "24 Aug 2026 07:00 WIB",
       "sentiment": "Bearish",
       "score": -0.729,
@@ -737,6 +798,17 @@
       "published": "24 Aug 2026 05:39 WIB",
       "sentiment": "Bearish",
       "score": -0.865,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran",
+      "url": "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html",
+      "summary": "Oil prices fell Monday as investors awaited details of what Washington has billed as its toughest-ever sanctions campaign against Iran.",
+      "published": "24 Aug 2026 07:59 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
