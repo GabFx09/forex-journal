@@ -1,5 +1,5 @@
 {
-  "generated": "24 Aug 2026 07:38 WIB",
+  "generated": "24 Aug 2026 08:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,44 +7,44 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.337,
-      "count": 35
+      "score": -0.361,
+      "count": 36
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.361,
-      "count": 33
+      "score": -0.386,
+      "count": 34
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.262,
+      "score": -0.279,
       "count": 30
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.47,
-      "count": 16
+      "score": -0.432,
+      "count": 19
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.857,
-      "count": 5
+      "score": -0.698,
+      "count": 7
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.857,
-      "count": 5
+      "score": -0.698,
+      "count": 7
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.85,
-      "count": 5
+      "score": -0.722,
+      "count": 6
     },
     {
       "pair": "GBP/USD",
@@ -144,6 +144,17 @@
     },
     {
       "source": "FXStreet News",
+      "title": "Canada’s Carney: Retaliatory tariffs will start September 8",
+      "url": "https://www.fxstreet.com/news/canadas-carney-retaliatory-tariffs-will-start-september-8-202608240047",
+      "summary": "The United States (US) imposed 50% tariffs on some Canadian products on Saturday after trade talks between the two countries fell apart on Friday. In response, Canadian Prime Minister Mark Carney said that the country would impose its own retaliatory tariffs beginning on September 8, CNBC reported.",
+      "published": "24 Aug 2026 07:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.077,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Iran’s Araghchi says new sanctions threatened by 'desperate' US will fail",
       "url": "https://www.fxstreet.com/news/irans-araghchi-says-new-sanctions-threatened-by-desperate-us-will-fail-202608232310",
       "summary": "Iran's Foreign Minister Abbas Araghchi dismissed the threat of a fresh round of US economic sanctions as a “desperate” ploy and said the expected new measures would fail to defeat Tehran, Reuters reported on Sunday.",
@@ -155,10 +166,21 @@
     },
     {
       "source": "Investing.com Forex",
+      "title": "U.S.-Canada trade war: These sectors are most sensitive to more tariffs",
+      "url": "https://www.investing.com/news/stock-market-news/uscanada-trade-war-these-sectors-are-most-sensitive-to-more-tariffs-93CH-4872518",
+      "summary": "",
+      "published": "24 Aug 2026 07:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
       "title": "California expected to seek TV channel sales from Paramount-Warner, WSJ reports",
       "url": "https://www.investing.com/news/stock-market-news/california-expected-to-seek-tv-channel-sales-from-paramountwarner-wsj-reports-4872493",
       "summary": "",
-      "published": "24 Aug 2026 06:54 WIB",
+      "published": "24 Aug 2026 07:30 WIB",
       "sentiment": "Bearish",
       "score": -0.08,
       "emoji": "🔴",
@@ -206,17 +228,6 @@
       "sentiment": "Bullish",
       "score": 0.816,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Burnham Enters World Stage With Debut Foreign Trip to Ukraine",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/burnham-enters-world-stage-with-debut-foreign-trip-to-ukraine",
-      "summary": "Andy Burnham is traveling to Ukraine on Monday for his first international trip as British prime minister, in an attempt to show he’ll maintain diplomatic and military support for Kyiv as Russia’s war enters a decisive phase.",
-      "published": "24 Aug 2026 06:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.157,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -418,6 +429,17 @@
       "impact": "high"
     },
     {
+      "source": "BBC Top Stories",
+      "title": "Australian shark attack victim grateful for 'second chance at life'",
+      "url": "https://www.bbc.co.uk/news/articles/c87n792dnlno?at_medium=RSS&at_campaign=rss",
+      "summary": "Leah Stewart was mauled by a shark in June, suffering multiple bites to her arms and legs.",
+      "published": "24 Aug 2026 07:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "Al Jazeera",
       "title": "Tokayev allies head for landslide victory in Kazakhstan elections",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-kazakh-elections-sv-mp4?traffic_source=rss",
@@ -432,7 +454,7 @@
       "source": "Al Jazeera",
       "title": "Iran war live: Iranian parliament advances plans for Hormuz service fees",
       "url": "https://www.aljazeera.com/news/liveblog/2026/8/24/iran-war-live-iranian-assembly-advances-plans-for-hormuz-service-fees?traffic_source=rss",
-      "summary": "Draft law says ships of countries permitted to pass through the Strait of Hormuz will pay for services provided by Iran.",
+      "summary": "Draft law says ships of countries permitted to pass through the Strait of Hormuz will pay for Tehran's services.",
       "published": "24 Aug 2026 07:00 WIB",
       "sentiment": "Bearish",
       "score": -0.729,
@@ -524,6 +546,17 @@
       "published": "24 Aug 2026 05:39 WIB",
       "sentiment": "Bearish",
       "score": -0.865,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran",
+      "url": "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html",
+      "summary": "Oil prices fell Monday as investors awaited details of what Washington has billed as its toughest-ever sanctions campaign against Iran.",
+      "published": "24 Aug 2026 07:59 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
