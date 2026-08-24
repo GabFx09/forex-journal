@@ -1,5 +1,5 @@
 {
-  "generated": "24 Aug 2026 04:08 WIB",
+  "generated": "24 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,97 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.39,
-      "count": 28
+      "score": -0.354,
+      "count": 34
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.458,
-      "count": 24
+      "score": -0.401,
+      "count": 31
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.301,
-      "count": 23
+      "score": -0.297,
+      "count": 30
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.328,
-      "count": 16
-    },
-    {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.599,
-      "count": 7
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.599,
-      "count": 7
+      "score": -0.507,
+      "count": 14
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.186,
-      "count": 3
+      "score": -0.85,
+      "count": 5
     },
     {
-      "pair": "CAD/JPY",
+      "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.535,
-      "count": 2
+      "score": -0.864,
+      "count": 4
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.864,
+      "count": 4
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.053,
+      "count": 3
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Oil eases on Globex after weekend Iran escalation and sanctions threats",
+      "url": "https://investinglive.com/commodities/oil-eases-on-globex-after-weekend-iran-escalation-and-sanctions-threats/",
+      "summary": "Oil is trading a little lower on Globex Monday, a move that sits alongside rather than in place of the string of Iran-linked headlines already on the wire today: Bessent's toughest-ever sanctions announcement due at 2pm EDT, Rezaei's threat to halt all Gulf oil exports if the economic war continues,",
+      "published": "24 Aug 2026 06:36 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Trump says military is \"ultimate intervention\" for bond market turmoil",
+      "url": "https://investinglive.com/stock-market-update/trump-says-military-is-ultimate-intervention-for-bond-market-turmoil/",
+      "summary": "The remark itself carries no identifiable policy mechanism, there is no established channel through which military action could lower Treasury yields, so the immediate market read is confusion rather than a tradeable signal. What matters more for rates desks is the underlying fact pattern: Bessent's",
+      "published": "24 Aug 2026 06:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.893,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Bessent to unveil \"toughest\" Iran sanctions as Rezaei threatens total oil halt",
+      "url": "https://investinglive.com/commodities/bessent-to-unveil-toughest-iran-sanctions-as-rezaei-threatens-total-oil-halt/",
+      "summary": "The explicit threat to halt all oil exports from the Persian Gulf, not just the Strait of Hormuz, raises the stakes well beyond the partial disruption markets have priced in over recent months, and traders should treat Rezaei's language as a genuine escalation risk rather than rhetorical posturing g",
+      "published": "24 Aug 2026 05:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.812,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Goldman flags China stimulus risk as growth slips further below target",
+      "url": "https://investinglive.com/central-banks/goldman-flags-china-stimulus-risk-as-growth-slips-further-below-target/",
+      "summary": "A confirmed slowdown toward the 4% handle keeps pressure on Chinese equities and the yuan, particularly if incoming August and September data fail to show stabilisation. The gap between bank estimates, Goldman at the softer end near 4%, Macquarie near 4.2%, BNP Paribas at 4.1%, points to genuine unc",
+      "published": "24 Aug 2026 04:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Going nuclear ... Iran security chief warns Tehran may seek nuclear weapons after US strikes",
@@ -88,13 +132,46 @@
       "impact": "high"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Gulf markets rise as oil prices climb on Iran sanction fears",
-      "url": "https://www.investing.com/news/stock-market-news/gulf-markets-rise-as-oil-prices-climb-on-iran-sanction-fears-93CH-4872460",
-      "summary": "",
-      "published": "23 Aug 2026 20:49 WIB",
+      "source": "FXStreet News",
+      "title": "Iran’s Araghchi says new sanctions threatened by 'desperate' US will fail",
+      "url": "https://www.fxstreet.com/news/irans-araghchi-says-new-sanctions-threatened-by-desperate-us-will-fail-202608232310",
+      "summary": "Iran's Foreign Minister Abbas Araghchi dismissed the threat of a fresh round of US economic sanctions as a “desperate” ploy and said the expected new measures would fail to defeat Tehran, Reuters reported on Sunday.",
+      "published": "24 Aug 2026 06:10 WIB",
       "sentiment": "Bearish",
-      "score": -0.501,
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Ampol posts near five-fold surge in profit as Iran war boosts refining margin",
+      "url": "https://www.investing.com/news/stock-market-news/australias-ampol-logs-record-halfyear-profit-with-more-than-fourfold-rise-4872482",
+      "summary": "",
+      "published": "24 Aug 2026 06:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.077,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gold Holds Near Three-Month High as Debasement Trade Returns",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/gold-holds-near-three-month-high-as-debasement-trade-returns",
+      "summary": "Gold traded near a three-month high after the US Treasury’s bold intervention in the bond market revived concerns about a weaker dollar and pushed investors toward alternatives.",
+      "published": "24 Aug 2026 06:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.237,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Burnham Enters World Stage With Debut Foreign Trip to Ukraine",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/burnham-enters-world-stage-with-debut-foreign-trip-to-ukraine",
+      "summary": "Andy Burnham is traveling to Ukraine on Monday for his first international trip as British prime minister, in an attempt to show he’ll maintain diplomatic and military support for Kyiv as Russia’s war enters a decisive phase.",
+      "published": "24 Aug 2026 06:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.157,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -163,28 +240,6 @@
       "score": 0.281,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Can Canada Still Trust America on Trade?",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/can-canada-still-trust-america-on-trade-video",
-      "summary": "Chrystia Freeland says a tentative US-Canada trade agreement may prevent new US tariffs from taking effect, but only if Canada makes major concessions including easing retaliation, allowing US alcohol back into provincial stores and aligning with Washington on some digital issues. Existing US tariff",
-      "published": "23 Aug 2026 19:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.526,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Why Doesn’t Geopolitical Risk Always Push Gold Higher? for OANDA:BTCUSD by Kelly_Carter12 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbExQTFhpS1lkRi1HcVVLalY2cTZ2SmlraElNalVQSGZSbVd6bHd0d1VRR3U4bnZocEZ5QjNyQ2tHQVBrbUR2aVdpMjBBeFdJdUtUdkRpZVhIMjExdXBTSnBtS2psdGFDVW1zMmF1VENDblpWWWJGWkUwVlNOdWR1cVRvc1k5ZmlHclRDM2tETUlMY0NkeUZGZ1U1dDduYnFKSTItRkFWOA?oc=5",
-      "summary": "Why Doesn’t Geopolitical Risk Always Push Gold Higher? for OANDA:BTCUSD by Kelly_Carter12 TradingView",
-      "published": "22 Aug 2026 16:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.631,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -276,6 +331,17 @@
     },
     {
       "source": "BBC Business",
+      "title": "'I didn't speak the Queen's English': Why people worry about their accents",
+      "url": "https://www.bbc.co.uk/news/articles/c05q318501yo?at_medium=RSS&at_campaign=rss",
+      "summary": "A survey on attitudes towards accents suggests that so-called \"accent bias\" is still an issue in many workplaces.",
+      "published": "24 Aug 2026 06:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.591,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Business",
       "title": "Iran-linked hackers behind cyber attack that shut down power plant, reports say",
       "url": "https://www.bbc.co.uk/news/articles/ce9793g34yvo?at_medium=RSS&at_campaign=rss",
       "summary": "The government says at no point was there a risk to the UK's energy system during the attack in July.",
@@ -298,13 +364,24 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Scammers increasingly using QR codes to steal money and data",
-      "url": "https://www.bbc.co.uk/news/articles/cwyjqg578e1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Scammers set up a monthly subscription of £60 from Les Howard's account after he downloaded an app.",
-      "published": "23 Aug 2026 13:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.654,
-      "emoji": "🔴",
+      "title": "How easy is it to find an NHS dentist? It depends where you live",
+      "url": "https://www.bbc.co.uk/news/articles/c9v4w77d9m8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Nearly 600 practices in England have withdrawn from NHS dentistry over the last 10 years, as the service heads towards a two-tier system.",
+      "published": "24 Aug 2026 06:10 WIB",
+      "sentiment": "Bullish",
+      "score": 0.36,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
+      "published": "24 Aug 2026 06:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.073,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -315,6 +392,17 @@
       "published": "23 Aug 2026 06:16 WIB",
       "sentiment": "Bearish",
       "score": -0.717,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Will Donald Trump’s new sanctions against Iran work?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/8/23/will-donald-trumps-new-sanctions-against-iran-work?traffic_source=rss",
+      "summary": "The US president says he will impose 'crushing measures' on Tehran.",
+      "published": "24 Aug 2026 04:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.572,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -385,70 +473,15 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "French President Macron to host Saudi Crown Prince MBS in Paris for talks",
-      "url": "https://www.aljazeera.com/economy/2026/8/23/french-president-macron-to-host-saudi-crown-prince-mbs-in-paris-for-talks?traffic_source=rss",
-      "summary": "Energy, regional conflicts, and bilateral cooperation to dominate Emmanuel Macron and Mohammed bin Salman's discussions.",
-      "published": "23 Aug 2026 23:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.33,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Can Nigeria cash in on Iran war?",
-      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/8/23/can-nigeria-cash-in-on-iran-war?traffic_source=rss",
-      "summary": "Ekperikpe Ekpo says the US-Israel war on Iran has pushed Nigeria to expand its gas production.",
-      "published": "23 Aug 2026 23:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.838,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Canada, US and tit-for-tat tariffs: How will they impact their economies?",
-      "url": "https://www.aljazeera.com/news/2026/8/23/canada-us-and-tit-for-tat-tariffs-how-will-it-impact-their-economies?traffic_source=rss",
-      "summary": "Both countries will suffer from the trade war with steeper tariffs raising business costs and consumer prices.",
-      "published": "23 Aug 2026 22:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.893,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Gaza families search for children missing after years of war",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/gaza-families-search-for-children-missing-after-years-of-war?traffic_source=rss",
-      "summary": "Families in Gaza continue searching for children and relatives missing in the war.",
-      "published": "23 Aug 2026 22:42 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran’s government signals fuel price hike on eve of new US sanctions",
-      "url": "https://www.aljazeera.com/economy/2026/8/23/iran-government-signals-fuel-price-hike-on-eve-of-new-us-sanctions?traffic_source=rss",
-      "summary": "Prices for food and other items are soaring, and there is a history of unrest, so any increase is being considered.",
-      "published": "23 Aug 2026 22:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.297,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
-      "title": "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
-      "url": "https://www.marketwatch.com/story/canada-announces-retaliatory-tariffs-on-u-s-goods-after-trade-talks-break-down-45081c2f?mod=mw_rss_topstories",
-      "summary": "Canadian Prime Minister Mark Carney on Saturday announced his country would impose “dollar-for-dollar” tariffs on U.S. goods — a retaliatory measure after trade talks between the two nations broke down.",
-      "published": "23 Aug 2026 03:31 WIB",
+      "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
+      "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
+      "summary": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trade partners.",
+      "published": "24 Aug 2026 06:45 WIB",
       "sentiment": "Bearish",
-      "score": -0.612,
+      "score": -0.912,
       "emoji": "🔴",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "source": "CNBC Forex",
@@ -463,36 +496,25 @@
     },
     {
       "source": "CNBC World",
-      "title": "As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8",
-      "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
-      "summary": "New 50% Trump administration tariffs on some Canadian exports went into place after the U.S. and Canada failed to reach a deal on Friday.",
-      "published": "23 Aug 2026 13:39 WIB",
+      "title": "Treasury Secretary to announce Iran sanctions as Tehran dismisses economic warfare threat",
+      "url": "https://www.cnbc.com/2026/08/23/treasury-secretary-bessent-iran-sanctions-press-conference.html",
+      "summary": "Bessent told CNBC that the sanctions will be the \"toughest\" in history.",
+      "published": "24 Aug 2026 05:39 WIB",
       "sentiment": "Bearish",
-      "score": -0.671,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Small UK power generator shut down after cyberattack linked to Iran: Telegraph",
-      "url": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html",
-      "summary": "The U.K. government says the incident did not pose a risk to the country's energy system, adding that it briefed CEOs of companies in the sector with advice.",
-      "published": "23 Aug 2026 19:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.283,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
-      "url": "https://www.cnbc.com/2026/08/22/iran-criticizes-us-sanctions-extraterritorial-sovereignty.html",
-      "summary": "U.S. Treasury Secretary Scott Bessent told CNBC on Thursday that the proposed economic measures will likely negate the need for major U.S. military operations.",
-      "published": "22 Aug 2026 17:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.353,
+      "score": -0.865,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "What's bogging down the data center trade has nothing to do with demand",
+      "url": "https://www.cnbc.com/2026/08/23/whats-bogging-down-the-data-center-trade-has-nothing-to-do-with-demand.html",
+      "summary": "The stakes are incredibly high for the U.S. to maintain its lead in data centers. It seems to be getting harder and harder in this election year.",
+      "published": "24 Aug 2026 05:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.128,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "CNBC World",
@@ -504,6 +526,17 @@
       "score": -0.421,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Small UK power generator shut down after cyberattack linked to Iran: Telegraph",
+      "url": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html",
+      "summary": "The U.K. government says the incident did not pose a risk to the country's energy system, adding that it briefed CEOs of companies in the sector with advice.",
+      "published": "23 Aug 2026 19:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.283,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
