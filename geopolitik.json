@@ -1,5 +1,5 @@
 {
-  "generated": "24 Aug 2026 08:02 WIB",
+  "generated": "24 Aug 2026 10:49 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,86 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.361,
-      "count": 36
+      "score": -0.41,
+      "count": 29
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.386,
-      "count": 34
+      "score": -0.444,
+      "count": 27
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.279,
-      "count": 30
+      "score": -0.349,
+      "count": 25
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.432,
+      "score": -0.407,
       "count": 19
+    },
+    {
+      "pair": "USD/RUB",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.502,
+      "count": 7
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.698,
+      "score": -0.73,
       "count": 7
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.698,
+      "score": -0.73,
       "count": 7
     },
     {
-      "pair": "USD/RUB",
+      "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.722,
-      "count": 6
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.14,
-      "count": 4
+      "score": -0.063,
+      "count": 3
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "ING says fiscal credibility fears drive gold back to above $4,600 an ounce",
+      "url": "https://investinglive.com/commodities/ing-says-fiscal-credibility-fears-drive-gold-back-to-above-4-600-an-ounce/",
+      "summary": "ING's framing ties gold's advance directly to the fiscal and currency debasement narrative building around expanded Treasury buybacks, which links this move to the same bond market strain that has already produced elevated Treasury yields and Trump's own confusing military intervention ( Trump says ",
+      "published": "24 Aug 2026 09:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.796,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Weekend Hormuz traffic thins to fewer than 20 vessels, Kpler data shows",
+      "url": "https://investinglive.com/commodities/weekend-hormuz-traffic-thins-to-fewer-than-20-vessels-kpler-data-shows/",
+      "summary": "The weekend's sub-20 vessel count is a sharp step down even by the standards of a strait already operating under dual blockade, and it lands the same day Bessent is due to unveil the toughest US sanctions yet on Iran and hours after Rezaei threatened to halt all Gulf oil exports entirely . Traders s",
+      "published": "24 Aug 2026 08:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.511,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI: Goldman says options demand could push gold past $4,900 forecast",
+      "url": "https://investinglive.com/commodities/icymi-goldman-says-options-demand-could-push-gold-past-4-900-forecast/",
+      "summary": "Gold's volatile trading in Asia today could be reflective of the options dynamic Goldman describes, where dealer hedging near key strike levels can turn moves into self-reinforcing rallies or sell-offs regardless of the underlying fundamental driver. With bullion having advanced toward $4,600 largel",
+      "published": "24 Aug 2026 08:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.572,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Trump made 1,000-plus stock trades in June amid Iran war, tariff fights",
@@ -144,6 +177,28 @@
     },
     {
       "source": "FXStreet News",
+      "title": "Canadian Dollar bears seem hesitant as weak USD counters US-Canada trade war",
+      "url": "https://www.fxstreet.com/news/canadian-dollar-bears-seem-hesitant-as-weak-usd-counters-us-canada-trade-war-202608240203",
+      "summary": "The USD/CAD pair struggles to capitalize on a bullish gap opening on Monday, though it retains an intraday positive bias amid concerns about a deepening US-Canada trade war.",
+      "published": "24 Aug 2026 09:03 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "WTI slips below $85.00 as traders take profits before new US sanctions on Iran",
+      "url": "https://www.fxstreet.com/news/wti-slips-below-8500-as-traders-take-profits-before-new-us-sanctions-on-iran-202608240130",
+      "summary": "West Texas Intermediate (WTI) oil price depreciates after two days of gains, trading around $84.80 per barrel during the Asian hours on Monday. Crude oil prices decline as investors took profits ahead of an expected US announcement regarding stricter sanctions against Iran.",
+      "published": "24 Aug 2026 08:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.462,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
       "title": "Canada’s Carney: Retaliatory tariffs will start September 8",
       "url": "https://www.fxstreet.com/news/canadas-carney-retaliatory-tariffs-will-start-september-8-202608240047",
       "summary": "The United States (US) imposed 50% tariffs on some Canadian products on Saturday after trade talks between the two countries fell apart on Friday. In response, Canadian Prime Minister Mark Carney said that the country would impose its own retaliatory tariffs beginning on September 8, CNBC reported.",
@@ -166,53 +221,31 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "U.S.-Canada trade war: These sectors are most sensitive to more tariffs",
-      "url": "https://www.investing.com/news/stock-market-news/uscanada-trade-war-these-sectors-are-most-sensitive-to-more-tariffs-93CH-4872518",
+      "title": "Scandal-hit KPMG Australia to cut nearly 400 jobs, warns of difficult market",
+      "url": "https://www.investing.com/news/stock-market-news/kpmg-australia-plans-to-cut-5-of-jobs-warns-soft-conditions-to-persist-4872535",
       "summary": "",
-      "published": "24 Aug 2026 07:32 WIB",
+      "published": "24 Aug 2026 10:24 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.692,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "California expected to seek TV channel sales from Paramount-Warner, WSJ reports",
-      "url": "https://www.investing.com/news/stock-market-news/california-expected-to-seek-tv-channel-sales-from-paramountwarner-wsj-reports-4872493",
-      "summary": "",
-      "published": "24 Aug 2026 07:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Ampol swings to interim profit as Iran war boosts refining margins",
-      "url": "https://www.investing.com/news/stock-market-news/ampol-swings-to-interim-profit-as-iran-war-boosts-refining-margins-93CH-4872492",
-      "summary": "",
-      "published": "24 Aug 2026 06:50 WIB",
-      "sentiment": "Netral",
-      "score": -0.003,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Ampol posts near five-fold surge in profit as Iran war boosts refining margin",
-      "url": "https://www.investing.com/news/stock-market-news/australias-ampol-logs-record-halfyear-profit-with-more-than-fourfold-rise-4872482",
-      "summary": "",
-      "published": "24 Aug 2026 06:36 WIB",
-      "sentiment": "Bullish",
-      "score": 0.077,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Holds Near Three-Month High as Debasement Trade Returns",
+      "title": "Why the Fed's Warsh Has 'No Good Options'",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-24/why-the-fed-s-warsh-has-no-good-options-video",
+      "summary": "Pepperstone Research Strategist Dilin Wu describes the bond market as \"ahead of the Fed,\" arguing that rising yields on treasuries is a structural issue in the economy. She also warns that Fed Chairman Kevin Warsh is left with only bad options to address the rising cost of servicing US bonds. (Sourc",
+      "published": "24 Aug 2026 10:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gold Advances to Three-Month High as Debasement Trade Returns",
       "url": "https://www.bloomberg.com/news/articles/2026-08-23/gold-holds-near-three-month-high-as-debasement-trade-returns",
-      "summary": "Gold traded near a three-month high after the US Treasury’s bold intervention in the bond market revived concerns about a weaker dollar and pushed investors toward alternatives.",
+      "summary": "Gold climbed to the highest in more than three months after the US Treasury’s bold intervention in the bond market revived concerns about a weaker dollar and pushed investors toward alternatives.",
       "published": "24 Aug 2026 06:29 WIB",
       "sentiment": "Bearish",
       "score": -0.237,
@@ -221,79 +254,24 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Australian Firms in Reset Mode Emerge as Earnings-Season Winners",
+      "title": "Australian Firms Rally as Restructuring Efforts Drive Earnings-Season Gains",
       "url": "https://www.bloomberg.com/news/articles/2026-08-23/australian-firms-in-reset-mode-emerge-as-earnings-season-winners",
       "summary": "Investors who kept faith with Australian companies pursuing restructuring and leadership changes are reaping the rewards, as signs of progress unveiled during the August earnings season sent their stocks soaring.",
       "published": "24 Aug 2026 06:59 WIB",
       "sentiment": "Bullish",
-      "score": 0.816,
+      "score": 0.92,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Long Bonds Risk Deeper Selloff Without Clear Warsh Guidance",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/us-long-bonds-risk-deeper-selloff-without-clear-warsh-guidance",
-      "summary": "Bond investors will zero in on Kevin Warsh’s Jackson Hole speech this week, with a further selloff in long-dated Treasuries at stake as markets look for clues on the Federal Reserve chairman’s response to persistent inflation and fiscal concerns.",
-      "published": "24 Aug 2026 02:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.497,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Fed Faces High Stakes Test at Jackson Hole",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/fed-faces-high-stakes-test-at-jackson-hole-video",
-      "summary": "Fed Chair Kevin Warsh heads into Jackson Hole under heightened scrutiny after the Treasury’s intervention in the bond market raised questions about the traditional boundaries between fiscal and monetary policy. Host of Bloomberg Money Tom Keene and Veda Partners Co-Founder Henrietta Treyz are on Blo",
-      "published": "23 Aug 2026 21:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Rep. McCormick Warns Against Slowing AI Buildout",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/rep-mccormick-warns-against-slowing-ai-buildout-video",
-      "summary": "Representative Rich McCormick is on Bloomberg This Weekend with David Gura and Christina Ruffini and says the US should continue expanding data centers to support its leadership in artificial intelligence, arguing they can be built responsibly while benefiting local economies. (Source: Bloomberg)",
-      "published": "23 Aug 2026 21:29 WIB",
-      "sentiment": "Bullish",
-      "score": 0.718,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "How Water Scarcity Is Changing the Economics of the Southwest",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/the-water-crisis-reshaping-the-american-west-video",
-      "summary": "The Colorado River provides water to seven states, contributing to an estimated $1.4 trillion in annual economic activity. But decades of decline, record-low snowpack and shrinking reservoirs have pushed the system toward crisis, with Lake Powell nearing levels that could threaten hydropower product",
-      "published": "23 Aug 2026 21:02 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Canada Digs In as US Trade Fight Escalates",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/canada-digs-in-as-us-trade-fight-escalates-video",
-      "summary": "Joining Bloomberg This Weekend, Former Canadian Finance Minister Chrystia Freeland says Canada was right to walk away from a trade deal she argues would have harmed both countries, urging Ottawa not to back down and saying past retaliation against US tariffs proved effective. Freeland warns hosts Da",
-      "published": "23 Aug 2026 21:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.772,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC World",
-      "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
-      "summary": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
-      "published": "23 Aug 2026 19:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
+      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
+      "published": "24 Aug 2026 06:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.073,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -309,6 +287,17 @@
     },
     {
       "source": "BBC World",
+      "title": "Australian shark attack victim grateful for 'second chance at life'",
+      "url": "https://www.bbc.co.uk/news/articles/c87n792dnlno?at_medium=RSS&at_campaign=rss",
+      "summary": "Leah Stewart was mauled by a shark in June, suffering multiple bites to her arms and legs.",
+      "published": "24 Aug 2026 07:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
       "title": "DR Congo and M23 rebels agree roadmap for peace talks",
       "url": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss",
       "summary": "Representatives met in Switzerland to work out next steps to resolve the conflict.",
@@ -317,6 +306,17 @@
       "score": 0.591,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
+      "summary": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
+      "published": "23 Aug 2026 19:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -348,28 +348,6 @@
       "published": "23 Aug 2026 04:42 WIB",
       "sentiment": "Bearish",
       "score": -0.691,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-      "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
-      "published": "22 Aug 2026 20:13 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "US military newspaper editor voices censorship fears after being fired",
-      "url": "https://www.bbc.co.uk/news/articles/cm2g23ng8p4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Erik Slavin believes he was fired for saying in an interview that \"in a hypothetical situation, censorship would be a red line\".",
-      "published": "22 Aug 2026 23:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.875,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -418,28 +396,6 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-      "published": "24 Aug 2026 06:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.073,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Australian shark attack victim grateful for 'second chance at life'",
-      "url": "https://www.bbc.co.uk/news/articles/c87n792dnlno?at_medium=RSS&at_campaign=rss",
-      "summary": "Leah Stewart was mauled by a shark in June, suffering multiple bites to her arms and legs.",
-      "published": "24 Aug 2026 07:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.671,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Al Jazeera",
       "title": "Tokayev allies head for landslide victory in Kazakhstan elections",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-kazakh-elections-sv-mp4?traffic_source=rss",
@@ -452,12 +408,12 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran war live: Iranian parliament advances plans for Hormuz service fees",
+      "title": "Iran war live: US vows ‘economic D-Day’; Tehran threatens Gulf oil exports",
       "url": "https://www.aljazeera.com/news/liveblog/2026/8/24/iran-war-live-iranian-assembly-advances-plans-for-hormuz-service-fees?traffic_source=rss",
-      "summary": "Draft law says ships of countries permitted to pass through the Strait of Hormuz will pay for Tehran's services.",
+      "summary": "US Treasury Secretary Scott Bessent says Washington aims to 'sever every economic lifeline' that sustains Iran.",
       "published": "24 Aug 2026 07:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.729,
+      "score": -0.771,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -506,33 +462,11 @@
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Trump has ‘run out of options’ in Iran war: Stephen Walt",
-      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/8/23/trump-has-run-out-of-options-in-iran-war-stephen-walt?traffic_source=rss",
-      "summary": "Political scientist Stephen Walt says Trump promised to make US stronger, but many of his policies are making it weaker.",
-      "published": "24 Aug 2026 01:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.659,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran war: Top US lawmaker says Republicans can ‘absolutely’ win midterms",
-      "url": "https://www.aljazeera.com/news/2026/8/23/iran-war-top-us-lawmaker-says-republicans-can-absolutely-win-midterms?traffic_source=rss",
-      "summary": "House Speaker Mike Johnson, a Trump ally, admits it 'would be helpful' if conflict ends before elections in November.",
-      "published": "24 Aug 2026 00:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.367,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "MarketWatch",
       "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
       "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
-      "summary": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trade partners.",
-      "published": "24 Aug 2026 07:35 WIB",
+      "summary": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trading partners.",
+      "published": "24 Aug 2026 10:02 WIB",
       "sentiment": "Bearish",
       "score": -0.912,
       "emoji": "🔴",
@@ -540,12 +474,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Treasury Secretary to announce Iran sanctions as Tehran dismisses economic warfare threat",
-      "url": "https://www.cnbc.com/2026/08/23/treasury-secretary-bessent-iran-sanctions-press-conference.html",
-      "summary": "Bessent told CNBC that the sanctions will be the \"toughest\" in history.",
-      "published": "24 Aug 2026 05:39 WIB",
+      "title": "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures",
+      "url": "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html",
+      "summary": "The escalation came as both sides have missed a 60-day ceasefire window to reach a deal, closing off the formal truce mechanism to end the six-month war.",
+      "published": "24 Aug 2026 10:38 WIB",
       "sentiment": "Bearish",
-      "score": -0.865,
+      "score": -0.751,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -559,6 +493,17 @@
       "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8",
+      "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
+      "summary": "New 50% Trump administration tariffs on some Canadian exports went into place after the U.S. and Canada failed to reach a deal on Friday.",
+      "published": "23 Aug 2026 13:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.671,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "CNBC World",
