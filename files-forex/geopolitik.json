@@ -1,5 +1,5 @@
 {
-  "generated": "24 Aug 2026 10:49 WIB",
+  "generated": "24 Aug 2026 12:18 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -8,52 +8,74 @@
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
       "score": -0.41,
-      "count": 29
+      "count": 27
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.444,
-      "count": 27
+      "score": -0.434,
+      "count": 25
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.349,
+      "score": -0.374,
       "count": 25
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.407,
-      "count": 19
+      "score": -0.369,
+      "count": 16
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.502,
+      "score": -0.52,
       "count": 7
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.73,
-      "count": 7
+      "score": -0.702,
+      "count": 6
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.73,
-      "count": 7
+      "score": -0.702,
+      "count": 6
     },
     {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.063,
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.065,
       "count": 3
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "What are the main events for today?",
+      "url": "https://investinglive.com/news/what-are-the-main-events-for-today-26/",
+      "summary": "EUROPEAN SESSION In the European session, we don't have anything on the agenda today, with markets likely consolidating or extending the trends started with the Treasury buyback. The most important event this week will be Fed Chair Warsh's speech at the Jackson Hole Symposium on Friday. AMERICAN SES",
+      "published": "24 Aug 2026 11:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.491,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "RBA minutes due Tuesday to detail hike-versus-hold debate after August pause",
+      "url": "https://investinglive.com/central-banks/rba-minutes-due-tuesday-to-detail-hike-versus-hold-debate-after-august-pause/",
+      "summary": "AUD/USD and rate-sensitive Australian bonds are likely to react most to any signal in the minutes about how close the Board came to hiking in August, given Governor Bullock has already confirmed both options were actively discussed. Hauser's comments last week , explicitly flagging upside inflation ",
+      "published": "24 Aug 2026 10:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.376,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "ING says fiscal credibility fears drive gold back to above $4,600 an ounce",
@@ -154,28 +176,6 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Iran dismisses new US sanctions as desperate as Hormuz shipping standstill continues",
-      "url": "https://investinglive.com/commodities/iran-dismisses-new-us-sanctions-as-desperate-as-hormuz-shipping-standstill-continues/",
-      "summary": "The near standstill in Strait of Hormuz shipping keeps a geopolitical risk premium embedded in oil prices, with traders likely to stay cautious heading into Monday's sanctions announcement from Washington. Iran's parliament advancing a bill to charge navigation, environmental, fueling, insurance and",
-      "published": "24 Aug 2026 03:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.57,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "US-Canada trade talks collapse as 50% tariffs take effect, Carney vows retaliation",
-      "url": "https://investinglive.com/news/us-canada-trade-talks-collapse-as-50-tariffs-take-effect-carney-vows-retaliation/",
-      "summary": "The breakdown reintroduces cross-border trade risk into North American markets just as investors had begun pricing in a de-escalation after weeks of negotiation. The Canadian dollar has come under renewed pressure, with commentary pointing to a slide toward the low 70s against the US dollar, though ",
-      "published": "24 Aug 2026 03:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.895,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "FXStreet News",
       "title": "Canadian Dollar bears seem hesitant as weak USD counters US-Canada trade war",
       "url": "https://www.fxstreet.com/news/canadian-dollar-bears-seem-hesitant-as-weak-usd-counters-us-canada-trade-war-202608240203",
@@ -221,23 +221,45 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Scandal-hit KPMG Australia to cut nearly 400 jobs, warns of difficult market",
-      "url": "https://www.investing.com/news/stock-market-news/kpmg-australia-plans-to-cut-5-of-jobs-warns-soft-conditions-to-persist-4872535",
+      "title": "California expected to seek TV channel sales from Paramount-Warner, WSJ reports",
+      "url": "https://www.investing.com/news/stock-market-news/california-expected-to-seek-tv-channel-sales-from-paramountwarner-wsj-reports-4872493",
       "summary": "",
-      "published": "24 Aug 2026 10:24 WIB",
+      "published": "24 Aug 2026 11:36 WIB",
       "sentiment": "Bearish",
-      "score": -0.692,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
     {
+      "source": "Investing.com Forex",
+      "title": "Why is Sinopec HK stock climbing today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-sinopec-hk-stock-climbing-today-93CH-4872608",
+      "summary": "",
+      "published": "24 Aug 2026 11:22 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "High oil prices, subsidies and affordable models rev up European EV sales",
+      "url": "https://www.investing.com/news/stock-market-news/high-oil-prices-subsidies-and-affordable-models-rev-up-european-ev-sales-4872605",
+      "summary": "",
+      "published": "24 Aug 2026 11:12 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
       "source": "Bloomberg Markets",
-      "title": "Why the Fed's Warsh Has 'No Good Options'",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-24/why-the-fed-s-warsh-has-no-good-options-video",
-      "summary": "Pepperstone Research Strategist Dilin Wu describes the bond market as \"ahead of the Fed,\" arguing that rising yields on treasuries is a structural issue in the economy. She also warns that Fed Chairman Kevin Warsh is left with only bad options to address the rising cost of servicing US bonds. (Sourc",
-      "published": "24 Aug 2026 10:04 WIB",
+      "title": "Chinese Builder Logan Wins Court Approval for Debt Restructuring",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/chinese-builder-logan-wins-court-approval-for-debt-restructuring",
+      "summary": "A Hong Kong court gave Logan Group Co. clearance to implement its debt restructuring plan, more than four years after the Chinese developer defaulted in the midst of the country’s property crisis.",
+      "published": "24 Aug 2026 11:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.478,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -254,23 +276,23 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Australian Firms Rally as Restructuring Efforts Drive Earnings-Season Gains",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/australian-firms-in-reset-mode-emerge-as-earnings-season-winners",
-      "summary": "Investors who kept faith with Australian companies pursuing restructuring and leadership changes are reaping the rewards, as signs of progress unveiled during the August earnings season sent their stocks soaring.",
-      "published": "24 Aug 2026 06:59 WIB",
-      "sentiment": "Bullish",
-      "score": 0.92,
-      "emoji": "🟢",
+      "title": "Why the Fed's Warsh Has 'No Good Options'",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-24/why-the-fed-s-warsh-has-no-good-options-video",
+      "summary": "Pepperstone Research Strategist Dilin Wu describes the bond market as \"ahead of the Fed,\" arguing that rising yields on treasuries is a structural issue in the economy. She also warns that Fed Chairman Kevin Warsh is left with only bad options to address the rising cost of servicing US bonds. (Sourc",
+      "published": "24 Aug 2026 10:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC World",
-      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
+      "title": "Burnham to hand long-range missile blueprints to Zelensky as he visits Kyiv",
       "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
       "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-      "published": "24 Aug 2026 06:07 WIB",
+      "published": "24 Aug 2026 12:16 WIB",
       "sentiment": "Bullish",
-      "score": 0.073,
+      "score": 0.113,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -341,17 +363,6 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Syria says Israeli strike near Damascus violation of international law",
-      "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_medium=RSS&at_campaign=rss",
-      "summary": "The latest incident comes days after reports emerged Israel had struck a military airbase close to the Turkish border.",
-      "published": "23 Aug 2026 04:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.691,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC Business",
       "title": "'I didn't speak the Queen's English': Why people worry about their accents",
       "url": "https://www.bbc.co.uk/news/articles/c05q318501yo?at_medium=RSS&at_campaign=rss",
@@ -394,6 +405,28 @@
       "score": 0.36,
       "emoji": "🟢",
       "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘We know this movie’: Iran mocks latest US sanctions",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/we-know-this-movie-iran-mocks-latest-us-sanctions?traffic_source=rss",
+      "summary": "Abbas Araghchi said new US sanctions, likely to be unveiled Monday, are like watching the 'same movie on repeat'.",
+      "published": "24 Aug 2026 11:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.208,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Syria, Israel hold US-mediated talks in Jordan to de-escalate tensions",
+      "url": "https://www.aljazeera.com/news/2026/8/24/syria-israel-hold-us-mediated-talks-in-jordan-to-de-escalate-tensions?traffic_source=rss",
+      "summary": "Syria's foreign minister meets Israeli officials to de-escalate tensions after Israeli strike near Turkish border.",
+      "published": "24 Aug 2026 10:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.79,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
@@ -440,28 +473,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Zhou Bo: China’s alternative to Western power",
-      "url": "https://www.aljazeera.com/video/the-india-report/2026/8/23/zhou-bo-chinas-alternative-to-western-power?traffic_source=rss",
-      "summary": "Senior Colonel Zhou Bo and Sreenivasan Jain discuss China's vision of a fairer, multipolar world and work towards that.",
-      "published": "24 Aug 2026 02:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.17,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Video: Thousands of families flee fighting in Sudan’s North Kordofan State",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/video-thousands-of-families-flee-fighting-in-sudans-north-kordofan-state?traffic_source=rss",
-      "summary": "Mothers and their children are in dire need of food and safety in Sudan’s conflict-stricken Kordofan State.",
-      "published": "24 Aug 2026 01:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.482,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "MarketWatch",
       "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
       "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
@@ -477,20 +488,9 @@
       "title": "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures",
       "url": "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html",
       "summary": "The escalation came as both sides have missed a 60-day ceasefire window to reach a deal, closing off the formal truce mechanism to end the six-month war.",
-      "published": "24 Aug 2026 10:38 WIB",
+      "published": "24 Aug 2026 11:58 WIB",
       "sentiment": "Bearish",
       "score": -0.751,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran",
-      "url": "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html",
-      "summary": "Oil prices fell Monday as investors awaited details of what Washington has billed as its toughest-ever sanctions campaign against Iran.",
-      "published": "24 Aug 2026 07:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },

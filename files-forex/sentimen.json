@@ -1,24 +1,30 @@
 {
-  "generated": "24 Aug 2026 10:49 WIB",
+  "generated": "24 Aug 2026 12:18 WIB",
   "summary": {
-    "total": 80,
-    "bullish": 31,
-    "bearish": 39,
-    "netral": 10,
-    "avg_score": -0.1509,
+    "total": 85,
+    "bullish": 30,
+    "bearish": 40,
+    "netral": 15,
+    "avg_score": -0.1379,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.088,
-        "count": 24
+        "score": 0.136,
+        "count": 29
+      },
+      {
+        "currency": "EUR",
+        "sentiment": "Bullish",
+        "score": 0.142,
+        "count": 7
       },
       {
         "currency": "CAD",
         "sentiment": "Bearish",
-        "score": -0.379,
-        "count": 6
+        "score": -0.276,
+        "count": 5
       },
       {
         "currency": "CNY",
@@ -27,44 +33,60 @@
         "count": 5
       },
       {
-        "currency": "EUR",
-        "sentiment": "Bullish",
-        "score": 0.405,
-        "count": 3
-      },
-      {
         "currency": "NZD",
         "sentiment": "Bearish",
         "score": -0.303,
         "count": 3
       },
       {
-        "currency": "GBP",
-        "sentiment": "Bullish",
-        "score": 0.341,
-        "count": 1
-      },
-      {
         "currency": "JPY",
-        "sentiment": "Bullish",
-        "score": 0.441,
-        "count": 1
+        "sentiment": "Bearish",
+        "score": -0.135,
+        "count": 2
       },
       {
         "currency": "AUD",
-        "sentiment": "Bullish",
-        "score": 0.183,
-        "count": 1
+        "sentiment": "Bearish",
+        "score": -0.097,
+        "count": 2
       },
       {
         "currency": "CHF",
-        "sentiment": "Netral",
-        "score": 0.0,
+        "sentiment": "Bearish",
+        "score": -0.079,
+        "count": 2
+      },
+      {
+        "currency": "GBP",
+        "sentiment": "Bullish",
+        "score": 0.341,
         "count": 1
       }
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "What are the main events for today?",
+      "url": "https://investinglive.com/news/what-are-the-main-events-for-today-26/",
+      "summary": "EUROPEAN SESSION In the European session, we don't have anything on the agenda today, with markets likely consolidating or extending the trends started with the Treasury buyback. The most important event this week will be Fed Chair Warsh's speech at the Jackson Hole Symposium on Friday. AMERICAN SES",
+      "published": "24 Aug 2026 11:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.491,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "RBA minutes due Tuesday to detail hike-versus-hold debate after August pause",
+      "url": "https://investinglive.com/central-banks/rba-minutes-due-tuesday-to-detail-hike-versus-hold-debate-after-august-pause/",
+      "summary": "AUD/USD and rate-sensitive Australian bonds are likely to react most to any signal in the minutes about how close the Board came to hiking in August, given Governor Bullock has already confirmed both options were actively discussed. Hauser's comments last week , explicitly flagging upside inflation ",
+      "published": "24 Aug 2026 10:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.376,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "investingLive Asia-Pacific market news: Gold hit a three month high",
@@ -264,26 +286,59 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Iran dismisses new US sanctions as desperate as Hormuz shipping standstill continues",
-      "url": "https://investinglive.com/commodities/iran-dismisses-new-us-sanctions-as-desperate-as-hormuz-shipping-standstill-continues/",
-      "summary": "The near standstill in Strait of Hormuz shipping keeps a geopolitical risk premium embedded in oil prices, with traders likely to stay cautious heading into Monday's sanctions announcement from Washington. Iran's parliament advancing a bill to charge navigation, environmental, fueling, insurance and",
-      "published": "24 Aug 2026 03:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.57,
-      "emoji": "🔴",
-      "impact": "high"
+      "source": "FXStreet News",
+      "title": "NZD/USD Price Forecast: Consolidates near June high as bulls await breakout through 0.6000",
+      "url": "https://www.fxstreet.com/news/nzd-usd-price-forecast-consolidates-near-june-high-as-bulls-await-breakout-through-06000-202608240512",
+      "summary": "The NZD/USD pair enters a bullish consolidation phase at the start of a new week and trades around the 0.5975 region during the Asian session, just below its highest level since June, touched on Friday.",
+      "published": "24 Aug 2026 12:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.103,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "US-Canada trade talks collapse as 50% tariffs take effect, Carney vows retaliation",
-      "url": "https://investinglive.com/news/us-canada-trade-talks-collapse-as-50-tariffs-take-effect-carney-vows-retaliation/",
-      "summary": "The breakdown reintroduces cross-border trade risk into North American markets just as investors had begun pricing in a de-escalation after weeks of negotiation. The Canadian dollar has come under renewed pressure, with commentary pointing to a slide toward the low 70s against the US dollar, though ",
-      "published": "24 Aug 2026 03:07 WIB",
+      "source": "FXStreet News",
+      "title": "Swiss Franc advances as Dollar slides on US bond buyback surge",
+      "url": "https://www.fxstreet.com/news/swiss-franc-advances-as-dollar-slides-on-us-bond-buyback-surge-202608240445",
+      "summary": "USD/CHF depreciates after two days of gains, trading around 0.8000 during the Asian hours on Monday. The currency pair depreciates as the US Dollar (USD) struggles under pressure from newly announced fiscal measures in Washington.",
+      "published": "24 Aug 2026 11:45 WIB",
       "sentiment": "Bearish",
-      "score": -0.895,
+      "score": -0.158,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "EUR/JPY Price Forecast: Softens to near 185.50, but maintaining constructive bias above 100-day SMA",
+      "url": "https://www.fxstreet.com/news/eur-jpy-price-forecast-softens-to-near-18550-but-maintaining-constructive-bias-above-100-day-sma-202608240445",
+      "summary": "The EUR/JPY cross trades with mild losses near 185.60 during the early European session on Monday.",
+      "published": "24 Aug 2026 11:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.711,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Gold hits fresh high since mid-May as lower bond yields and fading Fed bets undermine USD",
+      "url": "https://www.fxstreet.com/news/gold-hits-fresh-high-since-mid-may-as-lower-bond-yields-and-fading-fed-bets-undermine-usd-202608240444",
+      "summary": "Gold (XAU/USD) builds on last week's breakout momentum above a technically significant 200-day Simple Moving Average (SMA) and climbs above $4,650 during the Asian session on Monday, hitting a fresh high since mid-May.",
+      "published": "24 Aug 2026 11:44 WIB",
+      "sentiment": "Bullish",
+      "score": 0.25,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Indian Rupee strengthens due to strong capital inflows, RBI support",
+      "url": "https://www.fxstreet.com/news/indian-rupee-strengthens-due-to-strong-capital-inflows-rbi-support-202608240412",
+      "summary": "The Indian Rupee (INR) inches higher against the US Dollar (USD) for the second consecutive day on Monday, positioning itself for a quiet start to the week.",
+      "published": "24 Aug 2026 11:12 WIB",
+      "sentiment": "Bullish",
+      "score": 1.0,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -430,21 +485,10 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Alibaba shares plunge as Burry exits stake, shifts to JD.com",
-      "url": "https://www.investing.com/news/stock-market-news/alibaba-shares-plunge-as-burry-exits-stake-shifts-to-jdcom-4872596",
+      "title": "Tesla and others begin record vehicle recall in China",
+      "url": "https://www.investing.com/news/stock-market-news/tesla-and-others-begin-record-vehicle-recall-in-china-4872620",
       "summary": "",
-      "published": "24 Aug 2026 10:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Why did MMG stock rise today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-did-mmg-stock-rise-today-93CH-4872595",
-      "summary": "",
-      "published": "24 Aug 2026 10:34 WIB",
+      "published": "24 Aug 2026 11:54 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -452,10 +496,10 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Nvidia discusses Perplexity investment at $30 billion-plus valuation, The Information reports",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-discusses-perplexity-investment-at-30-billionplus-valuation-the-information-reports-4872594",
+      "title": "Factbox-From Australia to Europe, countries move to curb children’s social media access",
+      "url": "https://www.investing.com/news/stock-market-news/factboxfrom-australia-to-europe-countries-move-to-curb-childrens-social-media-access-4872613",
       "summary": "",
-      "published": "24 Aug 2026 10:25 WIB",
+      "published": "24 Aug 2026 11:42 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -463,43 +507,21 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Scandal-hit KPMG Australia to cut nearly 400 jobs, warns of difficult market",
-      "url": "https://www.investing.com/news/stock-market-news/kpmg-australia-plans-to-cut-5-of-jobs-warns-soft-conditions-to-persist-4872535",
+      "title": "California expected to seek TV channel sales from Paramount-Warner, WSJ reports",
+      "url": "https://www.investing.com/news/stock-market-news/california-expected-to-seek-tv-channel-sales-from-paramountwarner-wsj-reports-4872493",
       "summary": "",
-      "published": "24 Aug 2026 10:24 WIB",
+      "published": "24 Aug 2026 11:36 WIB",
       "sentiment": "Bearish",
-      "score": -0.692,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Alibaba stock slumps in Hong Kong after $10.2 billion share placement to fund AI",
-      "url": "https://www.investing.com/news/stock-market-news/alibaba-stock-slumps-in-hong-kong-after-102-billion-share-placement-to-fund-ai-4872593",
+      "title": "Asian stocks sink as Samsung, Alibaba lead tech rout; Nvidia, Fed in focus",
+      "url": "https://www.investing.com/news/stock-market-news/asian-stocks-sink-as-samsung-alibaba-lead-tech-rout-nvidia-fed-in-focus-4872614",
       "summary": "",
-      "published": "24 Aug 2026 10:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "MMG shares rise as Las Bambas mine resumes operations in Peru",
-      "url": "https://www.investing.com/news/stock-market-news/mmg-shares-rise-as-las-bambas-mine-resumes-operations-in-peru-93CH-4872592",
-      "summary": "",
-      "published": "24 Aug 2026 10:23 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Data#3 hits a record high: is the AI tailwind already priced in?",
-      "url": "https://www.investing.com/news/stock-market-news/data3-hits-a-record-high-is-the-ai-tailwind-already-priced-in-93CH-4872591",
-      "summary": "",
-      "published": "24 Aug 2026 10:22 WIB",
+      "published": "24 Aug 2026 11:35 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -507,10 +529,10 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Shein’s pursuit of an IPO: From New York to London to Hong Kong",
-      "url": "https://www.investing.com/news/stock-market-news/sheins-pursuit-of-an-ipo-from-new-york-to-london-to-hong-kong-4872563",
+      "title": "Samsung vs SK Hynix: how their latest shareholder return plans compare",
+      "url": "https://www.investing.com/news/stock-market-news/samsung-vs-sk-hynix-how-their-latest-shareholder-return-plans-compare-93CH-4872612",
       "summary": "",
-      "published": "24 Aug 2026 10:19 WIB",
+      "published": "24 Aug 2026 11:25 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -518,24 +540,57 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Shein to pay nearly $40 million fees to expanded roster of Hong Kong IPO banks",
-      "url": "https://www.investing.com/news/stock-market-news/shein-to-pay-nearly-40-million-fees-to-expanded-roster-of-hong-kong-ipo-banks-4872590",
+      "title": "Why is Toei Animation stock surging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-toei-animation-stock-surging-today-93CH-4872610",
       "summary": "",
-      "published": "24 Aug 2026 10:19 WIB",
+      "published": "24 Aug 2026 11:22 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Why is Endeavour stock falling today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-endeavour-stock-falling-today-93CH-4872609",
+      "summary": "",
+      "published": "24 Aug 2026 11:22 WIB",
       "sentiment": "Bearish",
-      "score": -0.103,
+      "score": -0.233,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Fast-fashion giant Shein shrinks value to $27 billion, at best, in Hong Kong IPO",
-      "url": "https://www.investing.com/news/stock-market-news/shein-launches-up-to-18-billion-hong-kong-ipo-4872479",
+      "title": "Why is Sinopec HK stock climbing today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-sinopec-hk-stock-climbing-today-93CH-4872608",
       "summary": "",
-      "published": "24 Aug 2026 10:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.765,
-      "emoji": "🟢",
+      "published": "24 Aug 2026 11:22 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Why is Samsung Electronics stock plunging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-samsung-electronics-stock-plunging-today-93CH-4872607",
+      "summary": "",
+      "published": "24 Aug 2026 11:22 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "High oil prices, subsidies and affordable models rev up European EV sales",
+      "url": "https://www.investing.com/news/stock-market-news/high-oil-prices-subsidies-and-affordable-models-rev-up-european-ev-sales-4872605",
+      "summary": "",
+      "published": "24 Aug 2026 11:12 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -548,6 +603,50 @@
       "score": 0.876,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Stocks Drop With Tech in Focus, Treasuries Rise: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates",
+      "summary": "Stocks fell at the start of a pivotal week for markets, with the artificial intelligence trade under pressure ahead of key tech earnings and the Federal Reserve’s annual gathering. Treasuries rose as oil fell.",
+      "published": "24 Aug 2026 05:10 WIB",
+      "sentiment": "Bullish",
+      "score": 0.382,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Chinese Builder Logan Wins Court Approval for Debt Restructuring",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/chinese-builder-logan-wins-court-approval-for-debt-restructuring",
+      "summary": "A Hong Kong court gave Logan Group Co. clearance to implement its debt restructuring plan, more than four years after the Chinese developer defaulted in the midst of the country’s property crisis.",
+      "published": "24 Aug 2026 11:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.478,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Indonesia Bonds Draw Highest Inflows Since 2019 on Rupiah Gains",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/indonesia-bonds-draw-highest-inflows-since-2019-on-rupiah-gains",
+      "summary": "Indonesian government bonds drew the biggest foreign inflows in more than seven years, helped by a stronger rupiah and expectations that the central bank will keep interest rates steady following a 100-basis-point increase this year.",
+      "published": "24 Aug 2026 11:21 WIB",
+      "sentiment": "Bullish",
+      "score": 1.0,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gold Advances to Three-Month High as Debasement Trade Returns",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/gold-holds-near-three-month-high-as-debasement-trade-returns",
+      "summary": "Gold climbed to the highest in more than three months after the US Treasury’s bold intervention in the bond market revived concerns about a weaker dollar and pushed investors toward alternatives.",
+      "published": "24 Aug 2026 06:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.237,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -573,17 +672,6 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks Drop on Samsung, Alibaba; Oil Falls: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates",
-      "summary": "Asian stocks declined, with the artificial intelligence trade in early focus during a week set to be shaped by earnings from chip bellwether Nvidia Corp. and the Federal Reserve’s annual gathering. Oil fell.",
-      "published": "24 Aug 2026 05:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.09,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "Citi and Axis Team Up on Leveraged India Dollar Deposit Boom",
       "url": "https://www.bloomberg.com/news/articles/2026-08-24/citi-axis-bank-team-up-on-leveraged-india-dollar-deposit-boom",
       "summary": "Citigroup Inc. has tied up with Axis Bank Ltd. to finance non-resident Indians investing in foreign-currency deposits with the local lender, according to people familiar with the matter.",
@@ -592,39 +680,6 @@
       "score": 0.026,
       "emoji": "⚪",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gold Advances to Three-Month High as Debasement Trade Returns",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/gold-holds-near-three-month-high-as-debasement-trade-returns",
-      "summary": "Gold climbed to the highest in more than three months after the US Treasury’s bold intervention in the bond market revived concerns about a weaker dollar and pushed investors toward alternatives.",
-      "published": "24 Aug 2026 06:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.237,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Treasury Market Still Functioning, Fed's Kashkari Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-24/treasury-market-still-functioning-fed-s-kashkari-says-video",
-      "summary": "Federal Reserve Bank of Minneapolis President Neel Kashkari has played down concerns over rising US Treasury yields, saying markets are functioning well. His most recent statements come after Treasury Secretary Scott Bessent announced a plan to buy back long-term US debt. Bloomberg's Mark Cranfield ",
-      "published": "24 Aug 2026 07:31 WIB",
-      "sentiment": "Bullish",
-      "score": 0.66,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Australian Firms Rally as Restructuring Efforts Drive Earnings-Season Gains",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/australian-firms-in-reset-mode-emerge-as-earnings-season-winners",
-      "summary": "Investors who kept faith with Australian companies pursuing restructuring and leadership changes are reaping the rewards, as signs of progress unveiled during the August earnings season sent their stocks soaring.",
-      "published": "24 Aug 2026 06:59 WIB",
-      "sentiment": "Bullish",
-      "score": 0.92,
-      "emoji": "🟢",
-      "impact": "high"
     },
     {
       "source": "Google News Geopolitik",
@@ -639,12 +694,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
+      "title": "Burnham to hand long-range missile blueprints to Zelensky as he visits Kyiv",
       "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
       "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-      "published": "24 Aug 2026 06:07 WIB",
+      "published": "24 Aug 2026 12:16 WIB",
       "sentiment": "Bullish",
-      "score": 0.073,
+      "score": 0.113,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -715,17 +770,6 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Syria says Israeli strike near Damascus violation of international law",
-      "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_medium=RSS&at_campaign=rss",
-      "summary": "The latest incident comes days after reports emerged Israel had struck a military airbase close to the Turkish border.",
-      "published": "23 Aug 2026 04:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.691,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC Business",
       "title": "'I didn't speak the Queen's English': Why people worry about their accents",
       "url": "https://www.bbc.co.uk/news/articles/c05q318501yo?at_medium=RSS&at_campaign=rss",
@@ -768,6 +812,39 @@
       "score": 0.36,
       "emoji": "🟢",
       "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Climbers escape rockfall crossing ‘Death Pass’ on Mont Blanc",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/climbers-escape-rockfall-crossing-death-pass-on-mont-blanc?traffic_source=rss",
+      "summary": "Footage filmed by a climber on Mont Blanc shows rocks cascading down the Goûter Couloir, known as ‘Death Pass’. The clim",
+      "published": "24 Aug 2026 11:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.098,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘We know this movie’: Iran mocks latest US sanctions",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/we-know-this-movie-iran-mocks-latest-us-sanctions?traffic_source=rss",
+      "summary": "Abbas Araghchi said new US sanctions, likely to be unveiled Monday, are like watching the 'same movie on repeat'.",
+      "published": "24 Aug 2026 11:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.208,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Syria, Israel hold US-mediated talks in Jordan to de-escalate tensions",
+      "url": "https://www.aljazeera.com/news/2026/8/24/syria-israel-hold-us-mediated-talks-in-jordan-to-de-escalate-tensions?traffic_source=rss",
+      "summary": "Syria's foreign minister meets Israeli officials to de-escalate tensions after Israeli strike near Turkish border.",
+      "published": "24 Aug 2026 10:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.79,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
@@ -825,28 +902,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Zhou Bo: China’s alternative to Western power",
-      "url": "https://www.aljazeera.com/video/the-india-report/2026/8/23/zhou-bo-chinas-alternative-to-western-power?traffic_source=rss",
-      "summary": "Senior Colonel Zhou Bo and Sreenivasan Jain discuss China's vision of a fairer, multipolar world and work towards that.",
-      "published": "24 Aug 2026 02:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.17,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Video: Thousands of families flee fighting in Sudan’s North Kordofan State",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/video-thousands-of-families-flee-fighting-in-sudans-north-kordofan-state?traffic_source=rss",
-      "summary": "Mothers and their children are in dire need of food and safety in Sudan’s conflict-stricken Kordofan State.",
-      "published": "24 Aug 2026 01:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.482,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "MarketWatch",
       "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
       "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
@@ -873,7 +928,7 @@
       "title": "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures",
       "url": "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html",
       "summary": "The escalation came as both sides have missed a 60-day ceasefire window to reach a deal, closing off the formal truce mechanism to end the six-month war.",
-      "published": "24 Aug 2026 10:38 WIB",
+      "published": "24 Aug 2026 11:58 WIB",
       "sentiment": "Bearish",
       "score": -0.751,
       "emoji": "🔴",
@@ -881,14 +936,14 @@
     },
     {
       "source": "CNBC World",
-      "title": "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran",
-      "url": "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html",
-      "summary": "Oil prices fell Monday as investors awaited details of what Washington has billed as its toughest-ever sanctions campaign against Iran.",
-      "published": "24 Aug 2026 07:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
+      "title": "Singapore inflation hits highest in nearly two years, but undershoots expectations",
+      "url": "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html",
+      "summary": "Consumer prices rose 2.2% last month, compared with the 2.3% expected by economists polled by Reuters",
+      "published": "24 Aug 2026 12:12 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
