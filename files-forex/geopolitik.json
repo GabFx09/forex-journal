@@ -1,5 +1,5 @@
 {
-  "generated": "25 Aug 2026 06:10 WIB",
+  "generated": "25 Aug 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,32 +7,32 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.384,
-      "count": 35
+      "score": -0.394,
+      "count": 33
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.371,
-      "count": 34
+      "score": -0.381,
+      "count": 32
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.36,
-      "count": 32
+      "score": -0.369,
+      "count": 30
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.452,
-      "count": 29
+      "score": -0.478,
+      "count": 28
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.329,
-      "count": 17
+      "score": -0.366,
+      "count": 16
     },
     {
       "pair": "AUD/USD",
@@ -49,11 +49,22 @@
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.316,
-      "count": 4
+      "score": -0.381,
+      "count": 5
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Legendary investor Druckenmiller says Treasury is suppressing the bond market's warning signal",
+      "url": "https://investinglive.com/stock-market-update/legendary-investor-druckenmiller-says-treasury-is-suppressing-the-bond-market-s-warning-signal/",
+      "summary": "Druckenmiller's framing adds a heavyweight voice to the growing debate over whether the Treasury's enlarged buyback program is a legitimate liquidity tool or an attempt to manage the price of long-dated debt directly, a distinction that matters for how markets read future interventions. His warning ",
+      "published": "25 Aug 2026 06:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.902,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Waking up? Catch up time! Bessent softens Iran sanctions tone as Treasury's yield fix unravels",
@@ -154,17 +165,6 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "European shares close mixed; US tech stocks lags",
-      "url": "https://investinglive.com/stocks/european-shares-close-mixed-us-tech-stocks-lags/",
-      "summary": "European shares are closing mixed on Monday, with Spain's Ibex (+0.69%) and UK FTSE 100 (+0.35%) leading the gains while France, and Italy lagged. The broader European market was little changed as investors continued to monitor geopolitical developments surrounding Iran and the potential for additio",
-      "published": "24 Aug 2026 23:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.273,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "FXStreet News",
       "title": "Australian Dollar falls as Iran sanctions sour risk appetite, RBA minutes eyed",
       "url": "https://www.fxstreet.com/news/australian-dollar-falls-as-iran-sanctions-sour-risk-appetite-rba-minutes-eyed-202608242258",
@@ -253,15 +253,15 @@
       "impact": "high"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "US SEC investigating Situational Awareness trades that led to July meltdown, source says",
-      "url": "https://www.investing.com/news/stock-market-news/us-sec-investigating-situational-awareness-trades-that-led-to-july-meltdown-source-says-4874231",
-      "summary": "",
-      "published": "25 Aug 2026 04:25 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Asian Stocks Under Pressure After US Tech Selloff: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian stocks were set to fall after Wall Street gauges retreated as losses in technology shares overshadowed a decline in oil prices.",
+      "published": "25 Aug 2026 05:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.642,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -441,45 +441,12 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Is UK's Storm Shadow missile a game changer for Ukraine?",
-      "url": "https://www.bbc.co.uk/news/videos/cx2znjly4dno?at_medium=RSS&at_campaign=rss",
-      "summary": "Correspondent Joe Inwood breaks down the weapons technology that could make a difference in the Russia-Ukraine war.",
-      "published": "24 Aug 2026 22:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.938,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
       "title": "Charity? Acting? The Cotswolds? What will Harry and Meghan's UK life look like?",
       "url": "https://www.bbc.co.uk/news/articles/c6243glyqv7o?at_medium=RSS&at_campaign=rss",
       "summary": "The couple's return to the UK is imminent - and what they'll be focusing on here is gradually becoming clearer.",
       "published": "25 Aug 2026 02:43 WIB",
       "sentiment": "Bullish",
       "score": 0.74,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Snooker champion Graeme Dott guilty of child sex abuse",
-      "url": "https://www.bbc.co.uk/news/articles/c0lr80rk0dno?at_medium=RSS&at_campaign=rss",
-      "summary": "The former world champion was found guilty of lewd and libidinous behaviour towards a girl and boy.",
-      "published": "25 Aug 2026 00:35 WIB",
-      "sentiment": "Bearish",
-      "score": -0.33,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "UK missiles offer may help Ukraine - but they are not what Zelensky needs most",
-      "url": "https://www.bbc.co.uk/news/articles/cy8zxqn57z3o?at_medium=RSS&at_campaign=rss",
-      "summary": "UK Prime Minister Andy Burnham is handing over blueprints so Kyiv can build its own long-range missiles.",
-      "published": "24 Aug 2026 19:51 WIB",
-      "sentiment": "Bullish",
-      "score": 0.134,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -664,7 +631,7 @@
       "title": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
       "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
       "summary": "President Donald Trump said the U.S. will raise tariffs on imports of cars, trucks and auto parts from Canada to 50% on Jan. 1, 2027.",
-      "published": "25 Aug 2026 02:08 WIB",
+      "published": "25 Aug 2026 06:27 WIB",
       "sentiment": "Bearish",
       "score": -0.679,
       "emoji": "🔴",
