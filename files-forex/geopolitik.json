@@ -1,5 +1,5 @@
 {
-  "generated": "25 Aug 2026 08:52 WIB",
+  "generated": "25 Aug 2026 12:04 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,64 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.439,
-      "count": 30
+      "score": -0.371,
+      "count": 26
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.453,
-      "count": 28
+      "score": -0.401,
+      "count": 25
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.416,
-      "count": 27
+      "score": -0.331,
+      "count": 22
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.533,
-      "count": 27
+      "score": -0.477,
+      "count": 17
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.479,
-      "count": 15
+      "score": -0.389,
+      "count": 10
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.64,
-      "count": 11
+      "score": -0.603,
+      "count": 9
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.64,
-      "count": 11
+      "score": -0.603,
+      "count": 9
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.281,
+      "score": -0.23,
       "count": 5
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Japan to weigh tax incentives for retail JGB investors, Katayama says",
+      "url": "https://investinglive.com/news/japan-to-weigh-tax-incentives-for-retail-jgb-investors-katayama-says/",
+      "summary": "Katayama's comments on retail JGB incentives point to a policy avenue aimed at broadening the domestic investor base for government debt at a time when long and super-long yields have been under sustained upward pressure, though any tax reform would need to clear discussions with the ruling party be",
+      "published": "25 Aug 2026 09:49 WIB",
+      "sentiment": "Bullish",
+      "score": 0.778,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Legendary investor Druckenmiller says Treasury is suppressing the bond market's warning signal",
@@ -99,37 +110,48 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Its the Toothless vs. the Clueless. SEC to investigate Situational Awareness near collapse.",
-      "url": "https://investinglive.com/stock-market-update/it-s-the-toothless-vs-the-clueless-sec-to-investigate-situational-awareness-near-collapse/",
-      "summary": "The subpoenas mark an early but notable escalation of regulatory interest in one of the year's most dramatic hedge fund blowups, Did we just witness the largest single hedge fund rout of all time? He predicted the AI infrastructure boom, then leverage cost him control of a $16 billion portfolio and ",
-      "published": "25 Aug 2026 04:01 WIB",
-      "sentiment": "Netral",
-      "score": -0.045,
-      "emoji": "⚪",
+      "source": "FXStreet News",
+      "title": "EUR/JPY Price Forecast: Rises toward 186.00 after rebounding from ascending channel bottom",
+      "url": "https://www.fxstreet.com/news/eur-jpy-price-forecast-rises-toward-18600-after-rebounding-from-ascending-channel-bottom-202608250418",
+      "summary": "EUR/JPY appreciates after two days of gains, trading around 185.80 during the Asian hours on Tuesday. Technical analysis of the daily chart indicates the currency cross remains within the ascending channel pattern, signaling an ongoing bullish bias.",
+      "published": "25 Aug 2026 11:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.649,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Oil slips over $2 as traders shrug off fresh US sanctions on Iran",
-      "url": "https://investinglive.com/commodities/oil-slips-over-2-as-traders-shrug-off-fresh-us-sanctions-on-iran/",
-      "summary": "Crude sold off sharply despite the ratcheting up of US pressure on Iran, underlining how much of the recent risk premium had already been priced in after two straight weekly gains of over 5%. Traders treated Bessent's sanctions rollout as broadly telegraphed, with little fresh detail to justify hold",
-      "published": "25 Aug 2026 03:37 WIB",
+      "source": "FXStreet News",
+      "title": "Canadian Dollar remains depressed as firmer USD and trade war counter higher oil prices",
+      "url": "https://www.fxstreet.com/news/canadian-dollar-remains-depressed-as-firmer-usd-and-trade-war-counter-higher-oil-prices-202608250412",
+      "summary": "The USD/CAD pair sticks to a positive bias for the second straight day and trades around mid-1.3800s during the Asian session on Tuesday.",
+      "published": "25 Aug 2026 11:12 WIB",
       "sentiment": "Bearish",
-      "score": -0.665,
+      "score": -0.557,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "investingLive Americas market news wrap: Trump and Canada trade threats",
-      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-trump-and-canada-trade-threats-0/",
-      "summary": "Trump on Canada: Someone should get these clowns to “fall in line\" Bessent says no one is outside the reach of US sanctions on Iran, including China Trump says 50% tariffs on Canadian autos coming on January 1, 2027 Canada July advance manufacturing sales -0.2% US set to impose a 7.5% tariff on Chin",
-      "published": "25 Aug 2026 03:13 WIB",
+      "source": "FXStreet News",
+      "title": "United States Dollar Index holds gains near 99.00 amid escalating geopolitical risks",
+      "url": "https://www.fxstreet.com/news/united-states-dollar-index-holds-gains-near-9900-amid-escalating-geopolitical-risks-202608250345",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending its gains for the second successive day and trading around 99.00 during the Asian hours on Tuesday.",
+      "published": "25 Aug 2026 10:45 WIB",
+      "sentiment": "Bullish",
+      "score": 0.84,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "British Pound holds range below mid-1.3600s as USD firms  amid Fed risks and Iran tensions",
+      "url": "https://www.fxstreet.com/news/british-pound-holds-range-below-mid-13600s-as-usd-firms-amid-fed-risks-and-iran-tensions-202608250333",
+      "summary": "The GBP/USD pair extends its sideways consolidative price move for the second straight day and trades around the 1.3630 area during the Asian session on Tuesday.",
+      "published": "25 Aug 2026 10:33 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.5,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -176,92 +198,26 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "GBP/JPY Price Forecast: 217.00 caps bulls as RSI stalls",
-      "url": "https://www.fxstreet.com/news/gbp-jpy-price-forecast-21700-caps-bulls-as-rsi-stalls-202608242207",
-      "summary": "The GBP/JPY consolidates near familiar levels around 217.00 on Monday, as risk aversion dominates markets, with flows moving into haven assets like the US Dollar and Gold amid uncertainty over the Middle East conflict.",
-      "published": "25 Aug 2026 05:07 WIB",
+      "source": "Investing.com Forex",
+      "title": "US removes Syria from terrorism sponsor list, lifting major investment obstacle",
+      "url": "https://www.investing.com/news/stock-market-news/us-removes-syria-from-terrorism-sponsor-list-lifting-major-investment-obstacle-4874088",
+      "summary": "",
+      "published": "25 Aug 2026 10:06 WIB",
       "sentiment": "Bearish",
-      "score": -0.809,
+      "score": -0.811,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "EUR/USD Price Forecast: 1.1700 caps bulls as RSI overheats",
-      "url": "https://www.fxstreet.com/news/eur-usd-price-forecast-11700-caps-bulls-as-rsi-overheats-202608242146",
-      "summary": "The shared currency registers minimal losses of 0.13% versus the US Dollar as EUR/USD fails to surpass 1.1700, exacerbating the drop towards the 1.1660 area, despite retaining its current neutral-to-upward bias.",
-      "published": "25 Aug 2026 04:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.841,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Japanese Yen lower as US Dollar firms on heavier Iran sanctions",
-      "url": "https://www.fxstreet.com/news/japanese-yen-lower-as-us-dollar-firms-on-heavier-iran-sanctions-202608242115",
-      "summary": "The US Dollar (USD) is grinding higher against the Japanese Yen (JPY) at the time of writing, with USD/JPY holding north of the 159.00 mark.",
-      "published": "25 Aug 2026 04:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Mexican Peso weakens as Iran sanctions offset Mexico’s inflation data",
-      "url": "https://www.fxstreet.com/news/mexican-peso-weakens-as-iran-sanctions-offset-mexicos-inflation-data-202608242013",
-      "summary": "The Mexican Peso (MXN) loses ground against the Greenback on Monday, even though economic data showed that inflation accelerated in the first half of August, while economic growth was softer than expected. Consequently, the USD/MXN pair trades with gains of over 0.25% to 16.96.",
-      "published": "25 Aug 2026 03:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.103,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Hartree's Morse: 3 Things Define Hormuz Strait's Future",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-24/hartree-s-morse-3-things-define-hormuz-strait-s-future-video",
-      "summary": "Ed Morse, Senior Advisor and Commodities Analyst, discusses the recent fall in Brent crude oil prices. The decline is attributed to market attention on the potential impact of Iran sanctions, which are influencing supply expectations and investor sentiment in the commodities market. He speaks with R",
-      "published": "25 Aug 2026 04:39 WIB",
+      "title": "Shortage of Engineers Becomes a Bottleneck for Ukraine’s Defense-Tech",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-25/shortage-of-engineers-becomes-a-bottleneck-for-ukraine-s-defense-tech",
+      "summary": "The speed of innovation on the Ukrainian battlefield means frontline troops may need a new drone design within weeks — but the country’s defense industry faces a critical labor shortage that threatens to derail that pace.",
+      "published": "25 Aug 2026 11:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.812,
+      "score": -0.886,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Bilt CEO, Equinox Exec. Chairman on New Partnership",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-24/bilt-ceo-equinox-exec-chairman-on-new-partnership-video",
-      "summary": "The segment features a discussion with Ankur Jain, CEO of BILT, and Harvey Spevak, Equinox Group Executive Chairman, about the newly launched exclusive partnership between Bilt, a membership and hospitality platform, and Equinox, a luxury fitness brand. The collaboration aims to connect the audience",
-      "published": "25 Aug 2026 04:32 WIB",
-      "sentiment": "Bullish",
-      "score": 0.601,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Ontario's Ford Says Standing Up to Trump Won't Be Easy",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-24/ontario-s-ford-says-standing-up-to-trump-won-t-be-easy-video",
-      "summary": "Ontario Premier Doug Ford says standing up to President Donald Trump in this trade war won't be easy. Ford says Canada must be willing to escalate this trade war and every option should be on the table. (Source: Bloomberg)",
-      "published": "25 Aug 2026 04:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.992,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Canadian Stocks Rise Despite Breakdown in US Trade Talks",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-24/canadian-stocks-whipsaw-after-us-trade-talks-break-down",
-      "summary": "Canadian stocks ended the day higher, thanks largely to gains from precious metals miners, after the collapse of talks with the US unleashed what threatens to become a widening trade war.",
-      "published": "24 Aug 2026 21:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.178,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Google News Geopolitik",
@@ -286,15 +242,15 @@
       "impact": "high"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Here are the economic implications of 4 potential US election outcomes, according to Deutsche Bank - Forex Factory",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORXFsclR5ZjhMVUZkY1A2ZU9BWEtyVEJBN3NWb3dmZ29qNXVBZFd6akpuY2Iwb0lybUdrZ1hTdEIzZ1NEQzE3SU1IRnBISDhDdFMxc0tac3ljZ0hvWEFIdmRGQmdpOFBLYmg1V0p3d2RKSGlZeXpHSWxoeEtrYTZDLURQODBjRmpENGJ4ZmxObXdnQW5pSnpBSHQ4T0dibUtobTY1R2lMZ3ZDNy160gGbAUFVX3lxTE40enFVN3pJN3lGY3hqYU1Qby03SjlMeG15SXZVWGluV2dkN3FFZGR3aHhDa2NFNVMwZmdWb05XQVBtaU9BRE9JWTFKSlVMWjNPb1hRdGtQLVVRVXlmTTlMN1IwUDcwcFBtVldXeGF5U2t4SFVjbXRqb2JSakoyd1BINml6dmtQaTY0X0xzai14N3U1Q2F3b2hIdm1r?oc=5",
-      "summary": "Here are the economic implications of 4 potential US election outcomes, according to Deutsche Bank Forex Factory",
-      "published": "25 Aug 2026 03:01 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
+      "source": "BBC World",
+      "title": "Iran says it is ready for what US calls 'greatest financial offensive ever'",
+      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+      "summary": "The US calls its latest sanctions on Iran an \"economic D-Day\", but Tehran says it has a plan to counter them.",
+      "published": "25 Aug 2026 10:50 WIB",
+      "sentiment": "Bullish",
+      "score": 0.249,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -352,22 +308,22 @@
       "impact": "medium"
     },
     {
-      "source": "BBC World",
-      "title": "'Half my business will be gone' - firms in Canada and US fear trade war",
-      "url": "https://www.bbc.co.uk/news/articles/cy0j0zz8l83o?at_medium=RSS&at_campaign=rss",
-      "summary": "Business owners in both countries are navigating uncertainty and worry as the tit-for-tat import taxes ratchet up.",
-      "published": "24 Aug 2026 16:47 WIB",
+      "source": "BBC Business",
+      "title": "Burnham refuses to rule out tax rises in autumn Budget",
+      "url": "https://www.bbc.co.uk/news/articles/cj06818jgzlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Experts have warned that he and Chancellor John Healey will have little room to manoeuvre in their first Budget.",
+      "published": "25 Aug 2026 08:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.988,
+      "score": -0.353,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC Business",
-      "title": "US-Canada trade war escalates as Trump threatens tariff hike on autos after Carney vows to retaliate",
+      "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
       "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss",
       "summary": "Mark Carney accused Trump of wanting to \"destroy\" Canada's auto industry, and said he would only resume trade talks if the US comes with the \"right attitude\".",
-      "published": "25 Aug 2026 07:25 WIB",
+      "published": "25 Aug 2026 09:51 WIB",
       "sentiment": "Bearish",
       "score": -0.984,
       "emoji": "🔴",
@@ -386,6 +342,17 @@
     },
     {
       "source": "BBC Business",
+      "title": "'Half my business will be gone' - firms in Canada and US fear trade war",
+      "url": "https://www.bbc.co.uk/news/articles/cy0j0zz8l83o?at_medium=RSS&at_campaign=rss",
+      "summary": "Business owners in both countries are navigating uncertainty and worry as the tit-for-tat import taxes ratchet up.",
+      "published": "24 Aug 2026 16:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.988,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Business",
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
       "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
       "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
@@ -397,14 +364,14 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
-      "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-      "published": "25 Aug 2026 08:48 WIB",
+      "title": "UK drone factories may face attacks from 'unknown sources', says Kremlin adviser",
+      "url": "https://www.bbc.co.uk/news/articles/cg598m3meeyo?at_medium=RSS&at_campaign=rss",
+      "summary": "The comments on BBC Newsnight come after the UK announced it has agreed to hand over blueprints for British-made missile components to Ukraine.",
+      "published": "25 Aug 2026 11:06 WIB",
       "sentiment": "Bullish",
-      "score": 0.581,
+      "score": 0.18,
       "emoji": "🟢",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC Top Stories",
@@ -415,6 +382,17 @@
       "sentiment": "Bullish",
       "score": 0.74,
       "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Brutal gang attack on strategic Haiti hillside leaves at least 30 dead",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/brutal-gang-attack-on-strategic-haiti-hillside-leaves-at-least-30-dead?traffic_source=rss",
+      "summary": "At least 30 people have been killed in a gang attack on a hillside community that overlooks routes into Haiti's capital.",
+      "published": "25 Aug 2026 08:46 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -443,12 +421,12 @@
       "source": "Al Jazeera",
       "title": "US removes Syria from ‘state sponsor of terrorism’ list",
       "url": "https://www.aljazeera.com/news/2026/8/24/us-removes-syria-from-state-sponsor-of-terrorism-list?traffic_source=rss",
-      "summary": "Washington also rescinded designation of HTS, formerly led by President Ahmed al-Sharaa, as a 'terrorist' organisation.",
+      "summary": "Syria hails US's 'historic decision' and says it will help the country rebuild after 14 years of civil war.",
       "published": "25 Aug 2026 05:32 WIB",
       "sentiment": "Bearish",
-      "score": -0.691,
+      "score": -0.376,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -471,50 +449,6 @@
       "score": -0.74,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Video: Iran reacts to US ‘economic D-Day’ sanctions",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-iran-reacts-to-us-economic-d-day-sanctions?traffic_source=rss",
-      "summary": "Iran’s Minister of Economy Ali Madani-Zadeh has responded to the US announcement of a new economic pressure campaign.",
-      "published": "25 Aug 2026 03:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.376,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ceasefire monitoring mission arrives in Democratic Republic of Congo",
-      "url": "https://www.aljazeera.com/news/2026/8/24/ceasefire-monitoring-mission-arrives-in-democratic-republic-of-congo?traffic_source=rss",
-      "summary": "Fighting persists in the mineral-rich region despite ceasefire agreements.",
-      "published": "25 Aug 2026 03:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.433,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ambush in South Sudan kills peacekeeping troops",
-      "url": "https://www.aljazeera.com/news/2026/8/24/ambush-in-south-sudan-kills-peacekeeping-troops?traffic_source=rss",
-      "summary": "Armed men injured three additional peacekeepers as fears grow of the country relapsing into civil war.",
-      "published": "25 Aug 2026 03:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.887,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Violence flares in Haiti as gang attack kills 30 people",
-      "url": "https://www.aljazeera.com/news/2026/8/24/violence-flares-in-haiti-as-gang-attack-kills-30-people?traffic_source=rss",
-      "summary": "Island nation grapples with violence as it seeks to hold first elections in more than a decade.",
-      "published": "25 Aug 2026 03:23 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "MarketWatch",
@@ -591,28 +525,6 @@
       "sentiment": "Bullish",
       "score": 0.299,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "France, UK step up missile support for Ukraine as European leaders meet",
-      "url": "https://www.cnbc.com/2026/08/24/ukraine-coalition-support-russia-strikes.html",
-      "summary": "France and the U.K. are boosting their missile support for Ukraine following deadly Russian drone strikes.",
-      "published": "24 Aug 2026 18:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.569,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures",
-      "url": "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html",
-      "summary": "The escalation came as both sides have missed a 60-day ceasefire window to reach a deal, closing off the formal truce mechanism to end the six-month war.",
-      "published": "24 Aug 2026 18:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.751,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
