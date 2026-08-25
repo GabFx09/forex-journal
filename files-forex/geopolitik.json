@@ -1,5 +1,5 @@
 {
-  "generated": "25 Aug 2026 07:01 WIB",
+  "generated": "25 Aug 2026 08:52 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,49 +7,49 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.394,
-      "count": 33
+      "score": -0.439,
+      "count": 30
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.381,
-      "count": 32
+      "score": -0.453,
+      "count": 28
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.369,
-      "count": 30
+      "score": -0.416,
+      "count": 27
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.478,
-      "count": 28
+      "score": -0.533,
+      "count": 27
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.366,
-      "count": 16
+      "score": -0.479,
+      "count": 15
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.578,
-      "count": 13
+      "score": -0.64,
+      "count": 11
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.578,
-      "count": 13
+      "score": -0.64,
+      "count": 11
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.381,
+      "score": -0.281,
       "count": 5
     }
   ],
@@ -132,37 +132,37 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Is the US-Canada deal the classic fifth stage of Trump negotiations",
-      "url": "https://investinglive.com/news/is-the-us-canada-deal-the-classic-fifth-stage-of-trump-negotiations/",
-      "summary": "US Vice President JD Vance said today that trade negotiations with Canada remain ongoing in something of a turnabout that's a hint that not everything is lost. Notably, Canada's counter-tariffs won't go into effect until Sept 7 and Trump is threatening Jan 1 tariffs on auto parts. The longer Canadia",
-      "published": "25 Aug 2026 02:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.314,
-      "emoji": "🔴",
-      "impact": "medium"
+      "source": "FXStreet News",
+      "title": "WTI holds ground above $84.50 as escalating concerns over US sanctions on Iran",
+      "url": "https://www.fxstreet.com/news/wti-holds-ground-above-8450-as-escalating-concerns-over-us-sanctions-on-iran-202608250135",
+      "summary": "West Texas Intermediate (WTI) oil price appreciates after registering over 2% losses in the previous day, trading around $84.70 per barrel during the Asian hours on Tuesday.",
+      "published": "25 Aug 2026 08:35 WIB",
+      "sentiment": "Netral",
+      "score": -0.007,
+      "emoji": "⚪",
+      "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Crude oil futures settled at $85.01",
-      "url": "https://investinglive.com/technical-analysis/crude-oil-futures-settled-at-85-01/",
-      "summary": "WTI crude oil futures are settling at $85.01, down $2.05 or 2.35% on the day. The low reached $84.36, while the high extended to $86.57. Fundamentally, several factors helped pressure crude prices today. First, there was some profit-taking following last week's gains, particularly ahead of the U.S. ",
-      "published": "25 Aug 2026 02:09 WIB",
+      "source": "FXStreet News",
+      "title": "Iran’s Economy Minister Madanizadeh: Enemies should wait for an attack",
+      "url": "https://www.fxstreet.com/news/irans-economy-minister-madanizadeh-enemies-should-wait-for-an-attack-202608250128",
+      "summary": "Iranian Economy Minister Ali Madanizadeh said on Tuesday, \"We are fully prepared for the US sanctions.\"",
+      "published": "25 Aug 2026 08:28 WIB",
       "sentiment": "Bearish",
-      "score": -0.912,
+      "score": -0.786,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Bessent says no one is outside the reach of US sanctions on Iran, including China",
-      "url": "https://investinglive.com/news/bessent-says-no-one-is-outside-the-reach-of-us-sanctions-on-iran-including-china/",
-      "summary": "Trump is calling leaders to ask them to cut ties with Iran Wants 'zero leakage' on sanctions Countries will ahve a finite timeline to shut down activities we have identified, if they don't we will use Treasury authorities Will not set specific timelines for cutting ties, we don't have infinite patie",
-      "published": "25 Aug 2026 00:19 WIB",
+      "source": "FXStreet News",
+      "title": "Euro gains support amid hawkish ECB expectations, subdued US Dollar",
+      "url": "https://www.fxstreet.com/news/euro-gains-support-amid-hawkish-ecb-expectations-subdued-us-dollar-202608250108",
+      "summary": "EUR/USD inches higher after posting minor losses in the previous day, trading around 1.1670 during the Asian hours on Tuesday. The pair finds support as rising oil prices, elevated bond yields, and escalating Middle East tensions drive Eurozone inflation concerns.",
+      "published": "25 Aug 2026 08:08 WIB",
       "sentiment": "Bullish",
-      "score": 0.098,
+      "score": 0.34,
       "emoji": "🟢",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -218,50 +218,6 @@
       "score": 0.103,
       "emoji": "🟢",
       "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Gold rallies as Iran sanctions stoke haven demand",
-      "url": "https://www.fxstreet.com/news/gold-rallies-as-iran-sanctions-stoke-haven-demand-202608241820",
-      "summary": "Gold (XAU/USD) price resumes its advance on Monday and refreshes three-month highs at $4,681 as US Treasury Secretary Scott Bessent crosses the wires to reveal sanctions on Iran-linked entities, while investors await a speech by new Fed Chair Kevin Warsh at the Jackson Hole symposium on Friday.",
-      "published": "25 Aug 2026 01:20 WIB",
-      "sentiment": "Netral",
-      "score": 0.018,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "US SEC subpoenas Wall Street lenders over Situational Awareness meltdown, source says",
-      "url": "https://www.investing.com/news/stock-market-news/us-sec-sends-subpoenas-to-wall-street-banks-over-situational-awareness-nyt-reports-4874211",
-      "summary": "",
-      "published": "25 Aug 2026 05:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Boeing awarded contract with ceiling value of $131.2 billion for F-15 program",
-      "url": "https://www.investing.com/news/stock-market-news/boeing-awarded-contract-with-ceiling-value-of-1312-billion-for-f15-program-4874267",
-      "summary": "",
-      "published": "25 Aug 2026 05:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.545,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks Under Pressure After US Tech Selloff: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-24/stock-market-today-dow-s-p-live-updates",
-      "summary": "Asian stocks were set to fall after Wall Street gauges retreated as losses in technology shares overshadowed a decline in oil prices.",
-      "published": "25 Aug 2026 05:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.642,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -330,14 +286,47 @@
       "impact": "high"
     },
     {
+      "source": "Google News Geopolitik",
+      "title": "Here are the economic implications of 4 potential US election outcomes, according to Deutsche Bank - Forex Factory",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORXFsclR5ZjhMVUZkY1A2ZU9BWEtyVEJBN3NWb3dmZ29qNXVBZFd6akpuY2Iwb0lybUdrZ1hTdEIzZ1NEQzE3SU1IRnBISDhDdFMxc0tac3ljZ0hvWEFIdmRGQmdpOFBLYmg1V0p3d2RKSGlZeXpHSWxoeEtrYTZDLURQODBjRmpENGJ4ZmxObXdnQW5pSnpBSHQ4T0dibUtobTY1R2lMZ3ZDNy160gGbAUFVX3lxTE40enFVN3pJN3lGY3hqYU1Qby03SjlMeG15SXZVWGluV2dkN3FFZGR3aHhDa2NFNVMwZmdWb05XQVBtaU9BRE9JWTFKSlVMWjNPb1hRdGtQLVVRVXlmTTlMN1IwUDcwcFBtVldXeGF5U2t4SFVjbXRqb2JSakoyd1BINml6dmtQaTY0X0xzai14N3U1Q2F3b2hIdm1r?oc=5",
+      "summary": "Here are the economic implications of 4 potential US election outcomes, according to Deutsche Bank Forex Factory",
+      "published": "25 Aug 2026 03:01 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
       "source": "BBC World",
       "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
       "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
       "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-      "published": "25 Aug 2026 00:29 WIB",
+      "published": "25 Aug 2026 08:48 WIB",
       "sentiment": "Bullish",
       "score": 0.581,
       "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "US removes Syria from list of state sponsors of terrorism",
+      "url": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Trump administration has embraced Syria's new president, former al-Qaeda linked militant Ahmed al-Sharaa.",
+      "published": "25 Aug 2026 07:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.681,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Israel warns of 'forceful' response to kites flown from Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/c5y58g2dp3xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Hamas says the kites found in Israeli border communities in recent days were launched by children in Gaza.",
+      "published": "24 Aug 2026 20:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.054,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -348,17 +337,6 @@
       "published": "24 Aug 2026 17:40 WIB",
       "sentiment": "Bearish",
       "score": -0.692,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Israel warns of 'forceful' response to kites flown from Gaza",
-      "url": "https://www.bbc.co.uk/news/articles/c5y58g2dp3xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Hamas says the kites found in Israeli border communities in recent days were launched by children in Gaza.",
-      "published": "24 Aug 2026 20:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.054,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -375,17 +353,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
-      "published": "24 Aug 2026 02:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.876,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
       "title": "'Half my business will be gone' - firms in Canada and US fear trade war",
       "url": "https://www.bbc.co.uk/news/articles/cy0j0zz8l83o?at_medium=RSS&at_campaign=rss",
       "summary": "Business owners in both countries are navigating uncertainty and worry as the tit-for-tat import taxes ratchet up.",
@@ -396,22 +363,11 @@
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "Australian shark attack victim grateful for 'second chance at life'",
-      "url": "https://www.bbc.co.uk/news/articles/c87n792dnlno?at_medium=RSS&at_campaign=rss",
-      "summary": "Leah Stewart was mauled by a shark in June, suffering multiple bites to her arms and legs.",
-      "published": "24 Aug 2026 12:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.671,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC Business",
       "title": "US-Canada trade war escalates as Trump threatens tariff hike on autos after Carney vows to retaliate",
       "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss",
       "summary": "Mark Carney accused Trump of wanting to \"destroy\" Canada's auto industry, and said he would only resume trade talks if the US comes with the \"right attitude\".",
-      "published": "25 Aug 2026 04:20 WIB",
+      "published": "25 Aug 2026 07:25 WIB",
       "sentiment": "Bearish",
       "score": -0.984,
       "emoji": "🔴",
@@ -429,11 +385,22 @@
       "impact": "high"
     },
     {
+      "source": "BBC Business",
+      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
+      "published": "24 Aug 2026 02:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.876,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "BBC Top Stories",
       "title": "Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
       "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
       "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-      "published": "25 Aug 2026 00:29 WIB",
+      "published": "25 Aug 2026 08:48 WIB",
       "sentiment": "Bullish",
       "score": 0.581,
       "emoji": "🟢",
@@ -449,6 +416,17 @@
       "score": 0.74,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran war live: US slaps new sanctions on Iran, warns Tehran trade partners",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/25/iran-war-live-drat?traffic_source=rss",
+      "summary": "US tells countries to choose between Washington and Tehran, warns Iran's trade partners they will face consequences.",
+      "published": "25 Aug 2026 07:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.851,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
@@ -539,39 +517,6 @@
       "impact": "medium"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Yemen’s Houthis report attack on Saudi oil tanker in Red Sea",
-      "url": "https://www.aljazeera.com/news/2026/8/24/yemens-houthis-report-attack-on-saudi-ship?traffic_source=rss",
-      "summary": "Saudi shipping company Bahri confirmed its vessel was struck, all crew members safe.",
-      "published": "25 Aug 2026 02:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.376,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Video: Israel attacks desalination plant and mosque in Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-israel-attacks-desalination-plant-and-mosque-in-gaza?traffic_source=rss",
-      "summary": "Israel has attacked a critical water desalination plant and a mosque in Gaza as it intensifies attacks on the enclave.",
-      "published": "25 Aug 2026 02:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.958,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Why ‘pogrom’ best describes what’s happening in the occupied West Bank",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/why-pogrom-best-describes-whats-happening-in-the-occupied-west-bank?traffic_source=rss",
-      "summary": "Israeli settler attacks in the occupied West Bank aren’t just ‘clashes’, they fit the definition of pogroms.",
-      "published": "25 Aug 2026 02:09 WIB",
-      "sentiment": "Bullish",
-      "score": 0.506,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "MarketWatch",
       "title": "Ford’s $3 billion Canadian bet is getting caught in trade-war crosshairs",
       "url": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
@@ -591,17 +536,6 @@
       "sentiment": "Netral",
       "score": 0.023,
       "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Trump’s trade war with Canada could lead the U.S. back to quantitative easing",
-      "url": "https://www.marketwatch.com/story/trumps-canada-trade-war-could-lead-the-u-s-back-to-quantitative-easing-eef9be8b?mod=mw_rss_topstories",
-      "summary": "That’s good for gold, stocks and long bonds. Eventually.",
-      "published": "25 Aug 2026 02:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.16,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -628,17 +562,6 @@
     },
     {
       "source": "CNBC World",
-      "title": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
-      "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
-      "summary": "President Donald Trump said the U.S. will raise tariffs on imports of cars, trucks and auto parts from Canada to 50% on Jan. 1, 2027.",
-      "published": "25 Aug 2026 06:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
       "title": "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
       "url": "https://www.cnbc.com/2026/08/24/trump-iran-economy-sanctions-china-bessent.html",
       "summary": "The Trump administration unveiled a plan to isolate Iran's economy by threatening to impose secondary sanctions on the Islamic Republic's \"enablers.\"",
@@ -650,23 +573,23 @@
     },
     {
       "source": "CNBC World",
+      "title": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
+      "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
+      "summary": "President Donald Trump said the U.S. will raise tariffs on imports of cars, trucks and auto parts from Canada to 50% on Jan. 1, 2027.",
+      "published": "25 Aug 2026 06:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
       "title": "Yields decline on CNBC report Treasury could use General Account to fund buybacks",
       "url": "https://www.cnbc.com/2026/08/24/treasury-yields-warsh-jackson-hole.html",
       "summary": "Treasury yields fell Monday as investors await Federal Reserve Chair Kevin Warsh's keynote speech at Jackson Hole later this week.",
       "published": "25 Aug 2026 03:22 WIB",
       "sentiment": "Bullish",
       "score": 0.299,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Oil prices fall as U.S. rolls out global sanctions focused on Iran",
-      "url": "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html",
-      "summary": "Oil prices fell Monday as the U.S. rolled out its global sanctions plan focused on Iran.",
-      "published": "25 Aug 2026 00:57 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
       "emoji": "🟢",
       "impact": "high"
     },
