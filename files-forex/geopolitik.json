@@ -1,5 +1,5 @@
 {
-  "generated": "26 Aug 2026 22:01 WIB",
+  "generated": "27 Aug 2026 02:26 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,64 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.405,
-      "count": 25
+      "score": -0.31,
+      "count": 22
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.436,
-      "count": 24
+      "score": -0.369,
+      "count": 21
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.405,
-      "count": 22
+      "score": -0.304,
+      "count": 20
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.101,
-      "count": 17
+      "score": -0.22,
+      "count": 14
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.067,
-      "count": 8
+      "score": -0.436,
+      "count": 5
     },
     {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.351,
-      "count": 6
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.351,
-      "count": 6
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.152,
+      "count": 3
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.149,
-      "count": 4
+      "score": -0.106,
+      "count": 3
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.106,
+      "count": 3
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Putin said to plan Ukraine escalation after seeing talks as fruitless",
+      "url": "https://investinglive.com/news/putin-said-to-plan-ukraine-escalation-after-seeing-talks-as-fruitless/",
+      "summary": "The CIA visit to Moscow yesterday led to some optimism about a thawing or potential deal. Instead, we're getting a further cycle of escalation that follows rumors of 300,000 more Russians set to be drafted. In any case, oil is higher on this report and it's hard to see this war ever ending. The Bloo",
+      "published": "26 Aug 2026 22:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.742,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "EIA weekly US crude oil inventories +95K vs +597K expected",
@@ -99,158 +110,136 @@
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Oil prices sink as expectations for an imminent US-Iran deal increase. What's next?",
-      "url": "https://investinglive.com/commodities/oil-prices-sink-as-expectations-for-an-imminent-us-iran-deal-increase-what-s-next/",
-      "summary": "FUNDAMENTAL OVERVIEW Crude oil sold off hard yesterday following reports that Pakistan's Chief of Army, Asim Munir, was carrying a proposal to Iranian leaders that included the removal of the US naval blockade and gradual lift of sanctions under the Islamabad Memorandum of Understanding. Even though",
-      "published": "26 Aug 2026 15:50 WIB",
+      "source": "FXStreet News",
+      "title": "Forex Today: US Dollar firms ahead of Jackson Hole",
+      "url": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-ahead-of-jackson-hole-202608261842",
+      "summary": "The US Dollar (USD) firmed on Wednesday, with the US Dollar Index (DXY) climbing toward 99.20 as traders squared positions ahead of the Jackson Hole Symposium.",
+      "published": "27 Aug 2026 01:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Chinese Yuan: Further gains toward 6.7000 against US Dollar – UOB",
+      "url": "https://www.fxstreet.com/news/chinese-yuan-further-gains-toward-67000-against-us-dollar-uob-202608261811",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report USD/CNH slipped to 6.7166 and closed slightly lower, with short-term downside momentum gradually building.",
+      "published": "27 Aug 2026 01:11 WIB",
+      "sentiment": "Bullish",
+      "score": 0.317,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Canadian Dollar: Tariff headlines but range intact against US Dollar – Scotiabank",
+      "url": "https://www.fxstreet.com/news/canadian-dollar-tariff-headlines-but-range-intact-against-us-dollar-scotiabank-202608261748",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight that the Canadian Dollar (CAD) is slightly softer, tracking broader USD gains and weaker Oil, while USD/CAD trades almost exactly at their fair value estimate near 1.3862.",
+      "published": "27 Aug 2026 00:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.863,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "British Pound retreats as sticky PCE inflation keeps Fed hike bets alive",
+      "url": "https://www.fxstreet.com/news/british-pound-retreats-as-sticky-pce-revives-fed-hike-bets-202608261634",
+      "summary": "The Pound Sterling (GBP) retreats about 0.39% on Wednesday as the US Dollar (USD) stages a recovery after a US inflation report showed prices remain elevated, keeping the chances of a Federal Reserve (Fed) rate hike toward the end of the year.",
+      "published": "26 Aug 2026 23:34 WIB",
       "sentiment": "Bullish",
       "score": 0.607,
       "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "ECB's Schnabel says the central bank must act early to prevent second-round effects",
-      "url": "https://investinglive.com/central-banks/ecb-s-schnabel-says-the-central-bank-must-act-early-to-prevent-second-round-effects/",
-      "summary": "ECB Executive Board member Isabel Schnabel reiterated the need to act early to prevent inflation from becoming entrenched, warning that second-round effects remain a key risk as price pressures persist across the Eurozone. She noted that inflation is likely to remain above the ECB’s 2% target for an",
-      "published": "26 Aug 2026 12:43 WIB",
-      "sentiment": "Bearish",
-      "score": -0.951,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "What are the main events for today?",
-      "url": "https://investinglive.com/news/what-are-the-main-events-for-today-28/",
-      "summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the Swiss economic sentiment index and UK CBI distributive trades. The data won't change anything for the respective central banks, so the market reaction will be muted. The marke",
-      "published": "26 Aug 2026 11:23 WIB",
+      "source": "FXStreet News",
+      "title": "Euro firms against British Pound on hopes of a Hormuz deal",
+      "url": "https://www.fxstreet.com/news/euro-firms-against-british-pound-on-hopes-of-a-hormuz-deal-202608261622",
+      "summary": "EUR/GBP is trading around 0.8570 on Wednesday, on the front foot as hopes of a de-escalation in the Gulf hand the Euro (EUR) a modest lift.",
+      "published": "26 Aug 2026 23:22 WIB",
       "sentiment": "Bullish",
-      "score": 1.0,
+      "score": 0.912,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Canadian Dollar falls despite Oil gains as trade tensions take center stage",
-      "url": "https://www.fxstreet.com/news/canadian-dollar-falls-despite-oil-gains-as-trade-tensions-take-center-stage-202608261438",
-      "summary": "USD/CAD rises 0.30% on Wednesday, trading around 1.3880 at the time of writing.",
-      "published": "26 Aug 2026 21:38 WIB",
-      "sentiment": "Bearish",
-      "score": -0.657,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Canada: Trade shock and GDP drag – TD Securities",
-      "url": "https://www.fxstreet.com/news/canada-trade-shock-and-gdp-drag-td-securities-202608261425",
-      "summary": "TD Securities’ Robert Both analyzes the impact of new Section 338 US tariffs and Canada’s retaliation on the Canadian economy. The report estimates the combined measures will trim about 0.3 percentage points from GDP by 2027, with growth effects concentrated in late 2026.",
-      "published": "26 Aug 2026 21:25 WIB",
-      "sentiment": "Bullish",
-      "score": 0.157,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "US Dollar: Pressure builds as risk premia rise – ABN AMRO",
-      "url": "https://www.fxstreet.com/news/us-dollar-pressure-builds-as-risk-premia-rise-abn-amro-202608261406",
-      "summary": "ABN AMRO’s Georgette Boele notes that sentiment towards the Dollar is weakening as fiscal concerns and rising risk premia outweigh the support from higher US Treasury yields.",
-      "published": "26 Aug 2026 21:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.734,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Neither a confirmed hike nor a guaranteed pause: Why the Australian Dollar is climbing toward 0.7200",
-      "url": "https://www.fxstreet.com/news/neither-a-confirmed-hike-nor-a-guaranteed-pause-why-the-australian-dollar-is-climbing-toward-07200-202608261405",
-      "summary": "The Australian Dollar (AUD) is outperforming across global FX markets following higher-than-expected Consumer Price Index (CPI) data for July, which sharply lifted expectations for additional Reserve Bank of Australia (RBA) interest-rate hikes.",
-      "published": "26 Aug 2026 21:05 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Aluminium: Midwest premium to stay elevated – ING",
-      "url": "https://www.fxstreet.com/news/aluminium-midwest-premium-to-stay-elevated-ing-202608261330",
-      "summary": "ING Commodities Strategist Ewa Manthey analyses US aluminium policy and market structure, highlighting that Washington’s amended Section 232 tariffs aim to incentivize domestic smelting but will not quickly resolve the supply shortfall.",
-      "published": "26 Aug 2026 20:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.497,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Kevin Warsh’s Jackson Hole dilemma: Say too much, too little, or just enough",
-      "url": "https://www.fxstreet.com/news/kevin-warshs-jackson-hole-dilemma-say-too-much-too-little-or-just-enough-202608261315",
-      "summary": "Kevin Warsh is preparing to deliver his first Jackson Hole speech as Federal Reserve (Fed) Chair on Friday, and expectations extend well beyond whether interest rates will be raised or left unchanged in September.",
-      "published": "26 Aug 2026 20:15 WIB",
-      "sentiment": "Bullish",
-      "score": 0.545,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Canadian Dollar: Trade dispute risks weigh on Canada – BNY",
-      "url": "https://www.fxstreet.com/news/canadian-dollar-trade-dispute-risks-weigh-on-canada-bny-202608261247",
-      "summary": "BNY’s Geoff Yu reports that Washington is considering further trade penalties against Canada after Ottawa’s dollar-for-dollar retaliation to new U.S. tariffs. Canada plans to double counter-tariffs on U.S. steel and aluminum and add new duties on a range of goods.",
-      "published": "26 Aug 2026 19:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.586,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "Investing.com Forex",
-      "title": "US imposes sanctions on Palestine Action group",
-      "url": "https://www.investing.com/news/stock-market-news/us-imposes-sanctions-on-palestine-action-group-4877520",
+      "title": "Canada aluminum tariffs: risks and opportunities for Rio Tinto, Alcoa, and Teck",
+      "url": "https://www.investing.com/news/stock-market-news/canada-aluminum-tariffs-risks-and-opportunities-for-rio-tinto-alcoa-and-teck-93CH-4877748",
       "summary": "",
-      "published": "26 Aug 2026 21:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.183,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Citadel Securities’ Flight Reverses Bearish Call on Bonds",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/citadel-securities-flight-reverses-bearish-call-on-long-bonds",
-      "summary": "Citadel Securities’ Frank Flight, who just last month warned of a “cruel summer” for US bond investors, now sees the balance of risks tilted toward a rally, citing crowded bearish positioning and improving inflation data.",
-      "published": "26 Aug 2026 07:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.183,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Stocks Waver, Treasuries Dip Ahead of Nvidia Earnings, PCE Data | Bloomberg Brief 08/26/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/bloomberg-brief-08-26-26-video",
-      "summary": "US equity futures waver and Treasuries fall ahead of quarterly results from Nvidia and July's PCE data, the Federal Reserve’s preferred inflation gauge. The Trump administration mulls additional trade measures against Canada after Prime Minister Mark Carney unveiled dollar-for-dollar retaliation to ",
-      "published": "26 Aug 2026 19:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.361,
-      "emoji": "🟢",
+      "published": "27 Aug 2026 01:56 WIB",
+      "sentiment": "Netral",
+      "score": 0.048,
+      "emoji": "⚪",
       "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Miller Tabak's Maley on Nvidia Expectations, Kevin Warsh",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/miller-tabak-s-maley-on-nvidia-expectations-kevin-warsh-video",
-      "summary": "Matt Maley, Chief Market Strategist at Miller Tabak, joins Bloomberg's Vonnie Quinn on \"Bloomberg Brief\" to discuss how Nvidia's results will impact the AI trade. (Source: Bloomberg)",
-      "published": "26 Aug 2026 19:04 WIB",
+      "title": "US Aims to Revive Civil War-Era Court to Claim Iran Oil as Prize",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/us-aims-to-revive-civil-war-era-court-to-claim-iran-oil-as-prize",
+      "summary": "The Justice Department is preparing to activate a long-dormant maritime war court to streamline military capture of Iranian oil tankers as US prizes, according to three people familiar with the plans.",
+      "published": "27 Aug 2026 02:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.722,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "First US Phosphate Plant in Decades Planned Amid Global Conflict",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/first-us-phosphate-plant-in-decades-planned-amid-global-conflict",
+      "summary": "Farm cooperative CHS Inc. and fertilizer producer OCP North America are proposing a $450 million phosphate fertilizer plant in Louisiana, bolstering domestic supplies as global conflicts have increasingly thwarted the flow of foreign crop nutrients.",
+      "published": "27 Aug 2026 02:06 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.852,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bessent’s Treasury Twist Makes November Refunding a Wall Street Wildcard",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/bessent-s-treasury-twist-makes-november-refunding-a-wall-street-wildcard",
+      "summary": "US Treasury Secretary Scott Bessent’s more activist style of managing the nation’s debt has Wall Street war-gaming a potentially bigger shift in the government’s borrowing strategy over the coming months.",
+      "published": "27 Aug 2026 01:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.054,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Israel 'Fully Aligned' With Trump, Kushner on Hamas Disarmament Says Ophir Falk",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-26/israel-fully-aligned-with-trump-kushner-on-hamas-falk-video",
+      "summary": "Ophir Falk, foreign policy advisor to Israel Prime Minister Benjamin Netanyahu, said Israel is 'fully aligned' with President Trump and Jared Kushner when it comes to the need for Hamas to disarm for peace projects in Gaza to move forward. Falk said that Hamas could choose to lay down their arms in ",
+      "published": "27 Aug 2026 01:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.379,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mexico Touts Improving CDS as Bonds Trade as Speculative Grade",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/mexico-touts-improving-cds-as-bonds-trade-as-speculative-grade",
+      "summary": "Mexico cited improving spreads in the credit-default swaps market as a sign of its good standing in debt markets, where investors have sent its bonds trading more in line with speculative-grade nations.",
+      "published": "27 Aug 2026 01:10 WIB",
+      "sentiment": "Bullish",
+      "score": 0.663,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Latest Oil Market News and Analysis for Aug. 26",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-25/latest-oil-market-news-and-analysis-for-aug-26",
+      "summary": "Oil climbed after Russian President Vladimir Putin was said to be planning an escalation in Ukraine, fueling investor concerns about a fresh global supply squeeze.",
+      "published": "26 Aug 2026 05:06 WIB",
+      "sentiment": "Bullish",
+      "score": 0.238,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "Google News Geopolitik",
@@ -276,54 +265,10 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Geopolitical risks have boosted safe-haven demand, pushing the U.S. Dollar Index toward the 99 level, though Fed policy expectations are capping further gains. - 富途牛牛",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFlKR0JNQmJYRzFyQlhhdFlQWmRfY3A4b01QRmZQMUpCODV4OE0wYW95TVpfcU1Dbkdyck5ZR2NlQTVMV3htV1VZVGRNNlhZUHJlUW5PdWFJVFNzcVNqdk9oVVNqVURkZ0hTazlVRkotMnQ3X25tZnBFekdKZlJmcVRublBweHAtX3FocEFBVzVLNGEyTy0xRFlac19HMGxLMGFpbWhpaTM?oc=5",
-      "summary": "Geopolitical risks have boosted safe-haven demand, pushing the U.S. Dollar Index toward the 99 level, though Fed policy expectations are capping further gains. 富途牛牛",
-      "published": "25 Aug 2026 13:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Canadian Dollar remains depressed as firmer USD and trade war counter higher oil prices - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdjZIRXFWYlV3eHJkN081TzlhLXJaMVQ2VFR3azF6Z1FleGRoUTNXT1ZCX2dZMkI1NFAxQUFvMVhpNFRlRXRKeWtPTURGd2piMkJNX2diODBTZ0hScGFvNElYblFpOVN5ZzY0XzJ2TE5pa1JOcUltanUzMmNMYVMwNmxvTERfLTNWckREajkxX3Q5Q0pIb0dtNUZWaUxqSURXZXdjQlRVZlU2azVEMnk3WmM5SjIxdzlQM3NHN3ZaLWxMRWE2ZHEyd3Rn?oc=5",
-      "summary": "Canadian Dollar remains depressed as firmer USD and trade war counter higher oil prices FXStreet",
-      "published": "25 Aug 2026 11:12 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Dollar Index Holds Near 99.00 as Geopolitical Tensions Drive Safe-Haven Demand - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRndTRjR1VnRQS0dlR0JMNEJ6cndDd1hsZVFCRWhTa1BsbEZPTW9LcXVwRFlpTDk5TFF6bC1SNXgzSWlORC1XV2x0UThlZ1RObFQzcWpKRjhKZldtVFhpQ3EzRUlIbktFeUhfRWY4NEJ3aVVSWDFKa1FkRzdCZUxVWDlTUTI0elIyZzdwZ3Y2NA?oc=5",
-      "summary": "Dollar Index Holds Near 99.00 as Geopolitical Tensions Drive Safe-Haven Demand CryptoRank",
-      "published": "25 Aug 2026 13:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.831,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "US Iran Sanctions Boost Dollar, FX Volatility Watch - Bitget",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSkdrb1Q0MFA1VXFHeGVyX1ZYTFYtUHBKbkxGWm8yc0gyVFZ5Y1lSUGFpT0lpeEc2UjFFMjVkODI1LUZ4MDdmT2pqOHNyMkxvckp6NUd3aVhDMHotcTQ2QVE1QTc2bUd4TnBDYkp5dEF2N2RPWFVFb0x1akxVSl9uMlRxSVdRMk5RaFVISTVB0gGOAUFVX3lxTFBKR2tvVDQwUDVVcUd4ZXJfVlhMVi1QcEpuTEZabzJzSDJUVnljWVJQYWlPSWl4RzZSMUUyNWQ4MjUtRngwN2ZPamo4c3IyTG9ySno1R3dpWEMwei1xNDZBUTVBNzZtR3hOcENiSnl0QXY3ZE9YVUVvTHVqTFVKX24yVHFJV1EyTlFoVUhJNUE?oc=5",
-      "summary": "US Iran Sanctions Boost Dollar, FX Volatility Watch Bitget",
-      "published": "25 Aug 2026 10:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.58,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
       "title": "Here are the economic implications of 4 potential US election outcomes, according to Deutsche Bank - Forex Factory",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYzhKalBnbXhhSVJFQ3hDLTRuNk5NS1NsQzllakdiOUtKTXNLdklxMVdHRTVkUDlvLVMzbkFteDU5ZTJNeDlEWEw4VFY1X2R0V2ZUSnM5ZU5JSjBuZS1Zdi1feW9VWVJJLVhGVFV1ams2dGs1eF9RUzdXLXVHd1d0M3lUeU05LWpYTFg4bl9JaHQySGtWREVnd2lKMTNHQ3dnNTJmdTZiZWd4c01q0gGbAUFVX3lxTE40enFVN3pJN3lGY3hqYU1Qby03SjlMeG15SXZVWGluV2dkN3FFZGR3aHhDa2NFNVMwZmdWb05XQVBtaU9BRE9JWTFKSlVMWjNPb1hRdGtQLVVRVXlmTTlMN1IwUDcwcFBtVldXeGF5U2t4SFVjbXRqb2JSakoyd1BINml6dmtQaTY0X0xzai14N3U1Q2F3b2hIdm1r?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOHJRaXRENmxzdTNwU1U2Skx3Vk0zc1hnWXpRTS1BRWJIS3hoWi16aFN1Y1RXZEJ3bGVHSmF2c29DWWJHTmh2SFpRbkQtenY3VkliRl84MVJic3VYOHRsblZwb3VGcEtwZnRHZjFjSzdNRDdNeVJYNlRqcEZzMlhHdFRpdkNQWW1MTG9RRi1wSlh3REJ1WW41Q1FzV1NGOWt0cE9DbkhJOVZLVDE40gGbAUFVX3lxTE40enFVN3pJN3lGY3hqYU1Qby03SjlMeG15SXZVWGluV2dkN3FFZGR3aHhDa2NFNVMwZmdWb05XQVBtaU9BRE9JWTFKSlVMWjNPb1hRdGtQLVVRVXlmTTlMN1IwUDcwcFBtVldXeGF5U2t4SFVjbXRqb2JSakoyd1BINml6dmtQaTY0X0xzai14N3U1Q2F3b2hIdm1r?oc=5",
       "summary": "Here are the economic implications of 4 potential US election outcomes, according to Deutsche Bank Forex Factory",
-      "published": "26 Aug 2026 05:34 WIB",
+      "published": "26 Aug 2026 21:10 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -451,81 +396,125 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Burnham refuses to rule out tax rises in autumn Budget",
-      "url": "https://www.bbc.co.uk/news/articles/cj06818jgzlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Experts have warned that he and Chancellor John Healey will have little room to manoeuvre in their first Budget.",
-      "published": "25 Aug 2026 13:40 WIB",
+      "source": "BBC Top Stories",
+      "title": "New thunderstorm warnings for parts of UK as rain set to continue",
+      "url": "https://www.bbc.co.uk/weather/articles/cvgydkpdn99o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Met Office has issued fresh thunderstorm warnings for Thursday with the potential for England and Wales to see flash flooding as the unsettled weather continues.",
+      "published": "27 Aug 2026 02:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.353,
+      "score": -0.607,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Cosmic radiation link in flight attendant's breast cancer, French court finds",
-      "url": "https://www.bbc.co.uk/news/articles/cn0j3z6147jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Former Air France stewardess Sophie Lainault has had her cancer recognised as an occupational disease.",
-      "published": "26 Aug 2026 17:29 WIB",
+      "title": "US designates Palestine Action a terrorist group",
+      "url": "https://www.bbc.co.uk/news/articles/cn4kzd7k2nvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Supporting Palestine Action became illegal in the UK in 2025 after the government banned it under anti-terror legislation.",
+      "published": "27 Aug 2026 01:41 WIB",
       "sentiment": "Bearish",
-      "score": -0.949,
+      "score": -0.856,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Children in Gaza fear flying their kites after Israeli threat",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/children-in-gaza-fear-flying-their-kites-after-israeli-threat?traffic_source=rss",
-      "summary": "A 10-year-old boy who makes kites says he is afraid to fly them after Israel threatened to treat kites as acts of war.",
-      "published": "26 Aug 2026 20:53 WIB",
-      "sentiment": "Bearish",
-      "score": -0.976,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "ICC chief urges Japan to counter US pressure on the court",
-      "url": "https://www.aljazeera.com/news/2026/8/26/icc-chief-urges-japan-to-counter-us-pressure-on-war-crimes-court?traffic_source=rss",
-      "summary": "Washington escalated its campaign against the ICC last week by sanctioning its president and a senior trial lawyer.",
-      "published": "26 Aug 2026 20:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Why India is sharing missile secrets with its private sector",
-      "url": "https://www.aljazeera.com/news/2026/8/26/why-india-is-sharing-missile-secrets-with-its-private-sector?traffic_source=rss",
-      "summary": "New policy allows India’s private sector to produce advanced weaponry, supporting its goal of military self-sufficiency.",
-      "published": "26 Aug 2026 18:32 WIB",
+      "title": "Kurdish-led SDF has dissolved, but has Syria really unified its military?",
+      "url": "https://www.aljazeera.com/news/2026/8/26/kurdish-led-sdf-has-dissolved-but-has-syria-really-unified-its-military?traffic_source=rss",
+      "summary": "SDF's dissolution is a major victory for Damascus, but unresolved questions over command and deployment remain.",
+      "published": "27 Aug 2026 01:19 WIB",
       "sentiment": "Bullish",
-      "score": 0.62,
+      "score": 0.591,
       "emoji": "🟢",
       "impact": "low"
     },
     {
-      "source": "MarketWatch",
-      "title": "Bill Gates issues a stark warning about AI — and Americans increasingly share his concerns",
-      "url": "https://www.marketwatch.com/story/bill-gates-issues-a-stark-warning-about-ai-and-americans-increasingly-share-his-concerns-e54b9e72?mod=mw_rss_topstories",
-      "summary": "The Microsoft co-founder is urging technology leaders and government officials to better acknowledge the risks AI poses to jobs and human connections.",
-      "published": "26 Aug 2026 21:51 WIB",
+      "source": "Al Jazeera",
+      "title": "US imposes sanctions on Palestine Action and other left-wing groups",
+      "url": "https://www.aljazeera.com/news/2026/8/26/us-imposes-sanctions-on-palestine-action-and-other-left-wing-groups?traffic_source=rss",
+      "summary": "Palestine Action's Huda Ammori says Trump's penalties should be a 'wake-up call' for UK to lift ban on the group.",
+      "published": "27 Aug 2026 01:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.087,
+      "score": -0.692,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "MarketWatch",
-      "title": "China is collecting on old debts but won’t pay its own",
-      "url": "https://www.marketwatch.com/story/china-is-collecting-on-old-debts-but-wont-pay-its-own-b5fccb4c?mod=mw_rss_topstories",
-      "summary": "China’s leaders are working to recoup hundreds of billions of dollars worth of unpaid taxes. At the same time, the country is defaulting on a significant obligation.",
-      "published": "26 Aug 2026 21:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.37,
-      "emoji": "🟢",
+      "source": "Al Jazeera",
+      "title": "Trump says Iran war will continue for as long as necessary",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/trump-says-iran-war-will-continue-for-as-long-as-necessary?traffic_source=rss",
+      "summary": "Trump says Iran war will continue for as long as necessary",
+      "published": "27 Aug 2026 01:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.912,
+      "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "US inflation holds at 3.7 percent in July, above Fed target",
+      "url": "https://www.aljazeera.com/economy/2026/8/26/us-inflation-remains-sticky-in-july?traffic_source=rss",
+      "summary": "Inflation has worsened since the US and Israel attacked Iran, sending energy prices spiralling.",
+      "published": "27 Aug 2026 00:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.666,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Prince Harry and Meghan Markle return to UK after royal rift",
+      "url": "https://www.aljazeera.com/news/2026/8/26/prince-harry-and-meghan-markle-return-to-uk-after-royal-rift?traffic_source=rss",
+      "summary": "The couple quit royal duties six years ago to head to California. It's unclear how they will be received on return.",
+      "published": "27 Aug 2026 00:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.25,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran emphasises self-sufficiency in battle against US economic war",
+      "url": "https://www.aljazeera.com/news/2026/8/26/iran-emphasises-self-sufficiency-battle-against-us-economic-war?traffic_source=rss",
+      "summary": "Iranian authorities believe they can withstand US sanctions, but warn of a tough year ahead.",
+      "published": "26 Aug 2026 23:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.761,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Putin and al-Sharaa discuss Russia-Syria relations, deal on military bases",
+      "url": "https://www.aljazeera.com/news/2026/8/26/putin-and-al-sharaa-discuss-russia-syria-relations-deal-on-military-bases?traffic_source=rss",
+      "summary": "Syria has been in talks on the fate of Khmeimim and Tartous bases, which Russia used to support ousted Assad regime.",
+      "published": "26 Aug 2026 23:27 WIB",
+      "sentiment": "Bullish",
+      "score": 0.482,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Video: Man kills eight relatives in Montana gun attack",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/video-man-kills-eight-relatives-in-montana-gun-attack?traffic_source=rss",
+      "summary": "A man killed eight relatives at a family home in the US state of Montana.",
+      "published": "26 Aug 2026 23:16 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Syria removed: Which countries are still on the US ‘terror’ list – and why?",
+      "url": "https://www.aljazeera.com/news/2026/8/26/syria-removed-which-countries-are-still-on-the-us-terror-list-and-why?traffic_source=rss",
+      "summary": "The US decision leaves three nations - Cuba, Iran and North Korea - on its 'State Sponsors of Terrorism' blacklist.",
+      "published": "26 Aug 2026 23:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.681,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "CNBC Economy",
@@ -540,6 +529,28 @@
     },
     {
       "source": "CNBC World",
+      "title": "Bill Gates warns ‘there is no plan’ for the ‘upheaval’ AI will cause",
+      "url": "https://www.cnbc.com/2026/08/26/bill-gates-ai-jobs-economic-upheaval.html",
+      "summary": "Bill Gates warned governments are not adequately preparing for how AI could displace workers, strain social systems and create global risks.",
+      "published": "26 Aug 2026 23:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.759,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Federal judge lifts final block on Trump mail-in voting order, clearing way for midterm restrictions",
+      "url": "https://www.cnbc.com/2026/08/26/trump-usps-mail-voting-rule-lawsuit-states-supreme-court.html",
+      "summary": "The rule in question would require election officials to give USPS voter information and use federally reviewed, uniquely barcoded ballot envelopes.",
+      "published": "27 Aug 2026 02:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.36,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
       "title": "Dollar and bond markets 'on edge' ahead of Jackson Hole as Bessent's market intervention piles pressure on Warsh",
       "url": "https://www.cnbc.com/2026/08/26/jackson-hole-warsh-bessent-bonds-treasury-dollar.html",
       "summary": "Strategists said investors were approaching Jackson Hole “on the back foot.\"",
@@ -551,34 +562,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Bill Gates warns ‘there is no plan’ for the ‘upheaval’ AI will cause",
-      "url": "https://www.cnbc.com/2026/08/26/bill-gates-ai-jobs-economic-upheaval.html",
-      "summary": "Bill Gates warned governments are not adequately preparing for how AI could displace workers, strain social systems and create global risks.",
-      "published": "26 Aug 2026 21:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.759,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Oil bounces off lows after Iran says deal reached with Oman to share Hormuz revenue",
+      "title": "Oil prices little changed after Iran says deal reached with Oman to share revenue from Hormuz",
       "url": "https://www.cnbc.com/2026/08/26/oil-falls-as-the-us-pivots-to-economic-pressure-on-iran-.html",
-      "summary": "Oil fell Wednesday, as investors continue to assess the U.S. pivot toward economic sanctions rather than military strikes to add pressure on Iran.",
-      "published": "26 Aug 2026 21:56 WIB",
+      "summary": "Oil fell more than 3% earlier in the session as the U.S. relies on economic pressure against Iran rather than military strikes.",
+      "published": "27 Aug 2026 01:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.52,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Mark Walter's TWG Global blasts 'attacks,' insists 'no fraud' amid federal probe",
-      "url": "https://www.cnbc.com/2026/08/26/mark-walter-twg-guggenheim-lakers.html",
-      "summary": "The empire of billionaire Los Angeles Dodgers owner Mark Walter has faced media scrutiny since he said he would sell his majority share of the LA Lakers.",
-      "published": "26 Aug 2026 21:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.75,
+      "score": -0.113,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -605,7 +594,7 @@
       "impact": "high"
     },
     {
-      "source": "CNBC World",
+      "source": "CNBC Markets",
       "title": "China needs U.S. dollars but is building a hedge against Washington’s sanctions",
       "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html",
       "summary": "The U.S. can pressure Chinese banks over Iran through access to its financial system, while Beijing is building alternatives such as CIPS.",
