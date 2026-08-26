@@ -1,30 +1,42 @@
 {
-  "generated": "26 Aug 2026 07:02 WIB",
+  "generated": "26 Aug 2026 08:23 WIB",
   "summary": {
-    "total": 112,
-    "bullish": 48,
-    "bearish": 50,
+    "total": 107,
+    "bullish": 44,
+    "bearish": 49,
     "netral": 14,
-    "avg_score": -0.0836,
+    "avg_score": -0.0818,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
-        "sentiment": "Bearish",
-        "score": -0.067,
+        "sentiment": "Netral",
+        "score": -0.013,
         "count": 37
+      },
+      {
+        "currency": "CAD",
+        "sentiment": "Bearish",
+        "score": -0.441,
+        "count": 7
       },
       {
         "currency": "JPY",
         "sentiment": "Bearish",
-        "score": -0.337,
-        "count": 4
+        "score": -0.435,
+        "count": 6
       },
       {
         "currency": "EUR",
         "sentiment": "Bullish",
-        "score": 0.377,
-        "count": 3
+        "score": 0.382,
+        "count": 4
+      },
+      {
+        "currency": "CNY",
+        "sentiment": "Netral",
+        "score": -0.03,
+        "count": 4
       },
       {
         "currency": "GBP",
@@ -33,28 +45,10 @@
         "count": 3
       },
       {
-        "currency": "CAD",
-        "sentiment": "Bearish",
-        "score": -0.925,
-        "count": 3
-      },
-      {
         "currency": "AUD",
         "sentiment": "Bullish",
-        "score": 0.506,
-        "count": 2
-      },
-      {
-        "currency": "CNY",
-        "sentiment": "Netral",
-        "score": 0.028,
-        "count": 2
-      },
-      {
-        "currency": "CHF",
-        "sentiment": "Bearish",
-        "score": -0.78,
-        "count": 1
+        "score": 0.394,
+        "count": 3
       },
       {
         "currency": "NZD",
@@ -67,14 +61,80 @@
   "items": [
     {
       "source": "ForexLive",
-      "title": "Japan July 2026 Services PPI +3.6% y/y (expected 3.2%, prior 3.2%)",
-      "url": "https://investinglive.com/news/japan-july-2026-services-ppi-3-6-y-y-expected-3-2-prior-3-2/",
-      "summary": "Japan July 2026 Services PPI +3.6% y/y expected 3.2%, prior 3.2% And +0.4% m/m prior -0.4% Just the data this post. This article was written by Eamonn Sheridan at investinglive.com.",
-      "published": "26 Aug 2026 06:53 WIB",
+      "title": "Preview, today: Fed's favoured inflation gauge lands two days before Warsh's Jackson Hole speech",
+      "url": "https://investinglive.com/news/preview-today-fed-s-favoured-inflation-gauge-lands-two-days-before-warsh-s-jackson-hole-speech/",
+      "summary": "Today's PCE print carries added weight given its timing, landing just two days ahead of Fed Chair Warsh's first Jackson Hole keynote and before Nvidia's earnings , making this a genuinely stacked stretch for US macro risk. A softer than expected core reading would likely reinforce the case for conti",
+      "published": "26 Aug 2026 07:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.292,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Japan's services inflation accelerates to 3.6pct in July, beating forecasts",
+      "url": "https://investinglive.com/news/japan-s-services-inflation-accelerates-to-3-6pct-in-july-beating-forecasts/",
+      "summary": "The upside surprise adds another data point to the case for a near term BOJ hike, arriving alongside already sharply shifted economist expectations for a September move to 1.25%. With core consumer inflation also accelerating on the back of a weak yen and elevated import costs tied to the Iran confl",
+      "published": "26 Aug 2026 07:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.887,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "PBOC sets USD/ CNY mid-point today at 6.7829 (vs. estimate at 6.7166)",
+      "url": "https://investinglive.com/central-banks/pboc-sets-usd-cny-mid-point-today-at-vs-estimate-at/",
+      "summary": "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this. more to come This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "26 Aug 2026 08:15 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "PBOC is expected to set the USD/CNY reference rate at 6.7166 – Reuters estimate",
+      "url": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-reuters-estimate-2/",
+      "summary": "The People’s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets. China operates a managed floating exchange rate system, under which the renminbi (yuan",
+      "published": "26 Aug 2026 07:15 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "US weighs further trade escalation after Canada sets retaliatory tariffs",
+      "url": "https://investinglive.com/news/us-weighs-further-trade-escalation-after-canada-sets-retaliatory-tariffs/",
+      "summary": "An escalation of the US Canada trade dispute adds a fresh source of policy uncertainty at a moment when markets are already digesting a volatile Fed rate outlook and unresolved Middle East risk. Canada remains one of the largest US trading partners, so further tariff action carries meaningful cross ",
+      "published": "26 Aug 2026 06:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.542,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Japan July 2026 Services PPI +3.6% y/y (expected 3.2%, prior 3.2%)",
+      "url": "https://investinglive.com/news/japan-july-2026-services-ppi-3-6-y-y-expected-3-2-prior-3-2/",
+      "summary": "Japan July 2026 Services PPI +3.6% y/y expected 3.2%, prior 3.2% And +0.4% m/m prior -0.4% Just the data this post. ADDED - details and BoJ implications here: Japan's services inflation accelerates to 3.6pct in July, beating forecasts This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "26 Aug 2026 06:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.379,
+      "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Preview: Nvidia reports Q2 results today, guidance implies revenue near $91 billion",
+      "url": "https://investinglive.com/stocks/preview-nvidia-reports-q2-results-today-guidance-implies-revenue-near-91-billion/",
+      "summary": "With consensus sitting less than one percent above Nvidia's own guidance midpoint, the setup leaves little room for a clean beat to move the stock on its own, the market reaction is more likely to hinge on the Q3 outlook, gross margin trajectory and any colour on Blackwell Ultra execution than on th",
+      "published": "26 Aug 2026 07:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.238,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "ForexLive",
@@ -220,65 +280,65 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Crude oil futures sell at $82.36",
-      "url": "https://investinglive.com/technical-analysis/crude-oil-futures-sell-at-82-36/",
-      "summary": "Crude oil futures are settling at $82.36, down $2.65, or 3.12%, on the day. Fundamentally, the decline reflects an easing of the geopolitical risk premium as traders see the latest U.S. sanctions against Iran as less threatening to global supplies than direct military action. Reports of diplomatic p",
-      "published": "26 Aug 2026 01:54 WIB",
+      "source": "FXStreet News",
+      "title": "Canadian Dollar weakens amid falling oil prices as USD holds steady ahead of US PCE",
+      "url": "https://www.fxstreet.com/news/canadian-dollar-weakens-amid-falling-oil-prices-as-usd-holds-steady-ahead-of-us-pce-202608260120",
+      "summary": "The USD/CAD pair edges higher during the Asian session on Wednesday, though it remains confined within the previous day’s range. Spot prices currently trade around mid-1.3800s as traders now look to the US Personal Consumption Expenditures (PCE) Price Index for some meaningful impetus.",
+      "published": "26 Aug 2026 08:20 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "The AI leaders can't be trusted for AI predictions",
-      "url": "https://investinglive.com/stocks/the-ai-leaders-can-t-be-trusted-for-ai-predictions/",
-      "summary": "One of the most-radicalizing events of the past year in AI has been the co-ordinated change in messaging from AI leaders. Early on, I suspect they were trying to be honest about the impacts of AI, talking about massive disruption in the labor force and economy. What happened -- and these genuises sh",
-      "published": "26 Aug 2026 01:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.762,
+      "score": -0.313,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "US treasury sells $69 billion of 2-year notes at a high yield of 4.204%",
-      "url": "https://investinglive.com/news/us-treasury-sells-69-billion-of-2-year-notes-at-a-high-yield-of/",
-      "summary": "The first coupon auction is complete with the U.S. Treasury selling $69 billion of 2 year notes. The auction results show high yield 4.204% WI level at the time of the auction 4.208% Tail -0.4 bps vs 6 month average of +0.2 basis points Bid to cover 2.60X versus 6 month average of 2.61X Directs 23.1",
-      "published": "26 Aug 2026 00:06 WIB",
+      "source": "FXStreet News",
+      "title": "PBOC sets USD/CNY reference rate at 6.7829 vs. 6.7852 previous",
+      "url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67829-vs-67852-previous-202608260115",
+      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7829 compared to the previous day's fix of 6.7852 and 6.7166 Reuters estimate.",
+      "published": "26 Aug 2026 08:15 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Euro steadies above 1.1650 ahead of US PCE data",
+      "url": "https://www.fxstreet.com/news/euro-steadies-above-11650-ahead-of-us-pce-data-202608260103",
+      "summary": "The EUR/USD pair flatlines near 1.1675 during the early Asian trading hours on Wednesday. The US Treasury's decision to expand its long-term bond buyback program could weigh on the US Dollar (USD) against the Euro (EUR).",
+      "published": "26 Aug 2026 08:03 WIB",
       "sentiment": "Bullish",
-      "score": 0.462,
+      "score": 0.398,
       "emoji": "🟢",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "USDCHF retraces gains into support swing area",
-      "url": "https://investinglive.com/technical-analysis/usdchf-retraces-gains-into-support-swing-area/",
-      "summary": "The USDCHF moved sharply lower last week, falling from a high near 0.8130 to a low near 0.7950. The decline took the pair below its 100-hour moving average, the 50% retracement of the move up from the May low, and ultimately its 100-day moving average at 0.79757. However, sellers were unable to sust",
-      "published": "25 Aug 2026 23:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴",
-      "impact": "low"
+      "source": "FXStreet News",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs up to 50% against US",
+      "url": "https://www.fxstreet.com/news/canada-announces-dollar-for-dollar-retaliatory-tariffs-up-to-50-against-us-202608260042",
+      "summary": "Canada said that it will implement 50% retaliatory tariffs on $20bn worth of US goods, following through on Prime Minister Mark Carney’s vow to match US President Donald Trump’s duties “dollar for dollar,” the Guardian reported.",
+      "published": "26 Aug 2026 07:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.306,
+      "emoji": "🟢",
+      "impact": "medium"
     },
     {
-      "source": "ForexLive",
-      "title": "US Treas. Sec. Bessent: Iran leadership is feeling the economic pressure",
-      "url": "https://investinglive.com/news/bessent-iran-leadership-is-feeling-the-economic-pressure/",
-      "summary": "Treasury Secretary Scott Bessent says economic pressure on Iran is working. He pointed to increasingly candid comments from senior Iranian officials about the country’s economic hardships. Iranian President Masoud Pezeshkian acknowledged widespread shortages and said the war must eventually end. Par",
-      "published": "25 Aug 2026 23:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.918,
-      "emoji": "🔴",
+      "source": "FXStreet News",
+      "title": "Australia CPI forecast to show cooling inflation in July, still above RBA target",
+      "url": "https://www.fxstreet.com/news/australia-cpi-expected-to-show-inflation-easing-in-july-202608252230",
+      "summary": "The Australian Bureau of Statistics (ABS) will publish the July Consumer Price Index (CPI) on Wednesday at 01:30 GMT. The report is expected to show that inflation rose 3.2% from a year earlier, easing from the 3.8% posted in June.",
+      "published": "26 Aug 2026 05:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.17,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "FXStreet News",
       "title": "Gold advances above $4,650 on US Dollar weakness, Treasury bond buyback plans",
       "url": "https://www.fxstreet.com/news/gold-advances-above-4-650-on-us-dollar-weakness-treasury-bond-buyback-plans-202608252327",
-      "summary": "Gold price (XAU/USD) rises to around 4,670, the highest since May 14, during the early Asian session on Wednesday. The precious metal extends the rally amid a weaker US Dollar (USD) and as the US Treasury’s bond buyback plans.",
+      "summary": "Gold price (XAU/USD) rises to around $4,670, the highest since May 14, during the early Asian session on Wednesday. The precious metal extends the rally amid a weaker US Dollar (USD) and as the US Treasury’s bond buyback plans.",
       "published": "26 Aug 2026 06:27 WIB",
       "sentiment": "Bullish",
       "score": 0.077,
@@ -328,17 +388,6 @@
       "score": 0.67,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Australia CPI expected to show inflation easing in July",
-      "url": "https://www.fxstreet.com/news/australia-cpi-expected-to-show-inflation-easing-in-july-202608252230",
-      "summary": "The Australian Bureau of Statistics (ABS) will publish the July Consumer Price Index (CPI) on Wednesday at 01:30 GMT. The report is expected to show that inflation rose 3.2% from a year earlier, easing from the 3.8% posted in June.",
-      "published": "26 Aug 2026 05:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.379,
-      "emoji": "🟢",
-      "impact": "high"
     },
     {
       "source": "FXStreet News",
@@ -440,48 +489,103 @@
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Chinese Yuan: Trade risks limit gains against US Dollar – OCBC",
-      "url": "https://www.fxstreet.com/news/chinese-yuan-trade-risks-limit-gains-against-us-dollar-ocbc-202608251923",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that reports of potential US tariffs on Chinese goods and the PBoC’s resistance to rapid Renminbi (RMB) gains are likely to limit further downside in USD/CNH.",
-      "published": "26 Aug 2026 02:23 WIB",
-      "sentiment": "Bullish",
-      "score": 0.178,
-      "emoji": "🟢",
-      "impact": "medium"
+      "source": "Investing.com Forex",
+      "title": "Why is WiseTech Global stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-wisetech-global-stock-sliding-today-93CH-4876108",
+      "summary": "",
+      "published": "26 Aug 2026 07:58 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "The US Dollar Index stops paying for hawks who cannot vote",
-      "url": "https://www.fxstreet.com/news/the-us-dollar-index-stops-paying-for-hawks-who-cannot-vote-202608251853",
-      "summary": "A non-voting regional Federal Reserve president published a conditional hold on Tuesday, tying the current target range to continued evidence that inflation is actually coming down, and the Dollar Index has not moved for it.",
-      "published": "26 Aug 2026 01:53 WIB",
+      "source": "Investing.com Forex",
+      "title": "Why is DroneShield stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-droneshield-stock-sliding-today-93CH-4876107",
+      "summary": "",
+      "published": "26 Aug 2026 07:57 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Why is Domino’s Pizza Enterprises stock tumbling today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-dominos-pizza-enterprises-stock-tumbling-today-93CH-4876106",
+      "summary": "",
+      "published": "26 Aug 2026 07:56 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "U.S. stock futures fall as investors await PCE inflation, Nvidia results",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-investors-await-pce-inflation-nvidia-results-4876105",
+      "summary": "",
+      "published": "26 Aug 2026 07:56 WIB",
+      "sentiment": "Netral",
+      "score": 0.023,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Australia’s sovereign wealth fund CEO Raphael Arndt steps down",
+      "url": "https://www.investing.com/news/stock-market-news/australias-sovereign-wealth-fund-ceo-raphael-arndt-steps-down-4876103",
+      "summary": "",
+      "published": "26 Aug 2026 07:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.494,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "DroneShield posts record HY revenue but swings to loss on costs",
+      "url": "https://www.investing.com/news/stock-market-news/droneshield-posts-record-hy-revenue-but-swings-to-loss-on-costs-93CH-4876096",
+      "summary": "",
+      "published": "26 Aug 2026 07:45 WIB",
       "sentiment": "Bearish",
-      "score": -0.153,
+      "score": -0.53,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Forex Today: US Dollar stays on the back foot ahead of PCE",
-      "url": "https://www.fxstreet.com/news/forex-today-us-dollar-stays-on-the-back-foot-ahead-of-pce-202608251843",
-      "summary": "The US Dollar Index (DXY) is hovering below the 99.00 mark as traders squared positions ahead of a heavy Wednesday data slate and Federal Reserve (Fed) Chair Kevin Warsh's Jackson Hole address on Friday.",
-      "published": "26 Aug 2026 01:43 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
+      "source": "Investing.com Forex",
+      "title": "Nvidia faces growth test as Rubin debut meets AI financing scrutiny",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-faces-growth-test-as-rubin-debut-meets-ai-financing-scrutiny-4874842",
+      "summary": "",
+      "published": "26 Aug 2026 07:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.462,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Singapore Dollar: Upside momentum eases against US Dollar – UOB",
-      "url": "https://www.fxstreet.com/news/singapore-dollar-upside-momentum-eases-against-us-dollar-uob-202608251839",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD remains under mild downward pressure but short-term momentum is flat, keeping the pair in a tight intraday band around 1.2700.",
-      "published": "26 Aug 2026 01:39 WIB",
+      "source": "Investing.com Forex",
+      "title": "WiseTech Global FY profit dips 11% on e2open expenses, restructuring costs",
+      "url": "https://www.investing.com/news/stock-market-news/wisetech-global-fy-profit-dips-11-on-e2open-expenses-restructuring-costs-93CH-4876071",
+      "summary": "",
+      "published": "26 Aug 2026 06:55 WIB",
       "sentiment": "Bullish",
-      "score": 0.238,
+      "score": 0.44,
       "emoji": "🟢",
-      "impact": "high"
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Deloitte to pay $21.5 million to settle US government probe over DEI",
+      "url": "https://www.investing.com/news/stock-market-news/deloitte-to-pay-215-million-to-settle-us-government-probe-over-dei-4876052",
+      "summary": "",
+      "published": "26 Aug 2026 06:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.103,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "Investing.com Forex",
@@ -492,105 +596,6 @@
       "sentiment": "Bullish",
       "score": 0.073,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Deloitte to pay $21.5 million to settle US government probe over DEI",
-      "url": "https://www.investing.com/news/stock-market-news/deloitte-to-pay-215-million-to-settle-us-government-probe-over-dei-4876052",
-      "summary": "",
-      "published": "26 Aug 2026 06:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.103,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Explainer-What are H-1B visas for skilled workers and what changes loom?",
-      "url": "https://www.investing.com/news/stock-market-news/explainerwhat-are-h1b-visas-for-skilled-workers-and-what-changes-loom-4875972",
-      "summary": "",
-      "published": "26 Aug 2026 05:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.226,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Exclusive-Gunvor in talks to buy Haynesville shale assets for over $1 billion, sources say",
-      "url": "https://www.investing.com/news/stock-market-news/exclusivegunvor-in-talks-to-buy-haynesville-shale-assets-for-over-1-billion-sources-say-4875855",
-      "summary": "",
-      "published": "26 Aug 2026 05:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.178,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "We told you first: these AI-picked small-cap stocks are both up +41% MTD",
-      "url": "https://www.investing.com/news/stock-market-news/we-told-you-first-these-aipicked-smallcap-stocks-are-both-up-41-mtd-4876019",
-      "summary": "",
-      "published": "26 Aug 2026 05:18 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "US appeals court blocks FCC plan to expand discounted political advertising rates",
-      "url": "https://www.investing.com/news/stock-market-news/fcc-expands-discounted-tv-advertising-rates-to-party-committees-4875919",
-      "summary": "",
-      "published": "26 Aug 2026 05:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.153,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "SpaceX to build $100 billion Starship rocket complex in Louisiana",
-      "url": "https://www.investing.com/news/stock-market-news/spacex-to-build-starship-spaceport-in-louisiana-4875762",
-      "summary": "",
-      "published": "26 Aug 2026 05:00 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Greenland Mines stock tumbles on public offering plans",
-      "url": "https://www.investing.com/news/stock-market-news/greenland-mines-stock-tumbles-on-public-offering-plans-93CH-4876004",
-      "summary": "",
-      "published": "26 Aug 2026 04:56 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Southern Cross Acquisition II prices $75M IPO on Nasdaq",
-      "url": "https://www.investing.com/news/stock-market-news/southern-cross-acquisition-ii-prices-75m-ipo-on-nasdaq-432SI-4875992",
-      "summary": "",
-      "published": "26 Aug 2026 04:42 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Mexico stocks higher at close of trade; S&P/BMV IPC up 0.79%",
-      "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-higher-at-close-of-trade-spbmv-ipc-up-079-4875987",
-      "summary": "",
-      "published": "26 Aug 2026 04:30 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -617,12 +622,34 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks Set to Gain as Oil Extends Declines: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-25/asian-stocks-set-to-gain-as-oil-extends-declines-markets-wrap",
-      "summary": "Asian stocks were set to advance as falling oil prices eased inflation concerns and pushed bond yields lower, while traders awaited Nvidia Corp.’s earnings for fresh clues on the outlook for artificial intelligence.",
-      "published": "26 Aug 2026 05:08 WIB",
+      "title": "Citadel Securities’ Flight Reverses Bearish Call on Long Bonds",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/citadel-securities-flight-reverses-bearish-call-on-long-bonds",
+      "summary": "Citadel Securities’ Frank Flight, who just last month warned of a “cruel summer” for US bond investors, now sees the balance of risks tilted toward a rally, citing crowded bearish positioning and improving inflation data.",
+      "published": "26 Aug 2026 07:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.183,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Xi Signals Defiance as US Threatens Sanctions Over Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-26/xi-signals-defiance-as-us-threatens-sanctions-over-iran-video",
+      "summary": "Xi Jinping’s government is sending a message of defiance to Donald Trump over China’s economic ties with Iran. Bloomberg's Michael Heath breaks down the options available to Donald Trump to strangle Iran's economy and end a conflict that's pulling US resources from Asia. (Source: Bloomberg)",
+      "published": "26 Aug 2026 07:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.759,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gold Holds Five-Day Gain as Oil Drop Eases Inflation Concerns",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-25/gold-holds-five-day-gain-as-oil-drop-eases-inflation-concerns",
+      "summary": "Gold held a five-day gain, with inflation concerns eased by a drop in US Treasury yields and lower oil prices as Iran and Oman discussed ways to reopen the Strait of Hormuz.",
+      "published": "26 Aug 2026 06:52 WIB",
       "sentiment": "Bullish",
-      "score": 0.743,
+      "score": 0.852,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -704,50 +731,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Treasuries Gain as Oil Drop Eases Pressure on Inflation, Bessent",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-25/treasuries-gain-as-oil-drop-eases-pressure-on-inflation-bessent",
-      "summary": "Treasuries gained as a decline in crude-oil prices eased inflation concerns and pressure on Treasury Secretary Scott Bessent, who has been trying to halt a months-long selloff that pushed the longest-dated yields to the highest in almost two decades.",
-      "published": "25 Aug 2026 20:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.823,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Consumers Are Signaling an Uneven Economy, Abby Joseph Cohen Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-25/consumer-data-signal-uneven-economy-abby-joseph-cohen-video",
-      "summary": "Abby Joseph Cohen, Columbia Business School professor and former partner at Goldman Sachs, says recent consumer spending patterns are signaling issues with the US economy. Speaking on \"Bloomberg The Close,\" she also warns AI investing may not be sustainable and previews the Jackson Hole Federal Rese",
-      "published": "26 Aug 2026 02:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.183,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US-Canada Cosmetic Tariffs Threaten the $10 Beauty Impulse Buy",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-25/us-canada-cosmetic-tariffs-threaten-the-10-beauty-impulse-buy",
-      "summary": "In between offering advice on how to find the best towels and where to buy affordable versions of high-end garments, Bryce Gruber recently waded into the US-Canada trade war, warning her social-media followers that some of their favorite makeup is about to get more expensive.",
-      "published": "26 Aug 2026 02:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.397,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Congress Will Have to Act to Address $40T US Debt, Says Fmr. Rep. Kevin Brady",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-25/congress-will-have-to-act-to-address-40t-us-debt-brady-video",
-      "summary": "Kevin Brady, former Republican Congressman from Texas, said that the US is failing to restrain spending, even as the US brings in record revenues. Brady said that congress will have to act to reduce spending, including looking at programs like Social Security and Medicaid that are moving towards ins",
-      "published": "26 Aug 2026 02:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.306,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Google News Forex",
       "title": "Bank of Korea Weighs Consecutive Rate Hike - 조선일보",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObGJhR1NrcHdPcUtyNVMySENvdWZRUU9GLUN6NTd4RlZfWmFKTm9lSTk2QnNTRi14cFVtYnpMa09nLUstdjM0ZjFQa2ZZSFl6YWFyRmJXWkZEbk5Ib0I4VGJ6YnBaZTZvTlkzOF9lZC1PLWF5Z25LakRFZ0NGYzVYVTMydHQxWUVRVnEyaG5R?oc=5",
@@ -815,17 +798,6 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Geopolitical risks have driven up safe-haven demand, pushing the U.S. Dollar Index to the 99 level, although expectations regarding Federal Reserve policy are capping further upside. - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQkJ3Sk1Ua1Zyc2s2VDJnMlQ4bFJGMWY2SldISWJNWGdYc3ZtaFVRTGVQbkYwX1lyZGtSZ0ZfY3B6UW1iS2xTMkxqNXM1NnRlM3VCdHluWjRvZWl3WFU2ZkJLYTczODJjdllaZ0JKWUc5eTRTSU9sUElOT2F6YWlzWlZIOVRJZjZjV3kxOEFDM3ZHVzBIMFNsQkJqalFlbXllYkt4X0dBemw?oc=5",
-      "summary": "Geopolitical risks have driven up safe-haven demand, pushing the U.S. Dollar Index to the 99 level, although expectations regarding Federal Reserve policy are capping further upside. Moomoo",
-      "published": "25 Aug 2026 15:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.717,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
       "title": "Japanese Yen Slips as Geopolitical Tensions Bolster the US Dollar - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNckhlZk5NMFpISEdMVzZYdy1qTHc1clFibk5yb0ZrQ2xDZGlUT3ItWUd3Z3hWTzUyT2FjU0xjR2JBZ3EtdUp1dVN2VjA0U25EUjU3aWxtMmhxdnRaVUZmOU9RV3FtWk5mZ0RZX3ZteUMxWnVNbnlYcmc3RGZ4M1hmWm1sN19NdnJ3NXM5cmVrcHdpdw?oc=5",
       "summary": "Japanese Yen Slips as Geopolitical Tensions Bolster the US Dollar CryptoRank",
@@ -876,17 +848,6 @@
       "published": "25 Aug 2026 11:07 WIB",
       "sentiment": "Bearish",
       "score": -0.25,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Dollar Steadies Near 3-Month Lows as U.S. Debt Ceiling and Iran Risks Weigh - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVFRqZjd1eWVNVy1xeXlqRkpoR1ZOLVVLRWExNXNzZjlUWWRRMjNrZ2hKMFl1MDV5RU4tSkZnWll4TDJiRlpycUwta25KZ0FNZERtTWNwR1F4dDJKd0IwWTdBdlhVWG8zdWtfU3ZfT3c4VTU2TFJIZGxMaFlvN3NzMmFtSGxQVVAzWDhKNUZzNA?oc=5",
-      "summary": "Dollar Steadies Near 3-Month Lows as U.S. Debt Ceiling and Iran Risks Weigh CryptoRank",
-      "published": "24 Aug 2026 19:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.949,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -1068,13 +1029,13 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Trump says all mines cleared from Strait of Hormuz",
-      "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran has closed the vital waterway since the beginning of the conflict causing wild fluctuations in oil prices worldwide.",
-      "published": "26 Aug 2026 04:23 WIB",
-      "sentiment": "Netral",
-      "score": -0.003,
-      "emoji": "⚪",
+      "title": "As Ukraine hits Russia's refineries, Russia targets Ukraine's petrol pumps",
+      "url": "https://www.bbc.co.uk/news/articles/c5y6x777gk4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Fuel companies are urging customers not to linger at the pumps after a wave of deadly attacks.",
+      "published": "26 Aug 2026 06:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -1089,14 +1050,25 @@
       "impact": "low"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Trump may hope an 'economic onslaught' will pressure Iran - its leaders are betting otherwise",
-      "url": "https://www.bbc.co.uk/news/articles/cr50n9gnljgo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US says new sanctions are an \"economic D-Day\", but Tehran's leaders have survived restrictions before.",
-      "published": "25 Aug 2026 19:37 WIB",
-      "sentiment": "Bullish",
-      "score": 0.62,
-      "emoji": "🟢",
+      "source": "Al Jazeera",
+      "title": "Is Sudan’s battlefield shaping the terms of its next political phase?",
+      "url": "https://www.aljazeera.com/news/2026/8/26/is-sudans-battlefield-shaping-the-terms-of-its-next-political-phase?traffic_source=rss",
+      "summary": "Army gains, RSF defections and al-Burhan’s political push point to a possible shift in Sudan’s war.",
+      "published": "26 Aug 2026 08:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.765,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran war live: Iran says Hormuz remains closed despite Oman route deal",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/26/iran-war-live-iran-says-hormuz-remains-closed-despite-oman-rout-deal?traffic_source=rss",
+      "summary": "Tehran says the agreement with Oman on routes through Hormuz does not indicate that the strait is open.",
+      "published": "26 Aug 2026 07:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.098,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -1155,28 +1127,6 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Two unvaccinated people die of measles in US state of Pennsylvania",
-      "url": "https://www.aljazeera.com/news/2026/8/25/two-unvaccinated-people-die-of-measles-in-us-state-of-pennsylvania?traffic_source=rss",
-      "summary": "Experts warn that declining vaccination rates have opened the door for resurgence of disease once largely eradicated.",
-      "published": "26 Aug 2026 02:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.649,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "India police clash with protesters a month after Gen Z demonstrations",
-      "url": "https://www.aljazeera.com/news/2026/8/25/india-police-clash-with-protesters-a-month-after-gen-z-demonstrations?traffic_source=rss",
-      "summary": "Police used water cannons and batons as a few thousand protesters broke through security barricades in Bihar's capital.",
-      "published": "26 Aug 2026 02:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.494,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "MarketWatch",
       "title": "SpaceX to build Musk’s vision for a spaceport that until now ‘only existed in science fiction’",
       "url": "https://www.marketwatch.com/story/spacex-to-build-musks-vision-for-a-spaceport-that-until-now-only-existed-in-science-fiction-f8482712?mod=mw_rss_topstories",
@@ -1222,6 +1172,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "From military alliance to economic partnership: How Trump is redefining U.S.-South Korea ties",
+      "url": "https://www.cnbc.com/2026/08/26/trump-us-south-korea-alliance-military-drills-.html",
+      "summary": "Trump last Sunday instructed the Pentagon to cut military drills because they were \"costly\" and send \"inappropriate and hostile\" signals to North Korea.",
+      "published": "26 Aug 2026 07:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.625,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "China needs U.S. dollars but is building a hedge against Washington’s sanctions",
       "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html",
       "summary": "The U.S. can pressure Chinese banks over Iran through access to its financial system, while Beijing is building alternatives such as CIPS.",
@@ -1261,28 +1222,6 @@
       "published": "26 Aug 2026 02:00 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Dragon Ball Z theme park gets $7 billion green light",
-      "url": "https://www.cnbc.com/2026/08/25/dragon-ball-z-theme-park-france-paris.html",
-      "summary": "French President Emmanuel Macron and Saudi Arabia's Crown Prince Mohammed bin Salman agree on a $7 bn investment in the anime theme park.",
-      "published": "25 Aug 2026 15:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.361,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Ukraine is targeting Russia’s retail giants. Ozon is the next economic pressure point",
-      "url": "https://www.cnbc.com/2026/08/25/ukraine-war-russia-ozon-wildberries-economy.html",
-      "summary": "Kyiv says the attacks are aimed at disrupting Russian supply chains and inflicting further pressure on Putin's wartime economy.",
-      "published": "25 Aug 2026 17:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.903,
       "emoji": "🔴",
       "impact": "high"
     },
