@@ -1,5 +1,5 @@
 {
-  "generated": "27 Aug 2026 07:01 WIB",
+  "generated": "27 Aug 2026 10:20 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,75 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.284,
-      "count": 29
+      "score": -0.205,
+      "count": 23
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.275,
-      "count": 28
+      "score": -0.243,
+      "count": 21
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.259,
-      "count": 24
+      "score": -0.206,
+      "count": 19
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.208,
+      "score": -0.397,
       "count": 8
-    },
-    {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.41,
-      "count": 3
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.101,
-      "count": 2
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.058,
-      "count": 2
+      "score": -0.178,
+      "count": 5
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.058,
-      "count": 2
+      "score": -0.178,
+      "count": 5
+    },
+    {
+      "pair": "USD/RUB",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.635,
+      "count": 4
+    },
+    {
+      "pair": "EUR",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.92,
+      "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Australian household spending surges, builds case for RBA hike",
+      "url": "https://investinglive.com/central-banks/australian-household-spending-surges-builds-case-for-rba-hike/",
+      "summary": "The household spending beat is likely to firm up market pricing for an RBA rate hike , with the acceleration in annual growth to 7.0% suggesting consumer demand is running hotter than the central bank's forecasts had assumed. A move of this size relative to the 0.4% consensus is the kind of surprise",
+      "published": "27 Aug 2026 08:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.92,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Oil - the report of an oil tanker attack in Hormuz says it occurred August 25",
+      "url": "https://investinglive.com/commodities/oil-the-report-of-an-oil-tanker-attack-in-hormuz-says-it-occurred-august-25/",
+      "summary": "Just a heads up post as the news is widely circulating. UKMTO clearly state the attack was a couple of days ago. Oil prices little changed. This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "27 Aug 2026 08:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.622,
+      "emoji": "🔴",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Bank consensus builds for near term RBA hike as economists cite sticky inflation",
@@ -99,15 +121,26 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Putin said to plan Ukraine escalation after seeing talks as fruitless",
-      "url": "https://investinglive.com/news/putin-said-to-plan-ukraine-escalation-after-seeing-talks-as-fruitless/",
-      "summary": "The CIA visit to Moscow yesterday led to some optimism about a thawing or potential deal. Instead, we're getting a further cycle of escalation that follows rumors of 300,000 more Russians set to be drafted. In any case, oil is higher on this report and it's hard to see this war ever ending. The Bloo",
-      "published": "26 Aug 2026 22:56 WIB",
+      "source": "FXStreet News",
+      "title": "Silver Price Forecast: XAG/USD holds above $69.00 as traders assess Fed stance",
+      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-above-6900-as-traders-assess-fed-stance-202608270251",
+      "summary": "Silver price (XAG/USD) rises after posting losses in the previous day, trading around $69.10 per troy ounce during the Asian hours on Thursday. Investors are closely tuning into Federal Reserve (Fed) Chair Kevin Warsh’s upcoming speech at the annual Jackson Hole symposium on Friday.",
+      "published": "27 Aug 2026 09:51 WIB",
       "sentiment": "Bearish",
-      "score": -0.742,
+      "score": -0.562,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "WTI slips below $81.50 amid Middle East diplomacy",
+      "url": "https://www.fxstreet.com/news/wti-slips-below-8150-amid-middle-east-diplomacy-202608270108",
+      "summary": "West Texas Intermediate (WTI) oil price depreciates after registering modest gains in the previous day, trading around $81.30 per barrel during the Asian hours on Thursday. Crude oil prices decline amid signs of diplomatic progress in the Middle East.",
+      "published": "27 Aug 2026 08:08 WIB",
+      "sentiment": "Bullish",
+      "score": 0.128,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "FXStreet News",
@@ -132,57 +165,13 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Forex Today: US Dollar firms ahead of Jackson Hole",
-      "url": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-ahead-of-jackson-hole-202608261842",
-      "summary": "The US Dollar (USD) firmed on Wednesday, with the US Dollar Index (DXY) climbing toward 99.20 as traders squared positions ahead of the Jackson Hole Symposium.",
-      "published": "27 Aug 2026 01:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Chinese Yuan: Further gains toward 6.7000 against US Dollar – UOB",
-      "url": "https://www.fxstreet.com/news/chinese-yuan-further-gains-toward-67000-against-us-dollar-uob-202608261811",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report USD/CNH slipped to 6.7166 and closed slightly lower, with short-term downside momentum gradually building.",
-      "published": "27 Aug 2026 01:11 WIB",
+      "source": "Investing.com Forex",
+      "title": "Qantas upbeat on revenue, brings forward A380 exit as profit falls",
+      "url": "https://www.investing.com/news/stock-market-news/australian-carrier-qantas-fullyear-profit-falls-14-4878063",
+      "summary": "",
+      "published": "27 Aug 2026 07:24 WIB",
       "sentiment": "Bullish",
-      "score": 0.317,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Boeing posts contract jobs in labor dispute’s latest escalation",
-      "url": "https://www.investing.com/news/stock-market-news/boeing-posts-contract-jobs-in-labor-disputes-latest-escalation-4878049",
-      "summary": "",
-      "published": "27 Aug 2026 05:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "+13% post-market, this AI-picked software giant crushed results and is now up +42%",
-      "url": "https://www.investing.com/news/stock-market-news/our-ai-knew-it-up-13-postmarket-this-software-giant-stock-is-now-up-42-4878025",
-      "summary": "",
-      "published": "27 Aug 2026 05:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.501,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "US judge awards Blake Lively $407,000 for legal bills in Justin Baldoni dispute, much less than she sought",
-      "url": "https://www.investing.com/news/stock-market-news/us-judge-awards-blake-lively-407000-for-legal-bills-in-justin-baldoni-dispute-much-less-than-she-sought-4878014",
-      "summary": "",
-      "published": "27 Aug 2026 04:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.492,
+      "score": 0.36,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -190,10 +179,21 @@
       "source": "Bloomberg Markets",
       "title": "Latest Oil Market News and Analysis for Aug. 27",
       "url": "https://www.bloomberg.com/news/articles/2026-08-26/latest-oil-market-news-and-analysis-for-aug-27",
-      "summary": "Oil edged lower after a choppy session in which traders weighed diplomatic progress in the Middle East against rising Russia-Ukraine tensions.",
+      "summary": "Oil fell for a fourth day as traders weighed progress on increasing energy flows through the Strait of Hormuz against rising Russia-Ukraine tensions that are curbing output.",
       "published": "27 Aug 2026 05:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.216,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "RBI Is Intervening Whenever the Rupee Weakens in Strategy Shift",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/rbi-is-showing-up-whenever-rupee-weakens-in-intervention-shift",
+      "summary": "India’s central bank is intensifying efforts to support the rupee, emboldened by a jump in its foreign-exchange reserves to contest the pressure from higher oil prices.",
+      "published": "27 Aug 2026 08:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.273,
+      "score": -0.282,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -218,50 +218,6 @@
       "score": 0.08,
       "emoji": "🟢",
       "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Lots of PE 'Zombie' Investments: Jeffries' Greenberg",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/lots-of-pe-zombie-investments-jeffries-greenberg-video",
-      "summary": "Jason Greenberg, Global Head of IB Strategy, Executive Chairman of TMT investment banking at Jefferies joins Dani Burger on \"Bloomberg Deals.\" They discuss software investments, AI dealmaking, and private equity's struggle to exit investments. (Source: Bloomberg)",
-      "published": "27 Aug 2026 04:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.318,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Colombian Central Bank Chief Warns of Damage From Soaring Peso",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/colombian-central-bank-chief-warns-of-damage-from-soaring-peso",
-      "summary": "Colombia’s central bank can do little to curb the soaring peso that’s putting exporters at a “tremendous disadvantage,” Governor Leonardo Villar said.",
-      "published": "27 Aug 2026 03:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Mexico Touts CDS Levels as Bonds Trade as Speculative Grade",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/mexico-touts-improving-cds-as-bonds-trade-as-speculative-grade",
-      "summary": "Mexico cited improving spreads in the credit-default swaps market as a sign of its good standing in debt markets, where investors have sent its bonds trading more in line with speculative-grade nations.",
-      "published": "27 Aug 2026 01:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Japanese Yen Slips as Geopolitical Tensions Bolster the US Dollar - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNckhlZk5NMFpISEdMVzZYdy1qTHc1clFibk5yb0ZrQ2xDZGlUT3ItWUd3Z3hWTzUyT2FjU0xjR2JBZ3EtdUp1dVN2VjA0U25EUjU3aWxtMmhxdnRaVUZmOU9RV3FtWk5mZ0RZX3ZteUMxWnVNbnlYcmc3RGZ4M1hmWm1sN19NdnJ3NXM5cmVrcHdpdw?oc=5",
-      "summary": "Japanese Yen Slips as Geopolitical Tensions Bolster the US Dollar CryptoRank",
-      "published": "25 Aug 2026 21:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.74,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "Google News Geopolitik",
@@ -374,17 +330,6 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Who does Iran trade with and what could Trump's 'economic D-Day' mean?",
-      "url": "https://www.bbc.co.uk/news/articles/cqxvj1zd4qjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran is no stranger to US sanctions and has developed deep economic ties with several countries.",
-      "published": "25 Aug 2026 22:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.376,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC Top Stories",
       "title": "New thunderstorm warnings for parts of UK as rain set to continue",
       "url": "https://www.bbc.co.uk/weather/articles/cvgydkpdn99o?at_medium=RSS&at_campaign=rss",
@@ -396,70 +341,48 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "US designates Palestine Action a terrorist group",
-      "url": "https://www.bbc.co.uk/news/articles/cn4kzd7k2nvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Supporting Palestine Action became illegal in the UK in 2025 after the government banned it under anti-terror legislation.",
-      "published": "27 Aug 2026 01:41 WIB",
+      "source": "Al Jazeera",
+      "title": "Qatar’s prime minister to visit Tehran, seeking to revive US-Iran talks",
+      "url": "https://www.aljazeera.com/news/2026/8/27/qatars-prime-minister-to-visit-tehran-seeking-to-revive-us-iran-talks?traffic_source=rss",
+      "summary": "Sheikh Mohammed's visit comes as US-Israel war on Iran nears its sixth month with no diplomatic breakthrough in sight.",
+      "published": "27 Aug 2026 09:54 WIB",
       "sentiment": "Bearish",
-      "score": -0.856,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Uefa to push to remove Infantino after dropping boycott",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdj4emmmn9vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Uefa dropped their plans to boycott Fifa tournaments on Wednesday, but will still move forward with efforts to remove Gianni Infantino.",
-      "published": "27 Aug 2026 04:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.398,
+      "score": -0.652,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "US says Chinese-linked hackers attacked NASA, Senate, and gov’t agencies",
-      "url": "https://www.aljazeera.com/news/2026/8/26/us-says-chinese-linked-hackers-attacked-nasa-senate-and-govt-agencies?traffic_source=rss",
-      "summary": "US authorities seized two domains allegedly used to target sensitive government networks since 2018.",
-      "published": "27 Aug 2026 03:59 WIB",
+      "title": "US labels Palestine Action a terror group, founder says ‘that’s rich’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/27/us-labels-palestine-action-a-terror-group-founder-says-thats?traffic_source=rss",
+      "summary": "Palestine Action co-founder Huda Ammori tells Jazeera that US sanctions designating the group a terrorist organisation.",
+      "published": "27 Aug 2026 09:07 WIB",
       "sentiment": "Bearish",
-      "score": -0.539,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Nigeria launches hunt for hundreds of kidnapped mosque worshippers",
-      "url": "https://www.aljazeera.com/news/2026/8/26/nigeria-launches-hunt-for-hundreds-of-kidnapped-mosque-worshippers?traffic_source=rss",
-      "summary": "With elections set for January, President Tinubu seeks to clamp down on kidnapping trend in northern Nigeria.",
-      "published": "27 Aug 2026 03:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.202,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Israel-Hamas truce failure ‘point of no return’, envoy warns",
-      "url": "https://www.aljazeera.com/news/2026/8/26/israel-hamas-truce-failure-point-of-no-return-envoy-warns?traffic_source=rss",
-      "summary": "Hamas has pledged to hand over its weapons as part of the US plan for Gaza, which Israeli PM Netanyahu has rejected.",
-      "published": "27 Aug 2026 02:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.916,
+      "score": -0.924,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Kurdish-led SDF has dissolved, but has Syria really unified its military?",
-      "url": "https://www.aljazeera.com/news/2026/8/26/kurdish-led-sdf-has-dissolved-but-has-syria-really-unified-its-military?traffic_source=rss",
-      "summary": "SDF's dissolution is a major victory for Damascus, but unresolved questions over command and deployment remain.",
-      "published": "27 Aug 2026 01:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.591,
-      "emoji": "🟢",
-      "impact": "low"
+      "title": "Syria’s president makes first Visa payment after sanctions removal",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/27/syrias-president-makes-first-visa-payment-after-sanctions-removal?traffic_source=rss",
+      "summary": "A video shows Syria’s president using a Visa card, one day after the US removed the country from 'terrorism' list.",
+      "published": "27 Aug 2026 08:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.761,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran war live: Qatar PM to visit Tehran; Trump ‘not in a hurry’ over talks",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/27/iran-war-live-trump-not-in-hurry-over-talks-tehran-defends-us-dialogue?traffic_source=rss",
+      "summary": "Qatar's PM will meet Iranian officials to discuss ways to de-escalate tensions in the region, foreign ministry says.",
+      "published": "27 Aug 2026 07:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.925,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "MarketWatch",
@@ -496,14 +419,14 @@
     },
     {
       "source": "CNBC World",
-      "title": "Bill Gates warns ‘there is no plan’ for the ‘upheaval’ AI will cause",
-      "url": "https://www.cnbc.com/2026/08/26/bill-gates-ai-jobs-economic-upheaval.html",
-      "summary": "Bill Gates warned governments are not adequately preparing for how AI could displace workers, strain social systems and create global risks.",
-      "published": "26 Aug 2026 23:25 WIB",
+      "title": "Oil prices little changed after Iran says deal reached with Oman to share revenue from Hormuz",
+      "url": "https://www.cnbc.com/2026/08/26/oil-falls-as-the-us-pivots-to-economic-pressure-on-iran-.html",
+      "summary": "Oil fell more than 3% earlier in the session as the U.S. relies on economic pressure against Iran rather than military strikes.",
+      "published": "27 Aug 2026 02:48 WIB",
       "sentiment": "Bearish",
-      "score": -0.759,
+      "score": -0.113,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "CNBC World",
@@ -518,23 +441,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Oil prices little changed after Iran says deal reached with Oman to share revenue from Hormuz",
-      "url": "https://www.cnbc.com/2026/08/26/oil-falls-as-the-us-pivots-to-economic-pressure-on-iran-.html",
-      "summary": "Oil fell more than 3% earlier in the session as the U.S. relies on economic pressure against Iran rather than military strikes.",
-      "published": "27 Aug 2026 02:48 WIB",
+      "title": "Bill Gates warns ‘there is no plan’ for the ‘upheaval’ AI will cause",
+      "url": "https://www.cnbc.com/2026/08/26/bill-gates-ai-jobs-economic-upheaval.html",
+      "summary": "Bill Gates warned governments are not adequately preparing for how AI could displace workers, strain social systems and create global risks.",
+      "published": "26 Aug 2026 23:25 WIB",
       "sentiment": "Bearish",
-      "score": -0.113,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Dollar and bond markets 'on edge' ahead of Jackson Hole as Bessent's market intervention piles pressure on Warsh",
-      "url": "https://www.cnbc.com/2026/08/26/jackson-hole-warsh-bessent-bonds-treasury-dollar.html",
-      "summary": "Strategists said investors were approaching Jackson Hole “on the back foot.\"",
-      "published": "26 Aug 2026 20:35 WIB",
-      "sentiment": "Bearish",
-      "score": -0.376,
+      "score": -0.759,
       "emoji": "🔴",
       "impact": "high"
     },
