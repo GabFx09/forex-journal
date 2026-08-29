@@ -1,5 +1,5 @@
 {
-  "generated": "29 Aug 2026 07:01 WIB",
+  "generated": "29 Aug 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,50 +7,50 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.132,
-      "count": 50
+      "score": -0.08,
+      "count": 47
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.064,
-      "count": 45
+      "direction": "Netral →",
+      "score": -0.04,
+      "count": 44
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.137,
+      "score": -0.105,
       "count": 39
     },
     {
       "pair": "EUR",
       "direction": "Netral →",
-      "score": -0.013,
-      "count": 11
+      "score": -0.026,
+      "count": 10
     },
     {
       "pair": "USD",
       "direction": "Netral →",
-      "score": -0.013,
-      "count": 11
-    },
-    {
-      "pair": "GBP",
-      "direction": "Netral →",
-      "score": 0.048,
-      "count": 9
+      "score": -0.026,
+      "count": 10
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.558,
-      "count": 9
+      "score": -0.387,
+      "count": 10
     },
     {
-      "pair": "AUD/USD",
+      "pair": "GBP",
+      "direction": "Netral →",
+      "score": 0.04,
+      "count": 8
+    },
+    {
+      "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.846,
-      "count": 2
+      "score": -0.129,
+      "count": 4
     }
   ],
   "items": [
@@ -276,12 +276,12 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Honda and Nissan to jointly develop vehicle sofware, Nikkei reports",
-      "url": "https://www.investing.com/news/stock-market-news/honda-and-nissan-to-jointly-develop-vehicle-sofware-nikkei-reports-93CH-4881834",
+      "title": "War weighs on Iran’s economy as US intensifies sanctions",
+      "url": "https://www.investing.com/news/stock-market-news/war-weighs-on-irans-economy-as-us-intensifies-sanctions-4881923",
       "summary": "",
-      "published": "29 Aug 2026 04:03 WIB",
+      "published": "29 Aug 2026 09:06 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.759,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -308,14 +308,69 @@
       "impact": "low"
     },
     {
-      "source": "Reuters Currencies",
-      "title": "Dollar jumps after Warsh comments, set for weekly gain - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZTRZaFZxX1ZxcFJfZUs5OTl0c3lTVDJDWm55NWlHVG9CUmloOU9DWF91QXV1MGxVbTlGSTM2Zmp5MHlyUkJ4YjBiRHVMZGZLemlRcTV4N1ZiZ2Y1V0ZYelpGd3lROUNQSXYxNGFMYWoyWVFVMDQtWmt0RDgyemVtNm5lTDlXUVI4WGxzRWVxbmEtMXptWC02dWllNF9wRFR0anFYbG55TFhXVjRGSlRuQ0xJNFNvMXVDaVdMd09hdGg3VFpsMFE?oc=5",
-      "summary": "Dollar jumps after Warsh comments, set for weekly gain Reuters",
-      "published": "28 Aug 2026 09:36 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Warsh Sets the Tone for Fed’s Road Ahead",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-29/warsh-sets-the-tone-for-fed-s-road-ahead-video",
+      "summary": "Federal Reserve Chair Kevin Warsh’s first Jackson Hole speech gave central bankers and investors greater clarity on how he views the economy and the Fed’s path ahead, though questions remain about the timing and number of potential rate hikes. Bloomberg Odd Lots co-host Joe Weisenthal is on Bloomber",
+      "published": "29 Aug 2026 21:33 WIB",
       "sentiment": "Bullish",
-      "score": 0.778,
+      "score": 0.494,
       "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Russia Tests Ukraine and NATO With Escalation",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-29/russia-tests-ukraine-and-nato-with-escalation-video",
+      "summary": "Russia is intensifying missile and drone attacks on Ukraine as Kyiv faces shortages of Patriot interceptors, raising concerns about its ability to defend against ballistic missiles heading into winter. Joining Bloomberg This Weekend are Bloomberg Economics Geoeconomics Analyst Alex Kokcharov and Blo",
+      "published": "29 Aug 2026 20:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.288,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Iran War Exposes Limits of US Military Endurance",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-29/iran-war-exposes-limits-of-us-military-endurance-video",
+      "summary": "Six months into the US conflict with Iran, oil flows from the Persian Gulf have recovered to about 40% of prewar levels, but risks remain as the Strait of Hormuz stays constrained and the Navy faces mounting pressure on personnel, equipment and finances. Bloomberg News Economic Statecraft Lead Chris",
+      "published": "29 Aug 2026 19:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.945,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Warsh Says Fed Must Act if Inflation Stays High",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-29/warsh-says-fed-must-act-if-inflation-stays-high-video",
+      "summary": "Federal Reserve Chair Kevin Warsh signaled the central bank is prepared to act if inflation fails to move clearly and quickly toward its 2% target, while describing the broader US economy as strong. On Bloomberg This Weekend Schwab Center Head of Macro Research & Strategy Kevin Gordon and Allsprings",
+      "published": "29 Aug 2026 19:05 WIB",
+      "sentiment": "Bullish",
+      "score": 0.852,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Russia Extends Diesel-Export Ban as Ukraine Ramps Up Attacks",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-29/russia-extends-diesel-export-ban-as-ukraine-ramps-up-attacks",
+      "summary": "Russia further extended a ban on diesel exports for producers to keep the domestic market supplied amid intensified Ukrainian attacks on the nation’s refineries.",
+      "published": "29 Aug 2026 18:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.99,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Turkey’s Markets Regulator Tightens Rules for Hedge Funds",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-29/turkey-s-markets-regulator-tightens-rules-for-hedge-funds",
+      "summary": "Turkey’s markets regulator announced new rules limiting hedge funds’ exposure to related parties and capping concentrated investments, in a bid to address concerns about abnormal returns and repeated warnings from global index providers.",
+      "published": "29 Aug 2026 14:10 WIB",
+      "sentiment": "Netral",
+      "score": 0.048,
+      "emoji": "⚪",
       "impact": "high"
     },
     {
@@ -326,17 +381,6 @@
       "published": "29 Aug 2026 06:12 WIB",
       "sentiment": "Bullish",
       "score": 0.492,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Two-Year Yield Jumps on Warsh’s Inflation Pledge: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates",
-      "summary": "Wall Street traders sent short-term yields sharply higher as Federal Reserve Chair Kevin Warsh vowed to bring inflation to the target, boosting bets on a rate hike and stabilizing longer-dated bonds.",
-      "published": "28 Aug 2026 05:08 WIB",
-      "sentiment": "Bullish",
-      "score": 0.34,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -363,81 +407,26 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Tariffs Could Bring Canada Auto \"To Its Knees\"",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/tariffs-could-bring-canada-auto-to-its-knees-video",
-      "summary": "President Trump vowed this week to hike tariffs on Canadian cars, trucks, automotive parts, and steel to 50% at the start of next year as part of an ongoing trade war threat with the country. Linda Hasenfratz, Executive Chair of Linamar, says that after decades of free trade in automotives between h",
-      "published": "29 Aug 2026 04:17 WIB",
+      "source": "BBC World",
+      "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+      "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+      "summary": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
+      "published": "29 Aug 2026 21:43 WIB",
       "sentiment": "Bearish",
-      "score": -0.692,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Threat of a Fed Rate Hike Is Changing the Leadership in Markets, Slimmon Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/threat-of-rate-hike-is-changing-markets-slimmon-says-video",
-      "summary": "Andrew Slimmon, managing director and head of applied equity advisors at Morgan Stanley, says he's happy with what Federal Reserve Chair Kevin Warsh said during his speech at Jackson Hole and he remains consistent. Slimmon says the threat of an interest rate hike is causing a change in leadership in",
-      "published": "29 Aug 2026 03:40 WIB",
-      "sentiment": "Bullish",
-      "score": 0.273,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Funds Add Bullish Gasoline Bets at Fastest Pace in Six Months",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-28/funds-add-bullish-gasoline-bets-at-fastest-pace-in-six-months",
-      "summary": "Hedge funds boosted their bullish wagers on US gasoline by the most since the US-Iran war began, Commodity Futures Trading Commission data showed.",
-      "published": "29 Aug 2026 03:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.5,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Stocks Close Lower After Warsh Speech | Closing Bell",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/us-stocks-close-lower-after-warsh-speech-closing-bell-video",
-      "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Emily Graffeo, Lisa Mateo and Tim Stenovec. (Source: Bloomberg)",
-      "published": "29 Aug 2026 03:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.132,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Americans Feel Guilty About Spending Money on Fun",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/americans-feel-guilty-about-spending-money-on-fun-video",
-      "summary": "Bloomberg's Zijia Song joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" Almost three-quarters of US adults feel guilty when they spend on things that bring them joy instead of putting the money toward their financial goals. (Source: Bloomberg)",
-      "published": "29 Aug 2026 03:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Warsh Is Driving the Bond Market, Whether He Wants to or Not",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-28/warsh-is-driving-treasuries-market-whether-he-wants-to-or-not",
-      "summary": "Federal Reserve Chairman Kevin Warsh has signaled that he wants bond investors to react to underlying changes in the US economy rather than commentary from the central bank. So far, they’re doing the opposite.",
-      "published": "28 Aug 2026 23:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Canadian Dollar Remains Vulnerable as US-Canada Trade Tensions Escalate - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4WC1CdGFUZnlKV1kwRTM0a1VGbGdwUlR2VFQtYTZjNS1BU2VoVkdWQlJnTWZ6ZTUyVmFXUmotNkYycDJYUHFySFdfR3daLWxRRy1RTkw1SnpiaDBvNU9hS2lFRGRkTXBNWWEwbHN5cFJXb2c1VFo4Q1NHQnQ2a3M?oc=5",
-      "summary": "Canadian Dollar Remains Vulnerable as US-Canada Trade Tensions Escalate CryptoRank",
-      "published": "28 Aug 2026 04:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.882,
+      "score": -0.891,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Close race as Iceland votes on whether to restart talks on joining EU",
+      "url": "https://www.bbc.co.uk/news/articles/cn45vdxyvvlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Turbulent international affairs have brought the vote forward, but the campaign has focused more on Iceland's vital fishing industry.",
+      "published": "29 Aug 2026 07:56 WIB",
+      "sentiment": "Bullish",
+      "score": 0.685,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -495,28 +484,6 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Dutch court sentences man to life over Rwanda genocide",
-      "url": "https://www.bbc.co.uk/news/articles/ce8x96rw79ro?at_medium=RSS&at_campaign=rss",
-      "summary": "The court in The Hague convicted the 66-year-old of war crimes and the crime of genocide.",
-      "published": "28 Aug 2026 19:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.882,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Trump administration illegally retaliated against Anthropic, judge rules",
-      "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
-      "summary": "The AI startup has been at loggerheads with the Pentagon over the use of AI by the US military.",
-      "published": "28 Aug 2026 10:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "BBC Business",
       "title": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
       "url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
@@ -529,13 +496,13 @@
     },
     {
       "source": "BBC Business",
-      "title": "Military veterans told they owe thousands of pounds over clerical error",
-      "url": "https://www.bbc.co.uk/news/articles/c5y4512mlxdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Hundreds of former UK service personnel have had their pensions cut after being overpaid.",
-      "published": "28 Aug 2026 06:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.586,
-      "emoji": "🔴",
+      "title": "Trump administration illegally retaliated against Anthropic, judge rules",
+      "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
+      "summary": "The AI startup has been at loggerheads with the Pentagon over the use of AI by the US military.",
+      "published": "28 Aug 2026 10:41 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -562,54 +529,43 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "BBC tracks one week of Israeli settler violence in occupied West Bank",
-      "url": "https://www.bbc.co.uk/news/videos/c3wjq1188g9o?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC's Lucy Williamson reports on settler attacks on Palestinians, which have been observed over the last week alone.",
-      "published": "28 Aug 2026 21:06 WIB",
+      "title": "Royal Navy warships track Russian vessels for three days in UK waters",
+      "url": "https://www.bbc.co.uk/news/articles/c93e88jzn54o?at_medium=RSS&at_campaign=rss",
+      "summary": "HMS Duncan, HMS St Albans and HMS Severn used radars to monitor four vessels as they passed through the North Sea and English Channel last week.",
+      "published": "29 Aug 2026 19:05 WIB",
       "sentiment": "Bearish",
-      "score": -0.92,
+      "score": -0.208,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Four plead guilty to arson attack on Jewish community ambulances",
-      "url": "https://www.bbc.co.uk/news/articles/c1j4rkywx3lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Four vehicles run by a charity were set alight in Golders Green, north-west London, causing explosions in March.",
-      "published": "29 Aug 2026 01:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.557,
-      "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Thousands take part in March on Washington to promote voting rights",
-      "url": "https://www.aljazeera.com/gallery/2026/8/28/thousands-take-part-in-march-on-washington-to-promote-voting-rights?traffic_source=rss",
-      "summary": "Protest draws crowds to Washington, DC amid Trump's threats of interference, voting restrictions in midterm elections.",
-      "published": "29 Aug 2026 05:59 WIB",
+      "title": "Gaza farmer returns to the grapevines he couldn’t bear to abandon",
+      "url": "https://www.aljazeera.com/features/longform/2026/8/29/gaza-farmer-returns-to-the-grapevines-he-couldnt-bear-to-abandon?traffic_source=rss",
+      "summary": "After nearly three years of war, a farmer returns to Sheikh Ijlin’s renowned grape fields.",
+      "published": "29 Aug 2026 19:56 WIB",
       "sentiment": "Bearish",
-      "score": -0.296,
+      "score": -0.858,
       "emoji": "🔴",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Israeli strike kills three Palestinians in Jenin",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/israeli-strike-kills-three-palestinians-in-jenin?traffic_source=rss",
-      "summary": "An Israeli drone strike killed three Palestinians in Jenin, the first such attack in the West Bank since February 2025.",
-      "published": "29 Aug 2026 05:11 WIB",
+      "title": "Liverpool strike deal to sign PSG’s Barcola for up to $166m: Reports",
+      "url": "https://www.aljazeera.com/sports/2026/8/29/liverpool-strike-deal-to-sign-psgs-barcola-for-up-to-166m-reports?traffic_source=rss",
+      "summary": "The 23-year-old French forward would bolster new boss Andoni Iraola's squad after the departure of Mohamed Salah.",
+      "published": "29 Aug 2026 17:49 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.128,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "With the US and Canada locked in a trade war, fears of a recession lurk",
-      "url": "https://www.aljazeera.com/economy/2026/8/28/with-the-us-and-canada-locked-in-a-trade-war-fears-of-a-recession-lurk?traffic_source=rss",
-      "summary": "Analysts say Canada may lose 100,000 jobs under the current tariffs and could go into recession if the USMCA pact ends.",
-      "published": "29 Aug 2026 04:39 WIB",
+      "title": "Russian attack on warehouse near Ukraine’s Kyiv kills at least 37",
+      "url": "https://www.aljazeera.com/news/2026/8/29/russian-attack-on-warehouse-near-ukraines-kyiv-kills-at-least-27?traffic_source=rss",
+      "summary": "Ukraine's President Zelenskyy says warehouse was struck, 'followed by a detonation', causing a major fire.",
+      "published": "29 Aug 2026 17:36 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -617,34 +573,34 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Ukraine’s Zelenskyy plans to hit Russia with ‘1,000 drones’ a day",
-      "url": "https://www.aljazeera.com/news/2026/8/28/ukraines-zelenskyy-plans-to-hit-russia-with-1000-drones-a-day?traffic_source=rss",
-      "summary": "Ongoing Russian attacks have killed several people and wounded dozens across Ukraine.",
-      "published": "29 Aug 2026 02:03 WIB",
+      "title": "Iran’s leaders acknowledge economic toll of war, pledge diplomacy, defence",
+      "url": "https://www.aljazeera.com/news/2026/8/29/irans-leaders-acknowledge-economic-toll-of-war-pledge-diplomacy-defence?traffic_source=rss",
+      "summary": "Iran's president said sanctions and the US naval blockade had caused exports and imports to slump by nearly 35 percent.",
+      "published": "29 Aug 2026 17:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.893,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Microsoft’s stock seals its longest winning streak of the year as AI software fears fade",
-      "url": "https://www.marketwatch.com/story/microsofts-stock-seals-its-longest-winning-streak-of-the-year-as-ai-software-fears-fade-e5669f5b?mod=mw_rss_topstories",
-      "summary": "Microsoft’s software offers capabilities that will be critical for AI, one analyst notes.",
-      "published": "29 Aug 2026 04:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.258,
+      "score": -0.702,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "MarketWatch",
-      "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories",
-      "summary": "Kevin Warsh passed another big test as a new Federal Reserve chairman on Friday: He said the central bank still has work to do on inflation, and the bond market took him at his word.",
-      "published": "29 Aug 2026 03:10 WIB",
+      "source": "Al Jazeera",
+      "title": "US revokes visa of former Iraqi minister after watchlist listing",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/us-revokes-visa-of-former-iraqi-minister-after-watchlist-listing?traffic_source=rss",
+      "summary": "The US has revoked an award-winning former Iraqi minister’s visa after the FBI placed her on a ‘terrorism watchlist'.",
+      "published": "29 Aug 2026 16:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC Forex",
+      "title": "Buffett remains active at 96, but Berkshire's shares aren't doing much",
+      "url": "https://www.cnbc.com/2026/08/29/buffett-remains-active-at-96-but-berkshires-shares-arent-doing-much.html",
+      "summary": "Warren Buffett will be celebrating his 96th birthday on Sunday, but Berkshire Hathaway investors aren't celebrating the stock's anemic performance.",
+      "published": "29 Aug 2026 18:53 WIB",
       "sentiment": "Bullish",
-      "score": 0.63,
+      "score": 0.611,
       "emoji": "🟢",
       "impact": "high"
     },
@@ -658,6 +614,39 @@
       "score": -0.692,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar",
+      "url": "https://www.cnbc.com/2026/08/29/iran-trade-sanctions-dollar-oil-exports.html",
+      "summary": "Iran's president says sanctions are hitting imports and exports, as its supreme leader urges less reliance on the U.S. dollar.",
+      "published": "29 Aug 2026 19:08 WIB",
+      "sentiment": "Bullish",
+      "score": 0.642,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Tech backlash reaches fever pitch as AI angst collides with social media fears",
+      "url": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html",
+      "summary": "With data center concerns becoming a major election issue and Meta reaching a landmark settlement in a social media case, the tech backlash is gaining steam.",
+      "published": "29 Aug 2026 19:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.132,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump’s Greenland fixation puts security at the heart of Iceland’s knife-edge EU vote",
+      "url": "https://www.cnbc.com/2026/08/28/iceland-eu-referendum-trump-greenland-arctic.html",
+      "summary": "Trump’s push to acquire Greenland and growing uncertainty over U.S. security commitments have added a geopolitical dimension to Iceland’s EU debate.",
+      "published": "28 Aug 2026 20:45 WIB",
+      "sentiment": "Bullish",
+      "score": 0.832,
+      "emoji": "🟢",
+      "impact": "medium"
     },
     {
       "source": "CNBC World",
@@ -679,17 +668,6 @@
       "sentiment": "Bullish",
       "score": 0.302,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Iran calls for global pushback against U.S. sanctions, says diplomacy 'isn't impossible'",
-      "url": "https://www.cnbc.com/2026/08/28/us-iran-war-trump-hormuz-oman-centcom.html",
-      "summary": "Iran said the conflict in the Gaza Strip has to end, Israel has to withdraw from Lebanon and also halt its attacks on Syria.",
-      "published": "28 Aug 2026 19:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.797,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -746,39 +724,6 @@
       "score": -0.5,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump’s Greenland fixation puts security at the heart of Iceland’s knife-edge EU vote",
-      "url": "https://www.cnbc.com/2026/08/28/iceland-eu-referendum-trump-greenland-arctic.html",
-      "summary": "Trump’s push to acquire Greenland and growing uncertainty over U.S. security commitments have added a geopolitical dimension to Iceland’s EU debate.",
-      "published": "28 Aug 2026 20:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.832,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Six months into the Iran war: Markets become accustomed to stalemate with no end in sight",
-      "url": "https://www.cnbc.com/2026/08/28/us-iran-war-six-months-trump.html",
-      "summary": "The war has far exceeded the four to six weeks the Trump administration estimated it would take to meet its objectives in Iran.",
-      "published": "28 Aug 2026 12:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.955,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Judge blocks Pentagon blacklist of Anthropic as supply chain risk",
-      "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
-      "summary": "The Defense Department had barred the U.S. military from using Anthropic's Claude in March",
-      "published": "28 Aug 2026 09:50 WIB",
-      "sentiment": "Bearish",
-      "score": -0.441,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "CNBC Markets",
