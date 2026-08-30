@@ -1,35 +1,29 @@
 {
-  "generated": "29 Aug 2026 22:01 WIB",
+  "generated": "30 Aug 2026 07:01 WIB",
   "summary": {
-    "total": 99,
-    "bullish": 44,
-    "bearish": 44,
-    "netral": 11,
-    "avg_score": -0.0322,
+    "total": 88,
+    "bullish": 41,
+    "bearish": 38,
+    "netral": 9,
+    "avg_score": 0.0193,
     "overall": "Netral",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.255,
-        "count": 33
-      },
-      {
-        "currency": "JPY",
-        "sentiment": "Bullish",
-        "score": 0.175,
-        "count": 7
+        "score": 0.26,
+        "count": 30
       },
       {
         "currency": "EUR",
         "sentiment": "Bearish",
-        "score": -0.081,
-        "count": 5
+        "score": -0.16,
+        "count": 4
       },
       {
-        "currency": "GBP",
-        "sentiment": "Bearish",
-        "score": -0.068,
+        "currency": "JPY",
+        "sentiment": "Netral",
+        "score": -0.03,
         "count": 4
       },
       {
@@ -39,10 +33,16 @@
         "count": 4
       },
       {
-        "currency": "AUD",
+        "currency": "GBP",
         "sentiment": "Bearish",
-        "score": -0.087,
+        "score": -0.091,
         "count": 3
+      },
+      {
+        "currency": "AUD",
+        "sentiment": "Bullish",
+        "score": 0.249,
+        "count": 2
       }
     ]
   },
@@ -257,17 +257,6 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "investingLive European markets wrap: A more pensive mood in run up to Jackson Hole next",
-      "url": "https://investinglive.com/news/investinglive-european-markets-wrap-a-more-pensive-mood-in-run-up-to-jackson-hole-next/",
-      "summary": "Headlines: No guidance from Jackson Hole? USD/JPY extends gains as focus turns to Fed Chair Warsh's speech Gold stays locked in ahead of Warsh's Jackson Hole speech How have interest rate expectations changed after this week's events? France Q2 final GDP +0.0% vs +0.2% q/q prelim France August preli",
-      "published": "28 Aug 2026 18:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.686,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "FXStreet News",
       "title": "South Korean Won: BoK tightening supports KRW against US Dollar – Commerzbank",
       "url": "https://www.fxstreet.com/news/south-korean-won-bok-tightening-supports-krw-against-us-dollar-commerzbank-202608282341",
@@ -445,6 +434,61 @@
     },
     {
       "source": "Investing.com Forex",
+      "title": "AI’s memory stack: What investors need to know",
+      "url": "https://www.investing.com/news/stock-market-news/ais-memory-stack-what-investors-need-to-know-4882003",
+      "summary": "",
+      "published": "30 Aug 2026 06:16 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4881999",
+      "summary": "",
+      "published": "30 Aug 2026 04:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "GM deal with workers would add Sierra pickup assembly to Canadian plant despite US tariff threat",
+      "url": "https://www.investing.com/news/stock-market-news/gm-deal-with-workers-would-add-sierra-pickup-assembly-to-canadian-plant-despite-us-tariff-threat-4881994",
+      "summary": "",
+      "published": "30 Aug 2026 01:24 WIB",
+      "sentiment": "Bullish",
+      "score": 0.497,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Glencore takes $480 mln provision on Radiant World exposure - Bloomberg",
+      "url": "https://www.investing.com/news/stock-market-news/glencore-takes-480-mln-provision-on-radiant-world-exposure--bloomberg-4881992",
+      "summary": "",
+      "published": "30 Aug 2026 00:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.477,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "HDFC Bank CEO Jagdishan to step down in October as governance pressures mount",
+      "url": "https://www.investing.com/news/stock-market-news/hdfc-bank-ceo-jagdishan-to-step-down-in-october-as-governance-pressures-mount-4881988",
+      "summary": "",
+      "published": "29 Aug 2026 23:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.318,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
       "title": "LESS THAN 48 HOURS TO GO: Get InvestingPro for 55% off BEFORE THE SALE ENDS",
       "url": "https://www.investing.com/news/stock-market-news/less-than-48-hours-to-go-get-investingpro-for-55-off-before-the-sale-ends-4881970",
       "summary": "",
@@ -499,61 +543,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "German regional banks face strain as Volksbank Brawo troubles deepen",
-      "url": "https://www.investing.com/news/stock-market-news/german-regional-banks-face-strain-as-volksbank-brawo-troubles-deepen-4881942",
-      "summary": "",
-      "published": "29 Aug 2026 13:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.494,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Trump vows legal order to break up ’nasty monopoly’ in food processing",
-      "url": "https://www.investing.com/news/stock-market-news/trump-vows-legal-order-to-break-up-food-processing-nasty-monopoly-4881448",
-      "summary": "",
-      "published": "29 Aug 2026 12:22 WIB",
-      "sentiment": "Bullish",
-      "score": 0.128,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Success after a century of failures: Inside Moderna and Merck’s cancer vaccine breakthrough",
-      "url": "https://www.investing.com/news/stock-market-news/success-after-a-century-of-failures-inside-moderna-and-mercks-cancer-vaccine-breakthrough-4880850",
-      "summary": "",
-      "published": "29 Aug 2026 12:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.572,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "War weighs on Iran’s economy as US intensifies sanctions",
-      "url": "https://www.investing.com/news/stock-market-news/war-weighs-on-irans-economy-as-us-intensifies-sanctions-4881923",
-      "summary": "",
-      "published": "29 Aug 2026 09:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.759,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Indian bank stocks show widest exchange price gap in decades",
-      "url": "https://www.investing.com/news/stock-market-news/indian-bank-stocks-show-widest-exchange-price-gap-in-decades-4881922",
-      "summary": "",
-      "published": "29 Aug 2026 09:01 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Six consequences after six months of war in Iran",
       "url": "https://www.investing.com/news/economic-indicators/six-consequences-of-six-months-of-war-in-iran-4878330",
@@ -576,17 +565,6 @@
       "impact": "medium"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "France inflation climbs to 2.7% in August on energy costs",
-      "url": "https://www.investing.com/news/economic-indicators/france-inflation-climbs-to-27-in-august-on-energy-costs-93CH-4880600",
-      "summary": "",
-      "published": "28 Aug 2026 14:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.273,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "Reuters Currencies",
       "title": "India's forex reserves hit record $729 billion on sustained capital inflows - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLTZ6Z0pNejBNMndLdnQwalh6NkF6WjIyVGZwOFZfZFl2em53RjU1V1hMSTlCclBHUzE2aEJsZ2pJSjVNTnZvaWU5ZkpBaXVDZTBmS3czUEZSbkl2cl8tRW9tekRuMkx6dHh3anpOd0NnZTBHTHUtYzdUZlpxX3NYV29BTlZnNHIzTXlDZlFSR2lVZ193Y0lKVE9DZ2pQdS1HZnV4VWx4cjJVeXNjc1l6MzJwSXVvRFJSYVE?oc=5",
@@ -598,25 +576,25 @@
       "impact": "low"
     },
     {
-      "source": "Reuters Currencies",
-      "title": "Japan spent record $96.5 billion to support yen over past month, ministry data shows - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNb2g5MFFMM3ByaEYxQkEyZ1JCUTBkdTdkLXlxT2FrOVgyYUMzZlZYcmc0dXlJc0VJUWYzejZ2Ql93REdibHdmNGxDZUREUUxUbW5uUktJN1JBUXg0d1pRUGRCdldpUmNOVGpLUGlQTDZpbkNKNnF2enhYSC1mN2xBbEh0YWRrckFaSlptQmVsNDkzcmZtQjEwUEhsNmJrN2xySVNxbnpDeVZoRDdsX3U5NFUtSVUwTU9FTHZSSkM2b3hHRDJ6X0FkZVRTbHNHZw?oc=5",
-      "summary": "Japan spent record $96.5 billion to support yen over past month, ministry data shows Reuters",
-      "published": "28 Aug 2026 17:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.66,
-      "emoji": "🟢",
-      "impact": "low"
+      "source": "Bloomberg Markets",
+      "title": "Warsh Says Inflation Isn’t Slowing, Vows to Reach 2% Target",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-29/warsh-says-inflation-isn-t-slowing-vows-to-reach-2-video",
+      "summary": "Warsh reiterated that policymakers have a \"firm, fixed target\" of 2% inflation at the 2026 Jackson Hole Economic Policy Symposium. Bloomberg's Maria Eloisa Capurro explains. (Source: Bloomberg)",
+      "published": "29 Aug 2026 23:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.054,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
-      "source": "Reuters Currencies",
-      "title": "Japan's finance minister, BOJ chief to attend G20 gathering next week - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNjF6YlZfMjN3NVVUbTN0NTJobWRJY3RqelBDUWN5Um9OZ3h5OEw2akt4Mkg0eUtrR3MtRzAxS1JtZkg1eGNqV3dLNWI0UFBDWm4tNDVQb0NlM282WmpNUlFIYjNkcU9vVl9odUtqVHFUX2JzQkZkdlNLQU9HbDk0YW9kUGhnZDU2S2IxYm5VN1QxUS11dHVZRm9DQTlNWWE4UXhIR05xdDl2RnFrTUhzemtMTQ?oc=5",
-      "summary": "Japan's finance minister, BOJ chief to attend G20 gathering next week Reuters",
-      "published": "28 Aug 2026 16:46 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "Bloomberg Markets",
+      "title": "Supercars Fuel a New Hybrid Boom",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-29/supercars-fuel-a-new-hybrid-boom-video",
+      "summary": "Hybrids are enjoying a resurgence as slower EV adoption and continued demand for combustion engines reshape the auto industry, with the technology increasingly appearing in high-performance and luxury cars. Co-host of Bloomberg's \"Hot Pursuit!\" Hannah Elliott explains to Christina Ruffini and Bailey",
+      "published": "29 Aug 2026 21:56 WIB",
+      "sentiment": "Bullish",
+      "score": 0.493,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -697,50 +675,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Wall Street Week | Debt & Consequences, Defying Fiscal Gravity, Hollywood Gets Democratized",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/wall-street-week-defying-fiscal-gravity-video",
-      "summary": "This week, Chrystia Freeland talks with the former finance ministers of the Netherlands and Germany about what it takes to bring spending under control. And, are US deficits now a bigger driver of interest rates than inflation? Plus, as Fed Chair Kevin Warsh makes his debut at the Jackson Hole Econo",
-      "published": "29 Aug 2026 06:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.492,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Former FDIC Chair Sheila Bair on Inflation, Regulatory Landscape",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/sheila-bair-on-inflation-regulatory-landscape-video",
-      "summary": "Former FDIC Chair Sheila Bair discusses inflation and the regulatory landscape in an interview with Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
-      "published": "29 Aug 2026 06:02 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "IMF's Georgieva on Warsh's Speech, 'Stubborn' Inflation",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/imf-s-georgieva-on-warsh-s-speech-stubborn-inflation-video",
-      "summary": "IMF Managing Director Kristalina Georgieva says Federal Reserve Chairman Kevin Warsh \"did a great job\" in his Jackson Hole speech. Speaking with Bloomberg's Lisa Abramowicz on \"Bloomberg The Close.\" Georgieva also discusses recent inflation pressures and whether they reflect central bank failure or ",
-      "published": "29 Aug 2026 04:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Iran War Hits 6 Month Mark",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/iran-war-hits-6-month-mark-video",
-      "summary": "Bloomberg Businessweek looks back on the past six months of the US war with Iran, including how President Trump's timeline for the conflict has shifted as talks with Tehran remain mostly stalled. Bloomberg News White House and National Security Editor Michelle Jamrisko discusses how the war has evol",
-      "published": "29 Aug 2026 04:23 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Google News Forex",
       "title": "Financial engineering is no substitute for interest rates: Lessons from Türkiye - CEPR",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRVNGSTBQMHVkX2pVUDFMU1JJdkd4SmFvZXhObXFiM19SbHV0dVhlMWpFbWZnX01oLVQ0WW1xN1drN1M2NW51a0RmanowVmpvQWJIMzZmOVRxQ3U0eEx0eVhPaldSZS1tcGVFcTJHUEs5aVd2WlFTalphQXhSeGJoUFNDMmxZaEVBMFFUa2MxZEl2QWJVQ1BEZGk5WnE1dw?oc=5",
@@ -753,10 +687,10 @@
     },
     {
       "source": "Google News Forex",
-      "title": "Pound Sterling Live | News, Data, Forecasts - Pound Sterling Live",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9leXJnVXRlUDlqOWFLR1A3enFvQXpoQmpxbjFvQURORjRjVUNnaENTeHVYcEg3dW00WUxQcUVvQThtQjF4YXJ3Y19n?oc=5",
-      "summary": "Pound Sterling Live | News, Data, Forecasts Pound Sterling Live",
-      "published": "28 Aug 2026 18:38 WIB",
+      "title": "ECB’s Schnabel Calls for Moving Central Bank Money onto Blockchain - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS0NMMjhCY0lsbmZXM2l1Nm9Pc2djVzJLRk83blFKcUlCbTVJVWZ2ZXJGQUhFN3hhOHIxdVVQR1lieTBXeHF2b00wcnBZLVZjZ21MNko1SEswQ0ZRM3JXekZKQ3ZockQ3VVdMVEFBMnFJVmxycHFCSmYwUllYams5QnJYdEE3Um8?oc=5",
+      "summary": "ECB’s Schnabel Calls for Moving Central Bank Money onto Blockchain CryptoRank",
+      "published": "29 Aug 2026 14:15 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
@@ -767,9 +701,20 @@
       "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
       "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
       "summary": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
-      "published": "29 Aug 2026 21:43 WIB",
+      "published": "30 Aug 2026 03:13 WIB",
       "sentiment": "Bearish",
       "score": -0.891,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Right-wing commentator Milo Yiannopoulos deported from US to UK",
+      "url": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss",
+      "summary": "The self-styled provocateur had been detained by Immigration and Customs Enforcement (ICE).",
+      "published": "30 Aug 2026 00:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.402,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -862,39 +807,6 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Trump administration illegally retaliated against Anthropic, judge rules",
-      "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
-      "summary": "The AI startup has been at loggerheads with the Pentagon over the use of AI by the US military.",
-      "published": "28 Aug 2026 10:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Selena Gomez pushes back against 'frivolous' fraud claims",
-      "url": "https://www.bbc.co.uk/news/articles/cz0z4k28804o?at_medium=RSS&at_campaign=rss",
-      "summary": "Selena Gomez's lawyer says the fraud case is \"absurd\" - but it is far from unusual for celebrity family business relationships to go wrong.",
-      "published": "28 Aug 2026 12:53 WIB",
-      "sentiment": "Bearish",
-      "score": -0.758,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Sports Direct founder attacks Burnham's 'populist' High Street plans",
-      "url": "https://www.bbc.co.uk/news/articles/cn74mm2jz8jo?at_medium=RSS&at_campaign=rss",
-      "summary": "In a letter, the entrepreneur accuses the prime minister of \"jumping on 'everyday fixes' or bandwagons\" with his latest cost of living and retail policies.",
-      "published": "28 Aug 2026 14:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.729,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC Top Stories",
       "title": "97-year-old woman rescued after Nepali floods looked like 'a warrior'",
       "url": "https://www.bbc.co.uk/news/videos/cj64kgrpgjdo?at_medium=RSS&at_campaign=rss",
@@ -907,78 +819,67 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Royal Navy warships track Russian vessels for three days in UK waters",
-      "url": "https://www.bbc.co.uk/news/articles/c93e88jzn54o?at_medium=RSS&at_campaign=rss",
-      "summary": "HMS Duncan, HMS St Albans and HMS Severn used radars to monitor four vessels as they passed through the North Sea and English Channel last week.",
-      "published": "29 Aug 2026 19:05 WIB",
+      "title": "They fell in love - then had to check they weren't brother and sister",
+      "url": "https://www.bbc.co.uk/news/articles/c8en3n29wdro?at_medium=RSS&at_campaign=rss",
+      "summary": "A French couple - both conceived by sperm donors - wanted children. But with home DNA tests illegal, how could they be sure they were not related?",
+      "published": "30 Aug 2026 06:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.208,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Gaza farmer returns to the grapevines he couldn’t bear to abandon",
-      "url": "https://www.aljazeera.com/features/longform/2026/8/29/gaza-farmer-returns-to-the-grapevines-he-couldnt-bear-to-abandon?traffic_source=rss",
-      "summary": "After nearly three years of war, a farmer returns to Sheikh Ijlin’s renowned grape fields.",
-      "published": "29 Aug 2026 19:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.858,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Liverpool strike deal to sign PSG’s Barcola for up to $166m: Reports",
-      "url": "https://www.aljazeera.com/sports/2026/8/29/liverpool-strike-deal-to-sign-psgs-barcola-for-up-to-166m-reports?traffic_source=rss",
-      "summary": "The 23-year-old French forward would bolster new boss Andoni Iraola's squad after the departure of Mohamed Salah.",
-      "published": "29 Aug 2026 17:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.128,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Russian attack on warehouse near Ukraine’s Kyiv kills at least 37",
-      "url": "https://www.aljazeera.com/news/2026/8/29/russian-attack-on-warehouse-near-ukraines-kyiv-kills-at-least-27?traffic_source=rss",
-      "summary": "Ukraine's President Zelenskyy says warehouse was struck, 'followed by a detonation', causing a major fire.",
-      "published": "29 Aug 2026 17:36 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran’s leaders acknowledge economic toll of war, pledge diplomacy, defence",
-      "url": "https://www.aljazeera.com/news/2026/8/29/irans-leaders-acknowledge-economic-toll-of-war-pledge-diplomacy-defence?traffic_source=rss",
-      "summary": "Iran's president said sanctions and the US naval blockade had caused exports and imports to slump by nearly 35 percent.",
-      "published": "29 Aug 2026 17:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.702,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Norway mourns King Harald as new era begins under Haakon VIII",
-      "url": "https://www.aljazeera.com/news/2026/8/29/norway-mourns-king-harald-as-new-era-begins-under-haakon-viii?traffic_source=rss",
-      "summary": "King Harald, Europe's oldest monarch, was viewed as a reformer who embraced inclusivity.",
-      "published": "29 Aug 2026 16:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.527,
+      "score": -0.09,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "US revokes visa of former Iraqi minister after watchlist listing",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/us-revokes-visa-of-former-iraqi-minister-after-watchlist-listing?traffic_source=rss",
-      "summary": "The US has revoked an award-winning former Iraqi minister’s visa after the FBI placed her on a ‘terrorism watchlist'.",
-      "published": "29 Aug 2026 16:05 WIB",
+      "title": "Israeli settlers attack international news team in occupied West Bank",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/israeli-settlers-attack-international-news-team-in-occupied-west-bank?traffic_source=rss",
+      "summary": "A news team, working for the US network NBC and a Palestinian woman were injured in an attack by masked Israeli settler",
+      "published": "30 Aug 2026 06:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.916,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Ukrainian nuclear power plant without external power for over a week",
+      "url": "https://www.aljazeera.com/news/2026/8/29/ukrainian-nuclear-power-plant-without-external-power-for-over-a-week?traffic_source=rss",
+      "summary": "This is the 27th time since Russia invaded Ukraine that Zaporizhzhia plant has had to rely on emergency diesel supplies.",
+      "published": "30 Aug 2026 06:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.382,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Can international diplomacy find a way forward in Libya?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/8/29/can-international-diplomacy-find-a-way-forward-in-libya?traffic_source=rss",
+      "summary": "Efforts intensify to break political impasse in a divided country.",
+      "published": "30 Aug 2026 03:01 WIB",
       "sentiment": "Bearish",
       "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "US says far-right provocateur Milo Yiannopoulos has been deported to UK",
+      "url": "https://www.aljazeera.com/news/2026/8/29/us-says-far-right-provocateur-milo-yiannopoulos-has-been-deported-to-uk?traffic_source=rss",
+      "summary": "The social media personality had been detained by immigration agents at an airport in New Orleans earlier in the week.",
+      "published": "30 Aug 2026 02:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.402,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Haitian gangs release 13 captives after mass kidnapping in Kenscoff",
+      "url": "https://www.aljazeera.com/news/2026/8/29/haitian-gangs-release-13-captives-after-mass-kidnapping-in-kenscoff?traffic_source=rss",
+      "summary": "The attack in Kenscoff killed at least 47 people and resulted in the kidnapping of more than 50, as gangs exert control.",
+      "published": "30 Aug 2026 01:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.902,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -992,17 +893,6 @@
       "score": 0.611,
       "emoji": "🟢",
       "impact": "high"
-    },
-    {
-      "source": "CNBC Economy",
-      "title": "Imax says it's open to a sale. Why is no one buying?",
-      "url": "https://www.cnbc.com/2026/08/28/imax-sale-potential-buyers.html",
-      "summary": "Imax's stock and box office are breaking records, but studio conflicts and a soaring valuation complicate the list of who could bid for the company.",
-      "published": "28 Aug 2026 18:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.692,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "CNBC World",
@@ -1020,7 +910,7 @@
       "title": "Tech backlash reaches fever pitch as AI angst collides with social media fears",
       "url": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html",
       "summary": "With data center concerns becoming a major election issue and Meta reaching a landmark settlement in a social media case, the tech backlash is gaining steam.",
-      "published": "29 Aug 2026 19:16 WIB",
+      "published": "30 Aug 2026 02:55 WIB",
       "sentiment": "Bullish",
       "score": 0.132,
       "emoji": "🟢",
@@ -1050,10 +940,10 @@
     },
     {
       "source": "CNBC World",
-      "title": "Opinion: Dolly Parton was underestimated for decades. That became one of her greatest strengths",
+      "title": "Op-ed: Dolly Parton was underestimated for decades. That became one of her greatest strengths",
       "url": "https://www.cnbc.com/2026/08/29/dolly-parton-success-business-lessons.html",
       "summary": "In a candid 2015 interview, Dolly Parton told CNBC's Tania Bryer about depression, ambition and the business decisions that defined her career.",
-      "published": "29 Aug 2026 12:00 WIB",
+      "published": "30 Aug 2026 03:22 WIB",
       "sentiment": "Bullish",
       "score": 0.273,
       "emoji": "🟢",
@@ -1111,17 +1001,6 @@
       "published": "28 Aug 2026 21:40 WIB",
       "sentiment": "Bearish",
       "score": -0.815,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Russian forces intensify attacks in Donetsk as Ukraine lauds fresh EU push to unlock frozen assets",
-      "url": "https://www.cnbc.com/2026/08/28/russia-donetsk-ukraine-frozen-assets.html",
-      "summary": "Russia claims advances toward Sloviansk and Kramatorsk as fighting intensifies in Donetsk.",
-      "published": "28 Aug 2026 16:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.5,
       "emoji": "🔴",
       "impact": "high"
     },
