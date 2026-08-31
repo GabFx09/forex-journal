@@ -1,28 +1,262 @@
 {
-  "generated": "30 Aug 2026 22:01 WIB",
+  "generated": "31 Aug 2026 07:01 WIB",
   "summary": {
-    "total": 43,
-    "bullish": 16,
-    "bearish": 20,
-    "netral": 7,
-    "avg_score": -0.0629,
+    "total": 61,
+    "bullish": 27,
+    "bearish": 30,
+    "netral": 4,
+    "avg_score": -0.0804,
     "overall": "Bearish",
     "currency_impact": [
       {
-        "currency": "EUR",
-        "sentiment": "Bearish",
-        "score": -0.065,
-        "count": 4
-      },
-      {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.357,
+        "score": 0.069,
+        "count": 12
+      },
+      {
+        "currency": "EUR",
+        "sentiment": "Bearish",
+        "score": -0.087,
         "count": 3
+      },
+      {
+        "currency": "JPY",
+        "sentiment": "Bullish",
+        "score": 0.171,
+        "count": 3
+      },
+      {
+        "currency": "AUD",
+        "sentiment": "Bearish",
+        "score": -0.056,
+        "count": 2
+      },
+      {
+        "currency": "NZD",
+        "sentiment": "Bullish",
+        "score": 0.514,
+        "count": 2
+      },
+      {
+        "currency": "GBP",
+        "sentiment": "Bearish",
+        "score": -0.25,
+        "count": 1
+      },
+      {
+        "currency": "CAD",
+        "sentiment": "Bearish",
+        "score": -0.25,
+        "count": 1
+      },
+      {
+        "currency": "CHF",
+        "sentiment": "Bearish",
+        "score": -0.25,
+        "count": 1
       }
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Preview - Path of least resistance: ASB expects consensus RBNZ hike this week",
+      "url": "https://investinglive.com/central-banks/preview-path-of-least-resistance-asb-expects-consensus-rbnz-hike-this-week/",
+      "summary": "With a 25 basis point hike already close to fully priced by financial markets, ASB's preview suggests limited scope for a hawkish surprise on the decision itself, meaning any market reaction is more likely to come from the tone of the accompanying statement and the shape of the published OCR track. ",
+      "published": "31 Aug 2026 06:33 WIB",
+      "sentiment": "Bullish",
+      "score": 0.132,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "More from Bessent, presses G20 to confront China's $1.2 trillion trade surplus",
+      "url": "https://investinglive.com/news/more-from-bessent-presses-g20-to-confront-china-s-1-2-trillion-trade-surplus/",
+      "summary": "Bessent framing China's trade surplus as unacceptable at a G20 gathering he is personally trying to reshape signals Washington intends to use the forum to build multilateral pressure on Beijing rather than relying solely on bilateral tariffs, which could unsettle currencies and equities across expor",
+      "published": "31 Aug 2026 06:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.71,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Bessent says yen slide is contained, backs Ueda ahead of G20 talks",
+      "url": "https://investinglive.com/central-banks/bessent-says-yen-slide-is-contained-backs-ueda-ahead-of-g20-talks/",
+      "summary": "Bessent's decision to describe the yen's recent slide as well contained is a meaningful signal in itself, since it lowers the near-term odds of a repeat of the rare joint US-Japan intervention carried out last month when the currency hit 40-year lows. By declining to push the BOJ toward consecutive ",
+      "published": "31 Aug 2026 05:33 WIB",
+      "sentiment": "Bullish",
+      "score": 0.132,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Reserve Bank of New Zealand Shadow Board split, most back 25bp rate hike this week",
+      "url": "https://investinglive.com/central-banks/reserve-bank-of-new-zealand-shadow-board-split-most-back-25bp-rate-hike-this-week/",
+      "summary": "The NZIER Shadow Board result points to a hike as the more likely outcome on Wednesday, but the split within the panel, with several members preferring to hold at 2.50 percent, tempers how confidently markets should price it in. A 25 basis point increase to 2.75 percent would extend the tightening c",
+      "published": "31 Aug 2026 05:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.895,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Oil prices have jumped higher after US attacked Iran and Iran retailiated",
+      "url": "https://investinglive.com/commodities/oil-prices-have-jumped-higher-after-us-attacked-iran-and-iran-retailiated/",
+      "summary": "Oil is higher, up around 2%. US equity index futures have opened little changed. Earlier: U.S. forces have struck two Iranian launchers near Strait of Hormuz Oil - Escalation news: Iran fires missiles from four provinces after Larak Island strike This article was written by Eamonn Sheridan at invest",
+      "published": "31 Aug 2026 05:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.91,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Oil - Escalation news: Iran fires missiles from four provinces after Larak Island strike",
+      "url": "https://investinglive.com/commodities/oil-escalation-news-iran-fires-missiles-from-four-provinces-after-larak-island-strike/",
+      "summary": "A retaliatory barrage spread across four Iranian provinces, rather than a single strike point, signals Tehran is deliberately widening the front rather than responding narrowly to the Larak Island strike, which is likely to be read by traders as an escalation rather than a contained tit-for-tat. The",
+      "published": "31 Aug 2026 04:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.601,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "New week, catch up time! Warsh's hawkish Jackson Hole remarks lift rate hike odds, pressure stocks",
+      "url": "https://investinglive.com/central-banks/new-week-catch-up-time-warsh-s-hawkish-jackson-hole-remarks-lift-rate-hike-odds-pressure-stocks/",
+      "summary": "Kevin Warsh's Jackson Hole remark s pushed the implied probability of a September rate rise to around 58 percent from 35 percent a day earlier, a sharp repricing for such a short window. Short-term Treasury yields rose more than longer-dated ones, reflecting the direct link between near-term Fed exp",
+      "published": "31 Aug 2026 04:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.096,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Monday open indicative forex prices, 31 August 2026",
+      "url": "https://investinglive.com/forex/monday-open-indicative-forex-prices/",
+      "summary": "Monday has started already ... U.S. forces have struck two Iranian launchers near Strait of Hormuz Early FX indications: EUR/USD 1.1582 USD/JPY 160.11 GBP/USD 1.3534 USD/CHF 0.8080 USD/CAD 1.3909 AUD/USD 0.7160 NZD/USD 0.5916 This article was written by Eamonn Sheridan at investinglive.com.",
+      "published": "31 Aug 2026 02:54 WIB",
+      "sentiment": "Bearish",
+      "score": -0.25,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "U.S. forces have struck two Iranian launchers near Strait of Hormuz",
+      "url": "https://investinglive.com/commodities/u-s-forces-have-struck-two-iranian-launchers-near-strait-of-hormuz/",
+      "summary": "Axios with the report that U.S. forces have struck two Iranian launchers on Larak Island. Islamic Revolutionary Guard Corps forces were observed preparing to launch rockets with sea mines into Strait of Hormuz. Axios cited a US official statement. Earlier over the weekend, UKMTO reported an incident",
+      "published": "31 Aug 2026 02:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.612,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Economic and event calendar in Asia 31 August 2026 - China official PMIs",
+      "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-31-august-2026-china-official-pmis/",
+      "summary": "It's a packed data agenda ahead with the priority item Chinese PMI data. Setting the stage for the session ahead is this renewed hostility: U.S. forces have struck two Iranian launchers near Strait of Hormuz China's National Bureau of Statistics releases its official August Purchasing Managers' Indi",
+      "published": "31 Aug 2026 03:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.67,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "US Treasury Secretary Bessent: Japanese Yen moves 'pretty contained' and not disorderly",
+      "url": "https://www.fxstreet.com/news/us-treasury-secretary-bessent-japanese-yen-moves-pretty-contained-and-not-disorderly-202608302347",
+      "summary": "US Treasury Secretary Scott Bessent ‌said on Sunday recent Japanese Yen (JPY) moves ‌were \"pretty well contained,\" suggesting the Japanese currency's renewed weakness were not seen as the kind of disorderly moves that led to a rare joint Japan-US intervention last month, Reuters reported.",
+      "published": "31 Aug 2026 06:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.63,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Australian Dollar weakens to near 0.7150 as Fed's Warsh signals rate hikes, China's PMI data loom",
+      "url": "https://www.fxstreet.com/news/australian-dollar-weakens-to-near-07150-as-feds-warsh-signals-rate-hikes-chinas-pmi-data-loom-202608302332",
+      "summary": "The AUD/USD pair loses traction to near 0.7160 during the early Asian session on Monday.",
+      "published": "31 Aug 2026 06:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.75,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "US military strikes Iranian rocket launchers in first attack in week",
+      "url": "https://www.fxstreet.com/news/us-military-strikes-iranian-rocket-launchers-in-first-attack-in-week-202608302226",
+      "summary": "US Central Command (CENTCOM) struck Iranian rocket launchers that were preparing to send mines into the Strait of Hormuz, following weeks of relative calm, Bloomberg reported on Sunday.",
+      "published": "31 Aug 2026 05:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.729,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4882073",
+      "summary": "",
+      "published": "31 Aug 2026 04:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Faraday Future expands robotics push in Middle East, set to launch new products",
+      "url": "https://www.investing.com/news/stock-market-news/faraday-future-expands-robotics-push-in-middle-east-set-to-launch-new-products-4882072",
+      "summary": "",
+      "published": "31 Aug 2026 04:09 WIB",
+      "sentiment": "Bullish",
+      "score": 0.103,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Ukraine seeks U.S. investment for defence technology fund - FT",
+      "url": "https://www.investing.com/news/stock-market-news/ukraine-seeks-us-investment-for-defence-technology-fund--ft-4882066",
+      "summary": "",
+      "published": "31 Aug 2026 01:57 WIB",
+      "sentiment": "Bullish",
+      "score": 0.103,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Aon close to acquiring USI Insurance from KKR in $17 billion deal, WSJ reports",
+      "url": "https://www.investing.com/news/stock-market-news/aon-close-to-acquiring-usi-insurance-from-kkr-in-17-billion-deal-wsj-reports-4882063",
+      "summary": "",
+      "published": "31 Aug 2026 00:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Aon nears around $17B deal to buy KKR-backed USI Insurance – WSJ",
+      "url": "https://www.investing.com/news/stock-market-news/aon-nears-deal-to-buy-kkrbacked-usi-insurance-for-around-17b--wsj-4882062",
+      "summary": "",
+      "published": "30 Aug 2026 23:51 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "Investing.com Forex",
       "title": "FINAL HOURS: THIS IS YOUR LAST CHANCE to secure up to 55% off InvestingPro",
@@ -79,59 +313,103 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Street Calls of the Week",
-      "url": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-4881973",
-      "summary": "",
-      "published": "30 Aug 2026 17:00 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "Bloomberg Markets",
+      "title": "Latest Oil Market News and Analysis for Aug. 31",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-30/latest-oil-market-news-and-analysis-for-aug-31",
+      "summary": "Oil rose as fresh fighting flared up in the Strait of Hormuz, highlighting risks to flows from the Middle East after months of conflict.",
+      "published": "31 Aug 2026 05:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Malaysia PM unveils measures to tackle living costs, support local businesses",
-      "url": "https://www.investing.com/news/stock-market-news/malaysia-pm-unveils-measures-to-tackle-living-costs-support-local-businesses-4882031",
-      "summary": "",
-      "published": "30 Aug 2026 16:06 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Shein Set for Long-Awaited Hong Kong IPO Debut (Correct)",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-30/shien-set-for-long-awaited-hong-kong-ipo-debut",
+      "summary": "From a peak valuation of 100 billion dollars to a targeted debut at a fraction of that figure, ultra-fast fashion giant Shein is preparing for a long-awaited public listing. But as regulatory crackdowns close tax loopholes and squeeze profit margins, the digital retailer is being forced to radically",
+      "published": "31 Aug 2026 06:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.421,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Oil Rises on Iran Tensions, US Stock Futures Dip: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-30/stock-market-today-dow-s-p-live-updates",
+      "summary": "Oil climbed and US stock-index futures slipped in early Asian trading as Middle East tensions intensified. The dollar held its gains after hawkish comments from Federal Reserve Chair Kevin Warsh strengthened bets on an interest-rate hike next month.",
+      "published": "31 Aug 2026 05:13 WIB",
+      "sentiment": "Netral",
+      "score": 0.028,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Taiwan’s Top Regulator Wants to Wean Taiwan’s Insurers Off US Dollar Dependence",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-30/taiwan-s-top-regulator-wants-to-wean-taiwan-s-insurers-off-us-dollar-dependence",
+      "summary": "Peng Jin-lung, a former academic who now runs Taiwan’s powerful financial regulator, is taking aim at a decades-old investment model used by the island’s life insurance firms — one of the biggest pools of insurance capital in the world.",
+      "published": "31 Aug 2026 06:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.402,
+      "score": 0.557,
       "emoji": "🟢",
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "5 big analyst AI moves: Downgrades for SAP and Intuit; AMD lifted to Strong Buy",
-      "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-downgrades-for-sap-and-intuit-amd-lifted-to-strong-buy-4881980",
-      "summary": "",
-      "published": "30 Aug 2026 12:26 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Trump’s Iran War Sets Test for Xi and Putin’s Security Club",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-30/trump-s-iran-war-sets-test-for-xi-and-putin-s-security-club",
+      "summary": "President Donald Trump’s intensifying economic campaign against Iran is testing the limits of the security grouping Xi Jinping and Vladimir Putin have spent years expanding as a counterweight to US power.",
+      "published": "31 Aug 2026 06:00 WIB",
+      "sentiment": "Netral",
+      "score": -0.026,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Japan’s NYK CEO on Alternative Routes Amid Iran War",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-30/japan-s-nyk-ceo-on-alternative-routes-amid-iran-war-video",
+      "summary": "Japanese shipping giant NYK's head Takaya Soga in an exclusive conversation with Bloomberg's Shery Ahn discusses how the company is exploring alternative routes due to the conflict in the Middle East. (Source: Bloomberg)",
+      "published": "31 Aug 2026 04:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.851,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Australian Dollar’s Top Forecasters Say Winning Run Likely Over",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-30/australian-dollar-s-top-forecasters-say-winning-run-likely-over",
+      "summary": "The Australian dollar’s two-month rally may be nearing a peak, with some of its top forecasters warning that bets on another central bank interest-rate hike have gone too far.",
+      "published": "31 Aug 2026 04:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.591,
+      "score": 0.637,
       "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "European midcaps: Where Jefferies sees upside into H2",
-      "url": "https://www.investing.com/news/stock-market-news/european-midcaps-where-jefferies-sees-upside-into-h2-4882020",
-      "summary": "",
-      "published": "30 Aug 2026 12:19 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
+      "source": "Bloomberg Markets",
+      "title": "Bond Investors Wary After Warsh Fans Wager Fed Poised to Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-30/bond-investors-wary-after-warsh-fans-wagers-fed-poised-to-hike",
+      "summary": "Bond investors at firms including ABN AMRO Investment Solutions and Brandywine Global Investment Management are voicing skepticism about mounting speculation that Federal Reserve Chairman Kevin Warsh is poised to raise interest rates.",
+      "published": "31 Aug 2026 02:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.611,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "LESS THAN 24 HOURS REMAINING: Unlock InvestingPro for 55% off BEFORE IT’S TOO LATE",
-      "url": "https://www.investing.com/news/stock-market-news/only-24-hours-left-lock-in-investingpro-for-55-off-before-its-too-late-4882017",
-      "summary": "",
-      "published": "30 Aug 2026 11:43 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
+      "source": "Bloomberg Markets",
+      "title": "Rep. Krishnamoorthi Warns Iran War Weakens US in Asia",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-30/rep-krishnamoorthi-warns-iran-war-weakens-us-in-asia-video",
+      "summary": "Representative Raja Krishnamoorthi (D) says the Iran war is depleting key US munitions and pulling military assets from the Indo Pacific, potentially weakening deterrence against China as concerns over Taiwan grow. While on Bloomberg This Weekend, the Illinois Democrat also criticized the administra",
+      "published": "30 Aug 2026 21:41 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -178,17 +456,6 @@
       "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Warsh Says Inflation Isn’t Slowing, Vows to Reach 2% Target",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-29/warsh-says-inflation-isn-t-slowing-vows-to-reach-2-video",
-      "summary": "Warsh reiterated that policymakers have a \"firm, fixed target\" of 2% inflation at the 2026 Jackson Hole Economic Policy Symposium. Bloomberg's Maria Eloisa Capurro explains. (Source: Bloomberg)",
-      "published": "29 Aug 2026 23:16 WIB",
-      "sentiment": "Bearish",
-      "score": -0.054,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Google News Forex",
       "title": "Central bank balances growth targets with inflation risks - Báo VietNamNet",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUdVUkNHSmtVOFV2QnpSbkthTG5jdkFsN0lLV0ZrM19ialYwdWdfak1obVUwekYwR0FOcjY2ZWZuRGdkVW5ZWnJFbmVGUmIxbkd3MkVuOFBGTkcxaHhzTGRQY2hrdU54THdoT25VcUlxbFdKa0NzRm9kTjR4Z2F4eE9uZnNpMG1LSUdBTHh6VWNBRnU3dTVva3F5UQ?oc=5",
@@ -200,15 +467,48 @@
       "impact": "low"
     },
     {
-      "source": "Google News Forex",
-      "title": "ECB’s Schnabel Calls for Moving Central Bank Money onto Blockchain - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS0NMMjhCY0lsbmZXM2l1Nm9Pc2djVzJLRk83blFKcUlCbTVJVWZ2ZXJGQUhFN3hhOHIxdVVQR1lieTBXeHF2b00wcnBZLVZjZ21MNko1SEswQ0ZRM3JXekZKQ3ZockQ3VVdMVEFBMnFJVmxycHFCSmYwUllYams5QnJYdEE3Um8?oc=5",
-      "summary": "ECB’s Schnabel Calls for Moving Central Bank Money onto Blockchain CryptoRank",
-      "published": "29 Aug 2026 14:15 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "BBC World",
+      "title": "US strikes Iranian launchers on Larak Island in first known attack in weeks",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+      "summary": "Iran says the attack killed some civilians and is the first known US strike on Iran since late July.",
+      "published": "31 Aug 2026 06:53 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "'A giant leap forward': Nasa launches powerful new space telescope",
+      "url": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US space agency's telescope is starting a multi-year mission to create a new map of the universe and learn more about dark energy and dark matter.",
+      "published": "31 Aug 2026 01:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.588,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Zambian opposition leader charged with treason",
+      "url": "https://www.bbc.co.uk/news/articles/c20lwqpx70qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Mundubile had previously gone into hiding at a United Nations building in Zambia's capital.",
+      "published": "31 Aug 2026 00:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.477,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Russia says it helped to repel Niger attempted coup",
+      "url": "https://www.bbc.co.uk/news/articles/c5ye8egg596o?at_medium=RSS&at_campaign=rss",
+      "summary": "Soldiers tried to attack a key military base early on Saturday morning, authorities say, but were thwarted.",
+      "published": "30 Aug 2026 23:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.456,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -218,17 +518,6 @@
       "published": "30 Aug 2026 03:13 WIB",
       "sentiment": "Bearish",
       "score": -0.891,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Zambian opposition leader charged with treason",
-      "url": "https://www.bbc.co.uk/news/articles/c20lwqpx70qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Mundubile had previously gone into hiding at a United Nations building in Zambia's capital.",
-      "published": "30 Aug 2026 16:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.477,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -244,7 +533,18 @@
       "impact": "low"
     },
     {
-      "source": "BBC Top Stories",
+      "source": "BBC World",
+      "title": "Head teacher evacuated 900 children minutes before Nepal floods hit school",
+      "url": "https://www.bbc.co.uk/news/articles/c5ymvdm5520o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rajendra Dawadi leapt into action after receiving warnings over waters heading towards his school.",
+      "published": "30 Aug 2026 23:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.376,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
       "title": "They fell in love - then had to check they weren't brother and sister",
       "url": "https://www.bbc.co.uk/news/articles/c8en3n29wdro?at_medium=RSS&at_campaign=rss",
       "summary": "A French couple - both conceived by sperm donors - wanted children. But with home DNA tests illegal, how could they be sure they were not related?",
@@ -256,65 +556,32 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Banque Misr, Egypt’s second-largest, hit by US sanctions: What to know",
-      "url": "https://www.aljazeera.com/news/2026/8/30/banque-misr-egypts-second-largest-hit-by-us-sanctions-what-to-know?traffic_source=rss",
-      "summary": "Move comes as Washington steps up its efforts to economically pressure Iran amid deadlock in truce talks.",
-      "published": "30 Aug 2026 20:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Van Dijk wants Cody Gakpo to stay at Liverpool despite Man City interest",
-      "url": "https://www.aljazeera.com/sports/2026/8/30/van-dijk-wants-cody-gakpo-to-stay-at-liverpool-despite-man-city-interest?traffic_source=rss",
-      "summary": "Liverpool's Dutch forward Gakpo is a transfer target for Premier League rivals Manchester City.",
-      "published": "30 Aug 2026 20:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.437,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Dozens of soldiers arrested after apparent coup attempt in Niger’s capital",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/dozens-of-soldiers-arrested-after-apparent-coup-attempt-in-nigers-capital?traffic_source=rss",
-      "summary": "Dozens of soldiers arrested after apparent coup attempt in Niger’s capital",
-      "published": "30 Aug 2026 20:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.735,
-      "emoji": "🔴",
+      "title": "Vote count starts in Guinea-Bissau referendum on strengthening presidency",
+      "url": "https://www.aljazeera.com/news/2026/8/30/vote-count-starts-in-guinea-bissau-referendum-on-strengthening-presidency?traffic_source=rss",
+      "summary": "Ten months after a coup, military leaders say the referendum is designed to stabilise future civilian governments.",
+      "published": "31 Aug 2026 06:08 WIB",
+      "sentiment": "Bullish",
+      "score": 0.494,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Niger’s military-led government says it contained mutiny: What next?",
-      "url": "https://www.aljazeera.com/news/2026/8/30/nigers-military-led-government-says-it-contained-mutiny-what-next?traffic_source=rss",
-      "summary": "Mutiny began at a military base in Niamey and spread to area near the presidential palace and state broadcaster.",
-      "published": "30 Aug 2026 20:01 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "title": "‘Opening a new chapter’: Syria reopens embassy in Libya after talks",
+      "url": "https://www.aljazeera.com/news/2026/8/30/opening-a-new-chapter-syria-to-reopen-embassy-in-libya-after-talks?traffic_source=rss",
+      "summary": "Syrian foreign minister and Libyan PM agree to cooperation committee and reopening of diplomatic missions.",
+      "published": "31 Aug 2026 03:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.281,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Alvarez returns to Atletico training amid Barcelona, Arsenal transfer links",
-      "url": "https://www.aljazeera.com/sports/2026/8/30/alvarez-returns-to-atletico-training-amid-barcelona-arsenal-transfer-links?traffic_source=rss",
-      "summary": "Atletico Madrid forward missed two earlier training sessions amid ongoing speculation about his future at the club.",
-      "published": "30 Aug 2026 19:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.456,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Palestinian mother in agony as Israeli attack kills her son",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/palestinian-mother-in-agony-as-israeli-attack-kills-her-son?traffic_source=rss",
-      "summary": "Palestinian mother in agony as Israeli attack kills her son",
-      "published": "30 Aug 2026 19:33 WIB",
+      "title": "US strikes Iran’s Larak Island in first attack in weeks",
+      "url": "https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks?traffic_source=rss",
+      "summary": "IRGC says attack in southern Iran killed and injured several soldiers.",
+      "published": "31 Aug 2026 03:15 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -322,58 +589,25 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "How has life changed for Iranians six months into the war?",
-      "url": "https://www.aljazeera.com/economy/2026/8/30/how-has-life-changed-for-iranians-six-months-into-the-war?traffic_source=rss",
-      "summary": "Common Iranians are under increasing pressure, with no relief expected in the short term.",
-      "published": "30 Aug 2026 19:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.985,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Israel’s Ben-Gvir lauds harsh conditions for Palestinian female prisoners",
-      "url": "https://www.aljazeera.com/news/2026/8/30/israels-ben-gvir-lauds-harsh-conditions-for-palestinian-female-prisoners?traffic_source=rss",
-      "summary": "Palestinian groups condemn prison footage as humiliation and intimidation.",
-      "published": "30 Aug 2026 18:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.956,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Six months on, what did the strikes on Iran achieve?",
-      "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/8/30/six-months-on-what-did-the-strikes-on-iran-achieve?traffic_source=rss",
-      "summary": "The US-Israeli bombing of Iran became a fight for the Strait of Hormuz. AJLabs counts the cost of the war.",
-      "published": "30 Aug 2026 18:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.92,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran’s Khamenei calls for Gulf unity as Hormuz tensions persist",
-      "url": "https://www.aljazeera.com/news/2026/8/30/irans-khamenei-calls-for-gulf-unity-as-hormuz-tensions-persist?traffic_source=rss",
-      "summary": "Khamenei urges Gulf rulers to confront their 'real enemy' as Iran keeps Hormuz restricted amid stalled diplomacy.",
-      "published": "30 Aug 2026 17:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.963,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tearful Roger Federer inducted into Tennis Hall of Fame",
-      "url": "https://www.aljazeera.com/sports/2026/8/30/tearful-roger-federer-inducted-into-tennis-hall-of-fame?traffic_source=rss",
-      "summary": "'I'm still writing my love letter to tennis,' Swiss legend says as he is applauded by former tennis rivals and friends.",
-      "published": "30 Aug 2026 17:18 WIB",
+      "title": "Top officials from Turkiye, Saudi Arabia, Pakistan to meet in Istanbul",
+      "url": "https://www.aljazeera.com/news/2026/8/30/top-officials-from-turkiye-saudi-arabia-pakistan-to-meet-in-istanbul?traffic_source=rss",
+      "summary": "Foreign, defence ministers and military chiefs from three countries to meet for first time since signing Mecca pact.",
+      "published": "31 Aug 2026 01:19 WIB",
       "sentiment": "Bullish",
-      "score": 0.914,
+      "score": 0.296,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
+      "summary": "U.S. stock-index futures declined on Sunday, as investors ponder the likelihood of a fresh interest-rate hike and look ahead to fresh labor data and tech earnings this week.",
+      "published": "31 Aug 2026 06:52 WIB",
+      "sentiment": "Bullish",
+      "score": 0.58,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "MarketWatch",
@@ -395,28 +629,6 @@
       "sentiment": "Bearish",
       "score": -0.208,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October",
-      "url": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories",
-      "summary": "Months of panic that AI would replace subscription software are easing after a strong week of software earnings.",
-      "published": "30 Aug 2026 19:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.25,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Forex",
-      "title": "Buffett remains active at 96, but Berkshire's shares aren't doing much",
-      "url": "https://www.cnbc.com/2026/08/29/buffett-remains-active-at-96-but-berkshires-shares-arent-doing-much.html",
-      "summary": "Warren Buffett will be celebrating his 96th birthday on Sunday, but Berkshire Hathaway investors aren't celebrating the stock's anemic performance.",
-      "published": "29 Aug 2026 18:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.611,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -443,6 +655,39 @@
     },
     {
       "source": "CNBC World",
+      "title": "What caused Nvidia's nasty reversal Friday? Look to the Fed for clues",
+      "url": "https://www.cnbc.com/2026/08/30/what-caused-nvidias-nasty-reversal-friday-look-to-the-fed-for-clues.html",
+      "summary": "In his Sunday column for Investing Club subscribers, Jim Cramer explores the linkage between Nvidia's stock, the oil market, and the Federal Reserve.",
+      "published": "31 Aug 2026 06:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Op-ed: Dolly Parton was underestimated for decades. That became one of her greatest strengths",
+      "url": "https://www.cnbc.com/2026/08/29/dolly-parton-success-business-lessons.html",
+      "summary": "In a candid 2015 interview, Dolly Parton told CNBC's Tania Bryer about depression, ambition and the business decisions that defined her career.",
+      "published": "30 Aug 2026 03:22 WIB",
+      "sentiment": "Bullish",
+      "score": 0.273,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump criticizes NBC over election comment as Treasury denies some NYT, WSJ and Bloomberg reporters G20 credentials",
+      "url": "https://www.cnbc.com/2026/08/30/trump-nbc-election-comment-treasury-g20-reporter-access.html",
+      "summary": "Trump's attack on NBC comes after the Treasury barred journalists from The New York Times, The Wall Street Journal and Bloomberg from attending the G20.",
+      "published": "31 Aug 2026 02:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.771,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
       "title": "Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar",
       "url": "https://www.cnbc.com/2026/08/29/iran-trade-sanctions-dollar-oil-exports.html",
       "summary": "Iran's president says sanctions are hitting imports and exports, as its supreme leader urges less reliance on the U.S. dollar.",
@@ -462,17 +707,6 @@
       "score": -0.756,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Op-ed: Dolly Parton was underestimated for decades. That became one of her greatest strengths",
-      "url": "https://www.cnbc.com/2026/08/29/dolly-parton-success-business-lessons.html",
-      "summary": "In a candid 2015 interview, Dolly Parton told CNBC's Tania Bryer about depression, ambition and the business decisions that defined her career.",
-      "published": "30 Aug 2026 03:22 WIB",
-      "sentiment": "Bullish",
-      "score": 0.273,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "CNBC World",
