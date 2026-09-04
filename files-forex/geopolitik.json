@@ -1,59 +1,103 @@
 {
-  "generated": "03 Sep 2026 22:02 WIB",
+  "generated": "04 Sep 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.452,
+      "count": 23
+    },
+    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.343,
-      "count": 24
+      "score": -0.439,
+      "count": 22
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.301,
-      "count": 22
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.392,
-      "count": 22
+      "score": -0.44,
+      "count": 20
     },
     {
       "pair": "EUR/USD",
-      "direction": "Netral →",
-      "score": 0.02,
-      "count": 9
+      "direction": "Tekanan Turun ▼",
+      "score": -0.234,
+      "count": 7
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.687,
-      "count": 5
+      "score": -0.203,
+      "count": 3
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.687,
-      "count": 5
+      "score": -0.203,
+      "count": 3
     },
     {
       "pair": "EUR",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.494,
-      "count": 4
+      "direction": "Tekanan Naik ▲",
+      "score": 0.159,
+      "count": 2
     },
     {
-      "pair": "GBP/USD",
+      "pair": "USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.408,
-      "count": 4
+      "score": 0.159,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Catch-up: Waller sent stocks rocketing higher in the US",
+      "url": "https://investinglive.com/stock-market-update/catch-up-waller-sent-stocks-rocketing-higher-in-the-us/",
+      "summary": "Market impact: Waller's remarks: Feds Waller: Finally seeing some signs of disinflation in recent data. How are the markets reacting? Markets react to Gov. Waller comments. Stocks higher. Yields lower, and the USD lower landed against a market pricing in a September hike at 60-67% odds following Fed",
+      "published": "04 Sep 2026 05:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.447,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "investingLive Americas market news wrap: Waller tamps down rate hike bets",
+      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-waller-tamps-down-rate-hike-bets/",
+      "summary": "Deutsche Bank: The dollar is now leveraged to the AI race Vance: We're not talking to Iran unless they stop shooting at ships Preview: August non-farm payrolls by the numbers ISM non manufacturing PMI for August 55.4 versus 54.2 estimate. Stronger than expectations Feds Waller: Finally seeing some s",
+      "published": "04 Sep 2026 04:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.158,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "ICYMI: Oman said to reject Iran's plan to jointly charge fees on ships in Hormuz",
+      "url": "https://investinglive.com/commodities/icymi-oman-said-to-reject-iran-s-plan-to-jointly-charge-fees-on-ships-in-hormuz/",
+      "summary": "Market impact: The reported rejection adds a fresh complication to the fragile arrangement governing traffic through the Strait of Hormuz, a waterway carrying roughly a fifth of global oil and LNG trade. If accurate, it suggests the post-conflict framework for administering the strait, agreed under ",
+      "published": "04 Sep 2026 04:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.202,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Citi lifts 3Q26 Brent forecast to $86 but sees prices sliding to $65 by 2027",
+      "url": "https://investinglive.com/commodities/citi-lifts-3q26-brent-forecast-to-86-but-sees-prices-sliding-to-65-by-2027/",
+      "summary": "Market impact: Citi's upward revision to its 3Q26 Brent forecast reflects near-term price strength, but the bank's unchanged, lower forecasts for 4Q26 and 2027 signal an expectation that oil markets will loosen substantially once the Strait of Hormuz fully reopens. Citi expects a larger than pre-con",
+      "published": "04 Sep 2026 04:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.71,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "US trade deficit widens sharply in July as AI-related imports surge",
@@ -66,114 +110,37 @@
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "investingLive European markets wrap: Japanese yen surges higher for second straight day",
-      "url": "https://investinglive.com/news/investinglive-european-markets-wrap-japanese-yen-surges-higher-for-second-straight-day/",
-      "summary": "Headlines: USD/JPY extends fall today in drop back below 158, what's next? Bond yields pull back from the highs as focus turns to US jobs report next WTI Crude Oil Price Analysis: Bears Favored Below $90 Gold upside remains limited by Fed rate hike risks and Iran war; traders await US CPI for next d",
-      "published": "03 Sep 2026 19:11 WIB",
+      "source": "FXStreet News",
+      "title": "The Australian Dollar thanks Waller's comments, which sink the USD",
+      "url": "https://www.fxstreet.com/news/the-australian-dollar-thanks-wallers-comments-which-sink-the-usd-202609032243",
+      "summary": "The Australian Dollar rises against the US Dollar on Thursday as Fed Governor Waller turns moderately dovish ahead of the September meeting, even as Oil prices rise due to a resumption of hostilities in the Middle East. The AUD/USD trades at 0.7200, up 0.44%.",
+      "published": "04 Sep 2026 05:43 WIB",
       "sentiment": "Bearish",
-      "score": -0.858,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Oil prices trade at the highest levels since June as US-Iran war intensifies. What's next?",
-      "url": "https://investinglive.com/commodities/oil-prices-trade-at-the-highest-levels-since-june-as-us-iran-war-intensifies-what-s-next/",
-      "summary": "FUNDAMENTAL OVERVIEW The recent rally in oil prices has been driven by a sharp re-escalation in the Middle East, involving once again the Strait of Hormuz. The US carried out new strikes against Iranian targets after alleged attacks on commercial shipping and US personnel, while Iran has threatened ",
-      "published": "03 Sep 2026 18:25 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Global Bond Selloff: Why Yields Are Surging and Why Investors Shouldn’t Abandon Bonds",
-      "url": "https://investinglive.com/education/global-bond-selloff-why-yields-are-surging-and-why-investors-shouldn-t-abandon-bonds/",
-      "summary": "Global bond markets are facing one of their sharpest repricings in years. The selloff accelerated on Tuesday, September 1, and extended into Wednesday as investors confronted a combination of renewed inflation risks, higher oil prices, deteriorating fiscal positions and expectations that central ban",
-      "published": "03 Sep 2026 18:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
+      "score": -0.052,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Gold upside remains limited by Fed rate hike risks and Iran war; traders await US CPI for next direction",
-      "url": "https://investinglive.com/commodities/gold-upside-remains-limited-by-fed-rate-hike-risks-and-iran-war-traders-await-us-cpi-for-next-direction/",
-      "summary": "FUNDAMENTAL OVERVIEW Gold erased completely the Treasury buyback announcement gains after Fed Chair Warsh retightened financial conditions with his hawkish speech at the Jackson Hole Symposium. Since yesterday, we’ve started to see pullbacks across many markets as the hawkish repricing run its cours",
-      "published": "03 Sep 2026 17:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.547,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Nasdaq's fate hinges on US CPI and Middle East conflict as growth expectations deteriorate",
-      "url": "https://investinglive.com/stocks/nasdaq-s-fate-hinges-on-us-cpi-and-middle-east-conflict-as-growth-expectations-deteriorate/",
-      "summary": "FUNDAMENTAL OVERVIEW The Nasdaq is currently trading at the same levels we’ve seen in May. The index has been pretty much rangebound with high volatility for four months. The two main reasons for such underperformance are Fed tightening risks and the US-Iran war, as they both negative drivers for fu",
-      "published": "03 Sep 2026 16:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.955,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "WTI Crude Oil Price Analysis: Bears Favored Below $90",
-      "url": "https://investinglive.com/commodities/wti-crude-oil-price-analysis-bears-favored-below-90/",
-      "summary": "WTI Crude Oil Price Analysis Today: Bears Favored After Failed Push Above $91.31 Prediction score: -4 on a -10 to +10 scale Bias: Bearish below $90.00, with stronger confirmation if WTI remains beneath the $89.93-$90.13 decision zone WTI crude oil futures have shifted toward a short-term bearish set",
-      "published": "03 Sep 2026 14:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.823,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "FXStreet News",
-      "title": "Gold: Longer-term landscape improves – TD Securities",
-      "url": "https://www.fxstreet.com/news/gold-longer-term-landscape-improves-td-securities-202609031358",
-      "summary": "TD Securities’ Ryan McKay and Bart Melek note that speculation of currency intervention and less hawkish Federal Reserve commentary have supported precious metals, with Gold moving away from nearby CTA selling triggers.",
-      "published": "03 Sep 2026 20:58 WIB",
-      "sentiment": "Bullish",
-      "score": 0.955,
-      "emoji": "🟢",
-      "impact": "high"
+      "title": "Indonesian Rupiah: Depreciation trend persists as oil shock weighs – MUFG",
+      "url": "https://www.fxstreet.com/news/indonesian-rupiah-depreciation-trend-persists-as-oil-shock-weighs-mufg-202609032113",
+      "summary": "MUFG’s Lloyd Chan argues that while the pace of Rupiah depreciation may slow, the broader weakening trend is set to continue. USD/IDR has pulled back as crowded long positions unwind and some foreign inflows return, but elevated US yields and high Oil prices remain headwinds.",
+      "published": "04 Sep 2026 04:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.582,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Brent: Updated price paths as Persian Gulf flows shift – ING",
-      "url": "https://www.fxstreet.com/news/brent-updated-price-paths-as-persian-gulf-flows-shift-ing-202609031300",
-      "summary": "ING’s Warren Patterson revises Oil forecasts higher, highlighting tight Brent and refined product markets as Persian Gulf exports remain around half of pre-war levels.",
-      "published": "03 Sep 2026 20:00 WIB",
+      "source": "Investing.com Economy",
+      "title": "Greer says agriculture, non-tariff barrier announcements likely during Xi visit",
+      "url": "https://www.investing.com/news/economic-indicators/greer-says-agriculture-nontariff-barrier-announcements-likely-during-xi-visit-4888673",
+      "summary": "",
+      "published": "04 Sep 2026 05:36 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.128,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Canadian Dollar: Testing support after BoC hold – BBH",
-      "url": "https://www.fxstreet.com/news/canadian-dollar-testing-support-after-boc-hold-bbh-202609031249",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad observes USD/CAD is testing key support at 1.3800, where a break could open further downside. The Bank of Canada (BoC) delivered a hawkish hold, keeping rates at 2.25% but warning about increased upside inflation risks.",
-      "published": "03 Sep 2026 19:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.306,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "European Central Bank: September hike with cautious path – TD Securities",
-      "url": "https://www.fxstreet.com/news/european-central-bank-september-hike-with-cautious-path-td-securities-202609031240",
-      "summary": "TD Securities’ macro team, including Pooja Kumra, expects the ECB to raise the deposit rate by 25bp to 2.50% in September. They see limited forward guidance, with the Governing Council reiterating its data-dependent, meeting-by-meeting approach.",
-      "published": "03 Sep 2026 19:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.106,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "Investing.com Economy",
@@ -199,36 +166,47 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Your ETF of the Moment: Riding the Wild, War-Fueled Oil Market",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/your-etf-of-the-moment-riding-the-wild-war-fueled-oil-market",
-      "summary": "The US-Israel war with Iran and the inability of Donald Trump to extricate himself from it have made one fund a good bet.",
-      "published": "03 Sep 2026 21:16 WIB",
+      "title": "IMF Mulls Opening Caracas Office as Venezuela Engagement Deepens",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/imf-mulls-opening-caracas-office-as-venezuela-engagement-deepens",
+      "summary": "The International Monetary Fund is considering opening a local office in Venezuela, establishing permanent representation in the country for the first time in years, according to people familiar with the matter.",
+      "published": "04 Sep 2026 03:08 WIB",
+      "sentiment": "Bullish",
+      "score": 0.477,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Lei Qiu Says AI Is Moving Into Adoption Phase",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/lei-qiu-says-ai-is-moving-into-adoption-phase-video",
+      "summary": "AllianceBernstein's Thematic Innovation Equities Chief investment Officer Lei Qiu says the latest earnings reports point to strong and persistent AI demand. He argues there is clear evidence of AI adoption broadening beyond hardware into select software and the infrastructure layer, showing that AI ",
+      "published": "04 Sep 2026 02:49 WIB",
+      "sentiment": "Bullish",
+      "score": 0.727,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump hints US would not back UK over Falkland Islands due to lack of Iran war support",
+      "url": "https://www.bbc.co.uk/news/articles/c1kx4m70l4yo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president says the UK was not \"there to help me\" in his ongoing war with Iran.",
+      "published": "03 Sep 2026 23:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.652,
+      "score": -0.944,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "A $5 Billion Bond Revamp Starts Clock on Senegal Default",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/senegal-starts-countdown-to-first-african-default-since-2023",
-      "summary": "Senegal has been at the front of emerging-market bond investors’ minds since the government discovered billions of dollars of hidden debt two years ago.",
-      "published": "03 Sep 2026 12:00 WIB",
+      "source": "BBC World",
+      "title": "US investigating if missile hit Iran wedding, Vance says",
+      "url": "https://www.bbc.co.uk/news/articles/cy4zvk3z2k1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Iranian Red Crescent Society (IRCS) said shrapnel from a missile hit the ceremony and killed four people on Tuesday.",
+      "published": "04 Sep 2026 05:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.441,
+      "score": -0.75,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Russia’s Oil Revenue Sinks to Six-Month Low as Urals Price Drops",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/russia-s-oil-revenue-sinks-to-six-month-low-as-urals-price-drops",
-      "summary": "Russia’s oil revenue slumped to a six-month low in August, reflecting lower export prices and compounding pressure on the Kremlin’s ability to finance its war in Ukraine.",
-      "published": "03 Sep 2026 19:56 WIB",
-      "sentiment": "Bearish",
-      "score": -0.928,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -246,7 +224,7 @@
       "title": "Palestinian teens killed during settler attack on West Bank village, officials say",
       "url": "https://www.bbc.co.uk/news/articles/cj6482r6yl4o?at_medium=RSS&at_campaign=rss",
       "summary": "Al-Mughayyir's council says they were trying to stop settlers stealing sheep, but the Israeli military says they threw stones at its troops.",
-      "published": "03 Sep 2026 16:53 WIB",
+      "published": "03 Sep 2026 22:05 WIB",
       "sentiment": "Bearish",
       "score": -0.855,
       "emoji": "🔴",
@@ -265,14 +243,14 @@
     },
     {
       "source": "BBC World",
-      "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
-      "url": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Russia is accused of growing increasingly reckless after Berlin blamed Russia for a failed drone attack on Leipzig airport.",
-      "published": "03 Sep 2026 10:21 WIB",
+      "title": "Why Nepal floods should worry India",
+      "url": "https://www.bbc.co.uk/news/articles/cn8e940gz10o?at_medium=RSS&at_campaign=rss",
+      "summary": "The disaster comes as a warning as climate change raises shared Himalayan risks.",
+      "published": "03 Sep 2026 07:58 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "BBC Business",
@@ -320,76 +298,32 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Zack Polanski says he'll run for former PM Starmer's seat in by-election",
-      "url": "https://www.bbc.co.uk/news/articles/cge41ee40vwo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Green Party leader intends to run in the Holborn and St Pancras seat following Sir Keir Starmer's resignation as MP.",
-      "published": "03 Sep 2026 19:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.128,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Badenoch accuses Burnham of kicking defence spending into the long grass",
-      "url": "https://www.bbc.co.uk/news/articles/crk3xdv0z71o?at_medium=RSS&at_campaign=rss",
-      "summary": "Andy Burnham has committed to reaching the Nato target of 3.5% spending by 2035, but not 3% by 2030.",
-      "published": "03 Sep 2026 20:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.115,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iranian drone damages residential building in Kuwait City",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/03-09-iranian-drone-kuwait-building-clip?traffic_source=rss",
-      "summary": "An Iranian drone attack damaged a residential building in Kuwait, authorities say, with no casualties reported.",
-      "published": "03 Sep 2026 21:47 WIB",
+      "title": "Three farmers detained by Israel in Lebanon, village leader says",
+      "url": "https://www.bbc.co.uk/news/articles/c4gq2my0v5po?at_medium=RSS&at_campaign=rss",
+      "summary": "The detentions were reported to the US-led International Monitoring and Implementation Mechanism but Israeli military has not commented.",
+      "published": "04 Sep 2026 02:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.958,
+      "score": -0.214,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Somalia repels armed assault on Baidoa amid regional political tensions",
-      "url": "https://www.aljazeera.com/news/2026/9/3/somalia-repels-armed-assault-on-baidoa-amid-regional-political-tensions?traffic_source=rss",
-      "summary": "Explosions and gunfire rock Baidoa as armed groups strike during South West State's political tensions.",
-      "published": "03 Sep 2026 20:40 WIB",
+      "title": "Are Trump’s AI videos just memes or psychological warfare?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/are-trumps-ai-videos-just-memes-or-psychological-warfare?traffic_source=rss",
+      "summary": "Trump’s use of AI generated content has ramped up in recent months, posting videos of fake military strikes.",
+      "published": "04 Sep 2026 06:36 WIB",
       "sentiment": "Bearish",
-      "score": -0.946,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ukraine takes the war to Russia’s space programme in tactical shift",
-      "url": "https://www.aljazeera.com/news/2026/9/3/ukraine-targets-russias-space-programme-as-war-intensifies?traffic_source=rss",
-      "summary": "From Moscow to Plesetsk, Ukraine appears to be trying to hit infrastructure that powers Russia’s war from space.",
-      "published": "03 Sep 2026 20:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.912,
+      "score": -0.858,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "UEFA opens disciplinary case against Fenerbahce’s Guendouzi and Greenwood",
-      "url": "https://www.aljazeera.com/sports/2026/9/3/uefa-opens-disciplinary-case-against-fenerbahces-guendouzi-and-greenwood?traffic_source=rss",
-      "summary": "Guendouzi and Greenwood made provocative gestures towards the Lyon ‌supporters after their Champions League playoff.",
-      "published": "03 Sep 2026 19:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.527,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "UN warns El Nino could be ‘off the charts’, strongest in decades",
-      "url": "https://www.aljazeera.com/news/2026/9/3/un-warns-el-nino-could-be-off-the-charts-strongest-in-decades?traffic_source=rss",
-      "summary": "The World Meteorological Organization says forecasts show 100% likelihood that El Nino will continue through February.",
-      "published": "03 Sep 2026 18:49 WIB",
+      "title": "El Nino: A phenomenon supercharged by climate change",
+      "url": "https://www.aljazeera.com/features/2026/9/3/el-nino-a-phenomenon-supercharged-by-climate-change?traffic_source=rss",
+      "summary": "Scientists warn the 2026-27 El Nino could become the strongest ever, exacerbating global heat, droughts and floods.",
+      "published": "04 Sep 2026 04:09 WIB",
       "sentiment": "Bullish",
       "score": 0.361,
       "emoji": "🟢",
@@ -397,57 +331,35 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Kyrgyzstan hosts pivotal SCO summit amid global geopolitical shifts",
-      "url": "https://www.aljazeera.com/news/2026/9/3/kyrgyzstan-hosts-pivotal-sco-summit-amid-global-geopolitical-shifts?traffic_source=rss",
-      "summary": "Kyrgyzstan balances ties with global powers while leveraging its geography to secure economic and political opportunities.",
-      "published": "03 Sep 2026 17:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.612,
-      "emoji": "🟢",
-      "impact": "medium"
+      "title": "US Vice President JD Vance declines to offer timeline for end of Iran war",
+      "url": "https://www.aljazeera.com/news/2026/9/3/us-vice-president-jd-vance-declines-to-offer-timeline-for-end-of-iran-war?traffic_source=rss",
+      "summary": "The Trump official expressed scepticism at White House briefing about the conflict being a war despite recent flare-up.",
+      "published": "04 Sep 2026 04:07 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Green Party leader Zack Polanski to stand in by-election for Starmer’s seat",
-      "url": "https://www.aljazeera.com/news/2026/9/3/green-party-leader-zack-polanski-to-stand-in-by-election-for-starmers-seat?traffic_source=rss",
-      "summary": "Zack Polanski announces candidacy for the Holborn and St Pancras seat to be vacated by British ex-PM Keir Starmer.",
-      "published": "03 Sep 2026 16:57 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "The U.S. economy powers up as summer winds down, but it’s not free of trip wires",
-      "url": "https://www.marketwatch.com/story/the-u-s-economy-powers-up-as-summer-winds-down-but-its-not-free-of-tripwires-2208ae5a?mod=mw_rss_topstories",
-      "summary": "The largest part of the economy grew in August at the fastest pace in six months despite higher inflation and a new round of White House tariffs, suggesting the six-year-old U.S. expansion has plenty more room to run.",
-      "published": "03 Sep 2026 21:44 WIB",
+      "title": "Israel kills 3 in Gaza as far-right minister plans for Palestinian removals",
+      "url": "https://www.aljazeera.com/news/2026/9/3/israel-kills-3-in-gaza-as-far-right-minister-plans-for-palestinian-removals?traffic_source=rss",
+      "summary": "Israeli drone strike and gunfire kills and injures people across the Gaza Strip despite 'ceasefire'.",
+      "published": "04 Sep 2026 03:31 WIB",
       "sentiment": "Bearish",
-      "score": -0.47,
+      "score": -0.738,
       "emoji": "🔴",
-      "impact": "medium"
+      "impact": "low"
     },
     {
-      "source": "MarketWatch",
-      "title": "Clean sweep or divided Congress, these are the midterm-elections trades to make, says JPMorgan",
-      "url": "https://www.marketwatch.com/story/clean-sweep-or-split-congress-these-are-the-trades-to-make-on-the-midterms-outcome-says-jpmorgan-91a1e3ee?mod=mw_rss_topstories",
-      "summary": "Some stocks will face very different environments depending on how Americans vote in November.",
-      "published": "03 Sep 2026 20:35 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Snowflake has a secret weapon that’s powering its stock toward a huge gain",
-      "url": "https://www.marketwatch.com/story/shares-in-snowflake-are-surging-heres-what-wall-street-analysts-are-saying-0b6343c0?mod=mw_rss_topstories",
-      "summary": "The company’s AI-powered coding assistant is driving major sales momentum.",
-      "published": "03 Sep 2026 20:34 WIB",
-      "sentiment": "Bullish",
-      "score": 0.542,
-      "emoji": "🟢",
+      "source": "Al Jazeera",
+      "title": "Serbia welcomes return of war criminal Mladic’s body with military honours",
+      "url": "https://www.aljazeera.com/news/2026/9/3/serbia-welcomes-return-of-war-criminal-mladics-body-with-military-honours?traffic_source=rss",
+      "summary": "Ratko Mladic received a life sentence from a UN court for committing atrocities during the 1992-1995 Bosnian War.",
+      "published": "04 Sep 2026 02:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.771,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -462,22 +374,55 @@
       "impact": "medium"
     },
     {
-      "source": "CNBC World",
-      "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
-      "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html",
-      "summary": "In remarks that seem to contrast with statements last week from Chairman Kevin Warsh, Waller expressed confidence in the current inflation trends.",
-      "published": "03 Sep 2026 21:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.638,
-      "emoji": "🟢",
+      "source": "CNBC Economy",
+      "title": "Automakers urge Congress to permanently ban Chinese connected vehicles in U.S.",
+      "url": "https://www.cnbc.com/2026/09/03/chinese-vehicles-congress.html",
+      "summary": "Major automakers in the U.S. are urging Congress to ban the domestic sale, import and manufacturing of Chinese connected vehicles, hardware and software.",
+      "published": "04 Sep 2026 03:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.882,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC Economy",
+      "title": "ChargePoint CEO says 70% stock surge 'is the beginning of the momentum'",
+      "url": "https://www.cnbc.com/2026/09/03/chargepoint-ceo-50percent-stock-surge-is-the-beginning-of-the-momentum.html",
+      "summary": "The infrastructure company is toward the end of a three-year business plan that has boosted revenue and significantly cut the company's losses.",
+      "published": "04 Sep 2026 03:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.398,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "CNBC World",
-      "title": "Brent oil price above $96 per barrel after Iran fires missiles at Kuwait",
+      "title": "Carney claps back at Lutnick, says Canada will resume trade talks 'when the Americans are ready'",
+      "url": "https://www.cnbc.com/2026/09/03/carney-lutnick-trump-trade-canada.html",
+      "summary": "Canada has retaliated against President Donald Trump's 50% tariffs with \"dollar for dollar\" duties on U.S. goods, which are set to take effect next week.",
+      "published": "04 Sep 2026 03:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.441,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities",
+      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+      "summary": "OpenAI said companies participating in its application-based cybersecurity program will be first to get access to Astra.",
+      "published": "04 Sep 2026 04:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.183,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Oil prices little changed after Iran fires missiles at Kuwait",
       "url": "https://www.cnbc.com/2026/09/03/oil-price-today-iran-war-strait-hormuz.html",
-      "summary": "Oil prices have gained more than 7% this week The U.S. and Iran have traded military strikes this week for the first time since July.",
-      "published": "03 Sep 2026 20:40 WIB",
+      "summary": "U.S. oil prices have gained more than 9% this week as Washington and Tehran have traded military strikes for the first time since July.",
+      "published": "04 Sep 2026 02:14 WIB",
       "sentiment": "Netral",
       "score": 0.026,
       "emoji": "⚪",
@@ -506,25 +451,14 @@
       "impact": "high"
     },
     {
-      "source": "CNBC World",
-      "title": "Iran strikes Kuwait as Trump says renewed Mideast hostilities will not last 'too long'",
-      "url": "https://www.cnbc.com/2026/09/03/us-iran-war-trump-hormuz-israel-middle-east-europe-kuwait.html",
-      "summary": "On Thursday, Kuwait's army said it was confronting hostile missile and drone attacks from Iran.",
-      "published": "03 Sep 2026 21:32 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "China hits back at G20 statement on its reliance on exports, accusing them of 'promoting protectionism'",
-      "url": "https://www.cnbc.com/2026/09/03/china-g20-exports-trade.html",
-      "summary": "China rejected G20 pressure over export-driven growth while also challenging U.S. Iran sanctions and European trade measures.",
-      "published": "03 Sep 2026 18:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.128,
-      "emoji": "🔴",
+      "source": "CNBC Markets",
+      "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
+      "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html",
+      "summary": "In remarks that seem to contrast with statements last week from Chairman Kevin Warsh, Waller expressed confidence in the current inflation trends.",
+      "published": "03 Sep 2026 21:06 WIB",
+      "sentiment": "Bullish",
+      "score": 0.638,
+      "emoji": "🟢",
       "impact": "high"
     }
   ]
