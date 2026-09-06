@@ -1,5 +1,5 @@
 {
-  "generated": "06 Sep 2026 07:01 WIB",
+  "generated": "06 Sep 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,217 +7,151 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.377,
-      "count": 25
+      "score": -0.568,
+      "count": 16
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.387,
-      "count": 24
+      "score": -0.564,
+      "count": 16
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.334,
-      "count": 23
+      "score": -0.608,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.423,
-      "count": 5
+      "score": -0.464,
+      "count": 8
     },
     {
-      "pair": "CAD/JPY",
+      "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.679,
-      "count": 1
+      "score": -0.328,
+      "count": 3
     },
     {
-      "pair": "NOK/SEK",
+      "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.679,
-      "count": 1
+      "score": -0.328,
+      "count": 3
     },
     {
-      "pair": "GBP/USD",
-      "direction": "Netral →",
-      "score": 0.0,
-      "count": 1
-    },
-    {
-      "pair": "EUR",
+      "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.153,
+      "score": -0.466,
+      "count": 2
+    },
+    {
+      "pair": "CAD/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.812,
       "count": 1
     }
   ],
   "items": [
     {
-      "source": "ForexLive",
-      "title": "investingLive Americas market news wrap: Big beat for non-farm payrolls",
-      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-big-beat-for-non-farm-payrolls/",
-      "summary": "Trump: Witkoff and Kushner will bring proposal to Putin to end the war Cleveland Fed President Beth Hammack is sounding decidedly hawkish on monetary policy Trump tells Fed: Lower the rate or I'll stop trading with countries with which we have a deficit Canada Employment change for August -41,7K vs ",
-      "published": "05 Sep 2026 03:34 WIB",
+      "source": "Investing.com Forex",
+      "title": "Gulf markets close mixed amid US-Iran tensions",
+      "url": "https://www.investing.com/news/stock-market-news/gulf-markets-close-mixed-amid-usiran-tensions-93CH-4890296",
+      "summary": "",
+      "published": "06 Sep 2026 21:20 WIB",
       "sentiment": "Bearish",
-      "score": -0.849,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Trump: Witkoff and Kushner will bring proposal to Putin to end the war",
-      "url": "https://investinglive.com/news/trump-we-may-hit-piackaxe-mountain-very-soon/",
-      "summary": "Trump confirms that Kushner and Witkoff are headed to Moscow and Kyiv this weekend with a new proposal to end the war. We will have to see where that leads. Trump also says they may hit Pickaxe mountain very soon. Pickaxe Mountain is a heavily fortified underground nuclear facility being built by Ir",
-      "published": "05 Sep 2026 01:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.912,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Reports of loud explosions in Jordan",
-      "url": "https://investinglive.com/commodities/reports-of-loud-explosions-in-jordan/",
-      "summary": "A wave of explosions have been reported over Al-Azraq Air Base in Jordan, including from Ynet. This was likely Iranian missiles that were intercepted over the northern part of the country. Earlier, there were also repots of attacks on the Muwaffaq al Salti Air Base. There hasn't been a response from",
-      "published": "05 Sep 2026 00:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.86,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Nvidia Technicals: Buyers are making a play and testing the all-time highs.",
-      "url": "https://investinglive.com/technical-analysis/nvidia-technicals-buyers-are-making-a-play-and-testing-the-all-time-highs/",
-      "summary": "The price of Nvidia is stretching toward its all-time high despite a down day for the broader US stock indices. Shares are currently up $2.70, or 1.12%, at $231.00. The intraday high reached $234.76, putting the stock less than $2 from its record high of $236.54. Technically, the combination of the ",
-      "published": "04 Sep 2026 23:36 WIB",
-      "sentiment": "Bullish",
-      "score": 0.216,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Oil climbs on reports of Iran ballistic missile launches",
-      "url": "https://investinglive.com/commodities/oil-climbs-on-reports-of-iran-ballistic-missile-launches/",
-      "summary": "WTI crude oil futures have reversed higher today on reports of Iranian ballistic missile launches. Iran said it was moving to a pre-emptive doctrine and now we're seeing increasing signs of it as they struggle to disrupt shipping in the Strait of Hormuz. On Aug 26, WTI was as low as $79 but now it's",
-      "published": "04 Sep 2026 22:01 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Sterling’s rally stalls as US jobs data reopens Fed debate",
-      "url": "https://www.fxstreet.com/news/sterlings-rally-stalls-as-us-jobs-data-reopens-fed-debate-202609041952",
-      "summary": "The Pound Sterling (GBP) retreats some 0.09% against the US Dollar (USD) on Friday as the latest US inflation report reaffirmed Federal Reserve (Fed) Chair Kevin Warsh's view that the labor market is “consistent with full employment.” GBP/USD trades near the open at 1.3512.",
-      "published": "05 Sep 2026 02:52 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Malaysia: Hawkish pause keeps options open – DBS",
-      "url": "https://www.fxstreet.com/news/malaysia-hawkish-pause-keeps-options-open-dbs-202609041934",
-      "summary": "DBS Group Research economist Chua Han Teng notes that Bank Negara Malaysia (BNM) held the Overnight Policy Rate at 2.75% while dropping language that the current level is appropriate. DBS expects rates to remain unchanged through 2026 but sees risks tilted towards a one-off policy normalisation.",
-      "published": "05 Sep 2026 02:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.472,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Brent: Questionable flows, fragile outlook – Commerzbank",
-      "url": "https://www.fxstreet.com/news/brent-questionable-flows-fragile-outlook-commerzbank-202609041542",
-      "summary": "Commerzbank’s Commodity Research team, led by Barbara Lambrecht, notes that uncertainty over crude flows through the Strait of Hormuz and conflicting transit data are clouding the outlook for Brent.",
-      "published": "04 Sep 2026 22:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.955,
+      "score": -0.482,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Investing.com Forex",
-      "title": "UBS: Commodities can add diversification as inflation, geopolitical risks rise",
-      "url": "https://www.investing.com/news/stock-market-news/ubs-commodities-can-add-diversification-as-inflation-geopolitical-risks-rise-4890234",
+      "title": "Canadians back Carney’s tougher trade stance as U.S. tensions deepen",
+      "url": "https://www.investing.com/news/stock-market-news/canadians-back-carneys-tougher-trade-stance-as-us-tensions-deepen-4890283",
       "summary": "",
-      "published": "06 Sep 2026 02:17 WIB",
+      "published": "06 Sep 2026 18:26 WIB",
       "sentiment": "Bearish",
-      "score": -0.353,
+      "score": -0.33,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "What is driving Europe’s yield decoupling?",
+      "url": "https://www.investing.com/news/stock-market-news/what-is-driving-europes-yield-decoupling-4890276",
+      "summary": "",
+      "published": "06 Sep 2026 17:27 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Rep. Stevens Says Canadian Tariffs Are Squeezing Michigan",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-06/rep-stevens-says-tariffs-are-squeezing-michigan-video",
+      "summary": "On Bloomberg This Weekend, Michigan Representative Haley Stevens (D) says escalating US tariffs on Canadian goods are raising costs and creating uncertainty for manufacturers in her district, with the deeply integrated auto supply chain particularly exposed. Stevens tells hosts Christina Ruffini and",
+      "published": "06 Sep 2026 21:44 WIB",
+      "sentiment": "Bullish",
+      "score": 0.18,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Races to Boost Missile Interceptor Output",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-06/us-races-to-boost-missile-interceptor-output-video",
+      "summary": "The US retains significant munitions capacity for operations against Iran, but stocks of sophisticated interceptors missiles have come under greater pressure. Bloomberg Intelligence Senior Defense Analyst Col. Wayne Sanders tells tells Christina Ruffini and Jeff Mason on Bloomberg This Weekend that ",
+      "published": "06 Sep 2026 20:25 WIB",
+      "sentiment": "Bullish",
+      "score": 0.92,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Canada Hits Back With New US Tariffs",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-06/canada-hits-back-with-new-us-tariffs-video",
+      "summary": "Canada is set to impose new retaliatory tariffs of as much as 50% on US goods starting Sept. 8, targeting $27.6 billion of imports including steel, aluminum, pulp and paper, appliances and agricultural equipment. Bloomberg News Ottawa Bureau Chief Brian Platt tells Christina Ruffini and Jeff Mason o",
+      "published": "06 Sep 2026 19:38 WIB",
+      "sentiment": "Bearish",
+      "score": -0.262,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Lutnick to Review Pentagon Deals Involving Cerberus Firms",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-04/lutnick-to-review-pentagon-deals-involving-cerberus-companies",
-      "summary": "Commerce Secretary Howard Lutnick has been chosen by the Department of Defense to review any transactions between the Pentagon and companies associated with Cerberus Capital Management, according to a US official.",
-      "published": "05 Sep 2026 03:27 WIB",
-      "sentiment": "Bullish",
-      "score": 0.128,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Strikes Iranian Tankers After Attack on US Warships",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-05/us-strikes-iranian-tankers-after-attack-on-us-warships-video",
-      "summary": "Bloomberg This Weekend has breaking news that US forces struck three Iranian crude carriers after the Islamic Revolutionary Guard Corps launched ballistic missiles toward two US Navy warships, according to US Central Command. The renewed fighting around the Strait of Hormuz adds pressure to shipping",
-      "published": "05 Sep 2026 21:34 WIB",
+      "title": "US Iran Fight Shifts to Economic Endurance",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-06/us-iran-fight-shifts-to-economic-endurance-video",
+      "summary": "The Trump administration is intensifying economic pressure on Iran through sanctions and a blockade, with Treasury Secretary Scott Bessent saying Tehran has about 30 million barrels of crude left for potential Chinese buyers. Bloomberg News Middle East Reporter Dan Williams joins Christina Ruffini a",
+      "published": "06 Sep 2026 18:54 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.852,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "EU Envoy Urges Maximum Pressure on Russia",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-05/eu-envoy-urges-maximum-pressure-on-russia-video",
-      "summary": "EU Ambassador to the United States Jovita Neliupšienė joins Bloomberg This Weekend and discusses with hosts Christina Ruffini and Jeff Mason that Europe must keep supporting Ukraine while applying “maximum pressure” on Moscow because Russia has not changed its war aims. The comments come as US envoy",
-      "published": "05 Sep 2026 20:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.725,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "AI May Transform How Humans Understand Animals",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-05/ai-may-transform-how-humans-understand-animals-video",
-      "summary": "Researchers are using AI to analyze vast collections of animal vocalizations, looking for patterns that could help humans better understand how species such as crows communicate. Bloomberg Weekend Senior Writer Morgan Meaker is on Bloomberg This Weekend and says the technology could reshape humans’ ",
-      "published": "05 Sep 2026 19:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.688,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Energy Markets Strained by Iran, Ukraine Wars",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-05/energy-markets-strained-by-iran-ukraine-wars-video",
-      "summary": "Renewed US-Iran fighting and uncertainty over shipping through the Strait of Hormuz are adding pressure to global energy markets, while the threat of mines continues to deter some traffic. Ukraine’s attacks on Russian refineries are compounding tight diesel supplies, creating what Bloomberg News Oil",
-      "published": "05 Sep 2026 18:54 WIB",
+      "title": "OPEC+ Sticks With Plan to Keep Oil Output Quotas Unchanged",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-06/opec-sticks-with-plan-to-keep-oil-production-quotas-unchanged",
+      "summary": "Major OPEC+ nations stuck with their plan to keep oil production quotas unchanged, while the Iran war continues to shutter vast swathes of output in the Middle East.",
+      "published": "06 Sep 2026 18:25 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.812,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Leonardo CEO Mariani Sees Ukraine Unit as Acquisition Outpost",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-05/leonardo-ceo-mariani-sees-ukraine-unit-as-acquisition-outpost",
-      "summary": "Leonardo SpA, the Italian state-controlled defense company, is aiming to deepen ties with Ukraine’s fast-growing military-technology sector through its new Kyiv unit, seeking partnership, investment or acquisition opportunities, Chief Executive Officer Lorenzo Mariani said.",
-      "published": "05 Sep 2026 15:09 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
-      "impact": "low"
+      "source": "BBC World",
+      "title": "US envoys meet Zelensky in Ukraine after talks with Putin in Russia",
+      "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
+      "summary": "Steve Witkoff and Jared Kushner are holding talks in Kyiv, in their first visit to Ukraine since Russia's full-scale invasion.",
+      "published": "06 Sep 2026 20:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -242,65 +176,21 @@
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-      "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss",
-      "summary": "Germany has blamed Russia for an attack on Leipzig airport but there has been a series of suspicious incidents elsewhere.",
-      "published": "04 Sep 2026 23:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.926,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Germany's far-right AfD bids for first taste of power in eastern vote",
-      "url": "https://www.bbc.co.uk/news/articles/cvgypkzgy4wo?at_medium=RSS&at_campaign=rss",
-      "summary": "If it wins an outright majority in Saxony-Anhalt, it would be the first time a far-right party has held state-level power in Germany since World War Two.",
-      "published": "05 Sep 2026 06:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.281,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
-      "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss",
-      "summary": "The unmanned aerial vehicle struck without warning in the heart of the Ukrainian capital.",
-      "published": "04 Sep 2026 23:02 WIB",
-      "sentiment": "Bullish",
-      "score": 0.388,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Argentine couple to return Nazi-looted painting to rightful owner",
-      "url": "https://www.bbc.co.uk/news/articles/cy0zxjp50j6o?at_medium=RSS&at_campaign=rss",
-      "summary": "The late-baroque Portrait of a Lady was lost for 80 years until it was spotted in photographs of a house for sale near Buenos Aires.",
-      "published": "05 Sep 2026 00:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.318,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC Business",
-      "title": "UK petrol prices hit highest level since Iran war began",
-      "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The price of unleaded hits 163p a litre, according to motoring group the RAC, as oil prices remain elevated.",
-      "published": "04 Sep 2026 20:05 WIB",
+      "title": "Minister to meet Jaguar Land Rover boss as thousands of job cuts expected",
+      "url": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss",
+      "summary": "The company is struggling with the impact of tariffs as well as the fallout from a major cyber attack last year.",
+      "published": "06 Sep 2026 17:29 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.901,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "BBC Top Stories",
       "title": "Why more women carry the 'mental load' - and how couples can share it",
       "url": "https://www.bbc.co.uk/news/articles/c24j1r45r49o?at_medium=RSS&at_campaign=rss",
-      "summary": "Planning, organising and remembering household tasks falls disproportionately to mothers - here are some tips to help.",
+      "summary": "Planning, organising and remembering household tasks often fall disproportionately to mothers - here are some tips to help.",
       "published": "06 Sep 2026 06:31 WIB",
       "sentiment": "Bullish",
       "score": 0.519,
@@ -309,80 +199,80 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Temperature exceeds 40C in parts of Europe  - is a September heatwave likely for UK?",
-      "url": "https://www.bbc.co.uk/weather/articles/cyvzq94g604o?at_medium=RSS&at_campaign=rss",
-      "summary": "Parts of central and southern Europe have seen temperatures above 40C this week. As things warm up in the UK, is there a heatwave on the way?",
-      "published": "05 Sep 2026 07:30 WIB",
+      "title": "Natalie Imbruglia on her worst audition: 'I remember feeling icky'",
+      "url": "https://www.bbc.co.uk/news/articles/c87vpg1yvxzo?at_medium=RSS&at_campaign=rss",
+      "summary": "The pop star talks about new music, stage fright, conspiracy theories and awkward auditions.",
+      "published": "06 Sep 2026 07:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.961,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Fifa president Infantino will stand for re-election",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c99d1dlpkp4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Fifa president Gianni Infantino will stand for re-election in March, the world governing body has confirmed.",
+      "published": "06 Sep 2026 20:01 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Temperatures could climb to 28C in late burst of warmth",
+      "url": "https://www.bbc.co.uk/weather/articles/cvgydp1247ro?at_medium=RSS&at_campaign=rss",
+      "summary": "A summer-like day is in store for some on Sunday with above average temperatures, but the heat will be short-lived.",
+      "published": "06 Sep 2026 11:08 WIB",
       "sentiment": "Bullish",
-      "score": 0.229,
+      "score": 0.17,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss",
-      "summary": "US envoys Steve Witkoff and Jared Kushner met Russian President Vladimir Putin at the Kremlin on Saturday.",
-      "published": "06 Sep 2026 04:23 WIB",
+      "title": "Bosnian Serbs strengthen ties with Israel amid tensions",
+      "url": "https://www.aljazeera.com/news/2026/9/6/bosnian-serbs-strengthen-ties-with-israel-amid-tensions?traffic_source=rss",
+      "summary": "Opening of Israeli commerce office deepens ties between Republika Srpska and Israel.",
+      "published": "06 Sep 2026 21:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.679,
+      "score": -0.183,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "What the US militarisation of Latin America could look like",
+      "url": "https://www.aljazeera.com/opinions/2026/9/6/what-the-us-militarisation-of-latin-america-could-look-like?traffic_source=rss",
+      "summary": "More US military involvement and larger regional defence budgets mean less social spending and worse democracy outcomes.",
+      "published": "06 Sep 2026 21:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.052,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "How significant are the Yemeni government’s military gains against Houthis?",
+      "url": "https://www.aljazeera.com/news/2026/9/6/how-significant-are-the-yemeni-governments-military-gains-against-the-houthis?traffic_source=rss",
+      "summary": "Government forces make gains as fighting escalates, raising fears of a return to full-scale war.",
+      "published": "06 Sep 2026 20:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Colombian government reports three killed in rebel attack on military post",
-      "url": "https://www.aljazeera.com/news/2026/9/5/colombian-government-reports-three-killed-in-rebel-attack-on-military-post?traffic_source=rss",
-      "summary": "Colombian authorities blame ELN rebel group for attack that reportedly included drones dropping explosives on compound.",
-      "published": "06 Sep 2026 03:03 WIB",
+      "title": "US, Iran engaged in tanker war: Where is the months-long conflict headed?",
+      "url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed?traffic_source=rss",
+      "summary": "The US and Iran attack tankers in Strait of Hormuz, as the two sides try to exert control over the strategic waterway.",
+      "published": "06 Sep 2026 17:49 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "France denies inciting failed Niger mutiny, calls accusation ‘pure fantasy’",
-      "url": "https://www.aljazeera.com/news/2026/9/5/france-denies-inciting-failed-niger-mutiny-calls-accusation-pure-fantasy?traffic_source=rss",
-      "summary": "Niger's government has widened its blame to unnamed neighbours a week after the assault on a military base.",
-      "published": "06 Sep 2026 02:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.923,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Jerusalem Daily: raids, settlers & sieges",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/jerusalem-daily-raids-settlers-sieges?traffic_source=rss",
-      "summary": "Mike Huckabee visits as settlers attack Palestinians, Israeli forces carry out raids and arrests.",
-      "published": "06 Sep 2026 02:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.798,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Russia’s Putin meets US envoys to discuss Trump proposal to end Ukraine war",
-      "url": "https://www.aljazeera.com/news/2026/9/5/russias-putin-meets-us-envoys-to-discuss-trump-proposal-to-end-ukraine-war?traffic_source=rss",
-      "summary": "Russia and Ukraine pledge not to strike each other's capitals for three days during talks in Moscow and Kyiv.",
-      "published": "06 Sep 2026 01:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.627,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Germany’s far-right AfD eyes historic first in state election",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/09-05-germany-afd-state-elections-sv?traffic_source=rss",
-      "summary": "Germany’s far-right AfD is projected to take power in one of the country’s 16 states for the first time.",
-      "published": "06 Sep 2026 01:07 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
     },
     {
       "source": "CNBC Forex",
@@ -405,6 +295,39 @@
       "score": 0.823,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Iran warns of ‘more painful’ response to U.S. attacks as economic pressure mounts",
+      "url": "https://www.cnbc.com/2026/09/06/iran-us-response-oil-tanker-strikes.html",
+      "summary": "Iran warned of faster, heavier retaliation against U.S. attacks while acknowledging the war’s mounting toll on its economy.",
+      "published": "06 Sep 2026 19:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.939,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+      "url": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
+      "summary": "Ten days ahead of the next Federal Reserve meeting, the Trump administration looks to be in a full-court press to halt a rate hike in its tracks.",
+      "published": "06 Sep 2026 02:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.153,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Meet the CISO: A new front line star in the AI cybersecurity war",
+      "url": "https://www.cnbc.com/2026/09/05/ai-cybersecurity-ciso-executive.html",
+      "summary": "The OpenAI-Hugging Face agent hack sent shockwaves through the business world and helped put the chief information security officer into the spotlight.",
+      "published": "05 Sep 2026 19:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.441,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -438,61 +361,6 @@
       "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
-      "url": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
-      "summary": "Ten days ahead of the next Federal Reserve meeting, the Trump administration looks to be in a full-court press to halt a rate hike in its tracks.",
-      "published": "06 Sep 2026 02:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.153,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Meet the CISO: A new front line star in the AI cybersecurity war",
-      "url": "https://www.cnbc.com/2026/09/05/ai-cybersecurity-ciso-executive.html",
-      "summary": "The OpenAI-Hugging Face agent hack sent shockwaves through the business world and helped put the chief information security officer into the spotlight.",
-      "published": "05 Sep 2026 19:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.441,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
-      "url": "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html",
-      "summary": "President Donald Trump demanded that the Fed slash interest rates or else he will cut off trade with countries with which the U.S. maintains trade deficits.",
-      "published": "05 Sep 2026 02:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.71,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "U.S. 'Economic Outcast’ operation gains momentum as EU joins sanctions; South Korea weighs military backing",
-      "url": "https://www.cnbc.com/2026/09/04/us-iran-war-trump-hormuz-operation-economic-outcast-sanctions-campaign.html",
-      "summary": "The EU formally joined the U.S.-led sanctions campaign against Iran, while South Korea said it's weighing a military role to help reopen the Strait of Hormuz.",
-      "published": "04 Sep 2026 19:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.637,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "The big business of personal protection: How private security became a $50 billion industry",
-      "url": "https://www.cnbc.com/2026/09/04/private-security-spending-crime-allied-universal.html",
-      "summary": "Private security spending and guard employment have climbed as companies and communities respond to high-profile attacks, even as violent crime falls.",
-      "published": "04 Sep 2026 21:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.918,
-      "emoji": "🔴",
-      "impact": "low"
     }
   ]
 }
