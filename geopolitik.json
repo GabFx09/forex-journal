@@ -1,55 +1,55 @@
 {
-  "generated": "05 Sep 2026 22:01 WIB",
+  "generated": "06 Sep 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.447,
-      "count": 27
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.431,
-      "count": 26
+      "score": -0.377,
+      "count": 25
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.387,
+      "count": 24
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.4,
+      "score": -0.334,
       "count": 23
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.415,
-      "count": 6
+      "score": -0.423,
+      "count": 5
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.499,
-      "count": 2
+      "score": -0.679,
+      "count": 1
     },
     {
       "pair": "NOK/SEK",
       "direction": "Tekanan Turun ▼",
-      "score": -0.499,
-      "count": 2
+      "score": -0.679,
+      "count": 1
     },
     {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.317,
-      "count": 2
+      "pair": "GBP/USD",
+      "direction": "Netral →",
+      "score": 0.0,
+      "count": 1
     },
     {
       "pair": "EUR",
       "direction": "Tekanan Turun ▼",
-      "score": -0.887,
+      "score": -0.153,
       "count": 1
     }
   ],
@@ -143,6 +143,28 @@
       "impact": "low"
     },
     {
+      "source": "Investing.com Forex",
+      "title": "UBS: Commodities can add diversification as inflation, geopolitical risks rise",
+      "url": "https://www.investing.com/news/stock-market-news/ubs-commodities-can-add-diversification-as-inflation-geopolitical-risks-rise-4890234",
+      "summary": "",
+      "published": "06 Sep 2026 02:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.353,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Lutnick to Review Pentagon Deals Involving Cerberus Firms",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-04/lutnick-to-review-pentagon-deals-involving-cerberus-companies",
+      "summary": "Commerce Secretary Howard Lutnick has been chosen by the Department of Defense to review any transactions between the Pentagon and companies associated with Cerberus Capital Management, according to a US official.",
+      "published": "05 Sep 2026 03:27 WIB",
+      "sentiment": "Bullish",
+      "score": 0.128,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
       "source": "Bloomberg Markets",
       "title": "US Strikes Iranian Tankers After Attack on US Warships",
       "url": "https://www.bloomberg.com/news/videos/2026-09-05/us-strikes-iranian-tankers-after-attack-on-us-warships-video",
@@ -198,44 +220,22 @@
       "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "S&P Downgrades Senegal After Government Unveils Debt Rework",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-04/s-p-downgrades-senegal-after-government-unveils-debt-rework",
-      "summary": "S&P Global Ratings cut Senegal’s credit score further into junk territory, saying a distressed debt exchange or default on the country’s foreign-currency commercial debt is “extremely likely” after the government launched a plan to restructure its obligations.",
-      "published": "05 Sep 2026 03:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.887,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Hedge Funds Hike Bullish Oil Bets to May High as Iran War Flares",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-04/hedge-funds-hike-bullish-oil-bets-to-may-high-as-iran-war-flares",
-      "summary": "Hedge funds turned the most bullish on Brent crude since May as a fresh spate of fighting between the US and Iran heightened concerns about prolonged disruptions to energy flows through the Strait of Hormuz.",
-      "published": "05 Sep 2026 03:38 WIB",
-      "sentiment": "Bearish",
-      "score": -0.924,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
-      "title": "US hits three Iranian oil tankers after saying its warships were targeted",
+      "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
       "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-      "summary": "US Central Command says the attacks came after Iran launched ballistic missiles at two of its Navy warships.",
-      "published": "05 Sep 2026 21:40 WIB",
+      "summary": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
+      "published": "06 Sep 2026 05:44 WIB",
       "sentiment": "Bearish",
-      "score": -0.767,
+      "score": -0.797,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC World",
       "title": "At least two dead in blast at Bolivia military barracks",
       "url": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss",
       "summary": "Authorities fear the death toll in Viacha will rise and warn people to stay away from the barracks due to a risk of further explosions.",
-      "published": "05 Sep 2026 15:41 WIB",
+      "published": "05 Sep 2026 22:22 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -286,28 +286,6 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Is Russia proving better at protecting friends than fighting enemies in West Africa?",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z75keq58o?at_medium=RSS&at_campaign=rss",
-      "summary": "Russian forces were brought in to help defeat jihadists but they also defend the military leadership in Niger.",
-      "published": "05 Sep 2026 11:03 WIB",
-      "sentiment": "Netral",
-      "score": -0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Stock up on food to prepare for extreme weather, minister says",
-      "url": "https://www.bbc.co.uk/news/articles/cp931m8n3p5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Dame Angela Eagle warns the weather event could lead to extreme storms this winter.",
-      "published": "04 Sep 2026 17:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.183,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC Business",
       "title": "UK petrol prices hit highest level since Iran war began",
       "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
@@ -319,26 +297,15 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "US diesel prices hit an all-time-high",
-      "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Fuel prices have soared since the Iran conflict began at the end of February, mirroring the surge in wholesale oil prices.",
-      "published": "04 Sep 2026 17:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.318,
-      "emoji": "🔴",
+      "source": "BBC Top Stories",
+      "title": "Why more women carry the 'mental load' - and how couples can share it",
+      "url": "https://www.bbc.co.uk/news/articles/c24j1r45r49o?at_medium=RSS&at_campaign=rss",
+      "summary": "Planning, organising and remembering household tasks falls disproportionately to mothers - here are some tips to help.",
+      "published": "06 Sep 2026 06:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.519,
+      "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Argentine leader threatens to sanction oil firms and reiterates Falklands claim",
-      "url": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Javier Milei reiterates his country's claim on the British overseas territory, saying the \"winds of change\" favour it.",
-      "published": "04 Sep 2026 13:52 WIB",
-      "sentiment": "Netral",
-      "score": -0.003,
-      "emoji": "⚪",
-      "impact": "high"
     },
     {
       "source": "BBC Top Stories",
@@ -352,33 +319,22 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Flight price rises due to 'foolish leaders' starting wars, Virgin's Branson says",
-      "url": "https://www.bbc.co.uk/news/articles/cje8wx2qw9vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Middle East tensions have choked the production and transportation of oil, causing a surge in the price of car and jet fuels.",
-      "published": "05 Sep 2026 08:03 WIB",
+      "source": "Al Jazeera",
+      "title": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss",
+      "summary": "US envoys Steve Witkoff and Jared Kushner met Russian President Vladimir Putin at the Kremlin on Saturday.",
+      "published": "06 Sep 2026 04:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.968,
+      "score": -0.679,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "At least four civilians killed in Houthi missile strike near Yemen’s Taiz",
-      "url": "https://www.aljazeera.com/news/2026/9/5/at-least-four-killed-in-houthi-missile-strike-near-yemens-taiz?traffic_source=rss",
-      "summary": "The attack on a crowded road comes amid fierce clashes across Taiz and Hodeidah and rapid civilian displacement.",
-      "published": "05 Sep 2026 19:54 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Yemen government launches own air attacks on Houthis: What that means",
-      "url": "https://www.aljazeera.com/news/2026/9/5/yemen-government-launches-own-air-attacks-on-houthis-what-that-means?traffic_source=rss",
-      "summary": "A major Houthi offensive towards Bab al-Mandeb has triggered some of Yemen’s worst fighting in years.",
-      "published": "05 Sep 2026 19:43 WIB",
+      "title": "Colombian government reports three killed in rebel attack on military post",
+      "url": "https://www.aljazeera.com/news/2026/9/5/colombian-government-reports-three-killed-in-rebel-attack-on-military-post?traffic_source=rss",
+      "summary": "Colombian authorities blame ELN rebel group for attack that reportedly included drones dropping explosives on compound.",
+      "published": "06 Sep 2026 03:03 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -386,36 +342,47 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Israel must protect West Bank’s Palestinians amid settler pogroms: US envoy",
-      "url": "https://www.aljazeera.com/news/2026/9/5/israel-must-guarantee-safety-of-west-bank-population-ambassador?traffic_source=rss",
-      "summary": "Huckabee labels some of the settlers committing violence as 'terrorists' though analysts say his visit is 'symbolic'.",
-      "published": "05 Sep 2026 19:04 WIB",
+      "title": "France denies inciting failed Niger mutiny, calls accusation ‘pure fantasy’",
+      "url": "https://www.aljazeera.com/news/2026/9/5/france-denies-inciting-failed-niger-mutiny-calls-accusation-pure-fantasy?traffic_source=rss",
+      "summary": "Niger's government has widened its blame to unnamed neighbours a week after the assault on a military base.",
+      "published": "06 Sep 2026 02:45 WIB",
       "sentiment": "Bearish",
-      "score": -0.743,
+      "score": -0.923,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "At least 5 killed in Russian attacks on Ukraine as US envoys visit Moscow",
-      "url": "https://www.aljazeera.com/news/2026/9/5/at-least-5-killed-in-russian-attacks-on-ukraine-as-us-envoys-visit-moscow?traffic_source=rss",
-      "summary": "Ukraine and Russia announce a three-day limited ceasefire as Steve Witkoff and Jared Kushner visit Moscow and Kyiv.",
-      "published": "05 Sep 2026 17:27 WIB",
+      "title": "Jerusalem Daily: raids, settlers & sieges",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/jerusalem-daily-raids-settlers-sieges?traffic_source=rss",
+      "summary": "Mike Huckabee visits as settlers attack Palestinians, Israeli forces carry out raids and arrests.",
+      "published": "06 Sep 2026 02:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.852,
+      "score": -0.798,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Why is Trump threatening to strike Iran’s Pickaxe Mountain again, now?",
-      "url": "https://www.aljazeera.com/news/2026/9/5/why-is-trump-threatening-to-strike-irans-pickaxe-mountain-again-now?traffic_source=rss",
-      "summary": "As oil tanker struck off Kharg island, Trump threatens one of the remaining parts of Iran’s nuclear complex.",
-      "published": "05 Sep 2026 16:56 WIB",
+      "title": "Russia’s Putin meets US envoys to discuss Trump proposal to end Ukraine war",
+      "url": "https://www.aljazeera.com/news/2026/9/5/russias-putin-meets-us-envoys-to-discuss-trump-proposal-to-end-ukraine-war?traffic_source=rss",
+      "summary": "Russia and Ukraine pledge not to strike each other's capitals for three days during talks in Moscow and Kyiv.",
+      "published": "06 Sep 2026 01:12 WIB",
       "sentiment": "Bearish",
-      "score": -0.738,
+      "score": -0.627,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Germany’s far-right AfD eyes historic first in state election",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/09-05-germany-afd-state-elections-sv?traffic_source=rss",
+      "summary": "Germany’s far-right AfD is projected to take power in one of the country’s 16 states for the first time.",
+      "published": "06 Sep 2026 01:07 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
     },
     {
       "source": "CNBC Forex",
@@ -441,12 +408,45 @@
     },
     {
       "source": "CNBC World",
+      "title": "Trump’s state capitalism comes to the oil industry with his unprecedented Venezuela deal",
+      "url": "https://www.cnbc.com/2026/09/05/trump-venezuela-oil-north-america-blue-energy-partners-nabep.html",
+      "summary": "The deal comes eight months after Washington ousted former President Nicolás Maduro in a military raid.",
+      "published": "05 Sep 2026 22:11 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Italy's Meloni just hit a major political milestone. Former leaders say economic reform must follow",
       "url": "https://www.cnbc.com/2026/09/05/italy-meloni-bonds-debt.html",
       "summary": "Italian Prime Minister Giorgia Meloni's government became the country's longest-serving cabinet since World War II on Friday.",
       "published": "05 Sep 2026 12:41 WIB",
       "sentiment": "Bearish",
       "score": -0.679,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "U.S. attacks 3 Iranian oil tankers after missiles target Navy warships",
+      "url": "https://www.cnbc.com/2026/09/05/us-iran-oil-tankers-navy-missile-attack.html",
+      "summary": "Three Iranian crude oil carriers were hit by U.S. forces on Saturday near Iran's key oil export hub, Kharg Island, in the Gulf, U.S. Central Command reported.",
+      "published": "05 Sep 2026 22:43 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+      "url": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
+      "summary": "Ten days ahead of the next Federal Reserve meeting, the Trump administration looks to be in a full-court press to halt a rate hike in its tracks.",
+      "published": "06 Sep 2026 02:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.153,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -460,17 +460,6 @@
       "score": -0.441,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump’s state capitalism comes to the oil industry with his unprecedented Venezuela deal",
-      "url": "https://www.cnbc.com/2026/09/05/trump-venezuela-oil-north-america-blue-energy-partners-nabep.html",
-      "summary": "The deal comes eight months after Washington ousted former President Nicolás Maduro in a military raid.",
-      "published": "05 Sep 2026 21:34 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "CNBC World",
