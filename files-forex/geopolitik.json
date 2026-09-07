@@ -1,5 +1,5 @@
 {
-  "generated": "06 Sep 2026 22:01 WIB",
+  "generated": "07 Sep 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,25 +7,25 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.568,
-      "count": 16
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.564,
+      "score": -0.53,
       "count": 16
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.608,
-      "count": 12
+      "score": -0.551,
+      "count": 15
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.555,
+      "count": 15
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.464,
+      "score": -0.288,
       "count": 8
     },
     {
@@ -41,50 +41,116 @@
       "count": 3
     },
     {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.466,
-      "count": 2
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.177,
+      "count": 3
     },
     {
       "pair": "CAD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.812,
-      "count": 1
+      "direction": "Tekanan Naik ▲",
+      "score": 0.62,
+      "count": 2
     }
   ],
   "items": [
     {
-      "source": "Investing.com Forex",
-      "title": "Gulf markets close mixed amid US-Iran tensions",
-      "url": "https://www.investing.com/news/stock-market-news/gulf-markets-close-mixed-amid-usiran-tensions-93CH-4890296",
-      "summary": "",
-      "published": "06 Sep 2026 21:20 WIB",
+      "source": "ForexLive",
+      "title": "Hormuz traffic sinks to lowest since May, despite US Navy's escort claims",
+      "url": "https://investinglive.com/commodities/hormuz-traffic-sinks-to-lowest-since-may-despite-us-navy-s-escort-claims/",
+      "summary": "The gap between the Navy's account and the independent traffic data is itself the market-relevant signal. Kpler's 10-day average of just 10 vessels a day, the lowest since May, points to genuine physical tightness in Hormuz-transiting supply regardless of how safe passage is being characterised publ",
+      "published": "07 Sep 2026 06:41 WIB",
       "sentiment": "Bearish",
-      "score": -0.482,
+      "score": -0.652,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "OPEC+ sticks to flat oil quotas for October despite Hormuz war disruption",
+      "url": "https://investinglive.com/commodities/opec-sticks-to-flat-oil-quotas-for-october-despite-hormuz-war-disruption/",
+      "summary": "The decision itself carries little fresh price signal, since it confirms a roadmap the market had already priced in. The more relevant read for oil is how limited OPEC+'s real-world leverage has become while the Strait of Hormuz remains disrupted , meaning announced quotas are increasingly disconnec",
+      "published": "07 Sep 2026 04:18 WIB",
+      "sentiment": "Bullish",
+      "score": 0.58,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran to declare Hormuz restricted zone, warns of 'more painful' attack response",
+      "url": "https://investinglive.com/commodities/iran-to-declare-hormuz-restricted-zone-warns-of-more-painful-attack-response/",
+      "summary": "The planned restricted zone adds a fresh layer of shipping risk to the Strait of Hormuz corridor, through which a fifth of global oil supply moved before the conflict. Any expansion of sanctionable shipping areas raises the prospect of further disruption to tanker traffic and insurance costs, even a",
+      "published": "07 Sep 2026 03:28 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "OPEC+ agrees to keep oil output policy unchanged for October",
+      "url": "https://www.fxstreet.com/news/opec-agrees-to-keep-oil-output-policy-unchanged-for-october-202609062342",
+      "summary": "The Organization of Petroleum Exporting Countries and its allies (OPEC+) agreed on Sunday to keep its oil output policy unchanged for October, as the group needs to agree on new quotas before deciding its next output steps.",
+      "published": "07 Sep 2026 06:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.66,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Iran, US trade tanker attacks as Tehran will declare 'prohibited zone'",
+      "url": "https://www.fxstreet.com/news/iran-us-trade-tanker-attacks-as-tehran-will-declare-prohibited-zone-202609062236",
+      "summary": "Iranian government said that it targeted three oil tankers using an unauthorized route through the Strait of Hormuz, as well as a number of US-linked ships, in retaliation for US attacks on Iranian tankers over the weekend, Bloomberg reported on Sunday.",
+      "published": "07 Sep 2026 05:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.607,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Canadians back Carney’s tougher trade stance as U.S. tensions deepen",
-      "url": "https://www.investing.com/news/stock-market-news/canadians-back-carneys-tougher-trade-stance-as-us-tensions-deepen-4890283",
+      "title": "Australia’s Ingenia rejects $1.4 bln Warburg Pincus buyout bid",
+      "url": "https://www.investing.com/news/stock-market-news/australias-ingenia-rejects-14-bln-warburg-pincus-buyout-bid-4890325",
       "summary": "",
-      "published": "06 Sep 2026 18:26 WIB",
+      "published": "07 Sep 2026 06:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.33,
+      "score": -0.574,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "KeyBanc warns Apple’s iPhone 18 launch may be a negative catalyst for shares",
+      "url": "https://www.investing.com/news/stock-market-news/keybanc-warns-apples-iphone-18-launch-may-be-a-negative-catalyst-for-shares-4890314",
+      "summary": "",
+      "published": "07 Sep 2026 00:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Asian Stocks to Gain, Oil Rises on US-Iran Strikes: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-06/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian stocks look set to open with modest gains after US technology shares rose on Friday. Oil edged higher on renewed concern that escalating US-Iran tensions may disrupt crude supplies.",
+      "published": "07 Sep 2026 05:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.226,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "What is driving Europe’s yield decoupling?",
-      "url": "https://www.investing.com/news/stock-market-news/what-is-driving-europes-yield-decoupling-4890276",
-      "summary": "",
-      "published": "06 Sep 2026 17:27 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "Bloomberg Markets",
+      "title": "Latest Oil Market News and Analysis for September 7",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-06/latest-oil-market-news-and-analysis-for-september-7",
+      "summary": "Oil climbed after the US attacked Iranian tankers and Tehran declared a new restricted zone outside the Strait of Hormuz, raising concerns about prolonged disruptions to energy flows through the waterway.",
+      "published": "07 Sep 2026 05:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.79,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -132,37 +198,37 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "OPEC+ Sticks With Plan to Keep Oil Output Quotas Unchanged",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-06/opec-sticks-with-plan-to-keep-oil-production-quotas-unchanged",
-      "summary": "Major OPEC+ nations stuck with their plan to keep oil production quotas unchanged, while the Iran war continues to shutter vast swathes of output in the Middle East.",
-      "published": "06 Sep 2026 18:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.812,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
-      "title": "US envoys meet Zelensky in Ukraine after talks with Putin in Russia",
+      "title": "Zelensky says he expects war to continue into winter after talks with US envoys",
       "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
-      "summary": "Steve Witkoff and Jared Kushner are holding talks in Kyiv, in their first visit to Ukraine since Russia's full-scale invasion.",
-      "published": "06 Sep 2026 20:16 WIB",
+      "summary": "There was no announcement of a major breakthrough, after Steve Witkoff and Jared Kushner travelled to Kyiv.",
+      "published": "07 Sep 2026 03:41 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.807,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC World",
-      "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
-      "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-      "summary": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
-      "published": "06 Sep 2026 05:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.797,
-      "emoji": "🔴",
+      "title": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
+      "url": "https://www.bbc.co.uk/news/articles/c980j5m8mpro?at_medium=RSS&at_campaign=rss",
+      "summary": "Despite talks between US envoys and both Putin and Zelensky, the expectation in Kyiv is the fighting will continue, writes James Landale.",
+      "published": "07 Sep 2026 03:52 WIB",
+      "sentiment": "Bullish",
+      "score": 0.077,
+      "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
+      "url": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss",
+      "summary": "The comments came a day after Washington said it had struck Iranian oil tankers in response to Tehran's attacks on US warships in the region.",
+      "published": "07 Sep 2026 00:00 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -180,10 +246,32 @@
       "title": "Minister to meet Jaguar Land Rover boss as thousands of job cuts expected",
       "url": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss",
       "summary": "The company is struggling with the impact of tariffs as well as the fallout from a major cyber attack last year.",
-      "published": "06 Sep 2026 17:29 WIB",
+      "published": "06 Sep 2026 23:32 WIB",
       "sentiment": "Bearish",
       "score": -0.901,
       "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "BBC News presenter Maryam Moshiri reveals she has blood cancer",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zkyl7kwyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Maryam Moshiri tells the BBC she wanted to reveal her diagnosis to raise awareness about the cancer.",
+      "published": "07 Sep 2026 05:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.949,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Fifa president Infantino will stand for re-election",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c99d1dlpkp4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Fifa president Gianni Infantino will stand for re-election in March, the world governing body has confirmed.",
+      "published": "06 Sep 2026 20:01 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "medium"
     },
     {
@@ -209,70 +297,70 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Fifa president Infantino will stand for re-election",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c99d1dlpkp4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Fifa president Gianni Infantino will stand for re-election in March, the world governing body has confirmed.",
-      "published": "06 Sep 2026 20:01 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "Al Jazeera",
+      "title": "Can AfD form Germany’s first far-right state government since World War II?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/06-09-sv-germany-afd-wins-saxony-de-fm?traffic_source=rss",
+      "summary": "Germany’s far-right Alternative for Germany (AfD) is projected to win a regional election in Saxony-Anhalt.",
+      "published": "07 Sep 2026 03:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.106,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Adidas faces boycott calls over campaign featuring former Israeli soldier",
+      "url": "https://www.aljazeera.com/sports/2026/9/6/adidas-faces-boycott-calls-over-campaign-featuring-former-israeli-soldier?traffic_source=rss",
+      "summary": "Activists slam campaign showing soldier while over 5,000 Palestinians faced amputations due to Israeli attacks in Gaza.",
+      "published": "07 Sep 2026 01:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.858,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump administration appeals again to US Supreme Court over mail-in voting",
+      "url": "https://www.aljazeera.com/news/2026/9/6/trump-administration-appeals-again-to-us-supreme-court-over-mail-in-voting?traffic_source=rss",
+      "summary": "How the nation's highest court rules could have major implications in this year’s midterm elections.",
+      "published": "07 Sep 2026 01:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.637,
+      "emoji": "🟢",
       "impact": "medium"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Temperatures could climb to 28C in late burst of warmth",
-      "url": "https://www.bbc.co.uk/weather/articles/cvgydp1247ro?at_medium=RSS&at_campaign=rss",
-      "summary": "A summer-like day is in store for some on Sunday with above average temperatures, but the heat will be short-lived.",
-      "published": "06 Sep 2026 11:08 WIB",
-      "sentiment": "Bullish",
-      "score": 0.17,
-      "emoji": "🟢",
+      "source": "Al Jazeera",
+      "title": "Why is Argentina reviving the Falklands dispute?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/why-is-argentina-reviving-the-falklands-dispute?traffic_source=rss",
+      "summary": "More than 44 years after Britain and Argentina went to war over the Falkland Islands, Argentina is reasserting its claim",
+      "published": "07 Sep 2026 01:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.845,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Bosnian Serbs strengthen ties with Israel amid tensions",
-      "url": "https://www.aljazeera.com/news/2026/9/6/bosnian-serbs-strengthen-ties-with-israel-amid-tensions?traffic_source=rss",
-      "summary": "Opening of Israeli commerce office deepens ties between Republika Srpska and Israel.",
-      "published": "06 Sep 2026 21:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.183,
-      "emoji": "🔴",
+      "title": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/witkoff-says-peace-talks-have-been-very-meaningful-in-ukraine?traffic_source=rss",
+      "summary": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+      "published": "07 Sep 2026 01:28 WIB",
+      "sentiment": "Bullish",
+      "score": 0.791,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "What the US militarisation of Latin America could look like",
-      "url": "https://www.aljazeera.com/opinions/2026/9/6/what-the-us-militarisation-of-latin-america-could-look-like?traffic_source=rss",
-      "summary": "More US military involvement and larger regional defence budgets mean less social spending and worse democracy outcomes.",
-      "published": "06 Sep 2026 21:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.052,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "How significant are the Yemeni government’s military gains against Houthis?",
-      "url": "https://www.aljazeera.com/news/2026/9/6/how-significant-are-the-yemeni-governments-military-gains-against-the-houthis?traffic_source=rss",
-      "summary": "Government forces make gains as fighting escalates, raising fears of a return to full-scale war.",
-      "published": "06 Sep 2026 20:41 WIB",
+      "title": "Palestinian farmers battle settler sabotage to save Hebron crops, livestock",
+      "url": "https://www.aljazeera.com/features/2026/9/6/palestinian-farmers-battle-settler-sabotage-to-save-hebron-crops-livestock?traffic_source=rss",
+      "summary": "West Bank farmers defy daily settler attacks, sheep theft, and military restrictions to protect their land.",
+      "published": "07 Sep 2026 00:03 WIB",
       "sentiment": "Bearish",
       "score": -0.557,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "US, Iran engaged in tanker war: Where is the months-long conflict headed?",
-      "url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed?traffic_source=rss",
-      "summary": "The US and Iran attack tankers in Strait of Hormuz, as the two sides try to exert control over the strategic waterway.",
-      "published": "06 Sep 2026 17:49 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "CNBC Forex",
@@ -286,25 +374,14 @@
       "impact": "high"
     },
     {
-      "source": "CNBC Economy",
-      "title": "GM vs. Ford: U.S. defense, energy sectors add to automakers' century-old rivalry",
-      "url": "https://www.cnbc.com/2026/09/05/gm-ford-defense-energy.html",
-      "summary": "General Motors and Ford are looking for new potential growth areas, including by seeking military contracts and getting into energy storage businesses.",
-      "published": "05 Sep 2026 19:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.823,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "CNBC World",
-      "title": "Iran warns of ‘more painful’ response to U.S. attacks as economic pressure mounts",
+      "title": "U.S. Energy Secretary Wright says Iran nuclear deal may never happen",
       "url": "https://www.cnbc.com/2026/09/06/iran-us-response-oil-tanker-strikes.html",
       "summary": "Iran warned of faster, heavier retaliation against U.S. attacks while acknowledging the war’s mounting toll on its economy.",
-      "published": "06 Sep 2026 19:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.939,
-      "emoji": "🔴",
+      "published": "07 Sep 2026 02:41 WIB",
+      "sentiment": "Netral",
+      "score": 0.004,
+      "emoji": "⚪",
       "impact": "high"
     },
     {
@@ -320,17 +397,6 @@
     },
     {
       "source": "CNBC World",
-      "title": "Meet the CISO: A new front line star in the AI cybersecurity war",
-      "url": "https://www.cnbc.com/2026/09/05/ai-cybersecurity-ciso-executive.html",
-      "summary": "The OpenAI-Hugging Face agent hack sent shockwaves through the business world and helped put the chief information security officer into the spotlight.",
-      "published": "05 Sep 2026 19:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.441,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
       "title": "Trump’s state capitalism comes to the oil industry with his unprecedented Venezuela deal",
       "url": "https://www.cnbc.com/2026/09/05/trump-venezuela-oil-north-america-blue-energy-partners-nabep.html",
       "summary": "The deal comes eight months after Washington ousted former President Nicolás Maduro in a military raid.",
@@ -339,17 +405,6 @@
       "score": 0.08,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Italy's Meloni just hit a major political milestone. Former leaders say economic reform must follow",
-      "url": "https://www.cnbc.com/2026/09/05/italy-meloni-bonds-debt.html",
-      "summary": "Italian Prime Minister Giorgia Meloni's government became the country's longest-serving cabinet since World War II on Friday.",
-      "published": "05 Sep 2026 12:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "CNBC World",
