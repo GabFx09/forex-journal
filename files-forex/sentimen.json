@@ -1,24 +1,24 @@
 {
-  "generated": "12 Sep 2026 22:01 WIB",
+  "generated": "13 Sep 2026 07:01 WIB",
   "summary": {
-    "total": 110,
-    "bullish": 46,
-    "bearish": 51,
-    "netral": 13,
-    "avg_score": -0.0681,
-    "overall": "Bearish",
+    "total": 104,
+    "bullish": 45,
+    "bearish": 48,
+    "netral": 11,
+    "avg_score": -0.0468,
+    "overall": "Netral",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.362,
+        "score": 0.33,
         "count": 26
       },
       {
         "currency": "EUR",
-        "sentiment": "Bearish",
-        "score": -0.236,
-        "count": 8
+        "sentiment": "Netral",
+        "score": 0.04,
+        "count": 5
       },
       {
         "currency": "GBP",
@@ -231,28 +231,6 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Earnings losses are sticking, but Dell shows why not every pullback is a failure",
-      "url": "https://investinglive.com/stocks/earnings-losses-are-sticking-but-dell-shows-why-not-every-pullback-is-a-failure/",
-      "summary": "Dell remained about 19% above its pre-earnings price while Credo was down more than 22%, revealing a widening divide between durable earnings winners and stocks whose initial losses continue to deepen. Recent earnings reactions have turned more defensive. Many stocks that initially fell after report",
-      "published": "11 Sep 2026 18:17 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Gold falls back into the major $4300 support ahead of US CPI, as surging oil prices increase rate hike bets",
-      "url": "https://investinglive.com/commodities/gold-falls-back-into-the-major-4300-support-ahead-of-us-cpi-as-surging-oil-prices-increase-rate-hike-bets/",
-      "summary": "FUNDAMENTAL OVERVIEW The price action in gold has been mostly negative after the strong US NFP report triggered a hawkish repricing, but the surge in oil prices increased the momentum. The escalation in attacks between US and Iran, and Yemen’s Houthis attacks on Saudi energy facilities, provided a t",
-      "published": "11 Sep 2026 16:43 WIB",
-      "sentiment": "Bullish",
-      "score": 0.255,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "FXStreet News",
       "title": "AUD/USD Price Forecast: Doji high guards bulls as Fed bets bite",
       "url": "https://www.fxstreet.com/news/aud-usd-price-forecast-doji-high-guards-bulls-as-fed-bets-bite-202609112201",
@@ -441,17 +419,6 @@
     },
     {
       "source": "FXStreet News",
-      "title": "Gold rebounds but Fed rate hike bets risks remain a headwind",
-      "url": "https://www.fxstreet.com/news/gold-holds-ground-as-markets-brace-for-us-cpi-data-202609111059",
-      "summary": "Gold (XAU/USD) rebounds on Friday, reversing most of the previous day’s losses as a pullback in the US Dollar, US Treasury yields and Oil prices supports the precious metal.",
-      "published": "11 Sep 2026 17:59 WIB",
-      "sentiment": "Bullish",
-      "score": 0.569,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
       "title": "WTI Oil Price Forecast: corrects lower after reaching overbought levels",
       "url": "https://www.fxstreet.com/news/wti-oil-price-forecast-corrects-lower-after-reaching-overbought-levels-202609111602",
       "summary": "West Texas Intermediate (WTI) Oil comes under heavy selling pressure on Friday as traders lock in profits following a sharp rally that pushed the US benchmark to its highest level since May 21. At the time of writing, WTI trades around $96.50, down roughly 4% on the day.",
@@ -463,13 +430,13 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "Anthropic CEO calls for slower AI development after security incidents",
-      "url": "https://www.investing.com/news/stock-market-news/anthropic-ceo-calls-for-slower-ai-development-after-security-incidents-4898664",
+      "title": "Russian attacks on Kyiv petrol stations kill two, Ukrainian strikes kill three in Russia",
+      "url": "https://www.investing.com/news/stock-market-news/russian-air-strikes-injure-two-cause-fire-in-9storey-apartment-building-in-kyiv-officials-say-4897164",
       "summary": "",
-      "published": "12 Sep 2026 21:47 WIB",
-      "sentiment": "Bullish",
-      "score": 0.34,
-      "emoji": "🟢",
+      "published": "13 Sep 2026 00:30 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -477,10 +444,21 @@
       "title": "Canadian boycott of US products pushes grocers to adapt, explore new supply sources",
       "url": "https://www.investing.com/news/stock-market-news/canadian-boycott-of-us-products-pushes-grocers-to-adapt-explore-new-supply-sources-4898644",
       "summary": "",
-      "published": "12 Sep 2026 19:19 WIB",
+      "published": "12 Sep 2026 23:06 WIB",
       "sentiment": "Bearish",
       "score": -0.318,
       "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Anthropic CEO calls for slower AI development after security incidents",
+      "url": "https://www.investing.com/news/stock-market-news/anthropic-ceo-calls-for-slower-ai-development-after-security-incidents-4898664",
+      "summary": "",
+      "published": "12 Sep 2026 21:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.34,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -561,17 +539,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Russian attacks on Kyiv petrol stations kill two, Ukrainian strikes kill three in Russia",
-      "url": "https://www.investing.com/news/stock-market-news/russian-air-strikes-injure-two-cause-fire-in-9storey-apartment-building-in-kyiv-officials-say-4897164",
-      "summary": "",
-      "published": "12 Sep 2026 06:36 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Meloni sees Italy 2026 growth at 1%, matching euro zone",
       "url": "https://www.investing.com/news/economic-indicators/meloni-sees-italy-2026-growth-at-1-matching-euro-zone-4898632",
@@ -628,9 +595,20 @@
     },
     {
       "source": "Reuters Currencies",
-      "title": "VIEW Stocks, bonds rally after August inflation report - reuters.com",
+      "title": "India's central bank opts for sharp liquidity drain through $10.5 billion debt sale - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaDgxQmxXOW0zRjZNU0RaSWNneWM0dllLcE1SMlNXNjU4LUN4bjIzQ1B5ODhyaW4yejlnTXUtd19NRHhSSWw5ZXZZemNyZ2NlWlhPM1AxUGRhN1dqbUVMYXB6NDlTcUo4SFhUZlhncXltNmluYlRxYXcyaS03VEFMSDVOZEo2TXRYMGM0WV9ZWjNfTGNxUnlSenFvYzJFQVdNdWY4TXR1VTlKOW9sOUhMc2tNMA?oc=5",
+      "summary": "India's central bank opts for sharp liquidity drain through $10.5 billion debt sale Reuters",
+      "published": "11 Sep 2026 20:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.612,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Reuters Currencies",
+      "title": "VIEW Stocks, bonds rally after August inflation report - Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY08xWWcxZWZRWG5WSFJ2ckZFcFk1T0cyNjlfS3F0U0Vyby1EWVJUaUNNaTUwVXRNVnk0Q2NfVVdYT2lPYjUxdjZlVHBXOWVPVnMzWk1DWmE4V1RGNzFrWFhwN3V5alYtbktTcDBST0RORllfc1Nhd0RBNFZ0UTVlbFFaM0FGMEpTLTIxdTVCeEJpcG5YdC1zTUZqMTQwNGhDZVBNbVBxX0Jmbkpsd2c?oc=5",
-      "summary": "VIEW Stocks, bonds rally after August inflation report reuters.com",
+      "summary": "VIEW Stocks, bonds rally after August inflation report Reuters",
       "published": "11 Sep 2026 20:33 WIB",
       "sentiment": "Bullish",
       "score": 0.08,
@@ -638,15 +616,59 @@
       "impact": "high"
     },
     {
-      "source": "Reuters Currencies",
-      "title": "India's central bank opts for sharp liquidity drain through $10.5 billion debt sale - reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaDgxQmxXOW0zRjZNU0RaSWNneWM0dllLcE1SMlNXNjU4LUN4bjIzQ1B5ODhyaW4yejlnTXUtd19NRHhSSWw5ZXZZemNyZ2NlWlhPM1AxUGRhN1dqbUVMYXB6NDlTcUo4SFhUZlhncXltNmluYlRxYXcyaS03VEFMSDVOZEo2TXRYMGM0WV9ZWjNfTGNxUnlSenFvYzJFQVdNdWY4TXR1VTlKOW9sOUhMc2tNMA?oc=5",
-      "summary": "India's central bank opts for sharp liquidity drain through $10.5 billion debt sale reuters.com",
-      "published": "11 Sep 2026 20:22 WIB",
-      "sentiment": "Bearish",
-      "score": -0.612,
-      "emoji": "🔴",
+      "source": "Bloomberg Markets",
+      "title": "SpaceX to Get Weighting Boost in Nasdaq 100 After Rebalance",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-12/spacex-to-get-weighting-boost-in-nasdaq-100-after-rebalance",
+      "summary": "SpaceX is set to get a larger weighting in the Nasdaq 100 later this month, a change that could trigger billions of dollars of buying by passive funds tied to the benchmark.",
+      "published": "13 Sep 2026 00:58 WIB",
+      "sentiment": "Bullish",
+      "score": 0.542,
+      "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bloomberg This Weekend 09/12/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-12/bloomberg-this-weekend-09-12-2026-video",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Fmr. Ambassador to NATO Nick Burns, Council on Foreign Relations Ray Takeyh, Future of Life Institu",
+      "published": "13 Sep 2026 00:10 WIB",
+      "sentiment": "Bullish",
+      "score": 0.572,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Trump’s Foes Find Common Ground at Modi’s New Delhi Summit",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-s-foes-find-common-ground-at-modi-s-new-delhi-summit",
+      "summary": "Leaders of emerging powers including Russia and Iran projected a united front at a weekend summit in New Delhi, with a joint statement that targeted a US-launched war in the Middle East, Washington’s tariff campaign and its sanctions policy.",
+      "published": "12 Sep 2026 22:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.785,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Iran War Revives Lessons of Iraq for Fukuyama",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-12/iran-war-revives-lessons-of-iraq-for-fukuyama-video",
+      "summary": "Joining David Gura on Bloomberg This Weekend, Stanford Spogli Institute for International Studies Senior Fellow Francis Fukuyama says the Iran war risks repeating lessons from Iraq and Afghanistan, arguing that military power alone is unlikely to produce lasting political change. In discussing his n",
+      "published": "12 Sep 2026 22:30 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Energy Driven Inflation Complicates Fed Rate Call",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-12/energy-driven-inflation-complicates-fed-rate-call-video",
+      "summary": "PNC Chief Investment Officer Amanda Agati is on Bloomberg This Weekend and says the Fed faces a difficult decision as energy-driven inflation pushes markets toward expectations for higher rates, warning that further tightening could risk a policy error. Agati also tells hosts David Gura and Christin",
+      "published": "12 Sep 2026 22:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.718,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -716,17 +738,6 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Xi Sits Down With Modi on First Trip to India in Seven Years",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-12/xi-sits-down-with-modi-during-first-trip-to-india-in-seven-years",
-      "summary": "Xi Jinping met with Prime Minister Narendra Modi during the Chinese president’s first post-Covid visit to India, as the world’s two most populous nations look to make further headway in stabilizing ties rocked by issues including border tensions.",
-      "published": "12 Sep 2026 19:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.482,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "By The Way: Headlines You May Have Missed",
       "url": "https://www.bloomberg.com/news/videos/2026-09-12/by-the-way-headlines-you-may-have-missed-video",
       "summary": "College athletes buy million-dollar homes, 'sudden wealth syndrome,' Princess Diana's 'revenge dress' on auction, snoring sleep partners could impact your health: Join Lisa Mateo, David Gura and Christina Ruffini as they go over interesting headlines from this week. (Source: Bloomberg)",
@@ -759,83 +770,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Trump Signals US Wants Distance From Iran War",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-12/trump-signals-us-wants-distance-from-iran-war-video",
-      "summary": "President Donald Trump is playing down prospects for renewed Iran peace talks and broader US involvement even as Houthi activity adds another source of escalation to the conflict. Bloomberg News White House Correspondent Jeff Mason joins Bloomberg This Weekend to discuss President Trump's statements",
-      "published": "12 Sep 2026 19:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.163,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Iraq Fires Maysan Commander After Drone Attacks on Saudi Arabia’s Pipeline",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-12/iraq-fires-maysan-commander-after-drone-attacks-on-saudi-arabia-s-pipeline",
-      "summary": "The closure of Saudi Arabia’s East-West pipeline sparked further fallout on Saturday after the attacks were determined to have been launched from inside Iraq.",
-      "published": "12 Sep 2026 19:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.6,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Can Venezuela Rescue the Oil Market?",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-12/can-venezuela-rescue-the-oil-market-video",
-      "summary": "Venezuela has some of the world’s largest oil reserves and could eventually produce far more than it does today. But Columbia University’s Luisa Palacios says reviving the industry would take years, up to $150 billion in investment and a major rebuilding of trust after decades of contract changes, e",
-      "published": "12 Sep 2026 19:02 WIB",
-      "sentiment": "Bullish",
-      "score": 0.71,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Oil and Gas Markets Signal Winter Crisis and Rising Interest Rates",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-12/oil-and-gas-markets-signal-winter-crisis-and-rising-interest-rates",
-      "summary": "The surge in oil, gas and diesel prices is forcing central banks and governments to reassess the impact of the wars in Iran and Ukraine.",
-      "published": "12 Sep 2026 18:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.771,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Forex",
-      "title": "Ringgit expected to hover between RM4.06 and RM4.08 against US dollar next week - Malay Mail",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONFQwb21EZGN4ZW9kcmNYZGZJekp3ZFQ3UEliUmVEd2RveVktai1RZHNTVHJjckJfNW80UkRZQ1RkVUlMNmxyVzlfZHZfdkJ4WlZTM0V0bW9jS2hNQmx0MUZIWHF2VENQdzNTUVBlalkzRV9LX2hreV8zRE10TDljNlUtdjF5U25BQUplazV6ZlBlcEk2REE5SDB4dU9LRkE0RjVzMi1KUjZ2RFZNZ1EwMnI2TmpISG1zZ1p1OG9yUE1xd2pvMm9ZMF9LMm_SAdIBQVVfeXFMT0F0Rk12SllldTBHRTFHRDBNT1BEMDAyNTYzYUJINU9EVklsRlJKd0NIUXJiT24xZlN1aHl1VUNwNm94clE2MkRpTUVTV2NFSHF3S3RFWVBtZHgxTFJsdWNYQmlUSVZsNDNmS0QtWVItMW01S2d0bndlTEI3Z0JWc2lHUWdmTjZ3bEdfdGp0MDJhUGhha1dHaS1TZHZpYmlTYzR5LVNDbGxwSjg3c3dFNnRMYnNlWnBMblBNcUVSbUxNM1VzRWhyaGtiMWVRYlBwTVRR?oc=5",
-      "summary": "Ringgit expected to hover between RM4.06 and RM4.08 against US dollar next week Malay Mail",
-      "published": "12 Sep 2026 10:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Forex",
-      "title": "Uzbekistan Central Bank Adopts FX Strategy Through 2030 - UzDaily.uz",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcUpoVG85LWpXdkpKLUN0WjVMaTVoVFNyWUo5eFBod2JJMFFOTjk1cU5FWHZXWlBmOUJYR3hiYUJma2d5QVlLelVfQV9hdHpIck0wLThsT05tbXBlRFZnRHFNbThGeDVlX2JycTBQQjlQejlJRkE2bWc5ekdqTHhXNGVyR1pBNHJGWEE?oc=5",
-      "summary": "Uzbekistan Central Bank Adopts FX Strategy Through 2030 UzDaily.uz",
-      "published": "11 Sep 2026 15:40 WIB",
-      "sentiment": "Bullish",
-      "score": 0.34,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Forex",
-      "title": "Uzbekistan’s Central Bank adopts 2026–2030 strategy for currency interventions - Daryo.uz",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPczd0WUxYNkp6QUFENmpVNllNbHNNVXVqZ0d3Vi0yVlNwVHpnZzJuODJaTlJCRVdMeHNCakl0Q1pxRVY2VEc1eWtDLVFYZkw3S19XS3V2clVuRk9vR0hrTUdTZUJwUF8tNTZqV3JOZjZjNjN1LXJtam5wX2FpeG5pdkZ0NF9zQ09obGl4VnBNeEtMLU1VSEVlNmo3cFIxUF92Tl9sVGdaSEFaMTVBMUptZQ?oc=5",
-      "summary": "Uzbekistan’s Central Bank adopts 2026–2030 strategy for currency interventions Daryo.uz",
-      "published": "11 Sep 2026 17:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.34,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
       "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
       "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
@@ -844,6 +778,17 @@
       "sentiment": "Bearish",
       "score": -0.771,
       "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump's comments on a united Ireland may have targeted audience across the Atlantic",
+      "url": "https://www.bbc.co.uk/news/articles/cwyzppd1d5lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Nobody could have predicted that today's main global headline would be Trump's desire to see a unified Ireland.",
+      "published": "13 Sep 2026 04:25 WIB",
+      "sentiment": "Bullish",
+      "score": 0.796,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -859,12 +804,12 @@
     },
     {
       "source": "BBC World",
-      "title": "'Never, ever forget' - America marks 25th anniversary of 9/11 attacks",
-      "url": "https://www.bbc.co.uk/news/articles/clyjqvjzlwno?at_medium=RSS&at_campaign=rss",
-      "summary": "In New York, the Pentagon and Pennsylvania, solemn ceremonies commemorate the landmark anniversary.",
-      "published": "12 Sep 2026 07:43 WIB",
+      "title": "Only Roland Garros towel left, says Ukraine tennis player after Russian strike hits flat",
+      "url": "https://www.bbc.co.uk/news/articles/c4gr33g3evlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Dayana Yastremska says her flat took a \"direct hit\" by a Russian missile in Odesa, and all that left was her Roland Garros towel.",
+      "published": "13 Sep 2026 03:27 WIB",
       "sentiment": "Bearish",
-      "score": -0.384,
+      "score": -0.208,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -902,26 +847,15 @@
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "Gen Zs recall first learning of 'deeply harrowing, terrifying' 9/11",
-      "url": "https://www.bbc.co.uk/news/articles/cgmrzzkjywlo?at_medium=RSS&at_campaign=rss",
-      "summary": "They carry distinct memories not from the day itself, but from the moment - years later - they learned about the attacks.",
-      "published": "12 Sep 2026 00:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.826,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "How global trade and oil prices could be hit by Houthi advance",
-      "url": "https://www.bbc.co.uk/news/videos/cy5z02w1zxxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Yemen's Houthis have seized territory near the Bab al-Mandab Strait - a key trade gateway for oil and global shipping.",
-      "published": "11 Sep 2026 23:13 WIB",
+      "source": "BBC Business",
+      "title": "US prices remain high as fuel costs squeeze household budgets",
+      "url": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&at_campaign=rss",
+      "summary": "Prices in the US rose 3.4% in the 12 months to August, according to the latest official report on inflation.",
+      "published": "11 Sep 2026 21:22 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC Business",
@@ -936,14 +870,14 @@
     },
     {
       "source": "BBC Business",
-      "title": "US prices remain high as fuel costs squeeze household budgets",
-      "url": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&at_campaign=rss",
-      "summary": "Prices in the US rose 3.4% in the 12 months to August, according to the latest official report on inflation.",
-      "published": "11 Sep 2026 21:22 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
+      "title": "'Skimpflation' warning as tinned mackerel alternative hits more supermarket shelves",
+      "url": "https://www.bbc.co.uk/news/articles/crm9xk9eg88o?at_medium=RSS&at_campaign=rss",
+      "summary": "Consumer group Which? has called the sale of jack mackerel, a cheaper, less nutritious species of fish, an example of \"skimpflation\".",
+      "published": "13 Sep 2026 03:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.42,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC Business",
@@ -958,89 +892,122 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "We've followed their lives for six decades - now the stars of 7 Up are bowing out",
-      "url": "https://www.bbc.co.uk/news/articles/crm932el3yjo?at_medium=RSS&at_campaign=rss",
-      "summary": "70 Up is the final instalment in a series which began in 1964 and has followed the lives of 14 people.",
-      "published": "12 Sep 2026 07:16 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "title": "Reform receives second £36m donation in two days as crypto investor matches record",
+      "url": "https://www.bbc.co.uk/news/articles/clye9nldd7do?at_medium=RSS&at_campaign=rss",
+      "summary": "The party says the money will allow it to fight the next election on a \"level playing field\", while rivals have renewed calls for donations from individuals to be capped.",
+      "published": "13 Sep 2026 00:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.421,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Best friends for decades - until a DNA test revealed they were sisters",
+      "url": "https://www.bbc.co.uk/news/articles/c5y6z72z9lno?at_medium=RSS&at_campaign=rss",
+      "summary": "Meena Geltink and Minal Tijssen were adopted from orphanages in Mumbai in the 1980s and grew up in the Netherlands.",
+      "published": "13 Sep 2026 05:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.807,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "BBC Top Stories",
-      "title": "'Every museum in the world is stressing': Did the Louvre heist embolden thieves?",
-      "url": "https://www.bbc.co.uk/news/articles/c804dvky833o?at_medium=RSS&at_campaign=rss",
-      "summary": "Art crime investigators and security experts say burglaries from galleries across Europe are becoming more brazen.",
-      "published": "12 Sep 2026 07:24 WIB",
+      "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+      "url": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
+      "summary": "A recent spate of stark warnings about the dangers of AI has been met with scepticism by executives and investors.",
+      "published": "13 Sep 2026 00:28 WIB",
       "sentiment": "Bearish",
-      "score": -0.784,
+      "score": -0.973,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Oscar-winning film producer Jeremy Thomas dies aged 77",
+      "url": "https://www.bbc.co.uk/news/articles/c3v4nzrk4rlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Best known for The Last Emperor and Sexy Beast, the British film-maker was celebrated for working with international directors throughout his decades-long career.",
+      "published": "12 Sep 2026 23:32 WIB",
+      "sentiment": "Bullish",
+      "score": 0.906,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Afghan woman deported from US in first use of 'alien terrorist' court",
+      "url": "https://www.bbc.co.uk/news/articles/c3eqpd9zgl9o?at_medium=RSS&at_campaign=rss",
+      "summary": "The legal US resident was never charged with a crime, but was deported due to her family links to terrorism.",
+      "published": "13 Sep 2026 04:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.899,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump: Iran probably ‘behind’ Saudi oil pipeline attack",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/trump-iran-probably-behind-saudi-oil-pipeline-attack?traffic_source=rss",
-      "summary": "Trump: Iran probably ‘behind’ Saudi oil pipeline attack",
-      "published": "12 Sep 2026 19:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.815,
-      "emoji": "🔴",
-      "impact": "low"
+      "title": "Bahrain says it will not participate in Iran’s proposed Hormuz meeting",
+      "url": "https://www.aljazeera.com/news/2026/9/12/bahrain-says-it-will-not-participate-in-irans-proposed-hormuz-meeting?traffic_source=rss",
+      "summary": "Iran tells Al Jazeera that Monday's meeting is a sign of 'good intentions' towards neighbouring countries.",
+      "published": "13 Sep 2026 02:34 WIB",
+      "sentiment": "Bullish",
+      "score": 0.36,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Far-right protesters rally against Islam on 9/11 anniversary",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/far-right-protesters-rally-against-islam-on-9-11?traffic_source=rss",
-      "summary": "A far-right Islamophobic rally was held outside New York City Hall on the 25th anniversary of the September 11 attacks.",
-      "published": "12 Sep 2026 17:51 WIB",
+      "title": "Will Houthi advances in Yemen give Iran leverage in its war with the US?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/9/12/will-houthi-advances-in-yemen-give-iran-leverage-in-its-war-with-the-us?traffic_source=rss",
+      "summary": "The Iranian ally seizes Yemen's Red Sea coast, cementing their hold on the Bab al-Mandeb strait.",
+      "published": "13 Sep 2026 02:17 WIB",
       "sentiment": "Bearish",
-      "score": -0.506,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Two men receive jail terms for violent burglary of Man City’s Donnarumma",
-      "url": "https://www.aljazeera.com/sports/2026/9/12/two-men-receive-jail-terms-for-violent-burglary-of-man-citys-donnarumma?traffic_source=rss",
-      "summary": "Two men jailed after Italy international Gianluigi Donnarumma and his now wife attacked in Paris home during PSG stint.",
-      "published": "12 Sep 2026 17:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.958,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Saudi Arabia shuts critical oil pipeline after drone attack: What it means",
-      "url": "https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened?traffic_source=rss",
-      "summary": "Baghdad launches investigation, closes border after confirming strike came from Iraqi territory.",
-      "published": "12 Sep 2026 17:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.79,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "What did US intelligence know before the 9/11 attacks?",
-      "url": "https://www.aljazeera.com/news/2026/9/12/what-did-us-intelligence-know-before-the-9-11?traffic_source=rss",
-      "summary": "The CIA have declassified documents showing US presidents were warned about Osama bin Laden and al-Qaeda before 9/11.",
-      "published": "12 Sep 2026 16:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.386,
+      "score": -0.679,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "9/11 at 25: How the ‘War on Terror’ helped mainstream Europe’s far right",
-      "url": "https://www.aljazeera.com/opinions/2026/9/12/9-11-at-25-how-the-war-on-terror-helped-mainstream-europes-far?traffic_source=rss",
-      "summary": "The 'War on Terror' gave far-right Islamophobia legitimacy, reach and electoral force.",
-      "published": "12 Sep 2026 15:49 WIB",
+      "title": "Afghan woman deported in first use of US Alien Terrorist Removal Court",
+      "url": "https://www.aljazeera.com/news/2026/9/12/afghan-woman-deported-in-first-use-of-us-alien-terrorist-removal-court?traffic_source=rss",
+      "summary": "Court was created in 1996, but had never been used before Nazira Haji Zada’s case.",
+      "published": "13 Sep 2026 02:02 WIB",
       "sentiment": "Bearish",
-      "score": -0.882,
+      "score": -0.329,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iraq probes drone strikes on Saudi Arabia, shuts three crossings to Iran",
+      "url": "https://www.aljazeera.com/news/2026/9/12/iraq-probes-drone-strikes-on-saudi-arabia-shuts-three-crossings-to-iran?traffic_source=rss",
+      "summary": "PM Ali al-Zaidi dismisses commander, orders investigation into operations command in Maysan province, bordering Iran.",
+      "published": "13 Sep 2026 01:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.441,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran, UAE hold first talks at BRICS summit since conflict began",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-clip-uae-iran-brics-talks-mp4?traffic_source=rss",
+      "summary": "Iran’s President has met Abu Dhabi’s Crown Prince at the BRICS summit for their highest-level talks since the war began.",
+      "published": "13 Sep 2026 01:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.895,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Selling the war: Purges, polygraphs and propaganda",
+      "url": "https://www.aljazeera.com/video/the-listening-post/2026/9/12/selling-the-war-purges-polygraphs-and-propaganda?traffic_source=rss",
+      "summary": "The Iran war has become ever more challenging for the Trump administration to sell.",
+      "published": "13 Sep 2026 00:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.916,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -1049,7 +1016,7 @@
       "title": "‘I still don’t have my MRI’: My health insurer canceled my plan without warning. Is that legal?",
       "url": "https://www.marketwatch.com/story/i-still-dont-have-my-mri-my-health-insurer-canceled-my-plan-without-warning-is-that-legal-02143710?mod=mw_rss_topstories",
       "summary": "“It wasn’t an ACA plan, but it was meaningfully cheaper than anything I could find on the ACA exchange.”",
-      "published": "12 Sep 2026 19:00 WIB",
+      "published": "12 Sep 2026 23:01 WIB",
       "sentiment": "Bullish",
       "score": 0.115,
       "emoji": "🟢",
@@ -1063,17 +1030,6 @@
       "published": "12 Sep 2026 06:54 WIB",
       "sentiment": "Bullish",
       "score": 0.459,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Salesforce’s stock has been riding a wave of AI optimism. Here’s what Wall Street wants to see next.",
-      "url": "https://www.marketwatch.com/story/salesforces-stock-has-been-riding-a-wave-of-ai-optimism-heres-what-wall-street-wants-to-see-next-72f20e95?mod=mw_rss_topstories",
-      "summary": "Salesforce’s Dreamforce conference next week could offer a glimpse of how its recently announced Claudeforce partnership with Anthropic will play out.",
-      "published": "12 Sep 2026 03:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.79,
       "emoji": "🟢",
       "impact": "low"
     },
@@ -1134,13 +1090,24 @@
     },
     {
       "source": "CNBC World",
-      "title": "Trump sees Iran war ending soon after mid-term elections, predicts oil prices will then fall sharply",
+      "title": "Trump sees Iran war ending soon after midterm elections, predicts oil prices will then fall sharply",
       "url": "https://www.cnbc.com/2026/09/12/trump-sees-iran-war-ending-very-soon-oil-prices-then-falling.html",
       "summary": "Oil prices retreated on Friday on hopes of a resumptions in negotiations, but notched sharp weekly gains after soaring above $100 a barrel.",
-      "published": "12 Sep 2026 20:02 WIB",
+      "published": "13 Sep 2026 00:22 WIB",
       "sentiment": "Bullish",
       "score": 0.292,
       "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast",
+      "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html",
+      "summary": "Altman's IPO comments and Amodei's public call for more careful pacing of AI development cap a week of loud AI warnings.",
+      "published": "13 Sep 2026 06:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.26,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -1229,39 +1196,6 @@
       "sentiment": "Bearish",
       "score": -0.266,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Global bond sell-off deepens as $100 oil stokes stagflation fears",
-      "url": "https://www.cnbc.com/2026/09/11/bond-yields-treasurys-inflation-oil.html",
-      "summary": "The yield on German 10-year bonds, seen as the euro area benchmark, crossed 3.5% on Friday for the first time since April 2011.",
-      "published": "11 Sep 2026 17:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.421,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "The oil shock is testing private credit borrowers already burdened by high debt costs",
-      "url": "https://www.cnbc.com/2026/09/11/oil-private-credit-refinancing.html",
-      "summary": "Oil near $100 could further squeeze leveraged private credit borrowers as investors weigh the risk that inflation could push interest rates higher again.",
-      "published": "11 Sep 2026 21:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.178,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Bessent says 'a large bank' will be sanctioned on Monday as part of Iran strategy",
-      "url": "https://www.cnbc.com/2026/09/11/bessent-large-bank-sanctioned.html",
-      "summary": "U.S. Treasury Secretary Scott Bessent said a large bank would be sanctioned next week.",
-      "published": "11 Sep 2026 23:35 WIB",
-      "sentiment": "Bullish",
-      "score": 0.122,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
