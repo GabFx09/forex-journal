@@ -1,47 +1,47 @@
 {
-  "generated": "19 Sep 2026 07:01 WIB",
+  "generated": "19 Sep 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/CHF",
+      "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.133,
+      "score": -0.234,
       "count": 28
     },
     {
-      "pair": "USD/JPY",
+      "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.133,
-      "count": 28
+      "score": -0.185,
+      "count": 26
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.158,
+      "score": -0.276,
       "count": 24
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.239,
-      "count": 6
     },
     {
       "pair": "EUR",
       "direction": "Tekanan Naik ▲",
-      "score": 0.077,
-      "count": 5
-    },
-    {
-      "pair": "GBP",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.077,
-      "count": 5
+      "score": 0.182,
+      "count": 6
     },
     {
       "pair": "USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.182,
+      "count": 6
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.439,
+      "count": 6
+    },
+    {
+      "pair": "GBP",
       "direction": "Tekanan Naik ▲",
       "score": 0.077,
       "count": 5
@@ -155,32 +155,142 @@
     },
     {
       "source": "Investing.com Forex",
-      "title": "US, China discuss cutting tariffs on US LNG ahead of Xi visit",
-      "url": "https://www.investing.com/news/stock-market-news/us-china-discuss-cutting-tariffs-on-us-lng-ahead-of-xi-visit-4907862",
+      "title": "Exclusive-Paramount could settle with states over Warner Bros. as soon as this weekend, sources say",
+      "url": "https://www.investing.com/news/stock-market-news/paramount-states-discuss-cnn-monitoring-and-film-release-commitment-sources-say-4907979",
       "summary": "",
-      "published": "19 Sep 2026 06:01 WIB",
+      "published": "19 Sep 2026 08:06 WIB",
       "sentiment": "Bearish",
-      "score": -0.128,
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Warren Buffett steps down as Berkshire chairman, replaced by his son Howard",
+      "url": "https://www.investing.com/news/stock-market-news/berkshire-hathaway-names-warren-buffett-as-chairman-emeritus-4906996",
+      "summary": "",
+      "published": "19 Sep 2026 07:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saudi Arabia Billionaires’ Family Office Dubai Bet Adds to London Exodus",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/saudi-arabia-billionaires-family-office-dubai-bet-adds-to-london-exodus",
+      "summary": "An investment firm for one of Saudi Arabia’s richest families is relocating from London to Dubai, according to people familiar with the matter, the latest example of private wealth outflows from the UK to the Gulf despite heightened uncertainty from the Iran war.",
+      "published": "18 Sep 2026 17:19 WIB",
+      "sentiment": "Bullish",
+      "score": 0.511,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Diesel Prices Keep Pressure on Fed and Markets",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-19/diesel-prices-keep-pressure-on-fed-and-markets-video",
+      "summary": "The Federal Reserve unanimously raised its benchmark rate by a quarter point as policymakers confront inflation that remains above target and uncertainty tied to geopolitical developments. Merrill and Bank of America Head of CIO Market Strategy Joe Quinlan tells Bloomberg This Weekend hosts David Gu",
+      "published": "19 Sep 2026 20:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.649,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "$370 'Home Alone Sundae' on The Plaza's Menu",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-18/-370-home-alone-sundae-on-the-plaza-s-menu-video",
-      "summary": "Bloomberg's Lisa Mateo joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" They discuss New York City's Plaza Hotel as it is set to welcome events and guests tied to the United Nations General Assembly and the Qatar Economic Forum. The menu includes the $370 \"Home Alone Sundae\". (Source: Bloomberg)",
-      "published": "19 Sep 2026 04:59 WIB",
+      "title": "US Greenland Deal Shifts Focus to Investment",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-19/us-greenland-deal-shifts-focus-to-investment-video",
+      "summary": "A new security agreement between the US, Denmark and Greenland would expand the American military role while preserving Greenlandic sovereignty, shifting attention toward potential US investment in mining, infrastructure and tourism. Former US diplomat Lewis Lukens tells David Gura and Christina Ruf",
+      "published": "19 Sep 2026 20:29 WIB",
+      "sentiment": "Bullish",
+      "score": 0.306,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "UN Talks Offer a New Opening on Iran War",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-19/un-talks-offer-a-new-opening-on-iran-war-video",
+      "summary": "World leaders head to the UN General Assembly as Gulf states seek renewed diplomacy to reduce attacks, restore more predictable energy flows and move the Iran war away from active conflict. Suzanne Maloney of the Brookings Institution joins David Gura and Christina Ruffini on Bloomberg This Weekend ",
+      "published": "19 Sep 2026 20:17 WIB",
       "sentiment": "Bearish",
-      "score": -0.44,
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Buffett Son Takes Chair as Berkshire Transition Ends",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-19/buffett-son-takes-chair-as-berkshire-transition-ends-video",
+      "summary": "Warren Buffett has stepped down as Berkshire Hathaway chairman after more than six decades at the company, becoming chairman emeritus as his son Howard takes over the board and Greg Abel remains CEO. Bloomberg News Insurance Reporter Alex Rajbhandari explains that Howard Buffett, a Berkshire directo",
+      "published": "19 Sep 2026 19:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.506,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "AI Agents Test the Limits of Human Oversight",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-19/ai-agents-test-the-limits-of-human-oversight-video",
+      "summary": "OpenAI disclosed six cases of unexpected or concerning model behavior as AI companies grapple with how to monitor increasingly autonomous agents and whether stronger independent oversight is needed. Joining David Gura on Bloomberg This Weekend, Bloomberg News AI Reporter Shirin Ghaffary explains tha",
+      "published": "19 Sep 2026 19:28 WIB",
+      "sentiment": "Bullish",
+      "score": 0.66,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "JPMorgan Sees No Clear Endgame for Oil Markets",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-19/jpmorgan-sees-no-clear-endgame-for-oil-markets-video",
+      "summary": "An attack on Saudi Arabia’s East-West pipeline has disrupted a crucial route around the Strait of Hormuz, threatening crude deliveries to Europe and adding pressure to already tight diesel markets. On Bloomberg This Weekend, Bloomberg Economics Statecraft Lead Chris Kennedy discusses how JPMorgan sa",
+      "published": "19 Sep 2026 19:11 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US and China Vie For AI Lead Before Trump- Xi Summit",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-18/us-and-china-vie-for-ai-lead-before-trump-xi-summit-video",
-      "summary": "Less than a week before Chinese leader Xi Jinping travels to the US to meet President Donald Trump, AI has taken center stage in the bilateral relationship. In some ways the rivalry is straightforward. Most benchmarks show American models have a lead in performance that Washington very much wants to",
-      "published": "19 Sep 2026 01:52 WIB",
+      "title": "Europe’s Winter Power Surge Is Biggest Since Energy Crisis",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-19/europe-s-winter-power-surge-is-biggest-since-energy-crisis",
+      "summary": "As Europe heads into winter, electricity markets are flashing their strongest warning since the energy crisis.",
+      "published": "19 Sep 2026 16:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.67,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bolivia Eliminates Diesel Subsidy After IMF Loan Approval",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-19/bolivia-eliminates-diesel-subsidy-after-imf-loan-approval-mu7ydf34",
+      "summary": "Bolivia’s government has completely eliminated its diesel subsidy after the Senate approved a $1.9 billion loan from the International Monetary Fund that calls for spending curbs.",
+      "published": "19 Sep 2026 12:34 WIB",
+      "sentiment": "Bullish",
+      "score": 0.71,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Blackstone Sees India Nearing Tipping Point for Foreign Capital",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-19/blackstone-sees-india-nearing-tipping-point-for-foreign-capital",
+      "summary": "As Jon Gray recalls it, Blackstone Inc.’s first foray into India started slowly and then ran into headwinds during the global financial crisis.",
+      "published": "19 Sep 2026 11:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.705,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump signs sweeping Russia sanctions bill",
+      "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss",
+      "summary": "The bill is named after the late Senator Lindsey Graham, a staunch advocate of aid for Ukraine.",
+      "published": "19 Sep 2026 05:05 WIB",
       "sentiment": "Bearish",
       "score": -0.08,
       "emoji": "🔴",
@@ -188,12 +298,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Russian hybrid attacks against Europe intensifying, says Macron",
-      "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
-      "summary": "The French president says he has tasked the government with protecting critical infrastructure and defence industry sites.",
-      "published": "19 Sep 2026 01:04 WIB",
+      "title": "Shark attack prompts rare kill order in Western Australia as victim named",
+      "url": "https://www.bbc.co.uk/news/articles/cqwyzdnk442lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Greg O'Neill \"loved the ocean\", his family say, as police boats and helicopters patrol Perth's beaches in search of his body and the shark that attacked him.",
+      "published": "19 Sep 2026 18:50 WIB",
       "sentiment": "Bearish",
-      "score": -0.586,
+      "score": -0.92,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -210,6 +320,28 @@
     },
     {
       "source": "BBC World",
+      "title": "Saudi Arabia issues first air raid alerts for Riyadh since Houthis escalated attacks",
+      "url": "https://www.bbc.co.uk/news/articles/cmed7el18dxpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Residents later received the all-clear after explosions were reported in the capital.",
+      "published": "19 Sep 2026 11:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Russian hybrid attacks against Europe intensifying, says Macron",
+      "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
+      "summary": "The French president says he has tasked the government with protecting critical infrastructure and defence industry sites.",
+      "published": "19 Sep 2026 01:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.586,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
       "title": "Warren Buffett steps down after six decades at Berkshire - 'Father Time always wins'",
       "url": "https://www.bbc.co.uk/news/articles/cvj64dl1w6yno?at_medium=RSS&at_campaign=rss",
       "summary": "Since taking control in 1965, Buffett grew a struggling textile mill into a global conglomerate.",
@@ -217,17 +349,6 @@
       "sentiment": "Bullish",
       "score": 0.146,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
-      "url": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko?at_medium=RSS&at_campaign=rss",
-      "summary": "The bank said it \"assumed\" there would be economic red lines, like oil at $100 a barrel, that the US would be unwilling the cross.",
-      "published": "19 Sep 2026 00:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -242,14 +363,14 @@
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "Why US plan to sell F-35 warplanes to Saudi Arabia is controversial",
-      "url": "https://www.bbc.co.uk/news/articles/c3x2zrn01pxko?at_medium=RSS&at_campaign=rss",
-      "summary": "Saudi Arabia has lobbied the US for years to buy F35s, the world's most advanced fighter jet.",
-      "published": "18 Sep 2026 08:31 WIB",
-      "sentiment": "Bullish",
-      "score": 0.254,
-      "emoji": "🟢",
+      "source": "BBC Business",
+      "title": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
+      "url": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko?at_medium=RSS&at_campaign=rss",
+      "summary": "The bank said it \"assumed\" there would be economic red lines, like oil at $100 a barrel, that the US would be unwilling the cross.",
+      "published": "19 Sep 2026 00:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.78,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -264,26 +385,26 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Warm words on Canada's EU 'associate membership' but no guarantees",
-      "url": "https://www.bbc.co.uk/news/articles/crlyqg1ekj4po?at_medium=RSS&at_campaign=rss",
-      "summary": "There is no certainty that the idea will ever get off the ground, let alone become a blueprint for other countries, writes the BBC's Katya Adler.",
-      "published": "17 Sep 2026 23:59 WIB",
+      "source": "BBC Top Stories",
+      "title": "Michael Marra announced as new Scottish Labour leader",
+      "url": "https://www.bbc.co.uk/news/articles/cvrl64773g58o?at_medium=RSS&at_campaign=rss",
+      "summary": "Anas Sarwar's replacement has been announced as the MSP for the North East region.",
+      "published": "19 Sep 2026 17:59 WIB",
       "sentiment": "Bearish",
-      "score": -0.795,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Flight chaos caused by software defect in space of a millisecond, report says",
-      "url": "https://www.bbc.co.uk/news/articles/cw0kl1571lpmo?at_medium=RSS&at_campaign=rss",
-      "summary": "The failure led to more than 2,000 flights being cancelled and hundreds of thousands of passengers affected.",
-      "published": "18 Sep 2026 22:48 WIB",
+      "title": "Smoke seen near Riyadh airport after air raid alerts in Saudi capital",
+      "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+      "summary": "The King Khalid International Airport incident caused hours of flight disruptions and comes amid an escalating conflict with Houthi rebels in Yemen.",
+      "published": "19 Sep 2026 21:43 WIB",
       "sentiment": "Bearish",
-      "score": -0.98,
+      "score": -0.75,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC Top Stories",
@@ -297,44 +418,66 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Tenko and Coronation Street actress Stephanie Cole dies aged 84",
-      "url": "https://www.bbc.co.uk/news/articles/ckz7zg4ez0peo?at_medium=RSS&at_campaign=rss",
-      "summary": "She was best known for playing Dr Beatrice Mason in the 1980s BBC wartime TV drama Tenko.",
-      "published": "18 Sep 2026 22:27 WIB",
+      "source": "Al Jazeera",
+      "title": "Taiwan flexes military capabilities ahead of Trump-Xi talks",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/09-19-taiwan-drills-minisv?traffic_source=rss",
+      "summary": "Taiwan has staged live-fire drills with missiles and attack drones as Donald Trump prepares to host China’s Xi Jinping.",
+      "published": "19 Sep 2026 20:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Child among three Palestinians killed in Israeli attacks across Gaza",
+      "url": "https://www.aljazeera.com/news/2026/9/19/three-palestinians-killed-in-israeli-strikes-across-gaza?traffic_source=rss",
+      "summary": "Gaza’s Health Ministry says the son of its director general, Munir al-Bursh, is among those killed.",
+      "published": "19 Sep 2026 19:59 WIB",
+      "sentiment": "Bearish",
+      "score": -0.997,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "What’s behind reports that the Israeli army is low on troops, equipment?",
+      "url": "https://www.aljazeera.com/news/2026/9/19/whats-behind-reports-that-the-israeli-army-is-low-on-troops-equipment?traffic_source=rss",
+      "summary": "Israel's Channel 12 and Maariv newspaper claim the military is facing 'severe shortages'.",
+      "published": "19 Sep 2026 19:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.649,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "US lifts sanctions on Eritrea ‘to advance US regional interests’ in Red Sea",
+      "url": "https://www.aljazeera.com/news/2026/9/19/us-lifts-sanctions-on-eritrea-imposed-during-conflict-in-ethiopias-tigray?traffic_source=rss",
+      "summary": "The sanctions, introduced during the Biden administration, targeted Eritrea's governing party and the military.",
+      "published": "19 Sep 2026 19:34 WIB",
       "sentiment": "Bullish",
-      "score": 0.718,
+      "score": 0.322,
       "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "War may be coming. Are we psychologically ready?",
-      "url": "https://www.bbc.co.uk/news/articles/cmn0jke547r5o?at_medium=RSS&at_campaign=rss",
-      "summary": "The military and government say the risk of conflict is growing, but we may not be mentally ready for it",
-      "published": "18 Sep 2026 06:22 WIB",
+      "source": "Al Jazeera",
+      "title": "Funerals held after deadly mosque attack in Pakistan’s Kohat",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/19-09-sv-kohat-funerals-pakistan-pk?traffic_source=rss",
+      "summary": "Funerals are underway in Kohat, Pakistan, after a suicide attacker rammed an explosives-laden car into a mosque killing",
+      "published": "19 Sep 2026 19:29 WIB",
       "sentiment": "Bearish",
-      "score": -0.879,
+      "score": -1.0,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Trump signs sweeping Russia sanctions bill",
-      "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss",
-      "summary": "The bill is named after the late Senator Lindsey Graham, a staunch advocate of aid for Ukraine.",
-      "published": "19 Sep 2026 05:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Houthis accuse Saudi Arabia of launching 26 strikes in 24 hours",
-      "url": "https://www.aljazeera.com/news/2026/9/18/houthis-accuse-saudi-arabia-of-launching-26-strikes-in-24-hours?traffic_source=rss",
-      "summary": "The war in Yemen intensifies with mounting clashes and reciprocal attacks between Saudi forces and the Houthis.",
-      "published": "19 Sep 2026 06:14 WIB",
+      "title": "In Gaza, actors perform a war they are still living",
+      "url": "https://www.aljazeera.com/features/2026/9/19/in-gaza-actors-perform-a-war-they-are-still-living?traffic_source=rss",
+      "summary": "In Gaza, Palestinian actors turn stories of siege and loss into theatre, while confronting the same fears and hardships.",
+      "published": "19 Sep 2026 19:18 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -342,100 +485,45 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Germany receives first F-35 jet from US as NATO boosts military spending",
-      "url": "https://www.aljazeera.com/news/2026/9/18/germany-receives-first-f-35-jet-from-us-as-nato-boosts-military-spending?traffic_source=rss",
-      "summary": "Germany received the first of nearly three dozen F-35 stealth warplanes it ordered four years ago from Lockheed Martin.",
-      "published": "19 Sep 2026 04:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.17,
-      "emoji": "🟢",
+      "title": "Doomsday AI: panic, regulation and the China fear",
+      "url": "https://www.aljazeera.com/video/the-listening-post/2026/9/19/doomsday-ai-panic-regulation-and-the-china-fear?traffic_source=rss",
+      "summary": "When tech CEOs warn AI could end humanity, does the media get the story right?",
+      "published": "19 Sep 2026 19:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Russia labels Cannes-winning director Andrey Zvyagintsev a ‘foreign agent’",
-      "url": "https://www.aljazeera.com/news/2026/9/18/russia-labels-cannes-winning-director-andrey-zvyagintsev-a-foreign-agent?traffic_source=rss",
-      "summary": "Acclaimed Russian film director who won 2026 Grand Prix award at Cannes, ⁠has been critical of the war in Ukraine.",
-      "published": "19 Sep 2026 02:39 WIB",
-      "sentiment": "Bullish",
-      "score": 0.532,
-      "emoji": "🟢",
+      "title": "Russia kills eight people in Ukraine, attacks two vessels in Black Sea",
+      "url": "https://www.aljazeera.com/news/2026/9/19/poland-on-high-alert-as-russia-claims-black-sea-vessel-strikes?traffic_source=rss",
+      "summary": "Ukraine's Air Force says Russia hit the country with dozens of drones and two antiship missiles overnight.",
+      "published": "19 Sep 2026 17:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.911,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Warsh’s Fed shows it’s serious about taming inflation. Why Wall Street now believes it.",
+      "url": "https://www.marketwatch.com/story/warshs-fed-shows-its-serious-about-taming-inflation-why-wall-street-now-believes-it-55dc5af5?mod=mw_rss_topstories",
+      "summary": "After more than five years of failing to do so, Federal Reserve leaders think they can shrink the rate of inflation to 2% by 2029 with just slightly higher U.S. interest rates. Are they serious?",
+      "published": "19 Sep 2026 20:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.368,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Lebanese artist turns Israeli missile debris into art",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/lebanese-artist-turns-israeli-missile-debris-into-art?traffic_source=rss",
-      "summary": "In southern Lebanon, visual artist Lina Jouni transforms debris from Israeli missile strikes into pieces of art.",
-      "published": "19 Sep 2026 02:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.441,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Two injured by Israeli shelling as troops advance in southern Lebanon",
-      "url": "https://www.aljazeera.com/news/2026/9/18/two-injured-by-israeli-shelling-as-troops-advance-in-southern-lebanon?traffic_source=rss",
-      "summary": "Israeli forces withdraw from outskirts of a town in southern Lebanon after a standoff with Lebanese forces.",
-      "published": "19 Sep 2026 02:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.402,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pentagon resumes mandatory testosterone testing for US troops over 30",
-      "url": "https://www.aljazeera.com/news/2026/9/18/pentagon-resumes-paused-testosterone-policy-amid-medical-experts-concerns?traffic_source=rss",
-      "summary": "Experts have called policy unnecessary and said testosterone injections could increase risks of infertility.",
-      "published": "19 Sep 2026 01:54 WIB",
-      "sentiment": "Netral",
-      "score": 0.048,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mexico’s Sheinbaum says she spoke with Trump as trade negotiations continue",
-      "url": "https://www.aljazeera.com/news/2026/9/18/mexicos-sheinbaum-says-she-spoke-with-trump-as-trade-negotiations-continue?traffic_source=rss",
-      "summary": "Mexican president says she is seeking a decrease in tariffs as both countries seek new bilateral trade deal.",
-      "published": "19 Sep 2026 01:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Do elections in Russia make a difference?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/9/18/do-elections-in-russia-make-a-difference?traffic_source=rss",
-      "summary": "Millions of people are choosing a new lower house of Parliament.",
-      "published": "19 Sep 2026 01:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Warren Buffett steps down as Berkshire Hathaway chairman",
-      "url": "https://www.aljazeera.com/economy/2026/9/18/warren-buffett-steps-down-as-berkshire-hathaway-chairman?traffic_source=rss",
-      "summary": "Buffett will become chairman emeritus immediately and his son Howard will become chairman.",
-      "published": "19 Sep 2026 01:32 WIB",
+      "source": "CNBC Forex",
+      "title": "Buffett takes next step in plan to keep Berkshire from straying",
+      "url": "https://www.cnbc.com/2026/09/19/warren-buffett-takes-next-step-in-plan-to-keep-berkshire-from-straying.html",
+      "summary": "Warren Buffett steps down as Berkshire Hathaway's chairman, passing the job to his son, Howard.",
+      "published": "19 Sep 2026 19:43 WIB",
       "sentiment": "Bearish",
       "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Russia’s drones threaten Kyiv-bound Western officials as war effort stalls",
-      "url": "https://www.aljazeera.com/news/2026/9/18/russia-targets-ukraines-peaceful-borders?traffic_source=rss",
-      "summary": "Russia strikes Ukraine’s border crossings with Poland and Moldova as its offensives peter out in the east.",
-      "published": "19 Sep 2026 01:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.949,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -451,48 +539,15 @@
       "impact": "high"
     },
     {
-      "source": "CNBC Economy",
-      "title": "GM touts new V-8 engines in revived ‘truck wars’ with Ford, Ram amid lackluster EV sales",
-      "url": "https://www.cnbc.com/2026/09/17/chevy-silverado-gmc-sierra-v-8-engines.html",
-      "summary": "The large, gas-guzzling models continue to sell well in pickup trucks thanks to their ability to tow and haul heavy things.",
-      "published": "17 Sep 2026 21:39 WIB",
-      "sentiment": "Bullish",
-      "score": 0.655,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Economy",
-      "title": "Stephen Curry says his Li-Ning signature shoe will debut early next year",
-      "url": "https://www.cnbc.com/2026/09/17/stephen-curry-li-ning-signature-shoe.html",
-      "summary": "Golden State Warrior superstar Stephen Curry announced in June he was signing a long-term partnership with Chinese brand Li-Ning.",
-      "published": "18 Sep 2026 00:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "CNBC World",
       "title": "Trump says U.S. to build a 'large Military presence' in Greenland as part of a security deal with it and Denmark",
       "url": "https://www.cnbc.com/2026/09/18/trump-greenland-denmark-military-deal.html",
       "summary": "Greenland has maintained it is not for sale, and the European Union earlier this year united to rebuke Trump over his push to acquire the island.",
-      "published": "19 Sep 2026 06:28 WIB",
+      "published": "19 Sep 2026 17:36 WIB",
       "sentiment": "Bullish",
       "score": 0.717,
       "emoji": "🟢",
       "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal",
-      "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
-      "summary": "Anthropic and OpenAI have been under intense scrutiny after researchers warned about the potential for AI to cause catastrophic harm to humanity.",
-      "published": "19 Sep 2026 04:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -507,25 +562,14 @@
     },
     {
       "source": "CNBC World",
-      "title": "Warren Buffett steps down as chairman of Berkshire Hathaway: 'Father Time always wins'",
-      "url": "https://www.cnbc.com/2026/09/18/buffett-stepping-down-as-berkshire-chairman.html",
-      "summary": "Buffett's son Howard will replace him as chairman, as dictated by a long-standing succession plan, Berkshire said.",
-      "published": "18 Sep 2026 19:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.591,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump administration advances $24.3 billion fighter jet deal to Saudi Arabia as Houthis escalate attacks",
-      "url": "https://www.cnbc.com/2026/09/18/trump-saudi-arabia-f-35-houthis-iran-war.html",
-      "summary": "The deal comes as Iran-backed Houthis escalate attacks on Saudi Arabia and seek control of the strategically important Bab el-Mandeb Strait.",
-      "published": "18 Sep 2026 15:02 WIB",
+      "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal",
+      "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
+      "summary": "Anthropic and OpenAI have been under intense scrutiny after researchers warned about the potential for AI to cause catastrophic harm to humanity.",
+      "published": "19 Sep 2026 04:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.527,
+      "score": -0.78,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     }
   ]
 }
