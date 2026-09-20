@@ -1,5 +1,5 @@
 {
-  "generated": "20 Sep 2026 07:02 WIB",
+  "generated": "20 Sep 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,205 +7,150 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.263,
-      "count": 25
+      "score": -0.37,
+      "count": 17
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.293,
-      "count": 23
+      "score": -0.382,
+      "count": 16
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.174,
-      "count": 22
+      "score": -0.41,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
+      "direction": "Netral →",
+      "score": 0.001,
+      "count": 7
+    },
+    {
+      "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.699,
-      "count": 6
-    },
-    {
-      "pair": "EUR",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.216,
-      "count": 3
-    },
-    {
-      "pair": "GBP",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.216,
-      "count": 3
-    },
-    {
-      "pair": "USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.216,
-      "count": 3
+      "score": -0.208,
+      "count": 1
     },
     {
       "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.654,
+      "count": 1
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.654,
+      "count": 1
+    },
+    {
+      "pair": "AUD/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.5,
+      "score": 0.718,
       "count": 1
     }
   ],
   "items": [
     {
-      "source": "ForexLive",
-      "title": "Harga minyak berakhir lebih rendah karena pasar menyadari adanya TACO",
-      "url": "https://investinglive.com/news/oil-finishes-lower-as-the-market-sniffs-out-a-taco/",
-      "summary": "WTI crude oil on the November contract is trading down $1.64 to $95.60. That's something of a win for the bears, as it finished last week at $95.94. Since then, we've had a mixed series of updates on the pipeline attacks in Saudi Arabia but the latest ones say they're doing bypasses of the damaged p",
-      "published": "19 Sep 2026 02:05 WIB",
+      "source": "Bloomberg Markets",
+      "title": "CEO Franklin Mengatakan Imbalan AI Masih Belum Jelas",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-20/franklin-ceo-says-ai-payoff-remains-unclear-video",
+      "summary": "Franklin Templeton CEO Jenny Johnson says companies cannot afford to slow their adoption of AI even as questions persist about costs, governance and the eventual profitability of the technology. Johnson tells hosts of Bloomberg This Weekend David Gura and Christina Ruffini that Franklin has already ",
+      "published": "20 Sep 2026 21:28 WIB",
       "sentiment": "Bearish",
-      "score": -0.907,
+      "score": -0.054,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Waspadai intervensi: USDJPY menelusuri kembali kenaikan sebelumnya, namun terhenti pada target retracement utama.",
-      "url": "https://investinglive.com/forex/beware-of-intervention-usdjpy-retraces-earlier-gains-but-is-stalling-at-a-key-retracement-target/",
-      "summary": "USD/JPY Whipsaws After BOJ Surprise: Guardrails Now in Place at 156.66 and 158.04 The Bank of Japan raised its policy rate by 25 basis points earlier today — a hike that was widely anticipated by markets, but the way it arrived was anything but straightforward. (For context, a \"basis point\" is 1/100",
-      "published": "19 Sep 2026 00:01 WIB",
-      "sentiment": "Bullish",
-      "score": 0.285,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Schmid dari Fed Kansas City: data terbaru menunjukkan tren inflasi di atas 3%",
-      "url": "https://investinglive.com/central-banks/kansas-city-fed-s-schmid-recent-data-suggest-inflation-trending-above-3/",
-      "summary": "Comments from Kansas City Fed's Schmid cross the wires: Supported the rate hike; recent data suggest inflation trending above 3% The rate hike was a step towards returning to the 2% target The current inflation problem is \"not just about energy\" — price growth has been \"hot\" across a broad set of go",
-      "published": "18 Sep 2026 22:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.051,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "EUR/USD tetap condong ke sisi bawah karena fokus beralih ke pertemuan Trump dengan para pemimpin Teluk",
-      "url": "https://investinglive.com/forex/eur-usd-remains-skewed-to-the-downside-as-focus-shifts-to-trump-meeting-with-gulf-leaders/",
-      "summary": "FUNDAMENTAL OVERVIEW USD: The US dollar rallied across the board on Wednesday following the FOMC decision as the market interpreted as more hawkish than expected. The Fed hiked interest rates by 25 bps as widely expected in an unanimous decision. Moreover, the part saying that inflation remained ele",
-      "published": "18 Sep 2026 20:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.539,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "investmentPenutup sesi Eropa secara langsung: Yen tergelincir setelah kenaikan BoJ karena pasar tetap dalam kegelisahan",
-      "url": "https://investinglive.com/news/investinglive-european-session-wrap-yen-slides-after-boj-hike-as-markets-stay-on-edge/",
-      "summary": "Headlines: USD/JPY jumps to 157 after BOJ rate hike as dovish dissents weigh on yen BOJ governor Ueda says will continue to tighten policy in response to economic, price developments BOJ governor Ueda says spring wage talks key to judging inflation trend ECB president Lagarde pushes back on automati",
-      "published": "18 Sep 2026 19:07 WIB",
-      "sentiment": "Bullish",
-      "score": 0.098,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Yuan Tiongkok: Dukungan pra-KTT dan bias yang lebih kuat – DBS",
-      "url": "https://www.fxstreet.com/news/chinese-yuan-pre-summit-support-and-firmer-bias-dbs-202609182112",
-      "summary": "Chang Wei Liang at DBS Group Research highlights that USD/CNH is easing toward 6.70 despite a stronger Dollar, with the Renminbi (RMB) supported by a lower USD/CNY fixing below 6.76.",
-      "published": "19 Sep 2026 04:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.204,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Emas mendapatkan kembali pijakannya karena penurunan harga minyak meredam kejutan dari Fed",
-      "url": "https://www.fxstreet.com/news/gold-reclaims-its-footing-as-oil-retreat-blunts-fed-shock-202609181744",
-      "summary": "Gold (XAU/USD) price extends its gains on Friday, edging up 0.89% as Oil prices eased despite renewed concerns of supply shortages and despite a week that featured a rate hike by the Federal Reserve (Fed), which pushed the yellow metal to a nearly two-month low of $4,235.",
-      "published": "19 Sep 2026 00:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.5,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gubernur Cox Mengatakan Masyarakat Amerika Membutuhkan Konflik yang Lebih Sehat",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-19/governor-cox-says-americans-need-healthier-conflict-video",
-      "summary": "Utah Governor Spencer Cox joins Bloomberg This Weekend and argues Americans need more substantive disagreement without the contempt he says is fueling polarization, damaged relationships and political violence. In his new book, Off Ramp, Cox calls for healthier political conflict and stronger local ",
-      "published": "19 Sep 2026 22:04 WIB",
+      "title": "Mnuchin Melihat Peluang Jangka Panjang di Timur Tengah",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-20/mnuchin-sees-long-term-opportunity-in-middle-east-video",
+      "summary": "Former US Treasury Secretary Steven Mnuchin says Middle East investment faces short-term uncertainty from the Iran conflict but argues the region remains attractive over the longer term. Mnuchin called for strict enforcement of sanctions on Iran, including potential action against Chinese banks, whi",
+      "published": "20 Sep 2026 21:07 WIB",
       "sentiment": "Bearish",
-      "score": -0.839,
+      "score": -0.208,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Qatar Berusaha Menjembatani Kesenjangan dalam Pembicaraan AS dengan Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-20/qatar-works-to-bridge-gap-in-us-iran-talks-video",
+      "summary": "Qatar’s Foreign Ministry spokesperson Majed Al-Ansari says mediators are shuttling between capitals and exchanging proposals in an effort to restart negotiations between the US and Iran, with teams working around the clock to bridge remaining differences. Joining Bloomberg This Weekend, Al-Ansari sa",
+      "published": "20 Sep 2026 20:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.545,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Harga Solar Terus Menekan Fed dan Pasar",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-19/diesel-prices-keep-pressure-on-fed-and-markets-video",
-      "summary": "The Federal Reserve unanimously raised its benchmark rate by a quarter point as policymakers confront inflation that remains above target and uncertainty tied to geopolitical developments. Merrill and Bank of America Head of CIO Market Strategy Joe Quinlan tells Bloomberg This Weekend hosts David Gu",
-      "published": "19 Sep 2026 20:40 WIB",
+      "title": "Marks Oaktree Mengatakan Dia Menginginkan Bank Sentral yang Kurang Aktivis",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-20/oaktree-s-marks-wants-a-less-activist-central-bank-in-warsh-era",
+      "summary": "Howard Marks, co-chair of Oaktree Capital Management, said he prefers less communication from the Federal Reserve as Chair Kevin Warsh seeks to works to curtail some guidance that he’s said has hamstrung the central bank in recent years.",
+      "published": "20 Sep 2026 19:46 WIB",
       "sentiment": "Bearish",
-      "score": -0.477,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kesepakatan Greenland AS Mengalihkan Fokus ke Investasi",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-19/us-greenland-deal-shifts-focus-to-investment-video",
-      "summary": "A new security agreement between the US, Denmark and Greenland would expand the American military role while preserving Greenlandic sovereignty, shifting attention toward potential US investment in mining, infrastructure and tourism. Former US diplomat Lewis Lukens tells David Gura and Christina Ruf",
-      "published": "19 Sep 2026 20:29 WIB",
-      "sentiment": "Bullish",
-      "score": 0.306,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pembicaraan PBB Menawarkan Pembukaan Baru dalam Perang Iran",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-19/un-talks-offer-a-new-opening-on-iran-war-video",
-      "summary": "World leaders head to the UN General Assembly as Gulf states seek renewed diplomacy to reduce attacks, restore more predictable energy flows and move the Iran war away from active conflict. Suzanne Maloney of the Brookings Institution joins David Gura and Christina Ruffini on Bloomberg This Weekend ",
-      "published": "19 Sep 2026 20:17 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Buffett Son Mengambil Kursi saat Transisi Berkshire Berakhir",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-19/buffett-son-takes-chair-as-berkshire-transition-ends-video",
-      "summary": "Warren Buffett has stepped down as Berkshire Hathaway chairman after more than six decades at the company, becoming chairman emeritus as his son Howard takes over the board and Greg Abel remains CEO. Bloomberg News Insurance Reporter Alex Rajbhandari explains that Howard Buffett, a Berkshire directo",
-      "published": "19 Sep 2026 19:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.506,
-      "emoji": "🟢",
+      "title": "CEO Marsh Mengatakan Geopolitik Mengungguli Risiko CEO",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-20/marsh-ceo-says-geopolitics-tops-ceo-risks-video",
+      "summary": "Marsh CEO & President John Doyle says geopolitical tensions and their impact on trade and supply chains are among the biggest concerns facing corporate leaders, while emerging technology is adding to cyber threats. Doyle also tells Bloomberg This Weekend hosts David Gura and Christina Ruffini that A",
+      "published": "20 Sep 2026 20:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.5,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Agen AI Menguji Batasan Pengawasan Manusia",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-19/ai-agents-test-the-limits-of-human-oversight-video",
-      "summary": "OpenAI disclosed six cases of unexpected or concerning model behavior as AI companies grapple with how to monitor increasingly autonomous agents and whether stronger independent oversight is needed. Joining David Gura on Bloomberg This Weekend, Bloomberg News AI Reporter Shirin Ghaffary explains tha",
-      "published": "19 Sep 2026 19:28 WIB",
+      "title": "Qatar Airways Bertaruh pada Pertumbuhan Armada dan Kargo",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-20/qatar-airways-bets-on-fleet-and-cargo-growth-video",
+      "summary": "Joining Bloomberg This Weekend, Qatar Airways Group CEO Hamad Ali Al-Khater says passenger demand remains resilient despite regional conflict and sharply higher jet fuel costs, with travelers booking closer to departure and the carrier shifting capacity toward its most profitable routes. The airline",
+      "published": "20 Sep 2026 19:39 WIB",
       "sentiment": "Bullish",
       "score": 0.66,
       "emoji": "🟢",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "JPMorgan Tidak Melihat Akhir Yang Jelas untuk Pasar Minyak",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-19/jpmorgan-sees-no-clear-endgame-for-oil-markets-video",
-      "summary": "An attack on Saudi Arabia’s East-West pipeline has disrupted a crucial route around the Strait of Hormuz, threatening crude deliveries to Europe and adding pressure to already tight diesel markets. On Bloomberg This Weekend, Bloomberg Economics Statecraft Lead Chris Kennedy discusses how JPMorgan sa",
-      "published": "19 Sep 2026 19:11 WIB",
+      "title": "Konflik Global Mempengaruhi Pertemuan PBB yang Beresiko Tinggi",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-20/global-conflicts-shape-high-stakes-un-meetings-video",
+      "summary": "World leaders are gathering in New York for the UN General Assembly as escalating Middle East tensions, the war in Ukraine and pressure on global energy supplies dominate the diplomatic agenda. Bloomberg News managing editor for European economy & government Ben Sills and CNN senior national securit",
+      "published": "20 Sep 2026 19:30 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.975,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Investor negara berkembang lebih memilih obligasi lokal karena utang dolar melemah",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-20/em-investors-are-favoring-local-bonds-as-dollar-debt-lags",
+      "summary": "Emerging-market investors are for now sticking with local-currency sovereign debt as surging Treasury yields dim the appeal of dollar-denominated developing-nation bonds.",
+      "published": "20 Sep 2026 19:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.178,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump mengatakan lengkungan kemenangan yang direncanakannya akan berfungsi ganda sebagai kompleks militer untuk menyimpan amunisi",
+      "url": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump said the updated plans were at the request of the US military and for national security purposes.",
+      "published": "20 Sep 2026 20:50 WIB",
+      "sentiment": "Bullish",
+      "score": 0.66,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -216,6 +161,17 @@
       "published": "20 Sep 2026 06:49 WIB",
       "sentiment": "Bearish",
       "score": -0.208,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Kekayaan budaya dihancurkan di seluruh dunia – jadi mengapa tidak ada seorang pun yang dihukum?",
+      "url": "https://www.bbc.co.uk/news/articles/cvgy1q2k2z0o?at_medium=RSS&at_campaign=rss",
+      "summary": "A cauldron of conflicts is bubbling across the world, with cultural monuments being destroyed. These people are fighting against it.",
+      "published": "20 Sep 2026 06:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.893,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -232,17 +188,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Kekayaan budaya dihancurkan oleh perang, dan masyarakat menginginkan keadilan",
-      "url": "https://www.bbc.co.uk/news/articles/cvgy1q2k2z0o?at_medium=RSS&at_campaign=rss",
-      "summary": "A cauldron of conflicts is bubbling across the world, with cultural monuments being destroyed. These people are fighting against it.",
-      "published": "20 Sep 2026 06:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.916,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
       "title": "Trump mengatakan AS akan membentuk 'AI Force' dan menunjuk raja kecerdasan buatan",
       "url": "https://www.bbc.co.uk/news/articles/cqlykr2vrv04o?at_medium=RSS&at_campaign=rss",
       "summary": "The president said his administration \"will not in any way hinder or stifle the growth\" amid amid warnings about the emergent technology.",
@@ -250,17 +195,6 @@
       "sentiment": "Bullish",
       "score": 0.542,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Trump menandatangani rancangan undang-undang sanksi terhadap Rusia",
-      "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss",
-      "summary": "The bill is named after the late Senator Lindsey Graham, a staunch advocate of aid for Ukraine.",
-      "published": "19 Sep 2026 05:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -276,17 +210,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Sedikitnya 21 orang tewas setelah kendaraan bermuatan bahan peledak menabrak masjid di Pakistan",
-      "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
-      "summary": "A four-year-old child is among those killed in the attack, during which gunmen also opened fire on a police facility.",
-      "published": "19 Sep 2026 03:17 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
       "title": "Tidak semua pekerja AI berpendapat bahwa teknologi ini dapat membunuh semua orang",
       "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
       "summary": "In text exchanges and conversations, multiple people who have worked for leading companies are sceptical of the warnings.",
@@ -297,129 +220,63 @@
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "Peringatan empat menit saja tidak cukup: taktik rudal baru Rusia yang tiada henti menguras tenaga warga Kyiv",
-      "url": "https://www.bbc.co.uk/news/articles/cwp93k9gpnv1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Increasingly frequent and ferocious attacks on the Ukrainian capital have left many on edge.",
-      "published": "19 Sep 2026 06:03 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC Business",
-      "title": "Warren Buffett mundur setelah enam dekade di Berkshire - 'Ayah Waktu selalu menang'",
-      "url": "https://www.bbc.co.uk/news/articles/cvj64dl1w6yno?at_medium=RSS&at_campaign=rss",
-      "summary": "Since taking control in 1965, Buffett grew a struggling textile mill into a global conglomerate.",
-      "published": "19 Sep 2026 00:15 WIB",
-      "sentiment": "Bullish",
-      "score": 0.146,
-      "emoji": "🟢",
+      "title": "Ed Davey menyerukan pemotongan 10p untuk biaya bahan bakar segera",
+      "url": "https://www.bbc.co.uk/news/articles/cr89j514dly2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Sir Ed blamed Donald Trump's war with Iran for damaging the UK economy and pushing fuel prices up.",
+      "published": "20 Sep 2026 21:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.988,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Davey mengatakan Lib Dems adalah 'firewall terhadap Farage' saat konferensi dimulai",
-      "url": "https://www.bbc.co.uk/news/articles/cq8jdkmgn7n1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Lib Dem leader Ed Davey claimed the party was aiming to beat its 2024 record of 72 MPs in any snap election.",
-      "published": "20 Sep 2026 01:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.562,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Michael Marra diumumkan sebagai pemimpin Partai Buruh Skotlandia yang baru",
-      "url": "https://www.bbc.co.uk/news/articles/cvrl64773g58o?at_medium=RSS&at_campaign=rss",
-      "summary": "Anas Sarwar's replacement has been announced as the MSP for the North East region.",
-      "published": "19 Sep 2026 17:59 WIB",
+      "title": "Narkoba baru yang mematikan membuat perjuangan Skotlandia melawan kecanduan semakin sulit",
+      "url": "https://www.bbc.co.uk/news/articles/c39w4n07ekeno?at_medium=RSS&at_campaign=rss",
+      "summary": "Experts warn potent new substances are making an already deadly crisis more dangerous.",
+      "published": "20 Sep 2026 15:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.968,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Turkiye mendukung keamanan Arab Saudi di tengah meningkatnya serangan Houthi: FM",
-      "url": "https://www.aljazeera.com/news/2026/9/19/turkiye-backs-saudi-arabias-security-amid-escalating-houthi-attacks-fm?traffic_source=rss",
-      "summary": "Turkish FM highlights Turkiye's readiness to assist Saudi Arabia militarily, as Houthi attacks intensify in Yemen.",
-      "published": "20 Sep 2026 06:18 WIB",
+      "title": "Apa yang melatarbelakangi dorongan pemerintah Iran untuk melakukan kampanye mobilisasi massal?",
+      "url": "https://www.aljazeera.com/economy/2026/9/20/whats-behind-iranian-authorities-push-for-a-mass-mobilisation-campaign?traffic_source=rss",
+      "summary": "Iran has launched a major mobilisation drive, sparking fears of renewed conflict with the US.",
+      "published": "20 Sep 2026 20:47 WIB",
       "sentiment": "Bearish",
-      "score": -0.462,
+      "score": -0.637,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Koalisi pimpinan Saudi mengatakan pertahanannya mencegat rudal Houthi yang ditembakkan ke Riyadh",
-      "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
-      "summary": "This was the first time an alert was sounded in Riyadh since an escalation between the Houthis in Yemen and the Saudis.",
-      "published": "20 Sep 2026 05:03 WIB",
+      "title": "Apa syarat terkini Iran untuk mengakhiri perangnya dengan AS?",
+      "url": "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us?traffic_source=rss",
+      "summary": "Iran's latest stipulations come as growing regional escalation causes oil prices to cross $100 per barrel.",
+      "published": "20 Sep 2026 18:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.542,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Presiden Israel mengampuni tentara yang membunuh warga Palestina yang terluka pada tahun 2016",
-      "url": "https://www.aljazeera.com/news/2026/9/19/israels-president-pardons-soldier-who-killed-wounded-palestinian-in-2016?traffic_source=rss",
-      "summary": "Elor Azaria had shot a Palestinian who had already been incapacitated by Israeli troops, in controversial case.",
-      "published": "20 Sep 2026 03:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.791,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Hegseth memulai 'Send Me Tour' di tengah reaksi perang Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/hegseth-kicks-off-send-me-tour-amid-iran-war-backlash?traffic_source=rss",
-      "summary": "US Secretary of Defence Pete Hegseth has kicked off his ‘Send Me Tour’ in Texas amid Iran war backlash.",
-      "published": "20 Sep 2026 03:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.893,
+      "score": -0.654,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Denmark mengatakan kesepakatan AS yang ‘mengikat’ mengenai Greenland tidak akan membahayakan kedaulatan",
-      "url": "https://www.aljazeera.com/news/2026/9/19/denmark-says-binding-us-deal-on-greenland-wont-compromise-sovereignty?traffic_source=rss",
-      "summary": "Trump has wanted a foothold in Greenland for some time, as a strategic battle unfolds for supremacy in warming Arctic.",
-      "published": "20 Sep 2026 03:03 WIB",
+      "source": "MarketWatch",
+      "title": "Rekor harga solar memperlihatkan kelemahan di pasar saham dan perekonomian",
+      "url": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
+      "summary": "A major risks now is that diesel prices stay high — and continue to put upward pressure on inflation.",
+      "published": "20 Sep 2026 20:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.202,
+      "score": -0.716,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Warga Kanada menyambut baik usulan ‘keanggotaan asosiasi’ UE",
-      "url": "https://www.aljazeera.com/news/2026/9/19/canadians-warm-to-eu-associate-membership-proposal?traffic_source=rss",
-      "summary": "From work and study to trade, Canadians see new possibilities in closer ties with the European Union.",
-      "published": "20 Sep 2026 02:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.146,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Krisis pengungsi Djibouti memburuk ketika lebih dari 2.700 warga Yaman tiba",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/djibouti-refugee-crisis-worsens-as-more-than-2700-yemenis-arrive?traffic_source=rss",
-      "summary": "More than 2,700 Yemenis have fled to Djibouti, many making dangerous sea crossings to escape the conflict.",
-      "published": "19 Sep 2026 22:31 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "CNBC Forex",
-      "title": "Buffett mengambil langkah berikutnya dalam rencana untuk menjaga agar Berkshire tidak tersesat",
+      "title": "Buffett mengambil langkah selanjutnya dalam rencana untuk menjaga agar Berkshire tidak tersesat",
       "url": "https://www.cnbc.com/2026/09/19/warren-buffett-takes-next-step-in-plan-to-keep-berkshire-from-straying.html",
       "summary": "Warren Buffett steps down as Berkshire Hathaway's chairman, passing the job to his son, Howard.",
       "published": "19 Sep 2026 19:43 WIB",
@@ -429,37 +286,26 @@
       "impact": "high"
     },
     {
-      "source": "CNBC Forex",
-      "title": "Tiga kata dari Kevin Warsh membuat Wall Street bertanya-tanya seberapa jauh The Fed akan menaikkan suku bunganya",
-      "url": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
-      "summary": "The chairman both explained this week's decision to raise interest rates, and raised vexing questions about what comes next",
-      "published": "19 Sep 2026 01:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Anthropic memilih Accenture sebagai evaluator tersemat pertama yang membantu mengimplementasikan proposal perlambatan Amodei",
-      "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
-      "summary": "Anthropic and OpenAI have been under intense scrutiny after researchers warned about the potential for AI to cause catastrophic harm to humanity.",
-      "published": "19 Sep 2026 04:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Warren Buffett mengundurkan diri sebagai ketua Berkshire Hathaway: 'Waktu selalu menang'",
-      "url": "https://www.cnbc.com/2026/09/18/buffett-stepping-down-as-berkshire-chairman.html",
-      "summary": "Buffett's son Howard will replace him as chairman, as dictated by a long-standing succession plan, Berkshire said.",
-      "published": "18 Sep 2026 19:04 WIB",
+      "source": "CNBC Economy",
+      "title": "‘Mengerikan’: Bagaimana tarif, melonjaknya harga bahan bakar, dan suku bunga yang lebih tinggi menekan perusahaan-perusahaan Amerika",
+      "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
+      "summary": "Tariffs, fuel prices and interest rates are squeezing American companies, particularly manufacturers, auto suppliers, retailers and transportation businesses.",
+      "published": "20 Sep 2026 19:47 WIB",
       "sentiment": "Bullish",
-      "score": 0.591,
+      "score": 0.718,
       "emoji": "🟢",
-      "impact": "high"
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "AS mendesak warga Amerika untuk mempertimbangkan kembali perjalanan ke Timur Tengah ketika ketegangan dengan Iran meningkat",
+      "url": "https://www.cnbc.com/2026/09/20/us-middle-east-travel-warning-iran-war-hormuz.html",
+      "summary": "The State Department urged Americans to reconsider Middle East travel as Houthi attacks intensify and Iran keeps the Strait of Hormuz closed.",
+      "published": "20 Sep 2026 21:23 WIB",
+      "sentiment": "Bearish",
+      "score": -0.841,
+      "emoji": "🔴",
+      "impact": "low"
     }
   ]
 }
