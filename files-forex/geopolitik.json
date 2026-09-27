@@ -1,55 +1,55 @@
 {
-  "generated": "26 Sep 2026 22:01 WIB",
+  "generated": "27 Sep 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.274,
-      "count": 25
-    },
-    {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.283,
-      "count": 24
+      "score": -0.319,
+      "count": 23
+    },
+    {
+      "pair": "USD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.315,
+      "count": 22
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.244,
-      "count": 21
+      "score": -0.285,
+      "count": 18
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.276,
-      "count": 16
+      "score": -0.205,
+      "count": 12
     },
     {
       "pair": "AUD/USD",
-      "direction": "Netral →",
-      "score": 0.03,
-      "count": 6
+      "direction": "Tekanan Naik ▲",
+      "score": 0.207,
+      "count": 5
     },
     {
       "pair": "USD/CNY",
-      "direction": "Netral →",
-      "score": 0.03,
-      "count": 6
+      "direction": "Tekanan Naik ▲",
+      "score": 0.207,
+      "count": 5
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.414,
-      "count": 6
+      "score": -0.55,
+      "count": 4
     },
     {
-      "pair": "EUR",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.474,
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.113,
       "count": 2
     }
   ],
@@ -107,17 +107,6 @@
       "sentiment": "Bullish",
       "score": 0.919,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Fed's Williams: Persistent supply shocks are making the inflation fight harder",
-      "url": "https://investinglive.com/central-banks/fed-s-williams-persistent-supply-shocks-are-making-the-inflation-fight-harder/",
-      "summary": "New York Fed President John Williams highlighted the difficult inflation backdrop again today, warning that the Fed cannot ignore persistent supply shocks as it tries to bring inflation sustainably back to its 2% target. Williams said that the labor market is not currently a source of inflationary p",
-      "published": "25 Sep 2026 17:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.854,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -199,6 +188,28 @@
     },
     {
       "source": "Investing.com Forex",
+      "title": "Boeing flags 737 MAX software glitch affecting landing navigation feature, WSJ reports",
+      "url": "https://www.investing.com/news/stock-market-news/boeing-flags-737-max-software-glitch-affecting-landing-navigation-feature-wsj-reports-4918620",
+      "summary": "",
+      "published": "27 Sep 2026 02:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Boeing finds 737 MAX software glitch that may affect automated navigation - WSJ",
+      "url": "https://www.investing.com/news/stock-market-news/boeing-finds-737-max-software-glitch-that-may-affect-automated-navigation--wsj-4918621",
+      "summary": "",
+      "published": "27 Sep 2026 02:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
       "title": "ShinyHunters hackers expanded attacks on Oracle’s PeopleSoft, Google says",
       "url": "https://www.investing.com/news/stock-market-news/shinyhunters-hackers-expanded-attacks-on-oracles-peoplesoft-google-says-4918395",
       "summary": "",
@@ -210,7 +221,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Trump-Xi Summit Yields Coal-Buying Pledge as Tariff Talks Extend",
+      "title": "Trump-Xi Summit Yields Coal Pledge as Tariff Talks Extend",
       "url": "https://www.bloomberg.com/news/articles/2026-09-26/us-says-china-to-buy-10-million-tons-of-coal-in-2027-and-2028",
       "summary": "China agreed to import at least 10 million metric tons of coal from the US next year and again in 2028, according to the White House, in a sign of progress in easing trade frictions.",
       "published": "26 Sep 2026 11:52 WIB",
@@ -264,26 +275,26 @@
       "impact": "medium"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Ellison Pledges $9.2 Billion More in Oracle Shares for Loans",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/ellison-pledges-9-2-billion-more-in-oracle-shares-as-collateral",
-      "summary": "Larry Ellison, a key figure behind Paramount Skydance Corp.’s deal to buy Warner Bros. Discovery Inc., has pledged 67 million more shares of Oracle Corp. as collateral for personal loans than he had at the same time last year.",
-      "published": "26 Sep 2026 04:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.607,
-      "emoji": "🟢",
-      "impact": "high"
+      "source": "BBC World",
+      "title": "Republic of Ireland to wear black armbands for Israel game",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
+      "published": "27 Sep 2026 02:59 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Search for the Next Leader of the UN",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-25/search-for-the-next-leader-of-the-un-video",
-      "summary": "UN Secretary General Antonio Guterres' term ends this year, and three Security Council straw polls have provided no consensus. Guyana’s Permanent Representative to the UN Carolyn Rodrigues-Birkett is one of the top contenders. She speaks to Bloomberg Businessweek Daily about why she wants the job, a",
-      "published": "26 Sep 2026 04:33 WIB",
-      "sentiment": "Bullish",
-      "score": 0.17,
-      "emoji": "🟢",
-      "impact": "high"
+      "source": "BBC World",
+      "title": "Brazil's Lula bans online gambling ahead of presidential election",
+      "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\".",
+      "published": "26 Sep 2026 22:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.58,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -298,17 +309,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Brazil's Lula bans online gambling ahead of presidential election",
-      "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\".",
-      "published": "26 Sep 2026 10:22 WIB",
-      "sentiment": "Bearish",
-      "score": -0.58,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC World",
       "title": "US Supreme Court allows Trump to use controversial database to check voter citizenship",
       "url": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
       "summary": "Critics have questioned the reliability of the data, warning it could result in US citizens being wrongly removed from electoral rolls.",
@@ -316,28 +316,6 @@
       "sentiment": "Bearish",
       "score": -0.376,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "How fresh fighting in Tigray could spark wider conflict in Ethiopia",
-      "url": "https://www.bbc.co.uk/news/articles/c6d94wywx0ypo?at_medium=RSS&at_campaign=rss",
-      "summary": "Exploring the issues behind the escalation of tensions between the TPLF and the national army.",
-      "published": "26 Sep 2026 06:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.751,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Why an international arrest warrant didn't stop Netanyahu's US trip",
-      "url": "https://www.bbc.co.uk/news/videos/ckq633lm11jeo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC's Nada Tawfik explains why Israel's Benjamin Netanyahu was not arrested after speaking at the UN, despite an ICC arrest warrant.",
-      "published": "26 Sep 2026 01:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.393,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -353,123 +331,134 @@
     },
     {
       "source": "BBC Top Stories",
+      "title": "Faisal Islam: The two big calls the chancellor has to make ahead of the Budget",
+      "url": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&at_campaign=rss",
+      "summary": "He must consider the longevity of Iran war economic pressures and how to sustain modest optimism, writes the BBC's Faisal Islam.",
+      "published": "27 Sep 2026 06:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.402,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
       "title": "Heathrow Airport warns third runway could be delayed by four years",
       "url": "https://www.bbc.co.uk/news/articles/crx2zz401935o?at_medium=RSS&at_campaign=rss",
-      "summary": "The UK's busiest airport says it may miss the government's goal of 2035 due to planning issues.",
-      "published": "26 Sep 2026 21:03 WIB",
+      "summary": "The UK's busiest airport cautions it may miss the government target of 2035 as ministers say the deadline has \"always been ambitious\".",
+      "published": "26 Sep 2026 23:32 WIB",
       "sentiment": "Bearish",
-      "score": -0.6,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Republic of Ireland to wear black armbands for Israel game",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for Sunday's Uefa Nations League B3 game in Debrecen, Hungary, after confirming they will proceed with the fixture.",
-      "published": "26 Sep 2026 21:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Man City legal fight could spiral out of control, former Premier League club executive warns",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6d944ylqkkeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Christian Purslow's comments come after Manchester City was found guilty of dozens of financial rule charges brought by the Premier League.",
-      "published": "26 Sep 2026 18:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.831,
+      "score": -0.108,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Is Ethiopia on the verge of another civil war as fighting erupts in Tigray?",
-      "url": "https://www.aljazeera.com/news/2026/9/26/is-ethiopia-on-the-verge-of-another-civil-war-as-fighting-erupts-in-tigray?traffic_source=rss",
-      "summary": "Seven armed groups have joined forces against Abiy Ahmed’s government, bringing former enemies into the same alliance.",
-      "published": "26 Sep 2026 21:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.863,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "The intelligence war is turning against the Houthis",
-      "url": "https://www.aljazeera.com/opinions/2026/9/26/the-intelligence-war-is-turning-against-the-houthis?traffic_source=rss",
-      "summary": "Russian-Iranian intelligence helped the Houthis' offensive on the Red Sea coast. Now that system is under attack.",
-      "published": "26 Sep 2026 20:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.666,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "The media battle behind Brazil’s election",
-      "url": "https://www.aljazeera.com/video/the-listening-post/2026/9/26/the-media-battle-behind-brazils-election?traffic_source=rss",
-      "summary": "A corruption scandal, Bolsonaro’s comeback, and Trump’s influence collide as Brazil heads into elections.",
-      "published": "26 Sep 2026 20:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.7,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Manchester City face ‘drastic’ sanctions, says club’s former chairman",
-      "url": "https://www.aljazeera.com/sports/2026/9/26/man-city-face-drastic-sanctions-according-to-clubs-former-chairman?traffic_source=rss",
-      "summary": "Manchester City are understood to be ready to appeal any guilty verdict, but could face 'severe penalty' says ex-chair.",
-      "published": "26 Sep 2026 19:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.885,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mecca defence alliance chiefs meet amid Houthi attacks",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/26-09-sv-saudi-turkiye-pakistan-chiefs-riy-ks?traffic_source=rss",
-      "summary": "Defence chiefs from Saudi Arabia, Turkiye and Pakistan have been meeting in Riyadh to discuss support for Saudi Arabia.",
-      "published": "26 Sep 2026 19:48 WIB",
+      "title": "Powerful storm brings flooding, power outages to northeastern United States",
+      "url": "https://www.aljazeera.com/news/2026/9/26/powerful-storm-brings-flooding-power-outages-to-northeastern-united-states?traffic_source=rss",
+      "summary": "Authorities warn residents that extreme conditions in the region could pose risks.",
+      "published": "27 Sep 2026 05:51 WIB",
       "sentiment": "Bullish",
-      "score": 0.073,
+      "score": 0.317,
       "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Tens of thousands attend right-wing protest over Ceuta migrant crisis",
+      "url": "https://www.aljazeera.com/news/2026/9/26/tens-of-thousands-attend-right-wing-protest-over-ceuta-migrant-crisis?traffic_source=rss",
+      "summary": "Demonstrators are demanding early elections and accuse Pedro Sanchez's government of negligence.",
+      "published": "27 Sep 2026 03:21 WIB",
+      "sentiment": "Bearish",
+      "score": -0.912,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Saudi FM accuses Iran of ‘flagrant attacks’ and condemns Houthis at UNGA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/saudi-fm-accuses-iran-of-flagrant-attacks-and-condemns-houthis-at-unga?traffic_source=rss",
+      "summary": "At the UN, Saudi Arabia accused Iran of attacks across the region and called for action against the Houthis.",
+      "published": "27 Sep 2026 02:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.869,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Israel bans Arab parties from election: Who they are, why it matters",
-      "url": "https://www.aljazeera.com/news/2026/9/26/israel-bans-arab-parties-from-election-who-they-are-why-it-matters?traffic_source=rss",
-      "summary": "Israeli politicians subject to ICC arrest warrants or international sanctions remain eligible to run.",
-      "published": "26 Sep 2026 17:27 WIB",
+      "title": "Lavrov: Russia’s war in Ukraine will continue ‘through to the end’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/lavrov-russias-war-in-ukraine-will-continue-through-to-the?traffic_source=rss",
+      "summary": "Russian Foreign Minister Sergey Lavrov vowed that the objectives of Moscow’s military operation will be achieved.",
+      "published": "27 Sep 2026 02:40 WIB",
       "sentiment": "Bearish",
-      "score": -0.057,
+      "score": -0.679,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump ‘rejects’ Iran’s seven-day ceasefire proposal. What’s next?",
-      "url": "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next?traffic_source=rss",
-      "summary": "Analysts say Trump may opt to resume attacks on Iran after November midterm elections.",
-      "published": "26 Sep 2026 16:28 WIB",
+      "title": "Colombia extradites leader of armed group to US in shift towards Washington",
+      "url": "https://www.aljazeera.com/news/2026/9/26/colombia-extradites-leader-of-armed-group-to-us-in-shift-towards-washington?traffic_source=rss",
+      "summary": "Colombian President Abelardo De La Espriella has emerged as close ally the of Trump administration in South America.",
+      "published": "27 Sep 2026 02:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.44,
+      "score": -0.08,
       "emoji": "🔴",
-      "impact": "medium"
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Cuba accuses US at UN of deliberately inflicting humanitarian suffering",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/09-26-cuba-fm-unga-clip-mp4?traffic_source=rss",
+      "summary": "Cuba’s FM, Bruno Rodriguez Parrilla, has accused the US at the UN of waging an economic war against the Cuban people.",
+      "published": "27 Sep 2026 00:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.891,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iraq seeks US exemption from ban on Iranian flights",
+      "url": "https://www.aljazeera.com/news/2026/9/26/iraq-seeks-us-exemption-from-ban-on-iranian-flights?traffic_source=rss",
+      "summary": "Ali al-Zaidi government urges dialogue to de-escalate regional tensions amid US sanctions on Iranian airlines.",
+      "published": "27 Sep 2026 00:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.903,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
       "title": "Trump rejects Iran's conditional ceasefire proposal, WSJ reports, as Saudi coalition intercepts projectiles",
       "url": "https://www.cnbc.com/2026/09/26/trump-rejects-irans-conditional-ceasefire-proposal-wsj-reports.html",
       "summary": "Trump expects renewed U.S. bombing of Iran after the midterm elections, The Wall Street Journal reports, as Saudi-backed forces intercept projectiles.",
-      "published": "26 Sep 2026 19:39 WIB",
+      "published": "26 Sep 2026 22:05 WIB",
       "sentiment": "Bearish",
       "score": -0.414,
       "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
+      "url": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
+      "summary": "A federal jury awarded Taction Technology more than $5.7 billion after finding Apple infringed claims from two haptics patents. Apple plans to appeal.",
+      "published": "26 Sep 2026 23:57 WIB",
+      "sentiment": "Netral",
+      "score": -0.028,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Audemars Piguet says its Royal Pop collaboration with Swatch is breaking sales records, despite luxury watch slump and tariffs",
+      "url": "https://www.cnbc.com/2026/09/26/audemars-piguet-and-royal-pop-defy-luxury-watch-slump-and-tariffs.html",
+      "summary": "Swiss luxury watchmaker Audemars Piguet says its sales and engagement are breaking records after its risky, eye-catching Royal Pop collaboration with Swatch.",
+      "published": "26 Sep 2026 17:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.216,
+      "emoji": "🟢",
       "impact": "medium"
     },
     {
@@ -480,17 +469,6 @@
       "published": "25 Sep 2026 21:43 WIB",
       "sentiment": "Bullish",
       "score": 0.557,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Audemars Piguet says its Royal Pop collaboration with Swatch is breaking sales records, despite luxury watch slump and tariffs",
-      "url": "https://www.cnbc.com/2026/09/26/audemars-piguet-and-royal-pop-defy-luxury-watch-slump-and-tariffs.html",
-      "summary": "Swiss luxury watchmaker Audemars Piguet says its sales and engagement are breaking records after its risky, eye-catching Royal Pop collaboration with Swatch.",
-      "published": "26 Sep 2026 17:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.216,
       "emoji": "🟢",
       "impact": "medium"
     },
@@ -526,39 +504,6 @@
       "score": -0.296,
       "emoji": "🔴",
       "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Meta's 'powerful breakout' sets up a unique trading strategy, says Mike Khouw",
-      "url": "https://www.cnbc.com/2026/09/25/-metas-powerful-breakout-sets-up-a-unique-trading-strategy-says-mike-khouw.html",
-      "summary": "With a brilliant hardware funnel and an options market pricing in juicy short-term premiums, Meta looks primed for a powerful breakout into 2027.",
-      "published": "26 Sep 2026 00:57 WIB",
-      "sentiment": "Bullish",
-      "score": 0.779,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Warsh's regime change at the Fed pushes ahead – and meets resistance",
-      "url": "https://www.cnbc.com/2026/09/25/kevin-warsh-fed-interest-rates-balance-sheet.html",
-      "summary": "Fed Chairman Kevin Warsh is driving rapid change in some areas, while his emerging policy framework suggests further rate hikes remain possible.",
-      "published": "25 Sep 2026 17:30 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-      "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
-      "summary": "Markets expect the central bank will take a firmer hand on inflation. It's not that easy.",
-      "published": "25 Sep 2026 18:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.107,
-      "emoji": "🔴",
-      "impact": "high"
     }
   ]
 }

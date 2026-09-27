@@ -1,36 +1,30 @@
 {
-  "generated": "26 Sep 2026 22:01 WIB",
+  "generated": "27 Sep 2026 07:01 WIB",
   "summary": {
-    "total": 87,
-    "bullish": 41,
-    "bearish": 39,
+    "total": 71,
+    "bullish": 27,
+    "bearish": 37,
     "netral": 7,
-    "avg_score": -0.0218,
-    "overall": "Netral",
+    "avg_score": -0.0623,
+    "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Netral",
-        "score": -0.045,
-        "count": 24
+        "score": -0.016,
+        "count": 18
       },
       {
         "currency": "EUR",
         "sentiment": "Bearish",
-        "score": -0.159,
-        "count": 6
+        "score": -0.281,
+        "count": 3
       },
       {
         "currency": "JPY",
         "sentiment": "Bearish",
-        "score": -0.599,
-        "count": 4
-      },
-      {
-        "currency": "GBP",
-        "sentiment": "Bullish",
-        "score": 0.147,
-        "count": 3
+        "score": -0.88,
+        "count": 2
       },
       {
         "currency": "CAD",
@@ -49,6 +43,12 @@
         "sentiment": "Bearish",
         "score": -0.444,
         "count": 2
+      },
+      {
+        "currency": "GBP",
+        "sentiment": "Bullish",
+        "score": 0.11,
+        "count": 1
       },
       {
         "currency": "NZD",
@@ -199,61 +199,6 @@
       "published": "25 Sep 2026 19:16 WIB",
       "sentiment": "Bearish",
       "score": -0.882,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "investingLive European session wrap: Yen jumps, oil slides as bond risks linger",
-      "url": "https://investinglive.com/news/investinglive-european-session-wrap-yen-jumps-oil-slides-as-bond-risks-linger/",
-      "summary": "Headlines: USD/JPY falls below 158.00 as Takaichi says Trump flagged weak yen pressure Crude oil falls on reports of potential phased US-Iran deal that would reopen the Strait of Hormuz Trump-Xi summit extends the trade truce but leaves the biggest market questions unresolved How have interest rate ",
-      "published": "25 Sep 2026 18:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.717,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "How have interest rate expectations changed after this week's events?",
-      "url": "https://investinglive.com/central-banks/how-have-interest-rate-expectations-changed-after-this-week-s-events-4/",
-      "summary": "Rate hikes by year-end RBA: 41 bps (99% probability of rate hike at the next meeting) 2027: 65 bps Fed: 37 bps (71% probability of rate hike at the next meeting) 2027: 92 bps RBNZ: 37 bps (81% probability of rate hike at the next meeting) 2027: 125 bps BoC: 35 bps (65% probability of rate hike at th",
-      "published": "25 Sep 2026 18:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.539,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Month-end FX flows point to yen and pound selling, euro buying – BofA",
-      "url": "https://investinglive.com/orders/month-end-fx-flows-point-to-yen-and-pound-selling-euro-buying-bofa/",
-      "summary": "It is that time of the month again. We're getting the first signals on how month-end flows might shape up trading conditions next week, with BofA’s latest rebalancing model pointing to JPY and GBP outflows against EUR inflows into the September fix. As a quick refresher, BofA estimates these flows b",
-      "published": "25 Sep 2026 17:13 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Fed's Williams: Persistent supply shocks are making the inflation fight harder",
-      "url": "https://investinglive.com/central-banks/fed-s-williams-persistent-supply-shocks-are-making-the-inflation-fight-harder/",
-      "summary": "New York Fed President John Williams highlighted the difficult inflation backdrop again today, warning that the Fed cannot ignore persistent supply shocks as it tries to bring inflation sustainably back to its 2% target. Williams said that the labor market is not currently a source of inflationary p",
-      "published": "25 Sep 2026 17:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.854,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Crude oil falls on reports of potential phased US-Iran deal that would reopen the Strait of Hormuz",
-      "url": "https://investinglive.com/commodities/crude-oil-falls-on-reports-of-potential-phased-us-iran-deal-that-would-reopen-the-strait-of-hormuz/",
-      "summary": "FUNDAMENTAL OVERVIEW Crude oil fell yesterday after reports of US and Iran discussing a phased deal to reopen the Strait of Hormuz and end the US blockade. Iran has put an offer on the table, promising to reopen the Strait of Hormuz within seven days if the US meets its terms. Iran's Foreign Ministe",
-      "published": "25 Sep 2026 17:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.649,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -435,17 +380,6 @@
     },
     {
       "source": "FXStreet News",
-      "title": "Gold struggles below $4,300, heads for weekly decline on hawkish Fed outlook",
-      "url": "https://www.fxstreet.com/news/gold-gains-as-us-dollar-and-yields-pause-but-weekly-loss-remains-in-sight-202609251106",
-      "summary": "Gold (XAU/USD) reverses earlier intraday gains on Friday, failing to capitalize on a modest pullback in the US Dollar as growing expectations that the Federal Reserve (Fed) may raise interest rates again weigh on the non-yielding metal.",
-      "published": "25 Sep 2026 18:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.157,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
       "title": "Euro: Correction seen near key averages against US Dollar – Societe Generale",
       "url": "https://www.fxstreet.com/news/euro-correction-seen-near-key-averages-against-us-dollar-societe-generale-202609251501",
       "summary": "Societe Generale’s Morning Briefing reports EUR/USD traded between 1.1359 and 1.1387 overnight and is on course for a second weekly drop. The defence of the 100‑week moving average at 1.1356 and oversold technicals suggest the correction may have run its course for now.",
@@ -453,6 +387,72 @@
       "sentiment": "Bearish",
       "score": -0.098,
       "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "US to finalize sharply lower vehicle fuel economy standards",
+      "url": "https://www.investing.com/news/stock-market-news/trump-says-he-approved-fuel-economy-standards-ending-biden-ev-mandate-4918626",
+      "summary": "",
+      "published": "27 Sep 2026 04:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4918646",
+      "summary": "",
+      "published": "27 Sep 2026 04:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Boeing flags 737 MAX software glitch affecting landing navigation feature, WSJ reports",
+      "url": "https://www.investing.com/news/stock-market-news/boeing-flags-737-max-software-glitch-affecting-landing-navigation-feature-wsj-reports-4918620",
+      "summary": "",
+      "published": "27 Sep 2026 02:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Boeing finds 737 MAX software glitch that may affect automated navigation - WSJ",
+      "url": "https://www.investing.com/news/stock-market-news/boeing-finds-737-max-software-glitch-that-may-affect-automated-navigation--wsj-4918621",
+      "summary": "",
+      "published": "27 Sep 2026 02:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Is River Cruise at long term risk from climate change?",
+      "url": "https://www.investing.com/news/stock-market-news/is-river-cruise-at-long-term-risk-from-climate-change-4918601",
+      "summary": "",
+      "published": "26 Sep 2026 23:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.353,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Aramco weighs standalone gas unit with potential $100 bln valuation - Bloomberg",
+      "url": "https://www.investing.com/news/stock-market-news/aramco-weighs-standalone-gas-unit-with-potential-100-bln-valuation--bloomberg-4918599",
+      "summary": "",
+      "published": "26 Sep 2026 22:41 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -500,96 +500,19 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "BofA explains how telecom companies can evolve to be AI winners",
-      "url": "https://www.investing.com/news/stock-market-news/bofa-explains-how-telecom-companies-can-evolve-to-be-ai-winners-4918374",
-      "summary": "",
-      "published": "26 Sep 2026 08:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "TV networks resume covering White House as press access fight continues",
-      "url": "https://www.investing.com/news/stock-market-news/tv-networks-to-resume-coverage-of-trump-events-cnn-says-4917665",
-      "summary": "",
-      "published": "26 Sep 2026 08:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.382,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "New Jersey’s lieutenant governor resigns amid sexual harassment findings",
-      "url": "https://www.investing.com/news/stock-market-news/new-jerseys-lieutenant-governor-resigns-amid-sexual-harassment-findings-4918114",
-      "summary": "",
-      "published": "26 Sep 2026 08:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.7,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Morgan Stanley public finance co-head Zach Solomon leaves for TD - Bloomberg",
-      "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-public-finance-cohead-zach-solomon-leaves-for-td--bloomberg-4918353",
-      "summary": "",
-      "published": "26 Sep 2026 07:43 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Bangladesh Targets Up to $1 Billion in Debut Sovereign Bond Sale",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-26/bangladesh-targets-up-to-1-billion-in-debut-sovereign-bond-sale",
+      "summary": "Bangladesh is preparing to raise between $500 million and $1 billion through its maiden foreign-currency sovereign bond sale within the next three months, a senior government official said.",
+      "published": "27 Sep 2026 01:21 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Trump, Xi end summit with tea, tour of US archives - and little sign of progress",
-      "url": "https://www.investing.com/news/stock-market-news/trump-to-wrap-up-xi-summit-with-a-tour-of-us-archives-4916620",
-      "summary": "",
-      "published": "26 Sep 2026 07:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.369,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Exclusive-SK Hynix’s Solidigm weighs IPO that could value the unit at up to $150 billion, sources say",
-      "url": "https://www.investing.com/news/stock-market-news/exclusivesk-hynixs-solidigm-weighs-ipo-that-could-value-theunit-at-up-to-150-billion-sources-say-4917883",
-      "summary": "",
-      "published": "26 Sep 2026 07:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.34,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "Bank of England’s Bailey sees AI as positive supply shock",
-      "url": "https://www.investing.com/news/economic-indicators/bank-of-englands-bailey-sees-ai-as-positive-supply-shock-93CH-4917060",
-      "summary": "",
-      "published": "25 Sep 2026 17:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.25,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Economy",
-      "title": "Spain Q2 GDP holds at 0.7% q/q as domestic demand drives growth",
-      "url": "https://www.investing.com/news/economic-indicators/spain-q2-gdp-holds-at-07-qq-as-domestic-demand-drives-growth-93CH-4916792",
-      "summary": "",
-      "published": "25 Sep 2026 14:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.353,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Trump-Xi Summit Yields Coal-Buying Pledge as Tariff Talks Extend",
+      "title": "Trump-Xi Summit Yields Coal Pledge as Tariff Talks Extend",
       "url": "https://www.bloomberg.com/news/articles/2026-09-26/us-says-china-to-buy-10-million-tons-of-coal-in-2027-and-2028",
       "summary": "China agreed to import at least 10 million metric tons of coal from the US next year and again in 2028, according to the White House, in a sign of progress in easing trade frictions.",
       "published": "26 Sep 2026 11:52 WIB",
@@ -611,7 +534,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "McDonald’s Sell-Off Hits 30% as Big Mac Inflation Spurs Pushback",
+      "title": "McDonald’s Selloff Hits 30% as Big Mac Inflation Spurs Pushback",
       "url": "https://www.bloomberg.com/news/articles/2026-09-26/mcdonald-s-sell-off-hits-30-as-big-mac-inflation-spurs-pushback",
       "summary": "McDonald’s Corp. faces a key challenge as it fights to reinvigorate a sagging stock price: Winning back the cost-conscious diners who believe its menu has become too expensive.",
       "published": "26 Sep 2026 20:00 WIB",
@@ -654,28 +577,6 @@
       "impact": "medium"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Ellison Pledges $9.2 Billion More in Oracle Shares for Loans",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/ellison-pledges-9-2-billion-more-in-oracle-shares-as-collateral",
-      "summary": "Larry Ellison, a key figure behind Paramount Skydance Corp.’s deal to buy Warner Bros. Discovery Inc., has pledged 67 million more shares of Oracle Corp. as collateral for personal loans than he had at the same time last year.",
-      "published": "26 Sep 2026 04:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.607,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Search for the Next Leader of the UN",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-25/search-for-the-next-leader-of-the-un-video",
-      "summary": "UN Secretary General Antonio Guterres' term ends this year, and three Security Council straw polls have provided no consensus. Guyana’s Permanent Representative to the UN Carolyn Rodrigues-Birkett is one of the top contenders. She speaks to Bloomberg Businessweek Daily about why she wants the job, a",
-      "published": "26 Sep 2026 04:33 WIB",
-      "sentiment": "Bullish",
-      "score": 0.17,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "Google News Forex",
       "title": "The Fiscal-Monetary Alignment: How Indonesia Avoids The Emerging Market Policy Trap - OpEd - Eurasia Review",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSHdEemNjMXdjc01WbGF0VVJsaDR1WkxtcmdFWVVfS0IxcmhlYjdQTndDV3dqN1ZjY0dwNXlJY2ZUQXlBVHJuVXN3ZEttY252Z3N5ZUlXQ3NmWVpNMGdsT2hJR0NFeWdwWWNmT0Fvbk95Y05ra0hYa2RIU3JEaC1xRDZyc2IySGFnR2xSS0s1YlRvV3RHTDBIeXhyNUxONkI5SGxjT1JWOHZhQXp3b3MzQjdNUXJ1dXpVUlc4T0c0R0t6UE9KY2c?oc=5",
@@ -687,15 +588,26 @@
       "impact": "low"
     },
     {
-      "source": "Google News Forex",
-      "title": "The Fed Raises Interest Rates: Implications for the Global Economy - Kompas.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY3M3WkxkMTM3dDdKd20yXzRPTUNHRFhudXZZYmJpWG4tZ0d5OHppRTNBUlhfSGtLRUhFRFpfV0pEOHo3czcwUDd1NW5GRFhiNHM1Ynhoc0oxTkNTNWhEYlJUejVZSjlBSFZDRkFlTEpKd29jM21SZ1cycktka1U1cFc2ekJnUlVqR1JzYjRmTDViaGJoYnEzV2ZkM3AydVIxZHh1Rmp2UEZZVmx4MHlZeTJWSQ?oc=5",
-      "summary": "The Fed Raises Interest Rates: Implications for the Global Economy Kompas.com",
-      "published": "25 Sep 2026 21:32 WIB",
-      "sentiment": "Bullish",
-      "score": 0.718,
-      "emoji": "🟢",
+      "source": "BBC World",
+      "title": "Republic of Ireland to wear black armbands for Israel game",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
+      "published": "27 Sep 2026 02:59 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Brazil's Lula bans online gambling ahead of presidential election",
+      "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\".",
+      "published": "26 Sep 2026 22:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.58,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -710,17 +622,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Brazil's Lula bans online gambling ahead of presidential election",
-      "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\".",
-      "published": "26 Sep 2026 10:22 WIB",
-      "sentiment": "Bearish",
-      "score": -0.58,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC World",
       "title": "US Supreme Court allows Trump to use controversial database to check voter citizenship",
       "url": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
       "summary": "Critics have questioned the reliability of the data, warning it could result in US citizens being wrongly removed from electoral rolls.",
@@ -728,39 +629,6 @@
       "sentiment": "Bearish",
       "score": -0.376,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "What is kratom, the 'gas station heroin' alarming officials in the US?",
-      "url": "https://www.bbc.co.uk/news/articles/cjn5ddzekwnro?at_medium=RSS&at_campaign=rss",
-      "summary": "Kratom, found during an investigation into the deaths of two college students, has been sold in the US for around a decade.",
-      "published": "26 Sep 2026 03:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.572,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "How fresh fighting in Tigray could spark wider conflict in Ethiopia",
-      "url": "https://www.bbc.co.uk/news/articles/c6d94wywx0ypo?at_medium=RSS&at_campaign=rss",
-      "summary": "Exploring the issues behind the escalation of tensions between the TPLF and the national army.",
-      "published": "26 Sep 2026 06:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.751,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Why an international arrest warrant didn't stop Netanyahu's US trip",
-      "url": "https://www.bbc.co.uk/news/videos/ckq633lm11jeo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC's Nada Tawfik explains why Israel's Benjamin Netanyahu was not arrested after speaking at the UN, despite an ICC arrest warrant.",
-      "published": "26 Sep 2026 01:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.393,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -775,157 +643,157 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "We ship our gym equipment all over the world",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgywjxv14po?at_medium=RSS&at_campaign=rss",
-      "summary": "Northern Ireland's economic output, which is broadly equivalent to UK GDP, rose by 2.3% in the year to June.",
-      "published": "25 Sep 2026 12:24 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "BBC Top Stories",
+      "title": "Faisal Islam: The two big calls the chancellor has to make ahead of the Budget",
+      "url": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&at_campaign=rss",
+      "summary": "He must consider the longevity of Iran war economic pressures and how to sustain modest optimism, writes the BBC's Faisal Islam.",
+      "published": "27 Sep 2026 06:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.402,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC Top Stories",
       "title": "Heathrow Airport warns third runway could be delayed by four years",
       "url": "https://www.bbc.co.uk/news/articles/crx2zz401935o?at_medium=RSS&at_campaign=rss",
-      "summary": "The UK's busiest airport says it may miss the government's goal of 2035 due to planning issues.",
-      "published": "26 Sep 2026 21:03 WIB",
+      "summary": "The UK's busiest airport cautions it may miss the government target of 2035 as ministers say the deadline has \"always been ambitious\".",
+      "published": "26 Sep 2026 23:32 WIB",
       "sentiment": "Bearish",
-      "score": -0.6,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Republic of Ireland to wear black armbands for Israel game",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for Sunday's Uefa Nations League B3 game in Debrecen, Hungary, after confirming they will proceed with the fixture.",
-      "published": "26 Sep 2026 21:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Man City legal fight could spiral out of control, former Premier League club executive warns",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6d944ylqkkeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Christian Purslow's comments come after Manchester City was found guilty of dozens of financial rule charges brought by the Premier League.",
-      "published": "26 Sep 2026 18:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.831,
+      "score": -0.108,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Russell edges out Verstappen to win in Baku, Antonelli settles for fifth",
-      "url": "https://www.aljazeera.com/sports/2026/9/26/russell-edges-out-verstappen-to-win-in-baku-antonelli-settles-for-fifth?traffic_source=rss",
-      "summary": "George Russell wins Azerbaijan Grand Prix for eighth career F1 victory and first since the Austrian GP in June.",
-      "published": "26 Sep 2026 21:17 WIB",
+      "title": "Powerful storm brings flooding, power outages to northeastern United States",
+      "url": "https://www.aljazeera.com/news/2026/9/26/powerful-storm-brings-flooding-power-outages-to-northeastern-united-states?traffic_source=rss",
+      "summary": "Authorities warn residents that extreme conditions in the region could pose risks.",
+      "published": "27 Sep 2026 05:51 WIB",
       "sentiment": "Bullish",
-      "score": 0.888,
+      "score": 0.317,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Is Ethiopia on the verge of another civil war as fighting erupts in Tigray?",
-      "url": "https://www.aljazeera.com/news/2026/9/26/is-ethiopia-on-the-verge-of-another-civil-war-as-fighting-erupts-in-tigray?traffic_source=rss",
-      "summary": "Seven armed groups have joined forces against Abiy Ahmed’s government, bringing former enemies into the same alliance.",
-      "published": "26 Sep 2026 21:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.863,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "The intelligence war is turning against the Houthis",
-      "url": "https://www.aljazeera.com/opinions/2026/9/26/the-intelligence-war-is-turning-against-the-houthis?traffic_source=rss",
-      "summary": "Russian-Iranian intelligence helped the Houthis' offensive on the Red Sea coast. Now that system is under attack.",
-      "published": "26 Sep 2026 20:29 WIB",
+      "title": "Tens of thousands attend right-wing protest over Ceuta migrant crisis",
+      "url": "https://www.aljazeera.com/news/2026/9/26/tens-of-thousands-attend-right-wing-protest-over-ceuta-migrant-crisis?traffic_source=rss",
+      "summary": "Demonstrators are demanding early elections and accuse Pedro Sanchez's government of negligence.",
+      "published": "27 Sep 2026 03:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.666,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "The media battle behind Brazil’s election",
-      "url": "https://www.aljazeera.com/video/the-listening-post/2026/9/26/the-media-battle-behind-brazils-election?traffic_source=rss",
-      "summary": "A corruption scandal, Bolsonaro’s comeback, and Trump’s influence collide as Brazil heads into elections.",
-      "published": "26 Sep 2026 20:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.7,
+      "score": -0.912,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "Manchester City face ‘drastic’ sanctions, says club’s former chairman",
-      "url": "https://www.aljazeera.com/sports/2026/9/26/man-city-face-drastic-sanctions-according-to-clubs-former-chairman?traffic_source=rss",
-      "summary": "Manchester City are understood to be ready to appeal any guilty verdict, but could face 'severe penalty' says ex-chair.",
-      "published": "26 Sep 2026 19:59 WIB",
+      "title": "Saudi FM accuses Iran of ‘flagrant attacks’ and condemns Houthis at UNGA",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/saudi-fm-accuses-iran-of-flagrant-attacks-and-condemns-houthis-at-unga?traffic_source=rss",
+      "summary": "At the UN, Saudi Arabia accused Iran of attacks across the region and called for action against the Houthis.",
+      "published": "27 Sep 2026 02:43 WIB",
       "sentiment": "Bearish",
-      "score": -0.885,
+      "score": -0.869,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Lavrov: Russia’s war in Ukraine will continue ‘through to the end’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/lavrov-russias-war-in-ukraine-will-continue-through-to-the?traffic_source=rss",
+      "summary": "Russian Foreign Minister Sergey Lavrov vowed that the objectives of Moscow’s military operation will be achieved.",
+      "published": "27 Sep 2026 02:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mecca defence alliance chiefs meet amid Houthi attacks",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/26-09-sv-saudi-turkiye-pakistan-chiefs-riy-ks?traffic_source=rss",
-      "summary": "Defence chiefs from Saudi Arabia, Turkiye and Pakistan have been meeting in Riyadh to discuss support for Saudi Arabia.",
-      "published": "26 Sep 2026 19:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.073,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Israel bans Arab parties from election: Who they are, why it matters",
-      "url": "https://www.aljazeera.com/news/2026/9/26/israel-bans-arab-parties-from-election-who-they-are-why-it-matters?traffic_source=rss",
-      "summary": "Israeli politicians subject to ICC arrest warrants or international sanctions remain eligible to run.",
-      "published": "26 Sep 2026 17:27 WIB",
+      "title": "Colombia extradites leader of armed group to US in shift towards Washington",
+      "url": "https://www.aljazeera.com/news/2026/9/26/colombia-extradites-leader-of-armed-group-to-us-in-shift-towards-washington?traffic_source=rss",
+      "summary": "Colombian President Abelardo De La Espriella has emerged as close ally the of Trump administration in South America.",
+      "published": "27 Sep 2026 02:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.057,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "England vs Spain: UEFA Nations League – Predictions, teams, head-to-head",
-      "url": "https://www.aljazeera.com/sports/2026/9/26/england-vs-spain-uefa-nations-league-prediction-team-news-head-to-head?traffic_source=rss",
-      "summary": "World champions Spain meet heavyweights England in a rematch of the UEFA Euro 2024 final.",
-      "published": "26 Sep 2026 16:51 WIB",
-      "sentiment": "Bullish",
-      "score": 0.527,
-      "emoji": "🟢",
-      "impact": "low"
+      "title": "Cuba accuses US at UN of deliberately inflicting humanitarian suffering",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/09-26-cuba-fm-unga-clip-mp4?traffic_source=rss",
+      "summary": "Cuba’s FM, Bruno Rodriguez Parrilla, has accused the US at the UN of waging an economic war against the Cuban people.",
+      "published": "27 Sep 2026 00:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.891,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump ‘rejects’ Iran’s seven-day ceasefire proposal. What’s next?",
-      "url": "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next?traffic_source=rss",
-      "summary": "Analysts say Trump may opt to resume attacks on Iran after November midterm elections.",
-      "published": "26 Sep 2026 16:28 WIB",
+      "title": "Iraq seeks US exemption from ban on Iranian flights",
+      "url": "https://www.aljazeera.com/news/2026/9/26/iraq-seeks-us-exemption-from-ban-on-iranian-flights?traffic_source=rss",
+      "summary": "Ali al-Zaidi government urges dialogue to de-escalate regional tensions amid US sanctions on Iranian airlines.",
+      "published": "27 Sep 2026 00:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.44,
+      "score": -0.903,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years",
+      "url": "https://www.marketwatch.com/story/from-6-eggs-to-50-000-cars-these-charts-show-how-inflation-has-defined-the-past-5-years-3c7b9ab9?mod=mw_rss_topstories",
+      "summary": "Rising prices have been crushing consumer confidence and biting at Americans’ wallets for more than five years now.",
+      "published": "27 Sep 2026 00:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.202,
+      "emoji": "🟢",
       "impact": "medium"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Choosing these AI-exposed college majors could dent your job prospects — and lower your pay",
+      "url": "https://www.marketwatch.com/story/choosing-these-ai-exposed-college-majors-could-dent-your-job-prospects-and-lower-your-pay-b80576cb?mod=mw_rss_topstories",
+      "summary": "At a time when many college students say they are rethinking their academic focus because of AI, new findings supply hard data on the potential costs of these decisions.",
+      "published": "26 Sep 2026 23:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.202,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
       "title": "Trump rejects Iran's conditional ceasefire proposal, WSJ reports, as Saudi coalition intercepts projectiles",
       "url": "https://www.cnbc.com/2026/09/26/trump-rejects-irans-conditional-ceasefire-proposal-wsj-reports.html",
       "summary": "Trump expects renewed U.S. bombing of Iran after the midterm elections, The Wall Street Journal reports, as Saudi-backed forces intercept projectiles.",
-      "published": "26 Sep 2026 19:39 WIB",
+      "published": "26 Sep 2026 22:05 WIB",
       "sentiment": "Bearish",
       "score": -0.414,
       "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
+      "url": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
+      "summary": "A federal jury awarded Taction Technology more than $5.7 billion after finding Apple infringed claims from two haptics patents. Apple plans to appeal.",
+      "published": "26 Sep 2026 23:57 WIB",
+      "sentiment": "Netral",
+      "score": -0.028,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Audemars Piguet says its Royal Pop collaboration with Swatch is breaking sales records, despite luxury watch slump and tariffs",
+      "url": "https://www.cnbc.com/2026/09/26/audemars-piguet-and-royal-pop-defy-luxury-watch-slump-and-tariffs.html",
+      "summary": "Swiss luxury watchmaker Audemars Piguet says its sales and engagement are breaking records after its risky, eye-catching Royal Pop collaboration with Swatch.",
+      "published": "26 Sep 2026 17:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.216,
+      "emoji": "🟢",
       "impact": "medium"
     },
     {
@@ -936,17 +804,6 @@
       "published": "25 Sep 2026 21:43 WIB",
       "sentiment": "Bullish",
       "score": 0.557,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Audemars Piguet says its Royal Pop collaboration with Swatch is breaking sales records, despite luxury watch slump and tariffs",
-      "url": "https://www.cnbc.com/2026/09/26/audemars-piguet-and-royal-pop-defy-luxury-watch-slump-and-tariffs.html",
-      "summary": "Swiss luxury watchmaker Audemars Piguet says its sales and engagement are breaking records after its risky, eye-catching Royal Pop collaboration with Swatch.",
-      "published": "26 Sep 2026 17:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.216,
       "emoji": "🟢",
       "impact": "medium"
     },
@@ -982,39 +839,6 @@
       "score": -0.296,
       "emoji": "🔴",
       "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Meta's 'powerful breakout' sets up a unique trading strategy, says Mike Khouw",
-      "url": "https://www.cnbc.com/2026/09/25/-metas-powerful-breakout-sets-up-a-unique-trading-strategy-says-mike-khouw.html",
-      "summary": "With a brilliant hardware funnel and an options market pricing in juicy short-term premiums, Meta looks primed for a powerful breakout into 2027.",
-      "published": "26 Sep 2026 00:57 WIB",
-      "sentiment": "Bullish",
-      "score": 0.779,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Warsh's regime change at the Fed pushes ahead – and meets resistance",
-      "url": "https://www.cnbc.com/2026/09/25/kevin-warsh-fed-interest-rates-balance-sheet.html",
-      "summary": "Fed Chairman Kevin Warsh is driving rapid change in some areas, while his emerging policy framework suggests further rate hikes remain possible.",
-      "published": "25 Sep 2026 17:30 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-      "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
-      "summary": "Markets expect the central bank will take a firmer hand on inflation. It's not that easy.",
-      "published": "25 Sep 2026 18:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.107,
-      "emoji": "🔴",
-      "impact": "high"
     }
   ]
 }
