@@ -1,5 +1,5 @@
 {
-  "generated": "27 Sep 2026 22:02 WIB",
+  "generated": "28 Sep 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,56 +7,199 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.452,
-      "count": 11
+      "score": -0.423,
+      "count": 24
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.452,
-      "count": 11
+      "score": -0.413,
+      "count": 23
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.425,
-      "count": 8
+      "score": -0.389,
+      "count": 15
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.589,
-      "count": 6
+      "score": -0.58,
+      "count": 14
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.77,
-      "count": 2
+      "score": -0.542,
+      "count": 4
     },
     {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.135,
-      "count": 2
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.135,
-      "count": 2
-    },
-    {
-      "pair": "GBP/USD",
+      "pair": "EUR",
       "direction": "Tekanan Turun ▼",
-      "score": -0.373,
-      "count": 2
+      "score": -0.364,
+      "count": 3
+    },
+    {
+      "pair": "GBP",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.364,
+      "count": 3
+    },
+    {
+      "pair": "USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.364,
+      "count": 3
     }
   ],
   "items": [
     {
+      "source": "ForexLive",
+      "title": "Anthropic CEO Amodei to attend White House dinner with Trump amid AI tensions",
+      "url": "https://investinglive.com/stocks/anthropic-ceo-amodei-to-attend-white-house-dinner-with-trump-amid-ai-tensions/",
+      "summary": "A Trump-Amodei dinner would be read in Washington and in the sector as a signal that Anthropic is seeking to repair ties with the administration after a year of legal and regulatory friction. The relationship has direct commercial stakes for the company given its ongoing dispute over Pentagon access",
+      "published": "28 Sep 2026 06:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Gold slips as oil holds gains on Hormuz standoff and inflation risk",
+      "url": "https://investinglive.com/commodities/gold-slips-as-oil-holds-gains-on-hormuz-standoff-and-inflation-risk/",
+      "summary": "Gold's slip comes as continued tension around the Strait of Hormuz keeps a bid under oil, a combination traders are reading as supportive of firmer inflation expectations and, by extension, a less dovish rate path. That dynamic tends to weigh on non-yielding bullion even during periods of heightened",
+      "published": "28 Sep 2026 06:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.242,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "BOJ July minutes preview: a hold overtaken by September's rate hike",
+      "url": "https://investinglive.com/central-banks/boj-july-minutes-preview-a-hold-overtaken-by-september-s-rate-hike/",
+      "summary": "Today's minutes are largely a formality at this point: the market has already moved past the July decision and is trading the September outcome and its aftermath. The bigger story for FX and rates is the yen's counterintuitive weakness following an actual hike, with USD/JPY pushing past 157 as the 7",
+      "published": "28 Sep 2026 05:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.501,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Oil prices have jumped higher at the opening on Globex for the new week",
+      "url": "https://investinglive.com/commodities/oil-prices-have-jumped-higher-at-the-opening-on-globex-for-the-new-week/",
+      "summary": "Globex is open for the new week. Oil has jumped after a weekend of further stalemate and the prospect of a ramp up in hostilities again: Waltz calls Iran's Hormuz proposal a cynical bid for upfront concessions Riyadh schools shift to remote learning as Houthis claim downed drone Iran holds line on d",
+      "published": "28 Sep 2026 05:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.845,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Waltz calls Iran's Hormuz proposal a cynical bid for upfront concessions",
+      "url": "https://investinglive.com/commodities/waltz-calls-iran-s-hormuz-proposal-a-cynical-bid-for-upfront-concessions/",
+      "summary": "The dispute over what exactly Iran offered, and why the US rejected it, matters more for the diplomatic timeline than for any single price move today, but it keeps the core oil market risk unresolved heading into the week: neither side is describing a deal as imminent. Waltz's framing of Iran's prop",
+      "published": "28 Sep 2026 04:48 WIB",
+      "sentiment": "Bearish",
+      "score": -0.814,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Riyadh schools shift to remote learning as Houthis claim downed drone",
+      "url": "https://investinglive.com/commodities/riyadh-schools-shift-to-remote-learning-as-houthis-claim-downed-drone/",
+      "summary": "Neither development is a direct market mover on its own, but together they add to the sense of escalating regional risk that oil markets have been pricing through the Iran conflict. A week-long, unexplained shift to remote schooling in a capital city is the kind of precautionary civil measure that t",
+      "published": "28 Sep 2026 03:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.521,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Apollo's Slok warns AI agents could trigger a bank run (\"agentic bank run\" is still a run ...)",
+      "url": "https://investinglive.com/stocks/apollo-s-slok-warns-ai-agents-could-trigger-a-bank-run-agentic-bank-run-is-still-a-run/",
+      "summary": "This is a scenario warning from Apollo's chief economist, not a live event, so the direct market impact today is limited, but the underlying rate gap it highlights is real and already priced into deposit flows. The chart Slok cites shows fintech and neobank products paying between 3.3 percent and 5 ",
+      "published": "28 Sep 2026 03:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.329,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Monday open indicative forex prices, September 28, 2026",
+      "url": "https://investinglive.com/forex/monday-open-indicative-forex-prices-september-28-2026/",
+      "summary": "No respite from news over the weekend: Iran holds line on diplomacy as Hormuz missile strike raises risk before open Not too much change from late Friday: EUR/USD 1.1388 USD/JPY 157.25 GBP/USD 1.3246 AUD/USD 0.7024 USD/CAD 1.4141 USD/CHF 0.8278 NZD/USD 0.5666 (ps. clocks in NZ went onto daylight sav",
+      "published": "28 Sep 2026 03:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.746,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran holds line on diplomacy as Hormuz missile strike raises risk before open",
+      "url": "https://investinglive.com/commodities/iran-holds-line-on-diplomacy-as-hormuz-missile-strike-raises-risk-before-open/",
+      "summary": "Oil carries the risk premium into the new week. A reported Iranian cruise missile strike on a vessel in the Strait of Hormuz, still unconfirmed by independent sources, is the kind of headline that can gap crude higher at the open regardless of how it is ultimately verified, given the volume of globa",
+      "published": "28 Sep 2026 02:54 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Middle East War updates: Trump says he expects renewed Iran talks this week",
+      "url": "https://www.fxstreet.com/news/middle-east-war-updates-trump-says-he-expects-renewed-iran-talks-this-week-202609272231",
+      "summary": "Here’s a brief recap of the key developments in the Middle East war that occurred over the weekend, which are expected to have a significant impact on markets in the upcoming week.",
+      "published": "28 Sep 2026 05:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.871,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "Bloomberg Markets",
-      "title": "Kesepakatan Paramount Warner Menguji Masa Depan Hollywood",
+      "title": "Oil Gains, Stock Futures Dip as Trump Rebuffs Iran: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/stock-market-today-dow-s-p-live-updates",
+      "summary": "Oil advanced and US equity-index futures slipped after President Donald Trump rejected Iran’s latest proposal to reopen the Strait of Hormuz, reigniting Middle East tensions that have roiled bond markets.",
+      "published": "28 Sep 2026 05:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.382,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Trump Says He’s ‘Very Seriously’ Looking at Diesel Export Ban",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/trump-says-he-s-very-seriously-looking-at-diesel-export-ban",
+      "summary": "President Donald Trump said he is still looking “very seriously” at implementing a US ban on diesel exports to combat high prices, even as others in his administration continue to focus on other possible steps.",
+      "published": "28 Sep 2026 04:55 WIB",
+      "sentiment": "Bearish",
+      "score": -0.863,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "The Bond Market Is Getting Closer to Sounding Alarm on Economy",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/the-bond-market-is-getting-closer-to-sounding-alarm-on-economy",
+      "summary": "The bond market is on the brink of signaling that a series of Federal Reserve interest-rate hikes will start shifting the narrative toward the risk that the US economy stalls out.",
+      "published": "28 Sep 2026 02:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.622,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Paramount Warner Deal Tests Hollywood’s Future",
       "url": "https://www.bloomberg.com/news/videos/2026-09-27/paramount-warner-deal-tests-hollywood-s-future-video",
       "summary": "Bloomberg entertainment reporter Lucas Shaw is on Bloomberg This Weekend examining Paramount Skydance’s acquisition of Warner Bros. Discovery and the challenge of turning two legacy media companies into a growing business as cable declines and streaming growth slows. Speaking with Lisa Mateo, Shaw s",
       "published": "27 Sep 2026 21:52 WIB",
@@ -67,7 +210,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Perundingan AS dengan Iran mencapai titik-titik penting yang lazim",
+      "title": "US Iran Talks Hit Familiar Sticking Points",
       "url": "https://www.bloomberg.com/news/videos/2026-09-27/us-iran-talks-hit-familiar-sticking-points-video",
       "summary": "Bloomberg White House correspondent and national security editor Michelle Jamrisko is on Bloomberg This Weekend discussing renewed US-Iran diplomacy after indirect talks in New York failed to overcome disagreements over sanctions, the US blockade and the Strait of Hormuz. Speaking with hosts David G",
       "published": "27 Sep 2026 21:02 WIB",
@@ -78,7 +221,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Guncangan AI hingga Minyak Meningkatkan Perdagangan Penyebaran Hedge Fund yang Populer",
+      "title": "Tremors From AI to Oil Boost Popular Hedge Fund Dispersion Trade",
       "url": "https://www.bloomberg.com/news/articles/2026-09-27/tremors-from-ai-to-oil-boost-popular-hedge-fund-dispersion-trade",
       "summary": "Wild gyrations in individual stocks on a punchy cocktail of AI euphoria and fear, a tumbling bond market and geopolitical drama bode well for a long-favored trade among hedge fund managers.",
       "published": "27 Sep 2026 21:00 WIB",
@@ -89,7 +232,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "IAEA Sebut Pengawasan Nuklir Iran Dapat Dilanjutkan Dengan Cepat",
+      "title": "IAEA Says Iran Nuclear Oversight Can Resume Fast",
       "url": "https://www.bloomberg.com/news/videos/2026-09-27/iaea-says-iran-nuclear-oversight-can-resume-fast-video",
       "summary": "IAEA Director General Rafael Mariano Grossi sat down with David Gura and said that Iran retains a significant amount of uranium enriched to 60%, while inspectors have lost access needed to verify the status of nuclear material and facilities damaged by military strikes. Grossi also says inspections ",
       "published": "27 Sep 2026 19:37 WIB",
@@ -100,7 +243,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Trump Menolak Rencana Iran untuk Membuka Kembali Hormuz",
+      "title": "Trump Rejects Iran Plan to Reopen Hormuz",
       "url": "https://www.bloomberg.com/news/videos/2026-09-27/trump-rejects-iran-plan-to-reopen-hormuz-video",
       "summary": "Bloomberg News Middle East reporter Dan Williams and Bloomberg Intelligence senior commodity strategist Mike McGlone are on Bloomberg This Weekend discussing President Donald Trump’s rejection of Iran’s latest proposal to reopen the Strait of Hormuz and restart negotiations, as the conflict continue",
       "published": "27 Sep 2026 19:31 WIB",
@@ -111,18 +254,40 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Dukungan terhadap PM Thailand Anutin Turun dalam Jajak Pendapat Terbaru karena Tekanan Meningkat",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-27/thai-pm-anutin-s-support-drops-in-latest-poll-as-pressures-rise",
-      "summary": "Public support for Thai Prime Minister Anutin Charnvirakul and his Bhumjaithai Party has plunged, according to an opinion poll, as his government confronts rising oil prices and a court ruling that may threaten its hold on power.",
-      "published": "27 Sep 2026 10:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.318,
-      "emoji": "🟢",
+      "title": "A Hockey Legend, a New Bridge, and the Trade War Tearing Neighbors Apart",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-27/the-bridge-that-epitomizes-the-us-canada-trade-war-video",
+      "summary": "After 25 years of planning and eight years of construction, the Gordie Howe Bridge finally opened between Detroit and Windsor this July. But the ceremony was attended only by Canadian officials, a sign of just how much the relationship between the two countries has deteriorated. What does it mean fo",
+      "published": "27 Sep 2026 19:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.431,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Inside Yemen's front-line city as Houthis battle for control",
+      "url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
+      "summary": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
+      "published": "28 Sep 2026 04:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "BBC World",
-      "title": "Dua penembakan massal di Afrika Selatan menyebabkan 27 orang tewas",
+      "title": "Embattled Serbian president resigns, paving way for early elections",
+      "url": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Aleksandar Vučić's administration has been dogged by prolonged protests over allegations of corruption.",
+      "published": "28 Sep 2026 03:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.494,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "Two mass shootings in South Africa leave 27 dead",
       "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
       "summary": "The two attacks hours apart come as the country struggles to stop high levels of gang-related armed violence.",
       "published": "27 Sep 2026 21:09 WIB",
@@ -133,18 +298,40 @@
     },
     {
       "source": "BBC World",
-      "title": "Republik Irlandia akan mengenakan ban lengan hitam untuk pertandingan Israel",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
-      "published": "27 Sep 2026 02:59 WIB",
+      "title": "Venezuela releases dozens of political prisoners as election calls grow",
+      "url": "https://www.bbc.co.uk/news/articles/c620lrw2xr12o?at_medium=RSS&at_campaign=rss",
+      "summary": "A slew of dissidents being released from long-term detention comes days after the nation's interim leader met the US president.",
+      "published": "27 Sep 2026 22:56 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.7,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "Switzerland rejects stricter interpretation of its neutrality",
+      "url": "https://www.bbc.co.uk/news/articles/cm750plvwy9vo?at_medium=RSS&at_campaign=rss",
+      "summary": "The initiative would have prevented the nation from imposing sanctions unless approved by the UN.",
+      "published": "27 Sep 2026 23:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.258,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+      "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+      "summary": "The foreign minister says Tehran is waiting for an official rejection of a deal, despite the US President's comments.",
+      "published": "27 Sep 2026 14:44 WIB",
+      "sentiment": "Bearish",
+      "score": -0.84,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "BBC Business",
-      "title": "Faisal Islam: Dua keputusan besar yang harus diambil rektor",
+      "title": "Faisal Islam: The two big decisions the chancellor must make",
       "url": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&at_campaign=rss",
       "summary": "He must consider the longevity of Iran war economic pressures and how to sustain modest optimism, writes the BBC's Faisal Islam.",
       "published": "27 Sep 2026 06:00 WIB",
@@ -154,107 +341,173 @@
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Menteri memperingatkan bahwa sistem kesehatan Yaman bisa runtuh di beberapa wilayah",
-      "url": "https://www.aljazeera.com/news/2026/9/27/yemens-health-system-could-collapse-in-some-areas-minister-warns?traffic_source=rss",
-      "summary": "Yemen's healthcare system may not be able to support the population as war strains resources, minister tells Al Jazeera.",
-      "published": "27 Sep 2026 21:07 WIB",
+      "source": "BBC Business",
+      "title": "Heathrow Airport warns third runway could be delayed by four years",
+      "url": "https://www.bbc.co.uk/news/articles/crx2zz401935o?at_medium=RSS&at_campaign=rss",
+      "summary": "The UK's busiest airport cautions it may miss the government target of 2035 as ministers say the deadline has \"always been ambitious\".",
+      "published": "26 Sep 2026 23:32 WIB",
       "sentiment": "Bearish",
-      "score": -0.871,
+      "score": -0.108,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Five arrested as counter-terror police investigate major incident near RAF Fairford",
+      "url": "https://www.bbc.co.uk/news/articles/cqrm99mm9l84o?at_medium=RSS&at_campaign=rss",
+      "summary": "The men have been detained on suspicion of preparation of a terrorist act after three suspicious vehicles were reported to be travelling towards the base.",
+      "published": "28 Sep 2026 03:10 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Watch: BBC reports from the front-line of an escalating war in Yemen",
+      "url": "https://www.bbc.co.uk/news/videos/crp3kgjygnkeo?at_medium=RSS&at_campaign=rss",
+      "summary": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
+      "published": "28 Sep 2026 04:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.895,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Republic of Ireland 'raised awareness worldwide' in Israel game",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6r7dy2yyx2xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Republic of Ireland head coach Heimir Hallgrimsson says his players \"raised awareness worldwide\" after they chose not to engage in pre-match formalities with Israel.",
+      "published": "28 Sep 2026 05:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.338,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Social care reform could mean big risks and big rewards for Burnham",
+      "url": "https://www.bbc.co.uk/news/articles/c8y5z63x0ykno?at_medium=RSS&at_campaign=rss",
+      "summary": "The state of the social care system in England is a topic that's made Andy Burnham angry for decades - but will his plans for reform work?",
+      "published": "27 Sep 2026 22:23 WIB",
+      "sentiment": "Bullish",
+      "score": 0.212,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Watch: At the scene of counter-terrorism operation near RAF Fairford",
+      "url": "https://www.bbc.co.uk/news/videos/cxp84gq34n9zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Five men have been arrested as counter-terrorism police lead investigation into major incident near RAF Fairford.",
+      "published": "27 Sep 2026 22:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.477,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Israeli strikes continue in southern Lebanon despite ceasefire",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/israeli-strikes-continue-in-southern-lebanon-despite-ceasefire?traffic_source=rss",
+      "summary": "An Israeli Apache helicopter struck a commercial centre near Mayfadoun in Southern Lebanon.",
+      "published": "28 Sep 2026 03:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.462,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Five arrested near UK RAF base over suspected explosives ‘terror’ plot",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/five-arrested-near-uk-raf-base-over-suspected-explosives-terror-plot?traffic_source=rss",
+      "summary": "Five men have been arrested near RAF Fairford in the UK on suspicion of explosives and terrorism offences.",
+      "published": "28 Sep 2026 03:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.949,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Atrocious’ crime: Cuban official decries possibility of US military action",
+      "url": "https://www.aljazeera.com/news/2026/9/27/atrocious-crime-cuban-official-decries-possibility-of-us-military-action?traffic_source=rss",
+      "summary": "Cuba's deputy foreign minister slams US sanctions, labelling them 'equivalent to genocide'.",
+      "published": "28 Sep 2026 03:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.622,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Smotrich dari Israel menyerukan ‘perang’ di Tepi Barat: Retorika atau ancaman nyata?",
-      "url": "https://www.aljazeera.com/news/2026/9/27/israels-smotrich-urges-war-in-west-bank-poll-rhetoric-or-real-threat?traffic_source=rss",
-      "summary": "Smotrich’s words should not be dismissed as mere election rhetoric, human rights experts and analysts warn.",
-      "published": "27 Sep 2026 21:03 WIB",
+      "title": "Serbian President Aleksandar Vucic resigns amid prolonged protests",
+      "url": "https://www.aljazeera.com/news/2026/9/27/serbian-president-aleksandar-vucic-resigns-amid-prolonged-protests?traffic_source=rss",
+      "summary": "Despite student-led protests and political unrest challenging his rule, Vucic intends to run in the snap elections.",
+      "published": "28 Sep 2026 03:29 WIB",
       "sentiment": "Bearish",
-      "score": -0.746,
+      "score": -0.234,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "‘Kesepakatan yang lebih baik’: Apa yang melatarbelakangi penolakan Trump terhadap tawaran gencatan senjata Iran?",
-      "url": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer?traffic_source=rss",
-      "summary": "Experts say Trump sees economic sanctions as key to extracting more concessions but he risks losing leverage.",
-      "published": "27 Sep 2026 20:17 WIB",
-      "sentiment": "Bearish",
-      "score": -0.887,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Demonstrasi politik memenuhi jalan-jalan di Brasil seminggu sebelum pemilu",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/political-rallies-fill-brazils-streets-a-week-before-elections?traffic_source=rss",
-      "summary": "Rival political rallies have been held in Brazil as campaigns intensify with one week to go until election day.",
-      "published": "27 Sep 2026 19:34 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
       "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "Menteri Israel Bezalel Smotrich menyerukan perang di Tepi Barat yang diduduki",
-      "url": "https://www.aljazeera.com/news/2026/9/27/israeli-minister-bezalel-smotrich-calls-for-war-in-occupied-west-bank?traffic_source=rss",
-      "summary": "Comments come as Israeli authorities announce military closure across occupied West Bank, citing Jewish holiday Sukkot.",
-      "published": "27 Sep 2026 17:01 WIB",
+      "title": "Israel revokes Dutch diplomats’ status over sanctions on settlements",
+      "url": "https://www.aljazeera.com/news/2026/9/27/israel-revokes-dutch-diplomats-status-over-sanctions-on-settlements?traffic_source=rss",
+      "summary": "Israel escalates retaliatory measures as Western sanctions target illegal West Bank settlements.",
+      "published": "28 Sep 2026 03:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.376,
+      "score": -0.637,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pesawat yang membawa delegasi militer DR Kongo jatuh",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/plane-carrying-dr-congo-military-delegation-crashes?traffic_source=rss",
-      "summary": "A plane carrying a Congolese military delegation crashed in DR Congo, killing 17 people, including four civilians.",
-      "published": "27 Sep 2026 16:44 WIB",
+      "title": "Stuck between Israeli military checkpoints",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/stuck-between-israeli-military-checkpoints?traffic_source=rss",
+      "summary": "Israeli road closures have become a part of daily life for Palestinians in the occupied West Bank.",
+      "published": "28 Sep 2026 02:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.66,
+      "score": -0.25,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Penyanyi Massive Attack ditangkap karena protes pro-Palestina di Inggris",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/massive-attack-singer-arrested-over-pro-palestine-protest-in-uk?traffic_source=rss",
-      "summary": "Massive Attack singer arrested over pro-Palestine protest in UK",
-      "published": "27 Sep 2026 15:49 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Djibouti mendesak dunia untuk membantu ketika perang Yaman mendorong masuknya pengungsi",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/djibouti-urges-world-to-help-as-yemen-war-drives-refugee-influx?traffic_source=rss",
-      "summary": "Djibouti urges world to help as Yemen war drives refugee influx",
-      "published": "27 Sep 2026 15:35 WIB",
-      "sentiment": "Bearish",
-      "score": -0.607,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "Jika dilihat lebih dekat, reli Wall Street menunjukkan retakan",
+      "title": "Look closer, and Wall Street’s rally is showing cracks",
       "url": "https://www.marketwatch.com/story/look-closer-and-wall-streets-rally-is-showing-cracks-94952048?mod=mw_rss_topstories",
       "summary": "Major stock indexes hovering near records are masking a market straining under elevated oil prices, rising Treasury yields and a Federal Reserve bracing for additional interest-rate hikes.",
       "published": "27 Sep 2026 20:00 WIB",
       "sentiment": "Netral",
-      "score": -0.048,
+      "score": 0.032,
       "emoji": "⚪",
       "impact": "high"
     },
     {
       "source": "CNBC World",
-      "title": "Boeing menandai kesalahan perangkat lunak 737 Max yang memengaruhi beberapa fungsi pendekatan otomatis",
+      "title": "Iran's foreign minister says Tehran ready for 'doomsday' war with U.S., but leaves diplomacy on the table",
+      "url": "https://www.cnbc.com/2026/09/27/iran-foreign-minister-keeps-indirect-talks-with-us-open-state-media.html",
+      "summary": "Iran's foreign minister says talks are the only way to break the deadlock, while its navy says it's analyzing data from a captured U.S. underwater drone.",
+      "published": "28 Sep 2026 01:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.666,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Oil gains over 1% as Trump rejects Iranian proposal to reopen Hormuz Strait",
+      "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html",
+      "summary": "Oil prices jumped on Monday after U.S. President Donald Trump rejected an Iranian peace proposal aimed at ending the conflict.",
+      "published": "28 Sep 2026 06:58 WIB",
+      "sentiment": "Bearish",
+      "score": -0.44,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Boeing flags 737 Max software glitch affecting some automated approach functions",
       "url": "https://www.cnbc.com/2026/09/26/boeing-737-max-navigation-software-glitch.html",
       "summary": "Boeing identified a software issue on some 737 Max aircraft that can affect automated vertical navigation functions after a missed approach.",
       "published": "27 Sep 2026 04:55 WIB",
@@ -265,7 +518,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Apple menghadapi putusan pelanggaran paten senilai $5,7 miliar atas haptics iPhone dan Apple Watch",
+      "title": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
       "url": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
       "summary": "A federal jury awarded Taction Technology more than $5.7 billion after finding Apple infringed claims from two haptics patents. Apple plans to appeal.",
       "published": "26 Sep 2026 23:57 WIB",
