@@ -1,145 +1,222 @@
 {
-  "generated": "29 Sep 2026 22:01 WIB",
+  "generated": "30 Sep 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.422,
-      "count": 24
-    },
-    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.422,
-      "count": 24
+      "score": -0.34,
+      "count": 22
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.417,
-      "count": 23
+      "score": -0.34,
+      "count": 22
     },
     {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.464,
-      "count": 4
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.344,
+      "count": 20
     },
     {
       "pair": "EUR/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.143,
+      "count": 6
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.405,
+      "count": 3
+    },
+    {
+      "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.096,
-      "count": 4
+      "score": -0.661,
+      "count": 2
     },
     {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.464,
-      "count": 4
+      "pair": "USD/CNY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.661,
+      "count": 2
     },
     {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.062,
-      "count": 3
-    },
-    {
-      "pair": "EUR",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.05,
-      "count": 3
+      "pair": "CAD/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.946,
+      "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Oil prices dip as Trump backs potential Russia sanctions relief",
-      "url": "https://investinglive.com/news/oil-prices-dip-as-trump-backs-potential-russia-sanctions-relief/",
-      "summary": "Oil prices dipped briefly after The Atlantic reported that President Trump supports a plan to exchange the release of political prisoners for sanctions relief . The initiative, led by Trump's envoy John Coale, is still in its early stages, and Trump had reportedly expressed support for the concept s",
-      "published": "29 Sep 2026 19:04 WIB",
+      "title": "Oil: OPEC+ seen holding November quotas steady at Sunday meeting, delegates say",
+      "url": "https://investinglive.com/commodities/oil-opec-seen-holding-november-quotas-steady-at-sunday-meeting-delegates-say/",
+      "summary": "A rollover is unlikely to move crude much on its own, given delegates have flagged the outcome, and the bigger price driver remains the physical flow of Middle East oil. Brent settled Tuesday around $103 after recovering exports pulled prices lower, and Kpler data showed regional exports at around 1",
+      "published": "30 Sep 2026 06:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.946,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Westpac sees RBA hiking again in November after 25bp move to 4.6% yesterday",
+      "url": "https://investinglive.com/central-banks/westpac-sees-rba-hiking-again-in-november-after-25bp-move-to-4-6-yesterday/",
+      "summary": "Westpac's base case that the RBA hikes again in November leaves the Australian outlook heavily tied to energy prices and the Middle East conflict, since only a lasting resolution or a sharp fall in energy-related costs is seen as likely to change it. The bank sees a much higher bar for hikes beyond ",
+      "published": "30 Sep 2026 06:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.132,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Citi sees Starship flight as step toward $900 SpaceX target",
+      "url": "https://investinglive.com/stocks/citi-sees-starship-flight-as-step-toward-900-spacex-target/",
+      "summary": "Citi's long-term target implies a valuation of around $12 trillion against a current market capitalisation of around $2 trillion, which shows how much of the bull case rests on years of rapid growth and flawless execution. The near-term targets from Citi, UBS and RBC cluster between $200 and $225, s",
+      "published": "30 Sep 2026 06:11 WIB",
       "sentiment": "Bullish",
-      "score": 0.721,
+      "score": 0.92,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "USD/INR remains skewed to the upside amid rising oil prices, but a US-Iran breakthrough could trigger a big selloff",
-      "url": "https://investinglive.com/forex/usd-inr-remains-skewed-to-the-upside-amid-rising-oil-prices-but-a-us-iran-breakthrough-could-trigger-a-big-selloff/",
-      "summary": "FUNDAMENTAL OVERVIEW USD: The US dollar has been supported recently by a hawkish repricing in interest rate expectations triggered by strong US economic data and renewed US-Iran tensions. The bullish momentum accelerated last Wednesday when Trump poured cold water on expectations of an earlier end t",
-      "published": "29 Sep 2026 18:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.441,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Bund yields: Short-covering seen shallow – Societe Generale",
-      "url": "https://www.fxstreet.com/news/bund-yields-short-covering-seen-shallow-societe-generale-202609291300",
-      "summary": "Societe Generale’s Kenneth Broux observes Bunds and Bonos retracing from recent yield highs despite a strong upside surprise in Spain’s CPI. The bank warns that if this inflation pattern is replicated across the Euro area, risks are skewed to an upside surprise in core HICP. Bund short-covering and ",
-      "published": "29 Sep 2026 20:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.097,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Euro: EUR/USD bearish bias converging on support – Societe Generale",
-      "url": "https://www.fxstreet.com/news/euro-eur-usd-bearish-bias-converging-on-support-societe-generale-202609291136",
-      "summary": "Societe Generale’s FX strategy team reports EUR/USD remains under pressure, trading at a three-month low and moving toward the June low at 1.1325. The bank flags support at 1.1325 and 1.1270, with resistance at 1.1410. Widening 2-year UST/EGB spreads and upcoming US PCE and NFP data are seen pulling",
-      "published": "29 Sep 2026 18:36 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "New Zealand Dollar falls toward 0.5650 despite rising RBNZ rate hike bets",
-      "url": "https://www.fxstreet.com/news/new-zealand-dollar-falls-toward-05650-despite-rising-rbnz-rate-hike-bets-202609291101",
-      "summary": "NZD/USD declines to around 0.5650 at the time of writing on Tuesday, down 0.25% on the day, and remains close to its lowest level since late June.",
-      "published": "29 Sep 2026 18:01 WIB",
+      "title": "US-Iran talks stall as Qatar mediation yields little, raising risk of renewed combat",
+      "url": "https://investinglive.com/commodities/us-iran-talks-stall-as-qatar-mediation-yields-little-raising-risk-of-renewed-combat/",
+      "summary": "Stalled diplomacy tends to keep a risk premium in crude, and the reported US view that major combat could resume after the midterms gives oil a longer-dated supply risk to price even as physical flows recover. Part of Tuesday's early softening in crude was linked to signs that diplomacy remained pos",
+      "published": "30 Sep 2026 05:40 WIB",
       "sentiment": "Bearish",
-      "score": -0.542,
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Boeing shares rise on $20 billion Navy fighter win as Northrop Grumman slips",
+      "url": "https://investinglive.com/stocks/boeing-shares-rise-on-20-billion-navy-fighter-win-as-northrop-grumman-slips/",
+      "summary": "Boeing rose circa 2.5% in after-hours trading, while Northrop Grumman slipped by nearly 5%, so the market is treating the award as a clear relative win for Boeing. Lockheed Martin keeps its F-35 franchise but is shut out of the next generation, which leaves the sector split into a Boeing-led fighter",
+      "published": "30 Sep 2026 05:20 WIB",
+      "sentiment": "Bullish",
+      "score": 0.762,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "RECAP: Oil slides as Middle East exports recover and US moves to add supply",
+      "url": "https://investinglive.com/commodities/recap-oil-slides-as-middle-east-exports-recover-and-us-moves-to-add-supply/",
+      "summary": "Crude settling at session lows after a sell-off through the US session suggests near-term momentum favours supply relief, although a double-digit monthly gain for Brent shows the war risk premium is still firmly in the price. One trading executive noted that the more oil flows out of the Middle East",
+      "published": "30 Sep 2026 05:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.376,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "S&P and Nasdaq technicals: Both indices are trading little changed after moves higher and lower each stalled",
+      "url": "https://investinglive.com/stocks/s-p-and-nasdaq-technicals-both-indices-are-trading-little-changed-after-moves-higher-and-lower-each-stalled/",
+      "summary": "The S&P 500 and Nasdaq Composite have each seen pockets of strength and weakness in trading today, but neither buyers nor sellers have been able to sustain control. Early gains gave way to selling, while the subsequent rebound has brought both indices back toward the middle of their daily trading ra",
+      "published": "30 Sep 2026 02:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Forex Today: Focus shifts to US PCE, ADP, inflation in OZ and Chinese PMIs",
+      "url": "https://www.fxstreet.com/news/forex-today-focus-shifts-to-us-pce-adp-inflation-in-oz-and-chinese-pmis-202609291806",
+      "summary": "The US Dollar (USD) has accelerated its recovery, adding to the positive start to the week and clinching new multi-week tops, always helped by the persistent advance in US Treasury yields and unabated geopolitical concerns.",
+      "published": "30 Sep 2026 01:06 WIB",
+      "sentiment": "Bullish",
+      "score": 0.907,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Silver price retreats as rising US yields, Hormuz tensions bolster US Dollar",
+      "url": "https://www.fxstreet.com/news/silver-price-retreats-as-rising-us-yields-hormuz-tensions-bolster-us-dollar-202609291719",
+      "summary": "Silver (XAG/USD) retreats on Tuesday and trades around $60.75 at the time of writing, down 0.38% on the day.",
+      "published": "30 Sep 2026 00:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.482,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Asian Stocks Set for Rebound as Oil Prices Ease: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian stocks were poised to advance for the first time in three sessions as oil prices fell on signs of increased supply from the Middle East. Bonds drew attention after yields on the longest-dated Treasuries reached their highest since 2002.",
+      "published": "30 Sep 2026 05:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.784,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Latest Oil Market News and Analysis for Sept. 30",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/latest-oil-market-news-and-analysis-for-sept-30",
+      "summary": "Oil steadied after its biggest drop in more than a week on signs Middle East supply has risen to near pre-war levels after Saudi Arabia resumed flows through a pipeline that avoids the Strait of Hormuz.",
+      "published": "30 Sep 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.501,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stocks Churn After Rout as Brent Falls Below $105: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
-      "summary": "A decline in oil prices did little to allay Wall Street’s concerns that still-elevated energy costs could fuel inflation and spur Federal Reserve interest-rate hikes.",
-      "published": "29 Sep 2026 05:11 WIB",
-      "sentiment": "Bullish",
-      "score": 0.193,
-      "emoji": "🟢",
+      "title": "Paramount Deal Delay Fuels Fears of Costly $52 Billion M&A Debt",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/paramount-deal-delay-fuels-fears-of-costly-52-billion-m-a-debt",
+      "summary": "Paramount Skydance Corp. has been talking to investors for months about the debt it’s selling to fund its Warner Bros. Discovery buyout, only to find that the longer it’s been forced to talk, the more it has to pay.",
+      "published": "30 Sep 2026 03:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.917,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "European Stocks Rise as Julius Baer Gains on End to Swiss Probe",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-29/european-stocks-rise-as-julius-baer-jumps-on-end-to-swiss-probe",
-      "summary": "European stocks rose as oil prices fell and investors pared bets on interest-rate hikes from the European Central Bank, while Julius Baer Group Ltd. rallied after Swiss regulatory action against the bank ended.",
-      "published": "29 Sep 2026 14:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.5,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Paramount Kicks Off High-Grade Bond Sale for Warner Bros. Deal",
+      "title": "Paramount Draws $109 Billion of Demand for High-Grade Bond Deal",
       "url": "https://www.bloomberg.com/news/articles/2026-09-29/paramount-kicks-off-high-grade-bond-sale-for-warner-bros-deal",
-      "summary": "Paramount Skydance Corp. has kicked off its long-awaited investment-grade bond sale, the largest portion of a syndicated $52 billion debt package for its acquisition of Warner Bros. Discovery Inc.",
+      "summary": "Paramount Skydance Corp. has attracted demand more than three times the expected size of its blue-chip bond offering to help fund its acquisition of Warner Bros. Discovery, as banks look to wrap up the long-awaited buyout financing.",
       "published": "29 Sep 2026 20:50 WIB",
-      "sentiment": "Bearish",
-      "score": -0.361,
-      "emoji": "🔴",
+      "sentiment": "Bullish",
+      "score": 0.542,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Paramount Loan Upsized by $2 Billion as Investor Demand Strong",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/banks-draw-10-billion-of-demand-for-paramount-loan-offering",
+      "summary": "The loan portion of Paramount Skydance Corp.’s $52 billion debt package for its acquisition of Warner Bros. Discovery Inc. was increased after it generated strong investor demand.",
+      "published": "29 Sep 2026 22:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.637,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Chinese AI tool told researchers how to make bioweapons",
+      "url": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&at_campaign=rss",
+      "summary": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
+      "published": "30 Sep 2026 06:15 WIB",
+      "sentiment": "Bullish",
+      "score": 0.341,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -155,10 +232,32 @@
     },
     {
       "source": "BBC World",
+      "title": "First female prime minister named in Morocco after winning elections",
+      "url": "https://www.bbc.co.uk/news/articles/c674kkjllw17o?at_medium=RSS&at_campaign=rss",
+      "summary": "Her appointment by the king makes her only the second woman to lead a government in the Arab world.",
+      "published": "30 Sep 2026 00:14 WIB",
+      "sentiment": "Bullish",
+      "score": 0.527,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "Dutch police arrest suspected member of group that claimed FBI hack",
+      "url": "https://www.bbc.co.uk/news/articles/cw5ym18znr0ro?at_medium=RSS&at_campaign=rss",
+      "summary": "The suspect, 24, was arrested before the alleged cyber attack took place.",
+      "published": "29 Sep 2026 22:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
       "title": "Estonia blames Russia for arson at defence company supplying Ukraine",
       "url": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss",
       "summary": "Russia has been accused of launching sabotage attacks across a number of European Nato countries which have been helping Ukraine.",
-      "published": "29 Sep 2026 20:15 WIB",
+      "published": "30 Sep 2026 02:36 WIB",
       "sentiment": "Bearish",
       "score": -0.887,
       "emoji": "🔴",
@@ -176,50 +275,6 @@
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "US ban on Canadian alcohol and dairy takes effect as trade war drags on",
-      "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss",
-      "summary": "It is the latest escalation in the Canada-US trade war after negotiations collapsed in late August, with no word on when talks may resume.",
-      "published": "29 Sep 2026 20:38 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Rights group accuses Vietnam of abducting Australian and Norwegian activists",
-      "url": "https://www.bbc.co.uk/news/articles/cmvgy2wwvzlqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Vietnam says the men entered the country illegally and accused them of planning terrorist activities.",
-      "published": "29 Sep 2026 12:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.852,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "French PM warns against escalation of school protests after 164 arrested",
-      "url": "https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Students are protesting over issues such as overcrowded classes, but the prime minister has condemned reports of violence.",
-      "published": "29 Sep 2026 04:46 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Seoul summons Ukraine envoy over North Korean prisoner-of-war row",
-      "url": "https://www.bbc.co.uk/news/articles/c8ly40xx0dr0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Last week Zelensky revealed Ukraine had sent two captured North Koreans to South Korea - which Seoul says was meant to be a secret.",
-      "published": "28 Sep 2026 21:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC Business",
       "title": "Warning more homes will be uninsurable due to flood risk",
       "url": "https://www.bbc.co.uk/news/articles/c60qxk288e57o?at_medium=RSS&at_campaign=rss",
@@ -227,6 +282,28 @@
       "published": "29 Sep 2026 16:42 WIB",
       "sentiment": "Bearish",
       "score": -0.456,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Business",
+      "title": "What a US diesel export ban could mean for you",
+      "url": "https://www.bbc.co.uk/news/articles/cky9z3r00l9eo?at_medium=RSS&at_campaign=rss",
+      "summary": "The threatened proposal aims to protect US consumers from rising costs, but it could trigger major economic waves if it were to happen.",
+      "published": "29 Sep 2026 01:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.361,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Business",
+      "title": "US ban on Canadian alcohol and dairy takes effect as trade war drags on",
+      "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss",
+      "summary": "It is the latest escalation in the Canada-US trade war after negotiations collapsed in late August, with no word on when talks may resume.",
+      "published": "29 Sep 2026 20:38 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -243,17 +320,6 @@
     },
     {
       "source": "BBC Business",
-      "title": "What a US diesel export ban could mean for you",
-      "url": "https://www.bbc.co.uk/news/articles/cky9z3r00l9eo?at_medium=RSS&at_campaign=rss",
-      "summary": "The threatened proposal aims to protect US consumers from rising costs, but it could trigger major economic waves if it were to happen.",
-      "published": "29 Sep 2026 01:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.361,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Business",
       "title": "UK diesel price hits all-time high, the RAC says",
       "url": "https://www.bbc.co.uk/news/articles/c6n4k987k981o?at_medium=RSS&at_campaign=rss",
       "summary": "The US-Israel war with Iran has caused fuel prices to soar due to disruption of global oil supplies.",
@@ -264,156 +330,134 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Tourism tax needs to be more flexible in Wales, warns expert",
-      "url": "https://www.bbc.co.uk/news/articles/cm4glxn32zypo?at_medium=RSS&at_campaign=rss",
-      "summary": "Anglesey, Conwy and Gwynedd councils have all put a pause on introducing the nightly tourist tax.",
-      "published": "28 Sep 2026 17:49 WIB",
+      "source": "BBC Top Stories",
+      "title": "Burnham to fight next election on pledge to change voting system",
+      "url": "https://www.bbc.co.uk/news/articles/cm158en2qxg9o?at_medium=RSS&at_campaign=rss",
+      "summary": "The prime minister says he wants other parties to take part in a national commission on electoral reform.",
+      "published": "30 Sep 2026 04:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.054,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iraq begins high-stakes security balancing act as US troops withdraw",
+      "url": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw?traffic_source=rss",
+      "summary": "Iraq marks national 'Sovereignty Days' as US troops depart, but must navigate risks of new security landscape.",
+      "published": "30 Sep 2026 06:06 WIB",
       "sentiment": "Bullish",
-      "score": 0.121,
+      "score": 0.205,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Snooker champion Graeme Dott jailed for seven years for child sex abuse",
-      "url": "https://www.bbc.co.uk/news/articles/cv4g514pldgwo?at_medium=RSS&at_campaign=rss",
-      "summary": "The 49-year-old was found guilty of two charges of lewd and libidinous behaviour towards a girl and a boy between 1993 and 2010.",
-      "published": "29 Sep 2026 18:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.893,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Watch: 'Ship buster' missiles sink old US warship in live fire training off Scotland",
-      "url": "https://www.bbc.co.uk/news/articles/cmly40r3pkqxo?at_medium=RSS&at_campaign=rss",
-      "summary": "The 43-year-old decommissioned frigate was used for target practice off the Outer Hebrides.",
-      "published": "29 Sep 2026 17:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Why has Putin added 15,000 new soldiers to Russia’s army?",
-      "url": "https://www.aljazeera.com/news/2026/9/29/why-has-putin-added-15000-new-soldiers-to-russias-army?traffic_source=rss",
-      "summary": "The move marks the fourth military expansion this year as Russia's war in Ukraine seemingly stalls.",
-      "published": "29 Sep 2026 21:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.599,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Sudan takes centre stage on final day of UNGA",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/aje-onl-nf_sudan-takes-centre-stage-on-final-day-of-unga-290926?traffic_source=rss",
-      "summary": "Sudan's foreign minister addressed the UNGA as his country faces war, mass displacement and a worsening aid shortfall.",
-      "published": "29 Sep 2026 21:16 WIB",
-      "sentiment": "Bearish",
-      "score": -0.944,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Estonia says Russia ordered August arson attack on defence company",
-      "url": "https://www.aljazeera.com/news/2026/9/29/estonia-says-russia-ordered-august-arson-attack-on-defence?traffic_source=rss",
-      "summary": "Tallinn accuses Moscow of responsibility for the fire at Estonian company Milrem Robotics, a supplier of unmanned ground vehicles to Ukraine.",
-      "published": "29 Sep 2026 20:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.838,
-      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Are Houthis using new modified cruise missiles in Yemen’s war?",
-      "url": "https://www.aljazeera.com/features/2026/9/29/are-houthis-using-new-modified-cruise-missiles-in-yemens-war?traffic_source=rss",
-      "summary": "Experts say use of modified Iranian defence system could alter the balance in the fight for the Red Sea.",
-      "published": "29 Sep 2026 20:22 WIB",
+      "title": "‘Netanyahu targets Qatar to deflect from Gaza war crimes’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/netanyahu-targets-qatar-to-deflect-from-gaza-war?traffic_source=rss",
+      "summary": "In an interview with British broadcaster Piers Morgan, Qatar’s prime minister accused Israeli’s Netanyahu of war crimes",
+      "published": "30 Sep 2026 04:24 WIB",
       "sentiment": "Bearish",
-      "score": -0.887,
+      "score": -0.955,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Man City’s Premier League charges: What’s the latest and what comes next?",
-      "url": "https://www.aljazeera.com/sports/2026/9/29/man-citys-premier-league-charges-whats-the-latest-and-what-comes-next?traffic_source=rss",
-      "summary": "Swingeing sanctions against City for breaching financial fair play rules would send shockwaves through English football.",
-      "published": "29 Sep 2026 20:20 WIB",
+      "title": "What we know about RAF Fairford ‘bomb plot’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/what-we-know-about-raf-fairford-bomb?traffic_source=rss",
+      "summary": "A police alert turned into a potential Iranian “bomb plot” against a British military base used by the US.",
+      "published": "30 Sep 2026 03:55 WIB",
       "sentiment": "Bullish",
-      "score": 0.382,
+      "score": 0.376,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "US sanctions 10 entities for allegedly supporting Iran’s military",
+      "url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
+      "summary": "Individuals and firms in China, Pakistan, Turkiye, Iran and Saudi Arabia sanctioned as part of a pressure campaign.",
+      "published": "30 Sep 2026 03:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.098,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Iranians stock up on food and medicine as fears of new US fighting grow",
-      "url": "https://www.aljazeera.com/economy/2026/9/29/iranians-stock-up-on-food-and-medicine-as-fears-of-new-us-fighting-grow?traffic_source=rss",
-      "summary": "Iran is struggling with shortages as sanctions and blockade strain food and medicine supply chains.",
-      "published": "29 Sep 2026 19:32 WIB",
+      "title": "US ban on $1bn of Canadian goods takes effect in Trump’s latest retaliation",
+      "url": "https://www.aljazeera.com/economy/2026/9/29/us-ban-on-1bn-of-canadian-goods-takes-effect-in-trumps-latest-retaliation?traffic_source=rss",
+      "summary": "Trump retaliated against Canada's counter-tariffs on $20bn worth of US imports by banning $1bn of Canadian goods.",
+      "published": "30 Sep 2026 03:08 WIB",
       "sentiment": "Bearish",
-      "score": -0.916,
+      "score": -0.322,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "Malaysia sends Rohingya back to Myanmar despite safety warnings",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/malaysia-sends-rohingya-back-myanmar-despite-safety-warnings?traffic_source=rss",
-      "summary": "Malaysia sends Rohingya back to Myanmar despite safety warnings",
-      "published": "29 Sep 2026 19:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.303,
-      "emoji": "🔴",
-      "impact": "high"
+      "title": "US troops fully withdraw from Baghdad base after two decades",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/us-troops-fully-withdraw-from-baghdad-base-after-two-decades?traffic_source=rss",
+      "summary": "US Army soldiers have fully withdrawn from the US base in Baghdad.",
+      "published": "30 Sep 2026 03:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Journalist ascends to throne in Uganda kingdom after succession dispute",
-      "url": "https://www.aljazeera.com/news/2026/9/29/journalist-ascends-to-throne-in-uganda-kingdom-after-succession-dispute?traffic_source=rss",
-      "summary": "Edward Rukidi Kijanangoma succeeds King Oyo Nyimba Kabamba Iguru Rukidi IV, who died last month.",
-      "published": "29 Sep 2026 19:07 WIB",
+      "title": "Can Iraq handle future security challenges alone?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/9/29/can-iraq-handle-future-security-challenges-alone?traffic_source=rss",
+      "summary": "More than two decades of US military presence in Iraq comes to an end.",
+      "published": "30 Sep 2026 02:05 WIB",
+      "sentiment": "Bullish",
+      "score": 0.178,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Jerusalem Daily: Israeli worshippers attack Palestinian man",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/aje-onl-nf_j_daily_israeli-worshippers-attack-palestinian-man-290926?traffic_source=rss",
+      "summary": "Settler pogroms intensify as a total lockdown of the occupied West Bank enters its third day.",
+      "published": "30 Sep 2026 01:51 WIB",
       "sentiment": "Bearish",
       "score": -0.398,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Hormuz and Yemen: Iran offers de-escalation at a price others will pay",
-      "url": "https://www.aljazeera.com/opinions/2026/9/29/hormuz-and-yemen-iran-offers-de-escalation-at-a-price-others-will-pay?traffic_source=rss",
-      "summary": "Iran is using Hormuz to seek US concessions, relief for the Houthis and greater control over Gulf shipping.",
-      "published": "29 Sep 2026 19:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.557,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "What did Yamal say to Messi at World Cup final? ‘Thank you for everything’",
-      "url": "https://www.aljazeera.com/sports/2026/9/29/lamine-yamal-lionel-messi-spain-argentina-fifa-world-cup-2026-final?traffic_source=rss",
-      "summary": "Lamine Yamal shared a warm embrace with Lionel Messi, thanking the Argentinian icon for everything he gave to football.",
-      "published": "29 Sep 2026 18:58 WIB",
-      "sentiment": "Bullish",
-      "score": 0.601,
-      "emoji": "🟢",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "MarketWatch",
-      "title": "Before you invest in the Oura IPO, understand what you’re buying",
-      "url": "https://www.marketwatch.com/story/before-you-invest-in-the-oura-ipo-understand-what-youre-buying-1d88d868?mod=mw_rss_topstories",
-      "summary": "The health-data company could see a pop in its stock price, but there are plenty of warning signs.",
-      "published": "29 Sep 2026 20:45 WIB",
+      "title": "Hollywood’s big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
+      "url": "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
+      "summary": "The Paramount financing will be a closely watched barometer of dealmaking appetite despite rising borrowing costs in 2026.",
+      "published": "30 Sep 2026 04:56 WIB",
+      "sentiment": "Bearish",
+      "score": -0.361,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC Economy",
+      "title": "Ford CEO says it's 'too late' for Europe to fend off Chinese automakers, but not for U.S.",
+      "url": "https://www.cnbc.com/2026/09/29/ford-ceo-jim-farley-china-automakers.html",
+      "summary": "CEO Jim Farley's warning comes on the heels of a high-profile visit last week by Chinese President Xi Jinping with President Donald Trump",
+      "published": "30 Sep 2026 04:08 WIB",
       "sentiment": "Bearish",
       "score": -0.557,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC Economy",
+      "title": "Disney laying off around 300 employees in latest cuts under new CEO Josh D'Amaro",
+      "url": "https://www.cnbc.com/2026/09/29/disney-layoffs-josh-damaro.html",
+      "summary": "Disney warned about the most recent round of cuts in its August earnings report as one of the levers it was evaluating to reduce costs at the company.",
+      "published": "30 Sep 2026 01:21 WIB",
+      "sentiment": "Bearish",
+      "score": -0.75,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -430,23 +474,23 @@
     },
     {
       "source": "CNBC World",
+      "title": "Trump tries to rename AI 'super intelligence' as polls show him sinking on key issue",
+      "url": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
+      "summary": "Trump shrugged when asked if he is concerned that his support for AI and data centers could hurt Republicans in the upcoming midterm election.",
+      "published": "30 Sep 2026 05:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.743,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
       "title": "Putin orders army expansion as Zelenskyy warns Russia preparing to deploy 10,000 North Korean troops",
       "url": "https://www.cnbc.com/2026/09/29/putin-russia-army-ukraine-zelenskyy-north-korea.html",
       "summary": "The decree marks the fourth increase in Russia’s military staffing levels this year as the war in Ukraine continues into a fifth winter.",
       "published": "29 Sep 2026 21:41 WIB",
       "sentiment": "Bearish",
       "score": -0.459,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high",
-      "url": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html",
-      "summary": "Iranian and U.S. officials reportedly met separately with mediators Monday to push for a ceasefire, as Middle Eastern crude exports rebounded to war-time high.",
-      "published": "29 Sep 2026 11:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.572,
       "emoji": "🔴",
       "impact": "high"
     }
