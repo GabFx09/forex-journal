@@ -1,5 +1,5 @@
 {
-  "generated": "03 Oct 2026 22:02 WIB",
+  "generated": "04 Oct 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,50 +7,50 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.162,
-      "count": 11
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.435,
-      "count": 10
+      "score": -0.136,
+      "count": 13
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.159,
-      "count": 10
+      "score": -0.136,
+      "count": 13
     },
     {
-      "pair": "EUR",
+      "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.27,
-      "count": 8
-    },
-    {
-      "pair": "GBP",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.405,
-      "count": 7
+      "score": -0.262,
+      "count": 11
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.132,
-      "count": 7
+      "score": -0.222,
+      "count": 8
     },
     {
-      "pair": "USD",
+      "pair": "GBP/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.298,
-      "count": 7
+      "score": -0.224,
+      "count": 5
+    },
+    {
+      "pair": "EUR",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.449,
+      "count": 4
+    },
+    {
+      "pair": "GBP",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.449,
+      "count": 4
     },
     {
       "pair": "JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.441,
-      "count": 6
+      "score": -0.449,
+      "count": 4
     }
   ],
   "items": [
@@ -88,17 +88,6 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Lihat peluang lainnya: Rincian pasar Forex broker Elev8 untuk bulan Oktober",
-      "url": "https://investinglive.com/education/see-more-opportunities-elev8-broker-s-forex-market-breakdown-for-october/",
-      "summary": "Introduction In September, we saw sharp and uneven moves across major currency pairs. The Mexican peso weakened while the Russian ruble strengthened. The yen gained modestly even as the U.S. dollar rose against most peers, while the Tasmanian currencies (AUD and NZD) fell. These shifts reflected the",
-      "published": "02 Oct 2026 18:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.122,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "FXStreet News",
       "title": "Dolar AS: Risalah FOMC menawarkan petunjuk baru yang terbatas – TD Securities",
       "url": "https://www.fxstreet.com/news/us-dollar-fomc-minutes-to-offer-limited-fresh-clues-td-securities-202610021435",
@@ -121,26 +110,59 @@
       "impact": "high"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Perlombaan Analysis-AI untuk mengubah dunia sebelum uang habis",
-      "url": "https://www.investing.com/news/stock-market-news/analysisais-race-to-transform-the-world-before-the-money-runs-out-4930760",
-      "summary": "",
-      "published": "03 Oct 2026 14:18 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Meksiko Mengatakan Pasukannya Dikirim ke Perbatasan Bersamaan dengan AS",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-03/mexico-says-its-troops-sent-to-border-in-conjunction-with-us",
+      "summary": "The US and Mexico have jointly deployed military personnel in a border area in Texas as part of “mirror operations,” the Mexican government said Saturday.",
+      "published": "04 Oct 2026 06:24 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Negara-negara G7 menyetujui pelepasan stok solar dan minyak setelah adanya tekanan AS",
-      "url": "https://www.investing.com/news/stock-market-news/europe-discussing-plan-for-diesel-stock-releases-after-us-pressure-source-says-4929100",
-      "summary": "",
-      "published": "03 Oct 2026 05:24 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "Bloomberg Markets",
+      "title": "Lula, Bolsonaro dalam keadaan mati-matian saat Brasil bersiap untuk memilih",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-03/lula-bolsonaro-in-dead-heat-as-brazil-prepares-to-vote",
+      "summary": "President Luiz Inácio Lula da Silva and right-wing challenger Flávio Bolsonaro remain locked in a tight race as Brazil prepares to vote in Sunday’s election, according to a pair of new polls.",
+      "published": "04 Oct 2026 05:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.586,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Label Penyelidikan UEA Kapak Kokpit FlyDubai Menyerang Tindakan Teroris",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-03/uae-says-flydubai-co-pilot-planned-terrorist-operation",
+      "summary": "A United Arab Emirates investigation of the near-catastrophic FlyDubai flight said the co-pilot attempted “to carry out a terrorist act” as more details emerged about what happened in the cockpit.",
+      "published": "03 Oct 2026 14:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Peningkatan Militer AS Meningkatkan Risiko Eskalasi Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-03/us-military-buildup-raises-iran-escalation-risk-video",
+      "summary": "Washington Institute research director Dana Stroul tells Bloomberg This Weekend that the US military buildup in the Middle East, including a third aircraft carrier, is expanding President Donald Trump’s options as diplomacy with Iran remains stalled and Washington weighs its approach to the Houthis ",
+      "published": "03 Oct 2026 22:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.68,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mesir Menandai Ancaman Hamas Sebelum 7 Oktober",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-03/egypt-flagged-hamas-threat-before-oct-7-video",
+      "summary": "Atlantic Staff Writer Vivian Salama tells Bloomberg This Weekend that Egypt’s then-intelligence chief Abbas Kamel made an unusual 67-minute trip to Israel less than two weeks before the Oct. 7, 2023, attack to warn Israeli officials that intelligence indicated Hamas was mobilizing for a major assaul",
+      "published": "03 Oct 2026 22:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.996,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -155,17 +177,6 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Label Penyelidikan UEA Kapak Kokpit FlyDubai Menyerang Tindakan Teroris",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-03/uae-says-flydubai-co-pilot-planned-terrorist-operation",
-      "summary": "A United Arab Emirates investigation of the near-catastrophic FlyDubai flight earlier this week said the co-pilot attempted “to carry out a terrorist act” as more details emerged about what went down in the cockpit.",
-      "published": "03 Oct 2026 14:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.973,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "Malaysia Mengincar Sistem Rudal Angkatan Laut senilai $245 Juta, Star Reports",
       "url": "https://www.bloomberg.com/news/articles/2026-10-03/malaysia-eyes-245-million-naval-missile-system-star-reports",
       "summary": "Malaysia’s defense minister said the government is considering spending more than 1 billion ringgit ($245 million) on a new naval strike missile system after a deal with Norway collapsed earlier this year, the Star reported.",
@@ -174,28 +185,6 @@
       "score": -0.273,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "IMF Menyetujui Kesepakatan Pinjaman Bolivia untuk Mendukung Reformasi Ekonomi Paz",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-03/imf-approves-bolivia-loan-deal-to-support-paz-s-economic-reforms",
-      "summary": "The International Monetary Fund approved a $1.9 billion financing program for Bolivia, including an immediate $214 million disbursement, in a package designed to help President Rodrigo Paz reverse a sharp economic slump.",
-      "published": "03 Oct 2026 07:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.67,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Aset negara-negara berkembang mendapat dukungan karena data ketenagakerjaan AS meredakan ketakutan terhadap suku bunga",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-02/em-assets-find-relief-as-us-jobs-data-eases-rate-fears-video",
-      "summary": "An index tracking emerging-market currencies climbed to a session high after weaker-than-expected US jobs data prompted traders to scale back bets on another Federal Reserve interest-rate hike this month. Nonfarm payrolls increased by 29,000 in September after downward revisions to the prior two mon",
-      "published": "03 Oct 2026 04:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.186,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "Google News Forex",
@@ -213,7 +202,7 @@
       "title": "Rusia membangun jembatan besar kedua di ibu kota Ukraina, Kyiv",
       "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
       "summary": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
-      "published": "03 Oct 2026 19:59 WIB",
+      "published": "03 Oct 2026 23:16 WIB",
       "sentiment": "Bearish",
       "score": -0.607,
       "emoji": "🔴",
@@ -242,39 +231,6 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Seoul memperingatkan 'tindakan lebih lanjut' jika Ukraina tidak meminta maaf atas pertikaian tawanan perang",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss",
-      "summary": "President Lee Jae Myung also accused Kyiv of \"attempting to provoke a war on the Korean Peninsula\".",
-      "published": "02 Oct 2026 10:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.966,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "'Saya tidak akan membiarkan orang lain mati' - pilot penerbangan Flydubai menggambarkan serangan kokpit oleh co-pilot",
-      "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
-      "summary": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
-      "published": "02 Oct 2026 16:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.958,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Ethiopia dan Eritrea memutuskan hubungan diplomatik ketika konflik di wilayah utara meningkat",
-      "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
-      "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
-      "published": "02 Oct 2026 23:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.938,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC Business",
       "title": "Harga solar di Inggris mencapai £2 per liter untuk pertama kalinya, kata RAC",
       "url": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
@@ -297,15 +253,15 @@
       "impact": "medium"
     },
     {
-      "source": "BBC Business",
-      "title": "AS menekan Eropa untuk melepaskan cadangan solar karena Trump mengancam larangan ekspor",
-      "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
-      "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
-      "published": "02 Oct 2026 15:54 WIB",
+      "source": "BBC Top Stories",
+      "title": "'Bom pajak lagi?' dan 'Target rencana teror'",
+      "url": "https://www.bbc.co.uk/news/articles/cwjdmk479mr1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Several of today's papers feature Andy Burnham's latest plans as PM, including experts warning of a potential tax rise to help cover his social care plan.",
+      "published": "04 Oct 2026 06:49 WIB",
       "sentiment": "Bearish",
-      "score": -0.912,
+      "score": -0.054,
       "emoji": "🔴",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "source": "BBC Top Stories",
@@ -319,70 +275,114 @@
       "impact": "low"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Mengapa ribuan pasangan memilih Skotlandia untuk mengatakan 'Saya bersedia'",
-      "url": "https://www.bbc.co.uk/news/articles/c3y0zdj8jlxeo?at_medium=RSS&at_campaign=rss",
-      "summary": "A quarter of all marriages in Scotland involve couples who don't live here but see it as the ultimate wedding destination.",
-      "published": "03 Oct 2026 08:43 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "Al Jazeera",
+      "title": "Kandidat AS yang didukung Pelosi menyerukan ‘embargo senjata penuh’ terhadap Israel",
+      "url": "https://www.aljazeera.com/news/2026/10/3/pelosi-backed-us-candidate-calls-for-full-arms-embargo-on-israel?traffic_source=rss",
+      "summary": "Connie Chan, endorsed by Nancy Pelosi to succeed her in California, says she will vote to 'end a genocide in Gaza'.",
+      "published": "04 Oct 2026 05:43 WIB",
+      "sentiment": "Bullish",
+      "score": 0.637,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Militer Inggris di Kenya: Tuduhan, kekebalan dan perjuangan untuk keadilan",
-      "url": "https://www.aljazeera.com/features/longform/2026/10/3/britains-military-in-kenya-allegations-immunity-and-a-fight-for-justice?traffic_source=rss",
-      "summary": "Kenyan survivors are challenging the UK military over decades of alleged abuses — and the immunity that has shielded it.",
-      "published": "03 Oct 2026 20:18 WIB",
+      "title": "Pemukim Israel menyerang petani Palestina saat panen zaitun",
+      "url": "https://www.aljazeera.com/video/2026/10/3/israeli-settlers-attack-palestinian-farmers-during-olive-harvest-2?traffic_source=rss",
+      "summary": "Israeli settlers attack Palestinian farmers during olive harvest",
+      "published": "04 Oct 2026 04:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.296,
+      "score": -0.815,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pasukan pemerintah Ethiopia maju ke Tigray ketika pemberontak mundur: Apa yang perlu diketahui",
-      "url": "https://www.aljazeera.com/news/2026/10/3/ethiopian-govt-forces-advance-in-tigray-as-rebels-retreat-what-to-know?traffic_source=rss",
-      "summary": "Military, pro-government forces recapture airport in Tigray's capital as fighting also rages in Amhara and Afar regions.",
-      "published": "03 Oct 2026 20:00 WIB",
+      "title": "Sisa-sisa Czar Samuel dari Bulgaria kembali ke ‘rumah’ setelah 1.000 tahun",
+      "url": "https://www.aljazeera.com/news/2026/10/3/remains-of-bulgarias-czar-samuel-return-home-after-1000-years?traffic_source=rss",
+      "summary": "The emperor is a symbol of Bulgarian national identity whose repatriation stoked tensions with Greece.",
+      "published": "04 Oct 2026 02:14 WIB",
       "sentiment": "Bearish",
-      "score": -0.681,
+      "score": -0.482,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Lima orang tewas saat serangan dagang Kyiv dan Moskow, Rusia mencapai jembatan kedua",
-      "url": "https://www.aljazeera.com/news/2026/10/3/five-killed-as-kyiv-and-moscow-trade-strikes-russia-hits-second-bridge?traffic_source=rss",
-      "summary": "Russia has also attacked another key bridge in Kyiv, the second such strike in two days.",
-      "published": "03 Oct 2026 19:55 WIB",
+      "title": "Apakah CJP mengubah lanskap politik India?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/3/is-the-cjp-changing-indias-political-landscape?traffic_source=rss",
+      "summary": "Youth-led movement demands resignation of chief election commissioner.",
+      "published": "04 Oct 2026 02:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.968,
+      "score": -0.376,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pemukim Israel menyerang petani di pogrom Tepi Barat, tentara menyerang wartawan",
-      "url": "https://www.aljazeera.com/news/2026/10/3/israeli-settlers-attack-palestinian-olive-pickers-in-the-west-bank?traffic_source=rss",
-      "summary": "Israeli forces detain and assault journalists in Jabal Qamass area in Beita, south of Nablus.",
-      "published": "03 Oct 2026 19:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.946,
-      "emoji": "🔴",
-      "impact": "low"
+      "title": "Fernandes memuji Ronaldo dan menyerukan persatuan Portugal menjelang pertandingan Norwegia",
+      "url": "https://www.aljazeera.com/sports/2026/10/3/fernandes-hails-ronaldo-and-calls-for-portugal-unity-ahead-of-norway-game?traffic_source=rss",
+      "summary": "Cristiano Ronaldo withdrew from the Portugal squad, but Bruno Fernandes says forward remains team's 'greatest symbol'.",
+      "published": "04 Oct 2026 01:23 WIB",
+      "sentiment": "Bullish",
+      "score": 0.698,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "G7 akan melepaskan 100 juta barel minyak dan solar, apakah akan membatasi harga?",
-      "url": "https://www.aljazeera.com/news/2026/10/3/g7-to-release-100-million-barrels-of-oil-and-diesel-will-it-curb-prices?traffic_source=rss",
-      "summary": "Global energy prices have soared due to the US and Israel's war on Iran and Russia's war on Ukraine.",
-      "published": "03 Oct 2026 16:27 WIB",
+      "title": "Aljazair mengirim jet tempur ke Niger untuk menggagalkan ‘upaya kudeta’, kata presiden",
+      "url": "https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says?traffic_source=rss",
+      "summary": "President Abdelmadjid Tebboune says Algiers deployed warplanes to Niamey in late August following an attack by mutineers.",
+      "published": "04 Oct 2026 01:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.852,
+      "score": -0.521,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "'Serangan verbal' reporter Israel mengakhiri konferensi pers sepak bola Irlandia",
+      "url": "https://www.aljazeera.com/sports/2026/10/3/israeli-reporters-verbal-attack-ends-ireland-football-news-conference?traffic_source=rss",
+      "summary": "Israeli journalists asked coach Hallgrimsson about the Flydubai attack and alleged racist abuse by Ireland's players.",
+      "published": "04 Oct 2026 00:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.986,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Jerusalem Daily: UEA mengatakan kopilot Flydubai mencoba melakukan serangan 'teroris'",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/jerusalem-daily-uae-says-flydubai-co-pilot-attempted-terrorist-attack?traffic_source=rss",
+      "summary": "Jerusalem Daily: UAE says Flydubai co-pilot attempted ‘terrorist’ attack",
+      "published": "03 Oct 2026 23:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.815,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Serangan verbal’ wartawan Israel mempersingkat konferensi pers Irlandia",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/israeli-reporters-verbal-attack-cuts-short-ireland-press-conference?traffic_source=rss",
+      "summary": "Israeli reporters’ ‘verbal attack’ cuts short Ireland press conference",
+      "published": "03 Oct 2026 23:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.607,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apa yang kita ketahui tentang kopilot yang dituduh melakukan serangan Flydubai",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/what-we-know-about-the-co-pilot-accused-in-flydubai-attack?traffic_source=rss",
+      "summary": "The co-pilot accused of attacking a Flydubai captain has reportedly been identified as Hamam al-Hammami.",
+      "published": "03 Oct 2026 22:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.939,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "CNBC Forex",
