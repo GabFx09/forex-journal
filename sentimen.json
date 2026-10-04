@@ -1,53 +1,47 @@
 {
-  "generated": "03 Oct 2026 22:02 WIB",
+  "generated": "04 Oct 2026 07:02 WIB",
   "summary": {
-    "total": 94,
-    "bullish": 39,
-    "bearish": 47,
-    "netral": 8,
-    "avg_score": -0.1017,
+    "total": 83,
+    "bullish": 28,
+    "bearish": 46,
+    "netral": 9,
+    "avg_score": -0.1393,
     "overall": "Bearish",
     "currency_impact": [
       {
         "currency": "USD",
         "sentiment": "Bullish",
-        "score": 0.228,
-        "count": 23
+        "score": 0.184,
+        "count": 17
       },
       {
         "currency": "EUR",
         "sentiment": "Bearish",
-        "score": -0.064,
-        "count": 14
+        "score": -0.254,
+        "count": 10
       },
       {
         "currency": "GBP",
-        "sentiment": "Netral",
-        "score": 0.04,
-        "count": 2
+        "sentiment": "Bearish",
+        "score": -0.492,
+        "count": 1
       },
       {
         "currency": "JPY",
         "sentiment": "Bullish",
-        "score": 0.625,
-        "count": 2
+        "score": 0.76,
+        "count": 1
       },
       {
         "currency": "AUD",
-        "sentiment": "Bullish",
-        "score": 0.702,
-        "count": 2
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "count": 1
       },
       {
         "currency": "CAD",
         "sentiment": "Bearish",
         "score": -0.128,
-        "count": 1
-      },
-      {
-        "currency": "CHF",
-        "sentiment": "Bullish",
-        "score": 0.441,
         "count": 1
       },
       {
@@ -59,6 +53,17 @@
     ]
   },
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Analisis teknis S&P 500 pada akhir minggu kurang dari 1% lebih rendah dari ATH hanya sedikit di 7850",
+      "url": "https://investinglive.com/stocks/s-p-500-technical-analysis-as-week-ended-less-than-1-lower-than-ath-just-shy-of-7850/",
+      "summary": "S&P 500 futures test whether the channel breakout can hold S&P 500 E-mini futures have improved after breaking out of the broader descending channel that contained much of the August-to-September pullback. But the four-hour chart is now at the more interesting stage: not whether price can briefly ri",
+      "published": "04 Oct 2026 00:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.741,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "Prospek saham Intel: Rebound yang gagal menimbulkan pertanyaan bagi para pedagang dan pemegang saham",
@@ -94,7 +99,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Sepekan ke depan: Jasa ISM, risalah rapat The Fed, dan ketenagakerjaan Kanada memimpin kalender ekonomi. Menyadari.",
+      "title": "Seminggu ke depan: Jasa ISM, risalah rapat The Fed, dan ketenagakerjaan Kanada memimpin kalender ekonomi. Menyadari.",
       "url": "https://investinglive.com/news/week-ahead-ism-services-fed-minutes-and-canadian-jobs-lead-the-economic-calendar-be-aware/",
       "summary": "The new trading week brings a lighter economic calendar, but there are still several events that can move currencies and yields. The main highlights are Monday’s U.S. ISM services report, Wednesday’s Federal Reserve minutes, Thursday’s ECB monetary policy accounts, and Friday’s Canadian employment a",
       "published": "03 Oct 2026 00:51 WIB",
@@ -127,7 +132,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Dengan Nasdaq & Nasdaq 100 diperdagangkan pada level tertinggi baru sepanjang masa, apa yang disampaikan secara teknis oleh beberapa saham Mag 7 kepada para pedagang?",
+      "title": "Dengan Nasdaq & Nasdaq 100 diperdagangkan pada titik tertinggi baru sepanjang masa, apa informasi teknis dari beberapa saham Mag 7 kepada para pedagang?",
       "url": "https://investinglive.com/stocks/with-the-nasdaq-the-nasdaq-100-trading-at-new-all-time-highs-what-are-the-technicals-of-some-mag-7-stocks-telling-traders/",
       "summary": "With both the Nasdaq Composite and Nasdaq 100 trading at record highs, you might expect the familiar names in the Magnificent Seven to be doing the same. However, Nvidia is the only one of the seven trading at a new all-time high today. The others are at different stages of their technical journeys,",
       "published": "02 Oct 2026 22:24 WIB",
@@ -226,35 +231,13 @@
     },
     {
       "source": "ForexLive",
-      "title": "Permulaan Pagi Amerika Utara: Dolar bervariasi menjelang laporan pekerjaan AS karena harga minyak turun dan harga berjangka naik",
+      "title": "Permulaan Pagi Amerika Utara: Dolar beragam menjelang laporan pekerjaan AS karena harga minyak turun dan harga berjangka naik",
       "url": "https://investinglive.com/technical-analysis/north-american-morning-kickstart-dollar-mixed-ahead-of-us-jobs-report-as-oil-falls-and-futures-rise/",
       "summary": "TGIF. It is US jobs day, and traders are heading into the North American session with a mixed dollar, modestly lower Treasury yields and higher US stock futures. Canada’s employment report will be released next week, leaving today’s focus squarely on the US labor market. The September jobs report is",
       "published": "02 Oct 2026 19:14 WIB",
       "sentiment": "Bullish",
       "score": 0.527,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Lihat peluang lainnya: Rincian pasar Forex broker Elev8 untuk bulan Oktober",
-      "url": "https://investinglive.com/education/see-more-opportunities-elev8-broker-s-forex-market-breakdown-for-october/",
-      "summary": "Introduction In September, we saw sharp and uneven moves across major currency pairs. The Mexican peso weakened while the Russian ruble strengthened. The yen gained modestly even as the U.S. dollar rose against most peers, while the Tasmanian currencies (AUD and NZD) fell. These shifts reflected the",
-      "published": "02 Oct 2026 18:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.491,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Bagaimana ekspektasi suku bunga berubah setelah kejadian minggu ini?",
-      "url": "https://investinglive.com/central-banks/how-have-interest-rate-expectations-changed-after-this-week-s-events-5/",
-      "summary": "Rate hikes by year-end RBNZ: 33 bps (52% probability of rate hike at the next meeting) 2027: 106 bps BoE: 31 bps (82% probability of rate hike at the next meeting) 2027: 92 bps BoC: 26 bps (65% probability of no change at the next meeting) 2027: 110 bps Fed: 25 bps (76% probability of no change at t",
-      "published": "02 Oct 2026 17:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.302,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -270,7 +253,7 @@
     },
     {
       "source": "FXStreet News",
-      "title": "Peso Meksiko rebound tetapi eksodus perdagangan masih berdampak",
+      "title": "Peso Meksiko rebound tetapi eksodus perdagangan masih terbatas",
       "url": "https://www.fxstreet.com/news/mexican-peso-rebounds-but-carry-trade-exodus-still-bites-202610022008",
       "summary": "The Mexican Peso (MXN) recovers some ground versus the US Dollar (USD) on Friday, gaining 0.5%, but it remains poised to end the week with a 3% loss as investors exit the 'carry trade' amid a narrowing of the interest rate differential between the US and Mexico to its lowest level since 2015.",
       "published": "03 Oct 2026 03:08 WIB",
@@ -401,57 +384,79 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet News",
-      "title": "Berita Sela: Nonfarm Payrolls AS naik 29 ribu di bulan September vs perkiraan 90 ribu",
-      "url": "https://www.fxstreet.com/news/us-nonfarm-payrolls-expected-to-soften-in-september-202610020830",
-      "summary": "Nonfarm Payrolls (NFP) in the United States (US) rose by 29K in September, the US Bureau of Labor Statistics (BLS) reported on Friday. This print followed the 133K increase recorded in August (revised from 162K) and missed the market expectation of 90K by a wide margin.",
-      "published": "02 Oct 2026 15:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.36,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Euro mencapai posisi terendah baru dalam dua bulan terhadap Pound Inggris setelah data inflasi Zona Euro yang panas",
-      "url": "https://www.fxstreet.com/news/euro-hits-fresh-two-month-lows-against-british-pound-after-hot-eurozone-inflation-data-202610021153",
-      "summary": "The Euro (EUR) reverses previous daily gains against the British Pound (GBP) on Friday, diving to fresh two-and-a-half-month lows just above 0.8500, and is set to show a more than 1% weekly decline.",
-      "published": "02 Oct 2026 18:53 WIB",
-      "sentiment": "Bullish",
-      "score": 0.572,
-      "emoji": "🟢",
+      "source": "Investing.com Forex",
+      "title": "Bagaimana Muse Menumpuk Vs. Titik OpenAI",
+      "url": "https://www.investing.com/news/stock-market-news/how-muse-stacks-up-vs-openai-dots-4930890",
+      "summary": "",
+      "published": "04 Oct 2026 05:24 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Dolar Australia diperdagangkan lebih tinggi terhadap Dolar AS menjelang data NFP AS",
-      "url": "https://www.fxstreet.com/news/australian-dollar-trades-higher-against-us-dollar-ahead-of-us-nfp-data-202610021139",
-      "summary": "The Australian Dollar (AUD) is 0.17% higher at around 0.6640 against the US Dollar (USD) during the European trading session on Friday. The Aussie pair gains as the Australian Dollar rises despite experts doubting about more Reserve Bank of Australia (RBA) interest rate hikes.",
-      "published": "02 Oct 2026 18:39 WIB",
-      "sentiment": "Bullish",
-      "score": 0.913,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Franc Swiss muncul sebagai safe-haven seiring aksi jual obligasi global",
-      "url": "https://www.fxstreet.com/news/swiss-franc-emerges-as-a-safe-haven-as-global-bonds-sell-off-202610021124",
-      "summary": "The Swiss Franc (CHF) is emerging as a safe haven amid the global government bonds sell-off, showing a surprising comeback against an otherwise firm US Dollar (USD) this week, as Switzerland's sound fiscal position stands out with government debt escalating amid the world's leading economies.",
-      "published": "02 Oct 2026 18:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.441,
-      "emoji": "🟢",
+      "source": "Investing.com Forex",
+      "title": "Sampel produk Nestle India dinyatakan tidak aman oleh regulator pangan",
+      "url": "https://www.investing.com/news/stock-market-news/nestle-india-product-sample-declared-unsafe-by-food-regulator-93CH-4930889",
+      "summary": "",
+      "published": "04 Oct 2026 04:52 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
-      "source": "FXStreet News",
-      "title": "Euro: Risiko Penurunan Meskipun Ada Ruang lingkup ECB – BBH",
-      "url": "https://www.fxstreet.com/news/euro-downside-risks-despite-ecb-scope-bbh-202610021107",
-      "summary": "Brown Brothers Harriman’s Elias Haddad reports EUR/USD has slightly recovered after hitting fresh cyclical lows, with support at 1.1200 and 1.1111.",
-      "published": "02 Oct 2026 18:07 WIB",
+      "source": "Investing.com Forex",
+      "title": "Saham Rusia melemah pada penutupan perdagangan; Indeks MOEX Rusia tidak berubah",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4930887",
+      "summary": "",
+      "published": "04 Oct 2026 04:20 WIB",
       "sentiment": "Bearish",
-      "score": -0.054,
+      "score": -0.296,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Paruh waktu AS: Menguraikan perkiraan dampak terhadap ekuitas",
+      "url": "https://www.investing.com/news/stock-market-news/us-midterms-breaking-down-expected-impact-on-equities-4930882",
+      "summary": "",
+      "published": "04 Oct 2026 03:33 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Bagaimana investasi AI mempunyai efek pengganda yang luar biasa besar",
+      "url": "https://www.investing.com/news/stock-market-news/how-ai-investment-has-unusually-large-multiplier-effects-4930881",
+      "summary": "",
+      "published": "04 Oct 2026 03:21 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Turki memperpanjang persyaratan perdagangan margin yang lebih rendah hingga 30 Oktober",
+      "url": "https://www.investing.com/news/stock-market-news/turkey-extends-lower-margin-trading-requirement-to-oct-30-93CH-4930868",
+      "summary": "",
+      "published": "03 Oct 2026 23:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.178,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Peretas Exclusive-Key ShinyHunters yang ditahan di Yordania, bekerja sama, kata sumber",
+      "url": "https://www.investing.com/news/stock-market-news/exclusivekey-shinyhunters-hacker-detained-in-jordan-is-cooperating-sources-say-4930864",
+      "summary": "",
+      "published": "03 Oct 2026 22:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.402,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -489,83 +494,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Pembicaraan AS-Rusia mengenai Ukraina melibatkan kesepakatan minyak bernilai miliaran dolar, NYT melaporkan",
-      "url": "https://www.investing.com/news/stock-market-news/usrussia-talks-on-ukraine-involve-multibillion-dollar-oil-deal-nyt-reports-4930830",
-      "summary": "",
-      "published": "03 Oct 2026 17:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Perlombaan Analysis-AI untuk mengubah dunia sebelum uang habis",
-      "url": "https://www.investing.com/news/stock-market-news/analysisais-race-to-transform-the-world-before-the-money-runs-out-4930760",
-      "summary": "",
-      "published": "03 Oct 2026 14:18 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Pengadilan banding AS memblokir undang-undang Minnesota yang melarang foto 'nudifikasi' dalam gugatan XAI",
-      "url": "https://www.investing.com/news/stock-market-news/us-appeals-court-blocks-minnesotas-ainudification-law-for-now-in-xai-lawsuit-4930434",
-      "summary": "",
-      "published": "03 Oct 2026 09:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.421,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Apple mengatakan akan menandai permintaan AI untuk data Mac setelah Muse Meta mengajukan keluhan",
-      "url": "https://www.investing.com/news/stock-market-news/apple-says-it-will-flag-ai-requests-for-mac-data-after-metas-muse-draws-complaints-4930505",
-      "summary": "",
-      "published": "03 Oct 2026 05:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.402,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Eksklusif-Tiongkok menuntut komitmen pasokan tembaga untuk persetujuan merger Anglo Teck, kata sumber",
-      "url": "https://www.investing.com/news/stock-market-news/exclusivechina-demands-copper-supply-commitments-for-anglo-teck-merger-approval-sources-say-4929672",
-      "summary": "",
-      "published": "03 Oct 2026 05:36 WIB",
-      "sentiment": "Bullish",
-      "score": 0.557,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Negara-negara G7 menyetujui pelepasan stok solar dan minyak setelah adanya tekanan AS",
-      "url": "https://www.investing.com/news/stock-market-news/europe-discussing-plan-for-diesel-stock-releases-after-us-pressure-source-says-4929100",
-      "summary": "",
-      "published": "03 Oct 2026 05:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.077,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Pameran otomotif Tiongkok memulai debutnya di Argentina seiring lonjakan penjualan",
-      "url": "https://www.investing.com/news/stock-market-news/chinese-auto-show-debuts-in-argentina-as-their-sales-surge-4930114",
-      "summary": "",
-      "published": "03 Oct 2026 04:54 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "Investing.com Economy",
       "title": "Trump: tidak akan melakukan larangan ekspor solar",
       "url": "https://www.investing.com/news/economic-indicators/trump-not-going-to-be-doing-diesel-export-ban-4930419",
@@ -577,26 +505,81 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Inflasi Austria naik menjadi 3,5% pada bulan September",
-      "url": "https://www.investing.com/news/economic-indicators/austrias-inflation-climbs-to-35-in-september-93CH-4929398",
-      "summary": "",
-      "published": "02 Oct 2026 17:29 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Meksiko Mengatakan Pasukannya Dikirim ke Perbatasan Bersamaan dengan AS",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-03/mexico-says-its-troops-sent-to-border-in-conjunction-with-us",
+      "summary": "The US and Mexico have jointly deployed military personnel in a border area in Texas as part of “mirror operations,” the Mexican government said Saturday.",
+      "published": "04 Oct 2026 06:24 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "low"
     },
     {
-      "source": "Investing.com Economy",
-      "title": "Inflasi Kroasia pada bulan September mencapai 4,6% sesuai dengan perkiraan",
-      "url": "https://www.investing.com/news/economic-indicators/croatias-september-inflation-reaches-46-in-line-with-forecasts-93CH-4929385",
-      "summary": "",
-      "published": "02 Oct 2026 17:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.052,
-      "emoji": "🟢",
+      "source": "Bloomberg Markets",
+      "title": "Lula, Bolsonaro dalam keadaan mati-matian saat Brasil bersiap untuk memilih",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-03/lula-bolsonaro-in-dead-heat-as-brazil-prepares-to-vote",
+      "summary": "President Luiz Inácio Lula da Silva and right-wing challenger Flávio Bolsonaro remain locked in a tight race as Brazil prepares to vote in Sunday’s election, according to a pair of new polls.",
+      "published": "04 Oct 2026 05:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.586,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Label Penyelidikan UEA Kapak Kokpit FlyDubai Menyerang Tindakan Teroris",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-03/uae-says-flydubai-co-pilot-planned-terrorist-operation",
+      "summary": "A United Arab Emirates investigation of the near-catastrophic FlyDubai flight said the co-pilot attempted “to carry out a terrorist act” as more details emerged about what happened in the cockpit.",
+      "published": "03 Oct 2026 14:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Hotel Kecil Adalah Hal Besar Berikutnya dalam Perjalanan Mewah",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-03/tiny-hotels-are-luxury-travel-s-next-big-thing-video",
+      "summary": "Bloomberg Pursuits reporter Sarah Rappaport tells Bloomberg This Weekend that luxury travelers are increasingly seeking tiny hotels with as few as one to six rooms, combining the privacy of a villa with personalized high-end hotel service. Speaking with hosts David Gura and Christina Ruffini, Rappap",
+      "published": "03 Oct 2026 23:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Peningkatan Militer AS Meningkatkan Risiko Eskalasi Iran",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-03/us-military-buildup-raises-iran-escalation-risk-video",
+      "summary": "Washington Institute research director Dana Stroul tells Bloomberg This Weekend that the US military buildup in the Middle East, including a third aircraft carrier, is expanding President Donald Trump’s options as diplomacy with Iran remains stalled and Washington weighs its approach to the Houthis ",
+      "published": "03 Oct 2026 22:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.68,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pekerjaan Palsu Membuat Pencari Kerja Berisiko Pencurian Identitas",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-03/fake-jobs-put-job-seekers-at-risk-of-identity-theft-video",
+      "summary": "Fraud investigator Jay Jones, known online as “The Profiler,” tells Bloomberg This Weekend that AI is helping scammers create increasingly convincing fake recruiters and job listings that can lead victims to surrender money and sensitive personal information. Speaking with hosts David Gura and Chris",
+      "published": "03 Oct 2026 22:15 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mesir Menandai Ancaman Hamas Sebelum 7 Oktober",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-03/egypt-flagged-hamas-threat-before-oct-7-video",
+      "summary": "Atlantic Staff Writer Vivian Salama tells Bloomberg This Weekend that Egypt’s then-intelligence chief Abbas Kamel made an unusual 67-minute trip to Israel less than two weeks before the Oct. 7, 2023, attack to warn Israeli officials that intelligence indicated Hamas was mobilizing for a major assaul",
+      "published": "03 Oct 2026 22:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.996,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -611,17 +594,6 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Label Penyelidikan UEA Kapak Kokpit FlyDubai Menyerang Tindakan Teroris",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-03/uae-says-flydubai-co-pilot-planned-terrorist-operation",
-      "summary": "A United Arab Emirates investigation of the near-catastrophic FlyDubai flight earlier this week said the co-pilot attempted “to carry out a terrorist act” as more details emerged about what went down in the cockpit.",
-      "published": "03 Oct 2026 14:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.973,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "Malaysia Mengincar Sistem Rudal Angkatan Laut senilai $245 Juta, Star Reports",
       "url": "https://www.bloomberg.com/news/articles/2026-10-03/malaysia-eyes-245-million-naval-missile-system-star-reports",
       "summary": "Malaysia’s defense minister said the government is considering spending more than 1 billion ringgit ($245 million) on a new naval strike missile system after a deal with Norway collapsed earlier this year, the Star reported.",
@@ -633,7 +605,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Eropa Tertekan Di Bawah Tekanan Imbal Hasil Obligasi",
+      "title": "Saham Eropa Tertekan Akibat Tekanan Imbal Hasil Obligasi",
       "url": "https://www.bloomberg.com/news/articles/2026-10-03/europe-s-stocks-are-straining-under-pressure-from-bond-yields",
       "summary": "A historic surge in global bond yields is becoming a bigger problem for European stocks as investors confront the possibility of stubborn inflation and mounting government debt.",
       "published": "03 Oct 2026 14:00 WIB",
@@ -643,70 +615,15 @@
       "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "IMF Menyetujui Kesepakatan Pinjaman Bolivia untuk Mendukung Reformasi Ekonomi Paz",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-03/imf-approves-bolivia-loan-deal-to-support-paz-s-economic-reforms",
-      "summary": "The International Monetary Fund approved a $1.9 billion financing program for Bolivia, including an immediate $214 million disbursement, in a package designed to help President Rodrigo Paz reverse a sharp economic slump.",
-      "published": "03 Oct 2026 07:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.952,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Mantan Ketua CEA pada Laporan Pekerjaan, Pertumbuhan PDB",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-02/former-cea-chair-on-jobs-report-gdp-growth-video",
-      "summary": "Former CEA Chair Cecilia Rouse believes that we may be 'entering a new normal' of the jobs report, with the break even potentially settling in around 50,000. She speaks with Romaine Bostick on Bloomberg's \"The Close.\" (Source: Bloomberg)",
-      "published": "03 Oct 2026 05:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Alamat Email Rahasia DOJ Pam Bondi Terungkap",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-02/pam-bondi-s-secret-doj-email-address-revealed-video",
-      "summary": "A FOIA request has uncovered another little-known feature of life at the top of the Justice Department: attorneys general have used alternate email addresses to conduct government business for over a decade. This time around, Bloomberg News Senior Investigative Reporter Jason Leopold obtained the al",
-      "published": "03 Oct 2026 04:47 WIB",
-      "sentiment": "Bullish",
-      "score": 0.637,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Aset negara-negara berkembang mendapat dukungan karena data ketenagakerjaan AS meredakan ketakutan terhadap suku bunga",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-02/em-assets-find-relief-as-us-jobs-data-eases-rate-fears-video",
-      "summary": "An index tracking emerging-market currencies climbed to a session high after weaker-than-expected US jobs data prompted traders to scale back bets on another Federal Reserve interest-rate hike this month. Nonfarm payrolls increased by 29,000 in September after downward revisions to the prior two mon",
-      "published": "03 Oct 2026 04:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.334,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Ketua CEA: Inflasi turun cukup cepat",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-02/cea-chairman-inflation-coming-down-sufficiently-fast-video",
-      "summary": "Chris Phelan CEA Chairman, sees inflation clearly easing and thinks it's doing so quickly enough. He speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
-      "published": "03 Oct 2026 04:40 WIB",
-      "sentiment": "Bullish",
-      "score": 0.492,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Mantan Menteri Tenaga Kerja Rob Reich pada Laporan Pekerjaan September",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-02/former-labor-secretary-rob-reich-on-sept-jobs-report-video",
-      "summary": "Robert Reich, former US Labor Secretary, discusses persistent inflation, very slow hiring, and wages that trail prices. He speaks with Romaine Bostick on Bloomberg's \"The Close.\" (Source: Bloomberg)",
-      "published": "03 Oct 2026 04:32 WIB",
+      "source": "Google News Forex",
+      "title": "Kebijakan dan Defisit Kredibilitas Data Mengancam Perang Inflasi di Ethiopia: Survei EEA - The Reporter Ethiopia",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vajdFYUVUR3dQRzlMWnUzdGVaUmJZY0JzSWVFUHUyaTIzR3Q0N3pQZzloZ3h2bDZXWXlTcDNWUHpuQVhXUllFRTgyT0sxd3lheUoyVA?oc=5",
+      "summary": "Policy, Data Credibility Deficit Threatens Ethiopia’s Inflation Fight: EEA Survey The Reporter Ethiopia",
+      "published": "03 Oct 2026 15:22 WIB",
       "sentiment": "Bearish",
-      "score": -0.477,
+      "score": -0.93,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Google News Forex",
@@ -717,17 +634,6 @@
       "sentiment": "Bullish",
       "score": 0.153,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Forex",
-      "title": "Gubernur Eyob Mengatakan Cadangan Devisa Ethiopia Hampir Tiga Kali Lipat Menjadi 5,6 Miliar Dolar AS - Birr Metrics",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBiUXJKNTBXZ195M0tpM19TZEVRU2xHa3pmdFNJUXRQWEpLNnd2V21lR3ZNMzlNMmw0R3I1T3BISDhmeFNxSG1Fa3Z4dk12emFxcmNLVXY2c19RbUwxMjlZUXIwTTVzc3lMcEgxZTRSMU9UemRINmtCbDlibw?oc=5",
-      "summary": "Governor Eyob Says Ethiopia’s FX Reserves Nearly Triple to 5.6 Billion US Dollars Birr Metrics",
-      "published": "02 Oct 2026 15:42 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
       "impact": "low"
     },
     {
@@ -746,7 +652,7 @@
       "title": "Rusia membangun jembatan besar kedua di ibu kota Ukraina, Kyiv",
       "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
       "summary": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
-      "published": "03 Oct 2026 19:59 WIB",
+      "published": "03 Oct 2026 23:16 WIB",
       "sentiment": "Bearish",
       "score": -0.607,
       "emoji": "🔴",
@@ -761,17 +667,6 @@
       "sentiment": "Bearish",
       "score": -0.856,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Wanita diberi celana pendek di Oktoberfest untuk mencegah bagian dalam rok",
-      "url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
-      "summary": "The step at the Munich festival comes after thousands of voyeuristic videos emerged on social media.",
-      "published": "03 Oct 2026 06:16 WIB",
-      "sentiment": "Bullish",
-      "score": 0.511,
-      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -798,35 +693,13 @@
     },
     {
       "source": "BBC World",
-      "title": "Seoul memperingatkan 'tindakan lebih lanjut' jika Ukraina tidak meminta maaf atas pertikaian tawanan perang",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss",
-      "summary": "President Lee Jae Myung also accused Kyiv of \"attempting to provoke a war on the Korean Peninsula\".",
-      "published": "02 Oct 2026 10:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.966,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "'Saya tidak akan membiarkan orang lain mati' - pilot penerbangan Flydubai menggambarkan serangan kokpit oleh co-pilot",
-      "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
-      "summary": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
-      "published": "02 Oct 2026 16:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.958,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Ethiopia dan Eritrea memutuskan hubungan diplomatik ketika konflik di wilayah utara meningkat",
-      "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
-      "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
-      "published": "02 Oct 2026 23:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.938,
-      "emoji": "🔴",
+      "title": "Wanita diberi celana pendek di Oktoberfest untuk mencegah bagian dalam rok",
+      "url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
+      "summary": "The step at the Munich festival comes after thousands of voyeuristic videos emerged on social media.",
+      "published": "03 Oct 2026 06:16 WIB",
+      "sentiment": "Bullish",
+      "score": 0.511,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -852,15 +725,15 @@
       "impact": "medium"
     },
     {
-      "source": "BBC Business",
-      "title": "AS menekan Eropa untuk melepaskan cadangan solar karena Trump mengancam larangan ekspor",
-      "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
-      "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
-      "published": "02 Oct 2026 15:54 WIB",
+      "source": "BBC Top Stories",
+      "title": "'Bom pajak lagi?' dan 'Target rencana teror'",
+      "url": "https://www.bbc.co.uk/news/articles/cwjdmk479mr1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Several of today's papers feature Andy Burnham's latest plans as PM, including experts warning of a potential tax rise to help cover his social care plan.",
+      "published": "04 Oct 2026 06:49 WIB",
       "sentiment": "Bearish",
-      "score": -0.912,
+      "score": -0.054,
       "emoji": "🔴",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "source": "BBC Top Stories",
@@ -874,103 +747,136 @@
       "impact": "low"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Mengapa ribuan pasangan memilih Skotlandia untuk mengatakan 'Saya bersedia'",
-      "url": "https://www.bbc.co.uk/news/articles/c3y0zdj8jlxeo?at_medium=RSS&at_campaign=rss",
-      "summary": "A quarter of all marriages in Scotland involve couples who don't live here but see it as the ultimate wedding destination.",
-      "published": "03 Oct 2026 08:43 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "Al Jazeera",
+      "title": "Kandidat AS yang didukung Pelosi menyerukan ‘embargo senjata penuh’ terhadap Israel",
+      "url": "https://www.aljazeera.com/news/2026/10/3/pelosi-backed-us-candidate-calls-for-full-arms-embargo-on-israel?traffic_source=rss",
+      "summary": "Connie Chan, endorsed by Nancy Pelosi to succeed her in California, says she will vote to 'end a genocide in Gaza'.",
+      "published": "04 Oct 2026 05:43 WIB",
+      "sentiment": "Bullish",
+      "score": 0.637,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Apakah krisis perumahan di Spanyol akan menyebabkan pemilu dipercepat?",
-      "url": "https://www.bbc.co.uk/news/videos/cmgj9vz2zxelo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC's Guy Hedgecoe is in Madrid, where a series of marches have been scheduled, after Spain's Congress rejected measures aimed at tackling the country's housing crisis.",
-      "published": "03 Oct 2026 19:26 WIB",
+      "source": "Al Jazeera",
+      "title": "Pemukim Israel menyerang petani Palestina saat panen zaitun",
+      "url": "https://www.aljazeera.com/video/2026/10/3/israeli-settlers-attack-palestinian-farmers-during-olive-harvest-2?traffic_source=rss",
+      "summary": "Israeli settlers attack Palestinian farmers during olive harvest",
+      "published": "04 Oct 2026 04:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.99,
+      "score": -0.815,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Sisa-sisa Czar Samuel dari Bulgaria kembali ke ‘rumah’ setelah 1.000 tahun",
+      "url": "https://www.aljazeera.com/news/2026/10/3/remains-of-bulgarias-czar-samuel-return-home-after-1000-years?traffic_source=rss",
+      "summary": "The emperor is a symbol of Bulgarian national identity whose repatriation stoked tensions with Greece.",
+      "published": "04 Oct 2026 02:14 WIB",
+      "sentiment": "Bearish",
+      "score": -0.482,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apakah CJP mengubah lanskap politik India?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/3/is-the-cjp-changing-indias-political-landscape?traffic_source=rss",
+      "summary": "Youth-led movement demands resignation of chief election commissioner.",
+      "published": "04 Oct 2026 02:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.376,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "Apa yang perlu diketahui tentang pemilihan presiden Brasil tahun 2026",
-      "url": "https://www.aljazeera.com/news/2026/10/3/what-to-know-about-brazils-2026-presidential-election?traffic_source=rss",
-      "summary": "Polls show tight race between incumbent Lula and right-wing rival Flavio Bolsonaro amid concerns over crime and economy.",
-      "published": "03 Oct 2026 21:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.542,
-      "emoji": "🔴",
-      "impact": "medium"
+      "title": "Fernandes memuji Ronaldo dan menyerukan persatuan Portugal menjelang pertandingan Norwegia",
+      "url": "https://www.aljazeera.com/sports/2026/10/3/fernandes-hails-ronaldo-and-calls-for-portugal-unity-ahead-of-norway-game?traffic_source=rss",
+      "summary": "Cristiano Ronaldo withdrew from the Portugal squad, but Bruno Fernandes says forward remains team's 'greatest symbol'.",
+      "published": "04 Oct 2026 01:23 WIB",
+      "sentiment": "Bullish",
+      "score": 0.698,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Standar ganda pemilu Israel: Pemimpin Arab dipaksa mundur, sayap kanan disingkirkan",
-      "url": "https://www.aljazeera.com/news/2026/10/3/israel-election-double-standard-arab-leader-forced-out-far-right-cleared?traffic_source=rss",
-      "summary": "Palestinian Israeli leader forced to withdraw candidature while far-right Israeli leaders allowed to run in polls.",
-      "published": "03 Oct 2026 21:06 WIB",
+      "title": "Aljazair mengirim jet tempur ke Niger untuk menggagalkan ‘upaya kudeta’, kata presiden",
+      "url": "https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says?traffic_source=rss",
+      "summary": "President Abdelmadjid Tebboune says Algiers deployed warplanes to Niamey in late August following an attack by mutineers.",
+      "published": "04 Oct 2026 01:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.681,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Militer Inggris di Kenya: Tuduhan, kekebalan dan perjuangan untuk keadilan",
-      "url": "https://www.aljazeera.com/features/longform/2026/10/3/britains-military-in-kenya-allegations-immunity-and-a-fight-for-justice?traffic_source=rss",
-      "summary": "Kenyan survivors are challenging the UK military over decades of alleged abuses — and the immunity that has shielded it.",
-      "published": "03 Oct 2026 20:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.296,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pasukan pemerintah Ethiopia maju ke Tigray ketika pemberontak mundur: Apa yang perlu diketahui",
-      "url": "https://www.aljazeera.com/news/2026/10/3/ethiopian-govt-forces-advance-in-tigray-as-rebels-retreat-what-to-know?traffic_source=rss",
-      "summary": "Military, pro-government forces recapture airport in Tigray's capital as fighting also rages in Amhara and Afar regions.",
-      "published": "03 Oct 2026 20:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.681,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Lima orang tewas saat serangan dagang Kyiv dan Moskow, Rusia mencapai jembatan kedua",
-      "url": "https://www.aljazeera.com/news/2026/10/3/five-killed-as-kyiv-and-moscow-trade-strikes-russia-hits-second-bridge?traffic_source=rss",
-      "summary": "Russia has also attacked another key bridge in Kyiv, the second such strike in two days.",
-      "published": "03 Oct 2026 19:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.968,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pemukim Israel menyerang petani di pogrom Tepi Barat, tentara menyerang wartawan",
-      "url": "https://www.aljazeera.com/news/2026/10/3/israeli-settlers-attack-palestinian-olive-pickers-in-the-west-bank?traffic_source=rss",
-      "summary": "Israeli forces detain and assault journalists in Jabal Qamass area in Beita, south of Nablus.",
-      "published": "03 Oct 2026 19:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.946,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "G7 akan melepaskan 100 juta barel minyak dan solar, apakah akan membatasi harga?",
-      "url": "https://www.aljazeera.com/news/2026/10/3/g7-to-release-100-million-barrels-of-oil-and-diesel-will-it-curb-prices?traffic_source=rss",
-      "summary": "Global energy prices have soared due to the US and Israel's war on Iran and Russia's war on Ukraine.",
-      "published": "03 Oct 2026 16:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.852,
+      "score": -0.521,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "'Serangan verbal' reporter Israel mengakhiri konferensi pers sepak bola Irlandia",
+      "url": "https://www.aljazeera.com/sports/2026/10/3/israeli-reporters-verbal-attack-ends-ireland-football-news-conference?traffic_source=rss",
+      "summary": "Israeli journalists asked coach Hallgrimsson about the Flydubai attack and alleged racist abuse by Ireland's players.",
+      "published": "04 Oct 2026 00:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.986,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Jerusalem Daily: UEA mengatakan kopilot Flydubai mencoba melakukan serangan 'teroris'",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/jerusalem-daily-uae-says-flydubai-co-pilot-attempted-terrorist-attack?traffic_source=rss",
+      "summary": "Jerusalem Daily: UAE says Flydubai co-pilot attempted ‘terrorist’ attack",
+      "published": "03 Oct 2026 23:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.815,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Serangan verbal’ wartawan Israel mempersingkat konferensi pers Irlandia",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/israeli-reporters-verbal-attack-cuts-short-ireland-press-conference?traffic_source=rss",
+      "summary": "Israeli reporters’ ‘verbal attack’ cuts short Ireland press conference",
+      "published": "03 Oct 2026 23:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.607,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apa yang kita ketahui tentang kopilot yang dituduh melakukan serangan Flydubai",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/what-we-know-about-the-co-pilot-accused-in-flydubai-attack?traffic_source=rss",
+      "summary": "The co-pilot accused of attacking a Flydubai captain has reportedly been identified as Hamam al-Hammami.",
+      "published": "03 Oct 2026 22:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.939,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Pasar kerja yang sulit mendorong lebih banyak generasi muda Amerika untuk bertaruh besar: pada diri mereka sendiri",
+      "url": "https://www.marketwatch.com/story/a-tough-job-market-is-pushing-more-young-americans-to-make-a-big-bet-on-themselves-1aaddeca?mod=mw_rss_topstories",
+      "summary": "There has been a rise in entrepreneurship among young Americans as the entry-level labor market has become tougher to join.",
+      "published": "04 Oct 2026 00:24 WIB",
+      "sentiment": "Bullish",
+      "score": 0.34,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Beralih pekerjaan untuk mendapatkan gaji yang lebih tinggi merupakan cara terbaik dalam industri ini",
+      "url": "https://www.marketwatch.com/story/the-best-industry-to-change-jobs-to-get-paid-more-money-and-the-worst-ae33a3a7?mod=mw_rss_topstories",
+      "summary": "Finding a new job is one way to get a pay increase at a time when inflation has been outpacing wage growth.",
+      "published": "03 Oct 2026 23:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.887,
+      "emoji": "🟢",
+      "impact": "medium"
     },
     {
       "source": "CNBC Forex",
@@ -1058,39 +964,6 @@
       "sentiment": "Bearish",
       "score": -0.729,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Perang, minyak senilai $100, dan aksi jual obligasi mengubah pasar pada kuartal ketiga",
-      "url": "https://www.cnbc.com/2026/10/01/q3-markets-stocks-oil-iran-war.html",
-      "summary": "The third quarter was notably volatile, particularly for stocks and bonds.",
-      "published": "02 Oct 2026 12:29 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Pembalikan Brexit akan terjadi 10 tahun setelah pemungutan suara yang mengubah Inggris. Inilah yang dipertaruhkan",
-      "url": "https://www.cnbc.com/2026/10/02/brexit-uk-rejoin-eu-referendum.html",
-      "summary": "Britain voted to leave the European Union in 2016.",
-      "published": "02 Oct 2026 12:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.052,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Saham Tesla melonjak 5% karena laporan pengiriman kendaraan yang lebih baik dari perkiraan",
-      "url": "https://www.cnbc.com/2026/10/02/tesla-tsla-q3-2026-vehicle-delivery-production.html",
-      "summary": "Tesla's core autos business is under pressure as Chinese and European carmakers roll out affordable and innovative EVs.",
-      "published": "03 Oct 2026 00:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.178,
-      "emoji": "🟢",
       "impact": "low"
     }
   ]
