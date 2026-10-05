@@ -1,68 +1,156 @@
 {
-  "generated": "04 Oct 2026 22:01 WIB",
+  "generated": "05 Oct 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.057,
-      "count": 14
-    },
-    {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.199,
-      "count": 12
+      "score": -0.416,
+      "count": 21
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.223,
-      "count": 10
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Netral →",
-      "score": -0.038,
-      "count": 10
+      "score": -0.433,
+      "count": 20
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.368,
-      "count": 6
+      "score": -0.435,
+      "count": 17
     },
     {
-      "pair": "EUR",
+      "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.364,
+      "score": -0.172,
+      "count": 15
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.108,
+      "count": 10
+    },
+    {
+      "pair": "CAD/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.194,
       "count": 2
     },
     {
-      "pair": "GBP",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.364,
+      "pair": "NOK/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.194,
       "count": 2
     },
     {
-      "pair": "JPY",
+      "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.364,
+      "score": -0.12,
       "count": 2
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Intel stock outlook: A failed rebound raises questions for traders and shareholders",
-      "url": "https://investinglive.com/stocks/intel-stock-outlook-a-failed-rebound-raises-questions-for-traders-and-shareholders/",
-      "summary": "Intel stock’s September recovery remains partly intact, but Friday’s failed rebound raises a warning INTC weakened while the broader technology benchmark strengthened. For traders considering an entry and shareholders weighing partial profit-taking, the next question is whether nearby support holds ",
-      "published": "03 Oct 2026 13:24 WIB",
+      "title": "Australia's Chalmers calls Iran war an economic disaster, says rising yields will cost billions",
+      "url": "https://investinglive.com/news/australia-s-chalmers-calls-iran-war-an-economic-disaster-says-rising-yields-will-cost-billions/",
+      "summary": "Chalmers's warning on debt servicing costs puts the spotlight on the global rise in bond yields, which is now feeding directly into government budget arithmetic. That keeps fiscal supply and credit concerns on the radar for Australian government bonds ahead of the mid-year update. His focus on energ",
+      "published": "05 Oct 2026 05:57 WIB",
       "sentiment": "Bearish",
-      "score": -0.631,
+      "score": -1.0,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran accuses Washington of sending secret peace proposals while talking tough in public",
+      "url": "https://investinglive.com/commodities/iran-accuses-washington-of-sending-secret-peace-proposals-while-talking-tough-in-public/",
+      "summary": "If confirmed, the remarks are negative for any near-term supply relief, as they tie the reopening of Hormuz to conditions Washington has shown no sign of accepting. That supports the war-risk premium in crude, especially in prompt Brent spreads. The threat of military \"surprises\" adds tail risk to G",
+      "published": "05 Oct 2026 05:36 WIB",
+      "sentiment": "Bearish",
+      "score": -0.732,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Weekend: OPEC+ holds November output steady with core members 5 million bpd below prewar levels",
+      "url": "https://investinglive.com/commodities/weekend-opec-holds-november-output-steady-with-core-members-5-million-bpd-below-prewar-levels/",
+      "summary": "The rollover keeps the supply picture unchanged, and that picture is tight. Brent is still above $100 a barrel, up from about $73 before the war began in late February. Friday's dip on Europe's agreement to release diesel reserves at Washington's request looks like relief, not a turn in the trend. W",
+      "published": "05 Oct 2026 04:35 WIB",
+      "sentiment": "Bullish",
+      "score": 0.25,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "French stock market says 'au revoir'",
+      "url": "https://investinglive.com/stocks/french-stock-market-says-au-revoir/",
+      "summary": "France is becoming Europe’s new fiscal stress test: what it means for bonds, EUR/USD and the CAC 40 France is no longer being treated by markets as an unquestionably \"core\" European sovereign. The clearest warning is coming from government bonds: investors are demanding a larger premium to lend to F",
+      "published": "05 Oct 2026 03:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.948,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "All B-1 bombers returning to U.S. from U.K. base (not what you think)",
+      "url": "https://investinglive.com/commodities/all-b-1-bombers-returning-to-u-s-from-u-k-base-not-what-you-think/",
+      "summary": "For oil, the move is a reminder that the Iran conflict now reaches allied military infrastructure in Europe. That keeps geopolitical risk elevated in crude pricing even with no direct supply disruption. Relocating the bombers to the continental US doesn't reduce Washington's strike capacity, so trad",
+      "published": "05 Oct 2026 03:04 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "FXStreet News",
+      "title": "Middle East War updates: Iran says Strait of Hormuz main focus of talks to end war with US",
+      "url": "https://www.fxstreet.com/news/middle-east-war-updates-iran-says-strait-of-hormuz-main-focus-of-talks-to-end-war-with-us-202610042238",
+      "summary": "Here’s a brief recap of the key developments in the Middle East war that occurred over the weekend, which are expected to have a significant impact on markets in the upcoming week.",
+      "published": "05 Oct 2026 05:38 WIB",
+      "sentiment": "Bearish",
+      "score": -0.978,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Schneider Electric close to $20 bln deal of U.S. software maker PTC - report",
+      "url": "https://www.investing.com/news/stock-market-news/schneider-electric-close-to-20-bln-deal-of-us-software-maker-ptc--report-4930953",
+      "summary": "",
+      "published": "05 Oct 2026 03:28 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "France’s Schneider Electric nears $20 billion deal to buy US software group PTC, FT reports",
+      "url": "https://www.investing.com/news/stock-market-news/frances-schneider-electric-nears-20-billion-deal-to-buy-us-software-group-ptc-ft-reports-4930950",
+      "summary": "",
+      "published": "05 Oct 2026 02:49 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Schneider Said to Near Deal to Buy PTC for More Than $20 Billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-04/schneider-said-to-near-deal-to-buy-ptc-for-more-than-20-billion",
+      "summary": "Schneider Electric SE is nearing a deal to acquire US-based engineering software developer PTC Inc. for more than $20 billion, according to a source familiar with the matter.",
+      "published": "05 Oct 2026 03:47 WIB",
+      "sentiment": "Netral",
+      "score": 0.026,
+      "emoji": "⚪",
       "impact": "high"
     },
     {
@@ -143,39 +231,6 @@
       "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Lula, Bolsonaro in Tight Race as Brazil Prepares to Vote",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-03/lula-bolsonaro-in-dead-heat-as-brazil-prepares-to-vote",
-      "summary": "President Luiz Inácio Lula da Silva and right-wing challenger Flávio Bolsonaro remain locked in a tight race as Brazil prepares to vote in Sunday’s election, according to three new polls.",
-      "published": "04 Oct 2026 05:35 WIB",
-      "sentiment": "Bullish",
-      "score": 0.128,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Mexico Says Its Troops Sent to Border in Conjunction With US",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-03/mexico-says-its-troops-sent-to-border-in-conjunction-with-us",
-      "summary": "The US and Mexico have jointly deployed military personnel in a border area in Texas as part of “mirror operations,” the Mexican government said Saturday.",
-      "published": "04 Oct 2026 06:24 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "UAE Probe Labels FlyDubai Cockpit Ax Attack a Terrorist Act",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-03/uae-says-flydubai-co-pilot-planned-terrorist-operation",
-      "summary": "A United Arab Emirates investigation of the near-catastrophic FlyDubai flight said the co-pilot attempted “to carry out a terrorist act” as more details emerged about what happened in the cockpit.",
-      "published": "03 Oct 2026 14:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.973,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC World",
       "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
       "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
@@ -188,14 +243,36 @@
     },
     {
       "source": "BBC World",
-      "title": "Yemen announces military campaign to reclaim land from Iran-backed Houthis",
+      "title": "Yemen's government announces all-out war to reclaim land from Houthis",
       "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
       "summary": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
-      "published": "04 Oct 2026 21:24 WIB",
+      "published": "04 Oct 2026 23:51 WIB",
       "sentiment": "Bearish",
-      "score": -0.361,
+      "score": -0.831,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Polls close in Brazil as Lula and Flávio Bolsonaro remain neck and neck",
+      "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
+      "summary": "If no candidate gets more than 50% of the vote, the election will go to a run-off on 25 October.",
+      "published": "05 Oct 2026 06:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "Indian police accused of sexually harassing journalists at protest",
+      "url": "https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The allegations were made after police detained dozens of protesters demanding the resignation of the election chief over changes to voter rolls.",
+      "published": "05 Oct 2026 00:01 WIB",
+      "sentiment": "Bearish",
+      "score": -0.925,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -210,23 +287,23 @@
     },
     {
       "source": "BBC World",
-      "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
+      "title": "What to know about Brazil's election as Lula and Flávio Bolsonaro face off",
       "url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
       "summary": "Polls suggest the election will be a closely run contest between the left-wing incumbent and his right-wing rival.",
-      "published": "04 Oct 2026 18:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
+      "published": "05 Oct 2026 03:14 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "medium"
     },
     {
       "source": "BBC World",
-      "title": "Why Canada is preparing for a (long shot) US invasion",
+      "title": "Why Canada is wargaming a (long shot) US invasion",
       "url": "https://www.bbc.co.uk/news/articles/c9m2mjj3yvg4o?at_medium=RSS&at_campaign=rss",
       "summary": "Prime Minister Mark Carney has said the military is running scenarios in the unlikely case the US invades Canada.",
       "published": "04 Oct 2026 06:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.16,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -253,17 +330,6 @@
       "impact": "medium"
     },
     {
-      "source": "BBC Business",
-      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-      "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-      "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
-      "published": "03 Oct 2026 11:38 WIB",
-      "sentiment": "Bearish",
-      "score": -0.856,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC Top Stories",
       "title": "Why Canada is preparing for an unlikely US invasion",
       "url": "https://www.bbc.co.uk/news/articles/c9m2mjj3yvg4o?at_medium=RSS&at_campaign=rss",
@@ -276,54 +342,21 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Dodik declared Bosnia ‘dead’. Irrelevant rhetoric or serious threat?",
-      "url": "https://www.aljazeera.com/news/2026/10/4/dodik-declared-bosnia-dead-irrelevant-rhetoric-or-serious-threat?traffic_source=rss",
-      "summary": "Bosnian Serb leader's controversial comments ahead of Bosnia and Herzegovina's high-stakes elections.",
-      "published": "04 Oct 2026 21:21 WIB",
+      "title": "US withdraws B-1 bomber aircraft from UK’s Fairford base amid Iran fears",
+      "url": "https://www.aljazeera.com/news/2026/10/4/us-withdraws-b-1-bomber-aircraft-from-uks-fairford-base-amid-iran-fears?traffic_source=rss",
+      "summary": "The abrupt redeployment to the US comes after several 'terrorism-related' arrests were made outside RAF Fairford.",
+      "published": "05 Oct 2026 05:23 WIB",
       "sentiment": "Bearish",
-      "score": -0.67,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "How was Flydubai co-pilot cleared despite being deemed a security risk?",
-      "url": "https://www.aljazeera.com/news/2026/10/4/how-was-flydubai-co-pilot-cleared-despite-being-deemed-a-security-risk?traffic_source=rss",
-      "summary": "Aviation security protocols under scrutiny after co-pilot accused of attempted axe attack aboard Flydubai flight.",
-      "published": "04 Oct 2026 20:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.521,
+      "score": -0.691,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "What are the five questions being asked regarding the Flydubai attack?",
-      "url": "https://www.aljazeera.com/news/2026/10/4/what-are-the-five-questions-being-asked-regarding-the-flydubai-attack?traffic_source=rss",
-      "summary": "As investigations are conducted, official versions of the incident have come under scrutiny.",
-      "published": "04 Oct 2026 20:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.557,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Yemen’s leader announces military operation to retake Houthi-held territory",
-      "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory?traffic_source=rss",
-      "summary": "Rashad al-Alimi says the campaign aims to restore state authority throughout Yemen.",
-      "published": "04 Oct 2026 19:48 WIB",
-      "sentiment": "Bullish",
-      "score": 0.361,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro",
-      "url": "https://www.aljazeera.com/news/2026/10/4/brazil-votes-in-deeply-polarised-election-pitting-lula-against-bolsonaro?traffic_source=rss",
-      "summary": "Close race expected as left-wing leader Lula seeks fourth nonconsecutive term against right-wing Flavio Bolsonaro.",
-      "published": "04 Oct 2026 18:15 WIB",
+      "title": "Brazil election results live: Lula and Bolsonaro locked in a tight race",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-election-results-live-lula-and-bolsonaro-locked-in-a-tight-race?traffic_source=rss",
+      "summary": "Leftist incumbent Lula is seeking a fourth term in office, facing off against right-wing Senator Flavio Bolsonaro.",
+      "published": "05 Oct 2026 03:00 WIB",
       "sentiment": "Bullish",
       "score": 0.08,
       "emoji": "🟢",
@@ -331,56 +364,56 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran says Hormuz to remain closed until US meets conditions",
-      "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions?traffic_source=rss",
-      "summary": "Tehran says reopening Strait of Hormuz has been its main goal, while the US continues to focus on nuclear talks.",
-      "published": "04 Oct 2026 18:11 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws",
-      "url": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels?traffic_source=rss",
-      "summary": "Federal troops and allied fighters seen in control of the city after capturing main regional airport.",
-      "published": "04 Oct 2026 18:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.052,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Russia’s nuclear plants are ageing. Who will pay to dismantle them?",
-      "url": "https://www.aljazeera.com/opinions/2026/10/4/russias-nuclear-plants-are-ageing-who-will-pay-to-dismantle-them?traffic_source=rss",
-      "summary": "Moscow faces a huge decommissioning bill at home even as it expands its nuclear industry abroad.",
-      "published": "04 Oct 2026 17:44 WIB",
+      "title": "Imran Khan’s party launches march to Islamabad demanding his release",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/imran-khans-party-launches-march-to-islamabad-demanding-his-release?traffic_source=rss",
+      "summary": "Supporters of jailed former Pakistani prime minister Imran Khan have launched a long march towards Islamabad.",
+      "published": "05 Oct 2026 02:53 WIB",
       "sentiment": "Bullish",
-      "score": 0.238,
+      "score": 0.17,
       "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Netanyahu’s fight to own the election narrative",
-      "url": "https://www.aljazeera.com/video/the-listening-post/2026/10/4/netanyahus-fight-to-own-the-election-narrative?traffic_source=rss",
-      "summary": "What did Netanyahu know about October 7 before it happened?",
-      "published": "04 Oct 2026 17:05 WIB",
+      "title": "Will elections bring change to multi-ethnic Bosnia and Herzegovina?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/4/will-elections-bring-change-to-multi-ethnic-bosnia-and-herzegovina?traffic_source=rss",
+      "summary": "Balkan nation seeks EU membership, but divisions threaten that goal.",
+      "published": "05 Oct 2026 02:46 WIB",
       "sentiment": "Bearish",
-      "score": -0.382,
+      "score": -0.527,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "Brazil elections live: Lula faces Bolsonaro in close presidential race",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-elections-live-voters-head-to-polls-for-close-presidential-race?traffic_source=rss",
-      "summary": "Voting is underway in Brazil as Lula seeks a historic fourth term, facing a strong challenge from Flavio Bolsonaro.",
-      "published": "04 Oct 2026 17:00 WIB",
+      "title": "Pro-Imran Khan mass rally launched after Pakistan government talks fail",
+      "url": "https://www.aljazeera.com/news/2026/10/4/pro-imran-khan-mass-rally-launched-after-pakistan-government-talks-fail?traffic_source=rss",
+      "summary": "Supporters of jailed former prime minister have set off from northwest Pakistan towards Islamabad.",
+      "published": "05 Oct 2026 02:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.511,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "War on Iran: Is escalation more likely than a deal?",
+      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/10/4/war-on-iran-is-escalation-more-likely-than-a-deal-2?traffic_source=rss",
+      "summary": "Former Iranian and US diplomats agree that the war on Iran is likely to get worse in the coming weeks.",
+      "published": "05 Oct 2026 01:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.935,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Ku Klux Klan leader claims rising support ahead of US midterm elections",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ku-klux-klan-leader-claims-rising-support-ahead-of-us-midterm-elections?traffic_source=rss",
+      "summary": "The Ku Klux Klan says support for its message is growing as it seeks to rebrand around family and faith.",
+      "published": "05 Oct 2026 01:34 WIB",
       "sentiment": "Bullish",
-      "score": 0.637,
+      "score": 0.836,
       "emoji": "🟢",
       "impact": "medium"
     },
@@ -396,24 +429,13 @@
       "impact": "medium"
     },
     {
-      "source": "CNBC Economy",
-      "title": "High-tech vehicles are driving up auto repair costs for shops and consumers",
-      "url": "https://www.cnbc.com/2026/10/03/vehicle-repair-costs.html",
-      "summary": "Investments in ADAS calibration equipment, computers and software subscriptions can drive up the cost of even a windshield replacement or an oil change.",
-      "published": "03 Oct 2026 19:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "CNBC World",
-      "title": "More tankers struck in the Middle East as Iran reiterates conditions for reopening the Strait of Hormuz",
+      "title": "All U.S. bombers leave UK air base on concerns of suspected terror plots; more tankers struck near Iran in the Middle East",
       "url": "https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html",
       "summary": "Tehran's conditions include a halt to U.S. \"acts of aggression,\" an end to the naval blockade and economic warfare, and the release of Iranian assets.",
-      "published": "04 Oct 2026 19:35 WIB",
+      "published": "05 Oct 2026 04:46 WIB",
       "sentiment": "Bearish",
-      "score": -0.69,
+      "score": -0.938,
       "emoji": "🔴",
       "impact": "high"
     },
