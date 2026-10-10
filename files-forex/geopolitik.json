@@ -1,59 +1,70 @@
 {
-  "generated": "10 Oct 2026 07:03 WIB",
+  "generated": "10 Oct 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.127,
-      "count": 23
-    },
-    {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.127,
-      "count": 23
+      "score": -0.075,
+      "count": 22
+    },
+    {
+      "pair": "USD/JPY",
+      "direction": "Netral →",
+      "score": -0.043,
+      "count": 20
     },
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.074,
-      "count": 21
+      "direction": "Netral →",
+      "score": -0.02,
+      "count": 19
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.15,
-      "count": 12
+      "score": -0.325,
+      "count": 10
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.314,
+      "count": 5
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.264,
-      "count": 4
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Netral →",
-      "score": 0.036,
-      "count": 4
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Netral →",
-      "score": 0.021,
+      "score": -0.097,
       "count": 3
     },
     {
-      "pair": "NOK/SEK",
-      "direction": "Netral →",
-      "score": 0.021,
-      "count": 3
+      "pair": "EUR",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.062,
+      "count": 2
+    },
+    {
+      "pair": "USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.062,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Stok alkohol: tawar-menawar, jebakan nilai, dan perubahan kebiasaan minum",
+      "url": "https://investinglive.com/stocks/alcohol-stocks-bargains-value-traps-and-changing-drinking-habits/",
+      "summary": "Alcohol stocks after the selloff: why a 70% fall is not an investment thesis Analysis as of October 10, 2026. Share-price comparisons use U.S. regular-session closing prices through October 9, 2026, in U.S. dollars. Alcohol stocks can look tempting after a steep selloff, but the largest fall has not",
+      "published": "10 Oct 2026 18:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.539,
+      "emoji": "🟢",
+      "impact": "low"
+    },
     {
       "source": "ForexLive",
       "title": "investBerita Live Americas FX penutup 9 Okt: Selesai: Saham rebound meskipun sentimen lemah; Dolar Kanada jatuh karena hilangnya lapangan kerja",
@@ -78,7 +89,7 @@
     },
     {
       "source": "ForexLive",
-      "title": "Minggu ini kita mendapat gambaran sekilas tentang pedoman kapan gelembung AI meledak",
+      "title": "Minggu ini kita mendapatkan gambaran sekilas tentang pedoman kapan gelembung AI meledak",
       "url": "https://investinglive.com/forex/this-week-we-got-a-sneak-peak-at-the-playbook-for-when-the-ai-bubble-bursts/",
       "summary": "It wasn't a big week in financial markets. When you upwrap it, Fed pricing has been flat and major indexes chopped sideways. The Iran war continues with the usual threats, but we did get a promise from Trump not to attack before the midterms. How credible that promise is might be up for debate. Late",
       "published": "10 Oct 2026 01:42 WIB",
@@ -176,48 +187,59 @@
       "impact": "high"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Qualcomm dan juri Arm akan kembali minggu depan setelah musyawarah dalam kasus perselisihan kontrak",
-      "url": "https://www.investing.com/news/stock-market-news/qualcomm-and-arm-set-for-jury-verdict-in-contract-breach-feud-4941018",
-      "summary": "",
-      "published": "10 Oct 2026 04:42 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Menyeimbangkan Keyakinan dan Risiko: Magister Bisnis bersama Maria Vassalou",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-09/masters-in-business-with-barry-ritholtz-video",
+      "summary": "Barry speaks with Maria Vassalou, Head of the Pictet Research Institute. They discuss her research into global markets, and how they balance geopolitical risk. They also discuss China's growth as a technical innovator, and the risks to US debt. Finally, Barry and Maria discuss the differences betwee",
+      "published": "10 Oct 2026 04:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.402,
+      "score": -0.637,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ancaman Nirkabel SpaceX Meningkat Dengan Kesepakatan Spektrum",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-09/spacex-s-wireless-threat-rises-with-spectrum-deal-video",
-      "summary": "SpaceX investors are finally getting some reprieve after months of being whipsawed by volatility as the Elon Musk-led company’s stock breaks above the level it’s been stuck below since July. SpaceX is closing in on a crucial swath of spectrum needed to turn the rocket, satellite and AI company into ",
-      "published": "10 Oct 2026 04:25 WIB",
+      "title": "Pencurian di Restoran Menambah Biaya Makan yang Meningkat",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-10/restaurant-theft-adds-to-rising-dining-costs-video",
+      "summary": "Bloomberg Pursuits Food Editor Kate Krader tells Bloomberg This Weekend that diners are taking everything from silverware and glassware to artwork and bathroom fixtures, adding replacement costs for restaurants already struggling with tight profit margins. Speaking with hosts David Gura and Christin",
+      "published": "10 Oct 2026 21:26 WIB",
       "sentiment": "Bearish",
-      "score": -0.44,
+      "score": -0.054,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Dolar Mencatat Kenaikan Beruntun Terpanjang Sejak Awal 2025",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-09/dollar-s-longest-winning-streak-since-early-2025-keeps-going",
-      "summary": "The dollar rally is forging ahead as soaring oil prices weigh on currencies of energy importing nations and global inflation fears persist.",
-      "published": "09 Oct 2026 15:05 WIB",
+      "title": "Kesepakatan Diesel Rusia Trump Menimbulkan Kritik dari Ukraina",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-10/trump-s-russian-diesel-deal-draws-ukraine-criticism-video",
+      "summary": "Atlantic National Security Staff Writer Nancy Youssef tells Bloomberg This Weekend that President Donald Trump's agreement to import Russian diesel could provide limited relief from high fuel prices while potentially increasing Moscow's revenue as it continues its war in Ukraine. Speaking with hosts",
+      "published": "10 Oct 2026 19:32 WIB",
       "sentiment": "Bearish",
-      "score": -0.098,
+      "score": -0.361,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Guncangan Suku Bunga Wall Street Menyebar Di Bawah Reli Pasar yang Dipicu AI",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-09/wall-street-s-rate-shock-spreads-beneath-ai-fueled-market-rally",
-      "summary": "The AI-fueled resilience of the world’s most-watched stock indexes is masking a widening retreat across financial markets, as elevated oil prices and borrowing costs take their toll.",
-      "published": "10 Oct 2026 03:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.122,
-      "emoji": "🔴",
-      "impact": "low"
+      "title": "India Mengumumkan Langkah Darurat untuk Mendukung Anjloknya Mata Uang",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/rbi-announces-special-oil-window-regulatory-steps-for-rupee",
+      "summary": "India’s central bank rolled out a series of measures to support the sliding rupee in its strongest action since the country’s currency crisis in 2013.",
+      "published": "10 Oct 2026 10:14 WIB",
+      "sentiment": "Bullish",
+      "score": 0.128,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Australia Mengatakan Tidak Membutuhkan Bahan Bakar Rusia Setelah Kebijakan Trump Diesel",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/australia-says-doesn-t-need-russian-fuel-after-trump-diesel-move",
+      "summary": "Australia has no need to buy fuel from Russia and said that purchases from there will remain barred so that the country doesn’t benefit from the invasion of Ukraine.",
+      "published": "10 Oct 2026 09:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.122,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "Google News Geopolitik",
@@ -232,25 +254,58 @@
     },
     {
       "source": "BBC World",
-      "title": "Trump mengumumkan kesepakatan untuk diesel Rusia ketika Zelensky mengkritik 'hadiah untuk Putin'",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine's president said allowing Russia to sell petroleum products would prolong a war that must be ended.",
-      "published": "10 Oct 2026 04:54 WIB",
+      "title": "Pemimpin kelompok 'Kecoa' di antara ratusan orang yang ditahan dalam protes di Delhi",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
+      "summary": "The group - who are not registered as a political party in India - want electoral reforms ahead of crucial state elections.",
+      "published": "10 Oct 2026 19:29 WIB",
       "sentiment": "Bearish",
-      "score": -0.511,
+      "score": -0.178,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "Serangan bom luncur Rusia di Zaporizhzhia menewaskan sedikitnya 15 orang",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
+      "published": "10 Oct 2026 21:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.936,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Trump mengumumkan kesepakatan untuk diesel Rusia karena Zelensky menyebutnya sebagai hadiah untuk Putin",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+      "published": "10 Oct 2026 21:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.586,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC World",
-      "title": "AS mengumumkan sanksi terhadap ICC dalam tindakan yang dikecam pengadilan sebagai 'serangan terhadap supremasi hukum'",
-      "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Several member states of the international tribunal, including the UK, say they \"strongly disagree\" with the sanctions.",
-      "published": "10 Oct 2026 01:40 WIB",
+      "title": "Analisis: Kesepakatan Trump yang mengejutkan dengan Rusia menyoroti meningkatnya tekanan untuk mengekang harga bahan bakar",
+      "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
+      "published": "10 Oct 2026 05:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.823,
+      "score": -0.341,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "Seorang wanita melukai tiga orang dalam serangan pisau sekolah ketiga di Polandia dalam seminggu",
+      "url": "https://www.bbc.co.uk/news/articles/cv8ezd246z1wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Polish police had already deployed to schools after a female caretaker was killed and several others injured in two earlier attacks in two days.",
+      "published": "10 Oct 2026 21:58 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -265,17 +320,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Gempa berkekuatan 7,7 skala Richter melanda Panama, merusak bangunan",
-      "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Tsunami warnings are issued for neighbouring countries as videos of destruction circulate online.",
-      "published": "10 Oct 2026 04:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.831,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
       "title": "Mesin pencari Rusia Yandex kesulitan setelah serangan Ukraina terhadap pusat data",
       "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
       "summary": "Often dubbed \"Russia's Google\", the tech firm admits customers may experience disruption to digital services due to the attacks.",
@@ -284,28 +328,6 @@
       "score": -0.882,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Tiga warga negara Saudi tewas dalam serangan Houthi di bandara Riyadh",
-      "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
-      "summary": "The missile attacks come amid an escalation in fighting between the Iran-backed group and Saudi Arabia, which backs Yemen's government.",
-      "published": "09 Oct 2026 20:50 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Analisis: Kesepakatan Trump yang mengejutkan dengan Rusia menyoroti meningkatnya tekanan untuk mengekang harga bahan bakar",
-      "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
-      "published": "10 Oct 2026 05:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.341,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "BBC Business",
@@ -331,177 +353,144 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Hujan akhir pekan dan sinar matahari di Inggris menjelang suhu yang lebih hangat minggu depan",
-      "url": "https://www.bbc.co.uk/weather/articles/cknv0qyv1d3po?at_medium=RSS&at_campaign=rss",
-      "summary": "With sunshine and showers forecast for the weekend, next week could see a return to some warmer temperatures but there will be gales for some.",
-      "published": "10 Oct 2026 06:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.58,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Polanski bersumpah untuk tetap menjadi pemimpin Partai Hijau saat ia menghadapi kritik setelah kekalahannya dalam pemilu sela",
-      "url": "https://www.bbc.co.uk/news/articles/cmewe5lvl2rqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jewish Greens' leader has said Polanski should resign in the wake of a Zionism row and by-election defeat.",
-      "published": "10 Oct 2026 02:26 WIB",
+      "title": "Serangan bom luncur Rusia di Zaporizhzhia menewaskan sedikitnya 15 orang termasuk tiga anak-anak",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
+      "published": "10 Oct 2026 21:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.883,
+      "score": -0.936,
       "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Tonton: Bisakah eksekusi penembak Fort Hood disiarkan langsung?",
-      "url": "https://www.bbc.co.uk/news/videos/cwn8dxrj27v1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Rules on the recording and filming of executions differ between state, federal and military regulations.",
-      "published": "10 Oct 2026 02:34 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Utusan PBB memperingatkan Yaman telah kembali ke ‘perang skala penuh’, dan mendesak dilakukannya dialog",
-      "url": "https://www.aljazeera.com/news/2026/10/9/un-envoy-warns-yemen-has-returned-to-full-scale-war-urges-dialogue?traffic_source=rss",
-      "summary": "Saudi Arabia and Yemen's internationally recognised gov't urge UN Security Council action amid Houthi escalation.",
-      "published": "10 Oct 2026 03:56 WIB",
-      "sentiment": "Bullish",
-      "score": 0.09,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Veteran hak asasi manusia Navi Pillay memenangkan Hadiah Nobel Perdamaian 2026",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/human-rights-veteran-navi-pillay-wins-2026-nobel-peace-prize?traffic_source=rss",
-      "summary": "South African jurist Navanethem Pillay has been awarded the 2026 Nobel Peace Prize for her work to promote peace.",
-      "published": "10 Oct 2026 03:29 WIB",
-      "sentiment": "Bullish",
-      "score": 0.898,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kopilot Flydubai merencanakan serangan ‘bunuh diri’ terhadap Israel, kata UEA",
-      "url": "https://www.aljazeera.com/news/2026/10/9/flydubai-co-pilot-plotted-suicide-attack-on-israel-uae-says?traffic_source=rss",
-      "summary": "Attorney General says suspect admitted he acted alone after preparing ‌‌psychologically ‌‌and physically for the attack.",
-      "published": "10 Oct 2026 03:13 WIB",
+      "source": "BBC Top Stories",
+      "title": "Larangan parade Drumcree adalah demi kepentingan perdamaian, kata Bryant",
+      "url": "https://www.bbc.co.uk/news/articles/c6z0vlg3xvz3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The decision followed a warning from the chief constable that allowing the procession to go ahead could lead to serious injury, disorder and wider unrest across Northern Ireland.",
+      "published": "10 Oct 2026 18:21 WIB",
       "sentiment": "Bearish",
-      "score": -0.92,
+      "score": -0.823,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Jerusalem Daily: Pemukim Israel menyerang petani zaitun",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+      "summary": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest.",
+      "published": "10 Oct 2026 21:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.935,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump mengumumkan kesepakatan diesel Rusia di tengah melonjaknya harga bahan bakar AS",
-      "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-      "summary": "Russia to supply 300,000 tonnes of diesel immediately, followed by 1.5 million more, as prices soar amid the Iran war.",
-      "published": "10 Oct 2026 02:47 WIB",
+      "title": "Mengapa AS memberikan sanksi kepada Pengadilan Kriminal Internasional?",
+      "url": "https://www.aljazeera.com/news/2026/10/10/why-is-the-us-sanctioning-the-international-criminal-court?traffic_source=rss",
+      "summary": "The sanctions targeting the ICC, which prosecutes humanitarian crimes, are the latest move by the US against the court.",
+      "published": "10 Oct 2026 21:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.599,
+      "score": -0.735,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Negara-negara Eropa, Kanada, Jepang dan PBB mendukung ICC terhadap sanksi AS",
-      "url": "https://www.aljazeera.com/news/2026/10/9/european-states-canada-japan-and-un-back-icc-against-us-sanctions?traffic_source=rss",
-      "summary": "Several US allies call to 'defend' and 'protect' the ICC following Washington's decision to sanction the judiciary body.",
-      "published": "10 Oct 2026 02:32 WIB",
-      "sentiment": "Bullish",
-      "score": 0.302,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Gempa Panama: Peringatan tsunami dikeluarkan setelah gempa berkekuatan 7,7 skala Richter",
-      "url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits?traffic_source=rss",
-      "summary": "Countries including Colombia, Ecuador, Nicaragua, Guatemala and Chile have received warnings after the quake.",
-      "published": "10 Oct 2026 02:22 WIB",
+      "title": "Abbas menunda pemilihan legislatif Palestina hingga September 2027",
+      "url": "https://www.aljazeera.com/news/2026/10/10/abbas-postpones-palestinian-legislative-elections-to-september-2027?traffic_source=rss",
+      "summary": "November 2026 vote delayed; joint presidential and legislative elections set for next year, president says in decree.",
+      "published": "10 Oct 2026 21:18 WIB",
       "sentiment": "Bearish",
-      "score": -0.607,
+      "score": -0.459,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iklan AI deepfake semakin populer di kampanye paruh waktu AS, sehingga mengaburkan kebenaran",
-      "url": "https://www.aljazeera.com/economy/2026/10/9/ai-deepfake-ads-grow-more-popular-in-us-midterm-campaigns-blurring-truth?traffic_source=rss",
-      "summary": "The US midterm election campaign has been filled with political ads featuring AI deepfakes that can mislead voters.",
-      "published": "10 Oct 2026 01:23 WIB",
-      "sentiment": "Bullish",
-      "score": 0.659,
-      "emoji": "🟢",
       "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "‘Serangan terhadap negara berdaulat’: Presiden ICC mengecam sanksi AS",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/an-attack-against-sovereign-states-icc-president-slams-us-sanctions?traffic_source=rss",
-      "summary": "International Criminal Court President Tomoko Akane has responded to US sanctions imposed to ‘defend sovereignty’.",
-      "published": "10 Oct 2026 01:06 WIB",
+      "title": "Harga perak yang tinggi mengancam kerajinan nagra pengantin yang terkenal di Lucknow",
+      "url": "https://www.aljazeera.com/features/longform/2026/10/10/high-silver-prices-threaten-lucknows-famed-bridal-nagra-craft?traffic_source=rss",
+      "summary": "War-driven prices for silver are threatening nagra makers in northern India.",
+      "published": "10 Oct 2026 20:25 WIB",
       "sentiment": "Bearish",
-      "score": -0.858,
+      "score": -0.798,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Jerusalem Daily: Badan amal AS menggunakan AI untuk memantau ruang kelas di Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/jerusalem-daily-us-charity-to-use-ai-to-monitor-gaza-classrooms?traffic_source=rss",
-      "summary": "A US charity announced it will use an AI-software to monitor Gaza classrooms for ‘anti-Semitism’ and ‘hate speech’.",
-      "published": "10 Oct 2026 00:37 WIB",
-      "sentiment": "Bullish",
-      "score": 0.601,
-      "emoji": "🟢",
+      "title": "Para pemimpin ‘Kecoa’ India ditahan; New Delhi dikunci",
+      "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown?traffic_source=rss",
+      "summary": "Indian police crackdown appears to have prevented mass protests against the country's election chief from taking place.",
+      "published": "10 Oct 2026 19:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.462,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Anak di antara tujuh orang yang dibunuh oleh Israel di Gaza pada peringatan ‘gencatan senjata’",
+      "url": "https://www.aljazeera.com/news/2026/10/10/israeli-forces-kill-six-in-gaza-including-a-child?traffic_source=rss",
+      "summary": "At least 1,481 Palestinians killed in Israeli attacks since last year's 'ceasefire', Gaza's Health Ministry says.",
+      "published": "10 Oct 2026 19:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.917,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pemain internasional Inggris Cole Palmer menandatangani kontrak baru dengan Chelsea hingga 2034",
+      "url": "https://www.aljazeera.com/sports/2026/10/10/england-international-cole-palmer-signs-new-chelsea-deal-until-2034?traffic_source=rss",
+      "summary": "Attacking midfielder Palmer has become a key figure in Chelsea's squad since his arrival from Man City in 2023.",
+      "published": "10 Oct 2026 19:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.459,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Ukraina memperingatkan kesepakatan diesel Trump-Putin akan membiayai perang Rusia",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/ukraine-warns-trump-putin-diesel-deal-will-bankroll-russias-war?traffic_source=rss",
+      "summary": "Donald Trump’s diesel deal with Putin gives Russia more money to continue attacking Ukraine, Zelenskyy says.",
+      "published": "10 Oct 2026 19:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.887,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Mengapa AS beralih ke Rusia untuk membeli solar meskipun ada sanksi?",
+      "url": "https://www.aljazeera.com/news/2026/10/10/why-is-us-turning-to-russia-for-diesel-despite-sanctions?traffic_source=rss",
+      "summary": "President Donald Trump's deal with Putin comes amid surging fuel prices and looming US midterm elections.",
+      "published": "10 Oct 2026 19:16 WIB",
+      "sentiment": "Bearish",
+      "score": -0.128,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "Trump meminta Rusia untuk meningkatkan pasokan diesel global menjelang pemilu paruh waktu. Mungkin ini ‘terlalu sedikit, terlambat’, kata ahli strategi.",
-      "url": "https://www.marketwatch.com/story/trump-taps-russia-to-boost-global-diesel-supplies-ahead-of-midterms-it-may-be-too-little-too-late-says-strategist-8c789030?mod=mw_rss_topstories",
-      "summary": "The Trump administration has enlisted Russia to help boost U.S. and global diesel supplies in an effort to lower prices for the fuel ahead of the U.S. midterm elections in November.",
-      "published": "10 Oct 2026 05:00 WIB",
+      "title": "Musim dingin akan segera tiba dan tagihan energi meningkat. “Semuanya terus meningkat.”",
+      "url": "https://www.marketwatch.com/story/winter-is-coming-and-energy-bills-are-climbing-everything-just-keeps-going-up-983cfd2d?mod=mw_rss_topstories",
+      "summary": "Expensive utility bills have become an increasingly sharp thorn for Americans’ wallets, but warmer weather this winter and energy assistance programs can help.",
+      "published": "10 Oct 2026 20:00 WIB",
       "sentiment": "Bullish",
-      "score": 0.71,
+      "score": 0.701,
       "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC Economy",
-      "title": "Levi Strauss menaikkan pedoman laba setelah pengembalian tarif, namun prospek penjualannya kurang optimis",
-      "url": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html",
-      "summary": "Levi Strauss on Wednesday posted earnings that beat expectations, though it saw benefits from tariff refunds.",
-      "published": "08 Oct 2026 21:43 WIB",
-      "sentiment": "Bullish",
-      "score": 0.462,
-      "emoji": "🟢",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "source": "CNBC World",
-      "title": "Serangan kapal tanker di Selat Hormuz melonjak ke tingkat tertinggi di masa perang ketika Iran mencoba menghambat ekspor minyak",
-      "url": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html",
-      "summary": "The escalating attacks are testing whether a rebound in crude oil exports from the Middle East can be sustained under high-risk conditions.",
-      "published": "10 Oct 2026 01:52 WIB",
+      "title": "Putin menyampaikan proposal perang Iran kepada Trump, kata Kremlin",
+      "url": "https://www.cnbc.com/2026/10/10/putin-trump-iran-war-russia-diesel.html",
+      "summary": "Putin's reported call with Trump regarding the Iran war comes on the heels of a deal for the U.S. to buy Russian diesel amid a surge in fuel prices.",
+      "published": "10 Oct 2026 20:42 WIB",
       "sentiment": "Bearish",
-      "score": -0.925,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump mencapai kesepakatan dengan Putin untuk memasok solar Rusia ke AS dan pasar global",
-      "url": "https://www.cnbc.com/2026/10/09/trump-putin-russian-diesel-us-global-markets.html",
-      "summary": "President Donald Trump has few options to reduce diesel prices given the destruction done to refineries by the wars in Eastern Europe and the Middle East.",
-      "published": "10 Oct 2026 03:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.869,
+      "score": -0.752,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -510,21 +499,10 @@
       "title": "Perjanjian diesel Trump dengan Putin dituding bertentangan dengan undang-undang sanksi Rusia",
       "url": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
       "summary": "Ukraine President Volodymyr Zelenskyy said in a searing statement that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"",
-      "published": "10 Oct 2026 06:16 WIB",
+      "published": "10 Oct 2026 09:09 WIB",
       "sentiment": "Bullish",
       "score": 0.322,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Badai Isaias mengganggu produksi minyak AS di Teluk Meksiko dan mengancam kilang",
-      "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html",
-      "summary": "The hurricane could tighten a fuel market that is already facing big disruptions from the wars in Eastern Europe and the Middle East.",
-      "published": "10 Oct 2026 00:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.902,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -540,36 +518,14 @@
     },
     {
       "source": "CNBC World",
-      "title": "Utusan AS untuk Asia Timur mengatakan para investor terlalu mempertimbangkan risiko konflik di Taiwan",
-      "url": "https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html",
-      "summary": "Investors are overestimating the risk of conflict across the Taiwan Strait, a U.S. diplomat says, playing up deterrence to keep Beijing from taking the island.",
-      "published": "09 Oct 2026 09:52 WIB",
+      "title": "Badai Isaias mengganggu produksi minyak AS di Teluk Meksiko dan mengancam kilang",
+      "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html",
+      "summary": "The hurricane could tighten a fuel market that is already facing big disruptions from the wars in Eastern Europe and the Middle East.",
+      "published": "10 Oct 2026 00:12 WIB",
       "sentiment": "Bearish",
-      "score": -0.878,
+      "score": -0.902,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Pilot tewas dalam serangan Houthi yang didukung Iran di bandara Riyadh; Koalisi yang dipimpin Saudi berjanji akan memberikan tanggapan yang 'tegas'",
-      "url": "https://www.cnbc.com/2026/10/09/saudi-us-iran-war-trump-hormuz.html",
-      "summary": "Two attacks were launched on Saudi Arabia's King Khalid International Airport Thursday, officials said.",
-      "published": "09 Oct 2026 18:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.949,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Inflasi pada banyak barang sehari-hari sepenuhnya disebabkan oleh tarif, kata Fed NY",
-      "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
-      "summary": "Tariffs added 2.9 percentage points to inflation in 67 categories of goods by February 2026, researchers at the New York Federal Reserve found.",
-      "published": "09 Oct 2026 00:31 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
+      "impact": "high"
     }
   ]
 }
