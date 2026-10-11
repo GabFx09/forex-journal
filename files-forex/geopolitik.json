@@ -1,56 +1,56 @@
 {
-  "generated": "11 Oct 2026 07:03 WIB",
+  "generated": "11 Oct 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.11,
-      "count": 20
-    },
-    {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.11,
-      "count": 20
+      "score": -0.181,
+      "count": 12
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.09,
-      "count": 19
+      "score": -0.272,
+      "count": 11
+    },
+    {
+      "pair": "USD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.272,
+      "count": 11
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.265,
-      "count": 5
-    },
-    {
-      "pair": "EUR",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.062,
-      "count": 2
-    },
-    {
-      "pair": "USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.062,
-      "count": 2
+      "score": -0.318,
+      "count": 6
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.26,
-      "count": 2
+      "score": -0.559,
+      "count": 4
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.165,
-      "count": 2
+      "score": -0.494,
+      "count": 1
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.37,
+      "count": 1
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.37,
+      "count": 1
     }
   ],
   "items": [
@@ -66,212 +66,91 @@
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "investBerita Live Americas FX penutup 9 Okt: Selesai: Saham rebound meskipun sentimen lemah; Dolar Kanada jatuh karena hilangnya lapangan kerja",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-9-oct-it-s-a-wrap-stocks-rebound-despite-weak-sentiment-canadian-dollar-falls-on-jobs-miss/",
-      "summary": "US stocks close higher; Nasdaq gains for fourth straight week Week ahead: US inflation and retail sales lead a busy economic calendar. Be aware. Let's Play... \"More Bullish or More Bearish\". How would I view the technicals for the Mag 7 stocks. This week we got a sneak-peak at the playbook for when ",
-      "published": "10 Oct 2026 04:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.518,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Saham AS ditutup lebih tinggi; Nasdaq menguat untuk minggu keempat berturut-turut",
-      "url": "https://investinglive.com/stocks/us-stocks-close-higher-nasdaq-gains-for-fourth-straight-week/",
-      "summary": "US stocks finished Friday higher across the major indices, giving buyers a stronger finish to the trading week. The Dow led the way with a 423-point gain, while the Nasdaq Composite advanced 0.64% and the S&P 500 rose 0.59%. Under the surface, software and cybersecurity stocks attracted buyers. Snow",
-      "published": "10 Oct 2026 03:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.92,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Minggu ini kita mendapatkan gambaran sekilas tentang pedoman kapan gelembung AI meledak",
-      "url": "https://investinglive.com/forex/this-week-we-got-a-sneak-peak-at-the-playbook-for-when-the-ai-bubble-bursts/",
-      "summary": "It wasn't a big week in financial markets. When you upwrap it, Fed pricing has been flat and major indexes chopped sideways. The Iran war continues with the usual threats, but we did get a promise from Trump not to attack before the midterms. How credible that promise is might be up for debate. Late",
-      "published": "10 Oct 2026 01:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.548,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Kedaluwarsa penguncian SpaceX menguji pembeli. Teknisnya menentukan risikonya.",
-      "url": "https://investinglive.com/stocks/spacex-lockup-expiration-puts-buyers-to-the-test-the-technicals-define-the-risk/",
-      "summary": "Elon Musk's SpaceX has a supply test today. Under the reported lockup schedule, up to 328.4 million shares become eligible for sale on October 9. That gives certain employees and early investors the opportunity to sell shares previously subject to restrictions following the IPO. Does that mean the s",
-      "published": "09 Oct 2026 22:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.575,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "JPMorgan: Pelepasan 100 juta barel minyak G7 sebagian besar merupakan barel lama dengan haluan baru",
-      "url": "https://investinglive.com/commodities/jpmorgan-the-g7-s-100-million-barrel-oil-release-is-mostly-old-barrels-with-a-new-bow-on-it/",
-      "summary": "Last Friday’s G7 pledge to release 100 million barrels of crude and diesel from emergency stocks over four months looked like a forceful response to record diesel prices. JPMorgan’s commodities team says the market shouldn’t read too much into the headline number. In a note out this week titled “Cou",
-      "published": "09 Oct 2026 22:34 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Kesepakatan Diesel Trump dengan Rusia Memperdalam Keretakan Ukraina",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-11/trump-s-russia-diesel-deal-deepens-ukraine-rift-video",
+      "summary": "Former US Ambassador to Ukraine William Taylor, a distinguished fellow at the Atlantic Council's Eurasia Center, tells Bloomberg This Weekend that President Donald Trump's Russian diesel agreement could provide Moscow with additional revenue to prolong its war in Ukraine while undermining economic s",
+      "published": "11 Oct 2026 21:50 WIB",
       "sentiment": "Bearish",
-      "score": -0.307,
+      "score": -0.494,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Singapura: Range trading terhadap Dolar AS tetap ada – UOB",
-      "url": "https://www.fxstreet.com/news/singapore-dollar-range-trading-persists-against-us-dollar-uob-202610092031",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD remains supported within the Monetary Authority of Singapore’s policy band, with SGD NEER likely between 1.50% and 1.80% above midpoint, implying a 1.279–1.283 range. Short-term price action shows limited upward momentum, ",
-      "published": "10 Oct 2026 03:31 WIB",
-      "sentiment": "Bullish",
-      "score": 0.859,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Taiwan: Perdagangan menguat namun penurunan terhadap Dolar AS dibatasi – Commerzbank",
-      "url": "https://www.fxstreet.com/news/taiwan-dollar-trade-strength-but-losses-capped-against-us-dollar-commerzbank-202610091949",
-      "summary": "Commerzbank analysts note Taiwan’s September trade surplus hit a record USD23.6bn, with exports surging 60.9% year-on-year on strong AI-related demand. The Central Bank of the Republic of China may lean more hawkish if inflation’s uptrend persists.",
-      "published": "10 Oct 2026 02:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.581,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Dolar Singapura: MAS mengetat tetapi kenaikannya terhambat – OCBC",
-      "url": "https://www.fxstreet.com/news/singapore-dollar-mas-tightening-but-gains-constrained-ocbc-202610091827",
-      "summary": "OCBC’s Christopher Wong notes that Singapore Dollar (SGD) has held relatively steady despite a firmer US Dollar (USD) and higher Oil prices, with MAS tightening expectations underpinning the S$NEER. USD/SGD trades near recent highs with intact bullish momentum.",
-      "published": "10 Oct 2026 01:27 WIB",
-      "sentiment": "Bullish",
-      "score": 0.282,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Yuan Tiongkok: Sikap PBoC dan perdebatan penilaian memandu jalur mata uang – MUFG",
-      "url": "https://www.fxstreet.com/news/chinese-yuan-pboc-stance-and-valuation-debate-guide-currency-path-mufg-202610091738",
-      "summary": "Halpenny highlights a new PBoC document defending China’s FX policy and rejecting claims that CNY drives its trade surplus, instead pointing to manufacturing competitiveness. He notes BIS REER data showing a 20% fall from the 2022 peak and IMF estimates of 12–20% undervaluation, suggesting CNY is un",
-      "published": "10 Oct 2026 00:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.431,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Pound Inggris bertahan karena Sentimen Konsumen AS memburuk",
-      "url": "https://www.fxstreet.com/news/british-pound-holds-its-ground-as-us-consumer-sentiment-deteriorates-202610091612",
-      "summary": "The Pound Sterling (GBP) holds firm against the US Dollar (USD) on Friday, which posts modest gains against a basket of six currencies, while US consumers grow pessimistic about the economy as the US-Iran conflict drags on for another week.",
-      "published": "09 Oct 2026 23:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.477,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "FXStreet News",
-      "title": "Euro kesulitan karena kekhawatiran fiskal Perancis dan penguatan Dolar AS mendominasi",
-      "url": "https://www.fxstreet.com/news/euro-struggles-as-french-fiscal-concerns-and-firm-us-dollar-dominate-202610091544",
-      "summary": "EUR/USD reverses earlier gains on Friday and remains on track for a fifth consecutive weekly decline as the US Dollar (USD) rebounds from the previous day’s pullback. Concerns over France’s fiscal outlook also continue to weigh on sentiment toward the Euro (EUR).",
-      "published": "09 Oct 2026 22:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.26,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Jefferies Mengatakan Menemukan Penipuan dalam Penawaran Radiant senilai $900 Juta",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-10/jefferies-says-it-found-fraud-in-900-million-of-radiant-deals",
-      "summary": "A Jefferies-run fund said in court proceedings that it has evidence of alleged fraudulent conduct by iron ore traders Radiant World and Sapphire Minmetals in receivables-financing deals with a face value of almost $900 million.",
-      "published": "10 Oct 2026 22:03 WIB",
+      "title": "Trump Sebut Rusia dan Ukraina Setuju dengan 'Gencatan Senjata Energi'",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/trump-says-russia-and-ukraine-agreed-to-energy-ceasefire-mv3wxxro",
+      "summary": "President Donald Trump said Sunday that Russia and Ukraine have agreed to an “energy ceasefire” effective immediately.",
+      "published": "11 Oct 2026 21:23 WIB",
       "sentiment": "Bullish",
-      "score": 0.233,
+      "score": 0.823,
       "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Menyeimbangkan Keyakinan dan Risiko: Magister Bisnis bersama Maria Vassalou",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-09/masters-in-business-with-barry-ritholtz-video",
-      "summary": "Barry speaks with Maria Vassalou, Head of the Pictet Research Institute. They discuss her research into global markets, and how they balance geopolitical risk. They also discuss China's growth as a technical innovator, and the risks to US debt. Finally, Barry and Maria discuss the differences betwee",
-      "published": "10 Oct 2026 04:00 WIB",
+      "title": "Pendapatan Teknologi Tampak Besar untuk Hedge Funds yang Dimasukkan ke dalam Perdagangan Dispersi",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/tech-earnings-loom-large-for-hedge-funds-packed-into-dispersion-trade",
+      "summary": "Equity option traders will be looking for the market to break out of its inertia as tech company earnings collide with a Federal Reserve meeting and US midterm elections.",
+      "published": "11 Oct 2026 21:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.637,
+      "score": -0.077,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pencurian di Restoran Menambah Meningkatnya Biaya Makan",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-10/restaurant-theft-adds-to-rising-dining-costs-video",
-      "summary": "Bloomberg Pursuits Food Editor Kate Krader tells Bloomberg This Weekend that diners are taking everything from silverware and glassware to artwork and bathroom fixtures, adding replacement costs for restaurants already struggling with tight profit margins. Speaking with hosts David Gura and Christin",
-      "published": "10 Oct 2026 21:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.054,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kesepakatan Diesel Rusia Trump Menimbulkan Kritik dari Ukraina",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-10/trump-s-russian-diesel-deal-draws-ukraine-criticism-video",
-      "summary": "Atlantic National Security Staff Writer Nancy Youssef tells Bloomberg This Weekend that President Donald Trump's agreement to import Russian diesel could provide limited relief from high fuel prices while potentially increasing Moscow's revenue as it continues its war in Ukraine. Speaking with hosts",
-      "published": "10 Oct 2026 19:32 WIB",
-      "sentiment": "Bearish",
-      "score": -0.361,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "'Waktunya bagi Ukraina untuk mendapatkan presiden baru,' kata Trump setelah Zelensky mengutuk kesepakatan diesel",
-      "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
-      "published": "11 Oct 2026 02:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.67,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Dua belas orang tewas dalam serangan di bandara di ibu kota Saudi, Riyadh",
-      "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
-      "summary": "Another 309 people are injured in the attack on the airport, which come days after Yemen's Houthis said they had struck it.",
-      "published": "11 Oct 2026 05:40 WIB",
+      "title": "Serangan Bandara Saudi Tewaskan 12 Orang Saat Konflik Meningkat",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-11/saudi-airport-attack-kills-12-as-conflict-escalates-video",
+      "summary": "Bloomberg Middle East reporter Dan Williams tells Bloomberg This Weekend that an attack on Riyadh's international airport that killed at least 12 people and injured more than 300 marks a significant escalation in fighting between Saudi Arabia and Yemen's Iran-backed Houthis. Speaking with hosts Davi",
+      "published": "11 Oct 2026 20:46 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Para pemuda hidup dalam ketakutan akan diculik dari jalanan dan dijual kepada tentara Myanmar",
-      "url": "https://www.bbc.co.uk/news/articles/c680zlny0gk4o?at_medium=RSS&at_campaign=rss",
-      "summary": "A desperate junta is in a war of attrition against ethnic militias and and civilian resistance.",
-      "published": "11 Oct 2026 05:13 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Protes India Memicu Tindakan Keras Keamanan di New Delhi",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-11/india-protests-trigger-security-crackdown-in-new-delhi-video",
+      "summary": "Bloomberg Senior Reporter Dan Strumpf tells Bloomberg This Weekend that New Delhi remains under heavy security after authorities detained thousands of protesters demanding the resignation of India's chief election commissioner over a disputed revision of voter rolls. Speaking with hosts David Gura a",
+      "published": "11 Oct 2026 19:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.856,
+      "score": -0.932,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pemimpin Partai Kecoa Bersumpah untuk Melanjutkan Protes Setelah Dibebaskan",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/indian-cockroaches-plan-new-protest-amid-heavy-delhi-security",
+      "summary": "Leaders of India’s youth-led protest movement - Cockroach Janta Party - vowed to press ahead with their demand for the resignation of the country’s top election official after being released from a temporary detention on Sunday.",
+      "published": "11 Oct 2026 12:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.226,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Negara-Negara Berkembang Lebih Siap Menghadapi Gejolak Utang Eropa yang Baru",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/emerging-markets-better-armed-for-renewed-european-debt-turmoil",
+      "summary": "Emerging-market bonds and currencies were whipsawed by the Eurozone debt crisis 15 years ago, but they are now better equipped to withstand any repeat of that turmoil, analysts say.",
+      "published": "11 Oct 2026 19:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.582,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "Serangan bom luncur Rusia di Zaporizhzhia menewaskan sedikitnya 20 orang",
-      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
-      "published": "11 Oct 2026 03:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.936,
-      "emoji": "🔴",
+      "source": "Bloomberg Markets",
+      "title": "Jefferies Mengatakan Ditemukan Penipuan dalam Penawaran Radiant senilai $900 Juta",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/jefferies-says-it-found-fraud-in-900-million-of-radiant-deals",
+      "summary": "A Jefferies-run fund said in court proceedings that it has evidence of alleged fraudulent conduct by iron ore traders Radiant World and Sapphire Minmetals in receivables-financing deals with a face value of almost $900 million.",
+      "published": "10 Oct 2026 22:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.233,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -287,34 +166,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Pemimpin kelompok 'Kecoa' di antara ratusan orang yang ditahan dalam protes di Delhi",
-      "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
-      "summary": "The group - who are not registered as a political party in India - want electoral reforms ahead of crucial state elections.",
-      "published": "10 Oct 2026 19:29 WIB",
+      "title": "Serangan bom luncur Rusia di Zaporizhzhia menewaskan sedikitnya 20 orang",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
+      "published": "11 Oct 2026 03:51 WIB",
       "sentiment": "Bearish",
-      "score": -0.178,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC World",
-      "title": "JD Vance meragukan eksekusi regu tembak dan mengatakan dia tidak akan menontonnya",
-      "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
-      "summary": "The planned execution of Nidal Hasan by firing squad would be the first military execution in more than 60 years.",
-      "published": "10 Oct 2026 04:50 WIB",
-      "sentiment": "Bearish",
-      "score": -0.743,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Mesin pencari Rusia Yandex kesulitan setelah serangan Ukraina terhadap pusat data",
-      "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
-      "summary": "Often dubbed \"Russia's Google\", the tech firm admits customers may experience disruption to digital services due to the attacks.",
-      "published": "10 Oct 2026 00:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.882,
+      "score": -0.936,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -330,103 +187,169 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Analisis: Kesepakatan Trump yang mengejutkan dengan Rusia menyoroti meningkatnya tekanan untuk mengekang harga bahan bakar",
-      "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
-      "published": "10 Oct 2026 05:30 WIB",
+      "source": "BBC Top Stories",
+      "title": "Bandara Riyadh kembali mengalami momen berbahaya dalam konflik yang sudah tegang",
+      "url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Houthis have stepped up their attacks on Saudi Arabian soil, and while the physical damage can be quickly repaired, its reputation for stability is taking a battering.",
+      "published": "11 Oct 2026 18:32 WIB",
       "sentiment": "Bearish",
-      "score": -0.341,
+      "score": -1.0,
       "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Boots punya pemilik baru: Tiga pengaruhnya terhadap Anda",
-      "url": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
-      "summary": "The stalwart of Britain's High Street has been sold to a Canadian billionaire family. What will that mean for you?",
-      "published": "10 Oct 2026 06:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Anthropic melarang pengguna bersikap 'kejam' terhadap sistem AI-nya",
-      "url": "https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=RSS&at_campaign=rss",
-      "summary": "The firm said users can no longer engage in \"sustained and needless\" abusive behaviour towards the tech.",
-      "published": "09 Oct 2026 19:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.985,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Serangan bom luncur Rusia di Zaporizhzhia menewaskan sedikitnya 15 orang termasuk tiga anak-anak",
-      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
-      "published": "11 Oct 2026 03:51 WIB",
+      "title": "Taman satwa liar tetap ditutup setelah serangan harimau yang mematikan",
+      "url": "https://www.bbc.co.uk/news/articles/cmgr8221v4x1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Yorkshire Wildlife Park remains closed after a man entered the tiger enclosure and was fatally attacked on Saturday.",
+      "published": "11 Oct 2026 19:38 WIB",
       "sentiment": "Bearish",
-      "score": -0.936,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "low"
     },
     {
+      "source": "BBC Top Stories",
+      "title": "Para pemuda hidup dalam ketakutan akan diculik dari jalanan dan dijual kepada tentara Myanmar",
+      "url": "https://www.bbc.co.uk/news/articles/c680zlny0gk4o?at_medium=RSS&at_campaign=rss",
+      "summary": "A desperate junta is in a war of attrition against ethnic militias and and civilian resistance.",
+      "published": "11 Oct 2026 05:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.856,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "Al Jazeera",
-      "title": "Real Madrid mengalahkan Villarreal 1-0 tetapi Vinicius dikeluarkan dari lapangan karena cabut rambut",
-      "url": "https://www.aljazeera.com/sports/2026/10/10/real-madrid-beat-villarreal-but-vinicius-sent-off-for-hair-pull?traffic_source=rss",
-      "summary": "Real Madrid forward Vinicius Junior sent off for pulling Villarreal player's hair in 1-0 La Liga victory.",
-      "published": "11 Oct 2026 04:40 WIB",
+      "title": "Ruang Oval diludahi teguran publik: Garis waktu hubungan Trump-Zelensky",
+      "url": "https://www.aljazeera.com/news/2026/10/11/oval-office-spat-to-public-rebukes-a-timeline-of-trump-zelenskyy-ties?traffic_source=rss",
+      "summary": "Trump has long criticised US military support for Ukraine and has lambasted Zelenskyy since his first term.",
+      "published": "11 Oct 2026 21:34 WIB",
       "sentiment": "Netral",
-      "score": 0.0,
+      "score": -0.026,
       "emoji": "⚪",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Houthi Yaman merilis video serangan pesawat tak berawak terhadap pasukan pemerintah",
-      "url": "https://www.aljazeera.com/video/2026/10/10/yemens-houthis-release-video-of-drone-attacks-on-govt-forces?traffic_source=rss",
-      "summary": "Yemen’s Houthis have released drone video said to show attacks on Saudi-backed Yemeni government forces.",
-      "published": "11 Oct 2026 04:02 WIB",
+      "title": "Mengapa rudal Houthi menembus pertahanan udara Arab Saudi?",
+      "url": "https://www.aljazeera.com/news/2026/10/11/why-are-houthi-missiles-breaking-through-saudi-arabias-air-defences?traffic_source=rss",
+      "summary": "Repeated Houthi attacks on Saudi Arabia's King Khalid Airport reveal the limitations of even high-tech air defences.",
+      "published": "11 Oct 2026 21:25 WIB",
       "sentiment": "Bearish",
-      "score": -0.78,
+      "score": -0.671,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Kerusakan terlihat di dalam bandara Saudi setelah serangan ketiga minggu ini",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week?traffic_source=rss",
-      "summary": "Video shows damage inside King Khalid International Airport in Riyadh after the third attack in a week.",
-      "published": "11 Oct 2026 03:43 WIB",
+      "title": "Serangan Hormuz meningkat ketika upaya untuk mengakhiri perang terhadap Iran terhenti",
+      "url": "https://www.aljazeera.com/news/2026/10/11/hormuz-attacks-intensify-as-efforts-to-end-war-on-iran-stall?traffic_source=rss",
+      "summary": "IRGC warns against ignoring waterway's 'security and rules' as CENTCOM says US disabled vessel trying to run blockade.",
+      "published": "11 Oct 2026 21:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.992,
+      "score": -0.932,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Partai Kecoa Janta menuduh Modi 'mengobarkan perang' terhadap orang India",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/cockroach-janta-party-accuses-modi-of-waging-war-on-indians?traffic_source=rss",
+      "summary": "India’s Cockroach Janta Party leaders say the Modi government is ‘waging war’ on its own citizens.",
+      "published": "11 Oct 2026 20:34 WIB",
+      "sentiment": "Bullish",
+      "score": 0.379,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Arab Saudi berjanji akan memberikan tanggapan atas serangan ‘kejahatan perang’ Houthi di bandara Riyadh",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/saudi-arabia-vows-response-over-houthi-war-crime-attack-on-riyadh-airport?traffic_source=rss",
+      "summary": "A Houthi attack on Riyadh airport killed at least 12 people and injured more than 300.",
+      "published": "11 Oct 2026 19:28 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Polisi Polandia menyelidiki dugaan rencana pembunuhan PM Tusk, menteri pertahanan",
+      "url": "https://www.aljazeera.com/news/2026/10/11/poland-police-probe-alleged-plot-to-assassinate-pm-tusk-defence-minister?traffic_source=rss",
+      "summary": "Security officials hold emergency meeting after police receive information about potential attack.",
+      "published": "11 Oct 2026 19:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mengapa pemerintahan Trump berusaha membubarkan ICC?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/10/10/why-is-the-trump-administration-trying-to-dismantle-the-icc?traffic_source=rss",
-      "summary": "The US has imposed sweeping new sanctions on the International Criminal Court.",
-      "published": "11 Oct 2026 02:59 WIB",
+      "title": "Perebutan untuk menulis ulang rekor Biden di Gaza",
+      "url": "https://www.aljazeera.com/video/the-listening-post/2026/10/11/the-scramble-to-rewrite-bidens-record-on-gaza?traffic_source=rss",
+      "summary": "Former Biden officials are offering their accounts of the Gaza war. Is this a coming clean or revisionism?",
+      "published": "11 Oct 2026 18:29 WIB",
       "sentiment": "Bearish",
-      "score": -0.652,
+      "score": -0.376,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump mengatakan Ukraina membutuhkan presiden baru yang bersedia mengakhiri perang",
-      "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
-      "summary": "US leader suggests Zelenskyy has not done enough to end the war amid tensions with Kyiv over a diesel deal with Russia.",
-      "published": "11 Oct 2026 02:32 WIB",
+      "title": "Pertempuran di Yaman meluas ketika Houthi menyerang bandara Saudi: Apa yang perlu diketahui",
+      "url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know?traffic_source=rss",
+      "summary": "Saudi coalition blames Houthi group for the missile attack on the main international airport in Riyadh.",
+      "published": "11 Oct 2026 17:45 WIB",
       "sentiment": "Bearish",
-      "score": -0.92,
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Kita akan mendapatkan pemahaman mendalam mengenai apakah pendapatan dapat terus menopang pasar saham",
+      "url": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
+      "summary": "High hopes for third-quarter earnings are outweighing concerns around interest rates and oil prices — but one expert warns markets have gotten “extremely complacent.”",
+      "published": "11 Oct 2026 21:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.37,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump mengatakan dia 'akan mempertimbangkan' untuk bergabung dengan Arab Saudi dalam perang melawan Houthi yang didukung Iran setelah serangan mematikan di bandara",
+      "url": "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html",
+      "summary": "U.S. military involvement in the fight against the Houthis would stretch resources in the Middle East already committed to fighting Iran, analysts said.",
+      "published": "11 Oct 2026 21:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.647,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "AI dapat mengubah harga Big Mac dan bahan makanan Anda — apa artinya ini bagi pembeli",
+      "url": "https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html",
+      "summary": "As retailers turn to AI tools to streamline operations, experts warn that collecting more detailed consumer data increases the risk of personalized pricing.",
+      "published": "11 Oct 2026 12:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.521,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Setelah Prancis, Italia selanjutnya? Goldman Sachs menandai risiko obligasi seiring melebarnya defisit Roma",
+      "url": "https://www.cnbc.com/2026/10/11/italy-government-bonds-sovereign-debt-giorgia-meloni.html",
+      "summary": "Goldman Sachs says Italy’s higher 2027-28 deficit targets, rising yields and election uncertainty could weaken its debt outlook.",
+      "published": "11 Oct 2026 12:00 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "CNBC World",
@@ -436,28 +359,6 @@
       "published": "10 Oct 2026 20:42 WIB",
       "sentiment": "Bearish",
       "score": -0.752,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Perjanjian diesel Trump dengan Putin dituding bertentangan dengan undang-undang sanksi Rusia",
-      "url": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
-      "summary": "Ukraine President Volodymyr Zelenskyy said in a searing statement that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"",
-      "published": "10 Oct 2026 09:09 WIB",
-      "sentiment": "Bullish",
-      "score": 0.322,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Badai Isaias mengganggu produksi minyak AS di Teluk Meksiko dan mengancam kilang",
-      "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html",
-      "summary": "The hurricane could tighten a fuel market that is already facing big disruptions from the wars in Eastern Europe and the Middle East.",
-      "published": "10 Oct 2026 00:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.902,
       "emoji": "🔴",
       "impact": "high"
     }
