@@ -1,186 +1,153 @@
 {
-  "generated": "18 Oct 2026 07:02 WIB",
+  "generated": "18 Oct 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.481,
-      "count": 9
-    },
-    {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.605,
-      "count": 9
+      "score": -0.417,
+      "count": 13
     },
     {
-      "pair": "EUR/USD",
+      "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.415,
-      "count": 8
+      "score": -0.328,
+      "count": 11
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.568,
-      "count": 7
+      "score": -0.335,
+      "count": 10
     },
     {
-      "pair": "USD/RUB",
+      "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.538,
+      "score": -0.579,
       "count": 4
     },
     {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.103,
+      "count": 1
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.967,
+      "count": 1
+    },
+    {
       "pair": "EUR",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.216,
-      "count": 2
+      "direction": "Tekanan Naik ▲",
+      "score": 0.967,
+      "count": 1
     },
     {
       "pair": "GBP",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.216,
-      "count": 2
-    },
-    {
-      "pair": "USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.216,
-      "count": 2
+      "direction": "Tekanan Naik ▲",
+      "score": 0.967,
+      "count": 1
     }
   ],
   "items": [
     {
-      "source": "ForexLive",
-      "title": "Harga minyak melonjak lebih tinggi memasuki akhir pekan",
-      "url": "https://investinglive.com/commodities/oil-prices-surge-higher-into-the-weekend/",
-      "summary": "It will be another weekend of pain at the fuel pumps. WTI crude oil is finishing the week at the highest since September 21 and back over $100 per barrel. WTI last trade up $3.33 to $101.30. Brent crude also touched $110 for the first time since May. The strong rally to $101 from $98 in the final ho",
-      "published": "17 Oct 2026 01:44 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Sekutu Trump di Amerika Latin Mempererat Hubungan dengan Pemberi Pinjaman Washington",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/trump-s-latin-america-allies-deepen-ties-with-washington-lenders",
+      "summary": "Latin America’s rightward, market-friendly shift is reshaping its relationship with Donald Trump’s Washington, including new flows of money from the multilateral lenders historically villainized in the region for pushing fiscal austerity.",
+      "published": "18 Oct 2026 21:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.84,
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Anggota Parlemen Veasey Menyerukan Pengawasan Terhadap Hubungan Trump dengan Rusia",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-18/rep-veasey-calls-for-scrutiny-of-trump-russia-ties-video",
+      "summary": "Rep. Marc Veasey, a Texas Democrat, tells Bloomberg This Weekend that President Donald Trump’s recent moves involving Russia and Ukraine warrant greater congressional scrutiny, while warning that questions over Ukraine’s access to US military technology could undermine allies’ confidence in American",
+      "published": "18 Oct 2026 21:23 WIB",
+      "sentiment": "Bullish",
+      "score": 0.322,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Omong-omong: Judul yang Mungkin Anda Lewatkan",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-18/by-the-way-headlines-you-may-have-missed-video",
+      "summary": "The sneaker bubble bursting, hardware store cats, learning to write cursive, and live book readings: Join Lisa Mateo, David Gura and Christina Ruffini for a roundup of headlines you may have missed, but gotta see. (Source: Bloomberg)",
+      "published": "18 Oct 2026 19:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.313,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Demonstrasi Pemilu yang melanda Amerika Latin Menghadapi Kenyataan",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/election-rallies-that-swept-latin-america-face-reality-check",
+      "summary": "The searing financial-market rallies unleashed by elections across Latin America are beginning to show signs of cracks — sowing doubts among money managers over whether to keep pushing stocks and currencies even higher or lock in profits as campaign promises start colliding with the difficulty of go",
+      "published": "18 Oct 2026 19:30 WIB",
+      "sentiment": "Bullish",
+      "score": 0.103,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mengapa Globalisasi Semakin Sulit Dinavigasi",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-18/why-globalization-is-getting-harder-to-navigate-video",
+      "summary": "At Bloomberg’s New Economy Forum in New Delhi, Indian Prime Minister Narendra Modi cautioned against weaponizing supply chains, energy and technology. Business leaders say they are adapting to a world where supply chains are being rebuilt, geopolitical risk is permanent and countries like India are ",
+      "published": "18 Oct 2026 19:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.361,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Tiongkok Mengutuk 'Langkah Negatif' Jepang Terhadap Kuil Yasukuni",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/china-condemns-japan-s-negative-moves-over-yasukuni-shrine",
+      "summary": "China strongly condemned what it called Japan’s “negative moves” concerning the Yasukuni Shrine, saying the actions were a provocation against the postwar international order, according to a Saturday statement from the Chinese Embassy in Japan.",
+      "published": "18 Oct 2026 12:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.545,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Dua Pemimpin 'Kecoa' India Akan Dibebaskan Saat Protes Meluas",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/two-india-cockroach-leaders-set-to-be-freed-as-protests-spread",
+      "summary": "Two jailed leaders of India’s Cockroach Janta Party are expected to be released Sunday, according to its legal head, as police barricades and a heavy security presence underscore continuing tensions in New Delhi over a contentious voter-roll revision.",
+      "published": "18 Oct 2026 08:45 WIB",
+      "sentiment": "Bearish",
+      "score": -0.258,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Ueda, BOJ: Kami Akan Terus Menaikkan Suku Bunga Saat Inflasi Mendekati 2%",
-      "url": "https://investinglive.com/central-banks/boj-s-ueda-we-will-continue-to-raise-rates-as-underlying-inflation-approaches-2/",
-      "summary": "Want to gauge neutral rate estimate taking into account accumulative impact of past rate hikes on financial conditions, domestic prices Hard to say anything clear about Japan’s neutral rate of interest Takeaway from this week’s meetings was to exchange views with other policymakers on how Middle Eas",
-      "published": "16 Oct 2026 19:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Pound Inggris menembus 1,3350 karena Warsh tetap tidak jelas, taruhan kenaikan suku bunga BoE meningkat - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTm1IUnloRU9RellCWjFpRzBGNlJVMXp3cVZCRDBtV3k4OTRXQklHcGhTQ3UxRVVOQkx1aTFtTXFBZDcwWjZvdzhaaWxFb3luSl9BY05mdDRNVGN0cUplQWhpQlhBTW8wQkNrMEpUejRwNWU3eElBQlJPZ1hIai13ckROak9BQzhCal82Um5XbUYtY1JDbnNKRXN6SUduMGZYVlB2WHVKVklua0t0NGI0?oc=5",
-      "summary": "British Pound breaks 1.3350 as Warsh stays vague, BoE hike bets build FXStreet",
-      "published": "16 Oct 2026 22:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.183,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pemotongan Bantuan Global Memperdalam Ketegangan Kemanusiaan",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-17/global-aid-cuts-deepen-humanitarian-strain-video",
-      "summary": "International Rescue Committee President and CEO David Miliband tells Bloomberg This Weekend that cuts in US and European aid are weakening the humanitarian response as conflicts and other crises intensify around the world. Speaking with hosts David Gura and Christina Ruffini, Miliband discusses con",
-      "published": "17 Oct 2026 19:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.759,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Trump Menunda Sanksi Baru terhadap Rusia",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-17/trump-puts-new-russia-sanctions-on-hold-video",
-      "summary": "Bloomberg News Russia economy and government editor Anthony Halpin and White House correspondent Jeff Mason tell Bloomberg This Weekend that President Donald Trump’s waiver of new Russia sanctions could offer Moscow economic and diplomatic opportunities while adding pressure on Ukraine. (Source: Blo",
-      "published": "17 Oct 2026 18:49 WIB",
-      "sentiment": "Netral",
-      "score": 0.023,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "David Byrne Menjelaskan Bagaimana Ide-Ide yang Terlupakan Menjadi Hidup Kembali",
-      "url": "https://www.bloomberg.com/news/audio/2026-10-17/david-byrne-explains-how-forgotten-ideas-come-back-to-life",
-      "summary": "History is littered with ideas that have been tossed aside, only for them to gain relevance at some later date. Think of Moby-Dick: forgotten in Melville’s time, but now regarded as the great American novel. Or the work of economist Hyman Minsky, which became influential a decade after his death, wh",
-      "published": "17 Oct 2026 15:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.19,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Tiongkok Memperingatkan Pejabat yang Korup Tidak Dapat Mengharapkan Pendaratan yang Aman",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-17/china-warns-corrupt-officials-can-t-expect-a-safe-landing",
-      "summary": "China’s top anti-graft authorities warned that officials who engage in corruption cannot expect a “safe landing,” regardless of their rank, past contributions or whether they’ve retired, according to a commentary from the CPC Central Commission for Discipline Inspection and National Commission of Su",
-      "published": "17 Oct 2026 12:35 WIB",
-      "sentiment": "Bullish",
-      "score": 0.397,
-      "emoji": "🟢",
-      "impact": "high"
     },
     {
       "source": "BBC World",
       "title": "Diplomat Eropa diserang oleh pemukim Israel di Tepi Barat",
       "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
       "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
-      "published": "18 Oct 2026 06:52 WIB",
+      "published": "18 Oct 2026 19:16 WIB",
       "sentiment": "Bearish",
       "score": -0.918,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Trump 'sepenuhnya salah' dengan membatasi dukungan untuk Ukraina, kata menteri Italia kepada BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
-      "summary": "Defence Minister Guido Crosetto tells the BBC the US risks prolonging Russia's full-scale invasion rather than helping to end it.",
-      "published": "17 Oct 2026 06:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.629,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC Top Stories",
-      "title": "Dubois menghancurkan Wardley dalam dua ronde untuk mempertahankan gelar",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6gelq3zdy8wo?at_medium=RSS&at_campaign=rss",
-      "summary": "WBO champion Daniel Dubois underlines his status as Britain's leading heavyweight with a devastating second-round stoppage of Fabio Wardley.",
-      "published": "18 Oct 2026 05:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.692,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "The Papers: 'Protes Perancis berubah menjadi kekerasan' dan anggota SAS 'ditangkap karena pembunuhan'",
-      "url": "https://www.bbc.co.uk/news/articles/cwp9g4ryl4gro?at_medium=RSS&at_campaign=rss",
-      "summary": "The Times reports soldiers accused of murder were sent into war zones while still under police investigation.",
-      "published": "18 Oct 2026 06:40 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Serangan pesawat tak berawak Israel membunuh enam warga Palestina di Gaza meskipun ada ‘gencatan senjata’",
-      "url": "https://www.aljazeera.com/news/2026/10/17/israeli-drone-attacks-kill-six-palestinians-across-gaza-despite-ceasefire?traffic_source=rss",
-      "summary": "Attacks hit several areas as UNICEF reports more than 340 children killed since 'ceasefire' began a year ago.",
-      "published": "18 Oct 2026 01:26 WIB",
+      "title": "Data NHS sangat memalukan, kata Menteri Kesehatan",
+      "url": "https://www.bbc.co.uk/news/articles/cq2e9nw82ljdo?at_medium=RSS&at_campaign=rss",
+      "summary": "A total of 15 NHS staff are sacked for accessing records of the Nottingham attacks victims.",
+      "published": "18 Oct 2026 17:52 WIB",
       "sentiment": "Bearish",
       "score": -0.893,
       "emoji": "🔴",
@@ -188,67 +155,133 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Trump menghadapi reaksi bipartisan atas keringanan sanksi terhadap Rusia",
-      "url": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss",
-      "summary": "Republicans and Democrats condemn Trump’s decision to suspend sanctions, saying it undermines support for Ukraine.",
-      "published": "18 Oct 2026 00:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.637,
-      "emoji": "🔴",
+      "title": "Apakah FIFA membatalkan hadiah perdamaiannya setelah memberikannya kepada Presiden AS Trump?",
+      "url": "https://www.aljazeera.com/sports/2026/10/18/fifa-peace-prize-football-us-president-donald-trump?traffic_source=rss",
+      "summary": "FIFA committee to assess the merits of the award after several members demand its discontinuation.",
+      "published": "18 Oct 2026 19:49 WIB",
+      "sentiment": "Bullish",
+      "score": 0.857,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mengapa negara-negara Amerika Latin membangun hubungan yang lebih erat dengan Israel?",
-      "url": "https://www.aljazeera.com/news/2026/10/17/why-are-latin-american-countries-building-closer-ties-with-israel?traffic_source=rss",
-      "summary": "A wave of new Latin American leaders reverses measures meant to isolate Israel after its genocidal war on Gaza.",
-      "published": "17 Oct 2026 23:54 WIB",
+      "title": "Mengapa pogrom pemukim melonjak selama musim panen zaitun di Tepi Barat?",
+      "url": "https://www.aljazeera.com/news/2026/10/18/why-have-settler-pogroms-surged-during-olive-harvest-season-in-west-bank?traffic_source=rss",
+      "summary": "France and Belgium condemn settler attack on diplomats, but critics say EU needs to act beyond words of condemnation.",
+      "published": "18 Oct 2026 19:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.771,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "El-Sisi Mesir bersumpah untuk membela Arab Saudi dari serangan Houthi",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/10-17-egypt-saudi-houths-clip?traffic_source=rss",
-      "summary": "Egyptian President Abdel Fattah el-Sisi has vowed to take 'any measure' to defend Saudi Arabia amid Houthi attacks.",
-      "published": "17 Oct 2026 23:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
+      "score": -0.897,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Memang ada 'Timur Tengah Baru', tapi bukan yang direncanakan Israel",
+      "url": "https://www.aljazeera.com/video/pinch-point/2026/10/18/pp-new-middle-east?traffic_source=rss",
+      "summary": "Instead of redrawing the region, Israel's wars of expasion pushed the region to work together against it.",
+      "published": "18 Oct 2026 19:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.71,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Siapakah Mehrdad Akhlaghi, menteri pertahanan baru Iran yang berfokus pada teknologi?",
+      "url": "https://www.aljazeera.com/news/2026/10/18/who-is-mehrdad-akhlagh-irans-new-tech-focused-defence-minister?traffic_source=rss",
+      "summary": "Akhlaghi's experience centres on ballistic missiles, aerospace technology and defence-industrial production.",
+      "published": "18 Oct 2026 19:00 WIB",
+      "sentiment": "Netral",
+      "score": 0.023,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Bantuan apa yang bisa Mesir tawarkan kepada Arab Saudi dalam perang melawan Houthi?",
+      "url": "https://www.aljazeera.com/news/2026/10/18/what-help-can-egypt-offer-saudi-arabia-in-the-war-against-the-houthis?traffic_source=rss",
+      "summary": "Analysts say that any move from Egypt will remain 'strictly defensive', as the conflict in Yemen intensifies.",
+      "published": "18 Oct 2026 18:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.607,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan pesawat tak berawak Ukraina di St Petersburg Rusia menewaskan 1 orang, menghantam lokasi energi",
+      "url": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
+      "summary": "Zelenskyy says Russian attacks on Ukraine overnight kill two people, adding that Moscow continues to break energy ceasefire.",
+      "published": "18 Oct 2026 17:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.9,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Perang Rusia di Ukraina membuat Eropa gelisah",
+      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/10/18/russias-war-in-ukraine-puts-europe-on-edge?traffic_source=rss",
+      "summary": "Poland’s FM addresses growing concerns that Russia’s war in Ukraine could spill over into neighbouring NATO countries.",
+      "published": "18 Oct 2026 17:33 WIB",
+      "sentiment": "Bearish",
+      "score": -0.876,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Reuni Keluarga Gaza: Menemukan satu sama lain setelah ‘gencatan senjata’",
+      "url": "https://www.aljazeera.com/video/witness/2026/10/18/gaza-family-reunion-finding-each-other-after-the-ceasefire?traffic_source=rss",
+      "summary": "Separated by war for more than a year, a captain in Gaza’s Civil Defence unit attempts to reunite with his family.",
+      "published": "18 Oct 2026 17:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.542,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC Forex",
+      "title": "Analis papan atas Wall Street optimis terhadap potensi pertumbuhan ketiga saham ini",
+      "url": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
+      "summary": "Amid fear of rate hikes and oil prices, investors can look past volatility and track Street analysts' stock picks with strong long-term growth potential.",
+      "published": "18 Oct 2026 19:34 WIB",
+      "sentiment": "Bullish",
+      "score": 0.967,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Iran mengatakan pihaknya mempunyai 'rencana operasional baru' jika AS melanjutkan serangan, seperti yang dilaporkan oleh kapal-kapal pengapalan",
+      "url": "https://www.cnbc.com/2026/10/18/iran-us-war-rezaei-operational-plan-shipping-attacks.html",
+      "summary": "Mohsen Rezaei, secretary of Iran's Supreme National Security Council, said the country's military has prepared a response to any new attacks.",
+      "published": "18 Oct 2026 20:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.183,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Mengapa hedge fund bisa membuat guncangan pasar obligasi lebih mungkin terjadi",
+      "url": "https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html",
+      "summary": "The Bank of England's deputy governor has warned that hedge funds' activities could raise the risk of a global bond market shock.",
+      "published": "18 Oct 2026 13:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.86,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
       "title": "Trump mengesampingkan sanksi baru terhadap Rusia, Zelensky mengecamnya sebagai hal yang 'salah'",
       "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
       "summary": "Trump signed the Graham Bill, which targeted Russia over its invasion of Ukraine, into law in September.",
-      "published": "18 Oct 2026 02:35 WIB",
+      "published": "18 Oct 2026 19:50 WIB",
       "sentiment": "Bearish",
       "score": -0.911,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Mengapa kampanye paruh waktu Trump dan Partai Republik yang bernilai miliaran dolar tidak berhasil",
-      "url": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
-      "summary": "Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.",
-      "published": "17 Oct 2026 00:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Analisis: Semua orang memperkirakan The Fed akan mempertahankan suku bunganya pada bulan Oktober. Kevin Warsh bisa mengejutkan kita semua",
-      "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
-      "summary": "Investors expect the Fed to pause rate hikes in October, but Kevin Warsh's rejection of traditional communications practices and continued concern about inflation leave the decision uncertain.",
-      "published": "16 Oct 2026 23:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.834,
       "emoji": "🔴",
       "impact": "high"
     }
