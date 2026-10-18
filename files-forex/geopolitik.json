@@ -1,5 +1,5 @@
 {
-  "generated": "17 Oct 2026 22:02 WIB",
+  "generated": "18 Oct 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,31 +7,31 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.112,
-      "count": 13
+      "score": -0.481,
+      "count": 9
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.104,
-      "count": 13
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.222,
+      "score": -0.605,
       "count": 9
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.053,
+      "direction": "Tekanan Turun ▼",
+      "score": -0.415,
       "count": 8
     },
     {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.568,
+      "count": 7
+    },
+    {
       "pair": "USD/RUB",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.075,
+      "direction": "Tekanan Turun ▼",
+      "score": -0.538,
       "count": 4
     },
     {
@@ -77,59 +77,15 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Minyak mentah tetap mendapat dukungan di tengah konflik Saudi-Houthi dan terhentinya negosiasi AS-Iran. Apa selanjutnya?",
-      "url": "https://investinglive.com/commodities/crude-oil/",
-      "summary": "Crude oil extended the gains yesterday into new highs as the lack of positive developments in the Middle East continues to support oil prices. The US-Iran negotiations have stalled over the conditions for reopening the Strait of Hormuz. The US insists that Iran needs to address the nuclear programme",
-      "published": "16 Oct 2026 17:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.306,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "FXStreet",
-      "title": "Forex Hari Ini: Dolar AS Perpanjang Penurunan karena Ketua Fed Warsh menahan diri untuk memberi isyarat mengenai jalur suku bunga - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMVpsbGVxNXdTOVZxQ0V2VlpnZnd5RWlDS0d5WUpISU0xRlpSOHhpUmpnWWZCOTFnUHMtVnExNWJFOVVpU24zYTQ4d2lNbFRwUnZBS0xLMnlvU1EzazNDbmQtRUhmQW5sSlpVeU85Zy1NQkdYd0hWUlphSnRvNF9VT1hhd1hGRnlUU3UteTdNdnJVUGFhWnEzYV9KZnZ4Y2xXaTkyS2h5bDlCdVpRSW1CSGJ6ekFaX3JSOUZKZV9aWDM1QWp1b3FqX1Rwcl8?oc=5",
-      "summary": "Forex Today: US Dollar extends slide as Fed Chair Warsh refrains from hinting at rate path FXStreet",
-      "published": "16 Oct 2026 15:21 WIB",
-      "sentiment": "Netral",
-      "score": 0.048,
-      "emoji": "⚪",
+      "title": "Pound Inggris menembus 1,3350 karena Warsh tetap tidak jelas, taruhan kenaikan suku bunga BoE meningkat - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTm1IUnloRU9RellCWjFpRzBGNlJVMXp3cVZCRDBtV3k4OTRXQklHcGhTQ3UxRVVOQkx1aTFtTXFBZDcwWjZvdzhaaWxFb3luSl9BY05mdDRNVGN0cUplQWhpQlhBTW8wQkNrMEpUejRwNWU3eElBQlJPZ1hIai13ckROak9BQzhCal82Um5XbUYtY1JDbnNKRXN6SUduMGZYVlB2WHVKVklua0t0NGI0?oc=5",
+      "summary": "British Pound breaks 1.3350 as Warsh stays vague, BoE hike bets build FXStreet",
+      "published": "16 Oct 2026 22:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.183,
+      "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indeks Dolar Amerika Serikat melanjutkan penurunan mendekati 101,80 setelah pernyataan Fed Warsh - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcGotWHVBcW5Pb0hPbGJyWTVjcXlpc2ZsWjgzaUYxeGJSX3JnSXlXMDkycDlmYzVNTmVpT3RVUWlnV1ZlRmcyc2RPRW83SHZGeVhXeU5nelo4c3hHb2hCVElzVFpWNWVhZk1PczN1emNZWDFLLU5KRWt2UEdGcHh0aDVZTExEQlJxdmtPMU0zQ0EzNkNSSjJ4WkhKVWUxTmU0aWhIZXlLS1VBLVg0ZkVjbHIxczBNTk43cDBHR3VDX1hyQQ?oc=5",
-      "summary": "United States Dollar Index extends decline to near 101.80 after Fed Warsh’s remarks FXStreet",
-      "published": "16 Oct 2026 11:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.351,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "IPO Jio senilai $3,2 miliar menguji selera investor saat warisan Ambani menghadapi pengawasan",
-      "url": "https://www.investing.com/news/stock-market-news/jios-32-billion-ipo-tests-investor-appetite-as-ambani-legacy-faces-scrutiny-4955160",
-      "summary": "",
-      "published": "17 Oct 2026 10:00 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Anthropic menawarkan hasil dua digit kepada Blackstone dalam kesepakatan pembiayaan chip, lapor FT",
-      "url": "https://www.investing.com/news/stock-market-news/anthropic-offers-blackstone-doubledigit-yield-in-chipfinancing-deal-ft-reports-4955079",
-      "summary": "",
-      "published": "17 Oct 2026 08:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
@@ -177,6 +133,17 @@
     },
     {
       "source": "BBC World",
+      "title": "Diplomat Eropa diserang oleh pemukim Israel di Tepi Barat",
+      "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+      "published": "18 Oct 2026 06:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.918,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
       "title": "Trump 'sepenuhnya salah' dengan membatasi dukungan untuk Ukraina, kata menteri Italia kepada BBC",
       "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
       "summary": "Defence Minister Guido Crosetto tells the BBC the US risks prolonging Russia's full-scale invasion rather than helping to end it.",
@@ -187,103 +154,81 @@
       "impact": "high"
     },
     {
-      "source": "BBC World",
-      "title": "Wartawan Palestina dan AS terluka oleh pemukim Israel dalam serangan panen di Tepi Barat",
-      "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents.",
-      "published": "16 Oct 2026 21:31 WIB",
+      "source": "BBC Top Stories",
+      "title": "Dubois menghancurkan Wardley dalam dua ronde untuk mempertahankan gelar",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6gelq3zdy8wo?at_medium=RSS&at_campaign=rss",
+      "summary": "WBO champion Daniel Dubois underlines his status as Britain's leading heavyweight with a devastating second-round stoppage of Fabio Wardley.",
+      "published": "18 Oct 2026 05:27 WIB",
       "sentiment": "Bearish",
-      "score": -0.836,
+      "score": -0.692,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "The Papers: 'Protes Perancis berubah menjadi kekerasan' dan anggota SAS 'ditangkap karena pembunuhan'",
+      "url": "https://www.bbc.co.uk/news/articles/cwp9g4ryl4gro?at_medium=RSS&at_campaign=rss",
+      "summary": "The Times reports soldiers accused of murder were sent into war zones while still under police investigation.",
+      "published": "18 Oct 2026 06:40 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan pesawat tak berawak Israel membunuh enam warga Palestina di Gaza meskipun ada ‘gencatan senjata’",
+      "url": "https://www.aljazeera.com/news/2026/10/17/israeli-drone-attacks-kill-six-palestinians-across-gaza-despite-ceasefire?traffic_source=rss",
+      "summary": "Attacks hit several areas as UNICEF reports more than 340 children killed since 'ceasefire' began a year ago.",
+      "published": "18 Oct 2026 01:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.893,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Apa yang kami pelajari dari perdebatan sengit di Senat AS",
-      "url": "https://www.bbc.co.uk/news/articles/cqly03y3zg7lo?at_medium=RSS&at_campaign=rss",
-      "summary": "As the 3 November election approaches and both parties fight for control of Congress, some clear themes have emerged.",
-      "published": "17 Oct 2026 02:09 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
-      "impact": "medium"
+      "source": "Al Jazeera",
+      "title": "Trump menghadapi reaksi bipartisan atas keringanan sanksi terhadap Rusia",
+      "url": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss",
+      "summary": "Republicans and Democrats condemn Trump’s decision to suspend sanctions, saying it undermines support for Ukraine.",
+      "published": "18 Oct 2026 00:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Anak, empat perempuan di antara warga Palestina yang terluka dalam pogrom di Tepi Barat",
-      "url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
-      "summary": "Attacks follow a religious edict by a prominent far-right rabbi permitting the seizure of Palestinian olives.",
-      "published": "17 Oct 2026 19:48 WIB",
+      "title": "Mengapa negara-negara Amerika Latin membangun hubungan yang lebih erat dengan Israel?",
+      "url": "https://www.aljazeera.com/news/2026/10/17/why-are-latin-american-countries-building-closer-ties-with-israel?traffic_source=rss",
+      "summary": "A wave of new Latin American leaders reverses measures meant to isolate Israel after its genocidal war on Gaza.",
+      "published": "17 Oct 2026 23:54 WIB",
       "sentiment": "Bearish",
-      "score": -0.591,
+      "score": -0.771,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "El-Sisi Mesir bersumpah untuk membela Arab Saudi dari serangan Houthi",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/10-17-egypt-saudi-houths-clip?traffic_source=rss",
+      "summary": "Egyptian President Abdel Fattah el-Sisi has vowed to take 'any measure' to defend Saudi Arabia amid Houthi attacks.",
+      "published": "17 Oct 2026 23:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.78,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump meringankan sanksi minyak terhadap Rusia, namun apakah Eropa masih membeli gas dari Moskow?",
-      "url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas?traffic_source=rss",
-      "summary": "Analysts say Russia will benefit most from US sanctions waiver.",
-      "published": "17 Oct 2026 18:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.606,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Tidak ada tempat untuk bersembunyi: Aksi jual teknologi menghantam perangkat lunak dan saham chip",
-      "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
-      "summary": "The software and semiconductor sectors haven’t been trading in tandem much this year, but they collectively fell Friday as AI and interest-rate fears hit the market.",
-      "published": "17 Oct 2026 04:59 WIB",
-      "sentiment": "Bearish",
-      "score": -0.613,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "CNBC World",
-      "title": "Trump mengesampingkan sanksi dan tarif baru terhadap Rusia berdasarkan UU Graham, dengan alasan kepentingan nasional",
+      "title": "Trump mengesampingkan sanksi baru terhadap Rusia, Zelensky mengecamnya sebagai hal yang 'salah'",
       "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
       "summary": "Trump signed the Graham Bill, which targeted Russia over its invasion of Ukraine, into law in September.",
-      "published": "17 Oct 2026 17:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.299,
-      "emoji": "🟢",
+      "published": "18 Oct 2026 02:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.911,
+      "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Apa yang perlu diketahui tentang Starshield, layanan Starlink yang berfokus pada militer SpaceX",
-      "url": "https://www.cnbc.com/2026/10/15/what-is-starshield-spacex-starlink-military.html",
-      "summary": "Elon Musk distinguished Starshield from Starlink, which he said could not be used for offensive military operations.",
-      "published": "16 Oct 2026 13:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.459,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump mengatakan dia tidak akan menggunakan senjata nuklir atau mengirim pasukan darat ke Iran",
-      "url": "https://www.cnbc.com/2026/10/16/us-iran-war-trump-hormuz.html",
-      "summary": "Trump said he would not use nuclear weapons against Iran or send ground troops as the U.S. reportedly weighs new strike options.",
-      "published": "16 Oct 2026 16:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.593,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Pembatasan Starlink AS semakin menguatkan Rusia untuk mengintensifkan serangan terhadap Ukraina, kata menteri kepada CNBC",
-      "url": "https://www.cnbc.com/2026/10/16/zelenskyy-trump-eu-summit-russia-ukraine.html",
-      "summary": "Ukraine is seeking winter energy and air-defense support as Russian strikes intensify and Starlink limits disrupt military operations.",
-      "published": "16 Oct 2026 17:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.233,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "CNBC World",
