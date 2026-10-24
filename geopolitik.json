@@ -1,5 +1,5 @@
 {
-  "generated": "23 Oct 2026 22:03 WIB",
+  "generated": "24 Oct 2026 07:03 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,108 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.499,
-      "count": 11
+      "score": -0.365,
+      "count": 14
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.435,
-      "count": 11
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.531,
-      "count": 8
+      "score": -0.272,
+      "count": 13
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.325,
-      "count": 7
+      "score": -0.283,
+      "count": 12
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.129,
+      "count": 11
+    },
+    {
+      "pair": "AUD/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.057,
+      "count": 5
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.057,
+      "count": 5
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.388,
+      "score": -0.112,
       "count": 4
     },
     {
       "pair": "CAD/JPY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.637,
-      "count": 1
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.637,
-      "count": 1
-    },
-    {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.878,
-      "count": 1
+      "direction": "Netral →",
+      "score": -0.042,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Investment Ringkasan berita pasar Amerika: Kekhawatiran akan perang meningkatkan harga minyak ke level tertinggi sejak bulan Mei",
+      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-war-worries-boost-oil-to-the-highest-since-may/",
+      "summary": "Baker Hughes US oil rig count rises 1 to 460. Total rigs unchanged at 603 US expected to remove 50% tariffs on some Canadian products as soon as today - report UMich final October final consumer sentiment 48.0 vs 46.3 expected Canada August retail sales +1.2% vs +1.3% expected US S&P Global flash Oc",
+      "published": "24 Oct 2026 03:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Pendapatan makro minggu depan: The Fed dan Big Tech melaporkan pada hari yang sama",
+      "url": "https://investinglive.com/stocks/earnings-macro-week-ahead-the-fed-and-big-tech-report-on-the-same-day/",
+      "summary": "The Fed decision is Wednesday, October 28, but markets have mostly given up on a move: fed funds futures put the odds of a hold at roughly 90-92%. The market believes that a hike less than a week before the midterms would be politically awkward. So now the question isn’t really about a rate hike in ",
+      "published": "24 Oct 2026 01:40 WIB",
+      "sentiment": "Bearish",
+      "score": -0.226,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "AS diperkirakan akan menghapus tarif 50% pada beberapa produk Kanada secepatnya hari ini - laporkan",
+      "url": "https://investinglive.com/news/us-expected-to-remove-50-tariffs-on-some-canadian-products-as-soon-as-today-report/",
+      "summary": "Election season is doing what trade negotiators couldn’t. The Wall Street Journal reports the US is preparing to lift 50% tariffs on some Canadian agricultural and forestry products, with a proclamation possibly coming as soon as today. The motivation is political: Maine Sen. Susan Collins has been ",
+      "published": "24 Oct 2026 00:55 WIB",
+      "sentiment": "Netral",
+      "score": -0.026,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Trump: Pertanyaannya adalah, apakah kita ingin mengakhiri perang dengan Iran atau membiarkannya layu",
+      "url": "https://investinglive.com/commodities/trump-the-question-is-do-we-want-to-finish-iran-war-or-let-it-wither/",
+      "summary": "Trump is speaking on Iran and much of it is the same things he's been saying for months but the market is sniffing out some kind of weekend escalation so the comments are being closely followed: Do we want to finish it or let it wither is the question We could take all of the oil in Iran We could en",
+      "published": "23 Oct 2026 22:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.962,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Mengapa pasar merasakan eskalasi Iran di akhir pekan dan apa yang terjadi selanjutnya",
+      "url": "https://investinglive.com/commodities/the-market-senses-a-weekend-iran-escalation/",
+      "summary": "Brent prices are above $116 and more than 2.5% on the day as the market sniffs out a weekend attack on Iran. The war hasn't gone to Trump's plan and Republican polling and approval numbers are dismal. In addition, Israeli PM Netanyahu is unlikely to remain Prime Minister after Tuesday's vote (odds a",
+      "published": "23 Oct 2026 21:16 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Emas menembus di bawah area target $4,000 sebelum memantul. Apa yang perlu dibuktikan oleh pembeli?",
@@ -67,47 +122,69 @@
     },
     {
       "source": "ForexLive",
-      "title": "Investing Penutupan sesi live Eropa: Ekuitas berhati-hati karena imbal hasil Treasury meningkat dan minyak tetap kuat",
+      "title": "Investing Penutup Sesi Eropa Langsung: Ekuitas berhati-hati karena imbal hasil obligasi pemerintah rebound, minyak tetap kuat",
       "url": "https://investinglive.com/news/investinglive-european-session-wrap-equities-cautious-as-treasury-yields-rebound-oil-holds-firm/",
       "summary": "Headlines: Falling Treasury yields may be hiding a darker story about the AI boom Crude oil extends gains as Saudi-Houthi conflict and concerns of US-Iran attacks keep the market supported Gold gets caught in market liquidation despite falling real yields supporting higher prices France October PMI ",
       "published": "23 Oct 2026 18:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.695,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Minyak mentah terus menguat karena konflik Saudi-Houthi dan kekhawatiran akan serangan AS-Iran membuat pasar tetap mendapat dukungan",
-      "url": "https://investinglive.com/commodities/crude-oil-extends-gains-as-saudi-houthi-conflict-and-concerns-of-us-iran-attacks-keep-the-market-supported/",
-      "summary": "The bullish momentum in crude oil has been slowly picking up after The New York Times reported that the US and Israeli militaries had developed plans for renewed strikes on Iran following the US midterm elections, with additional forces expected to be fully deployed by early November. The Saudi-Hout",
-      "published": "23 Oct 2026 16:50 WIB",
-      "sentiment": "Bearish",
-      "score": -0.831,
+      "score": -0.803,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "FXStreet",
-      "title": "Minyak: Premi risiko didukung oleh ketegangan Teluk – ING - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLThqMGtLNFdSTEk5blJiSjVVWnd1SUNFaENLVWlSa1h2TDMyeDVabjRIbG5Bd3dBNGVTdF8yT3JicW1TNnIyM250VThNN203V3NrVmJIOUZkTEU2bGdYOUVYYk51SS1LaExMLVBWc1N2U09RNnlkbEo5R0I0eTltZjNsM1QxVTZoVVJyX0xReGNpWFFl?oc=5",
-      "summary": "Oil: Risk premium supported by Gulf tensions – ING FXStreet",
-      "published": "22 Oct 2026 13:20 WIB",
+      "title": "Dolar AS: Tangguh menghadapi FOMC dengan risiko pemilu – TD Securities - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORllFNHE1b09leXM1U2lHZ2JKS3MxbFhGWmJXRnBpWXZpNmkyZjZGbUVnS09VZTVvWWkzNUR2SEhLYnJyNG0wOGRXbEprRFAtZnl5MFFXVGl1bDFkZjhKX19zcmtwN200YWJUdXlPQWh2d2RROEx6SXdYXzFraTluWTBjTlZYcWs2ckdjblRlZnFSOXRKbjd1aWQwSU54c1A4U3FLdE5oOHMxQQ?oc=5",
+      "summary": "US Dollar: Resilient into FOMC with election risks – TD Securities FXStreet",
+      "published": "23 Oct 2026 19:32 WIB",
+      "sentiment": "Bullish",
+      "score": 0.238,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Kapasitas cloud Amazon terjual habis hingga tahun 2027, kata CEO Jassy",
+      "url": "https://www.investing.com/news/stock-market-news/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-4970506",
+      "summary": "",
+      "published": "24 Oct 2026 06:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.178,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Senator mengatakan pembaruan persyaratan komersial Meta yang direncanakan dapat merugikan bisnis AS",
+      "url": "https://www.investing.com/news/stock-market-news/senator-says-planned-meta-commercial-terms-update-could-harm-us-businesses-4970215",
+      "summary": "",
+      "published": "24 Oct 2026 04:49 WIB",
       "sentiment": "Bearish",
-      "score": -0.772,
+      "score": -0.542,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Investing.com Forex",
-      "title": "Jio dari Ambani menjadi IPO India dengan pelanggan terbanyak dengan tawaran $77 miliar",
-      "url": "https://www.investing.com/news/stock-market-news/ambanis-32-billion-jio-indian-ipo-lures-investors-as-bids-surge-on-final-day-4968087",
+      "title": "Platform Fintech OPay mengajukan penawaran umum perdana di AS senilai $336 juta",
+      "url": "https://www.investing.com/news/stock-market-news/fintech-platform-opay-files-for-336-million-us-initial-public-offering-4970460",
       "summary": "",
-      "published": "23 Oct 2026 21:43 WIB",
+      "published": "24 Oct 2026 04:38 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Produsen Chip Mencatat Penurunan Mingguan Terpanjang Sejak November",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-23/chipmakers-post-longest-weekly-drop-since-november-video",
+      "summary": "A resurgence in oil prices dragged down stocks and bonds, stoking concerns about inflation just days ahead of the Federal Reserve decision on interest rates. Brent crude settled near $117 as a flare-up in Middle East violence threatened supplies. Most S&P 500 firms fell even as selling pressure on t",
+      "published": "24 Oct 2026 03:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.722,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
@@ -121,44 +198,11 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Pemilu Brasil: Jajak Pendapat yang Ketat Mengintensifkan Perlombaan di Tahap Akhir",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-23/brazil-elections-tight-polls-intensify-race-in-final-stretch",
-      "summary": "A tie between the two candidates in Thursday’s Datafolha poll boosted President Luiz Inácio Lula da Silva’s campaign, which saw signs of gains for Lula and stability for Senator Flávio Bolsonaro, according to Valor newspaper. Bolsonaro’s allies, meanwhile, played down the result but acknowledged tha",
-      "published": "23 Oct 2026 21:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.565,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "CMOC Tiongkok Melihat Pendapatan Melonjak karena Reli Tembaga dan Produksi yang Lebih Banyak",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-23/china-s-cmoc-sees-earnings-soar-on-copper-rally-and-more-output",
-      "summary": "Chinese miner CMOC Group Ltd.’s earnings for the first nine months of the year surged 68% as copper prices soared toward a record.",
-      "published": "23 Oct 2026 19:52 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 23 Oktober",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/latest-oil-market-news-and-analysis-for-oct-23",
-      "summary": "Brent oil was trading at the highest level since May as attacks on Saudi Arabia intensified and the war with Iran remained unresolved.",
-      "published": "23 Oct 2026 05:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.938,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
-      "title": "Penembakan mematikan di dekat Paris diselidiki sebagai 'kejahatan terorisme', kata menteri",
+      "title": "Penembakan mematikan di dekat Paris adalah 'serangan teroris rasis', kata Macron",
       "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
       "summary": "One person is killed and five wounded in a series of attacks and the suspected gunman has been apprehended.",
-      "published": "23 Oct 2026 21:15 WIB",
+      "published": "24 Oct 2026 02:42 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -166,45 +210,34 @@
     },
     {
       "source": "BBC World",
-      "title": "Dua tentara Israel tewas dalam serangan yang diduga dilakukan oleh pria bersenjata Palestina di Tepi Barat",
-      "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
-      "summary": "The two attackers were shot dead after a gun battle outside Hebron, four days before Israel's general election.",
-      "published": "23 Oct 2026 21:45 WIB",
+      "title": "Tujuh orang ditembak mati oleh orang-orang bersenjata di pemakaman gereja di Yordania, kata para pejabat",
+      "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
+      "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
+      "published": "24 Oct 2026 02:46 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.992,
       "emoji": "🔴",
-      "impact": "medium"
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Pasukan Israel mulai menghancurkan bangunan-bangunan Palestina di Hebron setelah dua tentara Israel ditembak mati",
+      "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
+      "summary": "The soldiers were killed in an attack by two Palestinian gunmen at a checkpoint outside the West Bank city on Friday morning.",
+      "published": "23 Oct 2026 22:37 WIB",
+      "sentiment": "Bearish",
+      "score": -0.997,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "BBC World",
       "title": "Ukraina mengatakan Starlink masih dibatasi setelah Trump mengatakan batasannya dicabut",
       "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Issues remain with the network used by the Ukrainian military, sources say, after repeated denials of a deliberate slowdown.",
-      "published": "23 Oct 2026 18:01 WIB",
+      "summary": "The network is used by the Ukrainian military, sources say, and Trump says \"if there is a problem, I'll get it straightened out\".",
+      "published": "24 Oct 2026 01:52 WIB",
       "sentiment": "Bearish",
-      "score": -0.382,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Rumah sakit sengaja menjadi sasaran pejuang RSF Sudan, demikian temuan BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
-      "summary": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
-      "published": "23 Oct 2026 17:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.951,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Kerumunan 50 orang memukuli orang asing hingga tewas di Afrika Selatan",
-      "url": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss",
-      "summary": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
-      "published": "22 Oct 2026 23:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.875,
+      "score": -0.649,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -220,15 +253,59 @@
       "impact": "low"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Detektif yang diperkosa oleh rekannya mengatakan penanganan kasus Met 'seperti diperkosa lagi'",
-      "url": "https://www.bbc.co.uk/news/articles/ckdd83dz0153o?at_medium=RSS&at_campaign=rss",
-      "summary": "Linda Williams was attacked by David Carrick, who was jailed in 2023 for sexual offences against 12 women.",
-      "published": "23 Oct 2026 12:00 WIB",
+      "source": "BBC World",
+      "title": "Rubio beralih ke kota kecil di India saat AS menghadapi harga minyak yang tinggi",
+      "url": "https://www.bbc.co.uk/news/articles/c3x2wnk8ejq5o?at_medium=RSS&at_campaign=rss",
+      "summary": "US Secretary of State Marco Rubio pushed a business and energy agenda over diplomacy on his second trip to India this year.",
+      "published": "23 Oct 2026 15:39 WIB",
+      "sentiment": "Bullish",
+      "score": 0.273,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Serangan terhadap aktor Tiger Shroff adalah pengingat kelam masa lalu gangster Bollywood",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgjk1lp7njo?at_medium=RSS&at_campaign=rss",
+      "summary": "The attack on Shroff has revived memories of the 1990s, when gangsters wielded influence over the industry.",
+      "published": "23 Oct 2026 06:55 WIB",
       "sentiment": "Bearish",
-      "score": -0.946,
+      "score": -0.815,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Gedung Putih menaikkan tarif beberapa barang Kanada menjelang pemilu paruh waktu",
+      "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+      "summary": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
+      "published": "24 Oct 2026 05:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.34,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "The Papers: 'Meghan memperingatkan tentang ayah' dan 'Jangan mengambil risiko anggaran gaya Truss'",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8devv08nno?at_medium=RSS&at_campaign=rss",
+      "summary": "Meghan Markle's responds to allegations over her father and PM warned to not risk 'Truss-style' budget leads Saturday's papers.",
+      "published": "24 Oct 2026 06:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.306,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Sebelum Anda menghidupkan termostat, cobalah tips berikut untuk menjaga rumah Anda tetap hangat lebih lama",
+      "url": "https://www.bbc.co.uk/news/articles/cqr7yeed1ed7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Make draught excluders from socks, leave your oven door open after cooking and opt for lots of thin layers of clothing to stay warm.",
+      "published": "24 Oct 2026 06:50 WIB",
+      "sentiment": "Bullish",
+      "score": 0.36,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "BBC Top Stories",
@@ -242,58 +319,58 @@
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Mengapa gerakan protes mahasiswa menantang 12 tahun pemerintahan Vučić di Serbia",
-      "url": "https://www.bbc.co.uk/news/articles/cmq8n3v94ql3o?at_medium=RSS&at_campaign=rss",
-      "summary": "After two years of student protests, Serbians vote on Sunday in elections that could bring down the ruling party.",
-      "published": "23 Oct 2026 13:26 WIB",
-      "sentiment": "Bullish",
-      "score": 0.103,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
       "source": "Al Jazeera",
-      "title": "Melania Trump 'mengamankan gencatan senjata' di kota Oleshky di Ukraina: Gedung Putih",
-      "url": "https://www.aljazeera.com/news/2026/10/23/white-house-says-melania-trump-secured-a-ceasefire-in-ukraines-oleshky?traffic_source=rss",
-      "summary": "No confirmation from Russia or Ukraine as White House says 'localised' ceasefire to take effect in Oleshky.",
-      "published": "23 Oct 2026 20:39 WIB",
+      "title": "Topan Champi melanda Taiwan, menewaskan satu orang dan melukai 350 orang",
+      "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+      "summary": "Authorities warn of 'destructive winds' and urge residents to shelter as the storm passes the island's northeast.",
+      "published": "24 Oct 2026 06:10 WIB",
       "sentiment": "Bearish",
-      "score": -0.216,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ratusan orang menentang larangan Aksi Palestina sebagai protes di Kedutaan Besar AS di London",
-      "url": "https://www.aljazeera.com/features/2026/10/23/hundreds-to-defy-palestine-action-ban-in-protest-at-us-embassy-in-london?traffic_source=rss",
-      "summary": "Campaigners plan mass Halloween action before Supreme Court hearing on challenge to group's 'terrorist' proscription.",
-      "published": "23 Oct 2026 20:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.751,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump diperintahkan untuk bersaksi dalam penemuan tuntutan hukum BBC senilai $10 miliar: Apa yang terjadi sekarang?",
-      "url": "https://www.aljazeera.com/news/2026/10/23/trump-ordered-to-testify-in-10bn-bbc-lawsuit-discovery-what-happens-now?traffic_source=rss",
-      "summary": "Trump could face sanctions, including dismissal of his lawsuit, if he fails to cooperate with questioning.",
-      "published": "23 Oct 2026 20:17 WIB",
-      "sentiment": "Bearish",
-      "score": -0.878,
+      "score": -0.949,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "MarketWatch",
-      "title": "Perekonomian yang melonjak diawali dengan baik pada kuartal keempat – namun ada satu masalah besar",
-      "url": "https://www.marketwatch.com/story/surging-economy-gets-off-to-a-good-start-in-the-fourth-quarter-but-theres-one-big-problem-5657f399?mod=mw_rss_topstories",
-      "summary": "Warning signs are emerging that consumers will be hit with rising prices.",
-      "published": "23 Oct 2026 21:23 WIB",
+      "source": "Al Jazeera",
+      "title": "Partai Demokrat FCC memperingatkan lembaga penyiaran untuk menolak taktik tekanan media Trump",
+      "url": "https://www.aljazeera.com/economy/2026/10/23/fcc-democrat-warns-broadcasters-to-resist-trumps-media-pressure-tactics?traffic_source=rss",
+      "summary": "Democrat Anna Gomez warns broadcasters against yielding to the Trump-era FCC's claims of fake polls and news distortions.",
+      "published": "24 Oct 2026 03:44 WIB",
       "sentiment": "Bearish",
-      "score": -0.771,
+      "score": -0.727,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Rusia dan Ukraina menyetujui gencatan senjata lokal yang ditengahi Melania Trump",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss",
+      "summary": "President Trump says it was First Lady Melania Trump’s initiative that led to a ceasefire in Oleshky.",
+      "published": "24 Oct 2026 03:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.441,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Beberapa anggota Partai Republik menentang Trump mengenai tarif. Susan Collins dari Maine baru saja membuatnya mundur dari pungutan Kanada.",
+      "url": "https://www.marketwatch.com/story/some-republicans-are-opposing-trump-on-tariffs-maines-susan-collins-just-got-him-to-back-down-on-canadian-levies-02b202ae?mod=mw_rss_topstories",
+      "summary": "As she faces a tough midterm race, the five-term GOP senator is touting her successful lobbying effort against certain tariffs on Canada",
+      "published": "24 Oct 2026 03:50 WIB",
+      "sentiment": "Bullish",
+      "score": 0.607,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Pasar minyak berada dalam kondisi gelisah menjelang akhir pekan, seiring dengan semakin dekatnya pemilu paruh waktu dan diperkirakan akan ada serangan baru AS terhadap Iran",
+      "url": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
+      "summary": "Oil has climbed back to an Iran-war high and may soon go higher, if the U.S. and Israel strike Iran after their respective voters go to the polls in the coming days.",
+      "published": "24 Oct 2026 03:19 WIB",
+      "sentiment": "Bullish",
+      "score": 0.193,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -309,6 +386,50 @@
     },
     {
       "source": "CNBC World",
+      "title": "SpaceX milik Musk masih membatasi Starlink di Ukraina dan jumlah korbannya terus meningkat",
+      "url": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
+      "summary": "Since last week, Ukraine has reported restrictions on Starshield, a version of SpaceX's Starlink, hampering its military operations against Russia.",
+      "published": "24 Oct 2026 02:50 WIB",
+      "sentiment": "Bearish",
+      "score": -0.302,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Trump menghapus beberapa tarif Kanada namun 'menggantinya' dengan produk lain",
+      "url": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
+      "summary": "Sen. Susan Collins announced Canada was dropping Canadian tariffs, but the White House later said it was \"replacing\" the ones removed from the list.",
+      "published": "24 Oct 2026 04:26 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Kesepakatan Qatar untuk membeli gas alam AS menunjukkan bagaimana perang Iran telah mengubah pasar energi global",
+      "url": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
+      "summary": "The Iran war is transforming global energy markets and benefiting U.S. companies, especially liquefied natural gas exporters.",
+      "published": "24 Oct 2026 02:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.083,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Dalam mencari alternatif Starlink, Ukraina bermitra dengan Nokia dan pembuat satelit ICEYE",
+      "url": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
+      "summary": "With SpaceX imposing speed limits on Starlink in Ukraine and hampering military operations, Kyiv is looking for alternatives.",
+      "published": "24 Oct 2026 03:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.103,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
       "title": "Utang AI dan obligasi Perancis menghadapi ujian stres – mengapa hal ini mungkin belum berakhir",
       "url": "https://www.cnbc.com/2026/10/22/ai-debt-and-french-bonds-stress-test.html",
       "summary": "Bond markets are signaling unease over AI financing costs and sovereign debt in parts of Europe. More stress tests are coming.",
@@ -320,14 +441,25 @@
     },
     {
       "source": "CNBC World",
-      "title": "Raksasa pertahanan Saab melihat pesanan meningkat tiga kali lipat setelah kesepakatan jet tempur Gripen dengan Ukraina",
-      "url": "https://www.cnbc.com/2026/10/23/saab-q3-earnings-figther-jet-maker-beats-expectations-as-orders-triple.html",
-      "summary": "European governments race to turn defense spending pledges into military capability, boosting companies' order books.",
-      "published": "23 Oct 2026 15:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.692,
-      "emoji": "🟢",
+      "title": "Perlombaan Senat Texas: Iklan Talarico baru merobek dorongan 'uang gelap' Elon Musk",
+      "url": "https://www.cnbc.com/2026/10/23/james-talarico-campaign-ad-elon-musk-texas-senate-election.html",
+      "summary": "James Talarico hit back at Elon Musk's attacks and spending in a new ad by the Democratic nominee for U.S. Senate in Texas.",
+      "published": "24 Oct 2026 00:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.52,
+      "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Dua mantan pejabat FBI didakwa diduga berbohong tentang penyelidikan Hunter Biden: DOJ",
+      "url": "https://www.cnbc.com/2026/10/23/fbi-hunter-biden-criminal-charges.html",
+      "summary": "Attorneys for one of the ex-FBI officials slammed the Trump administration for filing the \"nonsense charges\" just before the midterm election.",
+      "published": "23 Oct 2026 23:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.84,
+      "emoji": "🔴",
+      "impact": "medium"
     }
   ]
 }
