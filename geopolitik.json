@@ -1,5 +1,5 @@
 {
-  "generated": "24 Oct 2026 22:02 WIB",
+  "generated": "25 Oct 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,31 +7,31 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.209,
-      "count": 15
+      "score": -0.372,
+      "count": 16
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.207,
-      "count": 14
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.091,
-      "count": 13
+      "score": -0.303,
+      "count": 16
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.082,
+      "score": -0.274,
+      "count": 13
+    },
+    {
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.149,
       "count": 12
     },
     {
       "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.174,
+      "direction": "Netral →",
+      "score": 0.004,
       "count": 5
     },
     {
@@ -47,16 +47,16 @@
       "count": 4
     },
     {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.198,
-      "count": 2
+      "pair": "EUR",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.226,
+      "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Investing. Ringkasan berita pasar Amerika: Kekhawatiran akan perang meningkatkan harga minyak ke level tertinggi sejak bulan Mei",
+      "title": "Investment Ringkasan berita pasar Amerika: Kekhawatiran akan perang meningkatkan harga minyak ke level tertinggi sejak bulan Mei",
       "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-war-worries-boost-oil-to-the-highest-since-may/",
       "summary": "Baker Hughes US oil rig count rises 1 to 460. Total rigs unchanged at 603 US expected to remove 50% tariffs on some Canadian products as soon as today - report UMich final October final consumer sentiment 48.0 vs 46.3 expected Canada August retail sales +1.2% vs +1.3% expected US S&P Global flash Oc",
       "published": "24 Oct 2026 03:05 WIB",
@@ -121,15 +121,15 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Investing Penutupan sesi live Eropa: Ekuitas berhati-hati karena imbal hasil Treasury meningkat dan minyak tetap kuat",
-      "url": "https://investinglive.com/news/investinglive-european-session-wrap-equities-cautious-as-treasury-yields-rebound-oil-holds-firm/",
-      "summary": "Headlines: Falling Treasury yields may be hiding a darker story about the AI boom Crude oil extends gains as Saudi-Houthi conflict and concerns of US-Iran attacks keep the market supported Gold gets caught in market liquidation despite falling real yields supporting higher prices France October PMI ",
-      "published": "23 Oct 2026 18:34 WIB",
-      "sentiment": "Bearish",
-      "score": -0.695,
-      "emoji": "🔴",
-      "impact": "medium"
+      "source": "FXStreet",
+      "title": "Perkiraan Harga EUR/USD: SMA 200-minggu menawarkan garis pertahanan terakhir - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMWFLTl9veWdnUGxYS2xDWm1TNWNsVXI5cHBWemp0LVF3X0lKVkFzQUxHUHRpMjhhYW1mb3NzZ0xoZlAwZ3FfU1pSSXdsSUlLdWt4NC1FNlh6ZC1ZdW5HUFBfUjV5bUt6bzRacVEtUlZyOHV6aWF2SHNJYTJtc0tHbmpSZmM0b2gzRzhDN3ZWanZpcXU2YnNpUkJTNzktMWRWdjV0eFpnLXViV010Q0gteWJxTTFDd1FaNXJjbjZ5SFZFcG1yeVZz?oc=5",
+      "summary": "EUR/USD Price Forecast: 200-week SMA offers last line of defense FXStreet",
+      "published": "24 Oct 2026 01:01 WIB",
+      "sentiment": "Netral",
+      "score": 0.048,
+      "emoji": "⚪",
+      "impact": "high"
     },
     {
       "source": "FXStreet",
@@ -151,6 +151,28 @@
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Arab Saudi Sarankan Bandara Riyadh Dapat Dibuka Kembali pada Minggu",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/saudi-arabia-suggests-riyadh-airport-may-reopen-on-sunday",
+      "summary": "Saudi Arabia’s main airport was gearing up to reopen as early as Sunday after operations had been disrupted by a spate of attacks by Houthi rebels.",
+      "published": "25 Oct 2026 04:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.652,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pengunjuk rasa di Prancis membubarkan diri dengan gas saat ketegangan meningkat",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-24/french-protestors-dispersed-with-gas-as-tensions-rise-video",
+      "summary": "Student protesters in Paris, France were dispersed with gas as conflict escalates. (Source: Bloomberg)",
+      "published": "24 Oct 2026 23:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.938,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -198,17 +220,6 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Pengembang Proyek LNG AS Didanai oleh Novatek Rusia, Kata FT",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-24/us-lng-project-developer-funded-by-russia-s-novatek-ft-says",
-      "summary": "A developer of a liquefied natural gas facility in Alaska received financing from Russia-based Novatek PJSC, an energy giant that is subject to US sanctions, the Financial Times reported.",
-      "published": "24 Oct 2026 11:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
       "title": "Ukraina mengatakan koneksi Starlink 'sekarang stabil' setelah batasan jaringan",
       "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
@@ -218,6 +229,17 @@
       "score": 0.153,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Keluarga-keluarga Palestina mengungsi ketika pasukan Israel menghancurkan rumah-rumah di Hebron",
+      "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
+      "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
+      "published": "25 Oct 2026 06:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.66,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -243,17 +265,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Pasukan Israel mulai menghancurkan bangunan-bangunan Palestina di Hebron setelah dua tentara Israel ditembak mati",
-      "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
-      "summary": "The soldiers were killed in an attack by two Palestinian gunmen at a checkpoint outside the West Bank city on Friday morning.",
-      "published": "23 Oct 2026 22:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.997,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
       "title": "Penembakan mematikan di dekat Paris adalah 'serangan teroris rasis', kata Macron",
       "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
       "summary": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended.",
@@ -265,65 +276,54 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Sebelum Anda menghidupkan termostat, cobalah tips berikut agar Anda dan rumah Anda tetap hangat lebih lama",
-      "url": "https://www.bbc.co.uk/news/articles/cqr7yeed1ed7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Make draught excluders from socks, leave your oven door open after cooking and opt for lots of thin layers of clothing to stay warm.",
-      "published": "24 Oct 2026 06:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.36,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Bagaimana perubahan kelas pekerja di Brasil mengubah pemilihan presiden",
-      "url": "https://www.bbc.co.uk/news/articles/cw80zx79nkvno?at_medium=RSS&at_campaign=rss",
-      "summary": "Calls for change present a challenge to President Lula in the second round of the election on Sunday.",
-      "published": "24 Oct 2026 12:05 WIB",
-      "sentiment": "Bullish",
-      "score": 0.077,
-      "emoji": "🟢",
+      "title": "Obama menyerang Trump saat ia berkampanye untuk Partai Demokrat menjelang pemilu paruh waktu",
+      "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
+      "summary": "\"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama said.",
+      "published": "25 Oct 2026 06:46 WIB",
+      "sentiment": "Netral",
+      "score": 0.048,
+      "emoji": "⚪",
       "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "Penguncian penuh terhadap Tepi Barat yang diduduki dimulai",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
-      "summary": "The Israeli army begins its lockdown and military operations across the West Bank.",
-      "published": "24 Oct 2026 21:24 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "title": "Trump memuji Melania atas kesepakatan gencatan senjata lokal antara Rusia dan Ukraina",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
+      "summary": "Donald Trump praised First Lady as 'better than professionals' after a localised Russia-Ukraine ceasefire in Oleshky.",
+      "published": "25 Oct 2026 06:08 WIB",
+      "sentiment": "Bullish",
+      "score": 0.887,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Ballon d’Or 2026: Bisakah rekor Kylian Mbappe di Real Madrid dan Prancis memenangkannya?",
-      "url": "https://www.aljazeera.com/sports/2026/10/24/ballon-dor-2026-can-kylian-mbappes-real-madrid-and-france-record-win-it?traffic_source=rss",
-      "summary": "Despite not winning silverware last season, Mbappe has been clear his goal to clinch the Ballon d'Or.",
-      "published": "24 Oct 2026 21:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.748,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Siapa dalang di balik penembakan gereja yang mematikan di Yordania?",
-      "url": "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss",
-      "summary": "Authorities are investigating the rare attack on a Christian church; the assailants remain unidentified and at large.",
-      "published": "24 Oct 2026 20:39 WIB",
+      "title": "Sejumlah pria bersenjata membunuh sedikitnya 10 orang di Nigeria timur, kata polisi",
+      "url": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss",
+      "summary": "Nigerian police say a large group carried out the attack on Binnari village in Taraba State.",
+      "published": "25 Oct 2026 05:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.912,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Netanyahu meluncurkan Crypto untuk menghindari sanksi",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/netanyahu-floats-crypto-to-bypass-sanctions?traffic_source=rss",
-      "summary": "Netanyahu floats Crypto to bypass sanctions",
-      "published": "24 Oct 2026 20:27 WIB",
+      "title": "Bagaimana perubahan kebijakan Partai Demokrat sejak pemilu besar AS yang lalu?",
+      "url": "https://www.aljazeera.com/economy/2026/10/24/how-have-democrats-policies-shifted-since-the-last-major-us-election?traffic_source=rss",
+      "summary": "From trans rights to Israel's war on Gaza, the party's candidates have responded to voter shifts on a slew of issues.",
+      "published": "25 Oct 2026 05:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.679,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Lula dan Bolsonaro dari Brasil menarik ribuan orang untuk menghadiri demonstrasi menjelang pemilu",
+      "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
+      "summary": "The pivotal run-off will determine whether Brazilians stick with their left-wing leader or shift towards the right.",
+      "published": "25 Oct 2026 04:39 WIB",
       "sentiment": "Bearish",
       "score": -0.08,
       "emoji": "🔴",
@@ -331,91 +331,69 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Pemukim bersenjata Israel mencoba masuk ke rumah kakek Palestina",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/armed-israeli-settlers-try-to-break-into-palestinian-grandfathers-home?traffic_source=rss",
-      "summary": "A Palestinian man is facing Israeli settler attacks and a demolition order from Israeli forces in Umm Safa village.",
-      "published": "24 Oct 2026 20:16 WIB",
+      "title": "Iran menyalahkan AS atas kegagalan kesepakatan, dan mendesak upaya baru di tengah ketakutan akan serangan baru",
+      "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
+      "summary": "Tehran warns that even limited strikes would trigger a response 'several times greater'.",
+      "published": "25 Oct 2026 04:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.52,
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Houthi melancarkan serangan ke Arab Saudi dan Aden di Yaman",
+      "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
+      "summary": "Houthi missiles reportedly struck a number of targets in Yemen, including Aden's airport and a coastguard base.",
+      "published": "25 Oct 2026 04:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Infantino dari FIFA memuji dukungan pemilihan ulang global di tengah pertanyaan pengunduran diri",
-      "url": "https://www.aljazeera.com/sports/2026/10/24/fifas-infantino-touts-global-re-election-support-amid-resignation-questions?traffic_source=rss",
-      "summary": "Support from Asian federation bolsters FIFA's Gianni Infantino as he seeks re-election as president for a fourth term.",
-      "published": "24 Oct 2026 20:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
+      "title": "Ribuan warga Israel melakukan unjuk rasa menentang pemerintahan Netanyahu beberapa hari sebelum pemilu",
+      "url": "https://www.aljazeera.com/news/2026/10/24/thousands-of-israelis-rally-against-netanyahu-govt-days-before-election?traffic_source=rss",
+      "summary": "Opposition figures join Tel Aviv protesters demanding an independent October 7 inquiry.",
+      "published": "25 Oct 2026 02:11 WIB",
+      "sentiment": "Netral",
+      "score": 0.007,
+      "emoji": "⚪",
       "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran mengatakan tidak akan membiarkan kapal perang AS mendekat ketika Trump mempertimbangkan serangan baru",
-      "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss",
-      "summary": "Iranian officials, media and analysts sense war is closer, but signal there will be no backing down.",
-      "published": "24 Oct 2026 20:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.672,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Raja Abdullah dari Yordania memerintahkan tanggapan tegas setelah serangan gereja yang mematikan",
-      "url": "https://www.aljazeera.com/news/2026/10/24/jordans-king-abdullah-orders-firm-response-after-deadly-church-attack?traffic_source=rss",
-      "summary": "Authorities are still searching for the attackers and say it is too early to determine if they had ties to known groups.",
-      "published": "24 Oct 2026 20:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.858,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Protes di Perancis berlangsung secara langsung: 135 orang ditangkap saat unjuk rasa diadakan di bawah pengamanan ketat",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/24/france-protests-live-135-arrested-as-marches-held-under-tight-security?traffic_source=rss",
-      "summary": "Authorities say they are determined to prevent another weekend of looting, burned cars and attacks on public buildings.",
-      "published": "24 Oct 2026 19:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.539,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah Iran merencanakan serangan terhadap Amerika; mengapa AS waspada?",
-      "url": "https://www.aljazeera.com/news/2026/10/24/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert?traffic_source=rss",
-      "summary": "US intelligence memo warns that Iranian plots against US citizens in the Middle East 'have reached advanced stages'.",
-      "published": "24 Oct 2026 19:51 WIB",
+      "title": "Pemilu Serbia: Sebuah negara di mana mahasiswa dapat mengambil alih kekuasaan",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/serbian-elections-a-country-where-students-may-actually-take-power?traffic_source=rss",
+      "summary": "Serbia is voting in an early election, where the most powerful politician in the country, has a serious rival.",
+      "published": "24 Oct 2026 23:36 WIB",
       "sentiment": "Bullish",
-      "score": 0.447,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pemilu di Serbia menguji gerakan mahasiswa yang menuntut keadilan bagi 16 korban",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/serbia-elections-test-student-movement-demanding-justice-for-16-victims?traffic_source=rss",
-      "summary": "Serbia elections test student movement demanding justice for 16 victims",
-      "published": "24 Oct 2026 19:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.103,
+      "score": 0.42,
       "emoji": "🟢",
       "impact": "medium"
     },
     {
       "source": "CNBC World",
-      "title": "Ukraina mengatakan pembatasan kecepatan tinggi Starlink dan Starshield telah dicabut",
+      "title": "Setelah SpaceX memulihkan layanan berkecepatan tinggi, Musk mengklaim Ukraina melanggar perjanjian Starlink",
       "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
       "summary": "Ukraine says restrictions on Starlink and Starshield have been lifted, restoring connectivity to fast-moving military systems after disruptions.",
-      "published": "24 Oct 2026 20:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.052,
-      "emoji": "🔴",
+      "published": "25 Oct 2026 03:38 WIB",
+      "sentiment": "Bullish",
+      "score": 0.282,
+      "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Kedutaan besar Amerika memperketat keamanan seiring meningkatnya peringatan ancaman Iran menjelang pemilu paruh waktu AS",
+      "url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
+      "summary": "A memo from DNI director Jay Clayton said Iran is in the \"advanced stages\" of planning attacks against Americans.",
+      "published": "25 Oct 2026 04:07 WIB",
+      "sentiment": "Bearish",
+      "score": -0.705,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -438,17 +416,6 @@
       "score": -0.083,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "SpaceX milik Musk masih membatasi Starlink di Ukraina dan jumlah korbannya terus meningkat",
-      "url": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
-      "summary": "Since last week, Ukraine has reported restrictions on Starshield, a version of SpaceX's Starlink, hampering its military operations against Russia.",
-      "published": "24 Oct 2026 02:50 WIB",
-      "sentiment": "Bearish",
-      "score": -0.302,
-      "emoji": "🔴",
-      "impact": "low"
     }
   ]
 }
