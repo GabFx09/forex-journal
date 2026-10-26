@@ -1,47 +1,119 @@
 {
-  "generated": "25 Oct 2026 22:01 WIB",
+  "generated": "26 Oct 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "XAU/USD",
+      "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.142,
+      "score": -0.333,
       "count": 15
     },
     {
-      "pair": "USD/JPY",
+      "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.182,
-      "count": 14
+      "score": -0.333,
+      "count": 15
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.051,
+      "score": -0.254,
       "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.08,
+      "score": -0.134,
       "count": 9
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.132,
+      "score": 0.089,
       "count": 6
     },
     {
-      "pair": "USD/RUB",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.414,
+      "pair": "AUD/USD",
+      "direction": "Netral →",
+      "score": 0.0,
+      "count": 1
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Netral →",
+      "score": 0.0,
       "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "Pratinjau Bank of Canada: 81% kemungkinan kenaikan pertama dalam setahun menjadi 2,50%, pendapat para ekonom",
+      "url": "https://investinglive.com/central-banks/bank-of-canada-preview-81-chance-of-first-hike-in-a-year-to-2-50-economists-split/",
+      "summary": "With a hike close to fully priced, the Canadian dollar’s reaction will likely turn on the Monetary Policy Report and forward guidance rather than the decision itself. A hold would be a sizeable surprise, likely sending the loonie sharply lower and pulling short-dated Canadian yields down. A hike sig",
+      "published": "26 Oct 2026 05:54 WIB",
+      "sentiment": "Bullish",
+      "score": 0.382,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Pratinjau BOJ: Daiwa diperkirakan akan bertahan, namun perkiraan inflasi sebesar 2% dapat membuka pintu bagi kenaikan suku bunga di bulan Desember",
+      "url": "https://investinglive.com/central-banks/boj-preview-daiwa-sees-hold-but-2-inflation-call-could-open-door-to-december-hike/",
+      "summary": "A hold is largely the base case, so the yen and JGB yields are likely to take their cue from the language rather than the decision. A formal declaration that underlying inflation has reached 2%, a Takata dissent and any shift by Ueda toward “next meeting” phrasing would together read as hawkish, sup",
+      "published": "26 Oct 2026 05:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.103,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Goldman Sachs memangkas target Kospi 25% menjadi 9.000, masih melihat kenaikan lebih dari 60%.",
+      "url": "https://investinglive.com/stocks/goldman-sachs-cuts-kospi-target-25-to-9-000-still-sees-over-60-upside/",
+      "summary": "The cut removes one of the most bullish institutional Kospi targets from the table, but the bank’s insistence on deep value gives contrarian investors a framework for buying into weakness rather than chasing the selloff lower. Samsung Electronics and SK Hynix remain the swing factor, since any stabi",
+      "published": "26 Oct 2026 03:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.836,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Hunter dari RBA mengatakan pekerjaan inflasi belum selesai setelah empat kali kenaikan, perkiraan kenaikan di bulan November",
+      "url": "https://investinglive.com/central-banks/rba-s-hunter-says-inflation-job-not-done-after-four-hikes-november-rise-in-view/",
+      "summary": "The comments should keep the Australian dollar supported, at the margin, on rate differentials and hold short-dated Australian government bond yields elevated, with markets likely to lean further toward a November hike unless Wednesday’s inflation data surprise lower. Oil is the swing variable: rene",
+      "published": "26 Oct 2026 03:28 WIB",
+      "sentiment": "Bearish",
+      "score": -0.911,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Berita dan Analisis Pasar Minyak Terkini untuk 26 Oktober",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26",
+      "summary": "Oil edged lower as the US and Iran stuck to familiar rhetoric in their conflict, and a technical gauge pointed to overbought conditions.",
+      "published": "26 Oct 2026 05:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.75,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Ekspansi BYD di Korea Menantang Dominasi Hyundai di Wilayah Dalam Negeri",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/byd-s-korea-expansion-challenges-hyundai-dominance-on-home-turf",
+      "summary": "When Lee Seongdong decided to replace his 2016 Chevrolet Spark in April, a two-year wait for Hyundai Motor Co.’s Casper Electric was already pushing him toward BYD Co.’s Dolphin. He was so impressed by the feature-rich ride that he signed a contract on the spot.",
+      "published": "26 Oct 2026 04:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.79,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "Bloomberg Markets",
       "title": "Di Dalam Dua Argentina Di Bawah Javier Milei",
@@ -66,7 +138,7 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Fed Tampaknya Akan Berhenti Setelah Kenaikan Suku Bunga September",
+      "title": "Fed Tampaknya Akan Berhenti Sejenak Setelah Kenaikan Suku Bunga September",
       "url": "https://www.bloomberg.com/news/videos/2026-10-25/fed-looks-set-to-pause-after-september-rate-hike-video",
       "summary": "On Bloomberg This Weekend, Bloomberg News Federal Reserve reporter Maria Eloisa Capurro previews the Fed’s upcoming rate decision, with policymakers widely expected to pause after September’s first rate increase since 2023 despite inflation remaining above target. Speaking with hosts David Gura and ",
       "published": "25 Oct 2026 20:48 WIB",
@@ -87,48 +159,15 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Arab Saudi Sarankan Bandara Riyadh Dapat Dibuka Kembali pada Minggu",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-24/saudi-arabia-suggests-riyadh-airport-may-reopen-on-sunday",
-      "summary": "Saudi Arabia’s main airport was gearing up to reopen as early as Sunday after operations had been disrupted by a spate of attacks by Houthi rebels.",
-      "published": "25 Oct 2026 04:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.652,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pengunjuk rasa di Prancis membubarkan diri dengan gas saat ketegangan meningkat",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-24/french-protestors-dispersed-with-gas-as-tensions-rise-video",
-      "summary": "Student protesters in Paris, France were dispersed with gas as conflict escalates. (Source: Bloomberg)",
-      "published": "24 Oct 2026 23:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.938,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Forex",
-      "title": "Shilling Mencapai Titik Terendah dalam 33 Tahun; Ggoobi Memperingatkan Terhadap Penggunaan Cadangan untuk Menghargai Spekulan - ChimpReports",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkxSR1RrbFZ3ODBqRm1XLUx6NW9valYtOWZOcUp4aUt1Rk1CWGthdFhPMzFmZ3dDVkxYRzZIX1BGYjVFTklIZ19IRnVxRm9oX0hZdk91dTVnNVFhOUhSamRVb2puR3ltYVlJUGswLUh6aTlmRnkwWkxycVJWVG5xVGx3WE4wT0hiUVIzT3NqVldoNmJqTkZhWmVRZzg2bkY2UDlsTDNoR2xkUXpuQ3c?oc=5",
-      "summary": "Shilling Hits 33-Year Low; Ggoobi Warns Against Using Reserves to Reward Speculators ChimpReports",
-      "published": "24 Oct 2026 12:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.527,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "BBC World",
-      "title": "Israel akan menutup penyeberangan di Tepi Barat pada hari pemilu karena tindakan keras yang meningkat",
-      "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
-      "published": "25 Oct 2026 12:15 WIB",
-      "sentiment": "Bullish",
-      "score": 0.128,
-      "emoji": "🟢",
-      "impact": "medium"
+      "title": "Israel yang terpecah belah bersiap menghadapi pemilihan umum yang penting",
+      "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+      "summary": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
+      "published": "26 Oct 2026 05:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.838,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -143,18 +182,18 @@
     },
     {
       "source": "BBC World",
-      "title": "Orang-orang bersenjata membunuh sedikitnya 10 penduduk desa dan menjarah toko-toko di timur laut Nigeria",
-      "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss",
-      "summary": "Police are searching for other casualties, with officials warning the actual death toll could rise further.",
-      "published": "25 Oct 2026 10:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.98,
-      "emoji": "🔴",
-      "impact": "high"
+      "title": "Israel akan menutup penyeberangan di Tepi Barat pada hari pemilu karena tindakan keras yang meningkat",
+      "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
+      "published": "25 Oct 2026 12:15 WIB",
+      "sentiment": "Bullish",
+      "score": 0.128,
+      "emoji": "🟢",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
-      "title": "Gabon mengatakan akses terhadap media sosial telah pulih setelah larangan selama delapan bulan",
+      "title": "Gabon mengatakan akses ke media sosial dipulihkan setelah larangan delapan bulan",
       "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss",
       "summary": "The authorities had justified the ban by saying online content was fuelling conflict, while the opposition had condemned it as an abuse of power.",
       "published": "25 Oct 2026 21:39 WIB",
@@ -176,17 +215,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Rusia menjadi tuan rumah acara federasi dunia pertama sejak invasi Ukraina",
-      "url": "https://www.bbc.co.uk/sport/olympics/articles/cmq5ny00gzy0o?at_medium=RSS&at_campaign=rss",
-      "summary": "The International Weightlifting Federation becomes the first Olympic federation to choose Russia to host a world championships since its invasion of Ukraine.",
-      "published": "25 Oct 2026 21:34 WIB",
-      "sentiment": "Bullish",
-      "score": 0.414,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
       "title": "Dari kandang Rusia ke tempat perlindungan Irlandia: Perjalanan penyelamatan Bu dan Tyapa selama lima tahun",
       "url": "https://www.bbc.co.uk/news/articles/cx62y9j1zyjvo?at_medium=RSS&at_campaign=rss",
       "summary": "For Bu and Tyapa, the five-year journey from Russia to the Irish countryside was anything but straightforward.",
@@ -198,32 +226,10 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Meghan memutuskan kontak dengan ayahnya melalui surat dengan alasan klaim pelecehan",
-      "url": "https://www.bbc.co.uk/news/articles/cqzjxg7l19yxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Sources close to the duchess said she warned her father last year that he would never meet his grandchildren.",
-      "published": "25 Oct 2026 15:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.924,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pembuat konten Gaza memberi tahu Al Jazeera betapa berartinya kemenangannya atas penghargaan tersebut",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/gaza-content-creator-tells-al-jazeera-how-much-her-award-win-means?traffic_source=rss",
-      "summary": "Palestinian girl Nisreen Skaik tells Al Jazeera how much winning a Junior Digital Creator Award means",
-      "published": "25 Oct 2026 21:16 WIB",
-      "sentiment": "Bullish",
-      "score": 0.855,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pencarian emas adalah pertaruhan yang berbahaya dan melelahkan bagi para penambang Sudan",
-      "url": "https://www.aljazeera.com/features/2026/10/25/the-search-for-gold-is-a-dangerous-and-laborious-gamble-for-sudans-miners?traffic_source=rss",
-      "summary": "As Sudan’s war destroys livelihoods, the death of 16-year-old Altayeb Alhadi highlights dangers of artisanal mining.",
-      "published": "25 Oct 2026 21:03 WIB",
+      "title": "Dua pria tewas tertimpa pohon saat Badai Boelo menyebabkan 160.000 properti tanpa aliran listrik",
+      "url": "https://www.bbc.co.uk/news/articles/cxdd8gr1vje0o?at_medium=RSS&at_campaign=rss",
+      "summary": "An amber wind warning has now expired after severe weather sweeps across the UK.",
+      "published": "26 Oct 2026 05:24 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -231,69 +237,58 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Pertahanan udara Saudi mencegat serangan Houthi di dekat Mekah",
-      "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
-      "summary": "Houthi attacks on Saudi Arabia escalate as fierce ground battles and a devastating siege strangle Yemen's Taiz.",
-      "published": "25 Oct 2026 20:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.955,
-      "emoji": "🔴",
+      "title": "Ribuan orang melakukan protes di Praha menentang reformasi pendanaan media publik",
+      "url": "https://www.aljazeera.com/news/2026/10/25/thousands-protest-in-prague-against-public-media-funding-reforms?traffic_source=rss",
+      "summary": "Demonstrators allege Prime Minister Andrej Babis and his coalition's proposed reforms pose a threat to press freedom.",
+      "published": "26 Oct 2026 06:29 WIB",
+      "sentiment": "Netral",
+      "score": 0.028,
+      "emoji": "⚪",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Serbia memberikan suara saat blok yang dipimpin mahasiswa menantang pemimpin lamanya, Vucic",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/serbia-votes-as-student-led-bloc-challenges-longtime-leader-vucic?traffic_source=rss",
-      "summary": "Serbians turn out in huge numbers for a parliamentary election that could end Aleksandar Vucic’s longstanding reign.",
-      "published": "25 Oct 2026 20:40 WIB",
+      "title": "Hasil pemilu Brasil 2026 langsung: Penghitungan suara dimulai untuk Lula, Bolsonaro",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off?traffic_source=rss",
+      "summary": "Legal challenges are likely, as the voting extension adds tension to Brazil's polarised political landscape.",
+      "published": "26 Oct 2026 03:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.208,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pemimpin oposisi Venezuela Maria Corina Machado kembali dari pengasingan",
+      "url": "https://www.aljazeera.com/news/2026/10/25/venezuelas-opposition-leader-maria-corina-machado-returns-from-exile?traffic_source=rss",
+      "summary": "The Nobel laureate's homecoming follows national protests demanding free elections.",
+      "published": "26 Oct 2026 01:55 WIB",
       "sentiment": "Bullish",
-      "score": 0.382,
+      "score": 0.128,
       "emoji": "🟢",
       "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "Elena Rybakina mempertahankan gelar Ningbo, memenangkan trofi pertama sebagai peringkat satu dunia",
-      "url": "https://www.aljazeera.com/sports/2026/10/25/elena-rybakina-retains-ningbo-title-wins-first-trophy-as-world-number-one?traffic_source=rss",
-      "summary": "The victory helped the Kazakh take a big step towards securing the year-end number one ranking.",
-      "published": "25 Oct 2026 19:40 WIB",
+      "title": "Kapan Ballon d’Or 2026, siapa favoritnya, dan bagaimana cara menontonnya?",
+      "url": "https://www.aljazeera.com/sports/2026/10/25/when-is-the-2026-ballon-dor-who-are-the-favourites-and-how-can-you-watch-it?traffic_source=rss",
+      "summary": "Al Jazeera Sport breaks down the award-voting criteria, top candidates and history ahead of the ceremony in London.",
+      "published": "26 Oct 2026 01:34 WIB",
       "sentiment": "Bullish",
-      "score": 0.685,
+      "score": 0.122,
       "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Wembanyama mencetak 23 gol saat Spurs mengalahkan Mavericks untuk kemenangan pertama musim NBA",
-      "url": "https://www.aljazeera.com/sports/2026/10/25/wembanyama-scores-23-as-spurs-beat-mavericks-for-first-win-of-nba-season?traffic_source=rss",
-      "summary": "Joel Embiid posts triple-double as 76ers handle Bucks. Devin Booker posts 43 to help Suns down Warriors.",
-      "published": "25 Oct 2026 19:37 WIB",
-      "sentiment": "Bullish",
-      "score": 0.758,
-      "emoji": "🟢",
+      "source": "MarketWatch",
+      "title": "Pasangan saya selama 17 tahun meninggalkan rumahnya senilai $1 juta untuk saya. Anak-anaknya marah besar. Apakah saya wajib membaginya dengan mereka?",
+      "url": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+      "summary": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
+      "published": "26 Oct 2026 00:00 WIB",
+      "sentiment": "Bearish",
+      "score": -0.622,
+      "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Arab Saudi mencegat rudal dan drone saat pertempuran melawan Houthi berkecamuk",
-      "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
-      "summary": "Saudi Civil Defence says the interception of Houthi ballistic missiles caused two injuries in the country's south.",
-      "published": "25 Oct 2026 17:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.717,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump mengolok-olok wartawan yang bertanya tentang serangan Iran, sementara Teheran mengatakan AS gagal",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss",
-      "summary": "US President Donald Trump sarcastically responded to a reporter asking about possible renewed attacks on Iran.",
-      "published": "25 Oct 2026 17:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.978,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "MarketWatch",
@@ -307,15 +302,26 @@
       "impact": "medium"
     },
     {
-      "source": "MarketWatch",
-      "title": "'Nonjawaban' tidak berfungsi. Inilah yang sangat dibutuhkan investor dari The Fed.",
-      "url": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
-      "summary": "What really matters to investors, economists say, is for Fed Chairman Kevin Warsh to prove he can successfully communicate the central bank’s strategy.",
-      "published": "25 Oct 2026 19:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.476,
-      "emoji": "🟢",
-      "impact": "high"
+      "source": "CNBC World",
+      "title": "Audi membela rencana pembangunan pabrik di Georgia senilai $4 miliar di tengah restrukturisasi dan tarif VW",
+      "url": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
+      "summary": "Audi's CEO defended the company's plans for a $4 billion plant in Georgia, calling it a business decision to grow sales and reduce exposure to U.S. tariffs.",
+      "published": "25 Oct 2026 23:42 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Ukraina membantah klaim Elon Musk bahwa militernya melanggar ketentuan Starlink selama operasi drone",
+      "url": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
+      "summary": "Ukraine challenged Musk’s claim that its military violated Starlink terms, arguing that commercial Starlink limits prevented medium- and long-range strike use.",
+      "published": "26 Oct 2026 01:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.914,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
@@ -338,28 +344,6 @@
       "score": -0.68,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Setelah SpaceX memulihkan layanan berkecepatan tinggi, Musk mengklaim Ukraina melanggar perjanjian Starlink",
-      "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
-      "summary": "Ukraine says restrictions on Starlink and Starshield have been lifted, restoring connectivity to fast-moving military systems after disruptions.",
-      "published": "25 Oct 2026 03:38 WIB",
-      "sentiment": "Bullish",
-      "score": 0.282,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Kedutaan besar Amerika memperketat keamanan seiring meningkatnya peringatan ancaman Iran menjelang pemilu paruh waktu AS",
-      "url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
-      "summary": "A memo from DNI director Jay Clayton said Iran is in the \"advanced stages\" of planning attacks against Americans.",
-      "published": "25 Oct 2026 04:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.705,
-      "emoji": "🔴",
-      "impact": "high"
     }
   ]
 }
