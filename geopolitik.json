@@ -1,55 +1,55 @@
 {
-  "generated": "31 Oct 2026 07:02 WIB",
+  "generated": "31 Oct 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.296,
-      "count": 14
+      "pair": "EUR/USD",
+      "direction": "Netral →",
+      "score": 0.034,
+      "count": 13
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.267,
-      "count": 14
+      "score": -0.205,
+      "count": 13
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.258,
+      "score": -0.161,
       "count": 13
     },
     {
-      "pair": "EUR/USD",
+      "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.359,
-      "count": 12
+      "score": -0.208,
+      "count": 11
     },
     {
       "pair": "GBP/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.303,
-      "count": 8
+      "direction": "Tekanan Naik ▲",
+      "score": 0.191,
+      "count": 10
     },
     {
       "pair": "EUR",
       "direction": "Tekanan Turun ▼",
-      "score": -0.638,
+      "score": -0.726,
       "count": 4
     },
     {
       "pair": "USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.638,
+      "score": -0.726,
       "count": 4
     },
     {
       "pair": "CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.724,
+      "score": -0.787,
       "count": 3
     }
   ],
@@ -99,17 +99,6 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Minyak mentah melanjutkan kenaikannya karena para pedagang melakukan lindung nilai pada akhir pekan di tengah risiko serangan AS terhadap Iran",
-      "url": "https://investinglive.com/commodities/crude-oil-extends-gains-as-traders-hedge-into-weekend-amid-risks-of-us-strikes-on-iran/",
-      "summary": "Crude oil extended the gains into new highs yesterday after the Houthis targeted the Aramco oil company in widespread wave of missile attacks. The bullish momentum then accelerated after the Wall Street Journal reported that in a rare in-person visit to the White House, the top US commander in the M",
-      "published": "30 Oct 2026 19:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.806,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "FXStreet",
       "title": "Emas anjlok hampir 3% ke posisi terendah tahunan karena suasana risk-off menawarkan sedikit dukungan - FXStreet",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc2ViYTVYRnltbDRIRHpqb0xTSUlYZU4wenVyVEhtR2Rjc093dm9FSXZxTG5fRHpSZjU0d3ZvXzVadFlQdWdOLW5BTjVHak1oS2I0SHhBdWFqNDlPM00xNXQ3X3psM0JtbkhkYnI3LVFlMkxld25FUXlQOERXVEVUR1lSbEdrWjlKMHp3VFJ3ck4wZlhoVmRIQlZ4RFo3Nmp3ZGJzYlE5RGJxcnRlUXhkMG9hUEZhUHBWWTF3NjF3?oc=5",
@@ -132,6 +121,72 @@
       "impact": "medium"
     },
     {
+      "source": "FXStreet",
+      "title": "Minyak WTI bertahan di atas $103,00, mendekati level tertinggi lima bulan di tengah serangan baru di Selat Hormuz - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbHBYY3RyYWR4SEt6Rk5zRktJenpYT19ZdDdMdWRaMXM3SjdIVThoSlNSYVR0aVBNVk9BSUJqS3k5VUFnMl9sel9TYUZrVEhFblFndF9wdzY0aGQzUGhtcnhNTHZSc1F1R3VJdUd2WEtlNHpHb3hVN1NJT0lOZmZVZ1BSdTlMd3JRaTk5N0lMTVRPWFlBaElUNGVVc3NBai1mRW90TUkwbjVxeW5IMlVKWHFoODdhOW05VERKaFZrdk9VQ25kZkZwUjFLMA?oc=5",
+      "summary": "WTI Oil holds above $103.00, near five-month highs amid new attacks in the Strait of Hormuz FXStreet",
+      "published": "30 Oct 2026 19:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.78,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Citi meningkatkan Hyundai Mobis untuk membeli pada prospek 4Q",
+      "url": "https://www.investing.com/news/stock-market-news/citi-upgrades-hyundai-mobis-to-buy-on-4q-outlook-93CH-4989214",
+      "summary": "",
+      "published": "31 Oct 2026 17:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.625,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kallas dari UE Mengatakan Menjamu Putin di G20 Dapat Menormalkan Kejahatan Perang",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/eu-s-kallas-hosting-putin-at-g20-risks-normalizing-war-crimes",
+      "summary": "Vladimir Putin’s possible attendance at the Group of 20 leaders’ summit in Florida in December would risk regularizing Russia’s return to international forums while its war in Ukraine continues, according to the European Union’s top diplomat Kaja Kallas.",
+      "published": "31 Oct 2026 21:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.797,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kepala Kebijakan Luar Negeri UE Memperingatkan Terhadap Normalisasi Rusia",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-31/eu-foreign-policy-chief-warns-against-normalizing-russia-video",
+      "summary": "EU foreign policy chief Kaja Kallas tells Bloomberg This Weekend that Russia is escalating its war in Ukraine and is not serious about peace, criticizing Russian Foreign Minister Sergei Lavrov’s statements at the G20 foreign ministers’ meeting in Atlanta and warning against normalizing Moscow on the",
+      "published": "31 Oct 2026 20:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.845,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Anggota Parlemen Senegal Kembali Menolak Anggaran, Mempertaruhkan Kesepakatan IMF",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk",
+      "summary": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law, prolonging a standoff that threatens to delay approval of a crucial International Monetary Fund program.",
+      "published": "31 Oct 2026 19:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.545,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Risiko Kebijakan AI Membayangi Saham, Pedagang Obligasi Menjelang Paruh Waktu",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/ai-policy-fears-grip-stock-bond-traders-with-midterms-days-away",
+      "summary": "Wall Street expects Democrats to win at least one of the houses of Congress in the US midterm elections on Tuesday, setting the stage for a potentially volatile ride in the stock and bond markets with artificial intelligence oversight, defense spending and crypto legislation on the table.",
+      "published": "30 Oct 2026 18:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.58,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
       "source": "Bloomberg Markets",
       "title": "Peretasan Kripto Menghidupkan Kembali Perdebatan Peraturan",
       "url": "https://www.bloomberg.com/news/videos/2026-10-30/crypto-hack-reignites-regulatory-debate-video",
@@ -143,46 +198,24 @@
       "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Brazil Panggil Utusan Argentina Terkait Perannya dalam Pelarian Bolsonaro",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-30/brazil-summons-argentine-envoy-over-role-in-bolsonaro-s-escape",
-      "summary": "Brazilian authorities summoned Argentina’s top envoy in the country on Friday to explain President Javier Milei’s role in helping Flávio Bolsonaro flee Brazil following his election defeat.",
-      "published": "31 Oct 2026 03:59 WIB",
-      "sentiment": "Bullish",
-      "score": 0.178,
-      "emoji": "🟢",
+      "source": "Google News Geopolitik",
+      "title": "Apa yang perlu diketahui tentang perekonomian AS menjelang pemilu paruh waktu - ABC News - Breaking News, Berita dan Video Terbaru",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQUhWdi1EV2diVDdOdzQwWlVUamR5OXR1ZjhiRjhXZkJSZzN3OEYyTDkwMUNoVFpkcnU4dGpJY1g4NGxZWG1ETngyaTZNMWxkd0MyYXVCR0tOaF9DbU9JSmdqRnVCWk9nN0pnc25JTkViRWRRNHN5N2N3aGFha0o5QUN30gGHAUFVX3lxTE1aQ3RTVi1sdUJmNVFCcll0RS1xcGFaZm50b2piU3pIVW9vUE16emYwcDZ1RG1OQm5lRU1IblRHV0x1djdhSFRQTGp2TlhYb0gwRWdmMVczcUR3Q0d0SFh6V1hBR1ZIMTNnZnh5X1pYTl9VV3RSejhsSV9oRlJLLVVHX0UtRVJxWQ?oc=5",
+      "summary": "What to know about the US economy as midterm elections near ABC News - Breaking News, Latest News and Videos",
+      "published": "30 Oct 2026 16:30 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "medium"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Hedge Funds Meningkatkan Posisi Short Gas Alam ke Rekor Tertinggi",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-30/hedge-funds-boost-natural-gas-short-positions-to-most-on-record",
-      "summary": "Hedge funds this week amassed the largest-ever short position on US natural gas on expectations that an unusually warm winter will slash demand for the furnace and power-plant fuel.",
-      "published": "31 Oct 2026 03:40 WIB",
-      "sentiment": "Bullish",
-      "score": 0.663,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terkini untuk 30 Oktober",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-29/latest-oil-market-news-and-analysis-for-oct-30",
-      "summary": "Oil climbed as traders gauged Washington’s appetite for renewed military escalation against Iran, adding fresh risk to supplies in the Middle East.",
-      "published": "30 Oct 2026 05:02 WIB",
-      "sentiment": "Netral",
-      "score": -0.028,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Dolar Kanada kokoh di dekat puncak 16 September vs lemahnya USD di tengah harga minyak yang bullish - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWXk1RG5SdjBEaWF4WEdxZzdoVDdmSXdaT0FzYWEtX0stWUlzNFNwb1MtcXNLU3RQd2NweVRXU19ZWEpLczJXNk9EcEVBTEVzcnJ3U2kzRl8tTllFd1NSQUFqTXR2dVpXM0Uwa2daVjBUR1dTTnVxYV83aGxIY0toSlFNWEtTU09Ib0FDRHdoQjFEdllEZm40dEtYTktUMWxDem1fVGF0MzBia3hTOFNlYTRmM0lOZFdDcjNjZXo0TlZmT2xrWVRZ?oc=5",
-      "summary": "Canadian Dollar stands firm near September 16 top vs weak USD amid bullish oil prices FXStreet",
-      "published": "30 Oct 2026 12:41 WIB",
+      "source": "BBC World",
+      "title": "Pengungsi dari kota yang diduduki Rusia di mana penduduknya memakan rumput liar tiba di Ukraina",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
+      "published": "31 Oct 2026 21:53 WIB",
       "sentiment": "Bearish",
-      "score": -0.353,
+      "score": -0.532,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -191,11 +224,66 @@
       "title": "AS menyetujui penjualan 500 rudal Patriot ke Ukraina",
       "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
       "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
-      "published": "31 Oct 2026 05:20 WIB",
+      "published": "31 Oct 2026 19:21 WIB",
       "sentiment": "Bullish",
       "score": 0.477,
       "emoji": "🟢",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Polisi dikerahkan selama pertikaian mengenai kendali pengadilan tinggi Polandia",
+      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+      "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+      "published": "31 Oct 2026 08:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.778,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Bencana kereta Spanyol mengaburkan peluang Sánchez untuk terpilih kembali",
+      "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Spanish PM is hit by a succession of crises just weeks before a snap general election.",
+      "published": "31 Oct 2026 12:44 WIB",
+      "sentiment": "Bearish",
+      "score": -0.361,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "PM Ethiopia menempatkan para menterinya melalui pelatihan militer",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
+      "summary": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
+      "published": "31 Oct 2026 21:28 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "'Foto keluarga' G20 dibatalkan setelah protes atas kehadiran menteri Rusia",
+      "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
+      "summary": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
+      "published": "31 Oct 2026 05:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.718,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Perjuangan untuk menyelamatkan kota di Kanada terancam oleh tarif Trump",
+      "url": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
+      "summary": "A century-old paper mill in Témiscaming, Quebec is indefinitely closed after the US imposed 50% tariffs on its products, putting hundreds out of work.",
+      "published": "31 Oct 2026 09:39 WIB",
+      "sentiment": "Bearish",
+      "score": -0.402,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -206,17 +294,6 @@
       "sentiment": "Netral",
       "score": -0.028,
       "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Polisi dikerahkan selama pertikaian mengenai kendali pengadilan tinggi Polandia",
-      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-      "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
-      "published": "31 Oct 2026 03:52 WIB",
-      "sentiment": "Bearish",
-      "score": -0.778,
-      "emoji": "🔴",
       "impact": "low"
     },
     {
@@ -232,223 +309,168 @@
     },
     {
       "source": "BBC World",
-      "title": "'Foto keluarga' G20 dibatalkan setelah protes atas kehadiran menteri Rusia",
-      "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
-      "summary": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
-      "published": "31 Oct 2026 05:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.718,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Senator Demokrat menyalahkan tindakan keras pers Mesir terhadap keputusan bantuan militer AS",
-      "url": "https://www.bbc.co.uk/news/articles/c63r529wn2vzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Chris Murphy said waiving a human rights condition on aid paved the way for arrests of journalists.",
-      "published": "30 Oct 2026 22:17 WIB",
-      "sentiment": "Bearish",
-      "score": -0.681,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Kandidat Senat Alaska menyangkal mengetahui tentang dugaan rencana untuk memasukkan dua Dan Sullivan ke dalam pemungutan suara",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Dan S Sullivan, the incumbent Republican senator running for re-election, and allies have accused the Democrats of trying to confuse voters by recruiting Dan J Sullivan to also stand in the race.",
-      "published": "31 Oct 2026 03:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.71,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC Business",
-      "title": "Keluarga yang berduka tidak akan menghadapi tagihan pajak atas penundaan pensiun berdasarkan peraturan baru",
-      "url": "https://www.bbc.co.uk/news/articles/cr5yn9zwnp3qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Campaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.",
-      "published": "29 Oct 2026 22:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.922,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Partai Demokrat di Amerika sedang mengalami krisis identitas dan hal ini tidak mudah untuk diatasi",
-      "url": "https://www.bbc.co.uk/news/articles/cknv08980d3vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Whatever the result of the midterm elections, the party is facing tough questions over what they stand for and who should represent them.",
-      "published": "30 Oct 2026 09:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.729,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Sir Ian McKellen memimpin penghormatan kepada 'aktor tercinta' Sir Patrick Stewart setelah kematiannya pada usia 86 tahun",
-      "url": "https://www.bbc.co.uk/news/articles/cm20v3029p5xo?at_medium=RSS&at_campaign=rss",
-      "summary": "The actor died in Los Angeles following a \"a brief and poignant journey\" with Alzheimer's Disease and Lewy Body Dementia.",
-      "published": "30 Oct 2026 19:43 WIB",
-      "sentiment": "Bearish",
-      "score": -0.858,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mengapa AI dapat mengancam sebagian besar infrastruktur digital dunia",
-      "url": "https://www.aljazeera.com/news/2026/10/30/why-ai-could-threaten-much-of-the-worlds-digital-infrastructure?traffic_source=rss",
-      "summary": "Volunteer-led PHP, which powers most websites, is increasingly under threat from cyberattacks using AI capabilities.",
-      "published": "31 Oct 2026 06:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.878,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "G20 membatalkan foto grup karena negara-negara Eropa menolak mendukung Lavrov",
-      "url": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
-      "summary": "Sanctioned Russian FM attends Atlanta talks as Iran war, Hormuz disruption and Ukraine divide G20 members.",
-      "published": "31 Oct 2026 03:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.911,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Rubio menjadi tuan rumah pembicaraan G20 ketika kehadiran Lavrov Rusia memicu ketegangan",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_rubio-hosts-g20-talks-as-russias-lavrov-present-301026?traffic_source=rss",
-      "summary": "US Secretary of State Marco Rubio urged G20 officials to work together to confront threats to the economic order.",
-      "published": "31 Oct 2026 03:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.542,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Keluarga-keluarga di Port Sudan hampir tidak mampu membeli air karena kekurangan air terus berlanjut",
-      "url": "https://www.aljazeera.com/news/2026/10/30/port-sudan-families-can-barely-afford-water-as-shortages-persist?traffic_source=rss",
-      "summary": "Despite efforts to restore damaged infrastructure, residents face soaring water costs as war, displacement strain supply",
-      "published": "31 Oct 2026 03:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.939,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "UE dan Kanada mengupayakan hubungan yang lebih erat di tengah memburuknya ketidakpastian global",
-      "url": "https://www.aljazeera.com/news/2026/10/30/eu-and-canada-seek-deeper-ties-amid-worsening-global-uncertainty?traffic_source=rss",
-      "summary": "Both sides signed a digital trade deal, as Trump's trade threats push Washington's allies to seek closer ties elsewhere.",
-      "published": "31 Oct 2026 03:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.341,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tentara Pakistan ‘sangat optimis’ terhadap upaya mediasi AS-Iran",
-      "url": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts?traffic_source=rss",
-      "summary": "Pakistan's military spokesman warns of 'powerful spoilers and detractors' who still believe the conflict serves them.",
-      "published": "31 Oct 2026 01:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.134,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Israel menghancurkan rumah-rumah warga Palestina yang disalahkan atas serangan terhadap tentara",
-      "url": "https://www.aljazeera.com/news/2026/10/30/israel-demolishes-homes-of-palestinians-blamed-for-attack-on-soldiers?traffic_source=rss",
-      "summary": "Troops hold at least 12 Palestinians near demolished homes as nearly 5,000 remain displaced from Hebron neighbourhoods",
-      "published": "31 Oct 2026 01:35 WIB",
-      "sentiment": "Bearish",
-      "score": -0.815,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Bagaimana pemotongan hukuman di bawah de la Espriella di Kolombia mengancam pengadilan hak asasi manusia yang penting",
-      "url": "https://www.aljazeera.com/news/longform/2026/10/30/how-cuts-under-colombias-de-la-espriella-threaten-a-key-human-rights-court?traffic_source=rss",
-      "summary": "Colombia's president plans to slash spending on a transitional justice court. But war crimes victims fear the cost.",
-      "published": "31 Oct 2026 00:43 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Mengapa emas anjlok ke harga terendah dalam setahun meskipun ada kekhawatiran baru dari Iran",
-      "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
-      "summary": "Safe-haven gold fell to its lowest price in a year, despite jitters around the potential for fresh Middle East attacks following the U.S. midterm elections on Tuesday",
-      "published": "31 Oct 2026 04:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.574,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Warsh ingin The Fed tidak banyak bicara. Dua pejabat mendorong transparansi yang lebih besar.",
-      "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
-      "summary": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
-      "published": "31 Oct 2026 04:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.382,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Economy",
-      "title": "Perusahaan kapal pesiar bertujuan untuk menekan biaya bahan bakar. Strategi mereka untuk melakukan hal tersebut berbeda-beda",
-      "url": "https://www.cnbc.com/2026/10/29/royal-caribbean-carnival-norwegian-fuel-costs.html",
-      "summary": "Carnival is cutting fuel use, while Royal Caribbean and Norwegian rely on \"hedging\" to keep fuel costs down amid conflict in the Middle East.",
-      "published": "30 Oct 2026 02:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.501,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Bagaimana pemilu di seluruh dunia menguji pengaruh Trump di luar negeri",
-      "url": "https://www.cnbc.com/2026/10/30/election-trump-brazil-serbia-hungary.html",
-      "summary": "Recent election losses by leaders linked to Trump have prompted questions about whether his influence over the global right is weakening.",
-      "published": "30 Oct 2026 07:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.772,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Serangan Rusia membuat kota Ukraina padam karena Zelensky memperingatkan akan adanya lebih banyak serangan rudal",
-      "url": "https://www.cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html",
-      "summary": "Russian strikes caused major power outages in Dnipro as a reported Ukrainian drone attack sparked a fire at a Russian oil refinery.",
-      "published": "30 Oct 2026 18:29 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Analisis: Kevin Warsh membuat Wall Street terus menebak-nebak. Ini mungkin alatnya yang paling ampuh",
-      "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
-      "summary": "The new chairman made clear he leans toward higher interest rates, but left himself options depending on how the data comes in.",
-      "published": "30 Oct 2026 00:32 WIB",
+      "title": "CCTV dan ikatan zip: Bagaimana suara yang masuk di AS diamankan dan dihitung",
+      "url": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Verify goes to an election centre to get a behind-the-scenes look at how mail-in ballots for the US midterm elections are processed.",
+      "published": "31 Oct 2026 16:16 WIB",
       "sentiment": "Bullish",
-      "score": 0.512,
+      "score": 0.402,
       "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "Bagaimana gencatan senjata di Oleshky yang diduduki Rusia berlangsung?",
+      "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
+      "published": "31 Oct 2026 06:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.532,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Mengapa anggota parlemen terus berbicara tentang pemilihan awal meskipun ada bantahan dari Burnham",
+      "url": "https://www.bbc.co.uk/news/articles/cm5yn7d0qx1do?at_medium=RSS&at_campaign=rss",
+      "summary": "The prime minister has categorically ruled out an early general election, but it has not stopped speculation at Westminster.",
+      "published": "31 Oct 2026 07:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.25,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Eropa tidak bisa lagi bergantung pada AS untuk 'membiayai' pertahanannya, kata Starmer",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv0p4l7rjlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sir Keir warns that \"things will not go back to the way they were\" as he says the US makes it clear it will no longer \"bankroll\" its allies.",
+      "published": "31 Oct 2026 20:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.282,
+      "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Menlu Iran mengatakan pendekatan AS merupakan 'langkah positif' sebagai delegasi di Qatar untuk melakukan pembicaraan",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
+      "summary": "Iran’s Foreign Minister Abbas Araghchi tells Al Jazeera Tehran doesn't rule out attack, is ‘prepared for all scenarios’.",
+      "published": "31 Oct 2026 21:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.485,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Israel memilih Israel: Mengapa Gaza tidak ikut dalam pemungutan suara",
+      "url": "https://www.aljazeera.com/news/2026/10/31/israel-voted-for-israel-why-gaza-wasnt-on-the-ballot?traffic_source=rss",
+      "summary": "Despite genocide, regional war and isolation, Israel's election revealed little appetite for political alternatives.",
+      "published": "31 Oct 2026 20:35 WIB",
+      "sentiment": "Netral",
+      "score": 0.034,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Di perbatasan Norwegia-Rusia, masyarakat Sámi menghadapi perpecahan yang semakin besar",
+      "url": "https://www.aljazeera.com/features/longform/2026/10/31/on-the-norway-russia-border-the-sami-people-face-a-growing-divide?traffic_source=rss",
+      "summary": "As Russia’s war in Ukraine reshapes this Arctic frontier, Sámi communities struggle to sustain cross-border traditions.",
+      "published": "31 Oct 2026 19:58 WIB",
+      "sentiment": "Bearish",
+      "score": -0.75,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Studio hancur, tradisi terselamatkan: Seniman berjuang menyelamatkan budaya Sudan",
+      "url": "https://www.aljazeera.com/features/2026/10/31/studios-destroyed-traditions-saved-artists-fight-to-save-sudans-culture?traffic_source=rss",
+      "summary": "Artists in Sudan are working to save culture and traditions amid the country's war.",
+      "published": "31 Oct 2026 19:49 WIB",
+      "sentiment": "Bearish",
+      "score": -0.208,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Anggota parlemen Iran menyerukan penarikan diri dari NPT: Apakah kita akan berperang atau damai?",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
+      "summary": "Withdrawal from the nuclear treaty doses not mean that Iran would build a nuclear weapon, observers say.",
+      "published": "31 Oct 2026 19:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.42,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "PBB menutup misinya di Somalia, mengakhiri keterlibatan politik selama tiga dekade",
+      "url": "https://www.aljazeera.com/news/2026/10/31/un-closes-somalia-mission-ending-three-decades-of-political-engagement?traffic_source=rss",
+      "summary": "Somalia hails the UN mission's closure as a milestone amid political tensions and cuts to international support.",
+      "published": "31 Oct 2026 18:37 WIB",
+      "sentiment": "Netral",
+      "score": 0.042,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Ribuan orang melakukan protes di seluruh Italia mengenai biaya hidup dan pengeluaran militer",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
+      "summary": "Thousands have protested across Italy against rising living costs and increased military spending.",
+      "published": "31 Oct 2026 18:07 WIB",
+      "sentiment": "Netral",
+      "score": -0.023,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pengungsi dari Oleshky yang diduduki Rusia tiba di Ukraina melalui Belarus",
+      "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine?traffic_source=rss",
+      "summary": "Four planes transporting evacuees from the war-ravaged city arrived in Belarus's Gomel earlier on Saturday.",
+      "published": "31 Oct 2026 17:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Nasib Jaminan Sosial – dan tunjangan Anda – ada di tangan para kandidat yang terpilih tahun ini",
+      "url": "https://www.marketwatch.com/story/the-midterms-are-crucial-to-the-future-of-social-security-no-matter-how-old-you-are-0f080a9c?mod=mw_rss_topstories",
+      "summary": "The program is expected to run out of money in the next six years, which is the same amount of time as a senator’s term.",
+      "published": "31 Oct 2026 21:35 WIB",
+      "sentiment": "Bullish",
+      "score": 0.382,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Mediator Qatar mengadakan pembicaraan di Teheran yang bertujuan untuk memulai kembali perundingan langsung AS-Iran, kata sumber",
+      "url": "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html",
+      "summary": "Axios reported that Qatari mediators held more than 12 hours of talks in Tehran on Friday to reach a deal to avoid a resumption of American-led attacks on Iran.",
+      "published": "31 Oct 2026 20:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.612,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Industri kripto menggelontorkan lebih dari $200 juta pada pemilu paruh waktu tahun 2026 untuk menekan Kongres mengenai peraturan yang menguntungkan",
+      "url": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html",
+      "summary": "Interest groups tied to cryptocurrency are spending millions to tilt the midterm elections. They had mixed success in 2024",
+      "published": "31 Oct 2026 20:04 WIB",
+      "sentiment": "Bullish",
+      "score": 0.823,
+      "emoji": "🟢",
+      "impact": "medium"
     }
   ]
 }
