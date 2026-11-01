@@ -1,73 +1,73 @@
 {
-  "generated": "31 Oct 2026 22:02 WIB",
+  "generated": "01 Nov 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
       "pair": "EUR/USD",
-      "direction": "Netral →",
-      "score": 0.034,
+      "direction": "Tekanan Turun ▼",
+      "score": -0.07,
       "count": 13
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.114,
+      "count": 11
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.205,
-      "count": 13
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.161,
-      "count": 13
+      "score": -0.338,
+      "count": 10
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.208,
-      "count": 11
+      "score": -0.318,
+      "count": 9
     },
     {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.191,
-      "count": 10
+      "pair": "XAU/USD",
+      "direction": "Netral →",
+      "score": -0.004,
+      "count": 8
     },
     {
       "pair": "EUR",
       "direction": "Tekanan Turun ▼",
-      "score": -0.726,
-      "count": 4
+      "score": -0.84,
+      "count": 5
     },
     {
       "pair": "USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.726,
-      "count": 4
+      "score": -0.84,
+      "count": 5
     },
     {
       "pair": "CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.787,
-      "count": 3
+      "score": -0.859,
+      "count": 4
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Seminggu ke depan: Pemilu, keputusan tingkat suku bunga, dan lapangan kerja menjadi pusat perhatian",
+      "title": "Week ahead: Elections, rate decisions and jobs take center stage",
       "url": "https://investinglive.com/news/week-ahead-elections-rate-decisions-and-jobs-take-center-stage/",
       "summary": "Next week’s calendar gives traders plenty to work with. US congressional elections bring political uncertainty, the Reserve Bank of Australia and Bank of England are expected to raise rates, and Friday delivers employment reports from both the US and Canada. The central question is whether growth, i",
       "published": "31 Oct 2026 02:13 WIB",
       "sentiment": "Bullish",
       "score": 0.52,
       "emoji": "🟢",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Carney: Kanada dan UE sedang mengupayakan kemungkinan kemitraan yang terdalam, tanpa perlu melakukan aksesi",
+      "title": "Carney: Canada, EU working toward deepest possible partnership, short of accession",
       "url": "https://investinglive.com/news/carney-canada-eu-working-toward-deepest-possible-partnership-short-of-accession/",
       "summary": "Comments from Canada PM Carney cross the wires: Canada, EU working towards deepest possible partnership, short of accession. We will determine substance, scale and scope of this form of membership over coming months. Accepted President Costa’s invitation to attend European Council meetings in June t",
       "published": "31 Oct 2026 00:08 WIB",
@@ -78,18 +78,18 @@
     },
     {
       "source": "ForexLive",
-      "title": "Fitch mengenai Anggaran Inggris: Kesinambungan kebijakan menyisakan tantangan pengiriman yang berat",
+      "title": "Fitch on UK Budget: Policy continuity leaves a tough delivery challenge",
       "url": "https://investinglive.com/news/fitch-on-uk-budget-policy-continuity-leaves-a-tough-delivery-challenge/",
       "summary": "Fitch’s assessment of the UK Budget points to a familiar problem: setting out a path to stronger public finances is one thing. Delivering it is another. The ratings agency sees broad continuity in government policy, but warns that the plans still leave a sizeable delivery challenge. It continues to ",
       "published": "30 Oct 2026 22:42 WIB",
-      "sentiment": "Bullish",
-      "score": 0.054,
-      "emoji": "🟢",
+      "sentiment": "Netral",
+      "score": 0.028,
+      "emoji": "⚪",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Barkin, Fed: Arah perjalanannya mudah bagi The Fed",
+      "title": "Fed's Barkin: Direction of travel is straightforward for the Fed",
       "url": "https://investinglive.com/central-banks/fed-s-barkin-direction-of-travel-is-straightforward-for-the-fed/",
       "summary": "Comments from the Fed’s Barkin cross the wires: Direction of travel is “straightforward” for the Fed, the question is pace. A gradual approach is a good way to go right now. A lot of cost pressures are hitting American businesses. In the context of years of elevated inflation it is easier for busine",
       "published": "30 Oct 2026 20:41 WIB",
@@ -100,18 +100,7 @@
     },
     {
       "source": "FXStreet",
-      "title": "Emas anjlok hampir 3% ke posisi terendah tahunan karena suasana risk-off menawarkan sedikit dukungan - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc2ViYTVYRnltbDRIRHpqb0xTSUlYZU4wenVyVEhtR2Rjc093dm9FSXZxTG5fRHpSZjU0d3ZvXzVadFlQdWdOLW5BTjVHak1oS2I0SHhBdWFqNDlPM00xNXQ3X3psM0JtbkhkYnI3LVFlMkxld25FUXlQOERXVEVUR1lSbEdrWjlKMHp3VFJ3ck4wZlhoVmRIQlZ4RFo3Nmp3ZGJzYlE5RGJxcnRlUXhkMG9hUEZhUHBWWTF3NjF3?oc=5",
-      "summary": "Gold tumbles nearly 3% to yearly lows as risk-off mood offers little support FXStreet",
-      "published": "30 Oct 2026 23:11 WIB",
-      "sentiment": "Netral",
-      "score": -0.005,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Perkiraan minggu ini: pemilu paruh waktu AS, Payrolls dan BoE menjadi sorotan - FXStreet",
+      "title": "Forecasting the upcoming week: US midterm elections, Payrolls and BoE in the spotlight - FXStreet",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWWJoeWI3WEZIWVlUbkJRMEFGUjhYZnFLdU5FTkYybmN3ZEkzcWlXOHlHc2hfSExZb3FTMTZWY2RGNUpNYmRWWk1jNGFXVzl2T3hZMDgxdkF6THRWMXA5Rm5BNWZFLXZLM3dKRWNJY3dvTmVhcVFrTmxUbVgyVjdFNDBvR1JxRndOaFlxbDhOb3k3bmF3QXYtQm9wSy1NSWxGVzFhU1RURDBRdDhZZW1xUFNEY2hORG9NUnFZbndQVklUTVJaTTZvRGdvSQ?oc=5",
       "summary": "Forecasting the upcoming week: US midterm elections, Payrolls and BoE in the spotlight FXStreet",
       "published": "31 Oct 2026 00:21 WIB",
@@ -122,139 +111,106 @@
     },
     {
       "source": "FXStreet",
-      "title": "Minyak WTI bertahan di atas $103,00, mendekati level tertinggi lima bulan di tengah serangan baru di Selat Hormuz - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbHBYY3RyYWR4SEt6Rk5zRktJenpYT19ZdDdMdWRaMXM3SjdIVThoSlNSYVR0aVBNVk9BSUJqS3k5VUFnMl9sel9TYUZrVEhFblFndF9wdzY0aGQzUGhtcnhNTHZSc1F1R3VJdUd2WEtlNHpHb3hVN1NJT0lOZmZVZ1BSdTlMd3JRaTk5N0lMTVRPWFlBaElUNGVVc3NBai1mRW90TUkwbjVxeW5IMlVKWHFoODdhOW05VERKaFZrdk9VQ25kZkZwUjFLMA?oc=5",
-      "summary": "WTI Oil holds above $103.00, near five-month highs amid new attacks in the Strait of Hormuz FXStreet",
-      "published": "30 Oct 2026 19:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Citi meningkatkan Hyundai Mobis untuk membeli pada prospek 4Q",
-      "url": "https://www.investing.com/news/stock-market-news/citi-upgrades-hyundai-mobis-to-buy-on-4q-outlook-93CH-4989214",
-      "summary": "",
-      "published": "31 Oct 2026 17:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.625,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kallas dari UE Mengatakan Menjamu Putin di G20 Dapat Menormalkan Kejahatan Perang",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-31/eu-s-kallas-hosting-putin-at-g20-risks-normalizing-war-crimes",
-      "summary": "Vladimir Putin’s possible attendance at the Group of 20 leaders’ summit in Florida in December would risk regularizing Russia’s return to international forums while its war in Ukraine continues, according to the European Union’s top diplomat Kaja Kallas.",
-      "published": "31 Oct 2026 21:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.797,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kepala Kebijakan Luar Negeri UE Memperingatkan Terhadap Normalisasi Rusia",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-31/eu-foreign-policy-chief-warns-against-normalizing-russia-video",
-      "summary": "EU foreign policy chief Kaja Kallas tells Bloomberg This Weekend that Russia is escalating its war in Ukraine and is not serious about peace, criticizing Russian Foreign Minister Sergei Lavrov’s statements at the G20 foreign ministers’ meeting in Atlanta and warning against normalizing Moscow on the",
-      "published": "31 Oct 2026 20:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.845,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Anggota Parlemen Senegal Kembali Menolak Anggaran, Mempertaruhkan Kesepakatan IMF",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk",
-      "summary": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law, prolonging a standoff that threatens to delay approval of a crucial International Monetary Fund program.",
-      "published": "31 Oct 2026 19:27 WIB",
-      "sentiment": "Bearish",
-      "score": -0.545,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Risiko Kebijakan AI Membayangi Saham, Pedagang Obligasi Menjelang Paruh Waktu",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-30/ai-policy-fears-grip-stock-bond-traders-with-midterms-days-away",
-      "summary": "Wall Street expects Democrats to win at least one of the houses of Congress in the US midterm elections on Tuesday, setting the stage for a potentially volatile ride in the stock and bond markets with artificial intelligence oversight, defense spending and crypto legislation on the table.",
-      "published": "30 Oct 2026 18:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.58,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Peretasan Kripto Menghidupkan Kembali Perdebatan Peraturan",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-30/crypto-hack-reignites-regulatory-debate-video",
-      "summary": "A $6 billion crypto hack is putting digital-asset security back in the spotlight. Former CFTC chairman J. Christopher Giancarlo, known as “CryptoDad”, argues the attack exposed vulnerabilities at an individual firm rather than a failure of underlying blockchain technology. He is also calling for the",
-      "published": "31 Oct 2026 05:08 WIB",
-      "sentiment": "Bearish",
-      "score": -0.935,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Apa yang perlu diketahui tentang perekonomian AS menjelang pemilu paruh waktu - ABC News - Breaking News, Berita dan Video Terbaru",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQUhWdi1EV2diVDdOdzQwWlVUamR5OXR1ZjhiRjhXZkJSZzN3OEYyTDkwMUNoVFpkcnU4dGpJY1g4NGxZWG1ETngyaTZNMWxkd0MyYXVCR0tOaF9DbU9JSmdqRnVCWk9nN0pnc25JTkViRWRRNHN5N2N3aGFha0o5QUN30gGHAUFVX3lxTE1aQ3RTVi1sdUJmNVFCcll0RS1xcGFaZm50b2piU3pIVW9vUE16emYwcDZ1RG1OQm5lRU1IblRHV0x1djdhSFRQTGp2TlhYb0gwRWdmMVczcUR3Q0d0SFh6V1hBR1ZIMTNnZnh5X1pYTl9VV3RSejhsSV9oRlJLLVVHX0UtRVJxWQ?oc=5",
-      "summary": "What to know about the US economy as midterm elections near ABC News - Breaking News, Latest News and Videos",
-      "published": "30 Oct 2026 16:30 WIB",
+      "title": "EUR/USD Forecast: US mid-term elections and employment data take center stage - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaXhpUG9LTUNoS096cHUzSEh6aE1VcTdMSUlBX1NxbjZQUllnWVZPOGpod0cyS1RENHI5V25PM0dFek56LUJqbXc2cGhjQUtKSzZnTTB2SWdxaXV1RGhOdHRBZWRfSWU4Nm5HOHF1OEZQbkVMUzVHbkJjM3E2MGNjVXo2Rmh6ZGpSa1E4OEZOQ2dVbGdTRXI4Z2l1Sm11TW1HdlJ4RFRDcWlPb0tvcm9mbE90VkNPNjAzZWc?oc=5",
+      "summary": "EUR/USD Forecast: US mid-term elections and employment data take center stage FXStreet",
+      "published": "30 Oct 2026 21:51 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
       "impact": "medium"
     },
     {
-      "source": "BBC World",
-      "title": "Pengungsi dari kota yang diduduki Rusia di mana penduduknya memakan rumput liar tiba di Ukraina",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
-      "published": "31 Oct 2026 21:53 WIB",
+      "source": "Investing.com Forex",
+      "title": "Why the sell-off in French bonds is a warning for global governments",
+      "url": "https://www.investing.com/news/stock-market-news/why-the-selloff-in-french-bonds-is-a-warning-for-global-governments-4989316",
+      "summary": "",
+      "published": "01 Nov 2026 01:53 WIB",
       "sentiment": "Bearish",
-      "score": -0.532,
+      "score": -0.42,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Russia extends diesel export ban through January, allows limited shipments",
+      "url": "https://www.investing.com/news/stock-market-news/russia-extends-diesel-export-ban-through-january-allows-limited-shipments-4989277",
+      "summary": "",
+      "published": "31 Oct 2026 20:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.612,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "AS menyetujui penjualan 500 rudal Patriot ke Ukraina",
-      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-      "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
-      "published": "31 Oct 2026 19:21 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Rubio Defends Russian G20 Presence Despite Criticism From Allies",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/rubio-defends-russian-g20-presence-despite-criticism-from-allies",
+      "summary": "Secretary of State Marco Rubio defended the US decision to include Russia in this year’s Group of 20 meetings after criticism from the European Union and other allies, calling dialogue the only way to end the war in Ukraine.",
+      "published": "01 Nov 2026 03:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.739,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Senegal Lawmakers Reject Budget Again, Risking IMF Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk",
+      "summary": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law, prolonging a standoff that threatens to delay approval of a crucial International Monetary Fund program.",
+      "published": "31 Oct 2026 19:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.764,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Final Countdown to Midterm Elections, Tech Stocks Tank",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-31/bloomberg-this-weekend-10-31-2026-video",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Lisa Mateo and Nathan Hager bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Medical Historian and “Sleuth-Hound” Author Lindsey Fitzharris, European Commission Vice-President and F",
+      "published": "31 Oct 2026 23:13 WIB",
       "sentiment": "Bullish",
-      "score": 0.477,
+      "score": 0.302,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Polisi dikerahkan selama pertikaian mengenai kendali pengadilan tinggi Polandia",
-      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-      "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
-      "published": "31 Oct 2026 08:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.778,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Bencana kereta Spanyol mengaburkan peluang Sánchez untuk terpilih kembali",
-      "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Spanish PM is hit by a succession of crises just weeks before a snap general election.",
-      "published": "31 Oct 2026 12:44 WIB",
-      "sentiment": "Bearish",
-      "score": -0.361,
-      "emoji": "🔴",
       "impact": "medium"
     },
     {
+      "source": "Bloomberg Markets",
+      "title": "EU’s Kallas Says Hosting Putin at G20 May Normalize War Crimes",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/eu-s-kallas-hosting-putin-at-g20-risks-normalizing-war-crimes",
+      "summary": "Vladimir Putin’s possible attendance at the Group of 20 leaders’ summit in Florida in December would risk regularizing Russia’s return to international forums while its war in Ukraine continues, according to the European Union’s top diplomat Kaja Kallas.",
+      "published": "31 Oct 2026 21:11 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "EU Foreign Policy Chief Warns Against Normalizing Russia",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-31/eu-foreign-policy-chief-warns-against-normalizing-russia-video",
+      "summary": "EU foreign policy chief Kaja Kallas tells Bloomberg This Weekend that Russia is escalating its war in Ukraine and is not serious about peace, criticizing Russian Foreign Minister Sergei Lavrov’s statements at the G20 foreign ministers’ meeting in Atlanta and warning against normalizing Moscow on the",
+      "published": "31 Oct 2026 20:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.86,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "BBC World",
-      "title": "PM Ethiopia menempatkan para menterinya melalui pelatihan militer",
+      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+      "summary": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+      "published": "01 Nov 2026 02:22 WIB",
+      "sentiment": "Bearish",
+      "score": -0.681,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Ethiopian PM puts ministers through military training",
       "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
       "summary": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
       "published": "31 Oct 2026 21:28 WIB",
@@ -265,18 +221,40 @@
     },
     {
       "source": "BBC World",
-      "title": "'Foto keluarga' G20 dibatalkan setelah protes atas kehadiran menteri Rusia",
-      "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
-      "summary": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
-      "published": "31 Oct 2026 05:11 WIB",
+      "title": "Spain train disaster clouds Sánchez chances of re-election",
+      "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Spanish PM is hit by a succession of crises just weeks before a snap general election.",
+      "published": "31 Oct 2026 12:44 WIB",
       "sentiment": "Bearish",
-      "score": -0.718,
+      "score": -0.361,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC World",
+      "title": "Police deployed during stand-off over control of top Poland court",
+      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+      "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+      "published": "31 Oct 2026 08:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.778,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "BBC World",
-      "title": "Perjuangan untuk menyelamatkan kota di Kanada terancam oleh tarif Trump",
+      "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+      "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
+      "summary": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
+      "published": "31 Oct 2026 05:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.836,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "The fight to save Canadian town threatened by Trump's tariffs",
       "url": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
       "summary": "A century-old paper mill in Témiscaming, Quebec is indefinitely closed after the US imposed 50% tariffs on its products, putting hundreds out of work.",
       "published": "31 Oct 2026 09:39 WIB",
@@ -287,7 +265,7 @@
     },
     {
       "source": "BBC World",
-      "title": "Raksasa kripto Binance mencoba memulihkan $6,3 miliar yang dicuri dalam peretasan yang terkait dengan Korea Utara",
+      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
       "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
       "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
       "published": "31 Oct 2026 04:13 WIB",
@@ -298,7 +276,7 @@
     },
     {
       "source": "BBC World",
-      "title": "Paus Leo XIV menjadi Paus pertama yang memberikan suara dalam pemilu AS",
+      "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
       "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
       "summary": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress.",
       "published": "30 Oct 2026 21:48 WIB",
@@ -309,7 +287,18 @@
     },
     {
       "source": "BBC World",
-      "title": "CCTV dan ikatan zip: Bagaimana suara yang masuk di AS diamankan dan dihitung",
+      "title": "Emotional reunions with loved ones for Oleshky evacuees",
+      "url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC's Dan Johnson travelled to the northern Ukrainian border with Belarus after evacuated Oleshky residents arrived in buses and ambulances following a temporary ceasefire.",
+      "published": "31 Oct 2026 23:55 WIB",
+      "sentiment": "Bullish",
+      "score": 0.75,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "CCTV and zip ties: How US mail-in votes are secured and counted",
       "url": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_medium=RSS&at_campaign=rss",
       "summary": "BBC Verify goes to an election centre to get a behind-the-scenes look at how mail-in ballots for the US midterm elections are processed.",
       "published": "31 Oct 2026 16:16 WIB",
@@ -319,30 +308,19 @@
       "impact": "medium"
     },
     {
-      "source": "BBC World",
-      "title": "Bagaimana gencatan senjata di Oleshky yang diduduki Rusia berlangsung?",
-      "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
-      "published": "31 Oct 2026 06:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.532,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC Top Stories",
-      "title": "Mengapa anggota parlemen terus berbicara tentang pemilihan awal meskipun ada bantahan dari Burnham",
-      "url": "https://www.bbc.co.uk/news/articles/cm5yn7d0qx1do?at_medium=RSS&at_campaign=rss",
-      "summary": "The prime minister has categorically ruled out an early general election, but it has not stopped speculation at Westminster.",
-      "published": "31 Oct 2026 07:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.25,
-      "emoji": "🟢",
+      "title": "Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers",
+      "url": "https://www.bbc.co.uk/news/articles/cv369266644lo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Chancellor has suggested that younger workers might not receive the same minimum wage as others before the next election.",
+      "published": "01 Nov 2026 00:26 WIB",
+      "sentiment": "Netral",
+      "score": -0.028,
+      "emoji": "⚪",
       "impact": "medium"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Eropa tidak bisa lagi bergantung pada AS untuk 'membiayai' pertahanannya, kata Starmer",
+      "title": "Europe can no longer rely on US to 'bankroll' its defence, Starmer says",
       "url": "https://www.bbc.co.uk/news/articles/cxnv0p4l7rjlo?at_medium=RSS&at_campaign=rss",
       "summary": "Sir Keir warns that \"things will not go back to the way they were\" as he says the US makes it clear it will no longer \"bankroll\" its allies.",
       "published": "31 Oct 2026 20:20 WIB",
@@ -352,107 +330,74 @@
       "impact": "high"
     },
     {
+      "source": "BBC Top Stories",
+      "title": "Judge orders Trump administration to stop threatening US election officials",
+      "url": "https://www.bbc.co.uk/news/articles/c8qln1539y37o?at_medium=RSS&at_campaign=rss",
+      "summary": "The order comes after election officials received letters demanding they set aside the ballots of possible non-citizen voters.",
+      "published": "01 Nov 2026 06:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.758,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
       "source": "Al Jazeera",
-      "title": "Menlu Iran mengatakan pendekatan AS merupakan 'langkah positif' sebagai delegasi di Qatar untuk melakukan pembicaraan",
-      "url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
-      "summary": "Iran’s Foreign Minister Abbas Araghchi tells Al Jazeera Tehran doesn't rule out attack, is ‘prepared for all scenarios’.",
-      "published": "31 Oct 2026 21:31 WIB",
-      "sentiment": "Bullish",
-      "score": 0.485,
-      "emoji": "🟢",
+      "title": "Israel’s allegations of Qatari election interference rejected",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/israels-allegations-of-qatari-election-interference-rejected?traffic_source=rss",
+      "summary": "Israel’s allegations of Qatari election interference rejected",
+      "published": "01 Nov 2026 03:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.765,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "What is ranked-choice voting and how does it work in US elections?",
+      "url": "https://www.aljazeera.com/news/2026/10/31/what-is-ranked-choice-voting-and-how-does-it-work-in-us-elections?traffic_source=rss",
+      "summary": "Ranked-choice voting in Alaska could shape a key 2026 race, amid a US lawsuit involving two candidates named Dan Sullivan.",
+      "published": "01 Nov 2026 03:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.226,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks",
+      "url": "https://www.aljazeera.com/news/2026/10/31/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks?traffic_source=rss",
+      "summary": "Turkish president hosts Zelenskyy in Istanbul as the two leaders agree to work on a new Black Sea grain corridor.",
+      "published": "01 Nov 2026 03:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.462,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Israel memilih Israel: Mengapa Gaza tidak ikut dalam pemungutan suara",
-      "url": "https://www.aljazeera.com/news/2026/10/31/israel-voted-for-israel-why-gaza-wasnt-on-the-ballot?traffic_source=rss",
-      "summary": "Despite genocide, regional war and isolation, Israel's election revealed little appetite for political alternatives.",
-      "published": "31 Oct 2026 20:35 WIB",
-      "sentiment": "Netral",
-      "score": 0.034,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Di perbatasan Norwegia-Rusia, masyarakat Sámi menghadapi perpecahan yang semakin besar",
-      "url": "https://www.aljazeera.com/features/longform/2026/10/31/on-the-norway-russia-border-the-sami-people-face-a-growing-divide?traffic_source=rss",
-      "summary": "As Russia’s war in Ukraine reshapes this Arctic frontier, Sámi communities struggle to sustain cross-border traditions.",
-      "published": "31 Oct 2026 19:58 WIB",
+      "title": "Tension and clashes as hundreds of thousands protest again in France",
+      "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
+      "summary": "Authorities say 320,000 march on third consecutive weekend of demonstrations over cost of living and state of schools.",
+      "published": "01 Nov 2026 01:28 WIB",
       "sentiment": "Bearish",
-      "score": -0.75,
+      "score": -0.511,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Studio hancur, tradisi terselamatkan: Seniman berjuang menyelamatkan budaya Sudan",
-      "url": "https://www.aljazeera.com/features/2026/10/31/studios-destroyed-traditions-saved-artists-fight-to-save-sudans-culture?traffic_source=rss",
-      "summary": "Artists in Sudan are working to save culture and traditions amid the country's war.",
-      "published": "31 Oct 2026 19:49 WIB",
-      "sentiment": "Bearish",
-      "score": -0.208,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Anggota parlemen Iran menyerukan penarikan diri dari NPT: Apakah kita akan berperang atau damai?",
-      "url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
-      "summary": "Withdrawal from the nuclear treaty doses not mean that Iran would build a nuclear weapon, observers say.",
-      "published": "31 Oct 2026 19:22 WIB",
-      "sentiment": "Bearish",
-      "score": -0.42,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "PBB menutup misinya di Somalia, mengakhiri keterlibatan politik selama tiga dekade",
-      "url": "https://www.aljazeera.com/news/2026/10/31/un-closes-somalia-mission-ending-three-decades-of-political-engagement?traffic_source=rss",
-      "summary": "Somalia hails the UN mission's closure as a milestone amid political tensions and cuts to international support.",
-      "published": "31 Oct 2026 18:37 WIB",
-      "sentiment": "Netral",
-      "score": 0.042,
-      "emoji": "⚪",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Ribuan orang melakukan protes di seluruh Italia mengenai biaya hidup dan pengeluaran militer",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
-      "summary": "Thousands have protested across Italy against rising living costs and increased military spending.",
-      "published": "31 Oct 2026 18:07 WIB",
-      "sentiment": "Netral",
-      "score": -0.023,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pengungsi dari Oleshky yang diduduki Rusia tiba di Ukraina melalui Belarus",
-      "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine?traffic_source=rss",
-      "summary": "Four planes transporting evacuees from the war-ravaged city arrived in Belarus's Gomel earlier on Saturday.",
-      "published": "31 Oct 2026 17:53 WIB",
+      "title": "At least four Palestinians killed in Gaza as Israeli attacks continue",
+      "url": "https://www.aljazeera.com/news/2026/10/31/at-least-four-palestinians-killed-in-gaza-as-israeli-attacks-continue?traffic_source=rss",
+      "summary": "Israel carried out several attacks in Gaza, including shelling the Nuseirat refugee camp.",
+      "published": "01 Nov 2026 00:49 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
+      "score": -0.963,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Nasib Jaminan Sosial – dan tunjangan Anda – ada di tangan para kandidat yang terpilih tahun ini",
-      "url": "https://www.marketwatch.com/story/the-midterms-are-crucial-to-the-future-of-social-security-no-matter-how-old-you-are-0f080a9c?mod=mw_rss_topstories",
-      "summary": "The program is expected to run out of money in the next six years, which is the same amount of time as a senator’s term.",
-      "published": "31 Oct 2026 21:35 WIB",
-      "sentiment": "Bullish",
-      "score": 0.382,
-      "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "CNBC World",
-      "title": "Mediator Qatar mengadakan pembicaraan di Teheran yang bertujuan untuk memulai kembali perundingan langsung AS-Iran, kata sumber",
+      "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
       "url": "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html",
       "summary": "Axios reported that Qatari mediators held more than 12 hours of talks in Tehran on Friday to reach a deal to avoid a resumption of American-led attacks on Iran.",
       "published": "31 Oct 2026 20:47 WIB",
@@ -463,14 +408,14 @@
     },
     {
       "source": "CNBC World",
-      "title": "Industri kripto menggelontorkan lebih dari $200 juta pada pemilu paruh waktu tahun 2026 untuk menekan Kongres mengenai peraturan yang menguntungkan",
-      "url": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html",
-      "summary": "Interest groups tied to cryptocurrency are spending millions to tilt the midterm elections. They had mixed success in 2024",
-      "published": "31 Oct 2026 20:04 WIB",
-      "sentiment": "Bullish",
-      "score": 0.823,
-      "emoji": "🟢",
-      "impact": "medium"
+      "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+      "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "summary": "Meta has been given a negative outlook by S&P Global Ratings due to the company's hefty capital expenditures and concerns about free cash flow.",
+      "published": "31 Oct 2026 05:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.183,
+      "emoji": "🔴",
+      "impact": "high"
     }
   ]
 }
