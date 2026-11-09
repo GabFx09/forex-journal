@@ -1,5 +1,5 @@
 {
-  "generated": "08 Nov 2026 22:01 WIB",
+  "generated": "09 Nov 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,50 +7,221 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.109,
-      "count": 11
+      "score": -0.269,
+      "count": 17
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.109,
-      "count": 11
+      "score": -0.269,
+      "count": 17
     },
     {
       "pair": "USD/CHF",
-      "direction": "Netral →",
-      "score": -0.031,
-      "count": 8
+      "direction": "Tekanan Turun ▼",
+      "score": -0.246,
+      "count": 15
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.194,
-      "count": 5
+      "score": 0.199,
+      "count": 11
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.28,
-      "count": 3
+      "score": 0.267,
+      "count": 7
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.527,
-      "count": 1
+      "score": 0.373,
+      "count": 3
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.527,
+      "score": 0.373,
+      "count": 3
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.923,
       "count": 1
     }
   ],
   "items": [
     {
+      "source": "ForexLive",
+      "title": "Weekend: Houthis hit Riyadh’s Aramco Tower and target oil storage as Saudi supply risk grows",
+      "url": "https://investinglive.com/commodities/weekend-houthis-hit-riyadh-s-aramco-tower-and-target-oil-storage-as-saudi-supply-risk-grows/",
+      "summary": "This is an escalation risk for crude rather than a confirmed supply loss: Saudi Arabia reports minor damage and intercepted missiles, and no outage has been reported. What matters is the direction. Aramco storage is now being targeted, and the Houthis have a declared maritime embargo against Saudi A",
+      "published": "09 Nov 2026 05:36 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "RBA’s Hunter warns AI could trigger sharp asset repricing as boom adds to inflation",
+      "url": "https://investinglive.com/central-banks/rba-s-hunter-warns-ai-could-trigger-sharp-asset-repricing-as-boom-adds-to-inflation/",
+      "summary": "Hunter’s description of AI as a near-term inflationary force supports the RBA’s tightening bias rather than pointing to relief. That underpins the Australian dollar on rate differentials and keeps the focus on the risk of further hikes. Her financial stability warning adds a central bank voice to gr",
+      "published": "09 Nov 2026 05:34 WIB",
+      "sentiment": "Bullish",
+      "score": 0.281,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Rubio says Iran talks not productive as Tehran’s demands are unacceptable",
+      "url": "https://investinglive.com/commodities/rubio-says-iran-talks-not-productive-as-tehran-s-demands-are-unacceptable/",
+      "summary": "For oil, this is the more important signal of the weekend. Trump made avoiding renewed strikes conditional on progress in talks , and his Secretary of State now says there isn’t any. That pushes escalation risk back toward the front of the market’s mind and argues for a firmer war-risk premium in cr",
+      "published": "09 Nov 2026 05:18 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "NZD firms in early Asia as New Zealand faces weeks of political limbo",
+      "url": "https://investinglive.com/forex/nzd-firms-in-early-asia-as-new-zealand-faces-weeks-of-political-limbo/",
+      "summary": "The kiwi’s early gain looks more like a thin-liquidity Monday open than a verdict on the election. The result won’t be settled until the final count on November 27, and coalition talks could run for weeks after that. A prolonged hung outcome would keep a layer of political risk on the currency. The ",
+      "published": "09 Nov 2026 04:59 WIB",
+      "sentiment": "Bullish",
+      "score": 0.168,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Suspected Iranian drone strike halts Iraq gas field, cuts two thirds of Kurdistan power",
+      "url": "https://investinglive.com/commodities/suspected-iranian-drone-strike-halts-iraq-gas-field-cuts-two-thirds-of-kurdistan-power/",
+      "summary": "The direct supply hit is regional. Khor Mor’s gas feeds Kurdistan’s power plants rather than export markets, so crude and LNG balances are largely untouched. The bigger signal for oil is that energy infrastructure in the region is still being targeted while diplomacy is supposedly picking up. That s",
+      "published": "09 Nov 2026 04:42 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Weekend: Trump says new Iran strikes ‘highly unlikely’ five times (but three carriers stay ready)",
+      "url": "https://investinglive.com/commodities/weekend-trump-says-new-iran-strikes-highly-unlikely-five-times-but-three-carriers-stay-ready/",
+      "summary": "For oil, Trump’s comments trim the risk that the US resumes strikes, which could take some of the war-risk premium out of crude. Physical supply risk hasn’t changed, though: Hormuz remains contested and tankers are still being attacked, so any relief is likely to be limited until talks produce somet",
+      "published": "09 Nov 2026 04:26 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "WTI oil price outlook: After a 17.5% slide, can buyers reclaim $92.53?",
+      "url": "https://investinglive.com/commodities/wti-oil-price-outlook-after-a-17-5-slide-can-buyers-reclaim-92-53/",
+      "summary": "Oil recovered from a sharp selloff, but buyers have struggled to hold higher prices. My analysis finds a bearish picture over the next several sessions, while the immediate outlook is much less decisive. Here are the levels and developments that could change the outlook. Let's jump into my crude oil",
+      "published": "08 Nov 2026 17:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.923,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Investing.com Forex",
+      "title": "Environmental groups embrace AI, even as they warn of data center impacts",
+      "url": "https://www.investing.com/news/stock-market-news/environmental-groups-embrace-ai-even-as-they-warn-of-data-center-impacts-5010279",
+      "summary": "",
+      "published": "09 Nov 2026 00:48 WIB",
+      "sentiment": "Bullish",
+      "score": 0.146,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
       "source": "Bloomberg Markets",
-      "title": "Gym Mewah Mengubah Kebugaran Menjadi Urusan Keluarga",
+      "title": "Latest Oil Market News and Analysis for Nov. 9",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/latest-oil-market-news-and-analysis-for-nov-9",
+      "summary": "Oil extended its biggest weekly loss since April 2020 as traders weighed diplomatic efforts to end the US-Iran conflict against fresh attacks in the region.",
+      "published": "09 Nov 2026 06:03 WIB",
+      "sentiment": "Bearish",
+      "score": -0.797,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "New Zealand Dollar Advances as Ruling Party Gets Election Edge",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/new-zealand-dollar-advances-as-ruling-party-gets-election-edge",
+      "summary": "New Zealand’s dollar edged higher in early trading after the incumbent National Party emerged from the weekend election with a path back to power, putting it in pole position to lead negotiations with minor parties.",
+      "published": "09 Nov 2026 05:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.796,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Treasury Rally Gets New Boost as Election Hammers the AI Trade",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/treasury-rally-gets-new-boost-as-election-hammers-the-ai-trade",
+      "summary": "Wall Street sees the Treasury market emerging as a winner from the Democratic landslide in the US midterm elections, giving traders another reason to rethink this year’s sharp selloff.",
+      "published": "09 Nov 2026 03:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.968,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Watching Wall Street, Deadly Mass Shooting in Poland, Back to Work After Blue Wave",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-08/bloomberg-this-weekend-11-8-2026-video",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Fmr. Deputy Secretary of State & Fmr. US Special Representative for North Korea Stephen Biegun, SMB",
+      "published": "09 Nov 2026 00:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.678,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Israel’s Election Fight Shifts to Coalition Building",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-08/israel-s-election-fight-shifts-to-coalition-building-video",
+      "summary": "On Bloomberg This Weekend, Bloomberg Middle East reporter Dan Williams explains why Gadi Eisenkot has been given the first opportunity to form Israel’s next government despite Benjamin Netanyahu’s bloc winning more seats. Speaking with hosts David Gura and Christina Ruffini, Williams discusses the r",
+      "published": "08 Nov 2026 22:49 WIB",
+      "sentiment": "Bullish",
+      "score": 0.743,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Can Europe Afford Its Welfare State?",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-08/can-europe-afford-its-welfare-state-video",
+      "summary": "Europe’s postwar welfare state was built for a younger, growing population. Today, aging communities are putting pensions, health care and public finances under mounting strain. As governments try to fund defense, infrastructure and education at the same time, the fight over who pays is spilling int",
+      "published": "08 Nov 2026 22:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.302,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "New House Democrats Set Their Priorities",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-08/new-house-democrats-set-their-priorities-video",
+      "summary": "On Bloomberg This Weekend, Democratic Reps.-elect Paul Barringer of North Carolina and Shannon Taylor of Virginia say voters sent them to Washington with a mandate to address affordability, health care and government accountability. Speaking with hosts David Gura and Christina Ruffini, they discuss ",
+      "published": "08 Nov 2026 21:58 WIB",
+      "sentiment": "Bullish",
+      "score": 0.691,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Luxury Gyms Turn Fitness Into a Family Affair",
       "url": "https://www.bloomberg.com/news/videos/2026-11-08/luxury-gyms-turn-fitness-into-a-family-affair-video",
       "summary": "On Bloomberg This Weekend, Bloomberg Pursuits writer Hannah Howard explains how high end fitness clubs are courting families with everything from child care and swimming lessons to homework help and activities for older kids. Speaking with hosts David Gura and Christina Ruffini, Howard discusses why",
       "published": "08 Nov 2026 21:40 WIB",
@@ -60,107 +231,19 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Polandia Selidiki Penembakan di Krakow sebagai Terorisme",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-08/poland-probes-krakow-shooting-as-terrorism-video",
-      "summary": "On Bloomberg This Weekend, Bloomberg News reporter Piotr Skolimowski discusses the investigation into the deadly Krakow shooting and the far right ideology authorities say may have motivated the attack. Speaking with hosts David Gura and Christina Ruffini, Skolimowski explains how the shooting comes",
-      "published": "08 Nov 2026 20:06 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kemerosotan AI Menghidupkan Kembali Perdagangan Asia yang Terlupakan, Mulai dari Tiongkok hingga India",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-08/ai-slump-revives-asia-s-forgotten-trades-from-china-to-india",
-      "summary": "The unraveling of the AI trade after the US midterm elections is forcing investors to rethink their Asia playbook, reviving demand for out-of-favor Chinese and Indian stocks as well as companies poised to benefit from easing inflation and trade tensions.",
-      "published": "08 Nov 2026 07:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.439,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Penjualan Obligasi Meta senilai $25 Miliar Menyoroti Pergeseran Lanskap Utang Teknologi",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-07/meta-s-bond-sale-shows-new-reality-for-tech-debt-credit-weekly",
-      "summary": "Selling billions of dollars of corporate bonds on Election Day seemed like a real gamble.",
-      "published": "08 Nov 2026 03:00 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
-    },
-    {
-      "source": "Google News Forex",
-      "title": "Selain Dolar Singapura: Peluang Apa yang Ditawarkan Mata Uang Utama dan Emas? - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd191ME5ucjJfc3NQZ2pfd2RYRkxwMDBKbkJrVWU5SGpGZ2FGZXhCUkI5blkxeVNIUkloQzczSE9VeUpza0VtZWxNbmRfSHNEX1Q1NjBtVTZsYmN2eWwzRFRMbnBhOXpTWU1LMmNEeUxESGFLTXl5N3dUMlUzZ29xTkxwLTNLMEE4WENTV0I0dFZUM3BkbFJySDRPdXNueXFqWW9sbDdkOHR1TXRxRzZUVDA2UFdBdGNRUFYwYQ?oc=5",
-      "summary": "Beyond the Singapore dollar: What opportunities do major currencies and gold offer? 联合早报",
-      "published": "08 Nov 2026 16:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.371,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Dolar Taiwan Pulih 33 Persen karena Intervensi Bank Sentral Taiwan Terbayar Dengan Lonjakan 1,08 Dime dalam Satu Hari - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhc0JEQzVoRElGMTlobjlmVWtoTm9WVzRIWlJ3WmpiR29ubUtPVDhoYllJR3NrcG1VSE5FTWpveVlGOU85Zk56VXNXbERQRmo1MkYydk1RcERCY1hVdkpoZXZyUmlvSWZSMnpNYUpnSDhaYzYyQlE?oc=5",
-      "summary": "Taiwan Dollar Recovers 33-Percent Level as Taiwan's Central Bank Intervention Pays Off With 1.08-Dime Single-Day Surge BigGo Finance",
-      "published": "07 Nov 2026 11:35 WIB",
-      "sentiment": "Bullish",
-      "score": 0.08,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
       "source": "BBC World",
-      "title": "Apa yang kita ketahui sejauh ini setelah serangan senjata di Krakow",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Six people were killed in a random shooting in Krakow's main square, and three bodies were later found at the home of the attacker.",
-      "published": "08 Nov 2026 21:32 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "'Datar', 'lelah', 'sinis': Warga Kiwi yang sangat muram menghasilkan pemilu paling ketat di Selandia Baru dalam beberapa tahun terakhir",
+      "title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
       "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
       "summary": "The national mood is low, and faith in politics even lower - with voters deserting the major parties at the polls.",
       "published": "08 Nov 2026 04:36 WIB",
-      "sentiment": "Bullish",
-      "score": 0.28,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Presiden Israel menugaskan pemimpin oposisi Eisenkot untuk membentuk pemerintahan",
-      "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
-      "published": "08 Nov 2026 05:19 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
+      "sentiment": "Bearish",
+      "score": -0.599,
+      "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "BBC World",
-      "title": "AS menawarkan hadiah $20 juta untuk informasi tentang program nuklir Iran",
-      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
-      "published": "08 Nov 2026 01:14 WIB",
-      "sentiment": "Bullish",
-      "score": 0.527,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Serangan Rusia melukai sembilan orang dan merusak jaringan listrik Ukraina menjelang perundingan",
+      "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
       "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
       "summary": "The attacks come before Ukrainian and Russian delegations are due to take part in trilateral talks in Abu Dhabi next week.",
       "published": "07 Nov 2026 19:49 WIB",
@@ -170,11 +253,22 @@
       "impact": "low"
     },
     {
+      "source": "BBC World",
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
+      "published": "08 Nov 2026 01:14 WIB",
+      "sentiment": "Bullish",
+      "score": 0.527,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
       "source": "BBC Top Stories",
-      "title": "Raja memimpin kebaktian Peringatan yang khusyuk di Cenotaph",
+      "title": "King leads solemn Remembrance Sunday service at Cenotaph",
       "url": "https://www.bbc.co.uk/news/articles/cqy8l0gyvvv2o?at_medium=RSS&at_campaign=rss",
       "summary": "Wreaths are laid as 10,000 armed forces veterans, including 12 from World War Two, pay tribute in central London.",
-      "published": "08 Nov 2026 20:49 WIB",
+      "published": "09 Nov 2026 01:20 WIB",
       "sentiment": "Bearish",
       "score": -0.761,
       "emoji": "🔴",
@@ -182,10 +276,10 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "'Waktunya habis': Menteri memperingatkan industri media untuk menanggapi penyalahgunaan dengan serius setelah kasus Brand",
+      "title": "'Time is up': Minister warns media industry to take abuse seriously in wake of Brand case",
       "url": "https://www.bbc.co.uk/news/articles/ckn9r0zd0ynwo?at_medium=RSS&at_campaign=rss",
       "summary": "Lisa Nandy tells the BBC \"many people\" in the media industry have come forward to her.",
-      "published": "08 Nov 2026 20:57 WIB",
+      "published": "08 Nov 2026 22:37 WIB",
       "sentiment": "Bearish",
       "score": -0.823,
       "emoji": "🔴",
@@ -193,76 +287,87 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Nandy menolak klaim mempolitisasi Remembrance Sunday setelah perselisihan Erasmus",
+      "title": "Nandy defends linking Erasmus student scheme to Remembrance Sunday after backlash",
       "url": "https://www.bbc.co.uk/news/articles/cmvg72p1zgvlo?at_medium=RSS&at_campaign=rss",
       "summary": "The culture secretary says the UK rejoining the EU's study and work scheme will help honour wartime sacrifice.",
       "published": "08 Nov 2026 20:05 WIB",
       "sentiment": "Bullish",
-      "score": 0.414,
+      "score": 0.671,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Satuan tugas AS akan memutus pengangkutan senjata canggih Iran: Apa yang kita ketahui",
-      "url": "https://www.aljazeera.com/news/2026/11/8/us-task-force-to-cut-off-irans-transport-of-advanced-weapons-what-we-know?traffic_source=rss",
-      "summary": "As fears of an escalation grow, Washington announces 'Task Force Iron Gate'.",
-      "published": "08 Nov 2026 21:06 WIB",
+      "title": "President Milei welcomes Pope Leo during historic visit to Argentina",
+      "url": "https://www.aljazeera.com/news/2026/11/8/president-milei-welcomes-pope-leo-during-historic-visit-to-argentina?traffic_source=rss",
+      "summary": "Pope Leo XIV's visit marks the first papal trip to Argentina in nearly four decades, amid tensions with the government.",
+      "published": "09 Nov 2026 05:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.78,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Pembukaan kembali kedutaan besar Mesir di Tripoli menandakan perubahan regional di Libya",
-      "url": "https://www.aljazeera.com/news/2026/11/8/egypts-reopening-of-its-embassy-in-tripoli-signals-regional-shift-on-libya?traffic_source=rss",
-      "summary": "Former rivals in Libya are pushing for a unity government to end years of conflict.",
-      "published": "08 Nov 2026 20:27 WIB",
+      "title": "Why Abdul El-Sayed’s ‘JD, habibi’ is going viral online",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/why-abdul-el-sayeds-jd-habibi-is-going-viral-online?traffic_source=rss",
+      "summary": "‘JD, habibi’ is going viral after Michigan Senator-elect Abdul El-Sayed used the phrase to mock JD Vance in a speech.",
+      "published": "09 Nov 2026 04:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.398,
+      "score": -0.421,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "medium"
     },
     {
       "source": "Al Jazeera",
-      "title": "Polandia berduka atas enam orang yang tewas dalam serangan tersebut ketika pihak berwenang meluncurkan penyelidikan 'terorisme'",
-      "url": "https://www.aljazeera.com/news/2026/11/8/poland-mourns-six-killed-in-attack-as-authorities-launch-terrorism-probe?traffic_source=rss",
-      "summary": "'Terrorism' investigation launched after government officials say suspect likely influenced by far-right ideology.",
-      "published": "08 Nov 2026 19:40 WIB",
+      "title": "Iran threatens to ‘rain down hell’ if US escalates war",
+      "url": "https://www.aljazeera.com/news/2026/11/8/iran-threatens-to-rain-down-hell-if-us-escalates-war?traffic_source=rss",
+      "summary": "President Trump warns that US forces are 'locked and loaded' and ready to strike, if necessary.",
+      "published": "09 Nov 2026 03:13 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.79,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Serangan Rusia terhadap Ukraina menyebabkan ratusan ribu orang kehilangan aliran listrik",
-      "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity?traffic_source=rss",
-      "summary": "About 850,000 people lose power after Russian attacks on energy infrastructure in Ukraine's Dnipropetrovsk and Kharkiv.",
-      "published": "08 Nov 2026 19:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.815,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kemenangan Partai Demokrat di Kongres dapat memperkuat kekuatan Ukraina melawan Rusia",
-      "url": "https://www.aljazeera.com/news/2026/11/8/democrats-congressional-win-could-strengthen-ukraines-hand-against-russia?traffic_source=rss",
-      "summary": "Ukraine hopes for more US support but faces uncertainty over Trump’s peace efforts and continued military aid.",
-      "published": "08 Nov 2026 16:30 WIB",
+      "title": "Infantino’s Japanese challenger claims he could unseat FIFA president",
+      "url": "https://www.aljazeera.com/sports/2026/11/8/infantinos-japanese-challenger-claims-he-could-unseat-fifa-president?traffic_source=rss",
+      "summary": "Kozo Tashima believes he has a '20 to 30 percent' chance of winning the FIFA presidency election against Infantino.",
+      "published": "09 Nov 2026 01:01 WIB",
       "sentiment": "Bullish",
-      "score": 0.945,
+      "score": 0.79,
       "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Hundreds of thousands join Amsterdam’s ‘Red Line’ protest against Israel",
+      "url": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam?traffic_source=rss",
+      "summary": "Protesters seek stricter trade restrictions on Israel and a halt to all arms sales.",
+      "published": "09 Nov 2026 00:44 WIB",
+      "sentiment": "Bearish",
+      "score": -0.098,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "CNBC World",
-      "title": "Bagaimana Partai Demokrat akan mencoba mengakhiri tarif Trump",
+      "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+      "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
+      "summary": "Trump tied avoiding renewed U.S. strikes to progress in talks over Iran’s nuclear program and the Strait of Hormuz.",
+      "published": "09 Nov 2026 04:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.673,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "How Democrats will try to end Trump's tariffs",
       "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html",
       "summary": "Rep. Hakeem Jeffries, D-N.Y., who is likely the next House speaker, has made clear that ending President Trump's tariffs is one of Democrats' top priorities.",
-      "published": "08 Nov 2026 20:00 WIB",
+      "published": "08 Nov 2026 22:36 WIB",
       "sentiment": "Bullish",
       "score": 0.527,
       "emoji": "🟢",
@@ -270,7 +375,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Risiko eskalasi perang Iran tetap tinggi meskipun Partai Demokrat menang dalam pemilu paruh waktu AS",
+      "title": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
       "url": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html",
       "summary": "The U.S. and Iran are on a collision course as tensions in the Middle East simmer.",
       "published": "08 Nov 2026 05:17 WIB",
@@ -278,17 +383,6 @@
       "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump mengatakan AS melakukan 'serangan kecil' terhadap Iran ketika rudal menghantam Pulau Qeshm",
-      "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
-      "summary": "Trump said the U.S. carried out ‘minor strikes’ on Iran after Iranian media reported two missiles hit Qeshm Island near the Strait of Hormuz.",
-      "published": "07 Nov 2026 14:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "low"
     }
   ]
 }
