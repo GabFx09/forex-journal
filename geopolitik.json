@@ -1,122 +1,144 @@
 {
-  "generated": "12 Nov 2026 22:03 WIB",
+  "generated": "13 Nov 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.169,
+      "count": 17
+    },
+    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.319,
-      "count": 19
+      "score": -0.169,
+      "count": 17
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.327,
-      "count": 18
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.212,
-      "count": 15
+      "score": -0.169,
+      "count": 17
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.584,
-      "count": 5
+      "score": -0.215,
+      "count": 4
     },
     {
-      "pair": "EUR",
+      "pair": "GBP/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.326,
-      "count": 2
-    },
-    {
-      "pair": "GBP",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.326,
-      "count": 2
-    },
-    {
-      "pair": "USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.326,
+      "score": -0.458,
       "count": 2
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.169,
+      "score": -0.399,
       "count": 2
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.399,
+      "count": 2
+    },
+    {
+      "pair": "EUR",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.68,
+      "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Mengapa pasar terkadang mengabaikan data ekonomi",
-      "url": "https://investinglive.com/education/why-markets-sometimes-ignore-economic-data/",
-      "summary": "Key economic releases are among the most closely watched events in financial markets. Inflation figures, employment reports, business surveys and so on can all influence expectations for monetary policy and the macroeconomic outlook. Yet, markets do not always react to the data in the same way. The ",
-      "published": "12 Nov 2026 20:40 WIB",
+      "title": "UBS memperkirakan tidak ada pemotongan RBA hingga akhir tahun 2027 karena ledakan AI memicu inflasi, pertumbuhan melambat menjadi 1,4%",
+      "url": "https://investinglive.com/central-banks/ubs-sees-no-rba-cuts-until-late-2027-as-ai-boom-fuels-inflation-growth-slowing-to-1-4/",
+      "summary": "UBS’s view is more hawkish than current market pricing, which has moved towards RBA cuts within months. That leaves front-end Australian bond yields exposed if upcoming inflation data run hot. For the Australian dollar, a longer restrictive period would support rate differentials, but the weak domes",
+      "published": "13 Nov 2026 05:53 WIB",
       "sentiment": "Bullish",
-      "score": 0.281,
+      "score": 0.17,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Bagaimana Jepang dapat mengguncang pasar global?",
-      "url": "https://investinglive.com/education/how-could-japan-shake-up-the-global-markets/",
-      "summary": "How could Japan shake up the global markets? Minutes from the Bank of Japan’s October meeting point to another rate hike in December, and it’s easy to see why. The weak yen and rising energy costs driven by Middle East tensions have pushed core inflation to 2.1% year over year in September, its high",
-      "published": "12 Nov 2026 18:59 WIB",
+      "title": "Goldman melihat pengeluaran AI mencapai $1,4 triliun pada akhir tahun 2027, hampir 4% dari perekonomian AS",
+      "url": "https://investinglive.com/stocks/goldman-sees-ai-spending-hitting-1-4-trillion-by-end-2027-nearly-4-of-the-us-economy/",
+      "summary": "Goldman’s forecast supports the AI infrastructure trade, especially chipmakers, chip equipment makers and networking suppliers, which get the most from a spending path well above consensus. Its point that most AI hardware is imported matters for macro traders. Strong capex does not mean equally stro",
+      "published": "13 Nov 2026 05:11 WIB",
+      "sentiment": "Bullish",
+      "score": 0.652,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "PMI manufaktur Selandia Baru turun ke 54,9 pada bulan Oktober tetapi memperpanjang ekspansi hingga 16 bulan",
+      "url": "https://investinglive.com/news/nz-manufacturing-pmi-eases-to-54-9-in-october-but-extends-expansion-run-to-16-months/",
+      "summary": "A PMI still well above 50 gives little reason to doubt New Zealand’s recovery, so the small fall should do little to change the outlook for the RBNZ or the New Zealand dollar. The focus on fuel prices among survey respondents links New Zealand’s factory sector to the oil shock. That keeps input cost",
+      "published": "13 Nov 2026 04:43 WIB",
       "sentiment": "Bearish",
-      "score": -0.474,
+      "score": -0.829,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "ForexLive",
-      "title": "Menghubungkan titik-titik: Mengapa penurunan harga minyak mungkin tidak memberikan bantuan inflasi yang diharapkan semua orang",
-      "url": "https://investinglive.com/education/connecting-the-dots-why-falling-oil-prices-might-not-deliver-the-inflation-relief-everyone-expects/",
-      "summary": "Oil prices are starting to fall again, so surely that must mean our cost-of-living problems should be disappearing too, right? Well, if only the economics behind that were so straightforward and cooperative. WTI crude has dropped back to just below $86 today amid hopes of easing geopolitical tension",
-      "published": "12 Nov 2026 18:18 WIB",
+      "title": "Material Terapan mengalahkan perkiraan pada Q4 dan melampaui perkiraan seiring dengan meningkatnya permintaan peralatan chip",
+      "url": "https://investinglive.com/stocks/applied-materials-beats-on-q4-and-guides-above-forecasts-as-chip-equipment-demand-holds/",
+      "summary": "Applied Materials is a bellwether for chip industry spending, so an above-consensus guide supports the wider semiconductor equipment group and the AI hardware trade. The outlook points to chipmakers still committing to new capacity and more advanced production. That is a positive read-through for fo",
+      "published": "13 Nov 2026 04:27 WIB",
       "sentiment": "Bullish",
-      "score": 0.461,
+      "score": 0.802,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Minyak mentah terjebak di antara harapan akan deeskalasi dan kekhawatiran akan eskalasi lebih lanjut. Apa selanjutnya?",
-      "url": "https://investinglive.com/commodities/crude-oil-is-caught-between-hopes-of-de-escalation-and-concerns-of-further-escalation-what-s-next/",
-      "summary": "Crude oil has been consolidating around recent lows as the US-Iran uncertainty keeps traders guessing on the next move. The US-Iran conflict remains the main driver of course, with diplomatic efforts showing some signs of progress but no concrete breakthrough yet. Oil prices dipped yesterday after t",
-      "published": "12 Nov 2026 17:22 WIB",
+      "title": "Trump: Saya akan mempertimbangkan kampanye selama seminggu melawan Kuba",
+      "url": "https://investinglive.com/news/trump-i-would-consider-a-week-long-campaign-against-cuba/",
+      "summary": "Trump said he wants to \"get Cuba done\" before his term ends Would consider \"a little bit\" of military force Says I will not hesitate to use military force against Iran if necessary It sounds like the plan is to continue blockading Cuba but with Trump you never know, as he improvises nearly everythin",
+      "published": "13 Nov 2026 03:35 WIB",
       "sentiment": "Bearish",
-      "score": -0.798,
+      "score": -0.476,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "ForexLive",
-      "title": "Grafik hari ini: USD/JPY mendekati 160,00 karena tanda-tanda peringatan teknis meningkatkan risiko intervensi Jepang",
-      "url": "https://investinglive.com/technical-analysis/chart-of-the-day-usd-jpy-nears-160-00-as-technical-warning-signs-raise-japan-intervention-risks/",
-      "summary": "Well, it looks like dollar bulls are starting to play with fire again. USD/JPY is creeping back towards the 160.00 level and while the move might look like another show of strength for the dollar, I suspect that Japanese authorities aren't finding it quite as amusing. And from a technical perspectiv",
-      "published": "12 Nov 2026 17:11 WIB",
-      "sentiment": "Bullish",
-      "score": 0.835,
-      "emoji": "🟢",
+      "title": "Harga minyak naik setelah Iran melaporkan serangan",
+      "url": "https://investinglive.com/news/oil-prices-rise-after-iran-reports-strikes/",
+      "summary": "Iran’s state IRNA news agency reports: “Official sources have confirmed that Sirik in Hormozgan Province has been targeted minutes ago by the enemy”. There were reports earlier of explosions being heard in Sirik and it was confirmed. Importantly, the confirmation suggests that state media might be l",
+      "published": "13 Nov 2026 02:51 WIB",
+      "sentiment": "Bearish",
+      "score": -0.86,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Apa acara utama hari ini?",
-      "url": "https://investinglive.com/news/what-are-the-main-events-for-today-84/",
-      "summary": "EUROPEAN SESSION In the European session, the only highlight was the UK GDP report which beat expectations across the board, keeping a rate hike in December firmly on the table. The monthly GDP rose 0.2% in September, beating expectations of no growth. The services sector led the expansion, while in",
-      "published": "12 Nov 2026 14:28 WIB",
+      "title": "Defisit anggaran federal AS pada bulan Oktober mencatatkan rekor",
+      "url": "https://investinglive.com/news/us-october-federal-budget-deficit-sets-a-record/",
+      "summary": "Outlays of $773 billion vs $689 billion in Oct 2025 Receipts $369 billion vs $404 billion in Oct 2025 Deficit of $404 billion vs $284 billion in Oct 2025 This numbe really puts things into perspective. Even if the US doubled its tax revenues in October, it wouldn't have been enough to balance the bu",
+      "published": "13 Nov 2026 02:05 WIB",
       "sentiment": "Bearish",
-      "score": -0.178,
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Lelang obligasi 30 tahun AS terhenti karena permintaan mengecewakan untuk hari kedua berturut-turut",
+      "url": "https://investinglive.com/news/us-30-year-bond-auction-tails-as-demand-disappoints-for-second-straight-day/",
+      "summary": "High yield 5.441% vs 5.437% WI Tail of 0.4 basis points Bid-to-cover 2.36x vs 2.44x average Dealers awarded 11.39% vs 9.49% average The US Treasury sold $25 billion in 30-year bonds on Thursday in a disappointing auction that adds to signs of softening demand at the long end of the curve. The auctio",
+      "published": "13 Nov 2026 01:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.273,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -132,46 +154,79 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Peluang Kesepakatan Marvell-Lumentum Dekat Coin Flip",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-11/marvell-lumentum-deal-odds-near-coin-flip-video",
-      "summary": "Bloomberg’s Yiqin Shen joins Dani Burger on “Bloomberg Deals.” Marvell Technology’s plan to double down on AI through a blockbuster $115 billion acquisition of Lumentum Holdings is getting a lukewarm early verdict from investment experts who bet on deals. (Source: Bloomberg)",
-      "published": "12 Nov 2026 02:05 WIB",
+      "source": "Investing.com Forex",
+      "title": "Windward Bio memberi harga IPO pada $17 per saham di Nasdaq",
+      "url": "https://www.investing.com/news/stock-market-news/windward-bio-prices-ipo-at-17-per-share-on-nasdaq-432SI-5023682",
+      "summary": "",
+      "published": "13 Nov 2026 06:30 WIB",
       "sentiment": "Bullish",
-      "score": 0.67,
+      "score": 0.216,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Minyak Naik Setelah Trump Mengatakan AS Tidak Membutuhkan Kesepakatan dengan Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran",
-      "summary": "Oil rose after President Donald Trump said that the US doesn’t need a deal with Iran, dimming prospects for a breakthrough to end the war that has roiled Middle East supplies.",
-      "published": "12 Nov 2026 20:14 WIB",
+      "title": "Swiss Biotech Windward Mengumpulkan $225 Juta dalam IPO AS, Penempatan",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/swiss-biotech-windward-raises-225-million-in-us-ipo-placement",
+      "summary": "Windward Bio Group AG, raised about $225 million in a US initial public offering that priced at the midpoint of its marketed range, along with a private placement.",
+      "published": "13 Nov 2026 06:32 WIB",
       "sentiment": "Bearish",
-      "score": -0.402,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ukraina Mengatakan Serangan Ini Menghantam Kilang Minyak Terbesar Rusia di Siberia",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/ukraine-says-it-hit-russia-s-biggest-oil-refinery-in-siberia",
-      "summary": "Ukraine said it attacked Russia’s largest oil refinery deep in western Siberia for a third time, intensifying its campaign against the nation’s crude-processing industry as US-mediated peace talks continue.",
-      "published": "12 Nov 2026 19:27 WIB",
+      "title": "Saham Asia Naik Tipis Setelah Perombakan Nvidia: Pasar Terbungkus",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates",
+      "summary": "Asian stocks looked set to follow US equity futures higher as investors weighed the fallout from Nvidia Corp.’s leadership upheaval on the broader artificial-intelligence trade against rising oil prices and Treasury yields.",
+      "published": "13 Nov 2026 05:17 WIB",
       "sentiment": "Bullish",
-      "score": 0.128,
+      "score": 0.052,
       "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru 12 November",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/latest-oil-market-news-and-analysis-for-nov-12",
-      "summary": "Oil declined as traders weighed resurgent production from the Middle East against the ongoing risk to shipments posed by a conflict that shows little sign of ending.",
-      "published": "12 Nov 2026 06:04 WIB",
+      "title": "Berita dan Analisis Pasar Minyak Terkini untuk 13 November",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/latest-oil-market-news-and-analysis-for-nov-13",
+      "summary": "Oil held a gain after President Donald Trump said the US could forgo a deal with Iran, dimming prospects for a breakthrough to end the war that has roiled Middle East supplies.",
+      "published": "13 Nov 2026 06:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.258,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Zelenskyy Puji Kemajuan setelah Witkoff, Kushner Bertemu Putin",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/zelenskyy-hails-progress-after-witkoff-kushner-meet-putin",
+      "summary": "Ukrainian President Volodymyr Zelenskyy said progress had been made during a meeting with US envoys in Ireland, hailing a prisoner swap deal and a decision to include Europeans in the next round of peace talks with Russia.",
+      "published": "13 Nov 2026 06:06 WIB",
+      "sentiment": "Bullish",
+      "score": 0.761,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mantan Bintang Digital Malaysia yang Membuat Avatar PM Terlilit Utang",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/ex-malaysia-digital-star-that-built-pm-s-avatar-is-mired-in-debt",
+      "summary": "Earlier this year, Malaysia’s Zetrix AI Bhd. was preparing to list its artificial intelligence unit on Nasdaq and had even built an AI avatar of Prime Minister Anwar Ibrahim. Now the onetime digital infrastructure star has lost more than 90% of its market value, is mired in debt and risks defaulting",
+      "published": "13 Nov 2026 06:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.607,
+      "score": -0.68,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Jatuh karena Kekalahan Nvidia karena Lonjakan Minyak Tenggelamkan Obligasi: Pasar Bungkus",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
+      "summary": "A leadership crisis at Nvidia Corp. curbed the appetite for riskier corners on Wall Street, with stocks also declining as a rally in oil prices lifted Treasury yields.",
+      "published": "12 Nov 2026 05:08 WIB",
+      "sentiment": "Bearish",
+      "score": -0.851,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -188,6 +243,17 @@
     },
     {
       "source": "Google News Geopolitik",
+      "title": "Strategi Yuan Rusia Gagal di Bawah Sanksi AS karena Dominasi Dolar Bertahan - Birr Metrics",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xbm93Slo1SGdMNEl1ekZUVThGdlRfQUJkdXJ6R3lPdm9IYVVoOTJSTWVmM3o0Mk4tSkZSU2twcE42eE5DWVVMbF9yZjNERjJyQno3X0NCbDNjWW1WeWJuclRDOVR3S3VyUldFb1NxNnYtRHppMnl4Ymh3M2V2Zw?oc=5",
+      "summary": "Russia’s Yuan Strategy Falters Under US Sanctions as Dollar Dominance Persists Birr Metrics",
+      "published": "13 Nov 2026 00:53 WIB",
+      "sentiment": "Bullish",
+      "score": 0.122,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Google News Geopolitik",
       "title": "Uang Mudah Mungkin Tidak Memenangkan Pemilu, tapi Konsekuensi Ekonominya Bisa Lebih Lama darinya - https://economy.ac/",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wcXY3M05iMlVBdjJFeUxHUERjWGZaRGU3SklaMU5PNm53cFdncGRDR3F5RFpFbm1YMDJEZkN0VXFkS3NDM2taanBJcU9ZVXZHQVF0dldjaDk5Zw?oc=5",
       "summary": "Easy Money May Not Win Elections, but Its Economic Consequences Can Outlast Them https://economy.ac/",
@@ -199,14 +265,14 @@
     },
     {
       "source": "BBC World",
-      "title": "'Kita harus lari': Di dalam pembangkit listrik Ukraina yang hancur karena ancaman drone yang terus-menerus",
-      "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
-      "published": "12 Nov 2026 20:02 WIB",
+      "title": "Kapal perang Rusia ditabrak drone Ukraina di Teluk Finlandia",
+      "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+      "summary": "The attack is thought to be the first time Ukrainian drones have attacked a Russian ship in an open stretch of the Baltic Sea.",
+      "published": "13 Nov 2026 03:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.871,
+      "score": -0.938,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "BBC World",
@@ -221,12 +287,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Jutaan dolar Ebola hilang seiring penyebaran virus, badan amal medis memperingatkan",
+      "title": "Jutaan dolar Ebola hilang dan staf tidak dibayar ketika virus menyebar, kata badan amal",
       "url": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
       "summary": "Medical staff are going unpaid, lack proper training and are struggling with shortages of essential supplies, MSF warns",
-      "published": "12 Nov 2026 21:24 WIB",
+      "published": "12 Nov 2026 22:18 WIB",
       "sentiment": "Bearish",
-      "score": -0.87,
+      "score": -0.83,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -235,7 +301,7 @@
       "title": "Serangan Israel terhadap rumah sakit Gaza menewaskan enam warga Palestina, kata kementerian kesehatan",
       "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
       "summary": "Witnesses say a missile hit a building containing the surgical wards and intensive care units at Nasser hospital, the largest in southern Gaza.",
-      "published": "12 Nov 2026 21:27 WIB",
+      "published": "12 Nov 2026 23:54 WIB",
       "sentiment": "Bearish",
       "score": -0.362,
       "emoji": "🔴",
@@ -243,12 +309,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Wanita Inggris hilang dari kapal pesiar di Atlantik",
+      "title": "Pencarian wanita Inggris yang hilang dari pelayaran Tui di Atlantik dibatalkan",
       "url": "https://www.bbc.co.uk/news/articles/cmy0enrkwkklo?at_medium=RSS&at_campaign=rss",
-      "summary": "The 72-year-old was last seen aboard the Tui ship on Monday as it headed towards the Caribbean.",
-      "published": "12 Nov 2026 17:13 WIB",
+      "summary": "The 72-year-old is believed to have gone overboard from the Tui ship on Monday as it headed towards the Caribbean.",
+      "published": "13 Nov 2026 04:27 WIB",
       "sentiment": "Bearish",
-      "score": -0.433,
+      "score": -0.456,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -265,67 +331,34 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Sebelum Scott Colom, kedua pria ini adalah senator kulit hitam AS terakhir di Mississippi",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss",
-      "summary": "The Democratic candidate won in a southern state that had not seated a black senator since 1874.",
-      "published": "12 Nov 2026 21:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.492,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "‘Kejahatan yang mengerikan’: Dokter Gaza terbunuh saat Israel memperluas perang terhadap layanan kesehatan",
-      "url": "https://www.aljazeera.com/news/2026/11/12/horrific-crime-gaza-doctor-killed-as-israel-expands-war-on-healthcare?traffic_source=rss",
-      "summary": "Israel's military campaign and mass detentions collapse Palestinian healthcare in Gaza and the West Bank.",
-      "published": "12 Nov 2026 21:23 WIB",
+      "title": "'Kita harus lari': Di dalam pembangkit listrik Ukraina yang hancur karena ancaman drone yang terus-menerus",
+      "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
+      "published": "12 Nov 2026 20:02 WIB",
       "sentiment": "Bearish",
-      "score": -0.984,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Polisi mengatakan sedikitnya lima orang ditembak di jalan raya yang sibuk di Washington, DC",
-      "url": "https://www.aljazeera.com/news/2026/11/12/police-say-at-least-five-people-shot-at-busy-thoroughfare-in-washington-dc?traffic_source=rss",
-      "summary": "Authorities have issued a shelter in place near the scene of attack in US capital.",
-      "published": "12 Nov 2026 21:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.871,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Lebih dari 1.800 sekolah di Italia menjadi sasaran peringatan bom tipuan baru",
-      "url": "https://www.aljazeera.com/news/2026/11/12/more-than-1800-italian-schools-targeted-by-new-hoax-bomb-alerts?traffic_source=rss",
-      "summary": "The latest warnings come amid rising concerns ⁠⁠⁠⁠⁠⁠⁠⁠in Europe about hybrid warfare threats.",
-      "published": "12 Nov 2026 20:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.968,
-      "emoji": "🔴",
-      "impact": "high"
+      "title": "Keamanan regional mendominasi perundingan Eropa di Dublin di tengah serangan hibrida",
+      "url": "https://www.aljazeera.com/news/2026/11/12/regional-security-dominates-european-talks-in-dublin-amid-hybrid-attacks?traffic_source=rss",
+      "summary": "European nations discuss security collaboration and an envoy for Ukraine peace talks during the summit in Ireland.",
+      "published": "13 Nov 2026 03:12 WIB",
+      "sentiment": "Bullish",
+      "score": 0.601,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Greta Thunberg: Planet ini sedang dibunuh",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/greta-thunberg-the-planet-is-being-killed?traffic_source=rss",
-      "summary": "Climate activist Greta Thunberg delivers a stark warning at COP31.",
-      "published": "12 Nov 2026 19:53 WIB",
+      "source": "MarketWatch",
+      "title": "Imbal hasil obligasi baru saja mengalami lonjakan terbesar sejak tahun 2022 seiring meningkatnya ekspektasi kenaikan suku bunga Fed lebih lanjut",
+      "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
+      "summary": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
+      "published": "13 Nov 2026 05:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.864,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Siapakah Scott Colom, senator kulit hitam pertama di Mississippi dalam 150 tahun?",
-      "url": "https://www.aljazeera.com/news/2026/11/12/who-is-scott-colom-mississippis-first-black-senator-in-150-years?traffic_source=rss",
-      "summary": "Mississippi is home to a large Black American population but no Black person has held a Senate seat since the 1800s.",
-      "published": "12 Nov 2026 18:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.501,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -334,11 +367,22 @@
       "title": "'Star Wars' Disney akan hadir di Cosm Dome menjelang peringatan 50 tahun sebagai bagian dari kesepakatan film multi-tahun",
       "url": "https://www.cnbc.com/2026/11/12/star-wars-cosm-dome-screenings.html",
       "summary": "Cosm has secured a new studio partnership with Disney that will bring \"Star Wars: A New Hope\" to its domes as part of a multiyear, multifilm collaboration.",
-      "published": "12 Nov 2026 21:00 WIB",
+      "published": "13 Nov 2026 00:23 WIB",
       "sentiment": "Bearish",
       "score": -0.382,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Buletin Inside India: Kemunduran jajak pendapat Trump memicu harapan bagi kesepakatan perdagangan AS-India pada akhir tahun",
+      "url": "https://www.cnbc.com/2026/11/12/us-india-trade-tariffs-trump-modi.html",
+      "summary": "While American voters are more affected by import duties on Canadian goods, experts said that a trade deal with India could blunt criticism against tariffs.",
+      "published": "12 Nov 2026 06:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.065,
+      "emoji": "🔴",
+      "impact": "medium"
     },
     {
       "source": "CNBC World",
@@ -359,28 +403,6 @@
       "published": "12 Nov 2026 16:05 WIB",
       "sentiment": "Bearish",
       "score": -0.807,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Buletin Inside India: Kemunduran jajak pendapat Trump memicu harapan bagi kesepakatan perdagangan AS-India pada akhir tahun",
-      "url": "https://www.cnbc.com/2026/11/12/us-india-trade-tariffs-trump-modi.html",
-      "summary": "While American voters are more affected by import duties on Canadian goods, experts said that a trade deal with India could blunt criticism against tariffs.",
-      "published": "12 Nov 2026 06:57 WIB",
-      "sentiment": "Bearish",
-      "score": -0.425,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Duta Besar Kanada memperingatkan tarif Trump akan menaikkan biaya, sehingga mengancam investasi AS",
-      "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
-      "summary": "U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment and complicate negotiations between the two countries.",
-      "published": "12 Nov 2026 20:59 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     }
