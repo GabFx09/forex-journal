@@ -1,59 +1,81 @@
 {
-  "generated": "13 Nov 2026 22:03 WIB",
+  "generated": "14 Nov 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.517,
+      "count": 13
+    },
+    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.448,
-      "count": 23
+      "score": -0.517,
+      "count": 13
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.43,
-      "count": 22
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.461,
-      "count": 20
-    },
-    {
-      "pair": "EUR",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.147,
-      "count": 4
-    },
-    {
-      "pair": "USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.147,
-      "count": 4
+      "score": -0.5,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
-      "direction": "Netral →",
-      "score": -0.027,
+      "direction": "Tekanan Turun ▼",
+      "score": -0.459,
+      "count": 7
+    },
+    {
+      "pair": "AUD/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.583,
       "count": 4
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.583,
+      "count": 4
+    },
+    {
+      "pair": "USD/RUB",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.439,
+      "count": 2
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.42,
-      "count": 2
-    },
-    {
-      "pair": "GBP",
-      "direction": "Netral →",
-      "score": -0.001,
-      "count": 2
+      "score": 0.84,
+      "count": 1
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "investmentRingkasan berita pasar Amerika secara langsung: Kekhawatiran The Fed yang Hawkish surut setelah IHP",
+      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-hawkish-fed-worries-ebb-after-ppi/",
+      "summary": "US October PPI +6.5% vs +6.6% expected Fed's Goolsbee: We're not on the way to 2% inflation and we have to deal with that Goldman Sachs: We can explain almost the entire US inflation overshoot by tariffs and the war in Iran Fed's Collins: I would think some additional policy tightening is warranted ",
+      "published": "14 Nov 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.718,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Goldman Sachs: Kami dapat menjelaskan hampir seluruh inflasi AS yang melampaui batas karena tarif dan perang di Iran",
+      "url": "https://investinglive.com/central-banks/goldman-sachs-we-can-explain-almost-the-entire-us-inflation-overshoot-by-tariffs-and-the-war-in-iran/",
+      "summary": "Goldman Sachs is out with a chart that says the US inflation problem is almost entirely two things: tariffs and the Iran energy shock. Take those out and inflation is basically at target. The latest hard data is ugly. September PCE was 3.6% y/y on headline and 3.1% on core, with gasoline and other e",
+      "published": "13 Nov 2026 21:52 WIB",
+      "sentiment": "Bearish",
+      "score": -0.832,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
     {
       "source": "ForexLive",
       "title": "Investing Penutup Sesi Eropa Langsung: Wall Street mengincar rebound namun kenaikan imbal hasil Treasury membuat para pedagang tetap waspada",
@@ -88,113 +110,25 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Indeks harga grosir Jerman bulan Oktober +0,4% vs +1,9% bulan/bulan sebelumnya",
-      "url": "https://investinglive.com/news/germany-october-wholesale-price-index-0-4-vs-1-9-m-m-prior/",
-      "summary": "Germany October wholesale price index +0.4% m/m Prior +1.9% Germany October wholesale price index 8.8% y/y Prior +8.7% The breakdownWell, German wholesale prices are continuing to push up in October with the annual estimate hitting 8.8% - the highest since February 2023. The price increase in Octobe",
-      "published": "13 Nov 2026 14:00 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Sherritt yang Bermasalah Melewatkan Pembayaran karena Krisis Likuiditas Mendalam",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/troubled-sherritt-misses-payment-as-liquidity-crisis-deepens",
+      "summary": "Sherritt International Corp. missed an interest payment on secured notes, deepening a liquidity crisis for the troubled Canadian miner hobbled by US sanctions that forced it to halt production in Cuba.",
+      "published": "14 Nov 2026 06:39 WIB",
       "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Opsi FX kedaluwarsa pada 13 November 10 pagi pemotongan New York",
-      "url": "https://investinglive.com/orders/fx-option-expiries-for-13-november-10am-new-york-cut/",
-      "summary": "There aren't any major expiry levels that are likely to be of much influence on the day, with the full list seen below. The closest and most relevant one is for EUR/USD at the 1.1100 level but the strike is some 40 pips away from the spot price. Barring any major pullbcak in the dollar, the expiries",
-      "published": "13 Nov 2026 13:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.27,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Perdana Menteri Jepang Takaichi memberikan peringatan lisan lainnya karena USD/JPY mendekati level 160",
-      "url": "https://investinglive.com/forex/japan-prime-minister-takaichi-fires-another-verbal-warning-as-usd-jpy-flirts-with-the-160-level/",
-      "summary": "Knock, knock. Who's there? Japan's intervention warning, of course. With USD/JPY flirting with the 160.00 level again this week, Tokyo is making sure that traders know that someone is watching. Japan's prime minister Takaich is the latest to chime in with some comments, saying that: Does not want to",
-      "published": "13 Nov 2026 12:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.123,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Investing.com Forex",
-      "title": "Hakim Eksklusif memerintahkan pemeriksaan kognitif pada pewaris Hermès yang mengatakan kekayaannya dicuri, kata sumber",
-      "url": "https://www.investing.com/news/stock-market-news/exclusivejudge-orders-cognitive-checks-onhermes-heir-who-says-his-fortune-was-stolen-sources-say-5025775",
-      "summary": "",
-      "published": "13 Nov 2026 21:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.494,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Reuters Currencies",
-      "title": "Lula dari Brasil bersikap aman dengan rencana fiskal pertama pasca pemilu - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSUNyNmZIckFSa241MENEc0VaV3VGNFNWU0dvT0Y5ZjhfZ2ljdG54V3lQQ0FGdnBBdjd0UWNoNzlkbUhNTGhmQldxZzAzb1BYbVpEVWI4N2s5QW0wX3ZWOGZjMGdrVGEwOEthWDhQMHBUb1c2TGNmX19JRXFiRHQ5TnRzUlNyUkpvV2hnMlJ4aEtxUXMtZU5zNVgxMURkYXE0a2R5aFZHRVZ0WFJRUEdKYzVEa1E?oc=5",
-      "summary": "Brazil's Lula plays it safe with first post-election fiscal plan Reuters",
-      "published": "13 Nov 2026 00:28 WIB",
-      "sentiment": "Bullish",
-      "score": 0.599,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Reuters Currencies",
-      "title": "STOXX 600 Eropa mundur dari rekor tertinggi karena investor mempertimbangkan pendapatan dan harga minyak - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb2lhYU41THN2eG9LQ3BhakNHMERZZEhUaG05elhtaVFsT3EwczI1QWxtM21uVGFEVUpYR2FkYnlUejJrYzUwRVdfR19SRXFQN1VuQmNmNXluOWVRNUNzdXlrSTRlekpJWDJETF80RTJ6a19VN1BNOFBKbThGYnBmWGdLSktleXdBZEtTMGNOYV9Rc1lVN01TNDhPVXJ6QkxtOGlUaG5FQm1TekNQU2VvV2JwSXhNdmdfT1l3?oc=5",
-      "summary": "Europe's STOXX 600 pulls back from record high as investors weigh earnings, oil prices Reuters",
-      "published": "13 Nov 2026 05:17 WIB",
+      "source": "Google News Forex",
+      "title": "Bank Sentral Taiwan Akan Mengirimkan NT$220 Miliar ke Departemen Keuangan pada tahun 2027, Nilai Tertinggi dalam 18 Tahun; Yang Chin-long Memperingatkan Meningkatnya Kepemilikan Asing Adalah Hal yang Tidak Mungkin - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nbUVkMDdYMllhV1hqRXNrT1ZJTVo4alV0MHgwbmo0U1dnUHhPeWxsSlVIRUxwOEpvQi1BSHRRSklLOHJDRkxCdWppRnN5SGUwSnJkLXZLUUNnd1J4RGZuX052UDZxdUs1R2JCR25qbEhXWk1EcVE?oc=5",
+      "summary": "Taiwan's Central Bank to Remit NT$220 Billion to Treasury in 2027, an 18-Year High; Yang Chin-long Warns Rising Foreign Holdings Are a Wild Card BigGo Finance",
+      "published": "13 Nov 2026 16:25 WIB",
       "sentiment": "Netral",
-      "score": 0.0,
+      "score": 0.023,
       "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Saham AS Jatuh karena Kekhawatiran Teknologi Berlama-lama Meskipun Suku Bunga Ada Bantuan",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/us-futures-gain-with-microsoft-outage-producer-prices-in-focus",
-      "summary": "US equities edged lower Friday as investors continue to digest the impact of a global software outage at Microsoft Corp. and turmoil at Nvidia Corp., even as wholesale inflation data helped ease fears of an outsized interest-rate hike.",
-      "published": "13 Nov 2026 20:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.842,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Obligasi Senegal Anjlok karena Baris Anggaran Mempertaruhkan Program IMF",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/senegal-bonds-plunge-as-budget-row-puts-imf-program-at-risk",
-      "summary": "Senegal’s dollar bonds fell this week as a budget standoff threatens to delay the government’s efforts to secure a $2.2 billion International Monetary Fund program.",
-      "published": "13 Nov 2026 21:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.361,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terkini untuk 13 November",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/latest-oil-market-news-and-analysis-for-nov-13",
-      "summary": "Oil held gains after President Donald Trump said the US could forgo a deal with Iran, dimming prospects for a quick breakthrough to end the war that has roiled global energy markets.",
-      "published": "13 Nov 2026 06:02 WIB",
-      "sentiment": "Bullish",
-      "score": 0.282,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Saham Naik Jelang PPI; Pemadaman Microsoft; Kejatuhan Nvidia",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/bloomberg-brief-11-13-2026-video",
-      "summary": "US equity futures rise as investors await the latest inflation data to cap a dramatic week. Microsoft sees signs of early stabilization from a global service outage affecting Outlook, Teams, and Copilot. US Commerce Secretary Howard Lutnick comes under scrutiny amid Nvidia’s leadership crisis. Micha",
-      "published": "13 Nov 2026 20:43 WIB",
-      "sentiment": "Bearish",
-      "score": -0.812,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -204,7 +138,7 @@
       "summary": "USD/JPY: Yen Intervention Warnings Fail to Stop Dollar Bulls Forex Factory",
       "published": "13 Nov 2026 16:52 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.864,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -215,9 +149,20 @@
       "summary": "Russia’s Yuan Strategy Falters Under US Sanctions as Dollar Dominance Persists Birr Metrics",
       "published": "13 Nov 2026 00:53 WIB",
       "sentiment": "Bullish",
-      "score": 0.302,
+      "score": 0.122,
       "emoji": "🟢",
       "impact": "high"
+    },
+    {
+      "source": "Google News Geopolitik",
+      "title": "Ekonom Mempertimbangkan Prospek Perekonomian Setelah Pemilu Paruh Waktu - Newsstalk KZRG",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU0xxSW5CcFNjYmQtUDlBdmFicU50QV9SdmtfdmMtUjk4MmY2QWhaYWhqaDNIbXBBTjk4c09BbWpnOGlOYVdxVnpuaElUS1IzUElWUWJ4N1JSWjZ5WmZyVVc0WDdIRmNKbUd2S25fckNkb1hpb0ljSDV6Y0s5YlFrZ1JWVGtwZkJrejNSVTU3VjBuRml0WFFiVUtrbGhZdGlmSE15U2NSd0h5VXoy?oc=5",
+      "summary": "Economist Weighs In on Economic Outlook Following Midterm Elections Newstalk KZRG",
+      "published": "14 Nov 2026 03:08 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
     },
     {
       "source": "BBC World",
@@ -232,14 +177,36 @@
     },
     {
       "source": "BBC World",
-      "title": "Kapal perang Rusia ditabrak drone Ukraina di Teluk Finlandia",
-      "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
-      "summary": "The attack is thought to be the first time Ukrainian drones have attacked a Russian ship in an open stretch of the Baltic Sea.",
-      "published": "13 Nov 2026 03:09 WIB",
+      "title": "Dampak skandal Nvidia meluas ketika Menteri Keuangan Trump menyalahkan rekan kabinetnya",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
+      "published": "14 Nov 2026 02:53 WIB",
       "sentiment": "Bearish",
-      "score": -0.938,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Mata-mata Jerman memberikan kekuatan baru untuk mengatasi 'ancaman hibrida' dari luar negeri",
+      "url": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
+      "summary": "German reforms mean foreign and domestic intelligence services will have greater powers to combat espionage, terrorism and sabotage.",
+      "published": "13 Nov 2026 22:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.823,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Pemimpin Senat Demokrat Schumer akan menghadapi tantangan kepemimpinan",
+      "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
+      "summary": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes.",
+      "published": "14 Nov 2026 02:03 WIB",
+      "sentiment": "Bullish",
+      "score": 0.599,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -265,111 +232,67 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Saksikan: Reporter BBC yang menyamar ditawari karya seni palsu dan penghargaan untuk visa bakat",
-      "url": "https://www.bbc.co.uk/news/videos/cqr7g5j41mezo?at_medium=RSS&at_campaign=rss",
-      "summary": "Companies are offering to help migrants pose as talented artists to make fraudulent UK visa applications, the BBC has found.",
-      "published": "13 Nov 2026 21:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.591,
-      "emoji": "🟢",
-      "impact": "high"
+      "title": "Angkatan Udara AS mengatakan mereka merespons 'yang diduga drone' di RAF Lakenheath",
+      "url": "https://www.bbc.co.uk/news/articles/c6jd75geegzyo?at_medium=RSS&at_campaign=rss",
+      "summary": "The American military says there were no injuries or damage after \"suspected unauthorised drone activity\" this evening.",
+      "published": "14 Nov 2026 05:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.334,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "BBC Top Stories",
-      "title": "Maraknya 'housefishing': Bagaimana pencatatan properti yang didukung AI mulai berkembang pesat",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
-      "summary": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
-      "published": "13 Nov 2026 07:13 WIB",
+      "title": "Juru bicara Reformasi dan Tory bentrok dengan marah mengenai imigrasi di Piddington",
+      "url": "https://www.bbc.co.uk/news/articles/cr9d7y937n58o?at_medium=RSS&at_campaign=rss",
+      "summary": "Reform's Zia Yusuf and Tory Chris Philp were speaking against converting a former military site into asylum accommodation.",
+      "published": "13 Nov 2026 21:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.183,
+      "score": -0.431,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Bisakah Netanyahu melancarkan serangan terhadap Iran sebelum dia pergi?",
-      "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves?traffic_source=rss",
-      "summary": "PM's caretaker government can legally go to war, though it would likely inflame domestic divisions.",
-      "published": "13 Nov 2026 21:16 WIB",
-      "sentiment": "Bearish",
-      "score": -0.692,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tiongkok memperingatkan terhadap pembatasan baru chip AS",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss",
-      "summary": "China has warned the US against imposing additional export controls on AI chips.",
-      "published": "13 Nov 2026 20:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.153,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mengapa Ukraina menyerang kapal perang Rusia di Laut Baltik di tengah pembicaraan?",
-      "url": "https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks?traffic_source=rss",
-      "summary": "Finland says Ukraine struck a Russian warship near its coast as Kyiv and Moscow held US-brokered talks in Abu Dhabi.",
-      "published": "13 Nov 2026 19:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.895,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Militer Pakistan melaporkan mereka membunuh 74 ‘teroris’ dalam penggerebekan",
-      "url": "https://www.aljazeera.com/news/2026/11/13/pakistan-military-reports-it-killed-74-terrorists-during-raids?traffic_source=rss",
-      "summary": "Increased attacks on the border with Afghanistan have caused tensions between the neighbours.",
-      "published": "13 Nov 2026 18:59 WIB",
+      "title": "Iran menghormati tentara yang gugur dalam perang Iran-Irak dengan pertunjukan rudal",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
+      "summary": "Thousands gathered in Tehran for a mass funeral honouring 110 unidentified soldiers killed in the Iran-Iraq war.",
+      "published": "14 Nov 2026 01:09 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pengawas PBB menyerukan Iran untuk membuka kembali fasilitas nuklir untuk pemeriksaan",
-      "url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
-      "summary": "IAEA says it cannot verify whether an underground Iranian enrichment plant contains nuclear material.",
-      "published": "13 Nov 2026 18:51 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran mengancam akan memberikan tanggapan tidak terbatas atas Selat Hormuz setelah serangan AS",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss",
-      "summary": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US early-warning radar in Bahrain.",
-      "published": "13 Nov 2026 17:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.996,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Mengapa Trump mengatakan 'tidak perlu ada kesepakatan' dengan Iran saat dia mengesampingkan JD Vance?",
-      "url": "https://www.aljazeera.com/features/2026/11/13/why-is-trump-saying-no-deal-necessary-with-iran-as-he-sidelines-jd-vance?traffic_source=rss",
-      "summary": "The US-Iran war is trapped in an ongoing 'no war, no peace' situation, analysts say.",
-      "published": "13 Nov 2026 17:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.933,
-      "emoji": "🔴",
-      "impact": "high"
+      "title": "Perebutan pekerjaan pekerja baja di Kanada",
+      "url": "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs?traffic_source=rss",
+      "summary": "Stelco's US owner blames Trump's tariffs for layoffs, but its support for those same tariffs has raised questions.",
+      "published": "14 Nov 2026 00:10 WIB",
+      "sentiment": "Bullish",
+      "score": 0.146,
+      "emoji": "🟢",
+      "impact": "medium"
     },
     {
       "source": "MarketWatch",
-      "title": "Pemerintahan Trump mempekerjakan penagih utang untuk memburu peminjam pinjaman mahasiswa yang gagal bayar untuk pertama kalinya dalam 6 tahun",
-      "url": "https://www.marketwatch.com/story/trump-administration-is-hiring-debt-collectors-for-first-time-in-6-years-to-go-after-defaulted-student-loan-borrowers-8bae13ad?mod=mw_rss_topstories",
-      "summary": "The Treasury Department proposes to pay debt collectors much less than in the past to help borrowers get out of default.",
-      "published": "13 Nov 2026 21:28 WIB",
+      "title": "FAA mengumumkan penghentian penerbangan nasional yang jarang terjadi, dengan lebih dari 10.000 penerbangan ditunda sejauh ini",
+      "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+      "summary": "Agency cites “extraordinary circumstances,” while Homeland Security Secretary Mullin says no indication of attack.",
+      "published": "14 Nov 2026 06:54 WIB",
       "sentiment": "Bearish",
-      "score": -0.226,
+      "score": -0.82,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Pasokan minyak global tiba-tiba mengalir. Mengapa kelebihan minyak mentah tidak berarti solar lebih murah.",
+      "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
+      "summary": "It’s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn’t automatically lead to lower diesel prices.",
+      "published": "14 Nov 2026 05:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.845,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -382,6 +305,28 @@
       "sentiment": "Bearish",
       "score": -0.382,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Lutnick menghadapi pertanyaan mengenai skandal mata-mata Nvidia. Perusahaan putra-putranya memiliki hubungan erat dengan pembuat chip tersebut",
+      "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+      "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+      "published": "14 Nov 2026 06:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.705,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "OpenAI meluncurkan Dompet ChatGPT, yang memungkinkan agen AI 'titik' melakukan pembelian bagi pengguna",
+      "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+      "summary": "OpenAI's ChatGPT Wallet partners with American Express, Mastercard and Visa, and those cardholders keep their existing credit card rewards.",
+      "published": "14 Nov 2026 01:56 WIB",
+      "sentiment": "Bullish",
+      "score": 0.611,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
@@ -403,17 +348,6 @@
       "published": "13 Nov 2026 21:24 WIB",
       "sentiment": "Bearish",
       "score": -0.928,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Nvidia berada di jalur penurunan mingguan terpanjang sejak 2012 karena nilai pasarnya merosot sebesar $1,6 triliun",
-      "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-      "summary": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
-      "published": "13 Nov 2026 12:51 WIB",
-      "sentiment": "Bearish",
-      "score": -0.729,
       "emoji": "🔴",
       "impact": "high"
     }
