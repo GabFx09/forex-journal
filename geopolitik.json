@@ -1,5 +1,5 @@
 {
-  "generated": "15 Nov 2026 07:01 WIB",
+  "generated": "15 Nov 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,77 +7,59 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.317,
-      "count": 12
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.306,
-      "count": 11
+      "score": -0.75,
+      "count": 6
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.281,
-      "count": 11
+      "score": -0.75,
+      "count": 6
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.764,
+      "count": 4
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.284,
-      "count": 3
-    },
-    {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.775,
-      "count": 2
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.775,
-      "count": 2
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.698,
+      "score": -1.0,
       "count": 1
     }
   ],
   "items": [
     {
-      "source": "ForexLive",
-      "title": "investmentRingkasan berita pasar Amerika secara langsung: Kekhawatiran The Fed yang Hawkish surut setelah IHP",
-      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-hawkish-fed-worries-ebb-after-ppi/",
-      "summary": "US October PPI +6.5% vs +6.6% expected Fed's Goolsbee: We're not on the way to 2% inflation and we have to deal with that Goldman Sachs: We can explain almost the entire US inflation overshoot by tariffs and the war in Iran Fed's Collins: I would think some additional policy tightening is warranted ",
-      "published": "14 Nov 2026 05:02 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Krisis Minyak tahun 1973 Masih Penting Saat Ini",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-15/the-1973-oil-crisis-still-matters-today-video",
+      "summary": "Author Philip Delves Broughton is on Bloomberg This Weekend to discuss his new book, Embargo, and how the 1973 oil crisis transformed Saudi Arabia’s economic and political power while exposing the world’s vulnerability to turmoil in the Middle East. Speaking with hosts David Gura and Christina Ruffi",
+      "published": "15 Nov 2026 21:27 WIB",
       "sentiment": "Bearish",
-      "score": -0.718,
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Krisis Nvidia Memperumit Perjalanan Trump ke Tiongkok",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-15/nvidia-crisis-complicates-trump-s-china-trip-video",
+      "summary": "On Bloomberg This Weekend, co-host of Bloomberg Surveillance Annmarie Hordern examines how scrutiny surrounding Nvidia and Jensen Huang is shifting the focus of President Donald Trump’s China trip from trade toward chip export controls and questions about how restricted technology may have reached C",
+      "published": "15 Nov 2026 20:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.978,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Goldman Sachs: Kami dapat menjelaskan hampir seluruh inflasi AS yang melampaui batas karena tarif dan perang di Iran",
-      "url": "https://investinglive.com/central-banks/goldman-sachs-we-can-explain-almost-the-entire-us-inflation-overshoot-by-tariffs-and-the-war-in-iran/",
-      "summary": "Goldman Sachs is out with a chart that says the US inflation problem is almost entirely two things: tariffs and the Iran energy shock. Take those out and inflation is basically at target. The latest hard data is ugly. September PCE was 3.6% y/y on headline and 3.1% on core, with gasoline and other e",
-      "published": "13 Nov 2026 21:52 WIB",
+      "source": "Bloomberg Markets",
+      "title": "AirMozambique Memperingatkan Pembatalan Penerbangan Karena Kekurangan Bahan Bakar",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/airmozambique-warns-of-flight-cancellations-due-to-fuel-shortage",
+      "summary": "AirMozambique, the southeast African country’s national carrier, warned that fuel supply restrictions meant it may have to cancel some flights.",
+      "published": "15 Nov 2026 18:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.832,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Investing Penutup Sesi Eropa Langsung: Wall Street mengincar rebound namun kenaikan imbal hasil Treasury membuat para pedagang tetap waspada",
-      "url": "https://investinglive.com/news/investinglive-european-session-wrap-wall-street-eyes-a-rebound-but-rising-treasury-yields-keep-traders-on-edge/",
-      "summary": "Headlines: Wall Street steadies despite Nvidia drama but dip buyers are still walking a tight rope US bond market cracks resurface as higher for longer fears return to haunt Wall Street Higher real yields and stronger US dollar weigh on gold as Trump puts Iran deal in jeopardy Japan prime minister T",
-      "published": "13 Nov 2026 19:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.513,
+      "score": -0.75,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -104,59 +86,26 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "SpaceX Mendorong Penggunaan Kembali Kapal Luar Angkasa ke Uji Coba Baru",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-14/spacex-pushes-starship-reusability-to-new-test-video",
-      "summary": "Space Network co-founder Ross Hamilton tells Bloomberg This Weekend why SpaceX’s attempt to catch Starship after its return from orbit could mark a major step toward making the rocket system fully reusable. Speaking with hosts David Gura and Christina Ruffini, Hamilton explains how more frequent and",
-      "published": "14 Nov 2026 21:36 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Disetujui, Lutnick Bentrok Karena Pembatasan Nvidia China",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-14/bessent-lutnick-clash-over-nvidia-china-curbs-video",
-      "summary": "Axios AI policy reporter Maria Curi tells Bloomberg This Weekend about tensions inside the Trump administration over efforts to restrict the flow of advanced Nvidia chips to China and scrutiny of Commerce Secretary Howard Lutnick’s handling of Megaspeed. Speaking with hosts David Gura and Christina ",
-      "published": "14 Nov 2026 21:30 WIB",
+      "source": "BBC World",
+      "title": "Iran menargetkan pangkalan militer AS di Bahrain dengan serangan pesawat tak berawak",
+      "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+      "summary": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
+      "published": "15 Nov 2026 20:42 WIB",
       "sentiment": "Bearish",
-      "score": -0.807,
+      "score": -0.815,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Dorongan Perdamaian Ukraina Beralih ke NATO dan Donbas",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-14/ukraine-peace-push-turns-to-nato-and-donbas-video",
-      "summary": "Bloomberg Economics defense lead Becca Wasser tells Bloomberg This Weekend that a US proposal linking NATO membership to Ukrainian concessions in the Donbas represents movement in peace talks but faces significant political and security hurdles. Speaking with hosts David Gura and Christina Ruffini, ",
-      "published": "14 Nov 2026 20:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
       "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Goldman Sachs Melihat Pengembalian 19% pada Saham Asia selain Jepang pada tahun 2027",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027",
-      "summary": "Goldman Sachs expects earnings growth to drive a 19% return for the MSCI Asia ex-Japan Index in dollar terms next year, even as it warned that uncertainty over artificial intelligence could fuel volatility.",
-      "published": "14 Nov 2026 17:16 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pasar Minyak Penuh Dengan Minyak Mentah Meskipun Ada Serangan Kapal Tanker",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-14/the-oil-market-is-brimming-with-crude-despite-tanker-attacks",
-      "summary": "More than eight months into the Iran war, smoke continues to billow from oil tankers as Tehran presses ahead with repeated attacks near the Strait of Hormuz.",
-      "published": "14 Nov 2026 15:30 WIB",
+      "source": "BBC World",
+      "title": "Tiga pria dijatuhi hukuman mati di Yordania atas penembakan massal di gereja yang fatal",
+      "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+      "summary": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
+      "published": "15 Nov 2026 18:06 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -181,136 +130,70 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Para jenderal yang ditangkap dan seorang Wakil Presiden yang diancam: Putra Presiden memicu demam suksesi Uganda",
-      "url": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss",
-      "summary": "The 52-year-old general’s provocative posts and military threats have fuelled rumours of a dynastic succession.",
-      "published": "14 Nov 2026 07:03 WIB",
-      "sentiment": "Bearish",
-      "score": -0.743,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Bagaimana upaya peningkatan telekomunikasi memicu kekacauan penerbangan di AS",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-      "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
-      "published": "15 Nov 2026 06:11 WIB",
-      "sentiment": "Bearish",
-      "score": -0.815,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Jojo si gorila menghabiskan hidupnya sendirian. Bisakah dia akhirnya menemukan pasangannya?",
-      "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jojo was poached as an infant and grew up in captivity. His keepers want to find him a friend - but it's not straightforward.",
-      "published": "14 Nov 2026 07:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.11,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "BBC Top Stories",
-      "title": "Pencarian untuk menemukan teman bagi Jojo si gorila setelah seumur hidup sendirian",
-      "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jojo was poached as an infant and grew up in captivity. His keepers want to find him a friend - but it's not straightforward.",
-      "published": "14 Nov 2026 07:03 WIB",
-      "sentiment": "Bullish",
-      "score": 0.351,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Ribuan orang turun ke jalan di Edinburgh untuk memprotes pusat data AI",
-      "url": "https://www.bbc.co.uk/news/articles/c8n50w445zgpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Demonstrators armed with placards - and some dressed in costume - assembled at the top of the Royal Mile before marching towards the Scottish Parliament.",
-      "published": "15 Nov 2026 00:20 WIB",
+      "title": "Mantan inspektur Polisi Met berbohong tentang kematian istrinya di kamar hotel Barbados, BBC mengetahui",
+      "url": "https://www.bbc.co.uk/news/articles/c6jd7k7g57x5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Warren Arter faced claims of sexually exploiting crime victims - his wife was found in a blood-stained room.",
+      "published": "15 Nov 2026 13:01 WIB",
       "sentiment": "Bearish",
-      "score": -0.052,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Bagaimana senator baru Mississippi menang di jantung Trump - dan apa yang akan dia lakukan selanjutnya",
-      "url": "https://www.bbc.co.uk/news/videos/crpdwve24398o?at_medium=RSS&at_campaign=rss",
-      "summary": "Scott Colom tells the BBC that Democrats can build on his historic election win - and appeal to frustrated Republicans - by focusing on policies to help all Americans.",
-      "published": "15 Nov 2026 05:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.698,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "Al Jazeera",
-      "title": "Ledakan di dekat ibu kota Suriah menewaskan ayah dan anak",
-      "url": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
-      "summary": "Syria’s Internal Security Forces have launched an investigation into a suspected bomb attack in a suburb of Damascus.",
-      "published": "15 Nov 2026 05:43 WIB",
+      "title": "Serangan eksplosif menargetkan rumah jurnalis investigasi di Panama",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/explosive-attack-targets-investigative-journalists-home-in-panama?traffic_source=rss",
+      "summary": "An investigative journalist’s home in Panama was attacked in a suspected bombing.",
+      "published": "15 Nov 2026 20:43 WIB",
       "sentiment": "Bearish",
-      "score": -0.912,
+      "score": -0.871,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Utusan AS Kushner mengatakan ia bermaksud menjadi perantara perundingan Eropa-Rusia mengenai Ukraina",
-      "url": "https://www.aljazeera.com/news/2026/11/14/us-envoy-kushner-says-he-aims-to-broker-europe-russia-talks-on-ukraine?traffic_source=rss",
-      "summary": "Europe's direct engagement with Moscow as part of Ukraine-Russia peace talks is edging closer to becoming a reality.",
-      "published": "15 Nov 2026 04:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.758,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "AS menyarankan Ukraina menyerahkan sebagian Donbas ke Rusia untuk menjadi bagian NATO",
-      "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
-      "summary": "Zelenskyy rejected the possibility of Ukraine committing to neutrality and said he refused to cede territory to Russia.",
-      "published": "14 Nov 2026 23:53 WIB",
+      "title": "Pembatasan Starshield membantu serangan energi Rusia terhadap Ukraina: Zelenskyy",
+      "url": "https://www.aljazeera.com/news/2026/11/15/starshield-restrictions-help-russias-energy-attacks-on-ukraine-zelenskyy?traffic_source=rss",
+      "summary": "Starlink has recently denied restricting internet speeds, but Elon Musk suggested the US military could be behind it.",
+      "published": "15 Nov 2026 20:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.637,
+      "score": -0.398,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Serangan udara Myanmar menewaskan 12 orang di kamp pengungsian di negara bagian Rakhine",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
-      "summary": "A Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people.",
-      "published": "14 Nov 2026 23:13 WIB",
+      "title": "Bahrain menuduh Iran menyerang wilayahnya untuk 'menyelesaikan masalah' dengan AS",
+      "url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us?traffic_source=rss",
+      "summary": "Tehran says its air attacks on countries cooperating with the US are justified under international law.",
+      "published": "15 Nov 2026 19:36 WIB",
       "sentiment": "Bearish",
-      "score": -0.84,
+      "score": -0.761,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "MarketWatch",
-      "title": "Inilah cara Bernie Sanders ingin menjaga agar Jaminan Sosial tetap pelarut 'untuk generasi'",
-      "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
-      "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
-      "published": "15 Nov 2026 00:50 WIB",
+      "source": "Al Jazeera",
+      "title": "Berikan Donbas, ambil kursi NATO: Bisakah usulan baru AS berhasil untuk Ukraina dan Rusia?",
+      "url": "https://www.aljazeera.com/news/2026/11/15/give-donbas-take-nato-seat-could-new-us-pitch-work-for-ukraine-russia?traffic_source=rss",
+      "summary": "Ukraine's NATO ambition has always been a red line for the Kremlin. Giving up territory has been a no-no for Ukraine.",
+      "published": "15 Nov 2026 17:58 WIB",
       "sentiment": "Bullish",
-      "score": 0.542,
+      "score": 0.34,
       "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "CNBC World",
-      "title": "Lutnick menghadapi pertanyaan mengenai skandal mata-mata Nvidia. Perusahaan putra-putranya memiliki hubungan erat dengan pembuat chip tersebut",
-      "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-      "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
-      "published": "14 Nov 2026 06:42 WIB",
+      "title": "Saya seorang psikolog yang mempelajari pasangan—5 tanda Anda sudah terjebak dalam kebiasaan yang sama: 'Hal ini terbentuk dari kebiasaan-kebiasaan kecil yang masing-masing terlihat tidak berbahaya'",
+      "url": "https://www.cnbc.com/make-it/2026/11/15/couples-coexisting-without-connecting.html",
+      "summary": "Couples today are vulnerable to \"coexistence without contact,\" says psychologist Mark Travers. Here are the symptoms — and what you can do to counteract them.",
+      "published": "15 Nov 2026 20:48 WIB",
       "sentiment": "Bearish",
-      "score": -0.705,
+      "score": -0.42,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     }
   ]
 }
