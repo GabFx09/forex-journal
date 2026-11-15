@@ -1,5 +1,5 @@
 {
-  "generated": "14 Nov 2026 22:02 WIB",
+  "generated": "15 Nov 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,49 +7,43 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.494,
-      "count": 21
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.483,
-      "count": 20
+      "score": -0.317,
+      "count": 12
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.501,
-      "count": 19
+      "score": -0.306,
+      "count": 11
+    },
+    {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.281,
+      "count": 11
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.357,
-      "count": 7
+      "score": -0.284,
+      "count": 3
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.481,
-      "count": 3
+      "score": -0.775,
+      "count": 2
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.481,
-      "count": 3
+      "score": -0.775,
+      "count": 2
     },
     {
       "pair": "GBP/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.213,
-      "count": 3
-    },
-    {
-      "pair": "CAD/JPY",
       "direction": "Tekanan Naik ▲",
-      "score": 0.84,
+      "score": 0.698,
       "count": 1
     }
   ],
@@ -88,25 +82,25 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Minyak mentah melonjak seiring meningkatnya risiko eskalasi setelah Trump mengatakan AS tidak membutuhkan kesepakatan Iran",
-      "url": "https://investinglive.com/commodities/crude-oil-jumps-as-escalation-risks-increase-after-trump-says-the-us-doesn-t-need-iran-deal/",
-      "summary": "Crude oil jumped yesterday after Trump stated on Truth Social that the US does not need a deal with Iran, fuelling escalation concerns. Trump warned that the US would not hesitate to take further military action if current measures fail to achieve objectives, while CENTCOM is implementing the naval ",
-      "published": "13 Nov 2026 17:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.691,
-      "emoji": "🔴",
+      "source": "Bloomberg Markets",
+      "title": "Pengusaha di Balik Poppi Memulai Kembali",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video",
+      "summary": "Poppi founders Allison and Stephen Ellsworth tell Bloomberg This Weekend how they turned a farmers market business into a nearly $2 billion beverage brand and what they learned from the decade-long journey. Speaking with hosts David Gura and Lisa Mateo, the couple explains why they are starting over",
+      "published": "14 Nov 2026 23:13 WIB",
+      "sentiment": "Bullish",
+      "score": 0.08,
+      "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Imbal hasil riil yang lebih tinggi dan dolar AS yang lebih kuat membebani emas karena Trump membahayakan kesepakatan Iran",
-      "url": "https://investinglive.com/commodities/higher-real-yields-and-stronger-us-dollar-weigh-on-gold-as-trump-puts-iran-deal-in-jeopardy/",
-      "summary": "Gold extended the losses yesterday after Trump stated on Truth Social that the US does not need a deal with Iran and directed Vice President Vance to focus on domestic matters. The US dollar and Treasury yields jumped following his remarks, while oil prices extended the gains, fuelling inflation con",
-      "published": "13 Nov 2026 15:27 WIB",
-      "sentiment": "Bullish",
-      "score": 0.84,
-      "emoji": "🟢",
+      "source": "Bloomberg Markets",
+      "title": "Perang Penawaran Stadion Mengguncang Midwest",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
+      "summary": "The Chicago Bears are weighing three possible homes for a new stadium: downtown Chicago, suburban Arlington Heights and Hammond, Indiana. The competition has turned into a high-stakes economic development battle involving billions of dollars in potential investment, tax incentives and public financi",
+      "published": "14 Nov 2026 22:04 WIB",
+      "sentiment": "Bearish",
+      "score": -0.33,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -144,17 +138,6 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pendakian Miller ke Gedung Putih Mengguncang Para Negosiator Perdagangan Meksiko",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-14/miller-s-white-house-ascent-rattles-mexico-trade-negotiators",
-      "summary": "A new and not-so-friendly face is poised to loom over the negotiating table where the US and Mexico are still trying to hammer out a trade deal.",
-      "published": "14 Nov 2026 20:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.106,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
       "title": "Goldman Sachs Melihat Pengembalian 19% pada Saham Asia selain Jepang pada tahun 2027",
       "url": "https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027",
       "summary": "Goldman Sachs expects earnings growth to drive a 19% return for the MSCI Asia ex-Japan Index in dollar terms next year, even as it warned that uncertainty over artificial intelligence could fuel volatility.",
@@ -176,66 +159,22 @@
       "impact": "high"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Regulator Pasar Tiongkok Memperingatkan Risiko Penyesuaian Harga Aset Global",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-s-market-regulator-warns-of-global-asset-repricing-risks",
-      "summary": "Global capital markets are undergoing a new round of asset repricing and rebalancing in the face of geopolitical tensions and policy uncertainty, according to Wu Qing, chairman of the China Securities Regulatory Commission.",
-      "published": "14 Nov 2026 12:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.423,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Forex",
-      "title": "Bank Sentral Taiwan Akan Mengirimkan NT$220 Miliar ke Departemen Keuangan pada tahun 2027, Nilai Tertinggi dalam 18 Tahun; Yang Chin-long Memperingatkan Meningkatnya Kepemilikan Asing Adalah Hal yang Tidak Mungkin - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nbUVkMDdYMllhV1hqRXNrT1ZJTVo4alV0MHgwbmo0U1dnUHhPeWxsSlVIRUxwOEpvQi1BSHRRSklLOHJDRkxCdWppRnN5SGUwSnJkLXZLUUNnd1J4RGZuX052UDZxdUs1R2JCR25qbEhXWk1EcVE?oc=5",
-      "summary": "Taiwan's Central Bank to Remit NT$220 Billion to Treasury in 2027, an 18-Year High; Yang Chin-long Warns Rising Foreign Holdings Are a Wild Card BigGo Finance",
-      "published": "13 Nov 2026 16:25 WIB",
-      "sentiment": "Netral",
-      "score": 0.023,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Ekonom Mempertimbangkan Prospek Perekonomian Setelah Pemilu Paruh Waktu - Newsstalk KZRG",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU0xxSW5CcFNjYmQtUDlBdmFicU50QV9SdmtfdmMtUjk4MmY2QWhaYWhqaDNIbXBBTjk4c09BbWpnOGlOYVdxVnpuaElUS1IzUElWUWJ4N1JSWjZ5WmZyVVc0WDdIRmNKbUd2S25fckNkb1hpb0ljSDV6Y0s5YlFrZ1JWVGtwZkJrejNSVTU3VjBuRml0WFFiVUtrbGhZdGlmSE15U2NSd0h5VXoy?oc=5",
-      "summary": "Economist Weighs In on Economic Outlook Following Midterm Elections Newstalk KZRG",
-      "published": "14 Nov 2026 03:08 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
-    },
-    {
-      "source": "BBC World",
-      "title": "Apa yang kami ketahui tentang ground stop dan apa yang harus dilakukan jika Anda terkena dampaknya",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-      "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
-      "published": "14 Nov 2026 21:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.729,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "BBC World",
       "title": "AS telah membiarkan Ukraina menyerahkan Donbas untuk keanggotaan NATO, kata Zelensky",
       "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.",
-      "published": "14 Nov 2026 18:41 WIB",
-      "sentiment": "Bearish",
-      "score": -0.705,
-      "emoji": "🔴",
-      "impact": "high"
+      "summary": "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\".",
+      "published": "15 Nov 2026 05:37 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
       "source": "BBC World",
       "title": "Trump, Putin dan Xi merencanakan pertemuan bersejarah bersama di Tiongkok minggu depan, kata Gedung Putih",
       "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
       "summary": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
-      "published": "14 Nov 2026 12:52 WIB",
+      "published": "14 Nov 2026 22:53 WIB",
       "sentiment": "Bearish",
       "score": -0.44,
       "emoji": "🔴",
@@ -243,47 +182,36 @@
     },
     {
       "source": "BBC World",
-      "title": "Dampak skandal Nvidia meluas ketika Menteri Keuangan Trump menyalahkan rekan kabinetnya",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-      "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
-      "published": "14 Nov 2026 02:53 WIB",
+      "title": "Para jenderal yang ditangkap dan seorang Wakil Presiden yang diancam: Putra Presiden memicu demam suksesi Uganda",
+      "url": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss",
+      "summary": "The 52-year-old general’s provocative posts and military threats have fuelled rumours of a dynastic succession.",
+      "published": "14 Nov 2026 07:03 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.743,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC World",
-      "title": "Estonia melarang atlet Rusia karena reaksi yang semakin meningkat",
-      "url": "https://www.bbc.co.uk/sport/articles/cm4gn9lvlgy2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Estonia is the latest country to say it will not allow Russian or Belarusian athletes to compete on its territory as a result of the ongoing war in Ukraine.",
-      "published": "14 Nov 2026 00:54 WIB",
+      "title": "Bagaimana upaya peningkatan telekomunikasi memicu kekacauan penerbangan di AS",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+      "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+      "published": "15 Nov 2026 06:11 WIB",
       "sentiment": "Bearish",
-      "score": -0.757,
+      "score": -0.815,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC World",
-      "title": "Pemimpin Senat Demokrat Schumer akan menghadapi tantangan kepemimpinan",
-      "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
-      "summary": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes.",
-      "published": "14 Nov 2026 02:03 WIB",
+      "title": "Jojo si gorila menghabiskan hidupnya sendirian. Bisakah dia akhirnya menemukan pasangannya?",
+      "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Jojo was poached as an infant and grew up in captivity. His keepers want to find him a friend - but it's not straightforward.",
+      "published": "14 Nov 2026 07:03 WIB",
       "sentiment": "Bullish",
-      "score": 0.599,
+      "score": 0.11,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Mata-mata Jerman memberikan kekuatan baru untuk mengatasi 'ancaman hibrida' dari luar negeri",
-      "url": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
-      "summary": "German reforms mean foreign and domestic intelligence services will have greater powers to combat espionage, terrorism and sabotage.",
-      "published": "13 Nov 2026 22:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.823,
-      "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "BBC Top Stories",
@@ -298,157 +226,80 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Seorang pria tewas setelah ditusuk oleh sekelompok pria bertopeng",
-      "url": "https://www.bbc.co.uk/news/articles/cm4gn7pp5r85o?at_medium=RSS&at_campaign=rss",
-      "summary": "Police say a 27-year-old man died after being stabbed in the \"shocking and tragic attack\" in Crumpsall.",
-      "published": "14 Nov 2026 21:40 WIB",
+      "title": "Ribuan orang turun ke jalan di Edinburgh untuk memprotes pusat data AI",
+      "url": "https://www.bbc.co.uk/news/articles/c8n50w445zgpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Demonstrators armed with placards - and some dressed in costume - assembled at the top of the Royal Mile before marching towards the Scottish Parliament.",
+      "published": "15 Nov 2026 00:20 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ketika para pendiri teknologi hengkang, apa yang terjadi pada perusahaan mereka?",
-      "url": "https://www.aljazeera.com/economy/2026/11/14/when-tech-founders-leave-what-happens-to-their-companies?traffic_source=rss",
-      "summary": "Nvidia could lose 30 percent of its value following cofounder Jensen Huang's decision to step down, analysts warns.",
-      "published": "14 Nov 2026 21:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.306,
+      "score": -0.052,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Bagaimana Iran memandang perubahan pendekatan AS setelah JD Vance memerintahkan agar AS mundur?",
-      "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
-      "summary": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
-      "published": "14 Nov 2026 20:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.42,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Korban di Rusia ‘mencapai 450.000’: Artinya bagi perang Ukraina",
-      "url": "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss",
-      "summary": "Leaked Russian records reveal a war toll that falls hardest on older men, poorer regions and foreign recruits.",
-      "published": "14 Nov 2026 19:57 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ethiopia menyalahkan Mesir dan Eritrea atas serangan Tigray",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/ethiopia-blames-egypt-eritrea-for-tigray-attacks?traffic_source=rss",
-      "summary": "Ethiopia accuses Eritrea of leading TPLF attacks in Tigray, with Egypt providing logistical support.",
-      "published": "14 Nov 2026 19:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.882,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pertemuan trilateral Trump-Xi-Putin di APEC: Apa yang diharapkan",
-      "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect?traffic_source=rss",
-      "summary": "A nuclear treaty and the US's war on Iran are among priority topics for China, Russia and US leaders.",
-      "published": "14 Nov 2026 19:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tiga orang tewas di Rusia ketika Ukraina mengklaim AS melontarkan opsi keanggotaan NATO",
-      "url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss",
-      "summary": "Zelenskyy says the US asked for the first time whether Kyiv would cede land to Moscow in exchange for the NATO bid.",
-      "published": "14 Nov 2026 18:43 WIB",
-      "sentiment": "Bearish",
-      "score": -0.67,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Ukraina dan Rusia berlomba membangun jaringan satelit militer saat perang berkecamuk",
-      "url": "https://www.aljazeera.com/news/2026/11/14/ukraine-russia-race-to-build-military-satellite-networks-as-war-rages-on?traffic_source=rss",
-      "summary": "Kyiv seeks to break reliance on Starlink as Moscow develops its own satellite constellation for military communications.",
-      "published": "14 Nov 2026 18:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.871,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Sudan Selatan menunda pemilu nasional pertama hingga Februari",
-      "url": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february?traffic_source=rss",
-      "summary": "The vote, first expected in 2022, will now be held on February 11, according to the country's election commission.",
-      "published": "14 Nov 2026 17:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.353,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Karavan migran berangkat ke AS dari Meksiko setelah kemenangan paruh waktu Partai Demokrat",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/migrant-caravan-heads-to-us-from-mexico-after-democrats-midterm-win?traffic_source=rss",
-      "summary": "A migrant caravan of more than a thousand people is heading towards the US border from southern Mexico.",
-      "published": "14 Nov 2026 16:43 WIB",
+      "source": "BBC Top Stories",
+      "title": "Bagaimana senator baru Mississippi menang di jantung Trump - dan apa yang akan dia lakukan selanjutnya",
+      "url": "https://www.bbc.co.uk/news/videos/crpdwve24398o?at_medium=RSS&at_campaign=rss",
+      "summary": "Scott Colom tells the BBC that Democrats can build on his historic election win - and appeal to frustrated Republicans - by focusing on policies to help all Americans.",
+      "published": "15 Nov 2026 05:17 WIB",
       "sentiment": "Bullish",
-      "score": 0.506,
+      "score": 0.698,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Qatar dan Turki menandatangani pakta pertahanan bersama: Apa yang kita ketahui?",
-      "url": "https://www.aljazeera.com/news/2026/11/14/qatar-and-turkiye-sign-a-mutual-defence-pact-what-do-we-know?traffic_source=rss",
-      "summary": "Analysts say the pact, agreed amid the US-Iran war, aims to deter attacks rather than build an offensive alliance.",
-      "published": "14 Nov 2026 16:19 WIB",
+      "title": "Ledakan di dekat ibu kota Suriah menewaskan ayah dan anak",
+      "url": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
+      "summary": "Syria’s Internal Security Forces have launched an investigation into a suspected bomb attack in a suburb of Damascus.",
+      "published": "15 Nov 2026 05:43 WIB",
       "sentiment": "Bearish",
-      "score": -0.967,
+      "score": -0.912,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
-      "source": "MarketWatch",
-      "title": "Perjalanan udara AS mungkin memerlukan waktu berhari-hari untuk pulih setelah FAA mencabut penghentian penerbangan nasional yang jarang dilakukan",
-      "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
-      "summary": "Homeland Security Secretary Markwayne Mullin says “zero evidence” of cyberattack, while high jet-fuel costs mean fewer flights available to travelers seeking to rebook.",
-      "published": "14 Nov 2026 21:27 WIB",
-      "sentiment": "Netral",
-      "score": -0.028,
-      "emoji": "⚪",
+      "source": "Al Jazeera",
+      "title": "Utusan AS Kushner mengatakan ia bermaksud menjadi perantara perundingan Eropa-Rusia mengenai Ukraina",
+      "url": "https://www.aljazeera.com/news/2026/11/14/us-envoy-kushner-says-he-aims-to-broker-europe-russia-talks-on-ukraine?traffic_source=rss",
+      "summary": "Europe's direct engagement with Moscow as part of Ukraine-Russia peace talks is edging closer to becoming a reality.",
+      "published": "15 Nov 2026 04:10 WIB",
+      "sentiment": "Bullish",
+      "score": 0.758,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "AS menyarankan Ukraina menyerahkan sebagian Donbas ke Rusia untuk menjadi bagian NATO",
+      "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
+      "summary": "Zelenskyy rejected the possibility of Ukraine committing to neutrality and said he refused to cede territory to Russia.",
+      "published": "14 Nov 2026 23:53 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan udara Myanmar menewaskan 12 orang di kamp pengungsian di negara bagian Rakhine",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+      "summary": "A Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people.",
+      "published": "14 Nov 2026 23:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.84,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "MarketWatch",
-      "title": "6 saham AI yang terpukul ini bisa bangkit kembali secara besar-besaran, kata seorang analis",
-      "url": "https://www.marketwatch.com/story/these-6-battered-ai-stocks-could-bounce-back-big-an-analyst-says-e9f29c24?mod=mw_rss_topstories",
-      "summary": "The postelection panic over data centers has led to a widespread tech selloff, but some stocks are more insulated than they seem, according to Bernstein.",
-      "published": "14 Nov 2026 20:00 WIB",
-      "sentiment": "Bearish",
-      "score": -0.285,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Pasokan minyak global tiba-tiba mengalir. Mengapa kelebihan minyak mentah tidak berarti solar lebih murah.",
-      "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
-      "summary": "It’s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn’t automatically lead to lower diesel prices.",
-      "published": "14 Nov 2026 05:04 WIB",
-      "sentiment": "Bearish",
-      "score": -0.845,
-      "emoji": "🔴",
-      "impact": "high"
+      "title": "Inilah cara Bernie Sanders ingin menjaga agar Jaminan Sosial tetap pelarut 'untuk generasi'",
+      "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+      "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+      "published": "15 Nov 2026 00:50 WIB",
+      "sentiment": "Bullish",
+      "score": 0.542,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
