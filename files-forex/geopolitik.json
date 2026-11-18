@@ -1,91 +1,91 @@
 {
-  "generated": "17 Nov 2026 22:02 WIB",
+  "generated": "18 Nov 2026 07:03 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.16,
+      "count": 15
+    },
+    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.331,
-      "count": 16
+      "score": -0.16,
+      "count": 15
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.331,
-      "count": 16
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.293,
+      "score": -0.16,
       "count": 15
     },
     {
       "pair": "EUR/USD",
+      "direction": "Netral →",
+      "score": 0.024,
+      "count": 8
+    },
+    {
+      "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.249,
-      "count": 5
+      "score": -0.173,
+      "count": 3
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.173,
+      "count": 3
     },
     {
       "pair": "GBP/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.395,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.084,
       "count": 3
     },
     {
       "pair": "USD/RUB",
-      "direction": "Netral →",
-      "score": -0.029,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.229,
       "count": 2
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.768,
-      "count": 1
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.768,
-      "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Indeks harga impor AS bulan Oktober +1,1% vs perkiraan +0,7%.",
-      "url": "https://investinglive.com/news/us-october-import-price-index-1-1-vs-0-7-expected/",
-      "summary": "Prior was 1.1% Export prices 1.1% vs 0.5% expected Prior 2.2% (revised to 2.4%) Full report U.S. import and export prices both increased by 1.1% in October, with continued upward pressure on prices across international trade. Import prices matched September’s 1.1% increase, while export prices slowe",
-      "published": "17 Nov 2026 20:30 WIB",
+      "title": "Williams dari Fed: Perekonomian semakin kuat, inflasi tidak bergerak ke arah yang benar",
+      "url": "https://investinglive.com/central-banks/fed-s-williams-the-economy-is-getting-stronger-inflation-not-moving-in-the-right-direction/",
+      "summary": "New York Fed President John Williams is out with some fresh commentary, and the message is a classic mix of acknowledging the inflation headache while trying to keep the market from pricing in anything too aggressive. I don't think the situation calls for dramatic policy action Tariffs and energy sh",
+      "published": "18 Nov 2026 02:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.34,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Mengapa Warren Buffet dan Berkshire Hathaway terus kembali ke maskapai penerbangan",
+      "url": "https://investinglive.com/education/why-warren-buffet-and-berkshire-hathaway-keep-going-back-to-airlines/",
+      "summary": "Berkshire Hathaway is buying more Delta Air Lines and I think there's a fascinating story behind why Warren Buffett and his successors keep getting drawn back into the airline business. Berkshire's latest 13F filing, released late Monday, showed it increased its stake in Delta by 7.13 million shares",
+      "published": "18 Nov 2026 01:41 WIB",
       "sentiment": "Bullish",
-      "score": 0.586,
+      "score": 0.798,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Minyak mentah menghapus kenaikan baru-baru ini meskipun tidak ada perubahan dalam situasi AS-Iran. Apa selanjutnya?",
-      "url": "https://investinglive.com/commodities/crude-oil-erases-recent-gains-despite-no-change-in-the-us-iran-situation-what-s-next/",
-      "summary": "Crude oil erased all the recent gains yesterday despite no change in the US-Iran situation. There is a scenario where oil prices could fall without a change in the US-Iran situation, but we would need strong growth fears to make the market to shift the focus to demand destruction. On the news side, ",
-      "published": "17 Nov 2026 18:36 WIB",
+      "title": "Peralihan ke masalah keamanan dari berlanjutnya isu siber menyebabkan harga saham melemah, imbal hasil (yield) lebih rendah, emas lebih tinggi, JPY dan CHF naik",
+      "url": "https://investinglive.com/technical-analysis/flight-to-safety-concerns-from-continued-cyber-issues-send-stocks-lower-yields-lower-gold-higher-jpy-and-chf-up/",
+      "summary": "Reports that the National Security Agency’s internal communications network is down have added uncertainty to trading. Reuters, citing CNN, reports that the scope is being investigated, with no immediate evidence of a cyberattack. reuters.com There are also reports circulating about possible Gmail a",
+      "published": "17 Nov 2026 23:15 WIB",
       "sentiment": "Bearish",
-      "score": -0.768,
+      "score": -0.52,
       "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Opsi FX kedaluwarsa pada 17 November 10 pagi pemotongan New York",
-      "url": "https://investinglive.com/orders/fx-option-expiries-for-17-november-10am-new-york-cut/",
-      "summary": "EUR/USD 1.1080 (EUR 1.93 bn) USD/JPY 160.00 (US$ 1.06 bn) 157.50 (US$ 1.81 bn) GBP/USD 1.3170 (GBP 1.59 bn) 1.3015 (GBP 1.28 bn) USD/CHF 0.8200 (US$ 761.58 mn) USD/CAD 1.4150 (US$ 330.00 mn) AUD/USD 0.6800 (AUD 593.00 mn) NZD/USD 0.5400 (NZD 1.62 bn) EUR/GBP 0.8475 (EUR 407.07 mn) 0.8400 (EUR 300.00",
-      "published": "17 Nov 2026 15:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "FXStreet",
@@ -99,35 +99,13 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet",
-      "title": "Emas: Tren Menurun Meluas Menuju Proyeksi Lebih Rendah – Societe Generale - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTl94eUh5TmgtelpOeG4zVkZleHVRU2lHREJZS2xGQXpkTXphYkd4RzR6RGZVdTI2ZDZBZUktM0RHdXY4akFSNWljYXdaMjZab0FBNi1XVWYtS3lETEFnUnl3SzgzcFRyNzZQTXQ0TkZ1WnNxb1puRmw3c3ZzYkxLZ2tMRW5Tc2xTaFRwbDE1QngxeDd0cG5kcmFOeDBPSUdSODFwbmtXR0wzLWZL?oc=5",
-      "summary": "Gold: Downtrend extends towards lower projections – Societe Generale FXStreet",
-      "published": "16 Nov 2026 17:09 WIB",
+      "source": "Google News Forex",
+      "title": "Defisit Perdagangan, Lemahnya Produksi dan Ketegangan Fiskal Mendorong Pound Suriah Lebih Rendah - The Syria Observer",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa1hWZ055NUstc3RsNldBSXFDQ0JnTUNkUkNpYmZmV05WQmNxY1phbDJLVG1xNi01Mkp3MUVYNGxaUEFYUVN5bjQ1Q2dRaGNVMk9oVHRpVzc0Z2xxaG5oNnhuSnh2QnZBZTd3NExZaDV0RWlsYVdJNEMzR19kdnNjR0ZOb1doeHlVMU5jcVpyT3I2a0p1SkRZY1hid0NVVmVKdEROUDV5VzhzQ3p1S0xiMnVTbE8?oc=5",
+      "summary": "Trade Deficits, Weak Production and Fiscal Strains Drive Syrian Pound Lower The Syrian Observer",
+      "published": "17 Nov 2026 04:19 WIB",
       "sentiment": "Bearish",
-      "score": -0.42,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Dolar AS: Momentum kenaikan berlanjut karena penetapan harga Fed – MUFG - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYjdBY0dnZ2Jib09WQ2lhZkhIX1lKOFVOODZHUlJHZXJXR1lKVU9NU283bjRSNnFWNFg2bXFKYl9HVk5Wem1nNndjWU5mTy1EeU9jY1UxSm9YWWRpSXg3QVJZbDJXX2ZmVHpscUFOVkhOc3pDTzZ1VFByWjVUM3ZvU3FjaGI5dFhSTm5Fc3F3RThUNmw0NUFEZHFyYWMxWHc?oc=5",
-      "summary": "US Dollar: Upward momentum extends on Fed repricing – MUFG FXStreet",
-      "published": "16 Nov 2026 18:41 WIB",
-      "sentiment": "Netral",
-      "score": 0.048,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Ekspor Minyak Rusia Mencapai Tertinggi Sejak Juli seiring Drone Menghantam Kilang",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-17/russia-s-oil-exports-hit-their-highest-since-july-as-drones-hit-refineries",
-      "summary": "A surge in Ukrainian attacks on oil-processing plants forced producers to divert crude to exports",
-      "published": "17 Nov 2026 20:47 WIB",
-      "sentiment": "Bearish",
-      "score": -0.863,
+      "score": -0.823,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -144,10 +122,10 @@
     },
     {
       "source": "BBC World",
-      "title": "Jembatan Putin di Krimea sebagian runtuh ketika Zelensky memuji serangan yang 'belum pernah terjadi sebelumnya' oleh Ukraina",
+      "title": "Jembatan Krimea milik Putin sebagian runtuh ketika Zelensky memuji serangan yang 'belum pernah terjadi sebelumnya' oleh Ukraina",
       "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
       "summary": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
-      "published": "17 Nov 2026 20:01 WIB",
+      "published": "18 Nov 2026 04:24 WIB",
       "sentiment": "Bearish",
       "score": -0.957,
       "emoji": "🔴",
@@ -155,12 +133,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Ukraina menuduh Rusia menargetkan operasi penyelamatan setelah serangan 'ketuk dua kali' menewaskan 72 orang",
-      "url": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Efforts to recover bodies after a “double-tap” attack in southern Ukraine are being hampered by continuing Russian strikes, officials say.",
-      "published": "17 Nov 2026 12:59 WIB",
+      "title": "Bagaimana serangan terhadap Jembatan Krimea terjadi",
+      "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+      "summary": "One of the key symbols of Russia's occupation of Ukraine has suffered major damage after a seven-stage attack by Kyiv.",
+      "published": "17 Nov 2026 22:38 WIB",
       "sentiment": "Bearish",
-      "score": -0.907,
+      "score": -0.997,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -169,7 +147,7 @@
       "title": "Wanita Palestina, 72 tahun, ditembak mati oleh pemukim Israel di Tepi Barat, kata kementerian kesehatan",
       "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
       "summary": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
-      "published": "17 Nov 2026 20:02 WIB",
+      "published": "18 Nov 2026 03:30 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -177,43 +155,65 @@
     },
     {
       "source": "BBC World",
-      "title": "Jepang mengirimkan jet setelah dugaan pelanggaran Rusia terhadap wilayah udaranya",
-      "url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
-      "summary": "Taiwan and South Korea also responded to Russian military aircraft detected near their airspaces.",
-      "published": "17 Nov 2026 14:44 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "title": "Tentara Amerika ditangkap oleh polisi Inggris karena dicurigai melakukan mata-mata dan ditahan militer AS",
+      "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations.",
+      "published": "18 Nov 2026 05:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.637,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "BBC World",
-      "title": "Pemimpin oposisi Mozambik menghadapi persidangan atas kerusuhan mematikan pada pemilu 2024",
-      "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss",
-      "summary": "Venâncio Mondlane faces several charges over 2024 post-election protests that left hundreds of people dead.",
-      "published": "17 Nov 2026 19:35 WIB",
-      "sentiment": "Bearish",
-      "score": -0.807,
-      "emoji": "🔴",
-      "impact": "medium"
+      "title": "William dan Kate merayakan pemenang Earthshot Prize di Mumbai",
+      "url": "https://www.bbc.co.uk/news/articles/cqlykve012d1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Prince and Princess of Wales were joined by sporting and acting stars for the annual environmental awards ceremony.",
+      "published": "18 Nov 2026 01:20 WIB",
+      "sentiment": "Bullish",
+      "score": 0.84,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "BBC World",
-      "title": "Trump mengatakan para pemilih di Alaska salah memilih Dan Sullivan. Apa yang ditunjukkan oleh data tersebut?",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Votes are still being counted in the Alaska Senate race, with Democrat Mary Peltola ahead of Republican incumbent Senator Dan S Sullivan.",
-      "published": "17 Nov 2026 09:38 WIB",
+      "title": "Trump mengatakan AS menganggap 'sangat serius' setiap rencana Iran melawan Washington",
+      "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Tehran rejects any suggestion it was plotting a so-called dirty bomb attack on the US capital as \"baseless\".",
+      "published": "18 Nov 2026 00:37 WIB",
       "sentiment": "Bearish",
-      "score": -0.477,
+      "score": -0.924,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "BBC World",
+      "title": "Inggris memberikan sanksi kepada perusahaan atas pemukiman Israel di Tepi Barat",
+      "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+      "summary": "It marks the first sanctions since the UK announced a tougher approach to Israeli actions in the territory.",
+      "published": "18 Nov 2026 01:27 WIB",
+      "sentiment": "Bullish",
+      "score": 0.098,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "BBC Business",
-      "title": "Pelanggan melaporkan pemadaman layanan di bank-bank besar AS",
+      "title": "Pemerintah mendukung perombakan kesejahteraan untuk mencegah 'generasi yang hilang'",
+      "url": "https://www.bbc.co.uk/news/articles/ck79210y125xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ex-minister Alan Milburn has set out plans to divert spending from benefits towards job support.",
+      "published": "18 Nov 2026 01:43 WIB",
+      "sentiment": "Bullish",
+      "score": 0.36,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Layanan bank AS kembali normal setelah pemadaman besar-besaran",
       "url": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
       "summary": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
-      "published": "17 Nov 2026 07:18 WIB",
+      "published": "17 Nov 2026 22:04 WIB",
       "sentiment": "Bearish",
       "score": -0.08,
       "emoji": "🔴",
@@ -232,80 +232,146 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Saksikan: Tingkah laku detektif Predatory Met semakin ekstrem",
-      "url": "https://www.bbc.co.uk/news/videos/cqlymxe49g30o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Metropolitan Police repeatedly missed opportunities to stop det insp Warren Arter, BBC Panorama has found.",
-      "published": "17 Nov 2026 14:10 WIB",
+      "title": "Bagaimana serangan terhadap Jembatan Krimea yang berharga milik Putin terjadi",
+      "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+      "summary": "One of the key symbols of Russia's occupation of Ukraine has suffered major damage after a seven-stage attack by Kyiv.",
+      "published": "17 Nov 2026 22:38 WIB",
       "sentiment": "Bearish",
-      "score": -0.442,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Inggris memberikan sanksi kepada perusahaan atas pemukiman Israel di Tepi Barat",
-      "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-      "summary": "It marks the first sanctions since the UK announced a tougher approach to Israeli actions in the territory.",
-      "published": "17 Nov 2026 20:10 WIB",
-      "sentiment": "Bullish",
-      "score": 0.098,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kota Hantu Afghanistan: Kerugian Lingkungan akibat Perang Puluhan Tahun",
-      "url": "https://www.aljazeera.com/video/witness/2026/11/17/ghost-towns-of-afghanistan-the-environmental-toll-of-decades-of-war?traffic_source=rss",
-      "summary": "A father confronts the aftermath of environmental damage from years of war in Afghanistan.",
-      "published": "17 Nov 2026 21:30 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Inggris memberikan sanksi kepada delapan perusahaan konstruksi Israel atas permukiman di Tepi Barat",
-      "url": "https://www.aljazeera.com/news/2026/11/17/uk-sanctions-8-israeli-firms-over-occupied-west-bank-settlements-gaza-aid?traffic_source=rss",
-      "summary": "Settler group also sanctioned for blocking Gaza aid as foreign secretary calls for 'protecting the two-state solution'.",
-      "published": "17 Nov 2026 21:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.157,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Brasil mengalahkan Singapura 7-0 saat Vinicius mencetak hat-trick di babak pertama",
-      "url": "https://www.aljazeera.com/sports/2026/11/17/brazil-defeat-singapore-7-0-as-vinicius-scores-first-half-hat-trick?traffic_source=rss",
-      "summary": "Brazil's star forward scored a 12-minute hat-trick in the record world champions' thumping of the hosts in a friendly.",
-      "published": "17 Nov 2026 19:54 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah perang AS-Israel terhadap Iran berubah menjadi ‘konflik beku’?",
-      "url": "https://www.aljazeera.com/news/2026/11/17/is-the-us-israel-war-on-iran-turning-into-a-frozen-conflict?traffic_source=rss",
-      "summary": "Trump says Washington doesn't need a deal with Tehran, while Iran rejects 'no war, no peace'. Is the war at an impasse?",
-      "published": "17 Nov 2026 19:33 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pemimpin oposisi Mozambik diadili atas protes mematikan tahun 2024",
-      "url": "https://www.aljazeera.com/news/2026/11/17/mozambiques-opposition-leader-stands-trial-over-deadly-2024-protests?traffic_source=rss",
-      "summary": "Venancio Mondlane faces five charges, the most serious being instigating 'terrorism'.",
-      "published": "17 Nov 2026 19:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.848,
+      "score": -0.939,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Warga Haiti melakukan protes untuk mendukung pengerahan pasukan anti-geng di El Salvador",
+      "url": "https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment?traffic_source=rss",
+      "summary": "El Salvador's security minister has confirmed the troops will leave once kidnapped technicians are rescued.",
+      "published": "18 Nov 2026 06:09 WIB",
+      "sentiment": "Bullish",
+      "score": 0.691,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Inggris menyerahkan tentara AS yang ditugaskan NATO yang dituduh Rusia memata-matai militer AS",
+      "url": "https://www.aljazeera.com/news/2026/11/17/uk-hands-nato-assigned-us-soldier-accused-of-russia-spying-to-us-military?traffic_source=rss",
+      "summary": "UK authorities have passed the investigation to the US 'in line with existing international protocols'.",
+      "published": "18 Nov 2026 04:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.296,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Inggris memberikan sanksi kepada perusahaan pemukiman Israel untuk melindungi solusi dua negara",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_uk-sanctions-eight-israeli-settlement-firms-171126?traffic_source=rss",
+      "summary": "The UK has imposed new sanctions on eight Israeli companies supporting illegal settlements in the occupied West Bank.",
+      "published": "18 Nov 2026 04:28 WIB",
+      "sentiment": "Bullish",
+      "score": 0.36,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Saat pesawat militer Rusia jatuh di Siberia, menewaskan 19 orang",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19?traffic_source=rss",
+      "summary": "Footage captures the moment a Russian military transport aircraft crashes in the Kemerovo region",
+      "published": "18 Nov 2026 04:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.66,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pelapor: Serangan drone yang mematikan di Kuwait sebenarnya bisa dihindari",
+      "url": "https://www.aljazeera.com/news/2026/11/17/whistleblower-deadly-drone-strike-in-kuwait-couldve-been-avoided?traffic_source=rss",
+      "summary": "Whistleblower accuses military of dismissing advanced security warnings of drone strike that killed six US soldiers.",
+      "published": "18 Nov 2026 04:14 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Panglima Angkatan Laut AS mengatakan perang Iran telah memberikan 'beban' pada kekuatan maritim",
+      "url": "https://www.aljazeera.com/news/2026/11/17/us-navy-chief-says-iran-war-has-put-strain-on-maritime-forces?traffic_source=rss",
+      "summary": "Lawmakers hound Hung Cao over expanding war, opaque leadership shake-ups, and low crew morale at confirmation hearing.",
+      "published": "18 Nov 2026 03:57 WIB",
+      "sentiment": "Bearish",
+      "score": -0.952,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Apa yang melatarbelakangi kemunduran ANC di Afrika Selatan?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/11/17/whats-behind-the-ancs-decline-in-south-africa?traffic_source=rss",
+      "summary": "African National Congress won its lowest-ever vote share in local elections this month.",
+      "published": "18 Nov 2026 03:47 WIB",
+      "sentiment": "Bullish",
+      "score": 0.63,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Tiongkok dan Kanada memperluas keringanan tarif setelah pertemuan Carney-Xi",
+      "url": "https://www.aljazeera.com/economy/2026/11/17/china-canada-expand-tariff-relief-after-carney-xi-meeting?traffic_source=rss",
+      "summary": "China offers tariff cuts on Canadian pork and seafood, as Canada extends exemptions for Chinese steel and aluminium.",
+      "published": "18 Nov 2026 03:11 WIB",
+      "sentiment": "Bearish",
+      "score": -0.178,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Korban perdagangan manusia di Uganda menggunakan musik untuk melawan pelecehan",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/ugandan-human-trafficking-survivor-uses-music-to-fight-abuse?traffic_source=rss",
+      "summary": "After surviving trafficking in Myanmar, Ugandan singer Gideon Mwesezi, known as ‘Small Q’, is using music to warn others",
+      "published": "18 Nov 2026 02:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.622,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Perusahaan mendapat pengembalian tarif miliaran dolar. Konsumen tinggal membayar tagihannya.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/companies-get-billions-in-tariff-refunds-consumers-are-left-with-the-bill?traffic_source=rss",
+      "summary": "Companies get billions in tariff refunds. Consumers are left with the bill.",
+      "published": "18 Nov 2026 02:31 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Costco mendapat manfaat dari 'kekhawatiran apokaliptik' karena pelanggan menimbun barang, kata para analis",
+      "url": "https://www.marketwatch.com/story/costco-is-benefiting-from-apocalyptic-concerns-as-customers-stock-up-on-goods-analysts-say-24f611ab?mod=mw_rss_topstories",
+      "summary": "Mizuho analysts have seen an “acceleration on emergency prep sales” at the warehouse chain following the Microsoft outage and nationwide flight stoppage.",
+      "published": "18 Nov 2026 05:46 WIB",
+      "sentiment": "Bearish",
+      "score": -0.462,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Mengapa saham Salesforce memimpin penurunan S&P 500 di tengah kegelisahan teknologi",
+      "url": "https://www.marketwatch.com/story/why-salesforces-stock-is-leading-s-p-500-decliners-amid-tech-jitters-17510caf?mod=mw_rss_topstories",
+      "summary": "A series of technology outages has investors concerned that software companies could prove “particularly vulnerable” to AI misuse, an analyst says.",
+      "published": "18 Nov 2026 04:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.16,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC Economy",
@@ -331,6 +397,17 @@
     },
     {
       "source": "CNBC World",
+      "title": "Trump mengenai rencana bom kotor DC yang dilaporkan Iran: 'Kami menanggapinya dengan sangat serius'",
+      "url": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html",
+      "summary": "\"This is why they can't have a nuclear weapon,\" Trump added, reiterating his main rationale for launching the Iran war.",
+      "published": "18 Nov 2026 00:49 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
       "title": "Perusahaan AI milik Demis Hassabis mengumpulkan $5 miliar, beberapa bulan setelah dia mengundurkan diri sebagai CEO Google DeepMind",
       "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html",
       "summary": "Isomorphic Labs is looking to develop new medicines using AI.",
@@ -339,17 +416,6 @@
       "score": 0.0,
       "emoji": "⚪",
       "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Ukraina merusak jembatan Krimea yang berharga milik Putin saat Zelenskyy memuji ‘operasi yang belum pernah terjadi sebelumnya’",
-      "url": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html",
-      "summary": "Ukraine attacked the Kerch Bridge linking Russia to occupied Crimea for a second consecutive day, delivering a symbolic blow to President Vladimir Putin.",
-      "published": "17 Nov 2026 19:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.441,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "CNBC World",
@@ -364,43 +430,21 @@
     },
     {
       "source": "CNBC World",
-      "title": "Iran meningkatkan ancaman ketika kapal induk AS ketiga tiba di Timur Tengah, dan kapal tankernya diserang di Hormuz",
-      "url": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
-      "summary": "Iran has ratcheted up threats against U.S. forces as a third American aircraft carrier arrived in the Gulf, stoking fears of a resumption of military tensions.",
-      "published": "17 Nov 2026 18:22 WIB",
+      "title": "Ukraina merusak jembatan Krimea milik Putin saat Zelensky memuji ‘operasi yang belum pernah terjadi sebelumnya’",
+      "url": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html",
+      "summary": "Ukraine attacked the Kerch Bridge linking Russia to occupied Crimea for a second consecutive day, delivering a symbolic blow to President Vladimir Putin.",
+      "published": "17 Nov 2026 19:48 WIB",
       "sentiment": "Bearish",
-      "score": -0.902,
+      "score": -0.441,
       "emoji": "🔴",
       "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "‘Berdiri dengan satu kaki’: Ketua IMF memperingatkan perekonomian global ketika pembiayaan sirkular AI mencapai $1 triliun",
-      "url": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html",
-      "summary": "Kristalina Georgieva says circular financing among AI companies has grown to just over $1 trillion, two-thirds of it debt, as investor enthusiasm cools",
-      "published": "16 Nov 2026 16:14 WIB",
-      "sentiment": "Bullish",
-      "score": 0.103,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Tiongkok konfirmasi pertemuan bersejarah Xi-Trump-Putin. Apa agendanya?",
-      "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
-      "summary": "The talks are expected to focus on issues including nuclear non-proliferation, the Middle East war, trade policies and, possibly, the Ukraine war.",
-      "published": "16 Nov 2026 15:38 WIB",
-      "sentiment": "Bearish",
-      "score": -0.912,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "CNBC Markets",
       "title": "Analisis: Ketua The Fed memperkirakan akan terjadi revolusi AI. Sekarang dia harus mencari tahu apa maksudnya",
       "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
       "summary": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
-      "published": "17 Nov 2026 07:42 WIB",
+      "published": "17 Nov 2026 22:35 WIB",
       "sentiment": "Bullish",
       "score": 0.281,
       "emoji": "🟢",
