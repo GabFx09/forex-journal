@@ -1,232 +1,93 @@
 {
-  "generated": "22 Nov 2026 07:02 WIB",
+  "generated": "22 Nov 2026 22:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
+      "pair": "USD/CHF",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.466,
+      "count": 6
+    },
+    {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.155,
-      "count": 17
+      "score": -0.466,
+      "count": 6
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.118,
-      "count": 16
-    },
-    {
-      "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.069,
-      "count": 12
-    },
-    {
-      "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.156,
+      "score": -0.466,
       "count": 6
     },
     {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.35,
-      "count": 3
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.35,
-      "count": 3
+      "pair": "EUR/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.262,
+      "count": 2
     },
     {
       "pair": "USD/RUB",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.122,
-      "count": 1
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.735,
-      "count": 1
+      "direction": "Tekanan Turun ▼",
+      "score": -0.262,
+      "count": 2
     }
   ],
   "items": [
     {
-      "source": "ForexLive",
-      "title": "investBerita Live Americas FX penutup 20 November: Saham terpukul karena Nasdaq anjlok 5,28%",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-20-nov-stocks-get-hammered-as-nasdaq-plunges-5-28/",
-      "summary": "Nasdaq 100 posts worst week since March 2020 Trump weighs renewed strikes on Iran as military warns of strain. FT Nvidia falls after SEC probe on potential accounting issues European stocks end a bruising week. German DAX falls 7.29%. Trump: Secured two new trade deals. 10 others coming very soon. F",
-      "published": "21 Nov 2026 05:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.75,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Trump mempertimbangkan serangan baru terhadap Iran ketika militer memperingatkan adanya ketegangan. FT",
-      "url": "https://investinglive.com/news/trump-weighs-renewed-strikes-on-iran-as-military-warns-of-strain-ft/",
-      "summary": "President Donald Trump is considering new strikes on Iran, the Financial Times reports, as hawkish officials in Washington and Israel urge him to resume military action. U.S. military planners are warning that American forces risk becoming overextended if the standoff drags into the new year. The wa",
-      "published": "21 Nov 2026 03:42 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Trump: Mendapatkan dua perjanjian perdagangan baru. 10 lainnya segera hadir.",
-      "url": "https://investinglive.com/news/trump-secured-two-new-trade-deals-10-others-coming-very-soon/",
-      "summary": "Secured two new trade deals. 10 others coming very soon. Interest rates are too high because we have political Fed. The Fed should be cutting rates We should have a low as interest rates in the world. Says that he is not blaming the Fed chair Will not allow companies to build data centaer outside US",
-      "published": "21 Nov 2026 00:33 WIB",
-      "sentiment": "Bullish",
-      "score": 0.959,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Bessent mengatakan Trump dan Xi melihat diskusi yang kuat mengenai kebijakan perdagangan dan AI",
-      "url": "https://investinglive.com/news/bessent-says-trump-and-xi-saw-robust-discussion-on-trade-policy-ai/",
-      "summary": "U.S. Treasury Secretary Bessent speaking on CNBC about Trump’s China trip, military AI and U.S. chip restrictions. Trump’s China trip saw robust discussion on trade policy, AI. Trump and Xi agreed that humans should be involved in any military decisions AI makes. Both sides agree no major military o",
-      "published": "20 Nov 2026 22:33 WIB",
-      "sentiment": "Bullish",
-      "score": 0.727,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Greer mengatakan perpanjangan gencatan senjata perdagangan AS-Tiongkok bergantung pada logam tanah jarang (rare earth).",
-      "url": "https://investinglive.com/news/greer-says-us-china-trade-truce-extension-hinges-on-rare-earths/",
-      "summary": "US Trade Representative Greer spoke on Bloomberg TV about the Trump-Xi meeting and the outlook for US-China trade. Section 301 investigations are expected before year-end. China brought up Taiwan at the talks. Any US-China trade truce extension hinges on rare earths. Trump is eager to have China buy",
-      "published": "20 Nov 2026 21:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.281,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Apakah saham ANT itu beli atau jual?",
-      "url": "https://investinglive.com/stocks/is-ant-stock-a-buy-or-sell/",
-      "summary": "Anthropic stock is sliding toward $83. Could Wall Street have a reason to defend its IPO price? Anthropic shares have surrendered much of their spectacular IPO debut as the AI sector comes under pressure. A closer examination of the company's financing history, SEC disclosures and overnight trading ",
-      "published": "20 Nov 2026 19:45 WIB",
-      "sentiment": "Bullish",
-      "score": 0.626,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "Investing.com Forex",
-      "title": "Intesa Sanpaolo meluncurkan penawaran tunai dan saham senilai €34,5 miliar untuk Monte dei Paschi",
-      "url": "https://www.investing.com/news/stock-market-news/intesa-sanpaolo-launches-345bn-cashandshare-offer-for-monte-dei-paschi-5043303",
+      "title": "Apakah perekonomian akan terus mengalahkan geopolitik?",
+      "url": "https://www.investing.com/news/stock-market-news/will-economics-continue-to-outweigh-geopolitics-5043785",
       "summary": "",
-      "published": "21 Nov 2026 15:56 WIB",
+      "published": "22 Nov 2026 13:57 WIB",
       "sentiment": "Netral",
       "score": 0.0,
       "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Reuters Currencies",
-      "title": "Departemen Keuangan AS menekan Singapura dan Malaysia mengenai kepatuhan sanksi Iran - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcWpsS2J4X3N5clFTNVhVa3BacUsxZUNmaXAwaHBjRlNVRXZ4XzhlTjBXLThJVlVPN2tMY1hPRmNRR3JWdVFOdi16QmdxYnVDX2lpSlNlZHRiYkh0T2I3VkNiVXNUek9uZWZRbmJHdlM2Skhsbm0xRVhua2N2Y2dDX1VMa1lJNUs4WmZtLWVJQWdfeXg3cVFBTHJ1cmxoQXViTDA0cG9TNmQ1TFhkMkRkc3Vwd2ZtSGtuTjc4?oc=5",
-      "summary": "US Treasury presses Singapore and Malaysia on Iran sanctions compliance Reuters",
-      "published": "20 Nov 2026 21:27 WIB",
-      "sentiment": "Bullish",
-      "score": 0.122,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Perang 1982 Masih Menghantui Timur Tengah",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-21/the-1982-war-still-haunts-the-middle-east-video",
-      "summary": "Journalist and author Kim Ghattas tells Bloomberg This Weekend how the violence that engulfed Lebanon in 1982 helped set the US, Israel, Iran and the wider Middle East on a trajectory that continues to shape conflicts in the region today. Speaking with hosts David Gura and Christina Ruffini about he",
-      "published": "21 Nov 2026 22:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.973,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Apakah AI itu Gelembung? Sejarah Menawarkan Beberapa Petunjuk",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-21/is-ai-a-bubble-history-offers-some-clues-video",
-      "summary": "Bloomberg Opinion columnist Justin Fox tells Bloomberg This Weekend that history offers warning signs for financial bubbles, but little reliable guidance about exactly when they will burst, making debt and investor sentiment important risks to watch amid the AI boom. Speaking with hosts David Gura a",
-      "published": "21 Nov 2026 22:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.82,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Penjangkauan Trump terhadap Putin Menguji Pembicaraan Ukraina",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-21/trump-s-putin-outreach-tests-ukraine-talks-video",
-      "summary": "Bloomberg White House and National Security Editor Michelle Jamrisko tells Bloomberg This Weekend that President Donald Trump’s summit with Vladimir Putin and Xi Jinping reinforced his approach to diplomacy but left major questions unresolved over Ukraine and potential US security guarantees. Speaki",
-      "published": "21 Nov 2026 20:56 WIB",
-      "sentiment": "Bullish",
-      "score": 0.271,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Putin Mendapatkan Keuntungan dari Trump dan Sorotan KTT Xi",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-21/putin-gains-from-trump-xi-summit-spotlight-video",
-      "summary": "Bloomberg News White House Correspondent Jeff Mason tells Bloomberg This Weekend that Vladimir Putin emerged as a key beneficiary of his historic meeting with President Donald Trump and Xi Jinping, returning to the global stage alongside the US and Chinese leaders despite Russia’s continuing war in ",
-      "published": "21 Nov 2026 20:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.825,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Hubungan Trump dengan Putin Menarik Fokus Setelah KTT",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-21/trump-s-putin-ties-draw-focus-after-summit-video",
-      "summary": "Bloomberg Economics Analyst Alex Kokcharov tells Bloomberg This Weekend that President Donald Trump’s historic meeting with Vladimir Putin and Xi Jinping produced limited concrete results despite a joint declaration on energy, nuclear risks and other global issues. Speaking with hosts David Gura and",
-      "published": "21 Nov 2026 20:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.306,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Wall Street Bertanya Apa yang Dapat Menyelamatkan Perdagangan AI Setelah Pemusnahan Antropis",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-21/wall-street-asks-what-can-save-ai-trade-after-anthropic-wipeout",
-      "summary": "It’s been a tough month for the stock market, rocked by back-to-back punches from the stunning ouster of Jensen Huang from Nvidia Corp. and the Democrats’ decisive victory in the midterm elections.",
-      "published": "21 Nov 2026 20:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.735,
-      "emoji": "🟢",
       "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Militer Tiongkok Larang SF Express Atas Pelanggaran Pengadaan",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-21/china-military-bans-sf-express-from-procurement-over-misconduct",
-      "summary": "SF Express Co., a Chinese delivery and logistics company, has been suspended from participating in military-wide procurement of goods, engineering and services over alleged violations.",
-      "published": "21 Nov 2026 12:00 WIB",
+      "title": "Kunjungan Trump ke Asia masih menyisakan permasalahan utama yang belum terselesaikan",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-22/trump-s-asia-trip-leaves-key-issues-unresolved-video",
+      "summary": "ABC News State Department reporter Shannon Kingston tells Bloomberg This Weekend that Russia’s increasingly provocative actions near NATO countries are complicating President Donald Trump’s push for a negotiated end to the war in Ukraine, while Moscow remains publicly defiant. Speaking with hosts Da",
+      "published": "22 Nov 2026 19:39 WIB",
       "sentiment": "Bearish",
-      "score": -0.758,
+      "score": -0.944,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Banyak yang Aneh: Bagaimana AI Mengubah Kebijakan Industri Tiongkok (Podcast)",
-      "url": "https://www.bloomberg.com/news/audio/2026-11-21/odd-lots-how-ai-reshaped-chinese-industrial-policy-podcast",
-      "summary": "Can Chinese tech companies help the country achieve technological self-reliance while keeping up in the AI arms race? On this episode, we speak with Kyle Chan, a fellow at the Brookings Institution’s John L. Thornton China Center and author of the High Capacity newsletter, about Beijing’s response t",
-      "published": "21 Nov 2026 16:00 WIB",
+      "title": "Keunggulan Kekuatan AS Atas Tiongkok Semakin Menyusut Akibat Perang Iran",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/us-power-advantage-over-china-shrinks-further-on-iran-war-effect",
+      "summary": "The advantage the US has over China in influencing the course of international events has shrunk to the smallest level since 2018, with the Iran war and unilateralism undermining its military and diplomatic strength, according to a new report.",
+      "published": "22 Nov 2026 18:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.398,
+      "score": -0.705,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Google News Geopolitik",
+      "title": "Tron diperdagangkan lebih tinggi sementara sanksi AS terhadap blockchain meningkatkan pengawasan kepatuhan untuk bursa - Serikat Pedagang",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQkUzdDNoUjJyR2k4YUFwTWt4ODRyR01XcGFPX0pVZHFjQlp3b05tR3Q5eXZHUkVRUjRJbjdTNGhreGJFWlZJeEw3aVVOaWE5YnVmelpNbFFVX1M2LWFxSUFoVzhDU3pSeVhaMjNnRDdPNFM4c3NMaF9UUDM0d19nSGNEelJzdjV2M2lMTi1mWldKNWlrR3ROUEN3?oc=5",
+      "summary": "Tron trades higher while US sanctions on blockchain addresses increase compliance scrutiny for exchanges Traders Union",
+      "published": "22 Nov 2026 03:35 WIB",
+      "sentiment": "Bullish",
+      "score": 0.477,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Kapal tujuan Rusia masih terbakar setelah serangan di Teluk Finlandia",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+      "published": "22 Nov 2026 18:25 WIB",
+      "sentiment": "Bearish",
+      "score": -0.882,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -243,17 +104,6 @@
     },
     {
       "source": "BBC World",
-      "title": "Kapal tujuan Rusia diserang di Teluk Finlandia",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
-      "published": "22 Nov 2026 02:20 WIB",
-      "sentiment": "Bearish",
-      "score": -0.771,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
       "title": "Pohon Natal Trafalgar Square ditebang di Norwegia",
       "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
       "summary": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
@@ -264,110 +114,22 @@
       "impact": "high"
     },
     {
-      "source": "BBC Business",
-      "title": "Faisal Islam: Kesepakatan pemotongan biaya antara Inggris dan UE ini tidak berarti akan terjadi penurunan harga",
-      "url": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss",
-      "summary": "The trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.",
-      "published": "20 Nov 2026 23:41 WIB",
-      "sentiment": "Bullish",
-      "score": 0.841,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
       "source": "BBC Top Stories",
-      "title": "Zelensky mengatakan Jembatan Krimea memberikan 'respon yang adil' saat dia bertemu Wes Streeting",
-      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
-      "published": "21 Nov 2026 20:17 WIB",
-      "sentiment": "Bearish",
-      "score": -0.557,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Pria Inggris berenang melalui Selat Hormuz untuk menyoroti dampak perang terhadap lingkungan",
-      "url": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ocean campaigner Lewis Pugh completes Hormuz challenge and warns of lasting environmental damage.",
-      "published": "21 Nov 2026 23:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.78,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran menghadapi 'perang ekonomi diam-diam', kata presiden Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/iran-faces-a-silent-economic-war-says-iranian-president?traffic_source=rss",
-      "summary": "Iran faces a ‘silent economic war’, says Iranian president",
-      "published": "22 Nov 2026 06:18 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Bahrain mengatakan serangan Iran menghantam fasilitas industri",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
-      "summary": "Bahrain says Iranian attack hits industrial facility",
-      "published": "22 Nov 2026 05:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.815,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Bahrain mengatakan serangan Iran menyebabkan kebakaran di fasilitas industri",
-      "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss",
-      "summary": "Bahrain reports no injuries, as Iran's IRGC says it targeted US military positions at two bases in al-Riffa and Awali.",
-      "published": "22 Nov 2026 04:31 WIB",
-      "sentiment": "Bearish",
-      "score": -0.852,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Jair Bolsonaro dari Brasil dalam perawatan intensif karena penyumbatan usus",
-      "url": "https://www.aljazeera.com/news/2026/11/21/brazils-jair-bolsonaro-in-intensive-care-with-bowel-obstruction?traffic_source=rss",
-      "summary": "The former president, serving a sentence for plotting a coup, is stable and breathing on his own, the hospital says.",
-      "published": "22 Nov 2026 04:02 WIB",
+      "title": "Miley Cyrus menikahi Maxx Morando dalam upacara California",
+      "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
+      "summary": "The couple have been together for four years and were engaged in 2025.",
+      "published": "22 Nov 2026 15:46 WIB",
       "sentiment": "Bullish",
-      "score": 0.691,
+      "score": 0.402,
       "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Serangan mematikan di Kyiv saat Rusia melancarkan serangan terhadap Ukraina",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
-      "summary": "Russia launched more than 400 drones and 110 missiles across Ukraine overnight, killing at least seven in Kyiv.",
-      "published": "22 Nov 2026 01:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.871,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump mengatakan dia menginginkan kesepakatan 'permanen' untuk menghentikan Iran membuat senjata nuklir",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
-      "summary": "US President Donald Trump says he wants a permanent agreement to prevent Iran from developing nuclear weapons.",
-      "published": "22 Nov 2026 01:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.412,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Serangan Israel menghantam kendaraan bantuan makanan di Gaza, menewaskan tiga orang",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
-      "summary": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
-      "published": "22 Nov 2026 00:54 WIB",
+      "title": "Zelenskyy mendesak AS untuk melepaskan rudal Patriot saat Rusia membunuh 3 orang di Ukraina",
+      "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
+      "summary": "A Russian drone attack kills at least two people near Kyiv as Russian shelling kills one in Zaporizhzhia.",
+      "published": "22 Nov 2026 21:48 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -375,14 +137,69 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Serangan Rusia menewaskan dua orang dan melukai 60 orang di kampung halaman Zelenskyy",
-      "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
-      "summary": "Attack on Kryvyi Rih comes as Russian missiles land in NATO member Poland and US-led peace efforts face uncertainty.",
-      "published": "22 Nov 2026 00:20 WIB",
+      "title": "Iran meluncurkan peluncur rudal ganda, ‘kota rudal’ baru: Apa yang perlu diketahui",
+      "url": "https://www.aljazeera.com/news/2026/11/22/iran-unveils-dual-missile-launcher-new-missile-city-what-to-know?traffic_source=rss",
+      "summary": "Military officials tour underground facility in show of military capabilities despite US attacks.",
+      "published": "22 Nov 2026 21:20 WIB",
+      "sentiment": "Bullish",
+      "score": 0.181,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Arab Saudi mencegat drone dan rudal saat Houthi melaporkan serangan di Sanaa",
+      "url": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss",
+      "summary": "Houthi media say several people were injured in an attack on an oil company as Saudi air defences down a drone.",
+      "published": "22 Nov 2026 20:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.878,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Anak-anak di Gaza yang terkepung berjuang untuk menemukan insulin yang bisa menyelamatkan jiwa mereka untuk diabetes",
+      "url": "https://www.aljazeera.com/features/2026/11/22/children-in-besieged-gaza-struggle-to-find-life-saving-insulin-for-diabetes?traffic_source=rss",
+      "summary": "Insulin and blood glucose testing supplies become increasingly difficult to obtain in war-torn Gaza.",
+      "published": "22 Nov 2026 20:15 WIB",
+      "sentiment": "Bearish",
+      "score": -0.746,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Kongres AS membantu mengakhiri Perang Vietnam. Bisakah ini menghentikan perang Iran?",
+      "url": "https://www.aljazeera.com/news/2026/11/22/us-congress-helped-end-the-vietnam-war-can-it-stop-the-iran?traffic_source=rss",
+      "summary": "Congress forbade funding for the Vietnam War, contributing to the fall of the South Vietnamese government in Saigon.",
+      "published": "22 Nov 2026 19:31 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Pemukim Israel menyerang beberapa desa Palestina di Tepi Barat yang diduduki",
+      "url": "https://www.aljazeera.com/news/2026/11/22/israeli-settlers-attack-several-palestinian-villages-in-occupied-west-bank?traffic_source=rss",
+      "summary": "Attacks in Ramallah, el-Bireh provinces included the burning of 12 vehicles and spray-painting racist slogans on homes.",
+      "published": "22 Nov 2026 19:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.955,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Ada Apa di Balik Peningkatan Serangan Iran di Teluk?",
+      "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf?traffic_source=rss",
+      "summary": "Tehran has ramped up attacks as the US naval blockade and sanctions campaign hurt the country economically.",
+      "published": "22 Nov 2026 18:46 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -397,17 +214,6 @@
     },
     {
       "source": "CNBC World",
-      "title": "Warren Buffett melipatgandakan hadiah Thanksgiving: Perincian berapa banyak kekayaan yang dia sumbangkan",
-      "url": "https://www.cnbc.com/2026/11/21/warren-buffett-quadruples-thanksgiving-gifts.html",
-      "summary": "Warren Buffett more than quadrupled his Thanksgiving donations to four family foundations this year to $5.5 billion.",
-      "published": "21 Nov 2026 20:01 WIB",
-      "sentiment": "Bullish",
-      "score": 0.601,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
       "title": "Kerusakan awal pusaran kutub mengancam cadangan gas yang sudah habis",
       "url": "https://www.cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html",
       "summary": "Colder weather and low wind speeds could strain Europe’s gas market, where storage started winter at its lowest level in more than a decade.",
@@ -419,23 +225,12 @@
     },
     {
       "source": "CNBC World",
-      "title": "Anak perusahaan SpaceX, Cursor, mengatakan kepada anggota parlemen bahwa mereka sedang mempertimbangkan untuk menghentikan secara bertahap model AI Tiongkok",
-      "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
-      "summary": "SpaceX's Cursor is considering phasing out Chinese-developed open-weight AI models over geopolitical risk, according to a House report reviewed by CNBC.",
-      "published": "20 Nov 2026 21:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.353,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Peterson: Ketua The Fed memperkirakan akan terjadi revolusi AI. Sekarang dia harus mencari tahu apa maksudnya",
-      "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-      "summary": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
-      "published": "21 Nov 2026 04:07 WIB",
+      "title": "Warren Buffett melipatgandakan hadiah Thanksgiving: Perincian berapa banyak kekayaan yang dia sumbangkan",
+      "url": "https://www.cnbc.com/2026/11/21/warren-buffett-quadruples-thanksgiving-gifts.html",
+      "summary": "Warren Buffett more than quadrupled his Thanksgiving donations to four family foundations this year to $5.5 billion.",
+      "published": "21 Nov 2026 20:01 WIB",
       "sentiment": "Bullish",
-      "score": 0.281,
+      "score": 0.601,
       "emoji": "🟢",
       "impact": "high"
     }
