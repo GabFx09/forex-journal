@@ -1,32 +1,32 @@
 {
-  "generated": "21 Nov 2026 22:02 WIB",
+  "generated": "22 Nov 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
       "pair": "USD/JPY",
-      "direction": "Netral →",
-      "score": -0.049,
-      "count": 20
+      "direction": "Tekanan Turun ▼",
+      "score": -0.155,
+      "count": 17
     },
     {
       "pair": "XAU/USD",
-      "direction": "Netral →",
-      "score": -0.012,
-      "count": 19
+      "direction": "Tekanan Turun ▼",
+      "score": -0.118,
+      "count": 16
     },
     {
       "pair": "USD/CHF",
-      "direction": "Netral →",
-      "score": -0.035,
-      "count": 16
+      "direction": "Tekanan Turun ▼",
+      "score": -0.069,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.381,
-      "count": 5
+      "score": 0.156,
+      "count": 6
     },
     {
       "pair": "AUD/USD",
@@ -121,17 +121,6 @@
       "impact": "high"
     },
     {
-      "source": "FXStreet",
-      "title": "Forex Hari Ini: Emas Perpanjang Penurunan Menuju $3.500 Meskipun Dolar AS Pullback - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeWZ5c0JWejRjandLdXZVSndsazdkOWtmaFczTVZUU2lnX0J3NFo0bnpCUnpXQkxUOVdyenJ2dWVValZHZHhCRk9oUURHVWdWNXJMZEJJRG1RbFRCc0d4UVNST0lPLXdINkZzX0VIbjBJd0EzT0VqaDRRc3Zia0dLRXpXall4dUZsX3FjS2VHT3lCdHUtbkJHaHhyRGY5ZGlMOThjRkZSTy1jQVdnQ0c4NU1CYw?oc=5",
-      "summary": "Forex Today: Gold extends slide toward $3,500 despite US Dollar pullback FXStreet",
-      "published": "20 Nov 2026 14:12 WIB",
-      "sentiment": "Netral",
-      "score": 0.048,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
       "source": "Investing.com Forex",
       "title": "Intesa Sanpaolo meluncurkan penawaran tunai dan saham senilai €34,5 miliar untuk Monte dei Paschi",
       "url": "https://www.investing.com/news/stock-market-news/intesa-sanpaolo-launches-345bn-cashandshare-offer-for-monte-dei-paschi-5043303",
@@ -143,17 +132,6 @@
       "impact": "low"
     },
     {
-      "source": "Investing.com Forex",
-      "title": "Warga Singapura diekstradisi untuk menghadapi tuntutan AS atas skema perdagangan orang dalam global",
-      "url": "https://www.investing.com/news/stock-market-news/singaporean-extradited-to-face-us-charges-over-global-insider-trading-scheme-5042823",
-      "summary": "",
-      "published": "21 Nov 2026 09:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.273,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
       "source": "Reuters Currencies",
       "title": "Departemen Keuangan AS menekan Singapura dan Malaysia mengenai kepatuhan sanksi Iran - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcWpsS2J4X3N5clFTNVhVa3BacUsxZUNmaXAwaHBjRlNVRXZ4XzhlTjBXLThJVlVPN2tMY1hPRmNRR3JWdVFOdi16QmdxYnVDX2lpSlNlZHRiYkh0T2I3VkNiVXNUek9uZWZRbmJHdlM2Skhsbm0xRVhua2N2Y2dDX1VMa1lJNUs4WmZtLWVJQWdfeXg3cVFBTHJ1cmxoQXViTDA0cG9TNmQ1TFhkMkRkc3Vwd2ZtSGtuTjc4?oc=5",
@@ -162,6 +140,28 @@
       "sentiment": "Bullish",
       "score": 0.122,
       "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Perang 1982 Masih Menghantui Timur Tengah",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/the-1982-war-still-haunts-the-middle-east-video",
+      "summary": "Journalist and author Kim Ghattas tells Bloomberg This Weekend how the violence that engulfed Lebanon in 1982 helped set the US, Israel, Iran and the wider Middle East on a trajectory that continues to shape conflicts in the region today. Speaking with hosts David Gura and Christina Ruffini about he",
+      "published": "21 Nov 2026 22:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.973,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Apakah AI itu Gelembung? Sejarah Menawarkan Beberapa Petunjuk",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/is-ai-a-bubble-history-offers-some-clues-video",
+      "summary": "Bloomberg Opinion columnist Justin Fox tells Bloomberg This Weekend that history offers warning signs for financial bubbles, but little reliable guidance about exactly when they will burst, making debt and investor sentiment important risks to watch amid the AI boom. Speaking with hosts David Gura a",
+      "published": "21 Nov 2026 22:09 WIB",
+      "sentiment": "Bearish",
+      "score": -0.82,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -243,6 +243,17 @@
     },
     {
       "source": "BBC World",
+      "title": "Kapal tujuan Rusia diserang di Teluk Finlandia",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+      "published": "22 Nov 2026 02:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.771,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC World",
       "title": "Pohon Natal Trafalgar Square ditebang di Norwegia",
       "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
       "summary": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
@@ -251,17 +262,6 @@
       "score": -0.003,
       "emoji": "⚪",
       "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Apa yang kita ketahui tentang serangan rudal terbaru Rusia di Ukraina",
-      "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Russia struck bridges and railway stations in the capital Kyiv in a major attack.",
-      "published": "20 Nov 2026 22:14 WIB",
-      "sentiment": "Bearish",
-      "score": -0.944,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "BBC Business",
@@ -275,33 +275,99 @@
       "impact": "medium"
     },
     {
+      "source": "BBC Top Stories",
+      "title": "Zelensky mengatakan Jembatan Krimea memberikan 'respon yang adil' saat dia bertemu Wes Streeting",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+      "published": "21 Nov 2026 20:17 WIB",
+      "sentiment": "Bearish",
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Pria Inggris berenang melalui Selat Hormuz untuk menyoroti dampak perang terhadap lingkungan",
+      "url": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ocean campaigner Lewis Pugh completes Hormuz challenge and warns of lasting environmental damage.",
+      "published": "21 Nov 2026 23:12 WIB",
+      "sentiment": "Bearish",
+      "score": -0.78,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "Al Jazeera",
-      "title": "Bisakah Iran membalikkan kebijakan program nuklir sipil saja?",
-      "url": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme?traffic_source=rss",
-      "summary": "Iran's FM Araghchi says there is 'major strategic debate' about the future of Iran's nuclear doctrine.",
-      "published": "21 Nov 2026 21:15 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "title": "Iran menghadapi 'perang ekonomi diam-diam', kata presiden Iran",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/iran-faces-a-silent-economic-war-says-iranian-president?traffic_source=rss",
+      "summary": "Iran faces a ‘silent economic war’, says Iranian president",
+      "published": "22 Nov 2026 06:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Bahrain mengatakan serangan Iran menghantam fasilitas industri",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
+      "summary": "Bahrain says Iranian attack hits industrial facility",
+      "published": "22 Nov 2026 05:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.815,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Upaya penyelamatan sedang dilakukan ketika drone menghantam kapal Rusia di lepas pantai Finlandia",
-      "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
-      "summary": "Two drones attack a cargo ship that Finnish authorities say has links to Russia's armed forces.",
-      "published": "21 Nov 2026 19:45 WIB",
-      "sentiment": "Netral",
-      "score": -0.028,
-      "emoji": "⚪",
+      "title": "Bahrain mengatakan serangan Iran menyebabkan kebakaran di fasilitas industri",
+      "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss",
+      "summary": "Bahrain reports no injuries, as Iran's IRGC says it targeted US military positions at two bases in al-Riffa and Awali.",
+      "published": "22 Nov 2026 04:31 WIB",
+      "sentiment": "Bearish",
+      "score": -0.852,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Serangan Israel di Gaza menewaskan sedikitnya empat warga Palestina",
-      "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss",
-      "summary": "Israeli drone attack kills three people in Gaza City; another is shot dead by Israeli forces in Jabalia.",
-      "published": "21 Nov 2026 19:29 WIB",
+      "title": "Jair Bolsonaro dari Brasil dalam perawatan intensif karena penyumbatan usus",
+      "url": "https://www.aljazeera.com/news/2026/11/21/brazils-jair-bolsonaro-in-intensive-care-with-bowel-obstruction?traffic_source=rss",
+      "summary": "The former president, serving a sentence for plotting a coup, is stable and breathing on his own, the hospital says.",
+      "published": "22 Nov 2026 04:02 WIB",
+      "sentiment": "Bullish",
+      "score": 0.691,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan mematikan di Kyiv saat Rusia melancarkan serangan terhadap Ukraina",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+      "summary": "Russia launched more than 400 drones and 110 missiles across Ukraine overnight, killing at least seven in Kyiv.",
+      "published": "22 Nov 2026 01:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.871,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump mengatakan dia menginginkan kesepakatan 'permanen' untuk menghentikan Iran membuat senjata nuklir",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
+      "summary": "US President Donald Trump says he wants a permanent agreement to prevent Iran from developing nuclear weapons.",
+      "published": "22 Nov 2026 01:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.412,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Serangan Israel menghantam kendaraan bantuan makanan di Gaza, menewaskan tiga orang",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+      "summary": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
+      "published": "22 Nov 2026 00:54 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -309,43 +375,21 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Meksiko menangkap bos kartel yang dicari FBI dalam serangan militer",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
-      "summary": "Mexico’s military captured FBI-wanted cartel leader ‘El Chapo Isidro’ in Guasave, Sinaloa.",
-      "published": "21 Nov 2026 18:53 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "title": "Serangan Rusia menewaskan dua orang dan melukai 60 orang di kampung halaman Zelenskyy",
+      "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
+      "summary": "Attack on Kryvyi Rih comes as Russian missiles land in NATO member Poland and US-led peace efforts face uncertainty.",
+      "published": "22 Nov 2026 00:20 WIB",
+      "sentiment": "Bearish",
+      "score": -0.878,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Rudal Rusia menghantam Polandia: Apa yang terjadi, dan dapatkah NATO meresponsnya?",
-      "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss",
-      "summary": "Warsaw accuses Moscow of intentional provocation, but bar for triggering NATO's collective defence clause remains high.",
-      "published": "21 Nov 2026 18:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.199,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Usman Khawaja dan David Warner mengudara di atas Sandpapergate Australia",
-      "url": "https://www.aljazeera.com/sports/2026/11/21/usman-khawaja-and-david-warner-taken-off-air-over-australias-sandpapergate?traffic_source=rss",
-      "summary": "Ex-Australia cricketers Khawaja and Warner taken off air having been most outspoken over 2018 scandal in South Africa.",
-      "published": "21 Nov 2026 17:54 WIB",
-      "sentiment": "Bearish",
-      "score": -0.52,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "CNBC World",
-      "title": "Pemadaman teknologi memicu kiamat ekonomi yang baru",
+      "title": "Pemadaman teknologi memicu kiamat perekonomian yang baru",
       "url": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
       "summary": "Recent technology outages have left some worried about AI cyberattacks and the U.S. electricity grid. The doomsday economy is heating up as a result.",
-      "published": "21 Nov 2026 20:00 WIB",
+      "published": "21 Nov 2026 22:04 WIB",
       "sentiment": "Bearish",
       "score": -0.949,
       "emoji": "🔴",
@@ -375,17 +419,6 @@
     },
     {
       "source": "CNBC World",
-      "title": "AI mengubah rekayasa perangkat lunak — dan beberapa pengembang melewatkan perjuangan ini",
-      "url": "https://www.cnbc.com/2026/11/20/ai-coding-tools-software-engineers.html",
-      "summary": "AI coding tools are making software engineers faster, but developers tell CNBC the work has lost its \"sense of joy and fun.\"",
-      "published": "20 Nov 2026 13:00 WIB",
-      "sentiment": "Bullish",
-      "score": 0.615,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
       "title": "Anak perusahaan SpaceX, Cursor, mengatakan kepada anggota parlemen bahwa mereka sedang mempertimbangkan untuk menghentikan secara bertahap model AI Tiongkok",
       "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
       "summary": "SpaceX's Cursor is considering phasing out Chinese-developed open-weight AI models over geopolitical risk, according to a House report reviewed by CNBC.",
@@ -394,17 +427,6 @@
       "score": -0.353,
       "emoji": "🔴",
       "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Warsh ingin para pejabat Fed mengurangi pembicaraan. Sebaliknya, mereka lebih banyak berbicara",
-      "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
-      "summary": "Fed officials have been rushing to the microphones lately while the Fed chairman stays on the sidelines.",
-      "published": "21 Nov 2026 04:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.08,
-      "emoji": "🔴",
-      "impact": "high"
     },
     {
       "source": "CNBC Markets",
