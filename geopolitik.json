@@ -1,71 +1,78 @@
 {
-  "generated": "22 Nov 2026 22:01 WIB",
+  "generated": "23 Nov 2026 07:01 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
       "pair": "USD/CHF",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.466,
-      "count": 6
+      "direction": "Tekanan Naik ▲",
+      "score": 0.064,
+      "count": 3
     },
     {
       "pair": "USD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.466,
-      "count": 6
+      "direction": "Tekanan Naik ▲",
+      "score": 0.064,
+      "count": 3
     },
     {
       "pair": "XAU/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.261,
+      "count": 2
+    },
+    {
+      "pair": "EUR",
       "direction": "Tekanan Turun ▼",
-      "score": -0.466,
-      "count": 6
+      "score": -0.33,
+      "count": 1
+    },
+    {
+      "pair": "GBP",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.33,
+      "count": 1
+    },
+    {
+      "pair": "USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.33,
+      "count": 1
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.262,
-      "count": 2
+      "direction": "Tekanan Naik ▲",
+      "score": 0.477,
+      "count": 1
     },
     {
       "pair": "USD/RUB",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.262,
-      "count": 2
+      "direction": "Tekanan Naik ▲",
+      "score": 0.477,
+      "count": 1
     }
   ],
   "items": [
     {
-      "source": "Investing.com Forex",
-      "title": "Apakah perekonomian akan terus mengalahkan geopolitik?",
-      "url": "https://www.investing.com/news/stock-market-news/will-economics-continue-to-outweigh-geopolitics-5043785",
-      "summary": "",
-      "published": "22 Nov 2026 13:57 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Kunjungan Trump ke Asia masih menyisakan permasalahan utama yang belum terselesaikan",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-22/trump-s-asia-trip-leaves-key-issues-unresolved-video",
-      "summary": "ABC News State Department reporter Shannon Kingston tells Bloomberg This Weekend that Russia’s increasingly provocative actions near NATO countries are complicating President Donald Trump’s push for a negotiated end to the war in Ukraine, while Moscow remains publicly defiant. Speaking with hosts Da",
-      "published": "22 Nov 2026 19:39 WIB",
+      "title": "Pasar Waran Terbesar di Dunia Dipicu oleh Perdagangan Tidak Biasa di Hong Kong",
+      "url": "https://www.bloomberg.com/graphics/hongkong-derivative-warrants-leverage-volume-ping-pong-trades/",
+      "summary": "The $577 billion Hong Kong market has tell-tale signs of artificially inflated trading, insiders say.",
+      "published": "23 Nov 2026 06:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.944,
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Keunggulan Kekuatan AS Atas Tiongkok Semakin Menyusut Akibat Perang Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-22/us-power-advantage-over-china-shrinks-further-on-iran-war-effect",
-      "summary": "The advantage the US has over China in influencing the course of international events has shrunk to the smallest level since 2018, with the Iran war and unilateralism undermining its military and diplomatic strength, according to a new report.",
-      "published": "22 Nov 2026 18:30 WIB",
+      "title": "Aussie Terlihat Rebound Melawan Kiwi Dari Bulan Terburuk Sejak 2022",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/aussie-seen-rebounding-against-kiwi-from-worst-month-since-2022",
+      "summary": "Australia’s dollar is poised to rebound against its New Zealand counterpart after sliding toward its steepest monthly drop in four years as sticky inflation challenges bets on domestic interest-rate cuts, analysts say.",
+      "published": "23 Nov 2026 04:16 WIB",
       "sentiment": "Bearish",
-      "score": -0.705,
+      "score": -0.33,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -82,13 +89,13 @@
     },
     {
       "source": "BBC World",
-      "title": "Kapal tujuan Rusia masih terbakar setelah serangan di Teluk Finlandia",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
-      "published": "22 Nov 2026 18:25 WIB",
-      "sentiment": "Bearish",
-      "score": -0.882,
-      "emoji": "🔴",
+      "title": "Miley Cyrus menikahi Maxx Morando dalam upacara California",
+      "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
+      "summary": "The couple have been together for four years and were engaged in 2025.",
+      "published": "23 Nov 2026 04:22 WIB",
+      "sentiment": "Bullish",
+      "score": 0.402,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
@@ -103,103 +110,48 @@
       "impact": "low"
     },
     {
-      "source": "BBC World",
-      "title": "Pohon Natal Trafalgar Square ditebang di Norwegia",
-      "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
-      "summary": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
-      "published": "21 Nov 2026 15:10 WIB",
-      "sentiment": "Netral",
-      "score": -0.003,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
       "source": "BBC Top Stories",
-      "title": "Miley Cyrus menikahi Maxx Morando dalam upacara California",
-      "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
-      "summary": "The couple have been together for four years and were engaged in 2025.",
-      "published": "22 Nov 2026 15:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Zelenskyy mendesak AS untuk melepaskan rudal Patriot saat Rusia membunuh 3 orang di Ukraina",
-      "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
-      "summary": "A Russian drone attack kills at least two people near Kyiv as Russian shelling kills one in Zaporizhzhia.",
-      "published": "22 Nov 2026 21:48 WIB",
+      "title": "Anak laki-laki, 7 tahun, diselamatkan dari reruntuhan beberapa jam setelah serangan Rusia di Ukraina, kata tim penyelamat",
+      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+      "summary": "Six people are dead in the attack, with rescue efforts ongoing to find those still missing from the residential building.",
+      "published": "23 Nov 2026 06:53 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.772,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Iran meluncurkan peluncur rudal ganda, ‘kota rudal’ baru: Apa yang perlu diketahui",
-      "url": "https://www.aljazeera.com/news/2026/11/22/iran-unveils-dual-missile-launcher-new-missile-city-what-to-know?traffic_source=rss",
-      "summary": "Military officials tour underground facility in show of military capabilities despite US attacks.",
-      "published": "22 Nov 2026 21:20 WIB",
-      "sentiment": "Bullish",
-      "score": 0.181,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Arab Saudi mencegat drone dan rudal saat Houthi melaporkan serangan di Sanaa",
-      "url": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss",
-      "summary": "Houthi media say several people were injured in an attack on an oil company as Saudi air defences down a drone.",
-      "published": "22 Nov 2026 20:16 WIB",
+      "title": "Kapal kedua menjadi sasaran serangkaian serangan drone angkatan laut di lepas pantai Libya",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/second-ship-targeted-in-series-of-naval-drone-attacks-off-libyan-coast?traffic_source=rss",
+      "summary": "A second attack has been reported on a commercial vessel flying a Maltese flag off Benghazi.",
+      "published": "23 Nov 2026 05:01 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.798,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Anak-anak di Gaza yang terkepung berjuang untuk menemukan insulin yang bisa menyelamatkan jiwa mereka untuk diabetes",
-      "url": "https://www.aljazeera.com/features/2026/11/22/children-in-besieged-gaza-struggle-to-find-life-saving-insulin-for-diabetes?traffic_source=rss",
-      "summary": "Insulin and blood glucose testing supplies become increasingly difficult to obtain in war-torn Gaza.",
-      "published": "22 Nov 2026 20:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.746,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kongres AS membantu mengakhiri Perang Vietnam. Bisakah ini menghentikan perang Iran?",
-      "url": "https://www.aljazeera.com/news/2026/11/22/us-congress-helped-end-the-vietnam-war-can-it-stop-the-iran?traffic_source=rss",
-      "summary": "Congress forbade funding for the Vietnam War, contributing to the fall of the South Vietnamese government in Saigon.",
-      "published": "22 Nov 2026 19:31 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pemukim Israel menyerang beberapa desa Palestina di Tepi Barat yang diduduki",
-      "url": "https://www.aljazeera.com/news/2026/11/22/israeli-settlers-attack-several-palestinian-villages-in-occupied-west-bank?traffic_source=rss",
-      "summary": "Attacks in Ramallah, el-Bireh provinces included the burning of 12 vehicles and spray-painting racist slogans on homes.",
-      "published": "22 Nov 2026 19:19 WIB",
+      "title": "Dugaan serangan pesawat tak berawak menyebabkan ledakan di kapal Rusia di Libya",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
+      "summary": "A Russian ship has been struck in a suspected drone attack while docked at Libya’s Benghazi naval base.",
+      "published": "23 Nov 2026 01:11 WIB",
       "sentiment": "Bearish",
       "score": -0.955,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Ada Apa di Balik Peningkatan Serangan Iran di Teluk?",
-      "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf?traffic_source=rss",
-      "summary": "Tehran has ramped up attacks as the US naval blockade and sanctions campaign hurt the country economically.",
-      "published": "22 Nov 2026 18:46 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
+      "source": "MarketWatch",
+      "title": "Jaminan Sosial harus ditutup, kata senator Partai Republik ini",
+      "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
+      "summary": "The program’s trust funds are forecast to run out of money in the next six years.",
+      "published": "23 Nov 2026 03:26 WIB",
+      "sentiment": "Bullish",
+      "score": 0.691,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
