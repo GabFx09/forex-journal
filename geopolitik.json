@@ -1,5 +1,5 @@
 {
-  "generated": "24 Nov 2026 07:02 WIB",
+  "generated": "24 Nov 2026 22:03 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,117 +7,228 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.262,
-      "count": 8
+      "score": -0.293,
+      "count": 16
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.262,
-      "count": 8
+      "score": -0.293,
+      "count": 16
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.157,
-      "count": 7
+      "score": -0.305,
+      "count": 14
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.293,
-      "count": 6
+      "score": -0.122,
+      "count": 9
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.182,
+      "score": -0.127,
       "count": 5
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.845,
+      "score": -0.069,
+      "count": 3
+    },
+    {
+      "pair": "AUD/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.258,
+      "count": 1
+    },
+    {
+      "pair": "USD/CNY",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.258,
       "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Williams dari The Fed mengaitkan inflasi pada faktor-faktor yang tidak biasa, dan memperkirakan tahun 2027 akan menurunkannya",
-      "url": "https://investinglive.com/central-banks/fed-s-williams-pins-inflation-on-unusual-factors-sees-2027-bringing-it-lower/",
-      "summary": "The Q&A softens the tone of Williams' prepared remarks without changing their core message, so pricing for a quarter-point hike on December 9 is unlikely to move much. His focus on unusual factors puts energy back at the centre. Brent is still around $92, well above the roughly $72 seen in late Febr",
-      "published": "24 Nov 2026 04:45 WIB",
-      "sentiment": "Netral",
-      "score": -0.028,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Berita Nvidia menunjukkan indeks yang lebih luas bergerak naik tajam. Bagaimana dampak pergerakan ini terhadap aspek teknis?",
-      "url": "https://investinglive.com/stocks/the-nvidia-news-has-the-broader-indices-moving-sharply-higher-how-has-the-moves-impacted-the-technicals/",
-      "summary": "Nvidia shares are trading sharply higher following Jensen Huang’s reinstatement as CEO and board member. The rally has taken the price back toward $165, putting it inside a key swing area between $164.07 and $168.80. The 50% midpoint of the trading range since the April 2025 low also comes in near $",
-      "published": "23 Nov 2026 22:21 WIB",
-      "sentiment": "Bullish",
-      "score": 0.382,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indeks Dolar AS (DXY) turun ke 103,75 karena taruhan Fed dan risiko geopolitik membatasi penurunan - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYm55b0xCUWQzbEhiWGVXVHhsZHhlMDFvdzQ4QXpiUk5EczVNZnYyYTc2TFFDcXlXZmtVd01xYUFtMGs3ZmZUZ0FEX2ZwMHg5SFJkYWN5bm4wOEJVNWlZLWNSU1Y5WGs1ci1IRllHY2xmb01HQ0x6ajJMQTJoU2VuMzhmOHRNSHM4NVpyalgyajNJVVhPTFVmMjdBYXhqbzRnYjM5am11V1A3RHBtU1pWZUFDejN2cFdTcmRJUGpyNWcxZw?oc=5",
-      "summary": "US Dollar Index (DXY) dips to 103.75 as Fed bets and geopolitical risks limit losses FXStreet",
-      "published": "23 Nov 2026 09:26 WIB",
+      "title": "InvestmentRingkasan berita langsung Eropa: Kontrak berjangka AS mengembalikan keuntungan yang dipimpin Nvidia",
+      "url": "https://investinglive.com/news/investinglive-european-news-wrap-us-futures-give-back-nvidia-led-gains/",
+      "summary": "Articles: What is a short squeeze and why can it trigger violent rallies? Suckers' Rally 3.0? Nasdaq surges as Nvidia reinstates Huang following White House pressure Markets didn't stay down for long Zcash's Nvidia-induced rally fades quickly as hawkish Fed and geopolitical risks keep the market und",
+      "published": "24 Nov 2026 20:26 WIB",
       "sentiment": "Bearish",
-      "score": -0.746,
+      "score": -0.673,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
-      "source": "FXStreet",
-      "title": "Arab Saudi dan Bahrain melaporkan serangan baru seiring meningkatnya ketegangan - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMV9WRW0zNGliR3hCLVNuMVJoeXh3cFNrTG9xWW5jUmk5eDNJRkRhS2JIMVd1bmNyR3J1YXJONXZfb1hGbW0yWWVmblBJNUYzZFZKeE9IRDVHRlBEQV9HR2tFMk9rNzd0S2xrYjcwdWdlWVYwTzFpWVdhWDFhVWRqc1FuMkZncjlfNWF6N2U3ZGgxaDdqc3lSU011RGFxd25D?oc=5",
-      "summary": "Saudi Arabia, Bahrain report new attacks as tensions rise FXStreet",
-      "published": "23 Nov 2026 07:10 WIB",
+      "source": "ForexLive",
+      "title": "Minyak mentah berkonsolidasi pada support utama karena Iran mendesak untuk memperketat manajemen Hormuz sampai kondisi terpenuhi",
+      "url": "https://investinglive.com/commodities/crude-oil-consolidates-at-key-support-as-iran-urges-to-tighten-hormuz-management-until-conditions-met/",
+      "summary": "Crude oil has been under selling pressure despite no changes on the geopolitical front. Growth concerns have been responsible for the weakness as lower future demand expectations naturally pushed prices lower despite continued supply constraints. On the geopolitical front, the US is reportedly inves",
+      "published": "24 Nov 2026 17:21 WIB",
+      "sentiment": "Bearish",
+      "score": -0.404,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "USD/JPY kembali mendekati bahaya karena angka 160,00 membuat risiko intervensi Jepang kembali menjadi fokus",
+      "url": "https://investinglive.com/forex/usd-jpy-flirts-with-danger-again-as-the-160-00-mark-puts-japan-intervention-risks-back-in-focus/",
+      "summary": "How many times can you poke the bear before it finally wakes up and bites? Well, dollar bulls appear to be keen on finding that out as USD/JPY starts to push toward the 160.00 level this week. The dollar continues to hold its own even amid a broader improvement in risk sentiment, while elevated Trea",
+      "published": "24 Nov 2026 14:07 WIB",
+      "sentiment": "Bullish",
+      "score": 0.078,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Opsi FX kedaluwarsa pada 24 November 10 pagi pemotongan New York",
+      "url": "https://investinglive.com/orders/fx-option-expiries-for-24-november-10am-new-york-cut/",
+      "summary": "There is arguably just one key expiry level to take note of on the day, as highlighted in bold below. That being for USD/JPY at the 159.00 level, with the strike sitting less than 30 pips away from the spot price. The expiries here could have a say in terms of acting as a light magnet to pull price ",
+      "published": "24 Nov 2026 13:28 WIB",
+      "sentiment": "Bullish",
+      "score": 0.24,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Iran mengatakan tiga kapal tanker menabrak ranjau, namun harga minyak mendekati titik terendah dalam tiga bulan karena pasokan meningkat",
+      "url": "https://investinglive.com/commodities/iran-says-three-tankers-hit-mines-yet-oil-sits-near-a-three-month-low-as-supply-wins/",
+      "summary": "Oil's muted reaction to fresh Hormuz incidents suggests most of the war risk premium has gone, leaving prices driven by supply data. The next tests are this week's US inventory figures and whether Libyan output holds. Thin buffers mean the downside is not one-way: a confirmed disruption to actual fl",
+      "published": "24 Nov 2026 10:58 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saham Jatuh karena Nvidia Memudar dan Kekhawatiran Perdagangan Kembali: Pasar Terbungkus",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
+      "summary": "A selloff in technology giants dragged down stocks, with the market also retreating on concerns over fresh US tariffs.",
+      "published": "24 Nov 2026 05:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.258,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "OPEC+ Menghadapi Keputusan Pasokan Paling Penting Tahun Ini",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/opec-faces-its-most-consequential-supply-decision-of-the-year",
+      "summary": "When OPEC+ oil ministers gather at the end of this month to figure out how much crude to supply the world, they’ll face their most consequential decision of the year.",
+      "published": "24 Nov 2026 21:43 WIB",
+      "sentiment": "Bearish",
+      "score": -0.572,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Codelco Menawarkan Premi Tembaga yang Lebih Rendah untuk Menghidupkan Kembali Penjualan ke Tiongkok",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/codelco-offers-lower-copper-premiums-to-revive-sales-to-china",
+      "summary": "Chile’s state-owned miner Codelco is offering more favorable and flexible commercial terms to Chinese copper buyers as it seeks to rebalance its sales book back toward Asia after selling huge volumes to the US this year.",
+      "published": "24 Nov 2026 21:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.714,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Unit EDF Merencanakan Pembentukan €1 Miliar sebagai Persiapan Nuklir Baru",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/edf-unit-plans-1-billion-forge-as-new-nuclear-push-readied",
+      "summary": "Electricite de France SA’s Framatome unit is ready to approve an investment of more than €1 billion ($1.1 billion) to build a new forge that will make large parts for nuclear reactors, as it prepares for a wave of atomic plant construction in France and elsewhere.",
+      "published": "24 Nov 2026 21:31 WIB",
+      "sentiment": "Bullish",
+      "score": 0.361,
+      "emoji": "🟢",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
       "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 24 November",
       "url": "https://www.bloomberg.com/news/articles/2026-11-23/latest-oil-market-news-and-analysis-for-nov-24",
-      "summary": "Oil steadied after sliding almost 4% in the previous session on cautious optimism over efforts to end the US-Iran war.",
+      "summary": "Oil rose as reports of further tanker attacks overshadowed the latest diplomatic efforts to resolve the US-Iran war.",
       "published": "24 Nov 2026 06:04 WIB",
       "sentiment": "Bearish",
-      "score": -0.202,
+      "score": -0.797,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saham Asia Akan Reli seiring Kembalinya Huang Menghidupkan Kembali AI: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
-      "summary": "Asian stocks looked set to ride a wave of optimism sparked by Jensen Huang’s return to lead Nvidia Corp., a stunning development that propelled Wall Street toward its best day since April 2025.",
-      "published": "24 Nov 2026 05:06 WIB",
+      "title": "Pasar Minyak Kembali Bicara Tentang Surplus",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-24/the-oil-market-is-talking-about-a-surplus-again",
+      "summary": "Resilient Persian Gulf exports, booming production elsewhere and shrinking demand are all tilting the balance back toward an oversupply.",
+      "published": "24 Nov 2026 19:38 WIB",
+      "sentiment": "Bearish",
+      "score": -0.128,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Google News Forex",
+      "title": "Bank Sentral Nigeria menghentikan penurunan suku bunga menjelang pemilihan presiden - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR3pkeG9QUVdZNUZ3cXNKazV6aFlqdUhQOWRaRFhFd3B0WlY3VkR1UkJwdFJGSk53c3dlWGFPVEEybW1yaVNLY0R0R2UwSGZxdmtIR1lTc3YwNk1CNWxQOWRKQ1FjdjZwVzY4WGh1dk5NLW1jQlp3Mk1Ya01jX1o5U1gzTVdPYzNSUlFKWEhwWXktZldxMV9ZbS1sN2g1alAzSmFrdHpxM05jSW5rQ2E3TzYxV1V6WERNMTFSS3JB?oc=5",
+      "summary": "Central Bank of Nigeria pauses rate cuts ahead of presidential election Investing.com",
+      "published": "24 Nov 2026 21:13 WIB",
+      "sentiment": "Bearish",
+      "score": -0.376,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Google News Forex",
+      "title": "CBN May Hold Interest Rate at 23% on Naira Weakness, Election Inflation Concerns - Business Post Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMGJpRUQzenN6UUkxX1lWUUlEd1BJc0hUaXhpQkFXeDJZRU1xMEpiZE5LQkg0R3JSUkRqcWZLMGhsTTVDYzN1RldIT3p3VmxDZmQ1UGZuZFJ4MmpVcGhLTTNwTy1GaW4zMnpSMTV1VDZTb19nWEpWanZELVJxSlRKOVBpX2R5anR6SDNRUXl1SVFOeldubTJsVzlRSGZIbDhrS0tBcDNlZDJQQkF5djV4cg?oc=5",
+      "summary": "CBN May Hold Interest Rate at 23% on Naira Weakness, Election Inflation Concerns Business Post Nigeria",
+      "published": "24 Nov 2026 16:48 WIB",
+      "sentiment": "Netral",
+      "score": 0.023,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "Google News Forex",
+      "title": "Nilai tukar USD hari ini, 24 November: Harga USD di pasar gelap melonjak, jauh lebih tinggi dari harga jual bank. Apa yang harus diperhatikan oleh pembeli USD? - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcnhXeXQwT3NNTmlPUTFDcnBFdU5zMElWamZWM1dsLTJrT2hDS0dfQi1BNFk5ZHp1ZzJjRWtsN1doVmJ3VDJTcktnNE93M0VvN2xmcnZPTUNNMVNjNGZuTm82ejVQYnRjY294SHBud0Z5ZmJrVHBBY3l0MTA0RFFyeUw2R05hZ3F5RHBMYm9QUlR4MzIzbDJ0clY3eG12UkxrMHpBMjVUY1hsRXVuTDEzd1lqTG1sYVZHcXN4UWNqOVp2b0R2V3FvaGZqM3k5TWs?oc=5",
+      "summary": "USD exchange rate today, November 24th: Black market USD price surges, significantly higher than bank selling price. What should buyers of USD be aware of? Vietnam.vn",
+      "published": "24 Nov 2026 12:40 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "Google News Geopolitik",
+      "title": "Rial Iran mencapai rekor terendah setelah sanksi baru AS menargetkan jaringan keuangan - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb3VkTGZXa3p1ZnlkbUVuQVVmM1ZqOGJSWkhBR0pJQ0lER2o2TURrQTg0NFFRR0NmbFZrbnlUM2xZM002a2xoaTNuNnA5aDNObzE2V0pCVHMtcXVrZHliM3dISmpaNEozcl9vOU5SZTdEWi1BWWlKclV4bFVza3RTbnFJQmY1YUN4cTJKSGNpY3pUMjF0UFduNzNIeVZ1REhoYTk4RlBLeWFrdnQ0ZFE1UlZqdFZtc08xZXdz?oc=5",
+      "summary": "Iranian rial hits record low after fresh US sanctions target financial network Anadolu Ajansı",
+      "published": "24 Nov 2026 20:43 WIB",
+      "sentiment": "Netral",
+      "score": 0.023,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
+      "source": "Google News Geopolitik",
+      "title": "Mata uang Iran anjlok setelah sanksi baru AS - Al Arabiya English",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYVV4UGxsV2V4RVA2dXNrcHE0Y24yOWd5YmJTc3NGNkJ2Ym85Y0hXLWpyOWZPcjVFRTVGeW9SbVhvQ21vQkRXczlGUGloWlpFNTlWSkJPa1FBWTZWeVlwcVdlN0QtUzZETlVNRnI2N3BHZDA0TlRyRFMwUExTU1ZLZTZfZnF0cUxmU2JnZlVETGRRTE5DODZsTlRLMkRlcTFWX3dyVmF3NNIBrAFBVV95cUxOTk95Zl9IM2JvWHNMQUhwa3VYeXQ5bk9UZklMZllQM1c4WV81NGJ4dXBEbDJuTUFEeE1lU0M1Q0V5TThiTFVKaDd0LUFCZmM5RFllQ3hEcVJ0QXdQcnE3czhSR2hKOGl1NjE3b0RLeG5BZGxGVkVhYnJwQVdWY3EwQnd1NlZCOFEyalF2VzZGc2pTUDU5YzhrcUJ3RTFBcDJsQXkxM2hiRUFHQWhZ?oc=5",
+      "summary": "Iran currency plunges after fresh US sanctions Al Arabiya English",
+      "published": "24 Nov 2026 17:56 WIB",
       "sentiment": "Bullish",
-      "score": 0.92,
+      "score": 0.477,
       "emoji": "🟢",
       "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 23 November",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-22/latest-oil-market-news-and-analysis-for-nov-23",
-      "summary": "Oil fell to the lowest since August as investors unwound hedges against a weekend escalation by US forces in Iran, with Washington taking a more dovish stance for now.",
-      "published": "23 Nov 2026 06:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.462,
-      "emoji": "🔴",
-      "impact": "low"
     },
     {
       "source": "Google News Geopolitik",
@@ -132,47 +243,36 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Akankah USD/IRR mempertahankan kenaikan di tengah sanksi AS terhadap bursa Iran? - Serikat Pedagang",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQm16aEIzaU9kRUt5YTVWNUlrUE14Wmd1SzEtZ3ptc3VhUGZValBadmJpRW13MGI4Q3p3WndfZktBamVzZTRibktnUGs5Zzc1M3U1cV82cmxFdzdrSlY3SUxPWmVPTmtBQ2RBUVpvc05ZNlg1WWg1TlptUWtoVG5nMw?oc=5",
-      "summary": "Will USD/IRR hold gains amid US sanctions on Iranian exchange houses? Traders Union",
-      "published": "24 Nov 2026 04:09 WIB",
+      "title": "CBN mungkin mempertahankan suku bunga sebesar 23% karena risiko pengeluaran pemilu - The Sun Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ0VfbU16VUNwN20yN2hreDVJampmeWNpdGFSQnFSNWJaclNfd2xKeWdWQVRyblhPVkg5c2tjb3l5UnM0cW9KNXBZT09LbXRrMXc5V0VTM3BuQXFCdm1aRGdVYnQ5Mkp1ZzM5ZWE4eTVfUUttekhfLWRjT0pvWHZFMWhvd0trcGM?oc=5",
+      "summary": "CBN may hold interest rate at 23% over election spending risks The Sun Nigeria",
+      "published": "24 Nov 2026 07:19 WIB",
       "sentiment": "Bullish",
-      "score": 0.414,
+      "score": 0.146,
       "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Belanja Pemilu dan Permintaan Natal Melemahkan Naira - Demokratis.co.id",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ObXk3OS03ZzRFNGlSWlZtcTY1VHJfQ1hTVGl6OGxfN2ZKdnFQQUo3V2RpbmtOb1ptU3V3VmVXWk5ZNHczZWdUY05pM3JuTDB3LXVnc2Zwa3l4SzR3d184SWNTSWxDVDBlVmIxSHQxQmFFVG43RFZJLTR3?oc=5",
-      "summary": "Election Spending and Christmas Demand Weaken Naira Demokratis.co.id",
-      "published": "24 Nov 2026 00:42 WIB",
-      "sentiment": "Bearish",
-      "score": -0.845,
-      "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "BBC World",
-      "title": "Kapal perang Rusia dihantam drone Ukraina di Libya, kata Zelensky",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
-      "published": "23 Nov 2026 22:41 WIB",
+      "title": "Ketua NATO bersumpah akan mempertahankan diri dari ancaman luar angkasa setelah laporan satelit nuklir Rusia",
+      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+      "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks.",
+      "published": "24 Nov 2026 17:58 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.459,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "BBC World",
-      "title": "Serangan terhadap kapal Rusia di Libya menunjukkan perluasan perang di Ukraina",
-      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-      "published": "24 Nov 2026 03:48 WIB",
+      "title": "Bom mobil melanda kota Kolombia, melukai lebih dari 20 orang",
+      "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
+      "summary": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
+      "published": "24 Nov 2026 18:45 WIB",
       "sentiment": "Bearish",
-      "score": -0.935,
+      "score": -0.761,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -187,32 +287,43 @@
     },
     {
       "source": "BBC World",
-      "title": "Miley Cyrus menikahi Maxx Morando dalam upacara California",
-      "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
-      "summary": "The couple have been together for four years and were engaged in 2025.",
-      "published": "23 Nov 2026 04:22 WIB",
-      "sentiment": "Bullish",
-      "score": 0.402,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Anak laki-laki, 7 tahun, berhasil diselamatkan dari reruntuhan beberapa jam setelah serangan Rusia di Ukraina, kata tim penyelamat",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-      "summary": "Eleven people are dead in the attack on Dymer, with rescue efforts ongoing to find those still missing from the residential building.",
-      "published": "23 Nov 2026 12:33 WIB",
+      "title": "Saksikan: Saat pasukan menyerbu rumah dan menangkap gembong narkoba Meksiko",
+      "url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Newly-released bodycam footage shows the moment troops detained 'El Chapo Isidro', who had managed to evade capture for years.",
+      "published": "24 Nov 2026 16:09 WIB",
       "sentiment": "Bearish",
-      "score": -0.797,
+      "score": -0.402,
       "emoji": "🔴",
       "impact": "low"
     },
     {
+      "source": "BBC World",
+      "title": "Ukraina membagikan video serangan terhadap kapal Rusia di lepas pantai Libya",
+      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
+      "summary": "President Zelensky said a Russia warship was sunk, with a Russian cargo ship also hit.",
+      "published": "23 Nov 2026 18:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.33,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "BBC Top Stories",
-      "title": "Bagaimana Ukraina menyerang kapal Rusia di Libya",
-      "url": "https://www.bbc.co.uk/news/videos/cmz6q3001pw6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Verified videos show huge fireballs, smoke plumes rising and sea drones attacking the vessels.",
-      "published": "23 Nov 2026 21:32 WIB",
+      "title": "Hadiah Booker Anak-anak Pertama mengungkapkan daftar terpilih - dan juri anak-anaknya",
+      "url": "https://www.bbc.co.uk/news/articles/c65y18gl23gko?at_medium=RSS&at_campaign=rss",
+      "summary": "The eight books in contention include War by Artemis Fowl author Eoin Colfer and Andrew Donkin.",
+      "published": "24 Nov 2026 14:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.233,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Lalu lintas minyak Hormuz turun 40 persen: Apakah serangan kapal tanker Iran berhasil?",
+      "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working?traffic_source=rss",
+      "summary": "Attacks on tankers have increased, impacting the flow of oil through the Strait of Hormuz.",
+      "published": "24 Nov 2026 20:32 WIB",
       "sentiment": "Bearish",
       "score": -0.652,
       "emoji": "🔴",
@@ -220,43 +331,10 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "UE merencanakan larangan olahraga dalam menyapu usulan sanksi baru terhadap Rusia",
-      "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
-      "summary": "Proposed sanctions aim to curb Russian crypto financing and 'propaganda' in sports.",
-      "published": "24 Nov 2026 06:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.761,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "AS meningkatkan sanksi terhadap Iran, menargetkan jaringan 'perbankan bayangan'",
-      "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
-      "summary": "US Treasury sanctions over two dozen Iranian entities, citing efforts to disrupt Tehran's global financial activities.",
-      "published": "24 Nov 2026 04:30 WIB",
-      "sentiment": "Bullish",
-      "score": 0.122,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran menyerang pangkalan-pangkalan AS dan situs-situs sipil di Teluk setelah jeda",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
-      "summary": "Tehran has ramped up attacks in recent days as the US naval blockade and sanctions campaign hurt the country.",
-      "published": "24 Nov 2026 03:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.903,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Rusia mengancam Estonia yang ‘bermusuhan’ dengan ‘perang terbuka’",
-      "url": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss",
-      "summary": "Moscow accuses Tallinn of 'hostile actions' citing border closure and claiming it is allowing Ukraine to launch attacks.",
-      "published": "24 Nov 2026 02:20 WIB",
+      "title": "Perang Rusia-Ukraina sedang berlangsung: Kyiv mengatakan serangan terhadap kapal di lepas pantai Libya untuk membela diri",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/russia-ukraine-war-live-kyiv-says-attack-on-ships-off-libya-self-delfence?traffic_source=rss",
+      "summary": "Kyiv responds to criticism after claiming responsibility for attacking a Russian warship and a cargo vessel off Libya.",
+      "published": "24 Nov 2026 20:30 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
@@ -264,25 +342,80 @@
     },
     {
       "source": "Al Jazeera",
-      "title": "Kapal perang Rusia apa yang baru saja ditenggelamkan Ukraina?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/what-russian-warship-did-ukraine-just-sink?traffic_source=rss",
-      "summary": "Ukraine says it sank the Russian warship Merkury off the coast of Libya. Here's why the vessel is significant.",
-      "published": "24 Nov 2026 01:25 WIB",
+      "title": "Iran Ajukan Tuntutan Hukum ke Pengadilan AS dan Uni Eropa: Akankah Iran Mendapatkan Keadilan Atas ‘Kejahatan Perang’?",
+      "url": "https://www.aljazeera.com/features/2026/11/24/irans-fight-for-wartime-redress-moves-from-battlefield-to-us-eu-courts?traffic_source=rss",
+      "summary": "As Iran seeks accountability and compensation for alleged war crimes, experts say legal proceedings face steep hurdles.",
+      "published": "24 Nov 2026 19:56 WIB",
       "sentiment": "Bearish",
       "score": -0.233,
       "emoji": "🔴",
       "impact": "high"
     },
     {
+      "source": "Al Jazeera",
+      "title": "Tiongkok menempuh ‘garis tipis’ dalam upayanya mencegah terjadinya perang di Tanduk Afrika lagi",
+      "url": "https://www.aljazeera.com/news/2026/11/24/china-walks-thin-line-in-push-to-prevent-another-horn-of-africa-war?traffic_source=rss",
+      "summary": "Beijing has escalated diplomatic efforts to ease tensions involving Egypt, Ethiopia, Eritrea and Djibouti.",
+      "published": "24 Nov 2026 19:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.772,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Mengapa kapal perang Rusia meninggalkan Libya, dan apakah serangan Ukraina akan mengubah hal tersebut?",
+      "url": "https://www.aljazeera.com/news/2026/11/24/why-are-russian-warships-off-libya-and-will-ukraines-attack-change-that?traffic_source=rss",
+      "summary": "Ukraine is stepping up 'long-range sanctions' attacks on Russian vessels far beyond the battlefield.",
+      "published": "24 Nov 2026 18:27 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
       "source": "CNBC World",
-      "title": "CrowdStrike akan membeli Zscaler dalam kesepakatan senilai $44 miliar karena AI meningkatkan serangan siber",
-      "url": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html",
-      "summary": "CrowdStrike and competitors have shelled out billions to ramp up defenses in the wake of AI cyberattacks.",
-      "published": "24 Nov 2026 04:04 WIB",
+      "title": "Rusia menuduh anggota NATO, Estonia, melakukan tindakan bermusuhan ‘di ambang melancarkan perang terbuka’",
+      "url": "https://www.cnbc.com/2026/11/24/russia-estonia-ukraine-war-nato-finland.html",
+      "summary": "Russia accused Estonia of “hostile actions” and warned its border measures risk open war, as Tallinn prepares to close road crossings from Dec. 1.",
+      "published": "24 Nov 2026 20:42 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Saham pembuat obat Insmed menguat 14% setelah Sanofi setuju untuk membelinya dalam kesepakatan farmasi terbesar dalam tiga tahun",
+      "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
+      "summary": "Sanofi faces a revenue drop towards the end of the decade as top-selling drugs lose exclusivity and open up for generic drugmakers to compete.",
+      "published": "24 Nov 2026 21:35 WIB",
+      "sentiment": "Bearish",
+      "score": -0.122,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Iran mengatakan tiga kapal tanker menabrak ranjau di Hormuz meski ada pengawalan AS, sementara Departemen Keuangan memperluas sanksi",
+      "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
+      "summary": "Iran said three oil tankers caught fire after hitting naval mines in the Strait of Hormuz, as the U.S. escalates sanctions aimed at cutting off Tehran's financial lifelines.",
+      "published": "24 Nov 2026 12:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.353,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Tiongkok telah mengubah taktik namun masih menggagalkan kebangkitan India, kata panel AS",
+      "url": "https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html",
+      "summary": "China is increasingly focused on containing India economically rather than through military actions.",
+      "published": "24 Nov 2026 11:27 WIB",
       "sentiment": "Bullish",
-      "score": 0.178,
+      "score": 0.169,
       "emoji": "🟢",
-      "impact": "low"
+      "impact": "high"
     }
   ]
 }
