@@ -1,179 +1,146 @@
 {
-  "generated": "25 Nov 2026 22:03 WIB",
+  "generated": "26 Nov 2026 07:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
   "pairs_affected": [
     {
+      "pair": "XAU/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.297,
+      "count": 16
+    },
+    {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.413,
+      "score": -0.251,
       "count": 15
     },
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.413,
-      "count": 15
-    },
-    {
-      "pair": "XAU/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.524,
+      "score": -0.251,
       "count": 15
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.196,
-      "count": 10
+      "direction": "Tekanan Turun ▼",
+      "score": -0.798,
+      "count": 3
     },
     {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.199,
-      "count": 7
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.199,
-      "count": 7
+      "pair": "GBP/USD",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.708,
+      "count": 2
     },
     {
       "pair": "USD/RUB",
       "direction": "Tekanan Turun ▼",
-      "score": -0.089,
-      "count": 4
+      "score": -0.978,
+      "count": 1
     },
     {
-      "pair": "CAD/JPY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.816,
-      "count": 2
+      "pair": "EUR",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.679,
+      "count": 1
+    },
+    {
+      "pair": "USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.679,
+      "count": 1
     }
   ],
   "items": [
     {
       "source": "ForexLive",
-      "title": "Rincian tarif AS lebih baik dibandingkan skenario terburuk kemarin",
-      "url": "https://investinglive.com/news/us-tariff-details-are-better-than-the-worst-case-scenario-implied-yesterday/",
-      "summary": "The US is taking another step towards rebuilding the tariff regime that was struck down by the Supreme Court in February. Yesterday's WSJ report highlighted the potential for broad new tariffs but the details from senior US officials in a Reuters report just out are somewhat better than feared. Prop",
-      "published": "25 Nov 2026 20:19 WIB",
+      "title": "Bank sentral Afrika Selatan memperingatkan bahwa pesta utang AI telah menjadi masalah pasar obligasi",
+      "url": "https://investinglive.com/central-banks/ai-s-debt-binge-is-becoming-a-bond-market-problem-south-africa-s-central-bank-warns/",
+      "summary": "The SARB's warning adds an official voice to a concern that has mostly lived in credit markets until now, and it widens the debate from tech valuations to the cost of government borrowing. The most exposed markets are emerging-market bonds and currencies, which tend to suffer first when global inves",
+      "published": "26 Nov 2026 05:34 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Moody's mempertahankan Nvidia di Aa1 setelah kembalinya Huang, namun menandai risiko orang kunci dan tata kelola",
+      "url": "https://investinglive.com/stocks/moody-s-keeps-nvidia-at-aa1-after-huang-s-return-but-flags-key-person-and-governance-risks/",
+      "summary": "An unchanged rating removes one possible source of pressure on Nvidia's bonds, but it is unlikely to calm credit markets on its own, because the wider worry is leverage across the AI build-out rather than at Nvidia. For equity investors, the key-person warning is the part that sticks: the stock's re",
+      "published": "26 Nov 2026 05:18 WIB",
+      "sentiment": "Bearish",
+      "score": -0.987,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "investLive Americas FX berita penutup 25 Nov: Selesai. S&P 500 dan Nasdaq mengurangi penurunan tajam",
+      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-25-nov-it-s-a-wrap-s-p-500-and-nasdaq-pare-steep-losses/",
+      "summary": "U.S. stocks close mixed as Dow reverses a 1,105-point drop The Nasdaq looked over the edge. Support held. Now what? Beige Book: Eight of 12 districts report growth as wage pressures pick up Baker Hughes US rig count holds steady at 607. Oil rigs rise by one. Trump blames the election for the selloff",
+      "published": "26 Nov 2026 04:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.735,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Peminjam dengan peringkat sampah dengan pelanggan dengan peringkat AA: Pinjaman CoreWeave berikutnya bersandar pada Meta",
+      "url": "https://investinglive.com/stocks/a-junk-rated-borrower-with-an-aa-rated-customer-coreweave-s-next-loan-leans-on-meta/",
+      "summary": "Credit markets are moving ahead of equities on AI risk, and that is the main warning sign for the Nasdaq and the wider tech-heavy indices. If borrowing costs keep rising for the most heavily indebted AI operators, chipmakers and cloud names could come under pressure next, since their growth depends ",
+      "published": "26 Nov 2026 04:43 WIB",
       "sentiment": "Bullish",
-      "score": 0.681,
+      "score": 0.238,
       "emoji": "🟢",
       "impact": "high"
     },
     {
       "source": "ForexLive",
-      "title": "Rupee India menguat karena penurunan harga minyak mengurangi tekanan; Eskalasi perdagangan di Timur Tengah dan resesi masih menjadi risiko utama",
-      "url": "https://investinglive.com/forex/indian-rupee-strengthens-as-falling-oil-prices-ease-pressure-middle-east-escalation-and-recession-trade-remain-key-risks/",
-      "summary": "Indian rupee has been on a sustained uptrend as oil prices kept falling steadily amid lower demand expectations on increased global growth concerns. India is heavily dependent on imported crude, meaning higher oil prices require Indian importers to buy more dollars to pay for energy, increasing dema",
-      "published": "25 Nov 2026 20:12 WIB",
+      "title": "Trump menyalahkan pemilu atas aksi jual tersebut. Inilah yang saya tonton.",
+      "url": "https://investinglive.com/news/trump-blames-the-election-for-the-selloff-here-s-what-i-m-watching/",
+      "summary": "President Trump blamed the November 3 election results for the drop in stocks in a Wednesday post on Truth Social. The first place I’d look is the chip stocks. The Nasdaq was down about 4% in morning trading versus roughly 2.5% for the S&P 500. Nvidia was down nearly 9% and the Philadelphia Semicond",
+      "published": "26 Nov 2026 00:46 WIB",
       "sentiment": "Bearish",
-      "score": -0.632,
+      "score": -0.681,
       "emoji": "🔴",
-      "impact": "low"
+      "impact": "medium"
     },
     {
-      "source": "ForexLive",
-      "title": "Investing Penutupan sesi Eropa langsung: Ekuitas dan aksi jual teknologi semakin dalam, emas mengancam $3.500",
-      "url": "https://investinglive.com/news/investinglive-european-session-wrap-equities-and-tech-selloff-deepens-gold-threatens-3-500/",
-      "summary": "Headlines: Wall Street braces for another beatdown as US futures tumble, tech selloff deepens Gold is losing its grip again as sellers eye a break of the $3,500 level Gold erases gains as Nvidia optimism fades and US moves to restore tariffs to 2025 levels Crude oil consolidates as bearish momentum ",
-      "published": "25 Nov 2026 19:43 WIB",
+      "source": "Bloomberg Markets",
+      "title": "Dana Jupiter senilai $3,6 Miliar Menjadi Defensif, Menghindari Penjualan Teknologi",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/asia-fund-beating-89-of-peers-trims-tech-adds-defensive-names",
+      "summary": "An Asia-focused fund run by Jupiter Asset Management has beaten 89% of its peers this year, thanks to a pivot toward defensive stocks before the AI trade started unraveling in the summer, according to the fund’s co-manager Sam Konrad.",
+      "published": "26 Nov 2026 06:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.421,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Venus Williams tentang Kesepakatan WeWard dan Pola Pikir Investasinya",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-25/venus-williams-on-weward-deal-and-her-investing-mindset-video",
+      "summary": "Tennis legend Venus Williams sat down with Bloomberg’s Romaine Bostick in an exclusive interview on November 17, 2026, to talk about her origin story with WeWard and how she decided to invest in the walking app. (Source: Bloomberg)",
+      "published": "26 Nov 2026 05:58 WIB",
+      "sentiment": "Bullish",
+      "score": 0.128,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Porky Mengakhiri Tahun Pemilu Peru dengan Tangan Kosong",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/porky-ends-peru-s-election-year-nearly-empty-handed",
+      "summary": "Rafael López Aliaga, Lima’s brash ex-mayor, ran for office three times this year, trying to become Peru’s president, a senator and finally, the capital’s mayor once again. The right-wing businessman came close to all three and challenged electoral authorities along the way, but ended up with only a ",
+      "published": "26 Nov 2026 05:07 WIB",
       "sentiment": "Netral",
-      "score": 0.007,
+      "score": 0.028,
       "emoji": "⚪",
       "impact": "medium"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Minyak mentah berkonsolidasi seiring meredanya momentum bearish sementara risiko geopolitik tetap tinggi",
-      "url": "https://investinglive.com/commodities/crude-oil-consolidates-as-bearish-momentum-eases-while-geopolitical-risks-remain-high/",
-      "summary": "Crude oil has been consolidating around the 80.00 handle as the selling pressure eased recently. Growth concerns could still push oil price lower, but we will likely need a bigger selloff in the stock market, an even more hawkish Fed or weak economic data to keep the bearish momentum going. On the n",
-      "published": "25 Nov 2026 18:29 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Mengapa stop loss yang ketat hanyalah jebakan psikologis",
-      "url": "https://investinglive.com/education/why-tight-stop-losses-are-just-a-psychological-trap/",
-      "summary": "One of the most common mistakes among retail traders is placing stop losses too close to their entry price in an attempt to improve their risk-to-reward ratio. This is basically a psychological trap. A tighter stop loss does not automatically make a trade better or reduce the actual risk. More often",
-      "published": "25 Nov 2026 16:10 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terkini untuk 25 November",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/latest-oil-market-news-and-analysis-for-nov-25",
-      "summary": "Oil edged higher as escalating attacks in the Middle East clouded the recovery in crude shipments from the region in recent months.",
-      "published": "25 Nov 2026 06:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.778,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Embraer Tenggelam Paling Banyak Sejak Mei saat AS Usulkan Retribusi Pesawat ke Brasil",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/embraer-sinks-most-since-may-as-us-proposes-brazil-aircraft-levy",
-      "summary": "Embraer SA shares fell almost 10% in São Paulo after the US proposed an additional 10% tariff on aircraft exported from Brazil.",
-      "published": "25 Nov 2026 21:02 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Aksi Jual Teknologi Masih Pesat Menjelang PCE; AS Siapkan Kenaikan Tarif",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-25/bloomberg-brief-11-25-2026-video",
-      "summary": "US equity futures drop as questions mount over the outlook for the AI trade, while Treasuries rally ahead of the latest PCE data. China calls the prospect of new US tariffs on its exports “political maneuvering” and urges both sides to maintain their trade truce. Max Kettner of HSBC joins \"Bloomberg",
-      "published": "25 Nov 2026 20:28 WIB",
-      "sentiment": "Bullish",
-      "score": 0.33,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pedagang Gas Eropa Sedang Menghadapi Musim Dingin yang Bergejolak",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-25/europe-s-gas-traders-are-in-for-a-volatile-winter",
-      "summary": "The continent’s slim buffer of supply, combined with shifting weather forecasts and war in the Middle East, will continue to whipsaw the market.",
-      "published": "25 Nov 2026 20:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.679,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pembeli Baja AS Beralih ke Luar Negeri karena Booming Pusat Data Menghambat Pasokan",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-steel-buyers-turn-abroad-as-data-center-boom-strains-supply",
-      "summary": "Cheaper Asian imports are gaining traction with US steel buyers despite Washington’s tariffs, as a data center construction boom squeezes domestic supplies and drives up prices.",
-      "published": "25 Nov 2026 05:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.233,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pakar Strategi Goldman Mengatakan Masih Terlalu Dini untuk Membeli Aksi Jual AI",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/goldman-strategist-says-it-s-too-early-to-buy-the-ai-selloff",
-      "summary": "Investors need to see real profits from the billions being spent to build artificial intelligence, according to Goldman Sachs Group Inc.’s Christian Mueller-Glissmann, who warned it’s too soon to buy stocks.",
-      "published": "25 Nov 2026 20:17 WIB",
-      "sentiment": "Bullish",
-      "score": 0.519,
-      "emoji": "🟢",
-      "impact": "high"
     },
     {
       "source": "Google News Geopolitik",
@@ -187,36 +154,14 @@
       "impact": "medium"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Mata uang Iran anjlok setelah sanksi baru AS - Al Arabiya English",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYVV4UGxsV2V4RVA2dXNrcHE0Y24yOWd5YmJTc3NGNkJ2Ym85Y0hXLWpyOWZPcjVFRTVGeW9SbVhvQ21vQkRXczlGUGloWlpFNTlWSkJPa1FBWTZWeVlwcVdlN0QtUzZETlVNRnI2N3BHZDA0TlRyRFMwUExTU1ZLZTZfZnF0cUxmU2JnZlVETGRRTE5DODZsTlRLMkRlcTFWX3dyVmF3NNIBrAFBVV95cUxOTk95Zl9IM2JvWHNMQUhwa3VYeXQ5bk9UZklMZllQM1c4WV81NGJ4dXBEbDJuTUFEeE1lU0M1Q0V5TThiTFVKaDd0LUFCZmM5RFllQ3hEcVJ0QXdQcnE3czhSR2hKOGl1NjE3b0RLeG5BZGxGVkVhYnJwQVdWY3EwQnd1NlZCOFEyalF2VzZGc2pTUDU5YzhrcUJ3RTFBcDJsQXkxM2hiRUFHQWhZ?oc=5",
-      "summary": "Iran currency plunges after fresh US sanctions Al Arabiya English",
-      "published": "24 Nov 2026 17:56 WIB",
-      "sentiment": "Bullish",
-      "score": 0.477,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Rial Iran mencapai rekor terendah setelah sanksi baru AS menargetkan jaringan keuangan - Middle East Monitor",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbENfN2pLX2hlb0NDdWhFLUtkTWhxRE5KTHJ4VnB0XzhnNFRGQlRrNEd5US15LTlYM2xwREtHbUpGbmxxNmpmcGJMQXlNSkdrVEdWNU9hR3FZRGhNMWtGMFdTUkd5YW5FZHpjVTNZYkkxTm1QY3ViYVFPSk1ZRGJnME1ycUk3ekpjWnYxUUJwSkFGYUFVdWdOSDVwUWpNX1NpWXFhYjBSV25QLUdOWW5uNVpDeUdUcGRlX0NnbHNyONIBxAFBVV95cUxOVnhuNzhvZFU1cGFrZ3EwdTM3WmlIazA0aDlNSEgxUmZuNkVNa0pqVHdNTVZrMGlRb2RoRm41Q1EzLUVpS0d5enJ6SGpTS1hNSHpFMXV3SnY4ZWhTUDJ5Y2kzM3J4dDdqb2pFc29DaWpuUFBmbEhVMUVhRV9kejVnWXpXWlA2STVMeTQ2dE5Hei1fUUxmTWFlZVlBeWxWWjZGTGVVVnd3X1h0WmZuUTlRVWVyVkNtYmtoUTJraml1Zl9Hck5s?oc=5",
-      "summary": "Iranian rial hits record low after fresh US sanctions target financial network Middle East Monitor",
-      "published": "24 Nov 2026 22:51 WIB",
-      "sentiment": "Netral",
-      "score": 0.023,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Departemen Keuangan AS memberikan sanksi kepada dua lusin bursa Iran dan mitra dagang asing - thecradle.co",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONkk5YTUzWHl5RUpqX2tMcDBfOGJCdS1JeW9UbWVhWElRTGJFbmNoM1hXX0VVUEttQTV6cW1wanVlVVloT3psVTBqRG9IaDhlS0dFN2hEOEdKWkNRNFVmd1FnR25aX0s2VU1DckVJbHNfdndzczR0eGxOd2lWdGowOTRjUTg1UGk4cTJvLVJGMHNrOTBjUzdkb2ZSNlRadHJ5TXRSRDFxbEJlb3k1dG9NU3hBUnpDQQ?oc=5",
-      "summary": "US Treasury sanctions over two dozen Iranian exchange houses, foreign trading partners thecradle.co",
-      "published": "24 Nov 2026 22:47 WIB",
-      "sentiment": "Bullish",
-      "score": 0.122,
-      "emoji": "🟢",
+      "source": "BBC World",
+      "title": "Keluarga saya terbunuh di Ukraina. Ibuku menyalahkan pasukan Zelensky – kenyataannya rumit",
+      "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC journalist Anastasiya Gribanova investigates who killed her father and grandparents in the war.",
+      "published": "25 Nov 2026 07:54 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
       "impact": "high"
     },
     {
@@ -232,34 +177,12 @@
     },
     {
       "source": "BBC World",
-      "title": "Keluarga saya terbunuh di Ukraina. Ibuku menyalahkan pasukan Zelensky – kenyataannya rumit",
-      "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC journalist Anastasiya Gribanova investigates who killed her father and grandparents in the war.",
-      "published": "25 Nov 2026 07:54 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC World",
       "title": "Lima jet militer Rusia terkena serangan di lapangan udara, kata Ukraina",
       "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
       "summary": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine.",
       "published": "25 Nov 2026 21:46 WIB",
       "sentiment": "Bearish",
       "score": -0.208,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Saksikan: Saat pasukan menyerbu rumah dan menangkap gembong narkoba Meksiko",
-      "url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Newly-released bodycam footage shows the moment troops detained 'El Chapo Isidro', who had managed to evade capture for years.",
-      "published": "24 Nov 2026 16:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.402,
       "emoji": "🔴",
       "impact": "low"
     },
@@ -276,87 +199,65 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "UE menawarkan kesepakatan baru kepada Inggris mengenai skema 'Made in Europe'",
-      "url": "https://www.bbc.co.uk/news/articles/c50md8x9gdgro?at_medium=RSS&at_campaign=rss",
-      "summary": "The draft proposal could see the UK join the scheme without having to increase import taxes on Chinese cars.",
-      "published": "25 Nov 2026 17:59 WIB",
+      "title": "Andy Taylor: Gitaris Duran Duran yang merupakan Wild Boy sejati",
+      "url": "https://www.bbc.co.uk/news/articles/c0666rn4l5vo?at_medium=RSS&at_campaign=rss",
+      "summary": "How a wayward child from the north-east of England made it with the world's biggest band.",
+      "published": "26 Nov 2026 05:16 WIB",
       "sentiment": "Bullish",
-      "score": 0.449,
+      "score": 0.341,
       "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pengadilan AS memvonis Huawei atas pencurian: Sejarah kesengsaraan global perusahaan Tiongkok",
-      "url": "https://www.aljazeera.com/news/2026/11/25/us-court-convicts-huawei-of-theft-a-history-of-chinese-firms-global-woes?traffic_source=rss",
-      "summary": "Chinese tech giant has faced legal problems from Europe to Asia, and its products have been banned in trade war with US.",
-      "published": "25 Nov 2026 20:37 WIB",
-      "sentiment": "Bearish",
-      "score": -0.924,
-      "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Trinity Rodman absen dari kualifikasi Piala Dunia USWNT karena cedera bahu",
-      "url": "https://www.aljazeera.com/sports/2026/11/25/trinity-rodman-out-of-uswnts-world-cup-qualifier-due-to-shoulder-injury?traffic_source=rss",
-      "summary": "Star forward Trinity Rodman sustained a minor shoulder injury during Washington Spirit's 2-1 loss to Kansas City.",
-      "published": "25 Nov 2026 19:43 WIB",
+      "title": "Houthi menargetkan pelabuhan Laut Merah di Arab Saudi ketika serangan meningkat",
+      "url": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
+      "summary": "Explosion reported in Sanaa after Saudi air defenses intercept ballistic missiles targeting Riyadh.",
+      "published": "26 Nov 2026 06:33 WIB",
       "sentiment": "Bearish",
-      "score": -0.944,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Serangan Rusia ke Ukraina menewaskan lima orang dan menyebabkan pemadaman listrik di lima wilayah",
-      "url": "https://www.aljazeera.com/news/2026/11/25/russian-strikes-on-ukraine-cause-power-outages-in-five-regions?traffic_source=rss",
-      "summary": "A Ukrainian official says attacks on Zaporizhia and Dnipropetrovsk regions damaged a number of energy sites.",
-      "published": "25 Nov 2026 19:19 WIB",
-      "sentiment": "Bearish",
-      "score": -0.971,
+      "score": -0.282,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "RSF Sudan menewaskan sedikitnya 19 orang dalam serangan pesawat tak berawak di negara bagian Blue Nile",
-      "url": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan?traffic_source=rss",
-      "summary": "The attacks on Blue Nile state also wounded at least 20 people – in a drone war that is quickly escalating.",
-      "published": "25 Nov 2026 18:58 WIB",
+      "title": "Baby Aliyah mencuri perhatian saat debat Senat Australia",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/baby-aliyah-steals-the-show-during-australian-senate-debate?traffic_source=rss",
+      "summary": "Australian Senator Fatima Payman addressed the Senate with her six-month-old daughter, Aliyah, in her arms",
+      "published": "26 Nov 2026 03:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.511,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Angkatan Darat AS menyatakan peledakan timbal azida di Iowa 'sangat berhasil'",
+      "url": "https://www.aljazeera.com/news/2026/11/25/us-army-declares-iowa-lead-azide-detonation-tremendously-successful?traffic_source=rss",
+      "summary": "Army hails Iowa's lead azide disposal operation as some experts warn of potentially hidden toxins.",
+      "published": "26 Nov 2026 02:41 WIB",
+      "sentiment": "Bearish",
+      "score": -0.183,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Bisakah serangan baru di pelabuhan Hodeidah memperburuk krisis kemanusiaan di Yaman?",
+      "url": "https://www.aljazeera.com/news/2026/11/25/could-renewed-strikes-on-hodeidah-port-worsen-yemens-humanitarian-crisis?traffic_source=rss",
+      "summary": "Disruptions at Yemen's largest seaport could exacerbate hardships for millions of Yemenis, aid experts warn.",
+      "published": "26 Nov 2026 02:15 WIB",
       "sentiment": "Bearish",
       "score": -1.0,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Serangan Israel membunuh pejabat Hamas, istri dan anak-anaknya",
-      "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children?traffic_source=rss",
-      "summary": "The air strike hit their Gaza apartment amid escalating Israeli attacks, the Interior Ministry says.",
-      "published": "25 Nov 2026 18:24 WIB",
-      "sentiment": "Bearish",
-      "score": -0.893,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "AS mengusulkan tarif baru terhadap Tiongkok dan negara-negara lain seiring Trump meningkatkan senjata perdagangan favoritnya",
-      "url": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
-      "summary": "A plan for new levies comes after Supreme Court tossed broader Trump tariffs earlier this year.",
-      "published": "25 Nov 2026 21:14 WIB",
-      "sentiment": "Bullish",
-      "score": 0.772,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
       "source": "CNBC World",
       "title": "AS mengusulkan tarif baru terhadap 14 mitra dagangnya, termasuk Tiongkok dan UE",
       "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
-      "summary": "The new levies seek to counter foreign trade practices deemed unfair, discriminatory, or burdensome to U.S. commerce.",
-      "published": "25 Nov 2026 20:37 WIB",
+      "summary": "The new levies seek to counter foreign trade practices deemed unfair, discriminatory or burdensome to U.S. commerce.",
+      "published": "25 Nov 2026 23:02 WIB",
       "sentiment": "Bearish",
       "score": -0.71,
       "emoji": "🔴",
@@ -364,51 +265,7 @@
     },
     {
       "source": "CNBC World",
-      "title": "Liesman: Whiplash Nvidia menguji dorongan Kevin Warsh untuk membaca sinyal pasar",
-      "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
-      "summary": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
-      "published": "25 Nov 2026 19:26 WIB",
-      "sentiment": "Bearish",
-      "score": -0.258,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Bahkan harga mainan pun sedang naik daun. Bagaimana masyarakat Amerika mengurangi rencana liburannya",
-      "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
-      "summary": "U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.",
-      "published": "25 Nov 2026 21:55 WIB",
-      "sentiment": "Bullish",
-      "score": 0.36,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Ukraina meminta Putin untuk ‘berhenti mengeluh’ atas serangan kilang minyak karena Rusia menjanjikan pembalasan",
-      "url": "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html",
-      "summary": "Ukraine’s foreign minister told Putin to end the war if he wants Kyiv to stop attacking Russian refineries, after Putin said retaliation was “inevitable.”",
-      "published": "25 Nov 2026 16:18 WIB",
-      "sentiment": "Bearish",
-      "score": -1.0,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Serangan Houthi terhadap menara dana kekayaan negara Arab Saudi PIF melukai 11 orang",
-      "url": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
-      "summary": "This has been the second attack by the Iran-backed group in six days on the tower, although the previous attack did not cause any casualties.",
-      "published": "25 Nov 2026 09:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.807,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "CNBC World",
-      "title": "‘Siap menghadapi badai apa pun’: Menteri UEA optimis terhadap perekonomian karena IMF menaikkan perkiraan",
+      "title": "‘Siap menghadapi badai apa pun’: Menteri UEA optimis terhadap perekonomian karena IMF menaikkan perkiraannya",
       "url": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
       "summary": "The UAE is optimistic about achieving 7%-8% economic growth next year, banking on a \"different\" economic model.",
       "published": "25 Nov 2026 11:06 WIB",
@@ -425,6 +282,50 @@
       "published": "25 Nov 2026 13:09 WIB",
       "sentiment": "Bullish",
       "score": 0.601,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Liesman: Whiplash Nvidia menguji dorongan Kevin Warsh untuk membaca sinyal pasar",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
+      "summary": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
+      "published": "25 Nov 2026 19:26 WIB",
+      "sentiment": "Bearish",
+      "score": -0.258,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Ukraina meminta Putin untuk ‘berhenti mengeluh’ atas serangan kilang minyak karena Rusia menjanjikan pembalasan",
+      "url": "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html",
+      "summary": "Ukraine’s foreign minister told Putin to end the war if he wants Kyiv to stop attacking Russian refineries, after Putin said retaliation was “inevitable.”",
+      "published": "25 Nov 2026 16:18 WIB",
+      "sentiment": "Bearish",
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Bahkan harga mainan pun sedang naik daun. Bagaimana masyarakat Amerika mengurangi rencana liburannya",
+      "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+      "summary": "U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.",
+      "published": "25 Nov 2026 23:17 WIB",
+      "sentiment": "Bullish",
+      "score": 0.36,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Liesman: Mengapa Greenspan bisa bertaruh pada produktivitas — dan Warsh perlu meningkatkannya",
+      "url": "https://www.cnbc.com/2026/11/25/kevin-warsh-greenspan-fed-rates-ai-inflation.html",
+      "summary": "Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?",
+      "published": "26 Nov 2026 04:56 WIB",
+      "sentiment": "Bullish",
+      "score": 0.569,
       "emoji": "🟢",
       "impact": "high"
     }
