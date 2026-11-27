@@ -1,5 +1,5 @@
 {
-  "generated": "26 Nov 2026 22:03 WIB",
+  "generated": "27 Nov 2026 07:03 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,53 +7,86 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.235,
-      "count": 23
+      "score": -0.278,
+      "count": 18
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.204,
-      "count": 22
+      "score": -0.278,
+      "count": 18
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.166,
-      "count": 20
+      "score": -0.218,
+      "count": 16
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.316,
-      "count": 9
+      "direction": "Netral →",
+      "score": -0.012,
+      "count": 10
     },
     {
       "pair": "AUD/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.314,
+      "score": -0.121,
       "count": 6
     },
     {
       "pair": "USD/CNY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.314,
+      "score": -0.121,
       "count": 6
+    },
+    {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.153,
+      "count": 4
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
       "score": -0.399,
       "count": 2
-    },
-    {
-      "pair": "NOK/SEK",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.399,
-      "count": 2
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "ECB memilih Hernández de Cos dari Spanyol sebagai presiden, dengan 3 tes menunggu sejak hari pertama",
+      "url": "https://investinglive.com/central-banks/ecb-picks-spain-s-hernandez-de-cos-as-president-with-3-tests-waiting-from-day-one/",
+      "summary": "For bonds, the appointment matters most for the gap between French and German yields. Markets may treat a president who backed quantitative easing as a slightly firmer safety net for French debt, but his record on fiscal discipline makes a blanket rescue unlikely. That leaves French spreads tied to ",
+      "published": "27 Nov 2026 05:42 WIB",
+      "sentiment": "Bullish",
+      "score": 0.172,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Pratinjau IHK Tokyo: inflasi inti terlihat melonjak ke 3% tiga minggu sebelum keputusan BoJ",
+      "url": "https://investinglive.com/central-banks/tokyo-cpi-preview-core-inflation-seen-jumping-to-3-three-weeks-before-boj-decision/",
+      "summary": "A firm Tokyo print would add support for the yen, which is still trading near 160 per dollar despite close to $100 billion of intervention. The Fed is also hiking, so the rate gap stays wide, and a BoJ hike on its own may not change the yen's direction much without signs of a quicker pace afterwards",
+      "published": "27 Nov 2026 04:01 WIB",
+      "sentiment": "Bullish",
+      "score": 0.195,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "ForexLive",
+      "title": "Imbal hasil obligasi CoreWeave mendekati 19%. Mengapa investor saham pun harus memperhatikannya",
+      "url": "https://investinglive.com/stocks/coreweave-bond-yields-are-approaching-19-why-even-stock-investors-should-pay-attention/",
+      "summary": "The AI infrastructure boom requires enormous amounts of capital CoreWeave's falling bond prices offer a warning about the financial risks behind that expansion, even as demand for AI computing continues to grow. Investors following CoreWeave (NASDAQ: CRWV) may want to look beyond its stock chart. On",
+      "published": "26 Nov 2026 21:10 WIB",
+      "sentiment": "Bearish",
+      "score": -0.809,
+      "emoji": "🔴",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Investing Penutupan sesi Eropa secara langsung: Saham-saham Eropa mendorong kembalinya Wall Street ke hari Thanksgiving",
@@ -110,50 +143,6 @@
       "impact": "high"
     },
     {
-      "source": "ForexLive",
-      "title": "Tiongkok membalas ancaman tarif terbaru Trump ketika ketegangan perang dagang kembali muncul",
-      "url": "https://investinglive.com/news/china-hits-back-at-trump-s-latest-tariff-threat-as-trade-war-tensions-resurface/",
-      "summary": "It looks like a trade war is back on the menu again. Just when markets thought they could afford to spend a little less time worrying about US-China tensions, we're back to the familiar exchange of threats between Washington and Beijing this week. China's commerce ministry is hitting back at the lat",
-      "published": "26 Nov 2026 15:01 WIB",
-      "sentiment": "Bearish",
-      "score": -0.91,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Apa acara utama hari ini?",
-      "url": "https://investinglive.com/news/what-are-the-main-events-for-today-94/",
-      "summary": "EUROPEAN SESSION In the European session, we don't have much on the agenda other than a couple of low-tier releases like the French PPI and the ECB meeting minutes. The data won't change anything for the ECB, so the market reaction will be muted. With the US on holiday, we might get some choppy pric",
-      "published": "26 Nov 2026 14:29 WIB",
-      "sentiment": "Bullish",
-      "score": 0.796,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Opsi FX kedaluwarsa pada 26 November 10 pagi pemotongan New York",
-      "url": "https://investinglive.com/orders/fx-option-expiries-for-26-november-10am-new-york-cut/",
-      "summary": "There is arguably just one key expiry level to take note of on the day, as highlighted in bold below. That being for USD/JPY at the 159.40 level, with the strike sitting within 30 pips of the spot price. The expiries here could act as a bit of a magnet in pulling price action closer to the level ahe",
-      "published": "26 Nov 2026 13:30 WIB",
-      "sentiment": "Bearish",
-      "score": -0.33,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "ForexLive",
-      "title": "Perhatian: Liburan Thanksgiving membuat pembeli terpuruk dalam ketidakpastian",
-      "url": "https://investinglive.com/news/heads-up-thanksgiving-holiday-leaves-dip-buyers-in-limbo/",
-      "summary": "The turkey couldn't have come at a more awkward time for Wall Street, could it? Just as things were starting to get interesting again after yesterday's impressive recovery, US traders are now off to enjoy their Thanksgiving break. As a reminder, US stock and bond markets will be closed today in obse",
-      "published": "26 Nov 2026 12:01 WIB",
-      "sentiment": "Bullish",
-      "score": 0.92,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "Reuters Currencies",
       "title": "Lonjakan harga minyak membalikkan sebagian reli rupee dan lonjakan premi - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcVVHMmNCU2duUTNWNkVyNzMzUmhKMWxJZExIQVJwc1hhcDlMNS1KUzYxMnFjc3dGeTViMGg1YmhJUGhjR3REQjRqbks5cTMzMmVpaWtyWHhCOHo0YVg5ZHNfYkJ1NmgtMWxZRU1ib0pUejloVVExcmxqeGJXZ1NQNTJ4YTc5WWEzN3BOaFpnNVIxTk1Gc1ZLbE1PNjQ4c2dmS2Yw?oc=5",
@@ -166,25 +155,47 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Keuntungan Penyulingan Minyak Jatuh Karena Meningkatnya Pasokan Bahan Bakar Global",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/oil-refining-profits-crash-with-global-fuel-supply-rebounding",
-      "summary": "The amount of money oil refiners are making from turning crude into fuel has slumped to the lowest in months as recovering supply and sluggish demand ease the impact of the Iran war.",
-      "published": "26 Nov 2026 21:14 WIB",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 27 November",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/latest-oil-market-news-and-analysis-for-nov-27",
+      "summary": "Oil headed for the first weekly gain this month as attacks on energy infrastructure and tankers in the Middle East raised concerns about escalating hostilities.",
+      "published": "27 Nov 2026 06:05 WIB",
       "sentiment": "Bearish",
-      "score": -0.973,
+      "score": -0.128,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Inggris adalah Negara Besar Eropa Terbaru yang Melaporkan Penurunan Permintaan Diesel",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/uk-is-latest-big-european-economy-to-report-diesel-demand-slump",
-      "summary": "The UK is the latest major European country to report faltering sales of diesel fuel amid sky-high prices triggered by conflicts in the Middle East and Ukraine.",
-      "published": "26 Nov 2026 20:51 WIB",
+      "title": "Berita dan Analisis Pasar Minyak Terbaru 26 November",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/latest-oil-market-news-and-analysis-for-nov-26",
+      "summary": "Oil rose in thin trading during the US holiday as an attack on a Saudi refinery threatened to undermine a recovery in the region’s crude exports.",
+      "published": "26 Nov 2026 06:03 WIB",
       "sentiment": "Bearish",
-      "score": -0.557,
+      "score": -0.852,
       "emoji": "🔴",
       "impact": "low"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Selandia Baru Siap Pelajari Siapa yang Dapat Membentuk Pemerintahan Berikutnya",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/new-zealand-poised-to-learn-who-can-form-its-next-government",
+      "summary": "New Zealand will learn Friday who is in a position to form its next government, three weeks after an election that was too close to call.",
+      "published": "27 Nov 2026 01:00 WIB",
+      "sentiment": "Bullish",
+      "score": 0.25,
+      "emoji": "🟢",
+      "impact": "medium"
+    },
+    {
+      "source": "Google News Forex",
+      "title": "Hua Nan Financial memperkirakan Bank Sentral Taiwan akan menaikkan suku bunga sebesar setengah poin preventif pada akhir tahun; Dolar Taiwan terlihat terikat dalam kisaran dengan bias ke atas pada tahun 2027 - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQMEJVNVRrdWdXdGd4MFp6MmxDZ2FHUFFFTWY4dXlYLXFWRXJUQ1p4T3djQWg4czJsOTN2dlBMaUo5bFZlbUtpM3RpY0ZIMm1RMzhrRVFTaTd3NUV0YjQyQzBLRU5nRDBUN0tPR3VfR3B5Z2Y0ZHc?oc=5",
+      "summary": "Hua Nan Financial expects Taiwan's Central Bank to raise rates by a preventive half-point by year-end; Taiwan dollar seen range-bound with upward bias in 2027 BigGo Finance",
+      "published": "26 Nov 2026 17:05 WIB",
+      "sentiment": "Bearish",
+      "score": -0.282,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "Google News Geopolitik",
@@ -199,12 +210,12 @@
     },
     {
       "source": "Google News Geopolitik",
-      "title": "Emas berjuang mendekati level terendah mingguan karena taruhan Fed dan geopolitik mendukung USD menjelang PCE AS - www.tmgm.com",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNOU9lZWY5d3BCai1TTU9HcUdEYmQ0bFUwY0NtdjB0WDdTaHNtb0xDbzNEeVZKUDk5ZUdnNGJpZldfZTBMTEhKczc1dExfMVZBenIyQ1V0WGxXbGRCV1JMcUFUY1Q4bzIzVXRXSi1DMDVPRFR2ek5aT1NQS2RpQkstbXVrQ0dVSTdZRmhUWmpSaG41cnNkaWVsRVRfWFI1NDE2cUxtZ2xTZ04yZjhEM1VtMkVtczM4b3NwLVBPRXlpdmNab0Ezc3ZkNEpIRUtFS19TeDZycXM0d0E2OWxhMTVlYmdzS1JTS0E?oc=5",
-      "summary": "Gold struggles near weekly low as Fed bets and geopolitics support USD ahead of US PCE www.tmgm.com",
-      "published": "25 Nov 2026 11:24 WIB",
+      "title": "Franc Swiss menjauh dari puncak dua minggu karena USD menguat karena taruhan Fed dan risiko geopolitik - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNamJOTFZvLVJfZ2FKQTZzTWxwQzV5SkpSQ0ZuV0VXeGExZVhWVDRJejFQbERtdmlIUmtXWXhZbGhhRlRVeXg3RDZqMVdoSHFKemt3Szk0Zi0tLU9ENGx5WWRaODBZZm9RZFRkNS15eG1rSmRzeXFDbUg5V0dBeW0yVHpkNEp1ckZMUUlvaWxjc1lVMDF3SDR3Nndjd0Z4Q3R3ZFI4b01BLXVKLTNzYjRkSUtJdmpQZDJhUk95WGhGenlsQVpaSWlJ?oc=5",
+      "summary": "Swiss Francs moves away from two-week top as USD firms on Fed bets, geopolitical risks FXStreet",
+      "published": "26 Nov 2026 16:02 WIB",
       "sentiment": "Bearish",
-      "score": -0.226,
+      "score": -0.157,
       "emoji": "🔴",
       "impact": "medium"
     },
@@ -215,9 +226,20 @@
       "summary": "BDC $1m Dollar Boost: Experts Flag Election Spending, Warn Policy May Reopen Import Floodgates The Whistler Newspaper",
       "published": "26 Nov 2026 12:05 WIB",
       "sentiment": "Bullish",
-      "score": 0.477,
+      "score": 0.238,
       "emoji": "🟢",
       "impact": "high"
+    },
+    {
+      "source": "BBC World",
+      "title": "Politik dan mengintip-a-boo di parlemen Australia ketika senator membawa bayi ke tempat kerja",
+      "url": "https://www.bbc.co.uk/news/videos/cmvg23djw8v9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Senator Lidia Thorpe kept 6-month-old Aaliyah entertained, as her mum Senator Fatima Payman, participated in an online safety bill debate.",
+      "published": "26 Nov 2026 16:49 WIB",
+      "sentiment": "Bullish",
+      "score": 0.67,
+      "emoji": "🟢",
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -231,114 +253,125 @@
       "impact": "low"
     },
     {
+      "source": "BBC Business",
+      "title": "Faisal Islam: Mengapa tarif baru Trump tidak terlalu menimbulkan ancaman",
+      "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
+      "published": "27 Nov 2026 02:55 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
+      "source": "BBC Business",
+      "title": "Inggris akan membayar biaya 'partisipasi' untuk mewujudkan kesepakatan UE",
+      "url": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
+      "summary": "Details of the contribution towards EU running costs have been revealed in new legal documents.",
+      "published": "27 Nov 2026 06:17 WIB",
+      "sentiment": "Netral",
+      "score": 0.026,
+      "emoji": "⚪",
+      "impact": "high"
+    },
+    {
       "source": "BBC Top Stories",
-      "title": "Pasukan cadangan Inggris dihubungi ketika 'ancaman lingkungan' meningkat, kata Streeting",
-      "url": "https://www.bbc.co.uk/news/articles/cvrlgznd9z4po?at_medium=RSS&at_campaign=rss",
-      "summary": "It comes after reports that reservists have received letters telling them to prepare to be called up for war.",
-      "published": "26 Nov 2026 20:24 WIB",
+      "title": "Penyerang kereta Huntingdon dinyatakan bersalah atas 14 dakwaan percobaan pembunuhan",
+      "url": "https://www.bbc.co.uk/news/articles/ck053j37yr9lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Anthony Williams, 33, is convicted of 10 attacks on a train and four in Peterborough and London.",
+      "published": "27 Nov 2026 02:00 WIB",
       "sentiment": "Bearish",
-      "score": -0.887,
+      "score": -1.0,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Knifeman memberi tahu dokter bahwa obat psikosisnya tidak berfungsi beberapa hari sebelum serangan Huntingdon",
+      "url": "https://www.bbc.co.uk/news/articles/ck62p4pzg4qyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Now his trial has concluded over the LNER train attack, we can report Anthony Williams' long history of criminality.",
+      "published": "26 Nov 2026 22:38 WIB",
+      "sentiment": "Bearish",
+      "score": -0.815,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
+      "title": "Huw Edwards memberikan wawancara pertama sejak hukuman gambar pelecehan anak",
+      "url": "https://www.bbc.co.uk/news/articles/c38x05jrjnx7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Minister Anna Turley said she was \"deeply uncomfortable\" with the interviews, while Channel 4 has insisted it \"holds Edwards to account\".",
+      "published": "27 Nov 2026 06:29 WIB",
+      "sentiment": "Bearish",
+      "score": -0.876,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "BBC Top Stories",
-      "title": "Andy Taylor: Gitaris Duran Duran yang merupakan Wild Boy sejati",
-      "url": "https://www.bbc.co.uk/news/articles/c0666rn4l5vo?at_medium=RSS&at_campaign=rss",
-      "summary": "How a wayward child from the north-east of England made it with the world's biggest band.",
-      "published": "26 Nov 2026 05:16 WIB",
-      "sentiment": "Bullish",
-      "score": 0.341,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "William mengungkapkan kesedihannya saat badan amal Diana Award masuk ke administrasi",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg2nmd9n8yo?at_medium=RSS&at_campaign=rss",
-      "summary": "The charity, set up in memory of the late Princess of Wales, says it confirmed the news with \"heavy hearts\".",
-      "published": "26 Nov 2026 20:50 WIB",
-      "sentiment": "Bullish",
-      "score": 0.808,
-      "emoji": "🟢",
-      "impact": "high"
-    },
-    {
       "source": "Al Jazeera",
-      "title": "Bisakah Trump melanjutkan perang terhadap Iran meski ada pembatasan pendanaan?",
-      "url": "https://www.aljazeera.com/news/2026/11/26/can-trump-continue-with-iran-war-despite-funding-restrictions?traffic_source=rss",
-      "summary": "A Congress budget bill could serve as a pressure tactic on Trump to end the war but could also trigger a shutdown.",
-      "published": "26 Nov 2026 21:17 WIB",
+      "title": "Serangan terhadap kilang Jazan di Saudi menewaskan satu orang dan mengganggu operasi",
+      "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+      "summary": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says.",
+      "published": "27 Nov 2026 03:34 WIB",
       "sentiment": "Bearish",
-      "score": -0.75,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Parlemen Yordania memperdebatkan undang-undang 'antiteror' setelah serangan mematikan di gereja Karak",
-      "url": "https://www.aljazeera.com/news/2026/11/26/jordan-parliament-debates-antiterror-law-after-deadly-karak-church-attack?traffic_source=rss",
-      "summary": "House votes to refer draft amendments to the 2006 Anti-Terrorism Law to its Legal Committee for review.",
-      "published": "26 Nov 2026 20:23 WIB",
-      "sentiment": "Bearish",
-      "score": -0.462,
+      "score": -1.0,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "FIFA mengatakan informasi pribadi dan bisnis dicuri dalam serangan siber",
-      "url": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack?traffic_source=rss",
-      "summary": "No files from the abandoned FIFA Forward Enterprise project were accessed, according to media reports.",
-      "published": "26 Nov 2026 19:31 WIB",
+      "title": "Apa dampak tarif terbaru Trump bagi dunia?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/11/26/what-will-trumps-latest-tariffs-mean-for-the-world?traffic_source=rss",
+      "summary": "New measures come after previous trade tariffs ruled illegal.",
+      "published": "27 Nov 2026 01:53 WIB",
       "sentiment": "Bearish",
-      "score": -0.973,
+      "score": -0.557,
+      "emoji": "🔴",
+      "impact": "medium"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Kushner menjelaskan ‘hal baik’ dari kehancuran Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/kushner-explains-the-good-thing-about-gazas-destruction?traffic_source=rss",
+      "summary": "Jared Kushner says the “good thing” about Israel’s genocidal war on Gaza is that it can be built into “something new”.",
+      "published": "27 Nov 2026 01:30 WIB",
+      "sentiment": "Bearish",
+      "score": -0.902,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "‘Simbolis’: Mengapa Inggris memberikan sanksi kepada Houthi Yaman di tengah serangan terhadap Saudi?",
-      "url": "https://www.aljazeera.com/news/2026/11/26/symbolic-why-did-uk-sanction-yemens-houthis-amid-attacks-on-saudi?traffic_source=rss",
-      "summary": "UK sanctions Iran-backed group and its leaders, accusing them of undermining stability in the Middle East.",
-      "published": "26 Nov 2026 19:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.887,
-      "emoji": "🔴",
+      "title": "Trump menyebut data PDB yang dirilis sebelum paruh waktu sebagai data palsu dan menuntut penyelidikan",
+      "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation?traffic_source=rss",
+      "summary": "President says it was a deliberate decision to release 'fake' growth numbers before US midterm elections.",
+      "published": "27 Nov 2026 01:27 WIB",
+      "sentiment": "Netral",
+      "score": -0.048,
+      "emoji": "⚪",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Irak membantah laporan pergerakan pasukan menuju wilayah Kurdi",
-      "url": "https://www.aljazeera.com/news/2026/11/26/iraq-denies-reports-of-troop-movements-towards-kurdish-region?traffic_source=rss",
-      "summary": "Government says there is 'no truth' to media reports that Iraqi army units were moving towards the Kurdistan region.",
-      "published": "26 Nov 2026 18:23 WIB",
+      "title": "Para pemimpin militer Guinea-Bissau menunda pemilihan presiden hingga tahun 2028",
+      "url": "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years?traffic_source=rss",
+      "summary": "Military leaders say presidential and legislative poll scheduled for December 6 will now take place in November 2028.",
+      "published": "27 Nov 2026 01:07 WIB",
       "sentiment": "Bearish",
-      "score": -0.208,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Apakah tarif Trump ditujukan untuk mencapai kesepakatan dagang yang bersahabat dengan AS?",
-      "url": "https://www.aljazeera.com/news/2026/11/26/are-trumps-tariffs-aimed-at-securing-us-friendly-trade-deals?traffic_source=rss",
-      "summary": "New US policy threatens further tariff hikes on China, India, Vietnam if trade negotiations fall through.",
-      "published": "26 Nov 2026 18:07 WIB",
-      "sentiment": "Bearish",
-      "score": -0.077,
+      "score": -0.318,
       "emoji": "🔴",
       "impact": "medium"
     },
     {
       "source": "CNBC World",
-      "title": "Trump dan ketua NATO memperingatkan Rusia ketika serangan terhadap infrastruktur energi Ukraina semakin intensif",
-      "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
-      "summary": "Trump and NATO chief Mark Rutte urged Russia to avoid actions that could expand the war and called for a rapid peaceful resolution.",
-      "published": "26 Nov 2026 17:45 WIB",
-      "sentiment": "Bearish",
-      "score": -0.5,
-      "emoji": "🔴",
-      "impact": "high"
+      "title": "Pembeli chip Nvidia diminta untuk mengecualikan penyewa Tiongkok untuk membeli GPU, kata sumber",
+      "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+      "summary": "A new BIS rule was intended to close \"loopholes,\" U.S. Trade Representative Jamieson Greer told CNBC's \"Squawk Box\" on Wednesday.",
+      "published": "27 Nov 2026 00:04 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
     },
     {
       "source": "CNBC World",
@@ -346,19 +379,19 @@
       "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
       "summary": "The U.S. planned a fresh tariff salvo on 14 trading partners, while offering some countries lower rates if they secure trade deals with Washington.",
       "published": "26 Nov 2026 19:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.281,
-      "emoji": "🔴",
+      "sentiment": "Bullish",
+      "score": 0.441,
+      "emoji": "🟢",
       "impact": "medium"
     },
     {
       "source": "CNBC World",
-      "title": "Norse Atlantic menangguhkan semua penerbangan, memperingatkan bahwa mereka mungkin akan bangkrut setelah harga saham jatuh",
-      "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
-      "summary": "Norse Atlantic has suspended all flights and said it may it have to file for bankruptcy, a day after it warned its financial position was \"critical.\"",
-      "published": "26 Nov 2026 16:02 WIB",
+      "title": "Trump dan ketua NATO memperingatkan Rusia ketika serangan terhadap infrastruktur energi Ukraina semakin intensif",
+      "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
+      "summary": "Trump and NATO chief Mark Rutte urged Russia to avoid actions that could expand the war and called for a rapid peaceful resolution.",
+      "published": "26 Nov 2026 23:12 WIB",
       "sentiment": "Bearish",
-      "score": -0.916,
+      "score": -0.5,
       "emoji": "🔴",
       "impact": "high"
     },
@@ -372,6 +405,17 @@
       "score": 0.907,
       "emoji": "🟢",
       "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Norse Atlantic menangguhkan semua penerbangan, memperingatkan bahwa mereka mungkin akan bangkrut setelah harga saham jatuh",
+      "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
+      "summary": "Norse Atlantic has suspended all flights and said it may it have to file for bankruptcy, a day after it warned its financial position was \"critical.\"",
+      "published": "26 Nov 2026 16:02 WIB",
+      "sentiment": "Bearish",
+      "score": -0.916,
+      "emoji": "🔴",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -402,20 +446,9 @@
       "summary": "U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.",
       "published": "25 Nov 2026 23:17 WIB",
       "sentiment": "Bullish",
-      "score": 0.601,
+      "score": 0.36,
       "emoji": "🟢",
       "impact": "high"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "‘Siap menghadapi badai apa pun’: Menteri UEA optimis terhadap perekonomian karena IMF menaikkan perkiraan",
-      "url": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
-      "summary": "The UAE is optimistic about achieving 7%-8% economic growth next year, banking on a \"different\" economic model.",
-      "published": "25 Nov 2026 11:06 WIB",
-      "sentiment": "Bullish",
-      "score": 0.815,
-      "emoji": "🟢",
-      "impact": "low"
     }
   ]
 }
