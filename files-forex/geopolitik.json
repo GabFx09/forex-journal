@@ -1,5 +1,5 @@
 {
-  "generated": "28 Nov 2026 07:03 WIB",
+  "generated": "28 Nov 2026 22:02 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,49 +7,49 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.222,
-      "count": 18
+      "score": -0.456,
+      "count": 13
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.192,
-      "count": 18
+      "score": -0.456,
+      "count": 13
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.124,
-      "count": 11
+      "score": -0.488,
+      "count": 12
     },
     {
       "pair": "EUR/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.113,
-      "count": 10
+      "score": 0.282,
+      "count": 3
     },
     {
       "pair": "GBP/USD",
       "direction": "Tekanan Naik ▲",
-      "score": 0.291,
-      "count": 6
-    },
-    {
-      "pair": "AUD/USD",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.221,
-      "count": 2
-    },
-    {
-      "pair": "USD/CNY",
-      "direction": "Tekanan Naik ▲",
-      "score": 0.221,
-      "count": 2
+      "score": 0.282,
+      "count": 3
     },
     {
       "pair": "CAD/JPY",
       "direction": "Tekanan Turun ▼",
       "score": -0.341,
+      "count": 1
+    },
+    {
+      "pair": "NOK/SEK",
+      "direction": "Tekanan Turun ▼",
+      "score": -0.341,
+      "count": 1
+    },
+    {
+      "pair": "EUR",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.679,
       "count": 1
     }
   ],
@@ -77,81 +77,37 @@
       "impact": "low"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Outlook Kredit Hongaria Diangkat oleh S&P pada Anggaran dan Ambisi Euro",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/hungary-credit-outlook-lifted-by-s-p-on-budget-and-euro-ambition",
-      "summary": "S&P Global Ratings lifted the outlook on Hungary’s sovereign debt to stable from negative, citing planned steps by Prime Minister Peter Magyar’s cabinet to cut the budget deficit and eventually adopt the euro.",
-      "published": "28 Nov 2026 04:19 WIB",
+      "source": "FXStreet",
+      "title": "Emas naik menuju tertinggi mingguan karena risiko Fed semakin dekat - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamtYbENVdE5uTmk1WVkwWWFWMVNBb21aVjJJUVNfclgwOXJ6OVZyeGczSG9HUVFHVEJsMDVlTXlxUE00a05rck4yakMzS0lVWV9uLVpjeE42el9jbDJzcS1qUFdnX2FOd0pNX19hdTNrb0ZVVkhuNFBPSWptbU5uVzl2WFlrVV9SX1NETXRSbnN6OGYwLVFYa1hFUXBGaVhIeDVvNTdMbEVFNHJpQjVQVm56c05BYzVhSkk1eG1lWEtEakk?oc=5",
+      "summary": "Gold climbs toward weekly high as Fed risks loom FXStreet",
+      "published": "27 Nov 2026 15:46 WIB",
       "sentiment": "Bearish",
-      "score": -0.796,
+      "score": -0.619,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Real Brasil Caps Pekan Terbaik Sejak 2020 Saat Trabuco Mengangkat Suasana Hati",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister",
-      "summary": "Brazilian markets rallied after President Luiz Inácio Lula da Silva picked one of the nation’s most prominent bankers to be his finance minister, easing the worries about his economic policies that triggered a deep selloff after his surprise re-election last month.",
-      "published": "27 Nov 2026 08:08 WIB",
-      "sentiment": "Bullish",
-      "score": 0.716,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 27 November",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/latest-oil-market-news-and-analysis-for-nov-27",
-      "summary": "Oil swung in thin trading as increasing attacks on energy infrastructure and tankers in the Middle East heightened supply fears.",
-      "published": "27 Nov 2026 06:05 WIB",
-      "sentiment": "Bearish",
-      "score": -0.717,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Sánchez Berusaha Menang dengan Permohonan agar Warga Spanyol Memilih",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote",
-      "summary": "Pedro Sánchez rallied voters to turn out in Sunday’s national election during his final campaign event, in a last-minute attempt to pull off an upset.",
-      "published": "28 Nov 2026 03:24 WIB",
-      "sentiment": "Bullish",
-      "score": 0.296,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "'Dollar Storm:' Greenback berada di Jalur Kemenangan Terpanjang Sejak 2024",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/-dollar-storm-greenback-on-track-for-longest-winning-run-since-2024",
-      "summary": "The dollar climbed toward its longest monthly winning streak in two years as a rupture in the artificial intelligence trade and rising interest rates spur demand for safe-haven assets.",
-      "published": "27 Nov 2026 06:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.786,
-      "emoji": "🟢",
       "impact": "high"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Hasil pemilu akhir Selandia Baru mengungkapkan parlemen yang digantung - www.tmgm.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdWlMZGM4Q2FnbTkxdW1Pa0Y4YWtLQVFsNlgyLUpwNk4zMXBIT2lHeWYxZDFkal9aSng5eUlVcVliSVhHaG9KS3JBLUFDZTdaWWdQZ0lyRFloV2hpUnRGMk93SzByMkd6UVJsOEVlbzduaHhRZWRxaXN6TUI1M3ZaUHJQeXhiWjlQNTNSMk5fZm81X0VYODM3bVhpbll0Y1RRVmV5QlVZNGhPc0JBZEdvNkI0clhMekdqampuWEVGcnNEUQ?oc=5",
-      "summary": "New Zealand’s final election results reveal hung parliament www.tmgm.com",
-      "published": "27 Nov 2026 09:53 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
+      "source": "Investing.com Forex",
+      "title": "Tawaran Argentina untuk menghentikan aktivitas minyak Inggris di dekat Falklands ditolak oleh pengadilan internasional",
+      "url": "https://www.investing.com/news/stock-market-news/international-court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands-5054314",
+      "summary": "",
+      "published": "28 Nov 2026 20:24 WIB",
+      "sentiment": "Bearish",
+      "score": -0.67,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
-      "source": "Google News Geopolitik",
-      "title": "Bagaimana pemotongan hasil pemilu di Spanyol dapat mempengaruhi bank-bank di negara tersebut? Oleh Investing.com - Investing.com India",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSXpJWkV0MVYtVC1LNXU2WWRxQUFnSS1mbXc1cDNTdE1IVW5na01MVENKcUdPMHRpWm1BRGtEd0c1Zk5aQTlUaGFsTTVsMU5BRmpYbndpTUxWbGVFOGQ5TXpNTE9McHViUHU2ek95MTZNX09ic2dfNGo3WGFBRFdBYVpfWGphdmJ0SVBlYUt1TTNPLWd1bEtiZ25yM2NzZGVFWUNHaW5XaFdJemV5aWVN?oc=5",
-      "summary": "How could Spain’s election cutcome affect the country’s banks? By Investing.com Investing.com India",
-      "published": "27 Nov 2026 18:37 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "medium"
+      "source": "BBC World",
+      "title": "Dua staf tewas dalam serangan Israel di klinik medis Gaza, kata MSF",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Israeli military says it targeted \"Hamas terrorists\" in the strike which has been condemned by the World Health Organization.",
+      "published": "28 Nov 2026 17:34 WIB",
+      "sentiment": "Bearish",
+      "score": -0.926,
+      "emoji": "🔴",
+      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -176,169 +132,81 @@
       "impact": "medium"
     },
     {
-      "source": "BBC World",
-      "title": "Rencana kembalinya Sheikh Hasina membuat Bangladesh gelisah dan India dalam kesulitan",
-      "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
-      "summary": "The ousted prime minister's December homecoming plan deepens Dhaka-Delhi tensions and risks fresh unrest.",
-      "published": "27 Nov 2026 07:47 WIB",
+      "source": "BBC Top Stories",
+      "title": "Eksekutif Channel 4 membela film dokumenter Huw Edwards",
+      "url": "https://www.bbc.co.uk/news/articles/c5gm3z8y0nxdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The broadcaster defends its decision to interview the disgraced ex-BBC newsreader in an upcoming documentary.",
+      "published": "28 Nov 2026 21:42 WIB",
       "sentiment": "Bearish",
-      "score": -0.521,
+      "score": -0.539,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Iran menunjuk pada peran perang Eropa setelah warga Italia tewas dalam serangan di Kuwait",
+      "url": "https://www.aljazeera.com/news/2026/11/28/iran-points-to-europes-war-role-after-italians-killed-in-kuwait-strike?traffic_source=rss",
+      "summary": "Italy and Kuwait say an Iranian drone was involved, but Tehran says the US and Israel may be looking to escalate war.",
+      "published": "28 Nov 2026 20:42 WIB",
+      "sentiment": "Bearish",
+      "score": -0.976,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Putin meluncurkan kapal selam nuklir baru",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/putin-unveils-new-nuclear-submarine?traffic_source=rss",
+      "summary": "Russian President Vladimir Putin attended the commissioning of the nuclear-powered submarine in Russia.",
+      "published": "28 Nov 2026 20:32 WIB",
+      "sentiment": "Bearish",
+      "score": -0.08,
       "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "BBC Business",
-      "title": "Faisal Islam: Mengapa tarif baru Trump tidak terlalu menimbulkan ancaman",
-      "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
-      "published": "27 Nov 2026 02:55 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
+      "source": "Al Jazeera",
+      "title": "Badai sempurna di balik wabah Ebola paling mematikan di Kongo",
+      "url": "https://www.aljazeera.com/features/longform/2026/11/28/the-perfect-storm-behind-congos-deadliest-ebola-outbreak?traffic_source=rss",
+      "summary": "Patients and health workers pay a staggering cost as war and a failing health system collide with a deadly virus.",
+      "published": "28 Nov 2026 18:27 WIB",
+      "sentiment": "Bearish",
+      "score": -0.717,
+      "emoji": "🔴",
+      "impact": "high"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Dua visi Spanyol bertabrakan ketika para pemilih mempertimbangkan rekam jejak PM Sanchez",
+      "url": "https://www.aljazeera.com/news/2026/11/28/two-visions-of-spain-collide-as-voters-weigh-sanchez-record?traffic_source=rss",
+      "summary": "Socialist PM Sanchez seeks re-election but polls suggest conservative PP and far-right Vox could reach majority.",
+      "published": "28 Nov 2026 17:36 WIB",
+      "sentiment": "Bullish",
+      "score": 0.115,
+      "emoji": "🟢",
       "impact": "medium"
     },
     {
-      "source": "BBC Business",
-      "title": "Inggris akan membayar biaya 'partisipasi' untuk mewujudkan kesepakatan UE",
-      "url": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
-      "summary": "Details of the contribution towards EU running costs have been revealed in new legal documents.",
-      "published": "27 Nov 2026 06:17 WIB",
-      "sentiment": "Netral",
-      "score": 0.026,
-      "emoji": "⚪",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Des Donnelly mengatakan ketegangan saya sebagai Selebriti 'menjadi masalah yang jauh lebih besar dari yang seharusnya'",
-      "url": "https://www.bbc.co.uk/news/articles/c65y1k8qx7q4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The co-hosts discussed tensions that flared between Mariella Frostrup and AJ Odudu on the show.",
-      "published": "27 Nov 2026 21:06 WIB",
+      "source": "MarketWatch",
+      "title": "Saham-saham teknologi ini memungkinkan Anda bermain bertahan tanpa menyerah pada AI",
+      "url": "https://www.marketwatch.com/story/these-tech-stocks-may-let-you-play-defense-without-giving-up-on-ai-523ce26d?mod=mw_rss_topstories",
+      "summary": "Amphenol, CDW, Sensata Technologies and TE Connectivity stood out when an Evercore analyst did a stress test of the hardware-related stocks he covers.",
+      "published": "28 Nov 2026 19:30 WIB",
       "sentiment": "Bearish",
-      "score": -0.612,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "'Saya tidak akan berada di sini hari ini tanpamu': Pujian siswa untuk orang yang menghentikan penyerang kereta Huntingdon",
-      "url": "https://www.bbc.co.uk/news/articles/ck792lq4xrero?at_medium=RSS&at_campaign=rss",
-      "summary": "Astrid credits Stephen Crean with saving her life during the Huntingdon train attack last year.",
-      "published": "27 Nov 2026 14:53 WIB",
-      "sentiment": "Bearish",
-      "score": -0.925,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Polisi mencari lebih dari 100 penonton pertunjukan untuk membantu penyelidikan Co-op Live",
-      "url": "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Rap fans say people were \"choking\" and \"coughing up blood\" towards the end of Don Toliver's gig.",
-      "published": "27 Nov 2026 23:40 WIB",
-      "sentiment": "Bearish",
-      "score": -0.157,
+      "score": -0.315,
       "emoji": "🔴",
       "impact": "high"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Akankah Taiwan memilih untuk menghidupkan kembali tenaga nuklir – dan mengapa hal itu penting bagi AI?",
-      "url": "https://www.aljazeera.com/news/2026/11/27/will-taiwan-vote-to-revive-nuclear-power-and-why-does-that-matter-for-ai?traffic_source=rss",
-      "summary": "Voters will decide on Saturday whether to scrap the country's 'nuclear-free homeland' policy.",
-      "published": "28 Nov 2026 06:09 WIB",
-      "sentiment": "Bullish",
-      "score": 0.361,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Militer AS mengatakan pihaknya melumpuhkan kapal dagang yang mencoba menembus blokade Iran",
-      "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
-      "summary": "The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed.",
-      "published": "28 Nov 2026 05:22 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "OpenAI membalas Apple atas rahasia dagang saat persaingan AI semakin memanas",
-      "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
-      "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition.",
-      "published": "28 Nov 2026 03:40 WIB",
+      "source": "CNBC World",
+      "title": "AS menyangkal klaim Iran atas serangan kapal USS Abraham Lincoln dan korban jiwa di Hormuz",
+      "url": "https://www.cnbc.com/2026/11/28/centcom-iran-abraham-lincoln-hormuz-tanker-claims.html",
+      "summary": "Centcom denied a claim by the head of Iran's navy that his country's forces struck the USS Abraham Lincoln aircraft carrier on the first day of the war.",
+      "published": "28 Nov 2026 21:06 WIB",
       "sentiment": "Bearish",
-      "score": -0.482,
+      "score": -0.982,
       "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Putin meluncurkan kapal selam bertenaga nuklir baru Rusia dengan senjata hipersonik",
-      "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
-      "summary": "The Kremlin plans to expand its naval fleet with five new nuclear submarines by 2030.",
-      "published": "28 Nov 2026 03:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.153,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Pelapor PBB untuk Gaza Francesca Albanese menolak masuk ke Kosta Rika",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
-      "summary": "Costa Rica has barred UN special rapporteur Francesca Albanese, citing unfounded ‘links to terrorist acts’.",
-      "published": "28 Nov 2026 03:10 WIB",
-      "sentiment": "Bearish",
-      "score": -0.71,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Meksiko mengajukan pengaduan ke AS atas petunjuk DEA terhadap tersangka pengedar narkoba",
-      "url": "https://www.aljazeera.com/news/2026/11/27/mexico-files-complaint-with-us-over-tip-line-on-alleged-drug-traffickers?traffic_source=rss",
-      "summary": "Tensions rise over DEA tip line, with Mexico emphasising respect for its sovereignty amidst growing bilateral discord.",
-      "published": "28 Nov 2026 00:58 WIB",
-      "sentiment": "Bearish",
-      "score": -0.421,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Tim penyelamat Spanyol merawat para migran saat ratusan orang tiba di Kepulauan Canary",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/spanish-rescuers-treat-migrants-as-hundreds-arrive-in-canary-islands?traffic_source=rss",
-      "summary": "Spain's Military Emergencies Unit has been sent to treat migrants brought ashore on the island of El Hierro",
-      "published": "28 Nov 2026 00:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.66,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Kyiv menawarkan gencatan senjata di Laut Hitam untuk melindungi ekspor biji-bijian",
-      "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss",
-      "summary": "The proposal comes as President Zelenskyy criticises Trump’s ‘friendship’ with Putin.",
-      "published": "28 Nov 2026 00:44 WIB",
-      "sentiment": "Bullish",
-      "score": 0.157,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "‘Perangkap beruang’: Ukraina memuji operasi baru ketika korban di Rusia meningkat",
-      "url": "https://www.aljazeera.com/news/2026/11/27/ukraine-rejects-unfavourable-compromises-as-it-frees-more-territory?traffic_source=rss",
-      "summary": "Russian assaults met with stout defence along the front as Western powers discuss ceasefire proposals.",
-      "published": "28 Nov 2026 00:13 WIB",
-      "sentiment": "Bearish",
-      "score": -0.26,
-      "emoji": "🔴",
-      "impact": "low"
+      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -350,6 +218,17 @@
       "score": 0.0,
       "emoji": "⚪",
       "impact": "medium"
+    },
+    {
+      "source": "CNBC World",
+      "title": "Miliaran dolar dipertaruhkan untuk utilitas Berkshire saat pengadilan tinggi Oregon meninjau klaim kebakaran hutan",
+      "url": "https://www.cnbc.com/2026/11/28/berkshire-utility-wildfire-claims.html",
+      "summary": "Berkshire Hathaway's PacifiCorp and attorneys for thousands of plaintiffs are welcoming a decision by Oregon's Supreme Court to widen its review of a 2023 lower court trial in which a jury awarded more than one billion in damages over four wildfires in 2020.",
+      "published": "28 Nov 2026 20:46 WIB",
+      "sentiment": "Bullish",
+      "score": 0.545,
+      "emoji": "🟢",
+      "impact": "high"
     },
     {
       "source": "CNBC World",
@@ -374,50 +253,6 @@
       "impact": "high"
     },
     {
-      "source": "CNBC World",
-      "title": "Tekanan besar terhadap aluminium: Krisis pasokan di London semakin parah seiring merosotnya stok gudang",
-      "url": "https://www.cnbc.com/2026/11/26/lme-aluminum-squeeze-supply.html",
-      "summary": "Iran war disruption has driven the historic London Metal Exchange's warehoused stock of aluminum to levels not seen in decades — forcing it to act.",
-      "published": "26 Nov 2026 21:09 WIB",
-      "sentiment": "Bearish",
-      "score": -0.398,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Ancaman kenaikan tarif AS menambah tekanan pada negara-negara mitra untuk menandatangani perjanjian perdagangan",
-      "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
-      "summary": "The U.S. planned a fresh tariff salvo on 14 trading partners, while offering some countries lower rates if they secure trade deals with Washington.",
-      "published": "26 Nov 2026 19:46 WIB",
-      "sentiment": "Bullish",
-      "score": 0.441,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Trump dan ketua NATO memperingatkan Rusia ketika serangan terhadap infrastruktur energi Ukraina semakin intensif",
-      "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
-      "summary": "Trump and NATO chief Mark Rutte urged Russia to avoid actions that could expand the war and called for a rapid peaceful resolution.",
-      "published": "26 Nov 2026 23:12 WIB",
-      "sentiment": "Bearish",
-      "score": -0.5,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "CNBC World",
-      "title": "Pembeli chip Nvidia diminta untuk mengecualikan penyewa Tiongkok untuk membeli GPU, kata sumber",
-      "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
-      "summary": "A new BIS rule was intended to close \"loopholes,\" U.S. Trade Representative Jamieson Greer told CNBC's \"Squawk Box\" on Wednesday.",
-      "published": "27 Nov 2026 00:04 WIB",
-      "sentiment": "Netral",
-      "score": 0.0,
-      "emoji": "⚪",
-      "impact": "low"
-    },
-    {
       "source": "CNBC Markets",
       "title": "Bahkan harga mainan pun sedang naik daun. Bagaimana masyarakat Amerika mengurangi rencana liburannya",
       "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
@@ -430,7 +265,7 @@
     },
     {
       "source": "CNBC Markets",
-      "title": "‘Siap menghadapi badai apa pun’: Menteri UEA optimis terhadap perekonomian karena IMF menaikkan perkiraan",
+      "title": "‘Siap menghadapi badai apa pun’: Menteri UEA optimis terhadap perekonomian karena IMF menaikkan perkiraannya",
       "url": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
       "summary": "The UAE is optimistic about achieving 7%-8% economic growth next year, banking on a \"different\" economic model.",
       "published": "27 Nov 2026 15:47 WIB",
