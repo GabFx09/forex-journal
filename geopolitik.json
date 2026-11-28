@@ -1,5 +1,5 @@
 {
-  "generated": "27 Nov 2026 22:02 WIB",
+  "generated": "28 Nov 2026 07:03 WIB",
   "risk_level": "TINGGI",
   "risk_color": "#ef4444",
   "risk_emoji": "🔴",
@@ -7,44 +7,44 @@
     {
       "pair": "USD/JPY",
       "direction": "Tekanan Turun ▼",
-      "score": -0.412,
-      "count": 16
+      "score": -0.222,
+      "count": 18
     },
     {
       "pair": "XAU/USD",
       "direction": "Tekanan Turun ▼",
-      "score": -0.412,
-      "count": 16
+      "score": -0.192,
+      "count": 18
     },
     {
       "pair": "USD/CHF",
       "direction": "Tekanan Turun ▼",
-      "score": -0.399,
-      "count": 15
+      "score": -0.124,
+      "count": 11
     },
     {
       "pair": "EUR/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.179,
+      "direction": "Tekanan Naik ▲",
+      "score": 0.113,
       "count": 10
     },
     {
+      "pair": "GBP/USD",
+      "direction": "Tekanan Naik ▲",
+      "score": 0.291,
+      "count": 6
+    },
+    {
       "pair": "AUD/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.096,
-      "count": 5
+      "direction": "Tekanan Naik ▲",
+      "score": 0.221,
+      "count": 2
     },
     {
       "pair": "USD/CNY",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.096,
-      "count": 5
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "Tekanan Turun ▼",
-      "score": -0.078,
-      "count": 4
+      "direction": "Tekanan Naik ▲",
+      "score": 0.221,
+      "count": 2
     },
     {
       "pair": "CAD/JPY",
@@ -54,6 +54,17 @@
     }
   ],
   "items": [
+    {
+      "source": "ForexLive",
+      "title": "EWZ Brazil naik 13% karena Lula menyerahkan kementerian keuangan kepada seorang bankir",
+      "url": "https://investinglive.com/stocks/brazil-s-ewz-up-13-as-lula-hands-the-finance-ministry-to-a-banker/",
+      "summary": "Markets are pricing a Brazil without a fiscal crisis The iShares MSCI Brazil ETF is up 13% in premarket trading after Lula named Bradesco chairman Luiz Carlos Trabuco Cappi as his finance minister for the term starting in January. After Lula's surprise win in October, USD/BRL rose above 6.00 and was",
+      "published": "27 Nov 2026 21:15 WIB",
+      "sentiment": "Bullish",
+      "score": 0.732,
+      "emoji": "🟢",
+      "impact": "high"
+    },
     {
       "source": "ForexLive",
       "title": "Minyak mentah melanjutkan pemulihannya seiring meredanya kekhawatiran pertumbuhan dan ketegangan AS-Iran memberikan dukungan",
@@ -66,103 +77,59 @@
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "AS dilaporkan mendesak Venezuela dan Irak untuk mempertimbangkan keluar dari OPEC awal tahun ini",
-      "url": "https://investinglive.com/news/us-reportedly-urged-venezuela-iraq-to-consider-quitting-opec-earlier-this-year/",
-      "summary": "US president Trump has never been much of a fan of OPEC. And as it would seem, he'd quite like a few of its members to feel the same way. In an exclusive report by Reuters today, the US administration is said to have encouraged Venezuela and Iraq to contemplate leaving OPEC earlier this year. Washin",
-      "published": "27 Nov 2026 14:18 WIB",
-      "sentiment": "Bullish",
-      "score": 0.718,
-      "emoji": "🟢",
+      "source": "Bloomberg Markets",
+      "title": "Outlook Kredit Hongaria Diangkat oleh S&P pada Anggaran dan Ambisi Euro",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/hungary-credit-outlook-lifted-by-s-p-on-budget-and-euro-ambition",
+      "summary": "S&P Global Ratings lifted the outlook on Hungary’s sovereign debt to stable from negative, citing planned steps by Prime Minister Peter Magyar’s cabinet to cut the budget deficit and eventually adopt the euro.",
+      "published": "28 Nov 2026 04:19 WIB",
+      "sentiment": "Bearish",
+      "score": -0.796,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
-      "source": "ForexLive",
-      "title": "Opsi FX kedaluwarsa pada 27 November 10 pagi pemotongan New York",
-      "url": "https://investinglive.com/orders/fx-option-expiries-for-27-november-10am-new-york-cut/",
-      "summary": "There is arguably just one key expiry level to take note of on the day, as highlighted in bold below. That being for AUD/USD at the 0.6700 level, with the strike sitting just roughly 30 pips from the spot price. The dollar had been keeping firmer during the past week while the aussie languished amid",
-      "published": "27 Nov 2026 13:15 WIB",
-      "sentiment": "Bearish",
-      "score": -0.772,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
       "source": "Bloomberg Markets",
-      "title": "Polandia Memperingatkan Banjir Utang Teknologi Sebelum Penjualan Eurobond 2027",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/poland-warns-on-tech-debt-flood-before-2027-eurobond-sales",
-      "summary": "Poland is planning to tap international markets in early 2027 even as it warned of a flood of corporate borrowing clamoring for investor attention.",
-      "published": "27 Nov 2026 20:36 WIB",
-      "sentiment": "Bearish",
-      "score": -0.692,
-      "emoji": "🔴",
-      "impact": "high"
+      "title": "Real Brasil Caps Pekan Terbaik Sejak 2020 Saat Trabuco Mengangkat Suasana Hati",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister",
+      "summary": "Brazilian markets rallied after President Luiz Inácio Lula da Silva picked one of the nation’s most prominent bankers to be his finance minister, easing the worries about his economic policies that triggered a deep selloff after his surprise re-election last month.",
+      "published": "27 Nov 2026 08:08 WIB",
+      "sentiment": "Bullish",
+      "score": 0.716,
+      "emoji": "🟢",
+      "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
       "title": "Berita dan Analisis Pasar Minyak Terbaru untuk 27 November",
       "url": "https://www.bloomberg.com/news/articles/2026-11-26/latest-oil-market-news-and-analysis-for-nov-27",
-      "summary": "Oil headed for its first weekly gain this month, as escalating attacks on energy infrastructure and tankers in the Middle East raised concerns about disruptions to supply.",
+      "summary": "Oil swung in thin trading as increasing attacks on energy infrastructure and tankers in the Middle East heightened supply fears.",
       "published": "27 Nov 2026 06:05 WIB",
-      "sentiment": "Bullish",
-      "score": 0.052,
-      "emoji": "🟢",
+      "sentiment": "Bearish",
+      "score": -0.717,
+      "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ofwat Memperingatkan Keputusan Penyelamatan Air Thames Masih Tinggal Beberapa Bulan Lagi",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/ofwat-warns-thames-water-rescue-decision-remains-months-away",
-      "summary": "The UK’s water regulator has warned it is still months away from making a decision on whether to approve a rescue of Thames Water by its creditors.",
-      "published": "27 Nov 2026 19:47 WIB",
+      "title": "Sánchez Berusaha Menang dengan Permohonan agar Warga Spanyol Memilih",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote",
+      "summary": "Pedro Sánchez rallied voters to turn out in Sunday’s national election during his final campaign event, in a last-minute attempt to pull off an upset.",
+      "published": "28 Nov 2026 03:24 WIB",
       "sentiment": "Bullish",
-      "score": 0.545,
+      "score": 0.296,
       "emoji": "🟢",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Tawaran Allfunds senilai €5,3 miliar dari Deutsche Boerse mendapat persetujuan UE",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/deutsche-boerse-s-5-3-billion-allfunds-deal-gets-eu-approval",
-      "summary": "Deutsche Boerse AG’s €5.3 billion ($5.8 billion) deal for Allfunds Group Plc has won European Union unconditional approval, paving the way for the largest acquisition in the German exchange operator’s history.",
-      "published": "27 Nov 2026 18:30 WIB",
+      "title": "'Dollar Storm:' Greenback berada di Jalur Kemenangan Terpanjang Sejak 2024",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/-dollar-storm-greenback-on-track-for-longest-winning-run-since-2024",
+      "summary": "The dollar climbed toward its longest monthly winning streak in two years as a rupture in the artificial intelligence trade and rising interest rates spur demand for safe-haven assets.",
+      "published": "27 Nov 2026 06:44 WIB",
       "sentiment": "Bullish",
-      "score": 0.952,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Rupee Melemah ke 92,44 vs USD pada Minyak, Kekhawatiran Tarif AS - Rediff MoneyWiz",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVTFjVGRqZHlOS1NacFBobDYzWkVCZ0xyVzZKeFhRcjdvNXJwMnlMdVdILUdMNC1DU3pnbndESkMxMmJ4UDh3UE1tcnA2ZFB1b2R2amtaYzZobjlJNXlhQ3FZTzhqaThLd2ptd0c5ZzdEM3dwTnpzZDFiMnhxSy1vc0Vyb0RTT3JQTXozMXJHd2dlRGtxal9sQVloVnNjb0VMaVNuZ0FtZ190RjQ40gGsAUFVX3lxTFBVMWNUZGpkeU5LU1pwUGhsNjNaRUJnTHJXNkp4WFFyN281cnAyeUx1V0gtR0w0LUNTemdud0RKQzEyYnhQOHdQTW1ycDZkUHVvZHZqa1pjNmhuOUk1eWFDcVlPOGppOEt3am13RzlnN0Qzd3BOenNkMWIyeHFLLW9zRXJvRFNPclBNejMxckd3Z2VEa3FqX2xBWWhWc2NvRUxpU25nQW1nX3RGNDg?oc=5",
-      "summary": "Rupee Weakens to 92.44 vs USD on Oil, US Tariff Fears Rediff MoneyWiz",
-      "published": "26 Nov 2026 17:21 WIB",
-      "sentiment": "Bearish",
-      "score": -0.705,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Peningkatan Dolar BDC sebesar $1 juta: Para Ahli Menandai Belanja Pemilu, Memperingatkan Kebijakan Mungkin Membuka Kembali Pintu Banjir Impor - The Whistler Newspaper",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVlBWM1BEMFJoVmV1Wm9QRlRwaXRTd0w5N0dkNDBSU0w2S1ZPUkhqVExnVkxsdGx3dXBoNVAzREFfRi16RDZ4aDBjVzVqSVdqZ0pHSmQ5X1FOZi04Y2JNcDI2al8yUmxTN0pUcFVOVl9ueW5tc25ETUhJNjVuenFnendndm5EMzZvb0hVbUJVeEUtejZrSFd5UVhqYmRFUDB0UkhCMDctcVZOZFdocWRTSzZsRTMzUQ?oc=5",
-      "summary": "BDC $1m Dollar Boost: Experts Flag Election Spending, Warn Policy May Reopen Import Floodgates The Whistler Newspaper",
-      "published": "26 Nov 2026 12:05 WIB",
-      "sentiment": "Bullish",
-      "score": 0.238,
+      "score": 0.786,
       "emoji": "🟢",
       "impact": "high"
-    },
-    {
-      "source": "Google News Geopolitik",
-      "title": "Franc Swiss menjauh dari puncak dua minggu karena USD menguat karena taruhan Fed dan risiko geopolitik - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNamJOTFZvLVJfZ2FKQTZzTWxwQzV5SkpSQ0ZuV0VXeGExZVhWVDRJejFQbERtdmlIUmtXWXhZbGhhRlRVeXg3RDZqMVdoSHFKemt3Szk0Zi0tLU9ENGx5WWRaODBZZm9RZFRkNS15eG1rSmRzeXFDbUg5V0dBeW0yVHpkNEp1ckZMUUlvaWxjc1lVMDF3SDR3Nndjd0Z4Q3R3ZFI4b01BLXVKLTNzYjRkSUtJdmpQZDJhUk95WGhGenlsQVpaSWlJ?oc=5",
-      "summary": "Swiss Francs moves away from two-week top as USD firms on Fed bets, geopolitical risks FXStreet",
-      "published": "26 Nov 2026 16:02 WIB",
-      "sentiment": "Bearish",
-      "score": -0.233,
-      "emoji": "🔴",
-      "impact": "medium"
     },
     {
       "source": "Google News Geopolitik",
@@ -176,48 +143,26 @@
       "impact": "medium"
     },
     {
+      "source": "Google News Geopolitik",
+      "title": "Bagaimana pemotongan hasil pemilu di Spanyol dapat mempengaruhi bank-bank di negara tersebut? Oleh Investing.com - Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSXpJWkV0MVYtVC1LNXU2WWRxQUFnSS1mbXc1cDNTdE1IVW5na01MVENKcUdPMHRpWm1BRGtEd0c1Zk5aQTlUaGFsTTVsMU5BRmpYbndpTUxWbGVFOGQ5TXpNTE9McHViUHU2ek95MTZNX09ic2dfNGo3WGFBRFdBYVpfWGphdmJ0SVBlYUt1TTNPLWd1bEtiZ25yM2NzZGVFWUNHaW5XaFdJemV5aWVN?oc=5",
+      "summary": "How could Spain’s election cutcome affect the country’s banks? By Investing.com Investing.com India",
+      "published": "27 Nov 2026 18:37 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "medium"
+    },
+    {
       "source": "BBC World",
       "title": "Zelensky mengkritik persahabatan Trump-Putin yang 'aneh' dalam wawancara BBC",
       "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
       "summary": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war.",
-      "published": "27 Nov 2026 16:07 WIB",
+      "published": "28 Nov 2026 01:00 WIB",
       "sentiment": "Bearish",
       "score": -0.607,
       "emoji": "🔴",
       "impact": "high"
-    },
-    {
-      "source": "BBC World",
-      "title": "Uganda akan menarik pasukan dari kota di Kongo di tengah pertikaian diplomatik",
-      "url": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Ugandan army is helping the Congolese military fight an Islamist militant group in the east of the country.",
-      "published": "27 Nov 2026 17:39 WIB",
-      "sentiment": "Bearish",
-      "score": -0.103,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Para pemimpin militer Guinea-Bissau menunda kembalinya pemerintahan sipil hingga tahun 2028",
-      "url": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&at_campaign=rss",
-      "summary": "The announcement comes a year after a military coup with its leaders promising a return to civilian rule within 12 months.",
-      "published": "27 Nov 2026 15:58 WIB",
-      "sentiment": "Bullish",
-      "score": 0.103,
-      "emoji": "🟢",
-      "impact": "low"
-    },
-    {
-      "source": "BBC World",
-      "title": "Politik dan mengintip-a-boo di parlemen Australia ketika senator membawa bayi ke tempat kerja",
-      "url": "https://www.bbc.co.uk/news/videos/cmvg23djw8v9o?at_medium=RSS&at_campaign=rss",
-      "summary": "Senator Lidia Thorpe kept 6-month-old Aaliyah entertained, as her mum Senator Fatima Payman, participated in an online safety bill debate.",
-      "published": "26 Nov 2026 16:49 WIB",
-      "sentiment": "Bullish",
-      "score": 0.67,
-      "emoji": "🟢",
-      "impact": "low"
     },
     {
       "source": "BBC World",
@@ -231,14 +176,25 @@
       "impact": "medium"
     },
     {
+      "source": "BBC World",
+      "title": "Rencana kembalinya Sheikh Hasina membuat Bangladesh gelisah dan India dalam kesulitan",
+      "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
+      "summary": "The ousted prime minister's December homecoming plan deepens Dhaka-Delhi tensions and risks fresh unrest.",
+      "published": "27 Nov 2026 07:47 WIB",
+      "sentiment": "Bearish",
+      "score": -0.521,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
       "source": "BBC Business",
       "title": "Faisal Islam: Mengapa tarif baru Trump tidak terlalu menimbulkan ancaman",
       "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
       "summary": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
       "published": "27 Nov 2026 02:55 WIB",
-      "sentiment": "Bearish",
-      "score": -0.483,
-      "emoji": "🔴",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
       "impact": "medium"
     },
     {
@@ -254,6 +210,17 @@
     },
     {
       "source": "BBC Top Stories",
+      "title": "Des Donnelly mengatakan ketegangan saya sebagai Selebriti 'menjadi masalah yang jauh lebih besar dari yang seharusnya'",
+      "url": "https://www.bbc.co.uk/news/articles/c65y1k8qx7q4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The co-hosts discussed tensions that flared between Mariella Frostrup and AJ Odudu on the show.",
+      "published": "27 Nov 2026 21:06 WIB",
+      "sentiment": "Bearish",
+      "score": -0.612,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "BBC Top Stories",
       "title": "'Saya tidak akan berada di sini hari ini tanpamu': Pujian siswa untuk orang yang menghentikan penyerang kereta Huntingdon",
       "url": "https://www.bbc.co.uk/news/articles/ck792lq4xrero?at_medium=RSS&at_campaign=rss",
       "summary": "Astrid credits Stephen Crean with saving her life during the Huntingdon train attack last year.",
@@ -265,139 +232,117 @@
     },
     {
       "source": "BBC Top Stories",
-      "title": "Saksikan: Siswa menggambarkan momen penumpang 'melemparkan dirinya' ke arah penyerang dan menyelamatkan nyawanya",
-      "url": "https://www.bbc.co.uk/news/videos/cqzr566llz4no?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC's Lucy Manning spoke to Astrid and Stephen after the verdicts, as they met for the first time since the attack.",
-      "published": "27 Nov 2026 13:50 WIB",
+      "title": "Polisi mencari lebih dari 100 penonton pertunjukan untuk membantu penyelidikan Co-op Live",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Rap fans say people were \"choking\" and \"coughing up blood\" towards the end of Don Toliver's gig.",
+      "published": "27 Nov 2026 23:40 WIB",
       "sentiment": "Bearish",
-      "score": -0.652,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Bertemu Polisi menghancurkan hidup saya, kata pria Kenya yang dihukum secara keliru atas penyerangan terhadap pasangan Inggris",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Evidence from a British police officer helped convict Ali Kololo over a 2011 attack in the Kenyan resort of Lamu.",
-      "published": "27 Nov 2026 07:48 WIB",
-      "sentiment": "Bearish",
-      "score": -0.932,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "'Kami tidak tertarik untuk mendengar kabar dari Huw Edwards', kata Downing Street",
-      "url": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do?at_medium=RSS&at_campaign=rss",
-      "summary": "There has been a backlash against new interviews with the disgraced former BBC News presenter.",
-      "published": "27 Nov 2026 21:33 WIB",
-      "sentiment": "Bearish",
-      "score": -0.668,
-      "emoji": "🔴",
-      "impact": "high"
-    },
-    {
-      "source": "BBC Top Stories",
-      "title": "Des Donnelly mengatakan ketegangan saya sebagai Selebriti 'menjadi masalah yang jauh lebih besar dari yang seharusnya'",
-      "url": "https://www.bbc.co.uk/news/articles/c65y1k8qx7q4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The co-hosts discussed tensions that flared between Mariella Frostrup and AJ Odudu on the show.",
-      "published": "27 Nov 2026 21:06 WIB",
-      "sentiment": "Bearish",
-      "score": -0.612,
-      "emoji": "🔴",
-      "impact": "low"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Mengapa Israel merayakan larangan Kosta Rika terhadap Francesca Albanese?",
-      "url": "https://www.aljazeera.com/news/2026/11/27/why-is-israel-celebrating-costa-ricas-ban-on-francesca-albanese?traffic_source=rss",
-      "summary": "Costa Rica is under pressure over its decision to bar the UN expert who has documented Israel's genocidal war on Gaza.",
-      "published": "27 Nov 2026 21:17 WIB",
-      "sentiment": "Bearish",
-      "score": -0.798,
+      "score": -0.157,
       "emoji": "🔴",
       "impact": "high"
     },
     {
       "source": "Al Jazeera",
-      "title": "Eisenkot menghadapi situasi sulit saat ia menguji pembagian kekuasaan dengan Netanyahu",
-      "url": "https://www.aljazeera.com/news/2026/11/27/eisenkot-navigates-tricky-waters-as-he-tests-power-sharing-with-netanyahu?traffic_source=rss",
-      "summary": "Some of his allies are calling for such an arrangement, but it would represent a betrayal of his pre-election promise.",
-      "published": "27 Nov 2026 20:28 WIB",
-      "sentiment": "Bearish",
-      "score": -0.55,
-      "emoji": "🔴",
-      "impact": "medium"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Trump merangkul Xi, lalu mengenakan tarif baru terhadap Tiongkok: Apa rencana permainannya?",
-      "url": "https://www.aljazeera.com/features/2026/11/27/trump-embraced-xi-then-slapped-new-tariffs-on-china-whats-his-game-plan?traffic_source=rss",
-      "summary": "US president's new tariff regime targets China hardest, just weeks before Trump and Xi meet again in Miami.",
-      "published": "27 Nov 2026 19:48 WIB",
+      "title": "Akankah Taiwan memilih untuk menghidupkan kembali tenaga nuklir – dan mengapa hal itu penting bagi AI?",
+      "url": "https://www.aljazeera.com/news/2026/11/27/will-taiwan-vote-to-revive-nuclear-power-and-why-does-that-matter-for-ai?traffic_source=rss",
+      "summary": "Voters will decide on Saturday whether to scrap the country's 'nuclear-free homeland' policy.",
+      "published": "28 Nov 2026 06:09 WIB",
       "sentiment": "Bullish",
-      "score": 0.08,
+      "score": 0.361,
       "emoji": "🟢",
-      "impact": "medium"
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Serangan Saudi membunuh ’11 warga sipil’ di Taiz Yaman: media Houthi",
-      "url": "https://www.aljazeera.com/news/2026/11/27/saudi-strike-kills-11-civilians-in-yemens-taiz-houthi-media?traffic_source=rss",
-      "summary": "Hostilities between Iran-backed Houthis and Saudi-backed coalition continue to push Yemen into a humanitarian crisis.",
-      "published": "27 Nov 2026 19:00 WIB",
+      "title": "Militer AS mengatakan pihaknya melumpuhkan kapal dagang yang mencoba menembus blokade Iran",
+      "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+      "summary": "The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed.",
+      "published": "28 Nov 2026 05:22 WIB",
+      "sentiment": "Netral",
+      "score": 0.0,
+      "emoji": "⚪",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "OpenAI membalas Apple atas rahasia dagang saat persaingan AI semakin memanas",
+      "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
+      "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition.",
+      "published": "28 Nov 2026 03:40 WIB",
       "sentiment": "Bearish",
-      "score": -0.984,
+      "score": -0.482,
       "emoji": "🔴",
       "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Warga Italia yang terbunuh di Kuwait: Mengapa Iran menolak bertanggung jawab?",
-      "url": "https://www.aljazeera.com/news/2026/11/27/italians-killed-in-kuwait-why-is-iran-denying-responsibility?traffic_source=rss",
-      "summary": "Iran has openly claimed its strikes on Gulf states throughout the war. So why is it denying an attack on Kuwait?",
-      "published": "27 Nov 2026 18:51 WIB",
+      "title": "Putin meluncurkan kapal selam bertenaga nuklir baru Rusia dengan senjata hipersonik",
+      "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
+      "summary": "The Kremlin plans to expand its naval fleet with five new nuclear submarines by 2030.",
+      "published": "28 Nov 2026 03:39 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.153,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Perang hibrida Rusia terhadap Eropa terus berkembang, namun gagal: IISS",
-      "url": "https://www.aljazeera.com/news/2026/11/27/russias-hybrid-war-on-europe-evolving-but-failing-iiss?traffic_source=rss",
-      "summary": "Growing attacks have damaged European infrastructure, but have not reduced support for Ukraine, analysis says.",
-      "published": "27 Nov 2026 18:44 WIB",
+      "title": "Pelapor PBB untuk Gaza Francesca Albanese menolak masuk ke Kosta Rika",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
+      "summary": "Costa Rica has barred UN special rapporteur Francesca Albanese, citing unfounded ‘links to terrorist acts’.",
+      "published": "28 Nov 2026 03:10 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.71,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Apa arti pemilu Spanyol bagi Maroko",
-      "url": "https://www.aljazeera.com/opinions/2026/11/27/what-spains-election-means-for-morocco?traffic_source=rss",
-      "summary": "The vote could reshape diplomatic relations, but shared strategic interests will continue to bind the two countries.",
-      "published": "27 Nov 2026 18:33 WIB",
+      "title": "Meksiko mengajukan pengaduan ke AS atas petunjuk DEA terhadap tersangka pengedar narkoba",
+      "url": "https://www.aljazeera.com/news/2026/11/27/mexico-files-complaint-with-us-over-tip-line-on-alleged-drug-traffickers?traffic_source=rss",
+      "summary": "Tensions rise over DEA tip line, with Mexico emphasising respect for its sovereignty amidst growing bilateral discord.",
+      "published": "28 Nov 2026 00:58 WIB",
+      "sentiment": "Bearish",
+      "score": -0.421,
+      "emoji": "🔴",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Tim penyelamat Spanyol merawat para migran saat ratusan orang tiba di Kepulauan Canary",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/spanish-rescuers-treat-migrants-as-hundreds-arrive-in-canary-islands?traffic_source=rss",
+      "summary": "Spain's Military Emergencies Unit has been sent to treat migrants brought ashore on the island of El Hierro",
+      "published": "28 Nov 2026 00:44 WIB",
       "sentiment": "Bullish",
-      "score": 0.681,
+      "score": 0.66,
       "emoji": "🟢",
-      "impact": "medium"
+      "impact": "low"
     },
     {
       "source": "Al Jazeera",
-      "title": "Australia memberikan sanksi kepada tersangka serangan anti-Semit terkait Iran",
-      "url": "https://www.aljazeera.com/news/2026/11/27/australia-sanctions-suspects-in-iran-linked-anti-semitic-attacks?traffic_source=rss",
-      "summary": "Sanctions aim to restrict funds for two men alleged to have planned attacks for IRGC.",
-      "published": "27 Nov 2026 17:31 WIB",
+      "title": "Kyiv menawarkan gencatan senjata di Laut Hitam untuk melindungi ekspor biji-bijian",
+      "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss",
+      "summary": "The proposal comes as President Zelenskyy criticises Trump’s ‘friendship’ with Putin.",
+      "published": "28 Nov 2026 00:44 WIB",
+      "sentiment": "Bullish",
+      "score": 0.157,
+      "emoji": "🟢",
+      "impact": "low"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘Perangkap beruang’: Ukraina memuji operasi baru ketika korban di Rusia meningkat",
+      "url": "https://www.aljazeera.com/news/2026/11/27/ukraine-rejects-unfavourable-compromises-as-it-frees-more-territory?traffic_source=rss",
+      "summary": "Russian assaults met with stout defence along the front as Western powers discuss ceasefire proposals.",
+      "published": "28 Nov 2026 00:13 WIB",
       "sentiment": "Bearish",
-      "score": -1.0,
+      "score": -0.26,
       "emoji": "🔴",
-      "impact": "high"
+      "impact": "low"
     },
     {
       "source": "CNBC World",
-      "title": "Terpilihnya Spanyol bisa mendekatkan Madrid ke Washington di bawah pemerintahan Trump",
+      "title": "Terpilihnya Spanyol bisa mendekatkan Madrid ke Washington yang dipimpin Trump",
       "url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
       "summary": "Spanish voters head to the polls on Sunday for a snap election that could bring socialist Prime Minister Pedro Sánchez's eight years in power to an end.",
       "published": "27 Nov 2026 20:00 WIB",
@@ -445,9 +390,9 @@
       "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
       "summary": "The U.S. planned a fresh tariff salvo on 14 trading partners, while offering some countries lower rates if they secure trade deals with Washington.",
       "published": "26 Nov 2026 19:46 WIB",
-      "sentiment": "Bearish",
-      "score": -0.281,
-      "emoji": "🔴",
+      "sentiment": "Bullish",
+      "score": 0.441,
+      "emoji": "🟢",
       "impact": "medium"
     },
     {
@@ -463,17 +408,6 @@
     },
     {
       "source": "CNBC World",
-      "title": "Bagaimana kebijakan tarif terbaru Trump memberi India keunggulan dibandingkan eksportir pesaingnya di Asia",
-      "url": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html",
-      "summary": "Proposed tariffs of 18% on Bangladesh, Cambodia, Thailand, and 20% on China and Vietnam, subject to their respective trade deals, offer India a competitive advantage.",
-      "published": "26 Nov 2026 11:12 WIB",
-      "sentiment": "Bullish",
-      "score": 0.907,
-      "emoji": "🟢",
-      "impact": "medium"
-    },
-    {
-      "source": "CNBC World",
       "title": "Pembeli chip Nvidia diminta untuk mengecualikan penyewa Tiongkok untuk membeli GPU, kata sumber",
       "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
       "summary": "A new BIS rule was intended to close \"loopholes,\" U.S. Trade Representative Jamieson Greer told CNBC's \"Squawk Box\" on Wednesday.",
@@ -485,12 +419,23 @@
     },
     {
       "source": "CNBC Markets",
-      "title": "‘Siap menghadapi badai apa pun’: Menteri UEA optimis terhadap perekonomian karena IMF menaikkan perkiraannya",
+      "title": "Bahkan harga mainan pun sedang naik daun. Bagaimana masyarakat Amerika mengurangi rencana liburannya",
+      "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+      "summary": "U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.",
+      "published": "28 Nov 2026 04:45 WIB",
+      "sentiment": "Bullish",
+      "score": 0.36,
+      "emoji": "🟢",
+      "impact": "high"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "‘Siap menghadapi badai apa pun’: Menteri UEA optimis terhadap perekonomian karena IMF menaikkan perkiraan",
       "url": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
       "summary": "The UAE is optimistic about achieving 7%-8% economic growth next year, banking on a \"different\" economic model.",
       "published": "27 Nov 2026 15:47 WIB",
       "sentiment": "Bullish",
-      "score": 0.815,
+      "score": 0.679,
       "emoji": "🟢",
       "impact": "low"
     }
